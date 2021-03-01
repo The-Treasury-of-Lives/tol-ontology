@@ -65,8 +65,7 @@ tolo:GenealogicalGrouping
 	skos:definition "A social unit consisting of people with a common ancestor."@en ;
 	skos:editorialNote
 		"Are there other terms included besides family and clan?"@en ,
-		"Improve definition to include adoption."^^xsd:string ,
-		"This needs to be a subclass of some kind of Collection."@en
+		"Improve definition to include adoption."^^xsd:string
 		;
 	skos:example "Nuclear family, extended family, clan."@en ;
 	skos:prefLabel "Genealogical grouping"@en ;
@@ -79,7 +78,6 @@ tolo:GenealogicalGrouping
 tolo:Location
 	a owl:Class ;
 	skos:definition "A real, fictional, or imaginary place."@en ;
-	skos:editorialNote "I'm thinking we probably also need to include fictional/imaginary places here. Check."@en ;
 	skos:prefLabel "Location"@en ;
 	.
 
@@ -87,7 +85,7 @@ tolo:Marriage
 	a owl:Class ;
 	rdfs:subClassOf tolo:TemporalRelation ;
 	rdfs:domain tolo:Person ;
-	skos:definition "A human being, alive, dead, imaginary, or fictional."@en ;
+	skos:definition ""@en ;
 	skos:prefLabel "Marriage"@en ;
 	.
 
@@ -115,9 +113,9 @@ tolo:TemporalRelation
 		;
 	skos:definition "A time-delimited relationship between two or more things."@en ;
 	skos:example
+		"A marriage"@en ,
 		"A teacher-student relationship."@en ,
-		"An employment relationship between employer and employee."@en ,
-		"Marriage"@en
+		"An employment relationship between employer and employee."@en
 		;
 	skos:prefLabel "Temporal relation"@en ;
 	skos:scopeNote "This class is used to materialize a relationship in order to make other assertions about it, such as start and end datetimes, location, and so on. Start and end dates/times may not be known or specified, but the relationship is in theory time-bound."@en ;
@@ -185,7 +183,7 @@ tolo:hasChild
 tolo:hasGender
 	a owl:ObjectProperty ;
 	rdfs:range tolo:Gender ;
-	skos:definition ""^^xsd:integer ;
+	skos:definition ""^^xsd:string ;
 	skos:prefLabel "has gender"@en ;
 	.
 
@@ -207,15 +205,6 @@ tolo:hasGrandmother
 	skos:definition "Relates a person to the mother of one of his/her parents."@en ;
 	skos:prefLabel "has grandmother"@en ;
 	skos:scopeNote "In this version we are not distinguishing biological, adoptive, half, and step relationships."@en ;
-	.
-
-tolo:hasMember
-	a owl:ObjectProperty ;
-	owl:inverseOf tolo:isMemberOf ;
-	skos:definition "The relationship between a thing and another thing that is a member of it."@en ;
-	skos:example "A genealogical grouping has smaller genealogical groupings and individual persons as members."@en ;
-	skos:prefLabel "is member of"@en ;
-	skos:scopeNote "This is a specific partitive predicate designed to avoid the ambiguities of a general 'hasPart' predicate."@en ;
 	.
 
 tolo:hasNephew

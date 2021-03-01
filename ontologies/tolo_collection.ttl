@@ -56,10 +56,7 @@ tolo:OrderedCollection
 		) ;
 	] ;
 	skos:definition "A collection in which resources are ordered into a sequence."@en ;
-	skos:editorialNote
-		""^^xsd:integer ,
-		"TODO We could formalize this by stating every proxy has index 1, and/or at least one previous, and/or at least one next. Note that because there can be proxies with the same rank, there could be more than one previous or more than one next."^^xsd:string
-		;
+	skos:editorialNote "TODO We could formalize this by stating every proxy has index 1, and/or at least one previous, and/or at least one next. Note that because there can be proxies with the same rank, there could be more than one previous or more than one next."^^xsd:string ;
 	skos:prefLabel "Ordered collection"@en ;
 	skos:scopeNote "The items in an OrderedCollection are not fixed over time but may be reordered."@en ;
 	.
