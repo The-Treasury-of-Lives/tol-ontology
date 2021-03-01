@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema 
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+  elementFormDefault="qualified"          
+  attributeFormDefault="unqualified"
+  targetNamespace="https://datatypes.treasuryoflives.org/tolo/">
+
+  <xs:simpleType name="tolTransliteration">
+    <xs:annotation>
+      <xs:documentation>Datatype for ToL custom Tibetan transliterations.</xs:documentation>      
+    </xs:annotation>    
+    <xs:restriction base="xs:string">
+        <xs:pattern value="" />
+        <xs:whiteSpace value="preserve"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+    <xs:simpleType name="wyliex">
+    <xs:annotation>
+      <xs:documentation>Datatype for Extended Wylie Tibetan transliterations..</xs:documentation>      
+    </xs:annotation>    
+    <xs:restriction base="xs:string">
+        <xs:pattern value=""/>
+        <xs:whiteSpace value="preserve"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

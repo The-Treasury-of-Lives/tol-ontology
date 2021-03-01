@@ -1,0 +1,301 @@
+# imports: https://ontologies.treasuryoflives/tolo/collection/1.0.0
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tolo: <https://ontologies.treasuryoflives/tolo/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+tolo:core
+	a owl:Ontology ;
+	dct:license "TBD"^^xsd:string ;
+	vann:preferredNamespacePrefix "tolo"^^xsd:string ;
+	owl:imports <https://ontologies.treasuryoflives/tolo/collection/1.0.0> ;
+	owl:versionIRI <https://ontologies.treasuryoflives/tolo/core/1.0.0> ;
+	skos:definition "The Treasury of Lives Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives to publish and share its data as Linked Open Data, as well as to supplement the textual biographies on its website at https://treasuryoflives.org."@en ;
+	skos:editoralNote
+		"Combining all terms into one module for now; maybe break up into separate modules later."@en ,
+		"Figure out issues of namespacing, ontology IRI, and versioning."@en
+		;
+	skos:prefLabel "Treasury of Lives Core Ontology"@en ;
+	.
+
+tolo:Category
+	a owl:Class ;
+	rdfs:subClassOf skos:Concept ;
+	skos:definition "A type of concept used to categorize things."@en ;
+	skos:editorialNote "Consider whether we want to use just skos:Concept directly."@en ;
+	skos:example "Male and female are categories of Gender."@en ;
+	skos:prefLabel "Category"@en ;
+	skos:scopeNote "A category is typically a term in a controlled vocabulary. This class can be subclassed for specific vocabularies; e.g., gender is a type of category."@en ;
+	.
+
+tolo:Gender
+	rdfs:subClassOf tolo:Category ;
+	skos:definition "Defines gender categories."@en ;
+	skos:example "Male, female."@en ;
+	skos:prefLabel "Gender"@en ;
+	.
+
+tolo:GenealogicalGrouping
+	a owl:Class ;
+	rdfs:subClassOf
+		tolo:Collection ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tolo:isMemberOf ;
+			owl:allValuesFrom [
+				owl:unionOf (
+					tolo:Person
+					tolo:GenealogicalGrouping
+				) ;
+			] ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tolo:isMemberOf ;
+			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+		]
+		;
+	skos:definition "A social unit consisting of people with a common ancestor."@en ;
+	skos:editorialNote
+		"Are there other terms included besides family and clan?"@en ,
+		"Improve definition to include adoption."^^xsd:string ,
+		"This needs to be a subclass of some kind of Collection."@en
+		;
+	skos:example "Nuclear family, extended family, clan."@en ;
+	skos:prefLabel "Genealogical grouping"@en ;
+	skos:scopeNote
+		"No subclasses, such as family and clan, are defined because the distinctions are not clear-cut. Instead, we use partitive relationships to describe the relationships between different groupings."@en ,
+		"This class encompasses successively larger and more inclusive genealogical groupings, such as family and clan. A person is said to be a member of a genealogical grouping, and a smaller genealogical grouping is a member of a larger one."@en
+		;
+	.
+
+tolo:Location
+	a owl:Class ;
+	skos:definition "A real, fictional, or imaginary place."@en ;
+	skos:editorialNote "I'm thinking we probably also need to include fictional/imaginary places here. Check."@en ;
+	skos:prefLabel "Location"@en ;
+	.
+
+tolo:Marriage
+	a owl:Class ;
+	rdfs:subClassOf tolo:TemporalRelation ;
+	rdfs:domain tolo:Person ;
+	skos:definition "A human being, alive, dead, imaginary, or fictional."@en ;
+	skos:prefLabel "Marriage"@en ;
+	.
+
+tolo:Person
+	a owl:Class ;
+	rdfs:subClassOf foaf:Person ;
+	skos:definition "A human being, alive, dead, imaginary, or fictional."@en ;
+	skos:editorialNote "Note that this aligns with schema:Person but not gist:Person, since the latter does not include fictional persons. Though we can consider whether we need to include them. It maybe advantageous since we don't always know whether someone was real or not (?). Will this cause problems? Do we then need a class RealThing to assert that some people are real and others not?"@en ;
+	skos:prefLabel "Person"@en ;
+	.
+
+tolo:TemporalRelation
+	a owl:Class ;
+	rdfs:subClassOf
+		[
+			a owl:Restriction ;
+			owl:onProperty tolo:end ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tolo:start ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+		]
+		;
+	skos:definition "A time-delimited relationship between two or more things."@en ;
+	skos:example
+		"A teacher-student relationship."@en ,
+		"An employment relationship between employer and employee."@en ,
+		"Marriage"@en
+		;
+	skos:prefLabel "Temporal relation"@en ;
+	skos:scopeNote "This class is used to materialize a relationship in order to make other assertions about it, such as start and end datetimes, location, and so on. Start and end dates/times may not be known or specified, but the relationship is in theory time-bound."@en ;
+	.
+
+tolo:birthdate
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tolo:start ;
+	skos:definition "The date, time, or datetime that a person was born."@en ;
+	skos:prefLabel "birthdate"^^xsd:string ;
+	skos:scopeNote "Can be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
+	.
+
+tolo:categorizedBy
+	a owl:DatatypeProperty ;
+	rdfs:range tolo:Category ;
+	skos:definition "Designates a category that is applied to the subject."@en ;
+	skos:example "Wencheng Kongjo is categorized by the Gender category 'female.'"@en ;
+	skos:prefLabel "categorized by"@en ;
+	.
+
+tolo:deathDate
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tolo:end ;
+	skos:definition "The date, time, or datetime that a person died."@en ;
+	skos:prefLabel "death date"^^xsd:string ;
+	skos:scopeNote "Can be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
+	.
+
+tolo:dissolutionDate
+	a owl:DatatypeProperty ;
+	skos:definition "The date a marriage was ended through divorce rather than the death of one of the spouses."@en ;
+	skos:editorialNote "Use if we need to distinguish divorce from death as the end of a marriage. Might make broader to include dissolution of other types of relationships. In that case, maybe move to tolo_core."@en ;
+	skos:prefLabel "dissolution date"^^xsd:string ;
+	.
+
+tolo:end
+	a owl:DatatypeProperty ;
+	skos:definition "The date, time, or datetime some event, relationship, or other thing ended."@en ;
+	skos:prefLabel "end"^^xsd:string ;
+	skos:scopeNote "Can be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
+	.
+
+tolo:hasAunt
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
+	skos:definition "Relates a person to the sister of one of his/her parents."@en ;
+	skos:editorialNote "See if we need a superproperty of hasAunt/hasUncle. This would be the inverse of the superproperty of hasNiece/hasNephew."@en ;
+	skos:prefLabel "has aunt"@en ;
+	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasChild
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
+	owl:inverseOf tolo:hasParent ;
+	skos:definition "Relates a person to his/her son or daughter."@en ;
+	skos:editorialNote "We are not dealing with animals so specify range and domain Person. If this changes, use a union."@en ;
+	skos:prefLabel "has child"@en ;
+	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, and step parent/child relationships."@en ;
+	.
+
+tolo:hasGender
+	a owl:ObjectProperty ;
+	rdfs:range tolo:Gender ;
+	skos:definition ""^^xsd:integer ;
+	skos:prefLabel "has gender"@en ;
+	.
+
+tolo:hasGrandfather
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf tolo:hasGrandparent ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
+	skos:definition "Relates a person to the father of one of his/her parents."@en ;
+	skos:prefLabel "has grandfather"@en ;
+	skos:scopeNote "In this version we are not distinguishing biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasGrandmother
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf tolo:hasGrandparent ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
+	skos:definition "Relates a person to the mother of one of his/her parents."@en ;
+	skos:prefLabel "has grandmother"@en ;
+	skos:scopeNote "In this version we are not distinguishing biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasMember
+	a owl:ObjectProperty ;
+	owl:inverseOf tolo:isMemberOf ;
+	skos:definition "The relationship between a thing and another thing that is a member of it."@en ;
+	skos:example "A genealogical grouping has smaller genealogical groupings and individual persons as members."@en ;
+	skos:prefLabel "is member of"@en ;
+	skos:scopeNote "This is a specific partitive predicate designed to avoid the ambiguities of a general 'hasPart' predicate."@en ;
+	.
+
+tolo:hasNephew
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
+	skos:definition "Relates a person to the son of one of his/her siblings."@en ;
+	skos:editorialNote "See if we need a superproperty of hasNiece/hasNephew. This would be the inverse of the superproperty of hasAunt/hasUncle."@en ;
+	skos:prefLabel "has nephew"@en ;
+	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasNiece
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
+	skos:definition "Relates a person to the daughter of one of his/her siblings."@en ;
+	skos:editorialNote "See if we need a superproperty of hasNiece/hasNephew. This would be the inverse of the superproperty of hasAunt/hasUncle."@en ;
+	skos:prefLabel "has niece"@en ;
+	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasParent
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
+	owl:inverseOf tolo:hasChild ;
+	skos:definition "Relates a person to his/her father or mother."@en ;
+	skos:editorialNote "We are not dealing with animals so specify range and domain Person. If this changes, use a union."@en ;
+	skos:prefLabel "has parent"@en ;
+	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, and step parent/child relationships."@en ;
+	.
+
+tolo:hasSibling
+	a owl:SymmetricProperty ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
+	skos:definition "Relates a person to another person who has one or both parents in common."@en ;
+	skos:editorialNote "We are not dealing with animals so specify range and domain Person. If this changes, use a union."@en ;
+	skos:prefLabel "has sibling"@en ;
+	skos:scopeNote "In 1.0.0 we are not distinguishing full, half, step, and adoptive sibling relationships. We cannot "@en ;
+	.
+
+tolo:hasUncle
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
+	skos:definition "Relates a person to the brother of one of his/her parents."@en ;
+	skos:editorialNote "See if we need a superproperty of hasAunt/hasUncle. This would be the inverse of the superproperty of hasNiece/hasNephew."@en ;
+	skos:prefLabel "has uncle"@en ;
+	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:isMemberOf
+	a owl:ObjectProperty ;
+	owl:inverseOf tolo:hasMember ;
+	skos:definition "The relationship between a thing and a larger thing that includes it."@en ;
+	skos:example "A person is a member of a genealogical grouping. A genealogical grouping is a member of a larger genealogical grouping."@en ;
+	skos:prefLabel "is member of"@en ;
+	skos:scopeNote "This is a specific partitive predicate designed to avoid the ambiguities of a general 'hasPart.' predicate."@en ;
+	.
+
+tolo:name
+	a owl:DatatypeProperty ;
+	skos:definition "A word or set of words by which a person, animal, place, or thing is known, addressed, or referred to."@en ;
+	skos:editorialNote "Do we need to distinguish name variant from just name? In that case, do we also need primary name? Would name variant apply only to persons, or to other things as well?"@en ;
+	skos:prefLabel "name"@en ;
+	.
+
+tolo:start
+	a owl:DatatypeProperty ;
+	skos:definition "The date, time, or datetime some event, relationship, or other thing started."@en ;
+	skos:prefLabel "start"^^xsd:string ;
+	skos:scopeNote "Can be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
+	.
+
+tolo:title
+	a owl:DatatypeProperty ;
+	rdfs:domain tolo:Person ;
+	skos:definition "An appellation of dignity, honor, distinction, or preeminence attached to a person or family by virtue of rank, office, precedent, privilege, attainment, or lands."@en ;
+	skos:prefLabel "name"@en ;
+	.
+
