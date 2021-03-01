@@ -110,7 +110,10 @@ tolo:hasMember
 	skos:definition "Relates a Collection to a resource that is a member of it."@en ;
 	skos:editorialNote "Make sure this works - that anything anything else is a member of is a tolo:Collection. And that both the proxy and the related resource are members of the collection."@en ;
 	skos:prefLabel "has member"@en ;
-	skos:scopeNote "The members of an OrderedCollection do not include its Proxy resources. Use tolo:isProxyIn instead."@en ;
+	skos:scopeNote
+		"The members of an OrderedCollection do not include its Proxy resources. Use tolo:isProxyIn instead."@en ,
+		"This is a specific partitive predicate designed to avoid the ambiguities of a general 'hasPart' predicate."@en
+		;
 	.
 
 tolo:hasNext
@@ -144,11 +147,14 @@ tolo:isMemberOf
 		owl:complementOf tolo:Proxy ;
 	] ;
 	rdfs:range tolo:Collection ;
-	owl:inverseOf tolo:isMemberOf ;
+	owl:inverseOf tolo:hasMember ;
 	skos:definition "Relates a resource to a Collection it belongs to."@en ;
 	skos:editorialNote "Make sure this works - that anything anything else is a member of is a tolo:Collection."@en ;
 	skos:prefLabel "is member of"@en ;
-	skos:scopeNote "The members of an OrderedCollection do not include its Proxy resources. Use tolo:isProxyIn instead."@en ;
+	skos:scopeNote
+		"The members of an OrderedCollection do not include its Proxy resources. Use tolo:isProxyIn instead."@en ,
+		"This is a specific partitive predicate designed to avoid the ambiguities of a general 'isPartOf' predicate."@en
+		;
 	.
 
 tolo:isProxyFor
