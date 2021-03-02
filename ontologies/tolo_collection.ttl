@@ -17,7 +17,7 @@ tolo:collection
 	owl:versionIRI <https://ontologies.treasuryoflives/tolo/collection/1.0.0> ;
 	skos:definition "The Treasury of Lives Collection Ontology provides classes and properties for describing ordered and unordered of resources."@en ;
 	skos:editoralNote "Using tolo namespace for now - may break off into a separate namespace since this is quite a distinct ontology."@en ;
-	skos:note "This ontology takes inspiration from both the Ordered List Ontology and the Open Archives Initiative Object Exchange and Reuse ontology."@en ;
+	skos:note "This ontology draws inspiration from both the Ordered List Ontology and the Open Archives Initiative Object Exchange and Reuse ontology."@en ;
 	skos:prefLabel "Treasury of Lives Collection Ontology"@en ;
 	.
 
@@ -97,18 +97,21 @@ tolo:StrictOrderedCollection
 	skos:prefLabel "Strict ordered collection"@en ;
 	.
 
-tolo:hasMember
+tolo:hasElement
 	a owl:ObjectProperty ;
 	rdfs:domain tolo:Collection ;
 	rdfs:range [
 		owl:complementOf tolo:Proxy ;
 	] ;
-	owl:inverseOf tolo:isMemberOf ;
+	owl:inverseOf tolo:isElementOf ;
 	skos:definition "Relates a Collection to a resource that is a member of it."@en ;
-	skos:editorialNote "Make sure this works - that anything anything else is a member of is a tolo:Collection. And that both the proxy and the related resource are members of the collection."@en ;
-	skos:prefLabel "has member"@en ;
+	skos:editorialNote
+		"Make other predicates like hasMember a subproperty?"@en ,
+		"Rewrite second scope note."@en
+		;
+	skos:prefLabel "has element"@en ;
 	skos:scopeNote
-		"The members of an OrderedCollection do not include its Proxy resources. Use tolo:isProxyIn instead."@en ,
+		"The elements of an OrderedCollection do not include its Proxy resources. Use tolo:isProxyIn instead."@en ,
 		"This is a specific partitive predicate designed to avoid the ambiguities of a general 'hasPart' predicate."@en
 		;
 	.
@@ -138,16 +141,19 @@ tolo:index
 	skos:prefLabel "index"^^xsd:string ;
 	.
 
-tolo:isMemberOf
+tolo:isElementOf
 	a owl:ObjectProperty ;
 	rdfs:domain [
 		owl:complementOf tolo:Proxy ;
 	] ;
 	rdfs:range tolo:Collection ;
-	owl:inverseOf tolo:hasMember ;
+	owl:inverseOf tolo:hasElement ;
 	skos:definition "Relates a resource to a Collection it belongs to."@en ;
-	skos:editorialNote "Make sure this works - that anything anything else is a member of is a tolo:Collection."@en ;
-	skos:prefLabel "is member of"@en ;
+	skos:editorialNote
+		"Make other predicates like hasMember a subproperty?"@en ,
+		"Rewrite second scope note."@en
+		;
+	skos:prefLabel "is element of"@en ;
 	skos:scopeNote
 		"The members of an OrderedCollection do not include its Proxy resources. Use tolo:isProxyIn instead."@en ,
 		"This is a specific partitive predicate designed to avoid the ambiguities of a general 'isPartOf' predicate."@en
