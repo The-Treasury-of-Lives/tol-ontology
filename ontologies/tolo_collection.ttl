@@ -86,15 +86,15 @@ tolo:Proxy
 	skos:prefLabel "Proxy"@en ;
 	.
 
-tolo:StrictOrderedCollection
+tolo:StrictlyOrderedCollection
 	a owl:Class ;
 	rdfs:subClassOf tolo:OrderedCollection ;
 	skos:definition "A strict OrderedCollection - i.e., one in which no two items may have the same index."@en ;
 	skos:editorialNote
-		"TODO This can be formalized by stating that every element has index of 1, and/or exactly one next, an/dor exactly one previous."@en ,
+		"TODO This can be formalized by stating that every element has index of 1, and/or exactly one next, an/dor exactly one previous; and none have the same index."@en ,
 		"We may not need this. Are some lineages strictly ordered and others not?"@en
 		;
-	skos:prefLabel "Strict ordered collection"@en ;
+	skos:prefLabel "Strictly ordered collection"@en ;
 	.
 
 tolo:hasMember
@@ -114,16 +114,8 @@ tolo:hasNext
 	rdfs:range tolo:Proxy ;
 	owl:inverseOf tolo:hasPrevious ;
 	skos:definition "Relates a Proxy in an OrderedCollection to the immediately following Proxy."@en ;
+	skos:editorialNote "For now not defining the inverse hasPrevious"@en ;
 	skos:prefLabel "has next"@en ;
-	.
-
-tolo:hasPrevious
-	a owl:ObjectProperty ;
-	rdfs:domain tolo:Proxy ;
-	rdfs:range tolo:Proxy ;
-	owl:inverseOf tolo:hasNext ;
-	skos:definition "Relates a Proxy in an OrderedCollection to the immediately preceding Proxy."@en ;
-	skos:prefLabel "has previous"@en ;
 	.
 
 tolo:index
