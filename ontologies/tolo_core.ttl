@@ -30,9 +30,9 @@ tolo:Category
 	rdfs:subClassOf skos:Concept ;
 	skos:definition "A type of concept used to categorize things."@en ;
 	skos:editorialNote "Consider whether we want to use just skos:Concept directly."@en ;
-	skos:example "Male and female are categories of Gender."@en ;
+	skos:example "Male and female are categories (instances) of Gender."@en ;
 	skos:prefLabel "Category"@en ;
-	skos:scopeNote "A category is typically a term in a controlled vocabulary. This class can be subclassed for specific vocabularies; e.g., gender is a type of category."@en ;
+	skos:scopeNote "A category is typically a term in a controlled vocabulary. The Category class can be subclassed for specific vocabularies; e.g., Gender is a subclass of Category."@en ;
 	.
 
 tolo:Gender
@@ -49,6 +49,11 @@ tolo:GenealogicalGrouping
 		[
 			a owl:Restriction ;
 			owl:onProperty tolo:isMemberOf ;
+			owl:allValuesFrom tolo:GenealogicalGrouping ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tolo:hasMember ;
 			owl:allValuesFrom [
 				owl:unionOf (
 					tolo:Person
@@ -58,7 +63,7 @@ tolo:GenealogicalGrouping
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tolo:isMemberOf ;
+			owl:onProperty tolo:hasMember ;
 			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
 		]
 		;
