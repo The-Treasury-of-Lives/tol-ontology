@@ -1,6 +1,7 @@
 # imports: https://ontologies.treasuryoflives/tolo/collection/1.0.0
 
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -33,6 +34,25 @@ tolo:Category
 	skos:example "Male and female are categories (instances) of Gender."@en ;
 	skos:prefLabel "Category"@en ;
 	skos:scopeNote "A category is typically a term in a controlled vocabulary. The Category class can be subclassed for specific vocabularies; e.g., Gender is a subclass of Category."@en ;
+	.
+
+tolo:Collection
+	a owl:Class ;
+	rdfs:subClassOf
+		dctype:Collection ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tolo:length ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tolo:hasMember ;
+			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+		]
+		;
+	skos:definition "An aggregation of resources."@en ;
+	skos:prefLabel "Collection"@en ;
 	.
 
 tolo:Gender
@@ -94,12 +114,69 @@ tolo:Marriage
 	skos:prefLabel "Marriage"@en ;
 	.
 
+tolo:OrderedCollection
+	a owl:Class ;
+	rdfs:subClassOf tolo:Collection ;
+	owl:equivalentClass [
+		owl:intersectionOf (
+			tolo:Collection
+			[
+				a owl:Restriction ;
+				owl:onProperty [
+					owl:inverseOf tolo:isProxyIn ;
+				] ;
+				owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+			]
+		) ;
+	] ;
+	skos:definition "A collection in which resources are ordered into a sequence."@en ;
+	skos:editorialNote "TODO We could formalize this by stating every proxy has index 1, and/or at least one previous, and/or at least one next. Note that because there can be proxies with the same rank, there could be more than one previous or more than one next."^^xsd:string ;
+	skos:prefLabel "Ordered collection"@en ;
+	skos:scopeNote "The items in an OrderedCollection are not fixed over time but may be reordered."@en ;
+	.
+
 tolo:Person
 	a owl:Class ;
 	rdfs:subClassOf foaf:Person ;
 	skos:definition "A human being, alive, dead, imaginary, or fictional."@en ;
 	skos:editorialNote "Note that this aligns with schema:Person but not gist:Person, since the latter does not include fictional persons. Though we can consider whether we need to include them. It maybe advantageous since we don't always know whether someone was real or not (?). Will this cause problems? Do we then need a class RealThing to assert that some people are real and others not?"@en ;
 	skos:prefLabel "Person"@en ;
+	.
+
+tolo:Proxy
+	owl:equivalentClass [
+		owl:intersectionOf (
+			[
+				a owl:Restriction ;
+				owl:onProperty tolo:isProxyFor ;
+				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty tolo:isProxyIn ;
+				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty tolo:index ;
+				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+			]
+		) ;
+	] ;
+	skos:definition "The representation of a resource as it exists in a specific Collection. This object both represents the position of an item in an ordered collection, and carries properties that apply to an item only in the context of the Collection."@en ;
+	skos:example "The proxy of a teacher in a teaching lineage can indicate both the person's position in the lineage and the date the person became a member of the lineage."@en ;
+	skos:prefLabel "Proxy"@en ;
+	.
+
+tolo:StrictlyOrderedCollection
+	a owl:Class ;
+	rdfs:subClassOf tolo:OrderedCollection ;
+	skos:definition "A strict OrderedCollection - i.e., one in which no two items may have the same index."@en ;
+	skos:editorialNote
+		"TODO This can be formalized by stating that every element has index of 1, and/or exactly one next, an/dor exactly one previous; and none have the same index."@en ,
+		"We may not need this. Are some lineages strictly ordered and others not?"@en
+		;
+	skos:prefLabel "Strictly ordered collection"@en ;
 	.
 
 tolo:TemporalRelation
@@ -212,6 +289,17 @@ tolo:hasGrandmother
 	skos:scopeNote "In this version we are not distinguishing biological, adoptive, half, and step relationships."@en ;
 	.
 
+tolo:hasMember
+	a owl:ObjectProperty ;
+	owl:inverseOf tolo:isMemberOf ;
+	skos:definition "Relates any kind of grouping to a resource that is a member of it."@en ;
+	skos:prefLabel "has member"@en ;
+	skos:scopeNote
+		"The members of an OrderedCollection are either its proxies or the resources represented by the proxies. Use ^isProxyIn to refer specifically to proxies."@en ,
+		"This is a specific partitive predicate designed to avoid the ambiguities of a general 'hasPart' predicate."@en
+		;
+	.
+
 tolo:hasNephew
 	a owl:ObjectProperty ;
 	rdfs:domain tolo:Person ;
@@ -220,6 +308,16 @@ tolo:hasNephew
 	skos:editorialNote "See if we need a superproperty of hasNiece/hasNephew. This would be the inverse of the superproperty of hasAunt/hasUncle."@en ;
 	skos:prefLabel "has nephew"@en ;
 	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasNext
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:Proxy ;
+	rdfs:range tolo:Proxy ;
+	owl:inverseOf tolo:hasPrevious ;
+	skos:definition "Relates a Proxy in an OrderedCollection to the immediately following Proxy."@en ;
+	skos:editorialNote "For now not defining the inverse hasPrevious"@en ;
+	skos:prefLabel "has next"@en ;
 	.
 
 tolo:hasNiece
@@ -263,11 +361,50 @@ tolo:hasUncle
 	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
 	.
 
+tolo:index
+	a owl:DatatypeProperty ;
+	rdfs:domain tolo:Proxy ;
+	skos:definition "The position of a Proxy in an OrderedCollection."@en ;
+	skos:prefLabel "index"^^xsd:string ;
+	.
+
+tolo:isMemberOf
+	a owl:ObjectProperty ;
+	owl:inverseOf tolo:hasMember ;
+	skos:definition "Relates any kind of grouping to a resource that is a member of it."@en ;
+	skos:prefLabel "is member of"@en ;
+	skos:scopeNote
+		"The members of an OrderedCollection are either its proxies or the resources represented by the proxies. Use ^isProxyIn to refer specifically to proxies."@en ,
+		"This is a specific partitive predicate designed to avoid the ambiguities of a general 'isPartOf' predicate."@en
+		;
+	.
+
+tolo:isProxyFor
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:Proxy ;
+	skos:definition "Relates a Proxy to the resource it represents in an OrderedCollection."@en ;
+	skos:prefLabel "is proxy for"@en ;
+	.
+
+tolo:isProxyIn
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:Proxy ;
+	rdfs:range tolo:OrderedCollection ;
+	skos:definition "Relates a Proxy to the OrderedCollection it belongs to."@en ;
+	skos:prefLabel "is proxy in"@en ;
+	.
+
 tolo:name
 	a owl:DatatypeProperty ;
 	skos:definition "A word or set of words by which a person, animal, place, or thing is known, addressed, or referred to."@en ;
 	skos:editorialNote "Do we need to distinguish name variant from just name? In that case, do we also need primary name? Would name variant apply only to persons, or to other things as well?"@en ;
 	skos:prefLabel "name"@en ;
+	.
+
+tolo:numberOfMembers
+	a owl:DatatypeProperty ;
+	skos:definition "The number of resources in a Collection or other grouping."@en ;
+	skos:prefLabel "number of members"^^xsd:string ;
 	.
 
 tolo:start
