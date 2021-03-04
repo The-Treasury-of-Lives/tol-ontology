@@ -30,7 +30,10 @@ tolo:Category
 	a owl:Class ;
 	rdfs:subClassOf skos:Concept ;
 	skos:definition "A type of concept used to categorize things."@en ;
-	skos:editorialNote "Consider whether we want to use just skos:Concept directly."@en ;
+	skos:editorialNote
+		"Consider whether we want to use just skos:Concept directly."@en ,
+		"Could use gist."@en
+		;
 	skos:example "Male and female are categories (instances) of Gender."@en ;
 	skos:prefLabel "Category"@en ;
 	skos:scopeNote "A category is typically a term in a controlled vocabulary. The Category class can be subclassed for specific vocabularies; e.g., Gender is a subclass of Category."@en ;
@@ -52,6 +55,7 @@ tolo:Collection
 		]
 		;
 	skos:definition "An aggregation of resources."@en ;
+	skos:editorialNote "Could use gist."@en ;
 	skos:prefLabel "Collection"@en ;
 	.
 
@@ -194,6 +198,7 @@ tolo:TemporalRelation
 		]
 		;
 	skos:definition "A time-delimited relationship between two or more things."@en ;
+	skos:editorialNote "Could use gist."@en ;
 	skos:example
 		"A marriage"@en ,
 		"A teacher-student relationship."@en ,
@@ -215,6 +220,7 @@ tolo:categorizedBy
 	a owl:DatatypeProperty ;
 	rdfs:range tolo:Category ;
 	skos:definition "Designates a category that is applied to the subject."@en ;
+	skos:editorialNote "Could use gist."@en ;
 	skos:example "Wencheng Kongjo is categorized by the Gender category 'female.'"@en ;
 	skos:prefLabel "categorized by"@en ;
 	.
@@ -293,6 +299,7 @@ tolo:hasMember
 	a owl:ObjectProperty ;
 	owl:inverseOf tolo:isMemberOf ;
 	skos:definition "Relates any kind of grouping to a resource that is a member of it."@en ;
+	skos:editorialNote "Could use gist."@en ;
 	skos:prefLabel "has member"@en ;
 	skos:scopeNote
 		"The members of an OrderedCollection are either its proxies or the resources represented by the proxies. Use ^isProxyIn to refer specifically to proxies."@en ,
@@ -372,6 +379,7 @@ tolo:isMemberOf
 	a owl:ObjectProperty ;
 	owl:inverseOf tolo:hasMember ;
 	skos:definition "Relates any kind of grouping to a resource that is a member of it."@en ;
+	skos:editorialNote "Could use gist."@en ;
 	skos:prefLabel "is member of"@en ;
 	skos:scopeNote
 		"The members of an OrderedCollection are either its proxies or the resources represented by the proxies. Use ^isProxyIn to refer specifically to proxies."@en ,
@@ -397,7 +405,10 @@ tolo:isProxyIn
 tolo:name
 	a owl:DatatypeProperty ;
 	skos:definition "A word or set of words by which a person, animal, place, or thing is known, addressed, or referred to."@en ;
-	skos:editorialNote "Do we need to distinguish name variant from just name? In that case, do we also need primary name? Would name variant apply only to persons, or to other things as well?"@en ;
+	skos:editorialNote
+		"Could use gist."@en ,
+		"Do we need to distinguish name variant from just name? In that case, do we also need primary name? Would name variant apply only to persons, or to other things as well?"@en
+		;
 	skos:prefLabel "name"@en ;
 	.
 
