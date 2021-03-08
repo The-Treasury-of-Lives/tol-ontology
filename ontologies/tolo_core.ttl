@@ -50,7 +50,7 @@ tolo:Collection
 		dctype:Collection ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tolo:length ;
+			owl:onProperty tolo:numberOfMembers ;
 			owl:cardinality "1"^^xsd:nonNegativeInteger ;
 		] ,
 		[
@@ -89,11 +89,6 @@ tolo:GenealogicalGrouping
 					tolo:GenealogicalGrouping
 				) ;
 			] ;
-		] ,
-		[
-			a owl:Restriction ;
-			owl:onProperty tolo:hasMember ;
-			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
 		]
 		;
 	skos:definition "A social unit consisting of people with a common ancestor."@en ;
@@ -124,7 +119,6 @@ tolo:Location
 tolo:Marriage
 	a owl:Class ;
 	rdfs:subClassOf tolo:TemporalRelation ;
-	rdfs:domain tolo:Person ;
 	skos:definition ""@en ;
 	skos:prefLabel "Marriage"@en ;
 	.
