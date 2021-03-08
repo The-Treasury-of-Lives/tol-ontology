@@ -15,8 +15,9 @@ tolo:core
 	dct:license "TBD"^^xsd:string ;
 	vann:preferredNamespacePrefix "tolo"^^xsd:string ;
 	owl:versionIRI <https://ontologies.treasuryoflives/tolo/core/1.0.0> ;
-	skos:definition "The Treasury of Lives Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives to publish and share its data as Linked Open Data, as well as to supplement the textual biographies on its website at https://treasuryoflives.org."@en ;
+	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, as well as to enhance the narrative text with structured data."@en ;
 	skos:editoralNote
+		"Add rdfs:isDefinedBy using onto-toolkit, but keep in source files."@en ,
 		"Combining all terms into one module for now; maybe break up into separate modules later."@en ,
 		"Figure out issues of namespacing, ontology IRI, and versioning."@en
 		;
@@ -34,6 +35,13 @@ tolo:Category
 	skos:example "Male and female are categories (instances) of Gender."@en ;
 	skos:prefLabel "Category"@en ;
 	skos:scopeNote "A category is typically a term in a controlled vocabulary. The Category class can be subclassed for specific vocabularies; e.g., Gender is a subclass of Category."@en ;
+	.
+
+tolo:Century
+	rdfs:subClassOf tolo:HistoricalPeriod ;
+	skos:definition "A historical century."@en ;
+	skos:example "8th century AD, 2nd century BC."@en ;
+	skos:prefLabel "Century"@en ;
 	.
 
 tolo:Collection
@@ -58,7 +66,7 @@ tolo:Collection
 
 tolo:Gender
 	rdfs:subClassOf tolo:Category ;
-	skos:definition "Defines gender categories."@en ;
+	skos:definition "A person or animal's biological sex."@en ;
 	skos:example "Male, female."@en ;
 	skos:prefLabel "Gender"@en ;
 	.
@@ -99,6 +107,12 @@ tolo:GenealogicalGrouping
 		"No subclasses, such as family and clan, are defined because the distinctions are not clear-cut. Instead, we use partitive relationships to describe the relationships between different groupings."@en ,
 		"This class encompasses successively larger and more inclusive genealogical groupings, such as family and clan. A person is said to be a member of a genealogical grouping, and a smaller genealogical grouping is a member of a larger one."@en
 		;
+	.
+
+tolo:HistoricalPeriod
+	skos:definition "A historical period."@en ;
+	skos:example "8th century AD, 2nd century BC."@en ;
+	skos:prefLabel "Historical period"@en ;
 	.
 
 tolo:Location
@@ -229,6 +243,13 @@ tolo:deathDate
 	skos:definition "The date, time, or datetime that a person died."@en ;
 	skos:prefLabel "death date"^^xsd:string ;
 	skos:scopeNote "Can be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
+	.
+
+tolo:description
+	a owl:DatatypeProperty ;
+	skos:definition "A statement about someone or something's attributes or characteristics."@en ;
+	skos:example "Nyenyo Jagoshong is a Sakya monastery in Tashigang, Tsang. It was founded by Panchen Bumdrak Sumpa in 1490."@en ;
+	skos:prefLabel "description"@en ;
 	.
 
 tolo:dissolutionDate
@@ -427,6 +448,6 @@ tolo:title
 	a owl:DatatypeProperty ;
 	rdfs:domain tolo:Person ;
 	skos:definition "An appellation of dignity, honor, distinction, or preeminence attached to a person or family by virtue of rank, office, precedent, privilege, attainment, or lands."@en ;
-	skos:prefLabel "name"@en ;
+	skos:prefLabel "title"@en ;
 	.
 
