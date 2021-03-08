@@ -1,5 +1,3 @@
-# imports: https://ontologies.treasuryoflives/tolo/collection/1.0.0
-
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dctype: <http://purl.org/dc/dcmitype/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -16,7 +14,6 @@ tolo:core
 	a owl:Ontology ;
 	dct:license "TBD"^^xsd:string ;
 	vann:preferredNamespacePrefix "tolo"^^xsd:string ;
-	owl:imports <https://ontologies.treasuryoflives/tolo/collection/1.0.0> ;
 	owl:versionIRI <https://ontologies.treasuryoflives/tolo/core/1.0.0> ;
 	skos:definition "The Treasury of Lives Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives to publish and share its data as Linked Open Data, as well as to supplement the textual biographies on its website at https://treasuryoflives.org."@en ;
 	skos:editoralNote
@@ -170,6 +167,7 @@ tolo:Proxy
 	skos:definition "The representation of a resource as it exists in a specific Collection. This object both represents the position of an item in an ordered collection, and carries properties that apply to an item only in the context of the Collection."@en ;
 	skos:example "The proxy of a teacher in a teaching lineage can indicate both the person's position in the lineage and the date the person became a member of the lineage."@en ;
 	skos:prefLabel "Proxy"@en ;
+	skos:scopeNote "An index is required but, based on the Open World Assumption, does not have to be asserted. This avoids the problem of resetting indices in case of changes to the OrderedCollection. Only the hasNext pointer would have to be moved."@en ;
 	.
 
 tolo:StrictlyOrderedCollection
