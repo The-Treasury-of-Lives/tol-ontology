@@ -260,52 +260,11 @@ tolo:end
 	skos:scopeNote "Can be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
 	.
 
-tolo:hasAunt
-	a owl:ObjectProperty ;
-	rdfs:domain tolo:Person ;
-	rdfs:range tolo:Person ;
-	skos:definition "Relates a person to the sister of one of his/her parents."@en ;
-	skos:editorialNote "See if we need a superproperty of hasAunt/hasUncle. This would be the inverse of the superproperty of hasNiece/hasNephew."@en ;
-	skos:prefLabel "has aunt"@en ;
-	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
-	.
-
-tolo:hasChild
-	a owl:ObjectProperty ;
-	rdfs:domain tolo:Person ;
-	rdfs:range tolo:Person ;
-	owl:inverseOf tolo:hasParent ;
-	skos:definition "Relates a person to his/her son or daughter."@en ;
-	skos:editorialNote "We are not dealing with animals so specify range and domain Person. If this changes, use a union."@en ;
-	skos:prefLabel "has child"@en ;
-	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, and step parent/child relationships."@en ;
-	.
-
 tolo:hasGender
 	a owl:ObjectProperty ;
 	rdfs:range tolo:Gender ;
 	skos:definition ""^^xsd:string ;
 	skos:prefLabel "has gender"@en ;
-	.
-
-tolo:hasGrandfather
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf tolo:hasGrandparent ;
-	rdfs:domain tolo:Person ;
-	rdfs:range tolo:Person ;
-	skos:definition "Relates a person to the father of one of his/her parents."@en ;
-	skos:prefLabel "has grandfather"@en ;
-	skos:scopeNote "In this version we are not distinguishing biological, adoptive, half, and step relationships."@en ;
-	.
-
-tolo:hasGrandmother
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf tolo:hasGrandparent ;
-	rdfs:domain tolo:Person ;
-	rdfs:range tolo:Person ;
-	skos:definition "Relates a person to the mother of one of his/her parents."@en ;
-	skos:prefLabel "has grandmother"@en ;
-	skos:scopeNote "In this version we are not distinguishing biological, adoptive, half, and step relationships."@en ;
 	.
 
 tolo:hasMember
@@ -320,16 +279,6 @@ tolo:hasMember
 		;
 	.
 
-tolo:hasNephew
-	a owl:ObjectProperty ;
-	rdfs:domain tolo:Person ;
-	rdfs:range tolo:Person ;
-	skos:definition "Relates a person to the son of one of his/her siblings."@en ;
-	skos:editorialNote "See if we need a superproperty of hasNiece/hasNephew. This would be the inverse of the superproperty of hasAunt/hasUncle."@en ;
-	skos:prefLabel "has nephew"@en ;
-	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
-	.
-
 tolo:hasNext
 	a owl:ObjectProperty ;
 	rdfs:domain tolo:Proxy ;
@@ -338,47 +287,6 @@ tolo:hasNext
 	skos:definition "Relates a Proxy in an OrderedCollection to the immediately following Proxy."@en ;
 	skos:editorialNote "For now not defining the inverse hasPrevious"@en ;
 	skos:prefLabel "has next"@en ;
-	.
-
-tolo:hasNiece
-	a owl:ObjectProperty ;
-	rdfs:domain tolo:Person ;
-	rdfs:range tolo:Person ;
-	skos:definition "Relates a person to the daughter of one of his/her siblings."@en ;
-	skos:editorialNote "See if we need a superproperty of hasNiece/hasNephew. This would be the inverse of the superproperty of hasAunt/hasUncle."@en ;
-	skos:prefLabel "has niece"@en ;
-	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
-	.
-
-tolo:hasParent
-	a owl:ObjectProperty ;
-	rdfs:domain tolo:Person ;
-	rdfs:range tolo:Person ;
-	owl:inverseOf tolo:hasChild ;
-	skos:definition "Relates a person to his/her father or mother."@en ;
-	skos:editorialNote "We are not dealing with animals so specify range and domain Person. If this changes, use a union."@en ;
-	skos:prefLabel "has parent"@en ;
-	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, and step parent/child relationships."@en ;
-	.
-
-tolo:hasSibling
-	a owl:SymmetricProperty ;
-	rdfs:domain tolo:Person ;
-	rdfs:range tolo:Person ;
-	skos:definition "Relates a person to another person who has one or both parents in common."@en ;
-	skos:editorialNote "We are not dealing with animals so specify range and domain Person. If this changes, use a union."@en ;
-	skos:prefLabel "has sibling"@en ;
-	skos:scopeNote "In 1.0.0 we are not distinguishing full, half, step, and adoptive sibling relationships. We cannot "@en ;
-	.
-
-tolo:hasUncle
-	a owl:ObjectProperty ;
-	rdfs:domain tolo:Person ;
-	rdfs:range tolo:Person ;
-	skos:definition "Relates a person to the brother of one of his/her parents."@en ;
-	skos:editorialNote "See if we need a superproperty of hasAunt/hasUncle. This would be the inverse of the superproperty of hasNiece/hasNephew."@en ;
-	skos:prefLabel "has uncle"@en ;
-	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
 	.
 
 tolo:index
