@@ -118,6 +118,14 @@ tolo:GenealogicalGrouping
 		;
 	.
 
+tolo:HarUrl
+	a owl:AnnotationProperty ;
+	rdfs:subPropertyOf rdfs:seeAlso ;
+	rdfs:range xsd:anyURI ;
+	skos:definition "The URL to the main page about this resource on the Himalayan Art Resources (HAR) site."@en ;
+	skos:prefLabel "HAR URL"@en ;
+	.
+
 tolo:HistoricalPeriod
 	skos:definition "A historical period."@en ;
 	skos:example "8th century AD, 2nd century BC."@en ;
@@ -223,12 +231,20 @@ tolo:TemporalRelationship
 	skos:scopeNote "This class is used to materialize a relationship in order to make other assertions about it, such as start and end datetimes, location, and so on. Start and end dates/times may not be known or specified, but the relationship is in theory time-bound."@en ;
 	.
 
-tolo:birthdate
+tolo:birthCentury
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tolo:start ;
-	skos:definition "The date, time, or datetime that a person was born."@en ;
-	skos:prefLabel "birthdate"^^xsd:string ;
-	skos:scopeNote "Can be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
+	skos:definition "The century in which a person was born."@en ;
+	skos:prefLabel "birth century"@en ;
+	skos:scopeNote "It is expected that this value will not be directly asserted, but inferred from the value of tolo:birthYear."@en ;
+	.
+
+tolo:birthYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tolo:start ;
+	skos:definition "The year in which a person was born."@en ;
+	skos:prefLabel "birth year"@en ;
+	skos:scopeNote "May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
 	.
 
 tolo:categorizedBy
@@ -240,12 +256,12 @@ tolo:categorizedBy
 	skos:prefLabel "categorized by"@en ;
 	.
 
-tolo:deathDate
+tolo:deathYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tolo:end ;
-	skos:definition "The date, time, or datetime that a person died."@en ;
-	skos:prefLabel "death date"^^xsd:string ;
-	skos:scopeNote "Can be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
+	skos:definition "The year that a person died."@en ;
+	skos:prefLabel "death year"@en ;
+	skos:scopeNote "May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
 	.
 
 tolo:description
@@ -259,14 +275,14 @@ tolo:dissolutionDate
 	a owl:DatatypeProperty ;
 	skos:definition "The date a marriage was ended through divorce rather than the death of one of the spouses."@en ;
 	skos:editorialNote "Use if we need to distinguish divorce from death as the end of a marriage. Might make broader to include dissolution of other types of relationships."@en ;
-	skos:prefLabel "dissolution date"^^xsd:string ;
+	skos:prefLabel "dissolution date"@en ;
 	.
 
 tolo:end
 	a owl:DatatypeProperty ;
 	skos:definition "The date, time, or datetime some event, relationship, or other thing ended."@en ;
-	skos:prefLabel "end"^^xsd:string ;
-	skos:scopeNote "Can be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
+	skos:prefLabel "end"@en ;
+	skos:scopeNote "May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
 	.
 
 tolo:hasFraternalCousin
@@ -445,7 +461,7 @@ tolo:index
 	a owl:DatatypeProperty ;
 	rdfs:domain tolo:Proxy ;
 	skos:definition "The position of an ordered member in an ordered collection."@en ;
-	skos:prefLabel "index"^^xsd:string ;
+	skos:prefLabel "index"@en ;
 	.
 
 tolo:isMemberOf
@@ -483,29 +499,62 @@ tolo:isSpouseIn
 
 tolo:name
 	a owl:DatatypeProperty ;
+	rdfs:range xsd:string ;
 	skos:definition "A word or set of words by which a person, animal, place, or thing is known, addressed, or referred to."@en ;
-	skos:editorialNote "Not sure if we need a distinction between primary name and alternate name, or if these are just different encodings of the same name."@en ;
 	skos:prefLabel "name"@en ;
+	.
+
+tolo:nameVariant
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tolo:name ;
+	skos:definition "A variant form of a person's name."@en ;
+	skos:editoralNote "Explain more about how these differ from the primary name."@en ;
+	skos:prefLabel "name variant"@en ;
 	.
 
 tolo:numberOfMembers
 	a owl:DatatypeProperty ;
+	rdfs:range xsd:integer ;
 	skos:definition "The number of resources in a collection or other grouping."@en ;
-	skos:prefLabel "number of members"^^xsd:string ;
+	skos:prefLabel "number of members"@en ;
+	.
+
+tolo:primaryName
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tolo:name ;
+	skos:definition "The primary form of a person's name."@en ;
+	skos:prefLabel "primary name"@en ;
+	.
+
+tolo:primaryTitle
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tolo:title ;
+	rdfs:domain tolo:Person ;
+	skos:definition "The primary form of a person's title."@en ;
+	skos:prefLabel "primary title"@en ;
 	.
 
 tolo:start
 	a owl:DatatypeProperty ;
 	skos:definition "The date, time, or datetime some event, relationship, or other thing started."@en ;
-	skos:prefLabel "start"^^xsd:string ;
-	skos:scopeNote "Can be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
+	skos:prefLabel "start"@en ;
+	skos:scopeNote "May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
 	.
 
 tolo:title
 	a owl:DatatypeProperty ;
 	rdfs:domain tolo:Person ;
+	rdfs:range xsd:string ;
 	skos:definition "An appellation of dignity, honor, distinction, or preeminence attached to a person or family by virtue of rank, office, precedent, privilege, attainment, or lands."@en ;
-	skos:editorialNote "Not sure if we need a distinction between primary title and alternate title, or if these are just different encodings of the same title."@en ;
 	skos:prefLabel "title"@en ;
+	.
+
+tolo:titleVariant
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tolo:title ;
+	rdfs:domain tolo:Person ;
+	skos:definition "A variant form of a person's title."@en ;
+	skos:editoralNote "Explain more about how these differ from the primary name."@en ;
+	skos:prefLabel "title variant"@en ;
 	.
 
