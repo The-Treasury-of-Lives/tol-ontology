@@ -1,3 +1,4 @@
+# imports: http://id.loc.gov/ontologies/bibframe-2-1-0/
 # imports: http://purl.bdrc.io/ontology/core/
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
@@ -17,7 +18,10 @@ tolo:core
 	a owl:Ontology ;
 	dct:license "TBD"^^xsd:string ;
 	vann:preferredNamespacePrefix "tolo"^^xsd:string ;
-	owl:imports <http://purl.bdrc.io/ontology/core/> ;
+	owl:imports
+		<http://id.loc.gov/ontologies/bibframe-2-1-0/> ,
+		<http://purl.bdrc.io/ontology/core/>
+		;
 	owl:versionIRI <https://ontologies.treasuryoflives/tolo/core/1.0.0> ;
 	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, facilitate the consumption of external RDF, and to to enhance the narrative text with structured data."@en ;
 	skos:editoralNote
