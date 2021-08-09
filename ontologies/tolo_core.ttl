@@ -316,6 +316,14 @@ tolo:followsDirectly
 	skos:prefLabel "follows directly"@en ;
 	.
 
+tolo:hasFinalRestingPlace
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:Person ;
+	skos:definition "Relates a person to (one of) his/her final resting place(s)."@en ;
+	skos:prefLabel "has final resting place"^^xsd:string ;
+	skos:scopeNote "Significant people such as the Dalai Lamas have reliquary stupas in geographic locations like temples or chapels. Sometimes there can be relics in multiple places."@en ;
+	.
+
 tolo:hasFraternalCousin
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasCousin ;
@@ -436,6 +444,26 @@ tolo:hasPaternalGrandparent
 	skos:definition "Relates a person to his/her fathers's parent."@en ;
 	skos:prefLabel "has maternal grandmother"@en ;
 	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasPlaceOfBirth
+	a
+		owl:ObjectProperty ,
+		owl:FunctionalProperty
+		;
+	rdfs:domain tolo:Person ;
+	skos:definition "Relates a person to his/her birthplace."@en ;
+	skos:prefLabel "has place of birth"^^xsd:string ;
+	.
+
+tolo:hasPlaceOfDeath
+	a
+		owl:ObjectProperty ,
+		owl:FunctionalProperty
+		;
+	rdfs:domain tolo:Person ;
+	skos:definition "Relates a person to the place of his/her death."@en ;
+	skos:prefLabel "has place of death"^^xsd:string ;
 	.
 
 tolo:hasSororallNephew
