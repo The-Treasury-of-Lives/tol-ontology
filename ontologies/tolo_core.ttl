@@ -109,7 +109,7 @@ tolo:GenealogicalGrouping
 	skos:definition "A social unit consisting of people with a common ancestor."@en ;
 	skos:editorialNote
 		"Are there other terms included besides family and clan?"@en ,
-		"Improve definition to include adoption."^^xsd:string
+		"Improve definition to include adoption."@en
 		;
 	skos:example "Nuclear family, extended family, clan."@en ;
 	skos:prefLabel "Genealogical grouping"@en ;
@@ -303,7 +303,7 @@ tolo:follows
 		;
 	owl:inverseOf tolo:precedes ;
 	skos:definition "A generic, transitive ordering relationship indicating that the subject comes after the object in some context."@en ;
-	skos:example "The 14th Dalai Lama followed the 12th Dalai Lama in the incarnation lineage"^^xsd:string ;
+	skos:example "The 14th Dalai Lama followed the 12th Dalai Lama in the incarnation lineage"@en ;
 	skos:prefLabel "follows"@en ;
 	.
 
@@ -312,7 +312,7 @@ tolo:followsDirectly
 	rdfs:subPropertyOf tolo:follows ;
 	owl:inverseOf tolo:precedesDirectly ;
 	skos:definition "A generic, non-transitive ordering relationship indicating that the subject comes directly after the object in some context."@en ;
-	skos:example "The 14th Dalai Lama directly follows the 13th Dalai Lama in the incarnation lineage"^^xsd:string ;
+	skos:example "The 14th Dalai Lama directly follows the 13th Dalai Lama in the incarnation lineage"@en ;
 	skos:prefLabel "follows directly"@en ;
 	.
 
@@ -438,19 +438,6 @@ tolo:hasPaternalGrandparent
 	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
 	.
 
-tolo:hasProxyMember
-	a
-		owl:ObjectProperty ,
-		owl:InverseFunctionalProperty
-		;
-	rdfs:subPropertyOf tolo:hasMember ;
-	rdfs:domain tolo:OrderedCollection ;
-	rdfs:range tolo:ProxyMember ;
-	skos:definition "Relates an ordered collection to a proxy member belonging to it."@en ;
-	skos:prefLabel "has ordered member"@en ;
-	skos:scopeNote "Note that the ordered members of the collection are the proxies of the resources that we typically think of as belonging to a collection, not these resources themselves."@en ;
-	.
-
 tolo:hasSororallNephew
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasNephew ;
@@ -514,18 +501,6 @@ tolo:isProxyFor
 	skos:prefLabel "is proxy for"@en ;
 	.
 
-tolo:isProxyMemberOf
-	a
-		owl:ObjectProperty ,
-		owl:FunctionalProperty
-		;
-	rdfs:subPropertyOf tolo:isMemberOf ;
-	owl:inverseOf tolo:hasProxyMember ;
-	skos:definition "Relates a proxy member to the ordered collection it belongs to."@en ;
-	skos:prefLabel "is ordered member of"@en ;
-	skos:scopeNote "Note that the ordered members of the collection are the proxies of the real-world resources that we typically think of as belonging to a collection, not these resources themselves. a proxy member can belong to only one ordered collection."@en ;
-	.
-
 tolo:isSpouseIn
 	a owl:ObjectProperty ;
 	rdfs:domain tolo:Person ;
@@ -563,7 +538,7 @@ tolo:precedes
 		;
 	owl:inverseOf tolo:follows ;
 	skos:definition "A generic, transitive ordering relationship indicating that the subject comes before the object in some formal or informal group or collection."@en ;
-	skos:example "A teacher precedes his student's student in a teaching lineage."^^xsd:string ;
+	skos:example "A teacher precedes his student's student in a teaching lineage."@en ;
 	skos:prefLabel "precedes"@en ;
 	.
 
@@ -572,7 +547,7 @@ tolo:precedesDirectly
 	rdfs:subPropertyOf tolo:precedes ;
 	owl:inverseOf tolo:followsDirectly ;
 	skos:definition "A generic, non-transitive ordering relationship indicating that the subject comes directly before the object in some context."@en ;
-	skos:example "A teacher directly precedes his student in a teaching lineage."^^xsd:string ;
+	skos:example "A teacher directly precedes his student in a teaching lineage."@en ;
 	skos:prefLabel "precedes directly"@en ;
 	.
 
