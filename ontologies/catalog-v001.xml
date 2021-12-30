@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <!-- Local -->
+    <uri id="User Entered Import Resolution" name="https://ontologies.semanticsarts/o/gistCore" uri="gistCore10.0.0.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://ontologies.treasuryoflives.org/tolCore" uri="tolCore.ttl"/>
+    <!-- BDO -->
+    <uri id="User Entered Import Resolution" name="<http://purl.bdrc.io/ontology/core/>" uri="https://purl.bdrc.io/ontology/core.ttl"/>    
+    <uri id="User Entered Import Resolution" name="http://purl.bdrc.io/ontology/types/Gender/" uri="https://purl.bdrc.io/ontology/types/Gender.ttl"/>
+    <!-- Other external -->
+    <uri id="User Entered Import Resolution" name="<http://id.loc.gov/ontologies/bibframe-2-1-0/>" uri="https://id.loc.gov/ontologies/bibframe.rdf"/> 
+    <uri id="User Entered Import Resolution" name="<http://xmlns.com/foaf/0.1/>" uri="http://xmlns.com/foaf/0.1/"/>
+    
+</catalog>
