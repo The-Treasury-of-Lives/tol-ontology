@@ -44,7 +44,7 @@ function findJava() {
     java_home="${JAVA_HOME}"
   fi
   if [ "${java_home}" == "" ] ; then
-      log_error A-$JAVA_HOME
+    log_error A-$JAVA_HOME
     log_error "Please set RDF_TOOLKIT_JAVA_HOME or JAVA_HOME to point to a Java 7 or later installation."
     return 1
   fi
@@ -84,7 +84,7 @@ function findJava() {
 function findSerializerJar() {
 
   if [ "${RDF_TOOLKIT_JAR}" == "" ] ; then
-    RDF_TOOLKIT_JAR="$PWD/tools/rdf-toolkit.jar"
+    RDF_TOOLKIT_JAR="$PWD/tools/serializer/rdf-toolkit.jar"
   fi
 
   if [ -f "${RDF_TOOLKIT_JAR}" ] ; then

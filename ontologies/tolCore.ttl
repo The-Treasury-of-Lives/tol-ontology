@@ -1,18 +1,17 @@
 # imports: http://id.loc.gov/ontologies/bibframe-2-1-0/
 # imports: http://purl.bdrc.io/ontology/core/
-# imports: http://xmlns.com/foaf/0.1/
 # imports: https://ontologies.semanticarts.com/o/gistCore10.0.0
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix gist: <https://ontologies/semanticarts/gist/> .
+@prefix gist: <https://ontologies/semanticarts.com/gist/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix tol: <https://ontologies.treasuryoflives.org/tol/> .
+@prefix tol: <https://ontologies.treasuryoflives.org/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -24,10 +23,8 @@ tol:core
 	owl:imports
 		<http://id.loc.gov/ontologies/bibframe-2-1-0/> ,
 		<http://purl.bdrc.io/ontology/core/> ,
-		<http://xmlns.com/foaf/0.1/> ,
 		<https://ontologies.semanticarts.com/o/gistCore10.0.0>
 		;
-	owl:versionIRI <https://ontologies.treasuryoflives/tol/core/1.0.0> ;
 	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, facilitate the consumption of external RDF, and to to enhance the narrative text with structured data."@en ;
 	skos:editoralNote
 		"Add rdfs:isDefinedBy using onto-toolkit."@en ,
@@ -104,16 +101,18 @@ tol:Marriage
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:hasParty ;
-				owl:cardinality "2"^^xsd:nonNegativeInteger ;
+				owl:allValuesFrom tol:Person ;
 			]
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:hasParty ;
-				owl:allValuesFrom tol:Person ;
+				owl:onClass tol:Person ;
+				owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger ;
 			]
 		) ;
 	] ;
 	skos:definition "A culturally and often legally recognized union between two people, called spouses, that establishes rights and obligations between them."@en ;
+	skos:editorialNote "Cardinality restriction on gist:hasParty of 2 generates Protege error, so using qualified cardinality restriction instead."@en ;
 	skos:prefLabel "Marriage"@en ;
 	.
 
@@ -216,7 +215,7 @@ tol:hasFinalRestingPlace
 	rdfs:subPropertyOf gist:hasPhysicalLocation ;
 	rdfs:domain tol:Person ;
 	skos:definition "Relates a person to (one of) his/her final resting place(s)."@en ;
-	skos:prefLabel "has final resting place"^^xsd:string ;
+	skos:prefLabel "has final resting place"@en ;
 	skos:scopeNote "Significant people such as the Dalai Lamas have reliquary stupas in geographic locations like temples or chapels. Sometimes there can be relics in multiple places."@en ;
 	.
 
@@ -343,7 +342,7 @@ tol:hasPlaceOfBirth
 	rdfs:subPropertyOf gist:hasPhysicalLocation ;
 	rdfs:domain tol:Person ;
 	skos:definition "Relates a person to his/her birthplace."@en ;
-	skos:prefLabel "has place of birth"^^xsd:string ;
+	skos:prefLabel "has place of birth"@en ;
 	.
 
 tol:hasPlaceOfDeath
@@ -354,7 +353,7 @@ tol:hasPlaceOfDeath
 	rdfs:subPropertyOf gist:hasPhysicalLocation ;
 	rdfs:domain tol:Person ;
 	skos:definition "Relates a person to the place of his/her death."@en ;
-	skos:prefLabel "has place of death"^^xsd:string ;
+	skos:prefLabel "has place of death"@en ;
 	.
 
 tol:hasSororallNephew

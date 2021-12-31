@@ -1,23 +1,26 @@
-# imports: http://purl.bdrc.io/ontology/core/Gender
+# imports: http://purl.bdrc.io/ontology/types/Gender/
+# imports: https://ontologies.treasuryoflives.org/core
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix dctype: <http://purl.org/dc/dcmitype/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix gist: <https://ontologies/semanticarts/gist/> .
+@prefix gist: <https://ontologies/semanticarts.com/gist/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix tol: <https://ontologies.treasuryoflives.org/tol/> .
+@prefix tol: <https://ontologies.treasuryoflives.org/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 tol:main
 	a owl:Ontology ;
-	owl:imports bdo:Gender ;
-	skos:definition "A convenience file that provides a single point of entry to the Treasury of Lives Core Ontology. It does not itself define any terms, but rather specifies the full set of ontology and taxonomy imports, other than those imported directly by tol:core."@en ;
+	owl:imports
+		<http://purl.bdrc.io/ontology/types/Gender/> ,
+		tol:core
+		;
+	skos:definition "A convenience file that provides a single point of entry to the Treasury of Lives Ontology. It does not itself define any terms, but rather specifies the full set of ontology and taxonomy imports, other than those imported directly by tol:core."@en ;
 	skos:prefLabel "Treasury of Lives Ontology"@en ;
 	.
 
