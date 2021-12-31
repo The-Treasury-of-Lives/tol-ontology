@@ -50,7 +50,7 @@ tol:FraternalNiece
 	skos:definition "Relates a person to the daughter of his/her brother."@en ;
 	skos:prefLabel "has fraternal niece"@en ;
 	skos:scopeNote
-		"In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ,
+		"We do not currently distinguish biological, adoptive, half, and step relationships."@en ,
 		"While a niece can be related through either a sibling or sibling-in-law, a fraternal niece is always related through a brother."@en
 		;
 	.
@@ -125,6 +125,92 @@ tol:Person
 	skos:definition "A human being, alive, dead, imaginary, or fictional."@en ;
 	skos:prefLabel "Person"@en ;
 	skos:scopeNote "Differs from and not a subclass of gist:Person, which includings only persons who do or did exist."@en ;
+	.
+
+tol:Student
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			tol:Person
+			[
+				a owl:Restriction ;
+				owl:onProperty [
+					owl:inverseOf gist:hasRecipient ;
+				] ;
+				owl:someValuesFrom tol:TeacherStudentRelationship ;
+			]
+		) ;
+	] ;
+	skos:definition "A person who receives training in a text or practice from another person (the teacher)."@en ;
+	skos:prefLabel "Teacher"@en ;
+	.
+
+tol:Teacher
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			tol:Person
+			[
+				a owl:Restriction ;
+				owl:onProperty [
+					owl:inverseOf gist:hasGiver ;
+				] ;
+				owl:someValuesFrom tol:TeacherStudentRelationship ;
+			]
+		) ;
+	] ;
+	skos:definition "A person who transmits a text or practice to another person (the student)."@en ;
+	skos:prefLabel "Teacher"@en ;
+	.
+
+tol:TeacherStudentRelationship
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:TemporalRelation
+			gist:Agreement
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasParticipant ;
+				owl:cardinality "2"^^xsd:nonNegativeInteger ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasGiver ;
+				owl:allValuesFrom tol:Teacher ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasGiver ;
+				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasRecipient ;
+				owl:allValuesFrom tol:Student ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasRecipient ;
+				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:conformsTo ;
+				owl:someValuesFrom gist:Intention ;
+			]
+		) ;
+	] ;
+	skos:definition "A time-delimited relationship between a teacher and a student."@en ;
+	skos:editorialNote
+		"How to express what the Intention is? I.e., how should an intention be instantiated?"@en ,
+		"TODO Add relationship to text (bf:Text?) or Practice (subclass of gist:Behavior? - need to see examples."@en
+		;
+	skos:prefLabel "Teacher-Student Relationship"@en ;
+	skos:scopeNote "A teacher-student relationshp may be, but is not necessarily, part of a teaching lineage. In some cases the teacher-student relationship is known while the lineage is not."@en ;
 	.
 
 tol:birthCentury
@@ -224,7 +310,7 @@ tol:hasFraternalCousin
 	rdfs:subPropertyOf bdo:hasCousin ;
 	skos:definition "Relates a person to his/her cousin on the father's side."@en ;
 	skos:prefLabel "has fraternal cousin"@en ;
-	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
 	.
 
 tol:hasFraternalNephew
@@ -237,7 +323,7 @@ tol:hasFraternalNephew
 	skos:definition "Relates a person to the son of his/her brother."@en ;
 	skos:prefLabel "has fraternal nephew"@en ;
 	skos:scopeNote
-		"In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ,
+		"We do not currently distinguish biological, adoptive, half, and step relationships."@en ,
 		"While a nephew can be related through either a sibling or sibling-in-law, a fraternal nephew is always related through a brother."@en
 		;
 	.
@@ -247,7 +333,7 @@ tol:hasMaternalCousin
 	rdfs:subPropertyOf bdo:hasCousin ;
 	skos:definition "Relates a person to his/her cousin on the mother's side."@en ;
 	skos:prefLabel "has maternal cousin"@en ;
-	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
 	.
 
 tol:hasMaternalGrandfather
@@ -262,7 +348,7 @@ tol:hasMaternalGrandfather
 	) ;
 	skos:definition "Relates a person to his/her mother's father."@en ;
 	skos:prefLabel "has maternal grandfather"@en ;
-	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
 	.
 
 tol:hasMaternalGrandmother
@@ -277,7 +363,7 @@ tol:hasMaternalGrandmother
 	) ;
 	skos:definition "Relates a person to his/her mother's mother."@en ;
 	skos:prefLabel "has maternal grandmother"@en ;
-	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
 	.
 
 tol:hasMaternalGrandparent
@@ -289,7 +375,7 @@ tol:hasMaternalGrandparent
 	) ;
 	skos:definition "Relates a person to his/her mother's parent."@en ;
 	skos:prefLabel "has maternal grandmother"@en ;
-	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
 	.
 
 tol:hasPaternalGrandfather
@@ -304,7 +390,7 @@ tol:hasPaternalGrandfather
 	) ;
 	skos:definition "Relates a person to his/her father's father."@en ;
 	skos:prefLabel "has paternal grandfather"@en ;
-	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
 	.
 
 tol:hasPaternalGrandmother
@@ -319,7 +405,7 @@ tol:hasPaternalGrandmother
 	) ;
 	skos:definition "Relates a person to his/her father's mother."@en ;
 	skos:prefLabel "has paternal grandmother"@en ;
-	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
 	.
 
 tol:hasPaternalGrandparent
@@ -331,7 +417,7 @@ tol:hasPaternalGrandparent
 	) ;
 	skos:definition "Relates a person to his/her fathers's parent."@en ;
 	skos:prefLabel "has maternal grandmother"@en ;
-	skos:scopeNote "In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
 	.
 
 tol:hasPlaceOfBirth
@@ -366,7 +452,7 @@ tol:hasSororallNephew
 	skos:definition "Relates a person to his/her sister's son."@en ;
 	skos:prefLabel "has sororal nephew"@en ;
 	skos:scopeNote
-		"In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ,
+		"We do not currently distinguishbiological, adoptive, half, and step relationships."@en ,
 		"While a nephew can be related through either a sibling or sibling-in-law, a sororal nephew is always related through a sister."@en
 		;
 	.
@@ -381,7 +467,7 @@ tol:hasSororallNiece
 	skos:definition "Relates a person to his/her sister's daughter."@en ;
 	skos:prefLabel "has sororal niece"@en ;
 	skos:scopeNote
-		"In 1.0.0 we are not distinguishing biological, adoptive, half, and step relationships."@en ,
+		"We do not currently distinguish biological, adoptive, half, and step relationships."@en ,
 		"While a niece can be related through either a sibling or sibling-in-law, a sororal nephew is always related through a sister."@en
 		;
 	.
@@ -390,7 +476,8 @@ tol:nameVariant
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
 	skos:definition "A variant form of a person's name."@en ;
-	skos:editoralNote "Explain more about how these differ from the primary name."@en ;
+	skos:editoralNote "TODO Explain more about how these differ from the primary name. Make sure these are different names rather than a difference encoding of the primary name."@en ;
+	skos:editorialNote "Should domain be tol:Person?"@en ;
 	skos:prefLabel "name variant"@en ;
 	.
 
@@ -398,6 +485,7 @@ tol:primaryName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
 	skos:definition "The primary form of a person's name."@en ;
+	skos:editorialNote "Should domain be tol:Person?"@en ;
 	skos:prefLabel "primary name"@en ;
 	.
 
