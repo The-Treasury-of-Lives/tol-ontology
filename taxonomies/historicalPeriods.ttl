@@ -1,0 +1,640 @@
+# imports: https://ontologies.treasuryoflives.org/core
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://ontologies.semanticarts.com/gist/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tol: <https://ontologies.treasuryoflives.org/> .
+@prefix tolx: <https://taxonomies.treasuryoflives.org/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+tolx:historialPeriods
+	a owl:Ontology ;
+	owl:imports tol:core ;
+	skos:editorialNote
+		"TODO Add start and end dates with 100 year precision when gist 11.0.0 is released."@en ,
+		"The early, mid, and late terms are not really centuries, but this works to create a single hierarchy. Consider whether we need the class Century or can just use HistoricalPeriod."@en
+		;
+	skos:prefLabel "Historial Periods"@en ;
+	.
+
+tolx:_Century_10th_century
+	a tol:Century ;
+	skos:definition "The period of time between 901 and 1000 AD."@en ;
+	skos:prefLabel "10th century"@en ;
+	gist:precedesDirectly tolx:_Century_11th_century ;
+	.
+
+tolx:_Century_10th_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 10th century."@en ;
+	skos:prefLabel "10th century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_10th_century ;
+	gist:precedesDirectly tolx:_Century_10th_century_mid ;
+	.
+
+tolx:_Century_10th_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 10th century."@en ;
+	skos:prefLabel "10th century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_10th_century ;
+	.
+
+tolx:_Century_10th_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 10th century."@en ;
+	skos:prefLabel "10th century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_10th_century ;
+	gist:precedesDirectly tolx:_Century_10th_century_late ;
+	.
+
+tolx:_Century_11th_century
+	a tol:Century ;
+	skos:definition "The period of time between 1001 and 1100 AD."@en ;
+	skos:prefLabel "11th century"@en ;
+	gist:precedesDirectly tolx:_Century_12th_century ;
+	.
+
+tolx:_Century_11th_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 11th century."@en ;
+	skos:prefLabel "11th century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_11th_century ;
+	gist:precedesDirectly tolx:_Century_11th_century_mid ;
+	.
+
+tolx:_Century_11th_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 11th century."@en ;
+	skos:prefLabel "11th century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_11th_century ;
+	.
+
+tolx:_Century_11th_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 11th century."@en ;
+	skos:prefLabel "11th century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_11th_century ;
+	gist:precedesDirectly tolx:_Century_11th_century_late ;
+	.
+
+tolx:_Century_12th_century
+	a tol:Century ;
+	skos:definition "The period of time between 1101 and 1200 AD."@en ;
+	skos:prefLabel "12th century"@en ;
+	gist:precedesDirectly tolx:_Century_13th_century ;
+	.
+
+tolx:_Century_12th_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 12th century."@en ;
+	skos:prefLabel "12th century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_12th_century ;
+	gist:precedesDirectly tolx:_Century_12th_century_mid ;
+	.
+
+tolx:_Century_12th_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 12th century."@en ;
+	skos:prefLabel "12th century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_12th_century ;
+	.
+
+tolx:_Century_12th_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 12th century."@en ;
+	skos:prefLabel "12th century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_12th_century ;
+	gist:precedesDirectly tolx:_Century_12th_century_late ;
+	.
+
+tolx:_Century_13th_century
+	a tol:Century ;
+	skos:definition "The period of time between 1201 and 1300 AD."@en ;
+	skos:prefLabel "13th century"@en ;
+	gist:precedesDirectly tolx:_Century_14th_century ;
+	.
+
+tolx:_Century_13th_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 13th century."@en ;
+	skos:prefLabel "13th century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_13th_century ;
+	gist:precedesDirectly tolx:_Century_13th_century_mid ;
+	.
+
+tolx:_Century_13th_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 13th century."@en ;
+	skos:prefLabel "13th century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_13th_century ;
+	.
+
+tolx:_Century_13th_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 13th century."@en ;
+	skos:prefLabel "13th century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_13th_century ;
+	gist:precedesDirectly tolx:_Century_13th_century_late ;
+	.
+
+tolx:_Century_14th_century
+	a tol:Century ;
+	skos:definition "The period of time between 1301 and 1400 AD."@en ;
+	skos:prefLabel "14th century"@en ;
+	gist:precedesDirectly tolx:_Century_15th_century ;
+	.
+
+tolx:_Century_14th_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 14th century."@en ;
+	skos:prefLabel "14th century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_14th_century ;
+	gist:precedesDirectly tolx:_Century_14th_century_mid ;
+	.
+
+tolx:_Century_14th_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 14th century."@en ;
+	skos:prefLabel "14th century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_14th_century ;
+	.
+
+tolx:_Century_14th_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 14th century."@en ;
+	skos:prefLabel "14th century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_14th_century ;
+	gist:precedesDirectly tolx:_Century_14th_century_late ;
+	.
+
+tolx:_Century_15th_century
+	a tol:Century ;
+	skos:definition "The period of time between 1401 and 1500 AD."@en ;
+	skos:prefLabel "15th century"@en ;
+	gist:precedesDirectly tolx:_Century_16th_century ;
+	.
+
+tolx:_Century_15th_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 15th century."@en ;
+	skos:prefLabel "15th century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_15th_century ;
+	gist:precedesDirectly tolx:_Century_15th_century_mid ;
+	.
+
+tolx:_Century_15th_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 15th century."@en ;
+	skos:prefLabel "15th century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_15th_century ;
+	.
+
+tolx:_Century_15th_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 15th century."@en ;
+	skos:prefLabel "15th century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_15th_century ;
+	gist:precedesDirectly tolx:_Century_15th_century_late ;
+	.
+
+tolx:_Century_16th_century
+	a tol:Century ;
+	skos:definition "The period of time between 1501 and 1600 AD."@en ;
+	skos:prefLabel "16th century"@en ;
+	gist:precedesDirectly tolx:_Century_17th_century ;
+	.
+
+tolx:_Century_16th_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 16th century."@en ;
+	skos:prefLabel "16th century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_16th_century ;
+	gist:precedesDirectly tolx:_Century_16th_century_mid ;
+	.
+
+tolx:_Century_16th_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 16th century."@en ;
+	skos:prefLabel "16th century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_16th_century ;
+	.
+
+tolx:_Century_16th_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 16th century."@en ;
+	skos:prefLabel "16th century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_16th_century ;
+	gist:precedesDirectly tolx:_Century_16th_century_late ;
+	.
+
+tolx:_Century_17th_century
+	a tol:Century ;
+	skos:definition "The period of time between 1601 and 1700 AD."@en ;
+	skos:prefLabel "17th century"@en ;
+	gist:precedesDirectly tolx:_Century_18th_century ;
+	.
+
+tolx:_Century_17th_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 17th century."@en ;
+	skos:prefLabel "17th century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_17th_century ;
+	gist:precedesDirectly tolx:_Century_17th_century_mid ;
+	.
+
+tolx:_Century_17th_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 17th century."@en ;
+	skos:prefLabel "17th century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_17th_century ;
+	.
+
+tolx:_Century_17th_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 17th century."@en ;
+	skos:prefLabel "17th century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_17th_century ;
+	gist:precedesDirectly tolx:_Century_17th_century_late ;
+	.
+
+tolx:_Century_18th_century
+	a tol:Century ;
+	skos:definition "The period of time between 1701 and 1800 AD."@en ;
+	skos:prefLabel "18th century"@en ;
+	gist:precedesDirectly tolx:_Century_19th_century ;
+	.
+
+tolx:_Century_18th_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 18th century."@en ;
+	skos:prefLabel "18th century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_18th_century ;
+	gist:precedesDirectly tolx:_Century_18th_century_mid ;
+	.
+
+tolx:_Century_18th_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 18th century."@en ;
+	skos:prefLabel "18th century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_18th_century ;
+	.
+
+tolx:_Century_18th_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 18th century."@en ;
+	skos:prefLabel "18th century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_18th_century ;
+	gist:precedesDirectly tolx:_Century_18th_century_late ;
+	.
+
+tolx:_Century_19th_century
+	a tol:Century ;
+	skos:definition "The period of time between 1901 and 2000 AD."@en ;
+	skos:prefLabel "19th century"@en ;
+	gist:precedesDirectly tolx:_Century_20th_century ;
+	.
+
+tolx:_Century_19th_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 19th century."@en ;
+	skos:prefLabel "19th century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_19th_century ;
+	gist:precedesDirectly tolx:_Century_19th_century_mid ;
+	.
+
+tolx:_Century_19th_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 19th century."@en ;
+	skos:prefLabel "19th century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_19th_century ;
+	.
+
+tolx:_Century_19th_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 19th century."@en ;
+	skos:prefLabel "19th century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_19th_century ;
+	gist:precedesDirectly tolx:_Century_19th_century_late ;
+	.
+
+tolx:_Century_1st_century
+	a tol:Century ;
+	skos:definition "The period of time between 1 and 100 AD."@en ;
+	skos:prefLabel "1st century"@en ;
+	gist:precedesDirectly tolx:_Century_2nd_century ;
+	.
+
+tolx:_Century_1st_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 1st century."@en ;
+	skos:prefLabel "1st century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_1st_century ;
+	gist:precedesDirectly tolx:_Century_1st_century_mid ;
+	.
+
+tolx:_Century_1st_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 1st century."@en ;
+	skos:prefLabel "1st century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_1st_century ;
+	.
+
+tolx:_Century_1st_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 1st century."@en ;
+	skos:prefLabel "1st century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_1st_century ;
+	gist:precedesDirectly tolx:_Century_1st_century_late ;
+	.
+
+tolx:_Century_20th_century
+	a tol:Century ;
+	skos:definition "The period of time between 2001 and 2100 AD."@en ;
+	skos:prefLabel "20th century"@en ;
+	gist:precedesDirectly tolx:_Century_21st_century ;
+	.
+
+tolx:_Century_20th_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 20th century."@en ;
+	skos:prefLabel "20th century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_20th_century ;
+	gist:precedesDirectly tolx:_Century_20th_century_mid ;
+	.
+
+tolx:_Century_20th_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 20th century."@en ;
+	skos:prefLabel "20th century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_20th_century ;
+	.
+
+tolx:_Century_20th_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 20th century."@en ;
+	skos:prefLabel "20th century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_20th_century ;
+	gist:precedesDirectly tolx:_Century_20th_century_late ;
+	.
+
+tolx:_Century_21st_century
+	a tol:Century ;
+	skos:definition "The period of time between 2101 and 2200 AD."@en ;
+	skos:prefLabel "21st century"@en ;
+	.
+
+tolx:_Century_21st_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 21st century."@en ;
+	skos:prefLabel "21st century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_21st_century ;
+	.
+
+tolx:_Century_2nd_century
+	a tol:Century ;
+	skos:definition "The period of time between 101 and 200 AD."@en ;
+	skos:prefLabel "2nd century"@en ;
+	gist:precedesDirectly tolx:_Century_3rd_century ;
+	.
+
+tolx:_Century_2nd_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 2nd century."@en ;
+	skos:prefLabel "2nd century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_2nd_century ;
+	gist:precedesDirectly tolx:_Century_2nd_century_mid ;
+	.
+
+tolx:_Century_2nd_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 2nd century."@en ;
+	skos:prefLabel "2nd century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_2nd_century ;
+	.
+
+tolx:_Century_2nd_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 2nd century."@en ;
+	skos:prefLabel "2nd century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_2nd_century ;
+	gist:precedesDirectly tolx:_Century_2nd_century_late ;
+	.
+
+tolx:_Century_3rd_century
+	a tol:Century ;
+	skos:definition "The period of time between 201 and 300 AD."@en ;
+	skos:prefLabel "3rd century"@en ;
+	gist:precedesDirectly tolx:_Century_4th_century ;
+	.
+
+tolx:_Century_3rd_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 3rdd century."@en ;
+	skos:prefLabel "3rd century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_3rd_century ;
+	gist:precedesDirectly tolx:_Century_3rd_century_mid ;
+	.
+
+tolx:_Century_3rd_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 3rd century."@en ;
+	skos:prefLabel "3rd century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_3rd_century ;
+	.
+
+tolx:_Century_3rd_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 3rdd century."@en ;
+	skos:prefLabel "3rd century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_3rd_century ;
+	gist:precedesDirectly tolx:_Century_3rd_century_late ;
+	.
+
+tolx:_Century_4th_century
+	a tol:Century ;
+	skos:definition "The period of time between 301 and 400 AD."@en ;
+	skos:prefLabel "4th century"@en ;
+	gist:precedesDirectly tolx:_Century_5th_century ;
+	.
+
+tolx:_Century_4th_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 4th century."@en ;
+	skos:prefLabel "4th century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_4th_century ;
+	gist:precedesDirectly tolx:_Century_4th_century_mid ;
+	.
+
+tolx:_Century_4th_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 4th century."@en ;
+	skos:prefLabel "4th century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_4th_century ;
+	.
+
+tolx:_Century_4th_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 4th century."@en ;
+	skos:prefLabel "4th century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_4th_century ;
+	gist:precedesDirectly tolx:_Century_4th_century_late ;
+	.
+
+tolx:_Century_5th_century
+	a tol:Century ;
+	skos:definition "The period of time between 401 and 500 AD."@en ;
+	skos:prefLabel "5th century"@en ;
+	gist:precedesDirectly tolx:_Century_6th_century ;
+	.
+
+tolx:_Century_5th_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 5th century."@en ;
+	skos:prefLabel "5th century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_5th_century ;
+	gist:precedesDirectly tolx:_Century_5th_century_mid ;
+	.
+
+tolx:_Century_5th_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 5th century."@en ;
+	skos:prefLabel "5th century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_5th_century ;
+	.
+
+tolx:_Century_5th_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 5th century."@en ;
+	skos:prefLabel "5th century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_5th_century ;
+	gist:precedesDirectly tolx:_Century_5th_century_late ;
+	.
+
+tolx:_Century_6th_century
+	a tol:Century ;
+	skos:definition "The period of time between 501 and 600 AD."@en ;
+	skos:prefLabel "6th century"@en ;
+	gist:precedesDirectly tolx:_Century_7th_century ;
+	.
+
+tolx:_Century_6th_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 6th century."@en ;
+	skos:prefLabel "6th century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_6th_century ;
+	gist:precedesDirectly tolx:_Century_6th_century_mid ;
+	.
+
+tolx:_Century_6th_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 6th century."@en ;
+	skos:prefLabel "6th century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_6th_century ;
+	.
+
+tolx:_Century_6th_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 6th century."@en ;
+	skos:prefLabel "6th century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_6th_century ;
+	gist:precedesDirectly tolx:_Century_6th_century_late ;
+	.
+
+tolx:_Century_7th_century
+	a tol:Century ;
+	skos:definition "The period of time between 601 and 700 AD."@en ;
+	skos:prefLabel "7th century"@en ;
+	gist:precedesDirectly tolx:_Century_8th_century ;
+	.
+
+tolx:_Century_7th_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 7th century."@en ;
+	skos:prefLabel "7th century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_7th_century ;
+	gist:precedesDirectly tolx:_Century_7th_century_mid ;
+	.
+
+tolx:_Century_7th_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 7th century."@en ;
+	skos:prefLabel "7th century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_7th_century ;
+	.
+
+tolx:_Century_7th_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 7th century."@en ;
+	skos:prefLabel "7th century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_7th_century ;
+	gist:precedesDirectly tolx:_Century_7th_century_late ;
+	.
+
+tolx:_Century_8th_century
+	a tol:Century ;
+	skos:definition "The period of time between 701 and 800 AD."@en ;
+	skos:prefLabel "8th century"@en ;
+	gist:precedesDirectly tolx:_Century_9th_century ;
+	.
+
+tolx:_Century_8th_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 8th century."@en ;
+	skos:prefLabel "8th century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_8th_century ;
+	gist:precedesDirectly tolx:_Century_8th_century_mid ;
+	.
+
+tolx:_Century_8th_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 8th century."@en ;
+	skos:prefLabel "8th century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_8th_century ;
+	.
+
+tolx:_Century_8th_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 8th century."@en ;
+	skos:prefLabel "8th century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_8th_century ;
+	gist:precedesDirectly tolx:_Century_8th_century_late ;
+	.
+
+tolx:_Century_9th_century
+	a tol:Century ;
+	skos:definition "The period of time between 801 and 900 AD."@en ;
+	skos:prefLabel "9th century"@en ;
+	gist:precedesDirectly tolx:_Century_10th_century ;
+	.
+
+tolx:_Century_9th_century_early
+	a tol:Century ;
+	skos:definition "The early part of the 9th century."@en ;
+	skos:prefLabel "9th century (early)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_9th_century ;
+	gist:precedesDirectly tolx:_Century_9th_century_mid ;
+	.
+
+tolx:_Century_9th_century_late
+	a tol:Century ;
+	skos:definition "The latter part of the 9th century."@en ;
+	skos:prefLabel "9th century (late)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_9th_century ;
+	.
+
+tolx:_Century_9th_century_mid
+	a tol:Century ;
+	skos:definition "The mid part of the 9th century."@en ;
+	skos:prefLabel "9th century (mid)"@en ;
+	gist:hasDirectSuperCategory tolx:_Century_9th_century ;
+	gist:precedesDirectly tolx:_Century_9th_century_late ;
+	.
+

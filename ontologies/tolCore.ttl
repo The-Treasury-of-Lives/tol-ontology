@@ -36,7 +36,8 @@ tol:core
 tol:Century
 	rdfs:subClassOf tol:HistoricalPeriod ;
 	skos:definition "A historical period consisting of 100 years."@en ;
-	skos:example "8th century AD, 2nd century BC."@en ;
+	skos:editorialNote "Not sure whether we need Century in addition to HistoricalPeriod."@en ;
+	skos:example "9th century AD."@en ;
 	skos:prefLabel "Century"@en ;
 	.
 
@@ -80,9 +81,13 @@ tol:GenealogicalGrouping
 	.
 
 tol:HistoricalPeriod
-	skos:definition "A time interval having some historial signifance or distinguishing features."@en ;
-	skos:example "2nd century BC, the 1920s."@en ;
+	rdfs:subClassOf gist:Category ;
+	rdfs:seeAlso bdo:Era ;
+	skos:definition "A time interval having some historical signifance or distinguishing features."@en ;
+	skos:editorialNote "Not sure whether this should also subclass bdo:Era."@en ;
+	skos:example "19th century, the 1920s."@en ;
 	skos:prefLabel "Historical Period"@en ;
+	skos:scopeNote "Currently only centuries are defined."@en ;
 	.
 
 tol:Location
@@ -143,7 +148,8 @@ tol:Student
 		) ;
 	] ;
 	skos:definition "A person who receives training in a text or practice from another person (the teacher)."@en ;
-	skos:prefLabel "Teacher"@en ;
+	skos:editorialNote "Not sure if needed."@en ;
+	skos:prefLabel "Student"@en ;
 	.
 
 tol:Teacher
@@ -162,6 +168,7 @@ tol:Teacher
 		) ;
 	] ;
 	skos:definition "A person who transmits a text or practice to another person (the student)."@en ;
+	skos:editorialNote "Not sure if needed."@en ;
 	skos:prefLabel "Teacher"@en ;
 	.
 
@@ -213,63 +220,60 @@ tol:TeacherStudentRelationship
 	skos:scopeNote "A teacher-student relationshp may be, but is not necessarily, part of a teaching lineage. In some cases the teacher-student relationship is known while the lineage is not."@en ;
 	.
 
+tol:alternateBirthYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:birthYear ;
+	skos:definition "An alternate year in which it is speculated that a person may have been born."@en ;
+	skos:prefLabel "alternate birth year"@en ;
+	skos:scopeNote "May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
+	.
+
+tol:alternateDeathYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:deathYear ;
+	skos:definition "An alternate year in which it is speculated that a person may have died."@en ;
+	skos:prefLabel "alternate death year"@en ;
+	skos:scopeNote "May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
+	.
+
 tol:birthCentury
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:birthDate ;
+	rdfs:subPropertyOf tol:start ;
 	skos:definition "The century in which a person was born."@en ;
 	skos:prefLabel "birth century"@en ;
 	skos:scopeNote
 		"May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ,
-		"This value may be asserted directly, or derived from a known birth year or birth date."@en
+		"This value may be asserted directly, or derived from a known birth year. It is typically provided and displayed only when the year is not known."@en
 		;
-	.
-
-tol:birthDate
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:start ;
-	skos:definition "The date on which a person was born, including various precisions such as year, century, etc."@en ;
-	skos:prefLabel "birth date"@en ;
-	skos:scopeNote "May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
 	.
 
 tol:birthYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:birthDate ;
+	rdfs:subPropertyOf tol:start ;
 	skos:definition "The year in which a person was born."@en ;
 	skos:prefLabel "birth year"@en ;
-	skos:scopeNote
-		"May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ,
-		"This value may be asserted directly, or derived from a known birth date."@en
-		;
+	skos:scopeNote "May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
 	.
 
 tol:deathCentury
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:deathDate ;
+	rdfs:subPropertyOf tol:end ;
 	skos:definition "The century in which a person died."@en ;
 	skos:prefLabel "death century"@en ;
 	skos:scopeNote
 		"May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ,
-		"This value may be asserted directly, or derived from a known death year or death date."@en
+		"This value may be asserted directly, or derived from a known death year. It is typically provided and displayed only when the year is not known."@en
 		;
-	.
-
-tol:deathDate
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:end ;
-	skos:definition "The date on which a person died, including various precisions such as year, century, etc."@en ;
-	skos:prefLabel "death date"@en ;
-	skos:scopeNote "May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
 	.
 
 tol:deathYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:deathDate ;
+	rdfs:subPropertyOf tol:end ;
 	skos:definition "The year in which a person died."@en ;
-	skos:prefLabel "death date"@en ;
+	skos:prefLabel "death year"@en ;
 	skos:scopeNote
 		"May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ,
-		"This value may be asserted directly, or derived from a known birth year or birth date."@en
+		"This value may be asserted directly, or derived from a known birth year."@en
 		;
 	.
 
@@ -284,6 +288,7 @@ tol:dissolutionDate
 tol:end
 	a owl:DatatypeProperty ;
 	skos:definition "The date, time, or datetime some event, relationship, or other thing ended."@en ;
+	skos:editorialNote "TODO Re-evaluate with gist 11. EDTF is not recognized by OWL processors. How much uncertainty to we really need to accommodate?"@en ;
 	skos:prefLabel "end"@en ;
 	skos:scopeNote "May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
 	.
@@ -500,6 +505,7 @@ tol:primaryTitle
 tol:start
 	a owl:DatatypeProperty ;
 	skos:definition "The date, time, or datetime some event, relationship, or other thing started."@en ;
+	skos:editorialNote "TODO Re-evaluate with gist 11. EDTF is not recognized by OWL processors. How much uncertainty to we really need to accommodate?"@en ;
 	skos:prefLabel "start"@en ;
 	skos:scopeNote "May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."@en ;
 	.
