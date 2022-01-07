@@ -20,7 +20,7 @@ tol:main
 		<http://purl.bdrc.io/ontology/types/Gender/> ,
 		tol:core
 		;
-	skos:definition "A convenience file that provides a single point of entry to the Treasury of Lives Ontology. It does not itself define any terms, but rather specifies the full set of ontology and taxonomy imports, other than those imported directly by tol:core."@en ;
-	skos:prefLabel "Treasury of Lives Ontology"@en ;
+	skos:definition "A convenience file that provides a single point of entry to the Treasury of Lives Ontology. It does not itself define any terms, but rather specifies the full set of ontology and taxonomy imports, other than those imported directly by tol:core."^^xsd:string ;
+	skos:prefLabel "Treasury of Lives Ontology"^^xsd:string ;
 	.
 
