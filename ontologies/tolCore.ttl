@@ -34,11 +34,14 @@ tol:core
 	.
 
 tol:Century
-	rdfs:subClassOf tol:HistoricalPeriod ;
-	skos:definition "A historical period consisting of 100 years."^^xsd:string ;
-	skos:editorialNote "Not sure whether we need Century in addition to HistoricalPeriod."^^xsd:string ;
-	skos:example "9th century AD."^^xsd:string ;
+	rdfs:subClassOf gist:TimePeriod ;
+	skos:definition "A time period of 100 years reckoned from the birth of Jesus Christ."^^xsd:string ;
+	skos:example "9th century AD"^^xsd:string ;
 	skos:prefLabel "Century"^^xsd:string ;
+	skos:scopeNote
+		"There is disagreement about the first and end years of a century. E.g., strictly, the 18th century is the period 1801-1900, while in common usage it is 1800-1899. The granularity of this distinction is not relevant to our purposes."^^xsd:string ,
+		"To be distinguished from an arbitrary period of 100 years, such as 1825-1924."^^xsd:string
+		;
 	.
 
 tol:FraternalNiece
@@ -85,18 +88,20 @@ tol:HistoricalPeriod
 		gist:Category ,
 		[
 			a owl:Restriction ;
+			owl:onProperty tol:end ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+		] ,
+		[
+			a owl:Restriction ;
 			owl:onProperty tol:start ;
 			owl:cardinality "1"^^xsd:nonNegativeInteger ;
 		]
 		;
 	rdfs:seeAlso bdo:Era ;
 	skos:definition "A time interval having some historical signifance or distinguishing features."^^xsd:string ;
-	skos:example "19th century, the 1920s."^^xsd:string ;
+	skos:example "The Middle Ages"^^xsd:string ;
 	skos:prefLabel "Historical Period"^^xsd:string ;
-	skos:scopeNote
-		"A historical period has a start date in the past, but may not yet have an end date."^^xsd:string ,
-		"Currently only centuries are defined in the taxonomy."^^xsd:string
-		;
+	skos:scopeNote "We assume a historical period is recognized as such only after it is over, thus it always has an endpoint."^^xsd:string ;
 	.
 
 tol:Lineage
@@ -306,6 +311,25 @@ tol:TeachingLineage
 	skos:scopeNote "Teachers in a lineage are not designated numerically (as are, e.g., persons in an incarnation lineage), but are ordered through gist:precedesDirectly. Elements in the lineage may certainly co-occur or overlap."^^xsd:string ;
 	.
 
+tol:TimePeriod
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tol:end ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tol:start ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+		]
+		;
+	skos:definition "TBD."^^xsd:string ;
+	skos:example "12th century, late 14th century"^^xsd:string ;
+	skos:prefLabel "Time Period"^^xsd:string ;
+	.
+
 tol:alternateBirthYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tol:birthYear ;
@@ -325,12 +349,10 @@ tol:alternateDeathYear
 tol:birthCentury
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tol:start ;
+	rdfs:range tol:Century ;
 	skos:definition "The century in which a person was born."^^xsd:string ;
+	skos:editorialNote "Figure out whether this only includes centuries, or time periods like late 18th century."^^xsd:string ;
 	skos:prefLabel "birth century"^^xsd:string ;
-	skos:scopeNote
-		"May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."^^xsd:string ,
-		"This value may be asserted directly, or derived from a known birth year. It is typically provided and displayed only when the year is not known."^^xsd:string
-		;
 	.
 
 tol:birthYear
@@ -344,12 +366,10 @@ tol:birthYear
 tol:deathCentury
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tol:end ;
+	rdfs:range tol:Century ;
 	skos:definition "The century in which a person died."^^xsd:string ;
+	skos:editorialNote "Figure out whether this only includes centuries, or time periods like late 18th century."^^xsd:string ;
 	skos:prefLabel "death century"^^xsd:string ;
-	skos:scopeNote
-		"May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."^^xsd:string ,
-		"This value may be asserted directly, or derived from a known death year. It is typically provided and displayed only when the year is not known."^^xsd:string
-		;
 	.
 
 tol:deathYear
@@ -566,17 +586,17 @@ tol:hasSororallNiece
 tol:nameVariant
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
+	rdfs:domain tol:Person ;
 	skos:definition "A variant form of a person's name."^^xsd:string ;
 	skos:editoralNote "TODO Explain more about how these differ from the primary name. Make sure these are different names rather than a difference encoding of the primary name."^^xsd:string ;
-	skos:editorialNote "Should domain be tol:Person?"^^xsd:string ;
 	skos:prefLabel "name variant"^^xsd:string ;
 	.
 
 tol:primaryName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
+	rdfs:domain tol:Person ;
 	skos:definition "The primary form of a person's name."^^xsd:string ;
-	skos:editorialNote "Should domain be tol:Person?"^^xsd:string ;
 	skos:prefLabel "primary name"^^xsd:string ;
 	.
 
@@ -598,16 +618,12 @@ tol:start
 
 tol:title
 	a owl:DatatypeProperty ;
-	rdfs:domain tol:Person ;
-	rdfs:range xsd:string ;
 	skos:definition "An appellation of dignity, honor, distinction, or preeminence attached to a person or family by virtue of rank, office, precedent, privilege, attainment, or lands."^^xsd:string ;
 	skos:prefLabel "title"^^xsd:string ;
 	.
 
 tol:titleVariant
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:title ;
-	rdfs:domain tol:Person ;
 	skos:definition "A variant form of a person's title."^^xsd:string ;
 	skos:editoralNote "Explain more about how these differ from the primary name."^^xsd:string ;
 	skos:prefLabel "title variant"^^xsd:string ;
