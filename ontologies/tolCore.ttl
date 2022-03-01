@@ -119,20 +119,28 @@ tol:Lineage
 		] ,
 		[
 			a owl:Restriction ;
+			owl:onProperty gist:isBasedOn ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+		] ,
+		[
+			a owl:Restriction ;
 			owl:onProperty tol:start ;
 			owl:cardinality "1"^^xsd:nonNegativeInteger ;
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty gist:hasOrderedMember ;
+			owl:onProperty gist:hasMember ;
 			owl:minCardinality "2"^^xsd:nonNegativeInteger ;
 		]
 		;
 	skos:definition "An ordered collection of persons in which a relationship or role is passed sequentially from one to the other."^^xsd:string ;
-	skos:editorialNote "TODO need better definition."^^xsd:string ;
-	skos:example "The succession of abbots to a monastery; the transmission of a text from teachers to students; an incarnational sequence."^^xsd:string ;
+	skos:editorialNote
+		"Figure out whether one lineage can/should be be part of another lineage in a split lineage."^^xsd:string ,
+		"TODO need better definition."^^xsd:string
+		;
+	skos:example "The succession of abbots to a monastery; the transmission of a text from teachers to students; an incarnation sequence."^^xsd:string ;
 	skos:prefLabel "Lineage"^^xsd:string ;
-	skos:scopeNote "The lineage itself has a start date and possibly an end date; it may have a name; and its ordered members have start and possibly end dates. In some types of lineages the members have numeric designations (e.g., 14th Dalai Lama), in others they are ordered by precedence relationships (e.g., teachers in a teaching lineage). Some but not all types of lineages are strictly ordered."^^xsd:string ;
+	skos:scopeNote "The lineage itself has a start date and possibly an end date; it may have a name; and its ordered members have start and possibly end dates. In some types of lineages the members have numeric designations (e.g., 14th Dalai Lama), in others they are ordered by precedence relationships (e.g., teachers in a teaching lineage). Some but not all types of lineages are strictly ordered, and there may be split lineages with multiple branches descending from a single element in a tree-like structure."^^xsd:string ;
 	.
 
 tol:Location
@@ -587,24 +595,35 @@ tol:nameVariant
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
 	rdfs:domain tol:Person ;
-	skos:definition "A variant form of a person's name."^^xsd:string ;
+	skos:definition "A name of a person."^^xsd:string ;
 	skos:editoralNote "TODO Explain more about how these differ from the primary name. Make sure these are different names rather than a difference encoding of the primary name."^^xsd:string ;
+	skos:example "TODO"^^xsd:string ;
 	skos:prefLabel "name variant"^^xsd:string ;
 	.
 
 tol:primaryName
-	a owl:DatatypeProperty ;
+	a
+		owl:DatatypeProperty ,
+		owl:FunctionalProperty
+		;
 	rdfs:subPropertyOf gist:name ;
 	rdfs:domain tol:Person ;
-	skos:definition "The primary form of a person's name."^^xsd:string ;
+	skos:definition "The primary name of a person."^^xsd:string ;
+	skos:editoralNote "TODO Explain more about how this differs from name variants."^^xsd:string ;
+	skos:example "TODO"^^xsd:string ;
 	skos:prefLabel "primary name"^^xsd:string ;
 	.
 
 tol:primaryTitle
-	a owl:DatatypeProperty ;
+	a
+		owl:DatatypeProperty ,
+		owl:FunctionalProperty
+		;
 	rdfs:subPropertyOf tol:title ;
 	rdfs:domain tol:Person ;
 	skos:definition "The primary form of a person's title."^^xsd:string ;
+	skos:editoralNote "TODO Explain more about how this differs from the variant title."^^xsd:string ;
+	skos:example "TODO"^^xsd:string ;
 	skos:prefLabel "primary title"^^xsd:string ;
 	.
 
@@ -618,14 +637,16 @@ tol:start
 
 tol:title
 	a owl:DatatypeProperty ;
+	rdfs:range xsd:string ;
 	skos:definition "An appellation of dignity, honor, distinction, or preeminence attached to a person or family by virtue of rank, office, precedent, privilege, attainment, or lands."^^xsd:string ;
 	skos:prefLabel "title"^^xsd:string ;
 	.
 
 tol:titleVariant
 	a owl:DatatypeProperty ;
-	skos:definition "A variant form of a person's title."^^xsd:string ;
-	skos:editoralNote "Explain more about how these differ from the primary name."^^xsd:string ;
+	skos:definition "A variant title of a person."^^xsd:string ;
+	skos:editoralNote "TODO Explain more about how these differ from the primary title."^^xsd:string ;
+	skos:example "TODO"^^xsd:string ;
 	skos:prefLabel "title variant"^^xsd:string ;
 	.
 
