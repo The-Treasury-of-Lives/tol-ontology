@@ -18,7 +18,6 @@
 tolx:timePeriods
 	a owl:Ontology ;
 	owl:imports tol:core ;
-	skos:editorialNote "TODO Add start and end dates with 100 year precision when gist 11.0.0 is released."@en ;
 	skos:prefLabel "Centuries"@en ;
 	.
 

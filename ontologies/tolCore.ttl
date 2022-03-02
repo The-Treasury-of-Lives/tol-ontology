@@ -1,6 +1,6 @@
 # imports: http://id.loc.gov/ontologies/bibframe-2-1-0/
 # imports: http://purl.bdrc.io/ontology/core/
-# imports: https://ontologies.semanticarts.com/o/gistCore10.0.0
+# imports: https://ontologies.semanticarts.com/o/gistCore11.0.0
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
@@ -23,7 +23,7 @@ tol:core
 	owl:imports
 		<http://id.loc.gov/ontologies/bibframe-2-1-0/> ,
 		<http://purl.bdrc.io/ontology/core/> ,
-		<https://ontologies.semanticarts.com/o/gistCore10.0.0>
+		<https://ontologies.semanticarts.com/o/gistCore11.0.0>
 		;
 	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, facilitate the consumption of external RDF, and to to enhance the narrative text with structured data."^^xsd:string ;
 	skos:editoralNote
@@ -31,6 +31,14 @@ tol:core
 		"Combining all terms into one module for now; maybe break up into separate modules later."^^xsd:string
 		;
 	skos:prefLabel "Treasury of Lives Core Ontology"^^xsd:string ;
+	.
+
+tol:Castle
+	a owl:Class ;
+	rdfs:subClassOf gist:Building ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:editorialNote "Need formal definition, examples."^^xsd:string ;
+	skos:prefLabel "A large fortified structure."^^xsd:string ;
 	.
 
 tol:Century
@@ -42,6 +50,22 @@ tol:Century
 		"There is disagreement about the first and end years of a century. E.g., strictly, the 18th century is the period 1801-1900, while in common usage it is 1800-1899. The granularity of this distinction is not relevant to our purposes."^^xsd:string ,
 		"To be distinguished from an arbitrary period of 100 years, such as 1825-1924."^^xsd:string
 		;
+	.
+
+tol:Deity
+	a owl:Class ;
+	rdfs:subClassOf gist:LivingThing ;
+	owl:disjointWith tol:Person ;
+	skos:definition "A god or goddess; a being with divine status."^^xsd:string ;
+	skos:prefLabel "Deity"^^xsd:string ;
+	.
+
+tol:DharmaCenter
+	a owl:Class ;
+	rdfs:subClassOf gist:Building ;
+	skos:definition "A non-monastic religious center in a community."^^xsd:string ;
+	skos:example "Dashang Kagyu Ling is a dharma center and retreat center in La Boulaye, Burgundy, France."^^xsd:string ;
+	skos:prefLabel "Dharma Center"^^xsd:string ;
 	.
 
 tol:FraternalNiece
@@ -83,17 +107,42 @@ tol:GenealogicalGrouping
 		;
 	.
 
+tol:GovernmentBuilding
+	a owl:Class ;
+	rdfs:subClassOf gist:Building ;
+	skos:definition "A building containing official government offices."^^xsd:string ;
+	skos:editorialNote "Need formal definition, examples."^^xsd:string ;
+	skos:prefLabel "Government Building"^^xsd:string ;
+	.
+
+tol:Hermitage
+	a owl:Class ;
+	rdfs:subClassOf gist:Building ;
+	skos:definition "The dwelling of a hermit."^^xsd:string ;
+	skos:editorialNote "Need formal definition, examples."^^xsd:string ;
+	skos:prefLabel "Hermitage"^^xsd:string ;
+	.
+
+tol:HiddenValley
+	a owl:Class ;
+	rdfs:subClassOf gist:PilgrimageSite ;
+	skos:definition "TBD."^^xsd:string ;
+	skos:example "Zumbulung is a pilgrimage site in a hidden valley in Shang."^^xsd:string ;
+	skos:prefLabel "Hidden Valley"^^xsd:string ;
+	skos:scopeNote "Note that this subclasses PilgrimageSite, because valleys that are not pilgrimage sites are not of interest, and we don't want every relevant valley to have to be typed as both a Mountain and a PilgrimageSite."^^xsd:string ;
+	.
+
 tol:HistoricalPeriod
 	rdfs:subClassOf
 		gist:Category ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tol:end ;
+			owl:onProperty gist:actualEndYear ;
 			owl:cardinality "1"^^xsd:nonNegativeInteger ;
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tol:start ;
+			owl:onProperty gist:actualStartYear ;
 			owl:cardinality "1"^^xsd:nonNegativeInteger ;
 		]
 		;
@@ -102,6 +151,23 @@ tol:HistoricalPeriod
 	skos:example "The Middle Ages"^^xsd:string ;
 	skos:prefLabel "Historical Period"^^xsd:string ;
 	skos:scopeNote "We assume a historical period is recognized as such only after it is over, thus it always has an endpoint."^^xsd:string ;
+	.
+
+tol:Hospital
+	a owl:Class ;
+	rdfs:subClassOf gist:Building ;
+	skos:definition "An institution providing medical and surgical treatment and nursing care for sick or injured people."^^xsd:string ;
+	skos:editorialNote "Need formal definition, examples."^^xsd:string ;
+	skos:prefLabel "Hospital"^^xsd:string ;
+	.
+
+tol:Lake
+	a owl:Class ;
+	rdfs:subClassOf gist:PilgrimageSite ;
+	skos:definition "TBD."^^xsd:string ;
+	skos:example "Konokor Lake"^^xsd:string ;
+	skos:prefLabel "Lake"^^xsd:string ;
+	skos:scopeNote "Note that this subclasses PilgrimageSite, because lakes that are not pilgrimage sites are not of interest, and we don't want every relevant lake to have to be typed as both a Mountain and a PilgrimageSite."^^xsd:string ;
 	.
 
 tol:Lineage
@@ -119,12 +185,12 @@ tol:Lineage
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty gist:isBasedOn ;
+			owl:onProperty gist:actualStartYear ;
 			owl:cardinality "1"^^xsd:nonNegativeInteger ;
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tol:start ;
+			owl:onProperty gist:isBasedOn ;
 			owl:cardinality "1"^^xsd:nonNegativeInteger ;
 		] ,
 		[
@@ -148,6 +214,14 @@ tol:Location
 	skos:definition "A real, fictional, or imaginary place."^^xsd:string ;
 	skos:prefLabel "Location"^^xsd:string ;
 	skos:scopeNote "Differs from and not a subclass of gist:Place, which includings only places that do or did exist."^^xsd:string ;
+	.
+
+tol:ManorHouse
+	a owl:Class ;
+	rdfs:subClassOf gist:Building ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:editorialNote "Need formal definition, examples."^^xsd:string ;
+	skos:prefLabel "The principal house of a landed estate."^^xsd:string ;
 	.
 
 tol:Marriage
@@ -174,6 +248,46 @@ tol:Marriage
 	skos:prefLabel "Marriage"^^xsd:string ;
 	.
 
+tol:Monastery
+	a owl:Class ;
+	rdfs:subClassOf gist:Building ;
+	skos:definition "A building occupied by a community of monks living under religious vows."^^xsd:string ;
+	skos:editorialNote
+		"Need formal definition, examples."^^xsd:string ,
+		"has abbots - not sure if class, predicate, or category."^^xsd:string
+		;
+	skos:example "Wensa Monastery, founded in the 15th  is an important Geluk hermitage in the Tsang region."^^xsd:string ;
+	skos:prefLabel "Monastery"^^xsd:string ;
+	.
+
+tol:Mountain
+	a owl:Class ;
+	rdfs:subClassOf gist:PilgrimageSite ;
+	skos:definition "TBD"^^xsd:string ;
+	skos:example "Mount Tsibri was the site of Zangpo Drakpa's 14th century treasure revelations."^^xsd:string ;
+	skos:prefLabel "Mountain"^^xsd:string ;
+	skos:scopeNote "Note that this subclasses PilgrimageSite, because mountains that are not pilgrimage sites are not of interest, and we don't want every relevant mountain to have to be typed as both a Mountain and a PilgrimageSite."^^xsd:string ;
+	.
+
+tol:Nunnery
+	a owl:Class ;
+	rdfs:subClassOf gist:Building ;
+	skos:definition "A building occupied by a community of nuns living under religious vows."^^xsd:string ;
+	skos:editorialNote
+		"Need formal definition, examples."^^xsd:string ,
+		"has abbesses - not sure if class, predicate, or category."^^xsd:string
+		;
+	skos:prefLabel "Nunnery"^^xsd:string ;
+	.
+
+tol:Palace
+	a owl:Class ;
+	rdfs:subClassOf gist:Building ;
+	skos:definition "The official residence of royalty or other exalted person."^^xsd:string ;
+	skos:editorialNote "Need formal definition, examples."^^xsd:string ;
+	skos:prefLabel "Palace"^^xsd:string ;
+	.
+
 tol:Person
 	a owl:Class ;
 	rdfs:subClassOf
@@ -183,6 +297,23 @@ tol:Person
 	skos:definition "A human being, alive, dead, imaginary, or fictional."^^xsd:string ;
 	skos:prefLabel "Person"^^xsd:string ;
 	skos:scopeNote "Differs from and not a subclass of gist:Person, which includings only persons who do or did exist."^^xsd:string ;
+	.
+
+tol:PilgrimageSite
+	a owl:Class ;
+	rdfs:subClassOf gist:Landmark ;
+	skos:definition "A shrine or other sacred place that people travel to as an act of religious devotion."^^xsd:string ;
+	skos:editorialNote "Check definition - what types of things can this include?"^^xsd:string ;
+	skos:example "Mount Tsibri was the site of Zangpo Drakpa's 14th century treasure revelations; Kokonor Lake"^^xsd:string ;
+	skos:prefLabel "Pilgrimage Place"^^xsd:string ;
+	.
+
+tol:School
+	a owl:Class ;
+	rdfs:subClassOf gist:Building ;
+	skos:definition "A building used for (religious) instruction."^^xsd:string ;
+	skos:example "The Nyaronga School was located in central Lhasa, founded in the 1920s and closed in 1959."^^xsd:string ;
+	skos:prefLabel "School"^^xsd:string ;
 	.
 
 tol:StrictlyOrderedCollection
@@ -211,6 +342,14 @@ tol:Student
 	skos:definition "A person who receives training in a text or practice from another person (the teacher)."^^xsd:string ;
 	skos:editorialNote "Not sure if needed."^^xsd:string ;
 	skos:prefLabel "Student"^^xsd:string ;
+	.
+
+tol:Stupa
+	a owl:Class ;
+	rdfs:subClassOf gist:Building ;
+	skos:definition "A dome-shaped structure erected as a Buddhist shrine."^^xsd:string ;
+	skos:editorialNote "Need formal definition, examples."^^xsd:string ;
+	skos:prefLabel "Stupa"^^xsd:string ;
 	.
 
 tol:Teacher
@@ -319,21 +458,18 @@ tol:TeachingLineage
 	skos:scopeNote "Teachers in a lineage are not designated numerically (as are, e.g., persons in an incarnation lineage), but are ordered through gist:precedesDirectly. Elements in the lineage may certainly co-occur or overlap."^^xsd:string ;
 	.
 
+tol:Temple
+	a owl:Class ;
+	rdfs:subClassOf gist:Building ;
+	skos:definition "A building devoted to the worship, or regarded as the dwelling place, of a god or other objects of religious reverence."^^xsd:string ;
+	skos:editorialNote "Need formal definition, examples."^^xsd:string ;
+	skos:prefLabel "Temple"^^xsd:string ;
+	.
+
 tol:TimePeriod
-	rdfs:subClassOf
-		gist:Category ,
-		[
-			a owl:Restriction ;
-			owl:onProperty tol:end ;
-			owl:cardinality "1"^^xsd:nonNegativeInteger ;
-		] ,
-		[
-			a owl:Restriction ;
-			owl:onProperty tol:start ;
-			owl:cardinality "1"^^xsd:nonNegativeInteger ;
-		]
-		;
+	rdfs:subClassOf gist:Category ;
 	skos:definition "TBD."^^xsd:string ;
+	skos:editorialNote "How to define in terms of start and end? These don't even have year precision. Or use approximate start/end year?"^^xsd:string ;
 	skos:example "12th century, late 14th century"^^xsd:string ;
 	skos:prefLabel "Time Period"^^xsd:string ;
 	.
@@ -354,9 +490,50 @@ tol:alternateDeathYear
 	skos:scopeNote "May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."^^xsd:string ;
 	.
 
+tol:alternateEndYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:alternateYear ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:prefLabel "alternate end year"^^xsd:string ;
+	.
+
+tol:alternateStartYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:alternateYear ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:prefLabel "alternate start year"^^xsd:string ;
+	.
+
+tol:alternateYear
+	a owl:DatatypeProperty ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:editorialNote "Superproperty?"^^xsd:string ;
+	skos:prefLabel "alternate year"^^xsd:string ;
+	.
+
+tol:approximateEndYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:approximateYear ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:prefLabel "approximate end year"^^xsd:string ;
+	.
+
+tol:approximateStartYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:approximateYear ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:prefLabel "approximate start year"^^xsd:string ;
+	.
+
+tol:approximateYear
+	a owl:DatetypeProperty ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:editorialNote "Superproperty?"^^xsd:string ;
+	skos:prefLabel "approximate year"^^xsd:string ;
+	.
+
 tol:birthCentury
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:start ;
 	rdfs:range tol:Century ;
 	skos:definition "The century in which a person was born."^^xsd:string ;
 	skos:editorialNote "Figure out whether this only includes centuries, or time periods like late 18th century."^^xsd:string ;
@@ -365,7 +542,7 @@ tol:birthCentury
 
 tol:birthYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:start ;
+	rdfs:subPropertyOf gist:actualStartYear ;
 	skos:definition "The year in which a person was born."^^xsd:string ;
 	skos:prefLabel "birth year"^^xsd:string ;
 	skos:scopeNote "May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."^^xsd:string ;
@@ -373,7 +550,6 @@ tol:birthYear
 
 tol:deathCentury
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:end ;
 	rdfs:range tol:Century ;
 	skos:definition "The century in which a person died."^^xsd:string ;
 	skos:editorialNote "Figure out whether this only includes centuries, or time periods like late 18th century."^^xsd:string ;
@@ -382,7 +558,7 @@ tol:deathCentury
 
 tol:deathYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:end ;
+	rdfs:subPropertyOf gist:actualEndYear ;
 	skos:definition "The year in which a person died."^^xsd:string ;
 	skos:prefLabel "death year"^^xsd:string ;
 	skos:scopeNote
@@ -393,18 +569,10 @@ tol:deathYear
 
 tol:dissolutionDate
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:end ;
+	rdfs:subPropertyOf gist:actualEndYear ;
 	skos:definition "The date an agreement such as marriage was ended. In the case of marriage, this refers to divorce rather than the end of a marriage by death of one of the spouses."^^xsd:string ;
 	skos:editorialNote "Use if we need to distinguish divorce from death as the end of a marriage. Might make broader to include dissolution of other types of relationships."^^xsd:string ;
 	skos:prefLabel "dissolution date"^^xsd:string ;
-	.
-
-tol:end
-	a owl:DatatypeProperty ;
-	skos:definition "The date, time, or datetime some event, relationship, or other thing ended."^^xsd:string ;
-	skos:editorialNote "TODO Re-evaluate with gist 11. EDTF is not recognized by OWL processors. How much uncertainty to we really need to accommodate?"^^xsd:string ;
-	skos:prefLabel "end"^^xsd:string ;
-	skos:scopeNote "May be used with edtf:EDTF datatyped strings to allow for partial, uncertain, and approximate dates."^^xsd:string ;
 	.
 
 tol:harUrl
@@ -648,5 +816,14 @@ tol:titleVariant
 	skos:editoralNote "TODO Explain more about how these differ from the primary title."^^xsd:string ;
 	skos:example "TODO"^^xsd:string ;
 	skos:prefLabel "title variant"^^xsd:string ;
+	.
+
+[]
+	a owl:AllDisjointClasses ;
+	owl:members (
+		tol:Mountain
+		tol:Lake
+		tol:HiddenValley
+	) ;
 	.
 
