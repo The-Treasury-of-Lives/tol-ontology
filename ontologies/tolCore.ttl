@@ -244,7 +244,10 @@ tol:Marriage
 		) ;
 	] ;
 	skos:definition "A culturally and often legally recognized union between two people, called spouses, that establishes rights and obligations between them."^^xsd:string ;
-	skos:editorialNote "Cardinality restriction on gist:hasParty of 2 generates Protege error, so using qualified cardinality restriction instead."^^xsd:string ;
+	skos:editorialNote
+		"Cardinality restriction on gist:hasParty of 2 generates Protege error, so using qualified cardinality restriction instead."^^xsd:string ,
+		"Predicates should be directed from the relationship to the other objects, to support named graph drops to delete the relationship."^^xsd:string
+		;
 	skos:prefLabel "Marriage"^^xsd:string ;
 	.
 
@@ -414,6 +417,7 @@ tol:TeacherStudentRelationship
 	skos:definition "A time-delimited relationship between a teacher and a student."^^xsd:string ;
 	skos:editorialNote
 		"How to express what the Intention is? I.e., how should an intention be instantiated?"^^xsd:string ,
+		"Predicates should be directed from the relationship to the other objects, to support named graph drops to delete the relationship."^^xsd:string ,
 		"TODO Add relationship to text (bf:Text?) or Practice (subclass of gist:Behavior? - need to see examples."^^xsd:string
 		;
 	skos:prefLabel "Teacher-Student Relationship"^^xsd:string ;
@@ -779,6 +783,7 @@ tol:proposedBirthYear
 	rdfs:subPropertyOf tol:proposedStartYear ;
 	skos:definition "TODO"^^xsd:string ;
 	skos:prefLabel "proposed birth year"^^xsd:string ;
+	skos:scopeNote "If there is also a tol:actualBirthYear, that is the more commonly accepted date."^^xsd:string ;
 	.
 
 tol:proposedDeathYear
@@ -786,6 +791,7 @@ tol:proposedDeathYear
 	rdfs:subPropertyOf tol:proposedEndYear ;
 	skos:definition "TODO"^^xsd:string ;
 	skos:prefLabel "proposed end year"^^xsd:string ;
+	skos:scopeNote "If there is also a tol:actualDeathYear, that is the more commonly accepted date."^^xsd:string ;
 	.
 
 tol:proposedEndDateTime
@@ -800,6 +806,7 @@ tol:proposedEndYear
 	rdfs:subPropertyOf tol:proposedEndDateTime ;
 	skos:definition "TODO"^^xsd:string ;
 	skos:prefLabel "proposed end year"^^xsd:string ;
+	skos:scopeNote "If there is also a tol:actualEndYear, that is the more commonly accepted date."^^xsd:string ;
 	.
 
 tol:proposedStartDateTime
@@ -814,6 +821,7 @@ tol:proposedStartYear
 	rdfs:subPropertyOf tol:proposedStartDateTime ;
 	skos:definition "TODO"^^xsd:string ;
 	skos:prefLabel "proposed start year"^^xsd:string ;
+	skos:scopeNote "If there is also a tol:actualStartYear, that is the more commonly accepted date."^^xsd:string ;
 	.
 
 tol:title
