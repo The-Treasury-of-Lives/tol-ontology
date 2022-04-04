@@ -1,0 +1,110 @@
+# imports: https://ontologies.treasuryoflives.org/core
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://ontologies.semanticarts.com/gist/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tol: <https://ontologies.treasuryoflives.org/> .
+@prefix tolx: <https://taxonomies.treasuryoflives.org/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+tolx:buildingFunctions
+	a owl:Ontology ;
+	owl:imports tol:core ;
+	skos:definition "Defines types of buildings according to their function."^^xsd:string ;
+	skos:prefLabel "Building Functions"@en ;
+	.
+
+tolx:_BuildingFunction_castle
+	a tol:BuildingFunction ;
+	skos:definition "TODO."^^xsd:string ;
+	skos:example "TODO"^^xsd:string ;
+	skos:prefLabel "Castle"^^xsd:string ;
+	.
+
+tolx:_BuildingFunction_dharma_center
+	a tol:BuildingFunction ;
+	skos:definition "A non-monastic religious center in a community."^^xsd:string ;
+	skos:example "Dashang Kagyu Ling is a dharma center and retreat center in La Boulaye, Burgundy, France."^^xsd:string ;
+	skos:prefLabel "Dharma Center"^^xsd:string ;
+	.
+
+tolx:_BuildingFunction_government_building
+	a tol:BuildingFunction ;
+	skos:definition "A building containing official government offices."^^xsd:string ;
+	skos:example "TODO"^^xsd:string ;
+	skos:prefLabel "Government Building"^^xsd:string ;
+	.
+
+tolx:_BuildingFunction_hermitage
+	a tol:BuildingFunction ;
+	skos:definition "The dwelling of a hermit."^^xsd:string ;
+	skos:example "TODO"^^xsd:string ;
+	skos:prefLabel "Hermitage"^^xsd:string ;
+	.
+
+tolx:_BuildingFunction_hospital
+	a tol:BuildingFunction ;
+	skos:definition "An institution providing medical and surgical treatment and nursing care for sick or injured people."^^xsd:string ;
+	skos:example "TODO"^^xsd:string ;
+	skos:prefLabel "Hospital"^^xsd:string ;
+	.
+
+tolx:_BuildingFunction_manor_house
+	a tol:BuildingFunction ;
+	skos:example "TODO"^^xsd:string ;
+	skos:prefLabel
+		"Manor House"^^xsd:string ,
+		"The principal house of a landed estate."^^xsd:string
+		;
+	.
+
+tolx:_BuildingFunction_monastery
+	a tol:BuildingFunction ;
+	skos:definition "A building occupied by a community of monks living under religious vows."^^xsd:string ;
+	skos:example "Wensa Monastery, founded in the 15th  is an important Geluk hermitage in the Tsang region."^^xsd:string ;
+	skos:prefLabel "Monastery"^^xsd:string ;
+	.
+
+tolx:_BuildingFunction_nunnery
+	a tol:BuildingFunction ;
+	skos:definition "A building occupied by a community of nuns living under religious vows."^^xsd:string ;
+	skos:example "Tsamkhung is a convent in Lhasa."^^xsd:string ;
+	skos:prefLabel "Nunnery"^^xsd:string ;
+	.
+
+tolx:_BuildingFunction_palace
+	a tol:BuildingFunction ;
+	skos:definition "The official residence of royalty or other exalted person."^^xsd:string ;
+	skos:example "TODO"^^xsd:string ;
+	skos:prefLabel "Palace"^^xsd:string ;
+	.
+
+tolx:_BuildingFunction_school
+	a tol:BuildingFunction ;
+	skos:definition "A building used for (religious) instruction."^^xsd:string ;
+	skos:example "The Nyaronga School was located in central Lhasa, founded in the 1920s and closed in 1959."^^xsd:string ;
+	skos:prefLabel "School"^^xsd:string ;
+	.
+
+tolx:_BuildingFunction_stupa
+	a tol:BuildingFunction ;
+	skos:definition "A dome-shaped structure erected as a Buddhist shrine."^^xsd:string ;
+	skos:example "TODO"^^xsd:string ;
+	skos:prefLabel "Stupa"^^xsd:string ;
+	.
+
+tolx:_BuildingFunction_temple
+	a tol:BuildingFunction ;
+	skos:definition "A building devoted to the worship, or regarded as the dwelling place, of a god or other objects of religious reverence."^^xsd:string ;
+	skos:example "The Nyaronga School was located in central Lhasa, founded in the 1920s and closed in 1959."^^xsd:string ;
+	skos:prefLabel "Temple"^^xsd:string ;
+	.
+
