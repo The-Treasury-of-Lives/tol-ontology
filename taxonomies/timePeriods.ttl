@@ -1,4 +1,4 @@
-# imports: https://ontologies.treasuryoflives.org/core
+# imports: https://ontologies.treasuryoflives.org/o/tolCore
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
@@ -9,7 +9,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix tol: <https://ontologies.treasuryoflives.org/> .
+@prefix tol: <https://ontologies.treasuryoflives.org/tol/> .
 @prefix tolx: <https://taxonomies.treasuryoflives.org/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -17,7 +17,8 @@
 
 tolx:timePeriods
 	a owl:Ontology ;
-	owl:imports tol:core ;
+	owl:imports <https://ontologies.treasuryoflives.org/o/tolCore> ;
+	owl:versionIRI tolx:timePeriods0.0.1 ;
 	skos:prefLabel "Centuries"@en ;
 	.
 
