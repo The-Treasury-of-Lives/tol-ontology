@@ -20,7 +20,7 @@ tolx:buildingFunctions
 	owl:imports <https://ontologies.treasuryoflives.org/o/tolCore> ;
 	owl:versionIRI tolx:buildingFunctions0.0.1 ;
 	skos:definition "Defines types of buildings according to their function."^^xsd:string ;
-	skos:prefLabel "Building Functions"@en ;
+	skos:prefLabel "Building Functions"^^xsd:string ;
 	.
 
 tolx:_BuildingFunction_castle

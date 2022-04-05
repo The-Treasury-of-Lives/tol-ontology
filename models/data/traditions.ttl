@@ -1,0 +1,54 @@
+# imports: https://ontologies.treasuryoflives.org/o/tolCore
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://ontologies.semanticarts.com/gist/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tol: <https://ontologies.treasuryoflives.org/tol/> .
+@prefix told: <https://data.treasuryoflives.org/> .
+@prefix tolx: <https://taxonomies.treasuryoflives.org/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:traditions
+	a owl:Ontology ;
+	owl:imports <https://ontologies.treasuryoflives.org/o/tolCore> ;
+	owl:versionIRI told:traditions0.0.1 ;
+	skos:editorialNote
+		"Auto-generated via TARQL."^^xsd:string ,
+		"TODO - add years and founders"^^xsd:string
+		;
+	skos:prefLabel "Traditions"^^xsd:string ;
+	.
+
+tolx:_Tradition_Barom_Kagyu
+	a tol:Tradition ;
+	gist:actualEndYear "an xsd:datetime, tagged as such"^^xsd:string ;
+	gist:actualStartYear "an xsd:datetime, tagged as such"^^xsd:string ;
+	gist:isBasedOn tolx:_Tradition_Marpa_Kagyu ;
+	tol:nameVariant "TODO - this is in other transcription systems and should be language-tagged."^^xsd:string ;
+	tol:primaryName "Barom Kagyu"@bo-x-phon-en-m-tol ;
+	.
+
+tolx:_Tradition_Marpa_Kagyu
+	a tol:Tradition ;
+	gist:actualEndYear "an xsd:datetime, tagged as such"^^xsd:string ;
+	gist:actualStartYear "an xsd:datetime, tagged as such"^^xsd:string ;
+	tol:nameVariant "TODO - this is in other transcription systems and should be language-tagged."^^xsd:string ;
+	tol:primaryName "Marpa Kagyu"@bo-x-phon-en-m-tol ;
+	.
+
+tolx:_Tradition_Nyingma
+	a tol:Tradition ;
+	gist:actualEndYear "an xsd:datetime, tagged as such"^^xsd:string ;
+	gist:actualStartYear "an xsd:datetime, tagged as such"^^xsd:string ;
+	tol:nameVariant "TODO - this is in other transcription systems and should be language-tagged."^^xsd:string ;
+	tol:primaryName "Nyingma"@bo-x-phon-en-m-tol ;
+	.
+

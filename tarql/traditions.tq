@@ -8,47 +8,19 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX tol: <https://ontologies.treasuryoflives.org/>
+PREFIX tol: <https://ontologies.treasuryoflives.org/tol/>
 PREFIX tolx: <https://taxonomies.treasuryoflives.org/>
 PREFIX told: <https://data.treasuryoflives.org/>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 # TOL ID
-# TBRC RID
-# Primary title / epithet
-# Primary name
-# Wylie title / epithet
-# Wylie name
-# Birth year
-# Birth year approximate?
-# Birth year alternate
-# Death year
-# Death year approximate?
-# Death year alternate
-# Gender
-# HAR URL
-# Death century
-# Historical period
-# Name displayed as
-# Name variants
-# Birth century
+# Tradition Name
+# Parent Tradition TOL ID
 
 CONSTRUCT {
-    ?person a tol:Person ;
-        owl:sameAs ?bdrcResource ;
-        tol:primaryTitle ?Primary_title___epithet ;
-        tol:primaryName ?Primary_name ;
-        # TODO Add lg tag for tol phonetic, wylie for wylie 
-        tol:birthYear ?birthYear  ;
-        tol:alternateBirthYear ?Birth_year_alternate ;
-        tol:deathYear ?deathYear ;
-        tol:alternateDeathYear ?Death_year_alternate ;
-        bdo:personGender ?gender ;
-        tol:harUrl ?HAR_URL ;
-        tol:deathCentury ?deathCentury ;
-        tol:birthCentury ?birthCentury ;
-        
+    ?tradition a tol:Tradition ;
+    gist:name 
     .
 
 

@@ -534,20 +534,18 @@ tol:approximateStartYear
 	skos:prefLabel "approximate start year"^^xsd:string ;
 	.
 
-tol:birthCentury
+tol:bornInCentury
 	a owl:DatatypeProperty ;
 	rdfs:range tol:Century ;
 	skos:definition "The century in which a person was born."^^xsd:string ;
-	skos:editorialNote "Figure out whether this only includes centuries, or time periods like late 18th century."^^xsd:string ;
-	skos:prefLabel "birth century"^^xsd:string ;
+	skos:prefLabel "born in century"^^xsd:string ;
 	.
 
-tol:deathCentury
+tol:diedInCentury
 	a owl:DatatypeProperty ;
 	rdfs:range tol:Century ;
 	skos:definition "The century in which a person died."^^xsd:string ;
-	skos:editorialNote "Figure out whether this only includes centuries, or time periods like late 18th century."^^xsd:string ;
-	skos:prefLabel "death century"^^xsd:string ;
+	skos:prefLabel "died in century"^^xsd:string ;
 	.
 
 tol:dissolutionYear
@@ -558,12 +556,30 @@ tol:dissolutionYear
 	skos:prefLabel "dissolution year"^^xsd:string ;
 	.
 
+tol:foundedInYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:actualStartYear ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:example "The Tshal-pa tradition was founded in 1123."^^xsd:string ;
+	skos:prefLabel "founded in year"^^xsd:string ;
+	skos:scopeNote "What is the end date on a tradition? Do we need a predicate other than gist:actualEndYear?"^^xsd:string ;
+	.
+
 tol:harUrl
 	a owl:AnnotationProperty ;
 	rdfs:subPropertyOf rdfs:seeAlso ;
 	rdfs:range xsd:anyURI ;
 	skos:definition "The URL to the main page about this resource on the Himalayan Art Resources (HAR) site."^^xsd:string ;
 	skos:prefLabel "HAR URL"^^xsd:string ;
+	.
+
+tol:hasAssignedGender
+	rdfs:domain tol:Person ;
+	rdfs:range bdo:Gender ;
+	skos:definition "The gender of a person assigned at birth."^^xsd:string ;
+	skos:example "Jetsun Khacho Wangmo waas assigned male gender at birth, but later identified as female."^^xsd:string ;
+	skos:prefLabel "has assigned gender"^^xsd:string ;
+	skos:scopeNote "Use if a distinction is made between assigned gender and identified gender; otherwise use bdo:personGender."^^xsd:string ;
 	.
 
 tol:hasFinalRestingPlace
@@ -742,99 +758,164 @@ tol:hasSororallNiece
 		;
 	.
 
-tol:nameVariant
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:name ;
+tol:identifiesAsGender
+	rdfs:subPropertyOf bdo:personGender ;
 	rdfs:domain tol:Person ;
-	skos:definition "A name of a person."^^xsd:string ;
-	skos:editoralNote "TODO Explain more about how these differ from the primary name. Make sure these are different names rather than a difference encoding of the primary name."^^xsd:string ;
-	skos:example "TODO"^^xsd:string ;
-	skos:prefLabel "name variant"^^xsd:string ;
+	rdfs:range bdo:Gender ;
+	skos:definition "The gender a person identifies as."^^xsd:string ;
+	skos:example "Jetsun Khacho Wangmo waas assigned male gender at birth, but later identified as female."^^xsd:string ;
+	skos:prefLabel "identifies as gender"^^xsd:string ;
+	skos:scopeNote "Use if a distinction is made between assigned gender and identified gender; otherwise use bdo:personGender."^^xsd:string ;
 	.
 
-tol:primaryName
+tol:namePrimary
 	a
 		owl:DatatypeProperty ,
 		owl:FunctionalProperty
 		;
 	rdfs:subPropertyOf gist:name ;
 	rdfs:domain tol:Person ;
+	rdfs:range rdf:langString ;
 	skos:definition "The primary name of a person."^^xsd:string ;
-	skos:editoralNote "TODO Explain more about how this differs from name variants."^^xsd:string ;
+	skos:editoralNote "TODO These may well be just Tol encodings of the name, in which case we should just use gist:name."^^xsd:string ;
 	skos:example "TODO"^^xsd:string ;
 	skos:prefLabel "primary name"^^xsd:string ;
 	.
 
-tol:primaryTitle
+tol:nameVariant
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:name ;
+	rdfs:domain tol:Person ;
+	skos:definition "A name of a person."^^xsd:string ;
+	skos:editoralNote "TODO Explain more about how these differ from the primary name. These may well be just different encodings of the tol name, in which case we should just use gist:name."^^xsd:string ;
+	skos:example "TODO"^^xsd:string ;
+	skos:prefLabel "name variant"^^xsd:string ;
+	.
+
+tol:possibleBirthYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:possibleStartYear ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:prefLabel "possible birth year"^^xsd:string ;
+	skos:scopeNote "Only used in conjunction with a probable or approximate birth year, which is the more commonly accepted one."^^xsd:string ;
+	.
+
+tol:possibleDeathYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:possibleEndYear ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:prefLabel "possible death year"^^xsd:string ;
+	skos:scopeNote "Only used in conjunction with a probable or approximate death year, which is the more commonly accepted one."^^xsd:string ;
+	.
+
+tol:possibleEndDateTime
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:endDateTime ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:prefLabel "possible end date time"^^xsd:string ;
+	skos:scopeNote "Only used in conjunction with a probable or approximate end datetime, which is the more commonly accepted one."^^xsd:string ;
+	.
+
+tol:possibleEndYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:possibleEndDateTime ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:prefLabel "possible end year"^^xsd:string ;
+	skos:scopeNote "Only used in conjunction with a probable or approximate birth year, which is the more commonly accepted one."^^xsd:string ;
+	.
+
+tol:possibleStartDateTime
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:startDateTime ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:prefLabel "possible start date time"^^xsd:string ;
+	skos:scopeNote "Only used in conjunction with a probable or approximate start datetime, which is the more commonly accepted one."^^xsd:string ;
+	.
+
+tol:possibleStartYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:possibleStartDateTime ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:prefLabel "possible start year"^^xsd:string ;
+	skos:scopeNote "Only used in conjunction with a probable or approximate start year, which is the more commonly accepted one."^^xsd:string ;
+	.
+
+tol:probableBirthYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:probableStartYear ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:prefLabel "probable birth year"^^xsd:string ;
+	skos:scopeNote "Only used in conjunction with a possible birth year, which is the less commonly accepted one. Otherwise, designate an actual birth year."^^xsd:string ;
+	.
+
+tol:probableDeathYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:probableEndYear ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:prefLabel "probable death year"^^xsd:string ;
+	skos:scopeNote "Only used in conjunction with a possible birth year, which is the less more commonly accepted one. Otherwise, specify an actual death year."^^xsd:string ;
+	.
+
+tol:probableEndDateTime
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:endDateTime ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:prefLabel "probable end date time"^^xsd:string ;
+	skos:scopeNote "Only used in conjunction with a possible end datetime, which is the less commonly accepted one. Otherwise, specify an actual end datetime."^^xsd:string ;
+	.
+
+tol:probableEndYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:probableEndDateTime ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:prefLabel "probable end year"^^xsd:string ;
+	skos:scopeNote "Only used in conjunction with a possible end year, which is the less commonly accepted one. Otherwise, specify an actual end year."^^xsd:string ;
+	.
+
+tol:probableStartDateTime
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:startDateTime ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:prefLabel "probable start date time"^^xsd:string ;
+	skos:scopeNote "Only used in conjunction with a possible start datetime;, which is the less commonly accepted one. Otherwise, specify an actual start date time."^^xsd:string ;
+	.
+
+tol:probableStartYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:probableStartDateTime ;
+	skos:definition "TODO"^^xsd:string ;
+	skos:prefLabel "probable start year"^^xsd:string ;
+	skos:scopeNote
+		"If there is also a tol:actualStartYear, that is the more commonly accepted date."^^xsd:string ,
+		"Only used in conjunction with a possible start year, which is the less commonly accepted one. Otherwise, specify an actual start year."^^xsd:string
+		;
+	.
+
+tol:title
+	a owl:DatatypeProperty ;
+	rdfs:range rdf:langString ;
+	skos:definition "An appellation of dignity, honor, distinction, or preeminence attached to a person or family by virtue of rank, office, precedent, privilege, attainment, or lands."^^xsd:string ;
+	skos:prefLabel "title"^^xsd:string ;
+	.
+
+tol:titlePrimary
 	a
 		owl:DatatypeProperty ,
 		owl:FunctionalProperty
 		;
 	rdfs:subPropertyOf tol:title ;
 	rdfs:domain tol:Person ;
+	rdfs:range rdf:langString ;
 	skos:definition "The primary form of a person's title."^^xsd:string ;
-	skos:editoralNote "TODO Explain more about how this differs from the variant title."^^xsd:string ;
+	skos:editoralNote "TODO These may well be just Tol encodings of the title, in which case we should just use tol:title."^^xsd:string ;
 	skos:example "TODO"^^xsd:string ;
 	skos:prefLabel "primary title"^^xsd:string ;
-	.
-
-tol:proposedBirthYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:proposedStartYear ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "proposed birth year"^^xsd:string ;
-	skos:scopeNote "If there is also a tol:actualBirthYear, that is the more commonly accepted date."^^xsd:string ;
-	.
-
-tol:proposedDeathYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:proposedEndYear ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "proposed end year"^^xsd:string ;
-	skos:scopeNote "If there is also a tol:actualDeathYear, that is the more commonly accepted date."^^xsd:string ;
-	.
-
-tol:proposedEndDateTime
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:endDateTime ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "proposed end date time"^^xsd:string ;
-	.
-
-tol:proposedEndYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:proposedEndDateTime ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "proposed end year"^^xsd:string ;
-	skos:scopeNote "If there is also a tol:actualEndYear, that is the more commonly accepted date."^^xsd:string ;
-	.
-
-tol:proposedStartDateTime
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:startDateTime ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "proposed start date time"^^xsd:string ;
-	.
-
-tol:proposedStartYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:proposedStartDateTime ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "proposed start year"^^xsd:string ;
-	skos:scopeNote "If there is also a tol:actualStartYear, that is the more commonly accepted date."^^xsd:string ;
-	.
-
-tol:title
-	a owl:DatatypeProperty ;
-	rdfs:range xsd:string ;
-	skos:definition "An appellation of dignity, honor, distinction, or preeminence attached to a person or family by virtue of rank, office, precedent, privilege, attainment, or lands."^^xsd:string ;
-	skos:prefLabel "title"^^xsd:string ;
 	.
 
 tol:titleVariant
 	a owl:DatatypeProperty ;
 	skos:definition "A variant title of a person."^^xsd:string ;
-	skos:editoralNote "TODO Explain more about how these differ from the primary title."^^xsd:string ;
+	skos:editoralNote "TODO These may well be just different encodings of the tol title, in which case we should just use tol:title."^^xsd:string ;
 	skos:example "TODO"^^xsd:string ;
 	skos:prefLabel "title variant"^^xsd:string ;
 	.

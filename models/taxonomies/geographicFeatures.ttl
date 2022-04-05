@@ -20,7 +20,7 @@ tolx:geographicFeatures
 	owl:imports <https://ontologies.treasuryoflives.org/o/tolCore> ;
 	owl:versionIRI tolx:geographicFeatures0.0.1 ;
 	skos:definition "Defines geographic features that can be pilgrimage sites."^^xsd:string ;
-	skos:prefLabel "Geographic Features"@en ;
+	skos:prefLabel "Geographic Features"^^xsd:string ;
 	.
 
 tolx:_GeographicFeature_hidden_valley
