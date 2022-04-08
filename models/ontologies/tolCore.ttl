@@ -37,15 +37,11 @@ tol:Birth
 	a owl:Class ;
 	rdfs:subClassOf
 		gist:HistoricalEvent ,
+		gist:PhysicalEvent ,
 		[
 			a owl:Restriction ;
 			owl:onProperty tol:isEventOf ;
 			owl:allValuesFrom tol:Person ;
-		] ,
-		[
-			a owl:Restriction ;
-			owl:onProperty tol:actualYear ;
-			owl:cardinality "1"^^xsd:dateTime ;
 		] ,
 		[
 			a owl:Restriction ;
@@ -59,7 +55,6 @@ tol:Birth
 		"We may want to establish a pattern for other things that may have actual/probable/possible/approximate years, as with birth and death."^^xsd:string
 		;
 	skos:prefLabel "Birth"^^xsd:string ;
-	skos:scopeNote "While the stated year may be only speculative, there is always an actual year, and the OWA allows the cardinality restriction on tol:actualYear."^^xsd:string ;
 	.
 
 tol:Century
@@ -77,15 +72,11 @@ tol:Death
 	a owl:Class ;
 	rdfs:subClassOf
 		gist:HistoricalEvent ,
+		gist:PhysicalEvent ,
 		[
 			a owl:Restriction ;
 			owl:onProperty tol:isEventOf ;
 			owl:allValuesFrom tol:Person ;
-		] ,
-		[
-			a owl:Restriction ;
-			owl:onProperty tol:actualYear ;
-			owl:cardinality "1"^^xsd:dateTime ;
 		] ,
 		[
 			a owl:Restriction ;
@@ -99,7 +90,6 @@ tol:Death
 		"We may want to establish a pattern for other things that may have actual/probable/possible/approximate years, as with birth and death."^^xsd:string
 		;
 	skos:prefLabel "Death"^^xsd:string ;
-	skos:scopeNote "While the stated year may be only speculative, there is always an actual year, and the OWA allows the cardinality restriction on tol:actualYear."^^xsd:string ;
 	.
 
 tol:Deity
@@ -417,7 +407,7 @@ tol:actualYearApproximate
 
 tol:dissolutionYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:year ;
+	rdfs:subPropertyOf tol:actualYear ;
 	skos:definition "The year an agreement such as marriage was ended. In the case of marriage, this refers to divorce rather than the end of a marriage by death of one of the spouses."^^xsd:string ;
 	skos:editorialNote
 		"Use if we need to distinguish divorce from death as the end of a marriage."^^xsd:string ,
