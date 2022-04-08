@@ -1,8 +1,8 @@
 # imports: http://purl.bdrc.io/ontology/types/Gender
 # imports: https://ontologies.treasuryoflives.org/o/tolCore
 # imports: https://taxonomies.treasuryoflives.org/buildingFunctions
+# imports: https://taxonomies.treasuryoflives.org/centuries
 # imports: https://taxonomies.treasuryoflives.org/geographicFeatures
-# imports: https://taxonomies.treasuryoflives.org/timePeriods
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -24,8 +24,8 @@
 		<http://purl.bdrc.io/ontology/types/Gender> ,
 		<https://ontologies.treasuryoflives.org/o/tolCore> ,
 		tolx:buildingFunctions ,
-		tolx:geographicFeatures ,
-		tolx:timePeriods
+		tolx:centuries ,
+		tolx:geographicFeatures
 		;
 	owl:versionIRI <https://ontologies.treasuryoflives.org/o/tolMain0.0.1> ;
 	skos:definition "A convenience file that provides a single point of entry to the Treasury of Lives Ontology. It does not itself define any terms, but rather specifies the full set of ontology and taxonomy imports, other than those imported directly by tol:core."^^xsd:string ;

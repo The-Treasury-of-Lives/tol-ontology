@@ -33,17 +33,38 @@
 	skos:prefLabel "Treasury of Lives Core Ontology"^^xsd:string ;
 	.
 
-tol:Castle
+tol:Birth
 	a owl:Class ;
-	rdfs:subClassOf gist:Building ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:editorialNote "Need formal definition, examples."^^xsd:string ;
-	skos:prefLabel "A large fortified structure."^^xsd:string ;
+	rdfs:subClassOf
+		gist:HistoricalEvent ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tol:isEventOf ;
+			owl:allValuesFrom tol:Person ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tol:actualYear ;
+			owl:cardinality "1"^^xsd:dateTime ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:occursIn ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+		]
+		;
+	skos:definition "TBD"^^xsd:string ;
+	skos:editorialNote
+		"Can deities have birth and death? Maybe we need a superclass."^^xsd:string ,
+		"We may want to establish a pattern for other things that may have actual/probable/possible/approximate years, as with birth and death."^^xsd:string
+		;
+	skos:prefLabel "Birth"^^xsd:string ;
+	skos:scopeNote "While the stated year may be only speculative, there is always an actual year, and the OWA allows the cardinality restriction on tol:actualYear."^^xsd:string ;
 	.
 
 tol:Century
-	rdfs:subClassOf gist:TimePeriod ;
 	skos:definition "A time period of 100 years reckoned from the birth of Jesus Christ."^^xsd:string ;
+	skos:editorialNote "Superclass TBD"^^xsd:string ;
 	skos:example "9th century AD"^^xsd:string ;
 	skos:prefLabel "Century"^^xsd:string ;
 	skos:scopeNote
@@ -52,20 +73,41 @@ tol:Century
 		;
 	.
 
+tol:Death
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:HistoricalEvent ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tol:isEventOf ;
+			owl:allValuesFrom tol:Person ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tol:actualYear ;
+			owl:cardinality "1"^^xsd:dateTime ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:occursIn ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+		]
+		;
+	skos:definition "TBD"^^xsd:string ;
+	skos:editorialNote
+		"Can deities have birth and death? Maybe we need a superclass."^^xsd:string ,
+		"We may want to establish a pattern for other things that may have actual/probable/possible/approximate years, as with birth and death."^^xsd:string
+		;
+	skos:prefLabel "Death"^^xsd:string ;
+	skos:scopeNote "While the stated year may be only speculative, there is always an actual year, and the OWA allows the cardinality restriction on tol:actualYear."^^xsd:string ;
+	.
+
 tol:Deity
 	a owl:Class ;
 	rdfs:subClassOf gist:LivingThing ;
 	owl:disjointWith tol:Person ;
 	skos:definition "A god or goddess; a being with divine status."^^xsd:string ;
 	skos:prefLabel "Deity"^^xsd:string ;
-	.
-
-tol:DharmaCenter
-	a owl:Class ;
-	rdfs:subClassOf gist:Building ;
-	skos:definition "A non-monastic religious center in a community."^^xsd:string ;
-	skos:example "Dashang Kagyu Ling is a dharma center and retreat center in La Boulaye, Burgundy, France."^^xsd:string ;
-	skos:prefLabel "Dharma Center"^^xsd:string ;
 	.
 
 tol:FraternalNiece
@@ -107,31 +149,6 @@ tol:GenealogicalGrouping
 		;
 	.
 
-tol:GovernmentBuilding
-	a owl:Class ;
-	rdfs:subClassOf gist:Building ;
-	skos:definition "A building containing official government offices."^^xsd:string ;
-	skos:editorialNote "Need formal definition, examples."^^xsd:string ;
-	skos:prefLabel "Government Building"^^xsd:string ;
-	.
-
-tol:Hermitage
-	a owl:Class ;
-	rdfs:subClassOf gist:Building ;
-	skos:definition "The dwelling of a hermit."^^xsd:string ;
-	skos:editorialNote "Need formal definition, examples."^^xsd:string ;
-	skos:prefLabel "Hermitage"^^xsd:string ;
-	.
-
-tol:HiddenValley
-	a owl:Class ;
-	rdfs:subClassOf gist:PilgrimageSite ;
-	skos:definition "TBD."^^xsd:string ;
-	skos:example "Zumbulung is a pilgrimage site in a hidden valley in Shang."^^xsd:string ;
-	skos:prefLabel "Hidden Valley"^^xsd:string ;
-	skos:scopeNote "Note that this subclasses PilgrimageSite, because valleys that are not pilgrimage sites are not of interest, and we don't want every relevant valley to have to be typed as both a Mountain and a PilgrimageSite."^^xsd:string ;
-	.
-
 tol:HistoricalPeriod
 	rdfs:subClassOf
 		gist:Category ,
@@ -148,26 +165,10 @@ tol:HistoricalPeriod
 		;
 	rdfs:seeAlso bdo:Era ;
 	skos:definition "A time interval having some historical signifance or distinguishing features."^^xsd:string ;
+	skos:editorialNote "Not sure if needed."^^xsd:string ;
 	skos:example "The Middle Ages"^^xsd:string ;
 	skos:prefLabel "Historical Period"^^xsd:string ;
 	skos:scopeNote "We assume a historical period is recognized as such only after it is over, thus it always has an endpoint."^^xsd:string ;
-	.
-
-tol:Hospital
-	a owl:Class ;
-	rdfs:subClassOf gist:Building ;
-	skos:definition "An institution providing medical and surgical treatment and nursing care for sick or injured people."^^xsd:string ;
-	skos:editorialNote "Need formal definition, examples."^^xsd:string ;
-	skos:prefLabel "Hospital"^^xsd:string ;
-	.
-
-tol:Lake
-	a owl:Class ;
-	rdfs:subClassOf gist:PilgrimageSite ;
-	skos:definition "TBD."^^xsd:string ;
-	skos:example "Konokor Lake"^^xsd:string ;
-	skos:prefLabel "Lake"^^xsd:string ;
-	skos:scopeNote "Note that this subclasses PilgrimageSite, because lakes that are not pilgrimage sites are not of interest, and we don't want every relevant lake to have to be typed as both a Mountain and a PilgrimageSite."^^xsd:string ;
 	.
 
 tol:Lineage
@@ -216,14 +217,6 @@ tol:Location
 	skos:scopeNote "Differs from and not a subclass of gist:Place, which includings only places that do or did exist."^^xsd:string ;
 	.
 
-tol:ManorHouse
-	a owl:Class ;
-	rdfs:subClassOf gist:Building ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:editorialNote "Need formal definition, examples."^^xsd:string ;
-	skos:prefLabel "The principal house of a landed estate."^^xsd:string ;
-	.
-
 tol:Marriage
 	a owl:Class ;
 	owl:equivalentClass [
@@ -251,46 +244,6 @@ tol:Marriage
 	skos:prefLabel "Marriage"^^xsd:string ;
 	.
 
-tol:Monastery
-	a owl:Class ;
-	rdfs:subClassOf gist:Building ;
-	skos:definition "A building occupied by a community of monks living under religious vows."^^xsd:string ;
-	skos:editorialNote
-		"Need formal definition, examples."^^xsd:string ,
-		"has abbots - not sure if class, predicate, or category."^^xsd:string
-		;
-	skos:example "Wensa Monastery, founded in the 15th  is an important Geluk hermitage in the Tsang region."^^xsd:string ;
-	skos:prefLabel "Monastery"^^xsd:string ;
-	.
-
-tol:Mountain
-	a owl:Class ;
-	rdfs:subClassOf gist:PilgrimageSite ;
-	skos:definition "TBD"^^xsd:string ;
-	skos:example "Mount Tsibri was the site of Zangpo Drakpa's 14th century treasure revelations."^^xsd:string ;
-	skos:prefLabel "Mountain"^^xsd:string ;
-	skos:scopeNote "Note that this subclasses PilgrimageSite, because mountains that are not pilgrimage sites are not of interest, and we don't want every relevant mountain to have to be typed as both a Mountain and a PilgrimageSite."^^xsd:string ;
-	.
-
-tol:Nunnery
-	a owl:Class ;
-	rdfs:subClassOf gist:Building ;
-	skos:definition "A building occupied by a community of nuns living under religious vows."^^xsd:string ;
-	skos:editorialNote
-		"Need formal definition, examples."^^xsd:string ,
-		"has abbesses - not sure if class, predicate, or category."^^xsd:string
-		;
-	skos:prefLabel "Nunnery"^^xsd:string ;
-	.
-
-tol:Palace
-	a owl:Class ;
-	rdfs:subClassOf gist:Building ;
-	skos:definition "The official residence of royalty or other exalted person."^^xsd:string ;
-	skos:editorialNote "Need formal definition, examples."^^xsd:string ;
-	skos:prefLabel "Palace"^^xsd:string ;
-	.
-
 tol:Person
 	a owl:Class ;
 	rdfs:subClassOf
@@ -309,14 +262,6 @@ tol:PilgrimageSite
 	skos:editorialNote "Check definition - what types of things can this include?"^^xsd:string ;
 	skos:example "Mount Tsibri was the site of Zangpo Drakpa's 14th century treasure revelations; Kokonor Lake"^^xsd:string ;
 	skos:prefLabel "Pilgrimage Place"^^xsd:string ;
-	.
-
-tol:School
-	a owl:Class ;
-	rdfs:subClassOf gist:Building ;
-	skos:definition "A building used for (religious) instruction."^^xsd:string ;
-	skos:example "The Nyaronga School was located in central Lhasa, founded in the 1920s and closed in 1959."^^xsd:string ;
-	skos:prefLabel "School"^^xsd:string ;
 	.
 
 tol:StrictlyOrderedCollection
@@ -345,14 +290,6 @@ tol:Student
 	skos:definition "A person who receives training in a text or practice from another person (the teacher)."^^xsd:string ;
 	skos:editorialNote "Not sure if needed."^^xsd:string ;
 	skos:prefLabel "Student"^^xsd:string ;
-	.
-
-tol:Stupa
-	a owl:Class ;
-	rdfs:subClassOf gist:Building ;
-	skos:definition "A dome-shaped structure erected as a Buddhist shrine."^^xsd:string ;
-	skos:editorialNote "Need formal definition, examples."^^xsd:string ;
-	skos:prefLabel "Stupa"^^xsd:string ;
 	.
 
 tol:Teacher
@@ -462,97 +399,30 @@ tol:TeachingLineage
 	skos:scopeNote "Teachers in a lineage are not designated numerically (as are, e.g., persons in an incarnation lineage), but are ordered through gist:precedesDirectly. Elements in the lineage may certainly co-occur or overlap."^^xsd:string ;
 	.
 
-tol:Temple
-	a owl:Class ;
-	rdfs:subClassOf gist:Building ;
-	skos:definition "A building devoted to the worship, or regarded as the dwelling place, of a god or other objects of religious reverence."^^xsd:string ;
-	skos:editorialNote "Need formal definition, examples."^^xsd:string ;
-	skos:prefLabel "Temple"^^xsd:string ;
-	.
-
-tol:TimePeriod
-	rdfs:subClassOf gist:Category ;
-	skos:definition "TBD."^^xsd:string ;
-	skos:editorialNote "How to define in terms of start and end? These don't even have year precision. Or use approximate start/end year?"^^xsd:string ;
-	skos:example "12th century, late 14th century"^^xsd:string ;
-	skos:prefLabel "Time Period"^^xsd:string ;
-	.
-
-tol:actualBirthYear
+tol:actualYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:actualStartYear ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "actual birth year"^^xsd:string ;
+	rdfs:subPropertyOf tol:year ;
+	skos:definition "The year in which something actually exists (existed) or takes (took) place."^^xsd:string ;
+	skos:example "Gyergom Tsultime Sengge was borth in 1144 and died in 1204."^^xsd:string ;
+	skos:prefLabel "actual year"^^xsd:string ;
 	.
 
-tol:actualDeathYear
+tol:actualYearApproximate
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:actualEndYear ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "actual death year"^^xsd:string ;
-	.
-
-tol:approximateBirthYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:approximateStartYear ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "approximate birth year"^^xsd:string ;
-	.
-
-tol:approximateDeathYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:approximateEndYear ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "approximate death year"^^xsd:string ;
-	.
-
-tol:approximateEndDateTime
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:endDateTime ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "approximate end date time"^^xsd:string ;
-	.
-
-tol:approximateEndYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:approximateEndDateTime ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "approximate end year"^^xsd:string ;
-	.
-
-tol:approximateStartDateTime
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:startDateTime ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "approximate start date time"^^xsd:string ;
-	.
-
-tol:approximateStartYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:approximateStartDateTime ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "approximate start year"^^xsd:string ;
-	.
-
-tol:bornInCentury
-	a owl:DatatypeProperty ;
-	rdfs:range tol:Century ;
-	skos:definition "The century in which a person was born."^^xsd:string ;
-	skos:prefLabel "born in century"^^xsd:string ;
-	.
-
-tol:diedInCentury
-	a owl:DatatypeProperty ;
-	rdfs:range tol:Century ;
-	skos:definition "The century in which a person died."^^xsd:string ;
-	skos:prefLabel "died in century"^^xsd:string ;
+	rdfs:subPropertyOf tol:actualYear ;
+	skos:definition "The approximate year in which something actually exists (existed) or takes (took) place."^^xsd:string ;
+	skos:example "Lhagyari Namgyel Gyatso was born in approximately 1927."^^xsd:string ;
+	skos:prefLabel "approximate actual year"^^xsd:string ;
 	.
 
 tol:dissolutionYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:actualEndYear ;
+	rdfs:subPropertyOf tol:year ;
 	skos:definition "The year an agreement such as marriage was ended. In the case of marriage, this refers to divorce rather than the end of a marriage by death of one of the spouses."^^xsd:string ;
-	skos:editorialNote "Use if we need to distinguish divorce from death as the end of a marriage."^^xsd:string ;
+	skos:editorialNote
+		"Use if we need to distinguish divorce from death as the end of a marriage."^^xsd:string ,
+		"We may want to do this like birth and death - have a Dissolution object with a year. If there are many things with actual/probable/possible/approximate years we should establish this as a pattern."^^xsd:string
+		;
 	skos:prefLabel "dissolution year"^^xsd:string ;
 	.
 
@@ -560,6 +430,7 @@ tol:foundedInYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:actualStartYear ;
 	skos:definition "TODO"^^xsd:string ;
+	skos:editorialNote "We may want to follow the pattern of Birth and Death here, instead of just using a property. Depends on what other information is available. We could have Founding with an agent and a date."^^xsd:string ;
 	skos:example "The Tshal-pa tradition was founded in 1123."^^xsd:string ;
 	skos:prefLabel "founded in year"^^xsd:string ;
 	skos:scopeNote "What is the end date on a tradition? Do we need a predicate other than gist:actualEndYear?"^^xsd:string ;
@@ -706,28 +577,6 @@ tol:hasPaternalGrandparent
 	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."^^xsd:string ;
 	.
 
-tol:hasPlaceOfBirth
-	a
-		owl:ObjectProperty ,
-		owl:FunctionalProperty
-		;
-	rdfs:subPropertyOf gist:hasPhysicalLocation ;
-	rdfs:domain tol:Person ;
-	skos:definition "Relates a person to his/her birthplace."^^xsd:string ;
-	skos:prefLabel "has place of birth"^^xsd:string ;
-	.
-
-tol:hasPlaceOfDeath
-	a
-		owl:ObjectProperty ,
-		owl:FunctionalProperty
-		;
-	rdfs:subPropertyOf gist:hasPhysicalLocation ;
-	rdfs:domain tol:Person ;
-	skos:definition "Relates a person to the place of his/her death."^^xsd:string ;
-	skos:prefLabel "has place of death"^^xsd:string ;
-	.
-
 tol:hasSororallNephew
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasNephew ;
@@ -768,6 +617,22 @@ tol:identifiesAsGender
 	skos:scopeNote "Use if a distinction is made between assigned gender and identified gender; otherwise use bdo:personGender."^^xsd:string ;
 	.
 
+tol:isEventOf
+	a owl:ObjectProperty ;
+	rdfs:domain gist:Event ;
+	skos:definition "Relates an event to the thing it pertains."^^xsd:string ;
+	skos:example "A person's birth or death; the founding of an institution; the dissolution of a marriage."^^xsd:string ;
+	skos:prefLabel "is event of"^^xsd:string ;
+	.
+
+tol:isInCentury
+	a owl:DatatypeProperty ;
+	rdfs:range tol:Century ;
+	skos:definition "Relates something to the time period in which it exists (existed) or takes (took) place."^^xsd:string ;
+	skos:example "Lasum Gyelwa Jangchub was born in the early 8th century; Rinchen Chok died in the 1st century; Khenchen Tashi Tsultrim was borth in the late 13th century."^^xsd:string ;
+	skos:prefLabel "is in time period"^^xsd:string ;
+	.
+
 tol:namePrimary
 	a
 		owl:DatatypeProperty ,
@@ -792,103 +657,31 @@ tol:nameVariant
 	skos:prefLabel "name variant"^^xsd:string ;
 	.
 
-tol:possibleBirthYear
+tol:possibleYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:possibleStartYear ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "possible birth year"^^xsd:string ;
-	skos:scopeNote "Only used in conjunction with a probable or approximate birth year, which is the more commonly accepted one."^^xsd:string ;
+	rdfs:subPropertyOf tol:year ;
+	skos:definition "The year in which something may exist (have existed) or take (have taken) place."^^xsd:string ;
+	skos:example "The birth year of Kunkyong Lingpa is commonly accepted to be 1396 (probable year), though some have suggested that he was born in 1408 (possible year)."^^xsd:string ;
+	skos:prefLabel "possible year"^^xsd:string ;
+	skos:scopeNote "If the year is controversial, this is the most commonly accepted one, and the less commonly accepted ones are expressed by tol:possibleYear."^^xsd:string ;
 	.
 
-tol:possibleDeathYear
+tol:probableYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:possibleEndYear ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "possible death year"^^xsd:string ;
-	skos:scopeNote "Only used in conjunction with a probable or approximate death year, which is the more commonly accepted one."^^xsd:string ;
+	rdfs:subPropertyOf tol:year ;
+	skos:definition "The year in which something is likely to exist (have existed) or take (have taken) place."^^xsd:string ;
+	skos:example "The birth year of Kunkyong Lingpa is commonly accepted to be 1396 (probable year), though some have suggested that he was born in 1408 (possible year)."^^xsd:string ;
+	skos:prefLabel "probable year"^^xsd:string ;
+	skos:scopeNote "If the year is controversial, this is the most commonly accepted one, and the less commonly accepted ones are expressed by tol:possibleYear."^^xsd:string ;
 	.
 
-tol:possibleEndDateTime
+tol:probableYearApproximate
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:endDateTime ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "possible end date time"^^xsd:string ;
-	skos:scopeNote "Only used in conjunction with a probable or approximate end datetime, which is the more commonly accepted one."^^xsd:string ;
-	.
-
-tol:possibleEndYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:possibleEndDateTime ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "possible end year"^^xsd:string ;
-	skos:scopeNote "Only used in conjunction with a probable or approximate birth year, which is the more commonly accepted one."^^xsd:string ;
-	.
-
-tol:possibleStartDateTime
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:startDateTime ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "possible start date time"^^xsd:string ;
-	skos:scopeNote "Only used in conjunction with a probable or approximate start datetime, which is the more commonly accepted one."^^xsd:string ;
-	.
-
-tol:possibleStartYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:possibleStartDateTime ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "possible start year"^^xsd:string ;
-	skos:scopeNote "Only used in conjunction with a probable or approximate start year, which is the more commonly accepted one."^^xsd:string ;
-	.
-
-tol:probableBirthYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:probableStartYear ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "probable birth year"^^xsd:string ;
-	skos:scopeNote "Only used in conjunction with a possible birth year, which is the less commonly accepted one. Otherwise, designate an actual birth year."^^xsd:string ;
-	.
-
-tol:probableDeathYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:probableEndYear ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "probable death year"^^xsd:string ;
-	skos:scopeNote "Only used in conjunction with a possible birth year, which is the less more commonly accepted one. Otherwise, specify an actual death year."^^xsd:string ;
-	.
-
-tol:probableEndDateTime
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:endDateTime ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "probable end date time"^^xsd:string ;
-	skos:scopeNote "Only used in conjunction with a possible end datetime, which is the less commonly accepted one. Otherwise, specify an actual end datetime."^^xsd:string ;
-	.
-
-tol:probableEndYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:probableEndDateTime ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "probable end year"^^xsd:string ;
-	skos:scopeNote "Only used in conjunction with a possible end year, which is the less commonly accepted one. Otherwise, specify an actual end year."^^xsd:string ;
-	.
-
-tol:probableStartDateTime
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:startDateTime ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "probable start date time"^^xsd:string ;
-	skos:scopeNote "Only used in conjunction with a possible start datetime;, which is the less commonly accepted one. Otherwise, specify an actual start date time."^^xsd:string ;
-	.
-
-tol:probableStartYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:probableStartDateTime ;
-	skos:definition "TODO"^^xsd:string ;
-	skos:prefLabel "probable start year"^^xsd:string ;
-	skos:scopeNote
-		"If there is also a tol:actualStartYear, that is the more commonly accepted date."^^xsd:string ,
-		"Only used in conjunction with a possible start year, which is the less commonly accepted one. Otherwise, specify an actual start year."^^xsd:string
-		;
+	rdfs:subPropertyOf tol:probableYear ;
+	skos:definition "The approximate year in which something is likely to exist (have existed) or take (have taken) place."^^xsd:string ;
+	skos:example "The birth year of Ngawang Yeshe Tubten is commonly accepted to be approximately 1807 (probable year), though some have suggested that he was born in 1815 (possible year)."^^xsd:string ;
+	skos:prefLabel "probable year"^^xsd:string ;
+	skos:scopeNote "If the year is controversial, this is the most commonly accepted one, and the less commonly accepted ones are expressed by tol:possibleYear."^^xsd:string ;
 	.
 
 tol:title
@@ -920,12 +713,12 @@ tol:titleVariant
 	skos:prefLabel "title variant"^^xsd:string ;
 	.
 
-[]
-	a owl:AllDisjointClasses ;
-	owl:members (
-		tol:Mountain
-		tol:Lake
-		tol:HiddenValley
-	) ;
+tol:year
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:atDateTime ;
+	skos:definition "Relates something to the year in which it does or may exist (have existed) or take (have taken) place. Includes approximate years."^^xsd:string ;
+	skos:editorialNote "The modalities approximate, probable, and possible, expressed here with subproperties, could be more easily and intuitively modeled with RDF*."^^xsd:string ;
+	skos:example "The year a birth took place; the year a death may have taken place; an approximate year of birth."^^xsd:string ;
+	skos:prefLabel "year"^^xsd:string ;
 	.
 
