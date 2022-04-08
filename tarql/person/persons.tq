@@ -1,0 +1,194 @@
+PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
+PREFIX bdr: <http://purl.bdrc.io/resource/> 
+PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gist: <https://ontologies.semanticarts.com/gist/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX tol: <https://ontologies.treasuryoflives.org/tol/>
+PREFIX tolx: <https://taxonomies.treasuryoflives.org/>
+PREFIX told: <https://data.treasuryoflives.org/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wiki: <https://www.wikidata.org/wiki/>
+
+# TOL ID
+# TBRC RID
+# Primary title
+# Primary name
+# Wylie title
+# Wylie name
+# Birth year
+# Birth year approximate
+# Birth year alternate
+# Death year
+# Death year approximate
+# Death year alternate
+# Gender
+# HAR URL
+# Death century
+# Historical period
+# Name displayed as
+# Name variants
+# Birth century
+
+# TODO!! 
+# other name variants
+# actual/probable/possible birth and death years
+# parse multiple alternate birth/death years
+
+CONSTRUCT {
+    ?personResource a tol:Person ;
+        owl:sameAs ?bdrcResource ;
+        owl:sameAs ?wikidataResource ;
+
+        gist:name ?nameToL ;
+        gist:name ?nameWylie ;
+        tol:title ?titleToL ;
+        tol:title ?titleWylie ;
+
+        bdo:personGender ?gender ;
+        tol:harUrl ?HAR_URL ;
+        .
+
+    ?birth a tol:Birth ;
+        tol:isEventOf ?personResource ;
+        tol:isInCentury ?birthCentury ;
+        tol:actualYear ?typedActualBirthYear ;
+        tol:actualYearApproximate ?typedActualBirthYearApproximate ;
+        tol:probableYear ?typedProbableBirthYear ;
+        tol:probableYearApproximate ?typedProbableBirthYearApproximate ;
+        tol:possibleYear ?typedPossibleBirthYear ;
+        .
+
+    ?death a tol:Death ;
+        tol:isEventOf ?personResource ;
+        tol:isInCentury ?deathCentury ;
+        tol:actualYear ?typedActualDeathYear ;
+        tol:actualYearApproximate ?typedActualDeathYearApproximate ;
+        tol:probableYear ?typedProbableDeathYear ;
+        tol:probableYearApproximate ?typedProbableDeathYearApproximate ;
+        tol:possibleYear ?typedPossibleDeathYear ;
+        
+    .
+}
+
+FROM <file:persons_2022-04-07.csv>
+
+WHERE {
+
+    # owl:sameAs
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?TOL_ID)) AS ?personResource)
+    BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?TBRC_RID)) AS ?bdrcResource)
+    BIND(tarql:expandPrefixedName(CONCAT("wiki:", ?Wikidata_ID)) AS ?wikidataResource) 
+
+   # TOL name and title
+    BIND(STRLANG(?Primary_name, "bo-x-phon-en-m-tol") AS ?nameToL)
+    BIND(STRLANG(?Primary_title, "bo-x-phon-en-m-tol") AS ?titleToL)
+
+    # Wylie name and title
+    BIND(STRLANG(?Wylie_name, "bo-x-phon-ewts") AS ?nameWylie)
+    BIND(STRLANG(?Wylie_title, "bo-x-phon-ewts") AS ?titleWylie)
+
+    # Gender
+    BIND(IF(?Gender = "M", tarql:expandPrefixedName("bdr:GenderMale"), IF(?Gender = "F", tarql:expandPrefixedName("bdr:GenderFemale"), ?blank)) AS ?gender) 
+
+    # To create an xsd:dateTime from the year string
+    BIND("-01-01T00:00:00" AS ?dateTimeRemainder)
+
+    # BIRTH 
+    
+    # Birth event
+    BIND(IF(BOUND(?Birth_year) || BOUND(?Birth_century), 
+        tarql:expandPrefixedName(CONCAT("told:_Birth_person_", ?TOL_ID)), ?blank) AS ?birth)
+
+    # Birth century
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_Century_", REPLACE(REPLACE(?Birth_century, " ", "_"), "[()]", ""))) AS ?birthCentury) 
+
+    # Actual vs probable vs possible birth
+
+    # Add initial 0 to 3-digit year to create a well-formed year
+    BIND(
+        IF(REGEX(?Birth_year, "^\\d{3}$"), 
+            CONCAT("0", ?Birth_year), 
+                # Two-digit birth year (11, 13) is always accompanied by a century, so don't generate a birth year. There is no data of this type for death years.
+                IF(REGEX(?Birth_year, "^\\d{2}$"), ?blank, ?Birth_year)) AS ?fullBirthYear)
+
+    # TODO Not using approximate/exact distinction below yet.
+    # Approximate birth year
+    BIND(IF(?Birth_year_approximate = "1", ?fullBirthYear, ?blank) AS ?approximateBirthYear)
+    # Exact death year
+    BIND(IF(!BOUND(?approximateBirthYear), ?fullBirthYear, ?blank) AS ?exactBirthYear)
+
+    ### TODO - First need to parse multiples alternates, so each one becomes a possible 
+
+    # Possible birth year
+    BIND(
+        IF(REGEX(?Birth_year_alternate, "^\\d{3}$"), 
+            CONCAT("0", ?Birth_year_alternate), 
+                # Two-digit birth year (11, 13) is always accompanied by a century, so don't generate a birth year. There is no data of this type for death years.
+                IF(REGEX(?Birth_year_alternate, "^\\d{2}$"), ?blank, ?Birth_year_alternate)) AS ?possibleBirthYear)
+
+    BIND(STRDT(CONCAT(?possibleBirthYear, ?dateTimeRemainder), xsd:dateTime) AS ?typedPossibleBirthYear)
+
+    BIND(STRDT(CONCAT(?exactBirthYear, ?dateTimeRemainder), xsd:dateTime) AS ?typedExactBirthYear)
+
+    ### TODO - work in approximate vs exact in probable/actual
+
+    # If there's an alternate birth year, the primary birth year is only possible, not actual.
+    BIND(IF(BOUND(?typedPossibleBirthYear), ?typedExactBirthYear, ?blank) AS ?typedProbableBirthYear)
+
+    # If there's no alternate birth year, the primary birth year is actual.
+    BIND(IF(!BOUND(?typedPossibleBirthYear), ?typedExactBirthYear, ?blank) AS ?typedActualBirthYear)
+
+
+    # DEATH 
+
+    # Death event
+    BIND(IF(BOUND(?Death_year) || BOUND(?Death_century),  
+      tarql:expandPrefixedName(CONCAT("told:_Death_person_", ?TOL_ID)), ?blank) AS ?death)
+
+    # Death century
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_Century_", REPLACE(REPLACE(?Death_century, " ", "_"), "[()]", ""))) AS ?deathCentury) 
+
+    # Add initial 0 to 3-digit year to create a well-formed year
+    BIND(
+        IF(REGEX(?Death_year, "^\\d{3}$"), 
+            CONCAT("0", ?Death_year), ?Death_year) AS ?fullDeathYear)
+
+    # TODO Not using approximate/exact distinction below yet.
+    # Approximate death year
+    BIND(IF(?Death_year_approximate = "1", ?fullDeathYear, ?blank) AS ?approximateDeathYear)
+    # Exact death year
+    BIND(IF(!BOUND(?approximateDeathYear), ?fullDeathYear, ?blank) AS ?exactDeathYear)
+
+    ### TODO - First need to parse multiples alternates, so each one becomes a possible 
+
+    # Possible death year
+    BIND(
+        IF(REGEX(?Death_year_alternate, "^\\d{3}$"), 
+            CONCAT("0", ?Death_year_alternate), 
+                # Two-digit birth year (11, 13) is always accompanied by a century, so don't generate a birth year. There is no data of this type for death years.
+                IF(REGEX(?Death_year_alternate, "^\\d{2}$"), ?blank, ?Death_year_alternate)) AS ?possibleDeathYear)
+
+    BIND(STRDT(CONCAT(?possibleDeathYear, ?dateTimeRemainder), xsd:dateTime) AS ?typedPossibleDeathYear)
+
+    BIND(STRDT(CONCAT(?exactDeathYear, ?dateTimeRemainder), xsd:dateTime) AS ?typedExactDeathYear)
+
+    ### TODO - work in approximate vs exact in probable/actual
+
+    # If there's an alternate death year, the primary death year is only possible, not actual.
+    BIND(IF(BOUND(?typedPossibleDeathYear), ?typedExactDeathYear, ?blank) AS ?typedProbableDeathYear)
+
+    # If there's no alternate death year, the primary death year is actual.
+    BIND(IF(!BOUND(?typedPossibleDeathYear), ?typedExactDeathYear, ?blank) AS ?typedActualDeathYear)
+
+    # Name variants
+    OPTIONAL {
+
+    }
+
+}
