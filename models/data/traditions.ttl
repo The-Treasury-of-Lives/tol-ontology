@@ -1,4 +1,4 @@
-# imports: https://ontologies.treasuryoflives.org/o/tolCore
+# imports: https://ontologies.treasuryoflives.org/tolCore
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
@@ -18,7 +18,7 @@
 
 told:traditions
 	a owl:Ontology ;
-	owl:imports <https://ontologies.treasuryoflives.org/o/tolCore> ;
+	owl:imports <https://ontologies.treasuryoflives.org/tolCore> ;
 	owl:versionIRI told:traditions0.0.1 ;
 	skos:editorialNote
 		"Auto-generated via TARQL."^^xsd:string ,
@@ -27,26 +27,26 @@ told:traditions
 	skos:prefLabel "Traditions"^^xsd:string ;
 	.
 
-tolx:_Tradition_Barom_Kagyu
+told:_Tradition_Barom_Kagyu
 	a tol:Tradition ;
-	gist:actualEndYear "an xsd:datetime, tagged as such"^^xsd:string ;
-	gist:actualStartYear "an xsd:datetime, tagged as such"^^xsd:string ;
-	gist:isBasedOn tolx:_Tradition_Marpa_Kagyu ;
+	gist:actualEndYear "TODO an xsd:datetime, tagged as such"^^xsd:string ;
+	gist:actualStartYear "TODO an xsd:datetime, tagged as such"^^xsd:string ;
+	gist:isBasedOn told:_Tradition_Marpa_Kagyu ;
 	tol:nameVariant "TODO - this is in other transcription systems and should be language-tagged."^^xsd:string ;
 	tol:primaryName "Barom Kagyu"@bo-x-phon-en-m-tol ;
 	.
 
-tolx:_Tradition_Marpa_Kagyu
+told:_Tradition_Marpa_Kagyu
 	a tol:Tradition ;
-	gist:actualEndYear "an xsd:datetime, tagged as such"^^xsd:string ;
-	gist:actualStartYear "an xsd:datetime, tagged as such"^^xsd:string ;
+	gist:actualEndYear "TODO an xsd:datetime, tagged as such"^^xsd:string ;
+	gist:actualStartYear "TODO an xsd:datetime, tagged as such"^^xsd:string ;
 	tol:nameVariant "TODO - this is in other transcription systems and should be language-tagged."^^xsd:string ;
 	tol:primaryName "Marpa Kagyu"@bo-x-phon-en-m-tol ;
 	.
 
-tolx:_Tradition_Nyingma
+told:_Tradition_Nyingma
 	a tol:Tradition ;
-	gist:actualEndYear "an xsd:datetime, tagged as such"^^xsd:string ;
+	gist:actualEndYear "TODO an xsd:datetime, tagged as such"^^xsd:string ;
 	gist:actualStartYear "an xsd:datetime, tagged as such"^^xsd:string ;
 	tol:nameVariant "TODO - this is in other transcription systems and should be language-tagged."^^xsd:string ;
 	tol:primaryName "Nyingma"@bo-x-phon-en-m-tol ;
