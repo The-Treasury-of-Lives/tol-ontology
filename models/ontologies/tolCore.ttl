@@ -15,12 +15,12 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://ontologies.treasuryoflives.org/o/tolCore>
+<https://ontologies.treasuryoflives.org/tolCore>
 	a owl:Ontology ;
 	dct:license "TBD"^^xsd:string ;
 	vann:preferredNamespacePrefix "tol"^^xsd:string ;
 	owl:imports <https://ontologies.semanticarts.com/o/gistCore11.0.0> ;
-	owl:versionIRI <https://ontologies.treasuryoflives.org/o/tolCore0.0.1> ;
+	owl:versionIRI <https://ontologies.treasuryoflives.org/tolCore0.0.1> ;
 	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, facilitate the consumption of external RDF, and to to enhance the narrative text with structured data."^^xsd:string ;
 	skos:editoralNote
 		"Add rdfs:isDefinedBy using onto-toolkit."^^xsd:string ,
@@ -47,13 +47,15 @@ tol:Birth
 			a owl:Restriction ;
 			owl:onProperty gist:occursIn ;
 			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tol:year ;
+			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
 		]
 		;
 	skos:definition "TBD"^^xsd:string ;
-	skos:editorialNote
-		"Can deities have birth and death? Maybe we need a superclass."^^xsd:string ,
-		"We may want to establish a pattern for other things that may have actual/probable/possible/approximate years, as with birth and death."^^xsd:string
-		;
+	skos:editorialNote "Can deities have birth and death? We may need to loosen the restriction."^^xsd:string ;
 	skos:prefLabel "Birth"^^xsd:string ;
 	.
 
@@ -82,13 +84,15 @@ tol:Death
 			a owl:Restriction ;
 			owl:onProperty gist:occursIn ;
 			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tol:year ;
+			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
 		]
 		;
 	skos:definition "TBD"^^xsd:string ;
-	skos:editorialNote
-		"Can deities have birth and death? Maybe we need a superclass."^^xsd:string ,
-		"We may want to establish a pattern for other things that may have actual/probable/possible/approximate years, as with birth and death."^^xsd:string
-		;
+	skos:editorialNote "Can deities have birth and death? We may need to loosen the restriction."^^xsd:string ;
 	skos:prefLabel "Death"^^xsd:string ;
 	.
 
@@ -392,17 +396,17 @@ tol:TeachingLineage
 tol:actualYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tol:year ;
-	skos:definition "The year in which something actually exists (existed) or takes (took) place."^^xsd:string ;
-	skos:example "Gyergom Tsultime Sengge was borth in 1144 and died in 1204."^^xsd:string ;
+	skos:definition "The year in which something existed or took place."^^xsd:string ;
+	skos:example "Gyergom Tsultime Sengge was born in 1144 and died in 1204."^^xsd:string ;
 	skos:prefLabel "actual year"^^xsd:string ;
 	.
 
-tol:actualYearApproximate
+tol:approximateYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:actualYear ;
-	skos:definition "The approximate year in which something actually exists (existed) or takes (took) place."^^xsd:string ;
+	rdfs:subPropertyOf tol:year ;
+	skos:definition "The approximate year in which something existed or took place."^^xsd:string ;
 	skos:example "Lhagyari Namgyel Gyatso was born in approximately 1927."^^xsd:string ;
-	skos:prefLabel "approximate actual year"^^xsd:string ;
+	skos:prefLabel "approximate year"^^xsd:string ;
 	.
 
 tol:dissolutionYear
@@ -411,7 +415,7 @@ tol:dissolutionYear
 	skos:definition "The year an agreement such as marriage was ended. In the case of marriage, this refers to divorce rather than the end of a marriage by death of one of the spouses."^^xsd:string ;
 	skos:editorialNote
 		"Use if we need to distinguish divorce from death as the end of a marriage."^^xsd:string ,
-		"We may want to do this like birth and death - have a Dissolution object with a year. If there are many things with actual/probable/possible/approximate years we should establish this as a pattern."^^xsd:string
+		"We may want to do this like birth and death - have a Dissolution object with a year. If there are many things with actual/probable/possible/approximate years (dissolution, founding, etc.) we should establish this as a general pattern."^^xsd:string
 		;
 	skos:prefLabel "dissolution year"^^xsd:string ;
 	.
@@ -626,26 +630,17 @@ tol:isInCentury
 tol:possibleYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tol:year ;
-	skos:definition "The year in which something may exist (have existed) or take (have taken) place."^^xsd:string ;
+	skos:definition "The year in which something existed or took place."^^xsd:string ;
 	skos:example "The birth year of Kunkyong Lingpa is commonly accepted to be 1396 (probable year), though some have suggested that he was born in 1408 (possible year)."^^xsd:string ;
 	skos:prefLabel "possible year"^^xsd:string ;
-	skos:scopeNote "If the year is controversial, this is the most commonly accepted one, and the less commonly accepted ones are expressed by tol:possibleYear."^^xsd:string ;
+	skos:scopeNote "If the year is controversial, this is the less commonly accepted one, and the more commonly accepted one is expressed by tol:probableYear."^^xsd:string ;
 	.
 
 tol:probableYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tol:year ;
-	skos:definition "The year in which something is likely to exist (have existed) or take (have taken) place."^^xsd:string ;
+	skos:definition "The year in which something is likely to have existed or taken place."^^xsd:string ;
 	skos:example "The birth year of Kunkyong Lingpa is commonly accepted to be 1396 (probable year), though some have suggested that he was born in 1408 (possible year)."^^xsd:string ;
-	skos:prefLabel "probable year"^^xsd:string ;
-	skos:scopeNote "If the year is controversial, this is the most commonly accepted one, and the less commonly accepted ones are expressed by tol:possibleYear."^^xsd:string ;
-	.
-
-tol:probableYearApproximate
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:probableYear ;
-	skos:definition "The approximate year in which something is likely to exist (have existed) or take (have taken) place."^^xsd:string ;
-	skos:example "The birth year of Ngawang Yeshe Tubten is commonly accepted to be approximately 1807 (probable year), though some have suggested that he was born in 1815 (possible year)."^^xsd:string ;
 	skos:prefLabel "probable year"^^xsd:string ;
 	skos:scopeNote "If the year is controversial, this is the most commonly accepted one, and the less commonly accepted ones are expressed by tol:possibleYear."^^xsd:string ;
 	.
@@ -660,9 +655,9 @@ tol:title
 tol:year
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:atDateTime ;
-	skos:definition "Relates something to the year in which it does or may exist (have existed) or take (have taken) place. Includes approximate years."^^xsd:string ;
-	skos:editorialNote "The modalities approximate, probable, and possible, expressed here with subproperties, could be more easily and intuitively modeled with RDF*."^^xsd:string ;
-	skos:example "The year a birth took place; the year a death may have taken place; an approximate year of birth."^^xsd:string ;
+	skos:definition "The year in which something existed or took place, including actual, approximate, probable, and possible values."^^xsd:string ;
+	skos:editorialNote "The modalities actual, approximate, probable, and possible, expressed here with subproperties, could be more naturally modeled with RDF*."^^xsd:string ;
+	skos:example "The year a birth took place; the year a death may have taken place; an approximate year of birth; the most likely date of death."^^xsd:string ;
 	skos:prefLabel "year"^^xsd:string ;
 	.
 

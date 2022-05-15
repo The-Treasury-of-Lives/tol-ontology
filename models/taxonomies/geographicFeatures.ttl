@@ -1,4 +1,4 @@
-# imports: https://ontologies.treasuryoflives.org/o/tolCore
+# imports: https://ontologies.treasuryoflives.org/tolCore
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
@@ -17,7 +17,7 @@
 
 tolx:geographicFeatures
 	a owl:Ontology ;
-	owl:imports <https://ontologies.treasuryoflives.org/o/tolCore> ;
+	owl:imports <https://ontologies.treasuryoflives.org/tolCore> ;
 	owl:versionIRI tolx:geographicFeatures0.0.1 ;
 	skos:definition "Defines geographic features that can be pilgrimage sites."^^xsd:string ;
 	skos:prefLabel "Geographic Features"^^xsd:string ;

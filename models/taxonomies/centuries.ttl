@@ -1,4 +1,4 @@
-# imports: https://ontologies.treasuryoflives.org/o/tolCore
+# imports: https://ontologies.treasuryoflives.org/tolCore
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
@@ -17,7 +17,7 @@
 
 tolx:centuries
 	a owl:Ontology ;
-	owl:imports <https://ontologies.treasuryoflives.org/o/tolCore> ;
+	owl:imports <https://ontologies.treasuryoflives.org/tolCore> ;
 	owl:versionIRI tolx:centuries.0.1 ;
 	skos:definition "Centuries, including whole and partial centuries, designated as early, mid, or late."^^xsd:string ;
 	skos:prefLabel "Centuries"^^xsd:string ;
