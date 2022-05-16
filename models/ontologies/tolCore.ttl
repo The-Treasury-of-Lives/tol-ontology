@@ -447,6 +447,14 @@ tol:hasAssignedGender
 	skos:scopeNote "Use if a distinction is made between assigned gender and identified gender; otherwise use bdo:personGender."^^xsd:string ;
 	.
 
+tol:hasEvent
+	a owl:ObjectProperty ;
+	rdfs:range gist:Event ;
+	skos:definition "Relates something to an event pertaining to it."^^xsd:string ;
+	skos:example "A person's birth or death; the founding of an institution; the dissolution of a marriage."^^xsd:string ;
+	skos:prefLabel "has event"^^xsd:string ;
+	.
+
 tol:hasFinalRestingPlace
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:hasPhysicalLocation ;
@@ -613,8 +621,8 @@ tol:identifiesAsGender
 
 tol:isEventOf
 	a owl:ObjectProperty ;
-	rdfs:domain gist:Event ;
-	skos:definition "Relates an event to the thing it pertains."^^xsd:string ;
+	owl:inverseOf tol:hasEvent ;
+	skos:definition "Relates an event to the thing it pertains to."^^xsd:string ;
 	skos:example "A person's birth or death; the founding of an institution; the dissolution of a marriage."^^xsd:string ;
 	skos:prefLabel "is event of"^^xsd:string ;
 	.
