@@ -11,16 +11,14 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix tol: <https://ontologies.treasuryoflives.org/tol/> .
 @prefix tolx: <https://taxonomies.treasuryoflives.org/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://ontologies.treasuryoflives.org/tolCore>
+<https://ontologies.treasuryoflives.org/o/tolCore>
 	a owl:Ontology ;
 	dct:license "TBD"^^xsd:string ;
-	vann:preferredNamespacePrefix "tol"^^xsd:string ;
 	owl:imports <https://ontologies.semanticarts.com/o/gistCore11.0.0> ;
-	owl:versionIRI <https://ontologies.treasuryoflives.org/tolCore0.0.1> ;
+	owl:versionIRI <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
 	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, facilitate the consumption of external RDF, and to to enhance the narrative text with structured data."^^xsd:string ;
 	skos:editoralNote
 		"Add rdfs:isDefinedBy using onto-toolkit."^^xsd:string ,
@@ -60,8 +58,8 @@ tol:Birth
 	.
 
 tol:Century
+	rdfs:subClassOf gist:Category ;
 	skos:definition "A time period of 100 years reckoned from the birth of Jesus Christ."^^xsd:string ;
-	skos:editorialNote "Superclass TBD"^^xsd:string ;
 	skos:example "9th century AD"^^xsd:string ;
 	skos:prefLabel "Century"^^xsd:string ;
 	skos:scopeNote
@@ -143,26 +141,21 @@ tol:GenealogicalGrouping
 		;
 	.
 
-tol:HistoricalPeriod
+tol:LandmarkType
+	a owl:Class ;
 	rdfs:subClassOf
 		gist:Category ,
 		[
 			a owl:Restriction ;
-			owl:onProperty gist:actualEndYear ;
-			owl:cardinality "1"^^xsd:nonNegativeInteger ;
-		] ,
-		[
-			a owl:Restriction ;
-			owl:onProperty gist:actualStartYear ;
-			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom gist:Landmark ;
 		]
 		;
-	rdfs:seeAlso bdo:Era ;
-	skos:definition "A time interval having some historical signifance or distinguishing features."^^xsd:string ;
-	skos:editorialNote "Not sure if needed."^^xsd:string ;
-	skos:example "The Middle Ages"^^xsd:string ;
-	skos:prefLabel "Historical Period"^^xsd:string ;
-	skos:scopeNote "We assume a historical period is recognized as such only after it is over, thus it always has an endpoint."^^xsd:string ;
+	skos:definition "A type of geographic or man-made landmark."^^xsd:string ;
+	skos:example "Mountain, lake, hidden valley."^^xsd:string ;
+	skos:prefLabel "Landmark Type"^^xsd:string ;
 	.
 
 tol:Lineage

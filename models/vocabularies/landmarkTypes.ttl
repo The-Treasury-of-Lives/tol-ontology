@@ -1,4 +1,4 @@
-# imports: https://ontologies.treasuryoflives.org/tolCore
+# imports: https://ontologies.treasuryoflives.org/o/tolCoreX.x.x
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
@@ -11,55 +11,68 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix tol: <https://ontologies.treasuryoflives.org/tol/> .
 @prefix tolx: <https://taxonomies.treasuryoflives.org/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-tolx:buildingFunctions
+<https://taxonomies.tol.org/t/landmarkTypes>
 	a owl:Ontology ;
-	owl:imports <https://ontologies.treasuryoflives.org/tolCore> ;
-	owl:versionIRI tolx:buildingFunctions0.0.1 ;
-	skos:definition "Defines types of buildings according to their function."^^xsd:string ;
-	skos:prefLabel "Building Functions"^^xsd:string ;
+	owl:imports <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
+	owl:versionIRI <https://taxonomies.tol.org/t/geographicFeatureTypesX.x.x> ;
+	skos:definition "Defines types of landmarks that play some religious role. Thse can be geographic features such as mountains and lakes, or man-made structures such as monasteries and schools."^^xsd:string ;
+	skos:prefLabel "Landmark Types"^^xsd:string ;
 	.
 
-tolx:_BuildingFunction_castle
-	a tol:BuildingFunction ;
+tolx:_LandmarkType_castle
+	a tol:LandmarkType ;
 	skos:definition "TODO."^^xsd:string ;
 	skos:example "TODO"^^xsd:string ;
 	skos:prefLabel "Castle"^^xsd:string ;
 	.
 
-tolx:_BuildingFunction_dharma_center
-	a tol:BuildingFunction ;
+tolx:_LandmarkType_dharma_center
+	a tol:LandmarkType ;
 	skos:definition "A non-monastic religious center in a community."^^xsd:string ;
 	skos:example "Dashang Kagyu Ling is a dharma center and retreat center in La Boulaye, Burgundy, France."^^xsd:string ;
 	skos:prefLabel "Dharma Center"^^xsd:string ;
 	.
 
-tolx:_BuildingFunction_government_building
-	a tol:BuildingFunction ;
+tolx:_LandmarkType_government_building
+	a tol:LandmarkType ;
 	skos:definition "A building containing official government offices."^^xsd:string ;
 	skos:example "TODO"^^xsd:string ;
 	skos:prefLabel "Government Building"^^xsd:string ;
 	.
 
-tolx:_BuildingFunction_hermitage
-	a tol:BuildingFunction ;
+tolx:_LandmarkType_hermitage
+	a tol:LandmarkType ;
 	skos:definition "The dwelling of a hermit."^^xsd:string ;
 	skos:example "TODO"^^xsd:string ;
 	skos:prefLabel "Hermitage"^^xsd:string ;
 	.
 
-tolx:_BuildingFunction_hospital
-	a tol:BuildingFunction ;
+tolx:_LandmarkType_hidden_valley
+	a tol:LandmarkType ;
+	skos:definition "A valley that is a pilgrimage site."^^xsd:string ;
+	skos:example "Zumbulung is a pilgrimage site in a hidden valley in Shang."^^xsd:string ;
+	skos:prefLabel "Hidden Valley"^^xsd:string ;
+	.
+
+tolx:_LandmarkType_hospital
+	a tol:LandmarkType ;
 	skos:definition "An institution providing medical and surgical treatment and nursing care for sick or injured people."^^xsd:string ;
 	skos:example "TODO"^^xsd:string ;
 	skos:prefLabel "Hospital"^^xsd:string ;
 	.
 
-tolx:_BuildingFunction_manor_house
-	a tol:BuildingFunction ;
+tolx:_LandmarkType_lake
+	a tol:LandmarkType ;
+	skos:definition "A lake that is a pilgrimage site."^^xsd:string ;
+	skos:example "Konokor Lake"^^xsd:string ;
+	skos:prefLabel "Lake"^^xsd:string ;
+	.
+
+tolx:_LandmarkType_manor_house
+	a tol:LandmarkType ;
 	skos:example "TODO"^^xsd:string ;
 	skos:prefLabel
 		"Manor House"^^xsd:string ,
@@ -67,43 +80,50 @@ tolx:_BuildingFunction_manor_house
 		;
 	.
 
-tolx:_BuildingFunction_monastery
-	a tol:BuildingFunction ;
+tolx:_LandmarkType_monastery
+	a tol:LandmarkType ;
 	skos:definition "A building occupied by a community of monks living under religious vows."^^xsd:string ;
 	skos:example "Wensa Monastery, founded in the 15th  is an important Geluk hermitage in the Tsang region."^^xsd:string ;
 	skos:prefLabel "Monastery"^^xsd:string ;
 	.
 
-tolx:_BuildingFunction_nunnery
-	a tol:BuildingFunction ;
+tolx:_LandmarkType_mountain
+	a tol:LandmarkType ;
+	skos:definition "A mountain that is a pilgrimage site."^^xsd:string ;
+	skos:example "Mount Tsibri was the site of Zangpo Drakpa's 14th century treasure revelations."^^xsd:string ;
+	skos:prefLabel "Mountain"^^xsd:string ;
+	.
+
+tolx:_LandmarkType_nunnery
+	a tol:LandmarkType ;
 	skos:definition "A building occupied by a community of nuns living under religious vows."^^xsd:string ;
 	skos:example "Tsamkhung is a convent in Lhasa."^^xsd:string ;
 	skos:prefLabel "Nunnery"^^xsd:string ;
 	.
 
-tolx:_BuildingFunction_palace
-	a tol:BuildingFunction ;
+tolx:_LandmarkType_palace
+	a tol:LandmarkType ;
 	skos:definition "The official residence of royalty or other exalted person."^^xsd:string ;
 	skos:example "TODO"^^xsd:string ;
 	skos:prefLabel "Palace"^^xsd:string ;
 	.
 
-tolx:_BuildingFunction_school
-	a tol:BuildingFunction ;
+tolx:_LandmarkType_school
+	a tol:LandmarkType ;
 	skos:definition "A building used for (religious) instruction."^^xsd:string ;
 	skos:example "The Nyaronga School was located in central Lhasa, founded in the 1920s and closed in 1959."^^xsd:string ;
 	skos:prefLabel "School"^^xsd:string ;
 	.
 
-tolx:_BuildingFunction_stupa
-	a tol:BuildingFunction ;
+tolx:_LandmarkType_stupa
+	a tol:LandmarkType ;
 	skos:definition "A dome-shaped structure erected as a Buddhist shrine."^^xsd:string ;
 	skos:example "TODO"^^xsd:string ;
 	skos:prefLabel "Stupa"^^xsd:string ;
 	.
 
-tolx:_BuildingFunction_temple
-	a tol:BuildingFunction ;
+tolx:_LandmarkType_temple
+	a tol:LandmarkType ;
 	skos:definition "A building devoted to the worship, or regarded as the dwelling place, of a god or other objects of religious reverence."^^xsd:string ;
 	skos:example "The Nyaronga School was located in central Lhasa, founded in the 1920s and closed in 1959."^^xsd:string ;
 	skos:prefLabel "Temple"^^xsd:string ;

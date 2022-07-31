@@ -1,4 +1,4 @@
-# imports: https://ontologies.treasuryoflives.org/tolCore
+# imports: https://ontologies.treasuryoflives.org/o/tolCoreX.x.x
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
@@ -11,14 +11,13 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix tol: <https://ontologies.treasuryoflives.org/tol/> .
 @prefix tolx: <https://taxonomies.treasuryoflives.org/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-tolx:centuries
+<https://taxonomies.tol.org/t/centuries>
 	a owl:Ontology ;
-	owl:imports <https://ontologies.treasuryoflives.org/tolCore> ;
-	owl:versionIRI tolx:centuries.0.1 ;
+	owl:imports <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
+	owl:versionIRI <https://data.tol.org/d/centuriesX.x.x> ;
 	skos:definition "Centuries, including whole and partial centuries, designated as early, mid, or late."^^xsd:string ;
 	skos:prefLabel "Centuries"^^xsd:string ;
 	.

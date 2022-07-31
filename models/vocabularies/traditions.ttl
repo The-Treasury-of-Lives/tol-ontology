@@ -1,7 +1,8 @@
+# imports: https://ontologies.treasuryoflives.org/o/tolCoreX.x.x
+
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bdr: <http://purl.bdrc.io/resource/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
-@prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix gist: <https://ontologies.semanticarts.com/gist/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -13,6 +14,15 @@
 @prefix tolx: <https://taxonomies.treasuryoflives.org/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.tol.org/d/traditions>
+	a owl:Ontology ;
+	owl:imports <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
+	owl:versionIRI <https://data.tol.org/d/traditionsX.x.x> ;
+	skos:definition "Defines religious traditions."^^xsd:string ;
+	skos:editorialNote "Auto-generated via TARQL."^^xsd:string ;
+	skos:prefLabel "Traditions"^^xsd:string ;
+	.
 
 told:_Tradition_Barawa_Kagyu
 	a tol:Tradition ;

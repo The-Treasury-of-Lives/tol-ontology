@@ -1,9 +1,9 @@
 # imports: http://purl.bdrc.io/ontology/types/Gender
-# imports: https://data.treasuryoflives.org/traditions
-# imports: https://ontologies.treasuryoflives.org/tolCore
-# imports: https://taxonomies.treasuryoflives.org/buildingFunctions
-# imports: https://taxonomies.treasuryoflives.org/centuries
-# imports: https://taxonomies.treasuryoflives.org/geographicFeatures
+# imports: https://data.tol.org/d/landmarksX.x.x
+# imports: https://data.tol.org/d/traditionsX.x.x
+# imports: https://ontologies.treasuryoflives.org/o/tolCoreX.x.x
+# imports: https://taxonomies.tol.org/t/centuriesX.x.x
+# imports: https://taxonomies.tol.org/t/landmarkTypesX.x.x
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -16,21 +16,20 @@
 @prefix tol: <https://ontologies.treasuryoflives.org/tol/> .
 @prefix told: <https://data.treasuryoflives.org/> .
 @prefix tolx: <https://taxonomies.treasuryoflives.org/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://ontologies.treasuryoflives.org/tolMain>
+<https://ontologies.treasuryoflives.org/o/tolAll>
 	a owl:Ontology ;
 	owl:imports
 		<http://purl.bdrc.io/ontology/types/Gender> ,
-		told:traditions ,
-		<https://ontologies.treasuryoflives.org/tolCore> ,
-		tolx:buildingFunctions ,
-		tolx:centuries ,
-		tolx:geographicFeatures
+		<https://data.tol.org/d/landmarksX.x.x> ,
+		<https://data.tol.org/d/traditionsX.x.x> ,
+		<https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ,
+		<https://taxonomies.tol.org/t/centuriesX.x.x> ,
+		<https://taxonomies.tol.org/t/landmarkTypesX.x.x>
 		;
-	owl:versionIRI <https://ontologies.treasuryoflives.org/tolMain0.0.1> ;
+	owl:versionID <https://ontologies.treasuryoflives.org/tolAllX.x.x> ;
 	skos:definition "A convenience file that provides a single point of entry to the Treasury of Lives Ontology. It does not itself define any terms, but rather specifies the full set of ontology and taxonomy imports, other than those imported directly by tol:core."^^xsd:string ;
 	skos:prefLabel "Treasury of Lives Ontology"^^xsd:string ;
 	.
