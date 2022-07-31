@@ -1,0 +1,182 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://ontologies.semanticarts.com/gist/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tol: <https://ontologies.treasuryoflives.org/tol/> .
+@prefix told: <https://data.treasuryoflives.org/> .
+@prefix tolx: <https://taxonomies.treasuryoflives.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:_Tradition_Barawa_Kagyu
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionBaraKagyu ;
+	gist:name "Barawa Kagyu"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Barom_Kagyu
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionBaromKagyu ;
+	gist:name "Barom Kagyu"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Bodong
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionBodong ;
+	gist:name "Bodong"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Bon
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionBon ;
+	gist:name "Bon"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Chod
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionChod ;
+	gist:name "Chod"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Drigung_Kagyu
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionDrigungKagyu ;
+	gist:name "Drigung Kagyu"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Drukpa_Kagyu
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionDrukpaKagyu ;
+	gist:name "Drukpa Kagyu"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Geluk
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionGeluk ;
+	gist:name "Geluk"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Jonang
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionJonang ;
+	gist:name "Jonang"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Kadam
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionKadam ;
+	gist:name "Kadam"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Kalacakra
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionJordruk ;
+	gist:name "Kalacakra"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Karma_Kagyu
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionKarmaKagyu ;
+	gist:name "Karma Kagyu"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Marpa_Kagyu
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionDakpoKagyu ;
+	gist:name "Marpa Kagyu"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Martsang_Kagyu
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionMartsangKagyu ;
+	gist:name "Martsang Kagyu"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Ngok_Lineage
+	a tol:Tradition ;
+	gist:name "Ngok Lineage"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Nyingma
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionNyingma ;
+	gist:name "Nyingma"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Orgyen_Nyendrub
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionOrgyenNyengyu ;
+	gist:name "Orgyen Nyendrub"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Pakdru_Kagyu
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionPhagGruKagyu ;
+	gist:name "Pakdru Kagyu"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Rechung_Nyengyu
+	a tol:Tradition ;
+	gist:name "Rechung Nyengyu"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Sakya
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionSakya ;
+	gist:name "Sakya"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Shangpa_Kagyu
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionShangpaKagyu ;
+	gist:name "Shangpa Kagyu"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Shukseb_Kagyu
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionShugsepKagyu ;
+	gist:name "Shukseb Kagyu"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Taklung_Kagyu
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionTaklungKagyu ;
+	gist:name "Taklung Kagyu"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Tropu_Kagyu
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionTrophuKagyu ;
+	gist:name "Tropu Kagyu"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Tselpa_Kagyu
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionTsalpaKagyu ;
+	gist:name "Tselpa Kagyu"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Yabzang_Kagyu
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionYazangKagyu ;
+	gist:name "Yabzang Kagyu"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Yelpa_Kagyu
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionYelpaKagyu ;
+	gist:name "Yelpa Kagyu"@bo-x-phon-en-m-tol ;
+	.
+
+told:_Tradition_Zhije
+	a tol:Tradition ;
+	owl:sameAs bdr:TraditionZhije ;
+	gist:name "Zhije"@bo-x-phon-en-m-tol ;
+	.
+

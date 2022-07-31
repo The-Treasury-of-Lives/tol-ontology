@@ -14,36 +14,29 @@ PREFIX told: <https://data.treasuryoflives.org/>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-# TOL ID
-# Tradition Name
-# Parent Tradition TOL ID
+# ToL Tradition
+# BDRC Tradition (not converted)
+# BDRC T ID (not converted)
+# BDRC ID 
+# Convert (y/n)
 
 CONSTRUCT {
-    ?tradition a tol:Tradition ;
-    gist:name 
-    .
 
+    ?tradition a tol:Tradition ;
+        gist:name ?name ;
+        owl:sameAs ?bdrc_tradition ;
+    .
 
 }
 
-FROM <file:person_2021-08-09.csv>
+FROM <file:traditions_tol_bdrc_mapping.csv>
 
 WHERE {
-
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_tol_", ?TOL_ID)) AS ?person)
-    BIND(tarql:expandPrefixedName(CONCAT("bdr:_Person_bdrc_", ?TBRC_RID)) AS ?bdrcResource)
-
-    BIND(IF(?Birth_year_approximate = "1", CONCAT(?Birth_year, " (approximate)"), ?Birth_year) AS ?birthYear) 
-    # TODO for ?Birth_year_alternate, parse: "1679, 1672, 1673" and "1900/1902"
-    # BIND(CONCAT(?Birth_year_alternate, " (alternate)") AS ?birthYearAlternate)
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_Century_", REPLACE(REPLACE(?Birth_century, " ", "_"), "[()]", ""))) AS ?birthCentury) 
     
+    FILTER(?Convert = "y")
 
-    BIND(IF(?Death_year_approximate = "1", CONCAT(?Death_year, " (approximate)"), ?Death_year) AS ?deathYear)
-    # TODO for ?Death_year_alternate, parse: "1465 / 1486"grep " annd "1900/1902""
-    # BIND(CONCAT(?Death_year_alternate, " (alternate)") AS ?deathYearAlternate) 
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_Century_", REPLACE(REPLACE(?Death_century, " ", "_"), "[()]", ""))) AS ?deathCentury) 
-
-    BIND(IF(?Gender = "M", tarql:expandPrefixedName("bdr:GenderMale"), IF(?Gender = "F", tarql:expandPrefixedName("bdr:GenderFemale"), ?blank)) AS ?gender) 
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", REPLACE(?ToL_Tradition, ' ', '_'))) AS ?tradition)
+    BIND(STRLANG(?ToL_Tradition, "bo-x-phon-en-m-tol") AS ?name)
+    BIND(tarql:expandPrefixedName(?BDRC_ID) AS ?bdrc_tradition)
 
 }
