@@ -48,6 +48,11 @@ tol:Birth
 		] ,
 		[
 			a owl:Restriction ;
+			owl:onProperty tol:isEventOf ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+		] ,
+		[
+			a owl:Restriction ;
 			owl:onProperty tol:year ;
 			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
 		]
@@ -81,6 +86,11 @@ tol:Death
 		[
 			a owl:Restriction ;
 			owl:onProperty gist:occursIn ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tol:isEventOf ;
 			owl:cardinality "1"^^xsd:nonNegativeInteger ;
 		] ,
 		[
@@ -141,6 +151,14 @@ tol:GenealogicalGrouping
 		;
 	.
 
+tol:IncarnationLineage
+	a owl:Class ;
+	rdfs:subClassOf gist:OrderedCollection ;
+	skos:definition "TBD."^^xsd:string ;
+	skos:prefLabel "Incarnation Lineage"^^xsd:string ;
+	skos:scopeNote "Different traditions may assign a different sequence number to the same incarnation."^^xsd:string ;
+	.
+
 tol:LandmarkType
 	a owl:Class ;
 	rdfs:subClassOf
@@ -156,52 +174,6 @@ tol:LandmarkType
 	skos:definition "A type of geographic or man-made landmark."^^xsd:string ;
 	skos:example "Mountain, lake, hidden valley."^^xsd:string ;
 	skos:prefLabel "Landmark Type"^^xsd:string ;
-	.
-
-tol:Lineage
-	a owl:Class ;
-	rdfs:subClassOf
-		gist:OrderedCollection ,
-		[
-			a owl:Restriction ;
-			owl:onProperty gist:hasOrderedMember ;
-			owl:allValuesFrom [
-				a owl:Restriction ;
-				owl:onProperty gist:providesOrderFor ;
-				owl:allValuesFrom tol:Person ;
-			] ;
-		] ,
-		[
-			a owl:Restriction ;
-			owl:onProperty gist:actualStartYear ;
-			owl:cardinality "1"^^xsd:nonNegativeInteger ;
-		] ,
-		[
-			a owl:Restriction ;
-			owl:onProperty gist:isBasedOn ;
-			owl:cardinality "1"^^xsd:nonNegativeInteger ;
-		] ,
-		[
-			a owl:Restriction ;
-			owl:onProperty gist:hasMember ;
-			owl:minCardinality "2"^^xsd:nonNegativeInteger ;
-		]
-		;
-	skos:definition "An ordered collection of persons in which a relationship or role is passed sequentially from one to the other."^^xsd:string ;
-	skos:editorialNote
-		"Figure out whether one lineage can/should be be part of another lineage in a split lineage."^^xsd:string ,
-		"TODO need better definition."^^xsd:string
-		;
-	skos:example "The succession of abbots to a monastery; the transmission of a text from teachers to students; an incarnation sequence."^^xsd:string ;
-	skos:prefLabel "Lineage"^^xsd:string ;
-	skos:scopeNote "The lineage itself has a start date and possibly an end date; it may have a name; and its ordered members have start and possibly end dates. In some types of lineages the members have numeric designations (e.g., 14th Dalai Lama), in others they are ordered by precedence relationships (e.g., teachers in a teaching lineage). Some but not all types of lineages are strictly ordered, and there may be split lineages with multiple branches descending from a single element in a tree-like structure."^^xsd:string ;
-	.
-
-tol:Location
-	a owl:Class ;
-	skos:definition "A real, fictional, or imaginary place."^^xsd:string ;
-	skos:prefLabel "Location"^^xsd:string ;
-	skos:scopeNote "Differs from and not a subclass of gist:Place, which includings only places that do or did exist."^^xsd:string ;
 	.
 
 tol:Marriage
@@ -234,6 +206,7 @@ tol:Marriage
 tol:Person
 	a owl:Class ;
 	rdfs:subClassOf
+		bf:Person ,
 		bdo:Person ,
 		foaf:Person
 		;
@@ -245,18 +218,16 @@ tol:Person
 tol:PilgrimageSite
 	a owl:Class ;
 	rdfs:subClassOf gist:Landmark ;
-	skos:definition "A shrine or other sacred place that people travel to as an act of religious devotion."^^xsd:string ;
-	skos:editorialNote "Check definition - what types of things can this include?"^^xsd:string ;
-	skos:example "Mount Tsibri was the site of Zangpo Drakpa's 14th century treasure revelations; Kokonor Lake"^^xsd:string ;
-	skos:prefLabel "Pilgrimage Place"^^xsd:string ;
+	skos:definition "A shrine or other sacred place, including geographic features, that people travel to as an act of religious devotion."^^xsd:string ;
+	skos:example "Mount Tsibri was the site of Zangpo Drakpa's 14th century treasure revelations; Kokonor Lake."^^xsd:string ;
+	skos:prefLabel "Pilgrimage Site"^^xsd:string ;
 	.
 
-tol:StrictlyOrderedCollection
+tol:Place
 	a owl:Class ;
-	rdfs:subClassOf gist:OrderedCollection ;
-	skos:definition "An ordered collection in which no two members occupy the same position."^^xsd:string ;
-	skos:editorialNote "Can we express this axiomatically?"^^xsd:string ;
-	skos:preflabel "Strictly Ordered Collection"^^xsd:string ;
+	skos:definition "A real, fictional, or imaginary place."^^xsd:string ;
+	skos:prefLabel "Place"^^xsd:string ;
+	skos:scopeNote "Differs from and not a subclass of gist:Place, which includings only places that do or did exist."^^xsd:string ;
 	.
 
 tol:Student
@@ -348,44 +319,6 @@ tol:TeacherStudentRelationship
 	skos:scopeNote "A teacher-student relationshp may be, but is not necessarily, part of a teaching lineage. In some cases the teacher-student relationship is known while the lineage is not."^^xsd:string ;
 	.
 
-tol:TeachingLineage
-	a owl:Class ;
-	owl:disjointWith tol:IncarnationLineage ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			tol:Lineage
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:hasOrderedMember ;
-				owl:allValuesFrom [
-					a owl:Restriction ;
-					owl:onProperty gist:providesOrderFor ;
-					owl:allValuesFrom tol:Teacher ;
-				] ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:hasDirectPart ;
-				owl:onClass tol:TeacherStudentRelationship ;
-				owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:hasOrderedMember ;
-				owl:allValuesFrom [
-					a owl:Restriction ;
-					owl:onProperty gist:sequence ;
-					owl:maxCardinality "0"^^xsd:nonNegativeInteger ;
-				] ;
-			]
-		) ;
-	] ;
-	skos:definition "An ordered collection of teachers transmitting a specific text or practice to their students."^^xsd:string ;
-	skos:prefLabel "Teaching Lineage"^^xsd:string ;
-	skos:scopeNote "Teachers in a lineage are not designated numerically (as are, e.g., persons in an incarnation lineage), but are ordered through gist:precedesDirectly. Elements in the lineage may certainly co-occur or overlap."^^xsd:string ;
-	.
-
 tol:actualYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tol:year ;
@@ -394,17 +327,27 @@ tol:actualYear
 	skos:prefLabel "actual year"^^xsd:string ;
 	.
 
+tol:alternateYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:year ;
+	skos:definition "The year in which something is proposed to have existed or taken place."^^xsd:string ;
+	skos:example "According to one source, Botrul Dongak Tenpai Nyima was born in 1900, while according to another source his birth year was  and died in 1902. No indication of greater or less likelihood of the two possibilities is implied."^^xsd:string ;
+	skos:prefLabel "alternate year"^^xsd:string ;
+	skos:scopeNote "Differs from tol:alternateYear, which specifies a single year but is intended to be inexact. In this case, various scholars have proposed different possibilities."^^xsd:string ;
+	.
+
 tol:approximateYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tol:year ;
 	skos:definition "The approximate year in which something existed or took place."^^xsd:string ;
 	skos:example "Lhagyari Namgyel Gyatso was born in approximately 1927."^^xsd:string ;
 	skos:prefLabel "approximate year"^^xsd:string ;
+	skos:scopeNote "Differs from tol:alternateYear, which indicates more than one proposed year. In this case, one year is asserted, but it is intended to be inexact, thus encompassing some number of years before and/or after."^^xsd:string ;
 	.
 
 tol:dissolutionYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:actualYear ;
+	rdfs:subPropertyOf gist:actualEndYear ;
 	skos:definition "The year an agreement such as marriage was ended. In the case of marriage, this refers to divorce rather than the end of a marriage by death of one of the spouses."^^xsd:string ;
 	skos:editorialNote
 		"Use if we need to distinguish divorce from death as the end of a marriage."^^xsd:string ,
@@ -420,7 +363,6 @@ tol:foundedInYear
 	skos:editorialNote "We may want to follow the pattern of Birth and Death here, instead of just using a property. Depends on what other information is available. We could have Founding with an agent and a date."^^xsd:string ;
 	skos:example "The Tshal-pa tradition was founded in 1123."^^xsd:string ;
 	skos:prefLabel "founded in year"^^xsd:string ;
-	skos:scopeNote "What is the end date on a tradition? Do we need a predicate other than gist:actualEndYear?"^^xsd:string ;
 	.
 
 tol:harUrl
@@ -602,16 +544,6 @@ tol:hasSororallNiece
 		;
 	.
 
-tol:identifiesAsGender
-	rdfs:subPropertyOf bdo:personGender ;
-	rdfs:domain tol:Person ;
-	rdfs:range bdo:Gender ;
-	skos:definition "The gender a person identifies as."^^xsd:string ;
-	skos:example "Jetsun Khacho Wangmo waas assigned male gender at birth, but later identified as female."^^xsd:string ;
-	skos:prefLabel "identifies as gender"^^xsd:string ;
-	skos:scopeNote "Use if a distinction is made between assigned gender and identified gender; otherwise use bdo:personGender."^^xsd:string ;
-	.
-
 tol:isEventOf
 	a owl:ObjectProperty ;
 	owl:inverseOf tol:hasEvent ;
@@ -623,27 +555,21 @@ tol:isEventOf
 tol:isInCentury
 	a owl:DatatypeProperty ;
 	rdfs:range tol:Century ;
-	skos:definition "Relates something to the time period in which it exists (existed) or takes (took) place."^^xsd:string ;
+	skos:definition "Relates something to the century or partial century in which it exists (existed) or takes (took) place."^^xsd:string ;
 	skos:example "Lasum Gyelwa Jangchub was born in the early 8th century; Rinchen Chok died in the 1st century; Khenchen Tashi Tsultrim was borth in the late 13th century."^^xsd:string ;
 	skos:prefLabel "is in time period"^^xsd:string ;
 	.
 
-tol:possibleYear
+tol:preferredName
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:year ;
-	skos:definition "The year in which something existed or took place."^^xsd:string ;
-	skos:example "The birth year of Kunkyong Lingpa is commonly accepted to be 1396 (probable year), though some have suggested that he was born in 1408 (possible year)."^^xsd:string ;
-	skos:prefLabel "possible year"^^xsd:string ;
-	skos:scopeNote "If the year is controversial, this is the less commonly accepted one, and the more commonly accepted one is expressed by tol:probableYear."^^xsd:string ;
-	.
-
-tol:probableYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:year ;
-	skos:definition "The year in which something is likely to have existed or taken place."^^xsd:string ;
-	skos:example "The birth year of Kunkyong Lingpa is commonly accepted to be 1396 (probable year), though some have suggested that he was born in 1408 (possible year)."^^xsd:string ;
-	skos:prefLabel "probable year"^^xsd:string ;
-	skos:scopeNote "If the year is controversial, this is the most commonly accepted one, and the less commonly accepted ones are expressed by tol:possibleYear."^^xsd:string ;
+	rdfs:subPropertyOf gist:name ;
+	skos:definition "The preferred name of a person."^^xsd:string ;
+	skos:example "Gyergom Tsultrim Sengge is the preferred name of the individual called Gyergom Nyipa by the Library of Congress"^^xsd:string ;
+	skos:prefLabel "preferred name"^^xsd:string ;
+	skos:scopeNote
+		"The preferred/alternate distinction may be source- or system-dependent. Treasury of Lives has selected a preferred name, but other systems or sources may prefer a different name."^^xsd:string ,
+		"The same preferred name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a preferred name in both its own and the Extended Wylie system."^^xsd:string
+		;
 	.
 
 tol:title
@@ -651,14 +577,5 @@ tol:title
 	rdfs:range rdf:langString ;
 	skos:definition "An appellation of dignity, honor, distinction, or preeminence attached to a person or family by virtue of rank, office, precedent, privilege, attainment, or lands."^^xsd:string ;
 	skos:prefLabel "title"^^xsd:string ;
-	.
-
-tol:year
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:atDateTime ;
-	skos:definition "The year in which something existed or took place, including actual, approximate, probable, and possible values."^^xsd:string ;
-	skos:editorialNote "The modalities actual, approximate, probable, and possible, expressed here with subproperties, could be more naturally modeled with RDF*."^^xsd:string ;
-	skos:example "The year a birth took place; the year a death may have taken place; an approximate year of birth; the most likely date of death."^^xsd:string ;
-	skos:prefLabel "year"^^xsd:string ;
 	.
 
