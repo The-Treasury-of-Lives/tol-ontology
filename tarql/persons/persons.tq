@@ -177,7 +177,7 @@ WHERE {
 
     # Actual vs approximate vs alternate birth year
     BIND(IF(?Birth_year_approximate = "1", ?full_birth_year_typed, ?unbound) AS ?approximate_birth_year_typed)
-    BIND(IF(!BOUND(?alternate_birth_year), ?full_birth_year_typed, ?unbound) AS ?actual_birth_year_typed)
+    BIND(IF(!BOUND(?alternate_birth_year) && !BOUND(?approximate_birth_year_typed), ?full_birth_year_typed, ?unbound) AS ?actual_birth_year_typed)
     BIND(IF(BOUND(?alternate_birth_year), ?full_birth_year_typed, ?unbound) AS ?actual_alternate_birth_year_typed)
 
     # DEATH 
@@ -219,7 +219,7 @@ WHERE {
     # TODO - could put this in a large if
     # Actual vs approximate vs alternate death year
     BIND(IF(?Death_year_approximate = "1", ?full_death_year_typed, ?unbound) AS ?approximate_death_year_typed)
-    BIND(IF(!BOUND(?alternate_death_year), ?full_death_year_typed, ?unbound) AS ?actual_death_year_typed)
+    BIND(IF(!BOUND(?alternate_death_year) && !BOUND(?approximate_death_year_typed), ?full_death_year_typed, ?unbound) AS ?actual_death_year_typed)
     BIND(IF(BOUND(?alternate_death_year), ?full_death_year_typed, ?unbound) AS ?actual_alternate_death_year_typed)
 
 }
