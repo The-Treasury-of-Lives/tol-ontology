@@ -112,21 +112,6 @@ tol:Deity
 	skos:prefLabel "Deity"^^xsd:string ;
 	.
 
-tol:FraternalNiece
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf bdo:hasNiece ;
-	owl:propertyChainAxiom (
-		bdo:hasBrother
-		bdo:hasSon
-	) ;
-	skos:definition "Relates a person to the daughter of his/her brother."^^xsd:string ;
-	skos:prefLabel "has fraternal niece"^^xsd:string ;
-	skos:scopeNote
-		"We do not currently distinguish biological, adoptive, half, and step relationships."^^xsd:string ,
-		"While a niece can be related through either a sibling or sibling-in-law, a fraternal niece is always related through a brother."^^xsd:string
-		;
-	.
-
 tol:GenealogicalGrouping
 	a owl:Class ;
 	rdfs:subClassOf
@@ -399,14 +384,6 @@ tol:hasFinalRestingPlace
 	skos:scopeNote "Significant people such as the Dalai Lamas have reliquary stupas in geographic locations like temples or chapels. Sometimes there can be relics in multiple places."^^xsd:string ;
 	.
 
-tol:hasFraternalCousin
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf bdo:hasCousin ;
-	skos:definition "Relates a person to his/her cousin on the father's side."^^xsd:string ;
-	skos:prefLabel "has fraternal cousin"^^xsd:string ;
-	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."^^xsd:string ;
-	.
-
 tol:hasFraternalNephew
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasNephew ;
@@ -419,6 +396,21 @@ tol:hasFraternalNephew
 	skos:scopeNote
 		"We do not currently distinguish biological, adoptive, half, and step relationships."^^xsd:string ,
 		"While a nephew can be related through either a sibling or sibling-in-law, a fraternal nephew is always related through a brother."^^xsd:string
+		;
+	.
+
+tol:hasFraternalNiece
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasNiece ;
+	owl:propertyChainAxiom (
+		bdo:hasBrother
+		bdo:hasSon
+	) ;
+	skos:definition "Relates a person to the daughter of his/her brother."^^xsd:string ;
+	skos:prefLabel "has fraternal niece"^^xsd:string ;
+	skos:scopeNote
+		"We do not currently distinguish biological, adoptive, half, and step relationships."^^xsd:string ,
+		"While a niece can be related through either a sibling or sibling-in-law, a fraternal niece is always related through a brother."^^xsd:string
 		;
 	.
 
@@ -469,6 +461,14 @@ tol:hasMaternalGrandparent
 	) ;
 	skos:definition "Relates a person to his/her mother's parent."^^xsd:string ;
 	skos:prefLabel "has maternal grandmother"^^xsd:string ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."^^xsd:string ;
+	.
+
+tol:hasPaternalCousin
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasCousin ;
+	skos:definition "Relates a person to his/her cousin on the father's side."^^xsd:string ;
+	skos:prefLabel "has paternal cousin"^^xsd:string ;
 	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."^^xsd:string ;
 	.
 
