@@ -1,9 +1,11 @@
 # imports: http://purl.bdrc.io/ontology/types/Gender
 # imports: https://data.tol.org/d/landmarksX.x.x
+# imports: https://data.tol.org/d/timePeriodsX.x.x
 # imports: https://data.tol.org/d/traditionsX.x.x
 # imports: https://ontologies.treasuryoflives.org/o/tolCoreX.x.x
-# imports: https://taxonomies.tol.org/t/centuriesX.x.x
 # imports: https://taxonomies.tol.org/t/landmarkTypesX.x.x
+# imports: https://taxonomies.tol.org/t/marriageRanksX.x.x
+# imports: https://taxonomies.tol.org/t/marriageTerminationCausesX.x.x
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -24,10 +26,12 @@
 	owl:imports
 		<http://purl.bdrc.io/ontology/types/Gender> ,
 		<https://data.tol.org/d/landmarksX.x.x> ,
+		<https://data.tol.org/d/timePeriodsX.x.x> ,
 		<https://data.tol.org/d/traditionsX.x.x> ,
 		<https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ,
-		<https://taxonomies.tol.org/t/centuriesX.x.x> ,
-		<https://taxonomies.tol.org/t/landmarkTypesX.x.x>
+		<https://taxonomies.tol.org/t/landmarkTypesX.x.x> ,
+		<https://taxonomies.tol.org/t/marriageRanksX.x.x> ,
+		<https://taxonomies.tol.org/t/marriageTerminationCausesX.x.x>
 		;
 	owl:versionID <https://ontologies.treasuryoflives.org/tolAllX.x.x> ;
 	skos:definition "A convenience file that provides a single point of entry to the Treasury of Lives Ontology. It does not itself define any terms, but rather specifies the full set of ontology and taxonomy imports, other than those imported directly by tol:core."^^xsd:string ;

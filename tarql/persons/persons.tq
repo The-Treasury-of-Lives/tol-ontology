@@ -43,13 +43,13 @@ CONSTRUCT {
     ?person_iri a tol:Person ;
         owl:sameAs ?bdrc_iri ;
         owl:sameAs ?wikidata_iri ;
-        tol:harUrl ?har_url;
+        tol:harUrl ?har_url ;
 
         tol:preferredName ?primary_name_tol ;
         tol:preferredName ?primary_name_wylie ;
         tol:title ?title_tol ;
         tol:title ?title_wylie ;
-        tol:alternateName ?alternate_name_cleaned_tagged ;
+        tol:alternateName ?alternate_name ;
 
         bdo:personGender ?gender_iri ;
 
@@ -57,24 +57,25 @@ CONSTRUCT {
         tol:hasEvent ?death_iri ;
         .
 
-    ?birth_iri a tol:Birth ;
-        tol:isInCentury ?birth_century_iri ;
-        tol:actualYear ?actual_birth_year_typed ;
-        tol:approximateYear ?approximate_birth_year_typed;
-        tol:alternateYear ?alternate_birth_year_typed ;
-        tol:alternateYear ?actual_alternate_birth_year_typed ;
-        .
+    # ?birth_iri a tol:Birth ;
+    #     tol:isInCentury ?birth_century_iri ;
+    #     tol:actualYear ?actual_birth_year_typed ;
+    #     tol:approximateYear ?approximate_birth_year_typed;
+    #     tol:alternateYear ?alternate_birth_year_typed ;
+    #     tol:alternateYear ?actual_alternate_birth_year_typed ;
+    #     .
 
-    ?death_iri a tol:Death ;
-        tol:isInCentury ?death_century_iri ;
-        tol:actualYear ?actual_death_year_typed ;
-        tol:approximateYear ?approximate_death_year_typed ;
-        tol:alternateYear ?alternate_death_year_typed ;
-        tol:alternateYear ?actual_alternate_death_year_typed ;
-        .
+    # ?death_iri a tol:Death ;
+    #     tol:isInCentury ?death_century_iri ;
+    #     tol:actualYear ?actual_death_year_typed ;
+    #     tol:approximateYear ?approximate_death_year_typed ;
+    #     tol:alternateYear ?alternate_death_year_typed ;
+    #     tol:alternateYear ?actual_alternate_death_year_typed ;
+
+    .
 }
 
-FROM <file:ToL-Persons-8.16.22.csv>
+FROM <file:person_with_name_variants_2022-11-23_modified.csv>
 
 WHERE {
 
@@ -91,16 +92,40 @@ WHERE {
 
     # NAMES AND TITLES
 
-    # TOL name and title
-    BIND(STRLANG(?Primary_name, "bo-x-phon-en-m-tol") AS ?primary_name_tol)
-    BIND(STRLANG(?Primary_title, "bo-x-phon-en-m-tol") AS ?title_tol)
+    # TOL name and title - follow BDRC in using language tag en
+    BIND(STRLANG(?Primary_name, "en") AS ?primary_name_tol)
+    BIND(STRLANG(?Primary_title, "en") AS ?title_tol)
 
     # Wylie name and title
     BIND(STRLANG(?Wylie_name, "bo-x-ewts") AS ?primary_name_wylie)
     BIND(STRLANG(?Wylie_title, "bo-x-ewts") AS ?title_wylie)
 
-    # Name variants
-    # TODO - waiting for new data export
+    # Incoming string format: name1, lang1; name2, lang2
+    OPTIONAL { ?name_variant apf:strSplit(?Name_Variants ";") }
+    BIND(REPLACE(?name_variant, ",.*", "") as ?name)
+    BIND(
+        IF(
+            # Cover a few cases of missing language tag
+            CONTAINS(?name_variant, ","),
+            REPLACE(?name_variant, ".*,", ""), 
+            ?blank) 
+        AS ?lang)
+    BIND(IF(BOUND(?lang), STRLANG(?name, ?lang), ?name) AS ?alternate_name)
+
+    # Primary names and titles may be duplicated as name variants in the data; don't create alternate names for these.
+    # For some reason this is not working:
+    # BIND(IF(BOUND(?lang), STRLANG(?name, ?lang), ?name) AS ?name_variant_lang)
+    # BIND(
+    #     IF(
+    #         (?name_variant_lang != ?primary_name_tol) && 
+    #         (?name_variant_lang != ?primary_name_wylie) && 
+    #         (?name_variant_lang != ?title_tol) &&  
+    #         (?name_variant_lang != ?title_wylie), 
+    #             ?name_variant_lang, 
+    #             ?blank) 
+    #     AS ?alternate_name)
+    # BIND(?name_variant_lang AS ?alternate_name)
+        
 
     # GENDER
     BIND(
@@ -111,92 +136,92 @@ WHERE {
         AS ?gender_iri
     )
 
-    # To create an xsd:dateTime from the year string
+
+    # To create an xsd:dateTime from a year string
     BIND("-01-01T00:00:00" AS ?date_time_completion)
 
-
-    # BIRTH 
+    # # BIRTH 
     
-    # Birth event
-    BIND(IF(BOUND(?Birth_year) || BOUND(?Birth_century), 
-        tarql:expandPrefixedName(CONCAT("told:_Birth_", ?TOL_ID)), ?unbound) AS ?birth_iri)
+    # # Birth event
+    # BIND(IF(BOUND(?Birth_year) || BOUND(?Birth_century), 
+    #     tarql:expandPrefixedName(CONCAT("told:_Birth_", ?TOL_ID)), ?unbound) AS ?birth_iri)
 
-    # Birth century
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_Century_", REPLACE(REPLACE(?Birth_century, " ", "_"), "[()]", ""))) AS ?birth_century_iri) 
+    # # Birth century
+    # BIND(tarql:expandPrefixedName(CONCAT("tolx:_Century_", REPLACE(REPLACE(?Birth_century, " ", "_"), "[()]", ""))) AS ?birth_century_iri) 
 
-    # Birth year(s)
-    BIND(
-        COALESCE(
-            IF(REGEX(?Birth_year, "^\\d{4}$"), ?Birth_year, ?unbound), 
-            # Add initial 0 to 3-digit year to create a well-formed year
-            IF(REGEX(?Birth_year, "^\\d{3}$"), CONCAT("0", ?Birth_year), ?unbound)
-        )
-        # Two-digit birth year (e.g., 11, 13) is always accompanied by a century, so don't generate a birth year. There is no data of this type for death years.
-        AS ?full_birth_year
-    )
+    # # Birth year(s)
+    # BIND(
+    #     COALESCE(
+    #         IF(REGEX(?Birth_year, "^\\d{4}$"), ?Birth_year, ?unbound), 
+    #         # Add initial 0 to 3-digit year to create a well-formed year
+    #         IF(REGEX(?Birth_year, "^\\d{3}$"), CONCAT("0", ?Birth_year), ?unbound)
+    #     )
+    #     # Two-digit birth year (e.g., 11, 13) is always accompanied by a century, so don't generate a birth year. There is no data of this type for death years.
+    #     AS ?full_birth_year
+    # )
 
-    BIND(STRDT(CONCAT(?full_birth_year, ?date_time_completion), xsd:dateTime) AS ?full_birth_year_typed)
+    # BIND(STRDT(CONCAT(?full_birth_year, ?date_time_completion), xsd:dateTime) AS ?full_birth_year_typed)
 
-    # Split alternate year strings
-    OPTIONAL {
-        ?alternate_birth_year apf:strSplit(?Birth_year_alternate ", ")
-    }
+    # # Split alternate year strings
+    # OPTIONAL {
+    #     ?alternate_birth_year apf:strSplit(?Birth_year_alternate ", ")
+    # }
 
-    BIND(
-        COALESCE(
-            IF(REGEX(?alternate_birth_year, "^\\d{4}$"), ?alternate_birth_year, ?unbound), 
-            # Add initial 0 to 3-digit year to create a well-formed year
-            IF(REGEX(?alternate_birth_year, "^\\d{3}$"), CONCAT("0", ?alternate_birth_year), ?unbound)
-        )
-        AS ?full_alternate_birth_year
-    )
-    BIND(STRDT(CONCAT(?full_alternate_birth_year, ?date_time_completion), xsd:dateTime) AS ?alternate_birth_year_typed)
+    # BIND(
+    #     COALESCE(
+    #         IF(REGEX(?alternate_birth_year, "^\\d{4}$"), ?alternate_birth_year, ?unbound), 
+    #         # Add initial 0 to 3-digit year to create a well-formed year
+    #         IF(REGEX(?alternate_birth_year, "^\\d{3}$"), CONCAT("0", ?alternate_birth_year), ?unbound)
+    #     )
+    #     AS ?full_alternate_birth_year
+    # )
+    # BIND(STRDT(CONCAT(?full_alternate_birth_year, ?date_time_completion), xsd:dateTime) AS ?alternate_birth_year_typed)
 
-    # Actual vs approximate vs alternate birth year
-    BIND(IF(?Birth_year_approximate = "1", ?full_birth_year_typed, ?unbound) AS ?approximate_birth_year_typed)
-    BIND(IF(!BOUND(?alternate_birth_year) && !BOUND(?approximate_birth_year_typed), ?full_birth_year_typed, ?unbound) AS ?actual_birth_year_typed)
-    BIND(IF(BOUND(?alternate_birth_year), ?full_birth_year_typed, ?unbound) AS ?actual_alternate_birth_year_typed)
+    # # Actual vs approximate vs alternate birth year
+    # BIND(IF(?Birth_year_approximate = "1", ?full_birth_year_typed, ?unbound) AS ?approximate_birth_year_typed)
+    # BIND(IF(!BOUND(?alternate_birth_year) && !BOUND(?approximate_birth_year_typed), ?full_birth_year_typed, ?unbound) AS ?actual_birth_year_typed)
+    # BIND(IF(BOUND(?alternate_birth_year), ?full_birth_year_typed, ?unbound) AS ?actual_alternate_birth_year_typed)
 
 
-    # DEATH 
+    # # DEATH 
 
-    # Death event
-    BIND(IF(BOUND(?Death_year) || BOUND(?Death_century),  
-        tarql:expandPrefixedName(CONCAT("told:_Death_", ?TOL_ID)), ?unbound) AS ?death_iri)
+    # # Death event
+    # BIND(IF(BOUND(?Death_year) || BOUND(?Death_century),  
+    #     tarql:expandPrefixedName(CONCAT("told:_Death_", ?TOL_ID)), ?unbound) AS ?death_iri)
 
-    # Death century
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_Century_", REPLACE(REPLACE(?Death_century, " ", "_"), "[()]", ""))) AS ?death_century_iri) 
+    # # Death century
+    # BIND(tarql:expandPrefixedName(CONCAT("tolx:_Century_", REPLACE(REPLACE(?Death_century, " ", "_"), "[()]", ""))) AS ?death_century_iri) 
 
-    # Death years
-    BIND(
-        COALESCE(
-            IF(REGEX(?Death_year, "^\\d{4}$"), ?Death_year, ?unbound), 
-            # Add initial 0 to 3-digit year to create a well-formed year
-            IF(REGEX(?Death_year, "^\\d{3}$"), CONCAT("0", ?Death_year), ?unbound)
-        )
-        AS ?full_death_year
-    )
+    # # Death years
+    # BIND(
+    #     COALESCE(
+    #         IF(REGEX(?Death_year, "^\\d{4}$"), ?Death_year, ?unbound), 
+    #         # Add initial 0 to 3-digit year to create a well-formed year
+    #         IF(REGEX(?Death_year, "^\\d{3}$"), CONCAT("0", ?Death_year), ?unbound)
+    #     )
+    #     AS ?full_death_year
+    # )
 
-    BIND(STRDT(CONCAT(?full_death_year, ?date_time_completion), xsd:dateTime) AS ?full_death_year_typed)
+    # BIND(STRDT(CONCAT(?full_death_year, ?date_time_completion), xsd:dateTime) AS ?full_death_year_typed)
 
-    # Split alternate year strings
-    OPTIONAL {
-        ?alternate_death_year apf:strSplit(?Death_year_alternate ", ")
-    }
+    # # Split alternate year strings
+    # OPTIONAL {
+    #     ?alternate_death_year apf:strSplit(?Death_year_alternate ", ")
+    # }
 
-    BIND(
-        COALESCE(
-            IF(REGEX(?alternate_death_year, "^\\d{4}$"), ?alternate_death_year, ?unbound), 
-            # Add initial 0 to 3-digit year to create a well-formed year
-            IF(REGEX(?alternate_death_year, "^\\d{3}$"), CONCAT("0", ?alternate_death_year), ?unbound)
-        )
-        AS ?full_alternate_death_year
-    )
-    BIND(STRDT(CONCAT(?full_alternate_death_year, ?date_time_completion), xsd:dateTime) AS ?alternate_death_year_typed)
+    # BIND(
+    #     COALESCE(
+    #         IF(REGEX(?alternate_death_year, "^\\d{4}$"), ?alternate_death_year, ?unbound), 
+    #         # Add initial 0 to 3-digit year to create a well-formed year
+    #         IF(REGEX(?alternate_death_year, "^\\d{3}$"), CONCAT("0", ?alternate_death_year), ?unbound)
+    #     )
+    #     AS ?full_alternate_death_year
+    # )
+    # BIND(STRDT(CONCAT(?full_alternate_death_year, ?date_time_completion), xsd:dateTime) AS ?alternate_death_year_typed)
 
-    # Actual vs approximate vs alternate death year
-    BIND(IF(?Death_year_approximate = "1", ?full_death_year_typed, ?unbound) AS ?approximate_death_year_typed)
-    BIND(IF(!BOUND(?alternate_death_year) && !BOUND(?approximate_death_year_typed), ?full_death_year_typed, ?unbound) AS ?actual_death_year_typed)
-    BIND(IF(BOUND(?alternate_death_year), ?full_death_year_typed, ?unbound) AS ?actual_alternate_death_year_typed)
+    # # Actual vs approximate vs alternate death year
+    # BIND(IF(?Death_year_approximate = "1", ?full_death_year_typed, ?unbound) AS ?approximate_death_year_typed)
+    # BIND(IF(!BOUND(?alternate_death_year) && !BOUND(?approximate_death_year_typed), ?full_death_year_typed, ?unbound) AS ?actual_death_year_typed)
+    # BIND(IF(BOUND(?alternate_death_year), ?full_death_year_typed, ?unbound) AS ?actual_alternate_death_year_typed)
 
 }

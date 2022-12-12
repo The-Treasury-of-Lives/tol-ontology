@@ -1,4 +1,4 @@
-# imports: https://ontologies.semanticarts.com/o/gistCore11.0.0
+# imports: https://ontologies.semanticarts.com/o/gistCore11.1.0
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
@@ -17,7 +17,7 @@
 <https://ontologies.treasuryoflives.org/o/tolCore>
 	a owl:Ontology ;
 	dct:license "TBD"^^xsd:string ;
-	owl:imports <https://ontologies.semanticarts.com/o/gistCore11.0.0> ;
+	owl:imports <https://ontologies.semanticarts.com/o/gistCore11.1.0> ;
 	owl:versionIRI <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
 	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, facilitate the consumption of external RDF, and to to enhance the narrative text with structured data."^^xsd:string ;
 	skos:editoralNote
@@ -63,14 +63,11 @@ tol:Birth
 	.
 
 tol:Century
-	rdfs:subClassOf gist:Category ;
+	a owl:Class ;
+	rdfs:subClassOf tol:TimePeriod ;
 	skos:definition "A time period of 100 years reckoned from the birth of Jesus Christ."^^xsd:string ;
-	skos:example "9th century AD"^^xsd:string ;
-	skos:prefLabel "Century"^^xsd:string ;
-	skos:scopeNote
-		"There is disagreement about the first and end years of a century. E.g., strictly, the 18th century is the period 1801-1900, while in common usage it is 1800-1899. The granularity of this distinction is not relevant to our purposes."^^xsd:string ,
-		"To be distinguished from an arbitrary period of 100 years, such as 1825-1924."^^xsd:string
-		;
+	skos:example "Ninth century AD"^^xsd:string ;
+	skos:scopeNote "There is more than one convention for start and end dates of a century. Here we somewhat arbitrarily adopt the version that starts on year 1 and ends on year 0; e.g., 901-1000."^^xsd:string ;
 	.
 
 tol:Death
@@ -112,7 +109,7 @@ tol:Deity
 	skos:prefLabel "Deity"^^xsd:string ;
 	.
 
-tol:GenealogicalGrouping
+tol:GenealogicalGroup
 	a owl:Class ;
 	rdfs:subClassOf
 		gist:Collection ,
@@ -122,7 +119,7 @@ tol:GenealogicalGrouping
 			owl:allValuesFrom [
 				owl:unionOf (
 					tol:Person
-					tol:GenealogicalGrouping
+					tol:GenealogicalGroup
 				) ;
 			] ;
 		]
@@ -174,9 +171,25 @@ tol:Marriage
 			]
 			[
 				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:onClass tol:MarriageRank ;
+				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+			]
+			[
+				a owl:Restriction ;
 				owl:onProperty gist:hasParty ;
 				owl:onClass tol:Person ;
 				owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty tol:familyName ;
+				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty tol:familyName ;
+				owl:cardinality "1"^^xsd:nonNegativeInteger ;
 			]
 		) ;
 	] ;
@@ -188,16 +201,48 @@ tol:Marriage
 	skos:prefLabel "Marriage"^^xsd:string ;
 	.
 
+tol:MarriageRank
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom tol:Marriage ;
+		]
+		;
+	skos:definition "A category differentiating senior (first) from subsequent (junior) marriages in polygamous relationships."^^xsd:string ;
+	skos:prefLabel "Marriage Rank"^^xsd:string ;
+	skos:scopeNote "The associated spouse is termed a junior or senior wife/husband. There is only one senior wife or husband; all others are uniformly designated junior."^^xsd:string ;
+	.
+
+tol:MarriageTerminationCause
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom tol:Marriage ;
+		]
+		;
+	skos:definition "The reason for the termination of a marriage."^^xsd:string ;
+	skos:example "Death, divorce, dissolution."^^xsd:string ;
+	skos:prefLabel "Marriage Termination Cause"^^xsd:string ;
+	.
+
 tol:Person
 	a owl:Class ;
 	rdfs:subClassOf
-		bf:Person ,
 		bdo:Person ,
-		foaf:Person
+		gist:Person
 		;
-	skos:definition "A human being, alive, dead, imaginary, or fictional."^^xsd:string ;
+	skos:definition "TBD."^^xsd:string ;
 	skos:prefLabel "Person"^^xsd:string ;
-	skos:scopeNote "Differs from and not a subclass of gist:Person, which includings only persons who do or did exist."^^xsd:string ;
 	.
 
 tol:PilgrimageSite
@@ -304,6 +349,33 @@ tol:TeacherStudentRelationship
 	skos:scopeNote "A teacher-student relationshp may be, but is not necessarily, part of a teaching lineage. In some cases the teacher-student relationship is known while the lineage is not."^^xsd:string ;
 	.
 
+tol:TimePeriod
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:Magnitude
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:actualStartDate ;
+				owl:cardinality "1"^^xsd:integer ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasUnitOfMeasure ;
+				owl:someValuesFrom gist:DurationUnit ;
+			]
+		) ;
+	] ;
+	skos:definition "TBD"^^xsd:string ;
+	skos:example "Early 9th century AD"^^xsd:string ;
+	skos:prefLabel "Time Period"^^xsd:string ;
+	skos:scopeNote
+		"A time period has a start date, may have an end date, and lasts for a specified duration. Precisions vary. E.g., the mid-20th century has an end year with precision less than a year."^^xsd:string ,
+		"A time period is often, but not necessarily, a defined time period of some significance, such as a century, rather than an arbitrary time period of 100 years such as 1842-1941."^^xsd:string
+		;
+	.
+
 tol:actualYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tol:year ;
@@ -312,22 +384,60 @@ tol:actualYear
 	skos:prefLabel "actual year"^^xsd:string ;
 	.
 
+tol:alternateName
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:name ;
+	skos:definition "An alternate name for a person."^^xsd:string ;
+	skos:example "gyer sgom gnyis pa and gyer sgom tshul khrims seng+ge are alternate names for the individual whose ToL "^^xsd:string ;
+	skos:prefLabel "alternate name"^^xsd:string ;
+	skos:scopeNote
+		"The preferred/alternate distinction may be source- or system-dependent. Treasury of Lives has selected a preferred name, but other systems or sources may prefer a different name."^^xsd:string ,
+		"The same name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a preferred name in both its own and the Extended Wylie systems."^^xsd:string
+		;
+	.
+
 tol:alternateYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tol:year ;
 	skos:definition "The year in which something is proposed to have existed or taken place."^^xsd:string ;
-	skos:example "According to one source, Botrul Dongak Tenpai Nyima was born in 1900, while according to another source his birth year was  and died in 1902. No indication of greater or less likelihood of the two possibilities is implied."^^xsd:string ;
+	skos:example "According to one source, Botrul Dongak Tenpai Nyima was born in 1900, while according to another source his birth year was XXX and he died in 1902. No indication of greater or less likelihood of the two possibilities is implied."^^xsd:string ;
 	skos:prefLabel "alternate year"^^xsd:string ;
 	skos:scopeNote "Differs from tol:alternateYear, which specifies a single year but is intended to be inexact. In this case, various scholars have proposed different possibilities."^^xsd:string ;
+	.
+
+tol:approximateEndYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:approximateYear ;
+	skos:definition "The approximate year in which something ended."^^xsd:string ;
+	skos:example "The early 19th century ended in approximately 1835."^^xsd:string ;
+	skos:prefLabel "approximate end year"^^xsd:string ;
+	.
+
+tol:approximateStartYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:approximateYear ;
+	skos:definition "The approximate year in which something began."^^xsd:string ;
+	skos:example "The late 19th century began in approximately 1865."^^xsd:string ;
+	skos:prefLabel "approximate start year"^^xsd:string ;
 	.
 
 tol:approximateYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tol:year ;
 	skos:definition "The approximate year in which something existed or took place."^^xsd:string ;
-	skos:example "Lhagyari Namgyel Gyatso was born in approximately 1927."^^xsd:string ;
+	skos:example "The birth event of Lhagyari Namgyel Gyatso took place in approximately 1927."^^xsd:string ;
 	skos:prefLabel "approximate year"^^xsd:string ;
 	skos:scopeNote "Differs from tol:alternateYear, which indicates more than one proposed year. In this case, one year is asserted, but it is intended to be inexact, thus encompassing some number of years before and/or after."^^xsd:string ;
+	.
+
+tol:birthFamilyName
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:familyName ;
+	rdfs:domain tol:Person ;
+	rdfs:range rdf:langString ;
+	skos:definition "The family name a person is assigned at birth."^^xsd:string ;
+	skos:prefLabel "birth family name"^^xsd:string ;
+	skos:scopeNote "A family name other than the birth name can be acquired through marriage."^^xsd:string ;
 	.
 
 tol:dissolutionYear
@@ -339,6 +449,22 @@ tol:dissolutionYear
 		"We may want to do this like birth and death - have a Dissolution object with a year. If there are many things with actual/probable/possible/approximate years (dissolution, founding, etc.) we should establish this as a general pattern."^^xsd:string
 		;
 	skos:prefLabel "dissolution year"^^xsd:string ;
+	.
+
+tol:familyName
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:name ;
+	rdfs:domain [
+		a owl:Class ;
+		owl:unionOf (
+			tol:Person
+			tol:Marriage
+		) ;
+	] ;
+	rdfs:range rdf:langString ;
+	skos:definition "The name a person bears based on his/her genealogic or marital relationships."^^xsd:string ;
+	skos:prefLabel "family name"^^xsd:string ;
+	skos:scopeNote "Also applies to marriages; in an ordinary marriage, the marriage, spouses, and children take the husband's family name; in a makpa marriage, the wife's. The marriage name can be inferred from the individuals' family names, or vice versa."^^xsd:string ;
 	.
 
 tol:foundedInYear
@@ -356,15 +482,6 @@ tol:harUrl
 	rdfs:range xsd:anyURI ;
 	skos:definition "The URL to the main page about this resource on the Himalayan Art Resources (HAR) site."^^xsd:string ;
 	skos:prefLabel "HAR URL"^^xsd:string ;
-	.
-
-tol:hasAssignedGender
-	rdfs:domain tol:Person ;
-	rdfs:range bdo:Gender ;
-	skos:definition "The gender of a person assigned at birth."^^xsd:string ;
-	skos:example "Jetsun Khacho Wangmo waas assigned male gender at birth, but later identified as female."^^xsd:string ;
-	skos:prefLabel "has assigned gender"^^xsd:string ;
-	skos:scopeNote "Use if a distinction is made between assigned gender and identified gender; otherwise use bdo:personGender."^^xsd:string ;
 	.
 
 tol:hasEvent
@@ -412,6 +529,27 @@ tol:hasFraternalNiece
 		"We do not currently distinguish biological, adoptive, half, and step relationships."^^xsd:string ,
 		"While a niece can be related through either a sibling or sibling-in-law, a fraternal niece is always related through a brother."^^xsd:string
 		;
+	.
+
+tol:hasJuniorHusband
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasHusband ;
+	rdfs:domain tol:Person ;
+	rdfs:range tol:Person ;
+	skos:definition "The relationship of a wife to her husband in a junior marriage, which is any but the first of multiple simultaneous marriages."^^xsd:string ;
+	skos:note "In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."^^xsd:string ;
+	skos:prefLabel "has junior husband"^^xsd:string ;
+	skos:scopeNote "This property will generally not be asserted, but rather inferred from the relationships of the spouses to a Marriage object and the MarriageRank of that object."^^xsd:string ;
+	.
+
+tol:hasJuniorWife
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasWife ;
+	rdfs:domain tol:Person ;
+	rdfs:range tol:Person ;
+	skos:definition "The relationship of a husband to his wife in a junior marriage, which is any but the first of multiple simultaneous marriages."^^xsd:string ;
+	skos:prefLabel "has junior wife"^^xsd:string ;
+	skos:scopeNote "This property will generally not be asserted, but rather inferred from the relationships of the spouses to a Marriage object and the MarriageRank of that object."^^xsd:string ;
 	.
 
 tol:hasMaternalCousin
@@ -514,6 +652,27 @@ tol:hasPaternalGrandparent
 	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."^^xsd:string ;
 	.
 
+tol:hasSeniorHusband
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasHusband ;
+	rdfs:domain tol:Person ;
+	rdfs:range tol:Person ;
+	skos:definition "The relationship of a wife to her husband in a senior marriage, which is the first marriage of multiple simultaneous marriages."^^xsd:string ;
+	skos:note "In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."^^xsd:string ;
+	skos:prefLabel "has senior husband"^^xsd:string ;
+	skos:scopeNote "This property will generally not be asserted, but rather inferred from the relationships of the spouses to a Marriage object and the MarriageRank of that object."^^xsd:string ;
+	.
+
+tol:hasSeniorWife
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasWife ;
+	rdfs:domain tol:Person ;
+	rdfs:range tol:Person ;
+	skos:definition "The relationship of a husband to his wife in a senior marriage, which is the first of multiple simultaneous marriages."^^xsd:string ;
+	skos:prefLabel "has senior wife"^^xsd:string ;
+	skos:scopeNote "This property will generally not be asserted, but rather inferred from the relationships of the spouses to a Marriage object and the MarriageRank of that object."^^xsd:string ;
+	.
+
 tol:hasSororallNephew
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasNephew ;
@@ -544,6 +703,15 @@ tol:hasSororallNiece
 		;
 	.
 
+tol:isChildIn
+	a owl:ObjectProperty ;
+	rdfs:domain tol:Person ;
+	rdfs:range tol:Marriage ;
+	skos:definition "Relates a child to a materialized marriage relationship."^^xsd:string ;
+	skos:editorialNote "Do we need this, or is it sufficient to relate the child to its parents?"^^xsd:string ;
+	skos:prefLabel "is child in"^^xsd:string ;
+	.
+
 tol:isEventOf
 	a owl:ObjectProperty ;
 	owl:inverseOf tol:hasEvent ;
@@ -552,23 +720,61 @@ tol:isEventOf
 	skos:prefLabel "is event of"^^xsd:string ;
 	.
 
-tol:isInCentury
+tol:isHusbandIn
+	a owl:ObjectProperty ;
+	rdfs:domain tol:Person ;
+	rdfs:range tol:Marriage ;
+	skos:definition "Relates a husband to a materialized marriage relationship."^^xsd:string ;
+	skos:prefLabel "is husband in"^^xsd:string ;
+	skos:scopeNote "This could be asserted, or inferred from isSpouseIn and the gender of the person."^^xsd:string ;
+	.
+
+tol:isSpouseIn
+	a owl:ObjectProperty ;
+	rdfs:domain tol:Person ;
+	rdfs:range tol:Marriage ;
+	skos:definition "Relates a person to a materialized marriage relationship."^^xsd:string ;
+	skos:prefLabel "is spouse in"^^xsd:string ;
+	skos:scopeNote "It is generally preferable to use the more specific isWifeIn or isHusbandIn, though these could also be inferred from isSpouseIn and the gender of the person. gist:hasParticipant is not specific enough, because children are also related to the marriage."^^xsd:string ;
+	.
+
+tol:isWifeIn
+	a owl:ObjectProperty ;
+	rdfs:domain tol:Person ;
+	rdfs:range tol:Marriage ;
+	skos:definition "Relates a wife to a materialized marriage relationship."^^xsd:string ;
+	skos:prefLabel "is wife in"^^xsd:string ;
+	skos:scopeNote "This could be asserted, or inferred from isSpouseIn and the gender of the person."^^xsd:string ;
+	.
+
+tol:marriedFamilyName
 	a owl:DatatypeProperty ;
-	rdfs:range tol:Century ;
-	skos:definition "Relates something to the century or partial century in which it exists (existed) or takes (took) place."^^xsd:string ;
-	skos:example "Lasum Gyelwa Jangchub was born in the early 8th century; Rinchen Chok died in the 1st century; Khenchen Tashi Tsultrim was borth in the late 13th century."^^xsd:string ;
-	skos:prefLabel "is in time period"^^xsd:string ;
+	rdfs:subPropertyOf tol:familyName ;
+	rdfs:domain tol:Person ;
+	rdfs:range rdf:langString ;
+	skos:definition "The family name a person is assigned through a marital relationship."^^xsd:string ;
+	skos:prefLabel "married family name"^^xsd:string ;
+	.
+
+tol:occursDuring
+	a owl:ObjectProperty ;
+	skos:definition "Relates an event to a larger event it is temporally contained in when the part-whole relationship seems inaccurate."^^xsd:string ;
+	skos:example
+		"A birth occurs during a century."^^xsd:string ,
+		"Lasum Gyelwa Jangchub was born in the early 8th century; Rinchen Chok died in the 1st century; Khenchen Tashi Tsultrim was borth in the late 13th century."^^xsd:string
+		;
+	skos:prefLabel "occurs during"^^xsd:string ;
 	.
 
 tol:preferredName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
 	skos:definition "The preferred name of a person."^^xsd:string ;
-	skos:example "Gyergom Tsultrim Sengge is the preferred name of the individual called Gyergom Nyipa by the Library of Congress"^^xsd:string ;
+	skos:example "Gyergom Tsultrim Sengge is the preferred name of the individual called Gyergom Nyipa by the Library of Congress."^^xsd:string ;
 	skos:prefLabel "preferred name"^^xsd:string ;
 	skos:scopeNote
 		"The preferred/alternate distinction may be source- or system-dependent. Treasury of Lives has selected a preferred name, but other systems or sources may prefer a different name."^^xsd:string ,
-		"The same preferred name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a preferred name in both its own and the Extended Wylie system."^^xsd:string
+		"The same name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a preferred name in both its own and the Extended Wylie systems."^^xsd:string
 		;
 	.
 
