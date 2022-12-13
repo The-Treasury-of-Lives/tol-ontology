@@ -1,7 +1,7 @@
 # imports: http://purl.bdrc.io/ontology/types/Gender
 # imports: https://data.tol.org/d/landmarksX.x.x
-# imports: https://data.tol.org/d/timePeriodsX.x.x
 # imports: https://data.tol.org/d/traditionsX.x.x
+# imports: https://ontologies.semanticarts.com/o/gistMediaTypes11.1.0
 # imports: https://ontologies.treasuryoflives.org/o/tolCoreX.x.x
 # imports: https://taxonomies.tol.org/t/landmarkTypesX.x.x
 # imports: https://taxonomies.tol.org/t/marriageRanksX.x.x
@@ -26,8 +26,8 @@
 	owl:imports
 		<http://purl.bdrc.io/ontology/types/Gender> ,
 		<https://data.tol.org/d/landmarksX.x.x> ,
-		<https://data.tol.org/d/timePeriodsX.x.x> ,
 		<https://data.tol.org/d/traditionsX.x.x> ,
+		<https://ontologies.semanticarts.com/o/gistMediaTypes11.1.0> ,
 		<https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ,
 		<https://taxonomies.tol.org/t/landmarkTypesX.x.x> ,
 		<https://taxonomies.tol.org/t/marriageRanksX.x.x> ,

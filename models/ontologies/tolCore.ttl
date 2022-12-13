@@ -62,14 +62,6 @@ tol:Birth
 	skos:prefLabel "Birth"^^xsd:string ;
 	.
 
-tol:Century
-	a owl:Class ;
-	rdfs:subClassOf tol:TimePeriod ;
-	skos:definition "A time period of 100 years reckoned from the birth of Jesus Christ."^^xsd:string ;
-	skos:example "Ninth century AD"^^xsd:string ;
-	skos:scopeNote "There is more than one convention for start and end dates of a century. Here we somewhat arbitrarily adopt the version that starts on year 1 and ends on year 0; e.g., 901-1000."^^xsd:string ;
-	.
-
 tol:Death
 	a owl:Class ;
 	rdfs:subClassOf
@@ -133,12 +125,19 @@ tol:GenealogicalGroup
 		;
 	.
 
+tol:Incarnation
+	a owl:Class ;
+	skos:definition "TBD."^^xsd:string ;
+	skos:editorialNote "Connects person to lineage."^^xsd:string ;
+	skos:prefLabel "Incarnation"^^xsd:string ;
+	.
+
 tol:IncarnationLineage
 	a owl:Class ;
 	rdfs:subClassOf gist:OrderedCollection ;
 	skos:definition "TBD."^^xsd:string ;
+	skos:editorialNote "Add scopeNote re attached to monastery and tradition."^^xsd:string ;
 	skos:prefLabel "Incarnation Lineage"^^xsd:string ;
-	skos:scopeNote "Different traditions may assign a different sequence number to the same incarnation."^^xsd:string ;
 	.
 
 tol:LandmarkType
@@ -349,39 +348,21 @@ tol:TeacherStudentRelationship
 	skos:scopeNote "A teacher-student relationshp may be, but is not necessarily, part of a teaching lineage. In some cases the teacher-student relationship is known while the lineage is not."^^xsd:string ;
 	.
 
-tol:TimePeriod
-	a owl:Class ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			gist:Magnitude
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:actualStartDate ;
-				owl:cardinality "1"^^xsd:integer ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:hasUnitOfMeasure ;
-				owl:someValuesFrom gist:DurationUnit ;
-			]
-		) ;
-	] ;
-	skos:definition "TBD"^^xsd:string ;
-	skos:example "Early 9th century AD"^^xsd:string ;
-	skos:prefLabel "Time Period"^^xsd:string ;
-	skos:scopeNote
-		"A time period has a start date, may have an end date, and lasts for a specified duration. Precisions vary. E.g., the mid-20th century has an end year with precision less than a year."^^xsd:string ,
-		"A time period is often, but not necessarily, a defined time period of some significance, such as a century, rather than an arbitrary time period of 100 years such as 1842-1941."^^xsd:string
-		;
-	.
-
 tol:actualYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tol:year ;
 	skos:definition "The year in which something existed or took place."^^xsd:string ;
 	skos:example "Gyergom Tsultime Sengge was born in 1144 and died in 1204."^^xsd:string ;
 	skos:prefLabel "actual year"^^xsd:string ;
+	.
+
+tol:afterDateTime
+	a tol:DatatypeProperty ;
+	rdfs:range xsd:dateTime ;
+	skos:definition "A datetime that the given resource - e.g., an event - follows. Used for temporal placement of dates expressed in time periods like centuries, early/mid/late centuries, decades, etc."^^xsd:string ;
+	skos:example "A birth that occurred in the 10th century occurred after 0901-01-01T00:00:00 and before 1000-01-01T00:00:00."^^xsd:string ;
+	skos:prefLabel "after datetime"^^xsd:string ;
+	skos:scopeNote "There is more than one interpretation about the start and end dates of centuries. In the Treasury of Lives implementation, we consider a century to begin in the year (x)xx1 and end in the year (x)xx0, but users are free to choose their own interpretation."^^xsd:string ;
 	.
 
 tol:alternateName
@@ -428,6 +409,15 @@ tol:approximateYear
 	skos:example "The birth event of Lhagyari Namgyel Gyatso took place in approximately 1927."^^xsd:string ;
 	skos:prefLabel "approximate year"^^xsd:string ;
 	skos:scopeNote "Differs from tol:alternateYear, which indicates more than one proposed year. In this case, one year is asserted, but it is intended to be inexact, thus encompassing some number of years before and/or after."^^xsd:string ;
+	.
+
+tol:beforeDateTime
+	a tol:DatatypeProperty ;
+	rdfs:range xsd:dateTime ;
+	skos:definition "A datetime that the given resource - e.g., an event - precedes. Used for temporal placement of dates expressed in time periods like centuries, early/mid/late centuries, decades, etc."^^xsd:string ;
+	skos:example "A birth that occurred in the 10th century occurred after 0901-01-01T00:00:00 and before 1000-01-01T00:00:00."^^xsd:string ;
+	skos:prefLabel "before datetime"^^xsd:string ;
+	skos:scopeNote "There is more than one interpretation about the start and end dates of centuries. In the Treasury of Lives implementation, we consider a century to begin in the year (x)xx1 and end in the year (x)xx0, but users are free to choose their own interpretation."^^xsd:string ;
 	.
 
 tol:birthFamilyName
@@ -754,16 +744,6 @@ tol:marriedFamilyName
 	rdfs:range rdf:langString ;
 	skos:definition "The family name a person is assigned through a marital relationship."^^xsd:string ;
 	skos:prefLabel "married family name"^^xsd:string ;
-	.
-
-tol:occursDuring
-	a owl:ObjectProperty ;
-	skos:definition "Relates an event to a larger event it is temporally contained in when the part-whole relationship seems inaccurate."^^xsd:string ;
-	skos:example
-		"A birth occurs during a century."^^xsd:string ,
-		"Lasum Gyelwa Jangchub was born in the early 8th century; Rinchen Chok died in the 1st century; Khenchen Tashi Tsultrim was borth in the late 13th century."^^xsd:string
-		;
-	skos:prefLabel "occurs during"^^xsd:string ;
 	.
 
 tol:preferredName
