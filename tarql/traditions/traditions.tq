@@ -13,11 +13,12 @@ PREFIX told: <https://data.treasuryoflives.org/>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-# ToL Tradition
-# BDRC Tradition (not converted)
-# BDRC T ID (not converted)
-# BDRC ID 
-# Convert (y/n)
+## COLUMNS
+# ToL Tradition -- ?tradition_iri
+# BDRC Tradition -- ignored
+# BDRC T ID -- ignored
+# BDRC ID -- ?bdrc_tradition_iri
+# Convert (y/n) -- used as filter
 
 # Run: tarql --dedup 1000 traditions.tq > traditions.ttl
 
@@ -25,16 +26,14 @@ CONSTRUCT {
 
 <https://data.tol.org/d/traditions>
 	a owl:Ontology ;
-	owl:imports <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
-	owl:versionIRI <https://data.tol.org/d/traditionsX.x.x> ;
 	skos:definition "Defines religious traditions."^^xsd:string ;
 	skos:prefLabel "Traditions"^^xsd:string ;
 	skos:editorialNote "Auto-generated via TARQL." ;
 	.
 
-    ?tradition a tol:Tradition ;
+    ?tradition_iri a tol:Tradition ;
         gist:name ?name ;
-        owl:sameAs ?bdrc_tradition ;
+        owl:sameAs ?bdrc_tradition_iri ;
     .
 
 }
@@ -45,8 +44,8 @@ WHERE {
     
     FILTER(?Convert = "y")
 
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", REPLACE(?ToL_Tradition, ' ', '_'))) AS ?tradition)
-    BIND(STRLANG(?ToL_Tradition, "bo-x-phon-en-m-tol") AS ?name)
-    BIND(tarql:expandPrefixedName(?BDRC_ID) AS ?bdrc_tradition)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", REPLACE(?ToL_Tradition, ' ', '_'))) AS ?tradition_iri)
+    BIND(STRLANG(?ToL_Tradition, "en") AS ?name)
+    BIND(tarql:expandPrefixedName(?BDRC_ID) AS ?bdrc_tradition_iri)
 
 }

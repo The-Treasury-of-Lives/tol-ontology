@@ -18,8 +18,8 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 
 ## Columns
 # incarnation_lineages_id (PK) -- ignore
-# BDRC R ID -- ?bdrc_lineage_iri
-# TOL R ID -- ?tol_lineage_iri
+# BDRC R ID -- ?bdrc__lineage_iri
+# TOL R ID -- ?incarnation_lineage_iri
 # Incarnation Name -- ?tol_name
 # Tradition -- ?tradition_iri
 # Wylie -- ?wylie_name
@@ -32,7 +32,14 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 
 CONSTRUCT {
 
-    ?tol_incarnation_lineage_iri a tol:IncarnationLineage ;
+    <https://data.tol.org/d/incarnation_lineages>
+        a owl:Ontology ;
+        skos:definition "Defines incarnation lineages with associated monasteries and traditions."^^xsd:string ;
+        skos:prefLabel "Incarnation Lineages"^^xsd:string ;
+        skos:editorialNote "Auto-generated via TARQL." ;
+	.
+
+    ?incarnation_lineage_iri a tol:IncarnationLineage ;
         owl:sameAs ?bdrc_lineage_iri ;
         gist:name ?tol_name , 
                   ?wylie_name , 
@@ -53,7 +60,7 @@ FROM <file:incarnation_lineages_22-12-06.csv>
 
 WHERE {
 
-    BIND(tarql:expandPrefixedName(CONCAT("told:_IncarnationLineage_", ?TOL_R_ID)) AS ?tol_incarnation_lineage_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_IncarnationLineage_", ?TOL_R_ID)) AS ?incarnation_lineage_iri)
 
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_R_ID)) AS ?bdrc_lineage_iri) 
 
@@ -69,8 +76,10 @@ WHERE {
     BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", REPLACE(?tradition, " ", "_"))) AS ?tradition_iri)
 
     # Monastery
+    # owl:sameAs to ?BDRC_G_ID will come from monastery data, but will need IRI
     BIND(tarql:expandPrefixedName(CONCAT("told:_Monastery_", ?TOL_G_ID)) AS ?monastery_iri)
-    # owl:sameAs to ?BDRC_G_ID will come from monastery data
+
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_IncarnationLineage_", ?TOL_R_ID)) AS ?html_description_iri)
+
 }

@@ -356,15 +356,6 @@ tol:actualYear
 	skos:prefLabel "actual year"^^xsd:string ;
 	.
 
-tol:afterDateTime
-	a tol:DatatypeProperty ;
-	rdfs:range xsd:dateTime ;
-	skos:definition "A datetime that the given resource - e.g., an event - follows. Used for temporal placement of dates expressed in time periods like centuries, early/mid/late centuries, decades, etc."^^xsd:string ;
-	skos:example "A birth that occurred in the 10th century occurred after 0901-01-01T00:00:00 and before 1000-01-01T00:00:00."^^xsd:string ;
-	skos:prefLabel "after datetime"^^xsd:string ;
-	skos:scopeNote "There is more than one interpretation about the start and end dates of centuries. In the Treasury of Lives implementation, we consider a century to begin in the year (x)xx1 and end in the year (x)xx0, but users are free to choose their own interpretation."^^xsd:string ;
-	.
-
 tol:alternateName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
@@ -409,15 +400,6 @@ tol:approximateYear
 	skos:example "The birth event of Lhagyari Namgyel Gyatso took place in approximately 1927."^^xsd:string ;
 	skos:prefLabel "approximate year"^^xsd:string ;
 	skos:scopeNote "Differs from tol:alternateYear, which indicates more than one proposed year. In this case, one year is asserted, but it is intended to be inexact, thus encompassing some number of years before and/or after."^^xsd:string ;
-	.
-
-tol:beforeDateTime
-	a tol:DatatypeProperty ;
-	rdfs:range xsd:dateTime ;
-	skos:definition "A datetime that the given resource - e.g., an event - precedes. Used for temporal placement of dates expressed in time periods like centuries, early/mid/late centuries, decades, etc."^^xsd:string ;
-	skos:example "A birth that occurred in the 10th century occurred after 0901-01-01T00:00:00 and before 1000-01-01T00:00:00."^^xsd:string ;
-	skos:prefLabel "before datetime"^^xsd:string ;
-	skos:scopeNote "There is more than one interpretation about the start and end dates of centuries. In the Treasury of Lives implementation, we consider a century to begin in the year (x)xx1 and end in the year (x)xx0, but users are free to choose their own interpretation."^^xsd:string ;
 	.
 
 tol:birthFamilyName

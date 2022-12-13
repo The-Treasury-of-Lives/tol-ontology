@@ -15,6 +15,7 @@ PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX wiki: <https://www.wikidata.org/wiki/>
 
+## Columns
 # TOL ID
 # TBRC RID
 # Primary title
@@ -72,19 +73,19 @@ CONSTRUCT {
     #     tol:alternateYear ?alternate_death_year_typed ;
     #     tol:alternateYear ?actual_alternate_death_year_typed ;
 
-    .
+    #.
 }
 
-FROM <file:person_with_name_variants_2022-11-23_modified.csv>
+FROM <file:person_with_name_variants_2022-11-29.csv>
 
 WHERE {
 
-    # RELATED ENTITIES
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?TOL_ID)) AS ?person_iri)
 
     # owl:sameAs
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?TOL_ID)) AS ?person_iri)
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?TBRC_RID)) AS ?bdrc_iri)
     BIND(tarql:expandPrefixedName(CONCAT("wiki:", ?Wikidata_ID)) AS ?wikidata_iri) 
+
 
     # URLs
     BIND(STRDT(?HAR_URL, xsd:anyURI) AS ?har_url)
@@ -111,22 +112,7 @@ WHERE {
             ?blank) 
         AS ?lang)
     BIND(IF(BOUND(?lang), STRLANG(?name, ?lang), ?name) AS ?alternate_name)
-
-    # Primary names and titles may be duplicated as name variants in the data; don't create alternate names for these.
-    # For some reason this is not working:
-    # BIND(IF(BOUND(?lang), STRLANG(?name, ?lang), ?name) AS ?name_variant_lang)
-    # BIND(
-    #     IF(
-    #         (?name_variant_lang != ?primary_name_tol) && 
-    #         (?name_variant_lang != ?primary_name_wylie) && 
-    #         (?name_variant_lang != ?title_tol) &&  
-    #         (?name_variant_lang != ?title_wylie), 
-    #             ?name_variant_lang, 
-    #             ?blank) 
-    #     AS ?alternate_name)
-    # BIND(?name_variant_lang AS ?alternate_name)
-        
-
+  
     # GENDER
     BIND(
         COALESCE(
@@ -136,18 +122,19 @@ WHERE {
         AS ?gender_iri
     )
 
-
     # To create an xsd:dateTime from a year string
     BIND("-01-01T00:00:00" AS ?date_time_completion)
 
-    # # BIRTH 
+    ## BIRTH 
     
-    # # Birth event
-    # BIND(IF(BOUND(?Birth_year) || BOUND(?Birth_century), 
-    #     tarql:expandPrefixedName(CONCAT("told:_Birth_", ?TOL_ID)), ?unbound) AS ?birth_iri)
+    # Birth event
+    BIND(IF(BOUND(?Birth_year) || BOUND(?Birth_century), 
+        tarql:expandPrefixedName(CONCAT("told:_Birth_", ?TOL_ID)), ?unbound) AS ?birth_iri)
 
-    # # Birth century
-    # BIND(tarql:expandPrefixedName(CONCAT("tolx:_Century_", REPLACE(REPLACE(?Birth_century, " ", "_"), "[()]", ""))) AS ?birth_century_iri) 
+    # Birth century
+    # ONLY IF NO BIRTH YEAR 
+
+
 
     # # Birth year(s)
     # BIND(
@@ -183,14 +170,13 @@ WHERE {
     # BIND(IF(BOUND(?alternate_birth_year), ?full_birth_year_typed, ?unbound) AS ?actual_alternate_birth_year_typed)
 
 
-    # # DEATH 
+    # DEATH 
 
-    # # Death event
-    # BIND(IF(BOUND(?Death_year) || BOUND(?Death_century),  
-    #     tarql:expandPrefixedName(CONCAT("told:_Death_", ?TOL_ID)), ?unbound) AS ?death_iri)
+    # Death event
+    BIND(IF(BOUND(?Death_year) || BOUND(?Death_century),  
+        tarql:expandPrefixedName(CONCAT("told:_Death_", ?TOL_ID)), ?unbound) AS ?death_iri)
 
-    # # Death century
-    # BIND(tarql:expandPrefixedName(CONCAT("tolx:_Century_", REPLACE(REPLACE(?Death_century, " ", "_"), "[()]", ""))) AS ?death_century_iri) 
+    # Death century 
 
     # # Death years
     # BIND(

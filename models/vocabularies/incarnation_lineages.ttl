@@ -16,6 +16,13 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<https://data.tol.org/d/incarnation_lineages>
+	a owl:Ontology ;
+	skos:definition "Defines incarnation lineages with associated monasteries and traditions."^^xsd:string ;
+	skos:editorialNote "Auto-generated via TARQL."^^xsd:string ;
+	skos:prefLabel "Incarnation Lineages"^^xsd:string ;
+	.
+
 told:_FormattedContent_Description_IncarnationLineage_1
 	a gist:FormattedContent ;
 	gist:containedText '''<p>
