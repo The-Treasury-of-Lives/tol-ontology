@@ -991,7 +991,7 @@ told:_IncarnationLineage_101
 	owl:sameAs bdr:R8LS12886 ;
 	gist:isConnectedTo
 		told:_Monastery_TOLG82 ,
-		<https://data.treasuryoflives.org/_Tradition_Drigung%20Kagyu>
+		told:_Tradition_Drigung_Kagyu
 		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_101 ;
 	gist:name
@@ -1005,7 +1005,7 @@ told:_IncarnationLineage_102
 	owl:sameAs bdr:R8LS12892 ;
 	gist:isConnectedTo
 		told:_Monastery_TOLG82 ,
-		<https://data.treasuryoflives.org/_Tradition_Drigung%20Kagyu>
+		told:_Tradition_Drigung_Kagyu
 		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_102 ;
 	gist:name
@@ -1072,7 +1072,8 @@ told:_IncarnationLineage_107
 	owl:sameAs bdr:R8LS12801 ;
 	gist:isConnectedTo
 		told:_Monastery_TOLG814 ,
-		<https://data.treasuryoflives.org/_Tradition_Geluk,%20Sakya>
+		told:_Tradition_Geluk ,
+		told:_Tradition_Sakya
 		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_107 ;
 	gist:name
@@ -1140,7 +1141,7 @@ told:_IncarnationLineage_113
 	a tol:IncarnationLineage ;
 	gist:isConnectedTo
 		told:_Monastery_TOLG247 ,
-		<https://data.treasuryoflives.org/_Tradition_Drigung%20Kagyu>
+		told:_Tradition_Drigung_Kagyu
 		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_113 ;
 	gist:name
@@ -1279,7 +1280,7 @@ told:_IncarnationLineage_18
 	owl:sameAs bdr:R8LS13413 ;
 	gist:isConnectedTo
 		told:_Monastery_TOLG308 ,
-		<https://data.treasuryoflives.org/_Tradition_Drukpa%20Kagyu>
+		told:_Tradition_Drukpa_Kagyu
 		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_18 ;
 	gist:name
@@ -1293,7 +1294,7 @@ told:_IncarnationLineage_19
 	owl:sameAs bdr:R8LS13410 ;
 	gist:isConnectedTo
 		told:_Monastery_TOLG405 ,
-		<https://data.treasuryoflives.org/_Tradition_Drukpa%20Kagyu>
+		told:_Tradition_Drukpa_Kagyu
 		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_19 ;
 	gist:name
@@ -1316,7 +1317,7 @@ told:_IncarnationLineage_2
 told:_IncarnationLineage_20
 	a tol:IncarnationLineage ;
 	owl:sameAs bdr:R8LS12812 ;
-	gist:isConnectedTo <https://data.treasuryoflives.org/_Tradition_Drukpa%20Kagyu> ;
+	gist:isConnectedTo told:_Tradition_Drukpa_Kagyu ;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_20 ;
 	gist:name
 		"Drukchen"@en ,
@@ -1463,7 +1464,8 @@ told:_IncarnationLineage_30
 	owl:sameAs bdr:R8LS12893 ;
 	gist:isConnectedTo
 		told:_Monastery_TOLG95 ,
-		<https://data.treasuryoflives.org/_Tradition_Kagyu,%20Karma%20Kagyu>
+		told:_Tradition_Kagyu ,
+		told:_Tradition_Karma_Kagyu
 		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_30 ;
 	gist:name
@@ -1505,7 +1507,7 @@ told:_IncarnationLineage_33
 	owl:sameAs bdr:R8LS12875 ;
 	gist:isConnectedTo
 		told:_Monastery_TOLG95 ,
-		<https://data.treasuryoflives.org/_Tradition_Karma%20Kagyu>
+		told:_Tradition_Karma_Kagyu
 		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_33 ;
 	gist:name
@@ -1674,7 +1676,10 @@ told:_IncarnationLineage_44
 told:_IncarnationLineage_45
 	a tol:IncarnationLineage ;
 	owl:sameAs bdr:R8LS12784 ;
-	gist:isConnectedTo <https://data.treasuryoflives.org/_Tradition_Karma%20Kagyu,%20Kagyu> ;
+	gist:isConnectedTo
+		told:_Tradition_Kagyu ,
+		told:_Tradition_Karma_Kagyu
+		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_45 ;
 	gist:name
 		"Pawo"@en ,
@@ -1753,7 +1758,7 @@ told:_IncarnationLineage_50
 	owl:sameAs <http://purl.bdrc.io/resource/Need%20R#> ;
 	gist:isConnectedTo
 		told:_Monastery_TOLG218 ,
-		<https://data.treasuryoflives.org/_Tradition_Taklung%20Kagyu>
+		told:_Tradition_Taklung_Kagyu
 		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_50 ;
 	gist:name
@@ -2018,7 +2023,7 @@ told:_IncarnationLineage_69
 	owl:sameAs bdr:R8LS13407 ;
 	gist:isConnectedTo
 		told:_Monastery_TOLG418 ,
-		<https://data.treasuryoflives.org/_Tradition_Drukpa%20Kagyu>
+		told:_Tradition_Drukpa_Kagyu
 		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_69 ;
 	gist:name
@@ -2074,7 +2079,8 @@ told:_IncarnationLineage_72
 	owl:sameAs bdr:R8LS13049 ;
 	gist:isConnectedTo
 		told:_Monastery_TOLG599 ,
-		<https://data.treasuryoflives.org/_Tradition_Kagyu,%20Karma%20Kagyu>
+		told:_Tradition_Kagyu ,
+		told:_Tradition_Karma_Kagyu
 		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_72 ;
 	gist:name
@@ -2100,7 +2106,10 @@ told:_IncarnationLineage_73
 told:_IncarnationLineage_74
 	a tol:IncarnationLineage ;
 	owl:sameAs bdr:R8LS13050 ;
-	gist:isConnectedTo <https://data.treasuryoflives.org/_Tradition_Karma%20Kagyu,%20Kagyu> ;
+	gist:isConnectedTo
+		told:_Tradition_Kagyu ,
+		told:_Tradition_Karma_Kagyu
+		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_74 ;
 	gist:name
 		"Tai Situ"@en ,
@@ -2138,7 +2147,7 @@ told:_IncarnationLineage_77
 	owl:sameAs bdr:R8LS13051 ;
 	gist:isConnectedTo
 		told:_Monastery_TOLG472 ,
-		<https://data.treasuryoflives.org/_Tradition_Karma%20Kagyu>
+		told:_Tradition_Karma_Kagyu
 		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_77 ;
 	gist:name
@@ -2180,7 +2189,7 @@ told:_IncarnationLineage_80
 	owl:sameAs bdr:R8LS13055 ;
 	gist:isConnectedTo
 		told:_Monastery_TOLG174 ,
-		<https://data.treasuryoflives.org/_Tradition_Karma%20Kagyu>
+		told:_Tradition_Karma_Kagyu
 		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_80 ;
 	gist:name
@@ -2192,7 +2201,10 @@ told:_IncarnationLineage_80
 told:_IncarnationLineage_81
 	a tol:IncarnationLineage ;
 	owl:sameAs bdr:R8LS16682 ;
-	gist:isConnectedTo <https://data.treasuryoflives.org/_Tradition_Taklung%20Kagyu,%20Nyingma> ;
+	gist:isConnectedTo
+		told:_Tradition_Nyingma ,
+		told:_Tradition_Taklung_Kagyu
+		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_81 ;
 	gist:name
 		"Pakchok"@en ,
@@ -2218,7 +2230,7 @@ told:_IncarnationLineage_83
 	a tol:IncarnationLineage ;
 	gist:isConnectedTo
 		told:_Monastery_TOLG1114 ,
-		<https://data.treasuryoflives.org/_Tradition_Karma%20Kagyu>
+		told:_Tradition_Karma_Kagyu
 		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_83 ;
 	gist:name
@@ -2239,7 +2251,7 @@ told:_IncarnationLineage_84
 
 told:_IncarnationLineage_85
 	a tol:IncarnationLineage ;
-	gist:isConnectedTo <https://data.treasuryoflives.org/_Tradition_Shangpa%20Kagyu> ;
+	gist:isConnectedTo told:_Tradition_Shangpa_Kagyu ;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_85 ;
 	gist:name
 		"Kalu Rinpoche"@en ,
@@ -2260,7 +2272,7 @@ told:_IncarnationLineage_86
 
 told:_IncarnationLineage_87
 	a tol:IncarnationLineage ;
-	gist:isConnectedTo <https://data.treasuryoflives.org/_Tradition_Karma%20Kagyu> ;
+	gist:isConnectedTo told:_Tradition_Karma_Kagyu ;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_87 ;
 	gist:name
 		"Beru Khyentse"@en ,
@@ -2284,7 +2296,7 @@ told:_IncarnationLineage_89
 	owl:sameAs bdr:R8LS13416 ;
 	gist:isConnectedTo
 		told:_Monastery_TOLG1072 ,
-		<https://data.treasuryoflives.org/_Tradition_Drukpa%20Kagyu>
+		told:_Tradition_Drukpa_Kagyu
 		;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_89 ;
 	gist:name
@@ -2363,7 +2375,7 @@ told:_IncarnationLineage_93
 told:_IncarnationLineage_94
 	a tol:IncarnationLineage ;
 	owl:sameAs bdr:R8LS13273 ;
-	gist:isConnectedTo <https://data.treasuryoflives.org/_Tradition_Drigung%20Kagyu> ;
+	gist:isConnectedTo told:_Tradition_Drigung_Kagyu ;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_94 ;
 	gist:name
 		"Garchen"@en ,
@@ -2413,7 +2425,7 @@ told:_IncarnationLineage_97
 told:_IncarnationLineage_98
 	a tol:IncarnationLineage ;
 	owl:sameAs bdr:R8LS13030 ;
-	gist:isConnectedTo <https://data.treasuryoflives.org/_Tradition_Shangpa%20Kagyu> ;
+	gist:isConnectedTo told:_Tradition_Shangpa_Kagyu ;
 	gist:isDescribedIn told:_FormattedContent_Description_IncarnationLineage_98 ;
 	gist:name
 		"Nyetang Mokchok"@en ,

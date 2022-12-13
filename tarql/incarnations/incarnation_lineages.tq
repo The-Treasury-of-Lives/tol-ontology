@@ -28,7 +28,7 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # TOL G ID -- ?monastery_iri
 # description -- ?html_description_iri
 
-# Run: tarql incarnation_lineages.tq > incarnation_lineages.ttl
+# Run: tarql --dedup 5000 incarnation_lineages.tq > incarnation_lineages.ttl
 
 CONSTRUCT {
 
@@ -63,7 +63,10 @@ WHERE {
     BIND(STRLANG(?Chinese, "zh-Hani") AS ?chinese_name)
 
     # Tradition
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", ?Tradition)) AS ?tradition_iri)
+    OPTIONAL {
+        ?tradition apf:strSplit(?Tradition ", ")
+    }
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", REPLACE(?tradition, " ", "_"))) AS ?tradition_iri)
 
     # Monastery
     BIND(tarql:expandPrefixedName(CONCAT("told:_Monastery_", ?TOL_G_ID)) AS ?monastery_iri)
