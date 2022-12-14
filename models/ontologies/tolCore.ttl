@@ -53,7 +53,7 @@ tol:Birth
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tol:year ;
+			owl:onProperty tol:inYear ;
 			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
 		]
 		;
@@ -84,7 +84,7 @@ tol:Death
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tol:year ;
+			owl:onProperty tol:inYear ;
 			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
 		]
 		;
@@ -350,7 +350,7 @@ tol:TeacherStudentRelationship
 
 tol:actualYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:year ;
+	rdfs:subPropertyOf tol:inYear ;
 	skos:definition "The year in which something existed or took place."^^xsd:string ;
 	skos:example "Gyergom Tsultime Sengge was born in 1144 and died in 1204."^^xsd:string ;
 	skos:prefLabel "actual year"^^xsd:string ;
@@ -370,36 +370,20 @@ tol:alternateName
 
 tol:alternateYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:year ;
+	rdfs:subPropertyOf tol:inYear ;
 	skos:definition "The year in which something is proposed to have existed or taken place."^^xsd:string ;
 	skos:example "According to one source, Botrul Dongak Tenpai Nyima was born in 1900, while according to another source his birth year was XXX and he died in 1902. No indication of greater or less likelihood of the two possibilities is implied."^^xsd:string ;
 	skos:prefLabel "alternate year"^^xsd:string ;
-	skos:scopeNote "Differs from tol:alternateYear, which specifies a single year but is intended to be inexact. In this case, various scholars have proposed different possibilities."^^xsd:string ;
-	.
-
-tol:approximateEndYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:approximateYear ;
-	skos:definition "The approximate year in which something ended."^^xsd:string ;
-	skos:example "The early 19th century ended in approximately 1835."^^xsd:string ;
-	skos:prefLabel "approximate end year"^^xsd:string ;
-	.
-
-tol:approximateStartYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:approximateYear ;
-	skos:definition "The approximate year in which something began."^^xsd:string ;
-	skos:example "The late 19th century began in approximately 1865."^^xsd:string ;
-	skos:prefLabel "approximate start year"^^xsd:string ;
+	skos:scopeNote "Differs from tol:approximateYear, which specifies a single year but is intended to be inexact. In this case, various scholars have proposed different years. If there is an alternate year, there is no actual year; rather, both proposed dates are asserted as alternates."^^xsd:string ;
 	.
 
 tol:approximateYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:year ;
+	rdfs:subPropertyOf tol:inYear ;
 	skos:definition "The approximate year in which something existed or took place."^^xsd:string ;
 	skos:example "The birth event of Lhagyari Namgyel Gyatso took place in approximately 1927."^^xsd:string ;
 	skos:prefLabel "approximate year"^^xsd:string ;
-	skos:scopeNote "Differs from tol:alternateYear, which indicates more than one proposed year. In this case, one year is asserted, but it is intended to be inexact, thus encompassing some number of years before and/or after."^^xsd:string ;
+	skos:scopeNote "Differs from tol:alternateYear, which is used when there is more than one proposed year. In this case, only one year is asserted, but it is intended to be inexact, thus encompassing some number of years before and/or after."^^xsd:string ;
 	.
 
 tol:birthFamilyName
@@ -418,7 +402,7 @@ tol:dissolutionYear
 	skos:definition "The year an agreement such as marriage was ended. In the case of marriage, this refers to divorce rather than the end of a marriage by death of one of the spouses."^^xsd:string ;
 	skos:editorialNote
 		"Use if we need to distinguish divorce from death as the end of a marriage."^^xsd:string ,
-		"We may want to do this like birth and death - have a Dissolution object with a year. If there are many things with actual/probable/possible/approximate years (dissolution, founding, etc.) we should establish this as a general pattern."^^xsd:string
+		"We may want to do this like birth and death - have a Dissolution object with a year. If there are many things with actual/approximate/alternate values, (dissolution, founding, etc.) we should establish this as a general pattern."^^xsd:string
 		;
 	skos:prefLabel "dissolution year"^^xsd:string ;
 	.
@@ -435,17 +419,18 @@ tol:familyName
 	] ;
 	rdfs:range rdf:langString ;
 	skos:definition "The name a person bears based on his/her genealogic or marital relationships."^^xsd:string ;
+	skos:editorialNote "Check model - may not have a marriage family name anymore."^^xsd:string ;
 	skos:prefLabel "family name"^^xsd:string ;
 	skos:scopeNote "Also applies to marriages; in an ordinary marriage, the marriage, spouses, and children take the husband's family name; in a makpa marriage, the wife's. The marriage name can be inferred from the individuals' family names, or vice versa."^^xsd:string ;
 	.
 
-tol:foundedInYear
+tol:foundingYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:actualStartYear ;
 	skos:definition "TODO"^^xsd:string ;
 	skos:editorialNote "We may want to follow the pattern of Birth and Death here, instead of just using a property. Depends on what other information is available. We could have Founding with an agent and a date."^^xsd:string ;
 	skos:example "The Tshal-pa tradition was founded in 1123."^^xsd:string ;
-	skos:prefLabel "founded in year"^^xsd:string ;
+	skos:prefLabel "founding year"^^xsd:string ;
 	.
 
 tol:harUrl
@@ -675,6 +660,14 @@ tol:hasSororallNiece
 		;
 	.
 
+tol:inYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:atDateTime ;
+	skos:definition "The year in which something existed or took place, ambiguous as to start/end and planned/actual/approximate/alternate."^^xsd:string ;
+	skos:example "Gyergom Tsultime Sengge's birth took place in 1144."^^xsd:string ;
+	skos:prefLabel "in year"^^xsd:string ;
+	.
+
 tol:isChildIn
 	a owl:ObjectProperty ;
 	rdfs:domain tol:Person ;
@@ -726,6 +719,15 @@ tol:marriedFamilyName
 	rdfs:range rdf:langString ;
 	skos:definition "The family name a person is assigned through a marital relationship."^^xsd:string ;
 	skos:prefLabel "married family name"^^xsd:string ;
+	.
+
+tol:occursDuring
+	a owl:ObjectProperty ;
+	rdfs:domain gist:Event ;
+	skos:definition "Relates an event to a larger event or time period it is temporally contained in when the part-whole relationship seems inaccurate."^^xsd:string ;
+	skos:example "A birth occurs during the 12th century."^^xsd:string ;
+	skos:prefLabel "occurs during"^^xsd:string ;
+	skos:scopeNote "While a sub-pay period is part of a pay period, to say that a time charge is part of a pay period is distinctly odd."^^xsd:string ;
 	.
 
 tol:preferredName
