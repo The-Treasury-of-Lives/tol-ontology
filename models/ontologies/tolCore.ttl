@@ -62,6 +62,38 @@ tol:Birth
 	skos:prefLabel "Birth"^^xsd:string ;
 	.
 
+tol:Century
+	a owl:Class ;
+	rdfs:subClassOf tol:TimePeriod ;
+	skos:definition "A time period of 100 years."; 
+	skos:scopeNote "gist models start and end years as xsd:dateTimes, and therefore they align with ISO 8601 convention utilizing the proleptic Gregorian calendar." ,
+	"This uses the popular definition of a century, that is, the year 1000 is the first year of the 11th century." ;
+	.
+	
+tol:TimePeriod
+	a owl:Class ;
+	rdfs:subClassOf bdo:Era ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:actualStartDate ;
+				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:actualEndDate ;
+				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+			] 
+		);
+	] ;
+	skos:definition "An interval of time bounded by absolute start and end dates." ;
+	skos:example "The 11th century; Jan 1, 2001 - Dec 31, 2001; the Yuan Dynasty." ;
+	skos:scopeNote "This is distinct from a gist:Duration, which describes how long a time period lasts (e.g., one hour, 3 days, 6000 years)." ;
+	skos:scopeNote "gist models start and end years as xsd:dateTimes, and therefore they align with ISO 8601 convention utilizing the proleptic Gregorian calendar." ;
+	.
+
 tol:Death
 	a owl:Class ;
 	rdfs:subClassOf
