@@ -28,29 +28,40 @@ CONSTRUCT {
     ?century_iri a tol:Century ;
         skos:prefLabel ?cent_name ;
 		skos:altLabel ?cent_altName ;
-		gist:hasActualStartDate ?cent_start;
-		gist:hasActualEndDate ?cent_end;
+		gist:actualStartDate ?cent_start;
+		gist:actualEndDate ?cent_end;
+		gist:precedesDirectly ?precedes_full ;
+		gist:followsDirectly ?follows_full ;
     .
 
 	?early_iri a tol:TimePeriod ;
 		skos:prefLabel ?early_name ;
 		skos:altLabel ?early_altName ;
-		gist:hasActualStartDate ?cent_start;
-		gist:hasActualEndDate ?early_end;
+		gist:actualStartDate ?cent_start;
+		gist:actualEndDate ?early_end;
+		gist:isPartOf ?century_iri ;
+		gist:precedesDirectly ?mid_iri ;
+		gist:followsDirectly ?follows_late ;
 	.
 	
 	?mid_iri a tol:TimePeriod ;
 		skos:prefLabel ?mid_name ;
 		skos:altLabel ?mid_altName ;
-		gist:hasActualStartDate ?mid_start;
-		gist:hasActualEndDate ?mid_end;
+		gist:actualStartDate ?mid_start;
+		gist:actualEndDate ?mid_end;
+		gist:isPartOf ?century_iri ;
+		gist:followsDirectly ?early_iri ;
+		gist:precedesDirectly ?late_iri ;
 	.
 	
 	?late_iri a tol:TimePeriod ;
 		skos:prefLabel ?late_name ;
 		skos:altLabel ?late_altName ;
-		gist:hasActualStartDate ?late_start;
-		gist:hasActualEndDate ?cent_end;
+		gist:actualStartDate ?late_start;
+		gist:actualEndDate ?cent_end;
+		gist:isPartOf ?century_iri ;
+		gist:followsDirectly ?mid_iri ;
+		gist:precedesDirectly ?precedes_early ;
 	.
 
 } # /construct
@@ -58,6 +69,10 @@ CONSTRUCT {
 FROM <file:centuries.csv>
 
 WHERE {
+
+ #have to add this to the end of every year to make a proper dateTime
+	BIND("-01-01T00:00:00" AS ?date_time_rest)
+
  #full century
     BIND(tarql:expandPrefixedName(CONCAT("told:_Century_", REPLACE(?ID, ' ', '_'))) AS ?century_iri)
     BIND(STRLANG(?ID, "en") AS ?cent_name)
@@ -66,20 +81,22 @@ WHERE {
 	BIND(
 		COALESCE(
 			IF(REGEX(?start_year, "^\\d{4}$"), ?start_year, ?unbound), 
-			IF(REGEX(?start_year, "^\\d{3}$"), CONCAT("0", ?start_year), ?unbound)
+			IF(REGEX(?start_year, "^\\d{3}$"), CONCAT("0", ?start_year), ?unbound),
+			IF(REGEX(?start_year, "^\\d{2}$"), CONCAT("00", ?start_year), ?unbound),
+			IF(REGEX(?start_year, "^\\d$"), CONCAT("000", ?start_year), ?unbound)
 		)
         AS ?cent_start_str
 	)
-	BIND(xsd:gYear(?cent_start_str) AS ?cent_start)
-
+	
+	BIND(STRDT(CONCAT(?cent_start_str, ?date_time_rest), xsd:dateTime) AS ?cent_start)
 	
 	BIND(
-		xsd:gYear(
-			COALESCE(
+		STRDT(CONCAT(COALESCE(
 				IF(REGEX(?end_year, "^\\d{4}$"), ?end_year, ?unbound), 
-				IF(REGEX(?end_year, "^\\d{3}$"), CONCAT("0", ?end_year), ?unbound)
-			)
-		)
+				IF(REGEX(?end_year, "^\\d{3}$"), CONCAT("0", ?end_year), ?unbound),
+				IF(REGEX(?end_year, "^\\d{2}$"), CONCAT("00", ?end_year), ?unbound),
+				IF(REGEX(?end_year, "^\\d$"), CONCAT("000", ?end_year), ?unbound)
+			), ?date_time_rest), xsd:dateTime)
         AS ?cent_end
 	)
 	
@@ -91,42 +108,28 @@ WHERE {
 	BIND(STRLANG(CONCAT(?alt_label, " (early)"), "en") AS ?early_altName )
 	
 	# early start year is the same as the century's start year
-	BIND(
-		xsd:gYear(
-			CONCAT(SUBSTR(?cent_start_str, 1, 2), "33")
-		)
-		AS ?early_end
-	)
+	BIND(STRDT(CONCAT(SUBSTR(?cent_start_str, 1, 2), "33", ?date_time_rest), xsd:dateTime ) AS ?early_end)
 	
  #mid
 	BIND(tarql:expandPrefixedName(CONCAT(?which_cent, "_mid")) AS ?mid_iri)
 	BIND(STRLANG(CONCAT(?ID, " (mid)"), "en") AS ?mid_name )
 	BIND(STRLANG(CONCAT(?alt_label, " (mid)"), "en") AS ?mid_altName)
-	BIND(
-		xsd:gYear(
-			CONCAT(SUBSTR(?cent_start_str, 1, 2), "34")
-		)
-		AS ?mid_start
-	)
-	BIND(
-		xsd:gYear(
-			CONCAT(SUBSTR(?cent_start_str, 1, 2), "66")
-		)
-		AS ?mid_end
-	)
+	BIND(STRDT(CONCAT(SUBSTR(?cent_start_str, 1, 2), "34", ?date_time_rest), xsd:dateTime ) AS ?mid_start )
+	BIND(STRDT(CONCAT(SUBSTR(?cent_start_str, 1, 2), "66", ?date_time_rest), xsd:dateTime ) AS ?mid_end )
 
  #late
 	BIND(tarql:expandPrefixedName(CONCAT(?which_cent, "_late")) AS ?late_iri)
 	BIND(STRLANG(CONCAT(?ID, " (late)"), "en") AS ?late_name )
 	BIND(STRLANG(CONCAT(?alt_label, " (late)"), "en") AS ?late_altName)
-	BIND(
-		xsd:gYear(
-			CONCAT(SUBSTR(?cent_start_str, 1, 2), "67")
-		)
-		AS ?late_start
-	)
+	BIND(STRDT(CONCAT(SUBSTR(?cent_start_str, 1, 2), "67", ?date_time_rest), xsd:dateTime )	AS ?late_start	)
 	# late end year is the same as the century's end year
 	
-	
-
+ #precedes
+	BIND(tarql:expandPrefixedName(CONCAT("told:_Century_", REPLACE(?precedes, ' ', '_'))) AS ?precedes_full)
+	BIND(tarql:expandPrefixedName(CONCAT("told:_TimePeriod_", REPLACE(?precedes, ' ', '_'), "_early")) AS ?precedes_early)
+ 
+ #follows
+	BIND(tarql:expandPrefixedName(CONCAT("told:_Century_", REPLACE(?follows, ' ', '_'))) AS ?follows_full)
+	BIND(tarql:expandPrefixedName(CONCAT("told:_TimePeriod_", REPLACE(?follows, ' ', '_'), "_late")) AS ?follows_late)
+ 
 }

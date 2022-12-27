@@ -1,0 +1,22 @@
+ID,alt label,start year,end year,precedes,follows
+1st Century,First Century,1,99,2nd Century,1st Century BCE
+2nd Century,Second Century,100,199,3rd Century,1st Century
+3rd Century,Third Century,200,299,4th Century,2nd Century
+4th Century,Fourth Century,300,399,5th Century,3rd Century
+5th Century,Fifth Century,400,499,6th Century,4th Century
+6th Century,Sixth Century,500,599,7th Century,5th Century
+7th Century,Seventh Century,600,699,8th Century,6th Century
+8th Century,Eighth Century,700,799,9th Century,7th Century
+9th Century,Ninth Century,800,899,10th Century,8th Century
+10th Century,Tenth Century,900,999,11th Century,9th Century
+11th Century,Eleventh Century,1000,1099,12th Century,10th Century
+12th Century,Twelfth Century,1100,1199,13th Century,11th Century
+13th Century,Thirteenth Century,1200,1299,14th Century,12th Century
+14th Century,Fourteenth Century,1300,1399,15th Century,13th Century
+15th Century,Fifteenth Century,1400,1499,16th Century,14th Century
+16th Century,Sixteenth Century,1500,1599,17th Century,15th Century
+17th Century,Seventeenth Century,1600,1699,18th Century,16th Century
+18th Century,Eighteenth Century,1700,1799,19th Century,17th Century
+19th Century,Nineteenth Century,1800,1899,20th Century,18th Century
+20th Century,Twentieth Century,1900,1999,21st Century,19th Century
+21st Century,Twenty-first Century,2000,2099,22nd Century,20th Century
