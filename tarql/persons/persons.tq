@@ -76,7 +76,7 @@ CONSTRUCT {
 
 }
 
-FROM <file:person_with_name_variants_2022-11-29.csv>
+FROM <file:persons_2022-11-29.csv>
 
 WHERE {
 
