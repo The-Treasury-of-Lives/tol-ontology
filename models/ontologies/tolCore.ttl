@@ -64,10 +64,10 @@ tol:Birth
 
 tol:Century
 	a owl:Class ;
-	rdfs:subClassOf tol:TimePeriod ;
+	rdfs:subClassOf tol:TimeInterval ;
 	skos:definition "A time period of 100 years."^^xsd:string ;
 	skos:scopeNote
-		"This uses the popular definition of a century, that is, the year 1000 is the first year of the 11th century."^^xsd:string ,
+		"Treasury of Lives specifically uses the popular definition of a century, that is, the year 1000 is the first year of the 11th century."^^xsd:string ,
 		"gist models start and end years as xsd:dateTimes, and therefore they align with ISO 8601 convention utilizing the proleptic Gregorian calendar."^^xsd:string
 		;
 	.
@@ -358,28 +358,12 @@ tol:TeacherStudentRelationship
 	skos:scopeNote "A teacher-student relationshp may be, but is not necessarily, part of a teaching lineage. In some cases the teacher-student relationship is known while the lineage is not."^^xsd:string ;
 	.
 
-tol:TimePeriod
+tol:TimeInterval
 	a owl:Class ;
-	rdfs:subClassOf bdo:Era ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:actualStartDate ;
-				owl:cardinality "1"^^xsd:nonNegativeInteger ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:actualEndDate ;
-				owl:cardinality "1"^^xsd:nonNegativeInteger ;
-			]
-		) ;
-	] ;
-	skos:definition "An interval of time bounded by absolute start and end dates."^^xsd:string ;
+	skos:definition "A span of time bounded by absolute start and end dates."^^xsd:string ;
 	skos:example "The 11th century; Jan 1, 2001 - Dec 31, 2001; the Yuan Dynasty."^^xsd:string ;
 	skos:scopeNote
-		"This is distinct from a gist:Duration, which describes how long a time period lasts (e.g., one hour, 3 days, 6000 years)."^^xsd:string ,
+		"This is distinct from a gist:Duration, which describes how long a time interval lasts (e.g., one hour, 3 days, 6000 years)."^^xsd:string ,
 		"gist models start and end years as xsd:dateTimes, and therefore they align with ISO 8601 convention utilizing the proleptic Gregorian calendar."^^xsd:string
 		;
 	.

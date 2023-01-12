@@ -28,39 +28,35 @@ CONSTRUCT {
     ?century_iri a tol:Century ;
         skos:prefLabel ?cent_name ;
 		skos:altLabel ?cent_altName ;
-		gist:actualStartDate ?cent_start;
-		gist:actualEndDate ?cent_end;
+		gist:actualStartYear ?cent_start;
+		gist:actualEndYear ?cent_end;
 		gist:precedesDirectly ?precedes_full ;
-		gist:followsDirectly ?follows_full ;
-    .
+	.
 
 	?early_iri a tol:TimePeriod ;
 		skos:prefLabel ?early_name ;
 		skos:altLabel ?early_altName ;
-		gist:actualStartDate ?cent_start;
-		gist:actualEndDate ?early_end;
+		gist:actualStartYear ?cent_start;
+		gist:actualEndYear ?early_end;
 		gist:isPartOf ?century_iri ;
 		gist:precedesDirectly ?mid_iri ;
-		gist:followsDirectly ?follows_late ;
 	.
 	
 	?mid_iri a tol:TimePeriod ;
 		skos:prefLabel ?mid_name ;
 		skos:altLabel ?mid_altName ;
-		gist:actualStartDate ?mid_start;
-		gist:actualEndDate ?mid_end;
+		gist:actualStartYear ?mid_start;
+		gist:actualEndYear ?mid_end;
 		gist:isPartOf ?century_iri ;
-		gist:followsDirectly ?early_iri ;
 		gist:precedesDirectly ?late_iri ;
 	.
 	
 	?late_iri a tol:TimePeriod ;
 		skos:prefLabel ?late_name ;
 		skos:altLabel ?late_altName ;
-		gist:actualStartDate ?late_start;
-		gist:actualEndDate ?cent_end;
+		gist:actualStartYear ?late_start;
+		gist:actualEndYear ?cent_end;
 		gist:isPartOf ?century_iri ;
-		gist:followsDirectly ?mid_iri ;
 		gist:precedesDirectly ?precedes_early ;
 	.
 
@@ -127,9 +123,5 @@ WHERE {
  #precedes
 	BIND(tarql:expandPrefixedName(CONCAT("told:_Century_", REPLACE(?precedes, ' ', '_'))) AS ?precedes_full)
 	BIND(tarql:expandPrefixedName(CONCAT("told:_TimePeriod_", REPLACE(?precedes, ' ', '_'), "_early")) AS ?precedes_early)
- 
- #follows
-	BIND(tarql:expandPrefixedName(CONCAT("told:_Century_", REPLACE(?follows, ' ', '_'))) AS ?follows_full)
-	BIND(tarql:expandPrefixedName(CONCAT("told:_TimePeriod_", REPLACE(?follows, ' ', '_'), "_late")) AS ?follows_late)
- 
+  
 }
