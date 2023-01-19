@@ -67,17 +67,17 @@ told:_Birth_10202
 
 told:_Birth_10258
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century_early ;
+	tol:occursDuring told:_TimeInterval_12th_century_early ;
 	.
 
 told:_Birth_10280
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century_mid ;
+	tol:occursDuring told:_TimeInterval_12th_century_mid ;
 	.
 
 told:_Birth_1029
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century ;
+	tol:occursDuring told:_TimeInterval_13th_century ;
 	.
 
 told:_Birth_10301
@@ -97,7 +97,7 @@ told:_Birth_10315
 
 told:_Birth_1035
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_late ;
+	tol:occursDuring told:_TimeInterval_13th_century_late ;
 	.
 
 told:_Birth_10355
@@ -112,7 +112,7 @@ told:_Birth_10372
 
 told:_Birth_10373
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_10394
@@ -172,7 +172,7 @@ told:_Birth_10470
 
 told:_Birth_10480
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_14th_century_late ;
+	tol:occursDuring told:_TimeInterval_14th_century_late ;
 	.
 
 told:_Birth_10482
@@ -207,7 +207,7 @@ told:_Birth_10536
 
 told:_Birth_10546
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_mid ;
+	tol:occursDuring told:_TimeInterval_8th_century_mid ;
 	.
 
 told:_Birth_10548
@@ -217,7 +217,7 @@ told:_Birth_10548
 
 told:_Birth_10561
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century_late ;
+	tol:occursDuring told:_TimeInterval_18th_century_late ;
 	.
 
 told:_Birth_10571
@@ -393,12 +393,12 @@ told:_Birth_10878
 
 told:_Birth_10881
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_10892
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century ;
+	tol:occursDuring told:_TimeInterval_11th_century ;
 	.
 
 told:_Birth_10898
@@ -408,22 +408,22 @@ told:_Birth_10898
 
 told:_Birth_10900
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_mid ;
+	tol:occursDuring told:_TimeInterval_8th_century_mid ;
 	.
 
 told:_Birth_10904
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_mid ;
+	tol:occursDuring told:_TimeInterval_8th_century_mid ;
 	.
 
 told:_Birth_10908
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_mid ;
+	tol:occursDuring told:_TimeInterval_8th_century_mid ;
 	.
 
 told:_Birth_10911
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_mid ;
+	tol:occursDuring told:_TimeInterval_8th_century_mid ;
 	.
 
 told:_Birth_10957
@@ -438,17 +438,17 @@ told:_Birth_10961
 
 told:_Birth_10980
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century_early ;
+	tol:occursDuring told:_TimeInterval_11th_century_early ;
 	.
 
 told:_Birth_10981
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century ;
+	tol:occursDuring told:_TimeInterval_11th_century ;
 	.
 
 told:_Birth_10982
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century ;
+	tol:occursDuring told:_TimeInterval_11th_century ;
 	.
 
 told:_Birth_11003
@@ -463,7 +463,7 @@ told:_Birth_11056
 
 told:_Birth_1108
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_11114
@@ -473,7 +473,7 @@ told:_Birth_11114
 
 told:_Birth_11117
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_11131
@@ -498,7 +498,7 @@ told:_Birth_11231
 
 told:_Birth_11245
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century_late ;
+	tol:occursDuring told:_TimeInterval_18th_century_late ;
 	.
 
 told:_Birth_11246
@@ -513,12 +513,12 @@ told:_Birth_11258
 
 told:_Birth_11278
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_20th_century_early ;
+	tol:occursDuring told:_TimeInterval_20th_century_early ;
 	.
 
 told:_Birth_11279
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_late ;
+	tol:occursDuring told:_TimeInterval_19th_century_late ;
 	.
 
 told:_Birth_11285
@@ -563,7 +563,7 @@ told:_Birth_11426
 
 told:_Birth_11427
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century ;
+	tol:occursDuring told:_TimeInterval_19th_century ;
 	.
 
 told:_Birth_11432
@@ -603,7 +603,7 @@ told:_Birth_11453
 
 told:_Birth_11462
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century ;
+	tol:occursDuring told:_TimeInterval_15th_century ;
 	.
 
 told:_Birth_11471
@@ -753,7 +753,7 @@ told:_Birth_12096
 
 told:_Birth_12100
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_late ;
+	tol:occursDuring told:_TimeInterval_19th_century_late ;
 	.
 
 told:_Birth_12171
@@ -786,7 +786,7 @@ told:_Birth_12403
 
 told:_Birth_12405
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_mid ;
+	tol:occursDuring told:_TimeInterval_13th_century_mid ;
 	.
 
 told:_Birth_12500
@@ -841,7 +841,7 @@ told:_Birth_12828
 
 told:_Birth_12838
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century ;
+	tol:occursDuring told:_TimeInterval_13th_century ;
 	.
 
 told:_Birth_12839
@@ -851,7 +851,7 @@ told:_Birth_12839
 
 told:_Birth_12865
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century_mid ;
+	tol:occursDuring told:_TimeInterval_18th_century_mid ;
 	.
 
 told:_Birth_12883
@@ -871,12 +871,12 @@ told:_Birth_13026
 
 told:_Birth_13057
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_9th_century_early ;
+	tol:occursDuring told:_TimeInterval_9th_century_early ;
 	.
 
 told:_Birth_13058
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_13061
@@ -889,7 +889,7 @@ told:_Birth_13061
 
 told:_Birth_13063
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_16th_century ;
+	tol:occursDuring told:_TimeInterval_16th_century ;
 	.
 
 told:_Birth_13064
@@ -904,7 +904,7 @@ told:_Birth_13065
 
 told:_Birth_13066
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_13067
@@ -949,12 +949,12 @@ told:_Birth_13075
 
 told:_Birth_13076
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_mid ;
+	tol:occursDuring told:_TimeInterval_13th_century_mid ;
 	.
 
 told:_Birth_13077
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_13078
@@ -989,27 +989,27 @@ told:_Birth_13083
 
 told:_Birth_13084
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_early ;
+	tol:occursDuring told:_TimeInterval_13th_century_early ;
 	.
 
 told:_Birth_13086
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century ;
+	tol:occursDuring told:_TimeInterval_13th_century ;
 	.
 
 told:_Birth_13087
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century_late ;
+	tol:occursDuring told:_TimeInterval_11th_century_late ;
 	.
 
 told:_Birth_13088
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_13089
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_13090
@@ -1019,7 +1019,7 @@ told:_Birth_13090
 
 told:_Birth_13091
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_13092
@@ -1124,12 +1124,12 @@ told:_Birth_13111
 
 told:_Birth_13112
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century_mid ;
+	tol:occursDuring told:_TimeInterval_15th_century_mid ;
 	.
 
 told:_Birth_13113
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century_mid ;
+	tol:occursDuring told:_TimeInterval_15th_century_mid ;
 	.
 
 told:_Birth_13115
@@ -1139,17 +1139,17 @@ told:_Birth_13115
 
 told:_Birth_13117
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century ;
+	tol:occursDuring told:_TimeInterval_13th_century ;
 	.
 
 told:_Birth_13118
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_16th_century ;
+	tol:occursDuring told:_TimeInterval_16th_century ;
 	.
 
 told:_Birth_13119
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century ;
+	tol:occursDuring told:_TimeInterval_13th_century ;
 	.
 
 told:_Birth_13120
@@ -1179,7 +1179,7 @@ told:_Birth_13124
 
 told:_Birth_13125
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century_mid ;
+	tol:occursDuring told:_TimeInterval_15th_century_mid ;
 	.
 
 told:_Birth_13126
@@ -1199,7 +1199,7 @@ told:_Birth_13128
 
 told:_Birth_13129
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_mid ;
+	tol:occursDuring told:_TimeInterval_13th_century_mid ;
 	.
 
 told:_Birth_13131
@@ -1209,7 +1209,7 @@ told:_Birth_13131
 
 told:_Birth_13132
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_14th_century ;
+	tol:occursDuring told:_TimeInterval_14th_century ;
 	.
 
 told:_Birth_13133
@@ -1219,7 +1219,7 @@ told:_Birth_13133
 
 told:_Birth_13134
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_14th_century ;
+	tol:occursDuring told:_TimeInterval_14th_century ;
 	.
 
 told:_Birth_13135
@@ -1234,7 +1234,7 @@ told:_Birth_13139
 
 told:_Birth_13140
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century ;
+	tol:occursDuring told:_TimeInterval_15th_century ;
 	.
 
 told:_Birth_13141
@@ -1269,7 +1269,7 @@ told:_Birth_13146
 
 told:_Birth_13147
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century_mid ;
+	tol:occursDuring told:_TimeInterval_18th_century_mid ;
 	.
 
 told:_Birth_13148
@@ -1329,12 +1329,12 @@ told:_Birth_13168
 
 told:_Birth_13169
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century ;
+	tol:occursDuring told:_TimeInterval_18th_century ;
 	.
 
 told:_Birth_13170
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century_early ;
+	tol:occursDuring told:_TimeInterval_17th_century_early ;
 	.
 
 told:_Birth_13171
@@ -1369,7 +1369,7 @@ told:_Birth_13178
 
 told:_Birth_13179
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century ;
+	tol:occursDuring told:_TimeInterval_19th_century ;
 	.
 
 told:_Birth_13180
@@ -1379,12 +1379,12 @@ told:_Birth_13180
 
 told:_Birth_13181
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century ;
+	tol:occursDuring told:_TimeInterval_19th_century ;
 	.
 
 told:_Birth_13182
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_14th_century_early ;
+	tol:occursDuring told:_TimeInterval_14th_century_early ;
 	.
 
 told:_Birth_13186
@@ -1394,7 +1394,7 @@ told:_Birth_13186
 
 told:_Birth_13188
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_mid ;
+	tol:occursDuring told:_TimeInterval_19th_century_mid ;
 	.
 
 told:_Birth_13189
@@ -1414,7 +1414,7 @@ told:_Birth_13191
 
 told:_Birth_13195
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_14th_century_early ;
+	tol:occursDuring told:_TimeInterval_14th_century_early ;
 	.
 
 told:_Birth_13196
@@ -1427,7 +1427,7 @@ told:_Birth_13196
 
 told:_Birth_13197
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century_late ;
+	tol:occursDuring told:_TimeInterval_17th_century_late ;
 	.
 
 told:_Birth_13199
@@ -1467,27 +1467,27 @@ told:_Birth_13206
 
 told:_Birth_13217
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century ;
+	tol:occursDuring told:_TimeInterval_17th_century ;
 	.
 
 told:_Birth_13220
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century ;
+	tol:occursDuring told:_TimeInterval_17th_century ;
 	.
 
 told:_Birth_13221
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century ;
+	tol:occursDuring told:_TimeInterval_17th_century ;
 	.
 
 told:_Birth_13222
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century ;
+	tol:occursDuring told:_TimeInterval_17th_century ;
 	.
 
 told:_Birth_13225
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century_late ;
+	tol:occursDuring told:_TimeInterval_17th_century_late ;
 	.
 
 told:_Birth_13226
@@ -1512,7 +1512,7 @@ told:_Birth_13229
 
 told:_Birth_13230
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_early ;
+	tol:occursDuring told:_TimeInterval_13th_century_early ;
 	.
 
 told:_Birth_13231
@@ -1522,12 +1522,12 @@ told:_Birth_13231
 
 told:_Birth_13232
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_13233
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_13236
@@ -1542,17 +1542,17 @@ told:_Birth_13237
 
 told:_Birth_13238
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_13239
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_13240
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_13241
@@ -1562,7 +1562,7 @@ told:_Birth_13241
 
 told:_Birth_13242
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_13423
@@ -1577,12 +1577,12 @@ told:_Birth_13425
 
 told:_Birth_13429
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_13430
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_13431
@@ -1612,7 +1612,7 @@ told:_Birth_13435
 
 told:_Birth_13436
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_13437
@@ -1651,7 +1651,7 @@ told:_Birth_13442
 
 told:_Birth_13443
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_13444
@@ -1660,12 +1660,12 @@ told:_Birth_13444
 
 told:_Birth_13445
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_13446
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_13447
@@ -1713,17 +1713,17 @@ told:_Birth_13455
 
 told:_Birth_13462
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_13502
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century ;
+	tol:occursDuring told:_TimeInterval_15th_century ;
 	.
 
 told:_Birth_13507
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century_early ;
+	tol:occursDuring told:_TimeInterval_18th_century_early ;
 	.
 
 told:_Birth_13510
@@ -1733,37 +1733,37 @@ told:_Birth_13510
 
 told:_Birth_13511
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_16th_century_late ;
+	tol:occursDuring told:_TimeInterval_16th_century_late ;
 	.
 
 told:_Birth_13512
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_16th_century_late ;
+	tol:occursDuring told:_TimeInterval_16th_century_late ;
 	.
 
 told:_Birth_13514
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century_early ;
+	tol:occursDuring told:_TimeInterval_17th_century_early ;
 	.
 
 told:_Birth_13515
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century_mid ;
+	tol:occursDuring told:_TimeInterval_17th_century_mid ;
 	.
 
 told:_Birth_13516
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_14th_century_late ;
+	tol:occursDuring told:_TimeInterval_14th_century_late ;
 	.
 
 told:_Birth_13517
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century_early ;
+	tol:occursDuring told:_TimeInterval_15th_century_early ;
 	.
 
 told:_Birth_13518
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century_mid ;
+	tol:occursDuring told:_TimeInterval_15th_century_mid ;
 	.
 
 told:_Birth_13519
@@ -1793,62 +1793,62 @@ told:_Birth_13523
 
 told:_Birth_13527
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century_late ;
+	tol:occursDuring told:_TimeInterval_15th_century_late ;
 	.
 
 told:_Birth_13528
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_16th_century_late ;
+	tol:occursDuring told:_TimeInterval_16th_century_late ;
 	.
 
 told:_Birth_13531
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century_late ;
+	tol:occursDuring told:_TimeInterval_17th_century_late ;
 	.
 
 told:_Birth_13534
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century_early ;
+	tol:occursDuring told:_TimeInterval_12th_century_early ;
 	.
 
 told:_Birth_13535
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_early ;
+	tol:occursDuring told:_TimeInterval_13th_century_early ;
 	.
 
 told:_Birth_13536
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century_early ;
+	tol:occursDuring told:_TimeInterval_15th_century_early ;
 	.
 
 told:_Birth_13538
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century_late ;
+	tol:occursDuring told:_TimeInterval_15th_century_late ;
 	.
 
 told:_Birth_13539
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_16th_century_early ;
+	tol:occursDuring told:_TimeInterval_16th_century_early ;
 	.
 
 told:_Birth_13540
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_10th_century_mid ;
+	tol:occursDuring told:_TimeInterval_10th_century_mid ;
 	.
 
 told:_Birth_13541
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century_early ;
+	tol:occursDuring told:_TimeInterval_15th_century_early ;
 	.
 
 told:_Birth_13542
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century ;
+	tol:occursDuring told:_TimeInterval_15th_century ;
 	.
 
 told:_Birth_13543
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_16th_century_late ;
+	tol:occursDuring told:_TimeInterval_16th_century_late ;
 	.
 
 told:_Birth_13545
@@ -1858,7 +1858,7 @@ told:_Birth_13545
 
 told:_Birth_13546
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_20th_century_early ;
+	tol:occursDuring told:_TimeInterval_20th_century_early ;
 	.
 
 told:_Birth_13547
@@ -1868,67 +1868,67 @@ told:_Birth_13547
 
 told:_Birth_13548
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_20th_century_early ;
+	tol:occursDuring told:_TimeInterval_20th_century_early ;
 	.
 
 told:_Birth_13549
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_20th_century_early ;
+	tol:occursDuring told:_TimeInterval_20th_century_early ;
 	.
 
 told:_Birth_13550
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_late ;
+	tol:occursDuring told:_TimeInterval_19th_century_late ;
 	.
 
 told:_Birth_13558
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century_late ;
+	tol:occursDuring told:_TimeInterval_18th_century_late ;
 	.
 
 told:_Birth_13559
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_early ;
+	tol:occursDuring told:_TimeInterval_19th_century_early ;
 	.
 
 told:_Birth_13560
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_mid ;
+	tol:occursDuring told:_TimeInterval_19th_century_mid ;
 	.
 
 told:_Birth_13561
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_late ;
+	tol:occursDuring told:_TimeInterval_19th_century_late ;
 	.
 
 told:_Birth_13562
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_late ;
+	tol:occursDuring told:_TimeInterval_19th_century_late ;
 	.
 
 told:_Birth_13563
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_20th_century_early ;
+	tol:occursDuring told:_TimeInterval_20th_century_early ;
 	.
 
 told:_Birth_13564
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_20th_century_early ;
+	tol:occursDuring told:_TimeInterval_20th_century_early ;
 	.
 
 told:_Birth_13566
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_7th_century_early ;
+	tol:occursDuring told:_TimeInterval_7th_century_early ;
 	.
 
 told:_Birth_13572
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century_late ;
+	tol:occursDuring told:_TimeInterval_12th_century_late ;
 	.
 
 told:_Birth_13574
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century_mid ;
+	tol:occursDuring told:_TimeInterval_18th_century_mid ;
 	.
 
 told:_Birth_13583
@@ -1948,7 +1948,7 @@ told:_Birth_13596
 
 told:_Birth_13597
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century_early ;
+	tol:occursDuring told:_TimeInterval_17th_century_early ;
 	.
 
 told:_Birth_13598
@@ -1963,12 +1963,12 @@ told:_Birth_13611
 
 told:_Birth_13612
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_early ;
+	tol:occursDuring told:_TimeInterval_19th_century_early ;
 	.
 
 told:_Birth_13613
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_late ;
+	tol:occursDuring told:_TimeInterval_19th_century_late ;
 	.
 
 told:_Birth_13614
@@ -1983,7 +1983,7 @@ told:_Birth_13615
 
 told:_Birth_13616
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century ;
+	tol:occursDuring told:_TimeInterval_11th_century ;
 	.
 
 told:_Birth_13617
@@ -2001,7 +2001,7 @@ told:_Birth_13625
 
 told:_Birth_13627
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_mid ;
+	tol:occursDuring told:_TimeInterval_8th_century_mid ;
 	.
 
 told:_Birth_13628
@@ -2011,7 +2011,7 @@ told:_Birth_13628
 
 told:_Birth_13631
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_mid ;
+	tol:occursDuring told:_TimeInterval_8th_century_mid ;
 	.
 
 told:_Birth_13633
@@ -2026,17 +2026,17 @@ told:_Birth_13634
 
 told:_Birth_13636
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century ;
+	tol:occursDuring told:_TimeInterval_11th_century ;
 	.
 
 told:_Birth_13638
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_14th_century ;
+	tol:occursDuring told:_TimeInterval_14th_century ;
 	.
 
 told:_Birth_13642
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century ;
+	tol:occursDuring told:_TimeInterval_8th_century ;
 	.
 
 told:_Birth_13648
@@ -2046,7 +2046,7 @@ told:_Birth_13648
 
 told:_Birth_13650
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century ;
+	tol:occursDuring told:_TimeInterval_17th_century ;
 	.
 
 told:_Birth_13652
@@ -2141,7 +2141,7 @@ told:_Birth_13698
 
 told:_Birth_1370
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_13700
@@ -2216,7 +2216,7 @@ told:_Birth_13731
 
 told:_Birth_13737
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_20th_century ;
+	tol:occursDuring told:_TimeInterval_20th_century ;
 	.
 
 told:_Birth_13740
@@ -2241,7 +2241,7 @@ told:_Birth_1586
 
 told:_Birth_1628
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century_late ;
+	tol:occursDuring told:_TimeInterval_11th_century_late ;
 	.
 
 told:_Birth_1637
@@ -2261,22 +2261,22 @@ told:_Birth_1659
 
 told:_Birth_1722
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century_early ;
+	tol:occursDuring told:_TimeInterval_11th_century_early ;
 	.
 
 told:_Birth_1726
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century_early ;
+	tol:occursDuring told:_TimeInterval_12th_century_early ;
 	.
 
 told:_Birth_1728
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century ;
+	tol:occursDuring told:_TimeInterval_11th_century ;
 	.
 
 told:_Birth_1754
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_early ;
+	tol:occursDuring told:_TimeInterval_13th_century_early ;
 	.
 
 told:_Birth_1820
@@ -2346,7 +2346,7 @@ told:_Birth_1985
 
 told:_Birth_2029
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_early ;
+	tol:occursDuring told:_TimeInterval_13th_century_early ;
 	.
 
 told:_Birth_2051
@@ -2356,12 +2356,12 @@ told:_Birth_2051
 
 told:_Birth_2104
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_early ;
+	tol:occursDuring told:_TimeInterval_13th_century_early ;
 	.
 
 told:_Birth_2118
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century_mid ;
+	tol:occursDuring told:_TimeInterval_18th_century_mid ;
 	.
 
 told:_Birth_2137
@@ -2386,7 +2386,7 @@ told:_Birth_2181
 
 told:_Birth_2203
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_mid ;
+	tol:occursDuring told:_TimeInterval_13th_century_mid ;
 	.
 
 told:_Birth_2232
@@ -2449,7 +2449,7 @@ told:_Birth_2330
 
 told:_Birth_2336
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century ;
+	tol:occursDuring told:_TimeInterval_17th_century ;
 	.
 
 told:_Birth_2338
@@ -2474,7 +2474,7 @@ told:_Birth_2387
 
 told:_Birth_2392
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century_late ;
+	tol:occursDuring told:_TimeInterval_17th_century_late ;
 	.
 
 told:_Birth_2393
@@ -2569,7 +2569,7 @@ told:_Birth_2506
 
 told:_Birth_2510
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century ;
+	tol:occursDuring told:_TimeInterval_11th_century ;
 	.
 
 told:_Birth_2521
@@ -2599,7 +2599,7 @@ told:_Birth_2541
 
 told:_Birth_2561
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century_early ;
+	tol:occursDuring told:_TimeInterval_12th_century_early ;
 	.
 
 told:_Birth_2577
@@ -2634,7 +2634,7 @@ told:_Birth_2592
 
 told:_Birth_2593
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_2595
@@ -2649,12 +2649,12 @@ told:_Birth_2598
 
 told:_Birth_2606
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century_early ;
+	tol:occursDuring told:_TimeInterval_12th_century_early ;
 	.
 
 told:_Birth_2638
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century_early ;
+	tol:occursDuring told:_TimeInterval_12th_century_early ;
 	.
 
 told:_Birth_2639
@@ -2774,7 +2774,7 @@ told:_Birth_2790
 
 told:_Birth_2791
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_early ;
+	tol:occursDuring told:_TimeInterval_13th_century_early ;
 	.
 
 told:_Birth_2798
@@ -2944,7 +2944,7 @@ told:_Birth_2980
 
 told:_Birth_2987
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century_early ;
+	tol:occursDuring told:_TimeInterval_18th_century_early ;
 	.
 
 told:_Birth_2996
@@ -2989,7 +2989,7 @@ told:_Birth_3028
 
 told:_Birth_303
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_3040
@@ -3059,12 +3059,12 @@ told:_Birth_3109
 
 told:_Birth_3121
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_late ;
+	tol:occursDuring told:_TimeInterval_13th_century_late ;
 	.
 
 told:_Birth_3125
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_16th_century_early ;
+	tol:occursDuring told:_TimeInterval_16th_century_early ;
 	.
 
 told:_Birth_3134
@@ -3225,7 +3225,7 @@ told:_Birth_3485
 
 told:_Birth_3660
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_14th_century ;
+	tol:occursDuring told:_TimeInterval_14th_century ;
 	.
 
 told:_Birth_3673
@@ -3395,7 +3395,7 @@ told:_Birth_3877
 
 told:_Birth_3881
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century_mid ;
+	tol:occursDuring told:_TimeInterval_12th_century_mid ;
 	.
 
 told:_Birth_3883
@@ -3568,7 +3568,7 @@ told:_Birth_4141
 
 told:_Birth_4150
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century_early ;
+	tol:occursDuring told:_TimeInterval_17th_century_early ;
 	.
 
 told:_Birth_4163
@@ -3583,7 +3583,7 @@ told:_Birth_4164
 
 told:_Birth_4166
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_14th_century_early ;
+	tol:occursDuring told:_TimeInterval_14th_century_early ;
 	.
 
 told:_Birth_4167
@@ -3703,17 +3703,17 @@ told:_Birth_4276
 
 told:_Birth_4277
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_early ;
+	tol:occursDuring told:_TimeInterval_19th_century_early ;
 	.
 
 told:_Birth_4278
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_early ;
+	tol:occursDuring told:_TimeInterval_19th_century_early ;
 	.
 
 told:_Birth_4279
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_early ;
+	tol:occursDuring told:_TimeInterval_19th_century_early ;
 	.
 
 told:_Birth_4280
@@ -3743,7 +3743,7 @@ told:_Birth_4301
 
 told:_Birth_4302
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century ;
+	tol:occursDuring told:_TimeInterval_19th_century ;
 	.
 
 told:_Birth_4309
@@ -3763,7 +3763,7 @@ told:_Birth_4327
 
 told:_Birth_4348
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century_early ;
+	tol:occursDuring told:_TimeInterval_15th_century_early ;
 	.
 
 told:_Birth_4349
@@ -3778,7 +3778,7 @@ told:_Birth_4350
 
 told:_Birth_4352
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_14th_century ;
+	tol:occursDuring told:_TimeInterval_14th_century ;
 	.
 
 told:_Birth_4354
@@ -3956,7 +3956,7 @@ told:_Birth_4642
 
 told:_Birth_4659
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century_late ;
+	tol:occursDuring told:_TimeInterval_18th_century_late ;
 	.
 
 told:_Birth_4660
@@ -4001,22 +4001,22 @@ told:_Birth_4820
 
 told:_Birth_490
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_4903
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_494
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century ;
+	tol:occursDuring told:_TimeInterval_11th_century ;
 	.
 
 told:_Birth_495
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_4986
@@ -4046,7 +4046,7 @@ told:_Birth_5041
 
 told:_Birth_5044
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_mid ;
+	tol:occursDuring told:_TimeInterval_19th_century_mid ;
 	.
 
 told:_Birth_5048
@@ -4076,7 +4076,7 @@ told:_Birth_5117
 
 told:_Birth_5121
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_20th_century ;
+	tol:occursDuring told:_TimeInterval_20th_century ;
 	.
 
 told:_Birth_5122
@@ -4111,12 +4111,12 @@ told:_Birth_5166
 
 told:_Birth_5234
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_5281
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_5306
@@ -4131,7 +4131,7 @@ told:_Birth_5312
 
 told:_Birth_5313
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century_early ;
+	tol:occursDuring told:_TimeInterval_12th_century_early ;
 	.
 
 told:_Birth_5317
@@ -4141,7 +4141,7 @@ told:_Birth_5317
 
 told:_Birth_5326
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century_late ;
+	tol:occursDuring told:_TimeInterval_15th_century_late ;
 	.
 
 told:_Birth_5328
@@ -4181,12 +4181,12 @@ told:_Birth_5381
 
 told:_Birth_5386
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century ;
+	tol:occursDuring told:_TimeInterval_11th_century ;
 	.
 
 told:_Birth_5401
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century ;
+	tol:occursDuring told:_TimeInterval_11th_century ;
 	.
 
 told:_Birth_5406
@@ -4226,7 +4226,7 @@ told:_Birth_5436
 
 told:_Birth_5437
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century ;
+	tol:occursDuring told:_TimeInterval_15th_century ;
 	.
 
 told:_Birth_5457
@@ -4251,7 +4251,7 @@ told:_Birth_5480
 
 told:_Birth_5485
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century_mid ;
+	tol:occursDuring told:_TimeInterval_18th_century_mid ;
 	.
 
 told:_Birth_5490
@@ -4274,12 +4274,12 @@ told:_Birth_5511
 
 told:_Birth_5527
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century_early ;
+	tol:occursDuring told:_TimeInterval_12th_century_early ;
 	.
 
 told:_Birth_5555
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century ;
+	tol:occursDuring told:_TimeInterval_13th_century ;
 	.
 
 told:_Birth_5588
@@ -4314,7 +4314,7 @@ told:_Birth_5652
 
 told:_Birth_5693
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_14th_century_mid ;
+	tol:occursDuring told:_TimeInterval_14th_century_mid ;
 	.
 
 told:_Birth_5706
@@ -4334,12 +4334,12 @@ told:_Birth_5729
 
 told:_Birth_5750
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_early ;
+	tol:occursDuring told:_TimeInterval_13th_century_early ;
 	.
 
 told:_Birth_5753
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century ;
+	tol:occursDuring told:_TimeInterval_11th_century ;
 	.
 
 told:_Birth_5777
@@ -4379,7 +4379,7 @@ told:_Birth_5801
 
 told:_Birth_5803
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century_early ;
+	tol:occursDuring told:_TimeInterval_11th_century_early ;
 	.
 
 told:_Birth_5805
@@ -4389,17 +4389,17 @@ told:_Birth_5805
 
 told:_Birth_5817
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_late ;
+	tol:occursDuring told:_TimeInterval_13th_century_late ;
 	.
 
 told:_Birth_5818
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_late ;
+	tol:occursDuring told:_TimeInterval_13th_century_late ;
 	.
 
 told:_Birth_5819
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_late ;
+	tol:occursDuring told:_TimeInterval_13th_century_late ;
 	.
 
 told:_Birth_5820
@@ -4497,12 +4497,12 @@ told:_Birth_5953
 
 told:_Birth_5985
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century_late ;
+	tol:occursDuring told:_TimeInterval_17th_century_late ;
 	.
 
 told:_Birth_5997
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century_late ;
+	tol:occursDuring told:_TimeInterval_12th_century_late ;
 	.
 
 told:_Birth_5999
@@ -4515,12 +4515,12 @@ told:_Birth_5999
 
 told:_Birth_6009
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_16th_century_late ;
+	tol:occursDuring told:_TimeInterval_16th_century_late ;
 	.
 
 told:_Birth_6010
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_6025
@@ -4558,7 +4558,7 @@ told:_Birth_6099
 
 told:_Birth_61
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_6100
@@ -4588,12 +4588,12 @@ told:_Birth_6138
 
 told:_Birth_6147
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_6159
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_6175
@@ -4608,7 +4608,7 @@ told:_Birth_6185
 
 told:_Birth_6194
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century_mid ;
+	tol:occursDuring told:_TimeInterval_11th_century_mid ;
 	.
 
 told:_Birth_6198
@@ -4623,12 +4623,12 @@ told:_Birth_620
 
 told:_Birth_6205
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_mid ;
+	tol:occursDuring told:_TimeInterval_8th_century_mid ;
 	.
 
 told:_Birth_6214
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century ;
+	tol:occursDuring told:_TimeInterval_11th_century ;
 	.
 
 told:_Birth_6219
@@ -4638,7 +4638,7 @@ told:_Birth_6219
 
 told:_Birth_6251
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_14th_century_mid ;
+	tol:occursDuring told:_TimeInterval_14th_century_mid ;
 	.
 
 told:_Birth_6257
@@ -4648,7 +4648,7 @@ told:_Birth_6257
 
 told:_Birth_6275
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century ;
+	tol:occursDuring told:_TimeInterval_11th_century ;
 	.
 
 told:_Birth_6278
@@ -4681,7 +4681,7 @@ told:_Birth_6332
 
 told:_Birth_6333
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_mid ;
+	tol:occursDuring told:_TimeInterval_19th_century_mid ;
 	.
 
 told:_Birth_6334
@@ -4691,27 +4691,27 @@ told:_Birth_6334
 
 told:_Birth_6335
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_14th_century_late ;
+	tol:occursDuring told:_TimeInterval_14th_century_late ;
 	.
 
 told:_Birth_6336
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century_early ;
+	tol:occursDuring told:_TimeInterval_15th_century_early ;
 	.
 
 told:_Birth_6337
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century_early ;
+	tol:occursDuring told:_TimeInterval_15th_century_early ;
 	.
 
 told:_Birth_6338
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century_mid ;
+	tol:occursDuring told:_TimeInterval_15th_century_mid ;
 	.
 
 told:_Birth_6339
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century_late ;
+	tol:occursDuring told:_TimeInterval_15th_century_late ;
 	.
 
 told:_Birth_6340
@@ -4721,17 +4721,17 @@ told:_Birth_6340
 
 told:_Birth_6341
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_16th_century_early ;
+	tol:occursDuring told:_TimeInterval_16th_century_early ;
 	.
 
 told:_Birth_6342
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_16th_century_mid ;
+	tol:occursDuring told:_TimeInterval_16th_century_mid ;
 	.
 
 told:_Birth_6343
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century_early ;
+	tol:occursDuring told:_TimeInterval_17th_century_early ;
 	.
 
 told:_Birth_6344
@@ -4741,7 +4741,7 @@ told:_Birth_6344
 
 told:_Birth_6345
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century_mid ;
+	tol:occursDuring told:_TimeInterval_17th_century_mid ;
 	.
 
 told:_Birth_6346
@@ -4771,7 +4771,7 @@ told:_Birth_6353
 
 told:_Birth_6367
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_6373
@@ -4781,7 +4781,7 @@ told:_Birth_6373
 
 told:_Birth_6374
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century ;
+	tol:occursDuring told:_TimeInterval_13th_century ;
 	.
 
 told:_Birth_6393
@@ -4801,7 +4801,7 @@ told:_Birth_6405
 
 told:_Birth_6412
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_16th_century ;
+	tol:occursDuring told:_TimeInterval_16th_century ;
 	.
 
 told:_Birth_6419
@@ -4894,12 +4894,12 @@ told:_Birth_6548
 
 told:_Birth_6567
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_16th_century_early ;
+	tol:occursDuring told:_TimeInterval_16th_century_early ;
 	.
 
 told:_Birth_6568
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century_early ;
+	tol:occursDuring told:_TimeInterval_15th_century_early ;
 	.
 
 told:_Birth_6578
@@ -4914,7 +4914,7 @@ told:_Birth_6580
 
 told:_Birth_6587
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_10th_century_late ;
+	tol:occursDuring told:_TimeInterval_10th_century_late ;
 	.
 
 told:_Birth_6620
@@ -4949,7 +4949,7 @@ told:_Birth_6648
 
 told:_Birth_6653
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century ;
+	tol:occursDuring told:_TimeInterval_8th_century ;
 	.
 
 told:_Birth_6667
@@ -4964,7 +4964,7 @@ told:_Birth_6668
 
 told:_Birth_6670
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_16th_century ;
+	tol:occursDuring told:_TimeInterval_16th_century ;
 	.
 
 told:_Birth_6671
@@ -4979,12 +4979,12 @@ told:_Birth_6672
 
 told:_Birth_6678
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_6681
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_6690
@@ -4999,7 +4999,7 @@ told:_Birth_6721
 
 told:_Birth_6723
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_10th_century ;
+	tol:occursDuring told:_TimeInterval_10th_century ;
 	.
 
 told:_Birth_6726
@@ -5014,7 +5014,7 @@ told:_Birth_6731
 
 told:_Birth_6733
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century_mid ;
+	tol:occursDuring told:_TimeInterval_11th_century_mid ;
 	.
 
 told:_Birth_6735
@@ -5059,7 +5059,7 @@ told:_Birth_6779
 
 told:_Birth_6788
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century ;
+	tol:occursDuring told:_TimeInterval_15th_century ;
 	.
 
 told:_Birth_6793
@@ -5094,7 +5094,7 @@ told:_Birth_6874
 
 told:_Birth_6892
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century_mid ;
+	tol:occursDuring told:_TimeInterval_11th_century_mid ;
 	.
 
 told:_Birth_6895
@@ -5149,7 +5149,7 @@ told:_Birth_6979
 
 told:_Birth_6982
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century_late ;
+	tol:occursDuring told:_TimeInterval_17th_century_late ;
 	.
 
 told:_Birth_6997
@@ -5229,7 +5229,7 @@ told:_Birth_7114
 
 told:_Birth_7130
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century ;
+	tol:occursDuring told:_TimeInterval_15th_century ;
 	.
 
 told:_Birth_7152
@@ -5279,7 +5279,7 @@ told:_Birth_7230
 
 told:_Birth_7232
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_14th_century_late ;
+	tol:occursDuring told:_TimeInterval_14th_century_late ;
 	.
 
 told:_Birth_7240
@@ -5304,12 +5304,12 @@ told:_Birth_7294
 
 told:_Birth_7305
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century ;
+	tol:occursDuring told:_TimeInterval_15th_century ;
 	.
 
 told:_Birth_7326
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_11th_century ;
+	tol:occursDuring told:_TimeInterval_11th_century ;
 	.
 
 told:_Birth_7348
@@ -5337,17 +5337,17 @@ told:_Birth_7429
 
 told:_Birth_7442
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_7462
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century_early ;
+	tol:occursDuring told:_TimeInterval_12th_century_early ;
 	.
 
 told:_Birth_7473
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century_early ;
+	tol:occursDuring told:_TimeInterval_18th_century_early ;
 	.
 
 told:_Birth_7512
@@ -5357,7 +5357,7 @@ told:_Birth_7512
 
 told:_Birth_7521
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century_early ;
+	tol:occursDuring told:_TimeInterval_12th_century_early ;
 	.
 
 told:_Birth_7523
@@ -5367,7 +5367,7 @@ told:_Birth_7523
 
 told:_Birth_7525
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century ;
+	tol:occursDuring told:_TimeInterval_18th_century ;
 	.
 
 told:_Birth_7545
@@ -5385,7 +5385,7 @@ told:_Birth_7551
 
 told:_Birth_7559
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century ;
+	tol:occursDuring told:_TimeInterval_19th_century ;
 	.
 
 told:_Birth_7565
@@ -5465,7 +5465,7 @@ told:_Birth_7732
 
 told:_Birth_7736
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_14th_century ;
+	tol:occursDuring told:_TimeInterval_14th_century ;
 	.
 
 told:_Birth_7743
@@ -5698,12 +5698,12 @@ told:_Birth_8397
 
 told:_Birth_84
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_8459
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_12th_century ;
+	tol:occursDuring told:_TimeInterval_12th_century ;
 	.
 
 told:_Birth_8460
@@ -5713,12 +5713,12 @@ told:_Birth_8460
 
 told:_Birth_8472
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_15th_century ;
+	tol:occursDuring told:_TimeInterval_15th_century ;
 	.
 
 told:_Birth_8474
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_13th_century_mid ;
+	tol:occursDuring told:_TimeInterval_13th_century_mid ;
 	.
 
 told:_Birth_8507
@@ -5743,17 +5743,17 @@ told:_Birth_8539
 
 told:_Birth_8543
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century_late ;
+	tol:occursDuring told:_TimeInterval_17th_century_late ;
 	.
 
 told:_Birth_8551
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century_mid ;
+	tol:occursDuring told:_TimeInterval_18th_century_mid ;
 	.
 
 told:_Birth_8562
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century_late ;
+	tol:occursDuring told:_TimeInterval_18th_century_late ;
 	.
 
 told:_Birth_8563
@@ -5763,7 +5763,7 @@ told:_Birth_8563
 
 told:_Birth_8566
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_mid ;
+	tol:occursDuring told:_TimeInterval_19th_century_mid ;
 	.
 
 told:_Birth_8567
@@ -5801,17 +5801,17 @@ told:_Birth_8580
 
 told:_Birth_8583
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century ;
+	tol:occursDuring told:_TimeInterval_18th_century ;
 	.
 
 told:_Birth_8584
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century_mid ;
+	tol:occursDuring told:_TimeInterval_18th_century_mid ;
 	.
 
 told:_Birth_8585
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century_late ;
+	tol:occursDuring told:_TimeInterval_18th_century_late ;
 	.
 
 told:_Birth_8596
@@ -5821,12 +5821,12 @@ told:_Birth_8596
 
 told:_Birth_86
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_8600
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century ;
+	tol:occursDuring told:_TimeInterval_19th_century ;
 	.
 
 told:_Birth_8603
@@ -5836,12 +5836,12 @@ told:_Birth_8603
 
 told:_Birth_8609
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_18th_century_late ;
+	tol:occursDuring told:_TimeInterval_18th_century_late ;
 	.
 
 told:_Birth_8610
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century ;
+	tol:occursDuring told:_TimeInterval_19th_century ;
 	.
 
 told:_Birth_8612
@@ -5851,17 +5851,17 @@ told:_Birth_8612
 
 told:_Birth_8616
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century_mid ;
+	tol:occursDuring told:_TimeInterval_17th_century_mid ;
 	.
 
 told:_Birth_8617
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_late ;
+	tol:occursDuring told:_TimeInterval_19th_century_late ;
 	.
 
 told:_Birth_8618
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_late ;
+	tol:occursDuring told:_TimeInterval_19th_century_late ;
 	.
 
 told:_Birth_8624
@@ -5871,12 +5871,12 @@ told:_Birth_8624
 
 told:_Birth_8625
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_mid ;
+	tol:occursDuring told:_TimeInterval_19th_century_mid ;
 	.
 
 told:_Birth_8629
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_20th_century_early ;
+	tol:occursDuring told:_TimeInterval_20th_century_early ;
 	.
 
 told:_Birth_8630
@@ -5886,12 +5886,12 @@ told:_Birth_8630
 
 told:_Birth_8631
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_17th_century_late ;
+	tol:occursDuring told:_TimeInterval_17th_century_late ;
 	.
 
 told:_Birth_8633
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_mid ;
+	tol:occursDuring told:_TimeInterval_19th_century_mid ;
 	.
 
 told:_Birth_8637
@@ -6016,7 +6016,7 @@ told:_Birth_8986
 
 told:_Birth_9
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_9030
@@ -6031,7 +6031,7 @@ told:_Birth_9047
 
 told:_Birth_9050
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_mid ;
+	tol:occursDuring told:_TimeInterval_19th_century_mid ;
 	.
 
 told:_Birth_9052
@@ -6046,7 +6046,7 @@ told:_Birth_9055
 
 told:_Birth_9056
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century ;
+	tol:occursDuring told:_TimeInterval_19th_century ;
 	.
 
 told:_Birth_9057
@@ -6076,7 +6076,7 @@ told:_Birth_9095
 
 told:_Birth_9121
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_9126
@@ -6104,7 +6104,7 @@ told:_Birth_9171
 
 told:_Birth_9172
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_late ;
+	tol:occursDuring told:_TimeInterval_19th_century_late ;
 	.
 
 told:_Birth_9190
@@ -6134,7 +6134,7 @@ told:_Birth_9254
 
 told:_Birth_9289
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century ;
+	tol:occursDuring told:_TimeInterval_19th_century ;
 	.
 
 told:_Birth_9297
@@ -6179,7 +6179,7 @@ told:_Birth_9394
 
 told:_Birth_9442
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century_mid ;
+	tol:occursDuring told:_TimeInterval_19th_century_mid ;
 	.
 
 told:_Birth_9482
@@ -6209,7 +6209,7 @@ told:_Birth_9546
 
 told:_Birth_9572
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_14th_century_early ;
+	tol:occursDuring told:_TimeInterval_14th_century_early ;
 	.
 
 told:_Birth_9574
@@ -6234,7 +6234,7 @@ told:_Birth_9588
 
 told:_Birth_9589
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_19th_century ;
+	tol:occursDuring told:_TimeInterval_19th_century ;
 	.
 
 told:_Birth_9590
@@ -6254,7 +6254,7 @@ told:_Birth_9594
 
 told:_Birth_96
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_9601
@@ -6269,7 +6269,7 @@ told:_Birth_9612
 
 told:_Birth_9618
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_9th_century_early ;
+	tol:occursDuring told:_TimeInterval_9th_century_early ;
 	.
 
 told:_Birth_9622
@@ -6279,7 +6279,7 @@ told:_Birth_9622
 
 told:_Birth_9624
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_mid ;
+	tol:occursDuring told:_TimeInterval_8th_century_mid ;
 	.
 
 told:_Birth_9634
@@ -6339,7 +6339,7 @@ told:_Birth_9788
 
 told:_Birth_9789
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_14th_century ;
+	tol:occursDuring told:_TimeInterval_14th_century ;
 	.
 
 told:_Birth_9795
@@ -6389,7 +6389,7 @@ told:_Birth_9983
 
 told:_Birth_9985
 	a tol:Birth ;
-	tol:occursDuring told:_TimePeriod_8th_century_early ;
+	tol:occursDuring told:_TimeInterval_8th_century_early ;
 	.
 
 told:_Birth_9990
@@ -24802,8 +24802,10 @@ told:_Person_3660
 	tol:alternateName
 		"A tsA rya rin chen mchog"@bo-x-ewts ,
 		"Lotsāwa Rinchen Chok"@en ,
+		"Lots��wa Rinchen Chok"@en ,
 		"lo tsA ba rin chen mchog"@bo-x-ewts ,
-		"Ācārya Rinchen Chok"@en
+		"Ācārya Rinchen Chok"@en ,
+		"��cārya Rinchen Chok"@en
 		;
 	tol:hasEvent told:_Birth_3660 ;
 	tol:preferredName

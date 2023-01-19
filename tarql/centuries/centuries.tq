@@ -19,7 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # start year -- 
 # end year -- 
 
-# told:_TimePeriod_12th_century_mid ; "12th century (mid)"
+# told:_TimeInterval_12th_century_mid ; "12th century (mid)"
 # told:_Century_12th_century ; "12th century"
 
 # Run: tarql centuries.tq > centuries.ttl
@@ -33,7 +33,7 @@ CONSTRUCT {
 		gist:precedesDirectly ?precedes_full ;
 	.
 
-	?early_iri a tol:TimePeriod ;
+	?early_iri a tol:TimeInterval ;
 		skos:prefLabel ?early_name ;
 		skos:altLabel ?early_altName ;
 		gist:actualStartYear ?cent_start;
@@ -42,7 +42,7 @@ CONSTRUCT {
 		gist:precedesDirectly ?mid_iri ;
 	.
 	
-	?mid_iri a tol:TimePeriod ;
+	?mid_iri a tol:TimeInterval ;
 		skos:prefLabel ?mid_name ;
 		skos:altLabel ?mid_altName ;
 		gist:actualStartYear ?mid_start;
@@ -51,7 +51,7 @@ CONSTRUCT {
 		gist:precedesDirectly ?late_iri ;
 	.
 	
-	?late_iri a tol:TimePeriod ;
+	?late_iri a tol:TimeInterval ;
 		skos:prefLabel ?late_name ;
 		skos:altLabel ?late_altName ;
 		gist:actualStartYear ?late_start;
@@ -96,7 +96,7 @@ WHERE {
         AS ?cent_end
 	)
 	
-	BIND(CONCAT("told:_TimePeriod_", REPLACE(?ID, ' ', '_')) AS ?which_cent)
+	BIND(CONCAT("told:_TimeInterval_", REPLACE(?ID, ' ', '_')) AS ?which_cent)
 	
  #early
 	BIND(tarql:expandPrefixedName(CONCAT(?which_cent, "_early")) AS ?early_iri)	
@@ -122,6 +122,6 @@ WHERE {
 	
  #precedes
 	BIND(tarql:expandPrefixedName(CONCAT("told:_Century_", REPLACE(?precedes, ' ', '_'))) AS ?precedes_full)
-	BIND(tarql:expandPrefixedName(CONCAT("told:_TimePeriod_", REPLACE(?precedes, ' ', '_'), "_early")) AS ?precedes_early)
+	BIND(tarql:expandPrefixedName(CONCAT("told:_TimeInterval_", REPLACE(?precedes, ' ', '_'), "_early")) AS ?precedes_early)
   
 }
