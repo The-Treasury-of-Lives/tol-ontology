@@ -9,7 +9,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix tol: <https://ontologies.treasuryoflives.org/tol/> .
+@prefix tolo: <https://ontologies.treasuryoflives.org/tol/> .
 @prefix tolx: <https://taxonomies.treasuryoflives.org/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -31,15 +31,15 @@
 	skos:prefLabel "Treasury of Lives Core Ontology"^^xsd:string ;
 	.
 
-tol:Birth
+tolo:Birth
 	a owl:Class ;
 	rdfs:subClassOf
 		gist:HistoricalEvent ,
 		gist:PhysicalEvent ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tol:isEventOf ;
-			owl:allValuesFrom tol:Person ;
+			owl:onProperty tolo:isEventOf ;
+			owl:allValuesFrom tolo:Person ;
 		] ,
 		[
 			a owl:Restriction ;
@@ -48,12 +48,12 @@ tol:Birth
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tol:isEventOf ;
+			owl:onProperty tolo:isEventOf ;
 			owl:cardinality "1"^^xsd:nonNegativeInteger ;
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tol:inYear ;
+			owl:onProperty tolo:inYear ;
 			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
 		]
 		;
@@ -62,15 +62,15 @@ tol:Birth
 	skos:prefLabel "Birth"^^xsd:string ;
 	.
 
-tol:Death
+tolo:Death
 	a owl:Class ;
 	rdfs:subClassOf
 		gist:HistoricalEvent ,
 		gist:PhysicalEvent ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tol:isEventOf ;
-			owl:allValuesFrom tol:Person ;
+			owl:onProperty tolo:isEventOf ;
+			owl:allValuesFrom tolo:Person ;
 		] ,
 		[
 			a owl:Restriction ;
@@ -79,12 +79,12 @@ tol:Death
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tol:isEventOf ;
+			owl:onProperty tolo:isEventOf ;
 			owl:cardinality "1"^^xsd:nonNegativeInteger ;
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tol:inYear ;
+			owl:onProperty tolo:inYear ;
 			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
 		]
 		;
@@ -93,15 +93,15 @@ tol:Death
 	skos:prefLabel "Death"^^xsd:string ;
 	.
 
-tol:Deity
+tolo:Deity
 	a owl:Class ;
 	rdfs:subClassOf gist:LivingThing ;
-	owl:disjointWith tol:Person ;
+	owl:disjointWith tolo:Person ;
 	skos:definition "A god or goddess; a being with divine status."^^xsd:string ;
 	skos:prefLabel "Deity"^^xsd:string ;
 	.
 
-tol:GenealogicalGroup
+tolo:GenealogicalGroup
 	a owl:Class ;
 	rdfs:subClassOf
 		gist:Collection ,
@@ -110,8 +110,8 @@ tol:GenealogicalGroup
 			owl:onProperty gist:hasMember ;
 			owl:allValuesFrom [
 				owl:unionOf (
-					tol:Person
-					tol:GenealogicalGroup
+					tolo:Person
+					tolo:GenealogicalGroup
 				) ;
 			] ;
 		]
@@ -125,14 +125,14 @@ tol:GenealogicalGroup
 		;
 	.
 
-tol:Incarnation
+tolo:Incarnation
 	a owl:Class ;
 	skos:definition "TBD."^^xsd:string ;
 	skos:editorialNote "Connects person to lineage."^^xsd:string ;
 	skos:prefLabel "Incarnation"^^xsd:string ;
 	.
 
-tol:IncarnationLineage
+tolo:IncarnationLineage
 	a owl:Class ;
 	rdfs:subClassOf gist:OrderedCollection ;
 	skos:definition "TBD."^^xsd:string ;
@@ -140,7 +140,7 @@ tol:IncarnationLineage
 	skos:prefLabel "Incarnation Lineage"^^xsd:string ;
 	.
 
-tol:LandmarkType
+tolo:LandmarkType
 	a owl:Class ;
 	rdfs:subClassOf
 		gist:Category ,
@@ -157,7 +157,7 @@ tol:LandmarkType
 	skos:prefLabel "Landmark Type"^^xsd:string ;
 	.
 
-tol:Marriage
+tolo:Marriage
 	a owl:Class ;
 	owl:equivalentClass [
 		owl:intersectionOf (
@@ -166,28 +166,28 @@ tol:Marriage
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:hasParty ;
-				owl:allValuesFrom tol:Person ;
+				owl:allValuesFrom tolo:Person ;
 			]
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:isCategorizedBy ;
-				owl:onClass tol:MarriageRank ;
+				owl:onClass tolo:MarriageRank ;
 				owl:cardinality "1"^^xsd:nonNegativeInteger ;
 			]
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:hasParty ;
-				owl:onClass tol:Person ;
+				owl:onClass tolo:Person ;
 				owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger ;
 			]
 			[
 				a owl:Restriction ;
-				owl:onProperty tol:familyName ;
+				owl:onProperty tolo:familyName ;
 				owl:cardinality "1"^^xsd:nonNegativeInteger ;
 			]
 			[
 				a owl:Restriction ;
-				owl:onProperty tol:familyName ;
+				owl:onProperty tolo:familyName ;
 				owl:cardinality "1"^^xsd:nonNegativeInteger ;
 			]
 		) ;
@@ -200,7 +200,7 @@ tol:Marriage
 	skos:prefLabel "Marriage"^^xsd:string ;
 	.
 
-tol:MarriageRank
+tolo:MarriageRank
 	a owl:Class ;
 	rdfs:subClassOf
 		gist:Category ,
@@ -209,7 +209,7 @@ tol:MarriageRank
 			owl:onProperty [
 				owl:inverseOf gist:isCategorizedBy ;
 			] ;
-			owl:allValuesFrom tol:Marriage ;
+			owl:allValuesFrom tolo:Marriage ;
 		]
 		;
 	skos:definition "A category differentiating senior (first) from subsequent (junior) marriages in polygamous relationships."^^xsd:string ;
@@ -217,7 +217,7 @@ tol:MarriageRank
 	skos:scopeNote "The associated spouse is termed a junior or senior wife/husband. There is only one senior wife or husband; all others are uniformly designated junior."^^xsd:string ;
 	.
 
-tol:MarriageTerminationCause
+tolo:MarriageTerminationCause
 	a owl:Class ;
 	rdfs:subClassOf
 		gist:Category ,
@@ -226,7 +226,7 @@ tol:MarriageTerminationCause
 			owl:onProperty [
 				owl:inverseOf gist:isCategorizedBy ;
 			] ;
-			owl:allValuesFrom tol:Marriage ;
+			owl:allValuesFrom tolo:Marriage ;
 		]
 		;
 	skos:definition "The reason for the termination of a marriage."^^xsd:string ;
@@ -234,7 +234,7 @@ tol:MarriageTerminationCause
 	skos:prefLabel "Marriage Termination Cause"^^xsd:string ;
 	.
 
-tol:Person
+tolo:Person
 	a owl:Class ;
 	rdfs:subClassOf
 		bdo:Person ,
@@ -244,7 +244,7 @@ tol:Person
 	skos:prefLabel "Person"^^xsd:string ;
 	.
 
-tol:PilgrimageSite
+tolo:PilgrimageSite
 	a owl:Class ;
 	rdfs:subClassOf gist:Landmark ;
 	skos:definition "A shrine or other sacred place, including geographic features, that people travel to as an act of religious devotion."^^xsd:string ;
@@ -252,25 +252,25 @@ tol:PilgrimageSite
 	skos:prefLabel "Pilgrimage Site"^^xsd:string ;
 	.
 
-tol:Place
+tolo:Place
 	a owl:Class ;
 	skos:definition "A real, fictional, or imaginary place."^^xsd:string ;
 	skos:prefLabel "Place"^^xsd:string ;
 	skos:scopeNote "Differs from and not a subclass of gist:Place, which includings only places that do or did exist."^^xsd:string ;
 	.
 
-tol:Student
+tolo:Student
 	a owl:Class ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
-			tol:Person
+			tolo:Person
 			[
 				a owl:Restriction ;
 				owl:onProperty [
 					owl:inverseOf gist:hasRecipient ;
 				] ;
-				owl:someValuesFrom tol:TeacherStudentRelationship ;
+				owl:someValuesFrom tolo:TeacherStudentRelationship ;
 			]
 		) ;
 	] ;
@@ -279,18 +279,18 @@ tol:Student
 	skos:prefLabel "Student"^^xsd:string ;
 	.
 
-tol:Teacher
+tolo:Teacher
 	a owl:Class ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
-			tol:Person
+			tolo:Person
 			[
 				a owl:Restriction ;
 				owl:onProperty [
 					owl:inverseOf gist:hasGiver ;
 				] ;
-				owl:someValuesFrom tol:TeacherStudentRelationship ;
+				owl:someValuesFrom tolo:TeacherStudentRelationship ;
 			]
 		) ;
 	] ;
@@ -299,7 +299,7 @@ tol:Teacher
 	skos:prefLabel "Teacher"^^xsd:string ;
 	.
 
-tol:TeacherStudentRelationship
+tolo:TeacherStudentRelationship
 	a owl:Class ;
 	owl:equivalentClass [
 		a owl:Class ;
@@ -314,7 +314,7 @@ tol:TeacherStudentRelationship
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:hasGiver ;
-				owl:allValuesFrom tol:Teacher ;
+				owl:allValuesFrom tolo:Teacher ;
 			]
 			[
 				a owl:Restriction ;
@@ -324,7 +324,7 @@ tol:TeacherStudentRelationship
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:hasRecipient ;
-				owl:allValuesFrom tol:Student ;
+				owl:allValuesFrom tolo:Student ;
 			]
 			[
 				a owl:Restriction ;
@@ -348,15 +348,15 @@ tol:TeacherStudentRelationship
 	skos:scopeNote "A teacher-student relationshp may be, but is not necessarily, part of a teaching lineage. In some cases the teacher-student relationship is known while the lineage is not."^^xsd:string ;
 	.
 
-tol:actualYear
+tolo:actualYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:inYear ;
+	rdfs:subPropertyOf tolo:inYear ;
 	skos:definition "The year in which something existed or took place."^^xsd:string ;
 	skos:example "Gyergom Tsultime Sengge was born in 1144 and died in 1204."^^xsd:string ;
 	skos:prefLabel "actual year"^^xsd:string ;
 	.
 
-tol:alternateName
+tolo:alternateName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
 	skos:definition "An alternate name for a person."^^xsd:string ;
@@ -368,35 +368,35 @@ tol:alternateName
 		;
 	.
 
-tol:alternateYear
+tolo:alternateYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:inYear ;
+	rdfs:subPropertyOf tolo:inYear ;
 	skos:definition "The year in which something is proposed to have existed or taken place."^^xsd:string ;
 	skos:example "According to one source, Botrul Dongak Tenpai Nyima was born in 1900, while according to another source his birth year was XXX and he died in 1902. No indication of greater or less likelihood of the two possibilities is implied."^^xsd:string ;
 	skos:prefLabel "alternate year"^^xsd:string ;
-	skos:scopeNote "Differs from tol:approximateYear, which specifies a single year but is intended to be inexact. In this case, various scholars have proposed different years. If there is an alternate year, there is no actual year; rather, both proposed dates are asserted as alternates."^^xsd:string ;
+	skos:scopeNote "Differs from tolo:approximateYear, which specifies a single year but is intended to be inexact. In this case, various scholars have proposed different years. If there is an alternate year, there is no actual year; rather, both proposed dates are asserted as alternates."^^xsd:string ;
 	.
 
-tol:approximateYear
+tolo:approximateYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:inYear ;
+	rdfs:subPropertyOf tolo:inYear ;
 	skos:definition "The approximate year in which something existed or took place."^^xsd:string ;
 	skos:example "The birth event of Lhagyari Namgyel Gyatso took place in approximately 1927."^^xsd:string ;
 	skos:prefLabel "approximate year"^^xsd:string ;
-	skos:scopeNote "Differs from tol:alternateYear, which is used when there is more than one proposed year. In this case, only one year is asserted, but it is intended to be inexact, thus encompassing some number of years before and/or after."^^xsd:string ;
+	skos:scopeNote "Differs from tolo:alternateYear, which is used when there is more than one proposed year. In this case, only one year is asserted, but it is intended to be inexact, thus encompassing some number of years before and/or after."^^xsd:string ;
 	.
 
-tol:birthFamilyName
+tolo:birthFamilyName
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:familyName ;
-	rdfs:domain tol:Person ;
+	rdfs:subPropertyOf tolo:familyName ;
+	rdfs:domain tolo:Person ;
 	rdfs:range rdf:langString ;
 	skos:definition "The family name a person is assigned at birth."^^xsd:string ;
 	skos:prefLabel "birth family name"^^xsd:string ;
 	skos:scopeNote "A family name other than the birth name can be acquired through marriage."^^xsd:string ;
 	.
 
-tol:dissolutionYear
+tolo:dissolutionYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:actualEndYear ;
 	skos:definition "The year an agreement such as marriage was ended. In the case of marriage, this refers to divorce rather than the end of a marriage by death of one of the spouses."^^xsd:string ;
@@ -407,14 +407,14 @@ tol:dissolutionYear
 	skos:prefLabel "dissolution year"^^xsd:string ;
 	.
 
-tol:familyName
+tolo:familyName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
 	rdfs:domain [
 		a owl:Class ;
 		owl:unionOf (
-			tol:Person
-			tol:Marriage
+			tolo:Person
+			tolo:Marriage
 		) ;
 	] ;
 	rdfs:range rdf:langString ;
@@ -424,7 +424,7 @@ tol:familyName
 	skos:scopeNote "Also applies to marriages; in an ordinary marriage, the marriage, spouses, and children take the husband's family name; in a makpa marriage, the wife's. The marriage name can be inferred from the individuals' family names, or vice versa."^^xsd:string ;
 	.
 
-tol:foundingYear
+tolo:foundingYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:actualStartYear ;
 	skos:definition "TODO"^^xsd:string ;
@@ -433,7 +433,7 @@ tol:foundingYear
 	skos:prefLabel "founding year"^^xsd:string ;
 	.
 
-tol:harUrl
+tolo:harUrl
 	a owl:AnnotationProperty ;
 	rdfs:subPropertyOf rdfs:seeAlso ;
 	rdfs:range xsd:anyURI ;
@@ -441,7 +441,7 @@ tol:harUrl
 	skos:prefLabel "HAR URL"^^xsd:string ;
 	.
 
-tol:hasEvent
+tolo:hasEvent
 	a owl:ObjectProperty ;
 	rdfs:range gist:Event ;
 	skos:definition "Relates something to an event pertaining to it."^^xsd:string ;
@@ -449,16 +449,16 @@ tol:hasEvent
 	skos:prefLabel "has event"^^xsd:string ;
 	.
 
-tol:hasFinalRestingPlace
+tolo:hasFinalRestingPlace
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:hasPhysicalLocation ;
-	rdfs:domain tol:Person ;
+	rdfs:domain tolo:Person ;
 	skos:definition "Relates a person to (one of) his/her final resting place(s)."^^xsd:string ;
 	skos:prefLabel "has final resting place"^^xsd:string ;
 	skos:scopeNote "Significant people such as the Dalai Lamas have reliquary stupas in geographic locations like temples or chapels. Sometimes there can be relics in multiple places."^^xsd:string ;
 	.
 
-tol:hasFraternalNephew
+tolo:hasFraternalNephew
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasNephew ;
 	owl:propertyChainAxiom (
@@ -473,7 +473,7 @@ tol:hasFraternalNephew
 		;
 	.
 
-tol:hasFraternalNiece
+tolo:hasFraternalNiece
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasNiece ;
 	owl:propertyChainAxiom (
@@ -488,28 +488,28 @@ tol:hasFraternalNiece
 		;
 	.
 
-tol:hasJuniorHusband
+tolo:hasJuniorHusband
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasHusband ;
-	rdfs:domain tol:Person ;
-	rdfs:range tol:Person ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
 	skos:definition "The relationship of a wife to her husband in a junior marriage, which is any but the first of multiple simultaneous marriages."^^xsd:string ;
 	skos:note "In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."^^xsd:string ;
 	skos:prefLabel "has junior husband"^^xsd:string ;
 	skos:scopeNote "This property will generally not be asserted, but rather inferred from the relationships of the spouses to a Marriage object and the MarriageRank of that object."^^xsd:string ;
 	.
 
-tol:hasJuniorWife
+tolo:hasJuniorWife
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasWife ;
-	rdfs:domain tol:Person ;
-	rdfs:range tol:Person ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
 	skos:definition "The relationship of a husband to his wife in a junior marriage, which is any but the first of multiple simultaneous marriages."^^xsd:string ;
 	skos:prefLabel "has junior wife"^^xsd:string ;
 	skos:scopeNote "This property will generally not be asserted, but rather inferred from the relationships of the spouses to a Marriage object and the MarriageRank of that object."^^xsd:string ;
 	.
 
-tol:hasMaternalCousin
+tolo:hasMaternalCousin
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasCousin ;
 	skos:definition "Relates a person to his/her cousin on the mother's side."^^xsd:string ;
@@ -517,26 +517,26 @@ tol:hasMaternalCousin
 	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."^^xsd:string ;
 	.
 
-tol:hasMaternalGrandfather
+tolo:hasMaternalGrandfather
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf
 		bdo:hasGrandfather ,
-		tol:hasMaternalGrandparent
+		tolo:hasMaternalGrandparent
 		;
 	owl:propertyChainAxiom (
-		tol:hasMother
-		tol:hasFather
+		tolo:hasMother
+		tolo:hasFather
 	) ;
 	skos:definition "Relates a person to his/her mother's father."^^xsd:string ;
 	skos:prefLabel "has maternal grandfather"^^xsd:string ;
 	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."^^xsd:string ;
 	.
 
-tol:hasMaternalGrandmother
+tolo:hasMaternalGrandmother
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf
 		bdo:hasGrandmother ,
-		tol:hasMaternalGrandparent
+		tolo:hasMaternalGrandparent
 		;
 	owl:propertyChainAxiom (
 		bdo:hasMother
@@ -547,7 +547,7 @@ tol:hasMaternalGrandmother
 	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."^^xsd:string ;
 	.
 
-tol:hasMaternalGrandparent
+tolo:hasMaternalGrandparent
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasGrandmother ;
 	owl:propertyChainAxiom (
@@ -559,7 +559,7 @@ tol:hasMaternalGrandparent
 	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."^^xsd:string ;
 	.
 
-tol:hasPaternalCousin
+tolo:hasPaternalCousin
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasCousin ;
 	skos:definition "Relates a person to his/her cousin on the father's side."^^xsd:string ;
@@ -567,11 +567,11 @@ tol:hasPaternalCousin
 	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."^^xsd:string ;
 	.
 
-tol:hasPaternalGrandfather
+tolo:hasPaternalGrandfather
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf
 		bdo:hasGrandfather ,
-		tol:hasPaternalGrandparent
+		tolo:hasPaternalGrandparent
 		;
 	owl:propertyChainAxiom (
 		bdo:hasFather
@@ -582,11 +582,11 @@ tol:hasPaternalGrandfather
 	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."^^xsd:string ;
 	.
 
-tol:hasPaternalGrandmother
+tolo:hasPaternalGrandmother
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf
 		bdo:hasGrandmother ,
-		tol:hasPaternalGrandparent
+		tolo:hasPaternalGrandparent
 		;
 	owl:propertyChainAxiom (
 		bdo:hasFather
@@ -597,7 +597,7 @@ tol:hasPaternalGrandmother
 	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."^^xsd:string ;
 	.
 
-tol:hasPaternalGrandparent
+tolo:hasPaternalGrandparent
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasGrandparent ;
 	owl:propertyChainAxiom (
@@ -609,28 +609,28 @@ tol:hasPaternalGrandparent
 	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."^^xsd:string ;
 	.
 
-tol:hasSeniorHusband
+tolo:hasSeniorHusband
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasHusband ;
-	rdfs:domain tol:Person ;
-	rdfs:range tol:Person ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
 	skos:definition "The relationship of a wife to her husband in a senior marriage, which is the first marriage of multiple simultaneous marriages."^^xsd:string ;
 	skos:note "In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."^^xsd:string ;
 	skos:prefLabel "has senior husband"^^xsd:string ;
 	skos:scopeNote "This property will generally not be asserted, but rather inferred from the relationships of the spouses to a Marriage object and the MarriageRank of that object."^^xsd:string ;
 	.
 
-tol:hasSeniorWife
+tolo:hasSeniorWife
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasWife ;
-	rdfs:domain tol:Person ;
-	rdfs:range tol:Person ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
 	skos:definition "The relationship of a husband to his wife in a senior marriage, which is the first of multiple simultaneous marriages."^^xsd:string ;
 	skos:prefLabel "has senior wife"^^xsd:string ;
 	skos:scopeNote "This property will generally not be asserted, but rather inferred from the relationships of the spouses to a Marriage object and the MarriageRank of that object."^^xsd:string ;
 	.
 
-tol:hasSororallNephew
+tolo:hasSororallNephew
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasNephew ;
 	owl:propertyChainAxiom (
@@ -645,7 +645,7 @@ tol:hasSororallNephew
 		;
 	.
 
-tol:hasSororallNiece
+tolo:hasSororallNiece
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasNiece ;
 	owl:propertyChainAxiom (
@@ -660,7 +660,7 @@ tol:hasSororallNiece
 		;
 	.
 
-tol:inYear
+tolo:inYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:atDateTime ;
 	skos:definition "The year in which something existed or took place, ambiguous as to start/end and planned/actual/approximate/alternate."^^xsd:string ;
@@ -668,60 +668,60 @@ tol:inYear
 	skos:prefLabel "in year"^^xsd:string ;
 	.
 
-tol:isChildIn
+tolo:isChildIn
 	a owl:ObjectProperty ;
-	rdfs:domain tol:Person ;
-	rdfs:range tol:Marriage ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Marriage ;
 	skos:definition "Relates a child to a materialized marriage relationship."^^xsd:string ;
 	skos:editorialNote "Do we need this, or is it sufficient to relate the child to its parents?"^^xsd:string ;
 	skos:prefLabel "is child in"^^xsd:string ;
 	.
 
-tol:isEventOf
+tolo:isEventOf
 	a owl:ObjectProperty ;
-	owl:inverseOf tol:hasEvent ;
+	owl:inverseOf tolo:hasEvent ;
 	skos:definition "Relates an event to the thing it pertains to."^^xsd:string ;
 	skos:example "A person's birth or death; the founding of an institution; the dissolution of a marriage."^^xsd:string ;
 	skos:prefLabel "is event of"^^xsd:string ;
 	.
 
-tol:isHusbandIn
+tolo:isHusbandIn
 	a owl:ObjectProperty ;
-	rdfs:domain tol:Person ;
-	rdfs:range tol:Marriage ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Marriage ;
 	skos:definition "Relates a husband to a materialized marriage relationship."^^xsd:string ;
 	skos:prefLabel "is husband in"^^xsd:string ;
 	skos:scopeNote "This could be asserted, or inferred from isSpouseIn and the gender of the person."^^xsd:string ;
 	.
 
-tol:isSpouseIn
+tolo:isSpouseIn
 	a owl:ObjectProperty ;
-	rdfs:domain tol:Person ;
-	rdfs:range tol:Marriage ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Marriage ;
 	skos:definition "Relates a person to a materialized marriage relationship."^^xsd:string ;
 	skos:prefLabel "is spouse in"^^xsd:string ;
 	skos:scopeNote "It is generally preferable to use the more specific isWifeIn or isHusbandIn, though these could also be inferred from isSpouseIn and the gender of the person. gist:hasParticipant is not specific enough, because children are also related to the marriage."^^xsd:string ;
 	.
 
-tol:isWifeIn
+tolo:isWifeIn
 	a owl:ObjectProperty ;
-	rdfs:domain tol:Person ;
-	rdfs:range tol:Marriage ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Marriage ;
 	skos:definition "Relates a wife to a materialized marriage relationship."^^xsd:string ;
 	skos:prefLabel "is wife in"^^xsd:string ;
 	skos:scopeNote "This could be asserted, or inferred from isSpouseIn and the gender of the person."^^xsd:string ;
 	.
 
-tol:marriedFamilyName
+tolo:marriedFamilyName
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:familyName ;
-	rdfs:domain tol:Person ;
+	rdfs:subPropertyOf tolo:familyName ;
+	rdfs:domain tolo:Person ;
 	rdfs:range rdf:langString ;
 	skos:definition "The family name a person is assigned through a marital relationship."^^xsd:string ;
 	skos:prefLabel "married family name"^^xsd:string ;
 	.
 
-tol:occursDuring
+tolo:occursDuring
 	a owl:ObjectProperty ;
 	rdfs:domain gist:Event ;
 	skos:definition "Relates an event to a larger event or time period it is temporally contained in when the part-whole relationship seems inaccurate."^^xsd:string ;
@@ -730,7 +730,7 @@ tol:occursDuring
 	skos:scopeNote "While a sub-pay period is part of a pay period, to say that a time charge is part of a pay period is distinctly odd."^^xsd:string ;
 	.
 
-tol:preferredName
+tolo:preferredName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
 	skos:definition "The preferred name of a person."^^xsd:string ;
@@ -742,7 +742,7 @@ tol:preferredName
 		;
 	.
 
-tol:title
+tolo:title
 	a owl:DatatypeProperty ;
 	rdfs:range rdf:langString ;
 	skos:definition "An appellation of dignity, honor, distinction, or preeminence attached to a person or family by virtue of rank, office, precedent, privilege, attainment, or lands."^^xsd:string ;

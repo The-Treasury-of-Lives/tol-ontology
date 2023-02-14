@@ -9,7 +9,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix tol: <https://ontologies.treasuryoflives.org/tol/> .
+@prefix tolo: <https://ontologies.treasuryoflives.org/tol/> .
 @prefix tolx: <https://taxonomies.treasuryoflives.org/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -23,14 +23,14 @@
 	.
 
 tolx:_MarriageRank_junior
-	a tol:MarriageRank ;
+	a tolo:MarriageRank ;
 	skos:definition "The second and subsequent marriages in a series of concurrent marriages involving the same spouse."^^xsd:string ;
 	skos:note "In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."^^xsd:string ;
 	skos:prefLabel "Junior"^^xsd:string ;
 	.
 
 tolx:_MarriageRank_senior
-	a tol:MarriageRank ;
+	a tolo:MarriageRank ;
 	skos:definition "The first in a series of concurrent marriages involving the same spouse."^^xsd:string ;
 	skos:note "In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."^^xsd:string ;
 	skos:prefLabel "Senior"^^xsd:string ;
