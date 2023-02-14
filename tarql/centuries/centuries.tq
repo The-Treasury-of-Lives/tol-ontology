@@ -7,7 +7,7 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX tol: <https://ontologies.treasuryoflives.org/tol/>
+PREFIX tolo: <https://ontologies.treasuryoflives.org/tol/>
 PREFIX tolx: <https://taxonomies.treasuryoflives.org/>
 PREFIX told: <https://data.treasuryoflives.org/>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
@@ -19,13 +19,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # start year -- 
 # end year -- 
 
-# told:_TimeInterval_12th_century_mid ; "12th century (mid)"
-# told:_Century_12th_century ; "12th century"
+# told:_TimeInterval_12th_Century_Mid ; "12th Century (Mid)"
+# told:_Century_12th_Century ; "12th Century"
 
 # Run: tarql centuries.tq > centuries.ttl
 
 CONSTRUCT {
-    ?century_iri a tol:Century ;
+    ?century_iri a tolo:Century ;
         skos:prefLabel ?cent_name ;
 		skos:altLabel ?cent_altName ;
 		gist:actualStartYear ?cent_start;
@@ -33,7 +33,7 @@ CONSTRUCT {
 		gist:precedesDirectly ?precedes_full ;
 	.
 
-	?early_iri a tol:TimeInterval ;
+	?early_iri a tolo:TimeInterval ;
 		skos:prefLabel ?early_name ;
 		skos:altLabel ?early_altName ;
 		gist:actualStartYear ?cent_start;
@@ -42,7 +42,7 @@ CONSTRUCT {
 		gist:precedesDirectly ?mid_iri ;
 	.
 	
-	?mid_iri a tol:TimeInterval ;
+	?mid_iri a tolo:TimeInterval ;
 		skos:prefLabel ?mid_name ;
 		skos:altLabel ?mid_altName ;
 		gist:actualStartYear ?mid_start;
@@ -51,7 +51,7 @@ CONSTRUCT {
 		gist:precedesDirectly ?late_iri ;
 	.
 	
-	?late_iri a tol:TimeInterval ;
+	?late_iri a tolo:TimeInterval ;
 		skos:prefLabel ?late_name ;
 		skos:altLabel ?late_altName ;
 		gist:actualStartYear ?late_start;
@@ -99,24 +99,24 @@ WHERE {
 	BIND(CONCAT("told:_TimeInterval_", REPLACE(?ID, ' ', '_')) AS ?which_cent)
 	
  #early
-	BIND(tarql:expandPrefixedName(CONCAT(?which_cent, "_early")) AS ?early_iri)	
-	BIND(STRLANG(CONCAT(?ID, " (early)"), "en") AS ?early_name )
-	BIND(STRLANG(CONCAT(?alt_label, " (early)"), "en") AS ?early_altName )
+	BIND(tarql:expandPrefixedName(CONCAT(?which_cent, "_Early")) AS ?early_iri)	
+	BIND(STRLANG(CONCAT(?ID, " (Early)"), "en") AS ?early_name )
+	BIND(STRLANG(CONCAT(?alt_label, " (Early)"), "en") AS ?early_altName )
 	
 	# early start year is the same as the century's start year
 	BIND(STRDT(CONCAT(SUBSTR(?cent_start_str, 1, 2), "33", ?date_time_rest), xsd:dateTime ) AS ?early_end)
 	
  #mid
-	BIND(tarql:expandPrefixedName(CONCAT(?which_cent, "_mid")) AS ?mid_iri)
-	BIND(STRLANG(CONCAT(?ID, " (mid)"), "en") AS ?mid_name )
-	BIND(STRLANG(CONCAT(?alt_label, " (mid)"), "en") AS ?mid_altName)
+	BIND(tarql:expandPrefixedName(CONCAT(?which_cent, "_Mid")) AS ?mid_iri)
+	BIND(STRLANG(CONCAT(?ID, " (Mid)"), "en") AS ?mid_name )
+	BIND(STRLANG(CONCAT(?alt_label, " (Mid)"), "en") AS ?mid_altName)
 	BIND(STRDT(CONCAT(SUBSTR(?cent_start_str, 1, 2), "34", ?date_time_rest), xsd:dateTime ) AS ?mid_start )
 	BIND(STRDT(CONCAT(SUBSTR(?cent_start_str, 1, 2), "66", ?date_time_rest), xsd:dateTime ) AS ?mid_end )
 
  #late
-	BIND(tarql:expandPrefixedName(CONCAT(?which_cent, "_late")) AS ?late_iri)
-	BIND(STRLANG(CONCAT(?ID, " (late)"), "en") AS ?late_name )
-	BIND(STRLANG(CONCAT(?alt_label, " (late)"), "en") AS ?late_altName)
+	BIND(tarql:expandPrefixedName(CONCAT(?which_cent, "_Late")) AS ?late_iri)
+	BIND(STRLANG(CONCAT(?ID, " (Late)"), "en") AS ?late_name )
+	BIND(STRLANG(CONCAT(?alt_label, " (Late)"), "en") AS ?late_altName)
 	BIND(STRDT(CONCAT(SUBSTR(?cent_start_str, 1, 2), "67", ?date_time_rest), xsd:dateTime )	AS ?late_start	)
 	# late end year is the same as the century's end year
 	
