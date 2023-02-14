@@ -64,7 +64,7 @@ tolo:Birth
 
 tolo:Century
 	a owl:Class ;
-	rdfs:subClassOf tol:TimeInterval ;
+	rdfs:subClassOf tolo:TimeInterval ;
 	skos:definition "A time period of 100 years."^^xsd:string ;
 	skos:scopeNote
 		"Treasury of Lives specifically uses the popular definition of a century, that is, the year 1000 is the first year of the 11th century."^^xsd:string ,
