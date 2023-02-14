@@ -8,7 +8,7 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX tol: <https://ontologies.treasuryoflives.org/tol/>
+PREFIX tolo: <https://ontologies.treasuryoflives.org/tol/>
 PREFIX tolx: <https://taxonomies.treasuryoflives.org/>
 PREFIX told: <https://data.treasuryoflives.org/>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
@@ -41,37 +41,37 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # Run: tarql --dedup 30000 persons.tq > persons.ttl
 
 CONSTRUCT {
-    ?person_iri a tol:Person ;
+    ?person_iri a tolo:Person ;
         owl:sameAs ?bdrc_iri ;
         owl:sameAs ?wikidata_iri ;
-        tol:harUrl ?har_url ;
+        tolo:harUrl ?har_url ;
 
-        tol:preferredName ?primary_name_tol ;
-        tol:preferredName ?primary_name_wylie ;
-        tol:title ?title_tol ;
-        tol:title ?title_wylie ;
-        tol:alternateName ?alternate_name ;
+        tolo:preferredName ?primary_name_tol ;
+        tolo:preferredName ?primary_name_wylie ;
+        tolo:title ?title_tol ;
+        tolo:title ?title_wylie ;
+        tolo:alternateName ?alternate_name ;
 
         bdo:personGender ?gender_iri ;
 
-        tol:hasEvent ?birth_iri ;
-        tol:hasEvent ?death_iri ;
+        tolo:hasEvent ?birth_iri ;
+        tolo:hasEvent ?death_iri ;
         .
 
-    ?birth_iri a tol:Birth ;
-        tol:actualYear ?actual_birth_year_typed ;
-        tol:approximateYear ?approximate_birth_year_typed;
-        tol:alternateYear ?alternate_birth_year_typed ;
-        tol:alternateYear ?actual_alternate_birth_year_typed ;
-        tol:occursDuring ?birth_time_period_iri ;
+    ?birth_iri a tolo:Birth ;
+        tolo:actualYear ?actual_birth_year_typed ;
+        tolo:approximateYear ?approximate_birth_year_typed;
+        tolo:alternateYear ?alternate_birth_year_typed ;
+        tolo:alternateYear ?actual_alternate_birth_year_typed ;
+        tolo:occursDuring ?birth_time_period_iri ;
         .
 
-    ?death_iri a tol:Death ;
-        tol:actualYear ?actual_death_year_typed ;
-        tol:approximateYear ?approximate_death_year_typed ;
-        tol:alternateYear ?alternate_death_year_typed ;
-        tol:alternateYear ?actual_alternate_death_year_typed ;
-        tol:occursDuring ?death_time_period_iri ;
+    ?death_iri a tolo:Death ;
+        tolo:actualYear ?actual_death_year_typed ;
+        tolo:approximateYear ?approximate_death_year_typed ;
+        tolo:alternateYear ?alternate_death_year_typed ;
+        tolo:alternateYear ?actual_alternate_death_year_typed ;
+        tolo:occursDuring ?death_time_period_iri ;
         .
 
 }
