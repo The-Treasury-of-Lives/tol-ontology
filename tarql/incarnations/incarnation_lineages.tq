@@ -9,7 +9,7 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX tol: <https://ontologies.treasuryoflives.org/tol/>
+PREFIX tolo: <https://ontologies.treasuryoflives.org/tol/>
 PREFIX tolx: <https://taxonomies.treasuryoflives.org/>
 PREFIX told: <https://data.treasuryoflives.org/>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
@@ -39,7 +39,7 @@ CONSTRUCT {
         skos:editorialNote "Auto-generated via TARQL." ;
 	.
 
-    ?incarnation_lineage_iri a tol:IncarnationLineage ;
+    ?incarnation_lineage_iri a tolo:IncarnationLineage ;
         owl:sameAs ?bdrc_lineage_iri ;
         gist:name ?tol_name , 
                   ?wylie_name , 
