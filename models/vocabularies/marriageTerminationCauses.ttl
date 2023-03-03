@@ -18,25 +18,25 @@
 	a owl:Ontology ;
 	owl:imports <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
 	owl:versionIRI <https://taxonomies.tol.org/t/marriageTerminationCausesX.x.x> ;
-	skos:definition "Defines reasons for terminating a marriage."^^xsd:string ;
-	skos:prefLabel "Marriage Termination Causes"^^xsd:string ;
+	skos:definition "Defines reasons for terminating a marriage."@en ;
+	skos:prefLabel "Marriage Termination Causes"@en ;
 	.
 
 tolx:_MarriageTerminationCause_death
 	a tolo:MarriageTerminationCause ;
-	skos:definition "A marriage terminated by the death of one of the spouses."^^xsd:string ;
-	skos:prefLabel "Death"^^xsd:string ;
+	skos:definition "A marriage terminated by the death of one of the spouses."@en ;
+	skos:prefLabel "Death"@en ;
 	.
 
 tolx:_MarriageTerminationCause_dissolution
 	a tolo:MarriageTerminationCause ;
-	skos:definition "A marriage terminated when one spouse leaves the marriage without a legal divorce decree."^^xsd:string ;
-	skos:prefLabel "Dissolution"^^xsd:string ;
+	skos:definition "A marriage terminated when one spouse leaves the marriage without a legal divorce decree."@en ;
+	skos:prefLabel "Dissolution"@en ;
 	.
 
 tolx:_MarriageTerminationCause_divorce
 	a tolo:MarriageTerminationCause ;
-	skos:definition "A marriage terminated by a legal process."^^xsd:string ;
-	skos:prefLabel "Divorce"^^xsd:string ;
+	skos:definition "A marriage terminated by a legal process."@en ;
+	skos:prefLabel "Divorce"@en ;
 	.
 
