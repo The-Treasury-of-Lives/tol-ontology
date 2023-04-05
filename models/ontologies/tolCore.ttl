@@ -62,16 +62,6 @@ tolo:Birth
 	skos:prefLabel "Birth"^^xsd:string ;
 	.
 
-tolo:Century
-	a owl:Class ;
-	rdfs:subClassOf tolo:TimeInterval ;
-	skos:definition "A time period of 100 years."^^xsd:string ;
-	skos:scopeNote
-		"Treasury of Lives specifically uses the popular definition of a century, that is, the year 1000 is the first year of the 11th century."^^xsd:string ,
-		"gist models start and end years as xsd:dateTimes, and therefore they align with ISO 8601 convention utilizing the proleptic Gregorian calendar."^^xsd:string
-		;
-	.
-
 tolo:Death
 	a owl:Class ;
 	rdfs:subClassOf
@@ -364,6 +354,7 @@ tolo:TimeInterval
 	skos:example "The 11th century; Jan 1, 2001 - Dec 31, 2001; the Yuan Dynasty."^^xsd:string ;
 	skos:scopeNote
 		"This is distinct from a gist:Duration, which describes how long a time interval lasts (e.g., one hour, 3 days, 6000 years)."^^xsd:string ,
+		"Treasury of Lives specifically uses the popular definition of a century, that is, the year 1000 is the first year of the 11th century."^^xsd:string ,
 		"gist models start and end years as xsd:dateTimes, and therefore they align with ISO 8601 convention utilizing the proleptic Gregorian calendar."^^xsd:string
 		;
 	.

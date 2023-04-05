@@ -212,6 +212,6 @@ WHERE {
     BIND(IF(!BOUND(?Death_year), tarql:expandPrefixedName(CONCAT("told:_TimeInterval_", REPLACE(REPLACE(?Death_century, " ", "_"), "[()]", ""))), ?unbound) AS ?death_time_period_iri) 
 
     # HISTORICAL PERIOD - awaiting input
-	#BIND( tarql:expandPrefixedName(CONCAT("told:_Century_", REPLACE(?Historical_period, " ", "_") )) AS ?hist_period_iri )
+	#BIND( tarql:expandPrefixedName(CONCAT("told:_TimeInterval_", REPLACE(?Historical_period, " ", "_") )) AS ?hist_period_iri )
 
 }

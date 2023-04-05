@@ -25,7 +25,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # Run: tarql centuries.tq > centuries.ttl
 
 CONSTRUCT {
-    ?century_iri a told:Century ;
+    ?century_iri a told:TimeInterval ;
         skos:prefLabel ?cent_name ;
 		skos:altLabel ?cent_altName ;
 		gist:actualStartYear ?cent_start;
@@ -70,8 +70,8 @@ WHERE {
 	BIND("-01-01T00:00:00" AS ?date_time_rest)
 
  #full century
-    BIND(tarql:expandPrefixedName(CONCAT("told:", LCASE(REPLACE(?ID, ' ', '_')))) AS ?century_iri)
-	#BIND(tarql:expandPrefixedName(CONCAT("told:", STRBEFORE(?ID, ' '))) AS ?century_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_TimeInterval_", LCASE(REPLACE(?ID, ' ', '_')))) AS ?century_iri)
+	#BIND(tarql:expandPrefixedName(CONCAT("told:_TimeInterval_", STRBEFORE(?ID, ' '))) AS ?century_iri)
     BIND(STRLANG(?ID, "en") AS ?cent_name)
 	BIND(STRLANG(?alt_label, "en") as ?cent_altName)
 	
@@ -87,6 +87,7 @@ WHERE {
 	
 	BIND(STRDT(CONCAT(?cent_start_str, ?date_time_rest), xsd:dateTime) AS ?cent_start)
 	
+ #pad 0's for the year number to make a proper dateTime
 	BIND(
 		STRDT(CONCAT(COALESCE(
 				IF(REGEX(?end_year, "^\\d{4}$"), ?end_year, ?unbound), 
@@ -121,8 +122,8 @@ WHERE {
 	BIND(STRDT(CONCAT(SUBSTR(?cent_start_str, 1, 2), "67", ?date_time_rest), xsd:dateTime )	AS ?late_start	)
 	# late end year is the same as the century's end year
 	
- #precedes
-	BIND(tarql:expandPrefixedName(CONCAT("told:_Century_", REPLACE(?precedes, ' ', '_'))) AS ?precedes_full)
-	BIND(tarql:expandPrefixedName(CONCAT("told:_TimeInterval_", REPLACE(?precedes, ' ', '_'), "_early")) AS ?precedes_early)
+ #precedes 
+	BIND(tarql:expandPrefixedName(CONCAT("told:", LCASE(REPLACE(?precedes, ' ', '_')))) AS ?precedes_full)
+	BIND(tarql:expandPrefixedName(CONCAT("told:_TimeInterval_", LCASE(REPLACE(?precedes, ' ', '_')), "_early")) AS ?precedes_early)
   
 }
