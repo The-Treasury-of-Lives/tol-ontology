@@ -19,8 +19,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # start year -- 
 # end year -- 
 
-# told:_Century_12th ; "12th Century"
-# told:_Century_12th_century and told:_TimeInterval_12th_century_mid.
+# told:_century_12th ; "12th Century"
+# told:_century_12th_century and told:_TimeInterval_12th_century_mid.
 
 # Run: tarql centuries.tq > centuries.ttl
 
@@ -70,8 +70,8 @@ WHERE {
 	BIND("-01-01T00:00:00" AS ?date_time_rest)
 
  #full century
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Century_", LCASE(REPLACE(?ID, ' ', '_')))) AS ?century_iri)
-	#BIND(tarql:expandPrefixedName(CONCAT("told:_Century_", STRBEFORE(?ID, ' '))) AS ?century_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:", LCASE(REPLACE(?ID, ' ', '_')))) AS ?century_iri)
+	#BIND(tarql:expandPrefixedName(CONCAT("told:", STRBEFORE(?ID, ' '))) AS ?century_iri)
     BIND(STRLANG(?ID, "en") AS ?cent_name)
 	BIND(STRLANG(?alt_label, "en") as ?cent_altName)
 	
