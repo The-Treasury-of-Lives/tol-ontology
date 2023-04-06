@@ -23,6 +23,7 @@
 
 <https://ontologies.treasuryoflives.org/o/tolAll>
 	a owl:Ontology ;
+	dct:license "TBD"^^xsd:string ;
 	owl:imports
 		<http://purl.bdrc.io/ontology/types/Gender> ,
 		<https://data.tol.org/d/landmarksX.x.x> ,
@@ -34,7 +35,7 @@
 		<https://taxonomies.tol.org/t/marriageTerminationCausesX.x.x>
 		;
 	owl:versionID <https://ontologies.treasuryoflives.org/tolAllX.x.x> ;
-	skos:definition "A convenience file that provides a single point of entry to the Treasury of Lives Ontology. It does not itself define any terms, but rather specifies the full set of ontology and taxonomy imports, other than those imported directly by tolo:core."^^xsd:string ;
-	skos:prefLabel "Treasury of Lives Ontology"^^xsd:string ;
+	skos:definition "A convenience file that provides a single point of entry to the Treasury of Lives Ontology. It does not itself define any terms, but rather specifies the full set of ontology and taxonomy imports, other than those imported directly by tolo:core."@en ;
+	skos:prefLabel "Treasury of Lives Ontology"@en ;
 	.
 

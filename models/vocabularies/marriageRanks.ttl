@@ -18,21 +18,21 @@
 	a owl:Ontology ;
 	owl:imports <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
 	owl:versionIRI <https://taxonomies.tol.org/t/marriageRanksX.x.x> ;
-	skos:definition "Defines ranking of a marriage in among polygamous relationships."^^xsd:string ;
-	skos:prefLabel "Marriage Rank"^^xsd:string ;
+	skos:definition "Defines ranking of a marriage in among polygamous relationships."@en ;
+	skos:prefLabel "Marriage Rank"@en ;
 	.
 
 tolx:_MarriageRank_junior
 	a tolo:MarriageRank ;
-	skos:definition "The second and subsequent marriages in a series of concurrent marriages involving the same spouse."^^xsd:string ;
-	skos:note "In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."^^xsd:string ;
-	skos:prefLabel "Junior"^^xsd:string ;
+	skos:definition "The second and subsequent marriages in a series of concurrent marriages involving the same spouse."@en ;
+	skos:note "In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."@en ;
+	skos:prefLabel "Junior"@en ;
 	.
 
 tolx:_MarriageRank_senior
 	a tolo:MarriageRank ;
-	skos:definition "The first in a series of concurrent marriages involving the same spouse."^^xsd:string ;
-	skos:note "In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."^^xsd:string ;
-	skos:prefLabel "Senior"^^xsd:string ;
+	skos:definition "The first in a series of concurrent marriages involving the same spouse."@en ;
+	skos:note "In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."@en ;
+	skos:prefLabel "Senior"@en ;
 	.
 
