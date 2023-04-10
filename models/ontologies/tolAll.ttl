@@ -1,8 +1,9 @@
 # imports: http://purl.bdrc.io/ontology/types/Gender
+# imports: https://data.tol.org/d/centuriesX.x.x
+# imports: https://data.tol.org/d/incarnationLineagesX.x.x
 # imports: https://ontologies.semanticarts.com/o/gistMediaTypes11.1.0
 # imports: https://ontologies.treasuryoflives.org/o/tolCoreX.x.x
 # imports: https://taxonomies.tol.org/t/marriageRanksX.x.x
-# imports: https://taxonomies.tol.org/t/incarnationLineagesX.x.x
 # imports: https://taxonomies.tol.org/t/marriageTerminationCausesX.x.x
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
@@ -24,14 +25,15 @@
 	dct:license "TBD"^^xsd:string ;
 	owl:imports
 		<http://purl.bdrc.io/ontology/types/Gender> ,
+		<https://data.tol.org/d/centuriesX.x.x> ,
+		<https://data.tol.org/d/incarnationLineagesX.x.x> ,
 		<https://ontologies.semanticarts.com/o/gistMediaTypes11.1.0> ,
 		<https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ,
 		<https://taxonomies.tol.org/t/marriageRanksX.x.x> ,
-				<https://data.tol.org/d/centuriesX.x.x> ,
-<https://data.tol.org/d/incarnationLineagesX.x.x>
 		<https://taxonomies.tol.org/t/marriageTerminationCausesX.x.x>
 		;
 	owl:versionID <https://ontologies.treasuryoflives.org/tolAllX.x.x> ;
 	skos:definition "A convenience file that provides a single point of entry to the Treasury of Lives Ontology. It does not itself define any terms, but rather specifies the full set of ontology and taxonomy imports, other than those imported directly by tolo:core."@en ;
 	skos:prefLabel "Treasury of Lives Ontology"@en ;
 	.
+
