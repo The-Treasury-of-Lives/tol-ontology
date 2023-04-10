@@ -350,12 +350,12 @@ tolo:TeacherStudentRelationship
 
 tolo:TimeInterval
 	a owl:Class ;
-	skos:definition "A span of time bounded by absolute start and end dates."^^xsd:string ;
-	skos:example "The 11th century; Jan 1, 2001 - Dec 31, 2001; the Yuan Dynasty."^^xsd:string ;
+	skos:definition "A span of time bounded by absolute start and end dates."@en ;
+	skos:example "The 11th century; Jan 1, 2001 - Dec 31, 2001; the Yuan Dynasty."@en ;
 	skos:scopeNote
-		"This is distinct from a gist:Duration, which describes how long a time interval lasts (e.g., one hour, 3 days, 6000 years)."^^xsd:string ,
-		"Treasury of Lives specifically uses the popular definition of a century, that is, the year 1000 is the first year of the 11th century."^^xsd:string ,
-		"gist models start and end years as xsd:dateTimes, and therefore they align with ISO 8601 convention utilizing the proleptic Gregorian calendar."^^xsd:string
+		"This is distinct from a gist:Duration, which describes how long a time interval lasts (e.g., one hour, 3 days, 6000 years)."@en ,
+		"Treasury of Lives specifically uses the popular definition of a century, that is, the year 1000 is the first year of the 11th century."@en ,
+		"gist models start and end years as xsd:dateTimes, and therefore they align with ISO 8601 convention utilizing the proleptic Gregorian calendar."@en
 		;
 	.
 
@@ -397,10 +397,26 @@ tolo:approximateYear
 	skos:scopeNote "Differs from tolo:alternateYear, which is used when there is more than one proposed year. In this case, only one year is asserted, but it is intended to be inexact, thus encompassing some number of years before and/or after."@en ;
 	.
 
-tolo:birthFamilyName
+tol:approximateEndYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tolo:familyName ;
-	rdfs:domain tolo:Person ;
+	rdfs:subPropertyOf tol:approximateYear ;
+	skos:definition "The approximate year in which something ended."@en ;
+	skos:example "The early 19th century ended in approximately 1835."@en ;
+	skos:prefLabel "approximate end year"@en ;
+	.
+
+tol:approximateStartYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:approximateYear ;
+	skos:definition "The approximate year in which something began."@en ;
+	skos:example "The late 19th century began in approximately 1865."@en ;
+	skos:prefLabel "approximate start year"@en ;
+	.
+
+tol:birthFamilyName
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:familyName ;
+	rdfs:domain tol:Person ;
 	rdfs:range rdf:langString ;
 	skos:definition "The family name a person is assigned at birth."@en ;
 	skos:prefLabel "birth family name"@en ;
@@ -418,19 +434,18 @@ tolo:dissolutionYear
 	skos:prefLabel "dissolution year"@en ;
 	.
 
-tolo:familyName
+tol:familyName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
 	rdfs:domain [
 		a owl:Class ;
 		owl:unionOf (
-			tolo:Person
-			tolo:Marriage
+			tol:Person
+			tol:Marriage
 		) ;
 	] ;
 	rdfs:range rdf:langString ;
 	skos:definition "The name a person bears based on his/her genealogic or marital relationships."@en ;
-	skos:editorialNote "Check model - may not have a marriage family name anymore."@en ;
 	skos:prefLabel "family name"@en ;
 	skos:scopeNote "Also applies to marriages; in an ordinary marriage, the marriage, spouses, and children take the husband's family name; in a makpa marriage, the wife's. The marriage name can be inferred from the individuals' family names, or vice versa."@en ;
 	.
@@ -759,4 +774,3 @@ tolo:title
 	skos:definition "An appellation of dignity, honor, distinction, or preeminence attached to a person or family by virtue of rank, office, precedent, privilege, attainment, or lands."@en ;
 	skos:prefLabel "title"@en ;
 	.
-

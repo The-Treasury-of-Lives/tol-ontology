@@ -111,7 +111,8 @@ WHERE {
             ?blank) 
         AS ?lang)
     BIND(IF(BOUND(?lang), STRLANG(?name, ?lang), ?name) AS ?alternate_name)
-  
+
+
     # GENDER
     BIND(
         COALESCE(
