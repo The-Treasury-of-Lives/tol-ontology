@@ -1,0 +1,834 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://ontologies.semanticarts.com/gist/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://data.treasuryoflives.org/> .
+@prefix tolo: <https://ontologies.treasuryoflives.org/tol/> .
+@prefix tolx: <https://taxonomies.treasuryoflives.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:_TimeInterval_10th_century
+	a told:TimeInterval ;
+	skos:altLabel "Tenth Century"@en ;
+	skos:prefLabel "10th Century"@en ;
+	gist:actualEndYear "0999-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0900-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:11th_century ;
+	.
+
+told:_TimeInterval_10th_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Tenth Century (Early)"@en ;
+	skos:prefLabel "10th Century (Early)"@en ;
+	gist:actualEndYear "0933-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0900-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_10th_century ;
+	gist:precedesDirectly told:_TimeInterval_10th_century_mid ;
+	.
+
+told:_TimeInterval_10th_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Tenth Century (Late)"@en ;
+	skos:prefLabel "10th Century (Late)"@en ;
+	gist:actualEndYear "0999-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0967-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_10th_century ;
+	gist:precedesDirectly told:_TimeInterval_11th_century_early ;
+	.
+
+told:_TimeInterval_10th_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Tenth Century (Mid)"@en ;
+	skos:prefLabel "10th Century (Mid)"@en ;
+	gist:actualEndYear "0966-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0934-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_10th_century ;
+	gist:precedesDirectly told:_TimeInterval_10th_century_late ;
+	.
+
+told:_TimeInterval_11th_century
+	a told:TimeInterval ;
+	skos:altLabel "Eleventh Century"@en ;
+	skos:prefLabel "11th Century"@en ;
+	gist:actualEndYear "1099-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1000-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:12th_century ;
+	.
+
+told:_TimeInterval_11th_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Eleventh Century (Early)"@en ;
+	skos:prefLabel "11th Century (Early)"@en ;
+	gist:actualEndYear "1033-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1000-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_11th_century ;
+	gist:precedesDirectly told:_TimeInterval_11th_century_mid ;
+	.
+
+told:_TimeInterval_11th_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Eleventh Century (Late)"@en ;
+	skos:prefLabel "11th Century (Late)"@en ;
+	gist:actualEndYear "1099-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1067-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_11th_century ;
+	gist:precedesDirectly told:_TimeInterval_12th_century_early ;
+	.
+
+told:_TimeInterval_11th_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Eleventh Century (Mid)"@en ;
+	skos:prefLabel "11th Century (Mid)"@en ;
+	gist:actualEndYear "1066-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1034-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_11th_century ;
+	gist:precedesDirectly told:_TimeInterval_11th_century_late ;
+	.
+
+told:_TimeInterval_12th_century
+	a told:TimeInterval ;
+	skos:altLabel "Twelfth Century"@en ;
+	skos:prefLabel "12th Century"@en ;
+	gist:actualEndYear "1199-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1100-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:13th_century ;
+	.
+
+told:_TimeInterval_12th_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Twelfth Century (Early)"@en ;
+	skos:prefLabel "12th Century (Early)"@en ;
+	gist:actualEndYear "1133-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1100-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_12th_century ;
+	gist:precedesDirectly told:_TimeInterval_12th_century_mid ;
+	.
+
+told:_TimeInterval_12th_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Twelfth Century (Late)"@en ;
+	skos:prefLabel "12th Century (Late)"@en ;
+	gist:actualEndYear "1199-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1167-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_12th_century ;
+	gist:precedesDirectly told:_TimeInterval_13th_century_early ;
+	.
+
+told:_TimeInterval_12th_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Twelfth Century (Mid)"@en ;
+	skos:prefLabel "12th Century (Mid)"@en ;
+	gist:actualEndYear "1166-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1134-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_12th_century ;
+	gist:precedesDirectly told:_TimeInterval_12th_century_late ;
+	.
+
+told:_TimeInterval_13th_century
+	a told:TimeInterval ;
+	skos:altLabel "Thirteenth Century"@en ;
+	skos:prefLabel "13th Century"@en ;
+	gist:actualEndYear "1299-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1200-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:14th_century ;
+	.
+
+told:_TimeInterval_13th_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Thirteenth Century (Early)"@en ;
+	skos:prefLabel "13th Century (Early)"@en ;
+	gist:actualEndYear "1233-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1200-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_13th_century ;
+	gist:precedesDirectly told:_TimeInterval_13th_century_mid ;
+	.
+
+told:_TimeInterval_13th_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Thirteenth Century (Late)"@en ;
+	skos:prefLabel "13th Century (Late)"@en ;
+	gist:actualEndYear "1299-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1267-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_13th_century ;
+	gist:precedesDirectly told:_TimeInterval_14th_century_early ;
+	.
+
+told:_TimeInterval_13th_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Thirteenth Century (Mid)"@en ;
+	skos:prefLabel "13th Century (Mid)"@en ;
+	gist:actualEndYear "1266-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1234-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_13th_century ;
+	gist:precedesDirectly told:_TimeInterval_13th_century_late ;
+	.
+
+told:_TimeInterval_14th_century
+	a told:TimeInterval ;
+	skos:altLabel "Fourteenth Century"@en ;
+	skos:prefLabel "14th Century"@en ;
+	gist:actualEndYear "1399-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1300-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:15th_century ;
+	.
+
+told:_TimeInterval_14th_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Fourteenth Century (Early)"@en ;
+	skos:prefLabel "14th Century (Early)"@en ;
+	gist:actualEndYear "1333-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1300-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_14th_century ;
+	gist:precedesDirectly told:_TimeInterval_14th_century_mid ;
+	.
+
+told:_TimeInterval_14th_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Fourteenth Century (Late)"@en ;
+	skos:prefLabel "14th Century (Late)"@en ;
+	gist:actualEndYear "1399-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1367-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_14th_century ;
+	gist:precedesDirectly told:_TimeInterval_15th_century_early ;
+	.
+
+told:_TimeInterval_14th_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Fourteenth Century (Mid)"@en ;
+	skos:prefLabel "14th Century (Mid)"@en ;
+	gist:actualEndYear "1366-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1334-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_14th_century ;
+	gist:precedesDirectly told:_TimeInterval_14th_century_late ;
+	.
+
+told:_TimeInterval_15th_century
+	a told:TimeInterval ;
+	skos:altLabel "Fifteenth Century"@en ;
+	skos:prefLabel "15th Century"@en ;
+	gist:actualEndYear "1499-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1400-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:16th_century ;
+	.
+
+told:_TimeInterval_15th_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Fifteenth Century (Early)"@en ;
+	skos:prefLabel "15th Century (Early)"@en ;
+	gist:actualEndYear "1433-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1400-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_15th_century ;
+	gist:precedesDirectly told:_TimeInterval_15th_century_mid ;
+	.
+
+told:_TimeInterval_15th_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Fifteenth Century (Late)"@en ;
+	skos:prefLabel "15th Century (Late)"@en ;
+	gist:actualEndYear "1499-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1467-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_15th_century ;
+	gist:precedesDirectly told:_TimeInterval_16th_century_early ;
+	.
+
+told:_TimeInterval_15th_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Fifteenth Century (Mid)"@en ;
+	skos:prefLabel "15th Century (Mid)"@en ;
+	gist:actualEndYear "1466-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1434-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_15th_century ;
+	gist:precedesDirectly told:_TimeInterval_15th_century_late ;
+	.
+
+told:_TimeInterval_16th_century
+	a told:TimeInterval ;
+	skos:altLabel "Sixteenth Century"@en ;
+	skos:prefLabel "16th Century"@en ;
+	gist:actualEndYear "1599-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1500-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:17th_century ;
+	.
+
+told:_TimeInterval_16th_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Sixteenth Century (Early)"@en ;
+	skos:prefLabel "16th Century (Early)"@en ;
+	gist:actualEndYear "1533-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1500-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_16th_century ;
+	gist:precedesDirectly told:_TimeInterval_16th_century_mid ;
+	.
+
+told:_TimeInterval_16th_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Sixteenth Century (Late)"@en ;
+	skos:prefLabel "16th Century (Late)"@en ;
+	gist:actualEndYear "1599-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1567-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_16th_century ;
+	gist:precedesDirectly told:_TimeInterval_17th_century_early ;
+	.
+
+told:_TimeInterval_16th_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Sixteenth Century (Mid)"@en ;
+	skos:prefLabel "16th Century (Mid)"@en ;
+	gist:actualEndYear "1566-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1534-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_16th_century ;
+	gist:precedesDirectly told:_TimeInterval_16th_century_late ;
+	.
+
+told:_TimeInterval_17th_century
+	a told:TimeInterval ;
+	skos:altLabel "Seventeenth Century"@en ;
+	skos:prefLabel "17th Century"@en ;
+	gist:actualEndYear "1699-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1600-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:18th_century ;
+	.
+
+told:_TimeInterval_17th_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Seventeenth Century (Early)"@en ;
+	skos:prefLabel "17th Century (Early)"@en ;
+	gist:actualEndYear "1633-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1600-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_17th_century ;
+	gist:precedesDirectly told:_TimeInterval_17th_century_mid ;
+	.
+
+told:_TimeInterval_17th_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Seventeenth Century (Late)"@en ;
+	skos:prefLabel "17th Century (Late)"@en ;
+	gist:actualEndYear "1699-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1667-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_17th_century ;
+	gist:precedesDirectly told:_TimeInterval_18th_century_early ;
+	.
+
+told:_TimeInterval_17th_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Seventeenth Century (Mid)"@en ;
+	skos:prefLabel "17th Century (Mid)"@en ;
+	gist:actualEndYear "1666-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1634-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_17th_century ;
+	gist:precedesDirectly told:_TimeInterval_17th_century_late ;
+	.
+
+told:_TimeInterval_18th_century
+	a told:TimeInterval ;
+	skos:altLabel "Eighteenth Century"@en ;
+	skos:prefLabel "18th Century"@en ;
+	gist:actualEndYear "1799-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1700-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:19th_century ;
+	.
+
+told:_TimeInterval_18th_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Eighteenth Century (Early)"@en ;
+	skos:prefLabel "18th Century (Early)"@en ;
+	gist:actualEndYear "1733-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1700-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_18th_century ;
+	gist:precedesDirectly told:_TimeInterval_18th_century_mid ;
+	.
+
+told:_TimeInterval_18th_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Eighteenth Century (Late)"@en ;
+	skos:prefLabel "18th Century (Late)"@en ;
+	gist:actualEndYear "1799-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1767-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_18th_century ;
+	gist:precedesDirectly told:_TimeInterval_19th_century_early ;
+	.
+
+told:_TimeInterval_18th_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Eighteenth Century (Mid)"@en ;
+	skos:prefLabel "18th Century (Mid)"@en ;
+	gist:actualEndYear "1766-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1734-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_18th_century ;
+	gist:precedesDirectly told:_TimeInterval_18th_century_late ;
+	.
+
+told:_TimeInterval_19th_century
+	a told:TimeInterval ;
+	skos:altLabel "Nineteenth Century"@en ;
+	skos:prefLabel "19th Century"@en ;
+	gist:actualEndYear "1899-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1800-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:20th_century ;
+	.
+
+told:_TimeInterval_19th_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Nineteenth Century (Early)"@en ;
+	skos:prefLabel "19th Century (Early)"@en ;
+	gist:actualEndYear "1833-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1800-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_19th_century ;
+	gist:precedesDirectly told:_TimeInterval_19th_century_mid ;
+	.
+
+told:_TimeInterval_19th_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Nineteenth Century (Late)"@en ;
+	skos:prefLabel "19th Century (Late)"@en ;
+	gist:actualEndYear "1899-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1867-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_19th_century ;
+	gist:precedesDirectly told:_TimeInterval_20th_century_early ;
+	.
+
+told:_TimeInterval_19th_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Nineteenth Century (Mid)"@en ;
+	skos:prefLabel "19th Century (Mid)"@en ;
+	gist:actualEndYear "1866-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1834-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_19th_century ;
+	gist:precedesDirectly told:_TimeInterval_19th_century_late ;
+	.
+
+told:_TimeInterval_1st_century
+	a told:TimeInterval ;
+	skos:altLabel "First Century"@en ;
+	skos:prefLabel "1st Century"@en ;
+	gist:actualEndYear "0099-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0001-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:2nd_century ;
+	.
+
+told:_TimeInterval_1st_century_early
+	a told:TimeInterval ;
+	skos:altLabel "First Century (Early)"@en ;
+	skos:prefLabel "1st Century (Early)"@en ;
+	gist:actualEndYear "0033-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0001-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_1st_century ;
+	gist:precedesDirectly told:_TimeInterval_1st_century_mid ;
+	.
+
+told:_TimeInterval_1st_century_late
+	a told:TimeInterval ;
+	skos:altLabel "First Century (Late)"@en ;
+	skos:prefLabel "1st Century (Late)"@en ;
+	gist:actualEndYear "0099-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0067-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_1st_century ;
+	gist:precedesDirectly told:_TimeInterval_2nd_century_early ;
+	.
+
+told:_TimeInterval_1st_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "First Century (Mid)"@en ;
+	skos:prefLabel "1st Century (Mid)"@en ;
+	gist:actualEndYear "0066-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0034-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_1st_century ;
+	gist:precedesDirectly told:_TimeInterval_1st_century_late ;
+	.
+
+told:_TimeInterval_20th_century
+	a told:TimeInterval ;
+	skos:altLabel "Twentieth Century"@en ;
+	skos:prefLabel "20th Century"@en ;
+	gist:actualEndYear "1999-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1900-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:21st_century ;
+	.
+
+told:_TimeInterval_20th_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Twentieth Century (Early)"@en ;
+	skos:prefLabel "20th Century (Early)"@en ;
+	gist:actualEndYear "1933-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1900-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_20th_century ;
+	gist:precedesDirectly told:_TimeInterval_20th_century_mid ;
+	.
+
+told:_TimeInterval_20th_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Twentieth Century (Late)"@en ;
+	skos:prefLabel "20th Century (Late)"@en ;
+	gist:actualEndYear "1999-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1967-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_20th_century ;
+	gist:precedesDirectly told:_TimeInterval_21st_century_early ;
+	.
+
+told:_TimeInterval_20th_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Twentieth Century (Mid)"@en ;
+	skos:prefLabel "20th Century (Mid)"@en ;
+	gist:actualEndYear "1966-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "1934-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_20th_century ;
+	gist:precedesDirectly told:_TimeInterval_20th_century_late ;
+	.
+
+told:_TimeInterval_21st_century
+	a told:TimeInterval ;
+	skos:altLabel "Twenty-first Century"@en ;
+	skos:prefLabel "21st Century"@en ;
+	gist:actualEndYear "2099-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "2000-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:22nd_century ;
+	.
+
+told:_TimeInterval_21st_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Twenty-first Century (Early)"@en ;
+	skos:prefLabel "21st Century (Early)"@en ;
+	gist:actualEndYear "2033-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "2000-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_21st_century ;
+	gist:precedesDirectly told:_TimeInterval_21st_century_mid ;
+	.
+
+told:_TimeInterval_21st_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Twenty-first Century (Late)"@en ;
+	skos:prefLabel "21st Century (Late)"@en ;
+	gist:actualEndYear "2099-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "2067-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_21st_century ;
+	gist:precedesDirectly told:_TimeInterval_22nd_century_early ;
+	.
+
+told:_TimeInterval_21st_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Twenty-first Century (Mid)"@en ;
+	skos:prefLabel "21st Century (Mid)"@en ;
+	gist:actualEndYear "2066-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "2034-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_21st_century ;
+	gist:precedesDirectly told:_TimeInterval_21st_century_late ;
+	.
+
+told:_TimeInterval_2nd_century
+	a told:TimeInterval ;
+	skos:altLabel "Second Century"@en ;
+	skos:prefLabel "2nd Century"@en ;
+	gist:actualEndYear "0199-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0100-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:3rd_century ;
+	.
+
+told:_TimeInterval_2nd_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Second Century (Early)"@en ;
+	skos:prefLabel "2nd Century (Early)"@en ;
+	gist:actualEndYear "0133-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0100-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_2nd_century ;
+	gist:precedesDirectly told:_TimeInterval_2nd_century_mid ;
+	.
+
+told:_TimeInterval_2nd_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Second Century (Late)"@en ;
+	skos:prefLabel "2nd Century (Late)"@en ;
+	gist:actualEndYear "0199-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0167-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_2nd_century ;
+	gist:precedesDirectly told:_TimeInterval_3rd_century_early ;
+	.
+
+told:_TimeInterval_2nd_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Second Century (Mid)"@en ;
+	skos:prefLabel "2nd Century (Mid)"@en ;
+	gist:actualEndYear "0166-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0134-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_2nd_century ;
+	gist:precedesDirectly told:_TimeInterval_2nd_century_late ;
+	.
+
+told:_TimeInterval_3rd_century
+	a told:TimeInterval ;
+	skos:altLabel "Third Century"@en ;
+	skos:prefLabel "3rd Century"@en ;
+	gist:actualEndYear "0299-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0200-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:4th_century ;
+	.
+
+told:_TimeInterval_3rd_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Third Century (Early)"@en ;
+	skos:prefLabel "3rd Century (Early)"@en ;
+	gist:actualEndYear "0233-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0200-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_3rd_century ;
+	gist:precedesDirectly told:_TimeInterval_3rd_century_mid ;
+	.
+
+told:_TimeInterval_3rd_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Third Century (Late)"@en ;
+	skos:prefLabel "3rd Century (Late)"@en ;
+	gist:actualEndYear "0299-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0267-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_3rd_century ;
+	gist:precedesDirectly told:_TimeInterval_4th_century_early ;
+	.
+
+told:_TimeInterval_3rd_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Third Century (Mid)"@en ;
+	skos:prefLabel "3rd Century (Mid)"@en ;
+	gist:actualEndYear "0266-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0234-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_3rd_century ;
+	gist:precedesDirectly told:_TimeInterval_3rd_century_late ;
+	.
+
+told:_TimeInterval_4th_century
+	a told:TimeInterval ;
+	skos:altLabel "Fourth Century"@en ;
+	skos:prefLabel "4th Century"@en ;
+	gist:actualEndYear "0399-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0300-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:5th_century ;
+	.
+
+told:_TimeInterval_4th_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Fourth Century (Early)"@en ;
+	skos:prefLabel "4th Century (Early)"@en ;
+	gist:actualEndYear "0333-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0300-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_4th_century ;
+	gist:precedesDirectly told:_TimeInterval_4th_century_mid ;
+	.
+
+told:_TimeInterval_4th_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Fourth Century (Late)"@en ;
+	skos:prefLabel "4th Century (Late)"@en ;
+	gist:actualEndYear "0399-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0367-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_4th_century ;
+	gist:precedesDirectly told:_TimeInterval_5th_century_early ;
+	.
+
+told:_TimeInterval_4th_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Fourth Century (Mid)"@en ;
+	skos:prefLabel "4th Century (Mid)"@en ;
+	gist:actualEndYear "0366-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0334-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_4th_century ;
+	gist:precedesDirectly told:_TimeInterval_4th_century_late ;
+	.
+
+told:_TimeInterval_5th_century
+	a told:TimeInterval ;
+	skos:altLabel "Fifth Century"@en ;
+	skos:prefLabel "5th Century"@en ;
+	gist:actualEndYear "0499-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0400-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:6th_century ;
+	.
+
+told:_TimeInterval_5th_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Fifth Century (Early)"@en ;
+	skos:prefLabel "5th Century (Early)"@en ;
+	gist:actualEndYear "0433-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0400-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_5th_century ;
+	gist:precedesDirectly told:_TimeInterval_5th_century_mid ;
+	.
+
+told:_TimeInterval_5th_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Fifth Century (Late)"@en ;
+	skos:prefLabel "5th Century (Late)"@en ;
+	gist:actualEndYear "0499-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0467-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_5th_century ;
+	gist:precedesDirectly told:_TimeInterval_6th_century_early ;
+	.
+
+told:_TimeInterval_5th_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Fifth Century (Mid)"@en ;
+	skos:prefLabel "5th Century (Mid)"@en ;
+	gist:actualEndYear "0466-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0434-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_5th_century ;
+	gist:precedesDirectly told:_TimeInterval_5th_century_late ;
+	.
+
+told:_TimeInterval_6th_century
+	a told:TimeInterval ;
+	skos:altLabel "Sixth Century"@en ;
+	skos:prefLabel "6th Century"@en ;
+	gist:actualEndYear "0599-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0500-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:7th_century ;
+	.
+
+told:_TimeInterval_6th_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Sixth Century (Early)"@en ;
+	skos:prefLabel "6th Century (Early)"@en ;
+	gist:actualEndYear "0533-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0500-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_6th_century ;
+	gist:precedesDirectly told:_TimeInterval_6th_century_mid ;
+	.
+
+told:_TimeInterval_6th_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Sixth Century (Late)"@en ;
+	skos:prefLabel "6th Century (Late)"@en ;
+	gist:actualEndYear "0599-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0567-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_6th_century ;
+	gist:precedesDirectly told:_TimeInterval_7th_century_early ;
+	.
+
+told:_TimeInterval_6th_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Sixth Century (Mid)"@en ;
+	skos:prefLabel "6th Century (Mid)"@en ;
+	gist:actualEndYear "0566-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0534-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_6th_century ;
+	gist:precedesDirectly told:_TimeInterval_6th_century_late ;
+	.
+
+told:_TimeInterval_7th_century
+	a told:TimeInterval ;
+	skos:altLabel "Seventh Century"@en ;
+	skos:prefLabel "7th Century"@en ;
+	gist:actualEndYear "0699-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0600-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:8th_century ;
+	.
+
+told:_TimeInterval_7th_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Seventh Century (Early)"@en ;
+	skos:prefLabel "7th Century (Early)"@en ;
+	gist:actualEndYear "0633-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0600-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_7th_century ;
+	gist:precedesDirectly told:_TimeInterval_7th_century_mid ;
+	.
+
+told:_TimeInterval_7th_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Seventh Century (Late)"@en ;
+	skos:prefLabel "7th Century (Late)"@en ;
+	gist:actualEndYear "0699-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0667-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_7th_century ;
+	gist:precedesDirectly told:_TimeInterval_8th_century_early ;
+	.
+
+told:_TimeInterval_7th_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Seventh Century (Mid)"@en ;
+	skos:prefLabel "7th Century (Mid)"@en ;
+	gist:actualEndYear "0666-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0634-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_7th_century ;
+	gist:precedesDirectly told:_TimeInterval_7th_century_late ;
+	.
+
+told:_TimeInterval_8th_century
+	a told:TimeInterval ;
+	skos:altLabel "Eighth Century"@en ;
+	skos:prefLabel "8th Century"@en ;
+	gist:actualEndYear "0799-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0700-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:9th_century ;
+	.
+
+told:_TimeInterval_8th_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Eighth Century (Early)"@en ;
+	skos:prefLabel "8th Century (Early)"@en ;
+	gist:actualEndYear "0733-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0700-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_8th_century ;
+	gist:precedesDirectly told:_TimeInterval_8th_century_mid ;
+	.
+
+told:_TimeInterval_8th_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Eighth Century (Late)"@en ;
+	skos:prefLabel "8th Century (Late)"@en ;
+	gist:actualEndYear "0799-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0767-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_8th_century ;
+	gist:precedesDirectly told:_TimeInterval_9th_century_early ;
+	.
+
+told:_TimeInterval_8th_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Eighth Century (Mid)"@en ;
+	skos:prefLabel "8th Century (Mid)"@en ;
+	gist:actualEndYear "0766-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0734-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_8th_century ;
+	gist:precedesDirectly told:_TimeInterval_8th_century_late ;
+	.
+
+told:_TimeInterval_9th_century
+	a told:TimeInterval ;
+	skos:altLabel "Ninth Century"@en ;
+	skos:prefLabel "9th Century"@en ;
+	gist:actualEndYear "0899-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0800-01-01T00:00:00"^^xsd:dateTime ;
+	gist:precedesDirectly told:10th_century ;
+	.
+
+told:_TimeInterval_9th_century_early
+	a told:TimeInterval ;
+	skos:altLabel "Ninth Century (Early)"@en ;
+	skos:prefLabel "9th Century (Early)"@en ;
+	gist:actualEndYear "0833-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0800-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_9th_century ;
+	gist:precedesDirectly told:_TimeInterval_9th_century_mid ;
+	.
+
+told:_TimeInterval_9th_century_late
+	a told:TimeInterval ;
+	skos:altLabel "Ninth Century (Late)"@en ;
+	skos:prefLabel "9th Century (Late)"@en ;
+	gist:actualEndYear "0899-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0867-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_9th_century ;
+	gist:precedesDirectly told:_TimeInterval_10th_century_early ;
+	.
+
+told:_TimeInterval_9th_century_mid
+	a told:TimeInterval ;
+	skos:altLabel "Ninth Century (Mid)"@en ;
+	skos:prefLabel "9th Century (Mid)"@en ;
+	gist:actualEndYear "0866-01-01T00:00:00"^^xsd:dateTime ;
+	gist:actualStartYear "0834-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_TimeInterval_9th_century ;
+	gist:precedesDirectly told:_TimeInterval_9th_century_late ;
+	.
+
