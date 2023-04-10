@@ -28,7 +28,9 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # TOL G ID -- ?monastery_iri
 # description -- ?html_description_iri
 
-# Run: tarql --dedup 5000 incarnationLineages.tq > incarnationLineages.ttl
+# Run: 
+# (tarql 1.2): tarql --dedup 5000 incarnationLineages.tq > incarnationLineages.ttl
+# (tarql 1.3): tarql --dedup 5000 --base "https://data.treasuryoflives.org/" incarnationLineages.tq > incarnationLineages.ttl
 
 CONSTRUCT {
 

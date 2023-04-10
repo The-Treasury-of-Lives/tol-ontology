@@ -22,7 +22,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # told:_TimeInterval_10th_century ; "1oth Century"
 # told:_TimeInterval_10th_century and told:_TimeInterval_10th_century_mid
 
-# Run: tarql centuries.tq > centuries.ttl
+# Run:
+# (tarql-1.2): tarql centuries.tq > centuries.ttl
+# (tarql-1.3): tarql --base "https://data.treasuryoflives.org/" centuries.tq > centuries.ttl
 
 CONSTRUCT {
 
