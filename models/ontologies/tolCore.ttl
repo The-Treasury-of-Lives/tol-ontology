@@ -354,9 +354,11 @@ tolo:TimeInterval
 	skos:example "The 11th century; Jan 1, 2001 - Dec 31, 2001; the Yuan Dynasty."@en ;
 	skos:scopeNote
 		"This is distinct from a gist:Duration, which describes how long a time interval lasts (e.g., one hour, 3 days, 6000 years)."@en ,
-		"Treasury of Lives specifically uses the popular definition of a century, that is, the year 1000 is the first year of the 11th century."@en ,
+		"May or may not be a time period of historical significance, such as the 12th century." ,
+		"Treasury of Lives uses the popular definition of a century, that is, the year 1000 is the first year of the 11th century."@en ,
 		"gist models start and end years as xsd:dateTimes, and therefore they align with ISO 8601 convention utilizing the proleptic Gregorian calendar."@en
 		;
+		skos:editorialNote "Define TimePeriod as a subclass, specifically referring to TimeIntervals of historical significance?" ;
 	.
 
 tolo:actualYear

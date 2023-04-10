@@ -19,12 +19,22 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # start year -- 
 # end year -- 
 
-# told:_century_12th ; "12th Century"
-# told:_century_12th_century and told:_TimeInterval_12th_century_mid.
+# told:_TimeInterval_10th_century ; "1oth Century"
+# told:_TimeInterval_10th_century and told:_TimeInterval_10th_century_mid
 
 # Run: tarql centuries.tq > centuries.ttl
 
 CONSTRUCT {
+
+	<https://data.tol.org/d/centuries>
+        a owl:Ontology ;
+        skos:definition "Defines full and partial centuries."@en ;
+        skos:prefLabel "Centuries"@en ;
+        skos:editorialNote "Auto-generated via TARQL."@en ;
+	    owl:imports <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
+	    owl:versionIRI <https://data.tol.org/d/centuriesX.x.x> ;
+	.
+
     ?century_iri a told:TimeInterval ;
         skos:prefLabel ?cent_name ;
 		skos:altLabel ?cent_altName ;

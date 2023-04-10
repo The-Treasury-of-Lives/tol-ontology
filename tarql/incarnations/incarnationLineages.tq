@@ -28,15 +28,17 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # TOL G ID -- ?monastery_iri
 # description -- ?html_description_iri
 
-# Run: tarql --dedup 5000 incarnation_lineages.tq > incarnation_lineages.ttl
+# Run: tarql --dedup 5000 incarnationLineages.tq > incarnationLineages.ttl
 
 CONSTRUCT {
 
-    <https://data.tol.org/d/incarnation_lineages>
+    <https://data.tol.org/d/incarnationLineages>
         a owl:Ontology ;
         skos:definition "Defines incarnation lineages with associated monasteries and traditions."^^xsd:string ;
         skos:prefLabel "Incarnation Lineages"^^xsd:string ;
         skos:editorialNote "Auto-generated via TARQL." ;
+	    owl:imports <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
+	    owl:versionIRI <https://data.tol.org/d/incarnationLineagesX.x.x> ;
 	.
 
     ?incarnation_lineage_iri a tolo:IncarnationLineage ;

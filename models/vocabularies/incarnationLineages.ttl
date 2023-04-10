@@ -16,11 +16,13 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.tol.org/d/incarnation_lineages>
+<https://data.tol.org/d/incarnationLineages>
 	a owl:Ontology ;
 	skos:definition "Defines incarnation lineages with associated monasteries and traditions."@en ;
 	skos:editorialNote "Auto-generated via TARQL."@en ;
 	skos:prefLabel "Incarnation Lineages"@en ;
+	owl:imports <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
+	owl:versionIRI <https://data.tol.org/d/incarnationLineagesX.x.x> ;
 	.
 
 told:_FormattedContent_Description_IncarnationLineage_1
@@ -2452,4 +2454,3 @@ told:_IncarnationLineage_99
 		"lcam sprul"@bo-x-ewts
 		;
 	.
-

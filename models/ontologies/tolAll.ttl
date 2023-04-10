@@ -28,6 +28,7 @@
 		<https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ,
 		<https://taxonomies.tol.org/t/marriageRanksX.x.x> ,
 				<https://data.tol.org/d/centuriesX.x.x> ,
+<https://data.tol.org/d/incarnationLineagesX.x.x>
 		<https://taxonomies.tol.org/t/marriageTerminationCausesX.x.x>
 		;
 	owl:versionID <https://ontologies.treasuryoflives.org/tolAllX.x.x> ;
