@@ -28,7 +28,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # Founder Name: should be able to skip, since should have been generated in persons data. Check a few to make sure.
 # Founder TOL ID: tolo:hasFounder told:_Person_<founder-tol-id> - should match people generated. Strip off alpha characters at front of ID.
 # Founder BDRC ID: shouldn't need this, since the sameAs relationships should have been generated in the person data - but check
-# Description: <formatted-text-object> gist:isAbout <tradition-iri>. For <formatted-text-object>, create gist:FormattedContent object with gist:isExpressedIn media-txt:html, gist:containedText the text. Contained text has language tag @en. IRI of description is told:_FormattedContent_Description_Tradition_<tradition-iri>. 
+# Description: <formatted-text-object> gist:isAbout <tradition-iri>. For <formatted-text-object>, create gist:FormattedContent object with gist:isExpressedIn media-txt:html, gist:containedText the text. Contained text has language tag @en. IRI of description is told:_FormattedContent_Description_<tradition-local-name>. 
 # Add type tolo:Tradition 
 
 # Run: 
