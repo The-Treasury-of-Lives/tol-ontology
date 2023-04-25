@@ -36,7 +36,6 @@ told:_Tradition_Barom_Kagyu
 		"ba' rom bka' brgyud"@bo-x-ewts ,
 		"马尔巴噶举"@zh-Hani
 		;
-	tolo:hasFounder tolo:_Person_3266 ;
+	tolo:hasFounder told:_Person_3266 ;
 	tolo:hasParentEntity told:_Tradition_Marpa_Kagyu ;
 	.
-
