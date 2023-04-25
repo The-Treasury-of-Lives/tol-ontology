@@ -1,0 +1,34 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://ontologies.semanticarts.com/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://data.treasuryoflives.org/> .
+@prefix tolo: <https://ontologies.treasuryoflives.org/tol/> .
+@prefix tolx: <https://taxonomies.treasuryoflives.org/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:_FormattedContent_Description_Role_Ruler_of_Derge
+	a gist:FormattedContent ;
+	gist:containedText '''
+<p> The Derge lineage is said to stem from the Gar clan through Gar Tongtsen Yulzung, a minister of the Tibetan emperor <a href="/biographies/view/Songtsen-Gampo/TBRC_p8067">Songtsen Gampo</a>. His great-grandson Lhaje Jampai Pel moved from central Tibet to Khams in the early ninth century, settling his family in Ling. Likely originally patrons of the Bon, in the twenty-third generation the family first established a connection with the Sakya hierarchy, when the patriarch Zhonnu Dorje studied under <a href="/biographies/view/Sakya-Paṇḍita/TBRC_p1056">Sakya Paṇḍita</a>. His grandson, Sonam Rinchen, served <a href="/biographies/view/Pakpa/TBRC_p1048">Pakpa</a> as an attendant and received a Yuan commission for Samar, to the south of present-day Derge. Pakpa called the site a place of &quot;four accomplishments and ten virtues&quot; (<em>sde bzhi dge bcu</em>), a phrase that was shortened to <em>sde dge</em> and adopted by the family. Their seat moved several times before being established in its current location in the fifteenth century by <a href="/biographies/view/Botar-Tashi-Sengge/TBRC_P1AG71">Botar Lodro Tobden</a>.</p>
+    '''@en ;
+	gist:isAbout tolx:_Role_Ruler_of_Derge ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+tolx:_Role_Ruler_of_Derge
+	a tolo:Role ;
+	skos:prefLabel
+		"Ruler of Derge"@en ,
+		"sde dge rgyal rigs"@bo-x-ewts ;
+	tolo:hasParentEntity tolx:_Role_Ruler ;
+	.

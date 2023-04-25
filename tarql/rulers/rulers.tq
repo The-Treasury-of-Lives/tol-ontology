@@ -1,0 +1,56 @@
+PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
+PREFIX bdr: <http://purl.bdrc.io/resource/> 
+PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gist: <https://ontologies.semanticarts.com/gist/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX tolo: <https://ontologies.treasuryoflives.org/tol/>
+PREFIX tolx: <https://taxonomies.treasuryoflives.org/>
+PREFIX told: <https://data.treasuryoflives.org/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wiki: <https://www.wikidata.org/wiki/>
+PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
+
+## COLUMNS
+# TOL ID: not converted
+# Role Name: Use to build Role IRI (tolx:_Role_Ruler_of_Derge) and skos:prefLabel ("Ruler of Derge"@en).
+## TO DO - Check with Katie T to make sure we planned to use the name rather than the ID in the IRI
+# Wylie: skos:prefLabel ("sde dge rgyal rigs"@bo-x-ewts)
+# Parent Role: tolo:hasParentEntity tolx:_Role_Ruler
+# Description: <formatted-text-object> gist:isAbout <role-iri>. For <formatted-text-object>, create gist:FormattedContent object with gist:isExpressedIn media-txt:html, gist:containedText the text. Contained text has language tag @en. IRI of description is told:_FormattedContent_Description_Role_<role-local-name>. 
+# Add type tolo:Role
+
+
+# Run: 
+# tarql --dedup 100 rulers.tq > rulers.ttl
+
+CONSTRUCT {
+
+	<https://taxonomies.tol.org/t/rulers>
+        a owl:Ontology ;
+        skos:definition "Defines ruler roles."@en ;
+        skos:prefLabel "Rulers"@en ;
+        skos:editorialNote "Auto-generated via TARQL."@en ;
+	    owl:imports <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
+	    owl:versionIRI <https://taxonomies.tol.org/t/rulersX.x.x> ;
+	.
+
+    tolx:_Role_Ruler a tolo:Role ;
+        skos:prefLabel "Ruler"@en ;
+        skos:prefLabel "rgyal po"@bo-x-ewts ;
+        owl:sameAs  bdr:R44 ;   
+    .
+
+}
+
+FROM <rulers.csv>
+
+WHERE {
+    
+
+}
