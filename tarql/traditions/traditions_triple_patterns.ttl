@@ -16,16 +16,16 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-told:_FormattedContent_Description_Tradition_Barom_Kagyu
+told:_FormattedContent_Description_Tradition_1135
 	a gist:FormattedContent ;
 	gist:containedText '''
         <p> The Barom branch of the Kagyu tradition was established by <a href="/biographies/view/Barompa-Darma-Wangchuk/TBRC_P1856">Barompa Darma Wangchuk</a>, a disciple of <a href="/biographies/view/Gampopa/TBRC_p1844">Gampopa</a>. The name is based on the monastery Darma Wangchuk established in Kham in 1160, <a href="/geographies/view/Barom-Riwoche/TBRC_G1KR1663">Barom Riwoche</a>. Among the recent illustrious members of the tradition were <a href="/biographies/view/Tulku-Urgyen-Rinpoche/TBRC_P9901">Tulku Urgyen Rinpoche</a>.</p> <p> &nbsp;</p>
     '''@en ;
-	gist:isAbout told:_Tradition_Barom_Kagyu ;
+	gist:isAbout told:_Tradition_1135 ;
 	gist:isExpressedIn media-txt:html ;
 	.
 
-told:_Tradition_Barom_Kagyu
+told:_Tradition_1135
 	a tolo:Tradition ;
 	owl:sameAs
 		bdr:T1384 ,
