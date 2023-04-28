@@ -1,5 +1,778 @@
+# imports: https://ontologies.semanticarts.com/o/gistCore11.1.0
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://ontologies.semanticarts.com/gist/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tolo: <https://ontologies.treasuryoflives.org/tol/> .
+@prefix tolx: <https://taxonomies.treasuryoflives.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<https://ontologies.treasuryoflives.org/o/tolCore>
+	a owl:Ontology ;
+	dct:license "TBD"^^xsd:string ;
+	owl:imports <https://ontologies.semanticarts.com/o/gistCore11.1.0> ;
+	owl:versionIRI <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
+	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, facilitate the consumption of external RDF, and to to enhance the narrative text with structured data."@en ;
+	skos:editoralNote
+		"Add rdfs:isDefinedBy using onto-toolkit."@en ,
+		"Combining all terms into one module for now; maybe break up into separate modules later."@en
+		;
+	skos:editorialNote """
+		Temporarily removing imports:
+			<http://id.loc.gov/ontologies/bibframe-2-1-0> ,
+			<http://purl.bdrc.io/ontology/core> to make Protege easier to read."""@en ;
+	skos:prefLabel "Treasury of Lives Core Ontology"@en ;
+	.
+
+tolo:Birth
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:HistoricalEvent ,
+		gist:PhysicalEvent ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tolo:isEventOf ;
+			owl:allValuesFrom tolo:Person ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:occursIn ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tolo:isEventOf ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tolo:inYear ;
+			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+		]
+		;
+	skos:definition "TBD"@en ;
+	skos:editorialNote "Can deities have birth and death? We may need to loosen the restriction."@en ;
+	skos:prefLabel "Birth"@en ;
+	.
+
+tolo:Death
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:HistoricalEvent ,
+		gist:PhysicalEvent ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tolo:isEventOf ;
+			owl:allValuesFrom tolo:Person ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:occursIn ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tolo:isEventOf ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tolo:inYear ;
+			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+		]
+		;
+	skos:definition "TBD"@en ;
+	skos:editorialNote "Can deities have birth and death? We may need to loosen the restriction."@en ;
+	skos:prefLabel "Death"@en ;
+	.
+
+tolo:Deity
+	a owl:Class ;
+	rdfs:subClassOf gist:LivingThing ;
+	owl:disjointWith tolo:Person ;
+	skos:definition "A god or goddess; a being with divine status."@en ;
+	skos:prefLabel "Deity"@en ;
+	.
+
+tolo:GenealogicalGroup
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Collection ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:hasMember ;
+			owl:allValuesFrom [
+				owl:unionOf (
+					tolo:Person
+					tolo:GenealogicalGroup
+				) ;
+			] ;
+		]
+		;
+	skos:definition "A social unit consisting of people with a common ancestor."@en ;
+	skos:example "Nuclear family, extended family, clan, tribe."@en ;
+	skos:prefLabel "Genealogical Grouping"@en ;
+	skos:scopeNote
+		"No subclasses, such as family and clan, are defined because the distinctions are not clear-cut. Instead, we use partitive relationships to describe the relationships between different groupings."@en ,
+		"This class encompasses successively larger and more inclusive genealogical groupings, such as family and clan. A person is said to be a member of a genealogical grouping, and a smaller genealogical grouping is a member of a larger one."@en
+		;
+	.
+
+tolo:Incarnation
+	a owl:Class ;
+	skos:definition "TBD."@en ;
+	skos:editorialNote "Connects person to lineage."@en ;
+	skos:prefLabel "Incarnation"@en ;
+	.
+
+tolo:IncarnationLineage
+	a owl:Class ;
+	rdfs:subClassOf gist:OrderedCollection ;
+	skos:definition "TBD."@en ;
+	skos:editorialNote "Add scopeNote re attached to monastery and tradition."@en ;
+	skos:prefLabel "Incarnation Lineage"@en ;
+	.
+
+tolo:LandmarkType
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom gist:Landmark ;
+		]
+		;
+	skos:definition "A type of geographic or man-made landmark."@en ;
+	skos:example "Mountain, lake, hidden valley."@en ;
+	skos:prefLabel "Landmark Type"@en ;
+	.
+
+tolo:Marriage
+	a owl:Class ;
+	owl:equivalentClass [
+		owl:intersectionOf (
+			gist:Agreement
+			gist:TemporalRelation
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasParty ;
+				owl:allValuesFrom tolo:Person ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:onClass tolo:MarriageRank ;
+				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasParty ;
+				owl:onClass tolo:Person ;
+				owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty tolo:familyName ;
+				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty tolo:familyName ;
+				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+			]
+		) ;
+	] ;
+	skos:definition "A culturally and often legally recognized union between two people, called spouses, that establishes rights and obligations between them."@en ;
+	skos:editorialNote
+		"Cardinality restriction on gist:hasParty of 2 generates Protege error, so using qualified cardinality restriction instead."@en ,
+		"Predicates should be directed from the relationship to the other objects, to support named graph drops to delete the relationship."@en
+		;
+	skos:prefLabel "Marriage"@en ;
+	.
+
+tolo:MarriageRank
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom tolo:Marriage ;
+		]
+		;
+	skos:definition "A category differentiating senior (first) from subsequent (junior) marriages in polygamous relationships."@en ;
+	skos:prefLabel "Marriage Rank"@en ;
+	skos:scopeNote "The associated spouse is termed a junior or senior wife/husband. There is only one senior wife or husband; all others are uniformly designated junior."@en ;
+	.
+
+tolo:MarriageTerminationCause
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom tolo:Marriage ;
+		]
+		;
+	skos:definition "The reason for the termination of a marriage."@en ;
+	skos:example "Death, divorce, dissolution."@en ;
+	skos:prefLabel "Marriage Termination Cause"@en ;
+	.
+
+tolo:Person
+	a owl:Class ;
+	rdfs:subClassOf
+		bdo:Person ,
+		gist:Person
+		;
+	skos:definition "TBD."@en ;
+	skos:prefLabel "Person"@en ;
+	.
+
+tolo:PilgrimageSite
+	a owl:Class ;
+	rdfs:subClassOf gist:Landmark ;
+	skos:definition "A shrine or other sacred place, including geographic features, that people travel to as an act of religious devotion."@en ;
+	skos:example "Mount Tsibri was the site of Zangpo Drakpa's 14th century treasure revelations; Kokonor Lake."@en ;
+	skos:prefLabel "Pilgrimage Site"@en ;
+	.
+
+tolo:Place
+	a owl:Class ;
+	skos:definition "A real, fictional, or imaginary place."@en ;
+	skos:prefLabel "Place"@en ;
+	skos:scopeNote "Differs from and not a subclass of gist:Place, which includings only places that do or did exist."@en ;
+	.
+
+tolo:Student
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			tolo:Person
+			[
+				a owl:Restriction ;
+				owl:onProperty [
+					owl:inverseOf gist:hasRecipient ;
+				] ;
+				owl:someValuesFrom tolo:TeacherStudentRelationship ;
+			]
+		) ;
+	] ;
+	skos:definition "A person who receives training in a text or practice from another person (the teacher)."@en ;
+	skos:editorialNote "Not sure if needed."@en ;
+	skos:prefLabel "Student"@en ;
+	.
+
+tolo:Teacher
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			tolo:Person
+			[
+				a owl:Restriction ;
+				owl:onProperty [
+					owl:inverseOf gist:hasGiver ;
+				] ;
+				owl:someValuesFrom tolo:TeacherStudentRelationship ;
+			]
+		) ;
+	] ;
+	skos:definition "A person who transmits a text or practice to another person (the student)."@en ;
+	skos:editorialNote "Not sure if needed."@en ;
+	skos:prefLabel "Teacher"@en ;
+	.
+
+tolo:TeacherStudentRelationship
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:TemporalRelation
+			gist:Agreement
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasParticipant ;
+				owl:cardinality "2"^^xsd:nonNegativeInteger ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasGiver ;
+				owl:allValuesFrom tolo:Teacher ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasGiver ;
+				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasRecipient ;
+				owl:allValuesFrom tolo:Student ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasRecipient ;
+				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:conformsTo ;
+				owl:someValuesFrom gist:Intention ;
+			]
+		) ;
+	] ;
+	skos:definition "A time-delimited relationship between a teacher and a student."@en ;
+	skos:editorialNote
+		"How to express what the Intention is? I.e., how should an intention be instantiated?"@en ,
+		"Predicates should be directed from the relationship to the other objects, to support named graph drops to delete the relationship."@en ,
+		"TODO Add relationship to text (bf:Text?) or Practice (subclass of gist:Behavior? - need to see examples."@en
+		;
+	skos:prefLabel "Teacher-Student Relationship"@en ;
+	skos:scopeNote "A teacher-student relationshp may be, but is not necessarily, part of a teaching lineage. In some cases the teacher-student relationship is known while the lineage is not."@en ;
+	.
+
+tolo:TimeInterval
+	a owl:Class ;
+	skos:definition "A span of time bounded by absolute start and end dates."@en ;
+	skos:example "The 11th century; Jan 1, 2001 - Dec 31, 2001; the Yuan Dynasty."@en ;
+	skos:scopeNote
+		"This is distinct from a gist:Duration, which describes how long a time interval lasts (e.g., one hour, 3 days, 6000 years)."@en ,
+		"May or may not be a time period of historical significance, such as the 12th century." ,
+		"Treasury of Lives uses the popular definition of a century, that is, the year 1000 is the first year of the 11th century."@en ,
+		"gist models start and end years as xsd:dateTimes, and therefore they align with ISO 8601 convention utilizing the proleptic Gregorian calendar."@en
+		;
+		skos:editorialNote "Define TimePeriod as a subclass, specifically referring to TimeIntervals of historical significance?" ;
+	.
+
+tolo:actualYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tolo:inYear ;
+	skos:definition "The year in which something existed or took place."@en ;
+	skos:example "Gyergom Tsultime Sengge was born in 1144 and died in 1204."@en ;
+	skos:prefLabel "actual year"@en ;
+	.
+
+tolo:alternateName
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:name ;
+	skos:definition "An alternate name for a person."@en ;
+	skos:example "gyer sgom gnyis pa and gyer sgom tshul khrims seng+ge are alternate names for the individual whose ToL "@en ;
+	skos:prefLabel "alternate name"@en ;
+	skos:scopeNote
+		"The preferred/alternate distinction may be source- or system-dependent. Treasury of Lives has selected a preferred name, but other systems or sources may prefer a different name."@en ,
+		"The same name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a preferred name in both its own and the Extended Wylie systems."@en
+		;
+	.
+
+tolo:alternateYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tolo:inYear ;
+	skos:definition "The year in which something is proposed to have existed or taken place."@en ;
+	skos:example "According to one source, Botrul Dongak Tenpai Nyima was born in 1900, while according to another source his birth year was XXX and he died in 1902. No indication of greater or less likelihood of the two possibilities is implied."@en ;
+	skos:prefLabel "alternate year"@en ;
+	skos:scopeNote "Differs from tolo:approximateYear, which specifies a single year but is intended to be inexact. In this case, various scholars have proposed different years. If there is an alternate year, there is no actual year; rather, both proposed dates are asserted as alternates."@en ;
+	.
+
+tolo:approximateYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tolo:inYear ;
+	skos:definition "The approximate year in which something existed or took place."@en ;
+	skos:example "The birth event of Lhagyari Namgyel Gyatso took place in approximately 1927."@en ;
+	skos:prefLabel "approximate year"@en ;
+	skos:scopeNote "Differs from tolo:alternateYear, which is used when there is more than one proposed year. In this case, only one year is asserted, but it is intended to be inexact, thus encompassing some number of years before and/or after."@en ;
+	.
+
+tol:approximateEndYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:approximateYear ;
+	skos:definition "The approximate year in which something ended."@en ;
+	skos:example "The early 19th century ended in approximately 1835."@en ;
+	skos:prefLabel "approximate end year"@en ;
+	.
+
+tol:approximateStartYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:approximateYear ;
+	skos:definition "The approximate year in which something began."@en ;
+	skos:example "The late 19th century began in approximately 1865."@en ;
+	skos:prefLabel "approximate start year"@en ;
+	.
+
+tol:birthFamilyName
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tol:familyName ;
+	rdfs:domain tol:Person ;
+	rdfs:range rdf:langString ;
+	skos:definition "The family name a person is assigned at birth."@en ;
+	skos:prefLabel "birth family name"@en ;
+	skos:scopeNote "A family name other than the birth name can be acquired through marriage."@en ;
+	.
+
+tolo:dissolutionYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:actualEndYear ;
+	skos:definition "The year an agreement such as marriage was ended. In the case of marriage, this refers to divorce rather than the end of a marriage by death of one of the spouses."@en ;
+	skos:editorialNote
+		"Use if we need to distinguish divorce from death as the end of a marriage."@en ,
+		"We may want to do this like birth and death - have a Dissolution object with a year. If there are many things with actual/approximate/alternate values, (dissolution, founding, etc.) we should establish this as a general pattern."@en
+		;
+	skos:prefLabel "dissolution year"@en ;
+	.
+
+tol:familyName
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:name ;
+	rdfs:domain [
+		a owl:Class ;
+		owl:unionOf (
+			tol:Person
+			tol:Marriage
+		) ;
+	] ;
+	rdfs:range rdf:langString ;
+	skos:definition "The name a person bears based on his/her genealogic or marital relationships."@en ;
+	skos:prefLabel "family name"@en ;
+	skos:scopeNote "Also applies to marriages; in an ordinary marriage, the marriage, spouses, and children take the husband's family name; in a makpa marriage, the wife's. The marriage name can be inferred from the individuals' family names, or vice versa."@en ;
+	.
+
+tolo:foundingYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:actualStartYear ;
+	skos:definition "TODO"@en ;
+	skos:editorialNote "We may want to follow the pattern of Birth and Death here, instead of just using a property. Depends on what other information is available. We could have Founding with an agent and a date."@en ;
+	skos:example "The Tshal-pa tradition was founded in 1123."@en ;
+	skos:prefLabel "founding year"@en ;
+	.
+
+tolo:harUrl
+	a owl:AnnotationProperty ;
+	rdfs:subPropertyOf rdfs:seeAlso ;
+	rdfs:range xsd:anyURI ;
+	skos:definition "The URL to the main page about this resource on the Himalayan Art Resources (HAR) site."@en ;
+	skos:prefLabel "HAR URL"@en ;
+	.
+
+tolo:hasEvent
+	a owl:ObjectProperty ;
+	rdfs:range gist:Event ;
+	skos:definition "Relates something to an event pertaining to it."@en ;
+	skos:example "A person's birth or death; the founding of an institution; the dissolution of a marriage."@en ;
+	skos:prefLabel "has event"@en ;
+	.
+
+tolo:hasFinalRestingPlace
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf gist:hasPhysicalLocation ;
+	rdfs:domain tolo:Person ;
+	skos:definition "Relates a person to (one of) his/her final resting place(s)."@en ;
+	skos:prefLabel "has final resting place"@en ;
+	skos:scopeNote "Significant people such as the Dalai Lamas have reliquary stupas in geographic locations like temples or chapels. Sometimes there can be relics in multiple places."@en ;
+	.
+
+tolo:hasFraternalNephew
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasNephew ;
+	owl:propertyChainAxiom (
+		bdo:hasBrother
+		bdo:hasSon
+	) ;
+	skos:definition "Relates a person to the son of his/her brother."@en ;
+	skos:prefLabel "has fraternal nephew"@en ;
+	skos:scopeNote
+		"We do not currently distinguish biological, adoptive, half, and step relationships."@en ,
+		"While a nephew can be related through either a sibling or sibling-in-law, a fraternal nephew is always related through a brother."@en
+		;
+	.
+
+tolo:hasFraternalNiece
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasNiece ;
+	owl:propertyChainAxiom (
+		bdo:hasBrother
+		bdo:hasSon
+	) ;
+	skos:definition "Relates a person to the daughter of his/her brother."@en ;
+	skos:prefLabel "has fraternal niece"@en ;
+	skos:scopeNote
+		"We do not currently distinguish biological, adoptive, half, and step relationships."@en ,
+		"While a niece can be related through either a sibling or sibling-in-law, a fraternal niece is always related through a brother."@en
+		;
+	.
+
+tolo:hasJuniorHusband
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasHusband ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
+	skos:definition "The relationship of a wife to her husband in a junior marriage, which is any but the first of multiple simultaneous marriages."@en ;
+	skos:note "In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."@en ;
+	skos:prefLabel "has junior husband"@en ;
+	skos:scopeNote "This property will generally not be asserted, but rather inferred from the relationships of the spouses to a Marriage object and the MarriageRank of that object."@en ;
+	.
+
+tolo:hasJuniorWife
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasWife ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
+	skos:definition "The relationship of a husband to his wife in a junior marriage, which is any but the first of multiple simultaneous marriages."@en ;
+	skos:prefLabel "has junior wife"@en ;
+	skos:scopeNote "This property will generally not be asserted, but rather inferred from the relationships of the spouses to a Marriage object and the MarriageRank of that object."@en ;
+	.
+
+tolo:hasMaternalCousin
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasCousin ;
+	skos:definition "Relates a person to his/her cousin on the mother's side."@en ;
+	skos:prefLabel "has maternal cousin"@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasMaternalGrandfather
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf
+		bdo:hasGrandfather ,
+		tolo:hasMaternalGrandparent
+		;
+	owl:propertyChainAxiom (
+		tolo:hasMother
+		tolo:hasFather
+	) ;
+	skos:definition "Relates a person to his/her mother's father."@en ;
+	skos:prefLabel "has maternal grandfather"@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasMaternalGrandmother
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf
+		bdo:hasGrandmother ,
+		tolo:hasMaternalGrandparent
+		;
+	owl:propertyChainAxiom (
+		bdo:hasMother
+		bdo:hasMother
+	) ;
+	skos:definition "Relates a person to his/her mother's mother."@en ;
+	skos:prefLabel "has maternal grandmother"@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasMaternalGrandparent
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasGrandmother ;
+	owl:propertyChainAxiom (
+		bdo:hasMother
+		bdo:hasParent
+	) ;
+	skos:definition "Relates a person to his/her mother's parent."@en ;
+	skos:prefLabel "has maternal grandmother"@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasPaternalCousin
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasCousin ;
+	skos:definition "Relates a person to his/her cousin on the father's side."@en ;
+	skos:prefLabel "has paternal cousin"@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasPaternalGrandfather
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf
+		bdo:hasGrandfather ,
+		tolo:hasPaternalGrandparent
+		;
+	owl:propertyChainAxiom (
+		bdo:hasFather
+		bdo:hasFather
+	) ;
+	skos:definition "Relates a person to his/her father's father."@en ;
+	skos:prefLabel "has paternal grandfather"@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasPaternalGrandmother
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf
+		bdo:hasGrandmother ,
+		tolo:hasPaternalGrandparent
+		;
+	owl:propertyChainAxiom (
+		bdo:hasFather
+		bdo:hasMother
+	) ;
+	skos:definition "Relates a person to his/her father's mother."@en ;
+	skos:prefLabel "has paternal grandmother"@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasPaternalGrandparent
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasGrandparent ;
+	owl:propertyChainAxiom (
+		bdo:hasFather
+		bdo:hasParent
+	) ;
+	skos:definition "Relates a person to his/her fathers's parent."@en ;
+	skos:prefLabel "has maternal grandmother"@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasSeniorHusband
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasHusband ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
+	skos:definition "The relationship of a wife to her husband in a senior marriage, which is the first marriage of multiple simultaneous marriages."@en ;
+	skos:note "In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."@en ;
+	skos:prefLabel "has senior husband"@en ;
+	skos:scopeNote "This property will generally not be asserted, but rather inferred from the relationships of the spouses to a Marriage object and the MarriageRank of that object."@en ;
+	.
+
+tolo:hasSeniorWife
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasWife ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
+	skos:definition "The relationship of a husband to his wife in a senior marriage, which is the first of multiple simultaneous marriages."@en ;
+	skos:prefLabel "has senior wife"@en ;
+	skos:scopeNote "This property will generally not be asserted, but rather inferred from the relationships of the spouses to a Marriage object and the MarriageRank of that object."@en ;
+	.
+
+tolo:hasSororallNephew
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasNephew ;
+	owl:propertyChainAxiom (
+		bdo:hasSister
+		bdo:hasSon
+	) ;
+	skos:definition "Relates a person to his/her sister's son."@en ;
+	skos:prefLabel "has sororal nephew"@en ;
+	skos:scopeNote
+		"We do not currently distinguishbiological, adoptive, half, and step relationships."@en ,
+		"While a nephew can be related through either a sibling or sibling-in-law, a sororal nephew is always related through a sister."@en
+		;
+	.
+
+tolo:hasSororallNiece
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasNiece ;
+	owl:propertyChainAxiom (
+		bdo:hasSister
+		bdo:hasDaughter
+	) ;
+	skos:definition "Relates a person to his/her sister's daughter."@en ;
+	skos:prefLabel "has sororal niece"@en ;
+	skos:scopeNote
+		"We do not currently distinguish biological, adoptive, half, and step relationships."@en ,
+		"While a niece can be related through either a sibling or sibling-in-law, a sororal nephew is always related through a sister."@en
+		;
+	.
+
+tolo:inYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:atDateTime ;
+	skos:definition "The year in which something existed or took place, ambiguous as to start/end and planned/actual/approximate/alternate."@en ;
+	skos:example "Gyergom Tsultime Sengge's birth took place in 1144."@en ;
+	skos:prefLabel "in year"@en ;
+	.
+
+tolo:isChildIn
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Marriage ;
+	skos:definition "Relates a child to a materialized marriage relationship."@en ;
+	skos:editorialNote "Do we need this, or is it sufficient to relate the child to its parents?"@en ;
+	skos:prefLabel "is child in"@en ;
+	.
+
+tolo:isEventOf
+	a owl:ObjectProperty ;
+	owl:inverseOf tolo:hasEvent ;
+	skos:definition "Relates an event to the thing it pertains to."@en ;
+	skos:example "A person's birth or death; the founding of an institution; the dissolution of a marriage."@en ;
+	skos:prefLabel "is event of"@en ;
+	.
+
+tolo:isHusbandIn
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Marriage ;
+	skos:definition "Relates a husband to a materialized marriage relationship."@en ;
+	skos:prefLabel "is husband in"@en ;
+	skos:scopeNote "This could be asserted, or inferred from isSpouseIn and the gender of the person."@en ;
+	.
+
+tolo:isSpouseIn
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Marriage ;
+	skos:definition "Relates a person to a materialized marriage relationship."@en ;
+	skos:prefLabel "is spouse in"@en ;
+	skos:scopeNote "It is generally preferable to use the more specific isWifeIn or isHusbandIn, though these could also be inferred from isSpouseIn and the gender of the person. gist:hasParticipant is not specific enough, because children are also related to the marriage."@en ;
+	.
+
+tolo:isWifeIn
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Marriage ;
+	skos:definition "Relates a wife to a materialized marriage relationship."@en ;
+	skos:prefLabel "is wife in"@en ;
+	skos:scopeNote "This could be asserted, or inferred from isSpouseIn and the gender of the person."@en ;
+	.
+
+tolo:marriedFamilyName
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tolo:familyName ;
+	rdfs:domain tolo:Person ;
+	rdfs:range rdf:langString ;
+	skos:definition "The family name a person is assigned through a marital relationship."@en ;
+	skos:prefLabel "married family name"@en ;
+	.
+
+tolo:occursDuring
+	a owl:ObjectProperty ;
+	rdfs:domain gist:Event ;
+	skos:definition "Relates an event to a larger event or time period it is temporally contained in when the part-whole relationship seems inaccurate."@en ;
+	skos:example "A birth occurs during the 12th century."@en ;
+	skos:prefLabel "occurs during"@en ;
+	skos:scopeNote "While a sub-pay period is part of a pay period, to say that a time charge is part of a pay period is distinctly odd."@en ;
+	.
+
+tolo:preferredName
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:name ;
+	skos:definition "The preferred name of a person."@en ;
+	skos:example "Gyergom Tsultrim Sengge is the preferred name of the individual called Gyergom Nyipa by the Library of Congress."@en ;
+	skos:prefLabel "preferred name"@en ;
+	skos:scopeNote
+		"The preferred/alternate distinction may be source- or system-dependent. Treasury of Lives has selected a preferred name, but other systems or sources may prefer a different name."@en ,
+		"The same name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a preferred name in both its own and the Extended Wylie systems."@en
+		;
+	.
+
+tolo:title
+	a owl:DatatypeProperty ;
+	rdfs:range rdf:langString ;
+	skos:definition "An appellation of dignity, honor, distinction, or preeminence attached to a person or family by virtue of rank, office, precedent, privilege, attainment, or lands."@en ;
+	skos:prefLabel "title"@en ;
+	.
