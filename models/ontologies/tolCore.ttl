@@ -351,14 +351,14 @@ tolo:TeacherStudentRelationship
 tolo:TimeInterval
 	a owl:Class ;
 	skos:definition "A span of time bounded by absolute start and end dates."@en ;
+	skos:editorialNote "Define TimePeriod as a subclass, specifically referring to TimeIntervals of historical significance?"^^xsd:string ;
 	skos:example "The 11th century; Jan 1, 2001 - Dec 31, 2001; the Yuan Dynasty."@en ;
 	skos:scopeNote
+		"May or may not be a time period of historical significance, such as the 12th century."^^xsd:string ,
 		"This is distinct from a gist:Duration, which describes how long a time interval lasts (e.g., one hour, 3 days, 6000 years)."@en ,
-		"May or may not be a time period of historical significance, such as the 12th century." ,
 		"Treasury of Lives uses the popular definition of a century, that is, the year 1000 is the first year of the 11th century."@en ,
 		"gist models start and end years as xsd:dateTimes, and therefore they align with ISO 8601 convention utilizing the proleptic Gregorian calendar."@en
 		;
-		skos:editorialNote "Define TimePeriod as a subclass, specifically referring to TimeIntervals of historical significance?" ;
 	.
 
 tolo:actualYear
@@ -390,6 +390,22 @@ tolo:alternateYear
 	skos:scopeNote "Differs from tolo:approximateYear, which specifies a single year but is intended to be inexact. In this case, various scholars have proposed different years. If there is an alternate year, there is no actual year; rather, both proposed dates are asserted as alternates."@en ;
 	.
 
+tolo:approximateEndYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tolo:approximateYear ;
+	skos:definition "The approximate year in which something ended."@en ;
+	skos:example "The early 19th century ended in approximately 1835."@en ;
+	skos:prefLabel "approximate end year"@en ;
+	.
+
+tolo:approximateStartYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tolo:approximateYear ;
+	skos:definition "The approximate year in which something began."@en ;
+	skos:example "The late 19th century began in approximately 1865."@en ;
+	skos:prefLabel "approximate start year"@en ;
+	.
+
 tolo:approximateYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tolo:inYear ;
@@ -399,26 +415,10 @@ tolo:approximateYear
 	skos:scopeNote "Differs from tolo:alternateYear, which is used when there is more than one proposed year. In this case, only one year is asserted, but it is intended to be inexact, thus encompassing some number of years before and/or after."@en ;
 	.
 
-tol:approximateEndYear
+tolo:birthFamilyName
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:approximateYear ;
-	skos:definition "The approximate year in which something ended."@en ;
-	skos:example "The early 19th century ended in approximately 1835."@en ;
-	skos:prefLabel "approximate end year"@en ;
-	.
-
-tol:approximateStartYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:approximateYear ;
-	skos:definition "The approximate year in which something began."@en ;
-	skos:example "The late 19th century began in approximately 1865."@en ;
-	skos:prefLabel "approximate start year"@en ;
-	.
-
-tol:birthFamilyName
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tol:familyName ;
-	rdfs:domain tol:Person ;
+	rdfs:subPropertyOf tolo:familyName ;
+	rdfs:domain tolo:Person ;
 	rdfs:range rdf:langString ;
 	skos:definition "The family name a person is assigned at birth."@en ;
 	skos:prefLabel "birth family name"@en ;
@@ -436,14 +436,14 @@ tolo:dissolutionYear
 	skos:prefLabel "dissolution year"@en ;
 	.
 
-tol:familyName
+tolo:familyName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
 	rdfs:domain [
 		a owl:Class ;
 		owl:unionOf (
-			tol:Person
-			tol:Marriage
+			tolo:Person
+			tolo:Marriage
 		) ;
 	] ;
 	rdfs:range rdf:langString ;
@@ -776,3 +776,4 @@ tolo:title
 	skos:definition "An appellation of dignity, honor, distinction, or preeminence attached to a person or family by virtue of rank, office, precedent, privilege, attainment, or lands."@en ;
 	skos:prefLabel "title"@en ;
 	.
+
