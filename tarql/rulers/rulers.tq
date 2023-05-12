@@ -31,13 +31,13 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 
 CONSTRUCT {
 
-	<https://taxonomies.tol.org/t/rulers>
+	<https://taxonomies.treasuryoflives.org/rulers>
         a owl:Ontology ;
         skos:definition "Defines ruler roles."@en ;
         skos:prefLabel "Rulers"@en ;
         skos:editorialNote "Auto-generated via TARQL."@en ;
-	    owl:imports <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
-	    owl:versionIRI <https://taxonomies.tol.org/t/rulersX.x.x> ;
+	    owl:imports <https://ontologies.treasuryoflives.org/tolCoreX.x.x> ;
+	    owl:versionIRI <https://taxonomies.treasuryoflives.org/rulersX.x.x> ;
 	.
 
     tolx:_Role_Ruler a tolo:Role ;

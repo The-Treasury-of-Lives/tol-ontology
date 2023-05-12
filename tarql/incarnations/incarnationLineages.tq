@@ -34,13 +34,13 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 
 CONSTRUCT {
 
-    <https://data.tol.org/d/incarnationLineages>
+    <https://data.treasuryoflives.org/incarnationLineages>
         a owl:Ontology ;
         skos:definition "Defines incarnation lineages with associated monasteries and traditions."^^xsd:string ;
         skos:prefLabel "Incarnation Lineages"^^xsd:string ;
         skos:editorialNote "Auto-generated via TARQL." ;
-	    owl:imports <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
-	    owl:versionIRI <https://data.tol.org/d/incarnationLineagesX.x.x> ;
+	    owl:imports <https://ontologies.treasuryoflives.org/tolCoreX.x.x> ;
+	    owl:versionIRI <data.treasuryoflives.org/incarnationLineagesX.x.x> ;
 	.
 
     ?incarnation_lineage_iri a tolo:IncarnationLineage ;

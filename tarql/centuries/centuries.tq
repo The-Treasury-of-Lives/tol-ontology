@@ -34,13 +34,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 CONSTRUCT {
 
-	<https://data.tol.org/d/centuries>
+	<https://data.treasuryoflives.org/centuries>
         a owl:Ontology ;
         skos:definition "Defines full and partial centuries."@en ;
         skos:prefLabel "Centuries"@en ;
         skos:editorialNote "Auto-generated via TARQL."@en ;
-	    owl:imports <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
-	    owl:versionIRI <https://data.tol.org/d/centuriesX.x.x> ;
+	    owl:imports <https://ontologies.treasuryoflives.org/tolCoreX.x.x> ;
+	    owl:versionIRI <https://data.treasuryoflives.org/centuriesX.x.x> ;
 	.
 
     ?century_iri a told:TimeInterval ;
