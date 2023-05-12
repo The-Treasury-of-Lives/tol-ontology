@@ -14,11 +14,11 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://ontologies.treasuryoflives.org/o/tolCore>
+<https://ontologies.treasuryoflives.org/tolCore>
 	a owl:Ontology ;
 	dct:license "TBD"^^xsd:string ;
 	owl:imports <https://ontologies.semanticarts.com/o/gistCore11.1.0> ;
-	owl:versionIRI <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
+	owl:versionIRI <https://ontologies.treasuryoflives.org/tolCoreX.x.x> ;
 	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, facilitate the consumption of external RDF, and to to enhance the narrative text with structured data."@en ;
 	skos:editoralNote
 		"Add rdfs:isDefinedBy using onto-toolkit."@en ,

@@ -1,10 +1,10 @@
 # imports: http://purl.bdrc.io/ontology/types/Gender
-# imports: https://data.tol.org/d/centuriesX.x.x
-# imports: https://data.tol.org/d/incarnationLineagesX.x.x
+# imports: https://data.treasuryoflives.org/centuriesX.x.x
+# imports: https://data.treasuryoflives.org/incarnationLineagesX.x.x
 # imports: https://ontologies.semanticarts.com/o/gistMediaTypes11.1.0
-# imports: https://ontologies.treasuryoflives.org/o/tolCoreX.x.x
-# imports: https://taxonomies.tol.org/t/marriageRanksX.x.x
-# imports: https://taxonomies.tol.org/t/marriageTerminationCausesX.x.x
+# imports: https://ontologies.treasuryoflives.org/tolCoreX.x.x
+# imports: https://taxonomies.treasuryoflives.org/marriageRanksX.x.x
+# imports: https://taxonomies.treasuryoflives.org/marriageTerminationCausesX.x.x
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -20,17 +20,17 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://ontologies.treasuryoflives.org/o/tolAll>
+<https://ontologies.treasuryoflives.org/tolAll>
 	a owl:Ontology ;
 	dct:license "TBD"^^xsd:string ;
 	owl:imports
 		<http://purl.bdrc.io/ontology/types/Gender> ,
-		<https://data.tol.org/d/centuriesX.x.x> ,
-		<https://data.tol.org/d/incarnationLineagesX.x.x> ,
+		<https://data.treasuryoflives.org/centuriesX.x.x> ,
+		<https://data.treasuryoflives.org/incarnationLineagesX.x.x> ,
 		<https://ontologies.semanticarts.com/o/gistMediaTypes11.1.0> ,
-		<https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ,
-		<https://taxonomies.tol.org/t/marriageRanksX.x.x> ,
-		<https://taxonomies.tol.org/t/marriageTerminationCausesX.x.x>
+		<https://ontologies.treasuryoflives.org/tolCoreX.x.x> ,
+		<https://taxonomies.treasuryoflives.org/marriageRanksX.x.x> ,
+		<https://taxonomies.treasuryoflives.org/marriageTerminationCausesX.x.x>
 		;
 	owl:versionID <https://ontologies.treasuryoflives.org/tolAllX.x.x> ;
 	skos:definition "A convenience file that provides a single point of entry to the Treasury of Lives Ontology. It does not itself define any terms, but rather specifies the full set of ontology and taxonomy imports, other than those imported directly by tolo:core."@en ;

@@ -1,4 +1,4 @@
-# imports: https://ontologies.treasuryoflives.org/o/tolCoreX.x.x
+# imports: https://ontologies.treasuryoflives.org/tolCoreX.x.x
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
@@ -14,10 +14,10 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://taxonomies.tol.org/t/marriageTerminationCauses>
+<https://taxonomies.treasuryoflives.org/marriageTerminationCauses>
 	a owl:Ontology ;
-	owl:imports <https://ontologies.treasuryoflives.org/o/tolCoreX.x.x> ;
-	owl:versionIRI <https://taxonomies.tol.org/t/marriageTerminationCausesX.x.x> ;
+	owl:imports <https://ontologies.treasuryoflives.org/tolCoreX.x.x> ;
+	owl:versionIRI <https://taxonomies.treasuryoflives.org/marriageTerminationCausesX.x.x> ;
 	skos:definition "Defines reasons for terminating a marriage."@en ;
 	skos:prefLabel "Marriage Termination Causes"@en ;
 	.

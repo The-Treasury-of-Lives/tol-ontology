@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="User Entered Import Resolution" name="https://ontologies.semanticarts.com/o/gistCore11.0.0" uri="gistCore11.0.0.ttl"/>
-    <uri id="User Entered Import Resolution" name="https://ontologies.treasuryoflives.org/o/tolCore" uri="tolCore.ttl"/>
-    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base=""/>
-</catalog>
