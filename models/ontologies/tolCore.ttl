@@ -101,8 +101,79 @@ tolo:Deity
 	skos:prefLabel "Deity"@en ;
 	.
 
-tolo:GenealogicalGroup
+tolo:Clan	
 	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			tolo:KinshipGroup ;
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasMember ;
+				owl:allValuesFrom [
+					a owl:Class ;
+					owl:unionOf (
+						tolo:Person
+						tolo:Family 
+						tolo:Clan
+					) ;
+				] ;
+			] ;
+		) ;
+	];
+	skos:prefLabel "Clan" ;
+	skos:editorialNote "Can a person belong directly to a clan, or only through a family? Data shows people as direct clan members." ;
+	skos:definition "";
+	.
+
+tolo:Family	
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			tolo:KinshipGroup ;
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasMember ;
+				owl:allValuesFrom tolo:Person ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty [ owl:inverseOf gist:hasMember ] ;
+				owl:onClass tolo:Clan ;
+				owl:qualifiedCardinality 1; 
+			]
+		) ;
+	];
+	skos:prefLabel "Family" ;
+	skos:definition "";
+	.
+
+
+tolo:FamilyType 
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:Category 
+			[
+				a owl:Restriction ;
+				owl:onProperty [ owl:inverseOf gist:isCategorizedBy ] ;
+				owl:allValuesFrom tolo:Family ;
+			]
+		) ;
+	] ;
+	skos:prefLabel "Family Type" ;
+	skos:definition "Classifies families." ;
+	skos:example "The Dekhar family is Lhasa Aristocracy." ;
+	.
+
+tolo:KinshipGroup
+	a owl:Class ;
+	owl:disjointUnionOf (
+		tolo:Clan
+		tolo:Family
+	);
 	rdfs:subClassOf
 		gist:Collection ,
 		[
@@ -110,19 +181,17 @@ tolo:GenealogicalGroup
 			owl:onProperty gist:hasMember ;
 			owl:allValuesFrom [
 				owl:unionOf (
+					tolo:Clan
+					tolo:Family
 					tolo:Person
-					tolo:GenealogicalGroup
 				) ;
 			] ;
 		]
 		;
-	skos:definition "A social unit consisting of people with a common ancestor."@en ;
-	skos:example "Nuclear family, extended family, clan, tribe."@en ;
-	skos:prefLabel "Genealogical Grouping"@en ;
-	skos:scopeNote
-		"No subclasses, such as family and clan, are defined because the distinctions are not clear-cut. Instead, we use partitive relationships to describe the relationships between different groupings."@en ,
-		"This class encompasses successively larger and more inclusive genealogical groupings, such as family and clan. A person is said to be a member of a genealogical grouping, and a smaller genealogical grouping is a member of a larger one."@en
-		;
+	skos:definition "A social unit consisting of people with a common ancestor. Includes both clans and families."@en ;
+	skos:scopeNote "Also includes those adopted into the clan." ;
+	skos:example "."@en ;
+	skos:prefLabel "Kinship Group"@en ;
 	.
 
 tolo:Incarnation
@@ -776,4 +845,3 @@ tolo:title
 	skos:definition "An appellation of dignity, honor, distinction, or preeminence attached to a person or family by virtue of rank, office, precedent, privilege, attainment, or lands."@en ;
 	skos:prefLabel "title"@en ;
 	.
-

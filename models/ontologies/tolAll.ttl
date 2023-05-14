@@ -30,10 +30,10 @@
 		<https://ontologies.semanticarts.com/o/gistMediaTypes11.1.0> ,
 		<https://ontologies.treasuryoflives.org/tolCoreX.x.x> ,
 		<https://taxonomies.treasuryoflives.org/marriageRanksX.x.x> ,
-		<https://taxonomies.treasuryoflives.org/marriageTerminationCausesX.x.x>
+		<https://taxonomies.treasuryoflives.org/marriageTerminationCausesX.x.x> ,
+		<https://taxonomies.treasuryoflives.org/familyTypesX.x.x>
 		;
 	owl:versionID <https://ontologies.treasuryoflives.org/tolAllX.x.x> ;
 	skos:definition "A convenience file that provides a single point of entry to the Treasury of Lives Ontology. It does not itself define any terms, but rather specifies the full set of ontology and taxonomy imports, other than those imported directly by tolo:core."@en ;
 	skos:prefLabel "Treasury of Lives Ontology"@en ;
 	.
-

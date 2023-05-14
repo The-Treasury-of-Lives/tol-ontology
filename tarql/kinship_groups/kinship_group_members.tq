@@ -18,11 +18,9 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 
 ## COLUMNS
 # Katie - these are instructions. Please clean this up once you're done so it's just a list of column headers, as you see in persons.tq. You can write "(not converted)" after the ones that aren't converted.
-# TOL Tradition ID: ignore
+# TOL Tradition ID: use to build Tradition IRI but strip out "TOL": told:_Tradition_<number>
 # BDRC T ID: owl:sameAs bdr:<bdrc-it> - make sure the links really work, though. The one I tried didn't. We can ask Katie.
-# Name:
-#   gist:name with @en language tag - see how people names are done
-#   Also use to build IRI: told:_Tradition_<name-with-underscores-for-spaces>
+# Name: gist:name with @en language tag - see how people names are done
 # Wylie name: gist:name with @bo-x-ewts language tag
 # Chinese: gist:name with @zh-Hani language tag
 # Wikidata ID: owl:sameAs wiki:<wikidata-id>
