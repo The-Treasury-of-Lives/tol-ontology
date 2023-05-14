@@ -1,0 +1,858 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://ontologies.semanticarts.com/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://data.treasuryoflives.org/> .
+@prefix tolo: <https://ontologies.treasuryoflives.org/tol/> .
+@prefix tolx: <https://taxonomies.treasuryoflives.org/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:_Clan_1011
+	gist:hasMember told:_Person_8583 ;
+	.
+
+told:_Clan_1040
+	gist:hasMember
+		told:_Person_13502 ,
+		told:_Person_13550 ,
+		told:_Person_3072 ,
+		told:_Person_6331 ,
+		told:_Person_6334 ,
+		told:_Person_6335 ,
+		told:_Person_6336 ,
+		told:_Person_6337 ,
+		told:_Person_6338 ,
+		told:_Person_6339 ,
+		told:_Person_6341 ,
+		told:_Person_6342 ,
+		told:_Person_6343 ,
+		told:_Person_6344 ,
+		told:_Person_6345 ,
+		told:_Person_6346 ,
+		told:_Person_6348 ,
+		told:_Person_6349 ,
+		told:_Person_6350 ,
+		told:_Person_6353
+		;
+	.
+
+told:_Clan_1067
+	gist:hasMember told:_Person_7681 ;
+	.
+
+told:_Clan_1078
+	gist:hasMember told:_Person_3152 ;
+	.
+
+told:_Clan_1090
+	gist:hasMember
+		told:_Person_6567 ,
+		told:_Person_6568
+		;
+	.
+
+told:_Clan_1156
+	gist:hasMember
+		told:_Person_10561 ,
+		told:_Person_13572
+		;
+	.
+
+told:_Clan_131
+	gist:hasMember told:_Person_6110 ;
+	.
+
+told:_Clan_1375
+	gist:hasMember told:_Person_10699 ;
+	.
+
+told:_Clan_1382
+	gist:hasMember
+		told:_Person_5386 ,
+		told:_Person_6733
+		;
+	.
+
+told:_Clan_148
+	gist:hasMember told:_Person_6671 ;
+	.
+
+told:_Clan_1519
+	gist:hasMember
+		told:_Person_13722 ,
+		told:_Person_9289
+		;
+	.
+
+told:_Clan_152
+	gist:hasMember told:_Person_6159 ;
+	.
+
+told:_Clan_153
+	gist:hasMember told:_Person_3881 ;
+	.
+
+told:_Clan_1540
+	gist:hasMember told:_Person_13686 ;
+	.
+
+told:_Clan_161
+	gist:hasMember told:_Person_9169 ;
+	.
+
+told:_Clan_162
+	gist:hasMember told:_Person_490 ;
+	.
+
+told:_Clan_163
+	gist:hasMember
+		told:_Person_10904 ,
+		told:_Person_303 ,
+		told:_Person_3182
+		;
+	.
+
+told:_Clan_166
+	gist:hasMember
+		told:_Person_11117 ,
+		told:_Person_13077 ,
+		told:_Person_5615
+		;
+	.
+
+told:_Clan_168
+	gist:hasMember told:_Person_5078 ;
+	.
+
+told:_Clan_169
+	gist:hasMember
+		told:_Person_10301 ,
+		told:_Person_5999 ,
+		told:_Person_6205 ,
+		told:_Person_6856
+		;
+	.
+
+told:_Clan_171
+	gist:hasMember told:_Person_5234 ;
+	.
+
+told:_Clan_176
+	gist:hasMember
+		told:_Person_13132 ,
+		told:_Person_13140 ,
+		told:_Person_9372
+		;
+	.
+
+told:_Clan_184
+	gist:hasMember
+		told:_Person_10536 ,
+		told:_Person_10591 ,
+		told:_Person_13186 ,
+		told:_Person_1370 ,
+		told:_Person_1974 ,
+		told:_Person_2314 ,
+		told:_Person_2491 ,
+		told:_Person_2915 ,
+		told:_Person_2916 ,
+		told:_Person_2919 ,
+		told:_Person_3189 ,
+		told:_Person_3191 ,
+		told:_Person_3194 ,
+		told:_Person_3204 ,
+		told:_Person_3208 ,
+		told:_Person_3211 ,
+		told:_Person_4220 ,
+		told:_Person_4327 ,
+		told:_Person_6100 ,
+		told:_Person_7053 ,
+		told:_Person_7545 ,
+		told:_Person_9062
+		;
+	.
+
+told:_Clan_200
+	gist:hasMember
+		told:_Person_10644 ,
+		told:_Person_13081 ,
+		told:_Person_13088 ,
+		told:_Person_3178 ,
+		told:_Person_6285
+		;
+	.
+
+told:_Clan_201
+	gist:hasMember told:_Person_2733 ;
+	.
+
+told:_Clan_203
+	gist:hasMember told:_Person_8752 ;
+	.
+
+told:_Clan_211
+	gist:hasMember told:_Person_9990 ;
+	.
+
+told:_Clan_220
+	gist:hasMember
+		told:_Person_10315 ,
+		told:_Person_13072 ,
+		told:_Person_13598
+		;
+	.
+
+told:_Clan_222
+	gist:hasMember
+		told:_Person_2854 ,
+		told:_Person_6025 ,
+		told:_Person_6505 ,
+		told:_Person_8027
+		;
+	.
+
+told:_Clan_230
+	gist:hasMember
+		told:_Person_11352 ,
+		told:_Person_4630 ,
+		told:_Person_4632
+		;
+	.
+
+told:_Clan_238
+	gist:hasMember
+		told:_Person_10687 ,
+		told:_Person_4267 ,
+		told:_Person_8730
+		;
+	.
+
+told:_Clan_239
+	gist:hasMember
+		told:_Person_11441 ,
+		told:_Person_5791
+		;
+	.
+
+told:_Clan_252
+	gist:hasMember told:_Person_13081 ;
+	.
+
+told:_Clan_264
+	gist:hasMember
+		told:_Person_13509 ,
+		told:_Person_3957 ,
+		told:_Person_9590
+		;
+	.
+
+told:_Clan_281
+	gist:hasMember
+		told:_Person_3168 ,
+		told:_Person_8868
+		;
+	.
+
+told:_Clan_284
+	gist:hasMember told:_Person_4220 ;
+	.
+
+told:_Clan_438
+	gist:hasMember told:_Person_2943 ;
+	.
+
+told:_Clan_46
+	gist:hasMember
+		told:_Person_13456 ,
+		told:_Person_495
+		;
+	.
+
+told:_Clan_460
+	gist:hasMember told:_Person_8069 ;
+	.
+
+told:_Clan_463
+	gist:hasMember told:_Person_6760 ;
+	.
+
+told:_Clan_49
+	gist:hasMember
+		told:_Person_10083 ,
+		told:_Person_1108 ,
+		told:_Person_11299 ,
+		told:_Person_12553 ,
+		told:_Person_13241 ,
+		told:_Person_2798 ,
+		told:_Person_2799 ,
+		told:_Person_4626 ,
+		told:_Person_6749 ,
+		told:_Person_8460 ,
+		told:_Person_9688
+		;
+	.
+
+told:_Clan_51
+	gist:hasMember told:_Person_9612 ;
+	.
+
+told:_Clan_513
+	gist:hasMember told:_Person_5790 ;
+	.
+
+told:_Clan_53
+	gist:hasMember told:_Person_84 ;
+	.
+
+told:_Clan_54
+	gist:hasMember told:_Person_13057 ;
+	.
+
+told:_Clan_548
+	gist:hasMember told:_Person_2483 ;
+	.
+
+told:_Clan_549
+	gist:hasMember told:_Person_13199 ;
+	.
+
+told:_Clan_55
+	gist:hasMember told:_Person_9579 ;
+	.
+
+told:_Clan_550
+	gist:hasMember told:_Person_2578 ;
+	.
+
+told:_Clan_56
+	gist:hasMember told:_Person_9579 ;
+	.
+
+told:_Clan_57
+	gist:hasMember
+		told:_Person_13198 ,
+		told:_Person_4903
+		;
+	.
+
+told:_Clan_570
+	gist:hasMember
+		told:_Person_13220 ,
+		told:_Person_13221 ,
+		told:_Person_13531 ,
+		told:_Person_6668
+		;
+	.
+
+told:_Clan_577
+	gist:hasMember
+		told:_Person_13196 ,
+		told:_Person_7775
+		;
+	.
+
+told:_Clan_578
+	gist:hasMember told:_Person_10199 ;
+	.
+
+told:_Clan_579
+	gist:hasMember told:_Person_5801 ;
+	.
+
+told:_Clan_58
+	gist:hasMember told:_Person_13058 ;
+	.
+
+told:_Clan_580
+	gist:hasMember told:_Person_1564 ;
+	.
+
+told:_Clan_582
+	gist:hasMember
+		told:_Person_13190 ,
+		told:_Person_9169
+		;
+	.
+
+told:_Clan_588
+	gist:hasMember told:_Person_12785 ;
+	.
+
+told:_Clan_598
+	gist:hasMember told:_Person_11427 ;
+	.
+
+told:_Clan_600
+	gist:hasMember told:_Person_5479 ;
+	.
+
+told:_Clan_601
+	gist:hasMember told:_Person_5615 ;
+	.
+
+told:_Clan_604
+	gist:hasMember told:_Person_13083 ;
+	.
+
+told:_Clan_605
+	gist:hasMember told:_Person_10457 ;
+	.
+
+told:_Clan_606
+	gist:hasMember told:_Person_9213 ;
+	.
+
+told:_Clan_607
+	gist:hasMember
+		told:_Person_13135 ,
+		told:_Person_13174 ,
+		told:_Person_2180
+		;
+	.
+
+told:_Clan_608
+	gist:hasMember told:_Person_5408 ;
+	.
+
+told:_Clan_614
+	gist:hasMember told:_Person_9612 ;
+	.
+
+told:_Clan_619
+	gist:hasMember told:_Person_2980 ;
+	.
+
+told:_Clan_622
+	gist:hasMember told:_Person_2598 ;
+	.
+
+told:_Clan_623
+	gist:hasMember told:_Person_6037 ;
+	.
+
+told:_Clan_624
+	gist:hasMember told:_Person_13164 ;
+	.
+
+told:_Clan_625
+	gist:hasMember told:_Person_8181 ;
+	.
+
+told:_Clan_626
+	gist:hasMember
+		told:_Person_13437 ,
+		told:_Person_2539 ,
+		told:_Person_2595 ,
+		told:_Person_96
+		;
+	.
+
+told:_Clan_627
+	gist:hasMember told:_Person_2740 ;
+	.
+
+told:_Clan_628
+	gist:hasMember
+		told:_Person_12096 ,
+		told:_Person_13079
+		;
+	.
+
+told:_Clan_629
+	gist:hasMember told:_Person_13090 ;
+	.
+
+told:_Clan_630
+	gist:hasMember
+		told:_Person_11231 ,
+		told:_Person_4425 ,
+		told:_Person_4676 ,
+		told:_Person_9355 ,
+		told:_Person_9588
+		;
+	.
+
+told:_Clan_634
+	gist:hasMember told:_Person_4402 ;
+	.
+
+told:_Clan_635
+	gist:hasMember told:_Person_5078 ;
+	.
+
+told:_Clan_636
+	gist:hasMember
+		told:_Person_13142 ,
+		told:_Person_13231 ,
+		told:_Person_2789 ,
+		told:_Person_3000 ,
+		told:_Person_9394
+		;
+	.
+
+told:_Clan_639
+	gist:hasMember told:_Person_13222 ;
+	.
+
+told:_Clan_640
+	gist:hasMember
+		told:_Person_6134 ,
+		told:_Person_6721 ,
+		told:_Person_6726
+		;
+	.
+
+told:_Clan_642
+	gist:hasMember told:_Person_5902 ;
+	.
+
+told:_Clan_643
+	gist:hasMember told:_Person_7937 ;
+	.
+
+told:_Clan_644
+	gist:hasMember
+		told:_Person_3008 ,
+		told:_Person_5899
+		;
+	.
+
+told:_Clan_645
+	gist:hasMember told:_Person_13087 ;
+	.
+
+told:_Clan_646
+	gist:hasMember told:_Person_8342 ;
+	.
+
+told:_Clan_647
+	gist:hasMember told:_Person_4228 ;
+	.
+
+told:_Clan_649
+	gist:hasMember told:_Person_5 ;
+	.
+
+told:_Clan_65
+	gist:hasMember
+		told:_Person_2593 ,
+		told:_Person_5817 ,
+		told:_Person_5818 ,
+		told:_Person_5819 ,
+		told:_Person_6653
+		;
+	.
+
+told:_Clan_651
+	gist:hasMember told:_Person_10497 ;
+	.
+
+told:_Clan_653
+	gist:hasMember told:_Person_4291 ;
+	.
+
+told:_Clan_656
+	gist:hasMember
+		told:_Person_13509 ,
+		told:_Person_13566
+		;
+	.
+
+told:_Clan_66
+	gist:hasMember
+		told:_Person_11471 ,
+		told:_Person_13061 ,
+		told:_Person_3773 ,
+		told:_Person_4261 ,
+		told:_Person_5728 ,
+		told:_Person_5789
+		;
+	.
+
+told:_Clan_664
+	gist:hasMember
+		told:_Person_5500 ,
+		told:_Person_5803
+		;
+	.
+
+told:_Clan_665
+	gist:hasMember
+		told:_Person_13628 ,
+		told:_Person_13683 ,
+		told:_Person_13725 ,
+		told:_Person_9618
+		;
+	.
+
+told:_Clan_670
+	gist:hasMember told:_Person_8538 ;
+	.
+
+told:_Clan_675
+	gist:hasMember
+		told:_Person_10824 ,
+		told:_Person_8460 ,
+		told:_Person_8571
+		;
+	.
+
+told:_Clan_678
+	gist:hasMember told:_Person_8459 ;
+	.
+
+told:_Clan_680
+	gist:hasMember told:_Person_2781 ;
+	.
+
+told:_Clan_681
+	gist:hasMember told:_Person_3173 ;
+	.
+
+told:_Clan_698
+	gist:hasMember told:_Person_8651 ;
+	.
+
+told:_Clan_714
+	gist:hasMember told:_Person_2606 ;
+	.
+
+told:_Clan_72
+	gist:hasMember told:_Person_11877 ;
+	.
+
+told:_Clan_74
+	gist:hasMember told:_Person_6547 ;
+	.
+
+told:_Clan_77
+	gist:hasMember
+		told:_Person_4175 ,
+		told:_Person_6578
+		;
+	.
+
+told:_Clan_79
+	gist:hasMember
+		told:_Person_3101 ,
+		told:_Person_4368
+		;
+	.
+
+told:_Clan_81
+	gist:hasMember
+		told:_Person_13230 ,
+		told:_Person_13242 ,
+		told:_Person_13449 ,
+		told:_Person_13451 ,
+		told:_Person_2584 ,
+		told:_Person_2774 ,
+		told:_Person_2899 ,
+		told:_Person_3902 ,
+		told:_Person_3903 ,
+		told:_Person_3904 ,
+		told:_Person_3906 ,
+		told:_Person_3907 ,
+		told:_Person_620 ,
+		told:_Person_7038 ,
+		told:_Person_7040 ,
+		told:_Person_7523
+		;
+	.
+
+told:_Clan_820
+	gist:hasMember
+		told:_Person_10452 ,
+		told:_Person_7718
+		;
+	.
+
+told:_Clan_83
+	gist:hasMember told:_Person_5 ;
+	.
+
+told:_Clan_84
+	gist:hasMember told:_Person_5 ;
+	.
+
+told:_Clan_86
+	gist:hasMember
+		told:_Person_10857 ,
+		told:_Person_11056 ,
+		told:_Person_11865 ,
+		told:_Person_11909 ,
+		told:_Person_11942 ,
+		told:_Person_11986 ,
+		told:_Person_13078 ,
+		told:_Person_3028 ,
+		told:_Person_4348 ,
+		told:_Person_4350 ,
+		told:_Person_4352 ,
+		told:_Person_7622 ,
+		told:_Person_8637
+		;
+	.
+
+told:_Clan_94
+	gist:hasMember told:_Person_4167 ;
+	.
+
+told:_Clan_946
+	gist:hasMember told:_Person_13440 ;
+	.
+
+told:_Clan_966
+	gist:hasMember told:_Person_4987 ;
+	.
+
+told:_Clan_967
+	gist:hasMember
+		told:_Person_11385 ,
+		told:_Person_13152
+		;
+	.
+
+told:_Clan_969
+	gist:hasMember told:_Person_4659 ;
+	.
+
+told:_Clan_975
+	gist:hasMember told:_Person_8825 ;
+	.
+
+told:_Family_1047
+	gist:hasMember
+		told:_Person_11790 ,
+		told:_Person_11798 ,
+		told:_Person_2423
+		;
+	.
+
+told:_Family_1061
+	gist:hasMember
+		told:_Person_13519 ,
+		told:_Person_13520 ,
+		told:_Person_13521 ,
+		told:_Person_13522 ,
+		told:_Person_13523
+		;
+	.
+
+told:_Family_1063
+	gist:hasMember
+		told:_Person_13545 ,
+		told:_Person_13546 ,
+		told:_Person_13548 ,
+		told:_Person_13549
+		;
+	.
+
+told:_Family_1076
+	gist:hasMember
+		told:_Person_11796 ,
+		told:_Person_12865 ,
+		told:_Person_13534 ,
+		told:_Person_13535 ,
+		told:_Person_13536 ,
+		told:_Person_13537 ,
+		told:_Person_13538 ,
+		told:_Person_13539 ,
+		told:_Person_13541 ,
+		told:_Person_13542 ,
+		told:_Person_13543 ,
+		told:_Person_13558 ,
+		told:_Person_13559 ,
+		told:_Person_13560 ,
+		told:_Person_13561 ,
+		told:_Person_13562 ,
+		told:_Person_13563 ,
+		told:_Person_13564
+		;
+	.
+
+told:_Family_1132
+	gist:hasMember
+		told:_Person_13583 ,
+		told:_Person_13625 ,
+		told:_Person_7929 ,
+		told:_Person_9305
+		;
+	.
+
+told:_Family_1202
+	gist:hasMember told:_Person_2539 ;
+	.
+
+told:_Family_1495
+	gist:hasMember told:_Person_9301 ;
+	.
+
+told:_Family_1571
+	gist:hasMember
+		told:_Person_2418 ,
+		told:_Person_3950
+		;
+	.
+
+told:_Family_1583
+	gist:hasMember told:_Person_13724 ;
+	.
+
+told:_Family_1584
+	gist:hasMember told:_Person_13724 ;
+	.
+
+told:_Family_1590
+	gist:hasMember
+		told:_Person_13788 ,
+		told:_Person_9343
+		;
+	.
+
+told:_Family_671
+	gist:hasMember
+		told:_Person_3738 ,
+		told:_Person_5306
+		;
+	.
+
+told:_Family_691
+	gist:hasMember told:_Person_13226 ;
+	.
+
+told:_Family_930
+	gist:hasMember
+		told:_Person_13722 ,
+		told:_Person_9287 ,
+		told:_Person_9289
+		;
+	.
+
+told:_Family_931
+	gist:hasMember told:_Person_13425 ;
+	.
+
+told:_Family_932
+	gist:hasMember
+		told:_Person_11798 ,
+		told:_Person_13426 ,
+		told:_Person_9333
+		;
+	.
+
+told:_Family_933
+	gist:hasMember told:_Person_13428 ;
+	.
+
+told:_Family_940
+	gist:hasMember told:_Person_13427 ;
+	.

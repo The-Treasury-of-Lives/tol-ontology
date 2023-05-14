@@ -17,8 +17,8 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
 
 ## COLUMNS
-# Katie - these are instructions. Please clean this up once you're done so it's just a list of column headers, as you see in persons.tq. You can write "(not converted)" after the ones that aren't converted.
-# TOL Tradition ID: ignore
+# Katie - these are instructions. Please clean this up once you're done so it's just a list of column headers, as you see in persons.tq. 
+
 # BDRC T ID: owl:sameAs bdr:<bdrc-it> - make sure the links really work, though. The one I tried didn't. We can ask Katie.
 # Name:
 #   gist:name with @en language tag - see how people names are done
@@ -30,7 +30,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # Founder Name: should be able to skip, since should have been generated in persons data. Check a few to make sure.
 # Founder TOL ID: tolo:hasFounder told:_Person_<founder-tol-id> - should match people generated. Strip off alpha characters at front of ID.
 # Founder BDRC ID: shouldn't need this, since the sameAs relationships should have been generated in the person data - but check
-# Description: <formatted-text-object> gist:isAbout <tradition-iri>. For <formatted-text-object>, create gist:FormattedContent object with gist:isExpressedIn media-txt:html, gist:containedText the text. Contained text has language tag @en. IRI of description is told:_FormattedContent_Description_<tradition-local-name>. 
+# Description: <formatted-text-object> gist:isAbout <tradition-iri>. For <formatted-text-object>, create gist:FormattedContent object with gist:isExpressedIn media-txt:html, gist:containedText the text. Contained text has language tag @en. IRI of description is told:_FormattedContent_Description_Tradition_<tradition-local-name>. 
 # Add type tolo:Tradition 
 
 # Run: 

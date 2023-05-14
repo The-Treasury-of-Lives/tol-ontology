@@ -17,17 +17,48 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 told:_Family_1583
-	a tolo:KinshipGroup ;
+	a tolo:Family ;
 	owl:sameAs
-		bdr:T1384 ,
-		wiki:Q86777587
+		bdr:C24 
 		;
 	gist:isCategorizedBy tolx:_FamilyType_Lhasa_Aristocracy ;
 	tolo:preferredName
 		"Dekhar"@en ,
-		"klu khang"@bo-x-ewts ;
+		"bde mkhar"@bo-x-ewts ;
 		;
 	tolo:alternateName 
 			"Lukhang"@en ,
 		"klu khang"@bo-x-ewts ;
+	.
+
+told:_FormattedContent_Description_Family_1583
+	a gist:FormattedContent ;
+	gist:containedText '''
+<p> Dekhar, also known as Lukhang, was a Kudrag family originating in U in central Tibet. <a href="/biographies/view/Tsewang-Rabten/TBRC_P5387">Tsewang Rabten</a>, who served in numerous government posts including Prime Minister, was the family&#39;s mo...
+    '''@en ;
+	gist:isAbout told:_Family_1583 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_Clan_600
+	a tolo:Clan ;
+	owl:sameAs
+		bdr:C75 
+		;
+	tolo:preferredName
+		"Arik"@en ,
+		"a rig"@bo-x-ewts ;
+		;
+	tolo:alternateName 
+			"Sogwo Arik"@en , "Sokwo Arik"@en , "Arig"@en , "Ga Arik"@en ,
+		"sga a rig"@bo-x-ewts ;
+	.
+
+told:_FormattedContent_Description_Clan_600
+	a gist:FormattedContent ;
+	gist:containedText '''
+<p> The Arik clan, known also as Sokwo Arik, is a large, traditionally nomadic group of Tibetan-speaking Mongols native to Amdo&#39;s Mount Amnye Machen, eastern Yarmotang and Drakar Treldzong, areas that are part of present-day Qinghai. In the 16th cen...
+    '''@en ;
+	gist:isAbout told:_Clan_600 ;
+	gist:isExpressedIn media-txt:html ;
 	.

@@ -18,28 +18,31 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 
 ## COLUMNS
 # Katie - these are instructions. Please clean this up once you're done so it's just a list of column headers, as you see in persons.tq. 
+# Name: tolo:preferredName with @en language tag.
+# TOL ID: use to build IRI but strip out "TOL": told:_Clan_598, told:_Family_1583
+# Root Community Type: Use for rdf:type - tolo:Clan or tolo:Family as well as IRI infix.
+## Type Lhasa Aristocracy is type tolo:Family and gist:isCategorizedBy tolx:_FamilyType_Lhasa_Aristocracy. 
+# Wylie: tolo:preferredName with @bo-x-ewts
+# Name Variants: needs to be fixed, but will be "<name>, <language-tag>; <name>, <langauage-tag>
+
+# Description: <formatted-text-object> gist:isAbout <kinship-group-iri>. For <formatted-text-object>, create gist:FormattedContent object with gist:isExpressedIn media-txt:html, gist:containedText the text. Contained text has language tag @en. IRI of description is told:_FormattedContent_Description_(Family|Clan)_<family-or-clan-local-name>. 
+# BDRC ID: owl:sameAs bdr:<bdrc-it> - make sure the links really work, though. The one I tried didn't. We can ask Katie.
 
 
 # Run: 
-# tarql --dedup 1000 kinship_group_members.tq > kinship_group_members.ttl
+# tarql --dedupe 1000 kinship_groups.tq > kinship_groups.ttl
 
 
 CONSTRUCT {
 
-    ?group_iri gist:hasMember ?person_iri .
+
+
 
 }
 
-FROM <file:kinship_groups.csv>
+FROM <file:traditions.csv>
 
 WHERE {
     
-    BIND(REPLACE(?TOL_ID, "TOL", "") AS ?tol_id)
-    BIND(IF(?Root_Community_Type = "Clan", "Clan", "Family") AS ?group_type )
-
-    BIND(tarql:expandPrefixedName(CONCAT("told:_", ?group_type, "_", ?tol_id)) AS ?group_iri)
-
-    OPTIONAL { ?person apf:strSplit(?Members___Person_ID ";") }
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?person)) AS ?person_iri)
 
 }
