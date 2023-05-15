@@ -189,7 +189,7 @@ tolo:KinshipGroup
 		]
 		;
 	skos:definition "A social unit consisting of people with a common ancestor. Includes both clans and families."@en ;
-	skos:scopeNote "Also includes those adopted into the clan." ;
+	skos:scopeNote "Also includes those adopted into a clan." ;
 	skos:example "."@en ;
 	skos:prefLabel "Kinship Group"@en ;
 	.

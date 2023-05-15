@@ -17,32 +17,83 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
 
 ## COLUMNS
-# Katie - these are instructions. Please clean this up once you're done so it's just a list of column headers, as you see in persons.tq. 
-# Name: tolo:preferredName with @en language tag.
-# TOL ID: use to build IRI but strip out "TOL": told:_Clan_598, told:_Family_1583
-# Root Community Type: Use for rdf:type - tolo:Clan or tolo:Family as well as IRI infix.
-## Type Lhasa Aristocracy is type tolo:Family and gist:isCategorizedBy tolx:_FamilyType_Lhasa_Aristocracy. 
-# Wylie: tolo:preferredName with @bo-x-ewts
-# Name Variants: needs to be fixed, but will be "<name>, <language-tag>; <name>, <langauage-tag>
-
-# Description: <formatted-text-object> gist:isAbout <kinship-group-iri>. For <formatted-text-object>, create gist:FormattedContent object with gist:isExpressedIn media-txt:html, gist:containedText the text. Contained text has language tag @en. IRI of description is told:_FormattedContent_Description_(Family|Clan)_<family-or-clan-local-name>. 
-# BDRC ID: owl:sameAs bdr:<bdrc-it> - make sure the links really work, though. The one I tried didn't. We can ask Katie.
-
+# Name
+# TOL ID
+# Root Community Type
+# Wylie
+# Name Variants
+# Description
+# BDRC ID
 
 # Run: 
-# tarql --dedupe 1000 kinship_groups.tq > kinship_groups.ttl
-
+# tarql --dedup 1000 kinship_groups.tq > kinship_groups.ttl
 
 CONSTRUCT {
 
+    ?group_iri 
+        a ?group_type_iri ; 
+        owl:sameAs ?bdrc_id ;
+        tolo:preferredName ?preferred_name_tol , ?preferred_name_wylie ;
+        tolo:alternateName ?alternate_name ;
+        gist:isCategorizedBy ?family_type_iri ;
+        gist:hasMember ?person_iri ;
+    .
 
-
+    ?description_iri 
+        a gist:FormattedContent ;
+        gist:containedText ?Description ;
+        gist:isAbout ?group_iri ;
+	    gist:isExpressedIn media-txt:html ;
+    .
 
 }
 
-FROM <file:traditions.csv>
+FROM <file:kinship_groups.csv>
 
 WHERE {
     
+    BIND(REPLACE(?TOL_ID, "TOL", "") AS ?tol_id)
+    BIND(IF(?Root_Community_Type = "Clan", "Clan", "Family") AS ?group_type)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_", ?group_type, "_", ?tol_id)) AS ?group_iri)
+
+
+    # Equivalent BDRC resource
+    BIND(IF(?BDRC_ID != "C-NUMBER", tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_ID)), ?unbound) AS ?bdrc_id)
+
+
+    # Names
+    BIND(STRLANG(?Name, "en") AS ?preferred_name_tol)
+    BIND(STRLANG(?Wylie, "bo-x-ewts") AS ?preferred_name_wylie)
+
+    # TODO - need new data export with this format
+    # Incoming string format: name1, lang1; name2, lang2
+    # May not need if final semicolon can be stripped out in export
+    BIND(REPLACE(?Name_Variants, ";$", "") AS ?name_variants)
+    OPTIONAL { ?name_variant apf:strSplit(?name_variants "; ") }
+    BIND(REPLACE(?name_variant, ",.*", "") as ?name)
+    BIND(
+        IF(
+            # Cover a few cases of missing language tag
+            CONTAINS(?name_variant, ","),
+            REPLACE(?name_variant, ".*,", ""), 
+            ?unbound) 
+        AS ?lang)
+    BIND(IF(BOUND(?lang), STRLANG(?name, ?lang), ?name) AS ?alternate_name)
+
+
+    # Class and category
+    BIND(tarql:expandPrefixedName(CONCAT("tolo:_", ?group_type)) AS ?group_type_iri)
+
+    BIND(IF(?Root_Community_Type NOT IN ("Clan", "Family"), tarql:expandPrefixedName(CONCAT("tolx:_FamilyType_", REPLACE(?Root_Community_Type, " ", "_"))), ?unbound) AS ?family_type_iri)
+
+
+    # Description
+    #BIND(IF(BOUND(?Description), tarql:expandPrefixedNamespace(CONCAT("told:_FormattedContent_Description_", ?group_type, "_", ?tol_id)), ?unbound) AS ?description_iri)
+    BIND(tarql:expandPrefixedNamespace(CONCAT("told:_", ?group_type, "_", ?tol_id)) AS ?description_iri)
+
+
+    # Group members
+    OPTIONAL { ?person apf:strSplit(?Members___Person_ID ";") }
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?person)) AS ?person_iri)
 
 }

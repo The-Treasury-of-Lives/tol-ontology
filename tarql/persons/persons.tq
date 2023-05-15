@@ -48,8 +48,8 @@ CONSTRUCT {
         owl:sameAs ?wikidata_iri ;
         tolo:harUrl ?har_url ;
 
-        tolo:preferredName ?primary_name_tol ;
-        tolo:preferredName ?primary_name_wylie ;
+        tolo:preferredName ?preferred_name_tol ;
+        tolo:preferredName ?preferred_name_wylie ;
         tolo:title ?title_tol ;
         tolo:title ?title_wylie ;
         tolo:alternateName ?alternate_name ;
@@ -95,11 +95,11 @@ WHERE {
     # NAMES AND TITLES
 
     # TOL name and title - follow BDRC in using language tag en
-    BIND(STRLANG(?Primary_name, "en") AS ?primary_name_tol)
+    BIND(STRLANG(?Primary_name, "en") AS ?preferred_name_tol)
     BIND(STRLANG(?Primary_title, "en") AS ?title_tol)
 
     # Wylie name and title
-    BIND(STRLANG(?Wylie_name, "bo-x-ewts") AS ?primary_name_wylie)
+    BIND(STRLANG(?Wylie_name, "bo-x-ewts") AS ?preferred_name_wylie)
     BIND(STRLANG(?Wylie_title, "bo-x-ewts") AS ?title_wylie)
 
     # Incoming string format: name1, lang1; name2, lang2
@@ -110,7 +110,7 @@ WHERE {
             # Cover a few cases of missing language tag
             CONTAINS(?name_variant, ","),
             REPLACE(?name_variant, ".*,", ""), 
-            ?blank) 
+            ?unbound) 
         AS ?lang)
     BIND(IF(BOUND(?lang), STRLANG(?name, ?lang), ?name) AS ?alternate_name)
 

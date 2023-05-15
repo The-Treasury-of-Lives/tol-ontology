@@ -29,6 +29,7 @@ told:_Family_1583
 	tolo:alternateName 
 			"Lukhang"@en ,
 		"klu khang"@bo-x-ewts ;
+	gist:hasMember told:_Person_5479 ;
 	.
 
 told:_FormattedContent_Description_Family_1583
@@ -38,6 +39,7 @@ told:_FormattedContent_Description_Family_1583
     '''@en ;
 	gist:isAbout told:_Family_1583 ;
 	gist:isExpressedIn media-txt:html ;
+
 	.
 
 told:_Clan_600
@@ -52,6 +54,7 @@ told:_Clan_600
 	tolo:alternateName 
 			"Sogwo Arik"@en , "Sokwo Arik"@en , "Arig"@en , "Ga Arik"@en ,
 		"sga a rig"@bo-x-ewts ;
+			gist:hasMember told:_Person_13724 ;
 	.
 
 told:_FormattedContent_Description_Clan_600
