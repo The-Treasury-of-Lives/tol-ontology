@@ -103,48 +103,18 @@ tolo:Deity
 
 tolo:Clan	
 	a owl:Class ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
+		rdfs:subClassOf
 			tolo:KinshipGroup ;
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:hasMember ;
-				owl:allValuesFrom [
-					a owl:Class ;
-					owl:unionOf (
-						tolo:Person
-						tolo:Family 
-						tolo:Clan
-					) ;
-				] ;
-			] ;
-		) ;
-	];
+
 	skos:prefLabel "Clan" ;
-	skos:editorialNote "Can a person belong directly to a clan, or only through a family? Data shows people as direct clan members." ;
 	skos:definition "";
 	.
 
 tolo:Family	
 	a owl:Class ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
+		rdfs:subClassOf
 			tolo:KinshipGroup ;
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:hasMember ;
-				owl:allValuesFrom tolo:Person ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty [ owl:inverseOf gist:hasMember ] ;
-				owl:onClass tolo:Clan ;
-				owl:qualifiedCardinality 1; 
-			]
-		) ;
-	];
+
 	skos:prefLabel "Family" ;
 	skos:definition "";
 	.
@@ -179,13 +149,10 @@ tolo:KinshipGroup
 		[
 			a owl:Restriction ;
 			owl:onProperty gist:hasMember ;
-			owl:allValuesFrom [
-				owl:unionOf (
-					tolo:Clan
-					tolo:Family
-					tolo:Person
-				) ;
-			] ;
+			owl:allValuesFrom 
+
+					tolo:Person ;
+
 		]
 		;
 	skos:definition "A social unit consisting of people with a common ancestor. Includes both clans and families."@en ;
