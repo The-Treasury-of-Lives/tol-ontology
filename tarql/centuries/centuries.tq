@@ -141,7 +141,7 @@ WHERE {
 	# late end year is the same as the century's end year
 	
  #precedes 
-	BIND(tarql:expandPrefixedName(CONCAT("told:", LCASE(REPLACE(?precedes, ' ', '_')))) AS ?precedes_full)
+	BIND(tarql:expandPrefixedName(CONCAT("told:_TimeInterval_", LCASE(REPLACE(?precedes, ' ', '_')))) AS ?precedes_full)
 	BIND(tarql:expandPrefixedName(CONCAT("told:_TimeInterval_", LCASE(REPLACE(?precedes, ' ', '_')), "_early")) AS ?precedes_early)
   
 }
