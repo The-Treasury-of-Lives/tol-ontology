@@ -19,10 +19,10 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 ## COLUMNS
 # Katie - these are instructions. Please clean this up once you're done so it's just a list of column headers, as you see in persons.tq. 
 
+# TOL Tradition ID: Use to build namespace, stripping off "TOL": told:_Tradition_<TOL_Tradition_ID>. E.g., TOL1135 becomes told:_Tradition_1135.
 # BDRC T ID: owl:sameAs bdr:<bdrc-it> - make sure the links really work, though. The one I tried didn't. We can ask Katie.
 # Name:
 #   gist:name with @en language tag - see how people names are done
-#   Also use to build IRI: told:_Tradition_<name-with-underscores-for-spaces>
 # Wylie name: gist:name with @bo-x-ewts language tag
 # Chinese: gist:name with @zh-Hani language tag
 # Wikidata ID: owl:sameAs wiki:<wikidata-id>
