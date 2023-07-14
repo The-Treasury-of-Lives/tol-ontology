@@ -16,30 +16,12 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-told:_KinshipGroup_1590
-	a tolo:KinshipGroup ;
-	owl:sameAs bdr:C10 ;
-	gist:hasMember
-		told:_Person_13788 ,
-		told:_Person_9343
-		;
-	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
-	tolo:preferredName
-		"Dokhar"@en ,
-		"mdo mkhar"@bo-X-ewts
-		;
-	.
-
-told:_KinshipGroup_46
-	a tolo:KinshipGroup ;
-	owl:sameAs bdr:C11MS198 ;
-	gist:hasMember
-		told:_Person_13456 ,
-		told:_Person_495
-		;
-	tolo:preferredName
-		"Che"@en ,
-		"lce"@bo-X-ewts
-		;
+told:_FormattedContent_Description_KinshipGroup_56
+	a gist:FormattedContent ;
+	gist:containedText '''<p>
+	The Menge clan was based in Kham. <a href="/biographies/view/Jigme-Gyelwai-Nyugu/TBRC_p695">Jigme Gyelwai Nyugu</a> was born into this clan.</p>
+'''@en ;
+	gist:isAbout told:_KinshipGroup_56 ;
+	gist:isExpressedIn media-txt:html ;
 	.
 
