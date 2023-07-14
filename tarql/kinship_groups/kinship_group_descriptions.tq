@@ -25,6 +25,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # Description
 # BDRC ID
 
+# Convert tabs to spaces in CSV before running tarq
 # Run: 
 # tarql --dedup 1000 kinship_group_descriptions.tq > kinship_group_descriptions.ttl
 
@@ -32,14 +33,14 @@ CONSTRUCT {
 
     ?description_iri 
         a gist:FormattedContent ;
-        gist:containedText ?description ;
+        gist:containedText ?description_en ;
         gist:isAbout ?kinship_group_iri ;
 	    gist:isExpressedIn media-txt:html ;
     .
 
 }
 
-FROM <file:kinship-descriptions-2023-05-23.csv>
+FROM <file:kinship_group_descriptions_2023-05-23.csv>
 
 WHERE {
     
@@ -47,5 +48,6 @@ WHERE {
 
     # Description
     BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_KinshipGroup_", ?kinship_group_id)) AS ?description_iri)
+    BIND(STRLANG(?description, "en") AS ?description_en)
     
 }
