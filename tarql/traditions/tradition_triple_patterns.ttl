@@ -33,9 +33,10 @@ told:_Tradition_1135
 		;
 	gist:name
 		"Barom Kagyu"@en ,
-		"ba' rom bka' brgyud"@bo-x-ewts ,
-		"马尔巴噶举"@zh-Hani
+		"ba' rom bka' brgyud"@bo-X-ewts ,
+		"马尔巴噶举"@zh-HANI
 		;
-	tolo:hasFounder told:_Person_3266 ;
-	tolo:hasParentEntity told:_Tradition_Marpa_Kagyu ;
+	tolo:hasFounder told:_Person_3181 ;
+	tolo:hasParentEntity told:_Tradition_6 ;
 	.
+

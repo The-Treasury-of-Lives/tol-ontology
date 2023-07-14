@@ -17,21 +17,19 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
 
 ## COLUMNS
-# Katie - these are instructions. Please clean this up once you're done so it's just a list of column headers, as you see in persons.tq. 
+# Katie - these are instructions. Please clean this up once you're done so it's just a list of column headers, as you see in kinship_groups.tq. 
 
-# TOL Tradition ID: Use to build namespace, stripping off "TOL": told:_Tradition_<TOL_Tradition_ID>. E.g., TOL1135 becomes told:_Tradition_1135.
-# BDRC T ID: owl:sameAs bdr:<bdrc-it> - make sure the links really work, though. The one I tried didn't. We can ask Katie.
+# TOL Tradition ID: Use to build IRI, stripping off "TOL": told:_Tradition_<TOL_Tradition_ID>. E.g., TOL1135 becomes told:_Tradition_1135.
+# Add type tolo:Tradition 
+# BDRC T ID: owl:sameAs bdr:<bdrc-t-id> - We need to make sure the links work. The one I tried didn't. We can ask Katie about that.
 # Name:
 #   gist:name with @en language tag - see how people names are done
 # Wylie name: gist:name with @bo-x-ewts language tag
 # Chinese: gist:name with @zh-Hani language tag
 # Wikidata ID: owl:sameAs wiki:<wikidata-id>
 # Parent: tolo:hasParentEntity told:_Tradition_<number>
-# Founder Name: should be able to skip, since should have been generated in persons data. Check a few to make sure.
 # Founder TOL ID: tolo:hasFounder told:_Person_<founder-tol-id> - should match people generated. Strip off alpha characters at front of ID.
-# Founder BDRC ID: shouldn't need this, since the sameAs relationships should have been generated in the person data - but check
-# Description: <formatted-text-object> gist:isAbout <tradition-iri>. For <formatted-text-object>, create gist:FormattedContent object with gist:isExpressedIn media-txt:html, gist:containedText the text. Contained text has language tag @en. IRI of description is told:_FormattedContent_Description_Tradition_<tradition-local-name>. 
-# Add type tolo:Tradition 
+# Description: <formatted-text-object> gist:isAbout <tradition-iri>. See triple patterns.
 
 # Run: 
 # tarql --dedup 1000 traditions.tq > traditions.ttl
@@ -50,7 +48,7 @@ CONSTRUCT {
 
 }
 
-FROM <file:traditions.csv>
+FROM <file:traditions_2023-05-22.csv>
 
 WHERE {
     
