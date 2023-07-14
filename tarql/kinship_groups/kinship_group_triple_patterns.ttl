@@ -26,7 +26,7 @@ told:_KinshipGroup_1590
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
 	tolo:preferredName
 		"Dokhar"@en ,
-		"mdo mkhar"@bo-x-ewts
+		"mdo mkhar"@bo-X-ewts
 		;
 	.
 
@@ -39,7 +39,7 @@ told:_KinshipGroup_46
 		;
 	tolo:preferredName
 		"Che"@en ,
-		"lce"@bo-x-ewts
+		"lce"@bo-X-ewts
 		;
 	.
 

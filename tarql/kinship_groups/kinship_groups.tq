@@ -26,7 +26,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # Members
 
 # Run: 
-# tarql --dedup 1000 kinship_group_names.tq > kinship_groups.ttl
+# tarql --dedup 1000 kinship_groups.tq > kinship_groups.ttl
 
 CONSTRUCT {
 
@@ -42,7 +42,7 @@ CONSTRUCT {
 
 }
 
-FROM <file:kinship-names-2023-05-25.csv>
+FROM <file:kinship_groups_2023-05-25.csv>
 
 WHERE {
     
@@ -58,7 +58,7 @@ WHERE {
     BIND(STRLANG(?Chinese, "zh-Hani") AS ?preferred_name_chinese)
 
     # Class and category
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_KinshipGroupType_", ?Family_Type_Name)) AS ?kinship_group_type_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_KinshipGroupType_", REPLACE(?Family_Type_Name, ' ', '_'))) AS ?kinship_group_type_iri)
 
     # Group members
     OPTIONAL { ?person apf:strSplit(?Members ";") }
