@@ -30,10 +30,10 @@ serialize_file() {
         echo Skipping file $file. 
         return
     fi
-    echo Reserializing $file into a standard format.
+    echo Serializing $file into a standard format.
     tmp=$file.bak
     cp $file $tmp
-    java -jar `dirname "$0"`/rdf-toolkit.jar -tfmt $format -sdt explicit -dtd -ibn -s $file -t $tmp 
+    java -jar `dirname "$0"`/rdf-toolkit.jar -tfmt $format -sdt explicit -dtd -ibn -sni -s $file -t $tmp 
     mv $tmp $file
 }
 
@@ -55,7 +55,6 @@ fi
 if [ ${#args[@]} -eq 1 ] ; then 
     file=$1      
     if [ -f $file ] ; then
-        echo serializing $file
         serialize_file $file
     elif [ -d $file ]; then
         # Remove a trailing slash (for printing filenames).
@@ -68,4 +67,4 @@ else
     done
 fi
 
-echo Done!
+echo Done serializing files!
