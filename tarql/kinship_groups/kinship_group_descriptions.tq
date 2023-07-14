@@ -1,0 +1,53 @@
+PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
+PREFIX bdr: <http://purl.bdrc.io/resource/> 
+PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gist: <https://ontologies.semanticarts.com/gist/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX tolo: <https://ontologies.treasuryoflives.org/tol/>
+PREFIX tolx: <https://taxonomies.treasuryoflives.org/>
+PREFIX told: <https://data.treasuryoflives.org/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wiki: <https://www.wikidata.org/wiki/>
+PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
+
+## COLUMNS
+# Name
+# TOL ID
+# Root Community Type
+# Wylie
+# Name Variants
+# Description
+# BDRC ID
+
+# Convert tabs to spaces in CSV before running tarq
+# Run: 
+# tarql --dedup 1000 kinship_group_descriptions.tq > kinship_group_descriptions.ttl
+
+CONSTRUCT {
+
+    ?description_iri 
+        a gist:FormattedContent ;
+        gist:containedText ?description_en ;
+        gist:isAbout ?kinship_group_iri ;
+	    gist:isExpressedIn media-txt:html ;
+    .
+
+}
+
+FROM <file:kinship_group_descriptions_2023-05-23.csv>
+
+WHERE {
+    
+    BIND(tarql:expandPrefixedName(CONCAT("told:_KinshipGroup_", ?kinship_group_id)) AS ?kinship_group_iri)
+
+    # Description
+    BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_KinshipGroup_", ?kinship_group_id)) AS ?description_iri)
+    BIND(STRLANG(?description, "en") AS ?description_en)
+    
+}
