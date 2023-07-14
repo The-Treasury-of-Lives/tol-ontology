@@ -19,81 +19,49 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 ## COLUMNS
 # Name
 # TOL ID
-# Root Community Type
-# Wylie
-# Name Variants
-# Description
+# Family Type Name
+# Wylie Name
+# Chinese
 # BDRC ID
+# Members
 
 # Run: 
-# tarql --dedup 1000 kinship_groups.tq > kinship_groups.ttl
+# tarql --dedup 1000 kinship_group_names.tq > kinship_groups.ttl
 
 CONSTRUCT {
 
-    ?group_iri 
-        a ?group_type_iri ; 
+    ?kinship_group_iri 
+        a tolo:KinshipGroup ; 
         owl:sameAs ?bdrc_id ;
-        tolo:preferredName ?preferred_name_tol , ?preferred_name_wylie ;
-        tolo:alternateName ?alternate_name ;
-        gist:isCategorizedBy ?family_type_iri ;
+        tolo:preferredName ?preferred_name_tol , 
+            ?preferred_name_wylie ,
+            ?preferred_name_chinese ;
+        gist:isCategorizedBy ?kinship_group_type_iri ;
         gist:hasMember ?person_iri ;
-    .
-
-    ?description_iri 
-        a gist:FormattedContent ;
-        gist:containedText ?Description ;
-        gist:isAbout ?group_iri ;
-	    gist:isExpressedIn media-txt:html ;
     .
 
 }
 
-FROM <file:kinship_groups.csv>
+FROM <file:kinship-names-2023-05-25.csv>
 
 WHERE {
     
     BIND(REPLACE(?TOL_ID, "TOL", "") AS ?tol_id)
-    BIND(IF(?Root_Community_Type = "Clan", "Clan", "Family") AS ?group_type)
-    BIND(tarql:expandPrefixedName(CONCAT("told:_", ?group_type, "_", ?tol_id)) AS ?group_iri)
-
+    BIND(tarql:expandPrefixedName(CONCAT("told:_KinshipGroup_", ?tol_id)) AS ?kinship_group_iri)
 
     # Equivalent BDRC resource
-    BIND(IF(?BDRC_ID != "C-NUMBER", tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_ID)), ?unbound) AS ?bdrc_id)
-
+    BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_ID)) AS ?bdrc_id)
 
     # Names
     BIND(STRLANG(?Name, "en") AS ?preferred_name_tol)
-    BIND(STRLANG(?Wylie, "bo-x-ewts") AS ?preferred_name_wylie)
-
-    # TODO - need new data export with this format
-    # Incoming string format: name1, lang1; name2, lang2
-    # May not need if final semicolon can be stripped out in export
-    BIND(REPLACE(?Name_Variants, ";$", "") AS ?name_variants)
-    OPTIONAL { ?name_variant apf:strSplit(?name_variants "; ") }
-    BIND(REPLACE(?name_variant, ",.*", "") as ?name)
-    BIND(
-        IF(
-            # Cover a few cases of missing language tag
-            CONTAINS(?name_variant, ","),
-            REPLACE(?name_variant, ".*,", ""), 
-            ?unbound) 
-        AS ?lang)
-    BIND(IF(BOUND(?lang), STRLANG(?name, ?lang), ?name) AS ?alternate_name)
-
+    BIND(STRLANG(?Wylie_Name, "bo-x-ewts") AS ?preferred_name_wylie)
+    BIND(STRLANG(?Chinese, "zh-Hani") AS ?preferred_name_chinese)
 
     # Class and category
-    BIND(tarql:expandPrefixedName(CONCAT("tolo:_", ?group_type)) AS ?group_type_iri)
-
-    BIND(IF(?Root_Community_Type NOT IN ("Clan", "Family"), tarql:expandPrefixedName(CONCAT("tolx:_FamilyType_", REPLACE(?Root_Community_Type, " ", "_"))), ?unbound) AS ?family_type_iri)
-
-
-    # Description
-    #BIND(IF(BOUND(?Description), tarql:expandPrefixedNamespace(CONCAT("told:_FormattedContent_Description_", ?group_type, "_", ?tol_id)), ?unbound) AS ?description_iri)
-    BIND(tarql:expandPrefixedNamespace(CONCAT("told:_", ?group_type, "_", ?tol_id)) AS ?description_iri)
-
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_KinshipGroupType_", ?Family_Type_Name)) AS ?kinship_group_type_iri)
 
     # Group members
-    OPTIONAL { ?person apf:strSplit(?Members___Person_ID ";") }
+    OPTIONAL { ?person apf:strSplit(?Members ";") }
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?person)) AS ?person_iri)
 
 }

@@ -1,4 +1,3 @@
-12:24:46 WARN  exec            :: URI <http://tarql.github.io/tarql#expandPrefixedNamespace> has no registered function factory
 PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
 PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -17,170 +16,198 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 
-told:_Clan_598  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_598
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS164 ;
         tolo:preferredName  "Adro"@en ;
         tolo:preferredName  "a gro"@bo-x-ewts ;
         gist:hasMember      told:_Person_11427 .
 
-told:_Clan_614  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_614
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS165 ;
         tolo:preferredName  "Akyong"@en ;
         tolo:preferredName  "a skyong"@bo-x-ewts ;
         gist:hasMember      told:_Person_9612 .
 
-told:_Clan_698  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_698
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Apang"@en ;
         tolo:preferredName  "a phang"@bo-x-ewts ;
         gist:hasMember      told:_Person_8651 .
 
-told:_Clan_600  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_600
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C75 ;
         tolo:preferredName  "Arik"@en ;
         tolo:preferredName  "a rig"@bo-x-ewts ;
-        tolo:alternateName  "Sogwo Arik" ;
-        gist:hasMember      told:_Person_5479 ;
-        tolo:alternateName  "Sokwo Arik" ;
-        tolo:alternateName  "Arig" ;
-        tolo:alternateName  "Ga Arik" ;
-        tolo:alternateName  "sga a rig" .
+        gist:hasMember      told:_Person_5479 .
 
-told:_Clan_602  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_602
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS166 ;
         tolo:preferredName  "Azha"@en ;
-        tolo:preferredName  "a zha"@bo-x-ewts .
+        tolo:preferredName  "a zha "@bo-x-ewts .
 
-told:_Clan_592  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_592
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Ba"@en ;
-        tolo:preferredName  "sba"@bo-x-ewts ;
-        tolo:alternateName  "ba'" ;
-        tolo:alternateName  "dba" .
+        tolo:preferredName  "sba"@bo-x-ewts .
 
-told:_Clan_601  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_601
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS168 ;
         tolo:preferredName  "Ban"@en ;
         tolo:preferredName  "ban"@bo-x-ewts ;
         gist:hasMember      told:_Person_5615 .
 
-told:_Clan_649  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_649
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS137 ;
         tolo:preferredName  "Begu"@en ;
         tolo:preferredName  "be gu"@bo-x-ewts ;
         gist:hasMember      told:_Person_5 .
 
-told:_Clan_604  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_604
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Ber"@en ;
         tolo:preferredName  "ber"@bo-x-ewts ;
         gist:hasMember      told:_Person_13083 .
 
-told:_Clan_683  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_683
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS213 ;
         tolo:preferredName  "Bitsa"@en ;
         tolo:preferredName  "sbi tsha"@bo-x-ewts .
 
-told:_Clan_47  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_47
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS131 ;
         tolo:preferredName  "Bochung"@en ;
-        tolo:preferredName  "bo chung"@bo-x-ewts .
+        tolo:preferredName  "bo chung "@bo-x-ewts .
 
-told:_Clan_1011  rdf:type   tolo:_Clan ;
+told:_KinshipGroup_1011
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Chakdu Nyarong"@en ;
         tolo:preferredName  "lcags mdud nyag rong"@bo-x-ewts ;
         gist:hasMember      told:_Person_8583 .
 
-told:_Clan_211  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_211
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Chakgong"@en ;
         tolo:preferredName  "lcag gong"@bo-x-ewts ;
         gist:hasMember      told:_Person_9990 .
 
-told:_Clan_605  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_605
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS197 ;
         tolo:preferredName  "Chakhung"@en ;
         tolo:preferredName  "lcag khung"@bo-x-ewts ;
         gist:hasMember      told:_Person_10457 .
 
-told:_Clan_46  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_46
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS198 ;
         tolo:preferredName  "Che"@en ;
         tolo:preferredName  "lce"@bo-x-ewts ;
         gist:hasMember      told:_Person_495 ;
         gist:hasMember      told:_Person_13456 .
 
-told:_Clan_666  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_666
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C80 ;
         tolo:preferredName  "Chim"@en ;
-        tolo:preferredName  "mchims"@bo-x-ewts ;
-        tolo:alternateName  "chims" .
+        tolo:preferredName  "mchims"@bo-x-ewts .
 
-told:_Clan_659  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_659
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Cho"@en .
 
-told:_Clan_147  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_147
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Chungpa"@en ;
         tolo:preferredName  "gcung pa"@bo-x-ewts .
 
-told:_Clan_281  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_281
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS184 ;
         tolo:preferredName  "Dak"@en ;
         tolo:preferredName  "dwags"@bo-x-ewts ;
         gist:hasMember      told:_Person_3168 ;
         gist:hasMember      told:_Person_8868 .
 
-told:_Clan_51  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_51
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Dawa"@en ;
         tolo:preferredName  "zla ba"@bo-x-ewts ;
         gist:hasMember      told:_Person_9612 .
 
-told:_Clan_967  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_967
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Den Atub Tsang"@en ;
         tolo:preferredName  "dan a thub tshang"@bo-x-ewts ;
         gist:hasMember      told:_Person_11385 ;
         gist:hasMember      told:_Person_13152 .
 
-told:_Clan_658  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_658
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Denma"@en ;
         tolo:preferredName  "ldan ma"@bo-x-ewts .
 
-told:_Clan_606  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_606
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS219 ;
         tolo:preferredName  "Depa Tonpo"@en ;
         gist:hasMember      told:_Person_9213 .
 
-told:_Clan_975  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_975
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Dilgo"@en ;
         tolo:preferredName  "dil mgo"@bo-x-ewts ;
         gist:hasMember      told:_Person_8825 .
 
-told:_Clan_131  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_131
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C71 ;
         tolo:preferredName  "Dong"@en ;
         tolo:preferredName  "ldong"@bo-x-ewts ;
         gist:hasMember      told:_Person_6110 .
 
-told:_Clan_619  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_619
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS169 ;
         tolo:preferredName  "Dra"@en ;
         tolo:preferredName  "sbra"@bo-x-ewts ;
         gist:hasMember      told:_Person_2980 .
 
-told:_Clan_820  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_820
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS171 ;
         tolo:preferredName  "Drangti"@en ;
+        tolo:preferredName  "brang ti"@bo-x-ewts ;
         gist:hasMember      told:_Person_7718 ;
-        gist:hasMember      told:_Person_10452 .
+        gist:hasMember      told:_Person_10452 ;
+        gist:hasMember      told:_Person_13246 ;
+        gist:hasMember      told:_Person_13788 ;
+        gist:hasMember      told:_Person_13794 ;
+        gist:hasMember      told:_Person_13795 ;
+        gist:hasMember      told:_Person_13797 .
 
-told:_Clan_54  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_54
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS172 ;
         tolo:preferredName  "Dre"@en ;
         tolo:preferredName  "bre"@bo-x-ewts ;
         gist:hasMember      told:_Person_13057 .
 
-told:_Clan_69  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_69
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS170 ;
-        tolo:preferredName  "Drenka"@en ;
+        tolo:preferredName  "Drenka "@en ;
         tolo:preferredName  "bran ka"@bo-x-ewts .
 
-told:_Clan_264  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_264
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS186 ;
         tolo:preferredName  "Dro"@en ;
         tolo:preferredName  "gro"@bo-x-ewts ;
@@ -188,16 +215,17 @@ told:_Clan_264  rdf:type    tolo:_Clan ;
         gist:hasMember      told:_Person_9590 ;
         gist:hasMember      told:_Person_13509 .
 
-told:_Clan_166  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_166
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS173 ;
         tolo:preferredName  "Drokmi"@en ;
         tolo:preferredName  "brog mi"@bo-x-ewts ;
-        tolo:alternateName  "Drogmi" ;
         gist:hasMember      told:_Person_5615 ;
         gist:hasMember      told:_Person_11117 ;
         gist:hasMember      told:_Person_13077 .
 
-told:_Clan_238  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_238
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS136 ;
         tolo:preferredName  "Drom"@en ;
         tolo:preferredName  "brom"@bo-x-ewts ;
@@ -205,13 +233,15 @@ told:_Clan_238  rdf:type    tolo:_Clan ;
         gist:hasMember      told:_Person_8730 ;
         gist:hasMember      told:_Person_10687 .
 
-told:_Clan_1156  rdf:type   tolo:_Clan ;
+told:_KinshipGroup_1156
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Dru ('bru)"@en ;
         tolo:preferredName  "bru"@bo-x-ewts ;
         gist:hasMember      told:_Person_10561 ;
         gist:hasMember      told:_Person_13572 .
 
-told:_Clan_607  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_607
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS141 ;
         tolo:preferredName  "Dru ('dru)"@en ;
         tolo:preferredName  "dru"@bo-x-ewts ;
@@ -219,22 +249,28 @@ told:_Clan_607  rdf:type    tolo:_Clan ;
         gist:hasMember      told:_Person_13135 ;
         gist:hasMember      told:_Person_13174 .
 
-told:_Clan_1519  rdf:type   tolo:_Clan ;
+told:_KinshipGroup_1519
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C31 ;
         tolo:preferredName  "Drumpa"@en ;
         tolo:preferredName  "bhruM pa"@bo-x-ewts ;
-        tolo:alternateName  "Trumpa" ;
         gist:hasMember      told:_Person_9289 ;
-        gist:hasMember      told:_Person_13722 ;
-        tolo:alternateName  "Dakpo Drumpa" .
+        gist:hasMember      told:_Person_13722 .
 
-told:_Clan_622  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_622
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS185 ;
         tolo:preferredName  "Dzeng"@en ;
         tolo:preferredName  "dzeng"@bo-x-ewts ;
         gist:hasMember      told:_Person_2598 .
 
-told:_Clan_1040  rdf:type   tolo:_Clan ;
+told:_KinshipGroup_568
+        rdf:type            tolo:KinshipGroup ;
+        tolo:preferredName  "Dzongchung"@en ;
+        tolo:preferredName  "rdzong chung"@bo-x-ewts .
+
+told:_KinshipGroup_1040
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Ga (dga')"@en ;
         tolo:preferredName  "dga'"@bo-x-ewts ;
         gist:hasMember      told:_Person_3072 ;
@@ -258,66 +294,73 @@ told:_Clan_1040  rdf:type   tolo:_Clan ;
         gist:hasMember      told:_Person_13502 ;
         gist:hasMember      told:_Person_13550 .
 
-told:_Clan_623  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_623
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS207 ;
         tolo:preferredName  "Ga (rgwa)"@en ;
         tolo:preferredName  "rgwa"@bo-x-ewts ;
         gist:hasMember      told:_Person_6037 .
 
-told:_Clan_675  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_675
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C63 ;
-        tolo:preferredName  "Gar"@en ;
+        tolo:preferredName  "Gar "@en ;
         tolo:preferredName  "mgar"@bo-x-ewts ;
         gist:hasMember      told:_Person_8460 ;
         gist:hasMember      told:_Person_8571 ;
         gist:hasMember      told:_Person_10824 .
 
-told:_Clan_220  rdf:type    tolo:_Clan ;
-        tolo:preferredName  "Gar Ratsang"@en ;
+told:_KinshipGroup_220
+        rdf:type            tolo:KinshipGroup ;
+        tolo:preferredName  "Gar Ratsang "@en ;
         tolo:preferredName  "mgar ra tsang"@bo-x-ewts ;
         gist:hasMember      told:_Person_10315 ;
         gist:hasMember      told:_Person_13072 ;
         gist:hasMember      told:_Person_13598 .
 
-told:_Clan_79  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_79
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Gazi"@en ;
         tolo:preferredName  "ga zi"@bo-x-ewts ;
         gist:hasMember      told:_Person_3101 ;
         gist:hasMember      told:_Person_4368 .
 
-told:_Clan_55  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_55
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C2CN10983 ;
         tolo:preferredName  "Getse"@en ;
         tolo:preferredName  "dge rtse"@bo-x-ewts ;
         gist:hasMember      told:_Person_9579 .
 
-told:_Clan_664  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_664
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Go ('gos)"@en ;
         tolo:preferredName  "gos"@bo-x-ewts ;
-        tolo:alternateName  "mgos" ;
         gist:hasMember      told:_Person_5500 ;
         gist:hasMember      told:_Person_5803 .
 
-told:_Clan_176  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_176
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS220 ;
         tolo:preferredName  "Go (sgo)"@en ;
         tolo:preferredName  "sgo"@bo-x-ewts ;
-        tolo:alternateName  "Go Lharik" ;
         gist:hasMember      told:_Person_9372 ;
         gist:hasMember      told:_Person_13132 ;
-        gist:hasMember      told:_Person_13140 ;
-        tolo:alternateName  "Lharik Go" .
+        gist:hasMember      told:_Person_13140 .
 
-told:_Clan_609  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_609
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Gung"@en ;
         tolo:preferredName  "gung"@bo-x-ewts .
 
-told:_Clan_624  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_624
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Gurib"@en ;
         tolo:preferredName  "gu rib"@bo-x-ewts ;
         gist:hasMember      told:_Person_13164 .
 
-told:_Clan_86  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_86
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C1TD33 ;
         tolo:preferredName  "Gya"@en ;
         tolo:preferredName  "rgya"@bo-x-ewts ;
@@ -335,92 +378,97 @@ told:_Clan_86  rdf:type     tolo:_Clan ;
         gist:hasMember      told:_Person_11986 ;
         gist:hasMember      told:_Person_13078 .
 
-told:_Clan_966  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_966
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Gyakong Shedrubtsang"@en ;
-        tolo:preferredName  "rgya kong bshad sgrub tshang"@bo-x-ewts ;
+        tolo:preferredName  "rgya kong bshad sgrub tshang "@bo-x-ewts ;
         gist:hasMember      told:_Person_4987 .
 
-told:_Clan_678  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_678
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Gyamo"@en ;
         tolo:preferredName  "rgya mo"@bo-x-ewts ;
         gist:hasMember      told:_Person_8459 .
 
-told:_Clan_1067  rdf:type   tolo:_Clan ;
+told:_KinshipGroup_1067
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Gyanak Rawa"@en ;
         tolo:preferredName  "rgya nag ra ba"@bo-x-ewts ;
         gist:hasMember      told:_Person_7681 .
 
-told:_Clan_685  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_685
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Gyangkhar"@en ;
-        tolo:preferredName  "gyang khar"@bo-x-ewts ;
-        tolo:alternateName  "rgyang mkhar" .
+        tolo:preferredName  "gyang khar"@bo-x-ewts .
 
-told:_Clan_83  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_83
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS182 ;
         tolo:preferredName  "Gyer"@en ;
         tolo:preferredName  "dgyer"@bo-x-ewts ;
         gist:hasMember      told:_Person_5 .
 
-told:_Clan_201  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_201
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS208 ;
         tolo:preferredName  "Gyu"@en ;
         tolo:preferredName  "rgyus"@bo-x-ewts ;
         gist:hasMember      told:_Person_2733 .
 
-told:_Clan_239  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_239
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS175 ;
         tolo:preferredName  "Ja"@en ;
         tolo:preferredName  "bya"@bo-x-ewts ;
         gist:hasMember      told:_Person_5791 ;
         gist:hasMember      told:_Person_11441 .
 
-told:_Clan_973  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_973
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Jadra"@en ;
         tolo:preferredName  "ja sbra"@bo-x-ewts .
 
-told:_Clan_1550  rdf:type   tolo:_Clan ;
+told:_KinshipGroup_1550
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Jampel Dechenling"@en ;
-        tolo:preferredName  "jam dpal bde chen gling"@bo-x-ewts ;
-        tolo:alternateName  "Jampel Lingpa" ;
-        tolo:alternateName  "Jamling" ;
-        tolo:alternateName  "'jam dpal gling pa" ;
-        tolo:alternateName  "'jam gling" .
+        tolo:preferredName  "jam dpal bde chen gling"@bo-x-ewts .
 
-told:_Clan_161  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_161
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS176 ;
         tolo:preferredName  "Janak"@en ;
         tolo:preferredName  "bya nag"@bo-x-ewts ;
         gist:hasMember      told:_Person_9169 .
 
-told:_Clan_647  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_647
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS193 ;
         tolo:preferredName  "Ju"@en ;
         tolo:preferredName  "ju"@bo-x-ewts ;
         gist:hasMember      told:_Person_4228 .
 
-told:_Clan_84  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_84
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C1AG86 ;
         tolo:preferredName  "Khangsar"@en ;
         tolo:preferredName  "khang gsar"@bo-x-ewts ;
-        tolo:alternateName  "Trehor Khangsar" ;
-        gist:hasMember      told:_Person_5 ;
-        tolo:alternateName  "tre hor khang gsar" .
+        gist:hasMember      told:_Person_5 .
 
-told:_Clan_162  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_162
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Kharchen"@en ;
         tolo:preferredName  "mkhar chen"@bo-x-ewts ;
         gist:hasMember      told:_Person_490 .
 
-told:_Clan_1078  rdf:type   tolo:_Clan ;
+told:_KinshipGroup_1078
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C17 ;
         tolo:preferredName  "Kheme"@en ;
         tolo:preferredName  "khe smad"@bo-x-ewts ;
-        tolo:alternateName  "Khemey" ;
-        gist:hasMember      told:_Person_3152 ;
-        tolo:alternateName  "Kunsangtse" ;
-        tolo:alternateName  "Kunzangtse" .
+        gist:hasMember      told:_Person_3152 .
 
-told:_Clan_184  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_184
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C69 ;
         tolo:preferredName  "Khon"@en ;
         tolo:preferredName  "khon"@bo-x-ewts ;
@@ -447,7 +495,8 @@ told:_Clan_184  rdf:type    tolo:_Clan ;
         gist:hasMember      told:_Person_10591 ;
         gist:hasMember      told:_Person_13186 .
 
-told:_Clan_200  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_200
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS134 ;
         tolo:preferredName  "Khyungpo"@en ;
         tolo:preferredName  "khyung po"@bo-x-ewts ;
@@ -457,29 +506,34 @@ told:_Clan_200  rdf:type    tolo:_Clan ;
         gist:hasMember      told:_Person_13081 ;
         gist:hasMember      told:_Person_13088 .
 
-told:_Clan_625  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_625
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS223 ;
         tolo:preferredName  "Kyasu"@en ;
         tolo:preferredName  "skya su"@bo-x-ewts ;
         gist:hasMember      told:_Person_8181 .
 
-told:_Clan_153  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_153
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Kyi"@en ;
         tolo:preferredName  "kyi"@bo-x-ewts ;
         gist:hasMember      told:_Person_3881 .
 
-told:_Clan_548  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_548
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS224 ;
         tolo:preferredName  "Kyo"@en ;
         tolo:preferredName  "skyod"@bo-x-ewts ;
         gist:hasMember      told:_Person_2483 .
 
-told:_Clan_674  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_674
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS195 ;
         tolo:preferredName  "Kyuchok"@en ;
         tolo:preferredName  "khyu mchog"@bo-x-ewts .
 
-told:_Clan_81  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_81
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Kyura"@en ;
         tolo:preferredName  "skyu ra"@bo-x-ewts ;
         gist:hasMember      told:_Person_620 ;
@@ -499,7 +553,8 @@ told:_Clan_81  rdf:type     tolo:_Clan ;
         gist:hasMember      told:_Person_13449 ;
         gist:hasMember      told:_Person_13451 .
 
-told:_Clan_626  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_626
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS142 ;
         tolo:preferredName  "Lang"@en ;
         tolo:preferredName  "rlangs"@bo-x-ewts ;
@@ -508,19 +563,22 @@ told:_Clan_626  rdf:type    tolo:_Clan ;
         gist:hasMember      told:_Person_2595 ;
         gist:hasMember      told:_Person_13437 .
 
-told:_Clan_53  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_53
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS196 ;
         tolo:preferredName  "Lasum"@en ;
         tolo:preferredName  "la gsum"@bo-x-ewts ;
         gist:hasMember      told:_Person_84 .
 
-told:_Clan_627  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_627
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS189 ;
         tolo:preferredName  "Len"@en ;
         tolo:preferredName  "glan"@bo-x-ewts ;
         gist:hasMember      told:_Person_2740 .
 
-told:_Clan_665  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_665
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Lhalung"@en ;
         tolo:preferredName  "lha lung"@bo-x-ewts ;
         gist:hasMember      told:_Person_9618 ;
@@ -528,62 +586,73 @@ told:_Clan_665  rdf:type    tolo:_Clan ;
         gist:hasMember      told:_Person_13683 ;
         gist:hasMember      told:_Person_13725 .
 
-told:_Clan_72  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_72
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Lingme"@en ;
         tolo:preferredName  "gling smad"@bo-x-ewts ;
         gist:hasMember      told:_Person_11877 .
 
-told:_Clan_460  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_460
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Lingmo"@en ;
         tolo:preferredName  "gling mod"@bo-x-ewts ;
         gist:hasMember      told:_Person_8069 .
 
-told:_Clan_71  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_71
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C2CN11016 ;
         tolo:preferredName  "Lingtsang"@en ;
         tolo:preferredName  "gling tshang"@bo-x-ewts .
 
-told:_Clan_77  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_77
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS199 ;
         tolo:preferredName  "Lomi"@en ;
         tolo:preferredName  "lo mi"@bo-x-ewts ;
         gist:hasMember      told:_Person_4175 ;
         gist:hasMember      told:_Person_6578 .
 
-told:_Clan_148  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_148
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Lonang"@en ;
         tolo:preferredName  "lo nang"@bo-x-ewts ;
         gist:hasMember      told:_Person_6671 .
 
-told:_Clan_171  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_171
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Ma"@en ;
         tolo:preferredName  "rma"@bo-x-ewts ;
         gist:hasMember      told:_Person_5234 .
 
-told:_Clan_629  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_629
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS201 ;
         tolo:preferredName  "Me"@en ;
         tolo:preferredName  "me"@bo-x-ewts ;
         gist:hasMember      told:_Person_13090 .
 
-told:_Clan_56  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_56
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Menge"@en ;
         tolo:preferredName  "man dge"@bo-x-ewts ;
         gist:hasMember      told:_Person_9579 .
 
-told:_Clan_628  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_628
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS209 ;
         tolo:preferredName  "Meu"@en ;
         tolo:preferredName  "rme'u"@bo-x-ewts ;
         gist:hasMember      told:_Person_12096 ;
         gist:hasMember      told:_Person_13079 .
 
-told:_Clan_667  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_667
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS138 ;
         tolo:preferredName  "Mu"@en ;
         tolo:preferredName  "rmu"@bo-x-ewts .
 
-told:_Clan_630  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_630
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS133 ;
         tolo:preferredName  "Mukpo"@en ;
         tolo:preferredName  "smug po ldong"@bo-x-ewts ;
@@ -593,44 +662,51 @@ told:_Clan_630  rdf:type    tolo:_Clan ;
         gist:hasMember      told:_Person_9588 ;
         gist:hasMember      told:_Person_11231 .
 
-told:_Clan_579  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_579
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Naktso"@en ;
         tolo:preferredName  "nag tsho"@bo-x-ewts ;
         gist:hasMember      told:_Person_5801 .
 
-told:_Clan_582  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_582
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS210 ;
         tolo:preferredName  "Namseling"@en ;
         tolo:preferredName  "rnam sras gling"@bo-x-ewts ;
         gist:hasMember      told:_Person_9169 ;
         gist:hasMember      told:_Person_13190 .
 
-told:_Clan_163  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_163
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Nanam"@en ;
         tolo:preferredName  "sna nam"@bo-x-ewts ;
         gist:hasMember      told:_Person_303 ;
         gist:hasMember      told:_Person_3182 ;
         gist:hasMember      told:_Person_10904 .
 
-told:_Clan_152  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_152
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS211 ;
         tolo:preferredName  "Ngen"@en ;
         tolo:preferredName  "rngan"@bo-x-ewts ;
         gist:hasMember      told:_Person_6159 .
 
-told:_Clan_57  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_57
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:TOL57 ;
         tolo:preferredName  "Ngenlam"@en ;
         tolo:preferredName  "ngan lam"@bo-x-ewts ;
         gist:hasMember      told:_Person_4903 ;
         gist:hasMember      told:_Person_13198 .
 
-told:_Clan_714  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_714
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Ngoje"@en ;
         tolo:preferredName  "ngor rje"@bo-x-ewts ;
         gist:hasMember      told:_Person_2606 .
 
-told:_Clan_66  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_66
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS119 ;
         tolo:preferredName  "Ngok"@en ;
         tolo:preferredName  "rngog"@bo-x-ewts ;
@@ -641,22 +717,24 @@ told:_Clan_66  rdf:type     tolo:_Clan ;
         gist:hasMember      told:_Person_11471 ;
         gist:hasMember      told:_Person_13061 .
 
-told:_Clan_634  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_634
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS183 ;
         tolo:preferredName  "Ngulchu"@en ;
         tolo:preferredName  "dngul chu"@bo-x-ewts ;
         gist:hasMember      told:_Person_4402 .
 
-told:_Clan_680  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_680
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS213 ;
         tolo:preferredName  "Ngupa"@en ;
         tolo:preferredName  "rngu pa"@bo-x-ewts ;
         gist:hasMember      told:_Person_2781 .
 
-told:_Clan_49  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_49
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Nub"@en ;
         tolo:preferredName  "gnubs"@bo-x-ewts ;
-        tolo:alternateName  "snubs" ;
         gist:hasMember      told:_Person_1108 ;
         gist:hasMember      told:_Person_2798 ;
         gist:hasMember      told:_Person_2799 ;
@@ -669,30 +747,35 @@ told:_Clan_49  rdf:type     tolo:_Clan ;
         gist:hasMember      told:_Person_12553 ;
         gist:hasMember      told:_Person_13241 .
 
-told:_Clan_1090  rdf:type   tolo:_Clan ;
+told:_KinshipGroup_1090
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C1KT11 ;
         tolo:preferredName  "Nya"@en ;
         tolo:preferredName  "gnya'"@bo-x-ewts ;
         gist:hasMember      told:_Person_6567 ;
         gist:hasMember      told:_Person_6568 .
 
-told:_Clan_168  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_168
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Nyak"@en ;
         tolo:preferredName  "gnyags"@bo-x-ewts ;
         gist:hasMember      told:_Person_5078 .
 
-told:_Clan_946  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_946
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Nyakre"@en ;
         tolo:preferredName  "nyag ras"@bo-x-ewts ;
         gist:hasMember      told:_Person_13440 .
 
-told:_Clan_635  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_635
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS202 ;
         tolo:preferredName  "Nyakshul"@en ;
         tolo:preferredName  "nyag shul"@bo-x-ewts ;
         gist:hasMember      told:_Person_5078 .
 
-told:_Clan_169  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_169
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS130 ;
         tolo:preferredName  "Nyang"@en ;
         tolo:preferredName  "myang"@bo-x-ewts ;
@@ -701,7 +784,8 @@ told:_Clan_169  rdf:type    tolo:_Clan ;
         gist:hasMember      told:_Person_6856 ;
         gist:hasMember      told:_Person_10301 .
 
-told:_Clan_636  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_636
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS190 ;
         tolo:preferredName  "Nyo"@en ;
         tolo:preferredName  "gnyos"@bo-x-ewts ;
@@ -711,39 +795,42 @@ told:_Clan_636  rdf:type    tolo:_Clan ;
         gist:hasMember      told:_Person_13142 ;
         gist:hasMember      told:_Person_13231 .
 
-told:_Clan_677  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_677
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Pakpatsang"@en ;
         tolo:preferredName  "phags pa tshang"@bo-x-ewts .
 
-told:_Clan_656  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_656
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Pugyel"@en ;
         tolo:preferredName  "spu rgyal"@bo-x-ewts ;
         gist:hasMember      told:_Person_13509 ;
         gist:hasMember      told:_Person_13566 .
 
-told:_Clan_570  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_570
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS181 ;
         tolo:preferredName  "Ra"@en ;
-        tolo:preferredName  "dbra"@bo-x-ewts ;
-        tolo:alternateName  "dbra dkar po" ;
+        tolo:preferredName  "dbra "@bo-x-ewts ;
         gist:hasMember      told:_Person_6668 ;
         gist:hasMember      told:_Person_13220 ;
         gist:hasMember      told:_Person_13221 ;
-        gist:hasMember      told:_Person_13531 ;
-        tolo:alternateName  "dbra nag po" ;
-        tolo:alternateName  "Ra Clan" .
+        gist:hasMember      told:_Person_13531 .
 
-told:_Clan_639  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_639
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Rakar Khyungpo"@en ;
         gist:hasMember      told:_Person_13222 .
 
-told:_Clan_549  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_549
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS206 ;
         tolo:preferredName  "Ram"@en ;
         tolo:preferredName  "ram"@bo-x-ewts ;
         gist:hasMember      told:_Person_13199 .
 
-told:_Clan_640  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_640
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS214 ;
         tolo:preferredName  "Rok"@en ;
         tolo:preferredName  "Rog"@bo-x-ewts ;
@@ -751,12 +838,14 @@ told:_Clan_640  rdf:type    tolo:_Clan ;
         gist:hasMember      told:_Person_6721 ;
         gist:hasMember      told:_Person_6726 .
 
-told:_Clan_651  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_651
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Sanam"@en ;
         tolo:preferredName  "sa gnam"@bo-x-ewts ;
         gist:hasMember      told:_Person_10497 .
 
-told:_Clan_222  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_222
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS174 ;
         tolo:preferredName  "Se"@en ;
         tolo:preferredName  "bse"@bo-x-ewts ;
@@ -765,254 +854,283 @@ told:_Clan_222  rdf:type    tolo:_Clan ;
         gist:hasMember      told:_Person_6505 ;
         gist:hasMember      told:_Person_8027 .
 
-told:_Clan_610  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_610
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Shar"@en .
 
-told:_Clan_608  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_608
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Shar"@en ;
         tolo:preferredName  "shar"@bo-x-ewts ;
         gist:hasMember      told:_Person_5408 .
 
-told:_Clan_94  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_94
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C68 ;
         tolo:preferredName  "Sharkhapa"@en ;
         tolo:preferredName  "shar kha pa"@bo-x-ewts ;
-        tolo:alternateName  "Sharkha" ;
         gist:hasMember      told:_Person_4167 .
 
-told:_Clan_653  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_653
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS222 ;
         tolo:preferredName  "Shingkhamga"@en ;
         tolo:preferredName  "shing khams sga"@bo-x-ewts ;
         gist:hasMember      told:_Person_4291 .
 
-told:_Clan_65  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_65
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Shupu"@en ;
         tolo:preferredName  "shud phu"@bo-x-ewts ;
-        tolo:alternateName  "shud pu" ;
         gist:hasMember      told:_Person_2593 ;
         gist:hasMember      told:_Person_5817 ;
         gist:hasMember      told:_Person_5818 ;
         gist:hasMember      told:_Person_5819 ;
-        gist:hasMember      told:_Person_6653 ;
-        tolo:alternateName  "shud bu" ;
-        tolo:alternateName  "shubu" .
+        gist:hasMember      told:_Person_6653 .
 
-told:_Clan_655  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_655
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Sumpa"@en ;
         tolo:preferredName  "sum pa"@bo-x-ewts .
 
-told:_Clan_642  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_642
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Tati Zhamar"@en ;
         tolo:preferredName  "pra ti zhwa dmar rigs"@bo-x-ewts ;
         gist:hasMember      told:_Person_5902 .
 
-told:_Clan_577  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_577
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS139 ;
         tolo:preferredName  "Tong"@en ;
         tolo:preferredName  "stong"@bo-x-ewts ;
-        tolo:alternateName  "Achak Dru" ;
         gist:hasMember      told:_Person_7775 ;
-        gist:hasMember      told:_Person_13196 ;
-        tolo:alternateName  "Athang Dru" ;
-        tolo:alternateName  "Dri" ;
-        tolo:alternateName  "Achak Dri" ;
-        tolo:alternateName  "Chakmo" .
+        gist:hasMember      told:_Person_13196 .
 
-told:_Clan_646  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_646
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS226 ;
         tolo:preferredName  "Tonmi"@en ;
         tolo:preferredName  "thon mi"@bo-x-ewts ;
         gist:hasMember      told:_Person_8342 .
 
-told:_Clan_643  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_643
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS194 ;
         tolo:preferredName  "Trokho Numai Pelshul"@en ;
         tolo:preferredName  "khro kho nu ma'i dpal shul"@bo-x-ewts ;
         gist:hasMember      told:_Person_7937 .
 
-told:_Clan_458  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_458
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Trotsik"@en ;
         tolo:preferredName  "spro tshig"@bo-x-ewts .
 
-told:_Clan_1540  rdf:type   tolo:_Clan ;
+told:_KinshipGroup_1540
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Tsangsar"@en ;
-        tolo:preferredName  "gtshang sar"@bo-x-ewts ;
+        tolo:preferredName  "gtshang sar "@bo-x-ewts ;
         gist:hasMember      told:_Person_13686 .
 
-told:_Clan_284  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_284
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS216 ;
         tolo:preferredName  "Tsedong"@en ;
         tolo:preferredName  "rtse gdong"@bo-x-ewts ;
         gist:hasMember      told:_Person_4220 .
 
-told:_Clan_681  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_681
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Tseu Jamshul"@en ;
         tolo:preferredName  "rtse dbus byams shul"@bo-x-ewts ;
         gist:hasMember      told:_Person_3173 .
 
-told:_Clan_969  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_969
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Tsongpon"@en ;
         tolo:preferredName  "tshong dpon"@bo-x-ewts ;
         gist:hasMember      told:_Person_4659 .
 
-told:_Clan_1382  rdf:type   tolo:_Clan ;
+told:_KinshipGroup_1382
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Tsur"@en ;
         tolo:preferredName  "mtshur"@bo-x-ewts ;
         gist:hasMember      told:_Person_5386 ;
         gist:hasMember      told:_Person_6733 .
 
-told:_Clan_644  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_644
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C2CN10968 ;
         tolo:preferredName  "Tukwan"@en ;
         tolo:preferredName  "thu'u bkwan"@bo-x-ewts ;
         gist:hasMember      told:_Person_3008 ;
         gist:hasMember      told:_Person_5899 .
 
-told:_Clan_513  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_513
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS191 ;
         tolo:preferredName  "Tum"@en ;
         tolo:preferredName  "gtum"@bo-x-ewts ;
         gist:hasMember      told:_Person_5790 .
 
-told:_Clan_588  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_588
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS180 ;
         tolo:preferredName  "Wangda"@en ;
         tolo:preferredName  "dbang mda'"@bo-x-ewts ;
         gist:hasMember      told:_Person_12785 .
 
-told:_Clan_620  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_620
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Wangyak"@en ;
         tolo:preferredName  "dbang yag"@bo-x-ewts .
 
-told:_Clan_438  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_438
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS179 ;
         tolo:preferredName  "Welshul"@en ;
         tolo:preferredName  "dbal shul"@bo-x-ewts ;
         gist:hasMember      told:_Person_2943 .
 
-told:_Clan_58  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_58
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS203 ;
         tolo:preferredName  "Wodren"@en ;
         tolo:preferredName  "o bran"@bo-x-ewts ;
         gist:hasMember      told:_Person_13058 .
 
-told:_Clan_463  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_463
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS187 ;
         tolo:preferredName  "Yi"@en ;
         tolo:preferredName  "g.yi"@bo-x-ewts ;
         gist:hasMember      told:_Person_6760 .
 
-told:_Clan_252  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_252
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Yu"@en ;
         tolo:preferredName  "g.yu"@bo-x-ewts ;
         gist:hasMember      told:_Person_13081 .
 
-told:_Clan_578  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_578
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS132 ;
         tolo:preferredName  "Yudra"@en ;
         tolo:preferredName  "g.yu sgra"@bo-x-ewts ;
         gist:hasMember      told:_Person_10199 .
 
-told:_Clan_580  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_580
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS188 ;
         tolo:preferredName  "Yungok"@en ;
         tolo:preferredName  "g.yu rngog"@bo-x-ewts ;
         gist:hasMember      told:_Person_1564 .
 
-told:_Clan_676  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_676
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Zamtsa Ngorang"@en ;
         tolo:preferredName  "zam tsha ngo rang"@bo-x-ewts .
 
-told:_Clan_550  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_550
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Zeu"@en ;
         tolo:preferredName  "ze'u"@bo-x-ewts ;
         gist:hasMember      told:_Person_2578 .
 
-told:_Clan_645  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_645
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS177 ;
         tolo:preferredName  "Zhak"@en ;
         tolo:preferredName  "bzhag"@bo-x-ewts ;
         gist:hasMember      told:_Person_13087 .
 
-told:_Clan_164  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_164
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Zhang"@en ;
         tolo:preferredName  "zhang"@bo-x-ewts .
 
-told:_Clan_1375  rdf:type   tolo:_Clan ;
+told:_KinshipGroup_1375
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Zhangpa"@en ;
         gist:hasMember      told:_Person_10699 .
 
-told:_Clan_670  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_670
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS227 ;
         tolo:preferredName  "Zhiwatsang"@en ;
         tolo:preferredName  "zhi ba tshang"@bo-x-ewts ;
         gist:hasMember      told:_Person_8538 .
 
-told:_Clan_74  rdf:type     tolo:_Clan ;
+told:_KinshipGroup_74
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS192 ;
         tolo:preferredName  "Zi"@en ;
-        tolo:preferredName  "gzi / zi"@bo-x-ewts ;
+        tolo:preferredName  "zi"@bo-x-ewts ;
         gist:hasMember      told:_Person_6547 .
 
-told:_Clan_203  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_203
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C11MS178 ;
         tolo:preferredName  "Zira"@en ;
         tolo:preferredName  "bzi ra"@bo-x-ewts ;
         gist:hasMember      told:_Person_8752 .
 
-told:_Clan_230  rdf:type    tolo:_Clan ;
+told:_KinshipGroup_230
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Zur"@en ;
         tolo:preferredName  "zur"@bo-x-ewts ;
         gist:hasMember      told:_Person_4630 ;
         gist:hasMember      told:_Person_4632 ;
         gist:hasMember      told:_Person_11352 .
 
-told:_Family_1583  rdf:type   tolo:_Family ;
+told:_KinshipGroup_1583
+        rdf:type              tolo:KinshipGroup ;
         owl:sameAs            bdr:C24 ;
         tolo:preferredName    "Dekhar"@en ;
         tolo:preferredName    "bde mkhar"@bo-x-ewts ;
-        tolo:alternateName    "Lukhang" ;
-        gist:isCategorizedBy  tolx:_FamilyType_Lhasa_Aristocracy ;
-        gist:hasMember        told:_Person_13724 ;
-        tolo:alternateName    "klu khang" .
+        gist:isCategorizedBy  <https://taxonomies.treasuryoflives.org/_KinshipGroupType_Lhasa Aristocracy> ;
+        gist:hasMember        told:_Person_13724 .
 
-told:_Family_1571  rdf:type   tolo:_Family ;
+told:_KinshipGroup_1571
+        rdf:type              tolo:KinshipGroup ;
         owl:sameAs            bdr:C2CN11019 ;
         tolo:preferredName    "Delek Rabten"@en ;
         tolo:preferredName    "bde legs rab brtan"@bo-x-ewts ;
-        gist:isCategorizedBy  tolx:_FamilyType_Lhasa_Aristocracy ;
+        gist:isCategorizedBy  <https://taxonomies.treasuryoflives.org/_KinshipGroupType_Lhasa Aristocracy> ;
         gist:hasMember        told:_Person_2418 ;
         gist:hasMember        told:_Person_3950 .
 
-told:_Family_1590  rdf:type   tolo:_Family ;
+told:_KinshipGroup_1590
+        rdf:type              tolo:KinshipGroup ;
         owl:sameAs            bdr:C10 ;
         tolo:preferredName    "Dokhar"@en ;
         tolo:preferredName    "mdo mkhar"@bo-x-ewts ;
-        tolo:alternateName    "rag kha shar" ;
-        gist:isCategorizedBy  tolx:_FamilyType_Lhasa_Aristocracy ;
+        gist:isCategorizedBy  <https://taxonomies.treasuryoflives.org/_KinshipGroupType_Lhasa Aristocracy> ;
         gist:hasMember        told:_Person_9343 ;
         gist:hasMember        told:_Person_13788 .
 
-told:_Family_671  rdf:type    tolo:_Family ;
+told:_KinshipGroup_671
+        rdf:type              tolo:KinshipGroup ;
         owl:sameAs            bdr:C8 ;
         tolo:preferredName    "Doring"@en ;
         tolo:preferredName    "rdo ring"@bo-x-ewts ;
-        gist:isCategorizedBy  tolx:_FamilyType_Lhasa_Aristocracy ;
+        gist:isCategorizedBy  <https://taxonomies.treasuryoflives.org/_KinshipGroupType_Lhasa Aristocracy> ;
         gist:hasMember        told:_Person_3738 ;
         gist:hasMember        told:_Person_5306 .
 
-told:_Family_1328  rdf:type   tolo:_Family ;
+told:_KinshipGroup_1328
+        rdf:type              tolo:KinshipGroup ;
         owl:sameAs            bdr:C16 ;
         tolo:preferredName    "Kyitopa"@en ;
         tolo:preferredName    "skyid stod pa"@bo-x-ewts ;
-        gist:isCategorizedBy  tolx:_FamilyType_Lhasa_Aristocracy .
+        gist:isCategorizedBy  <https://taxonomies.treasuryoflives.org/_KinshipGroupType_Lhasa Aristocracy> .
 
-told:_Family_1076  rdf:type   tolo:_Family ;
+told:_KinshipGroup_1076
+        rdf:type              tolo:KinshipGroup ;
         owl:sameAs            bdr:C12 ;
         tolo:preferredName    "Lhagyari"@en ;
         tolo:preferredName    "lha rgya ri"@bo-x-ewts ;
-        gist:isCategorizedBy  tolx:_FamilyType_Lhasa_Aristocracy ;
+        gist:isCategorizedBy  <https://taxonomies.treasuryoflives.org/_KinshipGroupType_Lhasa Aristocracy> ;
         gist:hasMember        told:_Person_11796 ;
         gist:hasMember        told:_Person_12865 ;
         gist:hasMember        told:_Person_13534 ;
@@ -1032,123 +1150,129 @@ told:_Family_1076  rdf:type   tolo:_Family ;
         gist:hasMember        told:_Person_13563 ;
         gist:hasMember        told:_Person_13564 .
 
-told:_Family_1584  rdf:type   tolo:_Family ;
+told:_KinshipGroup_1584
+        rdf:type              tolo:KinshipGroup ;
         tolo:preferredName    "Marlampa"@en ;
         tolo:preferredName    "rmar lam pa"@bo-x-ewts ;
-        tolo:alternateName    "smar lam pa" ;
-        gist:isCategorizedBy  tolx:_FamilyType_Lhasa_Aristocracy ;
+        gist:isCategorizedBy  <https://taxonomies.treasuryoflives.org/_KinshipGroupType_Lhasa Aristocracy> ;
         gist:hasMember        told:_Person_13724 .
 
-told:_Family_1495  rdf:type   tolo:_Family ;
+told:_KinshipGroup_1495
+        rdf:type              tolo:KinshipGroup ;
         owl:sameAs            bdr:C42 ;
         tolo:preferredName    "Shatra"@en ;
         tolo:preferredName    "bshad sgra"@bo-x-ewts ;
-        tolo:alternateName    "bshad grwa" ;
-        gist:isCategorizedBy  tolx:_FamilyType_Lhasa_Aristocracy ;
+        gist:isCategorizedBy  <https://taxonomies.treasuryoflives.org/_KinshipGroupType_Lhasa Aristocracy> ;
         gist:hasMember        told:_Person_9301 .
 
-told:_Family_1047  rdf:type   tolo:_Family ;
+told:_KinshipGroup_1047
+        rdf:type              tolo:KinshipGroup ;
         owl:sameAs            bdr:C38 ;
         tolo:preferredName    "Surkhang"@en ;
         tolo:preferredName    "zur khang"@bo-x-ewts ;
-        tolo:alternateName    "zurkhang" ;
-        gist:isCategorizedBy  tolx:_FamilyType_Lhasa_Aristocracy ;
+        gist:isCategorizedBy  <https://taxonomies.treasuryoflives.org/_KinshipGroupType_Lhasa Aristocracy> ;
         gist:hasMember        told:_Person_2423 ;
         gist:hasMember        told:_Person_11790 ;
         gist:hasMember        told:_Person_11798 .
 
-told:_Family_1132  rdf:type   tolo:_Family ;
+told:_KinshipGroup_1132
+        rdf:type              tolo:KinshipGroup ;
         owl:sameAs            bdr:C35 ;
         tolo:preferredName    "Tsarong"@en ;
         tolo:preferredName    "tsha rong"@bo-x-ewts ;
-        gist:isCategorizedBy  tolx:_FamilyType_Lhasa_Aristocracy ;
+        gist:isCategorizedBy  <https://taxonomies.treasuryoflives.org/_KinshipGroupType_Lhasa Aristocracy> ;
         gist:hasMember        told:_Person_7929 ;
         gist:hasMember        told:_Person_9305 ;
         gist:hasMember        told:_Person_13583 ;
-        gist:hasMember        told:_Person_13625 .
+        gist:hasMember        told:_Person_13625 ;
+        gist:hasMember        told:_Person_13708 .
 
-told:_Family_930  rdf:type    tolo:_Family ;
+told:_KinshipGroup_930
+        rdf:type              tolo:KinshipGroup ;
         owl:sameAs            bdr:C1 ;
         tolo:preferredName    "Yabzhi Langdun"@en ;
-        tolo:preferredName    "yab gzhis glang mdun"@bo-x-ewts ;
-        gist:isCategorizedBy  tolx:_FamilyType_Lhasa_Aristocracy ;
+        tolo:preferredName    "yab gzhis glang mdun "@bo-x-ewts ;
+        gist:isCategorizedBy  <https://taxonomies.treasuryoflives.org/_KinshipGroupType_Lhasa Aristocracy> ;
         gist:hasMember        told:_Person_9287 ;
         gist:hasMember        told:_Person_9289 ;
         gist:hasMember        told:_Person_13722 .
 
-told:_Family_933  rdf:type    tolo:_Family ;
+told:_KinshipGroup_933
+        rdf:type              tolo:KinshipGroup ;
         owl:sameAs            bdr:C6 ;
         tolo:preferredName    "Yabzhi Lhalu (earlier)"@en ;
         tolo:preferredName    "yab gzhis lha klu"@bo-x-ewts ;
-        gist:isCategorizedBy  tolx:_FamilyType_Lhasa_Aristocracy ;
+        gist:isCategorizedBy  <https://taxonomies.treasuryoflives.org/_KinshipGroupType_Lhasa Aristocracy> ;
         gist:hasMember        told:_Person_13428 .
 
-told:_Family_940  rdf:type    tolo:_Family ;
+told:_KinshipGroup_940
+        rdf:type              tolo:KinshipGroup ;
         owl:sameAs            bdr:C7 ;
         tolo:preferredName    "Yabzhi Lhalu (later)"@en ;
         tolo:preferredName    "yab gzhis lha klu"@bo-x-ewts ;
-        tolo:alternateName    "lha klu dga' tshal" ;
-        gist:isCategorizedBy  tolx:_FamilyType_Lhasa_Aristocracy ;
+        gist:isCategorizedBy  <https://taxonomies.treasuryoflives.org/_KinshipGroupType_Lhasa Aristocracy> ;
         gist:hasMember        told:_Person_13427 .
 
-told:_Family_931  rdf:type    tolo:_Family ;
+told:_KinshipGroup_931
+        rdf:type              tolo:KinshipGroup ;
         owl:sameAs            bdr:C2 ;
         tolo:preferredName    "Yabzhi Punkhang"@en ;
         tolo:preferredName    "yab gzhi phun khang"@bo-x-ewts ;
-        tolo:alternateName    "phun tshogs khang gsar" ;
-        gist:isCategorizedBy  tolx:_FamilyType_Lhasa_Aristocracy ;
+        gist:isCategorizedBy  <https://taxonomies.treasuryoflives.org/_KinshipGroupType_Lhasa Aristocracy> ;
         gist:hasMember        told:_Person_13425 .
 
-told:_Family_691  rdf:type    tolo:_Family ;
+told:_KinshipGroup_691
+        rdf:type              tolo:KinshipGroup ;
         owl:sameAs            bdr:C5 ;
         tolo:preferredName    "Yabzhi Sampo"@en ;
-        tolo:preferredName    "yab gzhis bsam pho"@bo-x-ewts ;
-        tolo:alternateName    "Yabzhi Sampho" ;
-        gist:isCategorizedBy  tolx:_FamilyType_Lhasa_Aristocracy ;
-        gist:hasMember        told:_Person_13226 ;
-        tolo:alternateName    "Samdrub Podrang" ;
-        tolo:alternateName    "sam grub pho brang" .
+        tolo:preferredName    "yab gzhis bsam pho "@bo-x-ewts ;
+        gist:isCategorizedBy  <https://taxonomies.treasuryoflives.org/_KinshipGroupType_Lhasa Aristocracy> ;
+        gist:hasMember        told:_Person_13226 .
 
-told:_Family_1063  rdf:type   tolo:_Family ;
+told:_KinshipGroup_932
+        rdf:type              tolo:KinshipGroup ;
+        owl:sameAs            bdr:C4 ;
+        tolo:preferredName    "Yabzhi Yuthok"@en ;
+        tolo:preferredName    "yab gzhis g.yu thog"@bo-x-ewts ;
+        gist:isCategorizedBy  <https://taxonomies.treasuryoflives.org/_KinshipGroupType_Lhasa Aristocracy> ;
+        gist:hasMember        told:_Person_9333 ;
+        gist:hasMember        told:_Person_11798 ;
+        gist:hasMember        told:_Person_13426 .
+
+told:_KinshipGroup_1063
+        rdf:type              tolo:KinshipGroup ;
         owl:sameAs            bdr:C1TD19 ;
         tolo:preferredName    "Sadutshang"@en ;
         tolo:preferredName    "sa 'du tshang"@bo-x-ewts ;
-        tolo:alternateName    "Sadutsang" ;
-        gist:isCategorizedBy  tolx:_FamilyType_Lhasa_Aristocracy ;
+        gist:isCategorizedBy  <https://taxonomies.treasuryoflives.org/_KinshipGroupType_Lhasa Aristocracy> ;
         gist:hasMember        told:_Person_13545 ;
         gist:hasMember        told:_Person_13546 ;
         gist:hasMember        told:_Person_13548 ;
         gist:hasMember        told:_Person_13549 .
 
-told:_Family_932  rdf:type    tolo:_Family ;
-        owl:sameAs            bdr:C4 ;
-        tolo:preferredName    "Yabzhi Yuthok"@en ;
-        tolo:preferredName    "yab gzhis g.yu thog"@bo-x-ewts ;
-        gist:isCategorizedBy  tolx:_FamilyType_Lhasa_Aristocracy ;
-        gist:hasMember        told:_Person_9333 ;
-        gist:hasMember        told:_Person_11798 ;
-        gist:hasMember        told:_Person_13426 .
-
-told:_Family_1062  rdf:type  tolo:_Family ;
+told:_KinshipGroup_1062
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Jangling"@en ;
         tolo:preferredName  "byang gling"@bo-x-ewts .
 
-told:_Family_1202  rdf:type  tolo:_Family ;
+told:_KinshipGroup_1202
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Pakmodrupa"@en ;
         tolo:preferredName  "phag mo gru pa"@bo-x-ewts ;
         gist:hasMember      told:_Person_2539 .
 
-told:_Family_1061  rdf:type  tolo:_Family ;
+told:_KinshipGroup_1061
+        rdf:type            tolo:KinshipGroup ;
         tolo:preferredName  "Pangdatsang"@en ;
         tolo:preferredName  "spang mda' tshang"@bo-x-ewts ;
-        tolo:alternateName  "Pomdatsang" ;
         gist:hasMember      told:_Person_13519 ;
         gist:hasMember      told:_Person_13520 ;
         gist:hasMember      told:_Person_13521 ;
         gist:hasMember      told:_Person_13522 ;
         gist:hasMember      told:_Person_13523 .
 
-told:_Family_1203  rdf:type  tolo:_Family ;
+told:_KinshipGroup_1203
+        rdf:type            tolo:KinshipGroup ;
         owl:sameAs          bdr:C2CN11008 ;
         tolo:preferredName  "Rinpungpa"@en ;
         tolo:preferredName  "rin spungs pa"@bo-x-ewts .
