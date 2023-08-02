@@ -18,35 +18,39 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://taxonomies.treasuryoflives.org/familyTypes>
+tolx:familyTypes
 	a owl:Ontology ;
 	owl:imports <https://ontologies.treasuryoflives.org/tolCoreX.x.x> ;
-	owl:versionIRI <https://data.treasuryoflives.org/familyTypesX.x.x> ;
+	owl:versionIRI told:familyTypesX.x.x ;
 	skos:definition "Defines specific types of families."@en ;
+	skos:editorialNote "Subtypes of Lhasa Aristocracy to be confirmed."^^xsd:string ;
 	skos:prefLabel "Family Types"@en ;
-	skos:editorialNote "Subtypes of Lhasa Aristocracy to be confirmed." ;
+	.
+
+tolx:_FamilyType_Depon
+	a tolo:FamilyType ;
+	skos:definition ""@en ;
+	skos:prefLabel "Depon"@en ;
+	gist:hasDirectSuperCategory tolx:_FamilyType_Lhasa_Aristocracy ;
+	.
+
+tolx:_FamilyType_Kudrak
+	a tolo:FamilyType ;
+	skos:definition ""@en ;
+	skos:prefLabel "Kudrak"@en ;
+	gist:hasDirectSuperCategory tolx:_FamilyType_Lhasa_Aristocracy ;
 	.
 
 tolx:_FamilyType_Lhasa_Aristocracy
 	a tolo:FamilyType ;
 	skos:definition ""@en ;
 	skos:prefLabel "Lhasa Aristocracy"@en ;
-.
+	.
+
 tolx:_FamilyType_Yabzhi
 	a tolo:FamilyType ;
 	skos:definition ""@en ;
 	skos:prefLabel "Yabzhi"@en ;
-    gist:hasDirectSuperCategory tolx:_FamilyType_Lhasa_Aristocracy ;
+	gist:hasDirectSuperCategory tolx:_FamilyType_Lhasa_Aristocracy ;
 	.
-tolx:_FamilyType_Depon
-	a tolo:FamilyType ;
-	skos:definition ""@en ;
-	skos:prefLabel "Depon"@en ;
-    gist:hasDirectSuperCategory tolx:_FamilyType_Lhasa_Aristocracy ;
-	.
-tolx:_FamilyType_Kudrak
-	a tolo:FamilyType ;
-	skos:definition ""@en ;
-	skos:prefLabel "Kudrak"@en ;
-    gist:hasDirectSuperCategory tolx:_FamilyType_Lhasa_Aristocracy ;
-	.
+

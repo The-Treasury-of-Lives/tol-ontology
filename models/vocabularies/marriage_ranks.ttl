@@ -14,10 +14,10 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://taxonomies.treasuryoflives.org/marriageRanks>
+tolx:marriageRanks
 	a owl:Ontology ;
 	owl:imports <https://ontologies.treasuryoflives.org/tolCoreX.x.x> ;
-	owl:versionIRI <https://taxonomies.treasuryoflives.org/marriageRanksX.x.x> ;
+	owl:versionIRI tolx:marriageRanksX.x.x ;
 	skos:definition "Defines ranking of a marriage in among polygamous relationships."@en ;
 	skos:prefLabel "Marriage Rank"@en ;
 	.
