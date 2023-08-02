@@ -1,4 +1,4 @@
-# imports: https://ontologies.semanticarts.com/o/gistCore12.0.1
+# imports: https://ontologies.semanticarts.com/o/gistCore11.1.0
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
@@ -17,12 +17,12 @@
 <https://ontologies.treasuryoflives.org/tolCore>
 	a owl:Ontology ;
 	dct:license "TBD"^^xsd:string ;
-	owl:imports <https://ontologies.semanticarts.com/o/gistCore12.0.1> ;
+	owl:imports <https://ontologies.semanticarts.com/o/gistCore11.1.0> ;
 	owl:versionIRI <https://ontologies.treasuryoflives.org/tolCoreX.x.x> ;
 	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, facilitate the consumption of external RDF, and to to enhance the narrative text with structured data."@en ;
 	skos:editoralNote
 		"Add rdfs:isDefinedBy using onto-toolkit."@en ,
-		"Combining all terms into one module for now; may break up into separate modules later."@en
+		"Combining all terms into one module for now; maybe break up into separate modules later."@en
 		;
 	skos:editorialNote """
 		Temporarily removing imports:
@@ -62,6 +62,13 @@ tolo:Birth
 	skos:prefLabel "Birth"@en ;
 	.
 
+tolo:Clan
+	a owl:Class ;
+	rdfs:subClassOf tolo:KinshipGroup ;
+	skos:definition ""^^xsd:string ;
+	skos:prefLabel "Clan"^^xsd:string ;
+	.
+
 tolo:Death
 	a owl:Class ;
 	rdfs:subClassOf
@@ -91,6 +98,41 @@ tolo:Death
 	skos:definition "TBD"@en ;
 	skos:editorialNote "Can deities have birth and death? We may need to loosen the restriction."@en ;
 	skos:prefLabel "Death"@en ;
+	.
+
+tolo:Deity
+	a owl:Class ;
+	rdfs:subClassOf gist:LivingThing ;
+	owl:disjointWith tolo:Person ;
+	skos:definition "A god or goddess; a being with divine status."@en ;
+	skos:prefLabel "Deity"@en ;
+	.
+
+tolo:Family
+	a owl:Class ;
+	rdfs:subClassOf tolo:KinshipGroup ;
+	skos:definition ""^^xsd:string ;
+	skos:prefLabel "Family"^^xsd:string ;
+	.
+
+tolo:FamilyType
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:Category
+			[
+				a owl:Restriction ;
+				owl:onProperty [
+					owl:inverseOf gist:isCategorizedBy ;
+				] ;
+				owl:allValuesFrom tolo:Family ;
+			]
+		) ;
+	] ;
+	skos:definition "Classifies families."^^xsd:string ;
+	skos:example "The Dekhar family is Lhasa Aristocracy."^^xsd:string ;
+	skos:prefLabel "Family Type"^^xsd:string ;
 	.
 
 tolo:Incarnation
@@ -126,6 +168,23 @@ tolo:KinshipGroup
 	skos:example "."@en ;
 	skos:prefLabel "Kinship Group"@en ;
 	skos:scopeNote "Also includes those adopted into a clan."^^xsd:string ;
+	.
+
+tolo:LandmarkType
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom gist:Landmark ;
+		]
+		;
+	skos:definition "A type of geographic or man-made landmark."@en ;
+	skos:example "Mountain, lake, hidden valley."@en ;
+	skos:prefLabel "Landmark Type"@en ;
 	.
 
 tolo:Marriage
@@ -212,8 +271,15 @@ tolo:Person
 		gist:Person
 		;
 	skos:definition "TBD."@en ;
-	skos:editorialNote "Can this be a subclass of gist:Person, which doesn't include imaginary persons?"@en ;
 	skos:prefLabel "Person"@en ;
+	.
+
+tolo:PilgrimageSite
+	a owl:Class ;
+	rdfs:subClassOf gist:Landmark ;
+	skos:definition "A shrine or other sacred place, including geographic features, that people travel to as an act of religious devotion."@en ;
+	skos:example "Mount Tsibri was the site of Zangpo Drakpa's 14th century treasure revelations; Kokonor Lake."@en ;
+	skos:prefLabel "Pilgrimage Site"@en ;
 	.
 
 tolo:Place
@@ -310,6 +376,19 @@ tolo:TeacherStudentRelationship
 		;
 	skos:prefLabel "Teacher-Student Relationship"@en ;
 	skos:scopeNote "A teacher-student relationshp may be, but is not necessarily, part of a teaching lineage. In some cases the teacher-student relationship is known while the lineage is not."@en ;
+	.
+
+tolo:TimeInterval
+	a owl:Class ;
+	skos:definition "A span of time bounded by absolute start and end dates."@en ;
+	skos:editorialNote "Define TimePeriod as a subclass, specifically referring to TimeIntervals of historical significance?"^^xsd:string ;
+	skos:example "The 11th century; Jan 1, 2001 - Dec 31, 2001; the Yuan Dynasty."@en ;
+	skos:scopeNote
+		"May or may not be a time period of historical significance, such as the 12th century."^^xsd:string ,
+		"This is distinct from a gist:Duration, which describes how long a time interval lasts (e.g., one hour, 3 days, 6000 years)."@en ,
+		"Treasury of Lives uses the popular definition of a century, that is, the year 1000 is the first year of the 11th century."@en ,
+		"gist models start and end years as xsd:dateTimes, and therefore they align with ISO 8601 convention utilizing the proleptic Gregorian calendar."@en
+		;
 	.
 
 tolo:actualYear
@@ -701,23 +780,12 @@ tolo:marriedFamilyName
 	.
 
 tolo:occursDuring
-	a
-		owl:ObjectProperty ,
-		owl:TransitiveProperty
-		;
-	skos:definition "Relates a resource to another resource that contains it temporally."@en ;
-	skos:example "A birth occurs during a certain century."@en ;
+	a owl:ObjectProperty ;
+	rdfs:domain gist:Event ;
+	skos:definition "Relates an event to a larger event or time period it is temporally contained in when the part-whole relationship seems inaccurate."@en ;
+	skos:example "A birth occurs during the 12th century."@en ;
 	skos:prefLabel "occurs during"@en ;
-	gist:domainIncludes
-		gist:Event ,
-		gist:TemporalRelation ,
-		gist:TimeInterval
-		;
-	gist:rangeIncludes
-		gist:Event ,
-		gist:TemporalRelation ,
-		gist:TimeInterval
-		;
+	skos:scopeNote "While a sub-pay period is part of a pay period, to say that a time charge is part of a pay period is distinctly odd."@en ;
 	.
 
 tolo:preferredName

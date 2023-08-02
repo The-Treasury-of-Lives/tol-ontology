@@ -1,4 +1,4 @@
-@prefix gist: <https://ontologies.semanticarts.com/gist/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -6,9 +6,9 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://ontologies.semanticarts.com/o/gistCore>
+<https://w3id.org/semanticarts/ontology/gistCore>
 	a owl:Ontology ;
-	owl:versionIRI <https://ontologies.semanticarts.com/o/gistCore11.1.0> ;
+	owl:versionIRI <https://w3id.org/semanticarts/ontology/gistCore12.0.1> ;
 	skos:definition "gist is a minimalist upper ontology created by Semantic Arts."^^xsd:string ;
 	skos:prefLabel "gist"^^xsd:string ;
 	sh:declare gist:_PrefixDeclaration_gist ;
@@ -17,7 +17,7 @@
 
 gist:Account
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -36,7 +36,7 @@ gist:Account
 gist:Actuator
 	a owl:Class ;
 	rdfs:subClassOf gist:Equipment ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A device that can affect the real world via a message interface"^^xsd:string ;
 	skos:prefLabel "Actuator"^^xsd:string ;
 	.
@@ -44,14 +44,14 @@ gist:Actuator
 gist:Address
 	a owl:Class ;
 	rdfs:subClassOf gist:Content ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A reference to a place (real or virtual) that can be located by some routing algorithm, and where messages or things can be sent to or retrieved from. E.g. PO Box or URL to a PDF file."^^xsd:string ;
 	skos:prefLabel "Address"^^xsd:string ;
 	.
 
 gist:Agreement
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -81,7 +81,7 @@ gist:Agreement
 
 gist:Area
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -99,7 +99,7 @@ gist:Area
 
 gist:AreaUnit
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -129,7 +129,7 @@ gist:Artifact
 		owl:onProperty gist:hasGoal ;
 		owl:someValuesFrom gist:Function ;
 	] ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "An intentional, person-made thing, which could be physical or content"^^xsd:string ;
 	skos:prefLabel "Artifact"^^xsd:string ;
 	.
@@ -137,14 +137,14 @@ gist:Artifact
 gist:Aspect
 	a owl:Class ;
 	rdfs:subClassOf gist:Category ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A very general term for the characteristic of something that is being measured.  E.g., property (height) or a process (cycle time) or a behavior (loyalty)."^^xsd:string ;
 	skos:prefLabel "Aspect"^^xsd:string ;
 	.
 
 gist:Balance
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -163,7 +163,7 @@ gist:Balance
 gist:BaseUnit
 	a owl:Class ;
 	rdfs:subClassOf gist:SimpleUnitOfMeasure ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:oneOf (
@@ -186,7 +186,7 @@ gist:BaseUnit
 gist:Behavior
 	a owl:Class ;
 	rdfs:subClassOf gist:Category ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A way of categorizing events.  E.g., differentiating drilling versus cutting."^^xsd:string ;
 	skos:prefLabel "Behavior"^^xsd:string ;
 	.
@@ -197,7 +197,7 @@ gist:Building
 		gist:Artifact ,
 		gist:Landmark
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A relatively permanent man-made structure situated on a plot of land, having a roof and walls, commonly used for dwelling, entertaining, or working."^^xsd:string ;
 	skos:example
 		"A house, school, store, factory, chicken coop."^^xsd:string ,
@@ -209,7 +209,7 @@ gist:Building
 
 gist:BundledCatalogItem
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -228,7 +228,7 @@ gist:BundledCatalogItem
 gist:CatalogItem
 	a owl:Class ;
 	rdfs:subClassOf gist:Specification ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A description of a product or service to be delivered, given in a sufficient level of detail that a receiver could determine whether delivery constituted discharge of the obligation to deliver."^^xsd:string ;
 	skos:prefLabel "Catalog Item"^^xsd:string ;
 	skos:scopeNote "In short, an unambiguous characterization of what it is that a potential buyer is paying for."^^xsd:string ;
@@ -248,7 +248,7 @@ gist:Category
 			) ;
 		] ;
 	] ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A concept or label used to categorize other instances informally. Things that can be thought of as types are usually Categories."^^xsd:string ;
 	skos:example "Tags used in folksonomies; formal definitions from other systems."^^xsd:string ;
 	skos:prefLabel "Category"^^xsd:string ;
@@ -257,7 +257,7 @@ gist:Category
 
 gist:CoherentProductUnit
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -295,7 +295,7 @@ gist:CoherentProductUnit
 
 gist:CoherentRatioUnit
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -333,7 +333,7 @@ gist:CoherentRatioUnit
 
 gist:CoherentUnit
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:seeAlso <http://www.eim.gr/metrology/measurement-units/si-derived-units/coherent-derived-units/> ;
 	owl:equivalentClass [
 		a owl:Class ;
@@ -357,7 +357,7 @@ gist:CoherentUnit
 
 gist:Collection
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A grouping of things."^^xsd:string ;
 	skos:example "A jury is a group of people, a financial ledger is a collection of transaction entries; a route is an (ordered) collection of segments."^^xsd:string ;
 	skos:prefLabel "Collection"^^xsd:string ;
@@ -366,7 +366,7 @@ gist:Collection
 
 gist:Commitment
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -401,7 +401,7 @@ gist:Commitment
 
 gist:Component
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -419,7 +419,7 @@ gist:Component
 
 gist:ContemporaryEvent
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -444,7 +444,7 @@ gist:ContemporaryEvent
 gist:Content
 	a owl:Class ;
 	rdfs:subClassOf gist:Artifact ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith
 		gist:GeoPoint ,
 		gist:GeoRegion ,
@@ -472,14 +472,14 @@ gist:ContentExpression
 			owl:someValuesFrom gist:Language ;
 		]
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Intellectual Property reduced to text, audio etc.  If it contains text (written or spoken), it may be in a language."^^xsd:string ;
 	skos:prefLabel "Content Expression"^^xsd:string ;
 	.
 
 gist:ContingentEvent
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -487,27 +487,31 @@ gist:ContingentEvent
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:hasMagnitude ;
-				owl:someValuesFrom gist:Percentage ;
+				owl:someValuesFrom [
+					a owl:Restriction ;
+					owl:onProperty gist:hasUnitOfMeasure ;
+					owl:hasValue gist:_percent ;
+				] ;
 			]
 			[
 				a owl:Restriction ;
-				owl:onProperty gist:plannedEndDateTime ;
-				owl:someValuesFrom xsd:dateTime ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:plannedStartDateTime ;
-				owl:someValuesFrom xsd:dateTime ;
+				owl:onProperty gist:isTriggeredBy ;
+				owl:someValuesFrom gist:Event ;
 			]
 		) ;
 	] ;
 	skos:definition "An event with a probability of happening in the future, and usually dependent upon some other event or condition."^^xsd:string ;
+	skos:example
+		"Fire insurance is contingent on a particular building burning down"^^xsd:string ,
+		"Sell 20 shares of stock in a given company when the price drops below $200/share."^^xsd:string ,
+		"The death benefit payout on a life insurance policy following the death of a specific person."^^xsd:string
+		;
 	skos:prefLabel "Contingent Event"^^xsd:string ;
 	.
 
 gist:ContingentObligation
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -537,7 +541,7 @@ gist:ContingentObligation
 
 gist:Contract
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -556,14 +560,14 @@ gist:Contract
 gist:ContractTerm
 	a owl:Class ;
 	rdfs:subClassOf gist:Specification ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A specification of some aspect of a contract."^^xsd:string ;
 	skos:prefLabel "Contract Term"^^xsd:string ;
 	.
 
 gist:ControlledVocabulary
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -592,7 +596,7 @@ gist:ControlledVocabulary
 
 gist:Controller
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -621,14 +625,14 @@ gist:Controller
 gist:ControllerType
 	a owl:Class ;
 	rdfs:subClassOf gist:Category ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A kind of controller."^^xsd:string ;
 	skos:prefLabel "Controller Type"^^xsd:string ;
 	.
 
 gist:Count
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -647,7 +651,7 @@ gist:Count
 
 gist:CountingUnit
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -665,7 +669,7 @@ gist:CountingUnit
 
 gist:CountryGeoRegion
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -684,7 +688,7 @@ gist:CountryGeoRegion
 
 gist:CountryGovernment
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith gist:SubCountryGovernment ;
 	owl:equivalentClass [
 		a owl:Class ;
@@ -692,7 +696,9 @@ gist:CountryGovernment
 			gist:GovernmentOrganization
 			[
 				a owl:Restriction ;
-				owl:onProperty gist:governs ;
+				owl:onProperty [
+					owl:inverseOf gist:isGovernedBy ;
+				] ;
 				owl:onClass gist:CountryGeoRegion ;
 				owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
 			]
@@ -709,9 +715,32 @@ gist:CountryGovernment
 	skos:scopeNote "While a country government may enter into treaties with other country governments, there are no governing relationships among the treaty members."^^xsd:string ;
 	.
 
+gist:CurrencyPerDurationUnit
+	a owl:Class ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:RatioUnit
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasDenominator ;
+				owl:allValuesFrom gist:DurationUnit ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasNumerator ;
+				owl:allValuesFrom gist:CurrencyUnit ;
+			]
+		) ;
+	] ;
+	skos:definition "A unit for measuring a monetary amount over a period of time, such as dollars/hour or euros/month."^^xsd:string ;
+	skos:prefLabel "Currency per Duration Unit"^^xsd:string ;
+	.
+
 gist:CurrencyUnit
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith
 		gist:DataSizeUnit ,
 		gist:DistanceUnit ,
@@ -739,7 +768,7 @@ gist:CurrencyUnit
 
 gist:DataSizeUnit
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith
 		gist:DistanceUnit ,
 		gist:DurationUnit ,
@@ -767,7 +796,7 @@ gist:DataSizeUnit
 gist:DegreeOfCommitment
 	a owl:Class ;
 	rdfs:subClassOf gist:Category ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The difficulty of reversing a commitment."^^xsd:string ;
 	skos:example "A car rental typically has a lower degree of commitment than an airfare reservation."^^xsd:string ;
 	skos:prefLabel "Degree Of Commitment"^^xsd:string ;
@@ -775,7 +804,7 @@ gist:DegreeOfCommitment
 
 gist:DistanceUnit
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith
 		gist:DurationUnit ,
 		gist:ElectricalCurrentUnit ,
@@ -801,7 +830,7 @@ gist:DistanceUnit
 
 gist:Duration
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -821,7 +850,7 @@ gist:Duration
 
 gist:DurationUnit
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith
 		gist:ElectricalCurrentUnit ,
 		gist:LuminousIntensityUnit ,
@@ -846,7 +875,7 @@ gist:DurationUnit
 
 gist:ElectricCurrent
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -864,7 +893,7 @@ gist:ElectricCurrent
 
 gist:ElectricalCurrentUnit
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith
 		gist:LuminousIntensityUnit ,
 		gist:MassUnit ,
@@ -889,7 +918,7 @@ gist:ElectricalCurrentUnit
 gist:ElectronicMessageAddress
 	a owl:Class ;
 	rdfs:subClassOf gist:Address ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Any place an electronic message (email, fax, etc.) can be sent."^^xsd:string ;
 	skos:prefLabel "Electronic Message Address"^^xsd:string ;
 	.
@@ -897,14 +926,14 @@ gist:ElectronicMessageAddress
 gist:EmailAddress
 	a owl:Class ;
 	rdfs:subClassOf gist:ElectronicMessageAddress ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "An email address is a unique identifier for an email account. It is used to both send and receive email messages over the Internet."^^xsd:string ;
 	skos:prefLabel "Email Address"^^xsd:string ;
 	.
 
 gist:Equipment
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -924,41 +953,28 @@ gist:Equipment
 gist:EquipmentType
 	a owl:Class ;
 	rdfs:subClassOf gist:Category ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Categories of equipment"^^xsd:string ;
 	skos:prefLabel "Equipment Type"^^xsd:string ;
 	.
 
 gist:Event
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:isCharacterizedAs ;
-				owl:someValuesFrom gist:Behavior ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:endDateTime ;
-				owl:cardinality "1"^^xsd:nonNegativeInteger ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:startDateTime ;
-				owl:cardinality "1"^^xsd:nonNegativeInteger ;
-			]
-		) ;
+		a owl:Restriction ;
+		owl:onProperty gist:isCharacterizedAs ;
+		owl:someValuesFrom gist:Behavior ;
 	] ;
-	skos:definition "Something that occurs over some period of time, often characterized as an activity being carried out by some person, organization, or software application."^^xsd:string ;
+	skos:definition "Something that occurs over a period of time, often characterized as an activity being carried out by some person, organization, or software application or brought about by natural forces."^^xsd:string ;
+	skos:example "A transaction, conference, baseball game, earthquake."^^xsd:string ;
 	skos:prefLabel "Event"^^xsd:string ;
+	skos:scopeNote "An event does not necessarily have either planned or actual start or end datetimes. For example, a conference can be in the planning phase without any dates selected, but is nevertheless an (unscheduled) event. The subclasses of Event state particular restrictions on planned and actual start and end dates."^^xsd:string ;
 	.
 
 gist:Extent
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -976,7 +992,7 @@ gist:Extent
 
 gist:FormattedContent
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -995,7 +1011,7 @@ gist:FormattedContent
 gist:Function
 	a owl:Class ;
 	rdfs:subClassOf gist:Intention ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A function is what a specific made item is intended to do.  For instance: transmit electricity, provide ballast, control ambient temperature."^^xsd:string ;
 	skos:prefLabel "Function"^^xsd:string ;
 	.
@@ -1003,7 +1019,7 @@ gist:Function
 gist:GeneralMediaType
 	a owl:Class ;
 	rdfs:subClassOf gist:Category ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The real-world media type for content."^^xsd:string ;
 	skos:example "Audio, still image, video, textual, physical (e.g., a statue), or performance (i.e. a play).  Or it could be oil or pastel for a painting."^^xsd:string ;
 	skos:prefLabel "General Media Type"^^xsd:string ;
@@ -1012,7 +1028,7 @@ gist:GeneralMediaType
 gist:GeoPoint
 	a owl:Class ;
 	rdfs:subClassOf gist:Place ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith
 		gist:IntellectualProperty ,
 		gist:Intention ,
@@ -1050,7 +1066,7 @@ gist:GeoPoint
 
 gist:GeoRegion
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith
 		gist:IntellectualProperty ,
 		gist:Intention ,
@@ -1084,7 +1100,7 @@ gist:GeoRegion
 
 gist:GeoRoute
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1104,7 +1120,7 @@ gist:GeoRoute
 gist:GeoSegment
 	a owl:Class ;
 	rdfs:subClassOf gist:Place ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1129,13 +1145,15 @@ gist:GeoSegment
 gist:GeoVolume
 	a owl:Class ;
 	rdfs:subClassOf gist:Place ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
 			[
 				a owl:Restriction ;
-				owl:onProperty gist:containsGeographically ;
+				owl:onProperty [
+					owl:inverseOf gist:isGeographicallyContainedIn ;
+				] ;
 				owl:someValuesFrom gist:GeoPoint ;
 			]
 			[
@@ -1152,14 +1170,14 @@ gist:GeoVolume
 gist:Goal
 	a owl:Class ;
 	rdfs:subClassOf gist:Intention ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A specific intentional endpoint.  One can tell whether it has been achieved, as opposed to an intention, which may not have an evaluation function."^^xsd:string ;
 	skos:prefLabel "Goal"^^xsd:string ;
 	.
 
 gist:GovernedGeoRegion
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1180,11 +1198,8 @@ gist:GovernedGeoRegion
 gist:GovernmentOrganization
 	a owl:Class ;
 	rdfs:subClassOf gist:Organization ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:disjointWith
-		gist:IntergovernmentalOrganization ,
-		gist:TreatyOrganization
-		;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
+	owl:disjointWith gist:IntergovernmentalOrganization ;
 	skos:definition "An organization which exercises political and/or regulatory authority over a political unit, people, geo-region, etc., as well as performing certain functions for this unit or body. Differs from a corporation in that it cannot be owned."^^xsd:string ;
 	skos:example "The State of Washington Office of Financial Management; the Food and Drug Administration; the Scottish Parliament."^^xsd:string ;
 	skos:prefLabel "Government Organization"^^xsd:string ;
@@ -1193,7 +1208,7 @@ gist:GovernmentOrganization
 
 gist:HistoricalEvent
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1216,7 +1231,7 @@ gist:HistoricalEvent
 
 gist:ID
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1248,7 +1263,7 @@ gist:ID
 
 gist:InformationQuantity
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1267,7 +1282,7 @@ gist:InformationQuantity
 gist:IntellectualProperty
 	a owl:Class ;
 	rdfs:subClassOf gist:Artifact ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith
 		gist:Intention ,
 		gist:Magnitude ,
@@ -1284,7 +1299,7 @@ gist:IntellectualProperty
 
 gist:Intention
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith
 		gist:Magnitude ,
 		gist:Organization ,
@@ -1298,7 +1313,7 @@ gist:Intention
 
 gist:IntergovernmentalOrganization
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1311,15 +1326,15 @@ gist:IntergovernmentalOrganization
 			]
 		) ;
 	] ;
-	skos:definition "An organization whose members are government organizations."^^xsd:string ;
-	skos:example "The United Nations, the European Union"^^xsd:string ;
-	skos:prefLabel "Inter-Governmental Organization"^^xsd:string ;
+	skos:definition "An organization whose members are government organizations. This can comprise regional, municipal, state/province, or national level entities."^^xsd:string ;
+	skos:example "The United Nations, the European Union, the MTA (Metropolitan Transit Authority)"^^xsd:string ;
+	skos:prefLabel "Intergovernmental Organization"^^xsd:string ;
 	.
 
 gist:Landmark
 	a owl:Class ;
 	rdfs:subClassOf gist:Place ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1343,7 +1358,7 @@ gist:Landmark
 
 gist:Language
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith
 		gist:Magnitude ,
 		gist:Organization ,
@@ -1358,7 +1373,7 @@ gist:Language
 
 gist:LivingThing
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1386,7 +1401,7 @@ gist:LivingThing
 
 gist:LuminousIntensity
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1404,7 +1419,7 @@ gist:LuminousIntensity
 
 gist:LuminousIntensityUnit
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith
 		gist:MassUnit ,
 		gist:MoleUnit ,
@@ -1427,7 +1442,7 @@ gist:LuminousIntensityUnit
 
 gist:Magnitude
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith
 		gist:Organization ,
 		gist:PhysicalIdentifiableItem ,
@@ -1464,7 +1479,7 @@ gist:Magnitude
 
 gist:Mass
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1482,7 +1497,7 @@ gist:Mass
 
 gist:MassUnit
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith
 		gist:MoleUnit ,
 		gist:TemperatureUnit
@@ -1505,7 +1520,7 @@ gist:MassUnit
 gist:MediaType
 	a owl:Class ;
 	rdfs:subClassOf gist:Category ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:seeAlso <https://www.iana.org/assignments/media-types/media-types.xhtml> ;
 	skos:definition "A digitized type that computer applications can recognize."^^xsd:string ;
 	skos:prefLabel "Media Type"^^xsd:string ;
@@ -1514,14 +1529,14 @@ gist:MediaType
 gist:Medium
 	a owl:Class ;
 	rdfs:subClassOf gist:Category ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A physicality on which a work could be implemented or exposed. E.g., paper, clay, or a computer monitor."^^xsd:string ;
 	skos:prefLabel "Medium"^^xsd:string ;
 	.
 
 gist:Message
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1558,14 +1573,14 @@ gist:Message
 gist:MessageDefinition
 	a owl:Class ;
 	rdfs:subClassOf gist:SchemaMetaData ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Each pulse from a Sensor is reflected in a message, as well as each instruction to an Actuator"^^xsd:string ;
 	skos:prefLabel "Message Definition"^^xsd:string ;
 	.
 
 gist:MolarQuantity
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1583,7 +1598,7 @@ gist:MolarQuantity
 
 gist:MoleUnit
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith gist:TemperatureUnit ;
 	owl:equivalentClass [
 		a owl:Class ;
@@ -1602,7 +1617,7 @@ gist:MoleUnit
 
 gist:Monetary
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1618,9 +1633,27 @@ gist:Monetary
 	skos:prefLabel "Monetary"^^xsd:string ;
 	.
 
+gist:MonetaryPerDuration
+	a owl:Class ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
+	owl:equivalentClass [
+		owl:intersectionOf (
+			gist:RatioMagnitude
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasUnitOfMeasure ;
+				owl:allValuesFrom gist:CurrencyPerDurationUnit ;
+			]
+		) ;
+	] ;
+	skos:definition "A monetary amount over a period of time."^^xsd:string ;
+	skos:example "Dollars per hour, euros per month."^^xsd:string ;
+	skos:prefLabel "Monetary per Duration"^^xsd:string ;
+	.
+
 gist:Network
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1645,13 +1678,15 @@ gist:Network
 
 gist:NetworkLink
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
 			[
 				a owl:Restriction ;
-				owl:onProperty gist:isMemberOf ;
+				owl:onProperty [
+					owl:inverseOf gist:hasMember ;
+				] ;
 				owl:someValuesFrom gist:Network ;
 			]
 			[
@@ -1677,10 +1712,12 @@ gist:NetworkNode
 	a owl:Class ;
 	rdfs:subClassOf [
 		a owl:Restriction ;
-		owl:onProperty gist:isMemberOf ;
+		owl:onProperty [
+			owl:inverseOf gist:hasMember ;
+		] ;
 		owl:someValuesFrom gist:Network ;
 	] ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A node in a network."^^xsd:string ;
 	skos:example "A person is a node in a social network; a valve is a node in a network of pipes."^^xsd:string ;
 	skos:prefLabel "Network Node"^^xsd:string ;
@@ -1688,7 +1725,7 @@ gist:NetworkNode
 
 gist:Obligation
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1724,7 +1761,7 @@ gist:Obligation
 
 gist:Offer
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1768,7 +1805,7 @@ gist:Offer
 
 gist:OrderedCollection
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1802,7 +1839,7 @@ gist:OrderedCollection
 
 gist:OrderedMember
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1811,7 +1848,9 @@ gist:OrderedMember
 				owl:unionOf (
 					[
 						a owl:Restriction ;
-						owl:onProperty gist:followsDirectly ;
+						owl:onProperty [
+							owl:inverseOf gist:precedesDirectly ;
+						] ;
 						owl:someValuesFrom gist:OrderedMember ;
 					]
 					[
@@ -1828,12 +1867,16 @@ gist:OrderedMember
 			]
 			[
 				a owl:Restriction ;
-				owl:onProperty gist:isMemberOf ;
+				owl:onProperty [
+					owl:inverseOf gist:hasMember ;
+				] ;
 				owl:allValuesFrom gist:OrderedCollection ;
 			]
 			[
 				a owl:Restriction ;
-				owl:onProperty gist:isMemberOf ;
+				owl:onProperty [
+					owl:inverseOf gist:hasMember ;
+				] ;
 				owl:cardinality "1"^^xsd:nonNegativeInteger ;
 			]
 		) ;
@@ -1846,7 +1889,7 @@ gist:OrderedMember
 
 gist:Organization
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith
 		gist:PhysicalIdentifiableItem ,
 		gist:PhysicalSubstance ,
@@ -1859,18 +1902,9 @@ gist:Organization
 	skos:scopeNote "There are a plethora of different kinds of organizations that differ along many facets, including members, structure, purpose, legal vs. non-legal, etc."^^xsd:string ;
 	.
 
-gist:Percentage
-	a owl:Class ;
-	rdfs:subClassOf gist:RatioMagnitude ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	skos:definition "A ratio where the numerator and denominator are of the same unit of measure."^^xsd:string ;
-	skos:prefLabel "Percentage"^^xsd:string ;
-	skos:scopeNote "There are various ways to represent percentage: 50/100 could be represented as ?50? or ?0.5?.  gist uses the latter, as it involves fewer conversions for subsequent use."^^xsd:string ;
-	.
-
 gist:Permission
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1888,7 +1922,7 @@ gist:Permission
 
 gist:Person
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1908,7 +1942,7 @@ gist:Person
 gist:PhenomenaType
 	a owl:Class ;
 	rdfs:subClassOf gist:Category ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The things that a sensor can sense, such as light, heat, current, moisture, etc."^^xsd:string ;
 	skos:prefLabel "Phenomena Type"^^xsd:string ;
 	.
@@ -1916,14 +1950,14 @@ gist:PhenomenaType
 gist:PhysicalActionType
 	a owl:Class ;
 	rdfs:subClassOf gist:Category ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The effects to be realized in the real world, such as lifting a garage door, turning off a valve, dropping cadmium rods, etc."^^xsd:string ;
 	skos:prefLabel "Physical Action Type"^^xsd:string ;
 	.
 
 gist:PhysicalEvent
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -1962,7 +1996,7 @@ gist:PhysicalIdentifiableItem
 			owl:someValuesFrom gist:PhysicalSubstance ;
 		]
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith
 		gist:SchemaMetaData ,
 		gist:UnitOfMeasure
@@ -1987,7 +2021,7 @@ gist:PhysicalSubstance
 			owl:someValuesFrom gist:Volume ;
 		]
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith gist:UnitOfMeasure ;
 	skos:definition "An undifferentiated amount of physical material which, when subdivided, results in each part being indistinguishable in nature from the whole and from every other part."^^xsd:string ;
 	skos:example "An amount of water, penicillin, sand, gold: an actual piece of gold, not the concept of gold."^^xsd:string ;
@@ -2000,38 +2034,15 @@ gist:PhysicalSubstance
 
 gist:Place
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Union of all the geo classes"^^xsd:string ;
 	skos:prefLabel "Place"^^xsd:string ;
-	.
-
-gist:PlannedEvent
-	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			gist:Event
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:plannedEndDateTime ;
-				owl:cardinality "1"^^xsd:nonNegativeInteger ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:plannedStartDateTime ;
-				owl:cardinality "1"^^xsd:nonNegativeInteger ;
-			]
-		) ;
-	] ;
-	skos:definition "An event which, at the time it is created, is to occur in the future."^^xsd:string ;
-	skos:prefLabel "Planned Event"^^xsd:string ;
 	.
 
 gist:PostalAddress
 	a owl:Class ;
 	rdfs:subClassOf gist:Address ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A set of codes the postal authorities can use to deliver physical mail."^^xsd:string ;
 	skos:example "A street address, a PO Box, an FPO code, or the route codes."^^xsd:string ;
 	skos:prefLabel "Postal Address"^^xsd:string ;
@@ -2040,14 +2051,14 @@ gist:PostalAddress
 gist:ProductCategory
 	a owl:Class ;
 	rdfs:subClassOf gist:Category ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Any of many ways of categorizing products, including models, NATO product codes, and the like."^^xsd:string ;
 	skos:prefLabel "Product Category"^^xsd:string ;
 	.
 
 gist:ProductMagnitude
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2065,7 +2076,7 @@ gist:ProductMagnitude
 
 gist:ProductSpecification
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2083,7 +2094,7 @@ gist:ProductSpecification
 
 gist:ProductUnit
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2106,27 +2117,28 @@ gist:ProductUnit
 	skos:scopeNote "A ProductUnit is intended have a value for conversionFactor."^^xsd:string ;
 	.
 
-gist:ProjectExecution
+gist:Project
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
-			gist:TaskExecution
+			gist:Task
 			[
 				a owl:Restriction ;
-				owl:onProperty gist:hasSubTask ;
-				owl:someValuesFrom gist:TaskExecution ;
+				owl:onProperty gist:hasPart ;
+				owl:someValuesFrom gist:Task ;
 			]
 		) ;
 	] ;
-	skos:definition "A project execution is a task execution (usually a longer duration task) made up of other task executions."^^xsd:string ;
-	skos:prefLabel "Project Execution"^^xsd:string ;
+	skos:definition "A task, usually of longer duration, made up of other tasks."^^xsd:string ;
+	skos:example "Designing an insurance product, adding a new feature to a software application, assessing the level of risk for a mortgage application."^^xsd:string ;
+	skos:prefLabel "Project"^^xsd:string ;
 	.
 
 gist:RatioMagnitude
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2146,7 +2158,7 @@ gist:RatioMagnitude
 
 gist:RatioUnit
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2172,14 +2184,14 @@ gist:RatioUnit
 gist:ReferenceValue
 	a owl:Class ;
 	rdfs:subClassOf gist:Magnitude ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A measure that was neither measured nor estimated but set by fiat. For instance, a goal. There is no Measurement associated with a ReferenceValue."^^xsd:string ;
 	skos:prefLabel "Reference Value"^^xsd:string ;
 	.
 
 gist:RenderedContent
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2203,14 +2215,14 @@ gist:RenderedContent
 gist:Requirement
 	a owl:Class ;
 	rdfs:subClassOf gist:Intention ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A documented physical or functional need that a particular design, product, or process must be able to perform.  Alternately, the obligation of a person or organization to behave in a certain way (i.e., drive on the right side of the road)."^^xsd:string ;
 	skos:prefLabel "Requirement"^^xsd:string ;
 	.
 
 gist:Restriction
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2226,23 +2238,43 @@ gist:Restriction
 	skos:prefLabel "Restriction"^^xsd:string ;
 	.
 
-gist:ScheduledTaskExecution
+gist:ScheduledEvent
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
-			gist:PlannedEvent
-			gist:TaskExecution
+			gist:Event
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:plannedStartDateTime ;
+				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+			]
 		) ;
 	] ;
-	skos:definition "The execution of a task that was planned to occur at a given time. When it was scheduled, it would have been in the future, but now might be in the past."^^xsd:string ;
-	skos:prefLabel "Scheduled Task Execution"^^xsd:string ;
+	skos:definition "An event with a planned start datetime."^^xsd:string ;
+	skos:prefLabel "Scheduled Event"^^xsd:string ;
+	skos:scopeNote "If the event already started, but has not yet ended, it is a contemporary event with an actual start datetime. If the event is over, it is a historical event having an actual end datetime. The event always retains its planned start datetime, and thus continues to be a scheduled event."^^xsd:string ;
+	.
+
+gist:ScheduledTask
+	a owl:Class ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:ScheduledEvent
+			gist:Task
+		) ;
+	] ;
+	skos:definition "A task with a planned start datetime."^^xsd:string ;
+	skos:prefLabel "Scheduled Task"^^xsd:string ;
+	skos:scopeNote "If work on the task has already started, but has not yet ended, it will have an actual start datetime. If the task is completed, it will also have an actual end datetime. The task always retains its planned start time, and thus continues to be a scheduled task."^^xsd:string ;
 	.
 
 gist:SchemaMetaData
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith gist:UnitOfMeasure ;
 	skos:definition "Superclass for all types of metadata, including owl concepts (such as class) and relational (tables, elements) and tool related (queries, R2RML maps etc etc)"^^xsd:string ;
 	skos:prefLabel "Schema Meta Data"^^xsd:string ;
@@ -2251,21 +2283,23 @@ gist:SchemaMetaData
 gist:Sensor
 	a owl:Class ;
 	rdfs:subClassOf gist:Equipment ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A device that can detect something and report it. Light sensors, temperature sensors,"^^xsd:string ;
 	skos:prefLabel "Sensor"^^xsd:string ;
 	.
 
 gist:ServiceSpecification
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
 			gist:CatalogItem
 			[
 				a owl:Restriction ;
-				owl:onProperty gist:isBasisFor ;
+				owl:onProperty [
+					owl:inverseOf gist:isBasedOn ;
+				] ;
 				owl:someValuesFrom gist:Event ;
 			]
 		) ;
@@ -2276,7 +2310,7 @@ gist:ServiceSpecification
 
 gist:SimpleUnitOfMeasure
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2301,7 +2335,7 @@ gist:SimpleUnitOfMeasure
 gist:Specification
 	a owl:Class ;
 	rdfs:subClassOf gist:Requirement ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A set of requirements to be satisfied by a material, design, product, or service."^^xsd:string ;
 	skos:prefLabel "Specification"^^xsd:string ;
 	.
@@ -2309,7 +2343,7 @@ gist:Specification
 gist:StreetAddress
 	a owl:Class ;
 	rdfs:subClassOf gist:PostalAddress ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "An address which references a fixed location in the physical world."^^xsd:string ;
 	skos:example "The street address of a building, a park, campground, or an empty lot."^^xsd:string ;
 	skos:prefLabel "Street Address"^^xsd:string ;
@@ -2318,14 +2352,16 @@ gist:StreetAddress
 
 gist:SubCountryGovernment
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
 			gist:GovernmentOrganization
 			[
 				a owl:Restriction ;
-				owl:onProperty gist:governs ;
+				owl:onProperty [
+					owl:inverseOf gist:isGovernedBy ;
+				] ;
 				owl:someValuesFrom gist:GeoRegion ;
 			]
 			[
@@ -2346,7 +2382,7 @@ gist:SubCountryGovernment
 
 gist:System
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2364,7 +2400,7 @@ gist:System
 
 gist:Tag
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2380,9 +2416,9 @@ gist:Tag
 	skos:prefLabel "Tag"^^xsd:string ;
 	.
 
-gist:TaskExecution
+gist:Task
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2394,13 +2430,17 @@ gist:TaskExecution
 			]
 		) ;
 	] ;
-	skos:definition "An event characterized by a defined piece of work that is either scheduled, accomplished, or both."^^xsd:string ;
-	skos:prefLabel "Task Execution"^^xsd:string ;
+	skos:definition "A piece of work that is either proposed, planned, scheduled, underway, or completed."^^xsd:string ;
+	skos:prefLabel "Task"^^xsd:string ;
+	skos:scopeNote
+		"Something that could potentially be executed, which is merely described but not proposed in any specific way, such as a business process for onboarding a new employee, or the steps in a recipe for making polyethylene from ethylene, is not a task but rather a task template."^^xsd:string ,
+		"Use the property isBasedOn to link a Task back to the TaskTemplate."^^xsd:string
+		;
 	.
 
 gist:TaskTemplate
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2413,13 +2453,17 @@ gist:TaskTemplate
 		) ;
 	] ;
 	skos:definition "An outline of a task of a particular type, which is the basis for executing such tasks."^^xsd:string ;
+	skos:example "A business process for onboarding new employees."^^xsd:string ;
 	skos:prefLabel "Task Template"^^xsd:string ;
-	skos:scopeNote "The class TaskExecution is used to represent the execution of the task. Use the property isBasedOn to link the TaskExecution back to the TaskTemplate."^^xsd:string ;
+	skos:scopeNote
+		"A task template may define a single activity or a series of activities; the level of granularity can be varied according to use case. For example, in a new employee onboarding process, signing up for benefits might be one activity, or it might be broken down into signing up for health insurance, signing up for dental insurance, etc."^^xsd:string ,
+		"Use the property isBasedOn to link the Task back to the TaskTemplate."^^xsd:string
+		;
 	.
 
 gist:Taxonomy
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2436,7 +2480,9 @@ gist:Taxonomy
 							owl:unionOf (
 								[
 									a owl:Restriction ;
-									owl:onProperty gist:hasSubCategory ;
+									owl:onProperty [
+										owl:inverseOf gist:hasSuperCategory ;
+									] ;
 									owl:someValuesFrom gist:Category ;
 								]
 								[
@@ -2458,7 +2504,7 @@ gist:Taxonomy
 gist:TelephoneNumber
 	a owl:Class ;
 	rdfs:subClassOf gist:Address ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A numeric code a telephonic device uses for contacting another telephonic device."^^xsd:string ;
 	skos:example "Mobile, fax, or landline phone number."^^xsd:string ;
 	skos:prefLabel "Telephone Number"^^xsd:string ;
@@ -2466,7 +2512,7 @@ gist:TelephoneNumber
 
 gist:Temperature
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2484,7 +2530,7 @@ gist:Temperature
 
 gist:TemperatureUnit
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2507,7 +2553,7 @@ gist:TemperatureUnit
 
 gist:Template
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:disjointWith gist:UnitOfMeasure ;
 	skos:definition "Something used to make objects in its own image."^^xsd:string ;
 	skos:example
@@ -2538,7 +2584,7 @@ gist:TemporalRelation
 			owl:minCardinality "2"^^xsd:nonNegativeInteger ;
 		]
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A relationship existing for a period of time."^^xsd:string ;
 	skos:example "employs-Employment, hasStreetAddress-EstablishedLocation. One important context for reifying a property."^^xsd:string ;
 	skos:prefLabel "Temporal Relation"^^xsd:string ;
@@ -2550,7 +2596,7 @@ gist:TemporalRelation
 
 gist:Text
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2571,84 +2617,36 @@ gist:Text
 	skos:prefLabel "Text"^^xsd:string ;
 	.
 
-gist:TimeZone
+gist:TimeInterval
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			gist:GeoRegion
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:hasOffsetToUniversal ;
-				owl:someValuesFrom gist:Duration ;
-			]
-		) ;
-	] ;
-	skos:definition "A region that observes a uniform standard time for legal, commercial, and social purposes.  A typical time zone averages 15? of longitude in width and typically observes a clock time one hour earlier than the zone immediately to the east."^^xsd:string ;
-	skos:prefLabel "Time Zone"^^xsd:string ;
-	.
-
-gist:TimeZoneStandard
-	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			gist:Specification
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:isBasedOn ;
-				owl:someValuesFrom gist:TimeZone ;
-			]
-		) ;
-	] ;
-	skos:definition "The algorithm for getting from Greenwich Mean Time to local time, which includes the time zone offset and rules about daylight savings time."^^xsd:string ;
-	skos:prefLabel "Time Zone Standard"^^xsd:string ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
+	skos:definition "A span of time with a known start time, end time, and duration. As long as two of the three are known, the third can be inferred."^^xsd:string ;
+	skos:example "7pm to 9pm on Jan 1, 2001; fiscal year 2023; the week starting at midnight of January 12, 2023 and lasting exactly 168 hours."^^xsd:string ;
+	skos:prefLabel "Time Interval"^^xsd:string ;
+	skos:scopeNote
+		"An ongoing state of affairs with an unknown end time in the future cannot be a time interval; e.g. the lifespan of a living person cannot be a time interval, as the end time is unknown."^^xsd:string ,
+		"This is distinct from a gist:Duration, which describes how long a time interval lasts (e.g., one hour; 3 days; 22 minutes)."^^xsd:string
+		;
 	.
 
 gist:Transaction
 	a owl:Class ;
 	rdfs:subClassOf gist:Event ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "An event which has an effect on at least one accumulator."^^xsd:string ;
 	skos:prefLabel "Transaction"^^xsd:string ;
 	.
 
-gist:TreatyOrganization
-	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			gist:IntergovernmentalOrganization
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:hasMember ;
-				owl:allValuesFrom gist:CountryGovernment ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:hasMember ;
-				owl:minCardinality "2"^^xsd:nonNegativeInteger ;
-			]
-		) ;
-	] ;
-	skos:definition "An organization whose members are country governments."^^xsd:string ;
-	skos:example "NATO, the Louisiana Purchase, the Treaty of Versailles"^^xsd:string ;
-	skos:prefLabel "Treaty Organization"^^xsd:string ;
-	.
-
 gist:UnitOfMeasure
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Standard unit by which we measure things"^^xsd:string ;
 	skos:prefLabel "Unit of Measure"^^xsd:string ;
 	.
 
 gist:Volume
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2666,7 +2664,7 @@ gist:Volume
 
 gist:VolumeUnit
 	a owl:Class ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -2691,17 +2689,16 @@ gist:VolumeUnit
 
 gist:_PrefixDeclaration_gist
 	a sh:PrefixDeclaration ;
-	sh:namespace "https://ontologies.semanticarts.com/gist/"^^xsd:anyURI ;
+	sh:namespace "https://w3id.org/semanticarts/ns/ontology/gist/"^^xsd:anyURI ;
 	sh:prefix "gist"^^xsd:string ;
 	.
 
 gist:_USDollar
 	a
-		owl:NamedIndividual ,
 		owl:Thing ,
 		gist:BaseUnit
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The base unit for currency."^^xsd:string ;
 	skos:prefLabel "US Dollar"^^xsd:string ;
 	gist:conversionFactor "1e+00"^^xsd:double ;
@@ -2711,11 +2708,10 @@ gist:_USDollar
 
 gist:_ampere
 	a
-		owl:NamedIndividual ,
 		owl:Thing ,
 		gist:BaseUnit
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The base unit for electrical current."^^xsd:string ;
 	skos:prefLabel "ampere"^^xsd:string ;
 	gist:conversionFactor "1e+00"^^xsd:double ;
@@ -2725,11 +2721,10 @@ gist:_ampere
 
 gist:_bit
 	a
-		owl:NamedIndividual ,
 		owl:Thing ,
 		gist:BaseUnit
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The base unit for measuring digital information."^^xsd:string ;
 	skos:prefLabel "bit"^^xsd:string ;
 	skos:scopeNote "A bit (short for binary digit) is the smallest unit of data in a computer. A bit has a single binary value, either 0 or 1."^^xsd:string ;
@@ -2739,11 +2734,10 @@ gist:_bit
 
 gist:_candela
 	a
-		owl:NamedIndividual ,
 		owl:Thing ,
 		gist:BaseUnit
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The base unit for luminous intensity."^^xsd:string ;
 	skos:prefLabel "candela"^^xsd:string ;
 	gist:conversionFactor "1e+00"^^xsd:double ;
@@ -2753,9 +2747,10 @@ gist:_candela
 
 gist:_day
 	a
-		owl:NamedIndividual ,
+		owl:Thing ,
 		gist:DurationUnit
 		;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A duration unit that is 24 hours long."^^xsd:string ;
 	skos:prefLabel "day"^^xsd:string ;
 	gist:conversionFactor "8.64e+04"^^xsd:double ;
@@ -2764,11 +2759,10 @@ gist:_day
 
 gist:_each
 	a
-		owl:NamedIndividual ,
 		owl:Thing ,
 		gist:BaseUnit
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The base unit for count magnitudes."^^xsd:string ;
 	skos:prefLabel "each"^^xsd:string ;
 	gist:conversionFactor "1e+00"^^xsd:double ;
@@ -2777,11 +2771,10 @@ gist:_each
 
 gist:_kelvin
 	a
-		owl:NamedIndividual ,
 		owl:Thing ,
 		gist:BaseUnit
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The base unit for measuring temperature."^^xsd:string ;
 	skos:prefLabel "Kelvin"^^xsd:string ;
 	gist:conversionFactor "1e+00"^^xsd:double ;
@@ -2792,11 +2785,10 @@ gist:_kelvin
 
 gist:_kilogram
 	a
-		owl:NamedIndividual ,
 		owl:Thing ,
 		gist:BaseUnit
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The base unit for measuring mass."^^xsd:string ;
 	skos:prefLabel "mass"^^xsd:string ;
 	gist:conversionFactor "1e+00"^^xsd:double ;
@@ -2806,11 +2798,10 @@ gist:_kilogram
 
 gist:_meter
 	a
-		owl:NamedIndividual ,
 		owl:Thing ,
 		gist:BaseUnit
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The base unit for measuring distance."^^xsd:string ;
 	skos:prefLabel "distance"^^xsd:string ;
 	gist:conversionFactor "1e+00"^^xsd:double ;
@@ -2820,9 +2811,10 @@ gist:_meter
 
 gist:_millisecond
 	a
-		owl:NamedIndividual ,
+		owl:Thing ,
 		gist:DurationUnit
 		;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A unit equal to a thousandth of a second."^^xsd:string ;
 	skos:prefLabel "millisecond"^^xsd:string ;
 	gist:conversionFactor "1e-03"^^xsd:double ;
@@ -2832,9 +2824,10 @@ gist:_millisecond
 
 gist:_minute
 	a
-		owl:NamedIndividual ,
+		owl:Thing ,
 		gist:DurationUnit
 		;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A unit equal to 60 seconds."^^xsd:string ;
 	skos:prefLabel "minute"^^xsd:string ;
 	gist:conversionFactor "6e+01"^^xsd:double ;
@@ -2844,11 +2837,10 @@ gist:_minute
 
 gist:_mole
 	a
-		owl:NamedIndividual ,
 		owl:Thing ,
 		gist:BaseUnit
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The base unit for measuring molar quantities."^^xsd:string ;
 	skos:prefLabel "mole"^^xsd:string ;
 	gist:conversionFactor "1e+00"^^xsd:double ;
@@ -2856,13 +2848,25 @@ gist:_mole
 	gist:unitSymbol "mol"^^xsd:string ;
 	.
 
+gist:_percent
+	a gist:UnitOfMeasure ;
+	skos:definition "The unit designating a quantity that is the ratio of two quantities with the same unit of measure and which has been multiplied by 100."^^xsd:string ;
+	skos:prefLabel "percent"^^xsd:string ;
+	skos:scopeNote
+		"Because the units of the numerator and denominator are the same, they cancel out, resulting in a dimensional quantity."^^xsd:string ,
+		"To keep the unit of measure of the numerator and denominator, use a ratio unit; e.g., cm/cm."^^xsd:string
+		;
+	gist:conversionFactor "1e-02"^^xsd:double ;
+	gist:hasBaseUnit gist:_each ;
+	gist:unitSymbol "%"^^xsd:string ;
+	.
+
 gist:_second
 	a
-		owl:NamedIndividual ,
 		owl:Thing ,
 		gist:BaseUnit
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The base unit for measuring durations."^^xsd:string ;
 	skos:prefLabel "second"^^xsd:string ;
 	gist:conversionFactor "1e+00"^^xsd:double ;
@@ -2872,7 +2876,7 @@ gist:_second
 
 gist:accepts
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The types of input messages that will be allowed."^^xsd:string ;
 	skos:prefLabel "accepts"^^xsd:string ;
 	.
@@ -2880,7 +2884,7 @@ gist:accepts
 gist:actualEndDate
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:actualEndDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The actual date that something ended, with precision of one day."^^xsd:string ;
 	skos:example "'2021-06-01T00:00:00-6:00'^^xsd:dateTime"^^xsd:string ;
@@ -2891,7 +2895,7 @@ gist:actualEndDate
 gist:actualEndDateTime
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:endDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The actual date and time that something ended, with no implied precision."^^xsd:string ;
 	skos:prefLabel "actual end date time"^^xsd:string ;
@@ -2901,7 +2905,7 @@ gist:actualEndDateTime
 gist:actualEndMicrosecond
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:actualEndDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The actual time that something ended, expressed as a system time used for timestamps."^^xsd:string ;
 	skos:example "'2021-06-01T08:03:27.12324-6:00'^^xsd:dateTime"^^xsd:string ;
@@ -2912,7 +2916,7 @@ gist:actualEndMicrosecond
 gist:actualEndMinute
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:actualEndDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The actual date and time that something ended, with precision of one minute."^^xsd:string ;
 	skos:example "'2021-06-01T08:32:00-6:00'^^xsd:dateTime"^^xsd:string ;
@@ -2923,7 +2927,7 @@ gist:actualEndMinute
 gist:actualEndYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:actualEndDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The actual date that something ended, with precision of one year."^^xsd:string ;
 	skos:example
@@ -2937,7 +2941,7 @@ gist:actualEndYear
 gist:actualStartDate
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:actualStartDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The actual date that something started, with precision of one day."^^xsd:string ;
 	skos:example "'2021-06-01T00:00:00-6:00'^^xsd:dateTime"^^xsd:string ;
@@ -2948,7 +2952,7 @@ gist:actualStartDate
 gist:actualStartDateTime
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:startDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The actual date and time that something started, with no implied precision."^^xsd:string ;
 	skos:prefLabel "actual start date time"^^xsd:string ;
@@ -2958,7 +2962,7 @@ gist:actualStartDateTime
 gist:actualStartMicrosecond
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:actualStartDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The actual time that something started, expressed as a system time used for timestamps."^^xsd:string ;
 	skos:example "'2021-06-01T08:03:27.12324-6:00'^^xsd:dateTime"^^xsd:string ;
@@ -2969,7 +2973,7 @@ gist:actualStartMicrosecond
 gist:actualStartMinute
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:actualStartDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The actual date and time that something started, with precision of one minute."^^xsd:string ;
 	skos:example "'2021-06-01T08:32:00-6:00'^^xsd:dateTime"^^xsd:string ;
@@ -2980,7 +2984,7 @@ gist:actualStartMinute
 gist:actualStartYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:actualStartDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The actual date that something started, with precision of one year."^^xsd:string ;
 	skos:example
@@ -2991,18 +2995,10 @@ gist:actualStartYear
 	skos:scopeNote "Used for things where the precision of a year is sufficient. Recommended usage is to zero out the hours through microseconds to avoid spurious precision. Note that it is not valid to zero out months and days, so arbitrary values must be included."^^xsd:string ;
 	.
 
-gist:affects
-	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:inverseOf gist:isAffectedBy ;
-	skos:definition "The subject has, had, or will have an effect on the object."^^xsd:string ;
-	skos:prefLabel "affects"^^xsd:string ;
-	.
-
 gist:allows
 	a owl:ObjectProperty ;
 	rdfs:domain gist:Intention ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range gist:Behavior ;
 	skos:definition "The intention (say a grant) allows a particular kind of activity (for instance egress)"^^xsd:string ;
 	skos:prefLabel "allows"^^xsd:string ;
@@ -3010,7 +3006,7 @@ gist:allows
 
 gist:atDateTime
 	a owl:DatatypeProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The date and time at which something did or will occur, with variants for precision, start and end, and actual vs. planned."^^xsd:string ;
 	skos:prefLabel "at date time"^^xsd:string ;
@@ -3023,7 +3019,7 @@ The subproperties allow the ontologist to do three things:
 
 All datetimes are of the same format: '2021-06-01T08:03:27.12324-6:00'^^xsd:dateTime. This is compatible with and a subset of ISO 8601.
 
-Time zone offset, such as -6:00 (of which there are a few dozen) is recognized in the date itself, as shown. The actual time zone standard (of which there are 131) may optionally be attached to the event or other object itself; see property gist:usesTimeZoneStandard.
+Time zone offset, such as -6:00 (of which there are a few dozen) is recognized in the date itself, as shown. The actual time zone standard (of which there are 131) may optionally be attached to the event or other object itself.
 
 There will be many historical dates that do not have a time zone offset (e.g., Lincoln's birthday, as well as about 75% of all legacy systems), and in that case the offset can be omitted. 
 
@@ -3032,14 +3028,13 @@ The conventions for precision that are repeated in each property name are as fol
 	- *Date refers to a calendar date (e.g., birthdays and invoice dates) and is assumed to have precision of one day. Time zone offset is allowed.
 	- *Minute refers to clock time; e.g., a meeting will start at 9:15 with a timezone offset. Precision is assumed to have precision of one minute.
 	- *Microsecond refers to system time, and it will be as precise as the system can supply; typically at least milliseconds, sometime microseconds.
-
 """^^xsd:string ;
 	.
 
 gist:birthDate
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:startDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The date some living thing was or will be born, with precision of one day."^^xsd:string ;
 	skos:example "'2021-06-01T00:00:00-6:00'^^xsd:dateTime"^^xsd:string ;
@@ -3050,7 +3045,7 @@ gist:birthDate
 gist:comesFromAgent
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:hasParticipant ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range [
 		a owl:Class ;
 		owl:unionOf (
@@ -3065,7 +3060,7 @@ gist:comesFromAgent
 
 gist:comesFromPlace
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range [
 		a owl:Class ;
 		owl:unionOf (
@@ -3079,7 +3074,7 @@ gist:comesFromPlace
 
 gist:conformsTo
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The subject conforms to the Object, e.g. meet an obligation, meet terms of an offer, adhere to a specification"^^xsd:string ;
 	skos:prefLabel "conforms to"^^xsd:string ;
 	gist:rangeIncludes gist:Intention ;
@@ -3087,28 +3082,15 @@ gist:conformsTo
 
 gist:containedText
 	a owl:DatatypeProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:string ;
 	skos:definition "Links to the string corresponding to Text"^^xsd:string ;
 	skos:prefLabel "contained text"^^xsd:string ;
 	.
 
-gist:containsGeographically
-	a
-		owl:ObjectProperty ,
-		owl:TransitiveProperty
-		;
-	rdfs:domain gist:Place ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	rdfs:range gist:Place ;
-	owl:inverseOf gist:isGeographicallyContainedIn ;
-	skos:definition "Relate one place to another place that is contained within the first."^^xsd:string ;
-	skos:prefLabel "contains geographically"^^xsd:string ;
-	.
-
 gist:contributesTo
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The parts of a system contribute to the goal/ function of the whole system"^^xsd:string ;
 	skos:prefLabel "contributes to"^^xsd:string ;
 	.
@@ -3116,7 +3098,7 @@ gist:contributesTo
 gist:conversionFactor
 	a owl:DatatypeProperty ;
 	rdfs:domain gist:UnitOfMeasure ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:double ;
 	skos:definition "The conversion factor used to convert a unit to its standard (i.e., coherent) unit (which could be a base unit.)"^^xsd:string ;
 	skos:example
@@ -3130,7 +3112,7 @@ gist:conversionFactor
 gist:conversionOffset
 	a owl:DatatypeProperty ;
 	rdfs:domain gist:UnitOfMeasure ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:double ;
 	skos:definition "Add this number to get to the zero point.  On the Celsius scale, the conversionOffset is -273.15 degrees C. On the Fahrenheit scale it is -459.67 degrees.  Is equal to 0 when the unit has the same zero point as the base unit. e.g. inch, meter."^^xsd:string ;
 	skos:prefLabel "conversion offset"^^xsd:string ;
@@ -3139,7 +3121,7 @@ gist:conversionOffset
 gist:deathDate
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:actualEndDate ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The date some living thing died."^^xsd:string ;
 	skos:example "'2021-06-01T00:00:00-6:00'^^xsd:dateTime"^^xsd:string ;
@@ -3149,7 +3131,7 @@ gist:deathDate
 
 gist:description
 	a owl:DatatypeProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A statement about someone or something's attributes or characteristics."^^xsd:string ;
 	skos:example "The Empire State Building is a 102-story Art Deco skyscraper in Midtown Manhattan in New York City, United States. It was designed by Shreve, Lamb & Harmon and built from 1930 to 1931."^^xsd:string ;
 	skos:prefLabel "description"^^xsd:string ;
@@ -3158,7 +3140,7 @@ gist:description
 
 gist:directs
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The set of actuators that a controller can affect"^^xsd:string ;
 	skos:prefLabel "directs"^^xsd:string ;
 	.
@@ -3166,7 +3148,7 @@ gist:directs
 gist:domainIncludes
 	a owl:AnnotationProperty ;
 	rdfs:subPropertyOf skos:scopeNote ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Relates a property to a class that is (one of) the type(s) the property is expected to be used on."^^xsd:string ;
 	skos:example "The domain for the property gist:hasMember includes gist:Collection."^^xsd:string ;
 	skos:prefLabel "domain includes"^^xsd:string ;
@@ -3179,7 +3161,7 @@ gist:domainIncludes
 gist:encryptedText
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:containedText ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:string ;
 	skos:definition "Links to the string corresponding to EncryptedText"^^xsd:string ;
 	skos:prefLabel "encrypted text"^^xsd:string ;
@@ -3188,7 +3170,7 @@ gist:encryptedText
 gist:endDateTime
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:atDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The date and time that something ended."^^xsd:string ;
 	skos:prefLabel "end date time"^^xsd:string ;
@@ -3198,40 +3180,10 @@ gist:endDateTime
 		;
 	.
 
-gist:follows
-	a
-		owl:ObjectProperty ,
-		owl:TransitiveProperty
-		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:inverseOf gist:precedes ;
-	skos:definition "A generic ordering relation indicating that the subject comes after the object."^^xsd:string ;
-	skos:prefLabel "follows"^^xsd:string ;
-	skos:scopeNote
-		"The greater-than symbol is often used to represent this relation."^^xsd:string ,
-		"This is the transitive version of gist:followsDirectly."^^xsd:string ,
-		"Typically this predicate would be used asymmetricallly and irreflexively, but the ontology does not formalize this."^^xsd:string
-		;
-	.
-
-gist:followsDirectly
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf gist:follows ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:inverseOf gist:precedesDirectly ;
-	skos:definition "A generic ordering relation indicating that the subject comes immediately after the object."^^xsd:string ;
-	skos:prefLabel "follows directly"^^xsd:string ;
-	skos:scopeNote
-		"If two items in an ordered collection share the same position, they both directly follow the preceding element."^^xsd:string ,
-		"It is safest to use this property only when the directness has a semantic correspondence with the world. Only break a direct link by inserting an intermediate item when that change corresponds to a change in the world."^^xsd:string ,
-		"Typically this predicate would be used asymmetricallly and irreflexively, but the ontology does not formalize this."^^xsd:string
-		;
-	.
-
 gist:goesToAgent
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:hasParticipant ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range [
 		a owl:Class ;
 		owl:unionOf (
@@ -3246,7 +3198,7 @@ gist:goesToAgent
 
 gist:goesToPlace
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range [
 		a owl:Class ;
 		owl:unionOf (
@@ -3258,40 +3210,9 @@ gist:goesToPlace
 	skos:prefLabel "goes to place"^^xsd:string ;
 	.
 
-gist:governs
-	a owl:ObjectProperty ;
-	rdfs:domain [
-		a owl:Class ;
-		owl:unionOf (
-			gist:Intention
-			gist:Organization
-			gist:Person
-			gist:Template
-		) ;
-	] ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	rdfs:range [
-		a owl:Class ;
-		owl:unionOf (
-			gist:Category
-			gist:Content
-			gist:GeoRegion
-			gist:IntellectualProperty
-			gist:Intention
-			gist:Organization
-			gist:Person
-			gist:PhysicalIdentifiableItem
-			gist:PhysicalSubstance
-		) ;
-	] ;
-	owl:inverseOf gist:isGovernedBy ;
-	skos:definition "The subject controls or inhibits the object in some way"^^xsd:string ;
-	skos:prefLabel "governs"^^xsd:string ;
-	.
-
 gist:hasAddress
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range gist:Address ;
 	skos:definition "Relates the subject to its physical or virtual address."^^xsd:string ;
 	skos:example "The street address of a building; the email address of a person."^^xsd:string ;
@@ -3301,7 +3222,7 @@ gist:hasAddress
 gist:hasAltitude
 	a owl:ObjectProperty ;
 	rdfs:domain gist:GeoPoint ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range gist:Extent ;
 	skos:definition "Distance above sea level"^^xsd:string ;
 	skos:prefLabel "has altitude"^^xsd:string ;
@@ -3311,7 +3232,7 @@ gist:hasBaseUnit
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:hasStandardUnit ;
 	rdfs:domain gist:UnitOfMeasure ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range gist:BaseUnit ;
 	skos:definition "Relates a UnitOfMeasure to its BaseUnit.  This indicates what kind of Unit something is."^^xsd:string ;
 	skos:example "Saying that a furlong hasBaseUnit  meter says it is a DistanceUnit."^^xsd:string ;
@@ -3321,7 +3242,7 @@ gist:hasBaseUnit
 gist:hasBiologicalParent
 	a owl:ObjectProperty ;
 	rdfs:domain gist:LivingThing ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range gist:LivingThing ;
 	skos:definition "Relates a living thing to its biological parent."^^xsd:string ;
 	skos:prefLabel "has biological parent"^^xsd:string ;
@@ -3337,7 +3258,7 @@ gist:hasCommunicationAddress
 			gist:Person
 		) ;
 	] ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range gist:Address ;
 	skos:definition "Relates a Person or Organization to where they can receive messages, including postal addresses, fax numbers, phone numbers, email, web site, etc."^^xsd:string ;
 	skos:prefLabel "has communication address"^^xsd:string ;
@@ -3345,7 +3266,7 @@ gist:hasCommunicationAddress
 
 gist:hasDenominator
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Relates a RatioUnit such as meters/second to the denominator Unit (e.g. second)."^^xsd:string ;
 	skos:prefLabel "has denominator"^^xsd:string ;
 	.
@@ -3353,8 +3274,7 @@ gist:hasDenominator
 gist:hasDirectPart
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:hasPart ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:inverseOf gist:isDirectPartOf ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The relationship between a whole and a part where the part has independent existence."^^xsd:string ;
 	skos:prefLabel "has direct part"^^xsd:string ;
 	skos:scopeNote
@@ -3364,30 +3284,10 @@ gist:hasDirectPart
 		;
 	.
 
-gist:hasDirectSubCategory
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf gist:hasSubCategory ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	skos:definition "The subject category is a supercategory of the object category. This property defines the direct links in a category hierarchy; no intermediate categories can exist between the direct links."^^xsd:string ;
-	skos:prefLabel "has direct subcategory"^^xsd:string ;
-	skos:scopeNote "Unlike its superproperty gist:hasSubCategory, this property is not transitive. It is essentially the same as the non-transitive skos:narrower, using gist:Category rather than skos:Concept."^^xsd:string ;
-	.
-
-gist:hasDirectSubTask
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf gist:hasSubTask ;
-	rdfs:domain gist:TaskExecution ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	rdfs:range gist:TaskExecution ;
-	owl:inverseOf gist:isDirectSubTaskOf ;
-	skos:definition "Immediate child task"^^xsd:string ;
-	skos:prefLabel "has direct sub task"^^xsd:string ;
-	.
-
 gist:hasDirectSuperCategory
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:hasSuperCategory ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The subject category is a subcategory of the object category. This property defines the direct links in a category hierarchy; no intermediate categories can exist between the direct links."^^xsd:string ;
 	skos:prefLabel "has direct supercategory"^^xsd:string ;
 	skos:scopeNote "Unlike its superproperty gist:hasSuperCategory, this property is not transitive. It is essentially the same as the non-transitive skos:broader, using gist:Category rather than skos:Concept."^^xsd:string ;
@@ -3400,7 +3300,7 @@ gist:hasFirstMember
 		;
 	rdfs:subPropertyOf gist:hasMember ;
 	rdfs:domain gist:OrderedCollection ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range gist:OrderedMember ;
 	skos:definition "Relates an ordered collection to its first member."^^xsd:string ;
 	skos:prefLabel "has first member"^^xsd:string ;
@@ -3410,7 +3310,7 @@ gist:hasFirstMember
 gist:hasGiver
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:hasParticipant ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	owl:propertyDisjointWith gist:hasRecipient ;
 	skos:definition "The active party, the one with the obligation or the one initiating the transfer"^^xsd:string ;
 	skos:prefLabel "has giver"^^xsd:string ;
@@ -3418,21 +3318,21 @@ gist:hasGiver
 
 gist:hasGoal
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The reason for doing something"^^xsd:string ;
 	skos:prefLabel "has goal"^^xsd:string ;
 	.
 
 gist:hasIncumbent
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "What equipment or person is currently in this node.  Note to create a temporal view make a TemporalRelation for this property"^^xsd:string ;
 	skos:prefLabel "has incumbent"^^xsd:string ;
 	.
 
 gist:hasMagnitude
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range gist:Magnitude ;
 	skos:definition "To have a comparable numeric value. Each magnitude has a unit."^^xsd:string ;
 	skos:prefLabel "has magnitude"^^xsd:string ;
@@ -3440,8 +3340,7 @@ gist:hasMagnitude
 
 gist:hasMember
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:inverseOf gist:isMemberOf ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Relates a Collection to its member individuals."^^xsd:string ;
 	skos:prefLabel "has member"^^xsd:string ;
 	gist:domainIncludes gist:Collection ;
@@ -3449,30 +3348,21 @@ gist:hasMember
 
 gist:hasMultiplicand
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Relates a ProductUnit such as square mile to the second of two units multiplied together (e.g. mile)."^^xsd:string ;
 	skos:prefLabel "has multiplicand"^^xsd:string ;
 	.
 
 gist:hasMultiplier
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Relates a ProductUnit such as square mile to the first of two units multiplied together (e.g. mile)"^^xsd:string ;
 	skos:prefLabel "has multiplier"^^xsd:string ;
 	.
 
-gist:hasNavigationalChild
-	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:inverseOf gist:hasNavigationalParent ;
-	skos:definition "Relates a parent category to a child category in an informal (e.g., faceted) hierarchy."^^xsd:string ;
-	skos:example "Refrigerator handles are not refrigerators, but it may be useful to represent their relationship hierarchically for a faceted UI filter."^^xsd:string ;
-	skos:prefLabel "has navigational child"^^xsd:string ;
-	.
-
 gist:hasNavigationalParent
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Relates a child category to a parent category in an informal (e.g., faceted) hierarchy."^^xsd:string ;
 	skos:example "Refrigerator handles are not refrigerators, but it may be useful to represent their relationship hierarchically for a faceted UI filter."^^xsd:string ;
 	skos:prefLabel "has navigational parent"^^xsd:string ;
@@ -3480,18 +3370,9 @@ gist:hasNavigationalParent
 
 gist:hasNumerator
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Relates a RatioUnit such as meter(s)/second to the numerator Unit (e.g. meter)."^^xsd:string ;
 	skos:prefLabel "has numerator"^^xsd:string ;
-	.
-
-gist:hasOffsetToUniversal
-	a owl:ObjectProperty ;
-	rdfs:domain gist:TimeZone ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	rdfs:range gist:Duration ;
-	skos:definition "How many hours the time zone is off GMT"^^xsd:string ;
-	skos:prefLabel "has offset to universal"^^xsd:string ;
 	.
 
 gist:hasPart
@@ -3499,15 +3380,14 @@ gist:hasPart
 		owl:ObjectProperty ,
 		owl:TransitiveProperty
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:inverseOf gist:isPartOf ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The transitive version of gist:hasDirectPart"^^xsd:string ;
 	skos:prefLabel "has part"^^xsd:string ;
 	.
 
 gist:hasParticipant
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Relates something (e.g. an agreement) to things that play a role, or take part or are otherwise involved in some way."^^xsd:string ;
 	skos:example "An event of transferring money has a participating account that receives the money."^^xsd:string ;
 	skos:prefLabel "has participant"^^xsd:string ;
@@ -3520,7 +3400,7 @@ gist:hasParticipant
 gist:hasParty
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:hasParticipant ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range [
 		a owl:Class ;
 		owl:unionOf (
@@ -3538,7 +3418,7 @@ gist:hasPhysicalLocation
 		owl:ObjectProperty ,
 		owl:TransitiveProperty
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range gist:Place ;
 	skos:definition "Where something is located"^^xsd:string ;
 	skos:prefLabel "has physical location"^^xsd:string ;
@@ -3546,7 +3426,7 @@ gist:hasPhysicalLocation
 
 gist:hasPrecision
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range gist:Magnitude ;
 	skos:definition "Links a Magnitude to the degree of accuracy of the numeric value.   This allows for fuzzy numbers.  All magnitudes have a precision.  Usually we don't record them.  When we do this, it will be a value whose extent covers 2 standard deviations around the stated magnitude"^^xsd:string ;
 	skos:example "Temperature precise to tenth of a degree C; length precise to the nearest centimeter."^^xsd:string ;
@@ -3556,7 +3436,7 @@ gist:hasPrecision
 gist:hasRecipient
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:hasParticipant ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The recipient"^^xsd:string ;
 	skos:prefLabel "has recipient"^^xsd:string ;
 	.
@@ -3564,32 +3444,10 @@ gist:hasRecipient
 gist:hasStandardUnit
 	a owl:ObjectProperty ;
 	rdfs:domain gist:UnitOfMeasure ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range gist:CoherentUnit ;
 	skos:definition "For a complex unit refers to a unit that has all the component parts in SI"^^xsd:string ;
 	skos:prefLabel "has standard unit"^^xsd:string ;
-	.
-
-gist:hasSubCategory
-	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:inverseOf gist:hasSuperCategory ;
-	skos:definition "The subject category is inclusive of, or broader than, the object category. Everything categorized by the subcategory can be inferred to be categorized by the supercategory."^^xsd:string ;
-	skos:prefLabel "has subcategory"^^xsd:string ;
-	skos:scopeNote "This is essentially the same as skos:narrowerTransitive, using gist:Category instead of skos:Concept."^^xsd:string ;
-	.
-
-gist:hasSubTask
-	a
-		owl:ObjectProperty ,
-		owl:TransitiveProperty
-		;
-	rdfs:domain gist:TaskExecution ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	rdfs:range gist:TaskExecution ;
-	owl:inverseOf gist:isSubTaskOf ;
-	skos:definition "A task that is part of a larger task. The time frame of the subtasks may overlap but may not extend beyond the time frame of the parent task. A subtask may be part of more than one parent task."^^xsd:string ;
-	skos:prefLabel "has subtask"^^xsd:string ;
 	.
 
 gist:hasSuperCategory
@@ -3597,7 +3455,7 @@ gist:hasSuperCategory
 		owl:ObjectProperty ,
 		owl:TransitiveProperty
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The subject category is included by, or narrower than, the object category. Everything categorized by the subcategory can be inferred to be categorized by the supercategory."^^xsd:string ;
 	skos:prefLabel "has supercategory"^^xsd:string ;
 	skos:scopeNote "This is essentially the same as skos:broaderTransitive, using gist:Category instead of skos:Concept."^^xsd:string ;
@@ -3609,7 +3467,7 @@ gist:hasUniqueNavigationalParent
 		owl:FunctionalProperty
 		;
 	rdfs:subPropertyOf gist:hasNavigationalParent ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Relates a subject category to a unique parent category in an informal (e.g., faceted) hierarchy."^^xsd:string ;
 	skos:prefLabel "has unique navigational parent"^^xsd:string ;
 	.
@@ -3620,7 +3478,7 @@ gist:hasUniqueSuperCategory
 		owl:FunctionalProperty
 		;
 	rdfs:subPropertyOf gist:hasSuperCategory ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Used for taxos that must have single parents"^^xsd:string ;
 	skos:prefLabel "has unique supercategory"^^xsd:string ;
 	.
@@ -3628,7 +3486,7 @@ gist:hasUniqueSuperCategory
 gist:hasUnitOfMeasure
 	a owl:ObjectProperty ;
 	rdfs:domain gist:Magnitude ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range gist:UnitOfMeasure ;
 	skos:definition "Which unit of measure you are using. All measures are expressed in some unit of measure, even if we don't know what it is initially."^^xsd:string ;
 	skos:prefLabel "has unit of measure"^^xsd:string ;
@@ -3636,41 +3494,29 @@ gist:hasUnitOfMeasure
 
 gist:hasViableRange
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The area over which the sensor can sense (might be a small geospatial area or a specific wire in a circuit)"^^xsd:string ;
 	skos:prefLabel "has viable range"^^xsd:string ;
-	.
-
-gist:identifies
-	a
-		owl:ObjectProperty ,
-		owl:FunctionalProperty
-		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:inverseOf gist:isIdentifiedBy ;
-	skos:definition "The thing the identifier refers to."^^xsd:string ;
-	skos:prefLabel "identifies"^^xsd:string ;
 	.
 
 gist:isAbout
 	a owl:ObjectProperty ;
 	rdfs:domain gist:Content ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:inverseOf gist:isDescribedIn ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Subject matter of a document."^^xsd:string ;
 	skos:prefLabel "is about"^^xsd:string ;
 	.
 
 gist:isAffectedBy
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Where the effect came from"^^xsd:string ;
 	skos:prefLabel "is affected by"^^xsd:string ;
 	.
 
 gist:isAllocatedBy
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range [
 		a owl:Class ;
 		owl:unionOf (
@@ -3679,37 +3525,34 @@ gist:isAllocatedBy
 			gist:Person
 		) ;
 	] ;
-	skos:definition "Connection between an ID and the thing that minted the ID.  It may be a person or organization, or could be an algorithm (next available or random number generator)"^^xsd:string ;
+	skos:definition "Relates the subject to whomever or whatever assigns or distributes it."^^xsd:string ;
+	skos:example "A U.S. Social Security number is allocated by the U.S. Social Security Administration. The media type https://www.iana.org/assignments/media-types/text/csv is allocated by the Internet Assigned Numbers Authority (IANA)."^^xsd:string ;
 	skos:prefLabel "is allocated by"^^xsd:string ;
+	skos:scopeNote "The allocator may be a person, organization, or automated process."^^xsd:string ;
+	gist:domainIncludes
+		gist:Category ,
+		gist:ID
+		;
 	.
 
 gist:isAspectOf
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "What this aspect is referring to"^^xsd:string ;
 	skos:prefLabel "is aspect of"^^xsd:string ;
 	.
 
 gist:isBasedOn
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:inverseOf gist:isBasisFor ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The Object is a foundation for, a starting point for, gave rise to or justifies the Subject"^^xsd:string ;
 	skos:example "A document is based on a document template. A metric computing the average income of a population is based on the metric for individual income."^^xsd:string ;
 	skos:prefLabel "is based on"^^xsd:string ;
 	.
 
-gist:isBasisFor
-	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	skos:definition "The Subject is a foundation for, a starting point for, gave rise to or justifies the Object"^^xsd:string ;
-	skos:example "The reason, law, rule, etc. behind an action or decision. The desire to create a community around the data-centric revolution/movement was the basis for initiating the Data-Centric Architecture Summit in 2018. The unabridged dictionary was the basis for the abridged dictionary."^^xsd:string ;
-	skos:prefLabel "is basis for"^^xsd:string ;
-	.
-
 gist:isCategorizedBy
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Points to a taxonomy item or other less formally defined class."^^xsd:string ;
 	skos:prefLabel "is categorized by"^^xsd:string ;
 	gist:rangeIncludes gist:Category ;
@@ -3718,7 +3561,7 @@ gist:isCategorizedBy
 gist:isCharacterizedAs
 	a owl:ObjectProperty ;
 	rdfs:domain gist:Event ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range gist:Behavior ;
 	skos:definition "A way to categorize a behavior."^^xsd:string ;
 	skos:prefLabel "is characterized as"^^xsd:string ;
@@ -3729,69 +3572,56 @@ gist:isConnectedTo
 		owl:ObjectProperty ,
 		owl:SymmetricProperty
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A non-owning, non-causal, non-subordinate (i.e., peer-to-peer) relationship."^^xsd:string ;
 	skos:prefLabel "is connected to"^^xsd:string ;
 	.
 
-gist:isDescribedIn
-	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	skos:definition "Document the subject matter appeared in"^^xsd:string ;
-	skos:prefLabel "is described in"^^xsd:string ;
-	.
-
-gist:isDirectPartOf
-	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	skos:definition "The relationship between a part and a whole where the part has independent existence."^^xsd:string ;
-	skos:prefLabel "is direct part of"^^xsd:string ;
-	skos:scopeNote
-		"It is safest to use this property when there is semantic directness inherent in the relationship, rather than choosing appropriate granularity. For example, a spark plug is a direct part of an engine block; there cannot be any intermediate parts.  Beware of making a directPartOf assertion and then inserting an intermediate part; this will result in making an asserted triple false even though there was no change in the world."^^xsd:string ,
-		"Use this property to directly associate a part with the whole. partOf is the transitive version."^^xsd:string
-		;
-	.
-
-gist:isDirectSubTaskOf
-	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	skos:definition "Immediate parent task"^^xsd:string ;
-	skos:prefLabel "is direct subtask of"^^xsd:string ;
-	.
-
 gist:isExpressedIn
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The language something was expressed in"^^xsd:string ;
 	skos:prefLabel "is expressed in"^^xsd:string ;
 	.
 
 gist:isGeographicallyContainedIn
-	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	a
+		owl:ObjectProperty ,
+		owl:TransitiveProperty
+		;
+	rdfs:domain gist:Place ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
+	rdfs:range gist:Place ;
 	skos:definition "Relates one place to another place that contains the first."^^xsd:string ;
 	skos:prefLabel "is geographically contained in"^^xsd:string ;
 	.
 
-gist:isGeographicallyOccupiedBy
-	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:inverseOf gist:occupiesGeographically ;
-	skos:definition "What is in the location"^^xsd:string ;
-	skos:prefLabel "is geographically occupied by"^^xsd:string ;
-	.
-
-gist:isGeographicallyPermanentlyOccupiedBy
-	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	owl:inverseOf gist:occupiesGeographicallyPermanently ;
-	skos:definition "What is in the fixed location"^^xsd:string ;
-	skos:prefLabel "is geographically permanently occupied by"^^xsd:string ;
-	.
-
 gist:isGovernedBy
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:domain [
+		a owl:Class ;
+		owl:unionOf (
+			gist:Category
+			gist:Content
+			gist:GeoRegion
+			gist:IntellectualProperty
+			gist:Intention
+			gist:Organization
+			gist:Person
+			gist:PhysicalIdentifiableItem
+			gist:PhysicalSubstance
+		) ;
+	] ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
+	rdfs:range [
+		a owl:Class ;
+		owl:unionOf (
+			gist:Intention
+			gist:Organization
+			gist:Person
+			gist:Template
+		) ;
+	] ;
 	skos:definition "A reference from the thing being governed to the governor"^^xsd:string ;
 	skos:prefLabel "is governed by"^^xsd:string ;
 	.
@@ -3801,7 +3631,7 @@ gist:isIdentifiedBy
 		owl:ObjectProperty ,
 		owl:InverseFunctionalProperty
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range gist:ID ;
 	skos:definition "This is like a URI: a thing can have more than one ID, but each of the IDs must refer to a unique thing."^^xsd:string ;
 	skos:prefLabel "is identified by"^^xsd:string ;
@@ -3809,33 +3639,16 @@ gist:isIdentifiedBy
 
 gist:isMadeUpOf
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range gist:PhysicalSubstance ;
 	skos:definition "Relates something to a substance that it is made up of."^^xsd:string ;
 	skos:example "The vase is made up of clay. Water is made up of hydrogen and oxygen."^^xsd:string ;
 	skos:prefLabel "is made up of"^^xsd:string ;
 	.
 
-gist:isMemberOf
-	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	skos:definition "What group the member is in"^^xsd:string ;
-	skos:prefLabel "is member of"^^xsd:string ;
-	.
-
-gist:isPartOf
-	a
-		owl:ObjectProperty ,
-		owl:TransitiveProperty
-		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	skos:definition "The transitive version of gist:isDirectPartOf"^^xsd:string ;
-	skos:prefLabel "is part of"^^xsd:string ;
-	.
-
 gist:isRecognizedBy
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range [
 		a owl:Class ;
 		owl:unionOf (
@@ -3843,7 +3656,6 @@ gist:isRecognizedBy
 			gist:Person
 		) ;
 	] ;
-	owl:inverseOf gist:recognizes ;
 	skos:definition "The entity that formally acknowledges the existence of, as the State recognizes the existence of a particular company"^^xsd:string ;
 	skos:prefLabel "is recognized by"^^xsd:string ;
 	.
@@ -3851,7 +3663,7 @@ gist:isRecognizedBy
 gist:isRecognizedDirectlyBy
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:isRecognizedBy ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The party doing the recognition"^^xsd:string ;
 	skos:prefLabel "is recognized directly by"^^xsd:string ;
 	.
@@ -3859,7 +3671,7 @@ gist:isRecognizedDirectlyBy
 gist:isRecordedAt
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:atDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Date that something was posted, not necessarily the date it occurred. Must be after the date of occurrence, but could be before or after the planned date. (Unusual, but I could record today that I expected to be paid last week.)"^^xsd:string ;
 	skos:prefLabel "is recorded at"^^xsd:string ;
 	skos:scopeNote "Precision may vary according to context."^^xsd:string ;
@@ -3867,31 +3679,34 @@ gist:isRecordedAt
 
 gist:isRenderedOn
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "What media something was rendered On"^^xsd:string ;
 	skos:prefLabel "is rendered on"^^xsd:string ;
 	.
 
-gist:isSubTaskOf
-	a
-		owl:ObjectProperty ,
-		owl:TransitiveProperty
-		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	skos:definition "All the upper tasks this task belongs to"^^xsd:string ;
-	skos:prefLabel "is subtask of"^^xsd:string ;
+gist:isSupersededBy
+	a owl:AnnotationProperty ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
+	skos:definition "Relates a deprecated term to a term that replaces it, which is either an exact (in the case of simple renaming) or approximate (in the case of renaming and some semantic change) semantic match."^^xsd:string ;
+	skos:example "gist:connectedTo gist:isSupersededBy gist:isConnectedTo (renaming with no semantic change)."^^xsd:string ;
+	skos:prefLabel "is superseded by"^^xsd:string ;
 	.
 
 gist:isTriggeredBy
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	skos:definition "General causal relation.  For obligations a property that describes what would happen to trigger the contingent obligation.  In most cases, before the Contingent becomes an Obligation, the triggered by event is a planned event (that is it hasn't happened yet -- if it had happened the contingency would no longer be contingent.  In most cases it will be  a ContingentEvent .  Other uses include controls, processes etc"^^xsd:string ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
+	skos:definition "Relates a contingency, such as an event or obligation, to the event that gives rise to it."^^xsd:string ;
+	skos:example
+		"Fire insurance is contingent on a particular building burning down"^^xsd:string ,
+		"The death benefit payout on a life insurance policy following the death of a specific person."^^xsd:string
+		;
 	skos:prefLabel "is triggered by"^^xsd:string ;
+	skos:scopeNote "For obligations, this property describes what must happen to trigger the contingent obligation. Other uses include controls, processes, etc."^^xsd:string ;
 	.
 
 gist:isUnderJurisdictionOf
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Relates a law, contract, etc., to the system of law or government which has the power, right, or authority to interpret and apply it."^^xsd:string ;
 	skos:prefLabel "is under jurisdiction of"^^xsd:string ;
 	.
@@ -3899,7 +3714,7 @@ gist:isUnderJurisdictionOf
 gist:latitude
 	a owl:DatatypeProperty ;
 	rdfs:domain gist:GeoPoint ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:double ;
 	skos:definition "Degrees above or below equator"^^xsd:string ;
 	skos:prefLabel "latitude"^^xsd:string ;
@@ -3907,14 +3722,14 @@ gist:latitude
 
 gist:license
 	a owl:AnnotationProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "An annotation for providing the licensing on this or derivative ontologies"^^xsd:string ;
 	skos:prefLabel "license"^^xsd:string ;
 	.
 
 gist:links
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Relates a NetworkLink to a NetworkNode that it connects to another node. Used when the connections are undirected, or the direction is not known."^^xsd:string ;
 	skos:prefLabel "links"^^xsd:string ;
 	.
@@ -3922,7 +3737,7 @@ gist:links
 gist:linksFrom
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:links ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Relates a NetworkLink to its origin NetworkNode. Unlike the superproperty, this represents a directed connection."^^xsd:string ;
 	skos:prefLabel "links from"^^xsd:string ;
 	.
@@ -3930,7 +3745,7 @@ gist:linksFrom
 gist:linksTo
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:links ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Relates a NetworkLink to its destination NetworkNode. Unlike the superproperty, this represents a directed connection."^^xsd:string ;
 	skos:prefLabel "links to"^^xsd:string ;
 	.
@@ -3938,7 +3753,7 @@ gist:linksTo
 gist:longitude
 	a owl:DatatypeProperty ;
 	rdfs:domain gist:GeoPoint ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:double ;
 	skos:definition "Degrees from GM"^^xsd:string ;
 	skos:prefLabel "longitude"^^xsd:string ;
@@ -3946,7 +3761,7 @@ gist:longitude
 
 gist:name
 	a owl:DatatypeProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:string ;
 	skos:definition "Relates an individual to (one of) its name(s)."^^xsd:string ;
 	skos:prefLabel "name"^^xsd:string ;
@@ -3955,7 +3770,7 @@ gist:name
 gist:numericValue
 	a owl:DatatypeProperty ;
 	rdfs:domain gist:Magnitude ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range [
 		a rdfs:Datatype ;
 		owl:unionOf (
@@ -3992,7 +3807,7 @@ gist:occupiesGeographically
 			gist:PhysicalSubstance
 		) ;
 	] ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range gist:Place ;
 	skos:definition "A thing occupies are region"^^xsd:string ;
 	skos:prefLabel "occupies geographically"^^xsd:string ;
@@ -4001,14 +3816,14 @@ gist:occupiesGeographically
 gist:occupiesGeographicallyPermanently
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:occupiesGeographically ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "To be in a fixed position on the earth"^^xsd:string ;
 	skos:prefLabel "occupies geographically permanently"^^xsd:string ;
 	.
 
 gist:occursIn
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The geospatial place where something happened or will happen"^^xsd:string ;
 	skos:prefLabel "occurs in"^^xsd:string ;
 	.
@@ -4022,7 +3837,7 @@ gist:owns
 			gist:Person
 		) ;
 	] ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Possessing and controlling.  Ultimate form of ownership is the right to destroy.  Long list of potential Range classes"^^xsd:string ;
 	skos:prefLabel "owns"^^xsd:string ;
 	.
@@ -4030,7 +3845,7 @@ gist:owns
 gist:plannedEndDate
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:plannedEndDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The date that something is or was planned to end, with precision of one day."^^xsd:string ;
 	skos:example "'2021-06-01T00:00:00-6:00'^^xsd:dateTime"^^xsd:string ;
@@ -4041,7 +3856,7 @@ gist:plannedEndDate
 gist:plannedEndDateTime
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:endDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The date that something is or was planned to end, with no implied precision."^^xsd:string ;
 	skos:prefLabel "planned end date time"^^xsd:string ;
@@ -4054,7 +3869,7 @@ gist:plannedEndDateTime
 gist:plannedEndMinute
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:plannedEndDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The date and time that something is or was planned to end, with precision of one minute."^^xsd:string ;
 	skos:example "'2021-06-01T08:32:00-6:00'^^xsd:dateTime"^^xsd:string ;
@@ -4065,7 +3880,7 @@ gist:plannedEndMinute
 gist:plannedEndYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:plannedEndDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The date that something is or was planned to end, with precision of one year."^^xsd:string ;
 	skos:example
@@ -4079,7 +3894,7 @@ gist:plannedEndYear
 gist:plannedStartDate
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:plannedStartDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The date that something is or was planned to start, with precision of one day."^^xsd:string ;
 	skos:example "'2021-06-01T00:00:00-6:00'^^xsd:dateTime"^^xsd:string ;
@@ -4090,7 +3905,7 @@ gist:plannedStartDate
 gist:plannedStartDateTime
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:startDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The date and time that something is or was planned to start, with no implied precision."^^xsd:string ;
 	skos:prefLabel "planned start date time"^^xsd:string ;
@@ -4103,7 +3918,7 @@ gist:plannedStartDateTime
 gist:plannedStartMinute
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:plannedStartDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The date and time that something is or was planned to start, with precision of one minute."^^xsd:string ;
 	skos:example "'2021-06-01T08:32:00-6:00'^^xsd:dateTime"^^xsd:string ;
@@ -4114,7 +3929,7 @@ gist:plannedStartMinute
 gist:plannedStartYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:plannedStartDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The date that something is or was planned to start, with precision of one year."^^xsd:string ;
 	skos:example
@@ -4130,7 +3945,7 @@ gist:precedes
 		owl:ObjectProperty ,
 		owl:TransitiveProperty
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A generic ordering relation indicating that the subject comes before the object."^^xsd:string ;
 	skos:prefLabel "precedes"^^xsd:string ;
 	skos:scopeNote
@@ -4143,7 +3958,7 @@ gist:precedes
 gist:precedesDirectly
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:precedes ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "A generic ordering relation indicating that the subject comes immediately before the object."^^xsd:string ;
 	skos:prefLabel "precedes directly"^^xsd:string ;
 	skos:scopeNote
@@ -4156,7 +3971,7 @@ gist:precedesDirectly
 gist:prevents
 	a owl:ObjectProperty ;
 	rdfs:domain gist:Intention ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range gist:Behavior ;
 	skos:definition "The intention (say a law) is intended to prevent this kind of behavior (say jay-walking)"^^xsd:string ;
 	skos:prefLabel "prevents"^^xsd:string ;
@@ -4164,7 +3979,7 @@ gist:prevents
 
 gist:produces
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The subject creates the object."^^xsd:string ;
 	skos:example "A task produces a deliverable."^^xsd:string ;
 	skos:prefLabel "produces"^^xsd:string ;
@@ -4176,7 +3991,7 @@ gist:providesOrderFor
 		owl:FunctionalProperty
 		;
 	rdfs:domain gist:OrderedMember ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Links a member of an ordered collection to the real-world item it represents in that collection."^^xsd:string ;
 	skos:prefLabel "provides order for"^^xsd:string ;
 	.
@@ -4184,7 +3999,7 @@ gist:providesOrderFor
 gist:rangeIncludes
 	a owl:AnnotationProperty ;
 	rdfs:subPropertyOf skos:scopeNote ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Relates a property to a class that constitutes (one of) the expected type(s) for values of the property."^^xsd:string ;
 	skos:example "The range for the property gist:isCategorizedBy includes gist:Category."^^xsd:string ;
 	skos:prefLabel "range includes"^^xsd:string ;
@@ -4194,16 +4009,9 @@ gist:rangeIncludes
 		;
 	.
 
-gist:recognizes
-	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	skos:definition "Recognizes"^^xsd:string ;
-	skos:prefLabel "recognizes"^^xsd:string ;
-	.
-
 gist:requires
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The subject needs the object or makes it necessary, mandatory, or compulsory."^^xsd:string ;
 	skos:example "Humans require air; solar power requires sunshine."^^xsd:string ;
 	skos:prefLabel "requires"^^xsd:string ;
@@ -4218,14 +4026,14 @@ gist:requires
 
 gist:respondsTo
 	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "The set of sensors that a controller is attached to"^^xsd:string ;
 	skos:prefLabel "responds to"^^xsd:string ;
 	.
 
 gist:sequence
 	a owl:DatatypeProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:integer ;
 	skos:definition "For ordering ordered lists."^^xsd:string ;
 	skos:prefLabel "sequence"^^xsd:string ;
@@ -4234,7 +4042,7 @@ gist:sequence
 gist:startDateTime
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:atDateTime ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:dateTime ;
 	skos:definition "The date and time that something started."^^xsd:string ;
 	skos:prefLabel "start date time"^^xsd:string ;
@@ -4246,7 +4054,7 @@ gist:startDateTime
 
 gist:tagText
 	a owl:DatatypeProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	skos:definition "Used for folksonomy style categories (non controlled vocabulary)"^^xsd:string ;
 	skos:prefLabel "tag text"^^xsd:string ;
 	.
@@ -4256,7 +4064,7 @@ gist:uniqueText
 		owl:DatatypeProperty ,
 		owl:FunctionalProperty
 		;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:string ;
 	skos:definition "The unique string value of some content object; i.e., there is no possibility of having more than one value."^^xsd:string ;
 	skos:example "The unique string for a vehicle identification number."^^xsd:string ;
@@ -4270,7 +4078,7 @@ gist:uniqueText
 gist:unitSymbol
 	a owl:DatatypeProperty ;
 	rdfs:domain gist:UnitOfMeasure ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:string ;
 	skos:definition "The standard symbol for the unit NOT using any special characters.  E.g. square meter would be m^2 rather than m?."^^xsd:string ;
 	skos:prefLabel "unit symbol"^^xsd:string ;
@@ -4279,7 +4087,7 @@ gist:unitSymbol
 gist:unitSymbolHtml
 	a owl:DatatypeProperty ;
 	rdfs:domain gist:UnitOfMeasure ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:string ;
 	skos:definition 'The standard symbol for the unit in HTML format for  pretty printing, may use special characters.  E.g. to show square meter as  m? rather than m^2, the value of this property would be "m&sup2;" This is for when Unicode not supported and the display will be HTML format.'^^xsd:string ;
 	skos:prefLabel "unit symbol HTML"^^xsd:string ;
@@ -4288,19 +4096,10 @@ gist:unitSymbolHtml
 gist:unitSymbolUnicode
 	a owl:DatatypeProperty ;
 	rdfs:domain gist:UnitOfMeasure ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
+	rdfs:isDefinedBy <https://w3id.org/semanticarts/ontology/gistCore> ;
 	rdfs:range xsd:string ;
 	skos:definition "The standard symbol for the unit preferred for pretty printing, may use special characters.  E.g. square meter would be  m? rather than m^2."^^xsd:string ;
 	skos:prefLabel "unit symbol Unicode"^^xsd:string ;
-	.
-
-gist:usesTimeZoneStandard
-	a owl:ObjectProperty ;
-	rdfs:isDefinedBy <https://ontologies.semanticarts.com/o/gistCore> ;
-	rdfs:range gist:TimeZoneStandard ;
-	skos:definition "The time zone, including daylight savings time adjustment, of an event or other object that can have a date and time."^^xsd:string ;
-	skos:example "EST (Eastern Standard Time), PST (Pacific Daylight Time)."^^xsd:string ;
-	skos:prefLabel "uses time zone standard"^^xsd:string ;
 	.
 
 []
