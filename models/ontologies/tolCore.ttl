@@ -11,6 +11,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix tolo: <https://ontologies.treasuryoflives.org/tol/> .
 @prefix tolx: <https://taxonomies.treasuryoflives.org/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -118,14 +119,30 @@ tolo:KinshipGroup
 			owl:allValuesFrom tolo:Person ;
 		]
 		;
-	owl:disjointUnionOf (
-		tolo:Clan
-		tolo:Family
-	) ;
-	skos:definition "A social unit consisting of people with a common ancestor. Includes both clans and families."@en ;
+	skos:definition "A social unit consisting of people with a common ancestor."@en ;
 	skos:example "."@en ;
 	skos:prefLabel "Kinship Group"@en ;
-	skos:scopeNote "Also includes those adopted into a clan."^^xsd:string ;
+	skos:scopeNote "Includes both clans and families. Also includes those adopted into a clan."^^xsd:string ;
+	.
+
+tolo:KinshipGroupType
+	a owl:Class ;
+	owl:equivalentClass [
+		owl:intersectionOf (
+			gist:Category
+			[
+				a owl:Restriction ;
+				owl:onProperty [
+					owl:inverseOf gist:isCategorizedBy ;
+				] ;
+				owl:allValuesFrom tolo:KinshipGroup ;
+			]
+		) ;
+	] ;
+	skos:definition "A type of kinship group."@en ;
+	skos:example "Lhasa Aristocracy."@en ;
+	skos:prefLabel "Kinship Group Type"@en ;
+	skos:scopeNote "Currently only one type is defined."^^xsd:string ;
 	.
 
 tolo:Marriage
@@ -209,15 +226,18 @@ tolo:Person
 	a owl:Class ;
 	rdfs:subClassOf
 		bdo:Person ,
-		gist:Person
+		gist:Person ,
+		wiki:Person
 		;
-	skos:definition "TBD."@en ;
-	skos:editorialNote "Can this be a subclass of gist:Person, which doesn't include imaginary persons?"@en ;
 	skos:prefLabel "Person"@en ;
 	.
 
 tolo:Place
 	a owl:Class ;
+	owl:sameAs
+		bdo:Place ,
+		gist:GeoRegion
+		;
 	skos:definition "A real, fictional, or imaginary place."@en ;
 	skos:prefLabel "Place"@en ;
 	skos:scopeNote "Differs from and not a subclass of gist:Place, which includings only places that do or did exist."@en ;
@@ -312,6 +332,12 @@ tolo:TeacherStudentRelationship
 	skos:scopeNote "A teacher-student relationshp may be, but is not necessarily, part of a teaching lineage. In some cases the teacher-student relationship is known while the lineage is not."@en ;
 	.
 
+tolo:Tradition
+	a owl:Class ;
+	skos:definition "TBD."@en ;
+	skos:prefLabel "Tradition"@en ;
+	.
+
 tolo:actualYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tolo:inYear ;
@@ -339,22 +365,6 @@ tolo:alternateYear
 	skos:example "According to one source, Botrul Dongak Tenpai Nyima was born in 1900, while according to another source his birth year was XXX and he died in 1902. No indication of greater or less likelihood of the two possibilities is implied."@en ;
 	skos:prefLabel "alternate year"@en ;
 	skos:scopeNote "Differs from tolo:approximateYear, which specifies a single year but is intended to be inexact. In this case, various scholars have proposed different years. If there is an alternate year, there is no actual year; rather, both proposed dates are asserted as alternates."@en ;
-	.
-
-tolo:approximateEndYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tolo:approximateYear ;
-	skos:definition "The approximate year in which something ended."@en ;
-	skos:example "The early 19th century ended in approximately 1835."@en ;
-	skos:prefLabel "approximate end year"@en ;
-	.
-
-tolo:approximateStartYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tolo:approximateYear ;
-	skos:definition "The approximate year in which something began."@en ;
-	skos:example "The late 19th century began in approximately 1865."@en ;
-	skos:prefLabel "approximate start year"@en ;
 	.
 
 tolo:approximateYear
@@ -433,8 +443,16 @@ tolo:hasFinalRestingPlace
 	rdfs:subPropertyOf gist:hasPhysicalLocation ;
 	rdfs:domain tolo:Person ;
 	skos:definition "Relates a person to (one of) his/her final resting place(s)."@en ;
+	skos:editorialNote "Consider connecting to Death rather than Person."@en ;
 	skos:prefLabel "has final resting place"@en ;
 	skos:scopeNote "Significant people such as the Dalai Lamas have reliquary stupas in geographic locations like temples or chapels. Sometimes there can be relics in multiple places."@en ;
+	.
+
+tolo:hasFounder
+	a owl:ObjectProperty ;
+	rdfs:range tolo:Person ;
+	skos:definition "TBD."@en ;
+	skos:prefLabel "has founder"@en ;
 	.
 
 tolo:hasFraternalNephew
@@ -654,6 +672,16 @@ tolo:isChildIn
 	skos:definition "Relates a child to a materialized marriage relationship."@en ;
 	skos:editorialNote "Do we need this, or is it sufficient to relate the child to its parents?"@en ;
 	skos:prefLabel "is child in"@en ;
+	.
+
+tolo:isDerivedFrom
+	a owl:ObjectProperty ;
+	skos:definition "Relates a resource in a hierarchy to its parent entity in that hierarchy."@en ;
+	skos:editorialNote "Consider better names - e.g., hasParentEntity, branchesFrom."^^xsd:string ;
+	skos:example "The Barom Kagyu tradition is derived from, or branches off of, the Marpa Kagyu tradition."@en ;
+	skos:prefLabel "is derived from"@en ;
+	gist:domainIncludes tolo:Tradition ;
+	gist:rangeIncludes tolo:Tradition ;
 	.
 
 tolo:isEventOf
