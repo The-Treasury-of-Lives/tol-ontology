@@ -16,20 +16,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX wiki: <https://www.wikidata.org/wiki/>
 PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
 
-## COLUMNS
-# Katie - these are instructions. Please clean this up once you're done so it's just a list of column headers, as you see in kinship_groups.tq. 
+## COLUMNS 
 
-# TOL Tradition ID: Use to build IRI, stripping off "TOL": told:_Tradition_<TOL_Tradition_ID>. E.g., TOL1135 becomes told:_Tradition_1135.
-# Add type tolo:Tradition 
-# BDRC T ID: owl:sameAs bdr:<bdrc-t-id> - We need to make sure the links work. The one I tried didn't. We can ask Katie about that.
-# Name:
-#   gist:name with @en language tag - see how people names are done
-# Wylie name: gist:name with @bo-x-ewts language tag
-# Chinese: gist:name with @zh-Hani language tag
-# Wikidata ID: owl:sameAs wiki:<wikidata-id>
-# Parent: tolo:hasParentEntity told:_Tradition_<number>
-# Founder TOL ID: tolo:hasFounder told:_Person_<founder-tol-id> - should match people generated. Strip off alpha characters at front of ID.
-# Description: <formatted-text-object> gist:isAbout <tradition-iri>. See triple patterns.
+# TOL Tradition ID
+# BDRC T ID
+# Wikidata ID
+# Name
+# Wylie Name
+# Chinese
+# Founder TOL ID (may be multiple)
+# Parent TOL ID
+# Description
 
 # Run: 
 # tarql --dedup 1000 traditions.tq > traditions.ttl
@@ -39,12 +36,27 @@ CONSTRUCT {
 
 	<https://data.treasuryoflives.org/traditions>
         a owl:Ontology ;
-        skos:definition "Defines traditions."@en ;
         skos:prefLabel "Traditions"@en ;
-        skos:editorialNote "Auto-generated via TARQL."@en ;
+        skos:definition "Defines Tibetan traditions."@en ;
+        skos:scopeNote "Traditions are instances of Tibetan religion that identifies as a cohesive group with distinct modes of ritual and learning, as well as associated institutions such as monasteries."@en ;
 	    owl:imports <https://ontologies.treasuryoflives.org/tolCoreX.x.x> ;
 	    owl:versionIRI <https://data.treasuryoflives.org/traditionsX.x.x> ;
 	.
+
+    ?tradition_iri 
+        a tolo:Tradition ;
+        owl:sameAs ?bdrc_iri , ?wikidata_iri ;
+        gist:name ?name_en , ?name_wylie , ?name_chinese ;
+        tolo:hasFounder ?founder_iri ;
+        tolo:isDerivedFrom ?parent_tradition_iri ;
+        .
+
+    ?description_iri 
+        a gist:FormattedContent ;
+        gist:containedText ?description_en ;
+        gist:isAbout ?tradition_iri ;
+        gist:isExpressedIn media-txt:html ;
+        .
 
 }
 
@@ -52,5 +64,27 @@ FROM <file:traditions_2023-05-22.csv>
 
 WHERE {
     
+    # Tradition
+    BIND(REPLACE(?TOL_Tradition_ID, "TOL", "") AS ?tradition_id)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", ?tradition_id)) AS ?tradition_iri)
 
+    # owl:sameAs
+    BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_T_ID)) AS ?bdrc_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("wiki:", ?Wikidata_ID)) AS ?wikidata_iri) 
+
+    # Names
+    BIND(STRLANG(?Name, "en") AS ?name_en)
+    BIND(STRLANG(?Wylie_Name, "bo-x-ewts") AS ?name_wylie)
+    BIND(STRLANG(?Chinese, "zh-Hani") AS ?name_chinese)
+
+    # Founder(s)
+    OPTIONAL { ?founder apf:strSplit(?Founder_TOL_ID ",") }
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", REPLACE(?founder, "TOLP", ""))) AS ?founder_iri)
+
+    # Parent tradition
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", REPLACE(?Parent_TOL_ID, "TOL", ""))) AS ?parent_tradition_iri)
+
+    # Description
+    BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_Tradition_", ?tradition_id)) AS ?description_iri)
+    BIND(STRLANG(?Description, "en") AS ?description_en)
 }
