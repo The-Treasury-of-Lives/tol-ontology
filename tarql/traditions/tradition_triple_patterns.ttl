@@ -37,6 +37,6 @@ told:_Tradition_1135
 		"马尔巴噶举"@zh-HANI
 		;
 	tolo:hasFounder told:_Person_3181 ;
-	tolo:hasParentEntity told:_Tradition_6 ;
+	tolo:isDerivedFrom told:_Tradition_6 ;
 	.
 
