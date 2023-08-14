@@ -43,8 +43,9 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 
 
 CONSTRUCT {
-    ?person_iri a tolo:Person ;
-        owl:sameAs ?bdrc_iri ;
+    ?person_iri 
+        a tolo:Person ;
+        owl:sameAs ?bdrc_iri ,
         owl:sameAs ?wikidata_iri ;
         tolo:harUrl ?har_url ;
 
