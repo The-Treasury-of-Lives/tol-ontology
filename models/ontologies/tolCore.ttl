@@ -1,25 +1,25 @@
-# imports: https://ontologies.semanticarts.com/o/gistCore12.0.1
+# imports: https://w3id.org/semanticarts/ontology/gistCore12.0.1
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
-@prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix gist: <https://ontologies.semanticarts.com/gist/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix tolo: <https://ontologies.treasuryoflives.org/tol/> .
-@prefix tolx: <https://taxonomies.treasuryoflives.org/> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
 @prefix wiki: <https://www.wikidata.org/wiki/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://ontologies.treasuryoflives.org/tolCore>
+<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
 	a owl:Ontology ;
-	dct:license "TBD"^^xsd:string ;
-	owl:imports <https://ontologies.semanticarts.com/o/gistCore12.0.1> ;
-	owl:versionIRI <https://ontologies.treasuryoflives.org/tolCoreX.x.x> ;
+	owl:imports <https://w3id.org/semanticarts/ontology/gistCore12.0.1> ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, facilitate the consumption of external RDF, and to to enhance the narrative text with structured data."@en ;
 	skos:editoralNote
 		"Add rdfs:isDefinedBy using onto-toolkit."@en ,
@@ -30,6 +30,19 @@
 			<http://id.loc.gov/ontologies/bibframe-2-1-0> ,
 			<http://purl.bdrc.io/ontology/core> to make Protege easier to read."""@en ;
 	skos:prefLabel "Treasury of Lives Core Ontology"@en ;
+	gist:license "TBD"^^xsd:string ;
+	.
+
+skos:definition
+	a owl:AnnotationProperty ;
+	.
+
+skos:note
+	a owl:AnnotationProperty ;
+	.
+
+skos:scopeNote
+	a owl:AnnotationProperty ;
 	.
 
 tolo:Birth

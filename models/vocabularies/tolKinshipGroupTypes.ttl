@@ -1,29 +1,30 @@
-# imports: https://ontologies.treasuryoflives.org/tolCoreX.x.x
+# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bdr: <http://purl.bdrc.io/resource/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
-@prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix gist: <https://ontologies.semanticarts.com/gist/> .
-@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix told: <https://data.treasuryoflives.org/> .
-@prefix tolo: <https://ontologies.treasuryoflives.org/tol/> .
-@prefix tolx: <https://taxonomies.treasuryoflives.org/> .
-@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-tolx:kinshipGroupTypes
+<https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypes>
 	a owl:Ontology ;
-	owl:imports <https://ontologies.treasuryoflives.org/tolCoreX.x.x> ;
-	owl:versionIRI told:kinshipGroupTypesX.x.x ;
+	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypesX.x.x> ;
 	skos:definition "Defines specific types of kinship groups. Currently only one type is defined."@en ;
 	skos:prefLabel "Kinship Group Types"@en ;
+	.
+
+skos:prefLabel
+	a owl:AnnotationProperty ;
 	.
 
 tolx:_KinshipGroupType_Lhasa_Aristocracy
