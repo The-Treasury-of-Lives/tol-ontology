@@ -1,17 +1,15 @@
 PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
-PREFIX bdr: <http://purl.bdrc.io/resource/> 
+PREFIX bdr: <http://purl.bdrc.io/resource/>
 PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
-PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX gist: <https://ontologies.semanticarts.com/gist/>
-PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
+PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX tolo: <https://ontologies.treasuryoflives.org/tol/>
-PREFIX tolx: <https://taxonomies.treasuryoflives.org/>
-PREFIX told: <https://data.treasuryoflives.org/>
+PREFIX told: <https://w3id.org/treasuryoflives/ns/data/tol/>
+PREFIX tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/>
+PREFIX tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX wiki: <https://www.wikidata.org/wiki/>
@@ -30,17 +28,17 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 
 # Run: 
 # (tarql 1.2): tarql --dedup 5000 incarnationLineages.tq > incarnationLineages.ttl
-# (tarql 1.3): tarql --dedup 5000 --base "https://data.treasuryoflives.org/" incarnationLineages.tq > incarnationLineages.ttl
+# (tarql 1.3): tarql --dedup 5000 --base "https://w3id.org/treasuryoflives/" incarnationLineages.tq > incarnationLineages.ttl
 
 CONSTRUCT {
 
-    <https://data.treasuryoflives.org/incarnationLineages>
+    <https://w3id.org/treasuryoflives/data/incarnationLineages>
         a owl:Ontology ;
         skos:definition "Defines incarnation lineages with associated monasteries and traditions."^^xsd:string ;
         skos:prefLabel "Incarnation Lineages"^^xsd:string ;
         skos:editorialNote "Auto-generated via TARQL." ;
-	    owl:imports <https://ontologies.treasuryoflives.org/tolCoreX.x.x> ;
-	    owl:versionIRI <data.treasuryoflives.org/incarnationLineagesX.x.x> ;
+	    owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
+	    owl:versionIRI <https://w3id.org/treasuryoflives/data/incarnationLineagesX.x.x> ;
 	.
 
     ?incarnation_lineage_iri a tolo:IncarnationLineage ;
@@ -51,12 +49,12 @@ CONSTRUCT {
         gist:isConnectedTo ?monastery_iri ;       
         gist:isConnectedTo ?tradition_iri ;
         gist:isDescribedIn ?html_description_iri ;
-        .
+       
 
     ?html_description_iri a gist:FormattedContent ;
         gist:isExpressedIn media-txt:html ;
         gist:containedText ?description ;
-        .
+       
 
 }
 

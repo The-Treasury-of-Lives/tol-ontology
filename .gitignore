@@ -2,3 +2,4 @@
 *.xlsx
 .DS_Store
 catalog-backup-0.xml
+/tools/serializer/rdf-toolkit.jar
