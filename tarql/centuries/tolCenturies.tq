@@ -1,15 +1,15 @@
-PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
+PREFIX bdo: <http://purl.bdrc.io/ontology/core/> 
 PREFIX bdr: <http://purl.bdrc.io/resource/> 
 PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX gist: <https://ontologies.semanticarts.com/gist/>
+PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX tolo: <https://ontologies.treasuryoflives.org/tol/>
-PREFIX tolx: <https://taxonomies.treasuryoflives.org/>
-PREFIX told: <https://data.treasuryoflives.org/>
+PREFIX told: <https://w3id.org/treasuryoflives/ns/data/tol/>
+PREFIX tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/>
+PREFIX tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
@@ -27,23 +27,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # told:_TimeInterval_14th_century_late
 
 # Run:
-# (tarql-1.2): tarql centuries.tq > centuries.ttl
+# tarql centuries.tq > centuries.ttl
 
-# tarql 1.3 uses the SPARQL formats for base and prefix (i.e., BASE and PREFIX rather than @base and @prefix, which is fine) but declares BASE as the relative IRI of the tarql file - i.e., <centuries.tq>. Then the EDM serializer throws an error -- which seems to be a bug in the serializer, since it is valid Turtle. So use this workaround:
-# (tarql-1.3): tarql --base "https://data.treasuryoflives.org/" centuries.tq > centuries.ttl
 
 CONSTRUCT {
 
-	<https://data.treasuryoflives.org/centuries>
+	<https://w3id.org/treasuryoflives/data/tolCenturies>
         a owl:Ontology ;
         skos:definition "Defines full and partial centuries."@en ;
         skos:prefLabel "Centuries"@en ;
         skos:editorialNote "Auto-generated via TARQL."@en ;
-	    owl:imports <https://ontologies.treasuryoflives.org/tolCoreX.x.x> ;
-	    owl:versionIRI <https://data.treasuryoflives.org/centuriesX.x.x> ;
+	    owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
+	    owl:versionIRI <https://w3id.org/treasuryoflives/data/tolCenturiesX.x.x> ;
 	.
 
-    ?century_iri a told:TimeInterval ;
+    ?century_iri a gist:TimeInterval ;
         skos:prefLabel ?cent_name ;
 		skos:altLabel ?cent_altName ;
 		gist:actualStartYear ?cent_start;
@@ -51,7 +49,7 @@ CONSTRUCT {
 		gist:precedesDirectly ?precedes_full ;
 	.
 
-	?early_iri a told:TimeInterval ;
+	?early_iri a gist:TimeInterval ;
 		skos:prefLabel ?early_name ;
 		skos:altLabel ?early_altName ;
 		gist:actualStartYear ?cent_start;
@@ -60,7 +58,7 @@ CONSTRUCT {
 		gist:precedesDirectly ?mid_iri ;
 	.
 	
-	?mid_iri a told:TimeInterval ;
+	?mid_iri a gist:TimeInterval ;
 		skos:prefLabel ?mid_name ;
 		skos:altLabel ?mid_altName ;
 		gist:actualStartYear ?mid_start;
@@ -69,7 +67,7 @@ CONSTRUCT {
 		gist:precedesDirectly ?late_iri ;
 	.
 	
-	?late_iri a told:TimeInterval ;
+	?late_iri a gist:TimeInterval ;
 		skos:prefLabel ?late_name ;
 		skos:altLabel ?late_altName ;
 		gist:actualStartYear ?late_start;

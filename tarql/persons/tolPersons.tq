@@ -3,14 +3,14 @@ PREFIX bdr: <http://purl.bdrc.io/resource/>
 PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX gist: <https://ontologies.semanticarts.com/gist/>
+PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX tolo: <https://ontologies.treasuryoflives.org/tol/>
-PREFIX tolx: <https://taxonomies.treasuryoflives.org/>
-PREFIX told: <https://data.treasuryoflives.org/>
+PREFIX told: <https://w3id.org/treasuryoflives/ns/data/tol/>
+PREFIX tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/>
+PREFIX tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX wiki: <https://www.wikidata.org/wiki/>
@@ -59,7 +59,7 @@ CONSTRUCT {
 
         tolo:hasEvent ?birth_iri ;
         tolo:hasEvent ?death_iri ;
-        .
+       
 
     ?birth_iri a tolo:Birth ;
         tolo:actualYear ?actual_birth_year_typed ;
@@ -67,7 +67,7 @@ CONSTRUCT {
         tolo:alternateYear ?alternate_birth_year_typed ;
         tolo:alternateYear ?actual_alternate_birth_year_typed ;
         tolo:occursDuring ?birth_time_period_iri ;
-        .
+       
 
     ?death_iri a tolo:Death ;
         tolo:actualYear ?actual_death_year_typed ;
@@ -75,7 +75,7 @@ CONSTRUCT {
         tolo:alternateYear ?alternate_death_year_typed ;
         tolo:alternateYear ?actual_alternate_death_year_typed ;
         tolo:occursDuring ?death_time_period_iri ;
-        .
+       
 
 }
 
