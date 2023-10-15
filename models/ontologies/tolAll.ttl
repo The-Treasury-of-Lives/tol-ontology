@@ -1,4 +1,5 @@
 # imports: http://purl.bdrc.io/ontology/types/Gender
+# imports: https://w3id.org/semanticarts/ontology/gistCore12.0.1
 # imports: https://w3id.org/semanticarts/ontology/gistMediaTypes12.0.1
 # imports: https://w3id.org/treasuryoflives/data/tolTraditionsX.x.x
 # imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
@@ -27,6 +28,7 @@
 	a owl:Ontology ;
 	owl:imports
 		<http://purl.bdrc.io/ontology/types/Gender> ,
+		<https://w3id.org/semanticarts/ontology/gistCore12.0.1> ,
 		<https://w3id.org/semanticarts/ontology/gistMediaTypes12.0.1> ,
 		<https://w3id.org/treasuryoflives/data/tolTraditionsX.x.x> ,
 		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ,
@@ -39,9 +41,5 @@
 	skos:definition "A convenience file that provides a single point of entry to the Treasury of Lives Ontology. It does not itself define any terms, but rather specifies the full set of ontology and taxonomy imports, other than those imported directly by tolo:core."@en ;
 	skos:prefLabel "Treasury of Lives Ontology"@en ;
 	gist:license "TBD"^^xsd:string ;
-	.
-
-skos:prefLabel
-	a owl:AnnotationProperty ;
 	.
 
