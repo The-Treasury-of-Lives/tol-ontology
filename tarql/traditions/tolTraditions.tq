@@ -29,7 +29,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # Description
 
 # Run: 
-# tarql --dedup 1000 traditions.tq > traditions.ttl
+# tarql --dedup 1000 tolTraditions.tq > tolTraditions.ttl
 
 
 CONSTRUCT {
@@ -45,19 +45,25 @@ CONSTRUCT {
 
     ?tradition_iri 
         a tolo:Tradition ;
-        owl:sameAs ?bdrc_iri , ?wikidata_iri ;
-        gist:name ?name_en , ?name_wylie , ?name_chinese ;
+        owl:sameAs 
+            ?bdrc_iri , 
+            ?wikidata_iri ;
+        skos:prefLabel 
+            ?name_en , 
+            ?name_wylie , 
+            ?name_chinese ;
         tolo:hasFounder ?founder_iri ;
         tolo:isDerivedFrom ?parent_tradition_iri ;
-       
+        .
 
     ?description_iri 
         a gist:FormattedContent ;
+        skos:prefLabel ?description_prefLabel_en ;
         gist:containedText ?description_en ;
         gist:isAbout ?tradition_iri ;
         gist:isExpressedIn media-txt:html ;
-       
-
+        .
+        
 }
 
 FROM <file:traditions_2023-05-22.csv>
@@ -86,5 +92,6 @@ WHERE {
 
     # Description
     BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_Tradition_", ?tradition_id)) AS ?description_iri)
+    BIND(STRLANG(CONCAT("Description of Tradition ", ?Name), "en") as ?description_prefLabel_en)
     BIND(STRLANG(?Description, "en") AS ?description_en)
 }
