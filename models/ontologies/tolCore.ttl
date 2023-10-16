@@ -27,10 +27,6 @@
 	gist:license "TBD"^^xsd:string ;
 	.
 
-skos:note
-	a owl:AnnotationProperty ;
-	.
-
 tolo:Birth
 	a owl:Class ;
 	rdfs:subClassOf
@@ -348,6 +344,7 @@ tolo:actualYear
 tolo:alternateName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
+	owl:deprecated "true"^^xsd:boolean ;
 	skos:definition "An alternate name for a person."@en ;
 	skos:example "gyer sgom gnyis pa and gyer sgom tshul khrims seng+ge are alternate names for the individual whose ToL "@en ;
 	skos:prefLabel "alternate name"@en ;
@@ -383,6 +380,13 @@ tolo:birthFamilyName
 	skos:definition "The family name a person is assigned at birth."@en ;
 	skos:prefLabel "birth family name"@en ;
 	skos:scopeNote "A family name other than the birth name can be acquired through marriage."@en ;
+	.
+
+tolo:displayName
+	a owl:AnnotationProperty ;
+	skos:definition "Name to display on the website, often a combination of title + name, possibly with ordinal if the title involves an incarnation lineage."@en ;
+	skos:example "The First Adzom Drukpa, Drodul Pawo Dorje"@en ;
+	skos:prefLabel "displayName"@en ;
 	.
 
 tolo:dissolutionYear
@@ -750,6 +754,7 @@ tolo:occursDuring
 tolo:preferredName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
+	owl:deprecated "true"^^xsd:boolean ;
 	skos:definition "The preferred name of a person."@en ;
 	skos:example "Gyergom Tsultrim Sengge is the preferred name of the individual called Gyergom Nyipa by the Library of Congress."@en ;
 	skos:prefLabel "preferred name"@en ;

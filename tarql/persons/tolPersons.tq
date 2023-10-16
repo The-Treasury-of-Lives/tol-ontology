@@ -39,43 +39,51 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # Wikidata ID
 
 # Run: 
-# tarql --dedup 30000 persons.tq > persons.ttl
+# tarql --dedup 50000 tolPersons.tq > tolPersons.ttl
 
 
 CONSTRUCT {
     ?person_iri 
         a tolo:Person ;
-        owl:sameAs ?bdrc_iri ,
-        owl:sameAs ?wikidata_iri ;
+        owl:sameAs 
+            ?bdrc_iri ,
+            ?wikidata_iri ;
         tolo:harUrl ?har_url ;
 
-        tolo:preferredName ?preferred_name_tol ;
-        tolo:preferredName ?preferred_name_wylie ;
+        skos:prefLabel 
+            ?preferred_name_tol ,
+            ?preferred_name_wylie ;
+        skos:altLabel ?alternate_name ;
+        tolo:displayName 
+            ?display_name_en ,
+            ?display_name_wylie ;
+
         tolo:title ?title_tol ;
         tolo:title ?title_wylie ;
-        tolo:alternateName ?alternate_name ;
 
         bdo:personGender ?gender_iri ;
 
         tolo:hasEvent ?birth_iri ;
         tolo:hasEvent ?death_iri ;
-       
+        .
 
     ?birth_iri a tolo:Birth ;
+        skos:prefLabel ?birth_prefLabel_en ;
         tolo:actualYear ?actual_birth_year_typed ;
         tolo:approximateYear ?approximate_birth_year_typed;
         tolo:alternateYear ?alternate_birth_year_typed ;
         tolo:alternateYear ?actual_alternate_birth_year_typed ;
         tolo:occursDuring ?birth_time_period_iri ;
-       
+        .
 
     ?death_iri a tolo:Death ;
+        skos:prefLabel ?death_prefLabel_en ;
         tolo:actualYear ?actual_death_year_typed ;
         tolo:approximateYear ?approximate_death_year_typed ;
         tolo:alternateYear ?alternate_death_year_typed ;
         tolo:alternateYear ?actual_alternate_death_year_typed ;
         tolo:occursDuring ?death_time_period_iri ;
-       
+        .
 
 }
 
@@ -98,10 +106,14 @@ WHERE {
     # TOL name and title - follow BDRC in using language tag en
     BIND(STRLANG(?Primary_name, "en") AS ?preferred_name_tol)
     BIND(STRLANG(?Primary_title, "en") AS ?title_tol)
+    # TBD - column name
+    # BIND(STRLANG(?Display_name, "en") AS ?display_name_en)
 
     # Wylie name and title
     BIND(STRLANG(?Wylie_name, "bo-x-ewts") AS ?preferred_name_wylie)
     BIND(STRLANG(?Wylie_title, "bo-x-ewts") AS ?title_wylie)
+    # TBD - column name
+    # BIND(STRLANG(?Wylie_display_name, "bo-x-ewts") AS ?display_name_wylie)
 
     # Incoming string format: name1, lang1; name2, lang2
     OPTIONAL { ?name_variant apf:strSplit(?Name_Variants ";") }
@@ -134,6 +146,7 @@ WHERE {
     # Birth event
     BIND(IF(BOUND(?Birth_year) || BOUND(?Birth_century), 
         tarql:expandPrefixedName(CONCAT("told:_Birth_", ?TOL_ID)), ?unbound) AS ?birth_iri)
+    BIND(IF(BOUND(?birth_iri), STRLANG(CONCAT("Birth of ", ?Primary_name), "en"), ?unbound) as ?birth_prefLabel_en)
 
     # Birth year(s)
     BIND(
@@ -178,6 +191,7 @@ WHERE {
     BIND(IF(BOUND(?Death_year), 
         # ignore century for now - data seems bad || BOUND(?Death_century),  
         tarql:expandPrefixedName(CONCAT("told:_Death_", ?TOL_ID)), ?unbound) AS ?death_iri)
+    BIND(IF(BOUND(?death_iri), STRLANG(CONCAT("Death of ", ?Primary_name), "en"), ?unbound) as ?death_prefLabel_en) 
 
     # Death years
     BIND(
