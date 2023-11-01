@@ -34,7 +34,7 @@ CONSTRUCT {
     ?kinship_group_iri 
         a tolo:KinshipGroup ; 
         owl:sameAs ?bdrc_id ;
-        tolo:preferredName ?preferred_name_tol , 
+        skos:prefLabel ?preferred_name_tol , 
             ?preferred_name_wylie ,
             ?preferred_name_chinese ;
         gist:isCategorizedBy ?kinship_group_type_iri ;
@@ -47,6 +47,9 @@ FROM <file:kinship_groups_2023-05-25.csv>
 
 WHERE {
     
+    # Testing
+    # FILTER(?ROWNUM = 2)
+
     BIND(REPLACE(?TOL_ID, "TOL", "") AS ?tol_id)
     BIND(tarql:expandPrefixedName(CONCAT("told:_KinshipGroup_", ?tol_id)) AS ?kinship_group_iri)
 

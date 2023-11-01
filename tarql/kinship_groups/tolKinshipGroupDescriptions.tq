@@ -32,6 +32,7 @@ CONSTRUCT {
 
     ?description_iri 
         a gist:FormattedContent ;
+        skos:prefLabel ?label ;
         gist:containedText ?description_en ;
         gist:isAbout ?kinship_group_iri ;
 	    gist:isExpressedIn media-txt:html ;
@@ -42,11 +43,15 @@ CONSTRUCT {
 FROM <file:kinship_group_descriptions_2023-05-23.csv>
 
 WHERE {
+
+    # Testing
+    # FILTER(?ROWNUM = 2)
     
     BIND(tarql:expandPrefixedName(CONCAT("told:_KinshipGroup_", ?kinship_group_id)) AS ?kinship_group_iri)
 
     # Description
     BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_KinshipGroup_", ?kinship_group_id)) AS ?description_iri)
     BIND(STRLANG(?description, "en") AS ?description_en)
+    BIND(STRLANG(CONCAT("Description of the ", ?kinship_group_name, " kinship group."), "en") AS ?label)
     
 }
