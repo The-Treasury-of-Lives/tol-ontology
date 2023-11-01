@@ -70,6 +70,9 @@ FROM <file:traditions_2023-05-22.csv>
 
 WHERE {
     
+    # Testing
+    # FILTER(?ROWNUM = 2)
+
     # Tradition
     BIND(REPLACE(?TOL_Tradition_ID, "TOL", "") AS ?tradition_id)
     BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", ?tradition_id)) AS ?tradition_iri)
@@ -92,6 +95,6 @@ WHERE {
 
     # Description
     BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_Tradition_", ?tradition_id)) AS ?description_iri)
-    BIND(STRLANG(CONCAT("Description of Tradition ", ?Name), "en") as ?description_prefLabel_en)
+    BIND(STRLANG(CONCAT("Description of the ", ?Name, " tradition"), "en") as ?description_prefLabel_en)
     BIND(STRLANG(?Description, "en") AS ?description_en)
 }

@@ -62,6 +62,9 @@ FROM <file:incarnation_lineages_22-12-06.csv>
 
 WHERE {
 
+    # Testing
+    # FILTER(?ROWNUM = 2)
+    
     BIND(tarql:expandPrefixedName(CONCAT("told:_IncarnationLineage_", ?TOL_R_ID)) AS ?incarnation_lineage_iri)
 
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_R_ID)) AS ?bdrc_lineage_iri) 
