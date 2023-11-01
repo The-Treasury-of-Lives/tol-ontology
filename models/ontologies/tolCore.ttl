@@ -668,6 +668,18 @@ tolo:inYear
 	skos:prefLabel "in year"@en ;
 	.
 
+tolo:isBasedAt
+	a owl:ObjectProperty ;
+	skos:altLabel "is seated at"@en ;
+	skos:definition
+		"TBD"@en ,
+		"TBD."@en
+		;
+	skos:example "The incarnation lineage is based at the monastery Adzom Gar."@en ;
+	skos:prefLabel "is based at"@en ;
+	skos:scopeNote "Incarnation lineages may have more than one seat."^^xsd:string ;
+	.
+
 tolo:isChildIn
 	a owl:ObjectProperty ;
 	rdfs:domain tolo:Person ;

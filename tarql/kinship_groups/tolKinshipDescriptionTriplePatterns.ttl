@@ -18,6 +18,7 @@
 
 told:_FormattedContent_Description_KinshipGroup_56
 	a gist:FormattedContent ;
+	skos:prefLabel "Description of the Menge kinship group"^^xsd:string ;
 	gist:containedText '''<p>
 	The Menge clan was based in Kham. <a href="/biographies/view/Jigme-Gyelwai-Nyugu/TBRC_p695">Jigme Gyelwai Nyugu</a> was born into this clan.</p>
 '''@en ;

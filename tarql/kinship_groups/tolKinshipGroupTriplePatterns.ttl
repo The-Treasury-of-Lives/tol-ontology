@@ -19,27 +19,27 @@
 told:_KinshipGroup_1590
 	a tolo:KinshipGroup ;
 	owl:sameAs bdr:C10 ;
+	skos:prefLabel
+		"Dokhar"@en ,
+		"mdo mkhar"@bo-X-ewts
+		;
 	gist:hasMember
 		told:_Person_13788 ,
 		told:_Person_9343
 		;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
-	tolo:preferredName
-		"Dokhar"@en ,
-		"mdo mkhar"@bo-X-ewts
-		;
 	.
 
 told:_KinshipGroup_46
 	a tolo:KinshipGroup ;
 	owl:sameAs bdr:C11MS198 ;
+	skos:prefLabel
+		"Che"@en ,
+		"lce"@bo-X-ewts
+		;
 	gist:hasMember
 		told:_Person_13456 ,
 		told:_Person_495
-		;
-	tolo:preferredName
-		"Che"@en ,
-		"lce"@bo-X-ewts
 		;
 	.
 
