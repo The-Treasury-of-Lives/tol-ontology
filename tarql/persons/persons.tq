@@ -39,7 +39,7 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # Wikidata ID
 
 # Run: 
-# tarql --dedup 50000 tolPersons.tq > tolPersons.ttl
+# tarql --dedup 50000 persons.tq > tolPersons.ttl
 
 
 CONSTRUCT {

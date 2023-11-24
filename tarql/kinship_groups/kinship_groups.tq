@@ -27,7 +27,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # Members
 
 # Run: 
-# tarql --dedup 1000 kinship_groups.tq > kinship_groups.ttl
+# tarql --dedup 1000 kinship_groups.tq > tolKinshipGroups.ttl
 
 CONSTRUCT {
 

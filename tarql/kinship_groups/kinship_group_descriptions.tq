@@ -26,7 +26,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 
 # Convert tabs to spaces in CSV before running tarq
 # Run: 
-# tarql --dedup 1000 kinship_group_descriptions.tq > kinship_group_descriptions.ttl
+# tarql --dedup 1000 kinship_group_descriptions.tq > tolKinshipGroupDescriptions.ttl
 
 CONSTRUCT {
 
