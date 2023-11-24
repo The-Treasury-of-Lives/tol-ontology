@@ -29,7 +29,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # Description
 
 # Run: 
-# tarql --dedup 1000 tolTraditions.tq > tolTraditions.ttl
+# tarql --dedup 1000 traditions.tq > tolTraditions.ttl
 
 
 CONSTRUCT {

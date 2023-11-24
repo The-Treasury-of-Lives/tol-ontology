@@ -27,7 +27,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # told:_HistoricalPeriod_14th_century_late
 
 # Run:
-# tarql tolCenturies.tq > tolCenturies.ttl
+# tarql centuries.tq > tolCenturies.ttl
 
 
 CONSTRUCT {

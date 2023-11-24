@@ -30,8 +30,8 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 
 # Run: 
 # Do we need base?
-# tarql --dedup 5000 --base "https://w3id.org/treasuryoflives/" incarnationLineages.tq > incarnationLineages.ttl
-# tarql --dedup 5000 incarnationLineages.tq > incarnationLineages.ttl
+# tarql --dedup 5000 --base "https://w3id.org/treasuryoflives/" incarnationLineages.tq > tolIncarnationLineages.ttl
+# tarql --dedup 5000 incarnation_lineages.tq > tolIncarnationLineages.ttl
 
 CONSTRUCT {
 
