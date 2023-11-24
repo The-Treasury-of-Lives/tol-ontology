@@ -89,6 +89,15 @@ tolo:Death
 	skos:prefLabel "Death"@en ;
 	.
 
+tolo:HistoricalPeriod
+	a owl:Class ;
+	rdfs:subClassOf gist:TimeInterval ;
+	skos:definition "A named time interval with historical significance."@en ;
+	skos:example "The 10th century"@en ;
+	skos:prefLabel "Historical Period"@en ;
+	skos:scopeNote "Whereas a time interval is any period of time, such as 2-4pm this afternoon, a historical period is named and cited in relation to historical events or culture."^^xsd:string ;
+	.
+
 tolo:Incarnation
 	a owl:Class ;
 	skos:definition "TBD."@en ;
@@ -344,7 +353,6 @@ tolo:actualYear
 tolo:alternateName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
-	owl:deprecated "true"^^xsd:boolean ;
 	skos:definition "An alternate name for a person."@en ;
 	skos:example "gyer sgom gnyis pa and gyer sgom tshul khrims seng+ge are alternate names for the individual whose ToL "@en ;
 	skos:prefLabel "alternate name"@en ;
@@ -384,9 +392,20 @@ tolo:birthFamilyName
 
 tolo:displayName
 	a owl:AnnotationProperty ;
-	skos:definition "Name to display on the website, often a combination of title + name, possibly with ordinal if the title involves an incarnation lineage."@en ;
-	skos:example "The First Adzom Drukpa, Drodul Pawo Dorje"@en ;
-	skos:prefLabel "displayName"@en ;
+	skos:definition
+		"Name to display on the website, often a combination of title + name, possibly with ordinal if the title involves an incarnation lineage."@en ,
+		"The name of a person or other resource used for display purposes."@en
+		;
+	skos:editorialNote "Wait to see if we need this field. They may want to use the preferred name instead."^^xsd:string ;
+	skos:example
+		"Gyergom Tsultrim Sengge is the display name of the person with the same preferred name."^^xsd:string ,
+		"The First Adzom Drukpa, Drodul Pawo Dorje"@en
+		;
+	skos:prefLabel
+		"display name"@en ,
+		"displayName"@en
+		;
+	skos:scopeNote "The same name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a preferred name in both its own and the Extended Wylie systems."@en ;
 	.
 
 tolo:dissolutionYear
@@ -398,6 +417,23 @@ tolo:dissolutionYear
 		"We may want to do this like birth and death - have a Dissolution object with a year. If there are many things with actual/approximate/alternate values, (dissolution, founding, etc.) we should establish this as a general pattern."@en
 		;
 	skos:prefLabel "dissolution year"@en ;
+	.
+
+tolo:existsDuring
+	a
+		owl:ObjectProperty ,
+		owl:TransitiveProperty
+		;
+	skos:definition "Relates a resource to another that temporally contains it."@en ;
+	skos:example "Gyergom Tsultrim Sengge lived during the 12th century."@en ;
+	skos:prefLabel "exists during"@en ;
+	skos:scopeNote "The subject of tolo:existsDuring is a non-temporal resource. The property contrasts with tolo:occursDuring, which relates a temporal resource to a containing resource."^^xsd:string ;
+	gist:domainIncludes tolo:Person ;
+	gist:rangeIncludes
+		gist:Event ,
+		gist:TemporalRelation ,
+		gist:TimeInterval
+		;
 	.
 
 tolo:familyName
@@ -748,9 +784,10 @@ tolo:occursDuring
 		owl:ObjectProperty ,
 		owl:TransitiveProperty
 		;
-	skos:definition "Relates a resource to another resource that contains it temporally."@en ;
-	skos:example "A birth occurs during a certain century."@en ;
+	skos:definition "Relates one temporal resource to another that temporally contains it."@en ;
+	skos:example "The birth of Gyergom Tsultrim Sengge occurred during the 12th century."@en ;
 	skos:prefLabel "occurs during"@en ;
+	skos:scopeNote "Contrasts with tolo:occursDuring, whose subject is a non-temporal resource."^^xsd:string ;
 	gist:domainIncludes
 		gist:Event ,
 		gist:TemporalRelation ,
@@ -767,7 +804,7 @@ tolo:preferredName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
 	owl:deprecated "true"^^xsd:boolean ;
-	skos:definition "The preferred name of a person."@en ;
+	skos:definition "The preferred name of a person or other resource."@en ;
 	skos:example "Gyergom Tsultrim Sengge is the preferred name of the individual called Gyergom Nyipa by the Library of Congress."@en ;
 	skos:prefLabel "preferred name"@en ;
 	skos:scopeNote

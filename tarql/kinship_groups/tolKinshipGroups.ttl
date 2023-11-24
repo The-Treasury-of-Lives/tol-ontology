@@ -23,6 +23,10 @@ told:_KinshipGroup_1011
 		"lcags mdud nyag rong"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_8583 ;
+	tolo:preferredName
+		"Chakdu Nyarong"@en ,
+		"lcags mdud nyag rong"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1040
@@ -53,6 +57,10 @@ told:_KinshipGroup_1040
 		told:_Person_6350 ,
 		told:_Person_6353
 		;
+	tolo:preferredName
+		"Ga (dga')"@en ,
+		"dga'"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1047
@@ -68,6 +76,10 @@ told:_KinshipGroup_1047
 		told:_Person_2423
 		;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Surkhang"@en ,
+		"zur khang"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1061
@@ -83,11 +95,19 @@ told:_KinshipGroup_1061
 		told:_Person_13522 ,
 		told:_Person_13523
 		;
+	tolo:preferredName
+		"Pangdatsang"@en ,
+		"spang mda' tshang"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1062
 	a tolo:KinshipGroup ;
 	skos:prefLabel
+		"Jangling"@en ,
+		"byang gling"@bo-X-ewts
+		;
+	tolo:preferredName
 		"Jangling"@en ,
 		"byang gling"@bo-X-ewts
 		;
@@ -107,6 +127,10 @@ told:_KinshipGroup_1063
 		told:_Person_13549
 		;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Sadutshang"@en ,
+		"sa 'du tshang"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1067
@@ -116,6 +140,10 @@ told:_KinshipGroup_1067
 		"rgya nag ra ba"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_7681 ;
+	tolo:preferredName
+		"Gyanak Rawa"@en ,
+		"rgya nag ra ba"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1076
@@ -146,6 +174,10 @@ told:_KinshipGroup_1076
 		told:_Person_13564
 		;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Lhagyari"@en ,
+		"lha rgya ri"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1078
@@ -156,6 +188,10 @@ told:_KinshipGroup_1078
 		"khe smad"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_3152 ;
+	tolo:preferredName
+		"Kheme"@en ,
+		"khe smad"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1090
@@ -168,6 +204,10 @@ told:_KinshipGroup_1090
 	gist:hasMember
 		told:_Person_6567 ,
 		told:_Person_6568
+		;
+	tolo:preferredName
+		"Nya"@en ,
+		"gnya'"@bo-X-ewts
 		;
 	.
 
@@ -186,6 +226,10 @@ told:_KinshipGroup_1132
 		told:_Person_9305
 		;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Tsarong"@en ,
+		"tsha rong"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1156
@@ -198,6 +242,10 @@ told:_KinshipGroup_1156
 		told:_Person_10561 ,
 		told:_Person_13572
 		;
+	tolo:preferredName
+		"Dru ('bru)"@en ,
+		"bru"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1202
@@ -207,12 +255,20 @@ told:_KinshipGroup_1202
 		"phag mo gru pa"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_2539 ;
+	tolo:preferredName
+		"Pakmodrupa"@en ,
+		"phag mo gru pa"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1203
 	a tolo:KinshipGroup ;
 	owl:sameAs bdr:C2CN11008 ;
 	skos:prefLabel
+		"Rinpungpa"@en ,
+		"rin spungs pa"@bo-X-ewts
+		;
+	tolo:preferredName
 		"Rinpungpa"@en ,
 		"rin spungs pa"@bo-X-ewts
 		;
@@ -226,6 +282,10 @@ told:_KinshipGroup_131
 		"ldong"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_6110 ;
+	tolo:preferredName
+		"Dong"@en ,
+		"ldong"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1328
@@ -236,12 +296,17 @@ told:_KinshipGroup_1328
 		"skyid stod pa"@bo-X-ewts
 		;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Kyitopa"@en ,
+		"skyid stod pa"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1375
 	a tolo:KinshipGroup ;
 	skos:prefLabel "Zhangpa"@en ;
 	gist:hasMember told:_Person_10699 ;
+	tolo:preferredName "Zhangpa"@en ;
 	.
 
 told:_KinshipGroup_1382
@@ -254,11 +319,19 @@ told:_KinshipGroup_1382
 		told:_Person_5386 ,
 		told:_Person_6733
 		;
+	tolo:preferredName
+		"Tsur"@en ,
+		"mtshur"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_147
 	a tolo:KinshipGroup ;
 	skos:prefLabel
+		"Chungpa"@en ,
+		"gcung pa"@bo-X-ewts
+		;
+	tolo:preferredName
 		"Chungpa"@en ,
 		"gcung pa"@bo-X-ewts
 		;
@@ -271,6 +344,10 @@ told:_KinshipGroup_148
 		"lo nang"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_6671 ;
+	tolo:preferredName
+		"Lonang"@en ,
+		"lo nang"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1495
@@ -282,6 +359,10 @@ told:_KinshipGroup_1495
 		;
 	gist:hasMember told:_Person_9301 ;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Shatra"@en ,
+		"bshad sgra"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1519
@@ -295,6 +376,10 @@ told:_KinshipGroup_1519
 		told:_Person_13722 ,
 		told:_Person_9289
 		;
+	tolo:preferredName
+		"Drumpa"@en ,
+		"bhruM pa"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_152
@@ -305,6 +390,10 @@ told:_KinshipGroup_152
 		"rngan"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_6159 ;
+	tolo:preferredName
+		"Ngen"@en ,
+		"rngan"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_153
@@ -314,6 +403,10 @@ told:_KinshipGroup_153
 		"kyi"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_3881 ;
+	tolo:preferredName
+		"Kyi"@en ,
+		"kyi"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1540
@@ -323,11 +416,19 @@ told:_KinshipGroup_1540
 		"gtshang sar "@bo-X-ewts
 		;
 	gist:hasMember told:_Person_13686 ;
+	tolo:preferredName
+		"Tsangsar"@en ,
+		"gtshang sar "@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1550
 	a tolo:KinshipGroup ;
 	skos:prefLabel
+		"Jampel Dechenling"@en ,
+		"jam dpal bde chen gling"@bo-X-ewts
+		;
+	tolo:preferredName
 		"Jampel Dechenling"@en ,
 		"jam dpal bde chen gling"@bo-X-ewts
 		;
@@ -345,6 +446,10 @@ told:_KinshipGroup_1571
 		told:_Person_3950
 		;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Delek Rabten"@en ,
+		"bde legs rab brtan"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1583
@@ -356,6 +461,10 @@ told:_KinshipGroup_1583
 		;
 	gist:hasMember told:_Person_13724 ;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Dekhar"@en ,
+		"bde mkhar"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1584
@@ -366,6 +475,10 @@ told:_KinshipGroup_1584
 		;
 	gist:hasMember told:_Person_13724 ;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Marlampa"@en ,
+		"rmar lam pa"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_1590
@@ -380,6 +493,10 @@ told:_KinshipGroup_1590
 		told:_Person_9343
 		;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Dokhar"@en ,
+		"mdo mkhar"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_161
@@ -390,6 +507,10 @@ told:_KinshipGroup_161
 		"bya nag"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_9169 ;
+	tolo:preferredName
+		"Janak"@en ,
+		"bya nag"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_162
@@ -399,6 +520,10 @@ told:_KinshipGroup_162
 		"mkhar chen"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_490 ;
+	tolo:preferredName
+		"Kharchen"@en ,
+		"mkhar chen"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_163
@@ -412,11 +537,19 @@ told:_KinshipGroup_163
 		told:_Person_303 ,
 		told:_Person_3182
 		;
+	tolo:preferredName
+		"Nanam"@en ,
+		"sna nam"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_164
 	a tolo:KinshipGroup ;
 	skos:prefLabel
+		"Zhang"@en ,
+		"zhang"@bo-X-ewts
+		;
+	tolo:preferredName
 		"Zhang"@en ,
 		"zhang"@bo-X-ewts
 		;
@@ -434,6 +567,10 @@ told:_KinshipGroup_166
 		told:_Person_13077 ,
 		told:_Person_5615
 		;
+	tolo:preferredName
+		"Drokmi"@en ,
+		"brog mi"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_168
@@ -443,6 +580,10 @@ told:_KinshipGroup_168
 		"gnyags"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_5078 ;
+	tolo:preferredName
+		"Nyak"@en ,
+		"gnyags"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_169
@@ -458,6 +599,10 @@ told:_KinshipGroup_169
 		told:_Person_6205 ,
 		told:_Person_6856
 		;
+	tolo:preferredName
+		"Nyang"@en ,
+		"myang"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_171
@@ -467,6 +612,10 @@ told:_KinshipGroup_171
 		"rma"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_5234 ;
+	tolo:preferredName
+		"Ma"@en ,
+		"rma"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_176
@@ -480,6 +629,10 @@ told:_KinshipGroup_176
 		told:_Person_13132 ,
 		told:_Person_13140 ,
 		told:_Person_9372
+		;
+	tolo:preferredName
+		"Go (sgo)"@en ,
+		"sgo"@bo-X-ewts
 		;
 	.
 
@@ -514,6 +667,10 @@ told:_KinshipGroup_184
 		told:_Person_7545 ,
 		told:_Person_9062
 		;
+	tolo:preferredName
+		"Khon"@en ,
+		"khon"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_200
@@ -530,6 +687,10 @@ told:_KinshipGroup_200
 		told:_Person_3178 ,
 		told:_Person_6285
 		;
+	tolo:preferredName
+		"Khyungpo"@en ,
+		"khyung po"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_201
@@ -540,6 +701,10 @@ told:_KinshipGroup_201
 		"rgyus"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_2733 ;
+	tolo:preferredName
+		"Gyu"@en ,
+		"rgyus"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_203
@@ -550,6 +715,10 @@ told:_KinshipGroup_203
 		"bzi ra"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_8752 ;
+	tolo:preferredName
+		"Zira"@en ,
+		"bzi ra"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_211
@@ -559,6 +728,10 @@ told:_KinshipGroup_211
 		"lcag gong"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_9990 ;
+	tolo:preferredName
+		"Chakgong"@en ,
+		"lcag gong"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_220
@@ -571,6 +744,10 @@ told:_KinshipGroup_220
 		told:_Person_10315 ,
 		told:_Person_13072 ,
 		told:_Person_13598
+		;
+	tolo:preferredName
+		"Gar Ratsang "@en ,
+		"mgar ra tsang"@bo-X-ewts
 		;
 	.
 
@@ -587,6 +764,10 @@ told:_KinshipGroup_222
 		told:_Person_6505 ,
 		told:_Person_8027
 		;
+	tolo:preferredName
+		"Se"@en ,
+		"bse"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_230
@@ -599,6 +780,10 @@ told:_KinshipGroup_230
 		told:_Person_11352 ,
 		told:_Person_4630 ,
 		told:_Person_4632
+		;
+	tolo:preferredName
+		"Zur"@en ,
+		"zur"@bo-X-ewts
 		;
 	.
 
@@ -614,6 +799,10 @@ told:_KinshipGroup_238
 		told:_Person_4267 ,
 		told:_Person_8730
 		;
+	tolo:preferredName
+		"Drom"@en ,
+		"brom"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_239
@@ -627,6 +816,10 @@ told:_KinshipGroup_239
 		told:_Person_11441 ,
 		told:_Person_5791
 		;
+	tolo:preferredName
+		"Ja"@en ,
+		"bya"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_252
@@ -636,6 +829,10 @@ told:_KinshipGroup_252
 		"g.yu"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_13081 ;
+	tolo:preferredName
+		"Yu"@en ,
+		"g.yu"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_264
@@ -650,6 +847,10 @@ told:_KinshipGroup_264
 		told:_Person_3957 ,
 		told:_Person_9590
 		;
+	tolo:preferredName
+		"Dro"@en ,
+		"gro"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_281
@@ -663,6 +864,10 @@ told:_KinshipGroup_281
 		told:_Person_3168 ,
 		told:_Person_8868
 		;
+	tolo:preferredName
+		"Dak"@en ,
+		"dwags"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_284
@@ -673,6 +878,10 @@ told:_KinshipGroup_284
 		"rtse gdong"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_4220 ;
+	tolo:preferredName
+		"Tsedong"@en ,
+		"rtse gdong"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_438
@@ -683,11 +892,19 @@ told:_KinshipGroup_438
 		"dbal shul"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_2943 ;
+	tolo:preferredName
+		"Welshul"@en ,
+		"dbal shul"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_458
 	a tolo:KinshipGroup ;
 	skos:prefLabel
+		"Trotsik"@en ,
+		"spro tshig"@bo-X-ewts
+		;
+	tolo:preferredName
 		"Trotsik"@en ,
 		"spro tshig"@bo-X-ewts
 		;
@@ -704,6 +921,10 @@ told:_KinshipGroup_46
 		told:_Person_13456 ,
 		told:_Person_495
 		;
+	tolo:preferredName
+		"Che"@en ,
+		"lce"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_460
@@ -713,6 +934,10 @@ told:_KinshipGroup_460
 		"gling mod"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_8069 ;
+	tolo:preferredName
+		"Lingmo"@en ,
+		"gling mod"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_463
@@ -723,12 +948,20 @@ told:_KinshipGroup_463
 		"g.yi"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_6760 ;
+	tolo:preferredName
+		"Yi"@en ,
+		"g.yi"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_47
 	a tolo:KinshipGroup ;
 	owl:sameAs bdr:C11MS131 ;
 	skos:prefLabel
+		"Bochung"@en ,
+		"bo chung "@bo-X-ewts
+		;
+	tolo:preferredName
 		"Bochung"@en ,
 		"bo chung "@bo-X-ewts
 		;
@@ -753,6 +986,10 @@ told:_KinshipGroup_49
 		told:_Person_8460 ,
 		told:_Person_9688
 		;
+	tolo:preferredName
+		"Nub"@en ,
+		"gnubs"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_51
@@ -762,6 +999,10 @@ told:_KinshipGroup_51
 		"zla ba"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_9612 ;
+	tolo:preferredName
+		"Dawa"@en ,
+		"zla ba"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_513
@@ -772,6 +1013,10 @@ told:_KinshipGroup_513
 		"gtum"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_5790 ;
+	tolo:preferredName
+		"Tum"@en ,
+		"gtum"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_53
@@ -782,6 +1027,10 @@ told:_KinshipGroup_53
 		"la gsum"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_84 ;
+	tolo:preferredName
+		"Lasum"@en ,
+		"la gsum"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_54
@@ -792,6 +1041,10 @@ told:_KinshipGroup_54
 		"bre"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_13057 ;
+	tolo:preferredName
+		"Dre"@en ,
+		"bre"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_548
@@ -802,6 +1055,10 @@ told:_KinshipGroup_548
 		"skyod"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_2483 ;
+	tolo:preferredName
+		"Kyo"@en ,
+		"skyod"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_549
@@ -812,6 +1069,10 @@ told:_KinshipGroup_549
 		"ram"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_13199 ;
+	tolo:preferredName
+		"Ram"@en ,
+		"ram"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_55
@@ -822,6 +1083,10 @@ told:_KinshipGroup_55
 		"dge rtse"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_9579 ;
+	tolo:preferredName
+		"Getse"@en ,
+		"dge rtse"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_550
@@ -831,6 +1096,10 @@ told:_KinshipGroup_550
 		"ze'u"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_2578 ;
+	tolo:preferredName
+		"Zeu"@en ,
+		"ze'u"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_56
@@ -840,11 +1109,19 @@ told:_KinshipGroup_56
 		"man dge"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_9579 ;
+	tolo:preferredName
+		"Menge"@en ,
+		"man dge"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_568
 	a tolo:KinshipGroup ;
 	skos:prefLabel
+		"Dzongchung"@en ,
+		"rdzong chung"@bo-X-ewts
+		;
+	tolo:preferredName
 		"Dzongchung"@en ,
 		"rdzong chung"@bo-X-ewts
 		;
@@ -861,6 +1138,10 @@ told:_KinshipGroup_57
 		told:_Person_13198 ,
 		told:_Person_4903
 		;
+	tolo:preferredName
+		"Ngenlam"@en ,
+		"ngan lam"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_570
@@ -876,6 +1157,10 @@ told:_KinshipGroup_570
 		told:_Person_13531 ,
 		told:_Person_6668
 		;
+	tolo:preferredName
+		"Ra"@en ,
+		"dbra "@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_577
@@ -889,6 +1174,10 @@ told:_KinshipGroup_577
 		told:_Person_13196 ,
 		told:_Person_7775
 		;
+	tolo:preferredName
+		"Tong"@en ,
+		"stong"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_578
@@ -899,6 +1188,10 @@ told:_KinshipGroup_578
 		"g.yu sgra"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_10199 ;
+	tolo:preferredName
+		"Yudra"@en ,
+		"g.yu sgra"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_579
@@ -908,6 +1201,10 @@ told:_KinshipGroup_579
 		"nag tsho"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_5801 ;
+	tolo:preferredName
+		"Naktso"@en ,
+		"nag tsho"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_58
@@ -918,6 +1215,10 @@ told:_KinshipGroup_58
 		"o bran"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_13058 ;
+	tolo:preferredName
+		"Wodren"@en ,
+		"o bran"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_580
@@ -928,6 +1229,10 @@ told:_KinshipGroup_580
 		"g.yu rngog"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_1564 ;
+	tolo:preferredName
+		"Yungok"@en ,
+		"g.yu rngog"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_582
@@ -941,6 +1246,10 @@ told:_KinshipGroup_582
 		told:_Person_13190 ,
 		told:_Person_9169
 		;
+	tolo:preferredName
+		"Namseling"@en ,
+		"rnam sras gling"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_588
@@ -951,11 +1260,19 @@ told:_KinshipGroup_588
 		"dbang mda'"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_12785 ;
+	tolo:preferredName
+		"Wangda"@en ,
+		"dbang mda'"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_592
 	a tolo:KinshipGroup ;
 	skos:prefLabel
+		"Ba"@en ,
+		"sba"@bo-X-ewts
+		;
+	tolo:preferredName
 		"Ba"@en ,
 		"sba"@bo-X-ewts
 		;
@@ -969,6 +1286,10 @@ told:_KinshipGroup_598
 		"a gro"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_11427 ;
+	tolo:preferredName
+		"Adro"@en ,
+		"a gro"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_600
@@ -979,6 +1300,10 @@ told:_KinshipGroup_600
 		"a rig"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_5479 ;
+	tolo:preferredName
+		"Arik"@en ,
+		"a rig"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_601
@@ -989,12 +1314,20 @@ told:_KinshipGroup_601
 		"ban"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_5615 ;
+	tolo:preferredName
+		"Ban"@en ,
+		"ban"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_602
 	a tolo:KinshipGroup ;
 	owl:sameAs bdr:C11MS166 ;
 	skos:prefLabel
+		"Azha"@en ,
+		"a zha "@bo-X-ewts
+		;
+	tolo:preferredName
 		"Azha"@en ,
 		"a zha "@bo-X-ewts
 		;
@@ -1007,6 +1340,10 @@ told:_KinshipGroup_604
 		"ber"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_13083 ;
+	tolo:preferredName
+		"Ber"@en ,
+		"ber"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_605
@@ -1017,6 +1354,10 @@ told:_KinshipGroup_605
 		"lcag khung"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_10457 ;
+	tolo:preferredName
+		"Chakhung"@en ,
+		"lcag khung"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_606
@@ -1024,6 +1365,7 @@ told:_KinshipGroup_606
 	owl:sameAs bdr:C11MS219 ;
 	skos:prefLabel "Depa Tonpo"@en ;
 	gist:hasMember told:_Person_9213 ;
+	tolo:preferredName "Depa Tonpo"@en ;
 	.
 
 told:_KinshipGroup_607
@@ -1038,6 +1380,10 @@ told:_KinshipGroup_607
 		told:_Person_13174 ,
 		told:_Person_2180
 		;
+	tolo:preferredName
+		"Dru ('dru)"@en ,
+		"dru"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_608
@@ -1047,6 +1393,10 @@ told:_KinshipGroup_608
 		"shar"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_5408 ;
+	tolo:preferredName
+		"Shar"@en ,
+		"shar"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_609
@@ -1055,11 +1405,16 @@ told:_KinshipGroup_609
 		"Gung"@en ,
 		"gung"@bo-X-ewts
 		;
+	tolo:preferredName
+		"Gung"@en ,
+		"gung"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_610
 	a tolo:KinshipGroup ;
 	skos:prefLabel "Shar"@en ;
+	tolo:preferredName "Shar"@en ;
 	.
 
 told:_KinshipGroup_614
@@ -1070,6 +1425,10 @@ told:_KinshipGroup_614
 		"a skyong"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_9612 ;
+	tolo:preferredName
+		"Akyong"@en ,
+		"a skyong"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_619
@@ -1080,11 +1439,19 @@ told:_KinshipGroup_619
 		"sbra"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_2980 ;
+	tolo:preferredName
+		"Dra"@en ,
+		"sbra"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_620
 	a tolo:KinshipGroup ;
 	skos:prefLabel
+		"Wangyak"@en ,
+		"dbang yag"@bo-X-ewts
+		;
+	tolo:preferredName
 		"Wangyak"@en ,
 		"dbang yag"@bo-X-ewts
 		;
@@ -1098,6 +1465,10 @@ told:_KinshipGroup_622
 		"dzeng"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_2598 ;
+	tolo:preferredName
+		"Dzeng"@en ,
+		"dzeng"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_623
@@ -1108,6 +1479,10 @@ told:_KinshipGroup_623
 		"rgwa"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_6037 ;
+	tolo:preferredName
+		"Ga (rgwa)"@en ,
+		"rgwa"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_624
@@ -1117,6 +1492,10 @@ told:_KinshipGroup_624
 		"gu rib"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_13164 ;
+	tolo:preferredName
+		"Gurib"@en ,
+		"gu rib"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_625
@@ -1127,6 +1506,10 @@ told:_KinshipGroup_625
 		"skya su"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_8181 ;
+	tolo:preferredName
+		"Kyasu"@en ,
+		"skya su"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_626
@@ -1142,6 +1525,10 @@ told:_KinshipGroup_626
 		told:_Person_2595 ,
 		told:_Person_96
 		;
+	tolo:preferredName
+		"Lang"@en ,
+		"rlangs"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_627
@@ -1152,6 +1539,10 @@ told:_KinshipGroup_627
 		"glan"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_2740 ;
+	tolo:preferredName
+		"Len"@en ,
+		"glan"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_628
@@ -1165,6 +1556,10 @@ told:_KinshipGroup_628
 		told:_Person_12096 ,
 		told:_Person_13079
 		;
+	tolo:preferredName
+		"Meu"@en ,
+		"rme'u"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_629
@@ -1175,6 +1570,10 @@ told:_KinshipGroup_629
 		"me"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_13090 ;
+	tolo:preferredName
+		"Me"@en ,
+		"me"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_630
@@ -1191,6 +1590,10 @@ told:_KinshipGroup_630
 		told:_Person_9355 ,
 		told:_Person_9588
 		;
+	tolo:preferredName
+		"Mukpo"@en ,
+		"smug po ldong"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_634
@@ -1201,6 +1604,10 @@ told:_KinshipGroup_634
 		"dngul chu"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_4402 ;
+	tolo:preferredName
+		"Ngulchu"@en ,
+		"dngul chu"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_635
@@ -1211,6 +1618,10 @@ told:_KinshipGroup_635
 		"nyag shul"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_5078 ;
+	tolo:preferredName
+		"Nyakshul"@en ,
+		"nyag shul"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_636
@@ -1227,12 +1638,17 @@ told:_KinshipGroup_636
 		told:_Person_3000 ,
 		told:_Person_9394
 		;
+	tolo:preferredName
+		"Nyo"@en ,
+		"gnyos"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_639
 	a tolo:KinshipGroup ;
 	skos:prefLabel "Rakar Khyungpo"@en ;
 	gist:hasMember told:_Person_13222 ;
+	tolo:preferredName "Rakar Khyungpo"@en ;
 	.
 
 told:_KinshipGroup_640
@@ -1247,6 +1663,10 @@ told:_KinshipGroup_640
 		told:_Person_6721 ,
 		told:_Person_6726
 		;
+	tolo:preferredName
+		"Rog"@bo-X-ewts ,
+		"Rok"@en
+		;
 	.
 
 told:_KinshipGroup_642
@@ -1256,6 +1676,10 @@ told:_KinshipGroup_642
 		"pra ti zhwa dmar rigs"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_5902 ;
+	tolo:preferredName
+		"Tati Zhamar"@en ,
+		"pra ti zhwa dmar rigs"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_643
@@ -1266,6 +1690,10 @@ told:_KinshipGroup_643
 		"khro kho nu ma'i dpal shul"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_7937 ;
+	tolo:preferredName
+		"Trokho Numai Pelshul"@en ,
+		"khro kho nu ma'i dpal shul"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_644
@@ -1279,6 +1707,10 @@ told:_KinshipGroup_644
 		told:_Person_3008 ,
 		told:_Person_5899
 		;
+	tolo:preferredName
+		"Tukwan"@en ,
+		"thu'u bkwan"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_645
@@ -1289,6 +1721,10 @@ told:_KinshipGroup_645
 		"bzhag"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_13087 ;
+	tolo:preferredName
+		"Zhak"@en ,
+		"bzhag"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_646
@@ -1299,6 +1735,10 @@ told:_KinshipGroup_646
 		"thon mi"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_8342 ;
+	tolo:preferredName
+		"Tonmi"@en ,
+		"thon mi"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_647
@@ -1309,6 +1749,10 @@ told:_KinshipGroup_647
 		"ju"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_4228 ;
+	tolo:preferredName
+		"Ju"@en ,
+		"ju"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_649
@@ -1319,6 +1763,10 @@ told:_KinshipGroup_649
 		"be gu"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_5 ;
+	tolo:preferredName
+		"Begu"@en ,
+		"be gu"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_65
@@ -1334,6 +1782,10 @@ told:_KinshipGroup_65
 		told:_Person_5819 ,
 		told:_Person_6653
 		;
+	tolo:preferredName
+		"Shupu"@en ,
+		"shud phu"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_651
@@ -1343,6 +1795,10 @@ told:_KinshipGroup_651
 		"sa gnam"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_10497 ;
+	tolo:preferredName
+		"Sanam"@en ,
+		"sa gnam"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_653
@@ -1353,11 +1809,19 @@ told:_KinshipGroup_653
 		"shing khams sga"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_4291 ;
+	tolo:preferredName
+		"Shingkhamga"@en ,
+		"shing khams sga"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_655
 	a tolo:KinshipGroup ;
 	skos:prefLabel
+		"Sumpa"@en ,
+		"sum pa"@bo-X-ewts
+		;
+	tolo:preferredName
 		"Sumpa"@en ,
 		"sum pa"@bo-X-ewts
 		;
@@ -1373,6 +1837,10 @@ told:_KinshipGroup_656
 		told:_Person_13509 ,
 		told:_Person_13566
 		;
+	tolo:preferredName
+		"Pugyel"@en ,
+		"spu rgyal"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_658
@@ -1381,11 +1849,16 @@ told:_KinshipGroup_658
 		"Denma"@en ,
 		"ldan ma"@bo-X-ewts
 		;
+	tolo:preferredName
+		"Denma"@en ,
+		"ldan ma"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_659
 	a tolo:KinshipGroup ;
 	skos:prefLabel "Cho"@en ;
+	tolo:preferredName "Cho"@en ;
 	.
 
 told:_KinshipGroup_66
@@ -1403,6 +1876,10 @@ told:_KinshipGroup_66
 		told:_Person_5728 ,
 		told:_Person_5789
 		;
+	tolo:preferredName
+		"Ngok"@en ,
+		"rngog"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_664
@@ -1414,6 +1891,10 @@ told:_KinshipGroup_664
 	gist:hasMember
 		told:_Person_5500 ,
 		told:_Person_5803
+		;
+	tolo:preferredName
+		"Go ('gos)"@en ,
+		"gos"@bo-X-ewts
 		;
 	.
 
@@ -1429,6 +1910,10 @@ told:_KinshipGroup_665
 		told:_Person_13725 ,
 		told:_Person_9618
 		;
+	tolo:preferredName
+		"Lhalung"@en ,
+		"lha lung"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_666
@@ -1438,12 +1923,20 @@ told:_KinshipGroup_666
 		"Chim"@en ,
 		"mchims"@bo-X-ewts
 		;
+	tolo:preferredName
+		"Chim"@en ,
+		"mchims"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_667
 	a tolo:KinshipGroup ;
 	owl:sameAs bdr:C11MS138 ;
 	skos:prefLabel
+		"Mu"@en ,
+		"rmu"@bo-X-ewts
+		;
+	tolo:preferredName
 		"Mu"@en ,
 		"rmu"@bo-X-ewts
 		;
@@ -1457,6 +1950,10 @@ told:_KinshipGroup_670
 		"zhi ba tshang"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_8538 ;
+	tolo:preferredName
+		"Zhiwatsang"@en ,
+		"zhi ba tshang"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_671
@@ -1471,12 +1968,20 @@ told:_KinshipGroup_671
 		told:_Person_5306
 		;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Doring"@en ,
+		"rdo ring"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_674
 	a tolo:KinshipGroup ;
 	owl:sameAs bdr:C11MS195 ;
 	skos:prefLabel
+		"Kyuchok"@en ,
+		"khyu mchog"@bo-X-ewts
+		;
+	tolo:preferredName
 		"Kyuchok"@en ,
 		"khyu mchog"@bo-X-ewts
 		;
@@ -1494,6 +1999,10 @@ told:_KinshipGroup_675
 		told:_Person_8460 ,
 		told:_Person_8571
 		;
+	tolo:preferredName
+		"Gar "@en ,
+		"mgar"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_676
@@ -1502,11 +2011,19 @@ told:_KinshipGroup_676
 		"Zamtsa Ngorang"@en ,
 		"zam tsha ngo rang"@bo-X-ewts
 		;
+	tolo:preferredName
+		"Zamtsa Ngorang"@en ,
+		"zam tsha ngo rang"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_677
 	a tolo:KinshipGroup ;
 	skos:prefLabel
+		"Pakpatsang"@en ,
+		"phags pa tshang"@bo-X-ewts
+		;
+	tolo:preferredName
 		"Pakpatsang"@en ,
 		"phags pa tshang"@bo-X-ewts
 		;
@@ -1519,6 +2036,10 @@ told:_KinshipGroup_678
 		"rgya mo"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_8459 ;
+	tolo:preferredName
+		"Gyamo"@en ,
+		"rgya mo"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_680
@@ -1529,6 +2050,10 @@ told:_KinshipGroup_680
 		"rngu pa"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_2781 ;
+	tolo:preferredName
+		"Ngupa"@en ,
+		"rngu pa"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_681
@@ -1538,12 +2063,20 @@ told:_KinshipGroup_681
 		"rtse dbus byams shul"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_3173 ;
+	tolo:preferredName
+		"Tseu Jamshul"@en ,
+		"rtse dbus byams shul"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_683
 	a tolo:KinshipGroup ;
 	owl:sameAs bdr:C11MS213 ;
 	skos:prefLabel
+		"Bitsa"@en ,
+		"sbi tsha"@bo-X-ewts
+		;
+	tolo:preferredName
 		"Bitsa"@en ,
 		"sbi tsha"@bo-X-ewts
 		;
@@ -1555,12 +2088,20 @@ told:_KinshipGroup_685
 		"Gyangkhar"@en ,
 		"gyang khar"@bo-X-ewts
 		;
+	tolo:preferredName
+		"Gyangkhar"@en ,
+		"gyang khar"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_69
 	a tolo:KinshipGroup ;
 	owl:sameAs bdr:C11MS170 ;
 	skos:prefLabel
+		"Drenka "@en ,
+		"bran ka"@bo-X-ewts
+		;
+	tolo:preferredName
 		"Drenka "@en ,
 		"bran ka"@bo-X-ewts
 		;
@@ -1575,6 +2116,10 @@ told:_KinshipGroup_691
 		;
 	gist:hasMember told:_Person_13226 ;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Yabzhi Sampo"@en ,
+		"yab gzhis bsam pho "@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_698
@@ -1584,12 +2129,20 @@ told:_KinshipGroup_698
 		"a phang"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_8651 ;
+	tolo:preferredName
+		"Apang"@en ,
+		"a phang"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_71
 	a tolo:KinshipGroup ;
 	owl:sameAs bdr:C2CN11016 ;
 	skos:prefLabel
+		"Lingtsang"@en ,
+		"gling tshang"@bo-X-ewts
+		;
+	tolo:preferredName
 		"Lingtsang"@en ,
 		"gling tshang"@bo-X-ewts
 		;
@@ -1602,6 +2155,10 @@ told:_KinshipGroup_714
 		"ngor rje"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_2606 ;
+	tolo:preferredName
+		"Ngoje"@en ,
+		"ngor rje"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_72
@@ -1611,6 +2168,10 @@ told:_KinshipGroup_72
 		"gling smad"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_11877 ;
+	tolo:preferredName
+		"Lingme"@en ,
+		"gling smad"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_74
@@ -1621,6 +2182,10 @@ told:_KinshipGroup_74
 		"zi"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_6547 ;
+	tolo:preferredName
+		"Zi"@en ,
+		"zi"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_77
@@ -1634,6 +2199,10 @@ told:_KinshipGroup_77
 		told:_Person_4175 ,
 		told:_Person_6578
 		;
+	tolo:preferredName
+		"Lomi"@en ,
+		"lo mi"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_79
@@ -1645,6 +2214,10 @@ told:_KinshipGroup_79
 	gist:hasMember
 		told:_Person_3101 ,
 		told:_Person_4368
+		;
+	tolo:preferredName
+		"Gazi"@en ,
+		"ga zi"@bo-X-ewts
 		;
 	.
 
@@ -1672,6 +2245,10 @@ told:_KinshipGroup_81
 		told:_Person_7040 ,
 		told:_Person_7523
 		;
+	tolo:preferredName
+		"Kyura"@en ,
+		"skyu ra"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_820
@@ -1690,6 +2267,10 @@ told:_KinshipGroup_820
 		told:_Person_13797 ,
 		told:_Person_7718
 		;
+	tolo:preferredName
+		"Drangti"@en ,
+		"brang ti"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_83
@@ -1700,6 +2281,10 @@ told:_KinshipGroup_83
 		"dgyer"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_5 ;
+	tolo:preferredName
+		"Gyer"@en ,
+		"dgyer"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_84
@@ -1710,6 +2295,10 @@ told:_KinshipGroup_84
 		"khang gsar"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_5 ;
+	tolo:preferredName
+		"Khangsar"@en ,
+		"khang gsar"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_86
@@ -1734,6 +2323,10 @@ told:_KinshipGroup_86
 		told:_Person_7622 ,
 		told:_Person_8637
 		;
+	tolo:preferredName
+		"Gya"@en ,
+		"rgya"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_930
@@ -1749,6 +2342,10 @@ told:_KinshipGroup_930
 		told:_Person_9289
 		;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Yabzhi Langdun"@en ,
+		"yab gzhis glang mdun "@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_931
@@ -1760,6 +2357,10 @@ told:_KinshipGroup_931
 		;
 	gist:hasMember told:_Person_13425 ;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Yabzhi Punkhang"@en ,
+		"yab gzhi phun khang"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_932
@@ -1775,6 +2376,10 @@ told:_KinshipGroup_932
 		told:_Person_9333
 		;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Yabzhi Yuthok"@en ,
+		"yab gzhis g.yu thog"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_933
@@ -1786,6 +2391,10 @@ told:_KinshipGroup_933
 		;
 	gist:hasMember told:_Person_13428 ;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Yabzhi Lhalu (earlier)"@en ,
+		"yab gzhis lha klu"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_94
@@ -1796,6 +2405,10 @@ told:_KinshipGroup_94
 		"shar kha pa"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_4167 ;
+	tolo:preferredName
+		"Sharkhapa"@en ,
+		"shar kha pa"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_940
@@ -1807,6 +2420,10 @@ told:_KinshipGroup_940
 		;
 	gist:hasMember told:_Person_13427 ;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Yabzhi Lhalu (later)"@en ,
+		"yab gzhis lha klu"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_946
@@ -1816,6 +2433,10 @@ told:_KinshipGroup_946
 		"nyag ras"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_13440 ;
+	tolo:preferredName
+		"Nyakre"@en ,
+		"nyag ras"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_966
@@ -1825,6 +2446,10 @@ told:_KinshipGroup_966
 		"rgya kong bshad sgrub tshang "@bo-X-ewts
 		;
 	gist:hasMember told:_Person_4987 ;
+	tolo:preferredName
+		"Gyakong Shedrubtsang"@en ,
+		"rgya kong bshad sgrub tshang "@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_967
@@ -1837,6 +2462,10 @@ told:_KinshipGroup_967
 		told:_Person_11385 ,
 		told:_Person_13152
 		;
+	tolo:preferredName
+		"Den Atub Tsang"@en ,
+		"dan a thub tshang"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_969
@@ -1846,11 +2475,19 @@ told:_KinshipGroup_969
 		"tshong dpon"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_4659 ;
+	tolo:preferredName
+		"Tsongpon"@en ,
+		"tshong dpon"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_973
 	a tolo:KinshipGroup ;
 	skos:prefLabel
+		"Jadra"@en ,
+		"ja sbra"@bo-X-ewts
+		;
+	tolo:preferredName
 		"Jadra"@en ,
 		"ja sbra"@bo-X-ewts
 		;
@@ -1863,5 +2500,9 @@ told:_KinshipGroup_975
 		"dil mgo"@bo-X-ewts
 		;
 	gist:hasMember told:_Person_8825 ;
+	tolo:preferredName
+		"Dilgo"@en ,
+		"dil mgo"@bo-X-ewts
+		;
 	.
 

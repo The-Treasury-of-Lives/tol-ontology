@@ -28,6 +28,10 @@ told:_KinshipGroup_1590
 		told:_Person_9343
 		;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
+	tolo:preferredName
+		"Dokhar"@en ,
+		"mdo mkhar"@bo-X-ewts
+		;
 	.
 
 told:_KinshipGroup_46

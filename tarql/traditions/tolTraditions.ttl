@@ -18,10 +18,10 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/treasuryoflives/ontology/traditions>
+<https://w3id.org/treasuryoflives/ontology/tolTraditions>
 	a owl:Ontology ;
 	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
-	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/traditionsX.x.x> ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolTraditionsX.x.x> ;
 	skos:definition "Defines Tibetan traditions."@en ;
 	skos:prefLabel "Traditions"@en ;
 	skos:scopeNote "Traditions are instances of Tibetan religion that identifies as a cohesive group with distinct modes of ritual and learning, as well as associated institutions such as monasteries."@en ;
@@ -239,6 +239,10 @@ told:_Tradition_1034
 		;
 	tolo:hasFounder told:_Person_2799 ;
 	tolo:isDerivedFrom told:_Tradition_6 ;
+	tolo:preferredName
+		"Tropu Kagyu"@en ,
+		"khro phu bka' brgyud"@bo-X-ewts
+		;
 	.
 
 told:_Tradition_1130
@@ -250,6 +254,10 @@ told:_Tradition_1130
 		;
 	tolo:hasFounder told:_Person_6756 ;
 	tolo:isDerivedFrom told:_Tradition_6 ;
+	tolo:preferredName
+		"Yabzang Kagyu"@en ,
+		"g.ya' bzang bka' brgyud"@bo-X-ewts
+		;
 	.
 
 told:_Tradition_1135
@@ -265,6 +273,11 @@ told:_Tradition_1135
 		;
 	tolo:hasFounder told:_Person_3181 ;
 	tolo:isDerivedFrom told:_Tradition_6 ;
+	tolo:preferredName
+		"Barom Kagyu"@en ,
+		"ba' rom bka' brgyud"@bo-X-ewts ,
+		"马尔巴噶举"@zh-HANI
+		;
 	.
 
 told:_Tradition_1531
@@ -279,6 +292,10 @@ told:_Tradition_1531
 		;
 	tolo:hasFounder told:_Person_3266 ;
 	tolo:isDerivedFrom told:_Tradition_6 ;
+	tolo:preferredName
+		"Barawa Kagyu"@en ,
+		"ba' ra ba bka' rgyud"@bo-X-ewts
+		;
 	.
 
 told:_Tradition_17
@@ -294,6 +311,11 @@ told:_Tradition_17
 		;
 	tolo:hasFounder told:_Person_3182 ;
 	tolo:isDerivedFrom told:_Tradition_6 ;
+	tolo:preferredName
+		"Tselpa Kagyu"@en ,
+		"tshal pa bka' brgyud"@bo-X-ewts ,
+		"維基媒體分類"@zh-HANI
+		;
 	.
 
 told:_Tradition_18
@@ -309,6 +331,11 @@ told:_Tradition_18
 		;
 	tolo:hasFounder told:_Person_2683 ;
 	tolo:isDerivedFrom told:_Tradition_6 ;
+	tolo:preferredName
+		"Karma Kagyu"@en ,
+		"karma bka' brgyud"@bo-X-ewts ,
+		"噶瑪噶舉派"@zh-HANI
+		;
 	.
 
 told:_Tradition_19
@@ -320,6 +347,10 @@ told:_Tradition_19
 		;
 	tolo:hasFounder told:_Person_2539 ;
 	tolo:isDerivedFrom told:_Tradition_6 ;
+	tolo:preferredName
+		"Pakdru Kagyu"@en ,
+		"phag gru bka' brgyud"@bo-X-ewts
+		;
 	.
 
 told:_Tradition_196
@@ -334,6 +365,11 @@ told:_Tradition_196
 		"香巴噶举派"@zh-HANI
 		;
 	tolo:hasFounder told:_Person_6285 ;
+	tolo:preferredName
+		"Shangpa Kagyu"@en ,
+		"shangs pa bka' brgyud"@bo-X-ewts ,
+		"香巴噶举派"@zh-HANI
+		;
 	.
 
 told:_Tradition_20
@@ -349,6 +385,11 @@ told:_Tradition_20
 		;
 	tolo:hasFounder told:_Person_2899 ;
 	tolo:isDerivedFrom told:_Tradition_6 ;
+	tolo:preferredName
+		"Drigung Kagyu"@en ,
+		"bri gung bka' brgyud"@bo-X-ewts ,
+		"直貢噶舉"@zh-HANI
+		;
 	.
 
 told:_Tradition_23
@@ -363,6 +404,10 @@ told:_Tradition_23
 		;
 	tolo:hasFounder told:_Person_3469 ;
 	tolo:isDerivedFrom told:_Tradition_6 ;
+	tolo:preferredName
+		"Martsang Kagyu"@en ,
+		"smar tshang bka' brgud"@bo-X-ewts
+		;
 	.
 
 told:_Tradition_240
@@ -377,6 +422,11 @@ told:_Tradition_240
 		"苯"@zh-HANI
 		;
 	tolo:hasFounder told:_Person_13800 ;
+	tolo:preferredName
+		"Bon"@en ,
+		"bon"@bo-X-ewts ,
+		"苯"@zh-HANI
+		;
 	.
 
 told:_Tradition_28
@@ -391,6 +441,10 @@ told:_Tradition_28
 		;
 	tolo:hasFounder told:_Person_7636 ;
 	tolo:isDerivedFrom told:_Tradition_6 ;
+	tolo:preferredName
+		"Yelpa Kagyu"@en ,
+		"yel pa bka' brgyud"@bo-X-ewts
+		;
 	.
 
 told:_Tradition_38
@@ -402,6 +456,11 @@ told:_Tradition_38
 		"邬坚宁竹"@zh-HANI
 		;
 	tolo:hasFounder told:_Person_2733 ;
+	tolo:preferredName
+		"Orgyen Nyendrub"@en ,
+		"o rgyan bsnyen sgrub"@bo-X-ewts ,
+		"邬坚宁竹"@zh-HANI
+		;
 	.
 
 told:_Tradition_40
@@ -417,6 +476,11 @@ told:_Tradition_40
 		;
 	tolo:hasFounder told:_Person_11865 ;
 	tolo:isDerivedFrom told:_Tradition_6 ;
+	tolo:preferredName
+		"Drukpa Kagyu"@en ,
+		"brug pa bka' brgyud"@bo-X-ewts ,
+		"竺巴噶舉"@zh-HANI
+		;
 	.
 
 told:_Tradition_45
@@ -432,6 +496,11 @@ told:_Tradition_45
 		;
 	tolo:hasFounder told:_Person_4368 ;
 	tolo:isDerivedFrom told:_Tradition_6 ;
+	tolo:preferredName
+		"Taklung Kagyu"@en ,
+		"stag lung bka' brgyud"@bo-X-ewts ,
+		"达龙寺"@zh-HANI
+		;
 	.
 
 told:_Tradition_48
@@ -443,6 +512,10 @@ told:_Tradition_48
 		;
 	tolo:hasFounder told:_Person_5 ;
 	tolo:isDerivedFrom told:_Tradition_6 ;
+	tolo:preferredName
+		"Shukseb Kagyu"@en ,
+		"shug gseb bka' brgyud"@bo-X-ewts
+		;
 	.
 
 told:_Tradition_5
@@ -452,6 +525,11 @@ told:_Tradition_5
 		wiki:Q848771
 		;
 	skos:prefLabel
+		"Nyingma"@en ,
+		"rnying ma"@bo-X-ewts ,
+		"宁玛派"@zh-HANI
+		;
+	tolo:preferredName
 		"Nyingma"@en ,
 		"rnying ma"@bo-X-ewts ,
 		"宁玛派"@zh-HANI
@@ -469,6 +547,10 @@ told:_Tradition_6
 		"mar pa bka' brgyud"@bo-X-ewts
 		;
 	tolo:hasFounder told:_Person_4354 ;
+	tolo:preferredName
+		"Marpa Kagyu"@en ,
+		"mar pa bka' brgyud"@bo-X-ewts
+		;
 	.
 
 told:_Tradition_61
@@ -483,6 +565,11 @@ told:_Tradition_61
 		"噶当派"@zh-HANI
 		;
 	tolo:hasFounder told:_Person_4267 ;
+	tolo:preferredName
+		"Kadam"@en ,
+		"bka' gdams pa"@bo-X-ewts ,
+		"噶当派"@zh-HANI
+		;
 	.
 
 told:_Tradition_611
@@ -496,6 +583,10 @@ told:_Tradition_611
 		"bo dong"@bo-X-ewts
 		;
 	tolo:hasFounder told:_Person_4344 ;
+	tolo:preferredName
+		"Bodong"@en ,
+		"bo dong"@bo-X-ewts
+		;
 	.
 
 told:_Tradition_7
@@ -510,6 +601,11 @@ told:_Tradition_7
 		"萨迦派"@zh-HANI
 		;
 	tolo:hasFounder told:_Person_6100 ;
+	tolo:preferredName
+		"Sakya"@en ,
+		"sa skya"@bo-X-ewts ,
+		"萨迦派"@zh-HANI
+		;
 	.
 
 told:_Tradition_710
@@ -527,6 +623,11 @@ told:_Tradition_710
 		told:_Person_2510 ,
 		told:_Person_5644
 		;
+	tolo:preferredName
+		"Zhije and Chod"@en ,
+		"zhi byed dang gcod"@bo-X-ewts ,
+		"施身法"@zh-HANI
+		;
 	.
 
 told:_Tradition_73
@@ -536,6 +637,11 @@ told:_Tradition_73
 		wiki:Q831837
 		;
 	skos:prefLabel
+		"Kalācakra"@en ,
+		"dus 'khor"@bo-X-ewts ,
+		"十相自在"@zh-HANI
+		;
+	tolo:preferredName
 		"Kalācakra"@en ,
 		"dus 'khor"@bo-X-ewts ,
 		"十相自在"@zh-HANI
@@ -554,6 +660,11 @@ told:_Tradition_8
 		"格鲁派"@zh-HANI
 		;
 	tolo:hasFounder told:_Person_8986 ;
+	tolo:preferredName
+		"Geluk"@en ,
+		"dge lugs"@bo-X-ewts ,
+		"格鲁派"@zh-HANI
+		;
 	.
 
 told:_Tradition_88
@@ -568,5 +679,10 @@ told:_Tradition_88
 		"觉囊派"@zh-HANI
 		;
 	tolo:hasFounder told:_Person_2670 ;
+	tolo:preferredName
+		"Jonang"@en ,
+		"jo nang"@bo-X-ewts ,
+		"觉囊派"@zh-HANI
+		;
 	.
 
