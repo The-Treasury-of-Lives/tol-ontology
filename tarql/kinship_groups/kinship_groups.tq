@@ -27,7 +27,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # Members
 
 # Run: 
-# tarql --dedup 1000 kinship_groups.tq > tolKinshipGroups.ttl
+# tarql --dedup 1000 kinship_groups.tq kinship_groups_2023-05-25.csv > tolKinshipGroups.ttl
 
 CONSTRUCT {
 
@@ -37,13 +37,14 @@ CONSTRUCT {
         skos:prefLabel ?preferred_name_tol , 
             ?preferred_name_wylie ,
             ?preferred_name_chinese ;
+        tolo:preferredName ?preferred_name_tol , 
+            ?preferred_name_wylie ,
+            ?preferred_name_chinese ;
         gist:isCategorizedBy ?kinship_group_type_iri ;
         gist:hasMember ?person_iri ;
     .
 
 }
-
-FROM <file:kinship_groups_2023-05-25.csv>
 
 WHERE {
     
