@@ -1,0 +1,43 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:_FormattedContent_Description_IncarnationLineage_1135
+	a gist:FormattedContent ;
+	skos:prefLabel "Description of the Barom Kagyu tradition"@en ;
+	gist:containedText '''
+        <p> The Barom branch of the Kagyu tradition was established by <a href="/biographies/view/Barompa-Darma-Wangchuk/TBRC_P1856">Barompa Darma Wangchuk</a>, a disciple of <a href="/biographies/view/Gampopa/TBRC_p1844">Gampopa</a>. The name is based on the monastery Darma Wangchuk established in Kham in 1160, <a href="/geographies/view/Barom-Riwoche/TBRC_G1KR1663">Barom Riwoche</a>. Among the recent illustrious members of the tradition were <a href="/biographies/view/Tulku-Urgyen-Rinpoche/TBRC_P9901">Tulku Urgyen Rinpoche</a>.</p> <p> &nbsp;</p>
+    '''@en ;
+	gist:isAbout told:_Tradition_1135 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_IncarnationLineage_1135
+	a tolo:IncarnationLineage ;
+	owl:sameAs
+		bdr:T1384 ,
+		wiki:Q86777587
+		;
+	skos:prefLabel
+		"Barom Kagyu"@en ,
+		"ba' rom bka' brgyud"@bo-X-ewts ,
+		"马尔巴噶举"@zh-HANI
+		;
+	tolo:hasFounder told:_Person_3181 ;
+	tolo:isDerivedFrom told:_Tradition_6 ;
+	.
+

@@ -36,7 +36,7 @@ CONSTRUCT {
         gist:containedText ?description_en ;
         gist:isAbout ?kinship_group_iri ;
 	    gist:isExpressedIn media-txt:html ;
-   
+    .
 
 }
 
@@ -45,7 +45,7 @@ FROM <file:kinship_group_descriptions_2023-05-23.csv>
 WHERE {
 
     # Testing
-    # FILTER(?ROWNUM = 2)
+    # FILTER(?ROWNUM = 1)
     
     BIND(tarql:expandPrefixedName(CONCAT("told:_KinshipGroup_", ?kinship_group_id)) AS ?kinship_group_iri)
 
