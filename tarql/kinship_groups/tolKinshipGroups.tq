@@ -39,7 +39,7 @@ CONSTRUCT {
             ?preferred_name_chinese ;
         gist:isCategorizedBy ?kinship_group_type_iri ;
         gist:hasMember ?person_iri ;
-   
+    .
 
 }
 
@@ -48,7 +48,7 @@ FROM <file:kinship_groups_2023-05-25.csv>
 WHERE {
     
     # Testing
-    # FILTER(?ROWNUM = 2)
+    # FILTER(?ROWNUM = 1)
 
     BIND(REPLACE(?TOL_ID, "TOL", "") AS ?tol_id)
     BIND(tarql:expandPrefixedName(CONCAT("told:_KinshipGroup_", ?tol_id)) AS ?kinship_group_iri)

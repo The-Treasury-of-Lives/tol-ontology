@@ -71,7 +71,7 @@ FROM <file:traditions_2023-05-22.csv>
 WHERE {
     
     # Testing
-    # FILTER(?ROWNUM = 2)
+    # FILTER(?ROWNUM = 1)
 
     # Tradition
     BIND(REPLACE(?TOL_Tradition_ID, "TOL", "") AS ?tradition_id)
