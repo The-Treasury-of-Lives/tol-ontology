@@ -1,0 +1,268 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:_FormattedContent_Description_HistoricalPeriod_10th_century
+	a gist:FormattedContent ;
+	skos:prefLabel "Description of the 10th Century"@en ;
+	gist:containedText """<p>
+	The tenth century is characterized as the period of fragmentation. In the absence of state-sponsored religious institutions and prohibitions, tantric practice developed and spread in central Tibet. To the northeast, several polities ruled independently during most of the century, with the Tsongkha kingdom gaining dominance beginning in 997. In far west Tibet, the Guge Kings claimed descent from the former Pugyel Kings; they were strong patrons of Buddhism and sought to reinstate the empire. <a href=\"/biographies/view/Lha-Lama-Yeshe-O/TBRC_P8344\">Lha Lama Yeshe O</a>, who ruled Guge until 1040, sponsored an enormous revival of Buddhism, sending <a href=\"/biographies/view/Rinchen-Zangpo/TBRC_P753\">Rinchen Zangpo</a> to Kashmir to study Indian Buddhism. Under Yeshe O's sponsorship, Rinchen Zangpo translated vast numbers of canonical and tantric works, introduced innovations to art and medicine, and founded many monasteries, such as <a href=\"/geographies/view/Tabo/TBRC_G1KG17626\">Tabo</a>, which is still in operation.</p>
+"""^^xsd:string ;
+	gist:isAbout told:_HistoricalPeriod_10th_century ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_Description_HistoricalPeriod_11th_century
+	a gist:FormattedContent ;
+	skos:prefLabel "Description of the 11th Century"@en ;
+	gist:containedText """<p>
+	During the eleventh century, the so-called renaissance continued with enormous translation efforts and translators travelling between Tibet and India along existing trade routes. <a href=\"/biographies/view/Drapa-Ngonshe/TBRC_P4655\">Drapa Ngonshe</a>, the treasure revealer credited with producing the Four Tantras, the root texts of Tibet’s medical tradition, was born in 1012. The monastery of <a href=\"/geographies/view/Tangpoche/TBRC_G2824\">Tangpoche</a> was founded in 1017 by the Eastern Vinaya Monks, the men who preserved monastic ordination following the collapse of the state monasteries. The translator <a href=\"/biographies/view/Marpa/TBRC_P2636\">Marpa</a> taught Mahāmudrā to <a href=\"/biographies/view/Milarepa/TBRC_P1853\">Milarepa</a>, the great Tibetan saint, who was born in 1040. The Bengali monk <a href=\"/biographies/view/Atisha/TBRC_P3379\">Atisha</a> arrived in Guge in 1042, traveled to central Tibet in 1045, and spent thirteen years teaching in Ngari, U, and Tsang. &nbsp;In 1040, Chetsun Sherab Jungne of the <a href=\"/communities/view/Che/TBRC_C11MS198\">Che</a> clan founded Zhalu Monastery. <a href=\"/biographies/view/Machik-Labdron/TBRC_P3312\">Machik Labdron</a>, the codifier of Chod practice, was born in 1055. <a href=\"/geographies/view/Reting-Monastery/TBRC_G74\">Reting Monastery</a>, the great Kadampa monastery to the northeast of Lhasa, was founded by Atisha's student <a href=\"/biographies/view/Dromton/TBRC_P2557\">Dromtonpa</a>&nbsp;in 1057. <a href=\"/geographies/view/Sakya-Monastery/TBRC_G880\">Sakya Monastery</a> was founded by <a href=\"/biographies/view/Khon-Khonchok-Gyelpo/TBRC_P3730\">Khon Khonchok Gyelpo</a> in 1073. The Tsongkha kingdom in the northeast of Tibet fell to the Song Dynasty in 1099.</p>
+"""^^xsd:string ;
+	gist:isAbout told:_HistoricalPeriod_11th_century ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_Description_HistoricalPeriod_12th_century
+	a gist:FormattedContent ;
+	skos:prefLabel "Description of the 12th Century"@en ;
+	gist:containedText '''<p>
+	In the twelfth century, the Kagyu tradition, a synthesis of the teachings of <a href="/biographies/view/Marpa/TBRC_P2636">Marpa</a>, <a href="/biographies/view/Milarepa/TBRC_P1853">Milarepa</a> and <a href="/biographies/view/Gampopa/TBRC_P1844">Gampopa</a>, split into many sub-schools. Gampopa’s student <a href="/biographies/view/Dusum-Khyenpa/TBRC_P1400">Dusum Khyenpa</a>, who would become known as the First Karmapa, was born in 1110. Another of his students, <a href="/biographies/view/Pakmodrupa/TBRC_P127">Pakmodrupa</a>, founded <a href="/geographies/view/Densatil-Monastery/TBRC_G434">Densatil Monastery</a> in 1158; many of his students went on to establish major Kagyu monasteries and traditions: in 1175, <a href="/biographies/view/Lama-Zhang/TBRC_P1857">Lama Zhang</a> founded <a href="/geographies/view/Tsel-Gungtang/TBRC_G30">Tsel Gungtang</a>; <a href="/biographies/view/Jikten-Gonpo/TBRC_P16">Jikten Gonpo</a> founded <a href="/geographies/view/Drigung-Til-Monastery/TBRC_G340">Drigung Til Monastery</a> in 1179; and the following year, <a href="/biographies/view/Taklung-Tangpa-Tashi-Pel/TBRC_G67">Taklung Tangpa Tashi Pel</a> established <a href="/geographies/view/Taklung-Monastery/TBRC_G67">Taklung Monastery</a>. Brothers <a href="/biographies/view/Sonam-Tsemo/TBRC_P1618">Sonam Tsemo</a> and <a href="/biographies/view/Drakpa-Gyeltsen/TBRC_P1614">Drakpa Gyeltsen</a> of the <a href="/communities/view/Khon/TBRC_C69">Khon</a> clan received Lamdre teachings from their father, <a href="/biographies/view/Sachen-Kunga-Nyingpo/TBRC_P1615">Sachen Kunga Nyingpo</a>, in 1140. In 1159, <a href="/geographies/view/Katok-Dorje-Den/TBRC_G17">Katok Dorje Den</a>, the earliest Nyingma monastery, was established in Kham by <a href="/biographies/view/Dampa-Deshek/TBRC_P1314">Dampa Deshek</a>, the brother of Pakmodrupa. &nbsp;</p>
+<div>
+	&nbsp;</div>
+'''^^xsd:string ;
+	gist:isAbout told:_HistoricalPeriod_12th_century ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_Description_HistoricalPeriod_13th_century
+	a gist:FormattedContent ;
+	skos:prefLabel "Description of the 13th Century"@en ;
+	gist:containedText '''<p>
+	In 1204, the Kashmiri paṇḍita <a href="/biographies/view/Śākyaśrībhadra/TBRC_P1518">Śākyaśrībhadra</a> came to Tibet. In 1240&nbsp;Koden Khan sent a reconnaissance mission to Tibet which razed <a href="/geographies/view/Reting-Monastery/TBRC_G74">Reting Monastery</a>. In 1246, <a href="/biographies/view/Sakya-Pandita/TBRC_P1056">Sakya Pandita</a> met Koden Khan in Liangzhou. In 1264, <a href="/biographies/view/Pakpa-Lodro-Gyeltsen/TBRC_P1048">Pakpa Lodro Gyeltsen</a> of the <a href="/communities/view/Khon/TBRC_C69">Khon</a> lineage was named secular and religious ruler of Tibet by Khubilai Khan, and the period of Sakya Mongol rule of Tibet began. In 1290 <a href="/geographies/view/Drigung/TBRC_G340">Drigung</a> enlisted the military support of Hugelu Khan, Mongol ruler of Persia, to rebel against Sakya-Yuan rule, to which the army of Khubilai Khan responded by completely destroying Drigung Monastery. Buddhist masters <a href="/biographies/view/Buton-Rinchen-Drub/TBRC_P155">Buton Rinchen Drub</a> and <a href="/biographies/view/Dolpopa-Sherab-Gyeltsen-/TBRC_P139">Dolpopa Sherab Gyeltsen </a>were born in 1290 and 1292, respectively.</p>
+'''^^xsd:string ;
+	gist:isAbout told:_HistoricalPeriod_13th_century ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_Description_HistoricalPeriod_14th_century
+	a gist:FormattedContent ;
+	skos:prefLabel "Description of the 14th Century"@en ;
+	gist:containedText '''<p>
+	<a href="/biographies/view/Pakmodrupa-Jangchub-Gyeltsen/TBRC_P127">Pakmodrupa Jangchub Gyeltsen</a> of the <a href="/communities/view/Lang-clan/TBRC_C11MS142">Lang clan</a> successfully challenged the Sakyas over the right to administer Mongol-ruled Tibet. By 1368, the Pakmodrupa rule was centralized enough to survive the fall of the Yuan Dynasty and take control of Tibet. The new government enacted a code of law and instituted a system of administration centered on newly created forts (<i>dzong)</i>. <a href="/biographies/view/Tsongkhapa/TBRC_P64">Tsongkhapa</a> was born in 1357 in Amdo and the Kagyu polymath and historian <a href="/biographies/view/Go-Lotsawa-Zhonnu-Pel/TBRC_P318">Go Lotsawa Zhonnu Pel</a> was born in 1392 in Chonggye. The great Nyingma scholar <a href="/biographies/view/Longchenpa/TBRC_P1583">Longchenpa</a>, born in 1308, wrote the works that would later be collected into the <i>Seven Treasures</i>, systemizing for the first the teachings of what would become known as the Nyingma tradition. Zhang Sherab Lama established his kingly rule in Mustang.</p>
+'''^^xsd:string ;
+	gist:isAbout told:_HistoricalPeriod_14th_century ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_Description_HistoricalPeriod_15th_century
+	a gist:FormattedContent ;
+	skos:prefLabel "Description of the 15th Century"@en ;
+	gist:containedText '''<p>
+	The Rinpung family rose to power and established itself at Samdrubtse (later Shigatse), challenging and then dominating the Pakmodru dynasty, beginning a century of conflict between U and Tsang. The century also saw the emergence of a new order, the Gandenpa, as the disciples of <a href="/biographies/view/Tsongkhapa/TBRC_P64">Tsongkhapa</a> called themselves, later known as the Geluk tradition. The great Geluk monasteries of <a href="/geographies/view/Sera/TBRC_G154">Sera</a>, <a href="/geographies/view/Drepung/TBRC_G108">Drepung</a> and <a href="/geographies/view/Ganden/TBRC_G337">Ganden</a> were founded near Lhasa. The great Bon monastery of <a href="/geographies/view/enri/TBRC_G4">Menri</a> was founded in Namling by <a href="/biographies/view/Nyamme-Sherab-Gyeltsen/TBRC_P1675">Nyamme Sherab Gyeltsen</a>. In 1447, <a href="/geographies/view/Tashilhunpo-Monastery/TBRC_G104">Tashilhunpo Monastery</a> was founded by <a href="/biographies/view/Gendun-Drub/TBRC_P80">Gendun Drub</a>, posthumously known as the First Dalai Lama.</p>
+'''^^xsd:string ;
+	gist:isAbout told:_HistoricalPeriod_15th_century ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_Description_HistoricalPeriod_16th_century
+	a gist:FormattedContent ;
+	skos:prefLabel "Description of the 16th Century"@en ;
+	gist:containedText '''<p>
+	The Rinpung family fell when <a href="/biographies/view/Zhingshakpa-Tseten-Dorje/TBRC_P1369">Zhingshakpa Tseten Dorje</a> seized Samdrubtse fortress in 1565. <a href="/biographies/view/Tsangpa-Desi/TBRC_P1367">Tsangpa Desi</a>, Tseten Dorje and his heirs ruled Tsang and major parts of U for the next hundred years. In 1578 <a href="/biographies/view/Sonam-Gyatso/TBRC_P999">Sonam Gyatso</a> arrived in Kokonor at the camp of the Tumed Mongol leader Altan Khan, who had invaded Amdo, and received the title of Dalai Lama, the third of the incarnation line, thereby initiating a priest-patron relationship modeled on the Pakpa-Khubilai relationship. When Sonam Gyatso died, the son of Altan Khan’s successor, a Mongol, was recognized as the <a href="/biographies/view/Fourth-Dalai-Lama/TBRC_P177">Fourth Dalai Lama</a>. In 1560, a stupa commemorating the birthplace of Tsongkhapa was developed into what would become <a href="/geographies/view/Kumbum-Monastery/TBRC_G160">Kumbum Monastery</a> in northeast Amdo.</p>
+'''^^xsd:string ;
+	gist:isAbout told:_HistoricalPeriod_16th_century ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_Description_HistoricalPeriod_17th_century
+	a gist:FormattedContent ;
+	skos:prefLabel "Description of the 17th Century"@en ;
+	gist:containedText '''<p>
+	<span id="docs-internal-guid-0875dc40-e9bd-ef17-cf84-5b1716a6f9d4"><span style="font-size: 14.6666666666667px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">In 1618, the ruler of Tsang, a supporter of the Kagyu tradition, forced the ruler of U into submission. The <a href="/biographies/view/Fifth-Dalai-Lama/TBRC_P37">Fifth Dalai Lama</a> and his political supporters in Lhasa formed an alliance with the Khoshot Mongol leader <a href="/biographies/view/Gushri-Khan/TBRC_P5578">Gushri Khan</a>. In 1642 Gushri Khan defeated the Tsang regime and offered the thirteen myriarchies of Tibet to the Fifth Dalai Lama, thus beginning the consolidation of political power of the Ganden Podrang government in Lhasa under the Dalai Lamas. Beneficiaries of the King of Tsang such as the <a href="/biographies/view/Tenth-Karmapa/TBRC_P1382">Tenth Karmapa</a> were forced into exile, and the Jonang tradition was suppressed. Gushri Khan’s line continued to claim kingship over Tibet until the fall of his descendant <a href="/biographies/view/Lhazang-Khan/TBRC_P420">Lhazang Khan</a> six decades later. Elsewhere, <a href="/biographies/view/Zhabdrung-Ngawang-Namgyel/TBRC_P509">Zhabdrung Ngawang Namgyel</a> founded an ecclesiastical state in Bhutan and <a href="/biographies/view/Puntsok-Namgyel/TBRC_P2MS13222">Puntsok Namgyel</a>, the first Tibetan king, was enthroned in Sikkim. The Fifth Dalai Lama sponsored the construction of three major Nyingma monasteries: <a href="/geographies/view/Zhechen/TBRC_G20 ">Zhechen</a> (1695), <a href="/geographies/view/Dzogchen/TBRC_G16">Dzogchen</a> (1685), and <a href="/geographies/view/Mindroling/TBRC_G14">Mindroling</a> (1676). Two other Nyingma monasteries were also built: <a href="/geographies/view/Dorje-Drak/TBRC_G11">Dorje Drak</a> in 1632 and <a href="/geographies/view/Pelyul/TBRC_G18">Pelyul</a> in 1665.</span></span></p>
+'''^^xsd:string ;
+	gist:isAbout told:_HistoricalPeriod_17th_century ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_Description_HistoricalPeriod_18th_century
+	a gist:FormattedContent ;
+	skos:prefLabel "Description of the 18th Century"@en ;
+	gist:containedText """<p>
+	<span id=\"docs-internal-guid-0875dc40-e9aa-c20e-097e-a7f2365898fc\"><span style=\"font-size: 14.6666666666667px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;\">In 1700, Mongol ruler Lhazang Khan assumed power over Tibet, initially ruling jointly with <a href=\"/biographies/view/Desi-Sanggye-Gyatso/TBRC_P421\">Desi Sanggye Gyatso</a>. After the <a href=\"/biographies/view/Sixth-Dalai-Lama/TBRC_P352\">Sixth Dalai Lama</a>’s death in 1706, the <a href=\"/biographies/view/Seventh-Dalai-Lama/TBRC_P179\">Seventh Dalai Lama</a> was recognized in secret, spending the early years of his life outside of central Tibet, until the reign of Lhazang Khan ended in 1717 when the Dzungar Mongols invaded Tibet. In 1720, Tibetan and Manchu armies forced out the Dzungars and the Seventh Dalai Lama was installed in the Potala. Despite rebellions among Tibetans and Mongols in eastern Tibet in the 1720s, Manchu authority was maintained, and most of Amdo was formally annexed by the Qing under the name of Qinghai Province. Beginning in 1727, official Manchu representatives, the Amban, were stationed in Lhasa. In that same year, <a href=\"/biographies/view/Polhane/TBRC_P346\">Polhane</a>'s rule began, supported by the Manchu court. <a href=\"/geographies/view/Pelpung-Monastery/TBRC_G36 \">Pelpung Monastery</a> was established in 1727 by the <a href=\"/biographies/view/Eighth-Tai-Situ,-Chokyi-Jungne/TBRC_P956\">Eighth Tai Situ, Chokyi Jungne</a>. The Derge printing house was established in 1729 and its editions of the Kangyur and Tengyur were printed in 1733 and 1744, respectively. In 1750, Polhane’s son Gyurme Namgyel died during a failed rebellion and the Seventh Dalai Lama succeeded him to rule Tibet as head of state. In 1758, the <a href=\"/biographies/view/Eighth-Dalai-Lama/TBRC_P109\">Eighth Dalai Lama</a> was born. The Golden Urn Decree of Qianlong in 1792 attempted to mandate Manchu approval of high-level tulku recognition. The Tibetan and Qing armies jointly crushed the independent Bon kingdoms of Gyelrong, converting the Bon monasteries to the Geluk tradition. After decades of expansion around the Himalayas, the Nepalese invaded Tibet in 1792, and were driven back by Manchu forces. </span></span></p>
+"""^^xsd:string ;
+	gist:isAbout told:_HistoricalPeriod_18th_century ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_Description_HistoricalPeriod_19th_century
+	a gist:FormattedContent ;
+	skos:prefLabel "Description of the 19th Century"@en ;
+	gist:containedText '''<p>
+	<span id="docs-internal-guid-0875dc40-e98c-a220-485e-ed6fc6739ad6"><span style="font-size: 14.6666666666667px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">The <a href="/biographies/view/Eighth/TBRC_P109">Eighth</a> and <a href="/biographies/view/Ninth-Dalai-Lamas/TBRC_P274">Ninth Dalai Lamas</a> died prematurely in 1804 and 1815. Jamgon Kongtrul and <a href="/biographies/view/Jamyang-Khyentse-Wangpo/TBRC_P258">Jamyang Khyentse Wangpo</a> helped bring about what is known as the </span><span style="font-size: 14.6666666666667px; font-family: Arial; color: rgb(0, 0, 0); font-style: italic; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">rime</span><span style="font-size: 14.6666666666667px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> period, an era of tremendous ecumenical intellectual activity. The regency of <a href="/biographies/view/Tsemonling-Jampel-Tsultrim-Gyatso/TBRC_P4533">Tsemonling Jampel Tsultrim Gyatso</a>, born into the royal family of Chone (Amdo), lasted from 1819 until 1844. The <a href="/biographies/view/Tenth-Dalai-Lama/TBRC_P260">Tenth Dalai Lama</a> died in 1837 at the age of 22. From 1837 until 1865, the Nyarong War raged in Kham. &nbsp;<a href="/biographies/view/Zhabkar-Lama/TBRC_P287">Zhabkar Lama</a>, the wandering yogi who was teacher to many later masters, was active throughout Tibet and as far as Nepal during the first half of the nineteenth century, passing away in 1851. In 1855, the <a href="/biographies/view/Eleventh-Dalai-Lama/TBRC_P255">Eleventh Dalai Lama</a> died, and just two decades later in 1875, the <a href="/biographies/view/Twelfth-Dalai-Lama/TBRC_P244">Twelfth Dalai Lama</a> died. The <a href="/biographies/view/Thirteenth-Dalai-Lam/TBRC_P197">Thirteenth Dalai Lama</a> was born in 1876, becoming head of state in 1895. </span></span></p>
+'''^^xsd:string ;
+	gist:isAbout told:_HistoricalPeriod_19th_century ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_Description_HistoricalPeriod_20th_century
+	a gist:FormattedContent ;
+	skos:prefLabel "Description of the 20th Century"@en ;
+	gist:containedText """<p>
+	<span id=\"docs-internal-guid-0875dc40-e987-9fc3-5e1b-0fc42a781c6c\"><span style=\"font-size: 14.6666666666667px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;\">In 1904, the British Younghusband expedition invaded central Tibet, and the <a href=\"/biographies/view/Thirteenth-Dalai-Lama/TBRC_P197\">Thirteenth Dalai Lama</a> escaped to Mongolia. In 1907, Bhutan became a monarchy with <a href=\"/biographies/view/Ugyen-Wangchuck/TBRC_P2744\">Ugyen Wangchuck</a> installed as King. The Thirteenth Dalai Lama returned to Tibet in 1909, only to escape again, this time to India, in 1910. The Chinese Republic was founded in 1912 after the fall of the Manchu empire in 1911. Returning to Lhasa in 1913, after the Chinese forces were defeated and driven out of the capital, the Thirteenth Dalai Lama issued a proclamation of Tibet's independence. In 1921, the Mongolian People’s Republic was established leading to the persecution of Buddhism and the execution of monastics. </span></span><span style=\"color: rgb(0, 0, 0); font-family: Arial; font-size: 14.6666666666667px; white-space: pre-wrap; background-color: transparent;\">The Thirteenth Dalai Lama died in 1933; his reincarnation, Tenzin Gyatso, was born in 1935 in Amdo. In 1950 Mao Zedong proclaimed Tibet to be part of the new Communist Chinese State and began assimilating Tibetan regions into China. The Dalai Lama was installed as head of state that year, and a year later in 1951, the Seventeen Point Agreement, which ended Tibet's independence, was signed in Beijing. Relations between Tibet and China deteriorated as monasteries in Kham and Amdo, viewed as centers of resistance to direct Chinese control, were attacked and destroyed. The Four Rivers, Six Ranges guerilla movement, which would gain clandestine support from the CIA, was formed around 1957. An uprising in Lhasa during the 1959 Monlam festival turned violent, leading the Fourteenth Dalai Lama to flee into exile, repudiating the 17 Point Agreement just before reaching India. Tens of thousands of Tibetan followed, settling in India, Nepal, and around the world. Following the destruction of most Tibetan monasteries during the 1950s and 1960s, a process which accelerated during the Cultural Revolution, branch monasteries were established in India and Nepal. Since the reforms of the 1980s, many monasteries have been rebuilt in Tibet. Lamas have established Tibetan Buddhist and Bon centers in many nations, rekindling Buddhism in China and spreading the religion widely in the West. </span></p>
+"""^^xsd:string ;
+	gist:isAbout told:_HistoricalPeriod_20th_century ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_Description_HistoricalPeriod_21st_century
+	a gist:FormattedContent ;
+	skos:prefLabel "Description of the 21st Century"@en ;
+	gist:isAbout told:_HistoricalPeriod_21st_century ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_Description_HistoricalPeriod_7th_century
+	a gist:FormattedContent ;
+	skos:prefLabel "Description of the 7th Century"@en ;
+	gist:containedText '''<p>
+	The Pugyel Dynasty ruled Tibet after Namri Songtsen defeated the Zingpo Lord. Namri Songtsen was later assassinated and his son,&nbsp;<a href="/biographies/view/Songtsen-Gampo/TBRC_P8067">Songtsen Gampo</a>,&nbsp;only a teenager, became king. Songtsen Gampo was credited with sponsoring the creation of the Tibetan alphabet, adopting a legal code and introducing Buddhism to Tibet. During his time, the <a href="/geographies/view/Jokhang/TBRC_G4261">Jokhang</a> and <a href="/geographies/view/Ramoche-/TBRC_G4552">Ramoche </a>temples of Lhasa were constructed. According to tradition, central images were brought from China by the Tang princess Wencheng. Though he was succeeded by his son, Mangsong Mangtsen, whose son Dusong followed on the throne, their reigns were overshadowed by the role of the powerful Gar clan. However, as Dusong matured, the influence of the Gar family waned when several of the influential Gar ministers were executed.</p>
+'''^^xsd:string ;
+	gist:isAbout told:_HistoricalPeriod_7th_century ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_Description_HistoricalPeriod_8th_century
+	a gist:FormattedContent ;
+	skos:prefLabel "Description of the 8th Century"@en ;
+	gist:containedText """<p>
+	Having successfully defeated the Gar family and their supporters, Dusong engaged in battle at the frontier while his mother, <a href=\"/biographies/view/Trimalo/TBRC_P3CN364\">Trimalo</a>, became <i>de facto</i> ruler of Tibet from the year 705 until 712. <a href=\"/biographies/view/Tridetsuktsen/TBRC_P2JM168\">Tridetsuktsen</a> ruled from 712 until 755, when he was assassinated. <a href=\"/biographies/view/Tri-Songdetsen/TBRC_P7787\">Tri Songdetsen</a> was enthroned that year and converted to Buddhism in 762. Bonpos suffered persecution during this period; their priests were banished and texts destroyed. In 763 the Tibetan army invaded and occupied the Chinese Tang capital of Chang’an (modern day Xian). <a href=\"/geographies/view/Samye/TBRC_G287\">Samye</a>, Tibet's first monastery, was founded in 779 (several alternate dates have been suggested), with the participation of the Indian monk Śāntarakṣita and the ritual specialist <a href=\"/biographies/view/Padmasambhava/TBRC_P4956\">Padmasambhava</a>. In 797, Tri Songdetsen abdicated the throne.</p>
+"""^^xsd:string ;
+	gist:isAbout told:_HistoricalPeriod_8th_century ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_Description_HistoricalPeriod_9th_century
+	a gist:FormattedContent ;
+	skos:prefLabel "Description of the 9th Century"@en ;
+	gist:containedText '''<p>
+	<a href="/biographies/view/Mutik-Tsenpo/TBRC_P2MS13217">Mutik Tsenpo</a>, younger son of <a href="/biographies/view/Tri-Songdetsen/TBRC_P7787">Tri Songdetsen</a>, ruled Tibet from 804 until 815. His reign, characterized by the full adoption of Buddhism in Tibet, was followed by <a href="/biographies/view/Tri-Relpachen/TBRC_P2MS13218">Tri Relpachen</a> (known also as Tri Tsukdetsen) from 815 until 838. Relpachen&nbsp;continued to support the development of Buddhism, though later histories suggest his rule was extreme and overly punitive. Relpachen was assassinated by his own brother Udum Tsenpo (also known as Langdarma), who then took power. While later histories portray Udum Tsenpo as an enemy of Buddhism, it is not clear that, other than limiting financial support, he actively persecuted Buddhism. Udum Tsenpo ruled from 842; a lively tradition of historical legend retells how he was assassinated by the monk <a href="/biographies/view/Lhalung-Pelgyi-Dorje/TBRC_P6986">Lhalung Pelgyi Dorje</a>. His son, <a href="/biographies/view/Osung/TBRC_P0RK1089">Osung</a>, ruled until around the end of the century, when the empire collapsed.</p>
+'''^^xsd:string ;
+	gist:isAbout told:_HistoricalPeriod_9th_century ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_HistoricalPeriod_10th_century
+	skos:prefLabel
+		"10 dus rabs"@bo-X-ewts ,
+		"༡༠ དུས་རབས།"@bo-X-gbt
+		;
+	.
+
+told:_HistoricalPeriod_11th_century
+	skos:prefLabel
+		"11 dus rabs"@bo-X-ewts ,
+		"༡༡ དུས་རབས།"@bo-X-gbt
+		;
+	.
+
+told:_HistoricalPeriod_12th_century
+	skos:prefLabel
+		"12 dus rabs"@bo-X-ewts ,
+		"༡༢ དུས་རབས།"@bo-X-gbt
+		;
+	.
+
+told:_HistoricalPeriod_13th_century
+	skos:prefLabel
+		"13 dus rabs"@bo-X-ewts ,
+		"༡༣ དུས་རབས།"@bo-X-gbt
+		;
+	.
+
+told:_HistoricalPeriod_14th_century
+	skos:prefLabel
+		"14 dus rabs"@bo-X-ewts ,
+		"༡༤ དུས་རབས།"@bo-X-gbt
+		;
+	.
+
+told:_HistoricalPeriod_15th_century
+	skos:prefLabel
+		"15 dus rabs"@bo-X-ewts ,
+		"༡༥ དུས་རབས།"@bo-X-gbt
+		;
+	.
+
+told:_HistoricalPeriod_16th_century
+	skos:prefLabel
+		"16 dus rabs"@bo-X-ewts ,
+		"༡༦ དུས་རབས།"@bo-X-gbt
+		;
+	.
+
+told:_HistoricalPeriod_17th_century
+	skos:prefLabel
+		"17 dus rabs"@bo-X-ewts ,
+		"༡༧ དུས་རབས།"@bo-X-gbt
+		;
+	.
+
+told:_HistoricalPeriod_18th_century
+	skos:prefLabel
+		"18 dus rabs"@bo-X-ewts ,
+		"༡༨ དུས་རབས།"@bo-X-gbt
+		;
+	.
+
+told:_HistoricalPeriod_19th_century
+	skos:prefLabel
+		"19 dus rabs"@bo-X-ewts ,
+		"༡༩ དུས་རབས།"@bo-X-gbt
+		;
+	.
+
+told:_HistoricalPeriod_20th_century
+	skos:prefLabel
+		"20 dus rabs"@bo-X-ewts ,
+		"༢༠ དུས་རབས།"@bo-X-gbt
+		;
+	.
+
+told:_HistoricalPeriod_21st_century
+	skos:prefLabel "21 dus rabs"@bo-X-ewts ;
+	.
+
+told:_HistoricalPeriod_7th_century
+	skos:prefLabel
+		"7 dus rabs"@bo-X-ewts ,
+		"༧ དུས་རབས།"@bo-X-gbt
+		;
+	.
+
+told:_HistoricalPeriod_8th_century
+	skos:prefLabel
+		"8 dus rabs"@bo-X-ewts ,
+		"༨ དུས་རབས།"@bo-X-gbt
+		;
+	.
+
+told:_HistoricalPeriod_9th_century
+	skos:prefLabel
+		"9 dus rabs"@bo-X-ewts ,
+		"༩ དུས་རབས།"@bo-X-gbt
+		;
+	.
+

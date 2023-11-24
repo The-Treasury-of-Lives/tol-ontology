@@ -1,0 +1,62 @@
+PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
+PREFIX bdr: <http://purl.bdrc.io/resource/>
+PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX told: <https://w3id.org/treasuryoflives/ns/data/tol/>
+PREFIX tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/>
+PREFIX tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wiki: <https://www.wikidata.org/wiki/>
+PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
+
+## COLUMNS
+# historical_period_id
+# historical_period_name
+# wylie_name
+# wylie_name_script
+# description
+
+# Run:
+# tarql historical_period_descriptions.tq historical-period-descriptions_2023-11-05.csv > tolHistoricalPeriodDescriptions.ttl
+
+
+CONSTRUCT {
+
+	?description_iri 
+		a gist:FormattedContent ;
+		skos:prefLabel ?description_label_en ;
+		gist:containedText ?description ;
+	    gist:isAbout ?historical_period_iri ;
+	    gist:isExpressedIn media-txt:html ;		
+		.
+
+	?historical_period_iri
+		skos:prefLabel ?historical_period_label_wylie ,
+			?historical_period_label_wylie_script ;
+		.
+
+}
+
+WHERE {
+
+    # Testing
+    # FILTER(?ROWNUM = 1)
+
+	# Historical period
+	BIND(LCASE(REPLACE(?historical_period_name, " ", "_")) AS ?historical_period_local_name)
+	BIND(tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", ?historical_period_local_name)) AS ?historical_period_iri)
+	# Note: Type and English label are generated in centuries.tq and stored in tolCenturies.ttl.
+	BIND(STRLANG(?wylie_name, "bo-x-ewts") AS ?historical_period_label_wylie)
+	BIND(STRLANG(?wylie_name_script, "bo-x-gbt") AS ?historical_period_label_wylie_script)
+
+	# Description
+	BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_HistoricalPeriod_", ?historical_period_local_name)) AS ?description_iri)
+	BIND(STRLANG(CONCAT("Description of the ", ?historical_period_name), "en") AS ?description_label_en)
+
+}

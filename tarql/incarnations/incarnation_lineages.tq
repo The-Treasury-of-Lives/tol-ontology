@@ -31,17 +31,17 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # Run: 
 # Do we need base?
 # tarql --dedup 5000 --base "https://w3id.org/treasuryoflives/" incarnationLineages.tq > tolIncarnationLineages.ttl
-# tarql --dedup 5000 incarnation_lineages.tq > tolIncarnationLineages.ttl
+# tarql --dedup 5000 incarnation_lineages.tq incarnation_lineages_2023-10-31.csv > tolIncarnationLineages.ttl
 
 CONSTRUCT {
 
-    <https://w3id.org/treasuryoflives/data/incarnationLineages>
+    <https://w3id.org/treasuryoflives/data/tolIncarnationLineages>
         a owl:Ontology ;
         skos:definition "Defines incarnation lineages with associated monasteries and traditions."^^xsd:string ;
         skos:prefLabel "Incarnation Lineages"^^xsd:string ;
         skos:editorialNote "Auto-generated via TARQL." ;
 	    owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
-	    owl:versionIRI <https://w3id.org/treasuryoflives/data/incarnationLineagesX.x.x> ;
+	    owl:versionIRI <https://w3id.org/treasuryoflives/data/tolIncarnationLineagesX.x.x> ;
 	.
 
     ?incarnation_lineage_iri a tolo:IncarnationLineage ;
@@ -63,8 +63,6 @@ CONSTRUCT {
         .
        
 }
-
-FROM <file:incarnation_lineages_2023-10-31.csv>
 
 WHERE {
 

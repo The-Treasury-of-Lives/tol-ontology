@@ -1,0 +1,7005 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:_Person_10018
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_10068
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_10083
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_10093
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_10146
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_10168
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_10169
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_10171
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_10199
+	tolo:existsDuring
+		told:_HistoricalPeriod_10th_century ,
+		told:_HistoricalPeriod_11th_century
+		;
+	.
+
+told:_Person_10202
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_10203
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_10258
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_10280
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_1029
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_10301
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_10311
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_10315
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_10319
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_10320
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_1035
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_10355
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_10372
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_10373
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_10394
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_10412
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_10414
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_10415
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_10422
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_10442
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_10452
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_10457
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_10462
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_10470
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_10480
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_10482
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_10497
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_10507
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_10528
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_10531
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_10536
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_10546
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_10548
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_10561
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_10571
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_10572
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_10573
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_10579
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_10580
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_10591
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_10613
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_10617
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_10623
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_10633
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_10644
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_10649
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_10654
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_10656
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_10658
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_10659
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_10673
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_10676
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_10678
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_10683
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_10687
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_10742
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_10753
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_10794
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_10811
+	tolo:existsDuring told:_HistoricalPeriod_7th_century ;
+	.
+
+told:_Person_10815
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_10824
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_10827
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_10828
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_10832
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_10857
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_10878
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_10881
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_10892
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_10898
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_10900
+	tolo:existsDuring
+		told:_HistoricalPeriod_8th_century ,
+		told:_HistoricalPeriod_9th_century
+		;
+	.
+
+told:_Person_10904
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_10908
+	tolo:existsDuring
+		told:_HistoricalPeriod_8th_century ,
+		told:_HistoricalPeriod_9th_century
+		;
+	.
+
+told:_Person_10911
+	tolo:existsDuring
+		told:_HistoricalPeriod_8th_century ,
+		told:_HistoricalPeriod_9th_century
+		;
+	.
+
+told:_Person_10957
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_10961
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_10970
+	tolo:existsDuring
+		told:_HistoricalPeriod_8th_century ,
+		told:_HistoricalPeriod_9th_century
+		;
+	.
+
+told:_Person_10980
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_10981
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_10982
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_11003
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_11056
+	tolo:existsDuring
+		told:_HistoricalPeriod_10th_century ,
+		told:_HistoricalPeriod_11th_century
+		;
+	.
+
+told:_Person_1108
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_11114
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_11117
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_11141
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_11158
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_11183
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_11231
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_11245
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_11246
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_11258
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_11277
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_11278
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_11279
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_11285
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_11290
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_11299
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_11307
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_11352
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_11385
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_11417
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_11426
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_11427
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_11428
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_11432
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_11435
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_11437
+	tolo:existsDuring
+		told:_HistoricalPeriod_20th_century ,
+		told:_HistoricalPeriod_21st_century
+		;
+	.
+
+told:_Person_11441
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_11443
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_11444
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_11445
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_11453
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_11462
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_11471
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_11487
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_11488
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_11489
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_11490
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_11491
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_11565
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_11569
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_11572
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_11575
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_11597
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_11603
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_11618
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_11632
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_11731
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_11741
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_11790
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_11796
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_11798
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_11865
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_11866
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_11877
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_11883
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_11898
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_11909
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_11942
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_11972
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_11986
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_12096
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_12100
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_12171
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_12180
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_12264
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_12340
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_12403
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_12405
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_12439
+	tolo:existsDuring
+		told:_HistoricalPeriod_20th_century ,
+		told:_HistoricalPeriod_21st_century
+		;
+	.
+
+told:_Person_12479
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_12500
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_12521
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_12553
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_12613
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_12741
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_12742
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_12743
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_12745
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_12785
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_12817
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_12828
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_12838
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_12839
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_12865
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_12883
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_12906
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_12981
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13026
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_13057
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_13058
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_13060
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13061
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_13062
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_13063
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_13064
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_13065
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_13066
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_13067
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_13068
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_13069
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_13070
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_13071
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_13072
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13073
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_13074
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13075
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_13076
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13077
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_13078
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_13079
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_13080
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_13081
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13082
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13083
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13084
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13086
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13087
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_13088
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_13089
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_13090
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_13091
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_13092
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13093
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13094
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_13095
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_13096
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_13097
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_13098
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13099
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13100
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13101
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13102
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_13103
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_13104
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13105
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13106
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_13107
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_13108
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_13109
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_13110
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13111
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13112
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_13113
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_13115
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13116
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13117
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13118
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_13119
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13120
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13121
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_13122
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13123
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_13124
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_13125
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_13127
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13128
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13129
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_13131
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_13132
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_13133
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_13134
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_13135
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_13139
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13140
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_13141
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13142
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13143
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13144
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13145
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_13146
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_13147
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_13148
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13149
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13150
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13151
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13152
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13157
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13161
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13162
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13163
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13164
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_13165
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_13166
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13167
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13168
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_13169
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_13170
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_13171
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13173
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_13174
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_13175
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_13176
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13177
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13178
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13179
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13180
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13181
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13182
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_13183
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_13186
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13187
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13188
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13189
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13190
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_13191
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_13195
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_13196
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_13197
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_13198
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_13199
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_13201
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13202
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13203
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_13204
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13205
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_13206
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_13217
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_13220
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_13221
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_13222
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_13225
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_13226
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_13227
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13228
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_13230
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13231
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_13232
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13233
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13234
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13236
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13237
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13238
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13239
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13240
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_13241
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_13242
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13246
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13249
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13404
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_13423
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_13425
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13426
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_13427
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13428
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_13429
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13430
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13431
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13432
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13433
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13434
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13435
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13436
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13437
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13438
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13439
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13440
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13442
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13443
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13444
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_13445
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_13446
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_13447
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_13448
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13449
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13450
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13451
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13452
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_13453
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_13454
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13455
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13462
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_13502
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_13507
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_13509
+	tolo:existsDuring
+		told:_HistoricalPeriod_7th_century ,
+		told:_HistoricalPeriod_8th_century
+		;
+	.
+
+told:_Person_13510
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13511
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_13512
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_13513
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_13514
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_13515
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_13516
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_13517
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_13518
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_13519
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13520
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13521
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13522
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13523
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13527
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_13528
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_13531
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_13532
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_13533
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_13534
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_13535
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13536
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_13537
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_13538
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_13539
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_13540
+	tolo:existsDuring told:_HistoricalPeriod_10th_century ;
+	.
+
+told:_Person_13541
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_13542
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_13543
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_13544
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_13545
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13546
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13547
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_13548
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13549
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13550
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13558
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_13559
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13560
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13561
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13562
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13563
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13564
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13566
+	tolo:existsDuring told:_HistoricalPeriod_7th_century ;
+	.
+
+told:_Person_13572
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_13574
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_13583
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13588
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13596
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13597
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_13598
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13611
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13612
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13613
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13614
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_13615
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_13616
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_13617
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_13625
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13627
+	tolo:existsDuring
+		told:_HistoricalPeriod_8th_century ,
+		told:_HistoricalPeriod_9th_century
+		;
+	.
+
+told:_Person_13628
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13631
+	tolo:existsDuring
+		told:_HistoricalPeriod_8th_century ,
+		told:_HistoricalPeriod_9th_century
+		;
+	.
+
+told:_Person_13633
+	tolo:existsDuring told:_HistoricalPeriod_7th_century ;
+	.
+
+told:_Person_13634
+	tolo:existsDuring
+		told:_HistoricalPeriod_8th_century ,
+		told:_HistoricalPeriod_9th_century
+		;
+	.
+
+told:_Person_13636
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_13638
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_13642
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_13647
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13648
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13650
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_13652
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13653
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13654
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13655
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13659
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13666
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13677
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13679
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13683
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13684
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13686
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13687
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13688
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_13689
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13690
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_13692
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13693
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13694
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13697
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13698
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13699
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_1370
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_13700
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13701
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13702
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13703
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13704
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13706
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_13707
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13708
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13718
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13719
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13720
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13721
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13722
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13724
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13725
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13731
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13737
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13738
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13740
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_13744
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13745
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13747
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13748
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13749
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13750
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13773
+	tolo:existsDuring
+		told:_HistoricalPeriod_10th_century ,
+		told:_HistoricalPeriod_11th_century
+		;
+	.
+
+told:_Person_13787
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13788
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13789
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13790
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13791
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13793
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13794
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13795
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13796
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13797
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13798
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13803
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13805
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13806
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13809
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13810
+	tolo:existsDuring
+		told:_HistoricalPeriod_20th_century ,
+		told:_HistoricalPeriod_21st_century
+		;
+	.
+
+told:_Person_13811
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13812
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13815
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13816
+	tolo:existsDuring
+		told:_HistoricalPeriod_20th_century ,
+		told:_HistoricalPeriod_21st_century
+		;
+	.
+
+told:_Person_13817
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13819
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13820
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13821
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13822
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_13823
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13824
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_13825
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_13828
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_1564
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_1575
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_1628
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_1637
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_1639
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_1659
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_1719
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_1720
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_1721
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_1722
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_1726
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_1728
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_1754
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_1820
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_1831
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_1852
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_1869
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_1871
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_1898
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_1901
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_1902
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_1903
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_1908
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_1930
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_1963
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_1974
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_1981
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_1985
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_2029
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_2051
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_2069
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_2104
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_2118
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_2137
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_2162
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_2180
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_2181
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_2203
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_2232
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_2235
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_2237
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_2238
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_2280
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_23
+	tolo:existsDuring
+		told:_HistoricalPeriod_10th_century ,
+		told:_HistoricalPeriod_11th_century
+		;
+	.
+
+told:_Person_2314
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_2327
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_2328
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_2329
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_2330
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_2336
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_2338
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_2339
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_2340
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_2387
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_2392
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_2393
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_2399
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_2409
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_2418
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_2419
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_2423
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_2424
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_2427
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_2434
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_2436
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_2441
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_2442
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_2456
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_2462
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_2469
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_2483
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_2491
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_2495
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_2504
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_2506
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_2510
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_2521
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_2523
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_2527
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_2539
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_2541
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_2561
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_2577
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_2578
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_2584
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_2589
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_2591
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_2592
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_2593
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_2595
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_2598
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_2606
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_2638
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_2639
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_2640
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_2661
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_2662
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_2665
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_2670
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_2683
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_2712
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_2720
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_2730
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_2733
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_2740
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_2755
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_2758
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_276
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_2774
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_2776
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_2780
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_2781
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_2784
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_2787
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_2788
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_2789
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_2790
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_2791
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_2798
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_2799
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_2801
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_2803
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_2806
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_2810
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_2812
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_2814
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_2816
+	tolo:existsDuring
+		told:_HistoricalPeriod_10th_century ,
+		told:_HistoricalPeriod_9th_century
+		;
+	.
+
+told:_Person_2819
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_2823
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_2845
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_2854
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_2866
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_2871
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_2872
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_2882
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_2891
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_2896
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_2899
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_29
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_2912
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_2915
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_2916
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_2919
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_2926
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_2931
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_2943
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_2945
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_2948
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_2949
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_2952
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_2973
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_2974
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_2980
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_2987
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_2996
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_2997
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_3000
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_3006
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_3008
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_3010
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_3020
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_3028
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_303
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_3040
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_3049
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_3061
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_3062
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_3064
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_3072
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_3074
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_3080
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_3085
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_3086
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_3101
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_3107
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_3109
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_3121
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_3125
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_3134
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_3139
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_3141
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_3152
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_3153
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_3165
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_3168
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_3169
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_3171
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_3173
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_3175
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_3178
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_3181
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_3182
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_3188
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_3189
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_3191
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_3194
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_3200
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_3204
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_3208
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_3211
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_3225
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_3266
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_3274
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_3296
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_3307
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_3414
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_3469
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_3485
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_3627
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_3660
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_3671
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_3673
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_3708
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_3712
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_3730
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_3733
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_3734
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_3735
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_3736
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_3738
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_3739
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_3743
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_3744
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_3758
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_3759
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_3762
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_3769
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_3770
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_3778
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_3782
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_3783
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_3784
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_3785
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_3786
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_3788
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_3789
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_3791
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_3792
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_3793
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_3794
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_3795
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_3822
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_3866
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_3877
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_3881
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_3883
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_3889
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_3890
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_3902
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_3903
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_3904
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_3906
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_3907
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_3936
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_3937
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_3938
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_3939
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_3940
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_3955
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_3957
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_3977
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_3989
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_4000
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_4002
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_4028
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_4043
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_4077
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_4080
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_4085
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_4086
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_4092
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_4113
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_4114
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_4115
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_4119
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_4125
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4140
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_4141
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4150
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_4163
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4164
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_4166
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_4167
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_4168
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_4170
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_4175
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_4177
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_4185
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_4206
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4217
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_4219
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_4220
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_4221
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_4222
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_4223
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_4224
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_4225
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_4227
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_4228
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_4249
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_4259
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4261
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_4265
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_4267
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_4272
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4276
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_4277
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4278
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4279
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4280
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4282
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_4285
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_4291
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4301
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_4302
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4309
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_4310
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_4314
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4327
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_4348
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_4349
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_4350
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_4352
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_4354
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_4358
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4359
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_4368
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_4372
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_4379
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_4380
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4402
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4425
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4469
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4478
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_4487
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_4488
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_4489
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_4490
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_4492
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_4493
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_4494
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_4495
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_4496
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_4497
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_4498
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_4499
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_4500
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_4501
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_4524
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4535
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_4607
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_4611
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_4622
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_4626
+	tolo:existsDuring
+		told:_HistoricalPeriod_10th_century ,
+		told:_HistoricalPeriod_9th_century
+		;
+	.
+
+told:_Person_4630
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_4631
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_4632
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_4642
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_4659
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4665
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_4669
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_4676
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_4720
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_4727
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_4730
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_4820
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_490
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_4903
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_494
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_495
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_4986
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_4987
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_5
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_5024
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_5041
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_5044
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_5048
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_5078
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_5099
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_5115
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_5117
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_5120
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_5121
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_5122
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_5151
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_5159
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_5164
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_5166
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_5234
+	tolo:existsDuring
+		told:_HistoricalPeriod_8th_century ,
+		told:_HistoricalPeriod_9th_century
+		;
+	.
+
+told:_Person_5281
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_5306
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_5312
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_5313
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_5317
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_5326
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_5328
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_5331
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_5338
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_5360
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_5371
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_5381
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_5386
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_5401
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_5406
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_5408
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_5410
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_5415
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_5426
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_5432
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_5436
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_5437
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_5457
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_5461
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_5479
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_5480
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_5485
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_5490
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_5500
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_5511
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_5527
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_5555
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_5588
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_5615
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_5626
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_5641
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_5644
+	tolo:existsDuring
+		told:_HistoricalPeriod_10th_century ,
+		told:_HistoricalPeriod_11th_century
+		;
+	.
+
+told:_Person_5652
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_5693
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_5717
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_5729
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_5750
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_5753
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_5777
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_5786
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_5790
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_5791
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_5795
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_5796
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_5801
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_5803
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_5805
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_5817
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_5818
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_5819
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_5820
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_5822
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_5824
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_5849
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_5858
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_5871
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_5889
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_5894
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_5897
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_5899
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_5901
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_5902
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_5910
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_5924
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_5926
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_5927
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_5928
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_5932
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_5953
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_5985
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_5997
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_5999
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_6009
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_6010
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_6025
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_6037
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_6045
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_6065
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_6076
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_6099
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_61
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_6100
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_6110
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_6122
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_6134
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_6138
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_6147
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_6159
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_6161
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_6175
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_6185
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_6194
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_6198
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_620
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_6205
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_6214
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_6219
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_6251
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_6257
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_6264
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_6275
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_6278
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_6285
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_6286
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_6331
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_6333
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_6334
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_6335
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_6336
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_6337
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_6338
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_6339
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_6340
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_6341
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_6342
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_6343
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_6344
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_6345
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_6346
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_6348
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_6349
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_6350
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_6351
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_6353
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_6367
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_6373
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_6374
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_6393
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_6395
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_6405
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_6412
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_6419
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_6441
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_6452
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_6466
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_6470
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_6489
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_6491
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_6493
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_6498
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_6499
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_6502
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_6505
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_6526
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_6529
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_6535
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_6536
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_6547
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_6548
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_6567
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_6568
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_6578
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_6580
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_6586
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_6587
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_6620
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_6622
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_6634
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_6635
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_6646
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_6648
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_6653
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_6667
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_6668
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_6670
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_6671
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_6672
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_6678
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_6681
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_6690
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_6721
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_6723
+	tolo:existsDuring told:_HistoricalPeriod_10th_century ;
+	.
+
+told:_Person_6726
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_6729
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_6731
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_6733
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_6735
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_6746
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_6749
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_6756
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_6760
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_6770
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_6779
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_6788
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_6793
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_6801
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_6818
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_6872
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_6874
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_6892
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_6895
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_6910
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_6928
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_6929
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_6935
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_6953
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_6962
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_6978
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_6979
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_6982
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_6997
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_7007
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_7024
+	tolo:existsDuring
+		told:_HistoricalPeriod_11th_century ,
+		told:_HistoricalPeriod_12th_century
+		;
+	.
+
+told:_Person_7038
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_7040
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_7053
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_7064
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_7069
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_7083
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_7093
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_7105
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_7107
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_7113
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_7114
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_7130
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_7152
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_7162
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_7164
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_7169
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_7170
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_7171
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_7172
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_7182
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_7230
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_7232
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_7240
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_726
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_7272
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_7294
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_7297
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_7305
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_7326
+	tolo:existsDuring told:_HistoricalPeriod_11th_century ;
+	.
+
+told:_Person_7348
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_7370
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_7373
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_7429
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_7442
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_7462
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_7473
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_7512
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_7521
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_7523
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_7525
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_7545
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_7551
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_7559
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_7565
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_7581
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_7582
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_7601
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_7613
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_7622
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_7636
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_7637
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_7641
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_7644
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_7673
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_7676
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_7681
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_7718
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_7719
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_7732
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_7736
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_7767
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_7775
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_7803
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_7815
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_7870
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_7874
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_7876
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_7877
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_7879
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_7881
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_7882
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_7895
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_7918
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_7929
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_7937
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_7945
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_8
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_8027
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_8028
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_8069
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_8076
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_8079
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_8085
+	tolo:existsDuring
+		told:_HistoricalPeriod_15th_century ,
+		told:_HistoricalPeriod_16th_century
+		;
+	.
+
+told:_Person_8086
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_8097
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_8099
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_8101
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_8103
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_8105
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_8106
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_8107
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_8108
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_8109
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_8116
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_8126
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_8128
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_8156
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_8177
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_8181
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_8184
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_8342
+	tolo:existsDuring told:_HistoricalPeriod_7th_century ;
+	.
+
+told:_Person_8343
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_8354
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_8355
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_8361
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_8397
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_84
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_8454
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_8455
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_8456
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_8459
+	tolo:existsDuring
+		told:_HistoricalPeriod_12th_century ,
+		told:_HistoricalPeriod_13th_century
+		;
+	.
+
+told:_Person_8460
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_8472
+	tolo:existsDuring told:_HistoricalPeriod_15th_century ;
+	.
+
+told:_Person_8474
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_8507
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_8536
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_8538
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_8539
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_8543
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_8549
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_8551
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_8562
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_8563
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_8566
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_8567
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_8571
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_8574
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_8575
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_8578
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_8580
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_8583
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_8584
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_8585
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_8596
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_86
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_8600
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_8603
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_8609
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_8610
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_8612
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_8616
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_8617
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_8618
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_8624
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_8625
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_8629
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_8630
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_8631
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_8633
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_8637
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_8650
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_8651
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_8675
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_8730
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_8750
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_8752
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_8753
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_8754
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_8757
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_8782
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_8825
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_8857
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_8860
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_8861
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_8868
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_8891
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_8892
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_8906
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_8912
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_8923
+	tolo:existsDuring told:_HistoricalPeriod_12th_century ;
+	.
+
+told:_Person_8964
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_8972
+	tolo:existsDuring
+		told:_HistoricalPeriod_20th_century ,
+		told:_HistoricalPeriod_21st_century
+		;
+	.
+
+told:_Person_8975
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_8986
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_9
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_9030
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_9049
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9050
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9051
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9052
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_9053
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9055
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_9056
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9057
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_9058
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_9059
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_9062
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_9095
+	tolo:existsDuring
+		told:_HistoricalPeriod_14th_century ,
+		told:_HistoricalPeriod_15th_century
+		;
+	.
+
+told:_Person_9121
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_9126
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_9158
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_9169
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_9171
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9172
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9190
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_9201
+	tolo:existsDuring
+		told:_HistoricalPeriod_13th_century ,
+		told:_HistoricalPeriod_14th_century
+		;
+	.
+
+told:_Person_9203
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_9213
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_9254
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_9287
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9297
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_9301
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9305
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9333
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_9343
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9355
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9361
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_9372
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_9383
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_9394
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_9442
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9482
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_9513
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_9523
+	tolo:existsDuring
+		told:_HistoricalPeriod_18th_century ,
+		told:_HistoricalPeriod_19th_century
+		;
+	.
+
+told:_Person_9525
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_9546
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_9572
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_9574
+	tolo:existsDuring told:_HistoricalPeriod_14th_century ;
+	.
+
+told:_Person_9579
+	tolo:existsDuring
+		told:_HistoricalPeriod_17th_century ,
+		told:_HistoricalPeriod_18th_century
+		;
+	.
+
+told:_Person_9585
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_9588
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9589
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9590
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_9593
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9594
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_96
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_9601
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_9612
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_9618
+	tolo:existsDuring
+		told:_HistoricalPeriod_8th_century ,
+		told:_HistoricalPeriod_9th_century
+		;
+	.
+
+told:_Person_9622
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9624
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_9634
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_9646
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9688
+	tolo:existsDuring told:_HistoricalPeriod_19th_century ;
+	.
+
+told:_Person_9690
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_9693
+	tolo:existsDuring told:_HistoricalPeriod_18th_century ;
+	.
+
+told:_Person_9703
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_9712
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_9750
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_9753
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_9761
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_9788
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_9789
+	tolo:existsDuring told:_HistoricalPeriod_13th_century ;
+	.
+
+told:_Person_9795
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_9839
+	tolo:existsDuring
+		told:_HistoricalPeriod_16th_century ,
+		told:_HistoricalPeriod_17th_century
+		;
+	.
+
+told:_Person_9873
+	tolo:existsDuring told:_HistoricalPeriod_17th_century ;
+	.
+
+told:_Person_9884
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9923
+	tolo:existsDuring told:_HistoricalPeriod_16th_century ;
+	.
+
+told:_Person_9929
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_9935
+	tolo:existsDuring
+		told:_HistoricalPeriod_19th_century ,
+		told:_HistoricalPeriod_20th_century
+		;
+	.
+
+told:_Person_9945
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_9983
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_9985
+	tolo:existsDuring told:_HistoricalPeriod_8th_century ;
+	.
+
+told:_Person_9990
+	tolo:existsDuring told:_HistoricalPeriod_20th_century ;
+	.
+
+told:_Person_person_id
+	tolo:existsDuring told:_HistoricalPeriod_historical_period_name ;
+	.
+
