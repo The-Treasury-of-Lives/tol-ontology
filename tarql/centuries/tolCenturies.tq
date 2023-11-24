@@ -83,12 +83,12 @@ FROM <file:centuries.csv>
 WHERE {
 
     # Testing
-    # FILTER(?ROWNUM = 2)
+    # FILTER(?ROWNUM = 1)
 
     # have to add this to the end of every year to make a proper dateTime
 	BIND("-01-01T00:00:00" AS ?date_time_rest)
 
-    # full century
+    # Full century
     BIND(tarql:expandPrefixedName(CONCAT("told:_TimeInterval_", LCASE(REPLACE(?ID, ' ', '_')))) AS ?century_iri)
 	#BIND(tarql:expandPrefixedName(CONCAT("told:_TimeInterval_", STRBEFORE(?ID, ' '))) AS ?century_iri)
     BIND(STRLANG(?ID, "en") AS ?cent_name)

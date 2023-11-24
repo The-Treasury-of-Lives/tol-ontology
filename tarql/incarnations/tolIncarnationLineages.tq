@@ -1,6 +1,7 @@
 PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
-PREFIX bdr: <http://purl.bdrc.io/resource/>
+PREFIX bdr: <http://purl.bdrc.io/resource/> 
 PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
+PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -13,6 +14,7 @@ PREFIX tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX wiki: <https://www.wikidata.org/wiki/>
+PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
 
 ## Columns
 # incarnation_lineages_id (PK) -- ignore
@@ -27,8 +29,9 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # description -- ?html_description_iri
 
 # Run: 
-# (tarql 1.2): tarql --dedup 5000 incarnationLineages.tq > incarnationLineages.ttl
-# (tarql 1.3): tarql --dedup 5000 --base "https://w3id.org/treasuryoflives/" incarnationLineages.tq > incarnationLineages.ttl
+# Do we need base?
+# tarql --dedup 5000 --base "https://w3id.org/treasuryoflives/" incarnationLineages.tq > incarnationLineages.ttl
+# tarql --dedup 5000 incarnationLineages.tq > incarnationLineages.ttl
 
 CONSTRUCT {
 
@@ -43,28 +46,31 @@ CONSTRUCT {
 
     ?incarnation_lineage_iri a tolo:IncarnationLineage ;
         owl:sameAs ?bdrc_lineage_iri ;
-        gist:name ?tol_name , 
+        skos:prefLabel ?tol_name , 
                   ?wylie_name , 
                   ?chinese_name ;
         gist:isConnectedTo ?monastery_iri ;       
-        gist:isConnectedTo ?tradition_iri ;
-        gist:isDescribedIn ?html_description_iri ;
+        gist:isConnectedTo ?tradition_1_iri ,
+            ?tradition_2_iri ;
+        .
        
 
     ?html_description_iri a gist:FormattedContent ;
+        skos:prefLabel ?description_label ;
         gist:isExpressedIn media-txt:html ;
         gist:containedText ?description ;
+        gist:isAbout ?incarnation_lineage_iri ;
+        .
        
-
 }
 
-FROM <file:incarnation_lineages_22-12-06.csv>
+FROM <file:incarnation_lineages_2023-10-31.csv>
 
 WHERE {
 
     # Testing
-    # FILTER(?ROWNUM = 2)
-    
+    FILTER(?ROWNUM = 1)
+
     BIND(tarql:expandPrefixedName(CONCAT("told:_IncarnationLineage_", ?TOL_R_ID)) AS ?incarnation_lineage_iri)
 
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_R_ID)) AS ?bdrc_lineage_iri) 
@@ -74,17 +80,17 @@ WHERE {
     BIND(STRLANG(?Wylie, "bo-x-ewts") AS ?wylie_name)
     BIND(STRLANG(?Chinese, "zh-Hani") AS ?chinese_name)
 
-    # Tradition
-    OPTIONAL {
-        ?tradition apf:strSplit(?Tradition ", ")
-    }
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", REPLACE(?tradition, " ", "_"))) AS ?tradition_iri)
+    # Traditions
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", REPLACE(?Tradition_ID_1, "TOL", ""))) AS ?tradition_1_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", REPLACE(?Tradition_ID_2, "TOL", ""))) AS ?tradition_2_iri)
 
     # Monastery
     # owl:sameAs to ?BDRC_G_ID will come from monastery data, but will need IRI
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Monastery_", ?TOL_G_ID)) AS ?monastery_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Monastery_", REPLACE(?TOL_G_ID, "TOL", ""))) AS ?monastery_iri)
 
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_IncarnationLineage_", ?TOL_R_ID)) AS ?html_description_iri)
+
+    BIND(STRLANG(CONCAT("Description of the ", ?Incarnation_name, " incarnation lineage"), "en") AS ?description_label)
 
 }
