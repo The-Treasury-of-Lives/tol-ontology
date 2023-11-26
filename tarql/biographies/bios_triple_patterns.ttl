@@ -1,0 +1,66 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix relators: <ttp://id.loc.gov/vocabulary/relators/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:_Contribution_HtmlBiography_1160_Author_82
+	a bf:Contribution ;
+	bf:agent told:_Author_82 ;
+	bf:role
+		tolx:_Role_author ,
+		relators:aut
+		;
+	skos:prefLabel "Authorship of Biography of Person 13566 by Author 82"@en ;
+	.
+
+told:_HtmlBiography_1160
+	a tolo:HtmlBiography ;
+	bf:contribution told:_Contribution_HtmlBiography_1160_Author_82 ;
+	bf:summary told:_Summary_HtmlBiography_1160 ;
+	skos:prefLabel "Biography of Person 13566"@en ;
+	gist:containedText """
+        <p>
+        <span style=\"margin: 7px;text-align:center;float:left;\"><a class=\"essGallery\" href=\"/uploads/person/13566/woman 1148.jpg\" id=\"img_1753\" rel=\"essGallery\"><img border=\"0\" height=\"238\" src=\"/uploads/person/13566/woman 1148.jpg\" width=\"230\" /></a><br />
+        <br />
+        <a href=\"http://www.himalayanart.org/image.cfm/1148.html\" target=\"_blank\"><img class=\"HAR_link\" src=\"/images/link_to_HAR.gif\" /></a></span></p>
+        <p>
+        Semarkar (sad mar dkar) was born into the <a href=\"/communities/view/Pugyel/TBRC_TOL656\">Pugyel</a> (spu rgyal) family, also known as the Yarlung (yar klung) dynasty, the royal family that ruled Tibet from the seventh to the ninth centuries. She was the younger sister of <a href=\"/biographies/view/Songtsen-Gampo/TBRC_P8067\">Songtsen Gampo</a> (srong btsan sgam po, r. 617-650), the famous Tibetan king who unified the Tibetan plateau under his rule. Their father was <a href=\"/biographies/view/Namri-Songtsen/TBRC_P1TD26\">Namri Songtsen</a> (gnam ri srong btsan d. 629), who laid the groundwork for his son's unification of Tibet by defeating the <a href=\"/biographies/view/Zingpo-lord/TBRC_P00EGS1018106\">Zingpo lord</a> (zing po rje) one of his main rivals for power. We do not know if Semarkar shared the same mother with Songtsen, the lady <a href=\"/biographies/view/Drima-Tokar-/TBRC_P1TD27\">Drima Tokar </a>('bri ma thod dkar) of the Tsepong clan (tshe spong) clan, or if Semarkar was born to another queen. It is reasonable to suppose that Namri Songtsen would have made several matrimonial alliances in order to build a network of support across the different clans for his rule.</p>
+        <p>
+        In 629, Namri Songtsen was poisoned to death and Semarkar's brother Songtsen, still a young boy of thirteen, became ruler. Immediately following Namri Songtsen's assassination, the parts of the kingdom that Namri Songtsen had absorbed began to rebel, including Zhangzhung (zhang zhung), the formerly independent kingdom of western Tibet. Songtsen and his ministers attempted to retain Zhangzhung through diplomacy. The princess Semarkar was sent as a bride to the Zhangzhung <a href=\"/biographies/view/King-Ligmyihya/TBRC_P00EGS1017613\">King Liknyashur</a>&nbsp;(lig snya shur) and became his queen. Songtsen himself took Liknyashur's daughter Litikmen (li thig sman) as one of his wives.</p>
+        <p>
+        The <em>Old Tibetan Chronicle</em> tells the following story of Semarkar's marriage: Semarkar was sent to Zhangzhung not simply as a bride but to rule alongside Ligmyihya. Sometime after the wedding, Songtsen sent a minister to Zhangzhung to get a report from Semarkar. The minister found Semarkar not in her castle at <a href=\"/geographies/view/Khyunglung-Ngulkhar/TBRC_G1713\">Khyunglung Ngulkhar</a> (khyung lung rngul mkhar) but fishing on the shore of <a href=\"/geographies/view/Lake-Mansarovar/TBRC_G3248\">Lake Mansarovar</a> (mtsho ma pham). Semarkar sent a coded message back to Songtsen in a song, which scholars have decoded as saying that Ligmyihya was not to be trusted and that he had avoided consummating his marriage with Semarkar, presumably because he did not want a Pugyel heir to the Zhangzhung kingdom. Semarkar also sent her brother a sewn headpiece with thirty turquoises, which Songtsen interpreted as a message for him to go to war.</p>
+        <p>
+        Although the <em>Chronicle</em>'s narration of Semarkar's marriage is a literary composition and not to be taken literally, it does appear reasonable that Semarkar remained loyal to her family after her marriage and acted as a spy on Ligmyihya, sending her brother information about the movements of her husband and his troops. Ligmyihya kept a mistress called Shuke Zatsel (shud ke bza' rtsal) and he and Semarkar lived separately; their political marriage had failed. In 644, possibly acting on intelligence sent by Semarkar, Songtsen Gampo led an invasion with his army and conquered Zhangzhung.</p>
+        <p>
+        There is no further information on Semarkar. Zhangzhung would rebel again in 677, following the death of Songtsen's grandson <a href=\"/biographies/view/Manglon-Mangtsen/TBRC_p1ag91\">Manglon Mangtsen</a> (mang slon mang btsan, r. 663-676), also known as Mangsong Mangtsen (mang srong mang btsan), but his widow the <a href=\"/biographies/view/Empress-Trimalo/TBRC_P3CN364\">Empress Trimalo</a> (khri ma lod, d.712) quelled the rebellion and brought Zhangzhung under control once more.</p>
+        </p>
+        """@en ;
+	gist:isAbout told:_Person_13566 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_Summary_HtmlBiography_1160
+	a bf:Summary ;
+	skos:prefLabel "Summary of Biography of Person 13566"^^xsd:string ;
+	gist:containedText '''
+<p>
+        Semarkar was the younger sister of <a href="/biographies/view/Songtsen-Gampo/TBRC_P8067">Songtsen Gampo</a>, the famous Pugyel king who unified Tibet in the seventh century. As the Yarlung Pugyel dynasty was expanding its territory, Semarkar made a political marriage with <a href="/biographies/view/Ligmyihya/TBRC_P00EGS1017613">Ligmyihya</a>, the King of Zhangzhung, and went to live in Zhangzhung to rule with her husband. When the marriage failed, Songtsen invaded and conquered Zhangzhung.</p>
+
+        '''@en ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
