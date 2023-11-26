@@ -1,7 +1,9 @@
 # imports: https://w3id.org/semanticarts/ontology/gistCore12.0.1
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -25,6 +27,18 @@
 			<http://purl.bdrc.io/ontology/core> to make Protege easier to read."""@en ;
 	skos:prefLabel "Treasury of Lives Core Ontology"@en ;
 	gist:license "TBD"^^xsd:string ;
+	.
+
+tolo:Biography
+	a owl:Class ;
+	rdfs:subClassOf
+		bf:Work ,
+		gist:ContentExpression
+		;
+	skos:altLabel "Bio"^^xsd:string ;
+	skos:definition "A written acount of another person's life."^^xsd:string ;
+	skos:prefLabel "Biography"^^xsd:string ;
+	skos:scopeNote "A biography involves more than just basic facts like education, work, relationships, and death; it portrays a person's experience of these life events."^^xsd:string ;
 	.
 
 tolo:Birth
@@ -96,6 +110,31 @@ tolo:HistoricalPeriod
 	skos:example "The 10th century"@en ;
 	skos:prefLabel "Historical Period"@en ;
 	skos:scopeNote "Whereas a time interval is any period of time, such as 2-4pm this afternoon, a historical period is named and cited in relation to historical events or culture."^^xsd:string ;
+	.
+
+tolo:HtmlBiography
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			tolo:Biography
+			gist:FormattedContent
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isExpressedIn ;
+				owl:hasValue media-txt:html ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isAbout ;
+				owl:someValuesFrom tolo:Person ;
+			]
+		) ;
+	] ;
+	skos:definition "A biography rendered in HTML for publication on a website."^^xsd:string ;
+	skos:example "An instance (as in bf:Instance, FRBR manifestation) of the Treasury of Lives biography of Rongzom Chokyi Zangpo is published on the Treasury of Lives website at https://treasuryoflives.org/biographies/view/Rongzom-Chokyi-Zangpo/6194."^^xsd:string ;
+	skos:prefLabel "HTML Biography"^^xsd:string ;
+	skos:scopeNote "An instance of an HTML"^^xsd:string ;
 	.
 
 tolo:Incarnation
