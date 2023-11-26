@@ -286,46 +286,6 @@ tolo:Place
 	skos:scopeNote "Differs from and not a subclass of gist:Place, which includings only places that do or did exist."@en ;
 	.
 
-tolo:Student
-	a owl:Class ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			tolo:Person
-			[
-				a owl:Restriction ;
-				owl:onProperty [
-					owl:inverseOf gist:hasRecipient ;
-				] ;
-				owl:someValuesFrom tolo:TeacherStudentRelationship ;
-			]
-		) ;
-	] ;
-	skos:definition "A person who receives training in a text or practice from another person (the teacher)."@en ;
-	skos:editorialNote "Not sure if needed."@en ;
-	skos:prefLabel "Student"@en ;
-	.
-
-tolo:Teacher
-	a owl:Class ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			tolo:Person
-			[
-				a owl:Restriction ;
-				owl:onProperty [
-					owl:inverseOf gist:hasGiver ;
-				] ;
-				owl:someValuesFrom tolo:TeacherStudentRelationship ;
-			]
-		) ;
-	] ;
-	skos:definition "A person who transmits a text or practice to another person (the student)."@en ;
-	skos:editorialNote "Not sure if needed."@en ;
-	skos:prefLabel "Teacher"@en ;
-	.
-
 tolo:TeacherStudentRelationship
 	a owl:Class ;
 	owl:equivalentClass [
@@ -335,49 +295,30 @@ tolo:TeacherStudentRelationship
 			gist:Agreement
 			[
 				a owl:Restriction ;
-				owl:onProperty gist:hasParticipant ;
-				owl:cardinality "2"^^xsd:nonNegativeInteger ;
-			]
-			[
-				a owl:Restriction ;
 				owl:onProperty gist:hasGiver ;
-				owl:allValuesFrom tolo:Teacher ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:hasGiver ;
-				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+				owl:someValuesFrom tolo:Person ;
 			]
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:hasRecipient ;
-				owl:allValuesFrom tolo:Student ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:hasRecipient ;
-				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+				owl:someValuesFrom tolo:Person ;
 			]
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:conformsTo ;
-				owl:someValuesFrom gist:Intention ;
+				owl:someValuesFrom tolo:Tradition ;
 			]
 		) ;
 	] ;
 	skos:definition "A time-delimited relationship between a teacher and a student."@en ;
-	skos:editorialNote
-		"How to express what the Intention is? I.e., how should an intention be instantiated?"@en ,
-		"Predicates should be directed from the relationship to the other objects, to support named graph drops to delete the relationship."@en ,
-		"TODO Add relationship to text (bf:Text?) or Practice (subclass of gist:Behavior? - need to see examples."@en
-		;
 	skos:prefLabel "Teacher-Student Relationship"@en ;
-	skos:scopeNote "A teacher-student relationshp may be, but is not necessarily, part of a teaching lineage. In some cases the teacher-student relationship is known while the lineage is not."@en ;
 	.
 
 tolo:Tradition
 	a owl:Class ;
+	rdfs:subClassOf gist:Intention ;
 	skos:definition "TBD."@en ;
+	skos:editorialNote "Check subclass"@en ;
 	skos:prefLabel "Tradition"@en ;
 	.
 
