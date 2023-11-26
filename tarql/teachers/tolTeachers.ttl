@@ -1,0 +1,5955 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix relators: <ttp://id.loc.gov/vocabulary/relators/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:_Person_10001
+	a tolo:Person ;
+	owl:sameAs bdr:P734 ;
+	skos:prefLabel "klong chen ye shes rdo rje"@bo-X-ewts ;
+	tolo:preferredName "klong chen ye shes rdo rje"@bo-X-ewts ;
+	.
+
+told:_Person_10019
+	a tolo:Person ;
+	owl:sameAs bdr:P736 ;
+	skos:prefLabel "Dudjom Rinpoche"@en ;
+	tolo:preferredName "Dudjom Rinpoche"@en ;
+	.
+
+told:_Person_10063
+	a tolo:Person ;
+	owl:sameAs bdr:P740 ;
+	skos:prefLabel "bstan 'dzin rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "bstan 'dzin rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_10073
+	a tolo:Person ;
+	owl:sameAs bdr:P741 ;
+	skos:prefLabel "gyur med rdo rje"@bo-X-ewts ;
+	tolo:preferredName "gyur med rdo rje"@bo-X-ewts ;
+	.
+
+told:_Person_10103
+	a tolo:Person ;
+	owl:sameAs bdr:P744 ;
+	skos:prefLabel "pad+ma dri med"@bo-X-ewts ;
+	tolo:preferredName "pad+ma dri med"@bo-X-ewts ;
+	.
+
+told:_Person_10135
+	a tolo:Person ;
+	owl:sameAs bdr:P747 ;
+	skos:prefLabel "dpal 'byor lhun grub rdo rje"@bo-X-ewts ;
+	tolo:preferredName "dpal 'byor lhun grub rdo rje"@bo-X-ewts ;
+	.
+
+told:_Person_10205
+	a tolo:Person ;
+	owl:sameAs bdr:P7535 ;
+	skos:prefLabel "byams pa dpal ldan chos mdzad"@bo-X-ewts ;
+	tolo:preferredName "byams pa dpal ldan chos mdzad"@bo-X-ewts ;
+	.
+
+told:_Person_10209
+	a tolo:Person ;
+	skos:prefLabel "chos kyi dbang phyug"@bo-X-ewts ;
+	tolo:preferredName "chos kyi dbang phyug"@bo-X-ewts ;
+	.
+
+told:_Person_10326
+	a tolo:Person ;
+	owl:sameAs bdr:P7650 ;
+	skos:prefLabel "pad+ma 'phrin las snying po"@bo-X-ewts ;
+	tolo:preferredName "pad+ma 'phrin las snying po"@bo-X-ewts ;
+	.
+
+told:_Person_10344
+	a tolo:Person ;
+	owl:sameAs bdr:P7668 ;
+	skos:prefLabel "kun dga' bstan pa'i blo gros"@bo-X-ewts ;
+	tolo:preferredName "kun dga' bstan pa'i blo gros"@bo-X-ewts ;
+	.
+
+told:_Person_10386
+	a tolo:Person ;
+	skos:prefLabel "brug thar"@bo-X-ewts ;
+	tolo:preferredName "brug thar"@bo-X-ewts ;
+	.
+
+told:_Person_10449
+	a tolo:Person ;
+	owl:sameAs bdr:P7767 ;
+	skos:prefLabel "jam dbyangs shes rab rgya   mtsho"@bo-X-ewts ;
+	tolo:preferredName "jam dbyangs shes rab rgya   mtsho"@bo-X-ewts ;
+	.
+
+told:_Person_10450
+	a tolo:Person ;
+	owl:sameAs bdr:P7768 ;
+	skos:prefLabel "jam dbyangs rin chen rdo rje"@bo-X-ewts ;
+	tolo:preferredName "jam dbyangs rin chen rdo rje"@bo-X-ewts ;
+	.
+
+told:_Person_10454
+	a tolo:Person ;
+	owl:sameAs bdr:P7771 ;
+	skos:prefLabel "phu khang dge bshes blo bzang   rgya mtsho"@bo-X-ewts ;
+	tolo:preferredName "phu khang dge bshes blo bzang   rgya mtsho"@bo-X-ewts ;
+	.
+
+told:_Person_10711
+	a tolo:Person ;
+	owl:sameAs bdr:P8020 ;
+	skos:prefLabel "taring, rinchen dolma"@en ;
+	tolo:preferredName "taring, rinchen dolma"@en ;
+	.
+
+told:_Person_10743
+	a tolo:Person ;
+	owl:sameAs bdr:P8050 ;
+	skos:prefLabel "Konchok Gyurme"@en ;
+	tolo:preferredName "Konchok Gyurme"@en ;
+	.
+
+told:_Person_10795
+	a tolo:Person ;
+	owl:sameAs bdr:P810 ;
+	skos:prefLabel "dpal ldan chos kyi rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "dpal ldan chos kyi rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_10865
+	a tolo:Person ;
+	skos:prefLabel "byang chub shes rab"@bo-X-ewts ;
+	tolo:preferredName "byang chub shes rab"@bo-X-ewts ;
+	.
+
+told:_Person_10984
+	a tolo:Person ;
+	owl:sameAs bdr:P828 ;
+	skos:prefLabel "Dudul Dorje"@en ;
+	tolo:preferredName "Dudul Dorje"@en ;
+	.
+
+told:_Person_10987
+	a tolo:Person ;
+	skos:prefLabel "thabs mkhas rgya mtsho"@bo-X-ewts ;
+	tolo:preferredName "thabs mkhas rgya mtsho"@bo-X-ewts ;
+	.
+
+told:_Person_10988
+	a tolo:Person ;
+	skos:prefLabel "blo gros tshul khrims"@bo-X-ewts ;
+	tolo:preferredName "blo gros tshul khrims"@bo-X-ewts ;
+	.
+
+told:_Person_10991
+	a tolo:Person ;
+	skos:prefLabel "thub bstan bshad sgrub rgya   mtsho"@bo-X-ewts ;
+	tolo:preferredName "thub bstan bshad sgrub rgya   mtsho"@bo-X-ewts ;
+	.
+
+told:_Person_10992
+	a tolo:Person ;
+	skos:prefLabel "gyur med rgya mtsho"@bo-X-ewts ;
+	tolo:preferredName "gyur med rgya mtsho"@bo-X-ewts ;
+	.
+
+told:_Person_10993
+	a tolo:Person ;
+	skos:prefLabel "jigs med rnam grol"@bo-X-ewts ;
+	tolo:preferredName "jigs med rnam grol"@bo-X-ewts ;
+	.
+
+told:_Person_10994
+	a tolo:Person ;
+	skos:prefLabel "tshul khrims rgya mtsho"@bo-X-ewts ;
+	tolo:preferredName "tshul khrims rgya mtsho"@bo-X-ewts ;
+	.
+
+told:_Person_10996
+	a tolo:Person ;
+	skos:prefLabel "thub bstan 'jigs med bzang po"@bo-X-ewts ;
+	tolo:preferredName "thub bstan 'jigs med bzang po"@bo-X-ewts ;
+	.
+
+told:_Person_10997
+	a tolo:Person ;
+	skos:prefLabel "ngag dbang rgya mtsho"@bo-X-ewts ;
+	tolo:preferredName "ngag dbang rgya mtsho"@bo-X-ewts ;
+	.
+
+told:_Person_10998
+	a tolo:Person ;
+	skos:prefLabel "od ldan bzang po"@bo-X-ewts ;
+	tolo:preferredName "od ldan bzang po"@bo-X-ewts ;
+	.
+
+told:_Person_11017
+	a tolo:Person ;
+	skos:prefLabel "rdo rje dgra 'dul"@bo-X-ewts ;
+	tolo:preferredName "rdo rje dgra 'dul"@bo-X-ewts ;
+	.
+
+told:_Person_11031
+	a tolo:Person ;
+	owl:sameAs bdr:P8321 ;
+	skos:prefLabel "thub bstan rgya mtsho"@bo-X-ewts ;
+	tolo:preferredName "thub bstan rgya mtsho"@bo-X-ewts ;
+	.
+
+told:_Person_11095
+	a tolo:Person ;
+	skos:prefLabel "bstan pa'i dbang phyug, khang   sar"@bo-X-ewts ;
+	tolo:preferredName "bstan pa'i dbang phyug, khang   sar"@bo-X-ewts ;
+	.
+
+told:_Person_1113
+	a tolo:Person ;
+	skos:prefLabel "Jñyānabhadra"@en ;
+	tolo:preferredName "Jñyānabhadra"@en ;
+	.
+
+told:_Person_11130
+	a tolo:Person ;
+	skos:prefLabel "gzi brjid rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "gzi brjid rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_11178
+	a tolo:Person ;
+	owl:sameAs bdr:P846 ;
+	skos:prefLabel "Kunzik Chokyi Nangwa"@en ;
+	tolo:preferredName "Kunzik Chokyi Nangwa"@en ;
+	.
+
+told:_Person_11252
+	a tolo:Person ;
+	skos:prefLabel "Mipam Chokyi Lodro"@en ;
+	tolo:preferredName "Mipam Chokyi Lodro"@en ;
+	.
+
+told:_Person_11259
+	a tolo:Person ;
+	owl:sameAs bdr:P8536 ;
+	skos:prefLabel "bsod nams don grub"@bo-X-ewts ;
+	tolo:preferredName "bsod nams don grub"@bo-X-ewts ;
+	.
+
+told:_Person_11265
+	a tolo:Person ;
+	owl:sameAs bdr:P8541 ;
+	skos:prefLabel "mgon 'grub"@bo-X-ewts ;
+	tolo:preferredName "mgon 'grub"@bo-X-ewts ;
+	.
+
+told:_Person_11266
+	a tolo:Person ;
+	skos:prefLabel "dkon mchog"@bo-X-ewts ;
+	tolo:preferredName "dkon mchog"@bo-X-ewts ;
+	.
+
+told:_Person_11274
+	a tolo:Person ;
+	skos:prefLabel "Pema Donyo Nyinje"@en ;
+	tolo:preferredName "Pema Donyo Nyinje"@en ;
+	.
+
+told:_Person_11280
+	a tolo:Person ;
+	skos:prefLabel "thub bstan dpal bzang"@bo-X-ewts ;
+	tolo:preferredName "thub bstan dpal bzang"@bo-X-ewts ;
+	.
+
+told:_Person_11363
+	a tolo:Person ;
+	owl:sameAs bdr:P863 ;
+	skos:prefLabel "Mipam Chokyi Wangpo"@en ;
+	tolo:preferredName "Mipam Chokyi Wangpo"@en ;
+	.
+
+told:_Person_11407
+	a tolo:Person ;
+	skos:prefLabel "tshe dbang mchog grub dpal 'bar"@bo-X-ewts ;
+	tolo:preferredName "tshe dbang mchog grub dpal 'bar"@bo-X-ewts ;
+	.
+
+told:_Person_11418
+	a tolo:Person ;
+	owl:sameAs bdr:P868 ;
+	skos:prefLabel "gtsug lag snang ba dbang   phyug"@bo-X-ewts ;
+	tolo:preferredName "gtsug lag snang ba dbang   phyug"@bo-X-ewts ;
+	.
+
+told:_Person_11433
+	a tolo:Person ;
+	owl:sameAs bdr:P8693 ;
+	skos:prefLabel "pad+ma bde chen bzang po"@bo-X-ewts ;
+	tolo:preferredName "pad+ma bde chen bzang po"@bo-X-ewts ;
+	.
+
+told:_Person_12040
+	a tolo:Person ;
+	owl:sameAs bdr:P925 ;
+	skos:prefLabel "Pema Wangchok Gyelpo"@en ;
+	tolo:preferredName "Pema Wangchok Gyelpo"@en ;
+	.
+
+told:_Person_12093
+	a tolo:Person ;
+	owl:sameAs bdr:P930 ;
+	skos:prefLabel "grags pa rgya mtsho"@bo-X-ewts ;
+	tolo:preferredName "grags pa rgya mtsho"@bo-X-ewts ;
+	.
+
+told:_Person_12104
+	a tolo:Person ;
+	owl:sameAs bdr:P931 ;
+	skos:prefLabel "Karma Jamyang Khyentse Wozer"@en ;
+	tolo:preferredName "Karma Jamyang Khyentse Wozer"@en ;
+	.
+
+told:_Person_12169
+	a tolo:Person ;
+	owl:sameAs bdr:P937 ;
+	skos:prefLabel "Khyentse Wozer"@en ;
+	tolo:preferredName "Khyentse Wozer"@en ;
+	.
+
+told:_Person_12255
+	a tolo:Person ;
+	skos:prefLabel "rin chen bstan pa'i gsal byed"@bo-X-ewts ;
+	tolo:preferredName "rin chen bstan pa'i gsal byed"@bo-X-ewts ;
+	.
+
+told:_Person_12314
+	a tolo:Person ;
+	skos:prefLabel "bstan pa'i rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "bstan pa'i rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_12371
+	a tolo:Person ;
+	owl:sameAs bdr:P956 ;
+	skos:prefLabel "Chokyi Jungne"@en ;
+	tolo:preferredName "Chokyi Jungne"@en ;
+	.
+
+told:_Person_12381
+	a tolo:Person ;
+	owl:sameAs bdr:P957 ;
+	skos:prefLabel "dkon mchog 'od zer"@bo-X-ewts ;
+	tolo:preferredName "dkon mchog 'od zer"@bo-X-ewts ;
+	.
+
+told:_Person_12387
+	a tolo:Person ;
+	skos:prefLabel "bstan 'dzin 'jigs med mthu   stobs dbang phyug"@bo-X-ewts ;
+	tolo:preferredName "bstan 'dzin 'jigs med mthu   stobs dbang phyug"@bo-X-ewts ;
+	.
+
+told:_Person_12435
+	a tolo:Person ;
+	owl:sameAs bdr:P962 ;
+	skos:prefLabel "kun dga' bstan pa'i rgyal   mtshan"@bo-X-ewts ;
+	tolo:preferredName "kun dga' bstan pa'i rgyal   mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_12489
+	a tolo:Person ;
+	owl:sameAs bdr:P967 ;
+	skos:prefLabel "kun dga' bstan pa'i rgyal   mtshan"@bo-X-ewts ;
+	tolo:preferredName "kun dga' bstan pa'i rgyal   mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_12504
+	a tolo:Person ;
+	owl:sameAs bdr:P9684 ;
+	skos:prefLabel "dpal ldan rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "dpal ldan rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_12522
+	a tolo:Person ;
+	owl:sameAs bdr:P970 ;
+	skos:prefLabel "jam dbyangs chos kyi rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "jam dbyangs chos kyi rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_12532
+	a tolo:Person ;
+	owl:sameAs bdr:P9709 ;
+	skos:prefLabel "jam dbyangs grags pa"@bo-X-ewts ;
+	tolo:preferredName "jam dbyangs grags pa"@bo-X-ewts ;
+	.
+
+told:_Person_12533
+	a tolo:Person ;
+	owl:sameAs bdr:P971 ;
+	skos:prefLabel "bsam gtan blo gros"@bo-X-ewts ;
+	tolo:preferredName "bsam gtan blo gros"@bo-X-ewts ;
+	.
+
+told:_Person_12584
+	a tolo:Person ;
+	owl:sameAs bdr:P976 ;
+	skos:prefLabel "kun dga' snying po"@bo-X-ewts ;
+	tolo:preferredName "kun dga' snying po"@bo-X-ewts ;
+	.
+
+told:_Person_12602
+	a tolo:Person ;
+	owl:sameAs bdr:P9776 ;
+	skos:prefLabel "jam dpal mthu stobs"@bo-X-ewts ;
+	tolo:preferredName "jam dpal mthu stobs"@bo-X-ewts ;
+	.
+
+told:_Person_12606
+	a tolo:Person ;
+	owl:sameAs bdr:P978 ;
+	skos:prefLabel "ngag dbang mthu stobs dbang phyug"@bo-X-ewts ;
+	tolo:preferredName "ngag dbang mthu stobs dbang phyug"@bo-X-ewts ;
+	.
+
+told:_Person_12617
+	a tolo:Person ;
+	owl:sameAs bdr:P979 ;
+	skos:prefLabel "drag shul 'phrin las rin chen"@bo-X-ewts ;
+	tolo:preferredName "drag shul 'phrin las rin chen"@bo-X-ewts ;
+	.
+
+told:_Person_12625
+	a tolo:Person ;
+	owl:sameAs bdr:P9797 ;
+	skos:prefLabel "sangs rgyas chos 'phel"@bo-X-ewts ;
+	tolo:preferredName "sangs rgyas chos 'phel"@bo-X-ewts ;
+	.
+
+told:_Person_12629
+	a tolo:Person ;
+	owl:sameAs bdr:P980 ;
+	skos:prefLabel "ngag dbang kun dga' rin chen"@bo-X-ewts ;
+	tolo:preferredName "ngag dbang kun dga' rin chen"@bo-X-ewts ;
+	.
+
+told:_Person_12653
+	a tolo:Person ;
+	skos:prefLabel "ngag dbang chos grags"@bo-X-ewts ;
+	tolo:preferredName "ngag dbang chos grags"@bo-X-ewts ;
+	.
+
+told:_Person_1268
+	a tolo:Person ;
+	skos:prefLabel "spyi bo lhas pa"@bo-X-ewts ;
+	tolo:preferredName "spyi bo lhas pa"@bo-X-ewts ;
+	.
+
+told:_Person_12775
+	a tolo:Person ;
+	owl:sameAs bdr:P3JM10 ;
+	skos:prefLabel "ser shul mkhan po"@bo-X-ewts ;
+	tolo:preferredName "ser shul mkhan po"@bo-X-ewts ;
+	.
+
+told:_Person_12776
+	a tolo:Person ;
+	owl:sameAs bdr:P3JM11 ;
+	skos:prefLabel "mgar ba'i mkhan po 'jigs 'od"@bo-X-ewts ;
+	tolo:preferredName "mgar ba'i mkhan po 'jigs 'od"@bo-X-ewts ;
+	.
+
+told:_Person_12777
+	a tolo:Person ;
+	owl:sameAs bdr:P3JM12 ;
+	skos:prefLabel "klu shul mkhan po"@bo-X-ewts ;
+	tolo:preferredName "klu shul mkhan po"@bo-X-ewts ;
+	.
+
+told:_Person_12800
+	a tolo:Person ;
+	owl:sameAs bdr:P9962 ;
+	skos:prefLabel "dze ta kar+Na"@bo-X-ewts ;
+	tolo:preferredName "dze ta kar+Na"@bo-X-ewts ;
+	.
+
+told:_Person_1311
+	a tolo:Person ;
+	owl:sameAs bdr:P0RK714 ;
+	skos:prefLabel "mkhas grub chos rje"@bo-X-ewts ;
+	tolo:preferredName "mkhas grub chos rje"@bo-X-ewts ;
+	.
+
+told:_Person_13216
+	a tolo:Person ;
+	owl:sameAs bdr:P8LS13193 ;
+	skos:prefLabel "Lobzang Tubten Jigme Gyeltsen"@en ;
+	tolo:preferredName "Lobzang Tubten Jigme Gyeltsen"@en ;
+	.
+
+told:_Person_13218
+	a tolo:Person ;
+	owl:sameAs bdr:P8LS12558 ;
+	skos:prefLabel "Ngawang Lobzang Yeshe Tenpai Gyeltsen"@en ;
+	tolo:preferredName "Ngawang Lobzang Yeshe Tenpai Gyeltsen"@en ;
+	.
+
+told:_Person_13244
+	a tolo:Person ;
+	skos:prefLabel "Lotsāwa Drakpa Gyeltsen"@en ;
+	tolo:preferredName "Lotsāwa Drakpa Gyeltsen"@en ;
+	.
+
+told:_Person_13250
+	a tolo:Person ;
+	skos:prefLabel "jam dbyangs thub bstan lung rtogs rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "jam dbyangs thub bstan lung rtogs rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_13251
+	a tolo:Person ;
+	owl:sameAs bdr:P1KG4183 ;
+	skos:prefLabel "ngag dbang mkhyen brtse thub bstan snying po"@bo-X-ewts ;
+	tolo:preferredName "ngag dbang mkhyen brtse thub bstan snying po"@bo-X-ewts ;
+	.
+
+told:_Person_13252
+	a tolo:Person ;
+	skos:prefLabel "jam dbyangs kun dga' bstan pa'i rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "jam dbyangs kun dga' bstan pa'i rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_13253
+	a tolo:Person ;
+	skos:prefLabel "jam dbyangs bstan pa'i nyi ma"@bo-X-ewts ;
+	tolo:preferredName "jam dbyangs bstan pa'i nyi ma"@bo-X-ewts ;
+	.
+
+told:_Person_13282
+	a tolo:Person ;
+	owl:sameAs bdr:P8LS12194 ;
+	skos:prefLabel "Ngawang Khyentse Norbu"@en ;
+	tolo:preferredName "Ngawang Khyentse Norbu"@en ;
+	.
+
+told:_Person_13552
+	a tolo:Person ;
+	skos:prefLabel "Tongwa Donden"@en ;
+	tolo:preferredName "Tongwa Donden"@en ;
+	.
+
+told:_Person_13553
+	a tolo:Person ;
+	owl:sameAs bdr:P821 ;
+	skos:prefLabel "Chodrak Gyatso"@en ;
+	tolo:preferredName "Chodrak Gyatso"@en ;
+	.
+
+told:_Person_13554
+	a tolo:Person ;
+	owl:sameAs bdr:P385 ;
+	skos:prefLabel "Mikyo Dorje"@en ;
+	tolo:preferredName "Mikyo Dorje"@en ;
+	.
+
+told:_Person_13556
+	a tolo:Person ;
+	owl:sameAs bdr:P889 ;
+	skos:prefLabel "Wangchuk Dorje"@en ;
+	tolo:preferredName "Wangchuk Dorje"@en ;
+	.
+
+told:_Person_13575
+	a tolo:Person ;
+	owl:sameAs bdr:P8LS13183 ;
+	skos:prefLabel "gyur med pad+ma rdo rje"@bo-X-ewts ;
+	tolo:preferredName "gyur med pad+ma rdo rje"@bo-X-ewts ;
+	.
+
+told:_Person_13576
+	a tolo:Person ;
+	owl:sameAs bdr:P1649 ;
+	skos:prefLabel "Tenzin Gyatso"@en ;
+	tolo:preferredName "Tenzin Gyatso"@en ;
+	.
+
+told:_Person_13577
+	a tolo:Person ;
+	owl:sameAs bdr:P1AG97 ;
+	skos:prefLabel "Ngedon Drubpai Dorje"@en ;
+	tolo:preferredName "Ngedon Drubpai Dorje"@en ;
+	.
+
+told:_Person_13599
+	a tolo:Person ;
+	owl:sameAs bdr:P8LS12189 ;
+	skos:prefLabel "Tendzin Chokyi Nangwa"@en ;
+	tolo:preferredName "Tendzin Chokyi Nangwa"@en ;
+	.
+
+told:_Person_13632
+	a tolo:Person ;
+	skos:prefLabel "Smith, E. Gene"@en ;
+	tolo:preferredName "Smith, E. Gene"@en ;
+	.
+
+told:_Person_13651
+	a tolo:Person ;
+	skos:prefLabel "Tokden Jampa Tendar"@en ;
+	tolo:preferredName "Tokden Jampa Tendar"@en ;
+	.
+
+told:_Person_13656
+	a tolo:Person ;
+	skos:prefLabel "Dezhin Shekpa"@en ;
+	tolo:preferredName "Dezhin Shekpa"@en ;
+	.
+
+told:_Person_13658
+	a tolo:Person ;
+	skos:prefLabel "bskal bzang thub bstan snyan grags"@bo-X-ewts ;
+	tolo:preferredName "bskal bzang thub bstan snyan grags"@bo-X-ewts ;
+	.
+
+told:_Person_13660
+	a tolo:Person ;
+	owl:sameAs bdr:P4CZ10578 ;
+	skos:prefLabel "Devākaracandra"@en ;
+	tolo:preferredName "Devākaracandra"@en ;
+	.
+
+told:_Person_13662
+	a tolo:Person ;
+	owl:sameAs bdr:P8LS15530 ;
+	skos:prefLabel "yab rong ban rin chen tshul khrims"@bo-X-ewts ;
+	tolo:preferredName "yab rong ban rin chen tshul khrims"@bo-X-ewts ;
+	.
+
+told:_Person_13667
+	a tolo:Person ;
+	owl:sameAs bdr:P1TD24 ;
+	skos:prefLabel "ngag dbang thub bstan chos kyi dbang phyug/"@bo-X-ewts ;
+	tolo:preferredName "ngag dbang thub bstan chos kyi dbang phyug/"@bo-X-ewts ;
+	.
+
+told:_Person_13670
+	a tolo:Person ;
+	skos:prefLabel "jigs med dbang phyug"@bo-X-ewts ;
+	tolo:preferredName "jigs med dbang phyug"@bo-X-ewts ;
+	.
+
+told:_Person_13678
+	a tolo:Person ;
+	owl:sameAs bdr:P11MS232 ;
+	skos:prefLabel "Dezhung Lungrik Nyima"@en ;
+	tolo:preferredName "Dezhung Lungrik Nyima"@en ;
+	.
+
+told:_Person_13680
+	a tolo:Person ;
+	owl:sameAs bdr:P1PD90412 ;
+	skos:prefLabel "jam dpal bstan 'dzin phrin las"@bo-X-ewts ;
+	tolo:preferredName "jam dpal bstan 'dzin phrin las"@bo-X-ewts ;
+	.
+
+told:_Person_13685
+	a tolo:Person ;
+	owl:sameAs bdr:P2KG228978 ;
+	skos:prefLabel "rig 'dzin 'ja' lus rdo rje"@bo-X-ewts ;
+	tolo:preferredName "rig 'dzin 'ja' lus rdo rje"@bo-X-ewts ;
+	.
+
+told:_Person_13695
+	a tolo:Person ;
+	skos:prefLabel "e pa bsod nams rin chen"@bo-X-ewts ;
+	tolo:preferredName "e pa bsod nams rin chen"@bo-X-ewts ;
+	.
+
+told:_Person_13717
+	a tolo:Person ;
+	skos:prefLabel "kun dga' bstan 'dzin"@bo-X-ewts ;
+	tolo:preferredName "kun dga' bstan 'dzin"@bo-X-ewts ;
+	.
+
+told:_Person_13774
+	a tolo:Person ;
+	owl:sameAs bdr:P2CN574 ;
+	skos:prefLabel "Indrabodhi"@en ;
+	tolo:preferredName "Indrabodhi"@en ;
+	.
+
+told:_Person_13801
+	a tolo:Person ;
+	skos:prefLabel "Lama Ngaklo"@en ;
+	tolo:preferredName "Lama Ngaklo"@en ;
+	.
+
+told:_Person_13807
+	a tolo:Person ;
+	owl:sameAs bdr:P8LS13715 ;
+	skos:prefLabel "Minling Chung Rinpoche Ngawang Chokyi Drakpa"@en ;
+	tolo:preferredName "Minling Chung Rinpoche Ngawang Chokyi Drakpa"@en ;
+	.
+
+told:_Person_13808
+	a tolo:Person ;
+	owl:sameAs bdr:P4CZ333431 ;
+	skos:prefLabel "Lhatsun Tulku Lobzang Tubten Gelek Rabgye"@en ;
+	tolo:preferredName "Lhatsun Tulku Lobzang Tubten Gelek Rabgye"@en ;
+	.
+
+told:_Person_13827
+	a tolo:Person ;
+	owl:sameAs bdr:P1KG21101 ;
+	skos:prefLabel "dge bshes chos grags"@bo-X-ewts ;
+	tolo:preferredName "dge bshes chos grags"@bo-X-ewts ;
+	.
+
+told:_Person_13834
+	a tolo:Person ;
+	skos:prefLabel "Lama Tharchin"@en ;
+	tolo:preferredName "Lama Tharchin"@en ;
+	.
+
+told:_Person_1616
+	a tolo:Person ;
+	owl:sameAs bdr:P10079 ;
+	skos:prefLabel "kun dga' thugs rje"@bo-X-ewts ;
+	tolo:preferredName "kun dga' thugs rje"@bo-X-ewts ;
+	.
+
+told:_Person_1817
+	a tolo:Person ;
+	owl:sameAs bdr:P10267 ;
+	skos:prefLabel "pad+ma bshes gnyen"@bo-X-ewts ;
+	tolo:preferredName "pad+ma bshes gnyen"@bo-X-ewts ;
+	.
+
+told:_Person_200
+	a tolo:Person ;
+	owl:sameAs bdr:P00KG02843 ;
+	skos:prefLabel "karma legs bshad sgra dbyangs"@bo-X-ewts ;
+	tolo:preferredName "karma legs bshad sgra dbyangs"@bo-X-ewts ;
+	.
+
+told:_Person_2060
+	a tolo:Person ;
+	skos:prefLabel "kun dga' bsod nams"@bo-X-ewts ;
+	tolo:preferredName "kun dga' bsod nams"@bo-X-ewts ;
+	.
+
+told:_Person_2070
+	a tolo:Person ;
+	skos:prefLabel "thub bstan"@bo-X-ewts ;
+	tolo:preferredName "thub bstan"@bo-X-ewts ;
+	.
+
+told:_Person_2150
+	a tolo:Person ;
+	skos:prefLabel "blo gros chos kyi seng+ge"@bo-X-ewts ;
+	tolo:preferredName "blo gros chos kyi seng+ge"@bo-X-ewts ;
+	.
+
+told:_Person_2165
+	a tolo:Person ;
+	skos:prefLabel "grags pa bstan pa yar 'phel"@bo-X-ewts ;
+	tolo:preferredName "grags pa bstan pa yar 'phel"@bo-X-ewts ;
+	.
+
+told:_Person_2246
+	a tolo:Person ;
+	owl:sameAs bdr:P10659 ;
+	skos:prefLabel "pad+ma mchog dpal bzang po"@bo-X-ewts ;
+	tolo:preferredName "pad+ma mchog dpal bzang po"@bo-X-ewts ;
+	.
+
+told:_Person_2484
+	a tolo:Person ;
+	owl:sameAs bdr:P122 ;
+	skos:prefLabel "ngag dbang thub bstan rgya   mtsho"@bo-X-ewts ;
+	tolo:preferredName "ngag dbang thub bstan rgya   mtsho"@bo-X-ewts ;
+	.
+
+told:_Person_2570
+	a tolo:Person ;
+	owl:sameAs bdr:P1298 ;
+	skos:prefLabel "blo bzang grags pa"@bo-X-ewts ;
+	tolo:preferredName "blo bzang grags pa"@bo-X-ewts ;
+	.
+
+told:_Person_261
+	a tolo:Person ;
+	skos:prefLabel "rig 'dzin dbang rgyal"@bo-X-ewts ;
+	tolo:preferredName "rig 'dzin dbang rgyal"@bo-X-ewts ;
+	.
+
+told:_Person_2653
+	a tolo:Person ;
+	owl:sameAs bdr:P1373 ;
+	skos:prefLabel "bkra shis 'od zer"@bo-X-ewts ;
+	tolo:preferredName "bkra shis 'od zer"@bo-X-ewts ;
+	.
+
+told:_Person_2673
+	a tolo:Person ;
+	owl:sameAs bdr:P1392 ;
+	skos:prefLabel "nges don bstan pa rab rgyas"@bo-X-ewts ;
+	tolo:preferredName "nges don bstan pa rab rgyas"@bo-X-ewts ;
+	.
+
+told:_Person_2768
+	a tolo:Person ;
+	owl:sameAs bdr:P148 ;
+	skos:prefLabel "bsod nams grags pa"@bo-X-ewts ;
+	tolo:preferredName "bsod nams grags pa"@bo-X-ewts ;
+	.
+
+told:_Person_2939
+	a tolo:Person ;
+	owl:sameAs bdr:P1636 ;
+	skos:prefLabel "blo bzang tshul khrims chos   'phel"@bo-X-ewts ;
+	tolo:preferredName "blo bzang tshul khrims chos   'phel"@bo-X-ewts ;
+	.
+
+told:_Person_294
+	a tolo:Person ;
+	owl:sameAs bdr:P012AG03491 ;
+	skos:prefLabel "gling bzhag o rgyan lhun grub"@bo-X-ewts ;
+	tolo:preferredName "gling bzhag o rgyan lhun grub"@bo-X-ewts ;
+	.
+
+told:_Person_2940
+	a tolo:Person ;
+	owl:sameAs bdr:P1637 ;
+	skos:prefLabel "blo bzang dam chos rgya mtsho"@bo-X-ewts ;
+	tolo:preferredName "blo bzang dam chos rgya mtsho"@bo-X-ewts ;
+	.
+
+told:_Person_2944
+	a tolo:Person ;
+	owl:sameAs bdr:P1641 ;
+	skos:prefLabel "don grub rdo rje"@bo-X-ewts ;
+	tolo:preferredName "don grub rdo rje"@bo-X-ewts ;
+	.
+
+told:_Person_2953
+	a tolo:Person ;
+	owl:sameAs bdr:P1650 ;
+	skos:prefLabel "phrin las lhun grub chos kyi   rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "phrin las lhun grub chos kyi   rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_330
+	a tolo:Person ;
+	owl:sameAs bdr:P0RK1033 ;
+	skos:prefLabel "lha mo bung ba'i padma"@bo-X-ewts ;
+	tolo:preferredName "lha mo bung ba'i padma"@bo-X-ewts ;
+	.
+
+told:_Person_332
+	a tolo:Person ;
+	skos:prefLabel "rgyal po indra bo dhi chung ba"@bo-X-ewts ;
+	tolo:preferredName "rgyal po indra bo dhi chung ba"@bo-X-ewts ;
+	.
+
+told:_Person_334
+	a tolo:Person ;
+	skos:prefLabel "kha che shes rab gsang ba   (kAshmIra prajnyAgupta)"@bo-X-ewts ;
+	tolo:preferredName "kha che shes rab gsang ba   (kAshmIra prajnyAgupta)"@bo-X-ewts ;
+	.
+
+told:_Person_3633
+	a tolo:Person ;
+	owl:sameAs bdr:P1PD76609 ;
+	skos:prefLabel "tshe 'dzin dbang mo"@bo-X-ewts ;
+	tolo:preferredName "tshe 'dzin dbang mo"@bo-X-ewts ;
+	.
+
+told:_Person_3639
+	a tolo:Person ;
+	owl:sameAs bdr:P1PD76616 ;
+	skos:prefLabel "dgu ru gsang lo"@bo-X-ewts ;
+	tolo:preferredName "dgu ru gsang lo"@bo-X-ewts ;
+	.
+
+told:_Person_3674
+	a tolo:Person ;
+	skos:prefLabel "pad+ma bzang po"@bo-X-ewts ;
+	tolo:preferredName "pad+ma bzang po"@bo-X-ewts ;
+	.
+
+told:_Person_3790
+	a tolo:Person ;
+	owl:sameAs bdr:P212 ;
+	skos:prefLabel "thub bstan 'jam dpal ye shes   bstan pa'i rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "thub bstan 'jam dpal ye shes   bstan pa'i rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_3819
+	a tolo:Person ;
+	owl:sameAs bdr:P2147 ;
+	skos:prefLabel "nyi ma rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "nyi ma rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_3857
+	a tolo:Person ;
+	owl:sameAs bdr:P2181 ;
+	skos:prefLabel "byams pa thub dbang"@bo-X-ewts ;
+	tolo:preferredName "byams pa thub dbang"@bo-X-ewts ;
+	.
+
+told:_Person_3891
+	a tolo:Person ;
+	owl:sameAs bdr:P2211 ;
+	skos:prefLabel "dge 'dun 'od zer"@bo-X-ewts ;
+	tolo:preferredName "dge 'dun 'od zer"@bo-X-ewts ;
+	.
+
+told:_Person_3908
+	a tolo:Person ;
+	owl:sameAs bdr:P2227 ;
+	skos:prefLabel "zhi ba'i blo gros"@bo-X-ewts ;
+	tolo:preferredName "zhi ba'i blo gros"@bo-X-ewts ;
+	.
+
+told:_Person_4022
+	a tolo:Person ;
+	owl:sameAs bdr:P233 ;
+	skos:prefLabel "ngag dbang gsung rab mthu stobs"@bo-X-ewts ;
+	tolo:preferredName "ngag dbang gsung rab mthu stobs"@bo-X-ewts ;
+	.
+
+told:_Person_4066
+	a tolo:Person ;
+	owl:sameAs bdr:P237 ;
+	skos:prefLabel "jam dbyangs thub bstan rgya   mtsho"@bo-X-ewts ;
+	tolo:preferredName "jam dbyangs thub bstan rgya   mtsho"@bo-X-ewts ;
+	.
+
+told:_Person_4212
+	a tolo:Person ;
+	owl:sameAs bdr:P2504 ;
+	skos:prefLabel "bsod nams dbang phyug"@bo-X-ewts ;
+	tolo:preferredName "bsod nams dbang phyug"@bo-X-ewts ;
+	.
+
+told:_Person_4213
+	a tolo:Person ;
+	owl:sameAs bdr:P2505 ;
+	skos:prefLabel "don grub dpal ldan"@bo-X-ewts ;
+	tolo:preferredName "don grub dpal ldan"@bo-X-ewts ;
+	.
+
+told:_Person_4214
+	a tolo:Person ;
+	owl:sameAs bdr:P2506 ;
+	skos:prefLabel "yon tan rgya mtsho"@bo-X-ewts ;
+	tolo:preferredName "yon tan rgya mtsho"@bo-X-ewts ;
+	.
+
+told:_Person_4215
+	a tolo:Person ;
+	owl:sameAs bdr:P2507 ;
+	skos:prefLabel "dpal ldan brtson 'grus"@bo-X-ewts ;
+	tolo:preferredName "dpal ldan brtson 'grus"@bo-X-ewts ;
+	.
+
+told:_Person_4216
+	a tolo:Person ;
+	skos:prefLabel "chos bzang nyi ma"@bo-X-ewts ;
+	tolo:preferredName "chos bzang nyi ma"@bo-X-ewts ;
+	.
+
+told:_Person_4250
+	a tolo:Person ;
+	skos:prefLabel "pad+ma bstan 'dzin"@bo-X-ewts ;
+	tolo:preferredName "pad+ma bstan 'dzin"@bo-X-ewts ;
+	.
+
+told:_Person_4273
+	a tolo:Person ;
+	owl:sameAs bdr:P2562 ;
+	skos:prefLabel "kun bzang 'jigs med chos   dbyings rang grol"@bo-X-ewts ;
+	tolo:preferredName "kun bzang 'jigs med chos   dbyings rang grol"@bo-X-ewts ;
+	.
+
+told:_Person_4413
+	a tolo:Person ;
+	owl:sameAs bdr:P269 ;
+	skos:prefLabel "blo bzang dpal ldan bstan 'dzin   snyan grags"@bo-X-ewts ;
+	tolo:preferredName "blo bzang dpal ldan bstan 'dzin   snyan grags"@bo-X-ewts ;
+	.
+
+told:_Person_4440
+	a tolo:Person ;
+	owl:sameAs bdr:P2713 ;
+	skos:prefLabel "Tsewang Norbu"@en ;
+	tolo:preferredName "Tsewang Norbu"@en ;
+	.
+
+told:_Person_4613
+	a tolo:Person ;
+	skos:prefLabel "kun bzang dbang po"@bo-X-ewts ;
+	tolo:preferredName "kun bzang dbang po"@bo-X-ewts ;
+	.
+
+told:_Person_4691
+	a tolo:Person ;
+	owl:sameAs bdr:P2943 ;
+	skos:prefLabel "gyur med tshe dbang mchog grub"@bo-X-ewts ;
+	tolo:preferredName "gyur med tshe dbang mchog grub"@bo-X-ewts ;
+	.
+
+told:_Person_4864
+	a tolo:Person ;
+	owl:sameAs bdr:P2JM131 ;
+	skos:prefLabel "Mañjuśrījñāna"@en ;
+	tolo:preferredName "Mañjuśrījñāna"@en ;
+	.
+
+told:_Person_4865
+	a tolo:Person ;
+	owl:sameAs bdr:P2JM132 ;
+	skos:prefLabel "Upāyaśrīmitra"@en ;
+	tolo:preferredName "Upāyaśrīmitra"@en ;
+	.
+
+told:_Person_4866
+	a tolo:Person ;
+	owl:sameAs bdr:P2JM133 ;
+	skos:prefLabel "Buddhākarabhadra"@en ;
+	tolo:preferredName "Buddhākarabhadra"@en ;
+	.
+
+told:_Person_4868
+	a tolo:Person ;
+	owl:sameAs bdr:P2JM135 ;
+	skos:prefLabel "Amogavajra"@en ;
+	tolo:preferredName "Amogavajra"@en ;
+	.
+
+told:_Person_5152
+	a tolo:Person ;
+	skos:prefLabel "pad+ma rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "pad+ma rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_5153
+	a tolo:Person ;
+	skos:prefLabel "klu bse bla ma dar rgyas"@bo-X-ewts ;
+	tolo:preferredName "klu bse bla ma dar rgyas"@bo-X-ewts ;
+	.
+
+told:_Person_5154
+	a tolo:Person ;
+	skos:prefLabel "o rgyan tshul khrims"@bo-X-ewts ;
+	tolo:preferredName "o rgyan tshul khrims"@bo-X-ewts ;
+	.
+
+told:_Person_5155
+	a tolo:Person ;
+	skos:prefLabel "o rgyan skal bzang"@bo-X-ewts ;
+	tolo:preferredName "o rgyan skal bzang"@bo-X-ewts ;
+	.
+
+told:_Person_5413
+	a tolo:Person ;
+	owl:sameAs bdr:P3099 ;
+	skos:prefLabel "rin chen seng+ge"@bo-X-ewts ;
+	tolo:preferredName "rin chen seng+ge"@bo-X-ewts ;
+	.
+
+told:_Person_5628
+	a tolo:Person ;
+	skos:prefLabel "nag po pa"@bo-X-ewts ;
+	tolo:preferredName "nag po pa"@bo-X-ewts ;
+	.
+
+told:_Person_5648
+	a tolo:Person ;
+	skos:prefLabel "thod smyon la ston"@bo-X-ewts ;
+	tolo:preferredName "thod smyon la ston"@bo-X-ewts ;
+	.
+
+told:_Person_5720
+	a tolo:Person ;
+	skos:prefLabel "nyi ma shes rab"@bo-X-ewts ;
+	tolo:preferredName "nyi ma shes rab"@bo-X-ewts ;
+	.
+
+told:_Person_5728
+	a tolo:Person ;
+	owl:sameAs bdr:P3389 ;
+	skos:prefLabel "legs pa'i shes rab"@bo-X-ewts ;
+	tolo:preferredName "legs pa'i shes rab"@bo-X-ewts ;
+	.
+
+told:_Person_5731
+	a tolo:Person ;
+	skos:prefLabel "tshul 'bar"@bo-X-ewts ;
+	tolo:preferredName "tshul 'bar"@bo-X-ewts ;
+	.
+
+told:_Person_5864
+	a tolo:Person ;
+	owl:sameAs bdr:P3513 ;
+	skos:prefLabel "byams pa kun dga' bstan 'dzin"@bo-X-ewts ;
+	tolo:preferredName "byams pa kun dga' bstan 'dzin"@bo-X-ewts ;
+	.
+
+told:_Person_5951
+	a tolo:Person ;
+	skos:prefLabel "dgra bcom"@bo-X-ewts ;
+	tolo:preferredName "dgra bcom"@bo-X-ewts ;
+	.
+
+told:_Person_6209
+	a tolo:Person ;
+	owl:sameAs bdr:P3830 ;
+	skos:prefLabel "grags pa rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "grags pa rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_6402
+	a tolo:Person ;
+	owl:sameAs bdr:P4004 ;
+	skos:prefLabel "a bha yA kA ra gupta"@bo-X-ewts ;
+	tolo:preferredName "a bha yA kA ra gupta"@bo-X-ewts ;
+	.
+
+told:_Person_6676
+	a tolo:Person ;
+	owl:sameAs bdr:P4257 ;
+	skos:prefLabel "Mañjuśrīvarman"@en ;
+	tolo:preferredName "Mañjuśrīvarman"@en ;
+	.
+
+told:_Person_6995
+	a tolo:Person ;
+	skos:prefLabel "thub bstan bzod pa"@bo-X-ewts ;
+	tolo:preferredName "thub bstan bzod pa"@bo-X-ewts ;
+	.
+
+told:_Person_7009
+	a tolo:Person ;
+	skos:prefLabel "sprul sku don grub"@bo-X-ewts ;
+	tolo:preferredName "sprul sku don grub"@bo-X-ewts ;
+	.
+
+told:_Person_7033
+	a tolo:Person ;
+	owl:sameAs bdr:P4582 ;
+	skos:prefLabel "Trinle Lhundrub"@en ;
+	tolo:preferredName "Trinle Lhundrub"@en ;
+	.
+
+told:_Person_7122
+	a tolo:Person ;
+	owl:sameAs bdr:P4662 ;
+	skos:prefLabel "o rgyan bstan 'dzin"@bo-X-ewts ;
+	tolo:preferredName "o rgyan bstan 'dzin"@bo-X-ewts ;
+	.
+
+told:_Person_724
+	a tolo:Person ;
+	skos:prefLabel "rgyal ba jo bzang"@bo-X-ewts ;
+	tolo:preferredName "rgyal ba jo bzang"@bo-X-ewts ;
+	.
+
+told:_Person_7250
+	a tolo:Person ;
+	skos:prefLabel "tshe rnam"@bo-X-ewts ;
+	tolo:preferredName "tshe rnam"@bo-X-ewts ;
+	.
+
+told:_Person_7331
+	a tolo:Person ;
+	owl:sameAs bdr:P4853 ;
+	skos:prefLabel "byams pa 'phrin las"@bo-X-ewts ;
+	tolo:preferredName "byams pa 'phrin las"@bo-X-ewts ;
+	.
+
+told:_Person_7560
+	a tolo:Person ;
+	owl:sameAs bdr:P5063 ;
+	skos:prefLabel "pad+ma 'jigs med"@bo-X-ewts ;
+	tolo:preferredName "pad+ma 'jigs med"@bo-X-ewts ;
+	.
+
+told:_Person_7632
+	a tolo:Person ;
+	owl:sameAs bdr:P5129 ;
+	skos:prefLabel "pad+ma dam chos"@bo-X-ewts ;
+	tolo:preferredName "pad+ma dam chos"@bo-X-ewts ;
+	.
+
+told:_Person_7667
+	a tolo:Person ;
+	owl:sameAs bdr:P5161 ;
+	skos:prefLabel "ye shes snang ba"@bo-X-ewts ;
+	tolo:preferredName "ye shes snang ba"@bo-X-ewts ;
+	.
+
+told:_Person_7728
+	a tolo:Person ;
+	owl:sameAs bdr:P5218 ;
+	skos:prefLabel "a dpal"@bo-X-ewts ;
+	tolo:preferredName "a dpal"@bo-X-ewts ;
+	.
+
+told:_Person_8138
+	a tolo:Person ;
+	owl:sameAs bdr:P560 ;
+	skos:prefLabel "blo gter dbang po"@bo-X-ewts ;
+	tolo:preferredName "blo gter dbang po"@bo-X-ewts ;
+	.
+
+told:_Person_8147
+	a tolo:Person ;
+	skos:prefLabel "rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_8159
+	a tolo:Person ;
+	owl:sameAs bdr:P562 ;
+	skos:prefLabel "Tekchok Dorje"@en ;
+	tolo:preferredName "Tekchok Dorje"@en ;
+	.
+
+told:_Person_8170
+	a tolo:Person ;
+	owl:sameAs bdr:P563 ;
+	skos:prefLabel "Khakhyab Dorje"@en ;
+	tolo:preferredName "Khakhyab Dorje"@en ;
+	.
+
+told:_Person_8339
+	a tolo:Person ;
+	skos:prefLabel "kun dga' dbang phyug"@bo-X-ewts ;
+	tolo:preferredName "kun dga' dbang phyug"@bo-X-ewts ;
+	.
+
+told:_Person_8344
+	a tolo:Person ;
+	skos:prefLabel "pad+ma shes rab"@bo-X-ewts ;
+	tolo:preferredName "pad+ma shes rab"@bo-X-ewts ;
+	.
+
+told:_Person_8468
+	a tolo:Person ;
+	skos:prefLabel "don grub rin chen"@bo-X-ewts ;
+	tolo:preferredName "don grub rin chen"@bo-X-ewts ;
+	.
+
+told:_Person_8484
+	a tolo:Person ;
+	owl:sameAs bdr:P5920 ;
+	skos:prefLabel "jigs med rgya mtsho"@bo-X-ewts ;
+	tolo:preferredName "jigs med rgya mtsho"@bo-X-ewts ;
+	.
+
+told:_Person_8505
+	a tolo:Person ;
+	owl:sameAs bdr:P594 ;
+	skos:prefLabel "blo gros rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "blo gros rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_8506
+	a tolo:Person ;
+	owl:sameAs bdr:P5940 ;
+	skos:prefLabel "bkra shis rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "bkra shis rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_8508
+	a tolo:Person ;
+	owl:sameAs bdr:P5942 ;
+	skos:prefLabel "blo gros rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "blo gros rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_8514
+	a tolo:Person ;
+	skos:prefLabel "yon tan bzang po"@bo-X-ewts ;
+	tolo:preferredName "yon tan bzang po"@bo-X-ewts ;
+	.
+
+told:_Person_8570
+	a tolo:Person ;
+	owl:sameAs bdr:P6 ;
+	skos:prefLabel "pad+ma 'gyur med rgya mtsho"@bo-X-ewts ;
+	tolo:preferredName "pad+ma 'gyur med rgya mtsho"@bo-X-ewts ;
+	.
+
+told:_Person_8587
+	a tolo:Person ;
+	owl:sameAs bdr:P6014 ;
+	skos:prefLabel "bsod nams rin chen"@bo-X-ewts ;
+	tolo:preferredName "bsod nams rin chen"@bo-X-ewts ;
+	.
+
+told:_Person_8611
+	a tolo:Person ;
+	owl:sameAs bdr:P6036 ;
+	skos:prefLabel "sangs rgyas rdo rje"@bo-X-ewts ;
+	tolo:preferredName "sangs rgyas rdo rje"@bo-X-ewts ;
+	.
+
+told:_Person_8641
+	a tolo:Person ;
+	owl:sameAs bdr:P6063 ;
+	skos:prefLabel "ngag dbang kun dga' theg chen   dpal 'bar"@bo-X-ewts ;
+	tolo:preferredName "ngag dbang kun dga' theg chen   dpal 'bar"@bo-X-ewts ;
+	.
+
+told:_Person_8670
+	a tolo:Person ;
+	owl:sameAs bdr:P6090 ;
+	skos:prefLabel "tshul khrims bzang po"@bo-X-ewts ;
+	tolo:preferredName "tshul khrims bzang po"@bo-X-ewts ;
+	.
+
+told:_Person_8726
+	a tolo:Person ;
+	skos:prefLabel "karma nges don chos kyi blo   gros"@bo-X-ewts ;
+	tolo:preferredName "karma nges don chos kyi blo   gros"@bo-X-ewts ;
+	.
+
+told:_Person_8749
+	a tolo:Person ;
+	owl:sameAs bdr:P6163 ;
+	skos:prefLabel "dkar brgyud bstan 'dzin nor bu"@bo-X-ewts ;
+	tolo:preferredName "dkar brgyud bstan 'dzin nor bu"@bo-X-ewts ;
+	.
+
+told:_Person_8759
+	a tolo:Person ;
+	owl:sameAs bdr:P6175 ;
+	skos:prefLabel "bsod nams dpal ldan"@bo-X-ewts ;
+	tolo:preferredName "bsod nams dpal ldan"@bo-X-ewts ;
+	.
+
+told:_Person_8765
+	a tolo:Person ;
+	owl:sameAs bdr:P6180 ;
+	skos:prefLabel "rin chen dpal bzang"@bo-X-ewts ;
+	tolo:preferredName "rin chen dpal bzang"@bo-X-ewts ;
+	.
+
+told:_Person_8784
+	a tolo:Person ;
+	skos:prefLabel "don grub, sprul sku"@bo-X-ewts ;
+	tolo:preferredName "don grub, sprul sku"@bo-X-ewts ;
+	.
+
+told:_Person_8798
+	a tolo:Person ;
+	skos:prefLabel "bsod nams bzang po"@bo-X-ewts ;
+	tolo:preferredName "bsod nams bzang po"@bo-X-ewts ;
+	.
+
+told:_Person_8813
+	a tolo:Person ;
+	owl:sameAs bdr:P6239 ;
+	skos:prefLabel "jam dpal bzang po"@bo-X-ewts ;
+	tolo:preferredName "jam dpal bzang po"@bo-X-ewts ;
+	.
+
+told:_Person_8836
+	a tolo:Person ;
+	owl:sameAs bdr:P626 ;
+	skos:prefLabel "ngag dbang chos kyi blo gros"@bo-X-ewts ;
+	tolo:preferredName "ngag dbang chos kyi blo gros"@bo-X-ewts ;
+	.
+
+told:_Person_8887
+	a tolo:Person ;
+	skos:prefLabel "tshe dbang rig 'dzin"@bo-X-ewts ;
+	tolo:preferredName "tshe dbang rig 'dzin"@bo-X-ewts ;
+	.
+
+told:_Person_8895
+	a tolo:Person ;
+	owl:sameAs bdr:P6313 ;
+	skos:prefLabel "pad+ma gar dbang bstan 'dzin"@bo-X-ewts ;
+	tolo:preferredName "pad+ma gar dbang bstan 'dzin"@bo-X-ewts ;
+	.
+
+told:_Person_8899
+	a tolo:Person ;
+	owl:sameAs bdr:P6318 ;
+	skos:prefLabel "byams pa chos 'dzin"@bo-X-ewts ;
+	tolo:preferredName "byams pa chos 'dzin"@bo-X-ewts ;
+	.
+
+told:_Person_8918
+	a tolo:Person ;
+	skos:prefLabel "thub bstan gar dbang nyin byed"@bo-X-ewts ;
+	tolo:preferredName "thub bstan gar dbang nyin byed"@bo-X-ewts ;
+	.
+
+told:_Person_8920
+	a tolo:Person ;
+	owl:sameAs bdr:P6337 ;
+	skos:prefLabel "jigs med dkon mchog"@bo-X-ewts ;
+	tolo:preferredName "jigs med dkon mchog"@bo-X-ewts ;
+	.
+
+told:_Person_8925
+	a tolo:Person ;
+	skos:prefLabel "blo bzang bsam gtan"@bo-X-ewts ;
+	tolo:preferredName "blo bzang bsam gtan"@bo-X-ewts ;
+	.
+
+told:_Person_8927
+	a tolo:Person ;
+	skos:prefLabel "blo bzang tshul khrims"@bo-X-ewts ;
+	tolo:preferredName "blo bzang tshul khrims"@bo-X-ewts ;
+	.
+
+told:_Person_8928
+	a tolo:Person ;
+	skos:prefLabel "bstan 'dzin bzang po"@bo-X-ewts ;
+	tolo:preferredName "bstan 'dzin bzang po"@bo-X-ewts ;
+	.
+
+told:_Person_8930
+	a tolo:Person ;
+	skos:prefLabel "tsandra 'gyur med"@bo-X-ewts ;
+	tolo:preferredName "tsandra 'gyur med"@bo-X-ewts ;
+	.
+
+told:_Person_8947
+	a tolo:Person ;
+	owl:sameAs bdr:P6363 ;
+	skos:prefLabel "jam dpal blo gros"@bo-X-ewts ;
+	tolo:preferredName "jam dpal blo gros"@bo-X-ewts ;
+	.
+
+told:_Person_8958
+	a tolo:Person ;
+	skos:prefLabel "rig 'dzin bsod nams"@bo-X-ewts ;
+	tolo:preferredName "rig 'dzin bsod nams"@bo-X-ewts ;
+	.
+
+told:_Person_8974
+	a tolo:Person ;
+	skos:prefLabel "jigs bral chos kyi blo gros"@bo-X-ewts ;
+	tolo:preferredName "jigs bral chos kyi blo gros"@bo-X-ewts ;
+	.
+
+told:_Person_9019
+	a tolo:Person ;
+	owl:sameAs bdr:P6429 ;
+	skos:prefLabel "rol pa'i rdo rje"@bo-X-ewts ;
+	tolo:preferredName "rol pa'i rdo rje"@bo-X-ewts ;
+	.
+
+told:_Person_9083
+	a tolo:Person ;
+	owl:sameAs bdr:P6489 ;
+	skos:prefLabel "dpa' bo chos dbyings rdo rje"@bo-X-ewts ;
+	tolo:preferredName "dpa' bo chos dbyings rdo rje"@bo-X-ewts ;
+	.
+
+told:_Person_9275
+	a tolo:Person ;
+	owl:sameAs bdr:P667 ;
+	skos:prefLabel "d+harma shrI"@bo-X-ewts ;
+	tolo:preferredName "d+harma shrI"@bo-X-ewts ;
+	.
+
+told:_Person_9278
+	a tolo:Person ;
+	skos:prefLabel "nam mkha'i nor bu"@bo-X-ewts ;
+	tolo:preferredName "nam mkha'i nor bu"@bo-X-ewts ;
+	.
+
+told:_Person_9389
+	a tolo:Person ;
+	owl:sameAs bdr:P6775 ;
+	skos:prefLabel "byang chub snang ba"@bo-X-ewts ;
+	tolo:preferredName "byang chub snang ba"@bo-X-ewts ;
+	.
+
+told:_Person_9467
+	a tolo:Person ;
+	skos:prefLabel "pad+ma gtum po"@bo-X-ewts ;
+	tolo:preferredName "pad+ma gtum po"@bo-X-ewts ;
+	.
+
+told:_Person_9491
+	a tolo:Person ;
+	owl:sameAs bdr:P687 ;
+	skos:prefLabel "ngag gi dbang po"@bo-X-ewts ;
+	tolo:preferredName "ngag gi dbang po"@bo-X-ewts ;
+	.
+
+told:_Person_9502
+	a tolo:Person ;
+	skos:prefLabel "khyung po ras pa 'gyur med 'od   gsal"@bo-X-ewts ;
+	tolo:preferredName "khyung po ras pa 'gyur med 'od   gsal"@bo-X-ewts ;
+	.
+
+told:_Person_9586
+	a tolo:Person ;
+	skos:prefLabel "nor bu bstan 'dzin"@bo-X-ewts ;
+	tolo:preferredName "nor bu bstan 'dzin"@bo-X-ewts ;
+	.
+
+told:_Person_9587
+	a tolo:Person ;
+	owl:sameAs bdr:P6957 ;
+	skos:prefLabel "thub bstan chos 'phel"@bo-X-ewts ;
+	tolo:preferredName "thub bstan chos 'phel"@bo-X-ewts ;
+	.
+
+told:_Person_9633
+	a tolo:Person ;
+	owl:sameAs bdr:P7 ;
+	skos:prefLabel "gyur med rdo rje"@bo-X-ewts ;
+	tolo:preferredName "gyur med rdo rje"@bo-X-ewts ;
+	.
+
+told:_Person_9668
+	a tolo:Person ;
+	owl:sameAs bdr:P703 ;
+	skos:prefLabel "pad+ma dbang chen bstan 'dzin   'phrin las"@bo-X-ewts ;
+	tolo:preferredName "pad+ma dbang chen bstan 'dzin   'phrin las"@bo-X-ewts ;
+	.
+
+told:_Person_9677
+	a tolo:Person ;
+	owl:sameAs bdr:P704 ;
+	skos:prefLabel "e ta rA dza"@bo-X-ewts ;
+	tolo:preferredName "e ta rA dza"@bo-X-ewts ;
+	.
+
+told:_Person_9699
+	a tolo:Person ;
+	owl:sameAs bdr:P706 ;
+	skos:prefLabel "chos kyi rgya mtsho"@bo-X-ewts ;
+	tolo:preferredName "chos kyi rgya mtsho"@bo-X-ewts ;
+	.
+
+told:_Person_9709
+	a tolo:Person ;
+	owl:sameAs bdr:P707 ;
+	skos:prefLabel "pad+ma 'gro 'dul gsang sngags   gling pa"@bo-X-ewts ;
+	tolo:preferredName "pad+ma 'gro 'dul gsang sngags   gling pa"@bo-X-ewts ;
+	.
+
+told:_Person_9759
+	a tolo:Person ;
+	owl:sameAs bdr:P7116 ;
+	skos:prefLabel "nam mkha' rgyal po"@bo-X-ewts ;
+	tolo:preferredName "nam mkha' rgyal po"@bo-X-ewts ;
+	.
+
+told:_Person_9760
+	a tolo:Person ;
+	owl:sameAs bdr:P7117 ;
+	skos:prefLabel "karma gsal byed"@bo-X-ewts ;
+	tolo:preferredName "karma gsal byed"@bo-X-ewts ;
+	.
+
+told:_Person_9792
+	a tolo:Person ;
+	owl:sameAs bdr:P7147 ;
+	skos:prefLabel "dpal ldan blo gros rgyal mtshan"@bo-X-ewts ;
+	tolo:preferredName "dpal ldan blo gros rgyal mtshan"@bo-X-ewts ;
+	.
+
+told:_Person_9895
+	a tolo:Person ;
+	owl:sameAs bdr:P724 ;
+	skos:prefLabel "ngag dbang dpal bzang"@bo-X-ewts ;
+	tolo:preferredName "ngag dbang dpal bzang"@bo-X-ewts ;
+	.
+
+told:_Person_9934
+	a tolo:Person ;
+	owl:sameAs bdr:P7279 ;
+	skos:prefLabel "ngag dbang yon tan bzang po"@bo-X-ewts ;
+	tolo:preferredName "ngag dbang yon tan bzang po"@bo-X-ewts ;
+	.
+
+told:_Person_9966
+	a tolo:Person ;
+	owl:sameAs bdr:P7308 ;
+	skos:prefLabel "blo gros phun tshogs"@bo-X-ewts ;
+	tolo:preferredName "blo gros phun tshogs"@bo-X-ewts ;
+	.
+
+told:_Person_9979
+	a tolo:Person ;
+	owl:sameAs bdr:P732 ;
+	skos:prefLabel "thub bstan bshad sgrub rgya   mtsho"@bo-X-ewts ;
+	tolo:preferredName "thub bstan bshad sgrub rgya   mtsho"@bo-X-ewts ;
+	.
+
+told:_TeacherStudentRelationship_10001_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10001 and 12180"@en ;
+	gist:hasGiver told:_Person_10001 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_10001_13811
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10001 and 13811"@en ;
+	gist:hasGiver told:_Person_10001 ;
+	gist:hasRecipient told:_Person_13811 ;
+	.
+
+told:_TeacherStudentRelationship_10019_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10019 and 12180"@en ;
+	gist:hasGiver told:_Person_10019 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_10019_13648
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10019 and 13648"@en ;
+	gist:hasGiver told:_Person_10019 ;
+	gist:hasRecipient told:_Person_13648 ;
+	.
+
+told:_TeacherStudentRelationship_10019_13811
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10019 and 13811"@en ;
+	gist:hasGiver told:_Person_10019 ;
+	gist:hasRecipient told:_Person_13811 ;
+	.
+
+told:_TeacherStudentRelationship_10019_13834
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10019 and 13834"@en ;
+	gist:hasGiver told:_Person_10019 ;
+	gist:hasRecipient told:_Person_13834 ;
+	.
+
+told:_TeacherStudentRelationship_10019_13843
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10019 and 13843"@en ;
+	gist:hasGiver told:_Person_10019 ;
+	gist:hasRecipient told:_Person_13843 ;
+	.
+
+told:_TeacherStudentRelationship_10063_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10063 and 10355"@en ;
+	gist:hasGiver told:_Person_10063 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_10063_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10063 and 12479"@en ;
+	gist:hasGiver told:_Person_10063 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_10063_3955
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10063 and 3955"@en ;
+	gist:hasGiver told:_Person_10063 ;
+	gist:hasRecipient told:_Person_3955 ;
+	.
+
+told:_TeacherStudentRelationship_10073_3485
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10073 and 3485"@en ;
+	gist:hasGiver told:_Person_10073 ;
+	gist:hasRecipient told:_Person_3485 ;
+	.
+
+told:_TeacherStudentRelationship_10083_10073
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10083 and 10073"@en ;
+	gist:hasGiver told:_Person_10083 ;
+	gist:hasRecipient told:_Person_10073 ;
+	.
+
+told:_TeacherStudentRelationship_10083_11017
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10083 and 11017"@en ;
+	gist:hasGiver told:_Person_10083 ;
+	gist:hasRecipient told:_Person_11017 ;
+	.
+
+told:_TeacherStudentRelationship_10083_8574
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10083 and 8574"@en ;
+	gist:hasGiver told:_Person_10083 ;
+	gist:hasRecipient told:_Person_8574 ;
+	.
+
+told:_TeacherStudentRelationship_10083_8611
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10083 and 8611"@en ;
+	gist:hasGiver told:_Person_10083 ;
+	gist:hasRecipient told:_Person_8611 ;
+	.
+
+told:_TeacherStudentRelationship_10083_8618
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10083 and 8618"@en ;
+	gist:hasGiver told:_Person_10083 ;
+	gist:hasRecipient told:_Person_8618 ;
+	.
+
+told:_TeacherStudentRelationship_10083_8974
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10083 and 8974"@en ;
+	gist:hasGiver told:_Person_10083 ;
+	gist:hasRecipient told:_Person_8974 ;
+	.
+
+told:_TeacherStudentRelationship_10103_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10103 and 12180"@en ;
+	gist:hasGiver told:_Person_10103 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_10103_12839
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10103 and 12839"@en ;
+	gist:hasGiver told:_Person_10103 ;
+	gist:hasRecipient told:_Person_12839 ;
+	.
+
+told:_TeacherStudentRelationship_10103_13820
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10103 and 13820"@en ;
+	gist:hasGiver told:_Person_10103 ;
+	gist:hasRecipient told:_Person_13820 ;
+	.
+
+told:_TeacherStudentRelationship_10135_13648
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10135 and 13648"@en ;
+	gist:hasGiver told:_Person_10135 ;
+	gist:hasRecipient told:_Person_13648 ;
+	.
+
+told:_TeacherStudentRelationship_10169_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10169 and 12180"@en ;
+	gist:hasGiver told:_Person_10169 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_10203_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10203 and 12479"@en ;
+	gist:hasGiver told:_Person_10203 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_10203_13249
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10203 and 13249"@en ;
+	gist:hasGiver told:_Person_10203 ;
+	gist:hasRecipient told:_Person_13249 ;
+	.
+
+told:_TeacherStudentRelationship_10205_12741
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10205 and 12741"@en ;
+	gist:hasGiver told:_Person_10205 ;
+	gist:hasRecipient told:_Person_12741 ;
+	.
+
+told:_TeacherStudentRelationship_10280_13462
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10280 and 13462"@en ;
+	gist:hasGiver told:_Person_10280 ;
+	gist:hasRecipient told:_Person_13462 ;
+	.
+
+told:_TeacherStudentRelationship_10280_6405
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10280 and 6405"@en ;
+	gist:hasGiver told:_Person_10280 ;
+	gist:hasRecipient told:_Person_6405 ;
+	.
+
+told:_TeacherStudentRelationship_10326_12839
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10326 and 12839"@en ;
+	gist:hasGiver told:_Person_10326 ;
+	gist:hasRecipient told:_Person_12839 ;
+	.
+
+told:_TeacherStudentRelationship_10344_12741
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10344 and 12741"@en ;
+	gist:hasGiver told:_Person_10344 ;
+	gist:hasRecipient told:_Person_12741 ;
+	.
+
+told:_TeacherStudentRelationship_10355_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10355 and 12180"@en ;
+	gist:hasGiver told:_Person_10355 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_10355_12314
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10355 and 12314"@en ;
+	gist:hasGiver told:_Person_10355 ;
+	gist:hasRecipient told:_Person_12314 ;
+	.
+
+told:_TeacherStudentRelationship_10355_13249
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10355 and 13249"@en ;
+	gist:hasGiver told:_Person_10355 ;
+	gist:hasRecipient told:_Person_13249 ;
+	.
+
+told:_TeacherStudentRelationship_10449_12741
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10449 and 12741"@en ;
+	gist:hasGiver told:_Person_10449 ;
+	gist:hasRecipient told:_Person_12741 ;
+	.
+
+told:_TeacherStudentRelationship_10449_12745
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10449 and 12745"@en ;
+	gist:hasGiver told:_Person_10449 ;
+	gist:hasRecipient told:_Person_12745 ;
+	.
+
+told:_TeacherStudentRelationship_10450_13795
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10450 and 13795"@en ;
+	gist:hasGiver told:_Person_10450 ;
+	gist:hasRecipient told:_Person_13795 ;
+	.
+
+told:_TeacherStudentRelationship_10454_13825
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10454 and 13825"@en ;
+	gist:hasGiver told:_Person_10454 ;
+	gist:hasRecipient told:_Person_13825 ;
+	.
+
+told:_TeacherStudentRelationship_10548_9761
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10548 and 9761"@en ;
+	gist:hasGiver told:_Person_10548 ;
+	gist:hasRecipient told:_Person_9761 ;
+	.
+
+told:_TeacherStudentRelationship_10711_2424
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10711 and 2424"@en ;
+	gist:hasGiver told:_Person_10711 ;
+	gist:hasRecipient told:_Person_2424 ;
+	.
+
+told:_TeacherStudentRelationship_10743_12839
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10743 and 12839"@en ;
+	gist:hasGiver told:_Person_10743 ;
+	gist:hasRecipient told:_Person_12839 ;
+	.
+
+told:_TeacherStudentRelationship_10743_13747
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10743 and 13747"@en ;
+	gist:hasGiver told:_Person_10743 ;
+	gist:hasRecipient told:_Person_13747 ;
+	.
+
+told:_TeacherStudentRelationship_10743_13748
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10743 and 13748"@en ;
+	gist:hasGiver told:_Person_10743 ;
+	gist:hasRecipient told:_Person_13748 ;
+	.
+
+told:_TeacherStudentRelationship_10795_13796
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10795 and 13796"@en ;
+	gist:hasGiver told:_Person_10795 ;
+	gist:hasRecipient told:_Person_13796 ;
+	.
+
+told:_TeacherStudentRelationship_10815_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10815 and 10355"@en ;
+	gist:hasGiver told:_Person_10815 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_10815_12553
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10815 and 12553"@en ;
+	gist:hasGiver told:_Person_10815 ;
+	gist:hasRecipient told:_Person_12553 ;
+	.
+
+told:_TeacherStudentRelationship_10815_13246
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10815 and 13246"@en ;
+	gist:hasGiver told:_Person_10815 ;
+	gist:hasRecipient told:_Person_13246 ;
+	.
+
+told:_TeacherStudentRelationship_10815_13248
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10815 and 13248"@en ;
+	gist:hasGiver told:_Person_10815 ;
+	gist:hasRecipient told:_Person_13248 ;
+	.
+
+told:_TeacherStudentRelationship_10815_13249
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10815 and 13249"@en ;
+	gist:hasGiver told:_Person_10815 ;
+	gist:hasRecipient told:_Person_13249 ;
+	.
+
+told:_TeacherStudentRelationship_10815_4820
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10815 and 4820"@en ;
+	gist:hasGiver told:_Person_10815 ;
+	gist:hasRecipient told:_Person_4820 ;
+	.
+
+told:_TeacherStudentRelationship_10815_8507
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10815 and 8507"@en ;
+	gist:hasGiver told:_Person_10815 ;
+	gist:hasRecipient told:_Person_8507 ;
+	.
+
+told:_TeacherStudentRelationship_10827_13688
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10827 and 13688"@en ;
+	gist:hasGiver told:_Person_10827 ;
+	gist:hasRecipient told:_Person_13688 ;
+	.
+
+told:_TeacherStudentRelationship_10904_9618
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10904 and 9618"@en ;
+	gist:hasGiver told:_Person_10904 ;
+	gist:hasRecipient told:_Person_9618 ;
+	.
+
+told:_TeacherStudentRelationship_10984_13839
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 10984 and 13839"@en ;
+	gist:hasGiver told:_Person_10984 ;
+	gist:hasRecipient told:_Person_13839 ;
+	.
+
+told:_TeacherStudentRelationship_11003_11266
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11003 and 11266"@en ;
+	gist:hasGiver told:_Person_11003 ;
+	gist:hasRecipient told:_Person_11266 ;
+	.
+
+told:_TeacherStudentRelationship_11003_2541
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11003 and 2541"@en ;
+	gist:hasGiver told:_Person_11003 ;
+	gist:hasRecipient told:_Person_2541 ;
+	.
+
+told:_TeacherStudentRelationship_11003_9083
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11003 and 9083"@en ;
+	gist:hasGiver told:_Person_11003 ;
+	gist:hasRecipient told:_Person_9083 ;
+	.
+
+told:_TeacherStudentRelationship_11031_12171
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11031 and 12171"@en ;
+	gist:hasGiver told:_Person_11031 ;
+	gist:hasRecipient told:_Person_12171 ;
+	.
+
+told:_TeacherStudentRelationship_11158_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11158 and 12479"@en ;
+	gist:hasGiver told:_Person_11158 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_11158_12613
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11158 and 12613"@en ;
+	gist:hasGiver told:_Person_11158 ;
+	gist:hasRecipient told:_Person_12613 ;
+	.
+
+told:_TeacherStudentRelationship_11158_13721
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11158 and 13721"@en ;
+	gist:hasGiver told:_Person_11158 ;
+	gist:hasRecipient told:_Person_13721 ;
+	.
+
+told:_TeacherStudentRelationship_11158_13793
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11158 and 13793"@en ;
+	gist:hasGiver told:_Person_11158 ;
+	gist:hasRecipient told:_Person_13793 ;
+	.
+
+told:_TeacherStudentRelationship_11158_13801
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11158 and 13801"@en ;
+	gist:hasGiver told:_Person_11158 ;
+	gist:hasRecipient told:_Person_13801 ;
+	.
+
+told:_TeacherStudentRelationship_11158_4310
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11158 and 4310"@en ;
+	gist:hasGiver told:_Person_11158 ;
+	gist:hasRecipient told:_Person_4310 ;
+	.
+
+told:_TeacherStudentRelationship_11178_13840
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11178 and 13840"@en ;
+	gist:hasGiver told:_Person_11178 ;
+	gist:hasRecipient told:_Person_13840 ;
+	.
+
+told:_TeacherStudentRelationship_11183_1869
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11183 and 1869"@en ;
+	gist:hasGiver told:_Person_11183 ;
+	gist:hasRecipient told:_Person_1869 ;
+	.
+
+told:_TeacherStudentRelationship_11183_4613
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11183 and 4613"@en ;
+	gist:hasGiver told:_Person_11183 ;
+	gist:hasRecipient told:_Person_4613 ;
+	.
+
+told:_TeacherStudentRelationship_11259_8972
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11259 and 8972"@en ;
+	gist:hasGiver told:_Person_11259 ;
+	gist:hasRecipient told:_Person_8972 ;
+	.
+
+told:_TeacherStudentRelationship_11265_8972
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11265 and 8972"@en ;
+	gist:hasGiver told:_Person_11265 ;
+	gist:hasRecipient told:_Person_8972 ;
+	.
+
+told:_TeacherStudentRelationship_11363_11385
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11363 and 11385"@en ;
+	gist:hasGiver told:_Person_11363 ;
+	gist:hasRecipient told:_Person_11385 ;
+	.
+
+told:_TeacherStudentRelationship_11385_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11385 and 10355"@en ;
+	gist:hasGiver told:_Person_11385 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_11385_11231
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11385 and 11231"@en ;
+	gist:hasGiver told:_Person_11385 ;
+	gist:hasRecipient told:_Person_11231 ;
+	.
+
+told:_TeacherStudentRelationship_11385_11252
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11385 and 11252"@en ;
+	gist:hasGiver told:_Person_11385 ;
+	gist:hasRecipient told:_Person_11252 ;
+	.
+
+told:_TeacherStudentRelationship_11385_11274
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11385 and 11274"@en ;
+	gist:hasGiver told:_Person_11385 ;
+	gist:hasRecipient told:_Person_11274 ;
+	.
+
+told:_TeacherStudentRelationship_11385_11437
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11385 and 11437"@en ;
+	gist:hasGiver told:_Person_11385 ;
+	gist:hasRecipient told:_Person_11437 ;
+	.
+
+told:_TeacherStudentRelationship_11385_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11385 and 12180"@en ;
+	gist:hasGiver told:_Person_11385 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_11385_12653
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11385 and 12653"@en ;
+	gist:hasGiver told:_Person_11385 ;
+	gist:hasRecipient told:_Person_12653 ;
+	.
+
+told:_TeacherStudentRelationship_11385_13747
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11385 and 13747"@en ;
+	gist:hasGiver told:_Person_11385 ;
+	gist:hasRecipient told:_Person_13747 ;
+	.
+
+told:_TeacherStudentRelationship_11385_13820
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11385 and 13820"@en ;
+	gist:hasGiver told:_Person_11385 ;
+	gist:hasRecipient told:_Person_13820 ;
+	.
+
+told:_TeacherStudentRelationship_11385_13821
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11385 and 13821"@en ;
+	gist:hasGiver told:_Person_11385 ;
+	gist:hasRecipient told:_Person_13821 ;
+	.
+
+told:_TeacherStudentRelationship_11385_13842
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11385 and 13842"@en ;
+	gist:hasGiver told:_Person_11385 ;
+	gist:hasRecipient told:_Person_13842 ;
+	.
+
+told:_TeacherStudentRelationship_11385_2165
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11385 and 2165"@en ;
+	gist:hasGiver told:_Person_11385 ;
+	gist:hasRecipient told:_Person_2165 ;
+	.
+
+told:_TeacherStudentRelationship_11418_11385
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11418 and 11385"@en ;
+	gist:hasGiver told:_Person_11418 ;
+	gist:hasRecipient told:_Person_11385 ;
+	.
+
+told:_TeacherStudentRelationship_11418_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11418 and 12180"@en ;
+	gist:hasGiver told:_Person_11418 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_11428_13811
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11428 and 13811"@en ;
+	gist:hasGiver told:_Person_11428 ;
+	gist:hasRecipient told:_Person_13811 ;
+	.
+
+told:_TeacherStudentRelationship_11433_9594
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11433 and 9594"@en ;
+	gist:hasGiver told:_Person_11433 ;
+	gist:hasRecipient told:_Person_9594 ;
+	.
+
+told:_TeacherStudentRelationship_11437_4168
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 11437 and 4168"@en ;
+	gist:hasGiver told:_Person_11437 ;
+	gist:hasRecipient told:_Person_4168 ;
+	.
+
+told:_TeacherStudentRelationship_12040_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12040 and 10355"@en ;
+	gist:hasGiver told:_Person_12040 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_12040_11290
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12040 and 11290"@en ;
+	gist:hasGiver told:_Person_12040 ;
+	gist:hasRecipient told:_Person_11290 ;
+	.
+
+told:_TeacherStudentRelationship_12040_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12040 and 12180"@en ;
+	gist:hasGiver told:_Person_12040 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_12040_13841
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12040 and 13841"@en ;
+	gist:hasGiver told:_Person_12040 ;
+	gist:hasRecipient told:_Person_13841 ;
+	.
+
+told:_TeacherStudentRelationship_12040_2069
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12040 and 2069"@en ;
+	gist:hasGiver told:_Person_12040 ;
+	gist:hasRecipient told:_Person_2069 ;
+	.
+
+told:_TeacherStudentRelationship_12040_8507
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12040 and 8507"@en ;
+	gist:hasGiver told:_Person_12040 ;
+	gist:hasRecipient told:_Person_8507 ;
+	.
+
+told:_TeacherStudentRelationship_12093_11385
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12093 and 11385"@en ;
+	gist:hasGiver told:_Person_12093 ;
+	gist:hasRecipient told:_Person_11385 ;
+	.
+
+told:_TeacherStudentRelationship_12104_11385
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12104 and 11385"@en ;
+	gist:hasGiver told:_Person_12104 ;
+	gist:hasRecipient told:_Person_11385 ;
+	.
+
+told:_TeacherStudentRelationship_12104_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12104 and 12180"@en ;
+	gist:hasGiver told:_Person_12104 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_12169_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12169 and 12180"@en ;
+	gist:hasGiver told:_Person_12169 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_12169_13820
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12169 and 13820"@en ;
+	gist:hasGiver told:_Person_12169 ;
+	gist:hasRecipient told:_Person_13820 ;
+	.
+
+told:_TeacherStudentRelationship_12171_10987
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12171 and 10987"@en ;
+	gist:hasGiver told:_Person_12171 ;
+	gist:hasRecipient told:_Person_10987 ;
+	.
+
+told:_TeacherStudentRelationship_12171_10988
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12171 and 10988"@en ;
+	gist:hasGiver told:_Person_12171 ;
+	gist:hasRecipient told:_Person_10988 ;
+	.
+
+told:_TeacherStudentRelationship_12171_10991
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12171 and 10991"@en ;
+	gist:hasGiver told:_Person_12171 ;
+	gist:hasRecipient told:_Person_10991 ;
+	.
+
+told:_TeacherStudentRelationship_12171_10992
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12171 and 10992"@en ;
+	gist:hasGiver told:_Person_12171 ;
+	gist:hasRecipient told:_Person_10992 ;
+	.
+
+told:_TeacherStudentRelationship_12171_10993
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12171 and 10993"@en ;
+	gist:hasGiver told:_Person_12171 ;
+	gist:hasRecipient told:_Person_10993 ;
+	.
+
+told:_TeacherStudentRelationship_12171_10994
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12171 and 10994"@en ;
+	gist:hasGiver told:_Person_12171 ;
+	gist:hasRecipient told:_Person_10994 ;
+	.
+
+told:_TeacherStudentRelationship_12171_10996
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12171 and 10996"@en ;
+	gist:hasGiver told:_Person_12171 ;
+	gist:hasRecipient told:_Person_10996 ;
+	.
+
+told:_TeacherStudentRelationship_12171_10997
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12171 and 10997"@en ;
+	gist:hasGiver told:_Person_12171 ;
+	gist:hasRecipient told:_Person_10997 ;
+	.
+
+told:_TeacherStudentRelationship_12171_10998
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12171 and 10998"@en ;
+	gist:hasGiver told:_Person_12171 ;
+	gist:hasRecipient told:_Person_10998 ;
+	.
+
+told:_TeacherStudentRelationship_12171_11095
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12171 and 11095"@en ;
+	gist:hasGiver told:_Person_12171 ;
+	gist:hasRecipient told:_Person_11095 ;
+	.
+
+told:_TeacherStudentRelationship_12171_8918
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12171 and 8918"@en ;
+	gist:hasGiver told:_Person_12171 ;
+	gist:hasRecipient told:_Person_8918 ;
+	.
+
+told:_TeacherStudentRelationship_12171_8925
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12171 and 8925"@en ;
+	gist:hasGiver told:_Person_12171 ;
+	gist:hasRecipient told:_Person_8925 ;
+	.
+
+told:_TeacherStudentRelationship_12171_8927
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12171 and 8927"@en ;
+	gist:hasGiver told:_Person_12171 ;
+	gist:hasRecipient told:_Person_8927 ;
+	.
+
+told:_TeacherStudentRelationship_12171_8928
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12171 and 8928"@en ;
+	gist:hasGiver told:_Person_12171 ;
+	gist:hasRecipient told:_Person_8928 ;
+	.
+
+told:_TeacherStudentRelationship_12171_8930
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12171 and 8930"@en ;
+	gist:hasGiver told:_Person_12171 ;
+	gist:hasRecipient told:_Person_8930 ;
+	.
+
+told:_TeacherStudentRelationship_12171_8958
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12171 and 8958"@en ;
+	gist:hasGiver told:_Person_12171 ;
+	gist:hasRecipient told:_Person_8958 ;
+	.
+
+told:_TeacherStudentRelationship_12171_9467
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12171 and 9467"@en ;
+	gist:hasGiver told:_Person_12171 ;
+	gist:hasRecipient told:_Person_9467 ;
+	.
+
+told:_TeacherStudentRelationship_12180_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12180 and 10355"@en ;
+	gist:hasGiver told:_Person_12180 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_12180_11252
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12180 and 11252"@en ;
+	gist:hasGiver told:_Person_12180 ;
+	gist:hasRecipient told:_Person_11252 ;
+	.
+
+told:_TeacherStudentRelationship_12180_11274
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12180 and 11274"@en ;
+	gist:hasGiver told:_Person_12180 ;
+	gist:hasRecipient told:_Person_11274 ;
+	.
+
+told:_TeacherStudentRelationship_12180_11437
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12180 and 11437"@en ;
+	gist:hasGiver told:_Person_12180 ;
+	gist:hasRecipient told:_Person_11437 ;
+	.
+
+told:_TeacherStudentRelationship_12180_13658
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12180 and 13658"@en ;
+	gist:hasGiver told:_Person_12180 ;
+	gist:hasRecipient told:_Person_13658 ;
+	.
+
+told:_TeacherStudentRelationship_12180_2150
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12180 and 2150"@en ;
+	gist:hasGiver told:_Person_12180 ;
+	gist:hasRecipient told:_Person_2150 ;
+	.
+
+told:_TeacherStudentRelationship_12180_2165
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12180 and 2165"@en ;
+	gist:hasGiver told:_Person_12180 ;
+	gist:hasRecipient told:_Person_2165 ;
+	.
+
+told:_TeacherStudentRelationship_12180_3790
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12180 and 3790"@en ;
+	gist:hasGiver told:_Person_12180 ;
+	gist:hasRecipient told:_Person_3790 ;
+	.
+
+told:_TeacherStudentRelationship_12180_8147
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12180 and 8147"@en ;
+	gist:hasGiver told:_Person_12180 ;
+	gist:hasRecipient told:_Person_8147 ;
+	.
+
+told:_TeacherStudentRelationship_12180_8726
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12180 and 8726"@en ;
+	gist:hasGiver told:_Person_12180 ;
+	gist:hasRecipient told:_Person_8726 ;
+	.
+
+told:_TeacherStudentRelationship_12180_8798
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12180 and 8798"@en ;
+	gist:hasGiver told:_Person_12180 ;
+	gist:hasRecipient told:_Person_8798 ;
+	.
+
+told:_TeacherStudentRelationship_12264_13838
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12264 and 13838"@en ;
+	gist:hasGiver told:_Person_12264 ;
+	gist:hasRecipient told:_Person_13838 ;
+	.
+
+told:_TeacherStudentRelationship_12371_13839
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12371 and 13839"@en ;
+	gist:hasGiver told:_Person_12371 ;
+	gist:hasRecipient told:_Person_13839 ;
+	.
+
+told:_TeacherStudentRelationship_12381_13839
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12381 and 13839"@en ;
+	gist:hasGiver told:_Person_12381 ;
+	gist:hasRecipient told:_Person_13839 ;
+	.
+
+told:_TeacherStudentRelationship_12403_2939
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12403 and 2939"@en ;
+	gist:hasGiver told:_Person_12403 ;
+	gist:hasRecipient told:_Person_2939 ;
+	.
+
+told:_TeacherStudentRelationship_12435_12745
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12435 and 12745"@en ;
+	gist:hasGiver told:_Person_12435 ;
+	gist:hasRecipient told:_Person_12745 ;
+	.
+
+told:_TeacherStudentRelationship_12479_13576
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12479 and 13576"@en ;
+	gist:hasGiver told:_Person_12479 ;
+	gist:hasRecipient told:_Person_13576 ;
+	.
+
+told:_TeacherStudentRelationship_12479_13632
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12479 and 13632"@en ;
+	gist:hasGiver told:_Person_12479 ;
+	gist:hasRecipient told:_Person_13632 ;
+	.
+
+told:_TeacherStudentRelationship_12479_13745
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12479 and 13745"@en ;
+	gist:hasGiver told:_Person_12479 ;
+	gist:hasRecipient told:_Person_13745 ;
+	.
+
+told:_TeacherStudentRelationship_12479_8641
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12479 and 8641"@en ;
+	gist:hasGiver told:_Person_12479 ;
+	gist:hasRecipient told:_Person_8641 ;
+	.
+
+told:_TeacherStudentRelationship_12489_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12489 and 10355"@en ;
+	gist:hasGiver told:_Person_12489 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_12500_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12500 and 10355"@en ;
+	gist:hasGiver told:_Person_12500 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_12504_13693
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12504 and 13693"@en ;
+	gist:hasGiver told:_Person_12504 ;
+	gist:hasRecipient told:_Person_13693 ;
+	.
+
+told:_TeacherStudentRelationship_12504_13694
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12504 and 13694"@en ;
+	gist:hasGiver told:_Person_12504 ;
+	gist:hasRecipient told:_Person_13694 ;
+	.
+
+told:_TeacherStudentRelationship_12522_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12522 and 10355"@en ;
+	gist:hasGiver told:_Person_12522 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_12522_11290
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12522 and 11290"@en ;
+	gist:hasGiver told:_Person_12522 ;
+	gist:hasRecipient told:_Person_11290 ;
+	.
+
+told:_TeacherStudentRelationship_12522_13654
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12522 and 13654"@en ;
+	gist:hasGiver told:_Person_12522 ;
+	gist:hasRecipient told:_Person_13654 ;
+	.
+
+told:_TeacherStudentRelationship_12522_13707
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12522 and 13707"@en ;
+	gist:hasGiver told:_Person_12522 ;
+	gist:hasRecipient told:_Person_13707 ;
+	.
+
+told:_TeacherStudentRelationship_12522_4820
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12522 and 4820"@en ;
+	gist:hasGiver told:_Person_12522 ;
+	gist:hasRecipient told:_Person_4820 ;
+	.
+
+told:_TeacherStudentRelationship_12532_12839
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12532 and 12839"@en ;
+	gist:hasGiver told:_Person_12532 ;
+	gist:hasRecipient told:_Person_12839 ;
+	.
+
+told:_TeacherStudentRelationship_12532_8507
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12532 and 8507"@en ;
+	gist:hasGiver told:_Person_12532 ;
+	gist:hasRecipient told:_Person_8507 ;
+	.
+
+told:_TeacherStudentRelationship_12533_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12533 and 10355"@en ;
+	gist:hasGiver told:_Person_12533 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_12533_12553
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12533 and 12553"@en ;
+	gist:hasGiver told:_Person_12533 ;
+	gist:hasRecipient told:_Person_12553 ;
+	.
+
+told:_TeacherStudentRelationship_12553_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12553 and 10355"@en ;
+	gist:hasGiver told:_Person_12553 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_12553_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12553 and 12479"@en ;
+	gist:hasGiver told:_Person_12553 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_12553_12613
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12553 and 12613"@en ;
+	gist:hasGiver told:_Person_12553 ;
+	gist:hasRecipient told:_Person_12613 ;
+	.
+
+told:_TeacherStudentRelationship_12553_13248
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12553 and 13248"@en ;
+	gist:hasGiver told:_Person_12553 ;
+	gist:hasRecipient told:_Person_13248 ;
+	.
+
+told:_TeacherStudentRelationship_12553_13250
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12553 and 13250"@en ;
+	gist:hasGiver told:_Person_12553 ;
+	gist:hasRecipient told:_Person_13250 ;
+	.
+
+told:_TeacherStudentRelationship_12553_13251
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12553 and 13251"@en ;
+	gist:hasGiver told:_Person_12553 ;
+	gist:hasRecipient told:_Person_13251 ;
+	.
+
+told:_TeacherStudentRelationship_12553_13252
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12553 and 13252"@en ;
+	gist:hasGiver told:_Person_12553 ;
+	gist:hasRecipient told:_Person_13252 ;
+	.
+
+told:_TeacherStudentRelationship_12553_13654
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12553 and 13654"@en ;
+	gist:hasGiver told:_Person_12553 ;
+	gist:hasRecipient told:_Person_13654 ;
+	.
+
+told:_TeacherStudentRelationship_12553_13801
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12553 and 13801"@en ;
+	gist:hasGiver told:_Person_12553 ;
+	gist:hasRecipient told:_Person_13801 ;
+	.
+
+told:_TeacherStudentRelationship_12553_4820
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12553 and 4820"@en ;
+	gist:hasGiver told:_Person_12553 ;
+	gist:hasRecipient told:_Person_4820 ;
+	.
+
+told:_TeacherStudentRelationship_12553_8641
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12553 and 8641"@en ;
+	gist:hasGiver told:_Person_12553 ;
+	gist:hasRecipient told:_Person_8641 ;
+	.
+
+told:_TeacherStudentRelationship_12584_12745
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12584 and 12745"@en ;
+	gist:hasGiver told:_Person_12584 ;
+	gist:hasRecipient told:_Person_12745 ;
+	.
+
+told:_TeacherStudentRelationship_12584_13186
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12584 and 13186"@en ;
+	gist:hasGiver told:_Person_12584 ;
+	gist:hasRecipient told:_Person_13186 ;
+	.
+
+told:_TeacherStudentRelationship_12602_5894
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12602 and 5894"@en ;
+	gist:hasGiver told:_Person_12602 ;
+	gist:hasRecipient told:_Person_5894 ;
+	.
+
+told:_TeacherStudentRelationship_12606_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12606 and 12479"@en ;
+	gist:hasGiver told:_Person_12606 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_12613_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12613 and 12479"@en ;
+	gist:hasGiver told:_Person_12613 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_12613_13745
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12613 and 13745"@en ;
+	gist:hasGiver told:_Person_12613 ;
+	gist:hasRecipient told:_Person_13745 ;
+	.
+
+told:_TeacherStudentRelationship_12613_13803
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12613 and 13803"@en ;
+	gist:hasGiver told:_Person_12613 ;
+	gist:hasRecipient told:_Person_13803 ;
+	.
+
+told:_TeacherStudentRelationship_12613_4310
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12613 and 4310"@en ;
+	gist:hasGiver told:_Person_12613 ;
+	gist:hasRecipient told:_Person_4310 ;
+	.
+
+told:_TeacherStudentRelationship_12617_4310
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12617 and 4310"@en ;
+	gist:hasGiver told:_Person_12617 ;
+	gist:hasRecipient told:_Person_4310 ;
+	.
+
+told:_TeacherStudentRelationship_12625_9761
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12625 and 9761"@en ;
+	gist:hasGiver told:_Person_12625 ;
+	gist:hasRecipient told:_Person_9761 ;
+	.
+
+told:_TeacherStudentRelationship_12629_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12629 and 12479"@en ;
+	gist:hasGiver told:_Person_12629 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_12629_7882
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12629 and 7882"@en ;
+	gist:hasGiver told:_Person_12629 ;
+	gist:hasRecipient told:_Person_7882 ;
+	.
+
+told:_TeacherStudentRelationship_12741_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12741 and 10355"@en ;
+	gist:hasGiver told:_Person_12741 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_12741_12489
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12741 and 12489"@en ;
+	gist:hasGiver told:_Person_12741 ;
+	gist:hasRecipient told:_Person_12489 ;
+	.
+
+told:_TeacherStudentRelationship_12741_12553
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12741 and 12553"@en ;
+	gist:hasGiver told:_Person_12741 ;
+	gist:hasRecipient told:_Person_12553 ;
+	.
+
+told:_TeacherStudentRelationship_12741_13677
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12741 and 13677"@en ;
+	gist:hasGiver told:_Person_12741 ;
+	gist:hasRecipient told:_Person_13677 ;
+	.
+
+told:_TeacherStudentRelationship_12741_13679
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12741 and 13679"@en ;
+	gist:hasGiver told:_Person_12741 ;
+	gist:hasRecipient told:_Person_13679 ;
+	.
+
+told:_TeacherStudentRelationship_12741_4820
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12741 and 4820"@en ;
+	gist:hasGiver told:_Person_12741 ;
+	gist:hasRecipient told:_Person_4820 ;
+	.
+
+told:_TeacherStudentRelationship_12742_7632
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12742 and 7632"@en ;
+	gist:hasGiver told:_Person_12742 ;
+	gist:hasRecipient told:_Person_7632 ;
+	.
+
+told:_TeacherStudentRelationship_12743_12314
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12743 and 12314"@en ;
+	gist:hasGiver told:_Person_12743 ;
+	gist:hasRecipient told:_Person_12314 ;
+	.
+
+told:_TeacherStudentRelationship_12743_7632
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12743 and 7632"@en ;
+	gist:hasGiver told:_Person_12743 ;
+	gist:hasRecipient told:_Person_7632 ;
+	.
+
+told:_TeacherStudentRelationship_12743_9278
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12743 and 9278"@en ;
+	gist:hasGiver told:_Person_12743 ;
+	gist:hasRecipient told:_Person_9278 ;
+	.
+
+told:_TeacherStudentRelationship_12745_12553
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12745 and 12553"@en ;
+	gist:hasGiver told:_Person_12745 ;
+	gist:hasRecipient told:_Person_12553 ;
+	.
+
+told:_TeacherStudentRelationship_12745_13186
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12745 and 13186"@en ;
+	gist:hasGiver told:_Person_12745 ;
+	gist:hasRecipient told:_Person_13186 ;
+	.
+
+told:_TeacherStudentRelationship_12745_13677
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12745 and 13677"@en ;
+	gist:hasGiver told:_Person_12745 ;
+	gist:hasRecipient told:_Person_13677 ;
+	.
+
+told:_TeacherStudentRelationship_12775_12171
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12775 and 12171"@en ;
+	gist:hasGiver told:_Person_12775 ;
+	gist:hasRecipient told:_Person_12171 ;
+	.
+
+told:_TeacherStudentRelationship_12776_12171
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12776 and 12171"@en ;
+	gist:hasGiver told:_Person_12776 ;
+	gist:hasRecipient told:_Person_12171 ;
+	.
+
+told:_TeacherStudentRelationship_12777_12171
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12777 and 12171"@en ;
+	gist:hasGiver told:_Person_12777 ;
+	gist:hasRecipient told:_Person_12171 ;
+	.
+
+told:_TeacherStudentRelationship_12800_8454
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12800 and 8454"@en ;
+	gist:hasGiver told:_Person_12800 ;
+	gist:hasRecipient told:_Person_8454 ;
+	.
+
+told:_TeacherStudentRelationship_12838_1268
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12838 and 1268"@en ;
+	gist:hasGiver told:_Person_12838 ;
+	gist:hasRecipient told:_Person_1268 ;
+	.
+
+told:_TeacherStudentRelationship_12839_10019
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12839 and 10019"@en ;
+	gist:hasGiver told:_Person_12839 ;
+	gist:hasRecipient told:_Person_10019 ;
+	.
+
+told:_TeacherStudentRelationship_12839_13820
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12839 and 13820"@en ;
+	gist:hasGiver told:_Person_12839 ;
+	gist:hasRecipient told:_Person_13820 ;
+	.
+
+told:_TeacherStudentRelationship_12906_13162
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 12906 and 13162"@en ;
+	gist:hasGiver told:_Person_12906 ;
+	gist:hasRecipient told:_Person_13162 ;
+	.
+
+told:_TeacherStudentRelationship_13111_2424
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13111 and 2424"@en ;
+	gist:hasGiver told:_Person_13111 ;
+	gist:hasRecipient told:_Person_2424 ;
+	.
+
+told:_TeacherStudentRelationship_1311_8455
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 1311 and 8455"@en ;
+	gist:hasGiver told:_Person_1311 ;
+	gist:hasRecipient told:_Person_8455 ;
+	.
+
+told:_TeacherStudentRelationship_13186_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13186 and 10355"@en ;
+	gist:hasGiver told:_Person_13186 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_13186_13717
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13186 and 13717"@en ;
+	gist:hasGiver told:_Person_13186 ;
+	gist:hasRecipient told:_Person_13717 ;
+	.
+
+told:_TeacherStudentRelationship_13186_4310
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13186 and 4310"@en ;
+	gist:hasGiver told:_Person_13186 ;
+	gist:hasRecipient told:_Person_4310 ;
+	.
+
+told:_TeacherStudentRelationship_13186_8641
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13186 and 8641"@en ;
+	gist:hasGiver told:_Person_13186 ;
+	gist:hasRecipient told:_Person_8641 ;
+	.
+
+told:_TeacherStudentRelationship_13216_11437
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13216 and 11437"@en ;
+	gist:hasGiver told:_Person_13216 ;
+	gist:hasRecipient told:_Person_11437 ;
+	.
+
+told:_TeacherStudentRelationship_13218_3822
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13218 and 3822"@en ;
+	gist:hasGiver told:_Person_13218 ;
+	gist:hasRecipient told:_Person_3822 ;
+	.
+
+told:_TeacherStudentRelationship_13246_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13246 and 12479"@en ;
+	gist:hasGiver told:_Person_13246 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_13248_13252
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13248 and 13252"@en ;
+	gist:hasGiver told:_Person_13248 ;
+	gist:hasRecipient told:_Person_13252 ;
+	.
+
+told:_TeacherStudentRelationship_13248_13253
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13248 and 13253"@en ;
+	gist:hasGiver told:_Person_13248 ;
+	gist:hasRecipient told:_Person_13253 ;
+	.
+
+told:_TeacherStudentRelationship_13248_8641
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13248 and 8641"@en ;
+	gist:hasGiver told:_Person_13248 ;
+	gist:hasRecipient told:_Person_8641 ;
+	.
+
+told:_TeacherStudentRelationship_13249_8339
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13249 and 8339"@en ;
+	gist:hasGiver told:_Person_13249 ;
+	gist:hasRecipient told:_Person_8339 ;
+	.
+
+told:_TeacherStudentRelationship_13251_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13251 and 10355"@en ;
+	gist:hasGiver told:_Person_13251 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_13282_12981
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13282 and 12981"@en ;
+	gist:hasGiver told:_Person_13282 ;
+	gist:hasRecipient told:_Person_12981 ;
+	.
+
+told:_TeacherStudentRelationship_13553_2162
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13553 and 2162"@en ;
+	gist:hasGiver told:_Person_13553 ;
+	gist:hasRecipient told:_Person_2162 ;
+	.
+
+told:_TeacherStudentRelationship_13554_13836
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13554 and 13836"@en ;
+	gist:hasGiver told:_Person_13554 ;
+	gist:hasRecipient told:_Person_13836 ;
+	.
+
+told:_TeacherStudentRelationship_13556_13837
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13556 and 13837"@en ;
+	gist:hasGiver told:_Person_13556 ;
+	gist:hasRecipient told:_Person_13837 ;
+	.
+
+told:_TeacherStudentRelationship_13575_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13575 and 12180"@en ;
+	gist:hasGiver told:_Person_13575 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_13576_11437
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13576 and 11437"@en ;
+	gist:hasGiver told:_Person_13576 ;
+	gist:hasRecipient told:_Person_11437 ;
+	.
+
+told:_TeacherStudentRelationship_13576_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13576 and 12180"@en ;
+	gist:hasGiver told:_Person_13576 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_13576_8972
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13576 and 8972"@en ;
+	gist:hasGiver told:_Person_13576 ;
+	gist:hasRecipient told:_Person_8972 ;
+	.
+
+told:_TeacherStudentRelationship_13577_12839
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13577 and 12839"@en ;
+	gist:hasGiver told:_Person_13577 ;
+	gist:hasRecipient told:_Person_12839 ;
+	.
+
+told:_TeacherStudentRelationship_13598_12439
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13598 and 12439"@en ;
+	gist:hasGiver told:_Person_13598 ;
+	gist:hasRecipient told:_Person_12439 ;
+	.
+
+told:_TeacherStudentRelationship_13599_13821
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13599 and 13821"@en ;
+	gist:hasGiver told:_Person_13599 ;
+	gist:hasRecipient told:_Person_13821 ;
+	.
+
+told:_TeacherStudentRelationship_13647_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13647 and 12479"@en ;
+	gist:hasGiver told:_Person_13647 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_13647_13249
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13647 and 13249"@en ;
+	gist:hasGiver told:_Person_13647 ;
+	gist:hasRecipient told:_Person_13249 ;
+	.
+
+told:_TeacherStudentRelationship_13652_6995
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13652 and 6995"@en ;
+	gist:hasGiver told:_Person_13652 ;
+	gist:hasRecipient told:_Person_6995 ;
+	.
+
+told:_TeacherStudentRelationship_13654_13659
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13654 and 13659"@en ;
+	gist:hasGiver told:_Person_13654 ;
+	gist:hasRecipient told:_Person_13659 ;
+	.
+
+told:_TeacherStudentRelationship_13654_3790
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13654 and 3790"@en ;
+	gist:hasGiver told:_Person_13654 ;
+	gist:hasRecipient told:_Person_3790 ;
+	.
+
+told:_TeacherStudentRelationship_13654_9278
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13654 and 9278"@en ;
+	gist:hasGiver told:_Person_13654 ;
+	gist:hasRecipient told:_Person_9278 ;
+	.
+
+told:_TeacherStudentRelationship_13659_9278
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13659 and 9278"@en ;
+	gist:hasGiver told:_Person_13659 ;
+	gist:hasRecipient told:_Person_9278 ;
+	.
+
+told:_TeacherStudentRelationship_13660_6194
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13660 and 6194"@en ;
+	gist:hasGiver told:_Person_13660 ;
+	gist:hasRecipient told:_Person_6194 ;
+	.
+
+told:_TeacherStudentRelationship_13662_6194
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13662 and 6194"@en ;
+	gist:hasGiver told:_Person_13662 ;
+	gist:hasRecipient told:_Person_6194 ;
+	.
+
+told:_TeacherStudentRelationship_13667_11437
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13667 and 11437"@en ;
+	gist:hasGiver told:_Person_13667 ;
+	gist:hasRecipient told:_Person_11437 ;
+	.
+
+told:_TeacherStudentRelationship_13667_7882
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13667 and 7882"@en ;
+	gist:hasGiver told:_Person_13667 ;
+	gist:hasRecipient told:_Person_7882 ;
+	.
+
+told:_TeacherStudentRelationship_13677_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13677 and 10355"@en ;
+	gist:hasGiver told:_Person_13677 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_13678_12741
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13678 and 12741"@en ;
+	gist:hasGiver told:_Person_13678 ;
+	gist:hasRecipient told:_Person_12741 ;
+	.
+
+told:_TeacherStudentRelationship_13678_13186
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13678 and 13186"@en ;
+	gist:hasGiver told:_Person_13678 ;
+	gist:hasRecipient told:_Person_13186 ;
+	.
+
+told:_TeacherStudentRelationship_13678_13677
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13678 and 13677"@en ;
+	gist:hasGiver told:_Person_13678 ;
+	gist:hasRecipient told:_Person_13677 ;
+	.
+
+told:_TeacherStudentRelationship_13679_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13679 and 10355"@en ;
+	gist:hasGiver told:_Person_13679 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_13679_12613
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13679 and 12613"@en ;
+	gist:hasGiver told:_Person_13679 ;
+	gist:hasRecipient told:_Person_12613 ;
+	.
+
+told:_TeacherStudentRelationship_13679_13801
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13679 and 13801"@en ;
+	gist:hasGiver told:_Person_13679 ;
+	gist:hasRecipient told:_Person_13801 ;
+	.
+
+told:_TeacherStudentRelationship_13679_4820
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13679 and 4820"@en ;
+	gist:hasGiver told:_Person_13679 ;
+	gist:hasRecipient told:_Person_4820 ;
+	.
+
+told:_TeacherStudentRelationship_13679_8825
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13679 and 8825"@en ;
+	gist:hasGiver told:_Person_13679 ;
+	gist:hasRecipient told:_Person_8825 ;
+	.
+
+told:_TeacherStudentRelationship_13680_12741
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13680 and 12741"@en ;
+	gist:hasGiver told:_Person_13680 ;
+	gist:hasRecipient told:_Person_12741 ;
+	.
+
+told:_TeacherStudentRelationship_13685_12171
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13685 and 12171"@en ;
+	gist:hasGiver told:_Person_13685 ;
+	gist:hasRecipient told:_Person_12171 ;
+	.
+
+told:_TeacherStudentRelationship_13686_11385
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13686 and 11385"@en ;
+	gist:hasGiver told:_Person_13686 ;
+	gist:hasRecipient told:_Person_11385 ;
+	.
+
+told:_TeacherStudentRelationship_13686_11407
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13686 and 11407"@en ;
+	gist:hasGiver told:_Person_13686 ;
+	gist:hasRecipient told:_Person_11407 ;
+	.
+
+told:_TeacherStudentRelationship_13686_12839
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13686 and 12839"@en ;
+	gist:hasGiver told:_Person_13686 ;
+	gist:hasRecipient told:_Person_12839 ;
+	.
+
+told:_TeacherStudentRelationship_13686_13747
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13686 and 13747"@en ;
+	gist:hasGiver told:_Person_13686 ;
+	gist:hasRecipient told:_Person_13747 ;
+	.
+
+told:_TeacherStudentRelationship_13686_13748
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13686 and 13748"@en ;
+	gist:hasGiver told:_Person_13686 ;
+	gist:hasRecipient told:_Person_13748 ;
+	.
+
+told:_TeacherStudentRelationship_13686_13749
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13686 and 13749"@en ;
+	gist:hasGiver told:_Person_13686 ;
+	gist:hasRecipient told:_Person_13749 ;
+	.
+
+told:_TeacherStudentRelationship_13686_13750
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13686 and 13750"@en ;
+	gist:hasGiver told:_Person_13686 ;
+	gist:hasRecipient told:_Person_13750 ;
+	.
+
+told:_TeacherStudentRelationship_13686_8170
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13686 and 8170"@en ;
+	gist:hasGiver told:_Person_13686 ;
+	gist:hasRecipient told:_Person_8170 ;
+	.
+
+told:_TeacherStudentRelationship_13688_13617
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13688 and 13617"@en ;
+	gist:hasGiver told:_Person_13688 ;
+	gist:hasRecipient told:_Person_13617 ;
+	.
+
+told:_TeacherStudentRelationship_13689_7009
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13689 and 7009"@en ;
+	gist:hasGiver told:_Person_13689 ;
+	gist:hasRecipient told:_Person_7009 ;
+	.
+
+told:_TeacherStudentRelationship_13689_9945
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13689 and 9945"@en ;
+	gist:hasGiver told:_Person_13689 ;
+	gist:hasRecipient told:_Person_9945 ;
+	.
+
+told:_TeacherStudentRelationship_13692_12839
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13692 and 12839"@en ;
+	gist:hasGiver told:_Person_13692 ;
+	gist:hasRecipient told:_Person_12839 ;
+	.
+
+told:_TeacherStudentRelationship_13692_13747
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13692 and 13747"@en ;
+	gist:hasGiver told:_Person_13692 ;
+	gist:hasRecipient told:_Person_13747 ;
+	.
+
+told:_TeacherStudentRelationship_13692_13748
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13692 and 13748"@en ;
+	gist:hasGiver told:_Person_13692 ;
+	gist:hasRecipient told:_Person_13748 ;
+	.
+
+told:_TeacherStudentRelationship_13692_13749
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13692 and 13749"@en ;
+	gist:hasGiver told:_Person_13692 ;
+	gist:hasRecipient told:_Person_13749 ;
+	.
+
+told:_TeacherStudentRelationship_13692_13750
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13692 and 13750"@en ;
+	gist:hasGiver told:_Person_13692 ;
+	gist:hasRecipient told:_Person_13750 ;
+	.
+
+told:_TeacherStudentRelationship_13693_13695
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13693 and 13695"@en ;
+	gist:hasGiver told:_Person_13693 ;
+	gist:hasRecipient told:_Person_13695 ;
+	.
+
+told:_TeacherStudentRelationship_13694_13695
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13694 and 13695"@en ;
+	gist:hasGiver told:_Person_13694 ;
+	gist:hasRecipient told:_Person_13695 ;
+	.
+
+told:_TeacherStudentRelationship_13707_12314
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13707 and 12314"@en ;
+	gist:hasGiver told:_Person_13707 ;
+	gist:hasRecipient told:_Person_12314 ;
+	.
+
+told:_TeacherStudentRelationship_13707_12742
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13707 and 12742"@en ;
+	gist:hasGiver told:_Person_13707 ;
+	gist:hasRecipient told:_Person_12742 ;
+	.
+
+told:_TeacherStudentRelationship_13707_12743
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13707 and 12743"@en ;
+	gist:hasGiver told:_Person_13707 ;
+	gist:hasRecipient told:_Person_12743 ;
+	.
+
+told:_TeacherStudentRelationship_13707_13252
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13707 and 13252"@en ;
+	gist:hasGiver told:_Person_13707 ;
+	gist:hasRecipient told:_Person_13252 ;
+	.
+
+told:_TeacherStudentRelationship_13707_13253
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13707 and 13253"@en ;
+	gist:hasGiver told:_Person_13707 ;
+	gist:hasRecipient told:_Person_13253 ;
+	.
+
+told:_TeacherStudentRelationship_13707_13701
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13707 and 13701"@en ;
+	gist:hasGiver told:_Person_13707 ;
+	gist:hasRecipient told:_Person_13701 ;
+	.
+
+told:_TeacherStudentRelationship_13707_8339
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13707 and 8339"@en ;
+	gist:hasGiver told:_Person_13707 ;
+	gist:hasRecipient told:_Person_8339 ;
+	.
+
+told:_TeacherStudentRelationship_13707_8514
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13707 and 8514"@en ;
+	gist:hasGiver told:_Person_13707 ;
+	gist:hasRecipient told:_Person_8514 ;
+	.
+
+told:_TeacherStudentRelationship_13707_8641
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13707 and 8641"@en ;
+	gist:hasGiver told:_Person_13707 ;
+	gist:hasRecipient told:_Person_8641 ;
+	.
+
+told:_TeacherStudentRelationship_13721_12613
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13721 and 12613"@en ;
+	gist:hasGiver told:_Person_13721 ;
+	gist:hasRecipient told:_Person_12613 ;
+	.
+
+told:_TeacherStudentRelationship_13721_13801
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13721 and 13801"@en ;
+	gist:hasGiver told:_Person_13721 ;
+	gist:hasRecipient told:_Person_13801 ;
+	.
+
+told:_TeacherStudentRelationship_13747_12839
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13747 and 12839"@en ;
+	gist:hasGiver told:_Person_13747 ;
+	gist:hasRecipient told:_Person_12839 ;
+	.
+
+told:_TeacherStudentRelationship_13748_12839
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13748 and 12839"@en ;
+	gist:hasGiver told:_Person_13748 ;
+	gist:hasRecipient told:_Person_12839 ;
+	.
+
+told:_TeacherStudentRelationship_13748_13686
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13748 and 13686"@en ;
+	gist:hasGiver told:_Person_13748 ;
+	gist:hasRecipient told:_Person_13686 ;
+	.
+
+told:_TeacherStudentRelationship_13749_12169
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13749 and 12169"@en ;
+	gist:hasGiver told:_Person_13749 ;
+	gist:hasRecipient told:_Person_12169 ;
+	.
+
+told:_TeacherStudentRelationship_13749_8825
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13749 and 8825"@en ;
+	gist:hasGiver told:_Person_13749 ;
+	gist:hasRecipient told:_Person_8825 ;
+	.
+
+told:_TeacherStudentRelationship_13773_1113
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13773 and 1113"@en ;
+	gist:hasGiver told:_Person_13773 ;
+	gist:hasRecipient told:_Person_1113 ;
+	.
+
+told:_TeacherStudentRelationship_13773_332
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13773 and 332"@en ;
+	gist:hasGiver told:_Person_13773 ;
+	gist:hasRecipient told:_Person_332 ;
+	.
+
+told:_TeacherStudentRelationship_13773_334
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13773 and 334"@en ;
+	gist:hasGiver told:_Person_13773 ;
+	gist:hasRecipient told:_Person_334 ;
+	.
+
+told:_TeacherStudentRelationship_13773_5628
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13773 and 5628"@en ;
+	gist:hasGiver told:_Person_13773 ;
+	gist:hasRecipient told:_Person_5628 ;
+	.
+
+told:_TeacherStudentRelationship_13774_13773
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13774 and 13773"@en ;
+	gist:hasGiver told:_Person_13774 ;
+	gist:hasRecipient told:_Person_13773 ;
+	.
+
+told:_TeacherStudentRelationship_13793_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13793 and 12479"@en ;
+	gist:hasGiver told:_Person_13793 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_13795_9990
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13795 and 9990"@en ;
+	gist:hasGiver told:_Person_13795 ;
+	gist:hasRecipient told:_Person_9990 ;
+	.
+
+told:_TeacherStudentRelationship_13796_10450
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13796 and 10450"@en ;
+	gist:hasGiver told:_Person_13796 ;
+	gist:hasRecipient told:_Person_10450 ;
+	.
+
+told:_TeacherStudentRelationship_13796_12553
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13796 and 12553"@en ;
+	gist:hasGiver told:_Person_13796 ;
+	gist:hasRecipient told:_Person_12553 ;
+	.
+
+told:_TeacherStudentRelationship_13796_4291
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13796 and 4291"@en ;
+	gist:hasGiver told:_Person_13796 ;
+	gist:hasRecipient told:_Person_4291 ;
+	.
+
+told:_TeacherStudentRelationship_13796_8138
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13796 and 8138"@en ;
+	gist:hasGiver told:_Person_13796 ;
+	gist:hasRecipient told:_Person_8138 ;
+	.
+
+told:_TeacherStudentRelationship_13798_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13798 and 12479"@en ;
+	gist:hasGiver told:_Person_13798 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_13798_4310
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13798 and 4310"@en ;
+	gist:hasGiver told:_Person_13798 ;
+	gist:hasRecipient told:_Person_4310 ;
+	.
+
+told:_TeacherStudentRelationship_13806_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13806 and 12479"@en ;
+	gist:hasGiver told:_Person_13806 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_13806_8468
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13806 and 8468"@en ;
+	gist:hasGiver told:_Person_13806 ;
+	gist:hasRecipient told:_Person_8468 ;
+	.
+
+told:_TeacherStudentRelationship_13807_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13807 and 12479"@en ;
+	gist:hasGiver told:_Person_13807 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_13808_11437
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13808 and 11437"@en ;
+	gist:hasGiver told:_Person_13808 ;
+	gist:hasRecipient told:_Person_11437 ;
+	.
+
+told:_TeacherStudentRelationship_13808_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13808 and 12479"@en ;
+	gist:hasGiver told:_Person_13808 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_13811_8784
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13811 and 8784"@en ;
+	gist:hasGiver told:_Person_13811 ;
+	gist:hasRecipient told:_Person_8784 ;
+	.
+
+told:_TeacherStudentRelationship_13822_12403
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13822 and 12403"@en ;
+	gist:hasGiver told:_Person_13822 ;
+	gist:hasRecipient told:_Person_12403 ;
+	.
+
+told:_TeacherStudentRelationship_13827_2424
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13827 and 2424"@en ;
+	gist:hasGiver told:_Person_13827 ;
+	gist:hasRecipient told:_Person_2424 ;
+	.
+
+told:_TeacherStudentRelationship_13828_13697
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13828 and 13697"@en ;
+	gist:hasGiver told:_Person_13828 ;
+	gist:hasRecipient told:_Person_13697 ;
+	.
+
+told:_TeacherStudentRelationship_13828_13811
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 13828 and 13811"@en ;
+	gist:hasGiver told:_Person_13828 ;
+	gist:hasRecipient told:_Person_13811 ;
+	.
+
+told:_TeacherStudentRelationship_1616_11437
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 1616 and 11437"@en ;
+	gist:hasGiver told:_Person_1616 ;
+	gist:hasRecipient told:_Person_11437 ;
+	.
+
+told:_TeacherStudentRelationship_1817_13688
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 1817 and 13688"@en ;
+	gist:hasGiver told:_Person_1817 ;
+	gist:hasRecipient told:_Person_13688 ;
+	.
+
+told:_TeacherStudentRelationship_200_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 200 and 12180"@en ;
+	gist:hasGiver told:_Person_200 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_2069_12743
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2069 and 12743"@en ;
+	gist:hasGiver told:_Person_2069 ;
+	gist:hasRecipient told:_Person_12743 ;
+	.
+
+told:_TeacherStudentRelationship_2162_13554
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2162 and 13554"@en ;
+	gist:hasGiver told:_Person_2162 ;
+	gist:hasRecipient told:_Person_13554 ;
+	.
+
+told:_TeacherStudentRelationship_2246_13683
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2246 and 13683"@en ;
+	gist:hasGiver told:_Person_2246 ;
+	gist:hasRecipient told:_Person_13683 ;
+	.
+
+told:_TeacherStudentRelationship_2328_2442
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2328 and 2442"@en ;
+	gist:hasGiver told:_Person_2328 ;
+	gist:hasRecipient told:_Person_2442 ;
+	.
+
+told:_TeacherStudentRelationship_2418_13120
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2418 and 13120"@en ;
+	gist:hasGiver told:_Person_2418 ;
+	gist:hasRecipient told:_Person_13120 ;
+	.
+
+told:_TeacherStudentRelationship_2418_276
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2418 and 276"@en ;
+	gist:hasGiver told:_Person_2418 ;
+	gist:hasRecipient told:_Person_276 ;
+	.
+
+told:_TeacherStudentRelationship_2419_10386
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2419 and 10386"@en ;
+	gist:hasGiver told:_Person_2419 ;
+	gist:hasRecipient told:_Person_10386 ;
+	.
+
+told:_TeacherStudentRelationship_2419_7613
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2419 and 7613"@en ;
+	gist:hasGiver told:_Person_2419 ;
+	gist:hasRecipient told:_Person_7613 ;
+	.
+
+told:_TeacherStudentRelationship_2483_8730
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2483 and 8730"@en ;
+	gist:hasGiver told:_Person_2483 ;
+	gist:hasRecipient told:_Person_8730 ;
+	.
+
+told:_TeacherStudentRelationship_2484_7881
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2484 and 7881"@en ;
+	gist:hasGiver told:_Person_2484 ;
+	gist:hasRecipient told:_Person_7881 ;
+	.
+
+told:_TeacherStudentRelationship_2491_3266
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2491 and 3266"@en ;
+	gist:hasGiver told:_Person_2491 ;
+	gist:hasRecipient told:_Person_3266 ;
+	.
+
+told:_TeacherStudentRelationship_2541_13685
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2541 and 13685"@en ;
+	gist:hasGiver told:_Person_2541 ;
+	gist:hasRecipient told:_Person_13685 ;
+	.
+
+told:_TeacherStudentRelationship_2570_4086
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2570 and 4086"@en ;
+	gist:hasGiver told:_Person_2570 ;
+	gist:hasRecipient told:_Person_4086 ;
+	.
+
+told:_TeacherStudentRelationship_2653_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2653 and 12180"@en ;
+	gist:hasGiver told:_Person_2653 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_2653_13841
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2653 and 13841"@en ;
+	gist:hasGiver told:_Person_2653 ;
+	gist:hasRecipient told:_Person_13841 ;
+	.
+
+told:_TeacherStudentRelationship_2661_1659
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2661 and 1659"@en ;
+	gist:hasGiver told:_Person_2661 ;
+	gist:hasRecipient told:_Person_1659 ;
+	.
+
+told:_TeacherStudentRelationship_2662_13838
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2662 and 13838"@en ;
+	gist:hasGiver told:_Person_2662 ;
+	gist:hasRecipient told:_Person_13838 ;
+	.
+
+told:_TeacherStudentRelationship_2670_4086
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2670 and 4086"@en ;
+	gist:hasGiver told:_Person_2670 ;
+	gist:hasRecipient told:_Person_4086 ;
+	.
+
+told:_TeacherStudentRelationship_2673_8181
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2673 and 8181"@en ;
+	gist:hasGiver told:_Person_2673 ;
+	gist:hasRecipient told:_Person_8181 ;
+	.
+
+told:_TeacherStudentRelationship_2730_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2730 and 10355"@en ;
+	gist:hasGiver told:_Person_2730 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_2733_8455
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2733 and 8455"@en ;
+	gist:hasGiver told:_Person_2733 ;
+	gist:hasRecipient told:_Person_8455 ;
+	.
+
+told:_TeacherStudentRelationship_2758_1902
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2758 and 1902"@en ;
+	gist:hasGiver told:_Person_2758 ;
+	gist:hasRecipient told:_Person_1902 ;
+	.
+
+told:_TeacherStudentRelationship_2768_8454
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2768 and 8454"@en ;
+	gist:hasGiver told:_Person_2768 ;
+	gist:hasRecipient told:_Person_8454 ;
+	.
+
+told:_TeacherStudentRelationship_2776_8455
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2776 and 8455"@en ;
+	gist:hasGiver told:_Person_2776 ;
+	gist:hasRecipient told:_Person_8455 ;
+	.
+
+told:_TeacherStudentRelationship_2788_7882
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2788 and 7882"@en ;
+	gist:hasGiver told:_Person_2788 ;
+	gist:hasRecipient told:_Person_7882 ;
+	.
+
+told:_TeacherStudentRelationship_2799_13462
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2799 and 13462"@en ;
+	gist:hasGiver told:_Person_2799 ;
+	gist:hasRecipient told:_Person_13462 ;
+	.
+
+told:_TeacherStudentRelationship_2799_7373
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2799 and 7373"@en ;
+	gist:hasGiver told:_Person_2799 ;
+	gist:hasRecipient told:_Person_7373 ;
+	.
+
+told:_TeacherStudentRelationship_2801_4086
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2801 and 4086"@en ;
+	gist:hasGiver told:_Person_2801 ;
+	gist:hasRecipient told:_Person_4086 ;
+	.
+
+told:_TeacherStudentRelationship_2810_6010
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2810 and 6010"@en ;
+	gist:hasGiver told:_Person_2810 ;
+	gist:hasRecipient told:_Person_6010 ;
+	.
+
+told:_TeacherStudentRelationship_2845_3266
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2845 and 3266"@en ;
+	gist:hasGiver told:_Person_2845 ;
+	gist:hasRecipient told:_Person_3266 ;
+	.
+
+told:_TeacherStudentRelationship_2939_13652
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2939 and 13652"@en ;
+	gist:hasGiver told:_Person_2939 ;
+	gist:hasRecipient told:_Person_13652 ;
+	.
+
+told:_TeacherStudentRelationship_2940_3955
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2940 and 3955"@en ;
+	gist:hasGiver told:_Person_2940 ;
+	gist:hasRecipient told:_Person_3955 ;
+	.
+
+told:_TeacherStudentRelationship_2944_12171
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2944 and 12171"@en ;
+	gist:hasGiver told:_Person_2944 ;
+	gist:hasRecipient told:_Person_12171 ;
+	.
+
+told:_TeacherStudentRelationship_294_13688
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 294 and 13688"@en ;
+	gist:hasGiver told:_Person_294 ;
+	gist:hasRecipient told:_Person_13688 ;
+	.
+
+told:_TeacherStudentRelationship_2953_2945
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 2953 and 2945"@en ;
+	gist:hasGiver told:_Person_2953 ;
+	gist:hasRecipient told:_Person_2945 ;
+	.
+
+told:_TeacherStudentRelationship_3152_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3152 and 12479"@en ;
+	gist:hasGiver told:_Person_3152 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_3152_13843
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3152 and 13843"@en ;
+	gist:hasGiver told:_Person_3152 ;
+	gist:hasRecipient told:_Person_13843 ;
+	.
+
+told:_TeacherStudentRelationship_3153_4164
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3153 and 4164"@en ;
+	gist:hasGiver told:_Person_3153 ;
+	gist:hasRecipient told:_Person_4164 ;
+	.
+
+told:_TeacherStudentRelationship_3204_8454
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3204 and 8454"@en ;
+	gist:hasGiver told:_Person_3204 ;
+	gist:hasRecipient told:_Person_8454 ;
+	.
+
+told:_TeacherStudentRelationship_3307_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3307 and 12479"@en ;
+	gist:hasGiver told:_Person_3307 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_3307_13812
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3307 and 13812"@en ;
+	gist:hasGiver told:_Person_3307 ;
+	gist:hasRecipient told:_Person_13812 ;
+	.
+
+told:_TeacherStudentRelationship_3307_13823
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3307 and 13823"@en ;
+	gist:hasGiver told:_Person_3307 ;
+	gist:hasRecipient told:_Person_13823 ;
+	.
+
+told:_TeacherStudentRelationship_3307_2541
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3307 and 2541"@en ;
+	gist:hasGiver told:_Person_3307 ;
+	gist:hasRecipient told:_Person_2541 ;
+	.
+
+told:_TeacherStudentRelationship_3307_4310
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3307 and 4310"@en ;
+	gist:hasGiver told:_Person_3307 ;
+	gist:hasRecipient told:_Person_4310 ;
+	.
+
+told:_TeacherStudentRelationship_330_13773
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 330 and 13773"@en ;
+	gist:hasGiver told:_Person_330 ;
+	gist:hasRecipient told:_Person_13773 ;
+	.
+
+told:_TeacherStudentRelationship_3633_3485
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3633 and 3485"@en ;
+	gist:hasGiver told:_Person_3633 ;
+	gist:hasRecipient told:_Person_3485 ;
+	.
+
+told:_TeacherStudentRelationship_3639_3485
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3639 and 3485"@en ;
+	gist:hasGiver told:_Person_3639 ;
+	gist:hasRecipient told:_Person_3485 ;
+	.
+
+told:_TeacherStudentRelationship_3790_11437
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3790 and 11437"@en ;
+	gist:hasGiver told:_Person_3790 ;
+	gist:hasRecipient told:_Person_11437 ;
+	.
+
+told:_TeacherStudentRelationship_3790_7007
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3790 and 7007"@en ;
+	gist:hasGiver told:_Person_3790 ;
+	gist:hasRecipient told:_Person_7007 ;
+	.
+
+told:_TeacherStudentRelationship_3819_8454
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3819 and 8454"@en ;
+	gist:hasGiver told:_Person_3819 ;
+	gist:hasRecipient told:_Person_8454 ;
+	.
+
+told:_TeacherStudentRelationship_3819_8455
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3819 and 8455"@en ;
+	gist:hasGiver told:_Person_3819 ;
+	gist:hasRecipient told:_Person_8455 ;
+	.
+
+told:_TeacherStudentRelationship_3822_13510
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3822 and 13510"@en ;
+	gist:hasGiver told:_Person_3822 ;
+	gist:hasRecipient told:_Person_13510 ;
+	.
+
+told:_TeacherStudentRelationship_3822_2541
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3822 and 2541"@en ;
+	gist:hasGiver told:_Person_3822 ;
+	gist:hasRecipient told:_Person_2541 ;
+	.
+
+told:_TeacherStudentRelationship_3822_2758
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3822 and 2758"@en ;
+	gist:hasGiver told:_Person_3822 ;
+	gist:hasRecipient told:_Person_2758 ;
+	.
+
+told:_TeacherStudentRelationship_3822_7882
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3822 and 7882"@en ;
+	gist:hasGiver told:_Person_3822 ;
+	gist:hasRecipient told:_Person_7882 ;
+	.
+
+told:_TeacherStudentRelationship_3857_5894
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3857 and 5894"@en ;
+	gist:hasGiver told:_Person_3857 ;
+	gist:hasRecipient told:_Person_5894 ;
+	.
+
+told:_TeacherStudentRelationship_3891_2521
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3891 and 2521"@en ;
+	gist:hasGiver told:_Person_3891 ;
+	gist:hasRecipient told:_Person_2521 ;
+	.
+
+told:_TeacherStudentRelationship_3908_13821
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3908 and 13821"@en ;
+	gist:hasGiver told:_Person_3908 ;
+	gist:hasRecipient told:_Person_13821 ;
+	.
+
+told:_TeacherStudentRelationship_3955_12439
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3955 and 12439"@en ;
+	gist:hasGiver told:_Person_3955 ;
+	gist:hasRecipient told:_Person_12439 ;
+	.
+
+told:_TeacherStudentRelationship_3955_13598
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3955 and 13598"@en ;
+	gist:hasGiver told:_Person_3955 ;
+	gist:hasRecipient told:_Person_13598 ;
+	.
+
+told:_TeacherStudentRelationship_3955_13693
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3955 and 13693"@en ;
+	gist:hasGiver told:_Person_3955 ;
+	gist:hasRecipient told:_Person_13693 ;
+	.
+
+told:_TeacherStudentRelationship_3955_13694
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3955 and 13694"@en ;
+	gist:hasGiver told:_Person_3955 ;
+	gist:hasRecipient told:_Person_13694 ;
+	.
+
+told:_TeacherStudentRelationship_3989_11437
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3989 and 11437"@en ;
+	gist:hasGiver told:_Person_3989 ;
+	gist:hasRecipient told:_Person_11437 ;
+	.
+
+told:_TeacherStudentRelationship_3989_13666
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3989 and 13666"@en ;
+	gist:hasGiver told:_Person_3989 ;
+	gist:hasRecipient told:_Person_13666 ;
+	.
+
+told:_TeacherStudentRelationship_3989_3955
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3989 and 3955"@en ;
+	gist:hasGiver told:_Person_3989 ;
+	gist:hasRecipient told:_Person_3955 ;
+	.
+
+told:_TeacherStudentRelationship_3989_8156
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 3989 and 8156"@en ;
+	gist:hasGiver told:_Person_3989 ;
+	gist:hasRecipient told:_Person_8156 ;
+	.
+
+told:_TeacherStudentRelationship_4022_2758
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4022 and 2758"@en ;
+	gist:hasGiver told:_Person_4022 ;
+	gist:hasRecipient told:_Person_2758 ;
+	.
+
+told:_TeacherStudentRelationship_4066_1902
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4066 and 1902"@en ;
+	gist:hasGiver told:_Person_4066 ;
+	gist:hasRecipient told:_Person_1902 ;
+	.
+
+told:_TeacherStudentRelationship_4086_13244
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4086 and 13244"@en ;
+	gist:hasGiver told:_Person_4086 ;
+	gist:hasRecipient told:_Person_13244 ;
+	.
+
+told:_TeacherStudentRelationship_4086_8986
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4086 and 8986"@en ;
+	gist:hasGiver told:_Person_4086 ;
+	gist:hasRecipient told:_Person_8986 ;
+	.
+
+told:_TeacherStudentRelationship_4164_13552
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4164 and 13552"@en ;
+	gist:hasGiver told:_Person_4164 ;
+	gist:hasRecipient told:_Person_13552 ;
+	.
+
+told:_TeacherStudentRelationship_4164_13656
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4164 and 13656"@en ;
+	gist:hasGiver told:_Person_4164 ;
+	gist:hasRecipient told:_Person_13656 ;
+	.
+
+told:_TeacherStudentRelationship_4164_3674
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4164 and 3674"@en ;
+	gist:hasGiver told:_Person_4164 ;
+	gist:hasRecipient told:_Person_3674 ;
+	.
+
+told:_TeacherStudentRelationship_4164_4216
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4164 and 4216"@en ;
+	gist:hasGiver told:_Person_4164 ;
+	gist:hasRecipient told:_Person_4216 ;
+	.
+
+told:_TeacherStudentRelationship_4164_6735
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4164 and 6735"@en ;
+	gist:hasGiver told:_Person_4164 ;
+	gist:hasRecipient told:_Person_6735 ;
+	.
+
+told:_TeacherStudentRelationship_4164_724
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4164 and 724"@en ;
+	gist:hasGiver told:_Person_4164 ;
+	gist:hasRecipient told:_Person_724 ;
+	.
+
+told:_TeacherStudentRelationship_4185_2541
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4185 and 2541"@en ;
+	gist:hasGiver told:_Person_4185 ;
+	gist:hasRecipient told:_Person_2541 ;
+	.
+
+told:_TeacherStudentRelationship_4212_4164
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4212 and 4164"@en ;
+	gist:hasGiver told:_Person_4212 ;
+	gist:hasRecipient told:_Person_4164 ;
+	.
+
+told:_TeacherStudentRelationship_4213_4164
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4213 and 4164"@en ;
+	gist:hasGiver told:_Person_4213 ;
+	gist:hasRecipient told:_Person_4164 ;
+	.
+
+told:_TeacherStudentRelationship_4214_4164
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4214 and 4164"@en ;
+	gist:hasGiver told:_Person_4214 ;
+	gist:hasRecipient told:_Person_4164 ;
+	.
+
+told:_TeacherStudentRelationship_4215_4164
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4215 and 4164"@en ;
+	gist:hasGiver told:_Person_4215 ;
+	gist:hasRecipient told:_Person_4164 ;
+	.
+
+told:_TeacherStudentRelationship_4228_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4228 and 10355"@en ;
+	gist:hasGiver told:_Person_4228 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_4228_13692
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4228 and 13692"@en ;
+	gist:hasGiver told:_Person_4228 ;
+	gist:hasRecipient told:_Person_13692 ;
+	.
+
+told:_TeacherStudentRelationship_4228_13699
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4228 and 13699"@en ;
+	gist:hasGiver told:_Person_4228 ;
+	gist:hasRecipient told:_Person_13699 ;
+	.
+
+told:_TeacherStudentRelationship_4228_8507
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4228 and 8507"@en ;
+	gist:hasGiver told:_Person_4228 ;
+	gist:hasRecipient told:_Person_8507 ;
+	.
+
+told:_TeacherStudentRelationship_4228_9594
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4228 and 9594"@en ;
+	gist:hasGiver told:_Person_4228 ;
+	gist:hasRecipient told:_Person_9594 ;
+	.
+
+told:_TeacherStudentRelationship_4273_13648
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4273 and 13648"@en ;
+	gist:hasGiver told:_Person_4273 ;
+	gist:hasRecipient told:_Person_13648 ;
+	.
+
+told:_TeacherStudentRelationship_4273_7009
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4273 and 7009"@en ;
+	gist:hasGiver told:_Person_4273 ;
+	gist:hasRecipient told:_Person_7009 ;
+	.
+
+told:_TeacherStudentRelationship_4291_12553
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4291 and 12553"@en ;
+	gist:hasGiver told:_Person_4291 ;
+	gist:hasRecipient told:_Person_12553 ;
+	.
+
+told:_TeacherStudentRelationship_4291_13677
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4291 and 13677"@en ;
+	gist:hasGiver told:_Person_4291 ;
+	gist:hasRecipient told:_Person_13677 ;
+	.
+
+told:_TeacherStudentRelationship_4291_13692
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4291 and 13692"@en ;
+	gist:hasGiver told:_Person_4291 ;
+	gist:hasRecipient told:_Person_13692 ;
+	.
+
+told:_TeacherStudentRelationship_4291_13699
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4291 and 13699"@en ;
+	gist:hasGiver told:_Person_4291 ;
+	gist:hasRecipient told:_Person_13699 ;
+	.
+
+told:_TeacherStudentRelationship_4291_13747
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4291 and 13747"@en ;
+	gist:hasGiver told:_Person_4291 ;
+	gist:hasRecipient told:_Person_13747 ;
+	.
+
+told:_TeacherStudentRelationship_4291_13796
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4291 and 13796"@en ;
+	gist:hasGiver told:_Person_4291 ;
+	gist:hasRecipient told:_Person_13796 ;
+	.
+
+told:_TeacherStudentRelationship_4291_8
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4291 and 8"@en ;
+	gist:hasGiver told:_Person_4291 ;
+	gist:hasRecipient told:_Person_8 ;
+	.
+
+told:_TeacherStudentRelationship_4291_8181
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4291 and 8181"@en ;
+	gist:hasGiver told:_Person_4291 ;
+	gist:hasRecipient told:_Person_8181 ;
+	.
+
+told:_TeacherStudentRelationship_4291_9594
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4291 and 9594"@en ;
+	gist:hasGiver told:_Person_4291 ;
+	gist:hasRecipient told:_Person_9594 ;
+	.
+
+told:_TeacherStudentRelationship_4309_11437
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4309 and 11437"@en ;
+	gist:hasGiver told:_Person_4309 ;
+	gist:hasRecipient told:_Person_11437 ;
+	.
+
+told:_TeacherStudentRelationship_4309_11798
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4309 and 11798"@en ;
+	gist:hasGiver told:_Person_4309 ;
+	gist:hasRecipient told:_Person_11798 ;
+	.
+
+told:_TeacherStudentRelationship_4309_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4309 and 12479"@en ;
+	gist:hasGiver told:_Person_4309 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_4309_2419
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4309 and 2419"@en ;
+	gist:hasGiver told:_Person_4309 ;
+	gist:hasRecipient told:_Person_2419 ;
+	.
+
+told:_TeacherStudentRelationship_4310_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4310 and 12479"@en ;
+	gist:hasGiver told:_Person_4310 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_4310_12613
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4310 and 12613"@en ;
+	gist:hasGiver told:_Person_4310 ;
+	gist:hasRecipient told:_Person_12613 ;
+	.
+
+told:_TeacherStudentRelationship_4310_13801
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4310 and 13801"@en ;
+	gist:hasGiver told:_Person_4310 ;
+	gist:hasRecipient told:_Person_13801 ;
+	.
+
+told:_TeacherStudentRelationship_4358_12553
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4358 and 12553"@en ;
+	gist:hasGiver told:_Person_4358 ;
+	gist:hasRecipient told:_Person_12553 ;
+	.
+
+told:_TeacherStudentRelationship_4358_13692
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4358 and 13692"@en ;
+	gist:hasGiver told:_Person_4358 ;
+	gist:hasRecipient told:_Person_13692 ;
+	.
+
+told:_TeacherStudentRelationship_4358_13699
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4358 and 13699"@en ;
+	gist:hasGiver told:_Person_4358 ;
+	gist:hasRecipient told:_Person_13699 ;
+	.
+
+told:_TeacherStudentRelationship_4358_8
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4358 and 8"@en ;
+	gist:hasGiver told:_Person_4358 ;
+	gist:hasRecipient told:_Person_8 ;
+	.
+
+told:_TeacherStudentRelationship_4358_8181
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4358 and 8181"@en ;
+	gist:hasGiver told:_Person_4358 ;
+	gist:hasRecipient told:_Person_8181 ;
+	.
+
+told:_TeacherStudentRelationship_4413_13806
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4413 and 13806"@en ;
+	gist:hasGiver told:_Person_4413 ;
+	gist:hasRecipient told:_Person_13806 ;
+	.
+
+told:_TeacherStudentRelationship_4425_13692
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4425 and 13692"@en ;
+	gist:hasGiver told:_Person_4425 ;
+	gist:hasRecipient told:_Person_13692 ;
+	.
+
+told:_TeacherStudentRelationship_4425_9594
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4425 and 9594"@en ;
+	gist:hasGiver told:_Person_4425 ;
+	gist:hasRecipient told:_Person_9594 ;
+	.
+
+told:_TeacherStudentRelationship_4440_13686
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4440 and 13686"@en ;
+	gist:hasGiver told:_Person_4440 ;
+	gist:hasRecipient told:_Person_13686 ;
+	.
+
+told:_TeacherStudentRelationship_4440_13749
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4440 and 13749"@en ;
+	gist:hasGiver told:_Person_4440 ;
+	gist:hasRecipient told:_Person_13749 ;
+	.
+
+told:_TeacherStudentRelationship_4642_2424
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4642 and 2424"@en ;
+	gist:hasGiver told:_Person_4642 ;
+	gist:hasRecipient told:_Person_2424 ;
+	.
+
+told:_TeacherStudentRelationship_4676_13187
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4676 and 13187"@en ;
+	gist:hasGiver told:_Person_4676 ;
+	gist:hasRecipient told:_Person_13187 ;
+	.
+
+told:_TeacherStudentRelationship_4691_13187
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4691 and 13187"@en ;
+	gist:hasGiver told:_Person_4691 ;
+	gist:hasRecipient told:_Person_13187 ;
+	.
+
+told:_TeacherStudentRelationship_4820_10209
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4820 and 10209"@en ;
+	gist:hasGiver told:_Person_4820 ;
+	gist:hasRecipient told:_Person_10209 ;
+	.
+
+told:_TeacherStudentRelationship_4820_13248
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4820 and 13248"@en ;
+	gist:hasGiver told:_Person_4820 ;
+	gist:hasRecipient told:_Person_13248 ;
+	.
+
+told:_TeacherStudentRelationship_4820_13654
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4820 and 13654"@en ;
+	gist:hasGiver told:_Person_4820 ;
+	gist:hasRecipient told:_Person_13654 ;
+	.
+
+told:_TeacherStudentRelationship_4820_13670
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4820 and 13670"@en ;
+	gist:hasGiver told:_Person_4820 ;
+	gist:hasRecipient told:_Person_13670 ;
+	.
+
+told:_TeacherStudentRelationship_4820_9278
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4820 and 9278"@en ;
+	gist:hasGiver told:_Person_4820 ;
+	gist:hasRecipient told:_Person_9278 ;
+	.
+
+told:_TeacherStudentRelationship_4864_6194
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4864 and 6194"@en ;
+	gist:hasGiver told:_Person_4864 ;
+	gist:hasRecipient told:_Person_6194 ;
+	.
+
+told:_TeacherStudentRelationship_4865_6194
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4865 and 6194"@en ;
+	gist:hasGiver told:_Person_4865 ;
+	gist:hasRecipient told:_Person_6194 ;
+	.
+
+told:_TeacherStudentRelationship_4866_6194
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4866 and 6194"@en ;
+	gist:hasGiver told:_Person_4866 ;
+	gist:hasRecipient told:_Person_6194 ;
+	.
+
+told:_TeacherStudentRelationship_4868_6194
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 4868 and 6194"@en ;
+	gist:hasGiver told:_Person_4868 ;
+	gist:hasRecipient told:_Person_6194 ;
+	.
+
+told:_TeacherStudentRelationship_5391_8454
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 5391 and 8454"@en ;
+	gist:hasGiver told:_Person_5391 ;
+	gist:hasRecipient told:_Person_8454 ;
+	.
+
+told:_TeacherStudentRelationship_5413_8454
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 5413 and 8454"@en ;
+	gist:hasGiver told:_Person_5413 ;
+	gist:hasRecipient told:_Person_8454 ;
+	.
+
+told:_TeacherStudentRelationship_5457_13187
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 5457 and 13187"@en ;
+	gist:hasGiver told:_Person_5457 ;
+	gist:hasRecipient told:_Person_13187 ;
+	.
+
+told:_TeacherStudentRelationship_5479_4611
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 5479 and 4611"@en ;
+	gist:hasGiver told:_Person_5479 ;
+	gist:hasRecipient told:_Person_4611 ;
+	.
+
+told:_TeacherStudentRelationship_5644_5648
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 5644 and 5648"@en ;
+	gist:hasGiver told:_Person_5644 ;
+	gist:hasRecipient told:_Person_5648 ;
+	.
+
+told:_TeacherStudentRelationship_5728_6076
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 5728 and 6076"@en ;
+	gist:hasGiver told:_Person_5728 ;
+	gist:hasRecipient told:_Person_6076 ;
+	.
+
+told:_TeacherStudentRelationship_5729_5902
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 5729 and 5902"@en ;
+	gist:hasGiver told:_Person_5729 ;
+	gist:hasRecipient told:_Person_5902 ;
+	.
+
+told:_TeacherStudentRelationship_5864_12745
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 5864 and 12745"@en ;
+	gist:hasGiver told:_Person_5864 ;
+	gist:hasRecipient told:_Person_12745 ;
+	.
+
+told:_TeacherStudentRelationship_5864_13796
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 5864 and 13796"@en ;
+	gist:hasGiver told:_Person_5864 ;
+	gist:hasRecipient told:_Person_13796 ;
+	.
+
+told:_TeacherStudentRelationship_5894_13693
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 5894 and 13693"@en ;
+	gist:hasGiver told:_Person_5894 ;
+	gist:hasRecipient told:_Person_13693 ;
+	.
+
+told:_TeacherStudentRelationship_5894_13694
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 5894 and 13694"@en ;
+	gist:hasGiver told:_Person_5894 ;
+	gist:hasRecipient told:_Person_13694 ;
+	.
+
+told:_TeacherStudentRelationship_5894_8906
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 5894 and 8906"@en ;
+	gist:hasGiver told:_Person_5894 ;
+	gist:hasRecipient told:_Person_8906 ;
+	.
+
+told:_TeacherStudentRelationship_5897_3955
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 5897 and 3955"@en ;
+	gist:hasGiver told:_Person_5897 ;
+	gist:hasRecipient told:_Person_3955 ;
+	.
+
+told:_TeacherStudentRelationship_5927_13837
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 5927 and 13837"@en ;
+	gist:hasGiver told:_Person_5927 ;
+	gist:hasRecipient told:_Person_13837 ;
+	.
+
+told:_TeacherStudentRelationship_6076_5720
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 6076 and 5720"@en ;
+	gist:hasGiver told:_Person_6076 ;
+	gist:hasRecipient told:_Person_5720 ;
+	.
+
+told:_TeacherStudentRelationship_6076_5731
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 6076 and 5731"@en ;
+	gist:hasGiver told:_Person_6076 ;
+	gist:hasRecipient told:_Person_5731 ;
+	.
+
+told:_TeacherStudentRelationship_6076_5951
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 6076 and 5951"@en ;
+	gist:hasGiver told:_Person_6076 ;
+	gist:hasRecipient told:_Person_5951 ;
+	.
+
+told:_TeacherStudentRelationship_6110_7881
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 6110 and 7881"@en ;
+	gist:hasGiver told:_Person_6110 ;
+	gist:hasRecipient told:_Person_7881 ;
+	.
+
+told:_TeacherStudentRelationship_6194_10865
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 6194 and 10865"@en ;
+	gist:hasGiver told:_Person_6194 ;
+	gist:hasRecipient told:_Person_10865 ;
+	.
+
+told:_TeacherStudentRelationship_6194_13660
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 6194 and 13660"@en ;
+	gist:hasGiver told:_Person_6194 ;
+	gist:hasRecipient told:_Person_13660 ;
+	.
+
+told:_TeacherStudentRelationship_6194_3181
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 6194 and 3181"@en ;
+	gist:hasGiver told:_Person_6194 ;
+	gist:hasRecipient told:_Person_3181 ;
+	.
+
+told:_TeacherStudentRelationship_6198_7881
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 6198 and 7881"@en ;
+	gist:hasGiver told:_Person_6198 ;
+	gist:hasRecipient told:_Person_7881 ;
+	.
+
+told:_TeacherStudentRelationship_6209_4086
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 6209 and 4086"@en ;
+	gist:hasGiver told:_Person_6209 ;
+	gist:hasRecipient told:_Person_4086 ;
+	.
+
+told:_TeacherStudentRelationship_6402_6076
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 6402 and 6076"@en ;
+	gist:hasGiver told:_Person_6402 ;
+	gist:hasRecipient told:_Person_6076 ;
+	.
+
+told:_TeacherStudentRelationship_6405_8455
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 6405 and 8455"@en ;
+	gist:hasGiver told:_Person_6405 ;
+	gist:hasRecipient told:_Person_8455 ;
+	.
+
+told:_TeacherStudentRelationship_6535_7881
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 6535 and 7881"@en ;
+	gist:hasGiver told:_Person_6535 ;
+	gist:hasRecipient told:_Person_7881 ;
+	.
+
+told:_TeacherStudentRelationship_6676_6194
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 6676 and 6194"@en ;
+	gist:hasGiver told:_Person_6676 ;
+	gist:hasRecipient told:_Person_6194 ;
+	.
+
+told:_TeacherStudentRelationship_7007_11437
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 7007 and 11437"@en ;
+	gist:hasGiver told:_Person_7007 ;
+	gist:hasRecipient told:_Person_11437 ;
+	.
+
+told:_TeacherStudentRelationship_7007_12387
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 7007 and 12387"@en ;
+	gist:hasGiver told:_Person_7007 ;
+	gist:hasRecipient told:_Person_12387 ;
+	.
+
+told:_TeacherStudentRelationship_7007_2419
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 7007 and 2419"@en ;
+	gist:hasGiver told:_Person_7007 ;
+	gist:hasRecipient told:_Person_2419 ;
+	.
+
+told:_TeacherStudentRelationship_7007_8641
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 7007 and 8641"@en ;
+	gist:hasGiver told:_Person_7007 ;
+	gist:hasRecipient told:_Person_8641 ;
+	.
+
+told:_TeacherStudentRelationship_7007_8825
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 7007 and 8825"@en ;
+	gist:hasGiver told:_Person_7007 ;
+	gist:hasRecipient told:_Person_8825 ;
+	.
+
+told:_TeacherStudentRelationship_7033_13821
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 7033 and 13821"@en ;
+	gist:hasGiver told:_Person_7033 ;
+	gist:hasRecipient told:_Person_13821 ;
+	.
+
+told:_TeacherStudentRelationship_7033_13824
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 7033 and 13824"@en ;
+	gist:hasGiver told:_Person_7033 ;
+	gist:hasRecipient told:_Person_13824 ;
+	.
+
+told:_TeacherStudentRelationship_7122_3955
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 7122 and 3955"@en ;
+	gist:hasGiver told:_Person_7122 ;
+	gist:hasRecipient told:_Person_3955 ;
+	.
+
+told:_TeacherStudentRelationship_7122_5894
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 7122 and 5894"@en ;
+	gist:hasGiver told:_Person_7122 ;
+	gist:hasRecipient told:_Person_5894 ;
+	.
+
+told:_TeacherStudentRelationship_7130_1659
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 7130 and 1659"@en ;
+	gist:hasGiver told:_Person_7130 ;
+	gist:hasRecipient told:_Person_1659 ;
+	.
+
+told:_TeacherStudentRelationship_7305_10687
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 7305 and 10687"@en ;
+	gist:hasGiver told:_Person_7305 ;
+	gist:hasRecipient told:_Person_10687 ;
+	.
+
+told:_TeacherStudentRelationship_7331_12439
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 7331 and 12439"@en ;
+	gist:hasGiver told:_Person_7331 ;
+	gist:hasRecipient told:_Person_12439 ;
+	.
+
+told:_TeacherStudentRelationship_7560_8972
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 7560 and 8972"@en ;
+	gist:hasGiver told:_Person_7560 ;
+	gist:hasRecipient told:_Person_8972 ;
+	.
+
+told:_TeacherStudentRelationship_7632_13162
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 7632 and 13162"@en ;
+	gist:hasGiver told:_Person_7632 ;
+	gist:hasRecipient told:_Person_13162 ;
+	.
+
+told:_TeacherStudentRelationship_7667_8782
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 7667 and 8782"@en ;
+	gist:hasGiver told:_Person_7667 ;
+	gist:hasRecipient told:_Person_8782 ;
+	.
+
+told:_TeacherStudentRelationship_7728_13707
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 7728 and 13707"@en ;
+	gist:hasGiver told:_Person_7728 ;
+	gist:hasRecipient told:_Person_13707 ;
+	.
+
+told:_TeacherStudentRelationship_7870_11437
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 7870 and 11437"@en ;
+	gist:hasGiver told:_Person_7870 ;
+	gist:hasRecipient told:_Person_11437 ;
+	.
+
+told:_TeacherStudentRelationship_8027_7305
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8027 and 7305"@en ;
+	gist:hasGiver told:_Person_8027 ;
+	gist:hasRecipient told:_Person_7305 ;
+	.
+
+told:_TeacherStudentRelationship_8126_13840
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8126 and 13840"@en ;
+	gist:hasGiver told:_Person_8126 ;
+	gist:hasRecipient told:_Person_13840 ;
+	.
+
+told:_TeacherStudentRelationship_8138_12613
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8138 and 12613"@en ;
+	gist:hasGiver told:_Person_8138 ;
+	gist:hasRecipient told:_Person_12613 ;
+	.
+
+told:_TeacherStudentRelationship_8138_13653
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8138 and 13653"@en ;
+	gist:hasGiver told:_Person_8138 ;
+	gist:hasRecipient told:_Person_13653 ;
+	.
+
+told:_TeacherStudentRelationship_8138_13654
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8138 and 13654"@en ;
+	gist:hasGiver told:_Person_8138 ;
+	gist:hasRecipient told:_Person_13654 ;
+	.
+
+told:_TeacherStudentRelationship_8138_13707
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8138 and 13707"@en ;
+	gist:hasGiver told:_Person_8138 ;
+	gist:hasRecipient told:_Person_13707 ;
+	.
+
+told:_TeacherStudentRelationship_8138_13721
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8138 and 13721"@en ;
+	gist:hasGiver told:_Person_8138 ;
+	gist:hasRecipient told:_Person_13721 ;
+	.
+
+told:_TeacherStudentRelationship_8138_13795
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8138 and 13795"@en ;
+	gist:hasGiver told:_Person_8138 ;
+	gist:hasRecipient told:_Person_13795 ;
+	.
+
+told:_TeacherStudentRelationship_8138_13801
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8138 and 13801"@en ;
+	gist:hasGiver told:_Person_8138 ;
+	gist:hasRecipient told:_Person_13801 ;
+	.
+
+told:_TeacherStudentRelationship_8138_8507
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8138 and 8507"@en ;
+	gist:hasGiver told:_Person_8138 ;
+	gist:hasRecipient told:_Person_8507 ;
+	.
+
+told:_TeacherStudentRelationship_8159_13840
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8159 and 13840"@en ;
+	gist:hasGiver told:_Person_8159 ;
+	gist:hasRecipient told:_Person_13840 ;
+	.
+
+told:_TeacherStudentRelationship_8170_12839
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8170 and 12839"@en ;
+	gist:hasGiver told:_Person_8170 ;
+	gist:hasRecipient told:_Person_12839 ;
+	.
+
+told:_TeacherStudentRelationship_8170_13686
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8170 and 13686"@en ;
+	gist:hasGiver told:_Person_8170 ;
+	gist:hasRecipient told:_Person_13686 ;
+	.
+
+told:_TeacherStudentRelationship_8170_13841
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8170 and 13841"@en ;
+	gist:hasGiver told:_Person_8170 ;
+	gist:hasRecipient told:_Person_13841 ;
+	.
+
+told:_TeacherStudentRelationship_8170_2730
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8170 and 2730"@en ;
+	gist:hasGiver told:_Person_8170 ;
+	gist:hasRecipient told:_Person_2730 ;
+	.
+
+told:_TeacherStudentRelationship_8181_13692
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8181 and 13692"@en ;
+	gist:hasGiver told:_Person_8181 ;
+	gist:hasRecipient told:_Person_13692 ;
+	.
+
+told:_TeacherStudentRelationship_8181_13699
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8181 and 13699"@en ;
+	gist:hasGiver told:_Person_8181 ;
+	gist:hasRecipient told:_Person_13699 ;
+	.
+
+told:_TeacherStudentRelationship_8181_8
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8181 and 8"@en ;
+	gist:hasGiver told:_Person_8181 ;
+	gist:hasRecipient told:_Person_8 ;
+	.
+
+told:_TeacherStudentRelationship_8454_11130
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8454 and 11130"@en ;
+	gist:hasGiver told:_Person_8454 ;
+	gist:hasRecipient told:_Person_11130 ;
+	.
+
+told:_TeacherStudentRelationship_8484_12171
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8484 and 12171"@en ;
+	gist:hasGiver told:_Person_8484 ;
+	gist:hasRecipient told:_Person_12171 ;
+	.
+
+told:_TeacherStudentRelationship_8505_13707
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8505 and 13707"@en ;
+	gist:hasGiver told:_Person_8505 ;
+	gist:hasRecipient told:_Person_13707 ;
+	.
+
+told:_TeacherStudentRelationship_8506_13654
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8506 and 13654"@en ;
+	gist:hasGiver told:_Person_8506 ;
+	gist:hasRecipient told:_Person_13654 ;
+	.
+
+told:_TeacherStudentRelationship_8506_4820
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8506 and 4820"@en ;
+	gist:hasGiver told:_Person_8506 ;
+	gist:hasRecipient told:_Person_4820 ;
+	.
+
+told:_TeacherStudentRelationship_8506_8507
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8506 and 8507"@en ;
+	gist:hasGiver told:_Person_8506 ;
+	gist:hasRecipient told:_Person_8507 ;
+	.
+
+told:_TeacherStudentRelationship_8507_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8507 and 10355"@en ;
+	gist:hasGiver told:_Person_8507 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_8507_12489
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8507 and 12489"@en ;
+	gist:hasGiver told:_Person_8507 ;
+	gist:hasRecipient told:_Person_12489 ;
+	.
+
+told:_TeacherStudentRelationship_8507_12553
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8507 and 12553"@en ;
+	gist:hasGiver told:_Person_8507 ;
+	gist:hasRecipient told:_Person_12553 ;
+	.
+
+told:_TeacherStudentRelationship_8507_13707
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8507 and 13707"@en ;
+	gist:hasGiver told:_Person_8507 ;
+	gist:hasRecipient told:_Person_13707 ;
+	.
+
+told:_TeacherStudentRelationship_8507_2060
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8507 and 2060"@en ;
+	gist:hasGiver told:_Person_8507 ;
+	gist:hasRecipient told:_Person_2060 ;
+	.
+
+told:_TeacherStudentRelationship_8507_2069
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8507 and 2069"@en ;
+	gist:hasGiver told:_Person_8507 ;
+	gist:hasRecipient told:_Person_2069 ;
+	.
+
+told:_TeacherStudentRelationship_8507_2070
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8507 and 2070"@en ;
+	gist:hasGiver told:_Person_8507 ;
+	gist:hasRecipient told:_Person_2070 ;
+	.
+
+told:_TeacherStudentRelationship_8507_8508
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8507 and 8508"@en ;
+	gist:hasGiver told:_Person_8507 ;
+	gist:hasRecipient told:_Person_8508 ;
+	.
+
+told:_TeacherStudentRelationship_8507_8825
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8507 and 8825"@en ;
+	gist:hasGiver told:_Person_8507 ;
+	gist:hasRecipient told:_Person_8825 ;
+	.
+
+told:_TeacherStudentRelationship_8507_9278
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8507 and 9278"@en ;
+	gist:hasGiver told:_Person_8507 ;
+	gist:hasRecipient told:_Person_9278 ;
+	.
+
+told:_TeacherStudentRelationship_8508_12742
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8508 and 12742"@en ;
+	gist:hasGiver told:_Person_8508 ;
+	gist:hasRecipient told:_Person_12742 ;
+	.
+
+told:_TeacherStudentRelationship_8570_9394
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8570 and 9394"@en ;
+	gist:hasGiver told:_Person_8570 ;
+	gist:hasRecipient told:_Person_9394 ;
+	.
+
+told:_TeacherStudentRelationship_8574_13653
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8574 and 13653"@en ;
+	gist:hasGiver told:_Person_8574 ;
+	gist:hasRecipient told:_Person_13653 ;
+	.
+
+told:_TeacherStudentRelationship_8574_13654
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8574 and 13654"@en ;
+	gist:hasGiver told:_Person_8574 ;
+	gist:hasRecipient told:_Person_13654 ;
+	.
+
+told:_TeacherStudentRelationship_8574_13659
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8574 and 13659"@en ;
+	gist:hasGiver told:_Person_8574 ;
+	gist:hasRecipient told:_Person_13659 ;
+	.
+
+told:_TeacherStudentRelationship_8574_9594
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8574 and 9594"@en ;
+	gist:hasGiver told:_Person_8574 ;
+	gist:hasRecipient told:_Person_9594 ;
+	.
+
+told:_TeacherStudentRelationship_8587_13815
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8587 and 13815"@en ;
+	gist:hasGiver told:_Person_8587 ;
+	gist:hasRecipient told:_Person_13815 ;
+	.
+
+told:_TeacherStudentRelationship_8611_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8611 and 12180"@en ;
+	gist:hasGiver told:_Person_8611 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_8611_13648
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8611 and 13648"@en ;
+	gist:hasGiver told:_Person_8611 ;
+	gist:hasRecipient told:_Person_13648 ;
+	.
+
+told:_TeacherStudentRelationship_8611_13820
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8611 and 13820"@en ;
+	gist:hasGiver told:_Person_8611 ;
+	gist:hasRecipient told:_Person_13820 ;
+	.
+
+told:_TeacherStudentRelationship_8641_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8641 and 12180"@en ;
+	gist:hasGiver told:_Person_8641 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_8670_13689
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8670 and 13689"@en ;
+	gist:hasGiver told:_Person_8670 ;
+	gist:hasRecipient told:_Person_13689 ;
+	.
+
+told:_TeacherStudentRelationship_8730_13199
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8730 and 13199"@en ;
+	gist:hasGiver told:_Person_8730 ;
+	gist:hasRecipient told:_Person_13199 ;
+	.
+
+told:_TeacherStudentRelationship_8749_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8749 and 10355"@en ;
+	gist:hasGiver told:_Person_8749 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_8759_12171
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8759 and 12171"@en ;
+	gist:hasGiver told:_Person_8759 ;
+	gist:hasRecipient told:_Person_12171 ;
+	.
+
+told:_TeacherStudentRelationship_8765_3266
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8765 and 3266"@en ;
+	gist:hasGiver told:_Person_8765 ;
+	gist:hasRecipient told:_Person_3266 ;
+	.
+
+told:_TeacherStudentRelationship_8782_11363
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8782 and 11363"@en ;
+	gist:hasGiver told:_Person_8782 ;
+	gist:hasRecipient told:_Person_11363 ;
+	.
+
+told:_TeacherStudentRelationship_8782_13659
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8782 and 13659"@en ;
+	gist:hasGiver told:_Person_8782 ;
+	gist:hasRecipient told:_Person_13659 ;
+	.
+
+told:_TeacherStudentRelationship_8782_13749
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8782 and 13749"@en ;
+	gist:hasGiver told:_Person_8782 ;
+	gist:hasRecipient told:_Person_13749 ;
+	.
+
+told:_TeacherStudentRelationship_8782_13812
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8782 and 13812"@en ;
+	gist:hasGiver told:_Person_8782 ;
+	gist:hasRecipient told:_Person_13812 ;
+	.
+
+told:_TeacherStudentRelationship_8813_8972
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8813 and 8972"@en ;
+	gist:hasGiver told:_Person_8813 ;
+	gist:hasRecipient told:_Person_8972 ;
+	.
+
+told:_TeacherStudentRelationship_8825_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8825 and 12180"@en ;
+	gist:hasGiver told:_Person_8825 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_8825_13697
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8825 and 13697"@en ;
+	gist:hasGiver told:_Person_8825 ;
+	gist:hasRecipient told:_Person_13697 ;
+	.
+
+told:_TeacherStudentRelationship_8825_13820
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8825 and 13820"@en ;
+	gist:hasGiver told:_Person_8825 ;
+	gist:hasRecipient told:_Person_13820 ;
+	.
+
+told:_TeacherStudentRelationship_8836_13820
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8836 and 13820"@en ;
+	gist:hasGiver told:_Person_8836 ;
+	gist:hasRecipient told:_Person_13820 ;
+	.
+
+told:_TeacherStudentRelationship_8895_11003
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8895 and 11003"@en ;
+	gist:hasGiver told:_Person_8895 ;
+	gist:hasRecipient told:_Person_11003 ;
+	.
+
+told:_TeacherStudentRelationship_8899_2541
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8899 and 2541"@en ;
+	gist:hasGiver told:_Person_8899 ;
+	gist:hasRecipient told:_Person_2541 ;
+	.
+
+told:_TeacherStudentRelationship_8906_12439
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8906 and 12439"@en ;
+	gist:hasGiver told:_Person_8906 ;
+	gist:hasRecipient told:_Person_12439 ;
+	.
+
+told:_TeacherStudentRelationship_8920_8972
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8920 and 8972"@en ;
+	gist:hasGiver told:_Person_8920 ;
+	gist:hasRecipient told:_Person_8972 ;
+	.
+
+told:_TeacherStudentRelationship_8947_2541
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8947 and 2541"@en ;
+	gist:hasGiver told:_Person_8947 ;
+	gist:hasRecipient told:_Person_2541 ;
+	.
+
+told:_TeacherStudentRelationship_8972_11280
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8972 and 11280"@en ;
+	gist:hasGiver told:_Person_8972 ;
+	gist:hasRecipient told:_Person_11280 ;
+	.
+
+told:_TeacherStudentRelationship_8972_8344
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 8972 and 8344"@en ;
+	gist:hasGiver told:_Person_8972 ;
+	gist:hasRecipient told:_Person_8344 ;
+	.
+
+told:_TeacherStudentRelationship_9019_12171
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9019 and 12171"@en ;
+	gist:hasGiver told:_Person_9019 ;
+	gist:hasRecipient told:_Person_12171 ;
+	.
+
+told:_TeacherStudentRelationship_9047_7250
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9047 and 7250"@en ;
+	gist:hasGiver told:_Person_9047 ;
+	gist:hasRecipient told:_Person_7250 ;
+	.
+
+told:_TeacherStudentRelationship_9053_2419
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9053 and 2419"@en ;
+	gist:hasGiver told:_Person_9053 ;
+	gist:hasRecipient told:_Person_2419 ;
+	.
+
+told:_TeacherStudentRelationship_9083_2541
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9083 and 2541"@en ;
+	gist:hasGiver told:_Person_9083 ;
+	gist:hasRecipient told:_Person_2541 ;
+	.
+
+told:_TeacherStudentRelationship_9095_6770
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9095 and 6770"@en ;
+	gist:hasGiver told:_Person_9095 ;
+	gist:hasRecipient told:_Person_6770 ;
+	.
+
+told:_TeacherStudentRelationship_9095_7305
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9095 and 7305"@en ;
+	gist:hasGiver told:_Person_9095 ;
+	gist:hasRecipient told:_Person_7305 ;
+	.
+
+told:_TeacherStudentRelationship_9201_3266
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9201 and 3266"@en ;
+	gist:hasGiver told:_Person_9201 ;
+	gist:hasRecipient told:_Person_3266 ;
+	.
+
+told:_TeacherStudentRelationship_9203_13162
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9203 and 13162"@en ;
+	gist:hasGiver told:_Person_9203 ;
+	gist:hasRecipient told:_Person_13162 ;
+	.
+
+told:_TeacherStudentRelationship_9203_3485
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9203 and 3485"@en ;
+	gist:hasGiver told:_Person_9203 ;
+	gist:hasRecipient told:_Person_3485 ;
+	.
+
+told:_TeacherStudentRelationship_9213_5152
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9213 and 5152"@en ;
+	gist:hasGiver told:_Person_9213 ;
+	gist:hasRecipient told:_Person_5152 ;
+	.
+
+told:_TeacherStudentRelationship_9213_5153
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9213 and 5153"@en ;
+	gist:hasGiver told:_Person_9213 ;
+	gist:hasRecipient told:_Person_5153 ;
+	.
+
+told:_TeacherStudentRelationship_9213_5154
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9213 and 5154"@en ;
+	gist:hasGiver told:_Person_9213 ;
+	gist:hasRecipient told:_Person_5154 ;
+	.
+
+told:_TeacherStudentRelationship_9213_5155
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9213 and 5155"@en ;
+	gist:hasGiver told:_Person_9213 ;
+	gist:hasRecipient told:_Person_5155 ;
+	.
+
+told:_TeacherStudentRelationship_9275_5805
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9275 and 5805"@en ;
+	gist:hasGiver told:_Person_9275 ;
+	gist:hasRecipient told:_Person_5805 ;
+	.
+
+told:_TeacherStudentRelationship_9389_7373
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9389 and 7373"@en ;
+	gist:hasGiver told:_Person_9389 ;
+	gist:hasRecipient told:_Person_7373 ;
+	.
+
+told:_TeacherStudentRelationship_9394_4250
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9394 and 4250"@en ;
+	gist:hasGiver told:_Person_9394 ;
+	gist:hasRecipient told:_Person_4250 ;
+	.
+
+told:_TeacherStudentRelationship_9394_5805
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9394 and 5805"@en ;
+	gist:hasGiver told:_Person_9394 ;
+	gist:hasRecipient told:_Person_5805 ;
+	.
+
+told:_TeacherStudentRelationship_9394_9502
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9394 and 9502"@en ;
+	gist:hasGiver told:_Person_9394 ;
+	gist:hasRecipient told:_Person_9502 ;
+	.
+
+told:_TeacherStudentRelationship_9491_4611
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9491 and 4611"@en ;
+	gist:hasGiver told:_Person_9491 ;
+	gist:hasRecipient told:_Person_4611 ;
+	.
+
+told:_TeacherStudentRelationship_9513_13688
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9513 and 13688"@en ;
+	gist:hasGiver told:_Person_9513 ;
+	gist:hasRecipient told:_Person_13688 ;
+	.
+
+told:_TeacherStudentRelationship_9585_2069
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9585 and 2069"@en ;
+	gist:hasGiver told:_Person_9585 ;
+	gist:hasRecipient told:_Person_2069 ;
+	.
+
+told:_TeacherStudentRelationship_9585_9594
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9585 and 9594"@en ;
+	gist:hasGiver told:_Person_9585 ;
+	gist:hasRecipient told:_Person_9594 ;
+	.
+
+told:_TeacherStudentRelationship_9587_12742
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9587 and 12742"@en ;
+	gist:hasGiver told:_Person_9587 ;
+	gist:hasRecipient told:_Person_12742 ;
+	.
+
+told:_TeacherStudentRelationship_9587_12981
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9587 and 12981"@en ;
+	gist:hasGiver told:_Person_9587 ;
+	gist:hasRecipient told:_Person_12981 ;
+	.
+
+told:_TeacherStudentRelationship_9588_3485
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9588 and 3485"@en ;
+	gist:hasGiver told:_Person_9588 ;
+	gist:hasRecipient told:_Person_3485 ;
+	.
+
+told:_TeacherStudentRelationship_9594_10063
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9594 and 10063"@en ;
+	gist:hasGiver told:_Person_9594 ;
+	gist:hasRecipient told:_Person_10063 ;
+	.
+
+told:_TeacherStudentRelationship_9594_11435
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9594 and 11435"@en ;
+	gist:hasGiver told:_Person_9594 ;
+	gist:hasRecipient told:_Person_11435 ;
+	.
+
+told:_TeacherStudentRelationship_9594_12040
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9594 and 12040"@en ;
+	gist:hasGiver told:_Person_9594 ;
+	gist:hasRecipient told:_Person_12040 ;
+	.
+
+told:_TeacherStudentRelationship_9594_13651
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9594 and 13651"@en ;
+	gist:hasGiver told:_Person_9594 ;
+	gist:hasRecipient told:_Person_13651 ;
+	.
+
+told:_TeacherStudentRelationship_9594_13654
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9594 and 13654"@en ;
+	gist:hasGiver told:_Person_9594 ;
+	gist:hasRecipient told:_Person_13654 ;
+	.
+
+told:_TeacherStudentRelationship_9594_261
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9594 and 261"@en ;
+	gist:hasGiver told:_Person_9594 ;
+	gist:hasRecipient told:_Person_261 ;
+	.
+
+told:_TeacherStudentRelationship_9594_4413
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9594 and 4413"@en ;
+	gist:hasGiver told:_Person_9594 ;
+	gist:hasRecipient told:_Person_4413 ;
+	.
+
+told:_TeacherStudentRelationship_9594_5048
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9594 and 5048"@en ;
+	gist:hasGiver told:_Person_9594 ;
+	gist:hasRecipient told:_Person_5048 ;
+	.
+
+told:_TeacherStudentRelationship_9594_7632
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9594 and 7632"@en ;
+	gist:hasGiver told:_Person_9594 ;
+	gist:hasRecipient told:_Person_7632 ;
+	.
+
+told:_TeacherStudentRelationship_9594_8825
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9594 and 8825"@en ;
+	gist:hasGiver told:_Person_9594 ;
+	gist:hasRecipient told:_Person_8825 ;
+	.
+
+told:_TeacherStudentRelationship_9594_8887
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9594 and 8887"@en ;
+	gist:hasGiver told:_Person_9594 ;
+	gist:hasRecipient told:_Person_8887 ;
+	.
+
+told:_TeacherStudentRelationship_9594_9586
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9594 and 9586"@en ;
+	gist:hasGiver told:_Person_9594 ;
+	gist:hasRecipient told:_Person_9586 ;
+	.
+
+told:_TeacherStudentRelationship_9594_9589
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9594 and 9589"@en ;
+	gist:hasGiver told:_Person_9594 ;
+	gist:hasRecipient told:_Person_9589 ;
+	.
+
+told:_TeacherStudentRelationship_9622_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9622 and 10355"@en ;
+	gist:hasGiver told:_Person_9622 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_9622_11290
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9622 and 11290"@en ;
+	gist:hasGiver told:_Person_9622 ;
+	gist:hasRecipient told:_Person_11290 ;
+	.
+
+told:_TeacherStudentRelationship_9622_12553
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9622 and 12553"@en ;
+	gist:hasGiver told:_Person_9622 ;
+	gist:hasRecipient told:_Person_12553 ;
+	.
+
+told:_TeacherStudentRelationship_9622_13654
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9622 and 13654"@en ;
+	gist:hasGiver told:_Person_9622 ;
+	gist:hasRecipient told:_Person_13654 ;
+	.
+
+told:_TeacherStudentRelationship_9622_13677
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9622 and 13677"@en ;
+	gist:hasGiver told:_Person_9622 ;
+	gist:hasRecipient told:_Person_13677 ;
+	.
+
+told:_TeacherStudentRelationship_9622_13679
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9622 and 13679"@en ;
+	gist:hasGiver told:_Person_9622 ;
+	gist:hasRecipient told:_Person_13679 ;
+	.
+
+told:_TeacherStudentRelationship_9622_13721
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9622 and 13721"@en ;
+	gist:hasGiver told:_Person_9622 ;
+	gist:hasRecipient told:_Person_13721 ;
+	.
+
+told:_TeacherStudentRelationship_9622_4310
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9622 and 4310"@en ;
+	gist:hasGiver told:_Person_9622 ;
+	gist:hasRecipient told:_Person_4310 ;
+	.
+
+told:_TeacherStudentRelationship_9622_4820
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9622 and 4820"@en ;
+	gist:hasGiver told:_Person_9622 ;
+	gist:hasRecipient told:_Person_4820 ;
+	.
+
+told:_TeacherStudentRelationship_9622_8507
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9622 and 8507"@en ;
+	gist:hasGiver told:_Person_9622 ;
+	gist:hasRecipient told:_Person_8507 ;
+	.
+
+told:_TeacherStudentRelationship_9633_5805
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9633 and 5805"@en ;
+	gist:hasGiver told:_Person_9633 ;
+	gist:hasRecipient told:_Person_5805 ;
+	.
+
+told:_TeacherStudentRelationship_9646_12981
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9646 and 12981"@en ;
+	gist:hasGiver told:_Person_9646 ;
+	gist:hasRecipient told:_Person_12981 ;
+	.
+
+told:_TeacherStudentRelationship_9646_13653
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9646 and 13653"@en ;
+	gist:hasGiver told:_Person_9646 ;
+	gist:hasRecipient told:_Person_13653 ;
+	.
+
+told:_TeacherStudentRelationship_9646_13654
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9646 and 13654"@en ;
+	gist:hasGiver told:_Person_9646 ;
+	gist:hasRecipient told:_Person_13654 ;
+	.
+
+told:_TeacherStudentRelationship_9646_13659
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9646 and 13659"@en ;
+	gist:hasGiver told:_Person_9646 ;
+	gist:hasRecipient told:_Person_13659 ;
+	.
+
+told:_TeacherStudentRelationship_9646_13809
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9646 and 13809"@en ;
+	gist:hasGiver told:_Person_9646 ;
+	gist:hasRecipient told:_Person_13809 ;
+	.
+
+told:_TeacherStudentRelationship_9646_13828
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9646 and 13828"@en ;
+	gist:hasGiver told:_Person_9646 ;
+	gist:hasRecipient told:_Person_13828 ;
+	.
+
+told:_TeacherStudentRelationship_9646_9594
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9646 and 9594"@en ;
+	gist:hasGiver told:_Person_9646 ;
+	gist:hasRecipient told:_Person_9594 ;
+	.
+
+told:_TeacherStudentRelationship_9668_13843
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9668 and 13843"@en ;
+	gist:hasGiver told:_Person_9668 ;
+	gist:hasRecipient told:_Person_13843 ;
+	.
+
+told:_TeacherStudentRelationship_9677_13788
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9677 and 13788"@en ;
+	gist:hasGiver told:_Person_9677 ;
+	gist:hasRecipient told:_Person_13788 ;
+	.
+
+told:_TeacherStudentRelationship_9699_12171
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9699 and 12171"@en ;
+	gist:hasGiver told:_Person_9699 ;
+	gist:hasRecipient told:_Person_12171 ;
+	.
+
+told:_TeacherStudentRelationship_9709_10083
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9709 and 10083"@en ;
+	gist:hasGiver told:_Person_9709 ;
+	gist:hasRecipient told:_Person_10083 ;
+	.
+
+told:_TeacherStudentRelationship_9759_9761
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9759 and 9761"@en ;
+	gist:hasGiver told:_Person_9759 ;
+	gist:hasRecipient told:_Person_9761 ;
+	.
+
+told:_TeacherStudentRelationship_9760_9761
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9760 and 9761"@en ;
+	gist:hasGiver told:_Person_9760 ;
+	gist:hasRecipient told:_Person_9761 ;
+	.
+
+told:_TeacherStudentRelationship_9761_12255
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9761 and 12255"@en ;
+	gist:hasGiver told:_Person_9761 ;
+	gist:hasRecipient told:_Person_12255 ;
+	.
+
+told:_TeacherStudentRelationship_9792_12745
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9792 and 12745"@en ;
+	gist:hasGiver told:_Person_9792 ;
+	gist:hasRecipient told:_Person_12745 ;
+	.
+
+told:_TeacherStudentRelationship_9884_12981
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9884 and 12981"@en ;
+	gist:hasGiver told:_Person_9884 ;
+	gist:hasRecipient told:_Person_12981 ;
+	.
+
+told:_TeacherStudentRelationship_9895_12981
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9895 and 12981"@en ;
+	gist:hasGiver told:_Person_9895 ;
+	gist:hasRecipient told:_Person_12981 ;
+	.
+
+told:_TeacherStudentRelationship_9895_13809
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9895 and 13809"@en ;
+	gist:hasGiver told:_Person_9895 ;
+	gist:hasRecipient told:_Person_13809 ;
+	.
+
+told:_TeacherStudentRelationship_9895_8972
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9895 and 8972"@en ;
+	gist:hasGiver told:_Person_9895 ;
+	gist:hasRecipient told:_Person_8972 ;
+	.
+
+told:_TeacherStudentRelationship_9934_11437
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9934 and 11437"@en ;
+	gist:hasGiver told:_Person_9934 ;
+	gist:hasRecipient told:_Person_11437 ;
+	.
+
+told:_TeacherStudentRelationship_9966_11290
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9966 and 11290"@en ;
+	gist:hasGiver told:_Person_9966 ;
+	gist:hasRecipient told:_Person_11290 ;
+	.
+
+told:_TeacherStudentRelationship_9979_11003
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9979 and 11003"@en ;
+	gist:hasGiver told:_Person_9979 ;
+	gist:hasRecipient told:_Person_11003 ;
+	.
+
+told:_TeacherStudentRelationship_9979_12742
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9979 and 12742"@en ;
+	gist:hasGiver told:_Person_9979 ;
+	gist:hasRecipient told:_Person_12742 ;
+	.
+
+told:_TeacherStudentRelationship_9990_10355
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9990 and 10355"@en ;
+	gist:hasGiver told:_Person_9990 ;
+	gist:hasRecipient told:_Person_10355 ;
+	.
+
+told:_TeacherStudentRelationship_9990_11290
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9990 and 11290"@en ;
+	gist:hasGiver told:_Person_9990 ;
+	gist:hasRecipient told:_Person_11290 ;
+	.
+
+told:_TeacherStudentRelationship_9990_12180
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9990 and 12180"@en ;
+	gist:hasGiver told:_Person_9990 ;
+	gist:hasRecipient told:_Person_12180 ;
+	.
+
+told:_TeacherStudentRelationship_9990_12479
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9990 and 12479"@en ;
+	gist:hasGiver told:_Person_9990 ;
+	gist:hasRecipient told:_Person_12479 ;
+	.
+
+told:_TeacherStudentRelationship_9990_12743
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9990 and 12743"@en ;
+	gist:hasGiver told:_Person_9990 ;
+	gist:hasRecipient told:_Person_12743 ;
+	.
+
+told:_TeacherStudentRelationship_9990_12981
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9990 and 12981"@en ;
+	gist:hasGiver told:_Person_9990 ;
+	gist:hasRecipient told:_Person_12981 ;
+	.
+
+told:_TeacherStudentRelationship_9990_13648
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9990 and 13648"@en ;
+	gist:hasGiver told:_Person_9990 ;
+	gist:hasRecipient told:_Person_13648 ;
+	.
+
+told:_TeacherStudentRelationship_9990_13654
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9990 and 13654"@en ;
+	gist:hasGiver told:_Person_9990 ;
+	gist:hasRecipient told:_Person_13654 ;
+	.
+
+told:_TeacherStudentRelationship_9990_13697
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9990 and 13697"@en ;
+	gist:hasGiver told:_Person_9990 ;
+	gist:hasRecipient told:_Person_13697 ;
+	.
+
+told:_TeacherStudentRelationship_9990_13707
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9990 and 13707"@en ;
+	gist:hasGiver told:_Person_9990 ;
+	gist:hasRecipient told:_Person_13707 ;
+	.
+
+told:_TeacherStudentRelationship_9990_13809
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9990 and 13809"@en ;
+	gist:hasGiver told:_Person_9990 ;
+	gist:hasRecipient told:_Person_13809 ;
+	.
+
+told:_TeacherStudentRelationship_9990_13811
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9990 and 13811"@en ;
+	gist:hasGiver told:_Person_9990 ;
+	gist:hasRecipient told:_Person_13811 ;
+	.
+
+told:_TeacherStudentRelationship_9990_13828
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9990 and 13828"@en ;
+	gist:hasGiver told:_Person_9990 ;
+	gist:hasRecipient told:_Person_13828 ;
+	.
+
+told:_TeacherStudentRelationship_9990_13841
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9990 and 13841"@en ;
+	gist:hasGiver told:_Person_9990 ;
+	gist:hasRecipient told:_Person_13841 ;
+	.
+
+told:_TeacherStudentRelationship_9990_4820
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9990 and 4820"@en ;
+	gist:hasGiver told:_Person_9990 ;
+	gist:hasRecipient told:_Person_4820 ;
+	.
+
+told:_TeacherStudentRelationship_9990_8507
+	a tolo:TeacherStudentRelationship ;
+	skos:prefLabel "Teacher-Student Relationship between Person 9990 and 8507"@en ;
+	gist:hasGiver told:_Person_9990 ;
+	gist:hasRecipient told:_Person_8507 ;
+	.
+
