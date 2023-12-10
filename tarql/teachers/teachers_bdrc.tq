@@ -19,18 +19,18 @@ PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/>
 
 ## COLUMNS 
 # teacher_id
-# tbrc_teacher_id
+# teacher_tbrc_rid
 # teacher_default_name
-# teacher_default_name-_lang-encoding
+# teacher_default_name-_lang-encoding (ignore)
 # teacher_has_bio
 # student_id
-# student_bdrc_id
+# student_tbrc_rid
 # student_default_name
-# student_default_name-_lang-encoding
+# student_default_name-_lang-encoding (ignore)
 # student_has_bio
 
 # Run: 
-# tarql --dedup 100000 teachers.tq teacher-student_2023-11-05.csv > tolTeachers.ttl
+# tarql --dedup 100000 teachers_bdrc.tq teacher-student-bdrc_2023-11-05.csv > tolTeachersBdrc.ttl
 
 
 CONSTRUCT {
@@ -44,15 +44,15 @@ CONSTRUCT {
 
     ?teacher_iri
         a ?teacher_type ;
-        skos:prefLabel ?teacher_name ;
-        tolo:preferredName ?teacher_name ;
+        skos:prefLabel ?teacher_name_wylie ;
+        tolo:preferredName ?teacher_name_wylie ;
         owl:sameAs ?teacher_bdrc_iri ;
         .   
 
     ?student_iri
         a ?student_type ;
-        skos:prefLabel ?student_name ;
-        tolo:preferredName ?student_name ;
+        skos:prefLabel ?student_name_wylie ;
+        tolo:preferredName ?student_name_wylie ;
         owl:sameAs ?student_bdrc_iri ;
         .   
 
@@ -61,21 +61,23 @@ CONSTRUCT {
 WHERE {
     
     # Testing
-    # FILTER(?ROWNUM IN (1, 464))
+    # FILTER(?ROWNUM IN (31, 32))
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_TeacherStudentRelationship_", ?teacher_id, "_", ?student_id)) AS ?relationship_iri)
     BIND(STRLANG(CONCAT("Teacher-Student Relationship between Person ", ?teacher_id, " and ", ?student_id), "en") AS ?relationship_label_en)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?teacher_id)) AS ?teacher_iri)
-    # If no bio, the person entity has not been created in the persons conversion. Add type, name and owl:sameAs to BDRC person.
-    BIND(IF(?teacher_has_bio = "NO", STRLANG(?teacher_default_name, ?teacher_default_name__lang_encoding), ?unbound) AS ?teacher_name)
-    BIND(IF(BOUND(?teacher_name), tarql:expandPrefixedName(CONCAT("bdr:", ?tbrc_teacher_id)), ?unbound) AS ?teacher_bdrc_iri)
-    BIND(IF(BOUND(?teacher_name), tarql:expandPrefixedName("tolo:Person"), ?unbound) AS ?teacher_type)
+    # If no bio, the person entity has not been created in the persons conversion. Add type, name and owl:sameAs to BDRC person. Assume Wylie encoding of name, and ignore final parenthesized text (closing parenthesis is missing in one case).
+    BIND(IF(?teacher_has_bio = "NO", REPLACE(?teacher_default_name, " \\(.*\\)?", ""), ?unbound) AS ?teacher_name_clean)
+    BIND(IF(BOUND(?teacher_name_clean), STRLANG(?teacher_name_clean, "bo-x-ewts"), ?unbound) AS ?teacher_name_wylie)
+    BIND(IF(BOUND(?teacher_name_wylie), tarql:expandPrefixedName(CONCAT("bdr:", ?teacher_tbrc_rid)), ?unbound) AS ?teacher_bdrc_iri)
+    BIND(IF(BOUND(?teacher_name_wylie), tarql:expandPrefixedName("tolo:Person"), ?unbound) AS ?teacher_type)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?student_id)) AS ?student_iri)
-    # If no bio, the person entity has not been created in the persons conversion. Add type, name and owl:sameAs to BDRC person.
-    BIND(IF(?student_has_bio = "NO", STRLANG(?student_default_name, ?student_default_name__lang_encoding), ?unbound) AS ?student_name)
-    BIND(IF(BOUND(?student_name), tarql:expandPrefixedName(CONCAT("bdr:", ?tbrc_student_id)), ?unbound) AS ?student_bdrc_iri)
-    BIND(IF(BOUND(?student_name), tarql:expandPrefixedName("tolo:Person"), ?unbound) AS ?student_type)
+    # If no bio, the person entity has not been created in the persons conversion. Add type, name and owl:sameAs to BDRC person. Assume Wylie encoding of name, and ignore final parenthesized text (closing parenthesis is missing in one case).
+    BIND(IF(?student_has_bio = "NO", REPLACE(?student_default_name, " \\(.*\\)?", ""), ?unbound) AS ?student_name_clean)
+    BIND(IF(BOUND(?student_name_clean), STRLANG(?student_name_clean, "bo-x-ewts"), ?unbound) AS ?bio_iristudent_name_wylie)
+    BIND(IF(BOUND(?student_name_wylie), tarql:expandPrefixedName(CONCAT("bdr:", ?student_tbrc_rid)), ?unbound) AS ?student_bdrc_iri)
+    BIND(IF(BOUND(?student_name_wylie), tarql:expandPrefixedName("tolo:Person"), ?unbound) AS ?student_type)
 
 }
