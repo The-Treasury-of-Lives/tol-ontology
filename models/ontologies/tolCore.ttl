@@ -389,18 +389,6 @@ tolo:actualYear
 	skos:prefLabel "actual year"@en ;
 	.
 
-tolo:alternateName
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:name ;
-	skos:definition "An alternate name for a person."@en ;
-	skos:example "gyer sgom gnyis pa and gyer sgom tshul khrims seng+ge are alternate names for the individual whose ToL "@en ;
-	skos:prefLabel "alternate name"@en ;
-	skos:scopeNote
-		"The preferred/alternate distinction may be source- or system-dependent. Treasury of Lives has selected a preferred name, but other systems or sources may prefer a different name."@en ,
-		"The same name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a preferred name in both its own and the Extended Wylie systems."@en
-		;
-	.
-
 tolo:alternateYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tolo:inYear ;
@@ -435,15 +423,11 @@ tolo:displayName
 		"Name to display on the website, often a combination of title + name, possibly with ordinal if the title involves an incarnation lineage."@en ,
 		"The name of a person or other resource used for display purposes."@en
 		;
-	skos:editorialNote "Wait to see if we need this field. They may want to use the preferred name instead."^^xsd:string ;
 	skos:example
-		"Gyergom Tsultrim Sengge is the display name of the person with the same preferred name."^^xsd:string ,
-		"The First Adzom Drukpa, Drodul Pawo Dorje"@en
+		"'Gyergom Tsultrim Sengge' is the display name of the person with the same preferred name."^^xsd:string ,
+		"'The First Adzom Drukpa, Drodul Pawo Dorje' is the display name of Drodul Pawo Dorje. 'Adzom Drukpa' is the title, and the display title includes the ordinal."@en
 		;
-	skos:prefLabel
-		"display name"@en ,
-		"displayName"@en
-		;
+	skos:prefLabel "display name"@en ;
 	skos:scopeNote "The same name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a preferred name in both its own and the Extended Wylie systems."@en ;
 	.
 
@@ -818,6 +802,16 @@ tolo:marriedFamilyName
 	skos:prefLabel "married family name"@en ;
 	.
 
+tolo:nameVariant
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:name ;
+	skos:altLabel "alternate name"@en ;
+	skos:definition "An alternate name for a person."@en ;
+	skos:example "gyer sgom gnyis pa and gyer sgom tshul khrims seng+ge are alternate names for the individual whose ToL "@en ;
+	skos:prefLabel "name variant"@en ;
+	skos:scopeNote "The preferred/alternate distinction may be source- or system-dependent. Other systems or sources may prefer a name different from Treasury of Lives' preferred name."@en ;
+	.
+
 tolo:occursDuring
 	a
 		owl:ObjectProperty ,
@@ -847,7 +841,7 @@ tolo:preferredName
 	skos:example "Gyergom Tsultrim Sengge is the preferred name of the individual called Gyergom Nyipa by the Library of Congress."@en ;
 	skos:prefLabel "preferred name"@en ;
 	skos:scopeNote
-		"The preferred/alternate distinction may be source- or system-dependent. Treasury of Lives has selected a preferred name, but other systems or sources may prefer a different name."@en ,
+		"The preferred/alternate distinction may be source- or system-dependent. Other systems or sources may prefer a name different from Treasury of Lives' preferred name."@en ,
 		"The same name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a preferred name in both its own and the Extended Wylie systems."@en
 		;
 	.
