@@ -32,14 +32,14 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # HAR URL
 # Death century
 # Historical period - not converted; generated from another CSV
-# Name displayed as
-# Name variants
+# Name display phonetic
+# Name display Wylie
 # Birth century
 # Ordinal
 # Wikidata ID
 
 # Run: 
-# tarql --dedup 50000 persons.tq persons_2023-11-05.csv > tolPersons.ttl
+# tarql --dedup 50000 persons.tq persons_all_2023-12-05.csv > tolPersons.ttl
 
 
 CONSTRUCT {
@@ -51,19 +51,19 @@ CONSTRUCT {
         tolo:harUrl ?har_url ;
 
         skos:prefLabel 
-            ?preferred_name_tol ,
+            ?preferred_name_en ,
             ?preferred_name_wylie ;
 
         tolo:preferredName 
-            ?preferred_name_tol ,
+            ?preferred_name_en ,
             ?preferred_name_wylie ;     
         tolo:alternateName ?alternate_name ;
-        # Waiting to see if we need this
-        # tolo:displayName 
-        #     ?display_name_en ,
-        #     ?display_name_wylie ;
 
-        tolo:title ?title_tol ;
+        tolo:displayName 
+            ?display_name_en ,
+            ?display_name_wylie ;
+
+        tolo:title ?title_en ;
         tolo:title ?title_wylie ;
 
         bdo:personGender ?gender_iri ;
@@ -95,7 +95,7 @@ CONSTRUCT {
 WHERE {
 
     # Testing
-    # FILTER(?ROWNUM = 1)
+    FILTER(?ROWNUM = 1)
 
     # URIs and URLs
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?TOL_ID)) AS ?person_iri)
@@ -110,8 +110,8 @@ WHERE {
     # NAMES AND TITLES
 
     # TOL name and title - follow BDRC in using language tag en
-    BIND(STRLANG(?Primary_name, "en") AS ?preferred_name_tol)
-    BIND(STRLANG(?Primary_title, "en") AS ?title_tol)
+    BIND(STRLANG(?Primary_name, "en") AS ?preferred_name_en)
+    BIND(STRLANG(?Primary_title, "en") AS ?title_en)
     # Waiting to see if we need this
     # BIND(STRLANG(?Display_name, "en") AS ?display_name_en)
 
@@ -133,6 +133,9 @@ WHERE {
         AS ?lang)
     BIND(IF(BOUND(?lang), STRLANG(?name, ?lang), ?name) AS ?alternate_name)
 
+    # Display names
+    BIND(STRLANG(?Name_display_phonetic, "en") AS ?display_name_en)
+    BIND(STRLANG(?Name_display_Wylie, "bo-x-ewts") AS ?display_name_wylie)
 
     # GENDER
     BIND(
