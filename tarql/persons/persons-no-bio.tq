@@ -1,0 +1,68 @@
+PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
+PREFIX bdr: <http://purl.bdrc.io/resource/> 
+PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX told: <https://w3id.org/treasuryoflives/ns/data/tol/>
+PREFIX tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/>
+PREFIX tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wiki: <https://www.wikidata.org/wiki/>
+
+## Persons with no bio are imported from BDRC and with no additional TOL information. These persons may also appear in teacher-student relationships. They are currently stored in the system to generate a blank page.
+
+## Columns
+# person_id
+# tbrc_id
+# default_name
+# default_name_tag
+# wylie_name
+# bo-x-ewts - ignored since all values are "bo-x-ewts"
+# publish_type_id - ignored
+# published_default_name - ignored
+# is_deleted - ignored
+
+# Run: 
+# tarql --dedup 50000 persons-no-bio.tq person-no-bio-12-18-23.csv > tolPersonsNoBio.ttl
+
+
+CONSTRUCT {
+    ?person_iri 
+        a tolo:Person ;
+        owl:sameAs 
+            ?bdrc_iri ;
+
+        skos:prefLabel 
+            ?preferred_name ,
+            ?preferred_name_wylie ;
+
+        tolo:preferredName 
+            ?preferred_name ,
+            ?preferred_name_wylie ;
+
+    .
+}
+
+WHERE {
+
+    # Testing
+    # FILTER(?ROWNUM = 1)
+
+    # IRI
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?person_id)) AS ?person_iri)
+
+    # owl:sameAs
+    BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?tbrc_irid)) AS ?bdrc_iri)
+
+    # Names 
+    BIND(STRLANG(?default_name, ?default_name_tag) AS ?preferred_name)
+    # TARQL deduping will remove if this is the same as the default name.
+    BIND(STRLANG(?wylie_name, "bo-x-ewts") AS ?preferred_name_wylie)
+    
+}
