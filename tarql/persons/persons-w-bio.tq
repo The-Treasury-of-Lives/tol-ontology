@@ -39,7 +39,7 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # Wikidata ID
 
 # Run: 
-# tarql --dedup 50000 persons.tq person-w-bio-12-5-23.csv > tolPersons.ttl
+# tarql --dedup 50000 persons-w-bio.tq person-w-bio-12-5-23.csv > tolPersonsWithBio.ttl
 
 
 CONSTRUCT {
@@ -97,7 +97,7 @@ WHERE {
     # Testing
     # FILTER(?ROWNUM = 1)
 
-    # URIs and URLs
+    # IRIs and URLs
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?TOL_ID)) AS ?person_iri)
 
     # owl:sameAs
