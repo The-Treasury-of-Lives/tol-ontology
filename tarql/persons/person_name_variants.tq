@@ -38,5 +38,5 @@ WHERE {
 
     # BIND(STRLANG(?name_variant, ?lang_tag) AS ?alternate_name)
     BIND(IF(?primary_name != ?name_variant, STRLANG(?name_variant, ?lang_tag), ?unbound) AS ?alternate_name)
-    BIND(IF(?primary_name != ?name_variant, tarql:expandPrefixedName(CONCAT("told:_Person_", ?tol_id)), ?unbound) AS ?person_iri)
+    BIND(IF(BOUND(?alternate_name), tarql:expandPrefixedName(CONCAT("told:_Person_", ?tol_id)), ?unbound) AS ?person_iri)
 }
