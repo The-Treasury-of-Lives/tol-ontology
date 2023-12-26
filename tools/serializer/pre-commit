@@ -193,10 +193,9 @@ __log_config__
       rm -f "${logcfg}" >/dev/null 2>&1
     fi
 
-#    sed '/rdfs:label/!b;:a;/datatype="&xsd;string"/bb;$!{N;ba};:b;s/rdfs:label[^>]*datatype=".....string"/rdfs:label/' "${file}" > temp
-#    rm "${file}"
-#    mv temp "${file}"
-
+    log "Patching serializer erroneous change of -x- in language tag to -X-"
+    sed 's/-X-/-x-/g' $tmp > $file 
+    rm -f $tmp
 
     if [ ${rc} -eq 0 ] ; then
       log "Re-adding potentially re-serialized file to git staging area: ${file}"

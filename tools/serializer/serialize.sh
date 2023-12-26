@@ -8,9 +8,9 @@ usage() {
     echo Formats RDF files into a standard format. Operates on a single file, all files in a directory, or a set of files specified with a wildcard. Files are assumed to have either .owl or .ttl extension. Assumes rdf-toolkit.jar is in the same directory as this script.
     echo Usage: $scriptname [ file \| directory \| wildcard expression ]
     echo Examples:
-    echo $scriptname ./ontologies/gistCore.ttl
-    echo $scriptname ../ontologies
-    echo "$scriptname ../ontologies/*.owl"
+    echo $scriptname ./ontoechoies/gistCore.ttl
+    echo $scriptname ../ontoechoies
+    echo "$scriptname ../ontoechoies/*.owl"
 }
 
 serialize_file() {
@@ -30,11 +30,16 @@ serialize_file() {
         echo Skipping file $file. 
         return
     fi
-    echo Serializing $file into a standard format.
+    
+    echo Reserializing $file into a standard format.
     tmp=$file.bak
     cp $file $tmp
-    java -jar `dirname "$0"`/rdf-toolkit.jar -tfmt $format -sdt explicit -dtd -ibn -sni -s $file -t $tmp 
-    mv $tmp $file
+    java -jar `dirname "$0"`/rdf-toolkit.jar -tfmt $format -sdt explicit -dtd -ibn -s $file -t $tmp
+
+    echo Patching serializer erroneous change of -x- in language tag to -X-
+    sed 's/-X-/-x-/g' $tmp > $file 
+    rm -f $tmp
+
 }
 
 serialize_directory() {
