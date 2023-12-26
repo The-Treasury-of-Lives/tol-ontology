@@ -3,7 +3,7 @@
 # imports: https://w3id.org/semanticarts/ontology/gistMediaTypes12.0.1
 # imports: https://w3id.org/treasuryoflives/data/tolTraditionsX.x.x
 # imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
-# imports: https://w3id.org/treasuryoflives/taxonomy/tolCenturiesX.x.x
+# imports: https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolMarriageRanksX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x
@@ -23,7 +23,7 @@
 		<https://w3id.org/semanticarts/ontology/gistMediaTypes12.0.1> ,
 		<https://w3id.org/treasuryoflives/data/tolTraditionsX.x.x> ,
 		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ,
-		<https://w3id.org/treasuryoflives/taxonomy/tolCenturiesX.x.x> ,
+		<https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolMarriageRanksX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x>
