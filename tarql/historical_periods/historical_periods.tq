@@ -27,21 +27,22 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # told:_HistoricalPeriod_14th_century_late
 
 # Run:
-# tarql centuries.tq > tolCenturies.ttl
+# tarql historical_periods.tq > tolHistoricalPeriods.ttl
 
 
 CONSTRUCT {
 
-	<https://w3id.org/treasuryoflives/data/tolCenturies>
+	<https://w3id.org/treasuryoflives/data/tolHistoricalPeriods>
         a owl:Ontology ;
         skos:definition "Defines full and partial centuries."@en ;
         skos:prefLabel "Centuries"@en ;
         skos:editorialNote "Auto-generated via TARQL."@en ;
-	    owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
-	    owl:versionIRI <https://w3id.org/treasuryoflives/data/tolCenturiesX.x.x> ;
+		owl:imports <https://w3id.org/semanticarts/ontology/gistCore12.0.1> ,
+	    	<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
+	    owl:versionIRI <https://w3id.org/treasuryoflives/data/tolHistoricalPeriodsX.x.x> ;
 	.
 
-    ?century_iri a gist:HistoricalPeriod ;
+    ?century_iri a tolo:HistoricalPeriod ;
         skos:prefLabel ?cent_name ;
 		skos:altLabel ?cent_altName ;
 		gist:actualStartYear ?cent_start;
@@ -52,7 +53,7 @@ CONSTRUCT {
 			?late_iri ;
 	.
 
-	?early_iri a gist:HistoricalPeriod ;
+	?early_iri a tolo:HistoricalPeriod ;
 		skos:prefLabel ?early_name ;
 		skos:altLabel ?early_altName ;
 		gist:actualStartYear ?cent_start;
@@ -60,7 +61,7 @@ CONSTRUCT {
 		gist:precedesDirectly ?mid_iri ;
 	.
 	
-	?mid_iri a gist:HistoricalPeriod ;
+	?mid_iri a tolo:HistoricalPeriod ;
 		skos:prefLabel ?mid_name ;
 		skos:altLabel ?mid_altName ;
 		gist:actualStartYear ?mid_start;
@@ -68,7 +69,7 @@ CONSTRUCT {
 		gist:precedesDirectly ?late_iri ;
 	.
 	
-	?late_iri a gist:HistoricalPeriod ;
+	?late_iri a tolo:HistoricalPeriod ;
 		skos:prefLabel ?late_name ;
 		skos:altLabel ?late_altName ;
 		gist:actualStartYear ?late_start;
