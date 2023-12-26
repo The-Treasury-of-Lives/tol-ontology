@@ -16,17 +16,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX wiki: <https://www.wikidata.org/wiki/>
 
 ## Columns
-# person_id
-# name_variant_text
-# language_encoding_tag_id
-# language_encoding
+# tol_id
+# tbrc_id
+# primary_name
+# name_variant
+# lang_tag
 
 # Run: 
-# tarql --dedup 50000 person_name_variants.tq person_name_variants_2023-12-05.csv > tolPersonNameVariants.ttl
+# tarql --dedup 50000 person_name_variants.tq person-name-variants-12-15-23.csv > tolPersonNameVariants.ttl
 
 
 CONSTRUCT {
-    ?person_iri tolo:alternateName ?name_variant ;
+    ?person_iri tolo:alternateName ?alternate_name ;
     .
 } 
 
@@ -35,6 +36,7 @@ WHERE {
     # Testing
     # FILTER(?ROWNUM IN (1, 2))
 
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?person_id)) AS ?person_iri)
-    BIND(STRLANG(?name_variant_text, ?language_encoding_tag_id) AS ?name_variant)
+    # BIND(STRLANG(?name_variant, ?lang_tag) AS ?alternate_name)
+    BIND(IF(?primary_name != ?name_variant, STRLANG(?name_variant, ?lang_tag), ?unbound) AS ?alternate_name)
+    BIND(IF(?primary_name != ?name_variant, tarql:expandPrefixedName(CONCAT("told:_Person_", ?tol_id)), ?unbound) AS ?person_iri)
 }
