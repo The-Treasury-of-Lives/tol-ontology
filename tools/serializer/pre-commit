@@ -193,17 +193,23 @@ __log_config__
       rm -f "${logcfg}" >/dev/null 2>&1
     fi
 
-    log "Patching serializer erroneous change of -x- in language tag to -X-"
-    sed 's/-X-/-x-/g' $tmp > $file 
-    rm -f $tmp
+#    sed '/rdfs:label/!b;:a;/datatype="&xsd;string"/bb;$!{N;ba};:b;s/rdfs:label[^>]*datatype=".....string"/rdfs:label/' "${file}" > temp
+#    rm "${file}"
+#    mv temp "${file}"
+
 
     if [ ${rc} -eq 0 ] ; then
       log "Re-adding potentially re-serialized file to git staging area: ${file}"
       permissions=$(stat -c "%a" "${file}")
       chmod $permissions "${file}X"
       rm  "${file}"
-      mv  "${file}X" "${file}"
+      
+      log "Patching serializer erroneous change of -x- in language tag to -X-"
+      sed 's/-X-/-x-/g' "${file}X" > "${file}"
+      rm  "${file}X"  
+
       git add --update "${file}"
+
     else
       log_error "sesame-serializer ended with error code ${rc}"
     fi
