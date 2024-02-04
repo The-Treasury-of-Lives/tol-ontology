@@ -19,7 +19,7 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # tol_id
 # tbrc_id
 # primary_name
-# prefered_wylie
+# prefered_wylie [sic]
 # name_variant
 # lang_tag
 
@@ -28,6 +28,7 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 
 
 CONSTRUCT {
+    #?person_iri tolo:alternateName ?alternate_name ;
     ?person_iri tolo:alternateName ?alternate_name ;
     .
 } 
@@ -35,8 +36,9 @@ CONSTRUCT {
 WHERE {
 
     # Testing
-    FILTER(?ROWNUM IN (1, 2))
+    #  FILTER(?ROWNUM IN (1, 2))
 
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?tol_id)) AS ?person_iri)
     BIND(IF(?name_variant != ?primary_name && ?name_variant != ?prefered_wylie, STRLANG(?name_variant, ?lang_tag), ?unbound) AS ?alternate_name)
-    BIND(IF(BOUND(?alternate_name), tarql:expandPrefixedName(CONCAT("told:_Person_", ?tol_id)), ?unbound) AS ?person_iri)
+
 }

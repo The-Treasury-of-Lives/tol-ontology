@@ -29,7 +29,7 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # is_deleted - ignored
 
 # Run: 
-# tarql --dedup 50000 persons-no-bio.tq person-no-bio-12-18-23.csv > tolPersonsNoBio.ttl
+# tarql --dedup 50000 persons_no_bio.tq person-no-bio-12-18-23.csv > tolPersonsNoBio.ttl
 
 
 CONSTRUCT {
