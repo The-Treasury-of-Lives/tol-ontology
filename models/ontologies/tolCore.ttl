@@ -33,7 +33,12 @@ tolo:Biography
 	a owl:Class ;
 	rdfs:subClassOf
 		bf:Work ,
-		gist:ContentExpression
+		gist:ContentExpression ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:isAbout ;
+			owl:someValuesFrom tolo:Person ;
+		]
 		;
 	skos:altLabel "Bio"^^xsd:string ;
 	skos:definition "A written acount of another person's life."^^xsd:string ;
@@ -123,11 +128,6 @@ tolo:HtmlBiography
 				a owl:Restriction ;
 				owl:onProperty gist:isExpressedIn ;
 				owl:hasValue media-txt:html ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:isAbout ;
-				owl:someValuesFrom tolo:Person ;
 			]
 		) ;
 	] ;
