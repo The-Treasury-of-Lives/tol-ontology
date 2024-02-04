@@ -20,15 +20,15 @@
 told:_Person_10368
 	a tolo:Person ;
 	owl:sameAs bdr:P7690 ;
-	skos:prefLabel "thub bstan phrin las bzang po"@bo-X-ewts ;
-	tolo:preferredName "thub bstan phrin las bzang po"@bo-X-ewts ;
+	skos:prefLabel "thub bstan phrin las bzang po"@bo-x-ewts ;
+	tolo:preferredName "thub bstan phrin las bzang po"@bo-x-ewts ;
 	.
 
 told:_Person_251
 	a tolo:Person ;
 	owl:sameAs bdr:P00KG07607 ;
-	skos:prefLabel "chos dbyings rang grol"@bo-X-ewts ;
-	tolo:preferredName "chos dbyings rang grol"@bo-X-ewts ;
+	skos:prefLabel "chos dbyings rang grol"@bo-x-ewts ;
+	tolo:preferredName "chos dbyings rang grol"@bo-x-ewts ;
 	.
 
 told:_TeacherStudentRelationship_251_10368
