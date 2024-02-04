@@ -1,0 +1,622 @@
+teacher_id,tbrc_teacher_id,teacher_default_name,teacher_default_name-_lang-encoding,teacher_has_bio,student_id,student_bdrc_id,student_default_name,student_default_name-_lang-encoding,student_has_bio
+2069,P10497,Rinchen Dorje,en,YES,12743,P9907,Damcho Wozer,en,YES
+2162,P10582,Tashi Namgyel,en,YES,13554,P385,Mikyo Dorje,en,NO
+2328,P1079,Chokyi Gyelpo,en,YES,2442,P1182,Sumpa Damcho Gyatso,en,YES
+2418,P1160,Ngawang Lobzang,en,YES,276,P00KG09732,Lhagyari Namgyel Gyatso,en,YES
+2418,P1160,Ngawang Lobzang,en,YES,13120,P2AG27,Drodul Dorji Tenzin,en,YES
+2419,P1161,Dungkar Lobzang Trinle,en,YES,7613,P5110,Dondrub Gyel,en,YES
+2419,P1161,Dungkar Lobzang Trinle,en,YES,10386,P7707,brug thar,bo-x-ewts,NO
+2483,P1219,Kyoton Monlam Tsultrim,en,YES,8730,P6145,Dromton Zhonnu Lodro,en,YES
+2491,P1226,Lama Dampa Sonam Gyeltsen,en,YES,3266,P1932,Barawa Gyeltsen Pelzang,en,YES
+2541,P1271,Takla Norbu,en,YES,13685,P2KG228978,rig 'dzin 'ja' lus rdo rje,bo-x-ewts,NO
+2661,P1380,Peljor Dondrub,en,YES,1659,P1012,Tashi Peljor,en,YES
+2662,P1382,Choying Dorje,en,YES,13838,,Jangchub Nyima,en,YES
+2670,P139,Dolpopa Sherab Gyeltsen,en,YES,4086,P2388,Jangchub Tsemo,en,YES
+2730,P1445,Karma Shedrub Chokyi Sengge,en,YES,10355,P7679,Kunga Tenpai Nyima,en,YES
+2733,P1448,Orgyenpa Rinchen Pel,en,YES,8455,P5894,Kunden Rema,en,YES
+2758,P1470,Kelzang Tubten Wangchuk,en,YES,1902,P10343,Kelzang Lodro Kunga Lungtok Gyatso,en,YES
+2776,P1487,Karma Pakshi,en,YES,8455,P5894,Kunden Rema,en,YES
+2788,P1499,Jigme Trinle Gyatso,en,YES,7882,P5368,Jigme Tsultrim Namgyel,en,YES
+2799,P1508,Tropu Gyeltsa Rinchen Gon,en,YES,7373,P4892,Chegompa Sherab Dorje,en,YES
+2799,P1508,Tropu Gyeltsa Rinchen Gon,en,YES,13462,P1AG37,Machik Rema,en,YES
+2801,P151,Sabzang Mati Paṇchen Lodro Gyeltsen,en,YES,4086,P2388,Jangchub Tsemo,en,YES
+2810,P1518,Śākyaśrībhadra,en,YES,6010,P365,Namkha Pel,en,YES
+2845,P155,Buton Rinchen Drub,en,YES,3266,P1932,Barawa Gyeltsen Pelzang,en,YES
+3152,P183,Shukseb Jetsun Choying Zangmo,en,YES,12479,P966,Tubten Lekshe Gyatso,en,YES
+3152,P183,Shukseb Jetsun Choying Zangmo,en,YES,13843,,Tseten Yudron,en,YES
+3153,P1830,Gyelse Tokme Zangpo,en,YES,4164,P2460,Nyakpuwa Sonam Zangpo,en,YES
+3204,P1877,Zangpo Pel,en,YES,8454,P5893,Kunpang Delek Rinchen,en,YES
+3307,P197,Tubten Gyatso,en,YES,2541,P1271,Takla Norbu,en,YES
+3307,P197,Tubten Gyatso,en,YES,4310,P2597,Jampa Kunga Tenzin,en,YES
+3307,P197,Tubten Gyatso,en,YES,12479,P966,Tubten Lekshe Gyatso,en,YES
+3307,P197,Tubten Gyatso,en,YES,13812,,Pelling Ani Wangdzin,en,YES
+3307,P197,Tubten Gyatso,en,YES,13823,,Khenpo Lobzang Puntsok,en,YES
+3822,P215,Tubten Chokyi Nyima,en,YES,2541,P1271,Takla Norbu,en,YES
+3822,P215,Tubten Chokyi Nyima,en,YES,2758,P1470,Kelzang Tubten Wangchuk,en,YES
+3822,P215,Tubten Chokyi Nyima,en,YES,7882,P5368,Jigme Tsultrim Namgyel,en,YES
+3822,P215,Tubten Chokyi Nyima,en,YES,13510,P1KG4195,Agvan Dorjiev,en,YES
+3955,P227,Khyenrab Norbu,en,YES,12439,P9623,Tashi Yangphel Tashigang,en,YES
+3955,P227,Khyenrab Norbu,en,YES,13598,P1AG113,Yangchen Lhamo,en,YES
+3955,P227,Khyenrab Norbu,en,YES,13693,P4CZ366523,Lobzang Wanggyel,en,YES
+3955,P227,Khyenrab Norbu,en,YES,13694,P8LS76437,Tenzin Chodrak,en,YES
+3989,P230,Dechen Nyingpo,en,YES,3955,P227,Khyenrab Norbu,en,YES
+3989,P230,Dechen Nyingpo,en,YES,8156,P5617,Kachen Lobzang Zotpa,en,YES
+3989,P230,Dechen Nyingpo,en,YES,11437,P8697,Jampel Namdrol Chokyi Gyeltsen,en,YES
+3989,P230,Dechen Nyingpo,en,YES,13666,P8LS76444,Pawo Wangchuk Tengpa Lobzang Nyima,en,YES
+4086,P2388,Jangchub Tsemo,en,YES,13244,P10MS19659,Lotsāwa Drakpa Gyeltsen,en,NO
+4086,P2388,Jangchub Tsemo,en,YES,8986,P64,Tsongkhapa Lobzang Drakpa,en,YES
+4164,P2460,Nyakpuwa Sonam Zangpo,en,YES,13552,P1006,Tongwa Donden,en,NO
+4164,P2460,Nyakpuwa Sonam Zangpo,en,YES,13656,P1410,Dezhin Shekpa,en,NO
+4164,P2460,Nyakpuwa Sonam Zangpo,en,YES,6735,P431,Rongton Sheja Kunrik,en,YES
+4164,P2460,Nyakpuwa Sonam Zangpo,en,YES,724,P0RK1482,rgyal ba jo bzang,bo-x-ewts,NO
+4164,P2460,Nyakpuwa Sonam Zangpo,en,YES,3674,P2011,pad+ma bzang po,bo-x-ewts,NO
+4164,P2460,Nyakpuwa Sonam Zangpo,en,YES,4216,P2508,chos bzang nyi ma,bo-x-ewts,NO
+4185,P248,Jigme Tenpai Nyima,en,YES,2541,P1271,Takla Norbu,en,YES
+4228,P252,Mipam Gyatso,en,YES,8507,P5941,Chokyi Wozer,en,YES
+4228,P252,Mipam Gyatso,en,YES,9594,P6963,Kunga Pelden,en,YES
+4228,P252,Mipam Gyatso,en,YES,10355,P7679,Kunga Tenpai Nyima,en,YES
+4228,P252,Mipam Gyatso,en,YES,13692,P8LS76436,Konchok Peldron,en,YES
+4228,P252,Mipam Gyatso,en,YES,13699,P8LS76451,Ngawang Jampel Rinchen,en,YES
+4291,P258,Jamyang Khyentse Wangpo,en,YES,8,P00AG0401,Pelden Chime Takpai Dorje,en,YES
+4291,P258,Jamyang Khyentse Wangpo,en,YES,8181,P564,Chokgyur Lingpa,en,YES
+4291,P258,Jamyang Khyentse Wangpo,en,YES,9594,P6963,Kunga Pelden,en,YES
+4291,P258,Jamyang Khyentse Wangpo,en,YES,12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES
+4291,P258,Jamyang Khyentse Wangpo,en,YES,13677,P8LS76440,Ngawang Nyima,en,YES
+4291,P258,Jamyang Khyentse Wangpo,en,YES,13692,P8LS76436,Konchok Peldron,en,YES
+4291,P258,Jamyang Khyentse Wangpo,en,YES,13699,P8LS76451,Ngawang Jampel Rinchen,en,YES
+4291,P258,Jamyang Khyentse Wangpo,en,YES,13747,,Chime Dorje,en,YES
+4291,P258,Jamyang Khyentse Wangpo,en,YES,13796,,Wara Zhabdrung Jamyang Namkha Gyeltsen,en,YES
+4309,P2596,Lobzang Yeshe Tenzin Gyatso,en,YES,2419,P1161,Dungkar Lobzang Trinle,en,YES
+4309,P2596,Lobzang Yeshe Tenzin Gyatso,en,YES,11437,P8697,Jampel Namdrol Chokyi Gyeltsen,en,YES
+4309,P2596,Lobzang Yeshe Tenzin Gyatso,en,YES,11798,P9029,Yuthok Dorje Yudon,en,YES
+4309,P2596,Lobzang Yeshe Tenzin Gyatso,en,YES,12479,P966,Tubten Lekshe Gyatso,en,YES
+4310,P2597,Jampa Kunga Tenzin,en,YES,13801,,Lama Ngaklo,en,NO
+4310,P2597,Jampa Kunga Tenzin,en,YES,12479,P966,Tubten Lekshe Gyatso,en,YES
+4310,P2597,Jampa Kunga Tenzin,en,YES,12613,P9786,Ngawang Lodro Rinchen,en,YES
+4358,P264,Jamgon Kongtrul Lodro Taye,en,YES,8,P00AG0401,Pelden Chime Takpai Dorje,en,YES
+4358,P264,Jamgon Kongtrul Lodro Taye,en,YES,8181,P564,Chokgyur Lingpa,en,YES
+4358,P264,Jamgon Kongtrul Lodro Taye,en,YES,12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES
+4358,P264,Jamgon Kongtrul Lodro Taye,en,YES,13692,P8LS76436,Konchok Peldron,en,YES
+4358,P264,Jamgon Kongtrul Lodro Taye,en,YES,13699,P8LS76451,Ngawang Jampel Rinchen,en,YES
+4425,P270,Patrul Orgyen Jigme Chokyi Wangpo,en,YES,9594,P6963,Kunga Pelden,en,YES
+4425,P270,Patrul Orgyen Jigme Chokyi Wangpo,en,YES,13692,P8LS76436,Konchok Peldron,en,YES
+4642,P29,Sherab Gyatso,en,YES,2424,P1166,Horkhang Sonam Pelbar,en,YES
+4676,P293,Jigme Trinle Wozer,en,YES,13187,P10MS14671,Tsewang Lhamo,en,YES
+4820,P2DB5980,Druk Khenpo Ngawang Yonten Gyatso,en,YES,13248,P1KG4182,Ngawang Khedrub Gyatso,en,YES
+4820,P2DB5980,Druk Khenpo Ngawang Yonten Gyatso,en,YES,13654,P8LS76435,Jamyang Khyentse Chokyi Wangchuk,en,YES
+4820,P2DB5980,Druk Khenpo Ngawang Yonten Gyatso,en,YES,9278,P6672,nam mkha'i nor bu,bo-x-ewts,NO
+4820,P2DB5980,Druk Khenpo Ngawang Yonten Gyatso,en,YES,10209,P754,chos kyi dbang phyug,bo-x-ewts,NO
+4820,P2DB5980,Druk Khenpo Ngawang Yonten Gyatso,en,YES,13670,P8LS1422,jigs med dbang phyug,bo-x-ewts,NO
+5457,P314,Jigme Lingpa,en,YES,13187,P10MS14671,Tsewang Lhamo,en,YES
+5479,P316,Arik Geshe Jampa Gelek Gyeltsen,en,YES,4611,P287,Zhabkar Tsokdruk Rangdrol,en,YES
+5644,P3312,Machik Labdron,en,YES,5648,P3316,thod smyon la ston,bo-x-ewts,NO
+5729,P339,Sumpa Khenpo Yeshe Peljor,en,YES,5902,P3550,Shedrub Gyatso,en,YES
+5894,P3542,Tubten Lhundrub,en,YES,8906,P6324,Karma Chopel,en,YES
+5894,P3542,Tubten Lhundrub,en,YES,13693,P4CZ366523,Lobzang Wanggyel,en,YES
+5894,P3542,Tubten Lhundrub,en,YES,13694,P8LS76437,Tenzin Chodrak,en,YES
+5897,P3546,Amdo Geshe Jampel Rolpai Lodro,en,YES,3955,P227,Khyenrab Norbu,en,YES
+5927,P3575,Chokyi Gyeltsen,en,YES,13837,,Drubgyud Tulku,en,YES
+6076,P3709,Pakpa Sherab,en,YES,5720,P3381,nyi ma shes rab,bo-x-ewts,NO
+6076,P3709,Pakpa Sherab,en,YES,5731,P3391,tshul 'bar,bo-x-ewts,NO
+6076,P3709,Pakpa Sherab,en,YES,5951,P3597,dgra bcom,bo-x-ewts,NO
+6110,P374,Konchok Tenpai Gyatso,en,YES,7881,P5367,Jamyang Tenzin Gyatso,en,YES
+6194,P3816,Rongzom Chokyi Zangpo,en,YES,13660,P4CZ10578,Devākaracandra,en,NO
+6194,P3816,Rongzom Chokyi Zangpo,en,YES,3181,P1856,Barompa Darma Wangchuk,en,YES
+6194,P3816,Rongzom Chokyi Zangpo,en,YES,10865,P8168,byang chub shes rab,bo-x-ewts,NO
+6198,P382,Jamyang Tubten Nyima,en,YES,7881,P5367,Jamyang Tenzin Gyatso,en,YES
+6405,P4007,Tropu Lotsāwa Jampa Pel,en,YES,8455,P5894,Kunden Rema,en,YES
+6535,P4128,Jigme Tenpai Nyima,en,YES,7881,P5367,Jamyang Tenzin Gyatso,en,YES
+7007,P4559,Thupten Lungtok Namgyal Trinley,en,YES,2419,P1161,Dungkar Lobzang Trinle,en,YES
+7007,P4559,Thupten Lungtok Namgyal Trinley,en,YES,8825,P625,Dilgo Khyentse Tashi Peljor,en,YES
+7007,P4559,Thupten Lungtok Namgyal Trinley,en,YES,11437,P8697,Jampel Namdrol Chokyi Gyeltsen,en,YES
+7007,P4559,Thupten Lungtok Namgyal Trinley,en,YES,8641,P6063,ngag dbang kun dga' theg chen   dpal 'bar,bo-x-ewts,NO
+7007,P4559,Thupten Lungtok Namgyal Trinley,en,YES,12387,P9575,bstan 'dzin 'jigs med mthu   stobs dbang phyug,bo-x-ewts,NO
+7130,P467,Jampel Zangpo,en,YES,1659,P1012,Tashi Peljor,en,YES
+7305,P483,Sherab Zangpo,en,YES,10687,P80,Gendun Drub,en,YES
+7870,P5355,Jampa Chodrak,en,YES,11437,P8697,Jampel Namdrol Chokyi Gyeltsen,en,YES
+8027,P55,Khedrubje Gelek Pelzang,en,YES,7305,P483,Sherab Zangpo,en,YES
+8126,P559,Pema Nyinje Wangpo,en,YES,13840,,Drubgyud Tulku,en,YES
+8181,P564,Chokgyur Lingpa,en,YES,8,P00AG0401,Pelden Chime Takpai Dorje,en,YES
+8181,P564,Chokgyur Lingpa,en,YES,13692,P8LS76436,Konchok Peldron,en,YES
+8181,P564,Chokgyur Lingpa,en,YES,13699,P8LS76451,Ngawang Jampel Rinchen,en,YES
+8454,P5893,Kunpang Delek Rinchen,en,YES,11130,P8414,gzi brjid rgyal mtshan,bo-x-ewts,NO
+8507,P5941,Chokyi Wozer,en,YES,2069,P10497,Rinchen Dorje,en,YES
+8507,P5941,Chokyi Wozer,en,YES,8825,P625,Dilgo Khyentse Tashi Peljor,en,YES
+8507,P5941,Chokyi Wozer,en,YES,10355,P7679,Kunga Tenpai Nyima,en,YES
+8507,P5941,Chokyi Wozer,en,YES,12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES
+8507,P5941,Chokyi Wozer,en,YES,13707,P1PD108248,Tubten Gyeltsen,en,YES
+8507,P5941,Chokyi Wozer,en,YES,2060,P10488,kun dga' bsod nams,bo-x-ewts,NO
+8507,P5941,Chokyi Wozer,en,YES,2070,P10498,thub bstan,bo-x-ewts,NO
+8507,P5941,Chokyi Wozer,en,YES,8508,P5942,blo gros rgyal mtshan,bo-x-ewts,NO
+8507,P5941,Chokyi Wozer,en,YES,9278,P6672,nam mkha'i nor bu,bo-x-ewts,NO
+8507,P5941,Chokyi Wozer,en,YES,12489,P967,kun dga' bstan pa'i rgyal   mtshan,bo-x-ewts,NO
+8574,P6002,Drodul Pawo Dorje,en,YES,9594,P6963,Kunga Pelden,en,YES
+8574,P6002,Drodul Pawo Dorje,en,YES,13653,P8LS76438,Jamyang Chokyi Wangpo,en,YES
+8574,P6002,Drodul Pawo Dorje,en,YES,13654,P8LS76435,Jamyang Khyentse Chokyi Wangchuk,en,YES
+8574,P6002,Drodul Pawo Dorje,en,YES,13659,P3JT12060,Tokden Orgyen Tenzin,en,YES
+8730,P6145,Dromton Zhonnu Lodro,en,YES,13199,P2CZ7866,Nyima Gyeltsen,en,YES
+8782,P620,Shākya Shrī,en,YES,11363,P863,Mipam Chokyi Wangpo,en,NO
+8782,P620,Shākya Shrī,en,YES,13659,P3JT12060,Tokden Orgyen Tenzin,en,YES
+8782,P620,Shākya Shrī,en,YES,13749,,Tersey Tulku,en,YES
+8782,P620,Shākya Shrī,en,YES,13812,,Pelling Ani Wangdzin,en,YES
+8825,P625,Dilgo Khyentse Tashi Peljor,en,YES,12180,P938,Karma Rangjung Kunkhyab,en,YES
+8825,P625,Dilgo Khyentse Tashi Peljor,en,YES,13697,,Tsering Chodron,en,YES
+8825,P625,Dilgo Khyentse Tashi Peljor,en,YES,13820,,Kunzang Dechen,en,YES
+8906,P6324,Karma Chopel,en,YES,12439,P9623,Tashi Yangphel Tashigang,en,YES
+8972,P6387,Lekshe Chokyi Drayang,en,YES,8344,P5790,pad+ma shes rab,bo-x-ewts,NO
+8972,P6387,Lekshe Chokyi Drayang,en,YES,11280,P8555,thub bstan dpal bzang,bo-x-ewts,NO
+9047,P6455,Pema Kunzang Rangdrol,en,YES,7250,P4779,tshe rnam,bo-x-ewts,NO
+9053,P6460,Lhundrub Tsondru,en,YES,2419,P1161,Dungkar Lobzang Trinle,en,YES
+9095,P65,Gyeltsabje Darma Rinchen,en,YES,6770,P4341,Chowang Drakpa,en,YES
+9095,P65,Gyeltsabje Darma Rinchen,en,YES,7305,P483,Sherab Zangpo,en,YES
+9201,P66,Rangjung Dorje,en,YES,3266,P1932,Barawa Gyeltsen Pelzang,en,YES
+9203,P6600,Yonten Gonpo,en,YES,3485,P1GS60402,Do Dasel Wangmo,en,YES
+9203,P6600,Yonten Gonpo,en,YES,13162,P3AG54,Garwang Lerab Lingpa,en,YES
+9213,P661,Tenpai Gyeltsen,en,YES,5152,P2JM425,pad+ma rgyal mtshan,bo-x-ewts,NO
+9213,P661,Tenpai Gyeltsen,en,YES,5153,P2JM426,klu bse bla ma dar rgyas,bo-x-ewts,NO
+9213,P661,Tenpai Gyeltsen,en,YES,5154,P2JM427,o rgyan tshul khrims,bo-x-ewts,NO
+9213,P661,Tenpai Gyeltsen,en,YES,5155,P2JM428,o rgyan skal bzang,bo-x-ewts,NO
+9394,P678,Mingyur Peldron,en,YES,5805,P346,Polhane Sonam Tobgye,en,YES
+9394,P678,Mingyur Peldron,en,YES,4250,P2541,pad+ma bstan 'dzin,bo-x-ewts,NO
+9394,P678,Mingyur Peldron,en,YES,9502,P688,khyung po ras pa 'gyur med 'od   gsal,bo-x-ewts,NO
+9513,P689,Kelzang Pema Wangchuk,en,YES,13688,P8LS76439,Khamtrul Sherab Mebar,en,YES
+9585,P6955,Pema Tekchok Loden,en,YES,2069,P10497,Rinchen Dorje,en,YES
+9585,P6955,Pema Tekchok Loden,en,YES,9594,P6963,Kunga Pelden,en,YES
+9588,P6958,Tubten Nyendrak,en,YES,3485,P1GS60402,Do Dasel Wangmo,en,YES
+9594,P6963,Kunga Pelden,en,YES,12040,P925,Pema Wangchok Gyelpo,en,NO
+9594,P6963,Kunga Pelden,en,YES,13651,P4CZ355080,Tokden Jampa Tendar,en,NO
+9594,P6963,Kunga Pelden,en,YES,5048,P2JM331,Konchok Zangpo,en,YES
+9594,P6963,Kunga Pelden,en,YES,8825,P625,Dilgo Khyentse Tashi Peljor,en,YES
+9594,P6963,Kunga Pelden,en,YES,9589,P6959,Chime Yeshe,en,YES
+9594,P6963,Kunga Pelden,en,YES,11435,P8695,Jigme Lodro,en,YES
+9594,P6963,Kunga Pelden,en,YES,13654,P8LS76435,Jamyang Khyentse Chokyi Wangchuk,en,YES
+9594,P6963,Kunga Pelden,en,YES,261,P00KG07869,rig 'dzin dbang rgyal,bo-x-ewts,NO
+9594,P6963,Kunga Pelden,en,YES,4413,P269,blo bzang dpal ldan bstan 'dzin   snyan grags,bo-x-ewts,NO
+9594,P6963,Kunga Pelden,en,YES,7632,P5129,pad+ma dam chos,bo-x-ewts,NO
+9594,P6963,Kunga Pelden,en,YES,8887,P6306,tshe dbang rig 'dzin,bo-x-ewts,NO
+9594,P6963,Kunga Pelden,en,YES,9586,P6956,nor bu bstan 'dzin,bo-x-ewts,NO
+9594,P6963,Kunga Pelden,en,YES,10063,P740,bstan 'dzin rgyal mtshan,bo-x-ewts,NO
+9622,P699,Khenpo Zhenga Zhenpen Chokyi Nangwa,en,YES,4310,P2597,Jampa Kunga Tenzin,en,YES
+9622,P699,Khenpo Zhenga Zhenpen Chokyi Nangwa,en,YES,4820,P2DB5980,Druk Khenpo Ngawang Yonten Gyatso,en,YES
+9622,P699,Khenpo Zhenga Zhenpen Chokyi Nangwa,en,YES,8507,P5941,Chokyi Wozer,en,YES
+9622,P699,Khenpo Zhenga Zhenpen Chokyi Nangwa,en,YES,10355,P7679,Kunga Tenpai Nyima,en,YES
+9622,P699,Khenpo Zhenga Zhenpen Chokyi Nangwa,en,YES,11290,P8564,Jigme Tsewang Dudul,en,YES
+9622,P699,Khenpo Zhenga Zhenpen Chokyi Nangwa,en,YES,12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES
+9622,P699,Khenpo Zhenga Zhenpen Chokyi Nangwa,en,YES,13654,P8LS76435,Jamyang Khyentse Chokyi Wangchuk,en,YES
+9622,P699,Khenpo Zhenga Zhenpen Chokyi Nangwa,en,YES,13677,P8LS76440,Ngawang Nyima,en,YES
+9622,P699,Khenpo Zhenga Zhenpen Chokyi Nangwa,en,YES,13679,P8LS76443,Ga Lama Gendun Zangpo,en,YES
+9622,P699,Khenpo Zhenga Zhenpen Chokyi Nangwa,en,YES,13721,,Drayab Tubten Zangpo,en,YES
+9646,P701,Tubten Chokyi Dorje,en,YES,9594,P6963,Kunga Pelden,en,YES
+9646,P701,Tubten Chokyi Dorje,en,YES,12981,P3JM56,Pema Gargyi Wangchuk,en,YES
+9646,P701,Tubten Chokyi Dorje,en,YES,13653,P8LS76438,Jamyang Chokyi Wangpo,en,YES
+9646,P701,Tubten Chokyi Dorje,en,YES,13654,P8LS76435,Jamyang Khyentse Chokyi Wangchuk,en,YES
+9646,P701,Tubten Chokyi Dorje,en,YES,13659,P3JT12060,Tokden Orgyen Tenzin,en,YES
+9646,P701,Tubten Chokyi Dorje,en,YES,13809,,Tsering Wangmo,en,YES
+9646,P701,Tubten Chokyi Dorje,en,YES,13828,,Gyarong Khandro Dechen Wangmo,en,YES
+9761,P7118,Konchok Gyeltsen,en,YES,12255,P945,rin chen bstan pa'i gsal byed,bo-x-ewts,NO
+9884,P723,Pema Tekchok Tenpai Gyeltsen,en,YES,12981,P3JM56,Pema Gargyi Wangchuk,en,YES
+9990,P733,Jamyang Khyentse Chokyi Lodro,en,YES,4820,P2DB5980,Druk Khenpo Ngawang Yonten Gyatso,en,YES
+9990,P733,Jamyang Khyentse Chokyi Lodro,en,YES,8507,P5941,Chokyi Wozer,en,YES
+9990,P733,Jamyang Khyentse Chokyi Lodro,en,YES,10355,P7679,Kunga Tenpai Nyima,en,YES
+9990,P733,Jamyang Khyentse Chokyi Lodro,en,YES,11290,P8564,Jigme Tsewang Dudul,en,YES
+9990,P733,Jamyang Khyentse Chokyi Lodro,en,YES,12180,P938,Karma Rangjung Kunkhyab,en,YES
+9990,P733,Jamyang Khyentse Chokyi Lodro,en,YES,12479,P966,Tubten Lekshe Gyatso,en,YES
+9990,P733,Jamyang Khyentse Chokyi Lodro,en,YES,12743,P9907,Damcho Wozer,en,YES
+9990,P733,Jamyang Khyentse Chokyi Lodro,en,YES,12981,P3JM56,Pema Gargyi Wangchuk,en,YES
+9990,P733,Jamyang Khyentse Chokyi Lodro,en,YES,13648,P8LS76445,Sindrang Yab Gomchen Dorje Lopen Chewang Rinzin Tagchungdarpa,en,YES
+9990,P733,Jamyang Khyentse Chokyi Lodro,en,YES,13654,P8LS76435,Jamyang Khyentse Chokyi Wangchuk,en,YES
+9990,P733,Jamyang Khyentse Chokyi Lodro,en,YES,13697,,Tsering Chodron,en,YES
+9990,P733,Jamyang Khyentse Chokyi Lodro,en,YES,13707,P1PD108248,Tubten Gyeltsen,en,YES
+9990,P733,Jamyang Khyentse Chokyi Lodro,en,YES,13809,,Tsering Wangmo,en,YES
+9990,P733,Jamyang Khyentse Chokyi Lodro,en,YES,13811,,Lama Gyurdrak,en,YES
+9990,P733,Jamyang Khyentse Chokyi Lodro,en,YES,13828,,Gyarong Khandro Dechen Wangmo,en,YES
+9990,P733,Jamyang Khyentse Chokyi Lodro,en,YES,13841,,Karma Jangchub Gyelpo,en,YES
+10083,P742,Sera Khandro Kunzang Dekyong Wangmo,en,YES,8574,P6002,Drodul Pawo Dorje,en,YES
+10083,P742,Sera Khandro Kunzang Dekyong Wangmo,en,YES,8618,P6042,Kunzang Pema Trinle,en,YES
+10083,P742,Sera Khandro Kunzang Dekyong Wangmo,en,YES,8611,P6036,sangs rgyas rdo rje,bo-x-ewts,NO
+10083,P742,Sera Khandro Kunzang Dekyong Wangmo,en,YES,8974,P6389,jigs bral chos kyi blo gros,bo-x-ewts,NO
+10083,P742,Sera Khandro Kunzang Dekyong Wangmo,en,YES,10073,P741,gyur med rdo rje,bo-x-ewts,NO
+10083,P742,Sera Khandro Kunzang Dekyong Wangmo,en,YES,11017,P8309,rdo rje dgra 'dul,bo-x-ewts,NO
+10169,P750,Jikdrel Jangchub Dorje,en,YES,12180,P938,Karma Rangjung Kunkhyab,en,YES
+10203,P7533,Ngawang Khyenrab Jampel Nyingpo,en,YES,12479,P966,Tubten Lekshe Gyatso,en,YES
+10203,P7533,Ngawang Khyenrab Jampel Nyingpo,en,YES,13249,P8LS13102,Jampa Namkha Kunzang Tenpai Gyeltsen,en,YES
+10280,P7609,Mitrayogin,en,YES,6405,P4007,Tropu Lotsāwa Jampa Pel,en,YES
+10280,P7609,Mitrayogin,en,YES,13462,P1AG37,Machik Rema,en,YES
+10355,P7679,Kunga Tenpai Nyima,en,YES,12180,P938,Karma Rangjung Kunkhyab,en,YES
+10355,P7679,Kunga Tenpai Nyima,en,YES,13249,P8LS13102,Jampa Namkha Kunzang Tenpai Gyeltsen,en,YES
+10355,P7679,Kunga Tenpai Nyima,en,YES,12314,P9505,bstan pa'i rgyal mtshan,bo-x-ewts,NO
+10548,P787,Ngawang Chodrak,en,YES,9761,P7118,Konchok Gyeltsen,en,YES
+10815,P812,Gaton Ngawang Lekpa,en,YES,4820,P2DB5980,Druk Khenpo Ngawang Yonten Gyatso,en,YES
+10815,P812,Gaton Ngawang Lekpa,en,YES,8507,P5941,Chokyi Wozer,en,YES
+10815,P812,Gaton Ngawang Lekpa,en,YES,10355,P7679,Kunga Tenpai Nyima,en,YES
+10815,P812,Gaton Ngawang Lekpa,en,YES,12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES
+10815,P812,Gaton Ngawang Lekpa,en,YES,13246,P8LS13100,Jamyang Kunzang Tubten Chokyi Gyeltsen,en,YES
+10815,P812,Gaton Ngawang Lekpa,en,YES,13248,P1KG4182,Ngawang Khedrub Gyatso,en,YES
+10815,P812,Gaton Ngawang Lekpa,en,YES,13249,P8LS13102,Jampa Namkha Kunzang Tenpai Gyeltsen,en,YES
+10827,P8132,Pema Sangngak Tendzin,en,YES,13688,P8LS76439,Khamtrul Sherab Mebar,en,YES
+10904,P8205,Nanam Yeshe De,en,YES,9618,P6986,Lhalung Pelgyi Dorje,en,YES
+11003,P8297,Jampel Gyepai Dorje,en,YES,2541,P1271,Takla Norbu,en,YES
+11003,P8297,Jampel Gyepai Dorje,en,YES,9083,P6489,dpa' bo chos dbyings rdo rje,bo-x-ewts,NO
+11003,P8297,Jampel Gyepai Dorje,en,YES,11266,P8542,dkon mchog,bo-x-ewts,NO
+11158,P8441,Jampa Rinchen Khyentse Wangpo,en,YES,13801,,Lama Ngaklo,en,NO
+11158,P8441,Jampa Rinchen Khyentse Wangpo,en,YES,4310,P2597,Jampa Kunga Tenzin,en,YES
+11158,P8441,Jampa Rinchen Khyentse Wangpo,en,YES,12479,P966,Tubten Lekshe Gyatso,en,YES
+11158,P8441,Jampa Rinchen Khyentse Wangpo,en,YES,12613,P9786,Ngawang Lodro Rinchen,en,YES
+11158,P8441,Jampa Rinchen Khyentse Wangpo,en,YES,13721,,Drayab Tubten Zangpo,en,YES
+11158,P8441,Jampa Rinchen Khyentse Wangpo,en,YES,13793,,Jampa Ngawang Kunga Chopel,en,YES
+11183,P8464,Jetsunma Kunga Trinle Wangmo,en,YES,1869,P10313,Lodro Namgyel,en,YES
+11183,P8464,Jetsunma Kunga Trinle Wangmo,en,YES,4613,P2871,kun bzang dbang po,bo-x-ewts,NO
+11385,P865,Rangjung Rigpai Dorje,en,YES,11252,P853,Mipam Chokyi Lodro,en,NO
+11385,P865,Rangjung Rigpai Dorje,en,YES,11274,P855,Pema Donyo Nyinje,en,NO
+11385,P865,Rangjung Rigpai Dorje,en,YES,10355,P7679,Kunga Tenpai Nyima,en,YES
+11385,P865,Rangjung Rigpai Dorje,en,YES,11231,P851,Chogyam Trungpa,en,YES
+11385,P865,Rangjung Rigpai Dorje,en,YES,11437,P8697,Jampel Namdrol Chokyi Gyeltsen,en,YES
+11385,P865,Rangjung Rigpai Dorje,en,YES,12180,P938,Karma Rangjung Kunkhyab,en,YES
+11385,P865,Rangjung Rigpai Dorje,en,YES,13747,,Chime Dorje,en,YES
+11385,P865,Rangjung Rigpai Dorje,en,YES,13820,,Kunzang Dechen,en,YES
+11385,P865,Rangjung Rigpai Dorje,en,YES,13821,P3CN27002,Gergan Konchok Sonam,en,YES
+11385,P865,Rangjung Rigpai Dorje,en,YES,13842,,Drubgyud Tulku,en,YES
+11385,P865,Rangjung Rigpai Dorje,en,YES,2165,P10585,grags pa bstan pa yar 'phel,bo-x-ewts,NO
+11385,P865,Rangjung Rigpai Dorje,en,YES,12653,P9822,ngag dbang chos grags,bo-x-ewts,NO
+11428,P8689,Yilhung Sonam Namgyel,en,YES,13811,,Lama Gyurdrak,en,YES
+11437,P8697,Jampel Namdrol Chokyi Gyeltsen,en,YES,4168,P2464,Jamyang Konchok Zangpo,en,YES
+12171,P9371,Lobzang Dorje,en,YES,8918,P6335,thub bstan gar dbang nyin byed,bo-x-ewts,NO
+12171,P9371,Lobzang Dorje,en,YES,8925,P6341,blo bzang bsam gtan,bo-x-ewts,NO
+12171,P9371,Lobzang Dorje,en,YES,8927,P6343,blo bzang tshul khrims,bo-x-ewts,NO
+12171,P9371,Lobzang Dorje,en,YES,8928,P6344,bstan 'dzin bzang po,bo-x-ewts,NO
+12171,P9371,Lobzang Dorje,en,YES,8930,P6346,tsandra 'gyur med,bo-x-ewts,NO
+12171,P9371,Lobzang Dorje,en,YES,8958,P6373,rig 'dzin bsod nams,bo-x-ewts,NO
+12171,P9371,Lobzang Dorje,en,YES,9467,P6848,pad+ma gtum po,bo-x-ewts,NO
+12171,P9371,Lobzang Dorje,en,YES,10987,P8282,thabs mkhas rgya mtsho,bo-x-ewts,NO
+12171,P9371,Lobzang Dorje,en,YES,10988,P8283,blo gros tshul khrims,bo-x-ewts,NO
+12171,P9371,Lobzang Dorje,en,YES,10991,P8286,thub bstan bshad sgrub rgya   mtsho,bo-x-ewts,NO
+12171,P9371,Lobzang Dorje,en,YES,10992,P8287,gyur med rgya mtsho,bo-x-ewts,NO
+12171,P9371,Lobzang Dorje,en,YES,10993,P8288,jigs med rnam grol,bo-x-ewts,NO
+12171,P9371,Lobzang Dorje,en,YES,10994,P8289,tshul khrims rgya mtsho,bo-x-ewts,NO
+12171,P9371,Lobzang Dorje,en,YES,10996,P8290,thub bstan 'jigs med bzang po,bo-x-ewts,NO
+12171,P9371,Lobzang Dorje,en,YES,10997,P8291,ngag dbang rgya mtsho,bo-x-ewts,NO
+12171,P9371,Lobzang Dorje,en,YES,10998,P8292,od ldan bzang po,bo-x-ewts,NO
+12171,P9371,Lobzang Dorje,en,YES,11095,P8382,"bstan pa'i dbang phyug, khang   sar",bo-x-ewts,NO
+12180,P938,Karma Rangjung Kunkhyab,en,YES,11252,P853,Mipam Chokyi Lodro,en,NO
+12180,P938,Karma Rangjung Kunkhyab,en,YES,11274,P855,Pema Donyo Nyinje,en,NO
+12180,P938,Karma Rangjung Kunkhyab,en,YES,10355,P7679,Kunga Tenpai Nyima,en,YES
+12180,P938,Karma Rangjung Kunkhyab,en,YES,11437,P8697,Jampel Namdrol Chokyi Gyeltsen,en,YES
+12180,P938,Karma Rangjung Kunkhyab,en,YES,2150,P10571,blo gros chos kyi seng+ge,bo-x-ewts,NO
+12180,P938,Karma Rangjung Kunkhyab,en,YES,2165,P10585,grags pa bstan pa yar 'phel,bo-x-ewts,NO
+12180,P938,Karma Rangjung Kunkhyab,en,YES,3790,P212,thub bstan 'jam dpal ye shes   bstan pa'i rgyal mtshan,bo-x-ewts,NO
+12180,P938,Karma Rangjung Kunkhyab,en,YES,8147,P5608,rgyal mtshan,bo-x-ewts,NO
+12180,P938,Karma Rangjung Kunkhyab,en,YES,8726,P6141,karma nges don chos kyi blo   gros,bo-x-ewts,NO
+12180,P938,Karma Rangjung Kunkhyab,en,YES,8798,P622,bsod nams bzang po,bo-x-ewts,NO
+12180,P938,Karma Rangjung Kunkhyab,en,YES,13658,P1PD108511,bskal bzang thub bstan snyan grags,bo-x-ewts,NO
+12264,P946,Chogyel Mipam Trinle Rabten,en,YES,13838,,Jangchub Nyima,en,YES
+12403,P959,Tsultrim Nyima,en,YES,2939,P1636,blo bzang tshul khrims chos   'phel,bo-x-ewts,NO
+12479,P966,Tubten Lekshe Gyatso,en,YES,13576,P1649,Tenzin Gyatso,en,NO
+12479,P966,Tubten Lekshe Gyatso,en,YES,13632,P1KG4922,"Smith, E. Gene",en,NO
+12479,P966,Tubten Lekshe Gyatso,en,YES,13745,,Kunzang Tendron,en,YES
+12479,P966,Tubten Lekshe Gyatso,en,YES,8641,P6063,ngag dbang kun dga' theg chen   dpal 'bar,bo-x-ewts,NO
+12500,P968,Dezhung Chopel Jamyang Kunga Namgyel,en,YES,10355,P7679,Kunga Tenpai Nyima,en,YES
+12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES,13801,,Lama Ngaklo,en,NO
+12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES,4820,P2DB5980,Druk Khenpo Ngawang Yonten Gyatso,en,YES
+12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES,10355,P7679,Kunga Tenpai Nyima,en,YES
+12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES,12479,P966,Tubten Lekshe Gyatso,en,YES
+12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES,12613,P9786,Ngawang Lodro Rinchen,en,YES
+12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES,13248,P1KG4182,Ngawang Khedrub Gyatso,en,YES
+12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES,13654,P8LS76435,Jamyang Khyentse Chokyi Wangchuk,en,YES
+12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES,8641,P6063,ngag dbang kun dga' theg chen   dpal 'bar,bo-x-ewts,NO
+12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES,13250,P8LS13103,jam dbyangs thub bstan lung rtogs rgyal mtshan,bo-x-ewts,NO
+12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES,13251,P1KG4183,ngag dbang mkhyen brtse thub bstan snying po,bo-x-ewts,NO
+12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES,13252,P8LS13104,jam dbyangs kun dga' bstan pa'i rgyal mtshan,bo-x-ewts,NO
+12613,P9786,Ngawang Lodro Rinchen,en,YES,4310,P2597,Jampa Kunga Tenzin,en,YES
+12613,P9786,Ngawang Lodro Rinchen,en,YES,12479,P966,Tubten Lekshe Gyatso,en,YES
+12613,P9786,Ngawang Lodro Rinchen,en,YES,13745,,Kunzang Tendron,en,YES
+12613,P9786,Ngawang Lodro Rinchen,en,YES,13803,,Nun of the Cemeteries,en,YES
+12741,P9905,Nyiga Kunga Nyima,en,YES,4820,P2DB5980,Druk Khenpo Ngawang Yonten Gyatso,en,YES
+12741,P9905,Nyiga Kunga Nyima,en,YES,10355,P7679,Kunga Tenpai Nyima,en,YES
+12741,P9905,Nyiga Kunga Nyima,en,YES,12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES
+12741,P9905,Nyiga Kunga Nyima,en,YES,13677,P8LS76440,Ngawang Nyima,en,YES
+12741,P9905,Nyiga Kunga Nyima,en,YES,13679,P8LS76443,Ga Lama Gendun Zangpo,en,YES
+12741,P9905,Nyiga Kunga Nyima,en,YES,12489,P967,kun dga' bstan pa'i rgyal   mtshan,bo-x-ewts,NO
+12742,P9906,Khyenrab Sengge,en,YES,7632,P5129,pad+ma dam chos,bo-x-ewts,NO
+12743,P9907,Damcho Wozer,en,YES,7632,P5129,pad+ma dam chos,bo-x-ewts,NO
+12743,P9907,Damcho Wozer,en,YES,9278,P6672,nam mkha'i nor bu,bo-x-ewts,NO
+12743,P9907,Damcho Wozer,en,YES,12314,P9505,bstan pa'i rgyal mtshan,bo-x-ewts,NO
+12745,P9909,Ngawang Lodro Nyingpo,en,YES,12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES
+12745,P9909,Ngawang Lodro Nyingpo,en,YES,13186,P10MS14669,Pema Trinle,en,YES
+12745,P9909,Ngawang Lodro Nyingpo,en,YES,13677,P8LS76440,Ngawang Nyima,en,YES
+12838,P9999,Tsembupa Darma Wozer,en,YES,1268,P0RK647,spyi bo lhas pa,bo-x-ewts,NO
+12839,P9901,Tulku Urgyen,en,YES,10019,P736,Dudjom Rinpoche,en,NO
+12839,P9901,Tulku Urgyen,en,YES,13820,,Kunzang Dechen,en,YES
+12906,P3JM101,Tubten Trinle Gyatso,en,YES,13162,P3AG54,Garwang Lerab Lingpa,en,YES
+13111,P2AG19,Jampa Taye,en,YES,2424,P1166,Horkhang Sonam Pelbar,en,YES
+13186,P10MS14669,Pema Trinle,en,YES,4310,P2597,Jampa Kunga Tenzin,en,YES
+13186,P10MS14669,Pema Trinle,en,YES,10355,P7679,Kunga Tenpai Nyima,en,YES
+13186,P10MS14669,Pema Trinle,en,YES,8641,P6063,ngag dbang kun dga' theg chen   dpal 'bar,bo-x-ewts,NO
+13186,P10MS14669,Pema Trinle,en,YES,13717,P8LS13145,kun dga' bstan 'dzin,bo-x-ewts,NO
+13246,P8LS13100,Jamyang Kunzang Tubten Chokyi Gyeltsen,en,YES,12479,P966,Tubten Lekshe Gyatso,en,YES
+13248,P1KG4182,Ngawang Khedrub Gyatso,en,YES,8641,P6063,ngag dbang kun dga' theg chen   dpal 'bar,bo-x-ewts,NO
+13248,P1KG4182,Ngawang Khedrub Gyatso,en,YES,13252,P8LS13104,jam dbyangs kun dga' bstan pa'i rgyal mtshan,bo-x-ewts,NO
+13248,P1KG4182,Ngawang Khedrub Gyatso,en,YES,13253,P8LS13105,jam dbyangs bstan pa'i nyi ma,bo-x-ewts,NO
+13249,P8LS13102,Jampa Namkha Kunzang Tenpai Gyeltsen,en,YES,8339,P5785,kun dga' dbang phyug,bo-x-ewts,NO
+13598,P1AG113,Yangchen Lhamo,en,YES,12439,P9623,Tashi Yangphel Tashigang,en,YES
+13647,P8LS13097,Jamyang Kunzang Tenpai Gyeltsen,en,YES,12479,P966,Tubten Lekshe Gyatso,en,YES
+13647,P8LS13097,Jamyang Kunzang Tenpai Gyeltsen,en,YES,13249,P8LS13102,Jampa Namkha Kunzang Tenpai Gyeltsen,en,YES
+13652,P3CN15711,Ngawang Lobzang Thubstan Choknor,en,YES,6995,P4548,thub bstan bzod pa,bo-x-ewts,NO
+13654,P8LS76435,Jamyang Khyentse Chokyi Wangchuk,en,YES,13659,P3JT12060,Tokden Orgyen Tenzin,en,YES
+13654,P8LS76435,Jamyang Khyentse Chokyi Wangchuk,en,YES,3790,P212,thub bstan 'jam dpal ye shes   bstan pa'i rgyal mtshan,bo-x-ewts,NO
+13654,P8LS76435,Jamyang Khyentse Chokyi Wangchuk,en,YES,9278,P6672,nam mkha'i nor bu,bo-x-ewts,NO
+13659,P3JT12060,Tokden Orgyen Tenzin,en,YES,9278,P6672,nam mkha'i nor bu,bo-x-ewts,NO
+13677,P8LS76440,Ngawang Nyima,en,YES,10355,P7679,Kunga Tenpai Nyima,en,YES
+13679,P8LS76443,Ga Lama Gendun Zangpo,en,YES,13801,,Lama Ngaklo,en,NO
+13679,P8LS76443,Ga Lama Gendun Zangpo,en,YES,4820,P2DB5980,Druk Khenpo Ngawang Yonten Gyatso,en,YES
+13679,P8LS76443,Ga Lama Gendun Zangpo,en,YES,8825,P625,Dilgo Khyentse Tashi Peljor,en,YES
+13679,P8LS76443,Ga Lama Gendun Zangpo,en,YES,10355,P7679,Kunga Tenpai Nyima,en,YES
+13679,P8LS76443,Ga Lama Gendun Zangpo,en,YES,12613,P9786,Ngawang Lodro Rinchen,en,YES
+13686,P9904,Samten Gyatso,en,YES,8170,P563,Khakhyab Dorje,en,NO
+13686,P9904,Samten Gyatso,en,YES,11385,P865,Rangjung Rigpai Dorje,en,YES
+13686,P9904,Samten Gyatso,en,YES,12839,P9901,Tulku Urgyen,en,YES
+13686,P9904,Samten Gyatso,en,YES,13747,,Chime Dorje,en,YES
+13686,P9904,Samten Gyatso,en,YES,13748,,Lama Sangngak,en,YES
+13686,P9904,Samten Gyatso,en,YES,13749,,Tersey Tulku,en,YES
+13686,P9904,Samten Gyatso,en,YES,13750,,Tashi Chime,en,YES
+13686,P9904,Samten Gyatso,en,YES,11407,P867,tshe dbang mchog grub dpal 'bar,bo-x-ewts,NO
+13688,P8LS76439,Khamtrul Sherab Mebar,en,YES,13617,P1KG9679,Khordong Terchen Nuden Dorje,en,YES
+13689,P1KG9680,Chime Rigdzin,en,YES,9945,P7289,Choying Khyabdel,en,YES
+13689,P1KG9680,Chime Rigdzin,en,YES,7009,P4560,sprul sku don grub,bo-x-ewts,NO
+13692,P8LS76436,Konchok Peldron,en,YES,12839,P9901,Tulku Urgyen,en,YES
+13692,P8LS76436,Konchok Peldron,en,YES,13747,,Chime Dorje,en,YES
+13692,P8LS76436,Konchok Peldron,en,YES,13748,,Lama Sangngak,en,YES
+13692,P8LS76436,Konchok Peldron,en,YES,13749,,Tersey Tulku,en,YES
+13692,P8LS76436,Konchok Peldron,en,YES,13750,,Tashi Chime,en,YES
+13693,P4CZ366523,Lobzang Wanggyel,en,YES,13695,P1KG5612,e pa bsod nams rin chen,bo-x-ewts,NO
+13694,P8LS76437,Tenzin Chodrak,en,YES,13695,P1KG5612,e pa bsod nams rin chen,bo-x-ewts,NO
+13707,P1PD108248,Tubten Gyeltsen,en,YES,12742,P9906,Khyenrab Sengge,en,YES
+13707,P1PD108248,Tubten Gyeltsen,en,YES,12743,P9907,Damcho Wozer,en,YES
+13707,P1PD108248,Tubten Gyeltsen,en,YES,13701,P8LS76452,Jago Tobden,en,YES
+13707,P1PD108248,Tubten Gyeltsen,en,YES,8339,P5785,kun dga' dbang phyug,bo-x-ewts,NO
+13707,P1PD108248,Tubten Gyeltsen,en,YES,8514,P5949,yon tan bzang po,bo-x-ewts,NO
+13707,P1PD108248,Tubten Gyeltsen,en,YES,8641,P6063,ngag dbang kun dga' theg chen   dpal 'bar,bo-x-ewts,NO
+13707,P1PD108248,Tubten Gyeltsen,en,YES,12314,P9505,bstan pa'i rgyal mtshan,bo-x-ewts,NO
+13707,P1PD108248,Tubten Gyeltsen,en,YES,13252,P8LS13104,jam dbyangs kun dga' bstan pa'i rgyal mtshan,bo-x-ewts,NO
+13707,P1PD108248,Tubten Gyeltsen,en,YES,13253,P8LS13105,jam dbyangs bstan pa'i nyi ma,bo-x-ewts,NO
+13721,,Drayab Tubten Zangpo,en,YES,13801,,Lama Ngaklo,en,NO
+13721,,Drayab Tubten Zangpo,en,YES,12613,P9786,Ngawang Lodro Rinchen,en,YES
+13747,,Chime Dorje,en,YES,12839,P9901,Tulku Urgyen,en,YES
+13748,,Lama Sangngak,en,YES,12839,P9901,Tulku Urgyen,en,YES
+13748,,Lama Sangngak,en,YES,13686,P9904,Samten Gyatso,en,YES
+13749,,Tersey Tulku,en,YES,12169,P937,Khyentse Wozer,en,NO
+13749,,Tersey Tulku,en,YES,8825,P625,Dilgo Khyentse Tashi Peljor,en,YES
+13773,P4CZ10542,Gelongma Pelmo,en,YES,1113,P0RK390,Jñyānabhadra,en,NO
+13773,P4CZ10542,Gelongma Pelmo,en,YES,332,P0RK1035,rgyal po indra bo dhi chung ba,bo-x-ewts,NO
+13773,P4CZ10542,Gelongma Pelmo,en,YES,334,P0RK1037,kha che shes rab gsang ba   (kAshmIra prajnyAgupta),bo-x-ewts,NO
+13773,P4CZ10542,Gelongma Pelmo,en,YES,5628,P3299,nag po pa,bo-x-ewts,NO
+13793,,Jampa Ngawang Kunga Chopel,en,YES,12479,P966,Tubten Lekshe Gyatso,en,YES
+13795,,Wara Zhabdrung Tenpai Nyima,en,YES,9990,P733,Jamyang Khyentse Chokyi Lodro,en,YES
+13796,,Wara Zhabdrung Jamyang Namkha Gyeltsen,en,YES,4291,P258,Jamyang Khyentse Wangpo,en,YES
+13796,,Wara Zhabdrung Jamyang Namkha Gyeltsen,en,YES,12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES
+13796,,Wara Zhabdrung Jamyang Namkha Gyeltsen,en,YES,8138,P560,blo gter dbang po,bo-x-ewts,NO
+13796,,Wara Zhabdrung Jamyang Namkha Gyeltsen,en,YES,10450,P7768,jam dbyangs rin chen rdo rje,bo-x-ewts,NO
+13798,,Nyendrak Tarpa,en,YES,4310,P2597,Jampa Kunga Tenzin,en,YES
+13798,,Nyendrak Tarpa,en,YES,12479,P966,Tubten Lekshe Gyatso,en,YES
+13806,P1KG17602,Gepel Tulku Jamyang Kunga Chokyi Nyima,en,YES,12479,P966,Tubten Lekshe Gyatso,en,YES
+13806,P1KG17602,Gepel Tulku Jamyang Kunga Chokyi Nyima,en,YES,8468,P5905,don grub rin chen,bo-x-ewts,NO
+13811,,Lama Gyurdrak,en,YES,8784,P6204,"don grub, sprul sku",bo-x-ewts,NO
+13822,,Geshe Mila Lobzang Tashi,en,YES,12403,P959,Tsultrim Nyima,en,YES
+13828,,Gyarong Khandro Dechen Wangmo,en,YES,13697,,Tsering Chodron,en,YES
+13828,,Gyarong Khandro Dechen Wangmo,en,YES,13811,,Lama Gyurdrak,en,YES
+200,P00KG02843,karma legs bshad sgra dbyangs,bo-x-ewts,NO,12180,P938,Karma Rangjung Kunkhyab,en,YES
+294,P012AG03491,gling bzhag o rgyan lhun grub,bo-x-ewts,NO,13688,P8LS76439,Khamtrul Sherab Mebar,en,YES
+330,P0RK1033,lha mo bung ba'i padma,bo-x-ewts,NO,13773,P4CZ10542,Gelongma Pelmo,en,YES
+1311,P0RK714,mkhas grub chos rje,bo-x-ewts,NO,8455,P5894,Kunden Rema,en,YES
+1616,P10079,kun dga' thugs rje,bo-x-ewts,NO,11437,P8697,Jampel Namdrol Chokyi Gyeltsen,en,YES
+1817,P10267,pad+ma bshes gnyen,bo-x-ewts,NO,13688,P8LS76439,Khamtrul Sherab Mebar,en,YES
+2246,P10659,pad+ma mchog dpal bzang po,bo-x-ewts,NO,13683,P8LS76442,Jampa Gyeltsen Lhalungpa,en,YES
+2484,P122,ngag dbang thub bstan rgya   mtsho,bo-x-ewts,NO,7881,P5367,Jamyang Tenzin Gyatso,en,YES
+2570,P1298,blo bzang grags pa,bo-x-ewts,NO,4086,P2388,Jangchub Tsemo,en,YES
+2653,P1373,bkra shis 'od zer,bo-x-ewts,NO,12180,P938,Karma Rangjung Kunkhyab,en,YES
+2653,P1373,bkra shis 'od zer,bo-x-ewts,NO,13841,,Karma Jangchub Gyelpo,en,YES
+2673,P1392,nges don bstan pa rab rgyas,bo-x-ewts,NO,8181,P564,Chokgyur Lingpa,en,YES
+2768,P148,bsod nams grags pa,bo-x-ewts,NO,8454,P5893,Kunpang Delek Rinchen,en,YES
+2939,P1636,blo bzang tshul khrims chos   'phel,bo-x-ewts,NO,13652,P3CN15711,Ngawang Lobzang Thubstan Choknor,en,YES
+2940,P1637,blo bzang dam chos rgya mtsho,bo-x-ewts,NO,3955,P227,Khyenrab Norbu,en,YES
+2944,P1641,don grub rdo rje,bo-x-ewts,NO,12171,P9371,Lobzang Dorje,en,YES
+2953,P1650,phrin las lhun grub chos kyi   rgyal mtshan,bo-x-ewts,NO,2945,P1642,Sungrab Gyatso,en,YES
+3633,P1PD76609,tshe 'dzin dbang mo,bo-x-ewts,NO,3485,P1GS60402,Do Dasel Wangmo,en,YES
+3639,P1PD76616,dgu ru gsang lo,bo-x-ewts,NO,3485,P1GS60402,Do Dasel Wangmo,en,YES
+3790,P212,thub bstan 'jam dpal ye shes   bstan pa'i rgyal mtshan,bo-x-ewts,NO,7007,P4559,Thupten Lungtok Namgyal Trinley,en,YES
+3790,P212,thub bstan 'jam dpal ye shes   bstan pa'i rgyal mtshan,bo-x-ewts,NO,11437,P8697,Jampel Namdrol Chokyi Gyeltsen,en,YES
+3819,P2147,nyi ma rgyal mtshan,bo-x-ewts,NO,8454,P5893,Kunpang Delek Rinchen,en,YES
+3819,P2147,nyi ma rgyal mtshan,bo-x-ewts,NO,8455,P5894,Kunden Rema,en,YES
+3857,P2181,byams pa thub dbang,bo-x-ewts,NO,5894,P3542,Tubten Lhundrub,en,YES
+3891,P2211,dge 'dun 'od zer,bo-x-ewts,NO,2521,P1253,Lobzang Trinle Lungtok Gyatso,en,YES
+3908,P2227,zhi ba'i blo gros,bo-x-ewts,NO,13821,P3CN27002,Gergan Konchok Sonam,en,YES
+4022,P233,ngag dbang gsung rab mthu stobs,bo-x-ewts,NO,2758,P1470,Kelzang Tubten Wangchuk,en,YES
+4066,P237,jam dbyangs thub bstan rgya   mtsho,bo-x-ewts,NO,1902,P10343,Kelzang Lodro Kunga Lungtok Gyatso,en,YES
+4212,P2504,bsod nams dbang phyug,bo-x-ewts,NO,4164,P2460,Nyakpuwa Sonam Zangpo,en,YES
+4213,P2505,don grub dpal ldan,bo-x-ewts,NO,4164,P2460,Nyakpuwa Sonam Zangpo,en,YES
+4214,P2506,yon tan rgya mtsho,bo-x-ewts,NO,4164,P2460,Nyakpuwa Sonam Zangpo,en,YES
+4215,P2507,dpal ldan brtson 'grus,bo-x-ewts,NO,4164,P2460,Nyakpuwa Sonam Zangpo,en,YES
+4273,P2562,kun bzang 'jigs med chos   dbyings rang grol,bo-x-ewts,NO,7009,P4560,sprul sku don grub,bo-x-ewts,NO
+4273,P2562,kun bzang 'jigs med chos   dbyings rang grol,bo-x-ewts,NO,13648,P8LS76445,Sindrang Yab Gomchen Dorje Lopen Chewang Rinzin Tagchungdarpa,en,YES
+4413,P269,blo bzang dpal ldan bstan 'dzin   snyan grags,bo-x-ewts,NO,13806,P1KG17602,Gepel Tulku Jamyang Kunga Chokyi Nyima,en,YES
+4440,P2713,Tsewang Norbu,en,NO,13686,P9904,Samten Gyatso,en,YES
+4440,P2713,Tsewang Norbu,en,NO,13749,,Tersey Tulku,en,YES
+4691,P2943,gyur med tshe dbang mchog grub,bo-x-ewts,NO,13187,P10MS14671,Tsewang Lhamo,en,YES
+4864,P2JM131,Mañjuśrījñāna,en,NO,6194,P3816,Rongzom Chokyi Zangpo,en,YES
+4865,P2JM132,Upāyaśrīmitra,en,NO,6194,P3816,Rongzom Chokyi Zangpo,en,YES
+4866,P2JM133,Buddhākarabhadra,en,NO,6194,P3816,Rongzom Chokyi Zangpo,en,YES
+4868,P2JM135,Amogavajra,en,NO,6194,P3816,Rongzom Chokyi Zangpo,en,YES
+5391,P3079,gzhon nu bsod nams,,NO,8454,P5893,Kunpang Delek Rinchen,en,YES
+5413,P3099,rin chen seng+ge,bo-x-ewts,NO,8454,P5893,Kunpang Delek Rinchen,en,YES
+5728,P3389,legs pa'i shes rab,bo-x-ewts,NO,6076,P3709,Pakpa Sherab,en,YES
+5864,P3513,byams pa kun dga' bstan 'dzin,bo-x-ewts,NO,12745,P9909,Ngawang Lodro Nyingpo,en,YES
+5864,P3513,byams pa kun dga' bstan 'dzin,bo-x-ewts,NO,13796,,Wara Zhabdrung Jamyang Namkha Gyeltsen,en,YES
+6209,P3830,grags pa rgyal mtshan,bo-x-ewts,NO,4086,P2388,Jangchub Tsemo,en,YES
+6402,P4004,a bha yA kA ra gupta,bo-x-ewts,NO,6076,P3709,Pakpa Sherab,en,YES
+6676,P4257,Mañjuśrīvarman,en,NO,6194,P3816,Rongzom Chokyi Zangpo,en,YES
+7033,P4582,Trinle Lhundrub,en,NO,13821,P3CN27002,Gergan Konchok Sonam,en,YES
+7033,P4582,Trinle Lhundrub,en,NO,13824,,Konchok Tokdrol,en,YES
+7122,P4662,o rgyan bstan 'dzin,bo-x-ewts,NO,3955,P227,Khyenrab Norbu,en,YES
+7122,P4662,o rgyan bstan 'dzin,bo-x-ewts,NO,5894,P3542,Tubten Lhundrub,en,YES
+7331,P4853,byams pa 'phrin las,bo-x-ewts,NO,12439,P9623,Tashi Yangphel Tashigang,en,YES
+7560,P5063,pad+ma 'jigs med,bo-x-ewts,NO,8972,P6387,Lekshe Chokyi Drayang,en,YES
+7632,P5129,pad+ma dam chos,bo-x-ewts,NO,13162,P3AG54,Garwang Lerab Lingpa,en,YES
+7667,P5161,ye shes snang ba,bo-x-ewts,NO,8782,P620,Shākya Shrī,en,YES
+7728,P5218,a dpal,bo-x-ewts,NO,13707,P1PD108248,Tubten Gyeltsen,en,YES
+8138,P560,blo gter dbang po,bo-x-ewts,NO,13801,,Lama Ngaklo,en,NO
+8138,P560,blo gter dbang po,bo-x-ewts,NO,8507,P5941,Chokyi Wozer,en,YES
+8138,P560,blo gter dbang po,bo-x-ewts,NO,12613,P9786,Ngawang Lodro Rinchen,en,YES
+8138,P560,blo gter dbang po,bo-x-ewts,NO,13653,P8LS76438,Jamyang Chokyi Wangpo,en,YES
+8138,P560,blo gter dbang po,bo-x-ewts,NO,13654,P8LS76435,Jamyang Khyentse Chokyi Wangchuk,en,YES
+8138,P560,blo gter dbang po,bo-x-ewts,NO,13707,P1PD108248,Tubten Gyeltsen,en,YES
+8138,P560,blo gter dbang po,bo-x-ewts,NO,13721,,Drayab Tubten Zangpo,en,YES
+8138,P560,blo gter dbang po,bo-x-ewts,NO,13795,,Wara Zhabdrung Tenpai Nyima,en,YES
+8159,P562,Tekchok Dorje,en,NO,13840,,Drubgyud Tulku,en,YES
+8170,P563,Khakhyab Dorje,en,NO,2730,P1445,Karma Shedrub Chokyi Sengge,en,YES
+8170,P563,Khakhyab Dorje,en,NO,12839,P9901,Tulku Urgyen,en,YES
+8170,P563,Khakhyab Dorje,en,NO,13686,P9904,Samten Gyatso,en,YES
+8170,P563,Khakhyab Dorje,en,NO,13841,,Karma Jangchub Gyelpo,en,YES
+8484,P5920,jigs med rgya mtsho,bo-x-ewts,NO,12171,P9371,Lobzang Dorje,en,YES
+8505,P594,blo gros rgyal mtshan,bo-x-ewts,NO,13707,P1PD108248,Tubten Gyeltsen,en,YES
+8506,P5940,bkra shis rgyal mtshan,bo-x-ewts,NO,4820,P2DB5980,Druk Khenpo Ngawang Yonten Gyatso,en,YES
+8506,P5940,bkra shis rgyal mtshan,bo-x-ewts,NO,8507,P5941,Chokyi Wozer,en,YES
+8506,P5940,bkra shis rgyal mtshan,bo-x-ewts,NO,13654,P8LS76435,Jamyang Khyentse Chokyi Wangchuk,en,YES
+8508,P5942,blo gros rgyal mtshan,bo-x-ewts,NO,12742,P9906,Khyenrab Sengge,en,YES
+8570,P6,pad+ma 'gyur med rgya mtsho,bo-x-ewts,NO,9394,P678,Mingyur Peldron,en,YES
+8587,P6014,bsod nams rin chen,bo-x-ewts,NO,13815,,Delok Dawa Dolma,en,YES
+8611,P6036,sangs rgyas rdo rje,bo-x-ewts,NO,12180,P938,Karma Rangjung Kunkhyab,en,YES
+8611,P6036,sangs rgyas rdo rje,bo-x-ewts,NO,13648,P8LS76445,Sindrang Yab Gomchen Dorje Lopen Chewang Rinzin Tagchungdarpa,en,YES
+8611,P6036,sangs rgyas rdo rje,bo-x-ewts,NO,13820,,Kunzang Dechen,en,YES
+8641,P6063,ngag dbang kun dga' theg chen   dpal 'bar,bo-x-ewts,NO,12180,P938,Karma Rangjung Kunkhyab,en,YES
+8670,P6090,tshul khrims bzang po,bo-x-ewts,NO,13689,P1KG9680,Chime Rigdzin,en,YES
+8749,P6163,dkar brgyud bstan 'dzin nor bu,bo-x-ewts,NO,10355,P7679,Kunga Tenpai Nyima,en,YES
+8759,P6175,bsod nams dpal ldan,bo-x-ewts,NO,12171,P9371,Lobzang Dorje,en,YES
+8765,P6180,rin chen dpal bzang,bo-x-ewts,NO,3266,P1932,Barawa Gyeltsen Pelzang,en,YES
+8813,P6239,jam dpal bzang po,bo-x-ewts,NO,8972,P6387,Lekshe Chokyi Drayang,en,YES
+8836,P626,ngag dbang chos kyi blo gros,bo-x-ewts,NO,13820,,Kunzang Dechen,en,YES
+8895,P6313,pad+ma gar dbang bstan 'dzin,bo-x-ewts,NO,11003,P8297,Jampel Gyepai Dorje,en,YES
+8899,P6318,byams pa chos 'dzin,bo-x-ewts,NO,2541,P1271,Takla Norbu,en,YES
+8920,P6337,jigs med dkon mchog,bo-x-ewts,NO,8972,P6387,Lekshe Chokyi Drayang,en,YES
+8947,P6363,jam dpal blo gros,bo-x-ewts,NO,2541,P1271,Takla Norbu,en,YES
+9019,P6429,rol pa'i rdo rje,bo-x-ewts,NO,12171,P9371,Lobzang Dorje,en,YES
+9083,P6489,dpa' bo chos dbyings rdo rje,bo-x-ewts,NO,2541,P1271,Takla Norbu,en,YES
+9275,P667,d+harma shrI,bo-x-ewts,NO,5805,P346,Polhane Sonam Tobgye,en,YES
+9389,P6775,byang chub snang ba,bo-x-ewts,NO,7373,P4892,Chegompa Sherab Dorje,en,YES
+9491,P687,ngag gi dbang po,bo-x-ewts,NO,4611,P287,Zhabkar Tsokdruk Rangdrol,en,YES
+9587,P6957,thub bstan chos 'phel,bo-x-ewts,NO,12742,P9906,Khyenrab Sengge,en,YES
+9587,P6957,thub bstan chos 'phel,bo-x-ewts,NO,12981,P3JM56,Pema Gargyi Wangchuk,en,YES
+9633,P7,gyur med rdo rje,bo-x-ewts,NO,5805,P346,Polhane Sonam Tobgye,en,YES
+9668,P703,pad+ma dbang chen bstan 'dzin   'phrin las,bo-x-ewts,NO,13843,,Tseten Yudron,en,YES
+9677,P704,e ta rA dza,bo-x-ewts,NO,13788,,Chime Dolkar,en,YES
+9699,P706,chos kyi rgya mtsho,bo-x-ewts,NO,12171,P9371,Lobzang Dorje,en,YES
+9709,P707,pad+ma 'gro 'dul gsang sngags   gling pa,bo-x-ewts,NO,10083,P742,Sera Khandro Kunzang Dekyong Wangmo,en,YES
+9759,P7116,nam mkha' rgyal po,bo-x-ewts,NO,9761,P7118,Konchok Gyeltsen,en,YES
+9760,P7117,karma gsal byed,bo-x-ewts,NO,9761,P7118,Konchok Gyeltsen,en,YES
+9792,P7147,dpal ldan blo gros rgyal mtshan,bo-x-ewts,NO,12745,P9909,Ngawang Lodro Nyingpo,en,YES
+9895,P724,ngag dbang dpal bzang,bo-x-ewts,NO,8972,P6387,Lekshe Chokyi Drayang,en,YES
+9895,P724,ngag dbang dpal bzang,bo-x-ewts,NO,12981,P3JM56,Pema Gargyi Wangchuk,en,YES
+9895,P724,ngag dbang dpal bzang,bo-x-ewts,NO,13809,,Tsering Wangmo,en,YES
+9934,P7279,ngag dbang yon tan bzang po,bo-x-ewts,NO,11437,P8697,Jampel Namdrol Chokyi Gyeltsen,en,YES
+9966,P7308,blo gros phun tshogs,bo-x-ewts,NO,11290,P8564,Jigme Tsewang Dudul,en,YES
+9979,P732,thub bstan bshad sgrub rgya   mtsho,bo-x-ewts,NO,11003,P8297,Jampel Gyepai Dorje,en,YES
+9979,P732,thub bstan bshad sgrub rgya   mtsho,bo-x-ewts,NO,12742,P9906,Khyenrab Sengge,en,YES
+10001,P734,klong chen ye shes rdo rje,bo-x-ewts,NO,12180,P938,Karma Rangjung Kunkhyab,en,YES
+10001,P734,klong chen ye shes rdo rje,bo-x-ewts,NO,13811,,Lama Gyurdrak,en,YES
+10019,P736,Dudjom Rinpoche,en,NO,13834,,Lama Tharchin,en,NO
+10019,P736,Dudjom Rinpoche,en,NO,12180,P938,Karma Rangjung Kunkhyab,en,YES
+10019,P736,Dudjom Rinpoche,en,NO,13648,P8LS76445,Sindrang Yab Gomchen Dorje Lopen Chewang Rinzin Tagchungdarpa,en,YES
+10019,P736,Dudjom Rinpoche,en,NO,13811,,Lama Gyurdrak,en,YES
+10019,P736,Dudjom Rinpoche,en,NO,13843,,Tseten Yudron,en,YES
+10063,P740,bstan 'dzin rgyal mtshan,bo-x-ewts,NO,3955,P227,Khyenrab Norbu,en,YES
+10063,P740,bstan 'dzin rgyal mtshan,bo-x-ewts,NO,10355,P7679,Kunga Tenpai Nyima,en,YES
+10063,P740,bstan 'dzin rgyal mtshan,bo-x-ewts,NO,12479,P966,Tubten Lekshe Gyatso,en,YES
+10073,P741,gyur med rdo rje,bo-x-ewts,NO,3485,P1GS60402,Do Dasel Wangmo,en,YES
+10103,P744,pad+ma dri med,bo-x-ewts,NO,12180,P938,Karma Rangjung Kunkhyab,en,YES
+10103,P744,pad+ma dri med,bo-x-ewts,NO,12839,P9901,Tulku Urgyen,en,YES
+10103,P744,pad+ma dri med,bo-x-ewts,NO,13820,,Kunzang Dechen,en,YES
+10135,P747,dpal 'byor lhun grub rdo rje,bo-x-ewts,NO,13648,P8LS76445,Sindrang Yab Gomchen Dorje Lopen Chewang Rinzin Tagchungdarpa,en,YES
+10205,P7535,byams pa dpal ldan chos mdzad,bo-x-ewts,NO,12741,P9905,Nyiga Kunga Nyima,en,YES
+10326,P7650,pad+ma 'phrin las snying po,bo-x-ewts,NO,12839,P9901,Tulku Urgyen,en,YES
+10344,P7668,kun dga' bstan pa'i blo gros,bo-x-ewts,NO,12741,P9905,Nyiga Kunga Nyima,en,YES
+10449,P7767,jam dbyangs shes rab rgya   mtsho,bo-x-ewts,NO,12741,P9905,Nyiga Kunga Nyima,en,YES
+10449,P7767,jam dbyangs shes rab rgya   mtsho,bo-x-ewts,NO,12745,P9909,Ngawang Lodro Nyingpo,en,YES
+10450,P7768,jam dbyangs rin chen rdo rje,bo-x-ewts,NO,13795,,Wara Zhabdrung Tenpai Nyima,en,YES
+10454,P7771,phu khang dge bshes blo bzang   rgya mtsho,bo-x-ewts,NO,13825,,Ngawang Tashi Dechen Dorje,en,YES
+10711,P8020,"taring, rinchen dolma",en,NO,2424,P1166,Horkhang Sonam Pelbar,en,YES
+10743,P8050,Konchok Gyurme,en,NO,12839,P9901,Tulku Urgyen,en,YES
+10743,P8050,Konchok Gyurme,en,NO,13747,,Chime Dorje,en,YES
+10743,P8050,Konchok Gyurme,en,NO,13748,,Lama Sangngak,en,YES
+10795,P810,dpal ldan chos kyi rgyal mtshan,bo-x-ewts,NO,13796,,Wara Zhabdrung Jamyang Namkha Gyeltsen,en,YES
+10984,P828,Dudul Dorje,en,NO,13839,,Drubgyud Tulku,en,YES
+11031,P8321,thub bstan rgya mtsho,bo-x-ewts,NO,12171,P9371,Lobzang Dorje,en,YES
+11178,P846,Kunzik Chokyi Nangwa,en,NO,13840,,Drubgyud Tulku,en,YES
+11259,P8536,bsod nams don grub,bo-x-ewts,NO,8972,P6387,Lekshe Chokyi Drayang,en,YES
+11265,P8541,mgon 'grub,bo-x-ewts,NO,8972,P6387,Lekshe Chokyi Drayang,en,YES
+11363,P863,Mipam Chokyi Wangpo,en,NO,11385,P865,Rangjung Rigpai Dorje,en,YES
+11418,P868,gtsug lag snang ba dbang   phyug,bo-x-ewts,NO,11385,P865,Rangjung Rigpai Dorje,en,YES
+11418,P868,gtsug lag snang ba dbang   phyug,bo-x-ewts,NO,12180,P938,Karma Rangjung Kunkhyab,en,YES
+11433,P8693,pad+ma bde chen bzang po,bo-x-ewts,NO,9594,P6963,Kunga Pelden,en,YES
+12040,P925,Pema Wangchok Gyelpo,en,NO,2069,P10497,Rinchen Dorje,en,YES
+12040,P925,Pema Wangchok Gyelpo,en,NO,8507,P5941,Chokyi Wozer,en,YES
+12040,P925,Pema Wangchok Gyelpo,en,NO,10355,P7679,Kunga Tenpai Nyima,en,YES
+12040,P925,Pema Wangchok Gyelpo,en,NO,11290,P8564,Jigme Tsewang Dudul,en,YES
+12040,P925,Pema Wangchok Gyelpo,en,NO,12180,P938,Karma Rangjung Kunkhyab,en,YES
+12040,P925,Pema Wangchok Gyelpo,en,NO,13841,,Karma Jangchub Gyelpo,en,YES
+12093,P930,grags pa rgya mtsho,bo-x-ewts,NO,11385,P865,Rangjung Rigpai Dorje,en,YES
+12104,P931,Karma Jamyang Khyentse Wozer,en,NO,11385,P865,Rangjung Rigpai Dorje,en,YES
+12104,P931,Karma Jamyang Khyentse Wozer,en,NO,12180,P938,Karma Rangjung Kunkhyab,en,YES
+12169,P937,Khyentse Wozer,en,NO,12180,P938,Karma Rangjung Kunkhyab,en,YES
+12169,P937,Khyentse Wozer,en,NO,13820,,Kunzang Dechen,en,YES
+12371,P956,Chokyi Jungne,en,NO,13839,,Drubgyud Tulku,en,YES
+12381,P957,dkon mchog 'od zer,bo-x-ewts,NO,13839,,Drubgyud Tulku,en,YES
+12435,P962,kun dga' bstan pa'i rgyal   mtshan,bo-x-ewts,NO,12745,P9909,Ngawang Lodro Nyingpo,en,YES
+12489,P967,kun dga' bstan pa'i rgyal   mtshan,bo-x-ewts,NO,10355,P7679,Kunga Tenpai Nyima,en,YES
+12504,P9684,dpal ldan rgyal mtshan,bo-x-ewts,NO,13693,P4CZ366523,Lobzang Wanggyel,en,YES
+12504,P9684,dpal ldan rgyal mtshan,bo-x-ewts,NO,13694,P8LS76437,Tenzin Chodrak,en,YES
+12522,P970,jam dbyangs chos kyi rgyal mtshan,bo-x-ewts,NO,4820,P2DB5980,Druk Khenpo Ngawang Yonten Gyatso,en,YES
+12522,P970,jam dbyangs chos kyi rgyal mtshan,bo-x-ewts,NO,10355,P7679,Kunga Tenpai Nyima,en,YES
+12522,P970,jam dbyangs chos kyi rgyal mtshan,bo-x-ewts,NO,11290,P8564,Jigme Tsewang Dudul,en,YES
+12522,P970,jam dbyangs chos kyi rgyal mtshan,bo-x-ewts,NO,13654,P8LS76435,Jamyang Khyentse Chokyi Wangchuk,en,YES
+12522,P970,jam dbyangs chos kyi rgyal mtshan,bo-x-ewts,NO,13707,P1PD108248,Tubten Gyeltsen,en,YES
+12532,P9709,jam dbyangs grags pa,bo-x-ewts,NO,8507,P5941,Chokyi Wozer,en,YES
+12532,P9709,jam dbyangs grags pa,bo-x-ewts,NO,12839,P9901,Tulku Urgyen,en,YES
+12533,P971,bsam gtan blo gros,bo-x-ewts,NO,10355,P7679,Kunga Tenpai Nyima,en,YES
+12533,P971,bsam gtan blo gros,bo-x-ewts,NO,12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,en,YES
+12584,P976,kun dga' snying po,bo-x-ewts,NO,12745,P9909,Ngawang Lodro Nyingpo,en,YES
+12584,P976,kun dga' snying po,bo-x-ewts,NO,13186,P10MS14669,Pema Trinle,en,YES
+12602,P9776,jam dpal mthu stobs,bo-x-ewts,NO,5894,P3542,Tubten Lhundrub,en,YES
+12606,P978,ngag dbang mthu stobs dbang phyug,bo-x-ewts,NO,12479,P966,Tubten Lekshe Gyatso,en,YES
+12617,P979,drag shul 'phrin las rin chen,bo-x-ewts,NO,4310,P2597,Jampa Kunga Tenzin,en,YES
+12625,P9797,sangs rgyas chos 'phel,bo-x-ewts,NO,9761,P7118,Konchok Gyeltsen,en,YES
+12629,P980,ngag dbang kun dga' rin chen,bo-x-ewts,NO,7882,P5368,Jigme Tsultrim Namgyel,en,YES
+12629,P980,ngag dbang kun dga' rin chen,bo-x-ewts,NO,12479,P966,Tubten Lekshe Gyatso,en,YES
+12775,P3JM10,ser shul mkhan po,bo-x-ewts,NO,12171,P9371,Lobzang Dorje,en,YES
+12776,P3JM11,mgar ba'i mkhan po 'jigs 'od,bo-x-ewts,NO,12171,P9371,Lobzang Dorje,en,YES
+12777,P3JM12,klu shul mkhan po,bo-x-ewts,NO,12171,P9371,Lobzang Dorje,en,YES
+12800,P9962,dze ta kar+Na,bo-x-ewts,NO,8454,P5893,Kunpang Delek Rinchen,en,YES
+13216,P8LS13193,Lobzang Tubten Jigme Gyeltsen,en,NO,11437,P8697,Jampel Namdrol Chokyi Gyeltsen,en,YES
+13218,P8LS12558,Ngawang Lobzang Yeshe Tenpai Gyeltsen,en,NO,3822,P215,Tubten Chokyi Nyima,en,YES
+13251,P1KG4183,ngag dbang mkhyen brtse thub bstan snying po,bo-x-ewts,NO,10355,P7679,Kunga Tenpai Nyima,en,YES
+13282,P8LS12194,Ngawang Khyentse Norbu,en,NO,12981,P3JM56,Pema Gargyi Wangchuk,en,YES
+13553,P821,Chodrak Gyatso,en,NO,2162,P10582,Tashi Namgyel,en,YES
+13554,P385,Mikyo Dorje,en,NO,13836,,Trinle Kunkyab Pelzangpo,en,YES
+13556,P889,Wangchuk Dorje,en,NO,13837,,Drubgyud Tulku,en,YES
+13575,P8LS13183,gyur med pad+ma rdo rje,bo-x-ewts,NO,12180,P938,Karma Rangjung Kunkhyab,en,YES
+13576,P1649,Tenzin Gyatso,en,NO,8972,P6387,Lekshe Chokyi Drayang,en,YES
+13576,P1649,Tenzin Gyatso,en,NO,11437,P8697,Jampel Namdrol Chokyi Gyeltsen,en,YES
+13576,P1649,Tenzin Gyatso,en,NO,12180,P938,Karma Rangjung Kunkhyab,en,YES
+13577,P1AG97,Ngedon Drubpai Dorje,en,NO,12839,P9901,Tulku Urgyen,en,YES
+13599,P8LS12189,Tendzin Chokyi Nangwa,en,NO,13821,P3CN27002,Gergan Konchok Sonam,en,YES
+13660,P4CZ10578,Devākaracandra,en,NO,6194,P3816,Rongzom Chokyi Zangpo,en,YES
+13662,P8LS15530,yab rong ban rin chen tshul khrims,bo-x-ewts,NO,6194,P3816,Rongzom Chokyi Zangpo,en,YES
+13667,P1TD24,ngag dbang thub bstan chos kyi dbang phyug/,bo-x-ewts,NO,7882,P5368,Jigme Tsultrim Namgyel,en,YES
+13667,P1TD24,ngag dbang thub bstan chos kyi dbang phyug/,bo-x-ewts,NO,11437,P8697,Jampel Namdrol Chokyi Gyeltsen,en,YES
+13678,P11MS232,Dezhung Lungrik Nyima,en,NO,12741,P9905,Nyiga Kunga Nyima,en,YES
+13678,P11MS232,Dezhung Lungrik Nyima,en,NO,13186,P10MS14669,Pema Trinle,en,YES
+13678,P11MS232,Dezhung Lungrik Nyima,en,NO,13677,P8LS76440,Ngawang Nyima,en,YES
+13680,P1PD90412,jam dpal bstan 'dzin phrin las,bo-x-ewts,NO,12741,P9905,Nyiga Kunga Nyima,en,YES
+13685,P2KG228978,rig 'dzin 'ja' lus rdo rje,bo-x-ewts,NO,12171,P9371,Lobzang Dorje,en,YES
+13774,P2CN574,Indrabodhi,en,NO,13773,P4CZ10542,Gelongma Pelmo,en,YES
+13807,P8LS13715,Minling Chung Rinpoche Ngawang Chokyi Drakpa,en,NO,12479,P966,Tubten Lekshe Gyatso,en,YES
+13808,P4CZ333431,Lhatsun Tulku Lobzang Tubten Gelek Rabgye,en,NO,11437,P8697,Jampel Namdrol Chokyi Gyeltsen,en,YES
+13808,P4CZ333431,Lhatsun Tulku Lobzang Tubten Gelek Rabgye,en,NO,12479,P966,Tubten Lekshe Gyatso,en,YES
+13827,P1KG21101,dge bshes chos grags,bo-x-ewts,NO,2424,P1166,Horkhang Sonam Pelbar,en,YES
