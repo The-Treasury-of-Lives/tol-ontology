@@ -39,7 +39,11 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # Wikidata ID
 
 # Run: 
+<<<<<<<< HEAD:tarql/persons/persons_with_bio.tq
+# tarql --dedup 50000 persons_with_bio.tq person-w-bio-12-11-23.csv > tolPersonsWithBio.ttl
+========
 # tarql --dedup 50000 persons-w-bio.tq person-w-bio-12-5-23.csv > tolPersonsWithBio.ttl
+>>>>>>>> develop:tarql/persons/persons-w-bio.tq
 
 
 CONSTRUCT {
