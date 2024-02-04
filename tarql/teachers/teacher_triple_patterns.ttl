@@ -19,7 +19,7 @@
 
 told:_TeacherStudentRelationship_2069_12743
 	a tolo:TeacherStudentRelationship ;
-	skos:prefLabel "Teacher-Student Relationship Between Persons 2069 and 12743"@en ;
+	skos:prefLabel "Teacher 2069 - Student 12743"@en ;
 	gist:hasGiver told:_Person_2069 ;
 	gist:hasRecipient told:_Person_12743 ;
 	.
