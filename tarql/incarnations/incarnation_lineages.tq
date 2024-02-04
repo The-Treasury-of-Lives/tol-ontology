@@ -18,10 +18,13 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 
 ## Columns
 # incarnation_lineages_id (PK) -- ignore
-# BDRC R ID -- ?bdrc__lineage_iri
+# BDRC R ID -- ?bdrc_lineage_iri
 # TOL R ID -- ?incarnation_lineage_iri
 # Incarnation Name -- ?tol_name
-# Tradition -- ?tradition_iri
+# Tradition 1 -- ignore -- comes from tradition data
+# Tradition ID 1 -- ?tradition_1_iri
+# Tradition 2 -- ignore -- comes from tradition data
+# Tradition ID 2 ?tradition_2_iri
 # Wylie -- ?wylie_name
 # Chinese -- ?chinese_name
 # BDRC G ID -- monastery ID -- ignore (owl:sameAs will come from institution data)
@@ -29,9 +32,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # description -- ?html_description_iri
 
 # Run: 
-# Do we need base?
-# tarql --dedup 5000 --base "https://w3id.org/treasuryoflives/" incarnationLineages.tq > tolIncarnationLineages.ttl
-# tarql --dedup 5000 incarnation_lineages.tq incarnation_lineages_2023-10-31.csv > tolIncarnationLineages.ttl
+# tarql --dedup 5000 incarnation_lineages.tq incarnation-lineages-10-31-23.csv > tolIncarnationLineages.ttl
 
 CONSTRUCT {
 
@@ -41,6 +42,7 @@ CONSTRUCT {
         skos:prefLabel "Incarnation Lineages"^^xsd:string ;
         skos:editorialNote "Auto-generated via TARQL." ;
 	    owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
+	    owl:imports <https://w3id.org/semanticarts/ontology/gistCore12.0.1> ;
 	    owl:versionIRI <https://w3id.org/treasuryoflives/data/tolIncarnationLineagesX.x.x> ;
 	.
 

@@ -61,10 +61,10 @@ CONSTRUCT {
 WHERE {
     
     # Testing
-    # FILTER(?ROWNUM IN (1, 464))
+    FILTER(?ROWNUM IN (1, 464))
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_TeacherStudentRelationship_", ?teacher_id, "_", ?student_id)) AS ?relationship_iri)
-    BIND(STRLANG(CONCAT("Teacher-Student Relationship between Person ", ?teacher_id, " and ", ?student_id), "en") AS ?relationship_label_en)
+    BIND(STRLANG(CONCAT("Teacher ", ?teacher_id, " - Student ", ?student_id), "en") AS ?relationship_label_en)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?teacher_id)) AS ?teacher_iri)
     # If no bio, the person entity has not been created in the persons conversion. Add type, name and owl:sameAs to BDRC person.
