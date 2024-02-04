@@ -17,30 +17,10 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-told:_Person_13801
-	a tolo:Person ;
-	skos:prefLabel "Lama Ngaklo"@en ;
-	tolo:preferredName "Lama Ngaklos"@en ;
-	.
-
-told:_Person_8138
-	a tolo:Person ;
-	owl:sameAs bdr:P560 ;
-	skos:prefLabel "blo gter dbang po"@bo-X-ewts ;
-	tolo:preferredName "blo gter dbang po"@bo-X-ewts ;
-	.
-
 told:_TeacherStudentRelationship_2069_12743
 	a tolo:TeacherStudentRelationship ;
 	skos:prefLabel "Teacher-Student Relationship Between Persons 2069 and 12743"@en ;
 	gist:hasGiver told:_Person_2069 ;
 	gist:hasRecipient told:_Person_12743 ;
-	.
-
-told:_TeacherStudentRelationship_8138_13801
-	a tolo:TeacherStudentRelationship ;
-	skos:prefLabel "Teacher-Student Relationship Between Persons 8138 and 13801"@en ;
-	gist:hasGiver told:_Person_8138 ;
-	gist:hasRecipient told:_Person_13801 ;
 	.
 
