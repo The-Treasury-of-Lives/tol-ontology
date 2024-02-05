@@ -15404,7 +15404,6 @@ told:_Person_10497
 		"Lowo Khenchen Sonam Lhundrub"@en ,
 		"glo bo mkhan chen bsod nams lhun grub"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=2496"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_10497 ,
 		told:_Death_10497
@@ -15703,7 +15702,6 @@ told:_Person_10591
 		"Jamyang Amnye Zhab Ngawang Kunga Sonam"@en ,
 		"jam mgon a myes zhabs ngag dbang kun dga' bsod nams"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/image.cfm?icode=73736"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_10591 ,
 		told:_Death_10591
@@ -16073,7 +16071,6 @@ told:_Person_10687
 		"The First Dalai Lama, Gendun Drub"@en ,
 		"ta la'i bla ma 01 dge 'dun grub pa"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=582"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_10687 ,
 		told:_Death_10687
@@ -16760,7 +16757,6 @@ told:_Person_11114
 		"The Second Dalai Lama, Gendun Gyatso"@en ,
 		"ta la'i bla ma 02 dge 'dun rgya mtsho"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=965"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_11114 ,
 		told:_Death_11114
@@ -17997,7 +17993,6 @@ told:_Person_11866
 		"Chime Tenpai Nyima"@en ,
 		"chi med bstan pa'i nyi ma"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/image.cfm?icode=57068"^^xsd:anyURI ;
 	tolo:hasEvent told:_Birth_11866 ;
 	tolo:preferredName
 		"Chime Tenpai Nyima"@en ,
@@ -18685,7 +18680,6 @@ told:_Person_12828
 		"The Third Dalai Lama, Sonam Gyatso"@en ,
 		"ta la'i bla ma 03 bsod nams rgya mtsho"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=966"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_12828 ,
 		told:_Death_12828
@@ -18854,7 +18848,6 @@ told:_Person_13026
 		"The Third Paṇchen Lama, Wensapa Lobzang Dondrub"@en ,
 		"paN chen bla ma 03 dben sa pa blo bzang don grub"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=310"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_13026 ,
 		told:_Death_13026
@@ -20653,7 +20646,6 @@ told:_Person_13141
 		"Sanggye Won Drakpa Pel"@en ,
 		"sangs rgyas dbon grags pa dpal"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/image.cfm?icode=85903"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_13141 ,
 		told:_Death_13141
@@ -27439,7 +27431,6 @@ told:_Person_2051
 		"Pakpa Lodro Gyeltsen"@en ,
 		"phags pa blo gros rgyal mtshan"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=574"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_2051 ,
 		told:_Death_2051
@@ -27530,7 +27521,6 @@ told:_Person_2137
 		"Sakya Paṇḍita Kunga Gyeltsen"@en ,
 		"sa skya paN+Dita kun dga' rgyal mtshan"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=325"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_2137 ,
 		told:_Death_2137
@@ -27978,7 +27968,6 @@ told:_Person_2339
 		"The Eighth Dalai Lama, Jampel Gyatso"@en ,
 		"ta la'i bla ma 08 'jam dpal rgya mtsho"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=970"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_2339 ,
 		told:_Death_2339
@@ -28568,7 +28557,6 @@ told:_Person_2510
 		"Padampa Sanggye"@en ,
 		"pha dam pa sangs rgyas"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=347"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_2510 ,
 		told:_Death_2510
@@ -28673,7 +28661,6 @@ told:_Person_2539
 		"Pakmodrupa Dorje Gyelpo"@en ,
 		"phag mo gru pa rdo rje rgyal po"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=956"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_2539 ,
 		told:_Death_2539
@@ -29112,7 +29099,6 @@ told:_Person_2670
 		"Dolpopa Sherab Gyeltsen"@en ,
 		"dol po pa shes rab rgyal mtshan"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=1595"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_2670 ,
 		told:_Death_2670
@@ -29260,7 +29246,6 @@ told:_Person_2740
 		"Yungton Dorje Pel"@en ,
 		"g.yung ston rdo rje dpal"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=974"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_2740 ,
 		told:_Death_2740
@@ -29388,7 +29373,6 @@ told:_Person_2776
 		"The Second Karmapa, Karma Pakshi"@en ,
 		"karma pa 02 karma pak+Shi"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=1003"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_2776 ,
 		told:_Death_2776
@@ -29720,7 +29704,6 @@ told:_Person_2810
 		"shAkya shrI b+ha dra"@bo-x-ewts ,
 		"Śākyaśrībhadra"@en
 		;
-	tolo:harUrl "http://www.himalayanart.org/image.cfm/85713.html"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_2810 ,
 		told:_Death_2810
@@ -30060,7 +30043,6 @@ told:_Person_2899
 		"Jikten Gonpo Rinchen Pel"@en ,
 		"jig rten mgon po rin chen dpal"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/image.cfm?icode=1034"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_2899 ,
 		told:_Death_2899
@@ -30138,7 +30120,6 @@ told:_Person_2915
 		"Drakpa Gyeltsen"@en ,
 		"grags pa rgyal mtshan"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=317"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_2915 ,
 		told:_Death_2915
@@ -30162,7 +30143,6 @@ told:_Person_2916
 		"Sachen Kunga Nyingpo"@en ,
 		"sa chen kun dga' snying po"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=324"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_2916 ,
 		told:_Death_2916
@@ -30186,7 +30166,6 @@ told:_Person_2919
 		"Sonam Tsemo"@en ,
 		"bsod nams rtse mo"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/search_results.cfm?is3D=0&figureMainID=1"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_2919 ,
 		told:_Death_2919
@@ -30905,7 +30884,6 @@ told:_Person_3085
 		"The Fourth Dalai Lama, Yonten Gyatso"@en ,
 		"ta la'i bla ma 04 yon tan rgya mtsho"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=967"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_3085 ,
 		told:_Death_3085
@@ -30979,7 +30957,6 @@ told:_Person_3107
 		"The Seventh Dalai Lama, Kelzang Gyatso"@en ,
 		"ta la'i bla ma 07 skal bzang rgya mtsho"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=969"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_3107 ,
 		told:_Death_3107
@@ -31100,7 +31077,6 @@ told:_Person_3139
 		"Sanggye Yarjon"@en ,
 		"sangs rgyas yar byon"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/image.cfm?icode=73808"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_3139 ,
 		told:_Death_3139
@@ -31220,7 +31196,6 @@ told:_Person_3168
 		"Gampopa Sonam Rinchen"@en ,
 		"sgam po pa bsod nams rin chen"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=1119"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_3168 ,
 		told:_Death_3168
@@ -34091,7 +34066,6 @@ told:_Person_4259
 		"The Eleventh Dalai Lama, Khedrub Gyatso"@en ,
 		"ta la'i bla ma 11 mkhas grub rgya mtsho"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=970"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_4259 ,
 		told:_Death_4259
@@ -34169,7 +34143,6 @@ told:_Person_4267
 		"Dromton Gyelwa Jungne"@en ,
 		"brom ston rgyal ba'i 'byung gnas"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=697"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_4267 ,
 		told:_Death_4267
@@ -34397,7 +34370,6 @@ told:_Person_4291
 		"Jamyang Khyentse Wangpo"@en ,
 		"jam dbyangs mkhyen brtse'i dbang po"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=504"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_4291 ,
 		told:_Death_4291
@@ -34657,7 +34629,6 @@ told:_Person_4354
 		"Marpa Chokyi Lodro"@en ,
 		"mar pa chos kyi blo gros"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=315"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_4354 ,
 		told:_Death_4354
@@ -36866,7 +36837,6 @@ told:_Person_5457
 		"Jigme Lingpa"@en ,
 		"jigs med gling pa"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=705"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_5457 ,
 		told:_Death_5457
@@ -37014,7 +36984,6 @@ told:_Person_5500
 		"Go Lotsāwa Zhonnu Pel"@en ,
 		"gos lo tsA ba gzhon nu dpal"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=976"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_5500 ,
 		told:_Death_5500
@@ -37764,7 +37733,6 @@ told:_Person_5871
 		"The Sixth Dalai Lama, Tsangyang Gyatso"@en ,
 		"ta la'i bla ma 06 ta la'i bla ma 06 tshangs dbyangs rgya mtsho"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=968"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_5871 ,
 		told:_Death_5871
@@ -38328,7 +38296,6 @@ told:_Person_6065
 		"The Fifth Dalai Lama, Ngawang Lobzang Gyatso"@en ,
 		"ta la'i bla ma 05 ngag dbang blo bzang rgya mtsho"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=540"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_6065 ,
 		told:_Death_6065
@@ -40957,7 +40924,6 @@ told:_Person_6856
 		"Tsangnyon Heruka"@en ,
 		"gtsang smyon he ru ka"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=703"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_6856 ,
 		told:_Death_6856
@@ -41387,7 +41353,6 @@ told:_Person_7024
 		"Zhangton Chobar"@en ,
 		"zhang ston chos 'bar"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=2139"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_7024 ,
 		told:_Death_7024
@@ -42216,7 +42181,6 @@ told:_Person_7442
 		"Padmasambhava"@en ,
 		"pad+ma 'byung gnas"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=100"^^xsd:anyURI ;
 	tolo:hasEvent told:_Birth_7442 ;
 	tolo:preferredName
 		"Padmasambhava"@en ,
@@ -43827,7 +43791,6 @@ told:_Person_8181
 		"Chokgyur Lingpa"@en ,
 		"mchog gyur gling pa"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=1156"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_8181 ,
 		told:_Death_8181
@@ -45593,7 +45556,6 @@ told:_Person_8986
 		"Tsongkhapa Lobzang Drakpa"@en ,
 		"tsong kha pa blo bzang grags pa"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=197"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_8986 ,
 		told:_Death_8986
@@ -46150,7 +46112,6 @@ told:_Person_9190
 		"Namcho Mingyur Dorje"@en ,
 		"gnam chos mi 'gyur rdo rje"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/image.cfm/89717.html"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_9190 ,
 		told:_Death_9190
@@ -46174,7 +46135,6 @@ told:_Person_9201
 		"The Third Karmapa, Rangjung Dorje"@en ,
 		"karma pa 03 rang byung rdo rje"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/image.cfm/57024.html"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_9201 ,
 		told:_Death_9201
@@ -46942,7 +46902,6 @@ told:_Person_9612
 		"Do Khyentse Yeshe Dorje"@en ,
 		"mdo mkhyen brtse ye shes rdo rje"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=1914"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_9612 ,
 		told:_Death_9612
@@ -47029,7 +46988,6 @@ told:_Person_9634
 		"The First Zhamarpa, Drakpa Sengge"@en ,
 		"zhwa dmar pa 01 grags pa seng+ge"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=314"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_9634 ,
 		told:_Death_9634
@@ -47359,7 +47317,6 @@ told:_Person_9839
 		"The Fourth Paṇchen Lama, Lobzang Chokyi Gyeltsen"@en ,
 		"paN chen bla ma 04 blo bzang chos kyi rgyal mtshan"@bo-x-ewts
 		;
-	tolo:harUrl "http://www.himalayanart.org/search/set.cfm?setID=979"^^xsd:anyURI ;
 	tolo:hasEvent
 		told:_Birth_9839 ,
 		told:_Death_9839

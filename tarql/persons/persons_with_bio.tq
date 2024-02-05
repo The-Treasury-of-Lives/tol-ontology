@@ -32,19 +32,14 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # Death year alternate
 # Death century
 # Gender
-# HAR URL
+# HAR URL -- ignore - will be in person data
 # Name display phonetic
 # Name display Wylie
 # Ordinal - not converted; do with incarnations
 # Wikidata ID
 
 # Run: 
-<<<<<<<< HEAD:tarql/persons/persons_with_bio.tq
 # tarql --dedup 50000 persons_with_bio.tq person-w-bio-12-11-23.csv > tolPersonsWithBio.ttl
-========
-# tarql --dedup 50000 persons-w-bio.tq person-w-bio-12-5-23.csv > tolPersonsWithBio.ttl
->>>>>>>> develop:tarql/persons/persons-w-bio.tq
-
 
 CONSTRUCT {
     ?person_iri 
@@ -52,7 +47,7 @@ CONSTRUCT {
         owl:sameAs 
             ?bdrc_iri ,
             ?wikidata_iri ;
-        tolo:harUrl ?har_url ;
+        # tolo:harUrl ?har_url ;
 
         skos:prefLabel 
             ?preferred_name_en ,
@@ -108,7 +103,8 @@ WHERE {
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?TBRC_RID)) AS ?bdrc_iri)
     BIND(tarql:expandPrefixedName(CONCAT("wiki:", ?Wikidata_ID)) AS ?wikidata_iri) 
 
-    BIND(STRDT(?HAR_URL, xsd:anyURI) AS ?har_url)
+    # HAR URL will be attached to image
+    # BIND(STRDT(?HAR_URL, xsd:anyURI) AS ?har_url)
 
 
     # NAMES AND TITLES

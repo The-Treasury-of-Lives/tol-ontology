@@ -425,14 +425,6 @@ tolo:foundingYear
 	skos:prefLabel "founding year"@en ;
 	.
 
-tolo:harUrl
-	a owl:AnnotationProperty ;
-	rdfs:subPropertyOf rdfs:seeAlso ;
-	rdfs:range xsd:anyURI ;
-	skos:definition "The URL to the main page about this resource on the Himalayan Art Resources (HAR) site."@en ;
-	skos:prefLabel "HAR URL"@en ;
-	.
-
 tolo:hasEvent
 	a owl:ObjectProperty ;
 	rdfs:range gist:Event ;
