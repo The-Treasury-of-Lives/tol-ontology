@@ -51,7 +51,8 @@ CONSTRUCT {
 
         skos:prefLabel 
             ?preferred_name_en ,
-            ?preferred_name_wylie ;
+            ?preferred_name_wylie ,
+            ?preferred_name_wylie_script ; 
 
         tolo:preferredName 
             ?preferred_name_en ,
@@ -60,7 +61,8 @@ CONSTRUCT {
 
         tolo:displayName 
             ?display_name_en ,
-            ?display_name_wylie ;
+            ?display_name_wylie ,
+            ?preferred_name_wylie_script ; 
 
         tolo:title ?title_en ;
         tolo:title ?title_wylie ;
@@ -179,7 +181,7 @@ WHERE {
     BIND(IF(BOUND(?alternate_birth_year), ?full_birth_year_datetime, ?unbound) AS ?actual_alternate_birth_year_datetime)
 
     # Birth century (including early, mid, and late) - only used if no birth year
-    BIND(IF(!BOUND(?Birth_year), tarql:expandPrefixedName(CONCAT("told:_TimeInterval_", REPLACE(REPLACE(?Birth_century, " ", "_"), "[()]", ""))), ?unbound) AS ?birth_time_period_iri) 
+    BIND(IF(!BOUND(?Birth_year), tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", REPLACE(REPLACE(?Birth_century, " ", "_"), "[()]", ""))), ?unbound) AS ?birth_time_period_iri) 
 
 
     # Death 
