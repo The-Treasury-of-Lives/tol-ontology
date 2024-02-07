@@ -16,33 +16,27 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-told:_FormattedContent_Description_Tradition_1135
+told:_FormattedContent_Description_IncarnationLineage_81
 	a gist:FormattedContent ;
-	skos:prefLabel "Description of the Barom Kagyu tradition"@en ;
+	skos:prefLabel "The Adzon Drukpa Incarnation Lineage"@en ;
 	gist:containedText '''
-        <p> The Barom branch of the Kagyu tradition was established by <a href="/biographies/view/Barompa-Darma-Wangchuk/TBRC_P1856">Barompa Darma Wangchuk</a>, a disciple of <a href="/biographies/view/Gampopa/TBRC_p1844">Gampopa</a>. The name is based on the monastery Darma Wangchuk established in Kham in 1160, <a href="/geographies/view/Barom-Riwoche/TBRC_G1KR1663">Barom Riwoche</a>. Among the recent illustrious members of the tradition were <a href="/biographies/view/Tulku-Urgyen-Rinpoche/TBRC_P9901">Tulku Urgyen Rinpoche</a>.</p> <p> &nbsp;</p>
+			<p>
+			The Adzom Drukpa incarnation line has its seat at <a href=""/geographies/view/Adzom-Gar/TBRC_G188"">Adzom Gar</a> in Pelyul. The <a href=""/biographies/view/First-Adzom-Drukpa,-Drodul-Pawo-Dorje/TBRC_P6002"">First Adzom Drukpa, Drodul Pawo Dorje</a> was a major Nyingma figure of late nineteenth century Kham.</p>
     '''@en ;
-	gist:isAbout told:_Tradition_1135 ;
+	gist:isAbout told:_IncarnationLineage_1 ;
 	gist:isExpressedIn media-txt:html ;
 	.
 
-told:_Tradition_1135
-	a tolo:Tradition ;
-	owl:sameAs
-		bdr:T1384 ,
-		wiki:Q86777587
-		;
+told:_IncarnationLineage_1
+	a tolo:IncarnationLineage ;
+	owl:sameAs bdr:R11MS152 ;
 	skos:prefLabel
-		"Barom Kagyu"@en ,
-		"ba' rom bka' brgyud"@bo-x-ewts ,
-		"马尔巴噶举"@zh-HANI
+		"Nyingma"@en ,
+		"a 'dzom 'brug pa"@bo-x-ewts
 		;
-	tolo:hasFounder told:_Person_3181 ;
-	tolo:isDerivedFrom told:_Tradition_6 ;
-	tolo:preferredName
-		"Barom Kagyu"@en ,
-		"ba' rom bka' brgyud"@bo-x-ewts ,
-		"马尔巴噶举"@zh-HANI
+	gist:isConnectedTo
+		told:_Monastery_G43 ,
+		told:_Tradition_5
 		;
 	.
 
