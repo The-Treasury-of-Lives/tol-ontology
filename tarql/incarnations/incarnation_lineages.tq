@@ -18,7 +18,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 
 ## Columns
 # incarnation_lineages_id (PK) -- ignore
-# BDRC R ID -- ?bdrc_lineage_iri
+# BDRC R ID -- ?bdrc__lineage_iri
 # TOL R ID -- ?incarnation_lineage_iri
 # Incarnation Name -- ?tol_name
 # Tradition 1 -- ignore -- comes from tradition data
@@ -91,6 +91,6 @@ WHERE {
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_IncarnationLineage_", ?TOL_R_ID)) AS ?html_description_iri)
 
-    BIND(STRLANG(CONCAT("Description of the ", ?Incarnation_name, " incarnation lineage"), "en") AS ?description_label)
+    BIND(STRLANG(CONCAT("The ", ?Incarnation_name, " incarnation lineage"), "en") AS ?description_label)
 
 }

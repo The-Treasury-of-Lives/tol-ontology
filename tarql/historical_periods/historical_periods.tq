@@ -84,7 +84,7 @@ FROM <file:centuries.csv>
 WHERE {
 
     # Testing
-    FILTER(?ROWNUM = 1)
+    # FILTER(?ROWNUM = 1)
 
     # have to add this to the end of every year to make a proper dateTime
 	BIND("-01-01T00:00:00" AS ?date_time_rest)
