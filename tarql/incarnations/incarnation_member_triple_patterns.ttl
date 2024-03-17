@@ -16,16 +16,3 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-told:_IncarnationLineage_1
-	a tolo:IncarnationLineage ;
-	owl:sameAs bdr:R11MS152 ;
-	skos:prefLabel
-		"Adzom Drukpa"@en ,
-		"a 'dzom 'brug pa"@bo-x-ewts
-		;
-	gist:isConnectedTo
-		told:_Monastery_43 ,
-		told:_Tradition_5
-		;
-	.
-
