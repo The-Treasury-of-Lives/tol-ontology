@@ -29,7 +29,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # Description
 
 # Run: 
-# tarql --dedup 1000 traditions.tq traditions_2023-05-22.csv > tolTraditions.ttl
+# tarql --dedup 1000 traditions.tq traditions-5-22-23.csv > tolTraditions.ttl
 
 
 CONSTRUCT {
@@ -97,6 +97,6 @@ WHERE {
 
     # Description
     BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_Tradition_", ?tradition_id)) AS ?description_iri)
-    BIND(STRLANG(CONCAT("Description of the ", ?Name, " tradition"), "en") as ?description_prefLabel_en)
+    BIND(STRLANG(?Name, "en") as ?description_prefLabel_en)
     BIND(STRLANG(?Description, "en") AS ?description_en)
 }
