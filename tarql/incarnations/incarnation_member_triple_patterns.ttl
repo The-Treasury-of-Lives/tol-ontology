@@ -16,16 +16,15 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-told:_IncarnationLineage_81
+told:_IncarnationLineage_1
 	a tolo:IncarnationLineage ;
-	owl:sameAs bdr:R8LS16682 ;
+	owl:sameAs bdr:R11MS152 ;
 	skos:prefLabel
-		"'phags mchog"@bo-x-ewts ,
-		"Pakchok"@en
+		"Adzom Drukpa"@en ,
+		"a 'dzom 'brug pa"@bo-x-ewts
 		;
 	gist:isConnectedTo
-		told:_Monastery_281 ,
-		told:_Tradition_45 ,
+		told:_Monastery_43 ,
 		told:_Tradition_5
 		;
 	.

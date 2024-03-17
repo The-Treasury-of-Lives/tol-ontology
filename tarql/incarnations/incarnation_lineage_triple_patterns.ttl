@@ -16,12 +16,12 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-told:_FormattedContent_Description_IncarnationLineage_81
+told:_FormattedContent_Description_IncarnationLineage_1
 	a gist:FormattedContent ;
-	skos:prefLabel "The Adzon Drukpa Incarnation Lineage"@en ;
+	skos:prefLabel "Adzom Drukpa"@en ;
 	gist:containedText '''
-			<p>
-			The Adzom Drukpa incarnation line has its seat at <a href=""/geographies/view/Adzom-Gar/TBRC_G188"">Adzom Gar</a> in Pelyul. The <a href=""/biographies/view/First-Adzom-Drukpa,-Drodul-Pawo-Dorje/TBRC_P6002"">First Adzom Drukpa, Drodul Pawo Dorje</a> was a major Nyingma figure of late nineteenth century Kham.</p>
+		<p>
+		The Adzom Drukpa incarnation line has its seat at <a href=""/geographies/view/Adzom-Gar/TBRC_G188"">Adzom Gar</a> in Pelyul. The <a href=""/biographies/view/First-Adzom-Drukpa,-Drodul-Pawo-Dorje/TBRC_P6002"">First Adzom Drukpa, Drodul Pawo Dorje</a> was a major Nyingma figure of late nineteenth century Kham.</p>
     '''@en ;
 	gist:isAbout told:_IncarnationLineage_1 ;
 	gist:isExpressedIn media-txt:html ;
@@ -31,11 +31,11 @@ told:_IncarnationLineage_1
 	a tolo:IncarnationLineage ;
 	owl:sameAs bdr:R11MS152 ;
 	skos:prefLabel
-		"Nyingma"@en ,
+		"Adzom Drukpa"@en ,
 		"a 'dzom 'brug pa"@bo-x-ewts
 		;
 	gist:isConnectedTo
-		told:_Monastery_G43 ,
+		told:_Monastery_43 ,
 		told:_Tradition_5
 		;
 	.
