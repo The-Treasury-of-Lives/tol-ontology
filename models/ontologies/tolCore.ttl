@@ -112,9 +112,9 @@ tolo:HistoricalPeriod
 	a owl:Class ;
 	rdfs:subClassOf gist:TimeInterval ;
 	skos:definition "A named time interval with historical significance."@en ;
-	skos:example "The 10th century"@en ;
+	skos:example "The 10th century, the eary/mid/late 19th century"@en ;
 	skos:prefLabel "Historical Period"@en ;
-	skos:scopeNote "Whereas a time interval is any period of time, such as 2-4pm this afternoon, a historical period is named and cited in relation to historical events or culture."^^xsd:string ;
+	skos:scopeNote "Whereas a time interval is any period of time, such as 2-4pm this afternoon or 1848-1947, a historical period is named and cited in relation to historical events or culture. Historical periods include full and partial centuries, which are ordinally numbered."^^xsd:string ;
 	.
 
 tolo:HtmlBiography

@@ -32,8 +32,8 @@ told:_FormattedContent_Description_HistoricalPeriod_7th_century
 told:_HistoricalPeriod_7th_century
 	skos:editorialNote "Type and @en label are generated in centuries.tq."^^xsd:string ;
 	skos:preflabel
-		"7 dus rabs"@bo-X-ewts ,
-		"༧ དུས་རབས།"@bo-X-gbt
+		"7 dus rabs"@bo-x-ewts ,
+		"༧ དུས་རབས།"@bo-x-gbt
 		;
 	.
 
