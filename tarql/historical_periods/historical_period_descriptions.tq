@@ -23,8 +23,11 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # description
 
 # Run:
-# tarql historical_period_descriptions.tq historical-period-descriptions_2023-11-05.csv > tolHistoricalPeriodDescriptions.ttl
+# tarql historical_period_descriptions.tq historical-period-description-11-5-23.csv > tolHistoricalPeriodDescriptions.ttl
 
+
+TODO - Need to use same IRIs as in historical periods - currently IDs are different in the two CSVs
+ALSO - names are different - what to do?
 
 CONSTRUCT {
 

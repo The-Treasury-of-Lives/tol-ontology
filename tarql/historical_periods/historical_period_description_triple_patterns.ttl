@@ -16,7 +16,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-told:_FormattedContent_Description_HistoricalPeriod_7th_century
+told:_FormattedContent_Description_HistoricalPeriod_25
 	a gist:FormattedContent ;
 	skos:prefLabel "Description of the 7th century"@en ;
 	gist:containedText '''
@@ -25,12 +25,12 @@ told:_FormattedContent_Description_HistoricalPeriod_7th_century
 		</p>
 
     '''@en ;
-	gist:isAbout told:_HistoricalPeriod_7th_century ;
+	gist:isAbout told:_HistoricalPeriod_25 ;
 	gist:isExpressedIn media-txt:html ;
 	.
 
-told:_HistoricalPeriod_7th_century
-	skos:editorialNote "Type and @en label are generated in centuries.tq."^^xsd:string ;
+told:_HistoricalPeriod_25
+	skos:editorialNote "Type, @en label, and start year are generated in historical_periods.tq."^^xsd:string ;
 	skos:preflabel
 		"7 dus rabs"@bo-x-ewts ,
 		"༧ དུས་རབས།"@bo-x-gbt
