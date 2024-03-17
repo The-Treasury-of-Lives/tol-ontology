@@ -1,0 +1,1828 @@
+person_id,tbrc_rid,default_name,tradition_id,tradition_name
+8,P00AG0401,Pelden Chime Takpai Dorje,1,Nyingma
+9,P00AG0428,Mandāravā,1,Nyingma
+84,P00EGS1017608,Lasum Gyelwa Jangchub,1,Nyingma
+86,P00EGS1017610,Langdro Konchok Jungne,1,Nyingma
+96,P00EGS1017620,Lang Pelgyi Sengge,1,Nyingma
+303,P4CZ10564,Nanam Dorje Dudjom,1,Nyingma
+490,P0RK1217,Kharchen Pelgyi Wangchuk,1,Nyingma
+494,P0RK1221,Dangma Lhungyel,1,Nyingma
+495,P0RK1222,Chetsun Sengge Wangchuk,1,Nyingma
+1108,P7743,Namkhai Nyingpo,1,Nyingma
+1370,P8218,Khon Lui Wangpo,1,Nyingma
+1639,P10100,Namgyel Gonpo,1,Nyingma
+1722,P1018,Langlab Jangchub Dorje,1,Nyingma
+1754,P1021,Trulzhik Sengge Gyabpa,1,Nyingma
+2069,P10497,Rinchen Dorje,1,Nyingma
+2118,P5987,Kunzang Ngedon Wangpo,1,Nyingma
+2232,P10646,Kunkyong Lingpa,1,Nyingma
+2541,P1271,Takla Norbu,1,Nyingma
+2589,P1314,Katokpa Dampa Deshek,1,Nyingma
+2662,P1382,Choying Dorje,1,Nyingma
+2720,P1435,Sonam Puntsok,1,Nyingma
+2740,P1454,Yungton Dorje Pel,1,Nyingma
+2776,P1487,Karma Pakshi,1,Nyingma
+2780,P1490,Sonam Bumpa,1,Nyingma
+2781,P1492,Jampa Bum,1,Nyingma
+2790,P150,Yonten Gyatso,1,Nyingma
+2806,P1514,Kodrakpa Sonam Gyeltsen,1,Nyingma
+2816,P1523,Lachen Gongpa Rabsel,1,Nyingma
+2845,P155,Buton Rinchen Drub,1,Nyingma
+2882,P1583,Longchenpa Drime Wozer,1,Nyingma
+2948,P1646,Jigme Rigpai Lodro,1,Nyingma
+2992,P1686,Longsel Nyingpo,1,Nyingma
+2996,P169,Konchok Jigme Wangpo,1,Nyingma
+2997,P1690,Tenzin Norbu,1,Nyingma
+3000,P1693,Pema Lingpa,1,Nyingma
+3006,P1699,Ngari Paṇchen Pema Wanggyel,1,Nyingma
+3010,P1701,Lekden Dorje,1,Nyingma
+3020,P1710,Mingyur Namkhai Dorje,1,Nyingma
+3107,P179,Kelzang Gyatso,1,Nyingma
+3121,P1801,"Dungtso Repa The Earlier""""",1,Nyingma
+3125,P1805,Trulzhik Nauwa,1,Nyingma
+3152,P183,Shukseb Jetsun Choying Zangmo,1,Nyingma
+3266,P1932,Barawa Gyeltsen Pelzang,1,Nyingma
+3307,P197,Tubten Gyatso,1,Nyingma
+3417,P1GS124509,Meban Rinchen Lingpa,1,Nyingma
+3436,P1GS138134,Losel Drolma,1,Nyingma
+3485,P1GS60402,Do Dasel Wangmo,1,Nyingma
+3627,P1PD76599,Khaying Drolma,1,Nyingma
+3770,P210,Tamdrin Lhamo,1,Nyingma
+3866,P219,Gendun Chopel,1,Nyingma
+3883,P2204,Pema Rangdol,1,Nyingma
+3889,P221,Jigme Damcho Gyatso,1,Nyingma
+3989,P230,Dechen Nyingpo,1,Nyingma
+4028,P2335,Yeshe Gyeltsen,1,Nyingma
+4043,P2349,Kumārarāja,1,Nyingma
+4080,P2382,Konchok Chodrak,1,Nyingma
+4125,P2424,Nyakla Pema Dudul,1,Nyingma
+4140,P2438,Pomdrakpa Sonam Dorje,1,Nyingma
+4185,P248,Jigme Tenpai Nyima,1,Nyingma
+4228,P252,Mipam Gyatso,1,Nyingma
+4272,P2561,Jigme Puntsok Jungne,1,Nyingma
+4291,P258,Jamyang Khyentse Wangpo,1,Nyingma
+4358,P264,Jamgon Kongtrul Lodro Taye,1,Nyingma
+4372,P2652,Dawa Gyeltsen,1,Nyingma
+4379,P2659,Pema Trinle,1,Nyingma
+4425,P270,Patrul Orgyen Jigme Chokyi Wangpo,1,Nyingma
+4478,P2748,Orgyen Trinle Dorje,1,Nyingma
+4611,P287,Zhabkar Tsokdruk Rangdrol,1,Nyingma
+4622,P2881,Jigme Ngotsar Gyatso,1,Nyingma
+4626,P2885,Nubchen Sanggye Yeshe,1,Nyingma
+4630,P2889,Zurchen Shakya Jungne,1,Nyingma
+4632,P2890,Zurchung Sherab Drakpa,1,Nyingma
+4659,P2914,Sengdruk Pema Tashi,1,Nyingma
+4676,P293,Jigme Trinle Wozer,1,Nyingma
+4691,P2943,Gyurme Tsewang Chokdrub,1,Nyingma
+4903,P2JM167,Gyelwa Chokyang,1,Nyingma
+4986,P2JM275,Namkha Chokyi Gyatso,1,Nyingma
+4987,P2JM276,Jigme Choying Wosel,1,Nyingma
+5024,P2JM309,Ngawang Norbu,1,Nyingma
+5041,P2JM325,Gelek Namgyel,1,Nyingma
+5044,P2JM328,Tsering Norbu,1,Nyingma
+5048,P2JM331,Konchok Zangpo,1,Nyingma
+5078,P2JM359,Gyurme Wosel,1,Nyingma
+5099,P2JM378,Pema Tsewang Gyatso,1,Nyingma
+5115,P2JM392,Wozer Taye,1,Nyingma
+5117,P2JM394,Konchok Yeshe Wozer,1,Nyingma
+5120,P2JM397,Tenzin Chozang,1,Nyingma
+5121,P2JM398,Chonam,1,Nyingma
+5122,P2JM399,Tsering Chojor,1,Nyingma
+5151,P2JM424,Orgyen Samten,1,Nyingma
+5159,P2JM431,Kunzang Pema Wanggyel,1,Nyingma
+5164,P2JM436,Peljor Gyatso,1,Nyingma
+5166,P2JM438,Garwang Chokyi Gyeltsen,1,Nyingma
+5234,P2JM5,Ma Rinchen Chok,1,Nyingma
+5281,P2JM8,Sokpo Pelgyi Yeshe,1,Nyingma
+5312,P3005,Yutok Yonten Gonpo,1,Nyingma
+5457,P314,Jigme Lingpa,1,Nyingma
+5461,P3143,Ra Lotsāwa Dorje Drakpa,1,Nyingma
+5500,P318,Go Lotsāwa Zhonnu Pel,1,Nyingma
+5588,P326,Guru Chowang,1,Nyingma
+5644,P3312,Machik Labdron,1,Nyingma
+5803,P3458,Go Khukpa Lhetse,1,Nyingma
+5805,P346,Polhane Sonam Tobgye,1,Nyingma
+5871,P352,Tsangyang Gyatso,1,Nyingma
+5897,P3546,Amdo Geshe Jampel Rolpai Lodro,1,Nyingma
+5999,P364,Nyangrel Nyima Wozer,1,Nyingma
+6010,P365,Namkha Pel,1,Nyingma
+6100,P3730,Khon Konchok Gyelpo,1,Nyingma
+6134,P3762,Tsondru Sengge,1,Nyingma
+6194,P3816,Rongzom Chokyi Zangpo,1,Nyingma
+6205,P3827,Nyang Tingdzin Zangpo,1,Nyingma
+6257,P3874,Sabzang Pakpa Zhonnu Lodro,1,Nyingma
+6275,P3890,Gorub Lotsāwa Chokyi Sherab,1,Nyingma
+6285,P39,Khyungpo Neljor,1,Nyingma
+6395,P4,Tsunma Yulha,1,Nyingma
+6470,P4069,Minyak Kunzang Sonam,1,Nyingma
+6499,P4095,Tenpa Tsering,1,Nyingma
+6567,P4158,Dutsi Gyurme,1,Nyingma
+6568,P4159,Lekdrub Pel,1,Nyingma
+6653,P4236,Pelgyi Sengge,1,Nyingma
+6668,P425,Nyima Drakpa,1,Nyingma
+6681,P4261,Drenpa Namkha,1,Nyingma
+6726,P4301,Rokben Sherab O,1,Nyingma
+6738,P4312,Yakde Paṇchen Tsondru Dargye,1,Nyingma
+6962,P4518,Dzeng Dharmabodhi,1,Nyingma
+6982,P4536,Ngawang Sanggye Pelzang,1,Nyingma
+7024,P4574,Zhangton Chobar,1,Nyingma
+7114,P4655,Drapa Ngonshe,1,Nyingma
+7152,P469,Yeshe Bumpa,1,Nyingma
+7164,P470,Ratna Lingpa,1,Nyingma
+7182,P4716,Lobzang Lhundrub,1,Nyingma
+7232,P4762,Lodro Rinchen Sengge,1,Nyingma
+7254,P4782,Gyurme Tenpa Namgyel,1,Nyingma
+7272,P4799,Bamda Gelek,1,Nyingma
+7429,P4943,Orgyen Lingpa,1,Nyingma
+7442,P4956,Padmasambhava,1,Nyingma
+7551,P5055,Orgyen Tendzin Norbu,1,Nyingma
+7559,P8LS13218,Tubten Kelzang Gyatso,1,Nyingma
+7581,P5082,Sanggye Tenpa,1,Nyingma
+7582,P5083,Pema Norbu,1,Nyingma
+7641,P5137,Repa Karpo,1,Nyingma
+7644,P514,Tendzin Lekpai Dondrub,1,Nyingma
+7681,P5174,Lhundrub Gyatso,1,Nyingma
+7732,P5221,Dola Jigme Kelzang,1,Nyingma
+7736,P5225,Jangchub Lodro,1,Nyingma
+7767,P5254,Rigdzin Godemchen Ngodrub Gyeltsen,1,Nyingma
+7895,P538,Kunga Gyatso,1,Nyingma
+7945,P5425,Dongak Chokyi Gyatso,1,Nyingma
+8028,P550,Yonten Taye,1,Nyingma
+8126,P559,Pema Nyinje Wangpo,1,Nyingma
+8177,P5636,Nyoshul Khenpo Jamyang Dorje,1,Nyingma
+8181,P564,Chokgyur Lingpa,1,Nyingma
+8342,P5788,Tonmi Sambhota,1,Nyingma
+8355,P580,Jigme Norbu,1,Nyingma
+8472,P5909,"Dungtso Repa The Later""""",1,Nyingma
+8474,P5910,Machik Kunga Bum,1,Nyingma
+8507,P5941,Chokyi Wozer,1,Nyingma
+8536,P5969,Jamyang Gyeltsen,1,Nyingma
+8538,P5970,Lerab Lingpa,1,Nyingma
+8539,P5971,Gyelse Sonam Deutsen,1,Nyingma
+8543,P5975,Tsondru Gyatso,1,Nyingma
+8549,P5980,Namkha Chowang,1,Nyingma
+8551,P5982,Orgyen Jamyang,1,Nyingma
+8562,P5992,Jigme Rigdzin Gonpo,1,Nyingma
+8563,P5993,Jigme Yonten Gonpo,1,Nyingma
+8566,P5996,Jampel Dorje,1,Nyingma
+8567,P5997,Drodul Tobden Lingpa,1,Nyingma
+8574,P6002,Drodul Pawo Dorje,1,Nyingma
+8575,P6003,Jigme Dechen Dorje,1,Nyingma
+8578,P6006,Pema Kundrol Namgyel,1,Nyingma
+8580,P6008,Choying Dorje,1,Nyingma
+8583,P6010,Choying Rangdrol,1,Nyingma
+8584,P6011,Wosel Dorje Nyingpo,1,Nyingma
+8585,P6012,Jangchub Chokyi Nyima,1,Nyingma
+8592,P6019,Tsewang Rigdzin Gyatso,1,Nyingma
+8596,P6022,Gyurme Kelzang Tobgyel Dorje,1,Nyingma
+8600,P6026,Jigme Dorje,1,Nyingma
+8603,P6029,Zhenpen Dorje,1,Nyingma
+8609,P6034,Jikdrel Tutob Dorje,1,Nyingma
+8610,P6035,Jikdrel Chokyi Langpo,1,Nyingma
+8616,P6040,Jangchub Dorje,1,Nyingma
+8617,P6041,Sonam Dorje,1,Nyingma
+8618,P6042,Kunzang Pema Trinle,1,Nyingma
+8624,P6048,Tubten Gyeltsen Wozer,1,Nyingma
+8625,P6049,Drime Wosel Lingpa,1,Nyingma
+8629,P6052,Pema Trinle,1,Nyingma
+8630,P6053,Pelden Dorje,1,Nyingma
+8631,P6054,Chopa Lugu,1,Nyingma
+8633,P6056,Hor Donyon Rinpoche,1,Nyingma
+8650,P6071,Namtrul Jigme Puntsok,1,Nyingma
+8651,P6072,Khandro Tāre Lhamo,1,Nyingma
+8675,P6095,Nangdze Dorje,1,Nyingma
+8750,P6164,Dorje Lingpa,1,Nyingma
+8753,P6168,Jamyang Sherab Chokyi Nangwa,1,Nyingma
+8754,P6169,Dongak Tendzin,1,Nyingma
+8757,P6172,Dongak Chokyi Nyima,1,Nyingma
+8782,P620,Shākya Shrī,1,Nyingma
+8825,P625,Dilgo Khyentse Tashi Peljor,1,Nyingma
+8857,P628,Melong Dorje,1,Nyingma
+8868,P629,Jomo Menmo,1,Nyingma
+8891,P631,Guru Jober,1,Nyingma
+8892,P6310,Karma Gyurme Ngedon Tendzin,1,Nyingma
+8912,P633,Nyima Bum,1,Nyingma
+8923,P634,Zhangton Tashi Dorje,1,Nyingma
+8964,P638,Sherab Wozer,1,Nyingma
+8972,P6387,Lekshe Chokyi Drayang,1,Nyingma
+8975,P639,Ngakgi Wangpo,1,Nyingma
+8986,P64,Tsongkhapa Lobzang Drakpa,1,Nyingma
+9047,P6455,Pema Kunzang Rangdrol,1,Nyingma
+9052,P646,Tashi Tobgyel,1,Nyingma
+9062,P647,Peljor Lhundrub,1,Nyingma
+9083,P6489,Apang Terton,1,Nyingma
+9105,P651,Dudul Dorje,1,Nyingma
+9121,P6525,Nyak Jñānakumara,1,Nyingma
+9126,P653,Pema Rigdzin,1,Nyingma
+9141,P6543,Yeshe Yang,1,Nyingma
+9158,P656,Garwang Dorje,1,Nyingma
+9169,P657,Pema Trinle,1,Nyingma
+9190,P659,Namcho Mingyur Dorje,1,Nyingma
+9201,P66,Rangjung Dorje,1,Nyingma
+9203,P6600,Yonten Gonpo,1,Nyingma
+9213,P661,Tenpai Gyeltsen,1,Nyingma
+9254,P665,Pelden Tashi,1,Nyingma
+9297,P669,Pema Dechen Lingpa,1,Nyingma
+9355,P6744,Pema Vajra,1,Nyingma
+9361,P675,Lobzang Trinle,1,Nyingma
+9372,P676,Rigdzin Tsewang Norbu,1,Nyingma
+9383,P677,Gyurme Tekchok Tendzin,1,Nyingma
+9394,P678,Mingyur Peldron,1,Nyingma
+9513,P689,Kelzang Pema Wangchuk,1,Nyingma
+9525,P690,Gyurme Kunzang Namgyel,1,Nyingma
+9546,P692,Pema Tekchok Tenpai Gyeltsen,1,Nyingma
+9572,P6943,Zangpo Drakpa,1,Nyingma
+9574,P6945,Drime Kunga,1,Nyingma
+9579,P695,Jigme Gyelwai Nyugu,1,Nyingma
+9585,P6955,Pema Tekchok Loden,1,Nyingma
+9588,P6958,Tubten Nyendrak,1,Nyingma
+9589,P6959,Chime Yeshe,1,Nyingma
+9590,P696,Changlung Pelchen Namkha Jigme,1,Nyingma
+9593,P6962,Kunzang Pelden,1,Nyingma
+9594,P6963,Kunga Pelden,1,Nyingma
+9601,P697,Gyelse Zhenpen Taye Wozer,1,Nyingma
+9612,P698,Do Khyentse Yeshe Dorje,1,Nyingma
+9618,P6986,Lhalung Pelgyi Dorje,1,Nyingma
+9622,P699,Khenpo Zhenga Zhenpen Chokyi Nangwa,1,Nyingma
+9624,P6991,Denma Tsemang,1,Nyingma
+9646,P701,Tubten Chokyi Dorje,1,Nyingma
+9688,P705,Dudjom Lingpa,1,Nyingma
+9884,P723,Pema Tekchok Tenpai Gyeltsen,1,Nyingma
+9895,P724,Khenpo Ngawang Pelzang,1,Nyingma
+9923,P7269,Namdrol Zangpo,1,Nyingma
+9929,P7274,Khenpo Munsel,1,Nyingma
+9935,P728,Tubten Chowang Nyamnyi Dorje,1,Nyingma
+9945,P7289,Choying Khyabdel,1,Nyingma
+9985,P5011,Vimalamitra,1,Nyingma
+9990,P733,Jamyang Khyentse Chokyi Lodro,1,Nyingma
+10018,P7359,Rigdzin Pelchen Dupa,1,Nyingma
+10019,P736,Dudjom Rinpoche Jigdrel Yeshe Dorje,1,Nyingma
+10068,P7404,Ngedon Tendzin Zangpo,1,Nyingma
+10083,P742,Sera Khandro Kunzang Dekyong Wangmo,1,Nyingma
+10093,P743,Botrul Dongak Tenpai Nyima,1,Nyingma
+10146,P748,Tubten Tsondru,1,Nyingma
+10169,P750,Jikdrel Jangchub Dorje,1,Nyingma
+10171,P7502,Ngawang Drakpa,1,Nyingma
+10258,P7589,Layakpa Jangchub Ngodrub,1,Nyingma
+10301,P7628,Pema Ledrel Tsel,1,Nyingma
+10311,P7637,Katokpa Tulku Sonam Gyeltsen,1,Nyingma
+10315,P7640,Jampa Jungne,1,Nyingma
+10320,P7645,Karma Wangdzin,1,Nyingma
+10372,P7694,Lama Monlam Rabzang,1,Nyingma
+10373,P7695,Yeshe Tsogyel,1,Nyingma
+10412,P7732,Mingyur Pende Gyatso,1,Nyingma
+10413,P7733,Jigme Choying Dorje,1,Nyingma
+10414,P7734,Tubten Wosel Tenpai Nyima,1,Nyingma
+10415,P7735,Tenzin Trinle Wangchuk,1,Nyingma
+10422,P7742,Khyungdrak Dorje,1,Nyingma
+10442,P7760,Humrel Dung Dung Gyelchok,1,Nyingma
+10457,P7774,Khenpo Jigme Puntsok,1,Nyingma
+10497,P782,Lowo Khenchen Sonam Lhundrub,1,Nyingma
+10531,P7852,Pajo Drukgom Zhikpo,1,Nyingma
+10536,P7857,Taktsang Repa Ngawang Gyatso,1,Nyingma
+10546,P7868,Buddhaguhya,1,Nyingma
+10571,P7892,Jangchub Sengge,1,Nyingma
+10572,P7893,Lodro Sengge,1,Nyingma
+10573,P7894,Tsangton Dorje Gyeltsen,1,Nyingma
+10617,P7933,Rigpai Reltri,1,Nyingma
+10647,P7962,Tsade Zhanakpa Namkha Dorje,1,Nyingma
+10649,P7964,Kunga Bum,1,Nyingma
+10654,P7969,Jangchub Bumpa,1,Nyingma
+10656,P7970,Sonam Zangpo,1,Nyingma
+10658,P7972,Lodro Bum,1,Nyingma
+10659,P7973,Wangchuk Pel,1,Nyingma
+10673,P7986,Kunzang Tenpai Nyinje,1,Nyingma
+10676,P7989,Tubten Lodro Chokyi Gyeltsen,1,Nyingma
+10678,P7990,Kunzang Jampa Sengge,1,Nyingma
+10811,P8116,Wencheng Kongjo,1,Nyingma
+10827,P8132,Pema Sangngak Tendzin,1,Nyingma
+10828,P8133,Namkha Tsewang Chokdrub,1,Nyingma
+10832,P8137,Namkha Wosel,1,Nyingma
+10881,P8182,Kawa Peltsek,1,Nyingma
+10904,P8205,Nanam Yeshe De,1,Nyingma
+11003,P8297,Jampel Gyepai Dorje,1,Nyingma
+11117,P8402,Drokmi Pelgyi Yeshe,1,Nyingma
+11231,P851,Chogyam Trungpa,1,Nyingma
+11245,P8522,Karma Lhawang,1,Nyingma
+11246,P8523,Karma Tashi,1,Nyingma
+11258,P8535,Jampel Dorje,1,Nyingma
+11277,P8552,Tashi Puntsok,1,Nyingma
+11278,P8553,Shedrub Gyatso,1,Nyingma
+11279,P8554,Kunzang Gyurme,1,Nyingma
+11290,P8564,Jigme Tsewang Dudul,1,Nyingma
+11352,P862,Jangchub Tsondru,1,Nyingma
+11417,P8679,Sanggye Tsepel,1,Nyingma
+11426,P8687,Tubten Nyinje Gyeltsen,1,Nyingma
+11427,P8688,Sonam Chopel,1,Nyingma
+11428,P8689,Yilhung Sonam Namgyel,1,Nyingma
+11432,P8692,Guru Tsewang,1,Nyingma
+11435,P8695,Jigme Lodro,1,Nyingma
+11443,P8701,Sonam Jinpa,1,Nyingma
+11444,P8702,Purtsa Khenpo Akon,1,Nyingma
+11445,P8704,Konchok Drakpa,1,Nyingma
+11487,P8743,Rigdzin Zangpo,1,Nyingma
+11488,P8744,Pema Sheja,1,Nyingma
+11489,P8745,Kelden Gyatso,1,Nyingma
+11490,P8746,Dorje Rabten,1,Nyingma
+11491,P8747,Sonam Gelek,1,Nyingma
+11572,P882,Jatson Nyingpo,1,Nyingma
+11603,P8850,Jazi Amnye Drodul Pema Garwang Lingpa,1,Nyingma
+11741,P8977,Khenchen Dazer,1,Nyingma
+11972,P9187,Lodro Gyatso,1,Nyingma
+12171,P9371,Lobzang Dorje,1,Nyingma
+12180,P938,Karma Rangjung Kunkhyab,1,Nyingma
+12785,P3JM9,Japa Dongak Gyatso,1,Nyingma
+12839,P9901,Tulku Urgyen,1,Nyingma
+12865,P1KG1960,Lhagyari Dechen Trinle Rolpa,1,Nyingma
+12906,P3JM101,Tubten Trinle Gyatso,1,Nyingma
+12981,P3JM56,Pema Gargyi Wangchuk,1,Nyingma
+12982,P3JM57,Polu Khenpo Dorje,1,Nyingma
+13057,P3AG58,Gyelwai Lodro,1,Nyingma
+13058,P3AG55,Wodren Pelgyi Wangchuk,1,Nyingma
+13072,P2CZ8003,Gara Lama Sonam Rabten,1,Nyingma
+13077,P3AG56,Khyeuchung Lotsāwa,1,Nyingma
+13120,P2AG27,Drodul Dorji Tenzin,1,Nyingma
+13121,P2AG28,Drubtob Namgyel Lhundrub,1,Nyingma
+13122,P2AG30,Jigme Drodon Dorje,1,Nyingma
+13123,P2AG32,Jigme Tenpai Gyeltsen,1,Nyingma
+13124,P2AG29,Jigme Kundrol Namgyel,1,Nyingma
+13127,P2AG36,Ngawang Tenzin Gyatso,1,Nyingma
+13128,P2AG33,Tekchok Tenpai Gyeltsen,1,Nyingma
+13133,P3AG16,Kunzang Trinle Namgyel,1,Nyingma
+13134,P3AG17,Katokpa Jangchub Gyeltsen,1,Nyingma
+13139,P3AG24,Ayu Khandro Dorje Peldron,1,Nyingma
+13142,P3AG26,Tenpai Nyima,1,Nyingma
+13143,P3AG27,Orgyen Tenpai Nyinje,1,Nyingma
+13145,P3AG29,Tendzin Sizhi Namgyel,1,Nyingma
+13146,P3AG30,Orgyen Gelek Namgyel,1,Nyingma
+13147,P3AG31,Drubwang Drakpa Gyeltsen,1,Nyingma
+13148,P3JM110,Konchok Tenpai Gyeltsen,1,Nyingma
+13149,P3AG39,Konchok Jigme Wangpo,1,Nyingma
+13150,P3AG40,Zhonnu Lodro,1,Nyingma
+13151,P3AG41,Konchok Tenpai Nyima,1,Nyingma
+13152,P3AG42,Jikdrel Tsewang Dorje,1,Nyingma
+13157,P3AG52,Gyakob Tulku Kunzang,1,Nyingma
+13162,P3AG54,Garwang Lerab Lingpa,1,Nyingma
+13163,P3AG53,Tenpai Nyima,1,Nyingma
+13169,P3AG60,Sonam Tseten,1,Nyingma
+13170,p3ag61,Tashi Wozer,1,Nyingma
+13178,P10MS14637,Tubten Lungrik Gyatso,1,Nyingma
+13181,P8LS12401,Tubten Tsultrim Gyatso,1,Nyingma
+13187,P10MS14671,Tsewang Lhamo,1,Nyingma
+13189,P8LS12707,Kelzang Pema Wanggyel,1,Nyingma
+13190,P8LS12706,Ngawang Jampel Mingyur Lhundrub Dorje,1,Nyingma
+13191,P8LS12705,Kunzang Gyurme Lhundrub,1,Nyingma
+13196,P10MS14674,Sonam Peldren,1,Nyingma
+13197,P10MS14675,Chowang Dorje Dzinpa,1,Nyingma
+13204,P8LS12196,Demchok Dorje,1,Nyingma
+13205,P2CZ7891,Chokyi Dronma,1,Nyingma
+13206,P8LS12641,Kunga Zangmo,1,Nyingma
+13227,P11MS246,Gyurme Pema Tekchok,1,Nyingma
+13228,P11MS244,Gyurme Tekchok Tenpa Namgyel,1,Nyingma
+13431,P1AG4,Choje Gangpa Rinchen Wozer,1,Nyingma
+13438,P1AG10,Lama Tsentrangwa,1,Nyingma
+13452,P1AG26,Nyida Sanggye,1,Nyingma
+13453,P1AG27,Getse Pema,1,Nyingma
+13454,P1AG28,Gyurme Tenpel Chozang,1,Nyingma
+13455,P1AG29,Gyurme Tubten Nyinje,1,Nyingma
+13509,P3CN364,Trimalo,1,Nyingma
+13516,P1AG71,Botar Lodro Tobden,1,Nyingma
+13532,P1AG85,Puntsok Tenpa,1,Nyingma
+13533,P1AG87,Yangchen Drolma,1,Nyingma
+13534,P8LS4334,Tsepo Tsawarong,1,Nyingma
+13535,P8LS4335,Nangso Damepa,1,Nyingma
+13536,P2LS262,Jampa Rabten,1,Nyingma
+13537,P8LS4337,Lhagyari Drale Namgyel,1,Nyingma
+13538,P8LS4338,Lhagyari Jikten Wangchuk,1,Nyingma
+13539,P8LS4340,Lhagyari Yulkhor Wangchuk,1,Nyingma
+13541,P8LS4341,Lhagyari Sonam Rabten,1,Nyingma
+13542,P8LS4342,Lhagyari Ganden Pelbar,1,Nyingma
+13543,P8LS4343,Lhagyari Lobzang Tutob Chogyel,1,Nyingma
+13558,P8LS4344,Lhagyari Tsering Pelbar,1,Nyingma
+13559,P8LS4345,Lhagyari Zilnon Wangchuk,1,Nyingma
+13560,P8LS4346,Lhagyari Tri Songwanggyel,1,Nyingma
+13561,P8LS4350,Lhagyari Namgyel Wangchuk,1,Nyingma
+13562,P8LS4347,Lhagyari Tobjor Wangchuk,1,Nyingma
+13563,P8LS4348,Lhagyari Jigme Wangchuk,1,Nyingma
+13564,P8LS4349,Lhagyari Kelzang Nyendrak,1,Nyingma
+13566,P1TD28,Semarkar,1,Nyingma
+13588,P2KT11,Danzan Ravjaa,1,Nyingma
+13597,P1AG112,Dawo Wangmo,1,Nyingma
+13612,P1AG114,Kunzang Chokyi Drolma,1,Nyingma
+13617,P1KG9679,Khordong Terchen Nuden Dorje,1,Nyingma
+13648,P8LS76445,Sindrang Yab Gomchen Dorje Lopen Chewang Rinzin Tagchungdarpa,1,Nyingma
+13650,P8LS76447,Drubtob Pema Trinle,1,Nyingma
+13653,P8LS76438,Jamyang Chokyi Wangpo,1,Nyingma
+13654,P8LS76435,Jamyang Khyentse Chokyi Wangchuk,1,Nyingma
+13659,P3JT12060,Tokden Orgyen Tenzin,1,Nyingma
+13686,P9904,Samten Gyatso,1,Nyingma
+13688,P8LS76439,Khamtrul Sherab Mebar,1,Nyingma
+13689,P1KG9680,Chime Rigdzin,1,Nyingma
+13692,P8LS76436,Konchok Peldron,1,Nyingma
+13697,,Tsering Chodron,1,Nyingma
+13699,P8LS76451,Ngawang Jampel Rinchen,1,Nyingma
+13700,P8LS76450,Dorje Sengge,1,Nyingma
+13747,,Chime Dorje,1,Nyingma
+13748,,Lama Sangngak,1,Nyingma
+13749,,Tersey Tulku,1,Nyingma
+13750,,Tashi Chime,1,Nyingma
+13773,P4CZ10542,Gelongma Pelmo,1,Nyingma
+13787,,Sonam Sengge Wangchuk,1,Nyingma
+13788,P1TD59,Chime Dolkar,1,Nyingma
+13809,P1TD90,Tsering Wangmo,1,Nyingma
+13810,,Lama Dribdel,1,Nyingma
+13811,,Lama Gyurdrak,1,Nyingma
+13812,,Pelling Ani Wangdzin,1,Nyingma
+13815,P1TD67,Delok Dawa Drolma,1,Nyingma
+13817,,Gonpo Wanggyel,1,Nyingma
+13819,P1TD82,Kunzang Wangmo,1,Nyingma
+13820,P1TD80,Kunzang Dechen,1,Nyingma
+13828,P1TD70,Gyarong Khandro Dechen Wangmo,1,Nyingma
+13837,,Drubgyud Tulku,1,Nyingma
+13843,P1TD122,Tseten Yudron,1,Nyingma
+13850,P1TD74,Khandro Bumo Trinle Peldron,1,Nyingma
+13860,,Karma Zopa Zangpo,1,Nyingma
+13868,,Tenzin Gyatso,1,Nyingma
+13877,,Pema Chodzom,1,Nyingma
+13878,,Pema Chozin,1,Nyingma
+13879,,Khordong Choktrul Gyurme Dorje,1,Nyingma
+23,P00EGS1016642,Ratnākaraśānti,4,Kadam
+1728,P10185,Pelchok Dangpo Dorje,4,Kadam
+1831,P1028,Ga Rabjampa Kunga Yeshe,4,Kadam
+2104,P1053,Lotsāwa Chokden Lekpai Lodro,4,Kadam
+2181,P1060,Chim Namkha Drak,4,Kadam
+2483,P1219,Kyoton Monlam Tsultrim,4,Kadam
+2539,P127,Pakmodrupa Dorje Gyelpo,4,Kadam
+2577,P1303,Drakpa Sherab,4,Kadam
+2578,P1304,Zeu Drakpa Tsondru,4,Kadam
+2589,P1314,Katokpa Dampa Deshek,4,Kadam
+2591,P1316,Neuzurpa Yeshe Bar,4,Kadam
+2592,P1317,Drubchen Namkha Gyeltsen,4,Kadam
+2593,P1318,Shupu Namkha Sengge,4,Kadam
+2598,P1322,Gonpawa Wangchuk Gyeltsen,4,Kadam
+2638,P136,Duldzinpa Takmapa Kawa Darseng,4,Kadam
+2683,P1400,Dusum Khyenpa,4,Kadam
+2791,P1500,Tsonawa Sherab Zangpo,4,Kadam
+2810,P1518,Śākyaśrībhadra,4,Kadam
+2845,P155,Buton Rinchen Drub,4,Kadam
+2854,P1558,Dondrub Rinchen,4,Kadam
+2882,P1583,Longchenpa Drime Wozer,4,Kadam
+2891,P1591,Duldzin Drakpa Gyeltsen,4,Kadam
+3006,P1699,Ngari Paṇchen Pema Wanggyel,4,Kadam
+3153,P1830,Gyelse Tokme Zangpo,4,Kadam
+3168,P1844,Gampopa Sonam Rinchen,4,Kadam
+3736,P207,Vanaratna,4,Kadam
+3744,P2077,Jampel Gyatso,4,Kadam
+3753,P2085,Pang Lotsāwa Lodro Tenpa,4,Kadam
+3759,P2090,Gotsangpa Gonpo Dorje,4,Kadam
+3762,P2093,Sherab Sengge,4,Kadam
+3890,P2210,Gurawa Tsultrim Dorje,4,Kadam
+3957,P2271,Droton Dutsi Drakpa,4,Kadam
+4114,P2413,Puntsok Pelzang,4,Kadam
+4261,P2551,Ngok Lotsāwa Loden Sherab,4,Kadam
+4267,P2557,Dromton Gyelwa Jungne,4,Kadam
+4359,P2640,Sanggye Gompa Sengge,4,Kadam
+5555,P3229,Nartangpa Tsultrim Gyeltsen,4,Kadam
+5626,P3296,Buddhaśrī,4,Kadam
+5644,P3312,Machik Labdron,4,Kadam
+5717,P3379,Atiśa Dīpaṃkara,4,Kadam
+5750,P3408,Bakton Zhonnu Tsultrim,4,Kadam
+5786,P3442,Potowa Rinchen Sel,4,Kadam
+5790,P3446,Tumton Lodro Drakpa,4,Kadam
+5791,P3447,Chekhawa Yeshe Dorje,4,Kadam
+5801,P3456,Naktso Lotsāwa Tsultrim Gyelwa,4,Kadam
+5803,P3458,Go Khukpa Lhetse,4,Kadam
+5817,P3470,Lhodrak Namkha Gyelpo,4,Kadam
+5818,P3471,Lhodrak Sengge Zangpo,4,Kadam
+5819,P3472,Lhodrak Gyelse Zangpo,4,Kadam
+5820,P3473,Chennga Tsultrim Bar,4,Kadam
+5822,P3475,Jayulwa Zhonnu Wo,4,Kadam
+6037,P3674,Ga Lotsāwa Zhonnu Pel,4,Kadam
+6076,P3709,Pakpa Sherab,4,Kadam
+6159,P3785,Parpuwa Lodro Sengge,4,Kadam
+6194,P3816,Rongzom Chokyi Zangpo,4,Kadam
+6214,P8224,Vajrāsana the latter,4,Kadam
+6257,P3874,Sabzang Pakpa Zhonnu Lodro,4,Kadam
+6264,P3880,Lobsang Jamyang,4,Kadam
+6275,P3890,Gorub Lotsāwa Chokyi Sherab,4,Kadam
+6285,P39,Khyungpo Neljor,4,Kadam
+6351,P396,Shākya Chokden,4,Kadam
+6393,P3998,Chokyi Lama,4,Kadam
+6441,P404,Tolungpa Rinchen Nyingpo,4,Kadam
+6452,P405,Puchungwa Zhonnu Gyeltsen,4,Kadam
+6491,P4088,Doton Sherab Drakpa,4,Kadam
+6587,P4177,Sumpa Yeshe Lodro,4,Kadam
+6733,P4308,Tsur Lotsāwa Yeshe Jungne,4,Kadam
+6735,P431,Rongton Sheja Kunrik,4,Kadam
+6895,P4456,Zhangtsun Dorje Wozer,4,Kadam
+7053,P460,Ngawang Kunga Rinchen,4,Kadam
+7090,P4633,Rinchen Namkha Dorje,4,Kadam
+7093,P4636,Lodro Tenpa,4,Kadam
+7113,P4654,Tsen Khawoche,4,Kadam
+7114,P4655,Drapa Ngonshe,4,Kadam
+7326,P4849,Smṛtijñānakīrti,4,Kadam
+7373,P4892,Chegompa Sherab Dorje,4,Kadam
+8027,P55,Khedrubje Gelek Pelzang,4,Kadam
+8460,P5899,Khyungtsangpa Yeshe Lama,4,Kadam
+8571,P60,Rendawa Zhonnu Lodro,4,Kadam
+8730,P6145,Dromton Zhonnu Lodro,4,Kadam
+8754,P6169,Dongak Tendzin,4,Kadam
+8986,P64,Tsongkhapa Lobzang Drakpa,4,Kadam
+9095,P65,Gyeltsabje Darma Rinchen,4,Kadam
+9213,P661,Tenpai Gyeltsen,4,Kadam
+9482,P2251,Kunpang Chodrak Pelzang,4,Kadam
+10168,P75,Khedrub Norzang Gyatso,4,Kadam
+10199,P753,Rinchen Zangpo,4,Kadam
+10319,P7644,Lingza Chokyi,4,Kadam
+10573,P7894,Tsangton Dorje Gyeltsen,4,Kadam
+10579,P79,Taktsang Lotsāwa Sherab Rinchen,4,Kadam
+10649,P7964,Kunga Bum,4,Kadam
+10687,P80,Gendun Drub,4,Kadam
+10892,P8194,Padmakaravarma,4,Kadam
+10982,P8278,Gewai Lodro,4,Kadam
+11056,P8344,Lha Lama Yeshe Wo,4,Kadam
+13073,P1AG39,Chennga Sonam Zangpo,4,Kadam
+13183,P8LS12003,Takleb Jangchub Gyeltsen,4,Kadam
+13199,P2CZ7866,Nyima Gyeltsen,4,Kadam
+13234,P11MS255,Lobpon Tsangpa Jamseng,4,Kadam
+13540,P1AG88,Lhai Metok,4,Kadam
+13542,P8LS4342,Lhagyari Ganden Pelbar,4,Kadam
+13706,,Jetsun Khacho Wangmo,4,Kadam
+13773,P4CZ10542,Gelongma Pelmo,4,Kadam
+8,P00AG0401,Pelden Chime Takpai Dorje,7,Sakya
+726,P0RK1485,Paṇchen Namkha Pelzang,7,Sakya
+1029,P0RK27,Khenchen Sonam Pel,7,Sakya
+1035,P0RK28,Khenchen Tashi Tsultrim,7,Sakya
+1370,P8218,Khon Lui Wangpo,7,Sakya
+1719,P10177,Jomo Mangchungma,7,Sakya
+1720,P10178,Jocham Purmo,7,Sakya
+1721,P10179,Yalung Jomo Auma,7,Sakya
+1726,P10183,Sumpa Lotsāwa Darma Yonten,7,Sakya
+1728,P10185,Pelchok Dangpo Dorje,7,Sakya
+1820,P1027,Muchen Sanggye Rinchen,7,Sakya
+1831,P1028,Ga Rabjampa Kunga Yeshe,7,Sakya
+1898,P1034,Muchen Sempa Chenpo Konchok Gyeltsen,7,Sakya
+1908,P1035,Drakpa Dorje,7,Sakya
+1930,P1037,Pelden Dorje,7,Sakya
+1963,P1040,Kunga Wangchuk,7,Sakya
+1974,P1041,Kunga Wangchuk,7,Sakya
+1985,P1042,Gorampa Sonam Sengge,7,Sakya
+2029,P1046,Shongton Dorje Gyeltsen,7,Sakya
+2051,P1048,Pakpa Lodro Gyeltsen,7,Sakya
+2069,P10497,Rinchen Dorje,7,Sakya
+2104,P1053,Lotsāwa Chokden Lekpai Lodro,7,Sakya
+2137,P1056,Sakya Paṇḍita Kunga Gyeltsen,7,Sakya
+2203,P1062,Zhangton Konchok Pel,7,Sakya
+2280,P1069,Yeshe Rinchen,7,Sakya
+2314,P1072,Rinchen Gyeltsen,7,Sakya
+2336,P1AG72,Kunga Puntsok,7,Sakya
+2338,P1089,Nesar Jamyang Khyentse Wangchuk,7,Sakya
+2340,P1090,Labsum Gyeltsen,7,Sakya
+2387,P1132,Ngorchen Kunga Zangpo,7,Sakya
+2434,P1175,Yonten Gyatso,7,Sakya
+2491,P1226,Lama Dampa Sonam Gyeltsen,7,Sakya
+2539,P127,Pakmodrupa Dorje Gyelpo,7,Sakya
+2606,P133,Ngoje Repa,7,Sakya
+2670,P139,Dolpopa Sherab Gyeltsen,7,Sakya
+2712,P1428,Tāranātha,7,Sakya
+2720,P1435,Sonam Puntsok,7,Sakya
+2774,P1485,Chokyi Gyelpo,7,Sakya
+2790,P150,Yonten Gyatso,7,Sakya
+2801,P151,Sabzang Mati Paṇchen Lodro Gyeltsen,7,Sakya
+2810,P1518,Śākyaśrībhadra,7,Sakya
+2812,P152,Chokle Namgyel,7,Sakya
+2823,P153,Jonang Lotsāwa Lodro Pel,7,Sakya
+2845,P155,Buton Rinchen Drub,7,Sakya
+2854,P1558,Dondrub Rinchen,7,Sakya
+2866,P1569,Jamyang Sherab Gyatso,7,Sakya
+2882,P1583,Longchenpa Drime Wozer,7,Sakya
+2891,P1591,Duldzin Drakpa Gyeltsen,7,Sakya
+2915,P1614,Drakpa Gyeltsen,7,Sakya
+2916,P1615,Sachen Kunga Nyingpo,7,Sakya
+2919,P1618,Sonam Tsemo,7,Sakya
+2948,P1646,Jigme Rigpai Lodro,7,Sakya
+3006,P1699,Ngari Paṇchen Pema Wanggyel,7,Sakya
+3153,P1830,Gyelse Tokme Zangpo,7,Sakya
+3188,P1862,Tawen Kunga Rinchen,7,Sakya
+3189,P1863,Namkha Lekpai Gyeltsen,7,Sakya
+3191,P1865,Jamyang Donyo Gyeltsen,7,Sakya
+3194,P1868,Dharmapālarakṣita,7,Sakya
+3200,P1873,Konchok Pelwa,7,Sakya
+3204,P1877,Zangpo Pel,7,Sakya
+3208,P1880,Jamyang Namkha Gyeltsen,7,Sakya
+3211,P1883,Dakchen Sherab Gyeltsen,7,Sakya
+3266,P1932,Barawa Gyeltsen Pelzang,7,Sakya
+3673,P2010,Nyawon Kunga Pel,7,Sakya
+3736,P207,Vanaratna,7,Sakya
+3753,P2085,Pang Lotsāwa Lodro Tenpa,7,Sakya
+3762,P2093,Sherab Sengge,7,Sakya
+3937,P2253,Zhangton Gyawo Sonam Drakpa,7,Sakya
+3938,P2254,Tangpoche Kunga Bum,7,Sakya
+3939,P2255,Menchukhawa Lodro Gyeltsen,7,Sakya
+3940,P2256,Rinchen Tsultrim,7,Sakya
+4085,P2387,Kunga Drolchok,7,Sakya
+4086,P2388,Jangchub Tsemo,7,Sakya
+4113,P2412,Tangpo Chungwa Lodro Pel,7,Sakya
+4114,P2413,Puntsok Pelzang,7,Sakya
+4115,P2414,Gharungwa Lhai Gyeltsen,7,Sakya
+4119,P2418,Orgyen Dzongpa Chokyong Gyeltsen,7,Sakya
+4164,P2460,Nyakpuwa Sonam Zangpo,7,Sakya
+4167,P2463,Drubchen Kunga Lodro,7,Sakya
+4168,P2464,Jamyang Konchok Zangpo,7,Sakya
+4170,P2466,Namkha Chokyong,7,Sakya
+4217,P2509,Lhachok Sengge,7,Sakya
+4219,P2510,Sanggye Sengge,7,Sakya
+4220,P2511,Kunga Sonam Lhundrub,7,Sakya
+4224,P2516,Pelchok Gyeltsen,7,Sakya
+4225,P2517,Jamyang Namkha Pelzang,7,Sakya
+4227,P2519,Sanggye Tendzin,7,Sakya
+4228,P252,Mipam Gyatso,7,Sakya
+4249,P2540,Kunga Tashi,7,Sakya
+4291,P258,Jamyang Khyentse Wangpo,7,Sakya
+4310,P2597,Jampa Kunga Tenzin,7,Sakya
+4327,P2611,Lodro Gyeltsen,7,Sakya
+4358,P264,Jamgon Kongtrul Lodro Taye,7,Sakya
+4660,P2915,Drakpa Gyeltsen,7,Sakya
+4820,P2DB5980,Druk Khenpo Ngawang Yonten Gyatso,7,Sakya
+5401,P3088,Mel Lotsāwa Lodro Drakpa,7,Sakya
+5406,P3092,Naza Drakpukpa Sonam Pel,7,Sakya
+5408,P3094,Sharchen Yeshe Gyeltsen,7,Sakya
+5437,P3120,Janglingpa Tashi Gyeltsen,7,Sakya
+5500,P318,Go Lotsāwa Zhonnu Pel,7,Sakya
+5555,P3229,Nartangpa Tsultrim Gyeltsen,7,Sakya
+5615,P3285,Drokmi Śākya Yeshe,7,Sakya
+5626,P3296,Buddhaśrī,7,Sakya
+5750,P3408,Bakton Zhonnu Tsultrim,7,Sakya
+5753,P3411,Draktengpa Yonten Tsultrim,7,Sakya
+5858,P3507,Gorumpa Kunga Lekpa,7,Sakya
+5897,P3546,Amdo Geshe Jampel Rolpai Lodro,7,Sakya
+6100,P3730,Khon Konchok Gyelpo,7,Sakya
+6122,P3750,Trulzhik Tsultrim Gyeltsen,7,Sakya
+6214,P8224,Vajrāsana the latter,7,Sakya
+6251,P3869,Konchok Tsultrim,7,Sakya
+6257,P3874,Sabzang Pakpa Zhonnu Lodro,7,Sakya
+6278,P3893,Namgyel Drakpa Zangpo,7,Sakya
+6351,P396,Shākya Chokden,7,Sakya
+6367,P3974,Kyobpa Pel Zangpo,7,Sakya
+6374,P3980,Drakpa Gyeltsen,7,Sakya
+6405,P4007,Tropu Lotsāwa Jampa Pel,7,Sakya
+6489,P4086,Drungchen Khachopa Namkha Gyeltsen,7,Sakya
+6499,P4095,Tenpa Tsering,7,Sakya
+6723,P43,Mahāvajrāsana,7,Sakya
+6733,P4308,Tsur Lotsāwa Yeshe Jungne,7,Sakya
+6735,P431,Rongton Sheja Kunrik,7,Sakya
+6738,P4312,Yakde Paṇchen Tsondru Dargye,7,Sakya
+6779,P435,Konchok Delek,7,Sakya
+6801,P437,Konchok Pendar,7,Sakya
+6892,P4453,Ziji Bar,7,Sakya
+7024,P4574,Zhangton Chobar,7,Sakya
+7053,P460,Ngawang Kunga Rinchen,7,Sakya
+7064,P461,Sakya Lotsāwa Jampai Dorje,7,Sakya
+7130,P467,Jampel Zangpo,7,Sakya
+7348,P487,Lodro Gyeltsen,7,Sakya
+7370,P489,Paṇchen Bumdrak Sumpa,7,Sakya
+7512,P502,Pelden Tsultrim,7,Sakya
+7545,P505,Lodro Gyeltsen,7,Sakya
+7581,P5082,Sanggye Tenpa,7,Sakya
+7718,P5209,Sheja Zangpo,7,Sakya
+7775,P5262,Yanggonpa Gyeltsen Pel,7,Sakya
+8027,P55,Khedrubje Gelek Pelzang,7,Sakya
+8126,P559,Pema Nyinje Wangpo,7,Sakya
+8177,P5636,Nyoshul Khenpo Jamyang Dorje,7,Sakya
+8454,P5893,Kunpang Delek Rinchen,7,Sakya
+8507,P5941,Chokyi Wozer,7,Sakya
+8571,P60,Rendawa Zhonnu Lodro,7,Sakya
+8891,P631,Guru Jober,7,Sakya
+8912,P633,Nyima Bum,7,Sakya
+8964,P638,Sherab Wozer,7,Sakya
+8986,P64,Tsongkhapa Lobzang Drakpa,7,Sakya
+9030,P644,Gyurme Dechen,7,Sakya
+9062,P647,Peljor Lhundrub,7,Sakya
+9095,P65,Gyeltsabje Darma Rinchen,7,Sakya
+9213,P661,Tenpai Gyeltsen,7,Sakya
+9482,P2251,Kunpang Chodrak Pelzang,7,Sakya
+9622,P699,Khenpo Zhenga Zhenpen Chokyi Nangwa,7,Sakya
+9761,P7118,Konchok Gyeltsen,7,Sakya
+9788,P7143,Lama Ngawang Drakpa,7,Sakya
+9789,P7144,Lama Jangchub Sengge,7,Sakya
+9923,P7269,Namdrol Zangpo,7,Sakya
+9990,P733,Jamyang Khyentse Chokyi Lodro,7,Sakya
+10202,P7532,Khedrub Sherab Gyeltsen,7,Sakya
+10203,P7533,Ngawang Khyenrab Jampel Nyingpo,7,Sakya
+10355,P7679,Kunga Tenpai Nyima,7,Sakya
+10497,P782,Lowo Khenchen Sonam Lhundrub,7,Sakya
+10507,P783,Konchok Lhundrub,7,Sakya
+10528,P785,Konchok Pelden,7,Sakya
+10548,P787,Ngawang Chodrak,7,Sakya
+10579,P79,Taktsang Lotsāwa Sherab Rinchen,7,Sakya
+10580,P790,Jamyang Tutob Wangchuk,7,Sakya
+10591,P791,Jamyang Amnye Zhab Ngawang Kunga Sonam,7,Sakya
+10613,P793,Ngawang Kunga Wanggyel,7,Sakya
+10633,P795,Ngawang Sonam Wangchuk,7,Sakya
+10644,P796,Sanggye Puntsok,7,Sakya
+10683,P7997,Yakton Sanggye Pel,7,Sakya
+10699,P801,Zhuchen Tsultrim Rinchen,7,Sakya
+10742,P805,Ngawang Kunga Lodro,7,Sakya
+10753,P806,Sonam Rinchen,7,Sakya
+10815,P812,Gaton Ngawang Lekpa,7,Sakya
+11114,P84,Gendun Gyatso,7,Sakya
+11141,P8425,Tashi Peltsek,7,Sakya
+11158,P8441,Jampa Rinchen Khyentse Wangpo,7,Sakya
+11285,P856,Chokyong Zangpo,7,Sakya
+11290,P8564,Jigme Tsewang Dudul,7,Sakya
+11307,P858,Tukje Tsondru,7,Sakya
+11731,P8968,Ngawang Trinle,7,Sakya
+11866,P9090,Chime Tenpai Nyima,7,Sakya
+11883,P9105,Tamdrin Wangmo,7,Sakya
+11972,P9187,Lodro Gyatso,7,Sakya
+12340,P953,Lekshe Mawai Nyima,7,Sakya
+12479,P966,Tubten Lekshe Gyatso,7,Sakya
+12500,P968,Dezhung Chopel Jamyang Kunga Namgyel,7,Sakya
+12521,P97,Sanggye Yeshe,7,Sakya
+12547,P9724,Yonten Jungne,7,Sakya
+12553,P973,Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo,7,Sakya
+12613,P9786,Ngawang Lodro Rinchen,7,Sakya
+12741,P9905,Nyiga Kunga Nyima,7,Sakya
+12742,P9906,Khyenrab Sengge,7,Sakya
+12743,P9907,Damcho Wozer,7,Sakya
+12745,P9909,Ngawang Lodro Nyingpo,7,Sakya
+12838,P9999,Tsembupa Darma Wozer,7,Sakya
+13063,P2416,Khenchen Lungrik Gyatso,7,Sakya
+13064,P2MS4764,Kunga Pelzang ,7,Sakya
+13065,P2417,Lochen Ratnabhadra,7,Sakya
+13076,P8LS76448,Kangyurpa,7,Sakya
+13078,P2CZ9156,Jangsem Sherab Zangpo,7,Sakya
+13086,P11MS163,Donggom Zhikpo,7,Sakya
+13131,P3AG14,Khedrub Rinchen Lodro,7,Sakya
+13186,P10MS14669,Pema Trinle,7,Sakya
+13187,P10MS14671,Tsewang Lhamo,7,Sakya
+13246,P8LS13100,Jamyang Kunzang Tubten Chokyi Gyeltsen,7,Sakya
+13248,P1KG4182,Ngawang Khedrub Gyatso,7,Sakya
+13249,P8LS13102,Jampa Namkha Kunzang Tenpai Gyeltsen,7,Sakya
+13511,P1AG76,Jampa Puntsok,7,Sakya
+13512,P1AG70,Ponchen Lhuntub,7,Sakya
+13513,P1AG78,Lachen Chemchok,7,Sakya
+13514,P1AG75,Lupel,7,Sakya
+13515,P1AG77,Orgyen Tashi,7,Sakya
+13516,P1AG71,Botar Lodro Tobden,7,Sakya
+13517,P1AG80,Gyeltsen Bum,7,Sakya
+13518,P1AG74,Ponchen A-nga,7,Sakya
+13519,P1KT2,Nyigyel Pangdatsang,7,Sakya
+13520,P1TD6,Nyima Pangdatsang,7,Sakya
+13521,P1KT1,Rapga Pangdatsang,7,Sakya
+13522,P1TD8,Tobgyal Pangdatsang,7,Sakya
+13523,P1TD7,Lobzang Yampel Pangdatsang,7,Sakya
+13527,P1AG81,Yagyel Pel,7,Sakya
+13528,P1AG73,Kunga Rinchen,7,Sakya
+13532,P1AG85,Puntsok Tenpa,7,Sakya
+13533,P1AG87,Yangchen Drolma,7,Sakya
+13615,P1TD46,Tamdrin Wangmo,7,Sakya
+13625,P1LS5648,Tsarong Pema Dolkar,7,Sakya
+13647,P8LS13097,Jamyang Kunzang Tenpai Gyeltsen,7,Sakya
+13653,P8LS76438,Jamyang Chokyi Wangpo,7,Sakya
+13654,P8LS76435,Jamyang Khyentse Chokyi Wangchuk,7,Sakya
+13677,P8LS76440,Ngawang Nyima,7,Sakya
+13679,P8LS76443,Ga Lama Gendun Zangpo,7,Sakya
+13697,,Tsering Chodron,7,Sakya
+13699,P8LS76451,Ngawang Jampel Rinchen,7,Sakya
+13700,P8LS76450,Dorje Sengge,7,Sakya
+13701,P8LS76452,Jago Tobden,7,Sakya
+13702,P8LS76457,Orgyen Kyab,7,Sakya
+13703,P8LS76456,Jamyang Pelmo,7,Sakya
+13707,P1PD108248,Tubten Gyeltsen,7,Sakya
+13721,,Drayab Tubten Zangpo,7,Sakya
+13745,P1TD81,Kunzang Tendron,7,Sakya
+13773,P4CZ10542,Gelongma Pelmo,7,Sakya
+13787,,Sonam Sengge Wangchuk,7,Sakya
+13788,P1TD59,Chime Dolkar,7,Sakya
+13789,,Khyenrab Jigme Gyatso,7,Sakya
+13790,,Kelzang Chodron,7,Sakya
+13793,,Jampa Ngawang Kunga Chopel,7,Sakya
+13794,,Sonam Drolma,7,Sakya
+13795,,Wara Zhabdrung Tenpai Nyima,7,Sakya
+13796,,Wara Zhabdrung Jamyang Namkha Gyeltsen,7,Sakya
+13797,,Tartse Zhabdrung Namkha Zangpo,7,Sakya
+13798,,Nyendrak Tarpa,7,Sakya
+13803,,Nun of the Cemeteries,7,Sakya
+13805,P1TD123,Tseyang Sadutshang,7,Sakya
+13806,P1KG17602,Gepel Tulku Jamyang Kunga Chokyi Nyima,7,Sakya
+13809,P1TD90,Tsering Wangmo,7,Sakya
+13870,,Sanggye Gyeltsen,7,Sakya
+1871,P10315,Samlo Sanggye Tashi,8,Marpa Kagyu
+2539,P127,Pakmodrupa Dorje Gyelpo,8,Marpa Kagyu
+2589,P1314,Katokpa Dampa Deshek,8,Marpa Kagyu
+2730,P1445,Karma Shedrub Chokyi Sengge,8,Marpa Kagyu
+2806,P1514,Kodrakpa Sonam Gyeltsen,8,Marpa Kagyu
+2845,P155,Buton Rinchen Drub,8,Marpa Kagyu
+2882,P1583,Longchenpa Drime Wozer,8,Marpa Kagyu
+2899,P16,Jikten Gonpo Rinchen Pel,8,Marpa Kagyu
+3165,P1841,Gomchung Sherab Jangchub,8,Marpa Kagyu
+3168,P1844,Gampopa Sonam Rinchen,8,Marpa Kagyu
+3169,P1845,Gompo Tsultrim Nyingpo,8,Marpa Kagyu
+3175,P1850,Dakpo Duldzin,8,Marpa Kagyu
+3178,P1853,Milarepa,8,Marpa Kagyu
+3890,P2210,Gurawa Tsultrim Dorje,8,Marpa Kagyu
+3937,P2253,Zhangton Gyawo Sonam Drakpa,8,Marpa Kagyu
+3940,P2256,Rinchen Tsultrim,8,Marpa Kagyu
+4114,P2413,Puntsok Pelzang,8,Marpa Kagyu
+4168,P2464,Jamyang Konchok Zangpo,8,Marpa Kagyu
+4291,P258,Jamyang Khyentse Wangpo,8,Marpa Kagyu
+4354,P2636,Marpa Chokyi Lodro,8,Marpa Kagyu
+5386,P3074,Tsurton Wanggi Dorje,8,Marpa Kagyu
+5500,P318,Go Lotsāwa Zhonnu Pel,8,Marpa Kagyu
+5527,P3203,Niṣkalaṅka,8,Marpa Kagyu
+5750,P3408,Bakton Zhonnu Tsultrim,8,Marpa Kagyu
+5849,P35,Jamyang Choje Tashi Pelden,8,Marpa Kagyu
+6037,P3674,Ga Lotsāwa Zhonnu Pel,8,Marpa Kagyu
+6257,P3874,Sabzang Pakpa Zhonnu Lodro,8,Marpa Kagyu
+6620,P4206,Zang Samlingpa,8,Marpa Kagyu
+6726,P4301,Rokben Sherab O,8,Marpa Kagyu
+6733,P4308,Tsur Lotsāwa Yeshe Jungne,8,Marpa Kagyu
+6856,P442,Tsangnyon Heruka,8,Marpa Kagyu
+7673,P5167,Wolkhawa Drolgom Choyung,8,Marpa Kagyu
+7775,P5262,Yanggonpa Gyeltsen Pel,8,Marpa Kagyu
+8177,P5636,Nyoshul Khenpo Jamyang Dorje,8,Marpa Kagyu
+8459,P5898,Machik Ongjo,8,Marpa Kagyu
+8474,P5910,Machik Kunga Bum,8,Marpa Kagyu
+8891,P631,Guru Jober,8,Marpa Kagyu
+9190,P659,Namcho Mingyur Dorje,8,Marpa Kagyu
+9572,P6943,Zangpo Drakpa,8,Marpa Kagyu
+9923,P7269,Namdrol Zangpo,8,Marpa Kagyu
+9990,P733,Jamyang Khyentse Chokyi Lodro,8,Marpa Kagyu
+10258,P7589,Layakpa Jangchub Ngodrub,8,Marpa Kagyu
+10649,P7964,Kunga Bum,8,Marpa Kagyu
+10835,P814,Unyon Kunga Zangpo,8,Marpa Kagyu
+11141,P8425,Tashi Peltsek,8,Marpa Kagyu
+11258,P8535,Jampel Dorje,8,Marpa Kagyu
+11877,P910,Lingrepa Pema Dorje,8,Marpa Kagyu
+13066,P2CZ7929,Vairocanavajra,8,Marpa Kagyu
+13196,P10MS14674,Sonam Peldren,8,Marpa Kagyu
+13444,P1AG17,Shen Gonkarwa Dorje Wangchuk,8,Marpa Kagyu
+13684,P8LS76441,Ani Trinle Chodron,8,Marpa Kagyu
+13721,,Drayab Tubten Zangpo,8,Marpa Kagyu
+13773,P4CZ10542,Gelongma Pelmo,8,Marpa Kagyu
+13870,,Sanggye Gyeltsen,8,Marpa Kagyu
+3181,P1856,Barompa Darma Wangchuk,22,Barom Kagyu
+7637,P5133,Tishri Repa Sherab Sengge,22,Barom Kagyu
+7641,P5137,Repa Karpo,22,Barom Kagyu
+12839,P9901,Tulku Urgyen,22,Barom Kagyu
+13074,P1AG59,Tsangpopa Konchok Sengge,22,Barom Kagyu
+13572,P1TD30,Trewo Alu,22,Barom Kagyu
+13686,P9904,Samten Gyatso,22,Barom Kagyu
+13747,,Chime Dorje,22,Barom Kagyu
+13749,,Tersey Tulku,22,Barom Kagyu
+3182,P1857,Zhang Yudrakpa Tsondru Drakpa,23,Tselpa Kagyu
+3881,P2202,Kharakpa Dulwa Wo,23,Tselpa Kagyu
+4175,P2470,Rokam Nyima Sherab,23,Tselpa Kagyu
+5795,P3450,Shākya Yeshe,23,Tselpa Kagyu
+6147,P3774,Khenpo Zopa,23,Tselpa Kagyu
+6547,P4139,Lhachuk Kharwa Nyida O,23,Tselpa Kagyu
+7373,P4892,Chegompa Sherab Dorje,23,Tselpa Kagyu
+7637,P5133,Tishri Repa Sherab Sengge,23,Tselpa Kagyu
+8912,P633,Nyima Bum,23,Tselpa Kagyu
+11453,P8711,Nyamme Śākya Yeshe,23,Tselpa Kagyu
+13434,P1AG7,Zhonnu Rinchen,23,Tselpa Kagyu
+8,P00AG0401,Pelden Chime Takpai Dorje,24,Karma Kagyu
+1659,P1012,Tashi Peljor,24,Karma Kagyu
+1981,P10416,Kyabdak Drubchok Wangpo,24,Karma Kagyu
+2162,P10582,Tashi Namgyel,24,Karma Kagyu
+2541,P1271,Takla Norbu,24,Karma Kagyu
+2589,P1314,Katokpa Dampa Deshek,24,Karma Kagyu
+2639,P1360,Karma Ngedon Tendzin Trinle Rabgye,24,Karma Kagyu
+2640,P1361,Karma Ngelek Tendzin Trinle Rabgye,24,Karma Kagyu
+2661,P1380,Peljor Dondrub,24,Karma Kagyu
+2662,P1382,Choying Dorje,24,Karma Kagyu
+2665,P1385,Tsuklak Gyatso,24,Karma Kagyu
+2683,P1400,Dusum Khyenpa,24,Karma Kagyu
+2720,P1435,Sonam Puntsok,24,Karma Kagyu
+2730,P1445,Karma Shedrub Chokyi Sengge,24,Karma Kagyu
+2740,P1454,Yungton Dorje Pel,24,Karma Kagyu
+2776,P1487,Karma Pakshi,24,Karma Kagyu
+2803,P1511,Jangsem Gyelwa Yeshe ,24,Karma Kagyu
+3121,P1801,"Dungtso Repa The Earlier""""",24,Karma Kagyu
+3266,P1932,Barawa Gyeltsen Pelzang,24,Karma Kagyu
+4085,P2387,Kunga Drolchok,24,Karma Kagyu
+4114,P2413,Puntsok Pelzang,24,Karma Kagyu
+4140,P2438,Pomdrakpa Sonam Dorje,24,Karma Kagyu
+4228,P252,Mipam Gyatso,24,Karma Kagyu
+4358,P264,Jamgon Kongtrul Lodro Taye,24,Karma Kagyu
+5326,P3018,Dorje Palam,24,Karma Kagyu
+5500,P318,Go Lotsāwa Zhonnu Pel,24,Karma Kagyu
+5511,P319,Tsuklak Trengwa,24,Karma Kagyu
+5693,P3357,Umapa Tsondru Sengge,24,Karma Kagyu
+5924,P3572,Chokyi Gyeltsen,24,Karma Kagyu
+5926,P3574,Tashi Peljor,24,Karma Kagyu
+5927,P3575,Chokyi Gyeltsen,24,Karma Kagyu
+5928,P3576,Mutruk Chokyi Gocha,24,Karma Kagyu
+6489,P4086,Drungchen Khachopa Namkha Gyeltsen,24,Karma Kagyu
+6499,P4095,Tenpa Tsering,24,Karma Kagyu
+6738,P4312,Yakde Paṇchen Tsondru Dargye,24,Karma Kagyu
+7130,P467,Jampel Zangpo,24,Karma Kagyu
+7272,P4799,Bamda Gelek,24,Karma Kagyu
+7582,P5083,Pema Norbu,24,Karma Kagyu
+8126,P559,Pema Nyinje Wangpo,24,Karma Kagyu
+8181,P564,Chokgyur Lingpa,24,Karma Kagyu
+8892,P6310,Karma Gyurme Ngedon Tendzin,24,Karma Kagyu
+8986,P64,Tsongkhapa Lobzang Drakpa,24,Karma Kagyu
+9201,P66,Rangjung Dorje,24,Karma Kagyu
+9372,P676,Rigdzin Tsewang Norbu,24,Karma Kagyu
+9634,P70,Drakpa Sengge,24,Karma Kagyu
+10548,P787,Ngawang Chodrak,24,Karma Kagyu
+10573,P7894,Tsangton Dorje Gyeltsen,24,Karma Kagyu
+10699,P801,Zhuchen Tsultrim Rinchen,24,Karma Kagyu
+10878,P818,Chowang Lhundrub,24,Karma Kagyu
+10898,P820,Tashi Namgyel,24,Karma Kagyu
+11231,P851,Chogyam Trungpa,24,Karma Kagyu
+11246,P8523,Karma Tashi,24,Karma Kagyu
+11290,P8564,Jigme Tsewang Dudul,24,Karma Kagyu
+11385,P865,Rangjung Rigpai Dorje,24,Karma Kagyu
+11645,P889,Wangchuk Dorje,24,Karma Kagyu
+11972,P9187,Lodro Gyatso,24,Karma Kagyu
+12180,P938,Karma Rangjung Kunkhyab,24,Karma Kagyu
+12264,P946,Chogyel Mipam Trinle Rabten,24,Karma Kagyu
+12340,P953,Lekshe Mawai Nyima,24,Karma Kagyu
+12839,P9901,Tulku Urgyen,24,Karma Kagyu
+13074,P1AG59,Tsangpopa Konchok Sengge,24,Karma Kagyu
+13078,P2CZ9156,Jangsem Sherab Zangpo,24,Karma Kagyu
+13120,P2AG27,Drodul Dorji Tenzin,24,Karma Kagyu
+13152,P3AG42,Jikdrel Tsewang Dorje,24,Karma Kagyu
+13431,P1AG4,Choje Gangpa Rinchen Wozer,24,Karma Kagyu
+13532,P1AG85,Puntsok Tenpa,24,Karma Kagyu
+13533,P1AG87,Yangchen Drolma,24,Karma Kagyu
+13628,P1KG10060,Lobsang Phuntsok Lhalungpa,24,Karma Kagyu
+13699,P8LS76451,Ngawang Jampel Rinchen,24,Karma Kagyu
+13700,P8LS76450,Dorje Sengge,24,Karma Kagyu
+13836,,Trinle Kunkyab Pelzangpo,24,Karma Kagyu
+13837,,Drubgyud Tulku,24,Karma Kagyu
+13838,,Jangchub Nyima,24,Karma Kagyu
+13839,,Drubgyud Tulku,24,Karma Kagyu
+13840,,Drubgyud Tulku,24,Karma Kagyu
+13841,,Karma Jangchub Gyelpo,24,Karma Kagyu
+13842,,Drubgyud Tulku,24,Karma Kagyu
+13860,,Karma Zopa Zangpo,24,Karma Kagyu
+13861,,Karma Ngawang Drakpa Chokdrub,24,Karma Kagyu
+2539,P127,Pakmodrupa Dorje Gyelpo,25,Pakdru Kagyu
+2561,P129,Lobpon Tsilungpa,25,Pakdru Kagyu
+3121,P1801,"Dungtso Repa The Earlier""""",25,Pakdru Kagyu
+4043,P2349,Kumārarāja,25,Pakdru Kagyu
+13073,P1AG39,Chennga Sonam Zangpo,25,Pakdru Kagyu
+13437,P1AG9,Drakpa Tsondru,25,Pakdru Kagyu
+13440,P1KG4203,Drubtob Nyakre Sewo,25,Pakdru Kagyu
+2806,P1514,Kodrakpa Sonam Gyeltsen,26,Bodong
+3753,P2085,Pang Lotsāwa Lodro Tenpa,26,Bodong
+4344,P2627,Bodong Paṇchen Chokle Namgyel,26,Bodong
+6738,P4312,Yakde Paṇchen Tsondru Dargye,26,Bodong
+13694,P8LS76437,Tenzin Chodrak,26,Bodong
+29,P00EGS1016721,Lobzang Tendzin Chokyi Wangchuk,27,Geluk
+40,P00EGS1016936,Acharya Sempa Dorje,27,Geluk
+1564,P1003,Samten Gyatso,27,Geluk
+1575,P1004,Gyelwa Gyatso,27,Geluk
+1586,P1005,Drubkhang Gelek Gyatso,27,Geluk
+1637,P101,Paṇchen Sonam Drakpa,27,Geluk
+1831,P1028,Ga Rabjampa Kunga Yeshe,27,Geluk
+1852,P10299,Gendun Gyeltsen,27,Geluk
+1901,P10342,Kunga Chopak Tubten Nyima,27,Geluk
+1902,P10343,Kelzang Lodro Kunga Lungtok Gyatso,27,Geluk
+1903,P10344,Gendun Chokyi Wangchuk,27,Geluk
+2180,P106,Lobzang Yeshe,27,Geluk
+2235,P10649,Kelzang Lungrik Gyatso,27,Geluk
+2237,P10650,Kelzang Jigme Namkha,27,Geluk
+2238,P10651,Lobzang Trinle Gyatso,27,Geluk
+2327,P1078,Lobzang Donyo,27,Geluk
+2328,P1079,Chokyi Gyelpo,27,Geluk
+2329,P108,Ngawang Jampa,27,Geluk
+2330,P1080,Ngawang Chokyi Wangchuk,27,Geluk
+2339,P109,Jampel Gyatso,27,Geluk
+2392,P1137,Lobzang Dorje,27,Geluk
+2393,P1138,Lobzang Tsultrim Jigme Gyatso,27,Geluk
+2399,P1143,Yeshe Kelzang,27,Geluk
+2409,P1152,Namkha Sengge,27,Geluk
+2418,P1160,Ngawang Lobzang,27,Geluk
+2419,P1161,Dungkar Lobzang Trinle,27,Geluk
+2423,P1165,Surkhang Wangchen Gelek,27,Geluk
+2427,P1169,Pelden Gyeltsen,27,Geluk
+2436,P1177,Lobzang Dondrub,27,Geluk
+2441,P1181,Drakpa Wozer,27,Geluk
+2442,P1182,Sumpa Damcho Gyatso,27,Geluk
+2456,P1195,Khyenrab Yonten Gyatso,27,Geluk
+2462,P120,Gyelwa Gyatso,27,Geluk
+2469,P1206,Lobzang Chopel Gyatso,27,Geluk
+2495,P123,Sherab Gyatso,27,Geluk
+2506,P124,Tubten Jigme Gyatso,27,Geluk
+2521,P1253,Lobzang Trinle Lungtok Gyatso,27,Geluk
+2523,P1255,Ngawang Chokyi Gyeltsen,27,Geluk
+2527,P1259,Ngawang Chokdrub Tenpai Gyeltsen,27,Geluk
+2755,P1468,Ngawang Sonam Gyatso,27,Geluk
+2758,P1470,Kelzang Tubten Wangchuk,27,Geluk
+2784,P1495,Lobzang Jamyang Yeshe Tenpai Gyeltsen,27,Geluk
+2787,P1498,Jamyang Khyenrab Gyatso,27,Geluk
+2788,P1499,Jigme Trinle Gyatso,27,Geluk
+2814,P1521,Tenzin Lekshe,27,Geluk
+2819,P1526,Yeshe Tardo,27,Geluk
+2871,P1573,Gendun Tenpa Dargye,27,Geluk
+2872,P1574,Lodro Gyatso,27,Geluk
+2891,P1591,Duldzin Drakpa Gyeltsen,27,Geluk
+2896,P1597,Jamyang Donyo Pelden,27,Geluk
+2912,P1611,Lobzang Nyima,27,Geluk
+2926,P8LS13405,Lobzang Samten,27,Geluk
+2931,P1629,Drakpa Shedrub,27,Geluk
+2943,P1640,Konchok Gyatso,27,Geluk
+2945,P1642,Sungrab Gyatso,27,Geluk
+2948,P1646,Jigme Rigpai Lodro,27,Geluk
+2949,P1647,Muge Samten Gyatso,27,Geluk
+2950,P1648,Tubten Jigme Norbu,27,Geluk
+2952,P165,Gendun Rinchen Gyeltsen,27,Geluk
+2974,P167,Shingza Paṇḍita Lobzang Dargye Gyatso,27,Geluk
+2996,P169,Konchok Jigme Wangpo,27,Geluk
+3008,P170,Lobzang Chokyi Nyima,27,Geluk
+3040,P1729,Drakpa Gyeltsen,27,Geluk
+3049,P1737,Lobzang Tenpai Gyeltsen,27,Geluk
+3061,P1748,Lobzang Tubten Gelek Gyeltsen,27,Geluk
+3062,P1749,Ngawang Lobzang Tenpai Gyeltsen,27,Geluk
+3064,P1750,Ngawang Trinle,27,Geluk
+3072,P1758,Jamyang Norbu,27,Geluk
+3074,P176,Konchok Gyeltsen,27,Geluk
+3080,P1765,Konchok Chopel,27,Geluk
+3085,P177,Yonten Gyatso,27,Geluk
+3086,P1770,Lobzang Neten Tsondru,27,Geluk
+3107,P179,Kelzang Gyatso,27,Geluk
+3109,P1791,Lobzang Chodrak,27,Geluk
+3134,P1813,Ngawang Jamyang Tenzin Gyatso,27,Geluk
+3141,P182,Rolpai Dorje,27,Geluk
+3171,P1847,Ngawang Tsepel,27,Geluk
+3173,P1849,Gendun Puntsok,27,Geluk
+3225,P1896,Ngawang Chokyi Gyatso,27,Geluk
+3274,P194,Jampa Gyatso,27,Geluk
+3296,P196,Gendun Tendzin Gyatso,27,Geluk
+3307,P197,Tubten Gyatso,27,Geluk
+3414,P1GS107885,Lobzang Jampa,27,Geluk
+3708,P2043,Yonten Gyatso,27,Geluk
+3712,P2048,Dawa Gyeltsen,27,Geluk
+3730,P2064,Kelzang Jamyang Gyatso,27,Geluk
+3733,P2067,Tubten Jigme Kelzang,27,Geluk
+3734,P2068,Lobzang Tenpai Nyima,27,Geluk
+3735,P2069,Lobzang Jigme Tsultrim Gyatso,27,Geluk
+3738,P2071,Lobzang Tubten Lungtok Shedrub Gyatso,27,Geluk
+3739,P2072,Lobzang Jangchub Tendzin Gyatso,27,Geluk
+3743,P2076,Ngawang Chodrak,27,Geluk
+3744,P2077,Jampel Gyatso,27,Geluk
+3758,P209,Ngawang Lobzang Choden,27,Geluk
+3762,P2093,Sherab Sengge,27,Geluk
+3769,P21,Konchok Sengge,27,Geluk
+3778,P2108,Tongwa Donden,27,Geluk
+3782,P2111,Jigme Tenpai Gyatso,27,Geluk
+3783,P2112,Jigme Tenpai Gonpo,27,Geluk
+3784,P2113,Lobzang Jigme Pelden Tenpai Nyima,27,Geluk
+3785,P2114,Ngawang Lobzang Jigme Tenpai Gyeltsen,27,Geluk
+3786,P2115,Lobzang Tubten Mipam Tsultrim Gyeltsen,27,Geluk
+3788,P2118,Pelden Chokdrub,27,Geluk
+3789,P2119,Sanggye Jungne,27,Geluk
+3791,P2120,Zhiwa Zangpo,27,Geluk
+3792,P2121,Pakpa Gelek Gyeltsen,27,Geluk
+3793,P2122,Lobzang Dondrub Gyatso,27,Geluk
+3794,P2123,Ngawang Jigme Khenrab Tendzin Trinle,27,Geluk
+3795,P2124,Ngawang Trinle Tenzin Khyenrab,27,Geluk
+3822,P215,Tubten Chokyi Nyima,27,Geluk
+3866,P219,Gendun Chopel,27,Geluk
+3877,P22,Longdol Lama Ngawang Lobzang,27,Geluk
+3883,P2204,Pema Rangdol,27,Geluk
+3889,P221,Jigme Damcho Gyatso,27,Geluk
+3977,P229,Giteng Lobzang Pelden,27,Geluk
+3989,P230,Dechen Nyingpo,27,Geluk
+4000,P231,Pema Vajra Jampel Tenpai Ngodrub,27,Geluk
+4002,P2311,Gendun Tashi,27,Geluk
+4077,P238,Lobzang Jangchub Tenpei Dronme,27,Geluk
+4080,P2382,Konchok Chodrak,27,Geluk
+4092,P2393,Damcho Pelwa,27,Geluk
+4141,P244,Trinle Gyatso,27,Geluk
+4163,P246,Ngawang Pelden Chokyi Gyeltsen,27,Geluk
+4196,P249,Lobzang Trinle Tenpa Gyatso,27,Geluk
+4206,P25,Ngawang Norbu,27,Geluk
+4228,P252,Mipam Gyatso,27,Geluk
+4259,P255,Khedrub Gyatso,27,Geluk
+4265,P2555,Tsultrim Chopel,27,Geluk
+4276,P2565,Konchok Chopel,27,Geluk
+4277,P2566,Yeshe Chopel,27,Geluk
+4278,P2567,Jangchub Namkha,27,Geluk
+4279,P2568,Lobzang Tsultrim,27,Geluk
+4280,P2569,Lobzang Tsultrim Pelden,27,Geluk
+4282,P2570,Lobzang Gyeltsen,27,Geluk
+4285,P2573,Jigme Chokyi Wangchuk,27,Geluk
+4302,P259,Ngawang Yeshe Tubten,27,Geluk
+4309,P2596,Lobzang Yeshe Tenzin Gyatso,27,Geluk
+4314,P260,Tsultrim Gyatso,27,Geluk
+4380,P266,Ngawang Lobzang Tenpai Gyeltsen,27,Geluk
+4402,P268,Yangchen Drupai Dorje,27,Geluk
+4469,P274,Lungtok Gyatso,27,Geluk
+4487,P2756,Lobzang Chopel,27,Geluk
+4488,P2757,Dondrub Gyatso,27,Geluk
+4489,P2758,Lobzang Dargye,27,Geluk
+4490,P2759,Pelden Drakpa,27,Geluk
+4492,P2760,Gyeltsen Sengge,27,Geluk
+4493,P2761,Ngawang Namkha Zangpo,27,Geluk
+4494,P2762,Lobzang Drime,27,Geluk
+4495,P2763,Samten Puntsok,27,Geluk
+4496,P2764,Ngawang Chodrak,27,Geluk
+4497,P2765,Ngawang Chodrak,27,Geluk
+4498,P2766,Lobzang Tenpa,27,Geluk
+4499,P2767,Lobzang Monlam,27,Geluk
+4500,P2768,Lobzang Khechok,27,Geluk
+4501,P2769,Lobzang Tashi,27,Geluk
+4524,P279,Lobzang Chodrak Gyatso,27,Geluk
+4535,P28,Yeshe Zangpo,27,Geluk
+4607,P2866,Konchok Dechen,27,Geluk
+4611,P287,Zhabkar Tsokdruk Rangdrol,27,Geluk
+4631,P289,Ngulchu Dharmabhadra,27,Geluk
+4642,P29,Sherab Gyatso,27,Geluk
+4665,P292,Bipa Mipam Dawa,27,Geluk
+4669,P2923,Lekpa Gyeltsen,27,Geluk
+4720,P297,Drakpa Gyeltsen,27,Geluk
+4727,P2976,Konchok Tenpai Gyeltsen,27,Geluk
+4730,P298,Konchok Tenpai Dronme,27,Geluk
+5137,P2JM411,Ngawang Tendzin Lhundrub,27,Geluk
+5317,P301,Ngawang Chopel,27,Geluk
+5328,P302,Yeshe Lobzang Tenpai Gonpo,27,Geluk
+5331,P3022,Lobzang Gyatso,27,Geluk
+5338,P303,Ngawang Tendar,27,Geluk
+5360,P305,Lobzang Gyeltsen Sengge,27,Geluk
+5371,P306,Jangchub Chopel,27,Geluk
+5381,P307,Jamyang Monlam,27,Geluk
+5410,P3096,Lobzang Tsultrim Gyatso,27,Geluk
+5415,P310,Ngawang Nyendrak,27,Geluk
+5426,P311,Lobzang Tsultrim,27,Geluk
+5432,P3116,Peljor Gyatso,27,Geluk
+5436,P312,Gendun Trinle Rabgye,27,Geluk
+5479,P316,Arik Geshe Jampa Gelek Gyeltsen,27,Geluk
+5480,P3160,Chokyong Gyatso,27,Geluk
+5485,P3165,Jampel Tsultrim,27,Geluk
+5490,P3170,Lobzang Tenpai Gyeltsen,27,Geluk
+5500,P318,Go Lotsāwa Zhonnu Pel,27,Geluk
+5652,P332,Ngawang Tsultrim,27,Geluk
+5693,P3357,Umapa Tsondru Sengge,27,Geluk
+5706,P3369,Tsultrim Dargye,27,Geluk
+5729,P339,Sumpa Khenpo Yeshe Peljor,27,Geluk
+5777,P3434,Gendun Gyeltsen,27,Geluk
+5795,P3450,Shākya Yeshe,27,Geluk
+5796,P3451,Jinpa Gyatso,27,Geluk
+5805,P346,Polhane Sonam Tobgye,27,Geluk
+5824,P3477,Tsakho Ngawang Drakpa,27,Geluk
+5849,P35,Jamyang Choje Tashi Pelden,27,Geluk
+5871,P352,Tsangyang Gyatso,27,Geluk
+5889,P3537,Ngawang Tendzin,27,Geluk
+5897,P3546,Amdo Geshe Jampel Rolpai Lodro,27,Geluk
+5899,P3548,Lobzang Rabten,27,Geluk
+5901,P355,Gendun Tsultrim,27,Geluk
+5902,P3550,Shedrub Gyatso,27,Geluk
+5910,P3558,Konchok Gyepai Lodro,27,Geluk
+5932,P358,Lobzang Gelek,27,Geluk
+5953,P3599,Chodrak Zangpo,27,Geluk
+5985,P3627,Chakpa Chopel,27,Geluk
+6009,P3649,Depa Trinle Gyatso,27,Geluk
+6025,P3663,Jigme Gyeltsen,27,Geluk
+6045,P3681,Ngawang Jamyang Tashi,27,Geluk
+6065,P37,Ngawang Lobzang Gyatso,27,Geluk
+6099,P373,Ngawang Tendzin Gyatso,27,Geluk
+6110,P374,Konchok Tenpai Gyatso,27,Geluk
+6161,P3787,Lobzang Nyima,27,Geluk
+6175,P38,Khardo Zopa Gyatso,27,Geluk
+6185,P3808,Tenzin Trinle,27,Geluk
+6198,P382,Jamyang Tubten Nyima,27,Geluk
+6219,P384,Sherab Dar Lekpai Lodro,27,Geluk
+6286,P390,Lobzang Drakpa,27,Geluk
+6331,P3941,Pema Wangchuk,27,Geluk
+6332,P3942,Lobzang Tendzin Namgyel Trinle Dorje,27,Geluk
+6333,P3943,Tsewang Sonam Tobgyel,27,Geluk
+6334,P3944,Rinchen Tendzin Trinle Dorje,27,Geluk
+6335,P3945,Changtul,27,Geluk
+6336,P3946,Tsenpo Pellek,27,Geluk
+6337,P3947,Tashi Bum,27,Geluk
+6338,P3948,Gakye,27,Geluk
+6339,P3949,Wangchuk,27,Geluk
+6340,P395,Sanggye Pel,27,Geluk
+6341,P3950,Gonpo Dargye,27,Geluk
+6342,P3951,Kelzang Wangchuk,27,Geluk
+6343,P3952,Tashi Rabten,27,Geluk
+6344,P3953,Tsewang Dondrub,27,Geluk
+6345,P3954,Lobzang Dondrub,27,Geluk
+6346,P3955,Makzor Gonpo,27,Geluk
+6348,P3957,Tensung Tsering,27,Geluk
+6349,P3958,Tenzin Rinchen,27,Geluk
+6350,P3959,Jigme Topgye,27,Geluk
+6353,P3961,Konchok Damcho Gyatso,27,Geluk
+6373,P398,Sherab Peltsek,27,Geluk
+6419,P402,Tubten Jigme Gyatso,27,Geluk
+6466,P4065,Konchok Chozang,27,Geluk
+6470,P4069,Minyak Kunzang Sonam,27,Geluk
+6489,P4086,Drungchen Khachopa Namkha Gyeltsen,27,Geluk
+6493,P409,Ngawang Trinle Gyatso,27,Geluk
+6498,P4094,Lobzang Khyenrab Wangchuk,27,Geluk
+6502,P4098,Jigme Lungrik Gyatso,27,Geluk
+6505,P410,Ngawang Tashi,27,Geluk
+6526,P412,Ngawang Chokden,27,Geluk
+6529,P4122,Lobzang Nyendrak,27,Geluk
+6535,P4128,Jigme Tenpai Nyima,27,Geluk
+6536,P4129,Jigme Rigpai Sengge,27,Geluk
+6548,P414,Taktsang Lobzang Rabten,27,Geluk
+6580,P417,Ngawang Konchok Nyima,27,Geluk
+6586,P4176,Puntsok Namgyel,27,Geluk
+6622,P4208,Sonam Drakpa,27,Geluk
+6634,P4219,Lobzang Trinle Gyatso,27,Geluk
+6635,P422,Sherab Tashi,27,Geluk
+6646,P423,Jamyang Zhepai Dorje,27,Geluk
+6648,P4231,Lobzang Gyeltsen,27,Geluk
+6667,P4249,Lodro Gyatso,27,Geluk
+6670,P4251,Tsoknyi Gyatso,27,Geluk
+6690,P427,Pakpa Dechen Dorje,27,Geluk
+6729,P4304,Lobzang Tenpa Dargye,27,Geluk
+6731,P4306,Ra Sonam Wanggyel,27,Geluk
+6746,P432,Baso Chokyi Gyeltsen,27,Geluk
+6760,P4332,Rabten Gyatso,27,Geluk
+6770,P4341,Chowang Drakpa,27,Geluk
+6779,P435,Konchok Delek,27,Geluk
+6788,P4358,Jampa Tashi,27,Geluk
+6793,P4362,Lhawang Chokyi Gyeltsen,27,Geluk
+6818,P4385,Jigme Samdrub Gyatso,27,Geluk
+6872,P4434,Jampa Gyatso,27,Geluk
+6874,P4436,Sonam Chopel,27,Geluk
+6910,P447,Chokyi Shenyen,27,Geluk
+6928,P4487,Lobzang Lungrik Nyima,27,Geluk
+6929,P4488,Jigme Tubten Nyima,27,Geluk
+6935,P4493,Wonpo Lhakyab,27,Geluk
+6940,P4498,Liyul Chogyel,27,Geluk
+6953,P451,Monlam Pelwa,27,Geluk
+6978,P4532,Ngawang Lobzang Tenpai Gyeltsen,27,Geluk
+6979,P4533,Ngawang Jampel Tsultrim Gyatso,27,Geluk
+6982,P4536,Ngawang Sanggye Pelzang,27,Geluk
+6997,P455,Rinchen Wozer,27,Geluk
+7007,P4559,Thupten Lungtok Namgyal Trinley,27,Geluk
+7069,P4614,Lobzang Tenpai Dronme,27,Geluk
+7083,P4627,Damcho Pelbar,27,Geluk
+7093,P4636,Lodro Tenpa,27,Geluk
+7105,P4647,Ngawang Trinle,27,Geluk
+7107,P4649,Ngawang Tenpai Gyeltsen,27,Geluk
+7162,P4699,Ngawang Khedrub,27,Geluk
+7169,P4704,Lobzang Shedrub Gyatso,27,Geluk
+7170,P4705,Lobzang Tashi Rabgye,27,Geluk
+7171,P4706,Lobzang Tashi Tenpai Gyeltsen,27,Geluk
+7172,P4707,Lobzang Tashi Trinle Gyatso,27,Geluk
+7182,P4716,Lobzang Lhundrub,27,Geluk
+7230,P4760,Gyeltsen Zangpo,27,Geluk
+7232,P4762,Lodro Rinchen Sengge,27,Geluk
+7240,P477,Chokyi Gyeltsen,27,Geluk
+7272,P4799,Bamda Gelek,27,Geluk
+7294,P482,Peljor Lhundrub,27,Geluk
+7297,P4822,Damcho Tsomo,27,Geluk
+7305,P483,Sherab Zangpo,27,Geluk
+7525,P5031,Lobzang Tsondru,27,Geluk
+7565,P5068,Ara Drubtob Tarpai Gyeltsen,27,Geluk
+7732,P5221,Dola Jigme Kelzang,27,Geluk
+7743,P5231,Tashi Tongtun,27,Geluk
+7870,P5355,Jampa Chodrak,27,Geluk
+7876,P5361,Kelzang Khyenrab Gyatso,27,Geluk
+7877,P5362,Jamyang Tenpai Gyeltsen,27,Geluk
+7879,P5364,Jamyang Tenpai Nyima,27,Geluk
+7881,P5367,Jamyang Tenzin Gyatso,27,Geluk
+7882,P5368,Jigme Tsultrim Namgyel,27,Geluk
+7895,P538,Kunga Gyatso,27,Geluk
+7937,P5418,Lobzang Pelden Gyatso,27,Geluk
+7945,P5425,Dongak Chokyi Gyatso,27,Geluk
+8027,P55,Khedrubje Gelek Pelzang,27,Geluk
+8069,P5537,Dondrub Gyatso,27,Geluk
+8076,P5543,Kunga Pelwa,27,Geluk
+8079,P5546,Pelden Lodro,27,Geluk
+8085,P5552,Kunga Pelden,27,Geluk
+8086,P5553,Tseten Gyatso,27,Geluk
+8097,P5563,Sanggye Rinchen,27,Geluk
+8099,P5565,Dorje Zangpo,27,Geluk
+8101,P5567,Kunga Lodro,27,Geluk
+8103,P5569,Jedrung Sherab Wangpo,27,Geluk
+8105,P5570,Drakpa Gyatso,27,Geluk
+8106,P5571,Shenyen Drakpa,27,Geluk
+8107,P5572,Tenpa Gyeltsen,27,Geluk
+8108,P5573,Pelden Gyeltsen,27,Geluk
+8109,P5574,Jampa Tashi,27,Geluk
+8116,P5580,Khedrub Shakya Lhawang,27,Geluk
+8128,P5591,Jigme Tenpai Wangchuk,27,Geluk
+8156,P5617,Kachen Lobzang Zotpa,27,Geluk
+8184,P5642,Lobzang Chodar,27,Geluk
+8354,P58,Lodro Gyeltsen,27,Geluk
+8612,P6037,Zong Lobzang Tsondru Tubten Gyeltsen,27,Geluk
+8860,P6282,Khetsun Gyatso,27,Geluk
+8861,P6283,Gendun Tenzin Norbu,27,Geluk
+8906,P6324,Karma Chopel,27,Geluk
+8964,P638,Sherab Wozer,27,Geluk
+8986,P64,Tsongkhapa Lobzang Drakpa,27,Geluk
+9049,P6457,Lobzang Gyeltsen,27,Geluk
+9050,P6458,Tubten Nyinje,27,Geluk
+9051,P6459,Yeshe Wangden,27,Geluk
+9053,P6460,Lhundrub Tsondru,27,Geluk
+9055,P6463,Drakpa Dondrub,27,Geluk
+9056,P6464,Lobzang Nyendrak Gyatso,27,Geluk
+9057,P6465,Lobzang Jinpa,27,Geluk
+9058,P6466,Jamyang Damcho,27,Geluk
+9059,P6467,Tsultrim Dargye,27,Geluk
+9062,P647,Peljor Lhundrub,27,Geluk
+9095,P65,Gyeltsabje Darma Rinchen,27,Geluk
+9213,P661,Tenpai Gyeltsen,27,Geluk
+9254,P665,Pelden Tashi,27,Geluk
+9287,P6680,Langdun Kunga Rinchen,27,Geluk
+9333,P6722,Yuthok Tashi Dhondup,27,Geluk
+9343,P6731,Dokhar Tsewang Norbu,27,Geluk
+9361,P675,Lobzang Trinle,27,Geluk
+9442,P6824,Orgyen Tendzin Gyatso,27,Geluk
+9523,P6899,Lobzang Jigme Namkha,27,Geluk
+9588,P6958,Tubten Nyendrak,27,Geluk
+9590,P696,Changlung Pelchen Namkha Jigme,27,Geluk
+9690,P7051,Lobzang Tendzin Gyatso,27,Geluk
+9693,P7054,Lobzang Pelden Gyeltsen,27,Geluk
+9703,P7063,Tenpa Tsering,27,Geluk
+9712,P7072,Gendun Tendzin Gyeltsen,27,Geluk
+9750,P7107,Sherab Puntsok,27,Geluk
+9753,P711,Shar Kelden Gyatso,27,Geluk
+9795,P715,Lodro Gyatso,27,Geluk
+9839,P719,Lobzang Chokyi Gyeltsen,27,Geluk
+9873,P722,Dogyu Gyatso,27,Geluk
+10168,P75,Khedrub Norzang Gyatso,27,Geluk
+10394,P7715,Ngawang Tubten Kelzang Tenpai Dronme,27,Geluk
+10480,P78,Khyenrab Wangchuk Drakpa Zangpo,27,Geluk
+10579,P79,Taktsang Lotsāwa Sherab Rinchen,27,Geluk
+10687,P80,Gendun Drub,27,Geluk
+10794,P81,Lodro Chokyong,27,Geluk
+10957,P8254,Lobzang Chodrak,27,Geluk
+11114,P84,Gendun Gyatso,27,Geluk
+11131,P8415,Ngawang Lungtok Yonten Gyatso,27,Geluk
+11352,P862,Jangchub Tsondru,27,Geluk
+11417,P8679,Sanggye Tsepel,27,Geluk
+11437,P8697,Jampel Namdrol Chokyi Gyeltsen,27,Geluk
+11565,P8813,Jedrung Miyowa Zhonnu Lodro,27,Geluk
+11569,P8817,Tenpa Rinchen,27,Geluk
+11575,P8822,Tenpa Rabgye,27,Geluk
+11597,P8845,Jedrung Jamyang Shenyin,27,Geluk
+11618,P8864,Ngawang Trinle Zangpo,27,Geluk
+11731,P8968,Ngawang Trinle,27,Geluk
+11798,P9029,Yuthok Dorje Yudon,27,Geluk
+12171,P9371,Lobzang Dorje,27,Geluk
+12403,P959,Tsultrim Nyima,27,Geluk
+12521,P97,Sanggye Yeshe,27,Geluk
+12817,P998,Gelek Pelzang,27,Geluk
+12828,P999,Sonam Gyatso,27,Geluk
+12838,P9999,Tsembupa Darma Wozer,27,Geluk
+12883,P994,Chokyi Dorje,27,Geluk
+13026,P997,Wensapa Lobzang Dondrub,27,Geluk
+13073,P1AG39,Chennga Sonam Zangpo,27,Geluk
+13075,P8LS76449,Oluk Darhan Nangso,27,Geluk
+13078,P2CZ9156,Jangsem Sherab Zangpo,27,Geluk
+13094,P2AG1,Ngawang Trinle Pelzang,27,Geluk
+13095,P2AG2,Sanggye Peljor,27,Geluk
+13096,P2AG3,Choje Ngawang,27,Geluk
+13097,P2AG4,Ngawang Chojor Zangpo,27,Geluk
+13098,P2AG5,Ngawang Pelden Gyeltsen Chokyi Wangchuk,27,Geluk
+13099,P2AG6,Ngawang Tenpai Jungne Trinle Chokyi Gyeltsen,27,Geluk
+13100,P2AG7,Lobzang Trinle Namgyel,27,Geluk
+13101,P2AG9,Jampel Kelzang Jigme Chokyi Gyeltsen,27,Geluk
+13102,P2AG8,Lobzang Wangchuk,27,Geluk
+13103,P2AG11,Lobzang Chokle Namgyel,27,Geluk
+13104,P2AG12,Lobzang Jampel Tendzin Namgyel,27,Geluk
+13105,P2AG13,Lobzang Namgyel Tendzin Lhundrub,27,Geluk
+13106,P2AG14,Konchok Tendzin,27,Geluk
+13107,P2AG15,Lobzang Puntsok Namgyel,27,Geluk
+13108,P2AG16,Lobzang Tendzin Trinle,27,Geluk
+13109,P2AG17,Kelzang Chodrak Pelden,27,Geluk
+13110,P2AG18,Lobzang Chopel,27,Geluk
+13111,P2AG19,Jampa Taye,27,Geluk
+13112,P2AG20,Chopel Zangpo,27,Geluk
+13113,P2AG23,Shākya Gyeltsen,27,Geluk
+13166,P1PD102803,Ngawang Dogyu Yonten Rabgye,27,Geluk
+13167,P1PD102748,Lobzang Dogyu Yeshe,27,Geluk
+13168,P1PD96458,Lobzang Jamyang,27,Geluk
+13171,P3AG62,Lobzang Tubten Jigme Tsultrim Gyatso,27,Geluk
+13173,P1KG4775,Jampel Gendun Gyatso,27,Geluk
+13175,P8LS12690,Ngawang Trinle Pelzang,27,Geluk
+13176,P8LS12691,Lobzang Shedrub Tendzin Gyatso,27,Geluk
+13177,P8LS12692,Lobzang Jigme Tendzin Gyatso,27,Geluk
+13179,P8LS12079,Lobzang Khedrub Nyima,27,Geluk
+13180,P8LS12772,Name Unknown,27,Geluk
+13182,P8LS12002,Lobpon Galeb,27,Geluk
+13183,P8LS12003,Takleb Jangchub Gyeltsen,27,Geluk
+13195,P8LS12001,Drakpa Rinchen,27,Geluk
+13201,P8LS13152,Lobzang Gyatso,27,Geluk
+13202,P8LS13149,Lobzang Khechok,27,Geluk
+13203,P8LS13151,Gendun Konchok Lobzang Tendzin,27,Geluk
+13217,P8LS15288,Ngawang Rinchen,27,Geluk
+13226,P2LS162,Kunga Tendzin,27,Geluk
+13404,P8LS4319,Namkha Pelwa,27,Geluk
+13423,P8LS12199,Miyowa Zhonnu Lodro,27,Geluk
+13425,P2LS150,Kontse Tsewang Dondrub,27,Geluk
+13426,P2LS153,Lobzang Nyendrak,27,Geluk
+13427,P2LS179,Puntsok Tsewang,27,Geluk
+13428,P2LS172,Sonam Dargye,27,Geluk
+13502,P3CN359,Rinchen Lhunpo,27,Geluk
+13507,P1KT6,Rinchen Peldzom,27,Geluk
+13510,P1KG4195,Agvan Dorjiev,27,Geluk
+13519,P1KT2,Nyigyel Pangdatsang,27,Geluk
+13520,P1TD6,Nyima Pangdatsang,27,Geluk
+13521,P1KT1,Rapga Pangdatsang,27,Geluk
+13522,P1TD8,Tobgyal Pangdatsang,27,Geluk
+13523,P1TD7,Lobzang Yampel Pangdatsang,27,Geluk
+13531,P1AG84,Yungdrung Tendzin,27,Geluk
+13532,P1AG85,Puntsok Tenpa,27,Geluk
+13544,P1KT8,Menjangma,27,Geluk
+13547,P1KT12,Ngawang Trinle Gyatso,27,Geluk
+13548,P1TD22,Wangchuk Dorje Sadutshang,27,Geluk
+13549,P1TD21,Lo Nyendrak Sadutshang,27,Geluk
+13550,P2KT5,Lobzang Tenzin Trinle Gyatso,27,Geluk
+13588,P2KT11,Danzan Ravjaa,27,Geluk
+13614,P1TD48,Depa Norbu,27,Geluk
+13625,P1LS5648,Tsarong Pema Dolkar,27,Geluk
+13628,P1KG10060,Lobsang Phuntsok Lhalungpa,27,Geluk
+13652,P3CN15711,Ngawang Lobzang Thubstan Choknor,27,Geluk
+13666,P8LS76444,Pawo Wangchuk Tengpa Lobzang Nyima,27,Geluk
+13683,P8LS76442,Jampa Gyeltsen Lhalungpa,27,Geluk
+13687,P8LS76434,Lobzang Mingyur Dorje,27,Geluk
+13693,P4CZ366523,Lobzang Wanggyel,27,Geluk
+13694,P8LS76437,Tenzin Chodrak,27,Geluk
+13698,,Samten Gyatso,27,Geluk
+13706,,Jetsun Khacho Wangmo,27,Geluk
+13722,,Drumpa Namgyel Gyeltsen,27,Geluk
+13724,,Sonam Dekyi,27,Geluk
+13725,,Lhalung Gyeltsen Tarchin,27,Geluk
+13731,,Golok Menpa,27,Geluk
+13737,,Ngawang Jungne,27,Geluk
+13744,,Lama Chimpa Gyatso,27,Geluk
+13773,P4CZ10542,Gelongma Pelmo,27,Geluk
+13805,P1TD123,Tseyang Sadutshang,27,Geluk
+13822,,Geshe Mila Lobzang Tashi,27,Geluk
+13823,,Khenpo Lobzang Puntsok,27,Geluk
+13865,,Aten,27,Geluk
+13867,,Ma Tenzin,27,Geluk
+726,P0RK1485,Paṇchen Namkha Pelzang,28,Jonang
+1869,P10313,Lodro Namgyel,28,Jonang
+2338,P1089,Nesar Jamyang Khyentse Wangchuk,28,Jonang
+2670,P139,Dolpopa Sherab Gyeltsen,28,Jonang
+2712,P1428,Tāranātha,28,Jonang
+2790,P150,Yonten Gyatso,28,Jonang
+2801,P151,Sabzang Mati Paṇchen Lodro Gyeltsen,28,Jonang
+2812,P152,Chokle Namgyel,28,Jonang
+2823,P153,Jonang Lotsāwa Lodro Pel,28,Jonang
+3673,P2010,Nyawon Kunga Pel,28,Jonang
+3936,P2252,Drigung Lotsāwa Maṇikaśrījñāna,28,Jonang
+3937,P2253,Zhangton Gyawo Sonam Drakpa,28,Jonang
+3938,P2254,Tangpoche Kunga Bum,28,Jonang
+3939,P2255,Menchukhawa Lodro Gyeltsen,28,Jonang
+3940,P2256,Rinchen Tsultrim,28,Jonang
+4085,P2387,Kunga Drolchok,28,Jonang
+4113,P2412,Tangpo Chungwa Lodro Pel,28,Jonang
+4114,P2413,Puntsok Pelzang,28,Jonang
+4115,P2414,Gharungwa Lhai Gyeltsen,28,Jonang
+4119,P2418,Orgyen Dzongpa Chokyong Gyeltsen,28,Jonang
+4150,P2448,Kunga Rinchen Gyatso,28,Jonang
+4164,P2460,Nyakpuwa Sonam Zangpo,28,Jonang
+4166,P2462,Jampa Khawoche,28,Jonang
+4167,P2463,Drubchen Kunga Lodro,28,Jonang
+4168,P2464,Jamyang Konchok Zangpo,28,Jonang
+4170,P2466,Namkha Chokyong,28,Jonang
+4301,P2589,Yumo Mikyo Dorje,28,Jonang
+4358,P264,Jamgon Kongtrul Lodro Taye,28,Jonang
+5408,P3094,Sharchen Yeshe Gyeltsen,28,Jonang
+5858,P3507,Gorumpa Kunga Lekpa,28,Jonang
+6257,P3874,Sabzang Pakpa Zhonnu Lodro,28,Jonang
+6278,P3893,Namgyel Drakpa Zangpo,28,Jonang
+6412,P4013,Buddhagupta-nātha,28,Jonang
+6567,P4158,Dutsi Gyurme,28,Jonang
+6738,P4312,Yakde Paṇchen Tsondru Dargye,28,Jonang
+7272,P4799,Bamda Gelek,28,Jonang
+8126,P559,Pema Nyinje Wangpo,28,Jonang
+8361,P5805,Khyentse Tokden,28,Jonang
+8752,P6167,Ngawang Lodro Drakpa,28,Jonang
+9030,P644,Gyurme Dechen,28,Jonang
+9372,P676,Rigdzin Tsewang Norbu,28,Jonang
+9482,P2251,Kunpang Chodrak Pelzang,28,Jonang
+9789,P7144,Lama Jangchub Sengge,28,Jonang
+11183,P8464,Jetsunma Kunga Trinle Wangmo,28,Jonang
+11307,P858,Tukje Tsondru,28,Jonang
+11437,P8697,Jampel Namdrol Chokyi Gyeltsen,28,Jonang
+11632,P8878,Rinchen Pel,28,Jonang
+11731,P8968,Ngawang Trinle,28,Jonang
+13063,P2416,Khenchen Lungrik Gyatso,28,Jonang
+13064,P2MS4764,Kunga Pelzang ,28,Jonang
+13065,P2417,Lochen Ratnabhadra,28,Jonang
+13078,P2CZ9156,Jangsem Sherab Zangpo,28,Jonang
+13612,P1AG114,Kunzang Chokyi Drolma,28,Jonang
+5,P00AG02484,Gyergom Tsultrim Sengge,37,Zhije and Chod
+726,P0RK1485,Paṇchen Namkha Pelzang,37,Zhije and Chod
+1754,P1021,Trulzhik Sengge Gyabpa,37,Zhije and Chod
+1898,P1034,Muchen Sempa Chenpo Konchok Gyeltsen,37,Zhije and Chod
+2504,P1238,Machik Zhama,37,Zhije and Chod
+2510,P1243,Padampa Sanggye,37,Zhije and Chod
+2539,P127,Pakmodrupa Dorje Gyelpo,37,Zhije and Chod
+2670,P139,Dolpopa Sherab Gyeltsen,37,Zhije and Chod
+2801,P151,Sabzang Mati Paṇchen Lodro Gyeltsen,37,Zhije and Chod
+2806,P1514,Kodrakpa Sonam Gyeltsen,37,Zhije and Chod
+3152,P183,Shukseb Jetsun Choying Zangmo,37,Zhije and Chod
+3759,P2090,Gotsangpa Gonpo Dorje,37,Zhije and Chod
+3791,P2120,Zhiwa Zangpo,37,Zhije and Chod
+3792,P2121,Pakpa Gelek Gyeltsen,37,Zhije and Chod
+3877,P22,Longdol Lama Ngawang Lobzang,37,Zhije and Chod
+3939,P2255,Menchukhawa Lodro Gyeltsen,37,Zhije and Chod
+4168,P2464,Jamyang Konchok Zangpo,37,Zhije and Chod
+5644,P3312,Machik Labdron,37,Zhije and Chod
+5897,P3546,Amdo Geshe Jampel Rolpai Lodro,37,Zhije and Chod
+6065,P37,Ngawang Lobzang Gyatso,37,Zhije and Chod
+6257,P3874,Sabzang Pakpa Zhonnu Lodro,37,Zhije and Chod
+6622,P4208,Sonam Drakpa,37,Zhije and Chod
+6646,P423,Jamyang Zhepai Dorje,37,Zhije and Chod
+6672,P4253,Jamyang Gonpo,37,Zhije and Chod
+6726,P4301,Rokben Sherab O,37,Zhije and Chod
+6746,P432,Baso Chokyi Gyeltsen,37,Zhije and Chod
+6749,P4322,Yabzang Choje Chokyi Monlam,37,Zhije and Chod
+6756,P4329,Zarawa Kelden Yeshe Sengge,37,Zhije and Chod
+6962,P4518,Dzeng Dharmabodhi,37,Zhije and Chod
+7114,P4655,Drapa Ngonshe,37,Zhije and Chod
+8177,P5636,Nyoshul Khenpo Jamyang Dorje,37,Zhije and Chod
+8472,P5909,"Dungtso Repa The Later""""",37,Zhije and Chod
+8612,P6037,Zong Lobzang Tsondru Tubten Gyeltsen,37,Zhije and Chod
+8631,P6054,Chopa Lugu,37,Zhije and Chod
+8857,P628,Melong Dorje,37,Zhije and Chod
+9201,P66,Rangjung Dorje,37,Zhije and Chod
+9839,P719,Lobzang Chokyi Gyeltsen,37,Zhije and Chod
+10258,P7589,Layakpa Jangchub Ngodrub,37,Zhije and Chod
+10531,P7852,Pajo Drukgom Zhikpo,37,Zhije and Chod
+10649,P7964,Kunga Bum,37,Zhije and Chod
+11141,P8425,Tashi Peltsek,37,Zhije and Chod
+13061,P3AG59,Ngok Jo Tsultrim Sherab,37,Zhije and Chod
+13462,P1AG37,Machik Rema,37,Zhije and Chod
+2733,P1448,Orgyenpa Rinchen Pel,38,Orgyen Nyendrub
+6257,P3874,Sabzang Pakpa Zhonnu Lodro,38,Orgyen Nyendrub
+2338,P1089,Nesar Jamyang Khyentse Wangchuk,40,Drukpa Kagyu
+2733,P1448,Orgyenpa Rinchen Pel,40,Drukpa Kagyu
+2806,P1514,Kodrakpa Sonam Gyeltsen,40,Drukpa Kagyu
+3028,P1718,Lodro Sengge,40,Drukpa Kagyu
+3736,P207,Vanaratna,40,Drukpa Kagyu
+3759,P2090,Gotsangpa Gonpo Dorje,40,Drukpa Kagyu
+4115,P2414,Gharungwa Lhai Gyeltsen,40,Drukpa Kagyu
+4348,P2630,Sherab Zangpo,40,Drukpa Kagyu
+4349,P2631,Namkha Pelzang,40,Drukpa Kagyu
+4350,P2632,Jamyang Yeshe Rinchen,40,Drukpa Kagyu
+4352,P2634,Dorje Rinchen,40,Drukpa Kagyu
+5641,P331,Deumar Geshe Tendzin Puntsok,40,Drukpa Kagyu
+6065,P37,Ngawang Lobzang Gyatso,40,Drukpa Kagyu
+6668,P425,Nyima Drakpa,40,Drukpa Kagyu
+6671,P4252,Lorepa Wangchuk Tsondru,40,Drukpa Kagyu
+6672,P4253,Jamyang Gonpo,40,Drukpa Kagyu
+7601,P510,Sonam Wozer,40,Drukpa Kagyu
+7622,P512,Tenzin Rabgye,40,Drukpa Kagyu
+7676,P517,Damcho Pekar,40,Drukpa Kagyu
+7719,P521,Gyelse Kunga Gyeltsen,40,Drukpa Kagyu
+7775,P5262,Yanggonpa Gyeltsen Pel,40,Drukpa Kagyu
+7803,P529,Jamgon Ngawang Gyeltsen,40,Drukpa Kagyu
+7815,P530,Shakya Rinchen,40,Drukpa Kagyu
+7874,P536,Shakya Tendzin,40,Drukpa Kagyu
+7895,P538,Kunga Gyatso,40,Drukpa Kagyu
+7918,P540,Sherab Sengge,40,Drukpa Kagyu
+8028,P550,Yonten Taye,40,Drukpa Kagyu
+8126,P559,Pema Nyinje Wangpo,40,Drukpa Kagyu
+8181,P564,Chokgyur Lingpa,40,Drukpa Kagyu
+8343,P579,Sherab Gyeltsen,40,Drukpa Kagyu
+8355,P580,Jigme Norbu,40,Drukpa Kagyu
+8361,P5805,Khyentse Tokden,40,Drukpa Kagyu
+8397,P584,Yeshe Ngodrub,40,Drukpa Kagyu
+8460,P5899,Khyungtsangpa Yeshe Lama,40,Drukpa Kagyu
+8637,P606,Sengge Gyelpo,40,Drukpa Kagyu
+8782,P620,Shākya Shrī,40,Drukpa Kagyu
+9839,P719,Lobzang Chokyi Gyeltsen,40,Drukpa Kagyu
+10320,P7645,Karma Wangdzin,40,Drukpa Kagyu
+10372,P7694,Lama Monlam Rabzang,40,Drukpa Kagyu
+10442,P7760,Humrel Dung Dung Gyelchok,40,Drukpa Kagyu
+10482,P7800,Lama Pema Tsewang,40,Drukpa Kagyu
+10531,P7852,Pajo Drukgom Zhikpo,40,Drukpa Kagyu
+10536,P7857,Taktsang Repa Ngawang Gyatso,40,Drukpa Kagyu
+10857,P816,Drukpa Kunle,40,Drukpa Kagyu
+11352,P862,Jangchub Tsondru,40,Drukpa Kagyu
+11441,P870,Jamyang Chodrak,40,Drukpa Kagyu
+11462,P872,Yonten Yeshe,40,Drukpa Kagyu
+11731,P8968,Ngawang Trinle,40,Drukpa Kagyu
+11865,P909,Tsangpa Gyare Yeshe Dorje,40,Drukpa Kagyu
+11877,P910,Lingrepa Pema Dorje,40,Drukpa Kagyu
+11898,P912,Wonre Darma Sengge,40,Drukpa Kagyu
+11909,P913,Zhonnu Sengge,40,Drukpa Kagyu
+11942,P916,Sengge Sherab,40,Drukpa Kagyu
+11986,P920,Kunga Peljor,40,Drukpa Kagyu
+13120,P2AG27,Drodul Dorji Tenzin,40,Drukpa Kagyu
+13121,P2AG28,Drubtob Namgyel Lhundrub,40,Drukpa Kagyu
+13125,P2AG34,Namkha Gyeltsen,40,Drukpa Kagyu
+13145,P3AG29,Tendzin Sizhi Namgyel,40,Drukpa Kagyu
+13147,P3AG31,Drubwang Drakpa Gyeltsen,40,Drukpa Kagyu
+13435,P1AG8,Drubtob Tsangzhikpa,40,Drukpa Kagyu
+13659,P3JT12060,Tokden Orgyen Tenzin,40,Drukpa Kagyu
+13738,,Konchok Stanzin Damchos Gyurmed,40,Drukpa Kagyu
+13740,,Gyelpo Zhabdrung,40,Drukpa Kagyu
+8454,P5893,Kunpang Delek Rinchen,41,Rechung Nyengyu
+8455,P5894,Kunden Rema,41,Rechung Nyengyu
+8456,P5895,Jangsem Choje Sonam Gyeltsen,41,Rechung Nyengyu
+61,P00EGS1017135,Dorje Sherab,42,Drigung Kagyu
+620,P0RK1366,Damcho Lingpa,42,Drigung Kagyu
+2561,P129,Lobpon Tsilungpa,42,Drigung Kagyu
+2584,P131,Won Sherab Jungne,42,Drigung Kagyu
+2595,P132,Chennga Drakpa Jungne,42,Drigung Kagyu
+2606,P133,Ngoje Repa,42,Drigung Kagyu
+2774,P1485,Chokyi Gyelpo,42,Drigung Kagyu
+2789,P15,Nyo Gyelwa Lhanangpa Sanggye Rinchen,42,Drigung Kagyu
+2806,P1514,Kodrakpa Sonam Gyeltsen,42,Drigung Kagyu
+2810,P1518,Śākyaśrībhadra,42,Drigung Kagyu
+2891,P1591,Duldzin Drakpa Gyeltsen,42,Drigung Kagyu
+2899,P16,Jikten Gonpo Rinchen Pel,42,Drigung Kagyu
+3121,P1801,"Dungtso Repa The Earlier""""",42,Drigung Kagyu
+3175,P1850,Dakpo Duldzin,42,Drigung Kagyu
+3890,P2210,Gurawa Tsultrim Dorje,42,Drigung Kagyu
+3902,P2221,Chung Dorje Drakpa,42,Drigung Kagyu
+3903,P2222,Tokkhawa Rinchen Sengge,42,Drigung Kagyu
+3904,P2223,Tsamchepa Drakpa Sonam,42,Drigung Kagyu
+3906,P2225,Dorje Rinchen,42,Drigung Kagyu
+3907,P2226,Dorje Gyelpo,42,Drigung Kagyu
+3936,P2252,Drigung Lotsāwa Maṇikaśrījñāna,42,Drigung Kagyu
+5997,P3638,Pelchen Chokyi Yeshe,42,Drigung Kagyu
+6134,P3762,Tsondru Sengge,42,Drigung Kagyu
+6138,P3766,Sonam Pel,42,Drigung Kagyu
+6147,P3774,Khenpo Zopa,42,Drigung Kagyu
+6578,P4168,Sanggye Dorje,42,Drigung Kagyu
+6721,P4298,Rinchen Sherab,42,Drigung Kagyu
+7038,P4587,Won Sonam Drakpa,42,Drigung Kagyu
+7040,P4589,Rinchen Wanggyel,42,Drigung Kagyu
+7523,P503,Dondrub Gyelpo,42,Drigung Kagyu
+7775,P5262,Yanggonpa Gyeltsen Pel,42,Drigung Kagyu
+8126,P559,Pema Nyinje Wangpo,42,Drigung Kagyu
+8964,P638,Sherab Wozer,42,Drigung Kagyu
+9171,P6571,Choden Zangmo,42,Drigung Kagyu
+10093,P743,Botrul Dongak Tenpai Nyima,42,Drigung Kagyu
+10824,P813,Gar Dampa Chodingpa,42,Drigung Kagyu
+11299,P8572,Jonub Dorje Yeshe,42,Drigung Kagyu
+12405,P9591,Drakpa Rinchen,42,Drigung Kagyu
+13073,P1AG39,Chennga Sonam Zangpo,42,Drigung Kagyu
+13230,P2CN11094,Jangchub Lingpa,42,Drigung Kagyu
+13231,P8LS13544,Rinchen Gyelpo,42,Drigung Kagyu
+13232,P2CZ7941,Pelchen Ngepuwa,42,Drigung Kagyu
+13233,P11MS248,Chennga Namtsowa,42,Drigung Kagyu
+13234,P11MS255,Lobpon Tsangpa Jamseng,42,Drigung Kagyu
+13235,P11MS253,Lama Orgyen,42,Drigung Kagyu
+13236,P11MS254,Pa Rinpoche,42,Drigung Kagyu
+13237,P11MS249,Chennga Rinchen Zangpo,42,Drigung Kagyu
+13238,P11MS250,Dordzin Gowoche,42,Drigung Kagyu
+13239,P11MS251,Gejong Tashi Bum,42,Drigung Kagyu
+13240,P11MS252,Geshe Yakru Peldrak,42,Drigung Kagyu
+13241,P11MS256,Nub Lotsāwa Yonten Drak,42,Drigung Kagyu
+13242,P11MS257,Rinchen Jangchub,42,Drigung Kagyu
+13429,P1AG1,Chennga Darma Tsultrim,42,Drigung Kagyu
+13430,P1AG3,Chennga Rinchen Jungne,42,Drigung Kagyu
+13431,P1AG4,Choje Gangpa Rinchen Wozer,42,Drigung Kagyu
+13432,P1AG5,Choje Tsadrelwa,42,Drigung Kagyu
+13433,P1AG6,Dordzin Sonam Gyatso,42,Drigung Kagyu
+13434,P1AG7,Zhonnu Rinchen,42,Drigung Kagyu
+13435,P1AG8,Drubtob Tsangzhikpa,42,Drigung Kagyu
+13436,P1KG2856,Drubtob Sengge Yeshe,42,Drigung Kagyu
+13437,P1AG9,Drakpa Tsondru,42,Drigung Kagyu
+13438,P1AG10,Lama Tsentrangwa,42,Drigung Kagyu
+13439,P1AG11,Sonyompa Sherab Pel,42,Drigung Kagyu
+13440,P1KG4203,Drubtob Nyakre Sewo,42,Drigung Kagyu
+13442,P1AG15,Dorje Khyung,42,Drigung Kagyu
+13443,P1AG16,Jangtang Repa,42,Drigung Kagyu
+13445,P1AG18,Lobpon Gonkarwa,42,Drigung Kagyu
+13446,P1AG19,Nyene Rinchen Drak,42,Drigung Kagyu
+13447,P1AG20,Drubchen Bardrokpa,42,Drigung Kagyu
+13448,P1AG21,Lobpon Yeshe Jangchub,42,Drigung Kagyu
+13449,P1AG23,Dorje Sengge,42,Drigung Kagyu
+13450,P1AG24,Shākya Rinchen,42,Drigung Kagyu
+13451,P1AG25,Gompa Choseng,42,Drigung Kagyu
+13613,P1AG116,Nene Metokma,42,Drigung Kagyu
+13821,P3CN27002,Gergan Konchok Sonam,42,Drigung Kagyu
+13824,,Konchok Tokdrol,42,Drigung Kagyu
+13825,,Ngawang Tashi Dechen Dorje,42,Drigung Kagyu
+2798,P1507,Kunden Repa,43,Tropu Kagyu
+2799,P1508,Tropu Gyeltsa Rinchen Gon,43,Tropu Kagyu
+2810,P1518,Śākyaśrībhadra,43,Tropu Kagyu
+6405,P4007,Tropu Lotsāwa Jampa Pel,43,Tropu Kagyu
+7373,P4892,Chegompa Sherab Dorje,43,Tropu Kagyu
+10280,P7609,Mitrayogin,43,Tropu Kagyu
+13462,P1AG37,Machik Rema,43,Tropu Kagyu
+3101,P1784,Kuyelwa Rinchen Gon,45,Taklung Kagyu
+3139,P1818,Sanggye Yarjon,45,Taklung Kagyu
+4114,P2413,Puntsok Pelzang,45,Taklung Kagyu
+4368,P2649,Taklungtangpa Tashi Pel,45,Taklung Kagyu
+6489,P4086,Drungchen Khachopa Namkha Gyeltsen,45,Taklung Kagyu
+7637,P5133,Tishri Repa Sherab Sengge,45,Taklung Kagyu
+8181,P564,Chokgyur Lingpa,45,Taklung Kagyu
+9171,P6571,Choden Zangmo,45,Taklung Kagyu
+9172,P6572,Chonyi Wangmo,45,Taklung Kagyu
+9254,P665,Pelden Tashi,45,Taklung Kagyu
+10315,P7640,Jampa Jungne,45,Taklung Kagyu
+11141,P8425,Tashi Peltsek,45,Taklung Kagyu
+13067,P3AG45,Tsokye Dorje,45,Taklung Kagyu
+13068,P3AG46,Drakpa Gyeltsen,45,Taklung Kagyu
+13069,P3AG48,Drakpa Rinchen Sherab,45,Taklung Kagyu
+13070,P3AG49,Rinchen Lekdrub,45,Taklung Kagyu
+13071,P3AG47,Drakpa Lekdrub,45,Taklung Kagyu
+13072,P2CZ8003,Gara Lama Sonam Rabten,45,Taklung Kagyu
+13080,P11MS159,Bonzhik Khyungnak,45,Taklung Kagyu
+13141,p1019,Sanggye Won Drakpa Pel,45,Taklung Kagyu
+13598,P1AG113,Yangchen Lhamo,45,Taklung Kagyu
+5,P00AG02484,Gyergom Tsultrim Sengge,48,Shukseb Kagyu
+3266,P1932,Barawa Gyeltsen Pelzang,48,Shukseb Kagyu
+6749,P4322,Yabzang Choje Chokyi Monlam,54,Yabzang Kagyu 
+6756,P4329,Zarawa Kelden Yeshe Sengge,54,Yabzang Kagyu 
+6159,P3785,Parpuwa Lodro Sengge,59,Yelpa Kagyu
+7636,P5132,Yelpa Yeshe Tsek,59,Yelpa Kagyu
+7637,P5133,Tishri Repa Sherab Sengge,59,Yelpa Kagyu
+13836,,Trinle Kunkyab Pelzangpo,59,Yelpa Kagyu
+13837,,Drubgyud Tulku,59,Yelpa Kagyu
+13838,,Jangchub Nyima,59,Yelpa Kagyu
+13839,,Drubgyud Tulku,59,Yelpa Kagyu
+13840,,Drubgyud Tulku,59,Yelpa Kagyu
+13841,,Karma Jangchub Gyelpo,59,Yelpa Kagyu
+13842,,Drubgyud Tulku,59,Yelpa Kagyu
+13860,,Karma Zopa Zangpo,59,Yelpa Kagyu
+13861,,Karma Ngawang Drakpa Chokdrub,59,Yelpa Kagyu
+13862,,Lhatse Tulku,59,Yelpa Kagyu
+3469,P1GS56176,Marpa Sherab Yeshe,60,Martsang Kagyu
+4085,P2387,Kunga Drolchok,67,Shangpa Kagyu
+4358,P264,Jamgon Kongtrul Lodro Taye,67,Shangpa Kagyu
+6285,P39,Khyungpo Neljor,67,Shangpa Kagyu
+7637,P5133,Tishri Repa Sherab Sengge,67,Shangpa Kagyu
+8126,P559,Pema Nyinje Wangpo,67,Shangpa Kagyu
+9030,P644,Gyurme Dechen,67,Shangpa Kagyu
+9990,P733,Jamyang Khyentse Chokyi Lodro,67,Shangpa Kagyu
+11114,P84,Gendun Gyatso,67,Shangpa Kagyu
+11731,P8968,Ngawang Trinle,67,Shangpa Kagyu
+12180,P938,Karma Rangjung Kunkhyab,67,Shangpa Kagyu
+13064,P2MS4764,Kunga Pelzang ,67,Shangpa Kagyu
+13205,P2CZ7891,Chokyi Dronma,67,Shangpa Kagyu
+13206,P8LS12641,Kunga Zangmo,67,Shangpa Kagyu
+2180,P106,Lobzang Yeshe,72,Bon
+2973,P1669,Khyunggo Tsel,72,Bon
+2980,P1675,Nyamme Sherab Gyeltsen,72,Bon
+2987,P1681,Kundrol Drakpa,72,Bon
+3175,P1850,Dakpo Duldzin,72,Bon
+3866,P219,Gendun Chopel,72,Bon
+4358,P264,Jamgon Kongtrul Lodro Taye,72,Bon
+6065,P37,Ngawang Lobzang Gyatso,72,Bon
+6653,P4236,Pelgyi Sengge,72,Bon
+6681,P4261,Drenpa Namkha,72,Bon
+6735,P431,Rongton Sheja Kunrik,72,Bon
+7182,P4716,Lobzang Lhundrub,72,Bon
+7442,P4956,Padmasambhava,72,Bon
+8101,P5567,Kunga Lodro,72,Bon
+10561,P7883,Yungdrung Puntsok,72,Bon
+10961,P8258,Hortsun Tenzin Lodro Gyatso,72,Bon
+12096,P9302,Sanggye Tendzin,72,Bon
+12100,P9306,Tsultrim Wangmo,72,Bon
+13079,P3AG2,Meu Gongdzo,72,Bon
+13080,P11MS159,Bonzhik Khyungnak,72,Bon
+13081,P11MS161,Dampa Yuzhik,72,Bon
+13082,P4CN12039,Kyabje Yongdzin Tsultrim Gyeltsen,72,Bon
+13083,P11MS160,Trulzhik Dombu,72,Bon
+13084,P11MS162,Zhikpo Kunga,72,Bon
+13086,P11MS163,Donggom Zhikpo,72,Bon
+13087,P3AG3,Gomchen Barwa,72,Bon
+13088,P3AG4,Joyung,72,Bon
+13089,P3AG5,Drilungpa Tsultrim Sherab,72,Bon
+13090,P3AG6,Yorpo Mepel,72,Bon
+13091,P3AG7,Drogon Dutsi Gyeltsen,72,Bon
+13092,P3AG8,Azha Lodro Gyeltsen,72,Bon
+13093,A3AG9,Druton Dulwa Gyeltsen,72,Bon
+13115,P2AG25,Dru Gyelwa Yungdrung,72,Bon
+13116,P3AG10,Drusha Namkha Wozer,72,Bon
+13117,P3AG12,Druton Sonam Gyeltsen,72,Bon
+13118,P11MS153,Godzung Lodro Gyeltsen,72,Bon
+13119,P3AG13,Tsungme Sonam Lodro,72,Bon
+13129,P3AG1,Tsenden Namgyel Kara,72,Bon
+13131,P3AG14,Khedrub Rinchen Lodro,72,Bon
+13132,P3AG15,Rinchen Gyeltsen,72,Bon
+13135,P3AG18,Namtrul Namkha Yeshe,72,Bon
+13140,P3AG25,Khedrub Kunzang Gyeltsen,72,Bon
+13164,P1KT4,Nangzher Lopo,72,Bon
+13165,P1KT7,Tongyung Tuchen,72,Bon
+13174,P11MS154,Bondrong Tenpa Wozer,72,Bon
+13188,P10MS14670,Gyelse Tsewang Gyurme,72,Bon
+13220,P11MS155,Tagu Nyima Gyeltsen,72,Bon
+13221,P11MS156,Dampa Lodro Gyeltsen,72,Bon
+13222,P11MS157,Yungdrung Yeshe,72,Bon
+13225,P11MS158,Tokden Yungdrung Gyeltsen,72,Bon
+13531,P1AG84,Yungdrung Tendzin,72,Bon
+13558,P8LS4344,Lhagyari Tsering Pelbar,72,Bon
+13574,P1AG95,Yeshe Tendzin,72,Bon
+13596,P3CN1564,Lungtok Tenpai Nyima,72,Bon
+13628,P1KG10060,Lobsang Phuntsok Lhalungpa,72,Bon
+13853,,Margyel Dongkar,72,Bon
+1628,P10090,Machik Jobum,73,Kālacakra
+4086,P2388,Jangchub Tsemo,73,Kālacakra
+4301,P2589,Yumo Mikyo Dorje,73,Kālacakra
+7775,P5262,Yanggonpa Gyeltsen Pel,73,Kālacakra
+3266,P1932,Barawa Gyeltsen Pelzang,77,Barawa Kagyu
+9761,P7118,Konchok Gyeltsen,77,Barawa Kagyu
+9764,P7120,Ngawang Chokyi Gyatso,77,Barawa Kagyu
+13855,P8LS13000,Tenzin Nyida,77,Barawa Kagyu
+13856,,Kelzang Choying Gyatso,77,Barawa Kagyu
+13857,,Tubten Woden,77,Barawa Kagyu
+13858,,Sanggye Gyatso,77,Barawa Kagyu
+13859,,Ngawang Tenpai Gyeltsen,77,Barawa Kagyu
+13870,,Sanggye Gyeltsen,77,Barawa Kagyu
+13877,,Pema Chodzom,77,Barawa Kagyu
+13878,,Pema Chozin,77,Barawa Kagyu
