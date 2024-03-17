@@ -1,0 +1,85 @@
+century_id,cms_label,public_label,default_year
+1,1st century,1st cent.,0
+2,1st century (early),early 1st cent.,25
+3,1st century (mid),mid 1st cent.,50
+4,1st century (late),late 1st cent.,75
+5,2nd century,2nd cent.,100
+6,2nd century (early),early 2nd cent.,125
+7,2nd century (mid),mid 2nd cent.,150
+8,2nd century (late),late 2nd cent.,175
+9,3rd century,3rd cent.,200
+10,3rd century (early),early 3rd cent.,225
+11,3rd century (mid),mid 3rd cent.,250
+12,3rd century (late),late 3rd cent.,275
+13,4th century,4th cent.,300
+14,4th century (early),early 4th cent.,325
+15,4th century (mid),mid 4th cent.,350
+16,4th century (late),late 4th cent.,375
+17,5th century,5th cent.,400
+18,5th century (early),early 5th cent.,425
+19,5th century (mid),mid 5th cent.,450
+20,5th century (late),late 5th cent.,475
+21,6th century,6th cent.,500
+22,6th century (early),early 6th cent.,525
+23,6th century (mid),mid 6th cent.,550
+24,6th century (late),late 6th cent.,575
+25,7th century,7th cent.,600
+26,7th century (early),early 7th cent.,625
+27,7th century (mid),mid 7th cent.,650
+28,7th century (late),late 7th cent.,675
+29,8th century,8th cent.,700
+30,8th century (early),early 8th cent.,725
+31,8th century (mid),mid 8th cent.,750
+32,8th century (late),late 8th cent.,775
+33,9th century,9th cent.,800
+34,9th century (early),early 9th cent.,825
+35,9th century (mid),mid 9th cent.,850
+36,9th century (late),late 9th cent.,875
+37,10th century,10th cent.,900
+38,10th century (early),early 10th cent.,925
+39,10th century (mid),mid 10th cent.,950
+40,10th century (late),late 10th cent.,975
+41,11th century,11th cent.,1000
+42,11th century (early),early 11th cent.,1025
+43,11th century (mid),mid 11th cent.,1050
+44,11th century (late),late 11th cent.,1075
+45,12th century,12th cent.,1100
+46,12th century (early),early 12th cent.,1125
+47,12th century (mid),mid 12th cent.,1150
+48,12th century (late),late 12th cent.,1175
+49,13th century,13th cent.,1200
+50,13th century (early),early 13th cent.,1225
+51,13th century (mid),mid 13th cent.,1250
+52,13th century (late),late 13th cent.,1275
+53,14th century,14th cent.,1300
+54,14th century (early),early 14th cent.,1325
+55,14th century (mid),mid 14th cent.,1350
+56,14th century (late),late 14th cent.,1375
+57,15th century,15th cent.,1400
+58,15th century (early),early 15th cent.,1425
+59,15th century (mid),mid 15th cent.,1450
+60,15th century (late),late 15th cent.,1475
+61,16th century,16th cent.,1500
+62,16th century (early),early 16th cent.,1525
+63,16th century (mid),mid 16th cent.,1550
+64,16th century (late),late 16th cent.,1575
+65,17th century,17th cent.,1600
+66,17th century (early),early 17th cent.,1625
+67,17th century (mid),mid 17th cent.,1650
+68,17th century (late),late 17th cent.,1675
+69,18th century,18th cent.,1700
+70,18th century (early),early 18th cent.,1725
+71,18th century (mid),mid 18th cent.,1750
+72,18th century (late),late 18th cent.,1775
+73,19th century,19th cent.,1800
+74,19th century (early),early 19th cent.,1825
+75,19th century (mid),mid 19th cent.,1850
+76,19th century (late),late 19th cent.,1875
+77,20th century,20th cent.,1900
+78,20th century (early),early 20th cent.,1925
+79,20th century (mid),mid 20th cent.,1950
+80,20th century (late),late 20th cent.,1975
+81,21st century,21st cent.,2000
+82,21st century (early),early 21st cent.,2025
+83,21st century (mid),mid 21st cent.,2050
+84,21st century (late),late 21st cent.,2075
