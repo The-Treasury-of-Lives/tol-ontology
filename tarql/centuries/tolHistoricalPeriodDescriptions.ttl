@@ -166,103 +166,103 @@ told:_FormattedContent_Description_HistoricalPeriod_9th_century
 
 told:_HistoricalPeriod_10th_century
 	skos:prefLabel
-		"10 dus rabs"@bo-X-ewts ,
-		"༡༠ དུས་རབས།"@bo-X-gbt
+		"10 dus rabs"@bo-x-ewts ,
+		"༡༠ དུས་རབས།"@bo-x-gbt
 		;
 	.
 
 told:_HistoricalPeriod_11th_century
 	skos:prefLabel
-		"11 dus rabs"@bo-X-ewts ,
-		"༡༡ དུས་རབས།"@bo-X-gbt
+		"11 dus rabs"@bo-x-ewts ,
+		"༡༡ དུས་རབས།"@bo-x-gbt
 		;
 	.
 
 told:_HistoricalPeriod_12th_century
 	skos:prefLabel
-		"12 dus rabs"@bo-X-ewts ,
-		"༡༢ དུས་རབས།"@bo-X-gbt
+		"12 dus rabs"@bo-x-ewts ,
+		"༡༢ དུས་རབས།"@bo-x-gbt
 		;
 	.
 
 told:_HistoricalPeriod_13th_century
 	skos:prefLabel
-		"13 dus rabs"@bo-X-ewts ,
-		"༡༣ དུས་རབས།"@bo-X-gbt
+		"13 dus rabs"@bo-x-ewts ,
+		"༡༣ དུས་རབས།"@bo-x-gbt
 		;
 	.
 
 told:_HistoricalPeriod_14th_century
 	skos:prefLabel
-		"14 dus rabs"@bo-X-ewts ,
-		"༡༤ དུས་རབས།"@bo-X-gbt
+		"14 dus rabs"@bo-x-ewts ,
+		"༡༤ དུས་རབས།"@bo-x-gbt
 		;
 	.
 
 told:_HistoricalPeriod_15th_century
 	skos:prefLabel
-		"15 dus rabs"@bo-X-ewts ,
-		"༡༥ དུས་རབས།"@bo-X-gbt
+		"15 dus rabs"@bo-x-ewts ,
+		"༡༥ དུས་རབས།"@bo-x-gbt
 		;
 	.
 
 told:_HistoricalPeriod_16th_century
 	skos:prefLabel
-		"16 dus rabs"@bo-X-ewts ,
-		"༡༦ དུས་རབས།"@bo-X-gbt
+		"16 dus rabs"@bo-x-ewts ,
+		"༡༦ དུས་རབས།"@bo-x-gbt
 		;
 	.
 
 told:_HistoricalPeriod_17th_century
 	skos:prefLabel
-		"17 dus rabs"@bo-X-ewts ,
-		"༡༧ དུས་རབས།"@bo-X-gbt
+		"17 dus rabs"@bo-x-ewts ,
+		"༡༧ དུས་རབས།"@bo-x-gbt
 		;
 	.
 
 told:_HistoricalPeriod_18th_century
 	skos:prefLabel
-		"18 dus rabs"@bo-X-ewts ,
-		"༡༨ དུས་རབས།"@bo-X-gbt
+		"18 dus rabs"@bo-x-ewts ,
+		"༡༨ དུས་རབས།"@bo-x-gbt
 		;
 	.
 
 told:_HistoricalPeriod_19th_century
 	skos:prefLabel
-		"19 dus rabs"@bo-X-ewts ,
-		"༡༩ དུས་རབས།"@bo-X-gbt
+		"19 dus rabs"@bo-x-ewts ,
+		"༡༩ དུས་རབས།"@bo-x-gbt
 		;
 	.
 
 told:_HistoricalPeriod_20th_century
 	skos:prefLabel
-		"20 dus rabs"@bo-X-ewts ,
-		"༢༠ དུས་རབས།"@bo-X-gbt
+		"20 dus rabs"@bo-x-ewts ,
+		"༢༠ དུས་རབས།"@bo-x-gbt
 		;
 	.
 
 told:_HistoricalPeriod_21st_century
-	skos:prefLabel "21 dus rabs"@bo-X-ewts ;
+	skos:prefLabel "21 dus rabs"@bo-x-ewts ;
 	.
 
 told:_HistoricalPeriod_7th_century
 	skos:prefLabel
-		"7 dus rabs"@bo-X-ewts ,
-		"༧ དུས་རབས།"@bo-X-gbt
+		"7 dus rabs"@bo-x-ewts ,
+		"༧ དུས་རབས།"@bo-x-gbt
 		;
 	.
 
 told:_HistoricalPeriod_8th_century
 	skos:prefLabel
-		"8 dus rabs"@bo-X-ewts ,
-		"༨ དུས་རབས།"@bo-X-gbt
+		"8 dus rabs"@bo-x-ewts ,
+		"༨ དུས་རབས།"@bo-x-gbt
 		;
 	.
 
 told:_HistoricalPeriod_9th_century
 	skos:prefLabel
-		"9 dus rabs"@bo-X-ewts ,
-		"༩ དུས་རབས།"@bo-X-gbt
+		"9 dus rabs"@bo-x-ewts ,
+		"༩ དུས་རབས།"@bo-x-gbt
 		;
 	.
 
