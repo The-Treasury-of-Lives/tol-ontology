@@ -34,13 +34,13 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 
 CONSTRUCT {
 
-	<https://w3id.org/treasuryoflives/data/tolTraditions>
+	<https://w3id.org/treasuryoflives/ontology/tolTraditions>
         a owl:Ontology ;
         skos:prefLabel "Traditions"@en ;
         skos:definition "Defines Tibetan traditions."@en ;
         skos:scopeNote "Traditions are instances of Tibetan religion that identifies as a cohesive group with distinct modes of ritual and learning, as well as associated institutions such as monasteries."@en ;
 	    owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
-	    owl:versionIRI <https://w3id.org/treasuryoflives/data/tolTraditionsX.x.x> ;
+	    owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolTraditionsX.x.x> ;
 	.
 
     ?tradition_iri 
