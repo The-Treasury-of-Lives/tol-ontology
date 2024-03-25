@@ -51,8 +51,8 @@ CONSTRUCT {
         skos:prefLabel ?tol_name , 
                   ?wylie_name , 
                   ?chinese_name ;
-        gist:isConnectedTo ?monastery_iri ;       
-        gist:isConnectedTo ?tradition_1_iri ,
+        gist:isAffiliatedWith ?monastery_iri ;       
+        gist:isAffiliatedWith ?tradition_1_iri ,
             ?tradition_2_iri ;
         .
        
@@ -88,9 +88,8 @@ WHERE {
     # owl:sameAs to ?BDRC_G_ID will come from monastery data, but will need IRI
     BIND(tarql:expandPrefixedName(CONCAT("told:_Monastery_", REPLACE(?TOL_G_ID, "TOL", ""))) AS ?monastery_iri)
 
-
     BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_IncarnationLineage_", ?TOL_R_ID)) AS ?html_description_iri)
 
-    BIND(STRLANG(CONCAT("The ", ?Incarnation_name, " incarnation lineage"), "en") AS ?description_label)
+    BIND(STRLANG(CONCAT("The ", ?Incarnation_name, " Incarnation Lineage"), "en") AS ?description_label)
 
 }
