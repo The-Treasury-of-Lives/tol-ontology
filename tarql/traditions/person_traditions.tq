@@ -52,7 +52,7 @@ CONSTRUCT {
             ?name_en , 
             ?name_wylie , 
             ?name_chinese ;
-        tolo:preferredName 
+        tolo:primaryName 
             ?name_en , 
             ?name_wylie , 
             ?name_chinese ;

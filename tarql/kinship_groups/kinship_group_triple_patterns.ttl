@@ -21,16 +21,16 @@ told:_KinshipGroup_1590
 	owl:sameAs bdr:C10 ;
 	skos:prefLabel
 		"Dokhar"@en ,
-		"mdo mkhar"@bo-X-ewts
+		"mdo mkhar"@bo-x-ewts
 		;
 	gist:hasMember
 		told:_Person_13788 ,
 		told:_Person_9343
 		;
 	gist:isCategorizedBy tolx:_KinshipGroupType_Lhasa_Aristocracy ;
-	tolo:preferredName
+	tolo:primaryName
 		"Dokhar"@en ,
-		"mdo mkhar"@bo-X-ewts
+		"mdo mkhar"@bo-x-ewts
 		;
 	.
 
@@ -39,7 +39,7 @@ told:_KinshipGroup_46
 	owl:sameAs bdr:C11MS198 ;
 	skos:prefLabel
 		"Che"@en ,
-		"lce"@bo-X-ewts
+		"lce"@bo-x-ewts
 		;
 	gist:hasMember
 		told:_Person_13456 ,
