@@ -22,7 +22,7 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # Primary name
 # Wylie title
 # Wylie name
-# Wylie script
+# Tibetan
 # Birth year
 # Birth year approximate
 # Birth year alternate
@@ -32,14 +32,12 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # Death year alternate
 # Death century
 # Gender
-# HAR URL -- ignore - will be in person data
-# Name display phonetic
-# Name display Wylie
 # Ordinal - not converted; do with incarnations
 # Wikidata ID
 
 # Run: 
-# tarql --dedup 50000 persons_with_bio.tq person-w-bio-3-18-24.csv > tolPersonsWithBio.ttl
+# tarql --dedup 50000 persons.tq person-w-bio-3-18-24.csv > tolPersonsWithBio.ttl
+# tarql --dedup 50000 persons.tq person-no-bio-3-18-24.csv > tolPersonsNoBio.ttl
 
 CONSTRUCT {
     ?person_iri 
@@ -49,17 +47,18 @@ CONSTRUCT {
             ?wikidata_iri ;
 
         skos:prefLabel 
-            ?preferred_name_en ,
-            ?preferred_name_wylie ,
-            ?preferred_name_wylie_script ; 
+            ?primary_name ,
+            ?primary_name_wylie ,
+            ?primary_name_tibetan ; 
 
-        tolo:preferredName 
-            ?preferred_name_en ,
-            ?preferred_name_wylie ,   
-            ?preferred_name_wylie_script ; 
+        tolo:primaryName 
+            ?primary_name ,
+            ?primary_name_wylie ,   
+            ?primary_name_tibetan ; 
 
-        tolo:title ?title_en ;
-        tolo:title ?title_wylie ;
+        tolo:title 
+            ?title_en ,
+            ?title_wylie ;
 
         bdo:personGender ?gender_iri ;
 
@@ -90,7 +89,10 @@ CONSTRUCT {
 WHERE {
 
     # Testing
-    # FILTER(?ROWNUM = 1)
+    # with bio
+    # FILTER(?ROWNUM IN (1, 3))
+    # no bio
+    # FILTER(?ROWNUM IN (1, 24))
 
     # IRIs and URLs
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?TOL_ID)) AS ?person_iri)
@@ -105,15 +107,17 @@ WHERE {
 
     # NAMES AND TITLES
 
-    # TOL name and title - follow BDRC in using language tag en
-    BIND(STRLANG(?Primary_name, "en") AS ?preferred_name_en)
+    # Primary name and title
+    # Note: TOL transcription is tagged as English
+    BIND(STRLANG(?Primary_name, ?Primary_name_encoding) AS ?primary_name)
     BIND(STRLANG(?Title, "en") AS ?title_en)
 
     # Wylie name and title
-    BIND(STRLANG(?Wylie_name, "bo-x-ewts") AS ?preferred_name_wylie)
+    BIND(STRLANG(?Wylie_name, "bo-x-ewts") AS ?primary_name_wylie)
     BIND(STRLANG(?Wylie_title, "bo-x-ewts") AS ?title_wylie)
-    # Is this "bo" or "bo-x-gbt" (precomposed Tibetan)?
-    BIND(STRLANG(?Tibetan, "bo") AS ?preferred_name_wylie_script)
+
+    # Tibetan name
+    BIND(STRLANG(?Tibetan, "bo") AS ?primary_name_tibetan)
 
     # GENDER
     BIND(

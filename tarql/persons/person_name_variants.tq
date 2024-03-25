@@ -28,7 +28,6 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 
 
 CONSTRUCT {
-    #?person_iri tolo:alternateName ?alternate_name ;
     ?person_iri tolo:alternateName ?alternate_name ;
     .
 } 

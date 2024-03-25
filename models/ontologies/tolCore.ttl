@@ -26,7 +26,7 @@
 			<http://id.loc.gov/ontologies/bibframe-2-1-0> ,
 			<http://purl.bdrc.io/ontology/core> to make Protege easier to read."""@en ;
 	skos:prefLabel "Treasury of Lives Core Ontology"@en ;
-	gist:license "TBD"^^xsd:string ;
+	gist:license "TBD"@en ;
 	.
 
 tolo:Biography
@@ -40,10 +40,10 @@ tolo:Biography
 			owl:someValuesFrom tolo:Person ;
 		]
 		;
-	skos:altLabel "Bio"^^xsd:string ;
-	skos:definition "A written acount of another person's life."^^xsd:string ;
-	skos:prefLabel "Biography"^^xsd:string ;
-	skos:scopeNote "A biography involves more than just basic facts like education, work, relationships, and death; it portrays a person's experience of these life events."^^xsd:string ;
+	skos:altLabel "Bio"@en ;
+	skos:definition "A written acount of another person's life."@en ;
+	skos:prefLabel "Biography"@en ;
+	skos:scopeNote "A biography involves more than just basic facts like education, work, relationships, and death; it portrays a person's experience of these life events."@en ;
 	.
 
 tolo:Birth
@@ -114,7 +114,7 @@ tolo:HistoricalPeriod
 	skos:definition "A named time interval with historical significance."@en ;
 	skos:example "The 10th century, the eary/mid/late 19th century"@en ;
 	skos:prefLabel "Historical Period"@en ;
-	skos:scopeNote "Whereas a time interval is any period of time, such as 2-4pm this afternoon or 1848-1947, a historical period is named and cited in relation to historical events or culture. Historical periods include full and partial centuries, which are ordinally numbered."^^xsd:string ;
+	skos:scopeNote "Whereas a time interval is any period of time, such as 2-4pm this afternoon or 1848-1947, a historical period is named and cited in relation to historical events or culture. Historical periods include full and partial centuries, which are ordinally numbered."@en ;
 	.
 
 tolo:HtmlBiography
@@ -131,10 +131,10 @@ tolo:HtmlBiography
 			]
 		) ;
 	] ;
-	skos:definition "A biography rendered in HTML for publication on a website."^^xsd:string ;
-	skos:example "An instance (as in bf:Instance, FRBR manifestation) of the Treasury of Lives biography of Rongzom Chokyi Zangpo is published on the Treasury of Lives website at https://treasuryoflives.org/biographies/view/Rongzom-Chokyi-Zangpo/6194."^^xsd:string ;
-	skos:prefLabel "HTML Biography"^^xsd:string ;
-	skos:scopeNote "An instance of an HTML"^^xsd:string ;
+	skos:definition "A biography rendered in HTML for publication on a website."@en ;
+	skos:example "An instance (as in bf:Instance, FRBR manifestation) of the Treasury of Lives biography of Rongzom Chokyi Zangpo is published on the Treasury of Lives website at https://treasuryoflives.org/biographies/view/Rongzom-Chokyi-Zangpo/6194."@en ;
+	skos:prefLabel "HTML Biography"@en ;
+	skos:scopeNote "An instance of an HTML"@en ;
 	.
 
 tolo:Incarnation
@@ -165,7 +165,7 @@ tolo:KinshipGroup
 	skos:definition "A social unit consisting of people with a common ancestor."@en ;
 	skos:example "."@en ;
 	skos:prefLabel "Kinship Group"@en ;
-	skos:scopeNote "Includes both clans and families. Also includes those adopted into a clan."^^xsd:string ;
+	skos:scopeNote "Includes both clans and families. Also includes those adopted into a clan."@en ;
 	.
 
 tolo:KinshipGroupType
@@ -185,7 +185,7 @@ tolo:KinshipGroupType
 	skos:definition "A type of kinship group."@en ;
 	skos:example "Lhasa Aristocracy."@en ;
 	skos:prefLabel "Kinship Group Type"@en ;
-	skos:scopeNote "Currently only one type is defined."^^xsd:string ;
+	skos:scopeNote "Currently only one type is defined."@en ;
 	.
 
 tolo:Marriage
@@ -365,9 +365,9 @@ tolo:displayName
 		"Name to display on the website, often a combination of title + name, possibly with ordinal if the title involves an incarnation lineage."@en ,
 		"The name of a person or other resource used for display purposes."@en
 		;
-	skos:editorialNote "May not be needed, but generated on the fly for display."^^xsd:string ;
+	skos:editorialNote "May not be needed, but generated on the fly for display."@en ;
 	skos:example
-		"'Gyergom Tsultrim Sengge' is the display name of the person with the same preferred name."^^xsd:string ,
+		"'Gyergom Tsultrim Sengge' is the display name of the person with the same preferred name."@en ,
 		"'The First Adzom Drukpa, Drodul Pawo Dorje' is the display name of Drodul Pawo Dorje. 'Adzom Drukpa' is the title, and the display title includes the ordinal."@en
 		;
 	skos:prefLabel "display name"@en ;
@@ -393,7 +393,7 @@ tolo:existsDuring
 	skos:definition "Relates a resource to another that temporally contains it."@en ;
 	skos:example "Gyergom Tsultrim Sengge lived during the 12th century."@en ;
 	skos:prefLabel "exists during"@en ;
-	skos:scopeNote "The subject of tolo:existsDuring is a non-temporal resource. The property contrasts with tolo:occursDuring, which relates a temporal resource to a containing resource."^^xsd:string ;
+	skos:scopeNote "The subject of tolo:existsDuring is a non-temporal resource. The property contrasts with tolo:occursDuring, which relates a temporal resource to a containing resource."@en ;
 	gist:domainIncludes tolo:Person ;
 	gist:rangeIncludes
 		gist:Event ,
@@ -662,6 +662,14 @@ tolo:inYear
 	skos:prefLabel "in year"@en ;
 	.
 
+tolo:isAffiliatedWith
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf gist:isConnectedTo ;
+	skos:definition "Relates a person or other entity to a resource it is affiliated with."@en ;
+	skos:example "A teacher is affiliated with a tradition; an incarnation lineage is associated with a monastery and tradition."@en ;
+	skos:prefLabel "is affiliated with"@en ;
+	.
+
 tolo:isBasedAt
 	a owl:ObjectProperty ;
 	skos:altLabel "is seated at"@en ;
@@ -671,7 +679,7 @@ tolo:isBasedAt
 		;
 	skos:example "The incarnation lineage is based at the monastery Adzom Gar."@en ;
 	skos:prefLabel "is based at"@en ;
-	skos:scopeNote "Incarnation lineages may have more than one seat."^^xsd:string ;
+	skos:scopeNote "Incarnation lineages may have more than one seat."@en ;
 	.
 
 tolo:isChildIn
@@ -686,7 +694,7 @@ tolo:isChildIn
 tolo:isDerivedFrom
 	a owl:ObjectProperty ;
 	skos:definition "Relates a resource in a hierarchy to its parent entity in that hierarchy."@en ;
-	skos:editorialNote "Consider better names - e.g., hasParentEntity, branchesFrom."^^xsd:string ;
+	skos:editorialNote "Consider better names - e.g., hasParentEntity, branchesFrom."@en ;
 	skos:example "The Barom Kagyu tradition is derived from, or branches off of, the Marpa Kagyu tradition."@en ;
 	skos:prefLabel "is derived from"@en ;
 	gist:domainIncludes tolo:Tradition ;
@@ -755,7 +763,7 @@ tolo:occursDuring
 	skos:definition "Relates one temporal resource to another that temporally contains it."@en ;
 	skos:example "The birth of Gyergom Tsultrim Sengge occurred during the 12th century."@en ;
 	skos:prefLabel "occurs during"@en ;
-	skos:scopeNote "Contrasts with tolo:occursDuring, whose subject is a non-temporal resource."^^xsd:string ;
+	skos:scopeNote "Contrasts with tolo:occursDuring, whose subject is a non-temporal resource."@en ;
 	gist:domainIncludes
 		gist:Event ,
 		gist:TemporalRelation ,
@@ -768,15 +776,15 @@ tolo:occursDuring
 		;
 	.
 
-tolo:preferredName
+tolo:primaryName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
 	owl:deprecated "true"^^xsd:boolean ;
-	skos:definition "The preferred name of a person or other resource."@en ;
-	skos:example "Gyergom Tsultrim Sengge is the preferred name of the individual called Gyergom Nyipa by the Library of Congress."@en ;
-	skos:prefLabel "preferred name"@en ;
+	skos:definition "The primary or preferred name of a person or other resource."@en ;
+	skos:example "Gyergom Tsultrim Sengge is the primary name of the individual called Gyergom Nyipa by the Library of Congress."@en ;
+	skos:prefLabel "primary name"@en ;
 	skos:scopeNote
-		"The preferred/alternate distinction may be source- or system-dependent. Other systems or sources may prefer a name different from Treasury of Lives' preferred name."@en ,
+		"The primary/alternate distinction may be source- or system-dependent. Other systems or sources may a different name primary."@en ,
 		"The same name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a preferred name in both its own and the Extended Wylie systems."@en
 		;
 	.
