@@ -39,7 +39,7 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # Wikidata ID
 
 # Run: 
-# tarql --dedup 50000 persons_with_bio.tq person-w-bio-12-11-23.csv > tolPersonsWithBio.ttl
+# tarql --dedup 50000 persons_with_bio.tq person-w-bio-3-18-24.csv > tolPersonsWithBio.ttl
 
 CONSTRUCT {
     ?person_iri 
@@ -47,7 +47,6 @@ CONSTRUCT {
         owl:sameAs 
             ?bdrc_iri ,
             ?wikidata_iri ;
-        # tolo:harUrl ?har_url ;
 
         skos:prefLabel 
             ?preferred_name_en ,
@@ -57,11 +56,6 @@ CONSTRUCT {
         tolo:preferredName 
             ?preferred_name_en ,
             ?preferred_name_wylie ,   
-            ?preferred_name_wylie_script ; 
-
-        tolo:displayName 
-            ?display_name_en ,
-            ?display_name_wylie ,
             ?preferred_name_wylie_script ; 
 
         tolo:title ?title_en ;
@@ -113,17 +107,13 @@ WHERE {
 
     # TOL name and title - follow BDRC in using language tag en
     BIND(STRLANG(?Primary_name, "en") AS ?preferred_name_en)
-    BIND(STRLANG(?Primary_title, "en") AS ?title_en)
+    BIND(STRLANG(?Title, "en") AS ?title_en)
 
     # Wylie name and title
     BIND(STRLANG(?Wylie_name, "bo-x-ewts") AS ?preferred_name_wylie)
     BIND(STRLANG(?Wylie_title, "bo-x-ewts") AS ?title_wylie)
     # Is this "bo" or "bo-x-gbt" (precomposed Tibetan)?
-    BIND(STRLANG(?Wylie_script, "bo") AS ?preferred_name_wylie_script)
-
-    # Display names
-    BIND(STRLANG(?Name_display_phonetic, "en") AS ?display_name_en)
-    BIND(STRLANG(?Name_display_Wylie, "bo-x-ewts") AS ?display_name_wylie)
+    BIND(STRLANG(?Tibetan, "bo") AS ?preferred_name_wylie_script)
 
     # GENDER
     BIND(
@@ -226,6 +216,6 @@ WHERE {
 
     # Death century (including early, mid, and late) - only used if no death year
     # Ignore for now - awaiting corrected data
-    BIND(IF(!BOUND(?Death_year), tarql:expandPrefixedName(CONCAT("told:_TimeInterval_", REPLACE(REPLACE(?Death_century, " ", "_"), "[()]", ""))), ?unbound) AS ?death_time_period_iri) 
+    BIND(IF(!BOUND(?Death_year), tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", REPLACE(REPLACE(?Death_century, " ", "_"), "[()]", ""))), ?unbound) AS ?death_time_period_iri) 
 
 }

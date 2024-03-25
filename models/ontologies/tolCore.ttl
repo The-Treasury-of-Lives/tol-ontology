@@ -360,10 +360,12 @@ tolo:birthFamilyName
 
 tolo:displayName
 	a owl:AnnotationProperty ;
+	owl:deprecated "true"^^xsd:boolean ;
 	skos:definition
 		"Name to display on the website, often a combination of title + name, possibly with ordinal if the title involves an incarnation lineage."@en ,
 		"The name of a person or other resource used for display purposes."@en
 		;
+	skos:editorialNote "May not be needed, but generated on the fly for display."^^xsd:string ;
 	skos:example
 		"'Gyergom Tsultrim Sengge' is the display name of the person with the same preferred name."^^xsd:string ,
 		"'The First Adzom Drukpa, Drodul Pawo Dorje' is the display name of Drodul Pawo Dorje. 'Adzom Drukpa' is the title, and the display title includes the ordinal."@en
