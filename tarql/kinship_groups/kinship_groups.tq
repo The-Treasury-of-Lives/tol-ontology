@@ -34,12 +34,12 @@ CONSTRUCT {
     ?kinship_group_iri 
         a tolo:KinshipGroup ; 
         owl:sameAs ?bdrc_id ;
-        skos:prefLabel ?preferred_name_tol , 
-            ?preferred_name_wylie ,
-            ?preferred_name_chinese ;
-        tolo:preferredName ?preferred_name_tol , 
-            ?preferred_name_wylie ,
-            ?preferred_name_chinese ;
+        skos:prefLabel ?primary_name_tol , 
+            ?primary_name_wylie ,
+            ?primary_name_chinese ;
+        tolo:primaryName ?primary_name_tol , 
+            ?primary_name_wylie ,
+            ?primary_name_chinese ;
         gist:isCategorizedBy ?kinship_group_type_iri ;
         gist:hasMember ?person_iri ;
     .
@@ -58,9 +58,9 @@ WHERE {
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_ID)) AS ?bdrc_id)
 
     # Names
-    BIND(STRLANG(?Name, "en") AS ?preferred_name_tol)
-    BIND(STRLANG(?Wylie_Name, "bo-x-ewts") AS ?preferred_name_wylie)
-    BIND(STRLANG(?Chinese, "zh-Hani") AS ?preferred_name_chinese)
+    BIND(STRLANG(?Name, "en") AS ?primary_name_tol)
+    BIND(STRLANG(?Wylie_Name, "bo-x-ewts") AS ?primary_name_wylie)
+    BIND(STRLANG(?Chinese, "zh-Hani") AS ?primary_name_chinese)
 
     # Class and category
     BIND(tarql:expandPrefixedName(CONCAT("tolx:_KinshipGroupType_", REPLACE(?Family_Type_Name, ' ', '_'))) AS ?kinship_group_type_iri)

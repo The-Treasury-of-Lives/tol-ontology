@@ -45,14 +45,14 @@ CONSTRUCT {
     ?teacher_iri
         a ?teacher_type ;
         skos:prefLabel ?teacher_name_wylie ;
-        tolo:preferredName ?teacher_name_wylie ;
+        tolo:primaryName ?teacher_name_wylie ;
         owl:sameAs ?teacher_bdrc_iri ;
         .   
 
     ?student_iri
         a ?student_type ;
         skos:prefLabel ?student_name_wylie ;
-        tolo:preferredName ?student_name_wylie ;
+        tolo:primaryName ?student_name_wylie ;
         owl:sameAs ?student_bdrc_iri ;
         .   
 

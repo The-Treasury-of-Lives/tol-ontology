@@ -39,7 +39,7 @@ told:_Tradition_1135
 		;
 	tolo:hasFounder told:_Person_3181 ;
 	tolo:isDerivedFrom told:_Tradition_6 ;
-	tolo:preferredName
+	tolo:primaryName
 		"Barom Kagyu"@en ,
 		"ba' rom bka' brgyud"@bo-x-ewts ,
 		"马尔巴噶举"@zh-HANI
