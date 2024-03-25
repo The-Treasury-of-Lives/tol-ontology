@@ -9,7 +9,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX told: <https://w3id.org/treasuryoflives/ns/data/tol/>
 PREFIX tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/>
-PREFIX tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
+PREFIX told: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
@@ -25,14 +25,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 CONSTRUCT {
 
-	<https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriods>
+	<https://w3id.org/treasuryoflives/data/tolHistoricalPeriods>
         a owl:Ontology ;
         skos:definition "Defines full and partial centuries."@en ;
-        skos:prefLabel "Centuries"@en ;
+        skos:prefLabel "Historical Periods"@en ;
         skos:editorialNote "Auto-generated via TARQL."@en ;
 		owl:imports <https://w3id.org/semanticarts/ontology/gistCore12.0.1> ,
 	    	<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
-	    owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x> ;
+	    owl:versionIRI <https://w3id.org/treasuryoflives/data/tolHistoricalPeriodsX.x.x> ;
 	.
 
 	?historical_period_iri a tolo:HistoricalPeriod ;
@@ -52,7 +52,7 @@ WHERE {
     # Add this to the end of every year to make a well-formed dateTime
 	BIND("-01-01T00:00:00" AS ?date_time_rest)
 
-	BIND(tarql:expandPrefixedName(CONCAT("tolx:_HistoricalPeriod_", ?century_id)) as ?historical_period_iri)
+	BIND(tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", ?century_id)) as ?historical_period_iri)
 
     BIND(STRLANG(?cms_label, "en") AS ?hidden_label_en)
 	BIND(STRLANG(?public_label, "en") as ?pref_label_en)

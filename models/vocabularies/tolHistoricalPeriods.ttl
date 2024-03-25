@@ -10,606 +10,605 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
 @prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
-@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriods>
+<https://w3id.org/treasuryoflives/data/tolHistoricalPeriods>
 	a owl:Ontology ;
 	owl:imports
 		<https://w3id.org/semanticarts/ontology/gistCore12.0.1> ,
 		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
 		;
-	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x> ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/data/tolHistoricalPeriodsX.x.x> ;
 	skos:definition "Defines full and partial centuries."@en ;
 	skos:editorialNote "Auto-generated via TARQL."@en ;
-	skos:prefLabel "Centuries"@en ;
+	skos:prefLabel "Historical Periods"@en ;
 	.
 
-tolx:_HistoricalPeriod_1
+told:_HistoricalPeriod_1
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "1st century"@en ;
 	skos:prefLabel "1st cent."@en ;
 	gist:actualStartYear "0000-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_10
+told:_HistoricalPeriod_10
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "3rd century (early)"@en ;
 	skos:prefLabel "early 3rd cent."@en ;
 	gist:actualStartYear "0225-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_11
+told:_HistoricalPeriod_11
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "3rd century (mid)"@en ;
 	skos:prefLabel "mid 3rd cent."@en ;
 	gist:actualStartYear "0250-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_12
+told:_HistoricalPeriod_12
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "3rd century (late)"@en ;
 	skos:prefLabel "late 3rd cent."@en ;
 	gist:actualStartYear "0275-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_13
+told:_HistoricalPeriod_13
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "4th century"@en ;
 	skos:prefLabel "4th cent."@en ;
 	gist:actualStartYear "0300-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_14
+told:_HistoricalPeriod_14
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "4th century (early)"@en ;
 	skos:prefLabel "early 4th cent."@en ;
 	gist:actualStartYear "0325-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_15
+told:_HistoricalPeriod_15
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "4th century (mid)"@en ;
 	skos:prefLabel "mid 4th cent."@en ;
 	gist:actualStartYear "0350-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_16
+told:_HistoricalPeriod_16
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "4th century (late)"@en ;
 	skos:prefLabel "late 4th cent."@en ;
 	gist:actualStartYear "0375-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_17
+told:_HistoricalPeriod_17
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "5th century"@en ;
 	skos:prefLabel "5th cent."@en ;
 	gist:actualStartYear "0400-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_18
+told:_HistoricalPeriod_18
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "5th century (early)"@en ;
 	skos:prefLabel "early 5th cent."@en ;
 	gist:actualStartYear "0425-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_19
+told:_HistoricalPeriod_19
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "5th century (mid)"@en ;
 	skos:prefLabel "mid 5th cent."@en ;
 	gist:actualStartYear "0450-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_2
+told:_HistoricalPeriod_2
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "1st century (early)"@en ;
 	skos:prefLabel "early 1st cent."@en ;
 	gist:actualStartYear "0025-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_20
+told:_HistoricalPeriod_20
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "5th century (late)"@en ;
 	skos:prefLabel "late 5th cent."@en ;
 	gist:actualStartYear "0475-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_21
+told:_HistoricalPeriod_21
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "6th century"@en ;
 	skos:prefLabel "6th cent."@en ;
 	gist:actualStartYear "0500-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_22
+told:_HistoricalPeriod_22
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "6th century (early)"@en ;
 	skos:prefLabel "early 6th cent."@en ;
 	gist:actualStartYear "0525-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_23
+told:_HistoricalPeriod_23
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "6th century (mid)"@en ;
 	skos:prefLabel "mid 6th cent."@en ;
 	gist:actualStartYear "0550-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_24
+told:_HistoricalPeriod_24
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "6th century (late)"@en ;
 	skos:prefLabel "late 6th cent."@en ;
 	gist:actualStartYear "0575-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_25
+told:_HistoricalPeriod_25
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "7th century"@en ;
 	skos:prefLabel "7th cent."@en ;
 	gist:actualStartYear "0600-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_26
+told:_HistoricalPeriod_26
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "7th century (early)"@en ;
 	skos:prefLabel "early 7th cent."@en ;
 	gist:actualStartYear "0625-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_27
+told:_HistoricalPeriod_27
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "7th century (mid)"@en ;
 	skos:prefLabel "mid 7th cent."@en ;
 	gist:actualStartYear "0650-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_28
+told:_HistoricalPeriod_28
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "7th century (late)"@en ;
 	skos:prefLabel "late 7th cent."@en ;
 	gist:actualStartYear "0675-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_29
+told:_HistoricalPeriod_29
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "8th century"@en ;
 	skos:prefLabel "8th cent."@en ;
 	gist:actualStartYear "0700-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_3
+told:_HistoricalPeriod_3
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "1st century (mid)"@en ;
 	skos:prefLabel "mid 1st cent."@en ;
 	gist:actualStartYear "0050-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_30
+told:_HistoricalPeriod_30
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "8th century (early)"@en ;
 	skos:prefLabel "early 8th cent."@en ;
 	gist:actualStartYear "0725-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_31
+told:_HistoricalPeriod_31
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "8th century (mid)"@en ;
 	skos:prefLabel "mid 8th cent."@en ;
 	gist:actualStartYear "0750-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_32
+told:_HistoricalPeriod_32
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "8th century (late)"@en ;
 	skos:prefLabel "late 8th cent."@en ;
 	gist:actualStartYear "0775-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_33
+told:_HistoricalPeriod_33
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "9th century"@en ;
 	skos:prefLabel "9th cent."@en ;
 	gist:actualStartYear "0800-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_34
+told:_HistoricalPeriod_34
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "9th century (early)"@en ;
 	skos:prefLabel "early 9th cent."@en ;
 	gist:actualStartYear "0825-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_35
+told:_HistoricalPeriod_35
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "9th century (mid)"@en ;
 	skos:prefLabel "mid 9th cent."@en ;
 	gist:actualStartYear "0850-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_36
+told:_HistoricalPeriod_36
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "9th century (late)"@en ;
 	skos:prefLabel "late 9th cent."@en ;
 	gist:actualStartYear "0875-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_37
+told:_HistoricalPeriod_37
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "10th century"@en ;
 	skos:prefLabel "10th cent."@en ;
 	gist:actualStartYear "0900-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_38
+told:_HistoricalPeriod_38
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "10th century (early)"@en ;
 	skos:prefLabel "early 10th cent."@en ;
 	gist:actualStartYear "0925-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_39
+told:_HistoricalPeriod_39
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "10th century (mid)"@en ;
 	skos:prefLabel "mid 10th cent."@en ;
 	gist:actualStartYear "0950-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_4
+told:_HistoricalPeriod_4
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "1st century (late)"@en ;
 	skos:prefLabel "late 1st cent."@en ;
 	gist:actualStartYear "0075-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_40
+told:_HistoricalPeriod_40
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "10th century (late)"@en ;
 	skos:prefLabel "late 10th cent."@en ;
 	gist:actualStartYear "0975-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_41
+told:_HistoricalPeriod_41
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "11th century"@en ;
 	skos:prefLabel "11th cent."@en ;
 	gist:actualStartYear "1000-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_42
+told:_HistoricalPeriod_42
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "11th century (early)"@en ;
 	skos:prefLabel "early 11th cent."@en ;
 	gist:actualStartYear "1025-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_43
+told:_HistoricalPeriod_43
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "11th century (mid)"@en ;
 	skos:prefLabel "mid 11th cent."@en ;
 	gist:actualStartYear "1050-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_44
+told:_HistoricalPeriod_44
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "11th century (late)"@en ;
 	skos:prefLabel "late 11th cent."@en ;
 	gist:actualStartYear "1075-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_45
+told:_HistoricalPeriod_45
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "12th century"@en ;
 	skos:prefLabel "12th cent."@en ;
 	gist:actualStartYear "1100-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_46
+told:_HistoricalPeriod_46
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "12th century (early)"@en ;
 	skos:prefLabel "early 12th cent."@en ;
 	gist:actualStartYear "1125-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_47
+told:_HistoricalPeriod_47
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "12th century (mid)"@en ;
 	skos:prefLabel "mid 12th cent."@en ;
 	gist:actualStartYear "1150-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_48
+told:_HistoricalPeriod_48
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "12th century (late)"@en ;
 	skos:prefLabel "late 12th cent."@en ;
 	gist:actualStartYear "1175-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_49
+told:_HistoricalPeriod_49
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "13th century"@en ;
 	skos:prefLabel "13th cent."@en ;
 	gist:actualStartYear "1200-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_5
+told:_HistoricalPeriod_5
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "2nd century"@en ;
 	skos:prefLabel "2nd cent."@en ;
 	gist:actualStartYear "0100-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_50
+told:_HistoricalPeriod_50
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "13th century (early)"@en ;
 	skos:prefLabel "early 13th cent."@en ;
 	gist:actualStartYear "1225-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_51
+told:_HistoricalPeriod_51
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "13th century (mid)"@en ;
 	skos:prefLabel "mid 13th cent."@en ;
 	gist:actualStartYear "1250-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_52
+told:_HistoricalPeriod_52
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "13th century (late)"@en ;
 	skos:prefLabel "late 13th cent."@en ;
 	gist:actualStartYear "1275-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_53
+told:_HistoricalPeriod_53
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "14th century"@en ;
 	skos:prefLabel "14th cent."@en ;
 	gist:actualStartYear "1300-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_54
+told:_HistoricalPeriod_54
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "14th century (early)"@en ;
 	skos:prefLabel "early 14th cent."@en ;
 	gist:actualStartYear "1325-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_55
+told:_HistoricalPeriod_55
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "14th century (mid)"@en ;
 	skos:prefLabel "mid 14th cent."@en ;
 	gist:actualStartYear "1350-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_56
+told:_HistoricalPeriod_56
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "14th century (late)"@en ;
 	skos:prefLabel "late 14th cent."@en ;
 	gist:actualStartYear "1375-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_57
+told:_HistoricalPeriod_57
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "15th century"@en ;
 	skos:prefLabel "15th cent."@en ;
 	gist:actualStartYear "1400-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_58
+told:_HistoricalPeriod_58
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "15th century (early)"@en ;
 	skos:prefLabel "early 15th cent."@en ;
 	gist:actualStartYear "1425-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_59
+told:_HistoricalPeriod_59
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "15th century (mid)"@en ;
 	skos:prefLabel "mid 15th cent."@en ;
 	gist:actualStartYear "1450-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_6
+told:_HistoricalPeriod_6
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "2nd century (early)"@en ;
 	skos:prefLabel "early 2nd cent."@en ;
 	gist:actualStartYear "0125-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_60
+told:_HistoricalPeriod_60
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "15th century (late)"@en ;
 	skos:prefLabel "late 15th cent."@en ;
 	gist:actualStartYear "1475-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_61
+told:_HistoricalPeriod_61
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "16th century"@en ;
 	skos:prefLabel "16th cent."@en ;
 	gist:actualStartYear "1500-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_62
+told:_HistoricalPeriod_62
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "16th century (early)"@en ;
 	skos:prefLabel "early 16th cent."@en ;
 	gist:actualStartYear "1525-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_63
+told:_HistoricalPeriod_63
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "16th century (mid)"@en ;
 	skos:prefLabel "mid 16th cent."@en ;
 	gist:actualStartYear "1550-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_64
+told:_HistoricalPeriod_64
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "16th century (late)"@en ;
 	skos:prefLabel "late 16th cent."@en ;
 	gist:actualStartYear "1575-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_65
+told:_HistoricalPeriod_65
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "17th century"@en ;
 	skos:prefLabel "17th cent."@en ;
 	gist:actualStartYear "1600-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_66
+told:_HistoricalPeriod_66
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "17th century (early)"@en ;
 	skos:prefLabel "early 17th cent."@en ;
 	gist:actualStartYear "1625-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_67
+told:_HistoricalPeriod_67
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "17th century (mid)"@en ;
 	skos:prefLabel "mid 17th cent."@en ;
 	gist:actualStartYear "1650-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_68
+told:_HistoricalPeriod_68
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "17th century (late)"@en ;
 	skos:prefLabel "late 17th cent."@en ;
 	gist:actualStartYear "1675-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_69
+told:_HistoricalPeriod_69
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "18th century"@en ;
 	skos:prefLabel "18th cent."@en ;
 	gist:actualStartYear "1700-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_7
+told:_HistoricalPeriod_7
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "2nd century (mid)"@en ;
 	skos:prefLabel "mid 2nd cent."@en ;
 	gist:actualStartYear "0150-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_70
+told:_HistoricalPeriod_70
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "18th century (early)"@en ;
 	skos:prefLabel "early 18th cent."@en ;
 	gist:actualStartYear "1725-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_71
+told:_HistoricalPeriod_71
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "18th century (mid)"@en ;
 	skos:prefLabel "mid 18th cent."@en ;
 	gist:actualStartYear "1750-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_72
+told:_HistoricalPeriod_72
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "18th century (late)"@en ;
 	skos:prefLabel "late 18th cent."@en ;
 	gist:actualStartYear "1775-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_73
+told:_HistoricalPeriod_73
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "19th century"@en ;
 	skos:prefLabel "19th cent."@en ;
 	gist:actualStartYear "1800-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_74
+told:_HistoricalPeriod_74
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "19th century (early)"@en ;
 	skos:prefLabel "early 19th cent."@en ;
 	gist:actualStartYear "1825-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_75
+told:_HistoricalPeriod_75
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "19th century (mid)"@en ;
 	skos:prefLabel "mid 19th cent."@en ;
 	gist:actualStartYear "1850-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_76
+told:_HistoricalPeriod_76
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "19th century (late)"@en ;
 	skos:prefLabel "late 19th cent."@en ;
 	gist:actualStartYear "1875-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_77
+told:_HistoricalPeriod_77
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "20th century"@en ;
 	skos:prefLabel "20th cent."@en ;
 	gist:actualStartYear "1900-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_78
+told:_HistoricalPeriod_78
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "20th century (early)"@en ;
 	skos:prefLabel "early 20th cent."@en ;
 	gist:actualStartYear "1925-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_79
+told:_HistoricalPeriod_79
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "20th century (mid)"@en ;
 	skos:prefLabel "mid 20th cent."@en ;
 	gist:actualStartYear "1950-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_8
+told:_HistoricalPeriod_8
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "2nd century (late)"@en ;
 	skos:prefLabel "late 2nd cent."@en ;
 	gist:actualStartYear "0175-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_80
+told:_HistoricalPeriod_80
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "20th century (late)"@en ;
 	skos:prefLabel "late 20th cent."@en ;
 	gist:actualStartYear "1975-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_81
+told:_HistoricalPeriod_81
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "21st century"@en ;
 	skos:prefLabel "21st cent."@en ;
 	gist:actualStartYear "2000-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_82
+told:_HistoricalPeriod_82
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "21st century (early)"@en ;
 	skos:prefLabel "early 21st cent."@en ;
 	gist:actualStartYear "2025-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_83
+told:_HistoricalPeriod_83
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "21st century (mid)"@en ;
 	skos:prefLabel "mid 21st cent."@en ;
 	gist:actualStartYear "2050-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_84
+told:_HistoricalPeriod_84
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "21st century (late)"@en ;
 	skos:prefLabel "late 21st cent."@en ;
 	gist:actualStartYear "2075-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_9
+told:_HistoricalPeriod_9
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "3rd century"@en ;
 	skos:prefLabel "3rd cent."@en ;

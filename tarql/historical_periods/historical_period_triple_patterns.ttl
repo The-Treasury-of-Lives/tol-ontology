@@ -16,14 +16,14 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-tolx:_HistoricalPeriod_1
+told:_HistoricalPeriod_1
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "1st century"@en ;
 	skos:prefLabel "1st cent."@en ;
 	gist:actualStartYear "0000-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
-tolx:_HistoricalPeriod_10
+told:_HistoricalPeriod_10
 	a tolo:HistoricalPeriod ;
 	skos:hiddenLabel "3rd century (early)"@en ;
 	skos:prefLabel "early 3rd cent."@en ;
