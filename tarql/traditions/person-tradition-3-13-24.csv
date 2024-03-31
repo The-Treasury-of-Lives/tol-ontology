@@ -1,4 +1,4 @@
-person_id,tbrc_rid,default_name,tradition_id,tradition_name
+person_id,tbrc_rid,default_name,tradition_id (person facet),tradition_name
 8,P00AG0401,Pelden Chime Takpai Dorje,1,Nyingma
 9,P00AG0428,Mandāravā,1,Nyingma
 84,P00EGS1017608,Lasum Gyelwa Jangchub,1,Nyingma

@@ -58,6 +58,7 @@ CONSTRUCT {
             ?name_chinese ;
         tolo:hasFounder ?founder_iri ;
         tolo:isDerivedFrom ?parent_tradition_iri ;
+        # tolo:isAffiliatedWith ?monastery_iri ;
         .
 
     ?description_iri 
@@ -73,11 +74,10 @@ CONSTRUCT {
 WHERE {
     
     # Testing
-    # FILTER(?ROWNUM = 1)
+    # FILTER(?ROWNUM IN (5, 12))
 
     # Tradition
-    BIND(REPLACE(?TOL_Tradition_ID, "TOL", "") AS ?tradition_id)
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", ?tradition_id)) AS ?tradition_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", ?Tradition_ID)) AS ?tradition_iri)
 
     # owl:sameAs
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_T_ID)) AS ?bdrc_iri)
@@ -95,8 +95,14 @@ WHERE {
     # Parent tradition
     BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", REPLACE(?Parent_TOL_ID, "TOL", ""))) AS ?parent_tradition_iri)
 
+    # Monastery affiliation
+    # TODO - Should this come from here or from the person-tradition spreadsheet?
+    # BIND(tarql:expandPrefixedName(CONCAT("told:_Institution_", REPLACE(?Tradition_ID__Comunity_, "TOL", ""))) AS ?monastery_iri)
+   
     # Description
-    BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_Tradition_", ?tradition_id)) AS ?description_iri)
-    BIND(STRLANG(?Name, "en") as ?description_prefLabel_en)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_Tradition_", ?Tradition_ID)) AS ?description_iri)
+    BIND(STRLANG((CONCAT(?Name, " Tradition")), "en") as ?description_prefLabel_en)
     BIND(STRLANG(?Description, "en") AS ?description_en)
+
+
 }

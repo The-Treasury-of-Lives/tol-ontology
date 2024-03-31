@@ -18,56 +18,18 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 
 ## COLUMNS 
 
-# TOL Tradition ID
-# BDRC T ID
-# Wikidata ID
-# Name
-# Wylie Name
-# Chinese
-# Founder TOL ID (may be multiple)
-# Parent TOL ID
-# Description
+# person_id
+# tbrc_id
+# default_name
+# tradition_id (person facet)
+# tradition_name
 
 # Run: 
-# tarql --dedup 1000 traditions.tq traditions_2023-05-22.csv > tolTraditions.ttl
-
+# tarql --dedup 10000 person_traditions.tq person-tradition-3-13-24.csv > tolPersonTraditions.ttl
 
 CONSTRUCT {
 
-	<https://w3id.org/treasuryoflives/ontology/tolTraditions>
-        a owl:Ontology ;
-        skos:prefLabel "Traditions"@en ;
-        skos:definition "Defines Tibetan traditions."@en ;
-        skos:scopeNote "Traditions are instances of Tibetan religion that identifies as a cohesive group with distinct modes of ritual and learning, as well as associated institutions such as monasteries."@en ;
-	    owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
-	    owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolTraditionsX.x.x> ;
-	.
-
-    ?tradition_iri 
-        a tolo:Tradition ;
-        owl:sameAs 
-            ?bdrc_iri , 
-            ?wikidata_iri ;
-        skos:prefLabel 
-            ?name_en , 
-            ?name_wylie , 
-            ?name_chinese ;
-        tolo:primaryName 
-            ?name_en , 
-            ?name_wylie , 
-            ?name_chinese ;
-        tolo:hasFounder ?founder_iri ;
-        tolo:isDerivedFrom ?parent_tradition_iri ;
-        .
-
-    ?description_iri 
-        a gist:FormattedContent ;
-        skos:prefLabel ?description_prefLabel_en ;
-        gist:containedText ?description_en ;
-        gist:isAbout ?tradition_iri ;
-        gist:isExpressedIn media-txt:html ;
-        .
-        
+    ?person_iri tolo:isAffiliatedWith ?tradition_iri ;
 }
 
 WHERE {
@@ -75,28 +37,6 @@ WHERE {
     # Testing
     # FILTER(?ROWNUM = 1)
 
-    # Tradition
-    BIND(REPLACE(?TOL_Tradition_ID, "TOL", "") AS ?tradition_id)
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", ?tradition_id)) AS ?tradition_iri)
-
-    # owl:sameAs
-    BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_T_ID)) AS ?bdrc_iri)
-    BIND(tarql:expandPrefixedName(CONCAT("wiki:", ?Wikidata_ID)) AS ?wikidata_iri) 
-
-    # Names
-    BIND(STRLANG(?Name, "en") AS ?name_en)
-    BIND(STRLANG(?Wylie_Name, "bo-x-ewts") AS ?name_wylie)
-    BIND(STRLANG(?Chinese, "zh-Hani") AS ?name_chinese)
-
-    # Founder(s)
-    OPTIONAL { ?founder apf:strSplit(?Founder_TOL_ID ",") }
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", REPLACE(?founder, "TOLP", ""))) AS ?founder_iri)
-
-    # Parent tradition
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", REPLACE(?Parent_TOL_ID, "TOL", ""))) AS ?parent_tradition_iri)
-
-    # Description
-    BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_Tradition_", ?tradition_id)) AS ?description_iri)
-    BIND(STRLANG(CONCAT("Description of the ", ?Name, " tradition"), "en") as ?description_prefLabel_en)
-    BIND(STRLANG(?Description, "en") AS ?description_en)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?person_id))AS ?person_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", ?tradition_id__person_facet_))AS ?tradition_iri)
 }
