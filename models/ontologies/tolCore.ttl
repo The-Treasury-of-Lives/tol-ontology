@@ -77,6 +77,14 @@ tolo:Birth
 	skos:prefLabel "Birth"@en ;
 	.
 
+tolo:Community
+	a owl:Class ;
+	skos:altLabel "Institution"@en ;
+	skos:definition "TBD."@en ;
+	skos:example "TBD"@en ;
+	skos:prefLabel "Community"@en ;
+	.
+
 tolo:Death
 	a owl:Class ;
 	rdfs:subClassOf
