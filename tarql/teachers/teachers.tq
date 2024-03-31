@@ -31,7 +31,7 @@ PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/>
 
 # Run: 
 # tarql --dedup 100000 teachers.tq teacher-student-11-05-23.csv > tolTeachers.ttl
-
+# tarql --dedup 100000 teachers.tq teacher-student-bdrc-11-05-23.csv > tolTeachersBdrc.ttl
 
 CONSTRUCT {
 
@@ -61,21 +61,12 @@ CONSTRUCT {
 WHERE {
     
     # Testing
-    FILTER(?ROWNUM IN (1, 464))
+    # FILTER(?ROWNUM = 1)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_TeacherStudentRelationship_", ?teacher_id, "_", ?student_id)) AS ?relationship_iri)
     BIND(STRLANG(CONCAT("Teacher ", ?teacher_id, " - Student ", ?student_id), "en") AS ?relationship_label_en)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?teacher_id)) AS ?teacher_iri)
-    # If no bio, the person entity has not been created in the persons conversion. Add type, name and owl:sameAs to BDRC person.
-    BIND(IF(?teacher_has_bio = "NO", STRLANG(?teacher_default_name, ?teacher_default_name__lang_encoding), ?unbound) AS ?teacher_name)
-    BIND(IF(BOUND(?teacher_name), tarql:expandPrefixedName(CONCAT("bdr:", ?tbrc_teacher_id)), ?unbound) AS ?teacher_bdrc_iri)
-    BIND(IF(BOUND(?teacher_name), tarql:expandPrefixedName("tolo:Person"), ?unbound) AS ?teacher_type)
-
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?student_id)) AS ?student_iri)
-    # If no bio, the person entity has not been created in the persons conversion. Add type, name and owl:sameAs to BDRC person.
-    BIND(IF(?student_has_bio = "NO", STRLANG(?student_default_name, ?student_default_name__lang_encoding), ?unbound) AS ?student_name)
-    BIND(IF(BOUND(?student_name), tarql:expandPrefixedName(CONCAT("bdr:", ?tbrc_student_id)), ?unbound) AS ?student_bdrc_iri)
-    BIND(IF(BOUND(?student_name), tarql:expandPrefixedName("tolo:Person"), ?unbound) AS ?student_type)
 
 }
