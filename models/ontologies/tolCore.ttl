@@ -665,7 +665,7 @@ tolo:inYear
 tolo:isAffiliatedWith
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:isConnectedTo ;
-	skos:definition "Relates a person or other entity to a resource it is affiliated with."@en ;
+	skos:definition "Relates a person or organization to a group, institution, religion, or larger organization it is connected to."@en ;
 	skos:example "A teacher is affiliated with a tradition; an incarnation lineage is associated with a monastery and tradition."@en ;
 	skos:prefLabel "is affiliated with"@en ;
 	.
