@@ -21,22 +21,29 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # person_id
 # tbrc_id
 # default_name
-# tradition_id (person facet)
-# tradition_name
+# tradition_id
+# tradition_name (ignore)
+# parent_tradition
+# parent_tradition_name (ignore)
 
 # Run: 
-# tarql --dedup 10000 person_traditions.tq person-tradition-3-13-24.csv > tolPersonTraditions.ttl
+# tarql --dedup 10000 person_traditions.tq person-tradition-4-4-24.csv > tolPersonTraditions.ttl
 
 CONSTRUCT {
 
-    ?person_iri tolo:isAffiliatedWith ?tradition_iri ;
+    ?person_iri 
+        tolo:isAffiliatedWith 
+            ?tradition_iri ,
+            ?parent_tradition_iri ;
+    .
 }
 
 WHERE {
     
     # Testing
-    # FILTER(?ROWNUM = 1)
+    # FILTER(?ROWNUM IN (1, 864))
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?person_id))AS ?person_iri)
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", ?tradition_id__person_facet_))AS ?tradition_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", ?tradition_id))AS ?tradition_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", ?parent_tradition_id))AS ?parent_tradition_iri)
 }
