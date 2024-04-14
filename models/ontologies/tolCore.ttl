@@ -81,7 +81,7 @@ tolo:Community
 	a owl:Class ;
 	skos:altLabel "Institution"@en ;
 	skos:definition "TBD."@en ;
-	skos:example "TBD"@en ;
+	skos:example "Choding Monastery, Kokonor Lake, Nyarongsha School, Mentsikhang Hospital."@en ;
 	skos:prefLabel "Community"@en ;
 	.
 
@@ -120,7 +120,7 @@ tolo:HistoricalPeriod
 	a owl:Class ;
 	rdfs:subClassOf gist:TimeInterval ;
 	skos:definition "A named time interval with historical significance."@en ;
-	skos:example "The 10th century, the eary/mid/late 19th century"@en ;
+	skos:example "The 10th century, the eary/mid/late 19th century."@en ;
 	skos:prefLabel "Historical Period"@en ;
 	skos:scopeNote "Whereas a time interval is any period of time, such as 2-4pm this afternoon or 1848-1947, a historical period is named and cited in relation to historical events or culture. Historical periods include full and partial centuries, which are ordinally numbered."@en ;
 	.
@@ -147,17 +147,25 @@ tolo:HtmlBiography
 
 tolo:Incarnation
 	a owl:Class ;
-	skos:definition "TBD."@en ;
+	skos:definition "The relationship connecting a person to an incarnation lineage and expressing the sequence of the person in the lineage"@en ;
 	skos:editorialNote "Connects person to lineage."@en ;
-	skos:prefLabel "Incarnation"@en ;
+	skos:example "The Third Dalai Lama."@en ;
+	skos:prefLabel
+		"Incarnation"@en ,
+		"sprul sku"@bo-x-ewts
+		;
 	.
 
 tolo:IncarnationLineage
 	a owl:Class ;
 	rdfs:subClassOf gist:OrderedCollection ;
-	skos:definition "TBD."@en ;
-	skos:editorialNote "Add scopeNote re attached to monastery and tradition."@en ;
-	skos:prefLabel "Incarnation Lineage"@en ;
+	skos:definition "A consecutive line of people regarded as incarnations of a non-living person or mythical figure."@en ;
+	skos:editorialNote "Enumerated chronologically and can branch into multiple lines. Usually associated with a seat, such as a monastery."@en ;
+	skos:example "The Dalai Lamas, the Karmapas."@en ;
+	skos:prefLabel
+		"Incarnation Lineage"@en ,
+		"skye brgyud"@bo-x-ewts
+		;
 	.
 
 tolo:KinshipGroup
@@ -171,9 +179,9 @@ tolo:KinshipGroup
 		]
 		;
 	skos:definition "A social unit consisting of people with a common ancestor."@en ;
-	skos:example "."@en ;
+	skos:example "The Adro clan; the Jangling family."@en ;
 	skos:prefLabel "Kinship Group"@en ;
-	skos:scopeNote "Includes both clans and families. Also includes those adopted into a clan."@en ;
+	skos:scopeNote "Includes Tibetan concepts that may individually mean something more specific, such as: rig (rigs) for clan, race, family; gyu (rgyud) for lineage, descent; dungrab (gdung rabs) for descendants, lineage, generation; dung (gdung) for progeny, descendants, lineage, descent line; ru (rus) for bone, bloodline, lineage, family, clan; khang (khang) for household and tsang (tshang) for family and household."@en ;
 	.
 
 tolo:KinshipGroupType
@@ -280,18 +288,12 @@ tolo:Person
 		gist:Person ,
 		wiki:Person
 		;
-	skos:prefLabel "Person"@en ;
-	.
-
-tolo:Place
-	a owl:Class ;
-	owl:sameAs
-		bdo:Place ,
-		gist:GeoRegion
+	skos:definition "An individual being who was born, lived, and died in the human realm."@en ;
+	skos:prefLabel
+		"Person"@en ,
+		"mi"@bo-x-ewts
 		;
-	skos:definition "A real, fictional, or imaginary place."@en ;
-	skos:prefLabel "Place"@en ;
-	skos:scopeNote "Differs from and not a subclass of gist:Place, which includings only places that do or did exist."@en ;
+	skos:scopeNote "May include quasi-historical figures."@en ;
 	.
 
 tolo:TeacherStudentRelationship
@@ -325,9 +327,12 @@ tolo:TeacherStudentRelationship
 tolo:Tradition
 	a owl:Class ;
 	rdfs:subClassOf gist:Intention ;
-	skos:definition "TBD."@en ;
-	skos:editorialNote "Check subclass"@en ;
-	skos:prefLabel "Tradition"@en ;
+	skos:definition "An instance of Tibetan religion that identifies as a cohesive group with distinct modes of ritual and learning, as well as associated institutions such as monasteries."@en ;
+	skos:example "The major schools and subschools of Tibetan Buddhism as well as Bon."@en ;
+	skos:prefLabel
+		"Tradition"@en ,
+		"chos lugs"@bo-x-ewts
+		;
 	.
 
 tolo:actualYear
@@ -611,6 +616,14 @@ tolo:hasPaternalGrandparent
 	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
 	.
 
+tolo:hasPreincarnation
+	a owl:ObjectProperty ;
+	skos:definition "The relationship of a person to a non-living person or mythical figure who is named as a previous emanation."@en ;
+	skos:example "Jamgong Kongtrul had the preincarnation Tarnatha."@en ;
+	skos:prefLabel "has preincarnation"@en ;
+	skos:scopeNote "Not part of the ordered members of incarnation lines and thus represented as a direct relationship between two people."@en ;
+	.
+
 tolo:hasSeniorHusband
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasHusband ;
@@ -758,9 +771,9 @@ tolo:nameVariant
 	rdfs:subPropertyOf gist:name ;
 	skos:altLabel "alternate name"@en ;
 	skos:definition "An alternate name for a person."@en ;
-	skos:example "gyer sgom gnyis pa and gyer sgom tshul khrims seng+ge are alternate names for the individual whose ToL "@en ;
+	skos:example "Gyergom Nyipa (Wylie gyer sgom gnyis pa) is an alternate name for Gyergom Tsultrim Sengge (Wylie gyer sgom tshul khrims seng+ge)."@en ;
 	skos:prefLabel "name variant"@en ;
-	skos:scopeNote "The preferred/alternate distinction may be source- or system-dependent. Other systems or sources may prefer a name different from Treasury of Lives' preferred name."@en ;
+	skos:scopeNote "The primary/alternate distinction may be source- or system-dependent. Other systems or sources may prefer a name different from Treasury of Lives' primary name."@en ;
 	.
 
 tolo:occursDuring
