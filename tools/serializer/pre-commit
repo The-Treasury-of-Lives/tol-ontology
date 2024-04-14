@@ -203,13 +203,8 @@ __log_config__
       permissions=$(stat -c "%a" "${file}")
       chmod $permissions "${file}X"
       rm  "${file}"
-      
-      log "Patching serializer erroneous change of -x- in language tag to -X-"
-      sed 's/-X-/-x-/g' "${file}X" > "${file}"
-      rm  "${file}X"  
-
+      mv  "${file}X" "${file}"
       git add --update "${file}"
-
     else
       log_error "sesame-serializer ended with error code ${rc}"
     fi
@@ -227,17 +222,6 @@ function serialize_all() {
   return 0
 }
 
-function remove_skos_decls () {
-  for fileToBeCommitted in $(git diff --cached --name-only) ; do
-    permissions=$(stat -c "%a" "${fileToBeCommitted}")
-    sed -e '/^skos/,+3d' "$fileToBeCommitted" > tmp$$
-    mv tmp$$ "$fileToBeCommitted"
-    chmod $permissions "${fileToBeCommitted}"
-    git add --update "${fileToBeCommitted}"
-  done
-
-  return 0
-}
 
 function main() {
   findBaseDir || return 1
@@ -247,7 +231,7 @@ function main() {
   findSerializerJar || return 3
 
   serialize_all || return 4
-  remove_skos_decls || return 5
+
 }
 
 main $*
