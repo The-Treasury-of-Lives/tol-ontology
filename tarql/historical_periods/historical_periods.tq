@@ -63,7 +63,7 @@ CONSTRUCT {
         skos:prefLabel ?description_pref_label_en ;
         gist:isAbout ?historical_period_iri ;
         gist:isExpressedIn media-txt:html ;
-		gist:containedText ?Description
+		gist:containedText ?description_en ;
         .
 
 } 
@@ -71,8 +71,11 @@ CONSTRUCT {
 WHERE {
 
     # Testing
-    #FILTER(?ROWNUM IN (1, 2, 5, 84))
+    # FILTER(?ROWNUM IN (1, 2, 5))
+	# Description
 	# FILTER(?ROWNUM = 25)
+	# Final row
+	# FILTER(?ROWNUM = 84)
 
 	BIND(tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", ?century_id)) as ?historical_period_iri)
 
