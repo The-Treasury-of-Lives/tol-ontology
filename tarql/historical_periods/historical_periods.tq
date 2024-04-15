@@ -143,9 +143,5 @@ WHERE {
 		?unbound
 	) AS ?description_pref_label_en)
     BIND(STRLANG(?Description, "en") AS ?description_en)
-
-
-	#     BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_Tradition_", ?Tradition_ID)) AS ?description_iri)
-    # BIND(STRLANG((CONCAT(?Name, " Tradition")), "en") as ?description_prefLabel_en)
-    # BIND(STRLANG(?Description, "en") AS ?description_en)   
+  
 }
