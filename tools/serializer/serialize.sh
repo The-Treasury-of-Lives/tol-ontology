@@ -33,7 +33,7 @@ serialize_file() {
     echo Serializing $file into a standard format.
     tmp=$file.bak
     cp $file $tmp
-    java -jar `dirname "$0"`/rdf-toolkit.jar -tfmt $format -sdt explicit -dtd -ibn -sni -s $file -t $tmp 
+    java -jar `dirname "$0"`/rdf-toolkit.jar -udl "en" -tfmt $format -sdt explicit -dtd -ibn -sni -s $file -t $tmp 
     mv $tmp $file
 }
 

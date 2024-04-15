@@ -182,6 +182,7 @@ __log_config__
       --source "${file}" \
       --target "${file}X" \
       --target-format ${tfmt} \
+      --use-default-language "en" \
       --use-dtd-subset \
       --string-data-typing explicit \
       --suppress-named-individuals \
