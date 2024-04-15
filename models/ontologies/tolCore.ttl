@@ -403,15 +403,28 @@ tolo:existsDuring
 		owl:ObjectProperty ,
 		owl:TransitiveProperty
 		;
-	skos:definition "Relates a resource to another that temporally contains it."@en ;
-	skos:example "Gyergom Tsultrim Sengge lived during the 12th century."@en ;
-	skos:prefLabel "exists during"@en ;
+	skos:definition
+		"Relates a resource to another that temporally contains it."@en ,
+		"Relates an entity to an event or time period during which it does or did exist."@en
+		;
+	skos:example
+		"Gyergom Tsultrim Sengge lived during the 12th century."@en ,
+		"Trimalo lived during the 7th century; Dorje Sherab lived during the 12th and 13th centuries."@en
+		;
+	skos:prefLabel
+		"exists during"@en ,
+		"exists during"@en
+		;
 	skos:scopeNote "The subject of tolo:existsDuring is a non-temporal resource. The property contrasts with tolo:occursDuring, which relates a temporal resource to a containing resource."@en ;
-	gist:domainIncludes tolo:Person ;
+	gist:domainIncludes
+		gist:LivingThing ,
+		tolo:Person
+		;
 	gist:rangeIncludes
 		gist:Event ,
 		gist:TemporalRelation ,
-		gist:TimeInterval
+		gist:TimeInterval ,
+		tolo:HistoricalPeriod
 		;
 	.
 
