@@ -17,14 +17,15 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
 
 ## COLUMNS
-# cms_label 
-# public_label 
+# cms_label (ignore)
+# public_label (ignore)
 # start_year
 # end_year
 # century_id
 # historical_period_name
 # historical_period_wylie
 # historical_period_tibetan
+# has_direct_part
 # Description
 
 # Run:
@@ -80,7 +81,6 @@ WHERE {
 	BIND(tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", ?century_id)) as ?historical_period_iri)
 
 	# Labels
-    # BIND(STRLANG(?cms_label, "en") AS ?hidden_label_en)
 	BIND(STRLANG(?historical_period_name, "en") as ?pref_label_en)
 	BIND(STRLANG(?historical_period_wylie, "bo-x-ewts") as ?pref_label_wylie)
 	BIND(STRLANG(?historical_period_tibetan, "bo") as ?pref_label_tibetan)

@@ -20,6 +20,7 @@
 	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x> ;
 	skos:definition "Defines reasons for terminating a marriage."@en ;
+	skos:editorialNote "Hand-curated"@en ;
 	skos:prefLabel "Marriage Termination Causes"@en ;
 	.
 

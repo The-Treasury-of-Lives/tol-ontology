@@ -20,6 +20,7 @@
 	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolMarriageRanksX.x.x> ;
 	skos:definition "Defines ranking of a marriage in among polygamous relationships."@en ;
+	skos:editorialNote "Hand-curated"@en ;
 	skos:prefLabel "Marriage Rank"@en ;
 	.
 
