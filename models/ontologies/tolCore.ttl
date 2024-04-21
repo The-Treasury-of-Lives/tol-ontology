@@ -77,12 +77,21 @@ tolo:Birth
 	skos:prefLabel "Birth"@en ;
 	.
 
-tolo:Community
+tolo:BuildingType
 	a owl:Class ;
-	skos:altLabel "Institution"@en ;
-	skos:definition "TBD."@en ;
-	skos:example "Choding Monastery, Kokonor Lake, Nyarongsha School, Mentsikhang Hospital."@en ;
-	skos:prefLabel "Community"@en ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom gist:Building ;
+		]
+		;
+	skos:definition "Indicates the specific type of a landmark."@en ;
+	skos:example "Stupa, hermitage, lake, mountain, cave, hidden land."@en ;
+	skos:prefLabel "Building Type"@en ;
 	.
 
 tolo:Death
@@ -168,6 +177,32 @@ tolo:IncarnationLineage
 		;
 	.
 
+tolo:Institution
+	a owl:Class ;
+	rdfs:subClassOf gist:Organization ;
+	skos:definition "A human-made organization typically connected to a single or multiple physical buildings with a shared mission, identity, norms and rules that often contains subsidiary members or suborganizations."@en ;
+	skos:example "Choding Monastery, Kokonor Lake, Nyarongsha School, Mentsikhang Hospital."@en ;
+	skos:prefLabel "Institution"@en ;
+	.
+
+tolo:InstitutionType
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom tolo:Institution ;
+		]
+		;
+	skos:definition "Indicates the specific type of an institution."@en ;
+	skos:example "Monastery, hospital, school, etc."@en ;
+	skos:prefLabel "Institution Type"@en ;
+	skos:scopeNote "Using the class-type pattern, some institution types will also be represented as subclasses because they have specialized restrictions."@en ;
+	.
+
 tolo:KinshipGroup
 	a owl:Class ;
 	rdfs:subClassOf
@@ -202,6 +237,23 @@ tolo:KinshipGroupType
 	skos:example "Lhasa Aristocracy."@en ;
 	skos:prefLabel "Kinship Group Type"@en ;
 	skos:scopeNote "Currently only one type is defined."@en ;
+	.
+
+tolo:LandmarkType
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom gist:Landmark ;
+		]
+		;
+	skos:definition "Indicates the specific type of a building."@en ;
+	skos:example "Manor, government building, palace, temple."@en ;
+	skos:prefLabel "Landmark Type"@en ;
 	.
 
 tolo:Marriage

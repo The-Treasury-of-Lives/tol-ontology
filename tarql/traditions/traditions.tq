@@ -39,7 +39,8 @@ CONSTRUCT {
         skos:prefLabel "Traditions"@en ;
         skos:definition "Defines Tibetan traditions."@en ;
         skos:scopeNote "Traditions are instances of Tibetan religion that identifies as a cohesive group with distinct modes of ritual and learning, as well as associated institutions such as monasteries."@en ;
-	    owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
+	    owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ,
+            <https://w3id.org/semanticarts/ontology/gistCore12.0.1> ;
 	    owl:versionIRI <https://w3id.org/treasuryoflives/data/tolTraditionsX.x.x> ;
 	.
 

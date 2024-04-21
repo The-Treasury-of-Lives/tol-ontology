@@ -1,0 +1,215 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+tolx:_BuildingType_government_building
+	a gist:BuildingType ;
+	owl:sameAs wiki:Q294422 ;
+	skos:prefLabel
+		"Government Building"@en ,
+		"gzhung las khang"@bo-x-ewts
+		;
+	.
+
+tolx:_BuildingType_manor
+	a gist:BuildingType ;
+	owl:sameAs
+		bdr:PT0034 ,
+		wiki:Q879050
+		;
+	skos:prefLabel
+		"Manor"@en ,
+		"gzims shag"@bo-x-ewts ,
+		"府邸"@zh-HANI
+		;
+	.
+
+tolx:_BuildingType_palace
+	a gist:BuildingType ;
+	owl:sameAs
+		bdr:PT0051 ,
+		wiki:Q16560
+		;
+	skos:prefLabel
+		"Palace"@en ,
+		"pho brang, rgyal khang"@bo-x-ewts ,
+		"宫殿"@zh-HANI
+		;
+	.
+
+tolx:_BuildingType_temple
+	a gist:BuildingType ;
+	owl:sameAs
+		bdr:PT0074 ,
+		wiki:Q7244730
+		;
+	skos:prefLabel
+		"Temple"@en ,
+		"lha khang"@bo-x-ewts ,
+		"宇"@zh-HANI
+		;
+	.
+
+tolx:_InstitutionType_dharma_center
+	a tolo:InstitutionType ;
+	owl:sameAs wiki:Q5269258 ;
+	skos:prefLabel
+		"Dharma Center"@en ,
+		"chos tshogs"@bo-x-ewts
+		;
+	.
+
+tolx:_InstitutionType_hospital
+	a tolo:InstitutionType ;
+	owl:sameAs
+		bdr:PT0023 ,
+		wiki:Q101251441
+		;
+	skos:prefLabel
+		"Hospital"@en ,
+		"sman khang"@bo-x-ewts ,
+		"医院"@zh-HANI
+		;
+	.
+
+tolx:_InstitutionType_monastery
+	a tolo:InstitutionType ;
+	owl:sameAs
+		bdr:PT0037 ,
+		wiki:Q44613
+		;
+	skos:prefLabel
+		"Monastery"@en ,
+		"dgon pa"@bo-x-ewts ,
+		"寺院"@zh-HANI
+		;
+	.
+
+tolx:_InstitutionType_monastic_college
+	a tolo:InstitutionType ;
+	owl:sameAs bdr:PT0038 ;
+	skos:prefLabel
+		"Monastic College"@en ,
+		"grwa tshang, bshad grwa"@bo-x-ewts ,
+		"讲经院"@zh-HANI
+		;
+	.
+
+tolx:_InstitutionType_nunnery
+	a tolo:InstitutionType ;
+	owl:sameAs
+		bdr:PT0050 ,
+		wiki:Q6021560
+		;
+	skos:prefLabel
+		"Nunnery"@en ,
+		"a ni dgon pa, btsun dgon, jo mo dgon"@bo-x-ewts ,
+		"尼姑寺"@zh-HANI
+		;
+	.
+
+tolx:_InstitutionType_school
+	a tolo:InstitutionType ;
+	owl:sameAs
+		bdr:PT0067 ,
+		wiki:Q3914
+		;
+	skos:prefLabel
+		"School"@en ,
+		"slob grwa"@bo-x-ewts ,
+		"学校"@zh-HANI
+		;
+	.
+
+tolx:_LandmarkType_cave
+	a gist:LandmarkType ;
+	owl:sameAs
+		bdr:PT0036 ,
+		wiki:Q35509
+		;
+	skos:prefLabel
+		"Cave"@en ,
+		"sgrub phug"@bo-x-ewts ,
+		"洞穴"@zh-HANI
+		;
+	.
+
+tolx:_LandmarkType_hermitage
+	a gist:LandmarkType ;
+	owl:sameAs
+		bdr:PT0021 ,
+		wiki:Q513550
+		;
+	skos:prefLabel
+		"Hermitage"@en ,
+		"ri khrod"@bo-x-ewts ,
+		"རི་ཁྲོད་"@bo ,
+		"隐修地"@zh-HANI
+		;
+	.
+
+tolx:_LandmarkType_hidden_land
+	a gist:LandmarkType ;
+	owl:sameAs bdr:PT0023 ;
+	skos:prefLabel
+		"Hidden Land"@en ,
+		"sbas yul"@bo-x-ewts ,
+		"秘境"@zh-HANI
+		;
+	.
+
+tolx:_LandmarkType_lake
+	a gist:LandmarkType ;
+	owl:sameAs
+		bdr:PT0028 ,
+		wiki:Q23397
+		;
+	skos:prefLabel
+		"Lake"@en ,
+		"mtsho"@bo-x-ewts ,
+		"湖"@zh-HANI
+		;
+	.
+
+tolx:_LandmarkType_mountain
+	a gist:LandmarkType ;
+	owl:sameAs
+		bdr:PT0042 ,
+		wiki:Q8502
+		;
+	skos:prefLabel
+		"Mountain"@en ,
+		"ri bo"@bo-x-ewts ,
+		"山"@zh-HANI
+		;
+	.
+
+tolx:_LandmarkType_stupa
+	a gist:LandmarkType ;
+	owl:sameAs
+		bdr:PT0072 ,
+		wiki:Q180987
+		;
+	skos:prefLabel
+		"""
+མཆོད་རྟེན་"""@bo ,
+		"Stupa"@en ,
+		"mchod rten"@bo-x-ewts ,
+		"佛塔"@zh-HANI
+		;
+	.
+

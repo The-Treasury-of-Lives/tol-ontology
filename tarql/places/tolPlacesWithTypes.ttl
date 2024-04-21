@@ -1,0 +1,6051 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:_Building_1005
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1025
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1092
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_1099
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_1101
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1120
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1122
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1123
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1124
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1125
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1162
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1185
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1198
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	.
+
+told:_Building_12
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1217
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1298
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_1312
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_1340
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1345
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	.
+
+told:_Building_1347
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1349
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	.
+
+told:_Building_1359
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1372
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1376
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1377
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1397
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1406
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1407
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	.
+
+told:_Building_143
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1460
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1470
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_1471
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_1500
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1539
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1543
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_government_building ;
+	.
+
+told:_Building_1558
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	.
+
+told:_Building_1561
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_1589
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	.
+
+told:_Building_1591
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1597
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1598
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1609
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1613
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_165
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1653
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1678
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_1687
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	.
+
+told:_Building_181
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_345
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_45
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_508
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_728
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_729
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_818
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_843
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_844
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_845
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_846
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_847
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_848
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_849
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_850
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_851
+	a gist:Building ;
+	gist:isCategorizedBy
+		tolx:_BuildingType_manor ,
+		tolx:_BuildingType_temple
+		;
+	.
+
+told:_Building_852
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_853
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_855
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_857
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_858
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_865
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_866
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_867
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_868
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_870
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_872
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_873
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_874
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_875
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_877
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_878
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_883
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_887
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_government_building ;
+	.
+
+told:_Building_888
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_government_building ;
+	.
+
+told:_Building_889
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_government_building ;
+	.
+
+told:_Building_890
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_government_building ;
+	.
+
+told:_Building_893
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_894
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_895
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_896
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_897
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_898
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_899
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_902
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_903
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	.
+
+told:_Building_904
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_government_building ;
+	.
+
+told:_Building_905
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	.
+
+told:_Building_906
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	.
+
+told:_Building_92
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_934
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_935
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_936
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_937
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_938
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_939
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Building_958
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	.
+
+told:_Institution_10
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1000
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1001
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1002
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1004
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1005
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1009
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_101
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1010
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1012
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1013
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1014
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1016
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1017
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1018
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1019
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_102
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1020
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1021
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1022
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
+	.
+
+told:_Institution_1023
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1024
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1036
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1037
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1038
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1041
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1042
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1043
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1044
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1045
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1049
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_105
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1051
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1054
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1055
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1056
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_106
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1065
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1066
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1069
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_107
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1070
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1071
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1072
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1073
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_108
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1087
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
+	.
+
+told:_Institution_1088
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
+	.
+
+told:_Institution_1089
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_109
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1091
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1093
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1094
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1095
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1096
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1097
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_11
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_110
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1101
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1102
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1103
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1104
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1105
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1106
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1107
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1108
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1109
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1110
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1111
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1112
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1113
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1114
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1115
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1119
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_112
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1121
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1126
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_hospital ;
+	.
+
+told:_Institution_1128
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1131
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1133
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1134
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1137
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1138
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_114
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1141
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1143
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1144
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1145
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1147
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1148
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_115
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1150
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1153
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1154
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1157
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_116
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1161
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1165
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1166
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_117
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1171
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1172
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1173
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1174
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1175
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1176
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1178
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1179
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1183
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1184
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1186
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1187
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1189
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_119
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1190
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1191
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1192
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1194
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1195
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1196
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1197
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1199
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_12
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_120
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1200
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1201
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1204
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1205
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1206
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_121
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1211
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1212
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1215
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1216
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1218
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1219
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_122
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1220
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1224
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1226
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1228
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1229
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1231
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1233
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1234
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1235
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1236
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1237
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1238
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_124
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1240
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1241
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
+	.
+
+told:_Institution_1242
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1243
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1244
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1246
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1247
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1248
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1249
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1250
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1251
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1254
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1255
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1256
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1257
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1259
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_126
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1261
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1263
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1264
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1265
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1266
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1267
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1268
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_127
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1270
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1271
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1273
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1274
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1276
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1277
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1279
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_128
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1280
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1281
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1282
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1283
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1284
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1286
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1287
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1288
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1289
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_129
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1292
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1294
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1295
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1297
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1299
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_13
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_130
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1300
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1301
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1302
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1305
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1307
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1308
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1309
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1313
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1315
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1316
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1317
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1318
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_132
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1320
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1321
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1322
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1323
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1324
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1327
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	.
+
+told:_Institution_1329
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1330
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1331
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1336
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1337
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1338
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1339
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_134
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1340
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1341
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1342
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_135
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1352
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1353
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1354
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	.
+
+told:_Institution_1355
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1359
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_136
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1362
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1364
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1365
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1367
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1368
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1369
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_137
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1370
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	.
+
+told:_Institution_1373
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1374
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	.
+
+told:_Institution_1377
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1378
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1379
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1380
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1386
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
+	.
+
+told:_Institution_1387
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1388
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1390
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1391
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1392
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1393
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1394
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1395
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1398
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1399
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_14
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_140
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1400
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1401
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1403
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1404
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1405
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1406
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1408
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1409
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_141
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1410
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1411
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	.
+
+told:_Institution_1412
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1413
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1414
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1415
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1416
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1417
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1418
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1419
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1420
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1421
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1422
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1423
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1426
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1428
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1429
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_143
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1431
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1432
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1433
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1434
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1435
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1437
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1438
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1439
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1440
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	.
+
+told:_Institution_1441
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1442
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	.
+
+told:_Institution_1443
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1445
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1447
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1448
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1449
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_145
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1450
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1452
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1453
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1454
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1455
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1456
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1457
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1458
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1459
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_146
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1460
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1461
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1462
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1467
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1472
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1473
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1474
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1475
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1476
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1477
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1478
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1479
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1480
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1481
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1482
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1486
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1487
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1488
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1489
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_149
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1490
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1491
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1492
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1493
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1497
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1498
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1499
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_15
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_150
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1501
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1502
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
+	.
+
+told:_Institution_1504
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1506
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1507
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1508
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1509
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_151
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1510
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1511
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
+	.
+
+told:_Institution_1512
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1513
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1515
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1516
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1517
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1518
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1520
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
+	.
+
+told:_Institution_1521
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1522
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1523
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1524
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1526
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1527
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1528
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1529
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1530
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_hospital ;
+	.
+
+told:_Institution_1532
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1533
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1534
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1535
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
+	.
+
+told:_Institution_1537
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
+	.
+
+told:_Institution_1538
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_154
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1541
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1542
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1544
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1545
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1546
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1548
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1549
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1552
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1554
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1555
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1556
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1557
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	.
+
+told:_Institution_1559
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_156
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1563
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1564
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1565
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1566
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1567
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1568
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_157
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1570
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1572
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1573
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1574
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1575
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1576
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1578
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1579
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_158
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1585
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1586
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1587
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1588
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_159
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1592
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
+	.
+
+told:_Institution_1593
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1594
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1595
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1596
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_160
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1600
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1601
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1602
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1603
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1604
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1605
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1608
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1611
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1612
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1613
+	a tolo:Institution ;
+	gist:isCategorizedBy
+		tolx:_InstitutionType_dharma_center ,
+		tolx:_InstitutionType_monastery
+		;
+	.
+
+told:_Institution_1615
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1617
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1618
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1619
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1620
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1624
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1625
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1627
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1630
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1631
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1632
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1634
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1636
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1637
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1639
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1640
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1641
+	a tolo:Institution ;
+	gist:isCategorizedBy
+		tolx:_InstitutionType_dharma_center ,
+		tolx:_InstitutionType_hospital
+		;
+	.
+
+told:_Institution_1642
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1649
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_165
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1651
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	.
+
+told:_Institution_1656
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1657
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1658
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1659
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1660
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1661
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1662
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1664
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1665
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1666
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1667
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1668
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1670
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1673
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1674
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1676
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1679
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1681
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1682
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1683
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1685
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1686
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_1688
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1690
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1691
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_174
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_178
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_179
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_180
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_183
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_185
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_186
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_187
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_189
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_190
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_191
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_192
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_193
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_195
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_197
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_198
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_199
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_204
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_205
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_206
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_207
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_208
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_209
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_21
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_210
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_212
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_214
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_215
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_216
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_217
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_218
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_219
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_224
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_226
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_227
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_228
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_229
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_231
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_232
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_233
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_234
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_235
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_236
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_237
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_241
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_242
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_243
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_244
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_245
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_246
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_247
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_248
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_249
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_250
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_251
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_253
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_254
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_255
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_256
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_259
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_263
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_265
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_266
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_267
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_269
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_270
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_271
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_272
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_273
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_274
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_275
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_276
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_277
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_278
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_279
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_280
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_282
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_285
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_286
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_287
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_288
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_289
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_290
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_291
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_292
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_293
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_294
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_295
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_296
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_297
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_298
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_305
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_306
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_307
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_308
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_309
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_310
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_311
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_312
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_314
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_315
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_316
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_317
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_318
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_319
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_32
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_321
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_322
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_323
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_324
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_325
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_326
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_327
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_33
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_331
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_333
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_334
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_335
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_338
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_339
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_340
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_342
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_343
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_344
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_345
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_346
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_347
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_348
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_349
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_35
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_350
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_351
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_352
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_353
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_354
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_355
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_356
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_357
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_358
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_359
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_36
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_360
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_361
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_362
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_363
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_364
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_365
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_367
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_368
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_369
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_37
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_370
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_371
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_372
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_373
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_374
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_375
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_376
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_377
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_378
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_38
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_380
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_381
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_382
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_383
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_384
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_385
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_386
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_387
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_388
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_389
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_39
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_390
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_392
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_393
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_395
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_396
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_397
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_398
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_399
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_40
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_400
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_401
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_402
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_403
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_404
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_405
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_406
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_407
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_408
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_409
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_41
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_410
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_411
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_412
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_413
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_415
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_416
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_417
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_418
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_419
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_420
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_421
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_422
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_423
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_424
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_425
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_426
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_427
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_43
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_430
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_432
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_434
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_435
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_437
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_439
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_44
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_440
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_441
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_442
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_443
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_444
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_445
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_446
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_447
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_448
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_449
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_450
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_451
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_452
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
+	.
+
+told:_Institution_453
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_454
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_455
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_459
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_461
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_464
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_465
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_466
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_467
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_468
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_469
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_470
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_471
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_472
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_473
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_474
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_475
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_476
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_479
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_48
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_480
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_481
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_482
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_484
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_485
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_486
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_487
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_488
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_489
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_490
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_491
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_492
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_493
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_494
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_495
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_496
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_497
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_498
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_499
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_500
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_501
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_502
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_503
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_504
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_505
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_508
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_509
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_510
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_511
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_512
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_514
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_515
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_516
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_517
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_518
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_519
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_52
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_520
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_522
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_523
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_524
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_525
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_526
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_527
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_529
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_530
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_531
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_532
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_533
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_535
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_536
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_537
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_538
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_539
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_540
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_543
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_544
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_546
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_547
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_551
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_553
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_554
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_556
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_557
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_559
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_560
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_561
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_563
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_564
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_565
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_566
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_567
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_569
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_571
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_572
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_573
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_574
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_575
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_576
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_585
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_586
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_587
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_59
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_590
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_591
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_595
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_596
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_597
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_599
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_60
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_603
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_612
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_615
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_616
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_617
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_618
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_62
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_621
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_63
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_64
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_650
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_657
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_67
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_672
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_673
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_679
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_68
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_682
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_687
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_688
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_696
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_697
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_699
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_70
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_700
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_701
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_702
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_703
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_704
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_705
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_707
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_711
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_713
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_716
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_717
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_718
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_719
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_720
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_721
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_722
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_723
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_724
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_73
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_75
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_76
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_78
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_80
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_804
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_805
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_806
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_807
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_808
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_809
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_810
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_811
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_812
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_813
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_814
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_815
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_816
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_818
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_819
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_82
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_821
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_822
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_823
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_824
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_825
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_826
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_827
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_828
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_829
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_831
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_834
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_835
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_837
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_838
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_839
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_840
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_841
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_842
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_85
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
+	.
+
+told:_Institution_860
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_861
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_862
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_869
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_87
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_871
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_879
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_880
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_881
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_882
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_884
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_892
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_893
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_9
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_90
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_900
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_907
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_908
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_909
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_91
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_910
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_911
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_912
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_913
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_914
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_915
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_hospital ;
+	.
+
+told:_Institution_917
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_920
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_921
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_922
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_923
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_924
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_925
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_926
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_927
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_928
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_93
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_934
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_935
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_936
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_937
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_938
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_939
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_941
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_942
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_943
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_944
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_945
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_947
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_949
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_95
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_952
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_954
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_955
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_956
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_957
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_958
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_959
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_96
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_960
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_961
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_962
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_964
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_968
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_97
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_972
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_977
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_979
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_98
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_981
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_982
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_983
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_984
+	a tolo:Institution ;
+	gist:isCategorizedBy
+		tolx:_InstitutionType_monastery ,
+		tolx:_InstitutionType_monastic_college
+		;
+	.
+
+told:_Institution_985
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_986
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_987
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_988
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_991
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_996
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_997
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Institution_999
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
+	.
+
+told:_Landmark_1014
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1015
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1046
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1050
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1052
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1053
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1068
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1081
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	.
+
+told:_Landmark_1082
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	.
+
+told:_Landmark_1083
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	.
+
+told:_Landmark_1084
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	.
+
+told:_Landmark_1085
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	.
+
+told:_Landmark_1086
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	.
+
+told:_Landmark_1100
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1118
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	.
+
+told:_Landmark_1136
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	.
+
+told:_Landmark_1139
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1140
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	.
+
+told:_Landmark_1142
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	.
+
+told:_Landmark_1151
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1152
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1158
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_stupa ;
+	.
+
+told:_Landmark_1163
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	.
+
+told:_Landmark_1164
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	.
+
+told:_Landmark_1169
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	.
+
+told:_Landmark_1170
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1180
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1182
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1184
+	a gist:Landmark ;
+	gist:isCategorizedBy
+		tolx:_LandmarkType_cave ,
+		tolx:_LandmarkType_hermitage
+		;
+	.
+
+told:_Landmark_1188
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1213
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1214
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1221
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	.
+
+told:_Landmark_1222
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	.
+
+told:_Landmark_1227
+	a gist:Landmark ;
+	gist:isCategorizedBy
+		tolx:_LandmarkType_cave ,
+		tolx:_LandmarkType_hermitage
+		;
+	.
+
+told:_Landmark_1230
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1232
+	a gist:Landmark ;
+	gist:isCategorizedBy
+		tolx:_LandmarkType_cave ,
+		tolx:_LandmarkType_hermitage
+		;
+	.
+
+told:_Landmark_1245
+	a gist:Landmark ;
+	gist:isCategorizedBy
+		tolx:_LandmarkType_cave ,
+		tolx:_LandmarkType_hermitage
+		;
+	.
+
+told:_Landmark_1258
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	.
+
+told:_Landmark_1262
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1272
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	.
+
+told:_Landmark_1275
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	.
+
+told:_Landmark_1278
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	.
+
+told:_Landmark_1291
+	a gist:Landmark ;
+	gist:isCategorizedBy
+		tolx:_LandmarkType_cave ,
+		tolx:_LandmarkType_hermitage
+		;
+	.
+
+told:_Landmark_1296
+	a gist:Landmark ;
+	gist:isCategorizedBy
+		tolx:_LandmarkType_cave ,
+		tolx:_LandmarkType_hermitage
+		;
+	.
+
+told:_Landmark_1303
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1306
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1311
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hidden_land ;
+	.
+
+told:_Landmark_1325
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	.
+
+told:_Landmark_1332
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1333
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_stupa ;
+	.
+
+told:_Landmark_1334
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1335
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1343
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1344
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	.
+
+told:_Landmark_1346
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	.
+
+told:_Landmark_1348
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	.
+
+told:_Landmark_1350
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	.
+
+told:_Landmark_1351
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_stupa ;
+	.
+
+told:_Landmark_1356
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1361
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1363
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1366
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1396
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	.
+
+told:_Landmark_1402
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	.
+
+told:_Landmark_1430
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1436
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1463
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1464
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1465
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1466
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1468
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1469
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1494
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_stupa ;
+	.
+
+told:_Landmark_1496
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1536
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1551
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1560
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1562
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1569
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1607
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	.
+
+told:_Landmark_1610
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_cave ;
+	.
+
+told:_Landmark_1628
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_cave ;
+	.
+
+told:_Landmark_1633
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1644
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1645
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1646
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1647
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1648
+	a gist:Landmark ;
+	gist:isCategorizedBy
+		tolx:_LandmarkType_hermitage ,
+		tolx:_LandmarkType_lake
+		;
+	.
+
+told:_Landmark_1655
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1671
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_1689
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_stupa ;
+	.
+
+told:_Landmark_172
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_stupa ;
+	.
+
+told:_Landmark_173
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_stupa ;
+	.
+
+told:_Landmark_188
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_204
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_225
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_306
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_cave ;
+	.
+
+told:_Landmark_494
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_495
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_507
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_510
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_534
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_825
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_841
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_860
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_863
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_951
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_970
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_971
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_974
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_976
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_989
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_992
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_994
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
+told:_Landmark_995
+	a gist:Landmark ;
+	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	.
+
