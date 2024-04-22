@@ -38,7 +38,7 @@ CONSTRUCT {
 WHERE {
 
     # Testing
-    # FILTER(?ROWNUM IN (1)) 
+    # FILTER(?community_id in ("9", "45"))
 
     # Get the local name of the entity's class
     BIND(
@@ -47,9 +47,16 @@ WHERE {
             "Building", ?unbound),  
             IF(?place_type_name IN ("Stupa", "Hermitage", "Lake", "Mountain", "Hidden Land", "Cave"), 
             "Landmark", ?unbound),
+            IF(?place_type_name = "Monastery", "Monastery", ?unbound),
+            IF(?place_type_name = "Monastic College", "MonasticCollege", ?unbound),
             "Institution"
     ) AS ?class_local_name)
 
+    # Get the class name used in the infix
+    BIND(IF(?class_local_name IN ("Monastery", "MonasticCollege"),
+        "Institution",
+        ?class_local_name
+    ) AS ?type_infix)
 
     # Get the entity's class - e.g., gist:Building, tolo:Institution
     BIND(IF(?class_local_name IN ("Building", "Landmark"), 
@@ -59,7 +66,7 @@ WHERE {
 
     # Get the entity's category - e.g., tolx:_BuildingType_manor
     BIND(LCASE(REPLACE(?place_type_name, " ", "_")) AS ?type)
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_", ?class_local_name, "Type_", ?type)) AS ?type_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_", ?type_infix, "Type_", ?type)) AS ?type_iri)
 
     # Get the entity's IRI
     BIND(tarql:expandPrefixedName(CONCAT("told:_", ?class_local_name, "_", ?community_id)) AS ?place_iri)
