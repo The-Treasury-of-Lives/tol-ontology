@@ -179,7 +179,17 @@ tolo:IncarnationLineage
 
 tolo:Institution
 	a owl:Class ;
-	rdfs:subClassOf gist:Organization ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:Organization
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:someValuesFrom tolo:InstitutionType ;
+			]
+		) ;
+	] ;
 	skos:definition "A human-made organization typically connected to a single or multiple physical buildings with a shared mission, identity, norms and rules that often contains subsidiary members or suborganizations."@en ;
 	skos:example "Choding Monastery, Kokonor Lake, Nyarongsha School, Mentsikhang Hospital."@en ;
 	skos:prefLabel "Institution"@en ;
@@ -331,6 +341,22 @@ tolo:MarriageTerminationCause
 	skos:definition "The reason for the termination of a marriage."@en ;
 	skos:example "Death, divorce, dissolution."@en ;
 	skos:prefLabel "Marriage Termination Cause"@en ;
+	.
+
+tolo:Monastery
+	a owl:Class ;
+	rdfs:subClassOf tolo:Institution ;
+	skos:definition "TBD"@en ;
+	skos:editorialNote "Has a founder, has abotts, ..."@en ;
+	skos:prefLabel "Monastery"@en ;
+	.
+
+tolo:MonasticCollege
+	a owl:Class ;
+	rdfs:subClassOf tolo:Institution ;
+	skos:definition "TBD"@en ;
+	skos:editorialNote "Part of a monastery"@en ;
+	skos:prefLabel "Monastic College"@en ;
 	.
 
 tolo:Person

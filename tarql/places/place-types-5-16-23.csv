@@ -1,18 +1,21 @@
 TOL ID,BDRC ID,Wikidata ID,Site (Place) Type,Wylie,Tibetan,Chinese,Class,Notes
-2,PT0072,Q180987,Stupa,mchod rten,"
-མཆོད་རྟེན་",佛塔,Landmark,
+2,PT0072,Q180987,Stupa,mchod rten,མཆོད་རྟེན་,佛塔,Landmark,
 950,PT0021,Q513550,Hermitage,ri khrod,རི་ཁྲོད་,隐修地,Landmark,"Can be located in a cave, etc."
-1079,PT0028,Q23397,Lake,mtsho,,湖,Landmark,
-1080,PT0042,Q8502,Mountain,ri bo,,山,Landmark,
-1310,PT0023,,Hidden Land,sbas yul,,秘境,Landmark,
-1622,PT0036,Q35509,Cave,sgrub phug,,洞穴,Landmark,
-1,PT0037,Q44613,Monastery,dgon pa,,寺院,Institution,
-1129,PT0023,Q101251441,Hospital,sman khang,,医院,Institution,
-1326,PT0067,Q3914,School,slob grwa,,学校,Institution,
-1444,,Q5269258,Dharma Center,chos tshogs,,,Institution,
-1505,PT0050,Q6021560,Nunnery,"a ni dgon pa, btsun dgon, jo mo dgon",,尼姑寺,Institution,
-1623,PT0038,,Monastic College,"grwa tshang, bshad grwa",,讲经院,Institution,Always associated with a monastery
-727,PT0034,Q879050,Manor,gzims shag,,府邸,Building,
-885,,Q294422,Government Building,gzhung las khang,,,Building,
-886,PT0051,Q16560,Palace,"pho brang, rgyal khang",,宫殿,Building,
-3,PT0074,Q7244730,Temple,lha khang,,宇,Building,
+1079,PT0028,Q23397,Lake,mtsho,"
+མཚོ་",湖,Landmark,
+1080,PT0042,Q8502,Mountain,ri bo,རི་བོ་,山,Landmark,
+1310,PT0023,,Hidden Land,sbas yul,སྦས་ཡུལ་,秘境,Landmark,
+1622,PT0036,Q35509,Cave,sgrub phug,སྒྲུབ་ཕུག་,洞穴,Landmark,
+1,PT0037,Q44613,Monastery,dgon pa,དགོན་པ་,寺院,Institution,
+1129,PT0023,Q101251441,Hospital,sman khang,སྨན་ཁང་,医院,Institution,
+1326,PT0067,Q3914,School,slob grwa,སློབ་གྲྭ་,学校,Institution,
+1444,,Q5269258,Dharma Center,chos tshogs,ཆོས་ཚོགས་,,Institution,
+1505,PT0050,Q6021560,Nunnery,a ni dgon pa; btsun dgon;  jo mo dgon,ཨ་ནི་དགོན་པ་; བཙུན་དགོན་; ཇོ་མོ་དགོན་,尼姑寺,Institution,
+1623,PT0038,,Monastic College,"grwa tshang, bshad grwa","
+གྲྭ་ཚང་; བཤད་གྲྭ་",讲经院,Institution,Always associated with a monastery
+727,PT0034,Q879050,Manor,gzims shag,གཟིམས་ཤག་,府邸,Building,
+885,,Q294422,Government Building,gzhung las khang,གཞུང་ལས་ཁང་,,Building,
+886,PT0051,Q16560,Palace,"pho brang, rgyal khang","ཕོ་བྲང་; 
+རྒྱལ་ཁང་",宫殿,Building,
+3,PT0074,Q7244730,Temple,lha khang,"
+ལྷ་ཁང་",宇,Building,

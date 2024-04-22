@@ -21,7 +21,8 @@ tolx:_BuildingType_government_building
 	owl:sameAs wiki:Q294422 ;
 	skos:prefLabel
 		"Government Building"@en ,
-		"gzhung las khang"@bo-x-ewts
+		"gzhung las khang"@bo-x-ewts ,
+		"གཞུང་ལས་ཁང་"@bo
 		;
 	.
 
@@ -34,6 +35,7 @@ tolx:_BuildingType_manor
 	skos:prefLabel
 		"Manor"@en ,
 		"gzims shag"@bo-x-ewts ,
+		"གཟིམས་ཤག་"@bo ,
 		"府邸"@zh-HANI
 		;
 	.
@@ -47,6 +49,8 @@ tolx:_BuildingType_palace
 	skos:prefLabel
 		"Palace"@en ,
 		"pho brang, rgyal khang"@bo-x-ewts ,
+		"""ཕོ་བྲང་; 
+རྒྱལ་ཁང་"""@bo ,
 		"宫殿"@zh-HANI
 		;
 	.
@@ -58,6 +62,8 @@ tolx:_BuildingType_temple
 		wiki:Q7244730
 		;
 	skos:prefLabel
+		"""
+ལྷ་ཁང་"""@bo ,
 		"Temple"@en ,
 		"lha khang"@bo-x-ewts ,
 		"宇"@zh-HANI
@@ -69,7 +75,8 @@ tolx:_InstitutionType_dharma_center
 	owl:sameAs wiki:Q5269258 ;
 	skos:prefLabel
 		"Dharma Center"@en ,
-		"chos tshogs"@bo-x-ewts
+		"chos tshogs"@bo-x-ewts ,
+		"ཆོས་ཚོགས་"@bo
 		;
 	.
 
@@ -82,6 +89,7 @@ tolx:_InstitutionType_hospital
 	skos:prefLabel
 		"Hospital"@en ,
 		"sman khang"@bo-x-ewts ,
+		"སྨན་ཁང་"@bo ,
 		"医院"@zh-HANI
 		;
 	.
@@ -95,6 +103,7 @@ tolx:_InstitutionType_monastery
 	skos:prefLabel
 		"Monastery"@en ,
 		"dgon pa"@bo-x-ewts ,
+		"དགོན་པ་"@bo ,
 		"寺院"@zh-HANI
 		;
 	.
@@ -103,6 +112,8 @@ tolx:_InstitutionType_monastic_college
 	a tolo:InstitutionType ;
 	owl:sameAs bdr:PT0038 ;
 	skos:prefLabel
+		"""
+གྲྭ་ཚང་; བཤད་གྲྭ་"""@bo ,
 		"Monastic College"@en ,
 		"grwa tshang, bshad grwa"@bo-x-ewts ,
 		"讲经院"@zh-HANI
@@ -117,7 +128,8 @@ tolx:_InstitutionType_nunnery
 		;
 	skos:prefLabel
 		"Nunnery"@en ,
-		"a ni dgon pa, btsun dgon, jo mo dgon"@bo-x-ewts ,
+		"a ni dgon pa; btsun dgon;  jo mo dgon"@bo-x-ewts ,
+		"ཨ་ནི་དགོན་པ་; བཙུན་ད��ོན་; ཇོ་མོ་དགོན་"@bo ,
 		"尼姑寺"@zh-HANI
 		;
 	.
@@ -131,6 +143,7 @@ tolx:_InstitutionType_school
 	skos:prefLabel
 		"School"@en ,
 		"slob grwa"@bo-x-ewts ,
+		"སློབ་གྲྭ་"@bo ,
 		"学校"@zh-HANI
 		;
 	.
@@ -144,6 +157,7 @@ tolx:_LandmarkType_cave
 	skos:prefLabel
 		"Cave"@en ,
 		"sgrub phug"@bo-x-ewts ,
+		"སྒྲུབ་ཕུག་"@bo ,
 		"洞穴"@zh-HANI
 		;
 	.
@@ -168,6 +182,7 @@ tolx:_LandmarkType_hidden_land
 	skos:prefLabel
 		"Hidden Land"@en ,
 		"sbas yul"@bo-x-ewts ,
+		"སྦས་ཡུལ་"@bo ,
 		"秘境"@zh-HANI
 		;
 	.
@@ -179,6 +194,8 @@ tolx:_LandmarkType_lake
 		wiki:Q23397
 		;
 	skos:prefLabel
+		"""
+མཚོ་"""@bo ,
 		"Lake"@en ,
 		"mtsho"@bo-x-ewts ,
 		"湖"@zh-HANI
@@ -194,6 +211,7 @@ tolx:_LandmarkType_mountain
 	skos:prefLabel
 		"Mountain"@en ,
 		"ri bo"@bo-x-ewts ,
+		"རི་བོ་"@bo ,
 		"山"@zh-HANI
 		;
 	.
@@ -205,10 +223,9 @@ tolx:_LandmarkType_stupa
 		wiki:Q180987
 		;
 	skos:prefLabel
-		"""
-མཆོད་རྟེན་"""@bo ,
 		"Stupa"@en ,
 		"mchod rten"@bo-x-ewts ,
+		"མཆོད་རྟེན་"@bo ,
 		"佛塔"@zh-HANI
 		;
 	.
