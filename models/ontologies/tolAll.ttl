@@ -6,6 +6,9 @@
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolMarriageRanksX.x.x
+# imports: https://w3id.org/treasuryoflives/taxonomy/tolPeerReviewedX.x.x
+# imports: https://w3id.org/treasuryoflives/taxonomy/tolRelativeStatementX.x.x
+# imports: https://w3id.org/treasuryoflives/taxonomy/tolStudentStatementX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x
 
 @prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
@@ -26,11 +29,14 @@
 		<https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolMarriageRanksX.x.x> ,
+		<https://w3id.org/treasuryoflives/taxonomy/tolPeerReviewedX.x.x> ,
+		<https://w3id.org/treasuryoflives/taxonomy/tolRelativeStatementX.x.x> ,
+		<https://w3id.org/treasuryoflives/taxonomy/tolStudentStatementX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x>
 		;
 	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolAllX.x.x> ;
 	skos:definition "A convenience file that provides a single point of entry to the Treasury of Lives Ontology. It does not itself define any terms, but rather specifies the full set of ontology and taxonomy imports, other than those imported directly by tolo:core."@en ;
 	skos:prefLabel "Treasury of Lives Ontology"@en ;
-	gist:license "TBD"^^xsd:string ;
+	gist:license "TBD"@en ;
 	.
 

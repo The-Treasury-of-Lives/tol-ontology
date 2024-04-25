@@ -93,8 +93,5 @@ WHERE {
 
     BIND(IF(?peer_reviewed = "1", "true", "false") AS ?peer_reviewed_value)
     BIND(tarql:expandPrefixedName(CONCAT("tolx:_PeerReviewed_", ?peer_reviewed_value)) AS ?peer_reviewed_category)
-    
-
-
-    # Display order - awaiting input
+   
 }
