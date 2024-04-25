@@ -31,7 +31,7 @@ CONSTRUCT {
         a tolo:Authorship ;
         skos:prefLabel ?label_en ;
         gist:hasParticipant ?author_iri ;
-        gist:hasParticipantn ?bio_iri ;
+        gist:hasParticipant ?bio_iri ;
         tolo:displayOrder ?display_order_int ;
         .
 
@@ -40,7 +40,7 @@ CONSTRUCT {
 WHERE {
     
     # Testing
-    FILTER(?ROWNUM = 1)
+    # FILTER(?ROWNUM = 1)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_Authorship_", ?biography_id, ?author_id)) AS ?authorship_iri)
     BIND(tarql:expandPrefixedName(CONCAT("told:_Biography_", ?biography_id)) AS ?bio_iri)
