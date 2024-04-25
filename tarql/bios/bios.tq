@@ -1,6 +1,5 @@
 PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
 PREFIX bdr: <http://purl.bdrc.io/resource/> 
-PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
@@ -18,62 +17,84 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/> 
 
 ## COLUMNS 
-# biography_id
+# biography_id (ignore)
 # person_id
-# summary
+# summary (HTML text)
 # body_text
-# author_id
-# display_order - not sure what to do with this
+# sources (HTML text)
+# peer_reviewed (binary)
+# published_display_date
+# updated_display_date
+# published_default_name
+# relative_statement (binary)
+# student_statement (binary)
 
 # Run: 
-# tarql --dedup 100000 bios.tq bio-full-text_2023-07-12.csv > tolBios.ttl
+# tarql --dedup 100000 bios.tq bio-4-22-24.csv > tolBios.ttl
 
 
 CONSTRUCT {
 
     ?bio_iri
-        a tolo:HtmlBiography ;
+        a tolo:Biography ;
         skos:prefLabel ?bio_label_en ;
         gist:isAbout ?person_iri ;
         gist:containedText ?bio_text_en ;
 	    gist:isExpressedIn media-txt:html ;
-        bf:summary ?summary_iri ;
-        bf:contribution ?contribution_iri ;
+        gist:isCategorizedBy   
+            ?peer_reviewed_category ,
+            ?relative_statement_category ,
+            ?student_statement_category ;
+        tolo:publicationDisplayDate ?published_display_date ;
+        tolo:updateDisplayDate ?updated_display_date ;
         .
 
     ?summary_iri
-        a bf:Summary ;
+        a tolo:Summary ;
         skos:prefLabel ?summary_label_en ;
         gist:isExpressedIn media-txt:html ;
         gist:containedText ?summary_text_en ;
+        gist:isAbout ?bio_iri ;
         .
 
-    ?contribution_iri 
-        a bf:Contribution ;
-        skos:prefLabel ?contribution_label_en ;
-        bf:role relators:aut ;
-        bf:agent ?author_iri ;
-        .      
+    ?source_statement_iri
+        a tolo:SourceStatement ;
+        skos:prefLabel ?source_statement_label_en ;
+        gist:isExpressedIn media-txt:html ;
+        gist:containedText ?source_statement_en ;
+        gist:isAbout ?bio_iri ;
+        .  
+
 }
 
 WHERE {
     
     # Testing
-    # FILTER(?ROWNUM = 1154)
+    FILTER(?ROWNUM = 1)
 
-    BIND(tarql:expandPrefixedName(CONCAT("told:_HtmlBiography_", ?biography_id)) AS ?bio_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Biography_", ?person_id)) AS ?bio_iri)
     BIND(STRLANG(?body_text, "en") AS ?bio_text_en)
     BIND(STRLANG(CONCAT("Biography of Person ", ?person_id), "en") AS ?bio_label_en)
-
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?person_id)) AS ?person_iri)
 
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Summary_HtmlBiography_", ?biography_id)) AS ?summary_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Summary_Biography_", ?person_id)) AS ?summary_iri)
     BIND(STRLANG(?summary, "en") AS ?summary_text_en)
     BIND(STRLANG(CONCAT("Summary of Biography of Person ", ?person_id), "en") AS ?summary_label_en)
 
-    BIND(tarql:expandPrefixedName(CONCAT("told:Contribution_HtmlBiography_", ?person_id, "_Author_", ?author_id)) AS ?contribution_iri)
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Author_", ?author_id)) AS ?author_iri)
-    BIND(STRLANG(CONCAT("Authorship of Biography of Person ", ?person_id, " by Author ", ?author_id), "en") AS ?contribution_label_en)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_SourceStatement_Biography_", ?person_id)) AS ?source_statement_iri)
+    BIND(STRLANG(?sources, "en") AS ?source_statement_en)
+    BIND(STRLANG(CONCAT("Sources for Biography of Person ", ?person_id), "en") AS ?source_statement_label_en)
+
+    BIND(IF(?relative_statement = "1", "true", "false") AS ?relative_statement_value)
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_RelativeStatement_", ?relative_statement_value)) AS ?relative_statement_category)
+
+    BIND(IF(?student_statement = "1", "true", "false") AS ?student_statement_value)
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_StudentStatement_", ?student_statement_value)) AS ?student_statement_category)
+
+    BIND(IF(?peer_reviewed = "1", "true", "false") AS ?peer_reviewed_value)
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_PeerReviewed_", ?peer_reviewed_value)) AS ?peer_reviewed_category)
+    
+
 
     # Display order - awaiting input
 }

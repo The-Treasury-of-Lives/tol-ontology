@@ -35,18 +35,50 @@ tolo:Author
 	skos:prefLabel "Author"@en ;
 	.
 
+tolo:Authorship
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:TemporalRelation
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasParticipant ;
+				owl:someValuesFrom tolo:Author ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasParticipant ;
+				owl:someValuesFrom tolo:Bio ;
+			]
+		) ;
+	] ;
+	skos:definition "Relates a bio to a person who has authored it."@en ;
+	skos:editorialNote
+		"Though there is a display order of multiple authors of a single biography, we do not currently distinguish primary from secondary author in the model, because there may be more than two authors and we still need to specify the display order."@en ,
+		"Using a simple model of authorship until there is a use case for a more complex model with contributions and roles as in BIBFRAME."@en
+		;
+	skos:prefLabel "Authorship"@en ;
+	.
+
 tolo:Biography
 	a owl:Class ;
 	rdfs:subClassOf
-		gist:ContentExpression ,
+		gist:FormattedContent ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:isExpressedIn ;
+			owl:hasValue media-txt:html ;
+		] ,
 		[
 			a owl:Restriction ;
 			owl:onProperty gist:isAbout ;
 			owl:someValuesFrom tolo:Person ;
 		]
 		;
-	skos:altLabel "Bio"@en ;
-	skos:definition "A written acount of another person's life."@en ;
+	skos:definition "A written account of another person's life, formatted in HTML for publication on the Treasury of Lives website."@en ;
+	skos:editorialNote "Using subclass axioms rather than equivalence because the author bios should not be inferred into the class. TODO: Generalize the model a bit for external consumption: define a generic Biography class, subclass of bf:Work (or gist:Content?), then HtmlBio as formatted html content, etc."@en ;
+	skos:example "The Treasury of Lives biography of Rongzom Chokyi Zangpo is published on the Treasury of Lives website at https://treasuryoflives.org/biographies/view/Rongzom-Chokyi-Zangpo/6194."@en ;
 	skos:prefLabel "Biography"@en ;
 	skos:scopeNote "A biography involves more than just basic facts like education, work, relationships, and death; it portrays a person's experience of these life events."@en ;
 	.
@@ -137,25 +169,6 @@ tolo:HistoricalPeriod
 	skos:example "The 10th century, the eary/mid/late 19th century."@en ;
 	skos:prefLabel "Historical Period"@en ;
 	skos:scopeNote "Whereas a time interval is any period of time, such as 2-4pm this afternoon or 1848-1947, a historical period is named and cited in relation to historical events or culture. Historical periods include full and partial centuries, which are ordinally numbered."@en ;
-	.
-
-tolo:HtmlBiography
-	a owl:Class ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			tolo:Biography
-			gist:FormattedContent
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:isExpressedIn ;
-				owl:hasValue media-txt:html ;
-			]
-		) ;
-	] ;
-	skos:definition "A biography formatted in HTML for publication on a website."@en ;
-	skos:example "The Treasury of Lives biography of Rongzom Chokyi Zangpo is published on the Treasury of Lives website at https://treasuryoflives.org/biographies/view/Rongzom-Chokyi-Zangpo/6194."@en ;
-	skos:prefLabel "HTML Biography"@en ;
 	.
 
 tolo:Incarnation
@@ -363,6 +376,21 @@ tolo:MonasticCollege
 	skos:prefLabel "Monastic College"@en ;
 	.
 
+tolo:PeerReviewed
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:someValuesFrom tolo:Biography ;
+		]
+		;
+	skos:prefLabel "A binary category indicating whether a biography has been peer reviewed or not."@en ;
+	.
+
 tolo:Person
 	a owl:Class ;
 	rdfs:subClassOf
@@ -376,6 +404,72 @@ tolo:Person
 		"mi"@bo-x-ewts
 		;
 	skos:scopeNote "May include quasi-historical figures."@en ;
+	.
+
+tolo:RelativeStatement
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:someValuesFrom tolo:Biography ;
+		]
+		;
+	skos:prefLabel
+		"A binary category indicating TBD..."@en ,
+		"Relative Statement"@en
+		;
+	.
+
+tolo:SourceStatement
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Content ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:isAbout ;
+			owl:someValuesFrom gist:Content ;
+		]
+		;
+	skos:definition "A statement of the sources used to compile a piece of content."@en ;
+	skos:editorialNote "Could alternatively model with an object property hasSourceStatement."@en ;
+	skos:prefLabel "Source Statement"@en ;
+	.
+
+tolo:StudentStatement
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:someValuesFrom tolo:Biography ;
+		]
+		;
+	skos:prefLabel
+		"A binary category indicating TBD..."@en ,
+		"Student Statement"@en
+		;
+	.
+
+tolo:Summary
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Content ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:isAbout ;
+			owl:someValuesFrom gist:Content ;
+		]
+		;
+	skos:definition "A brief statement or restatement of the main points of a larger work."@en ;
+	skos:editorialNote "Could alternatively model with an object property hasSummary."@en ;
+	skos:prefLabel "Summary"@en ;
 	.
 
 tolo:TeacherStudentRelationship
@@ -530,16 +624,6 @@ tolo:fullName
 	skos:prefLabel "full name"@en ;
 	skos:scopeNote "Generally used with persons but conceivably could have other uses."@en ;
 	gist:domainIncludes tolo:Person ;
-	.
-
-tolo:hasAuthor
-	a owl:ObjectProperty ;
-	skos:definition "Relates a work to a person who has authored it."@en ;
-	skos:editorialNote
-		"Currently using a simple object property to relate an author to a biography because it seems to satisfy the use case, but check to make sure this works."@en ,
-		"Though there is a display order of multiple authors of a single biography, we do  not currently distinguish primary from secondary author in the model, because there may be more than two authors and we still need to specify the display order."@en
-		;
-	skos:prefLabel "has author"@en ;
 	.
 
 tolo:hasEvent
@@ -921,6 +1005,15 @@ tolo:primaryName
 		;
 	.
 
+tolo:publicationDisplayDate
+	a owl:AnnotationProperty ;
+	rdfs:domain tolo:Biography ;
+	rdfs:range xsd:string ;
+	skos:definition "The date of publication to display with a biography."@en ;
+	skos:example "August 2007"@en ;
+	skos:prefLabel "publication display date"@en ;
+	.
+
 tolo:residesIn
 	a owl:ObjectProperty ;
 	rdfs:range gist:Place ;
@@ -933,5 +1026,14 @@ tolo:title
 	rdfs:range rdf:langString ;
 	skos:definition "An appellation of dignity, honor, distinction, or preeminence attached to a person or family by virtue of rank, office, precedent, privilege, attainment, or lands."@en ;
 	skos:prefLabel "title"@en ;
+	.
+
+tolo:updateDisplayDate
+	a owl:AnnotationProperty ;
+	rdfs:domain tolo:Biography ;
+	rdfs:range xsd:string ;
+	skos:definition "The date of last update to display with a biography."@en ;
+	skos:example "August 2007"@en ;
+	skos:prefLabel "update display date"@en ;
 	.
 

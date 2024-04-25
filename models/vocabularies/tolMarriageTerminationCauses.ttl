@@ -23,10 +23,6 @@
 	skos:prefLabel "Marriage Termination Causes"@en ;
 	.
 
-skos:prefLabel
-	a owl:AnnotationProperty ;
-	.
-
 tolx:_MarriageTerminationCause_death
 	a tolo:MarriageTerminationCause ;
 	skos:definition "A marriage terminated by the death of one of the spouses."@en ;
