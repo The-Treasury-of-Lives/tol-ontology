@@ -1,0 +1,109 @@
+PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
+PREFIX bdr: <http://purl.bdrc.io/resource/> 
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX told: <https://w3id.org/treasuryoflives/ns/data/tol/>
+PREFIX tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/>
+PREFIX tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wiki: <https://www.wikidata.org/wiki/>
+PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
+PREFIX sws: <https://sws.geonames/org>
+
+## COLUMNS 
+# author_id
+# full_name
+# first_name
+# last_name
+# clean_name (Using for displayName - check)
+# bio_text
+# email_address
+# gender
+# geonames iri
+# is_active (TBD: what does it mean and do we need it?)
+# orcid_id (TBD: is this an identifier or an IRI with an owl:sameAs?)
+
+# Run: 
+# tarql --dedup 100000 authors.tq authors-11-15-23.csv > tolAuthors.ttl
+
+
+CONSTRUCT {
+
+    ?author_iri 
+        a tolo:Author ;
+        tolo:firstName ?first_name_en ;
+        tolo:lastName ?last_name_en ;
+        tolo:fullName ?full_name_en ;
+        tolo:displayName ?display_name_en ;
+        bdo:personGender ?gender_iri ;
+        tolo:residesIn ?country_iri ;
+        gist:hasCommunicationAddress ?email_address_iri ;
+        .
+
+    ?email_address_iri 
+        a gist:EmailAddress ;
+        skos:prefLabel ?email_address ;
+        gist:containedText ?email_address ;
+        .
+
+    ?bio_iri 
+        a gist:FormattedContent ;
+        skos:prefLabel ?description_prefLabel_en ;
+        gist:containedText ?bio_text_en ;
+        gist:isAbout ?author_iri ;
+        gist:isExpressedIn media-txt:html ;
+        .
+        
+}
+
+WHERE {
+    
+    # Testing
+    # FILTER(?ROWNUM IN (1, 2, 5))
+
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Author_", ?author_id)) AS ?author_iri)
+
+    # Names
+    BIND(STRLANG(?first_name, "en") AS ?first_name_en)   
+    BIND(STRLANG(?last_name, "en") AS ?last_name_en)
+    BIND(
+        COALESCE(
+            IF(BOUND(?full_name), ?full_name, ?unbound),
+            IF(BOUND(?first_name) && BOUND(?last_name), CONCAT(?first_name, " ", ?last_name), ?unbound),
+            REPLACE(?clean_name, "^. ", "")
+
+    ) AS ?full_name_text)
+    BIND(STRLANG(?full_name_text, "en") AS ?full_name_en)
+
+    # Email address
+    BIND(tarql:expandPrefixedName(CONCAT("told:_EmailAddress_Author_", ?author_id)) as ?email_address_iri)
+
+    # Country of residence
+    BIND(IRI(?geonames_iri) AS ?country_iri) 
+
+    # Gender
+    # BIND(
+    #     COALESCE(
+    #         IF(?Gender = "M", tarql:expandPrefixedName("bdr:GenderMale"), ?unbound),
+    #         IF(?Gender = "F", tarql:expandPrefixedName("bdr:GenderFemale"), ?unbound)
+    #     )
+    #     AS ?gender_iri
+    # )
+
+    BIND(IF(?gender = "M", "GenderMale", "GenderFemale") AS ?gender_local_name)
+    BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?gender_local_name)) AS ?gender_iri)
+
+    # Bio
+    BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_AuthorBio_", ?author_id)) as ?bio_iri)
+    BIND(STRLANG(?bio_text, "en") AS ?bio_text_en)
+
+    # is_active - TBD what does this mean and what to do with it?
+
+    # Orcid ID - TBD - is this an ID or an IRI
+}
