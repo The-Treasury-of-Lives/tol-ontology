@@ -1,7 +1,6 @@
 # imports: https://w3id.org/semanticarts/ontology/gistCore12.0.1
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
-@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
 @prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -29,10 +28,16 @@
 	gist:license "TBD"@en ;
 	.
 
+tolo:Author
+	a owl:Class ;
+	rdfs:subClassOf tolo:Person ;
+	skos:definition "A person who has authored or contributed to authoring at least one work."@en ;
+	skos:prefLabel "Author"@en ;
+	.
+
 tolo:Biography
 	a owl:Class ;
 	rdfs:subClassOf
-		bf:Work ,
 		gist:ContentExpression ,
 		[
 			a owl:Restriction ;
@@ -77,12 +82,21 @@ tolo:Birth
 	skos:prefLabel "Birth"@en ;
 	.
 
-tolo:Community
+tolo:BuildingType
 	a owl:Class ;
-	skos:altLabel "Institution"@en ;
-	skos:definition "TBD."@en ;
-	skos:example "Choding Monastery, Kokonor Lake, Nyarongsha School, Mentsikhang Hospital."@en ;
-	skos:prefLabel "Community"@en ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom gist:Building ;
+		]
+		;
+	skos:definition "Indicates the specific type of a landmark."@en ;
+	skos:example "Stupa, hermitage, lake, mountain, cave, hidden land."@en ;
+	skos:prefLabel "Building Type"@en ;
 	.
 
 tolo:Death
@@ -139,10 +153,9 @@ tolo:HtmlBiography
 			]
 		) ;
 	] ;
-	skos:definition "A biography rendered in HTML for publication on a website."@en ;
-	skos:example "An instance (as in bf:Instance, FRBR manifestation) of the Treasury of Lives biography of Rongzom Chokyi Zangpo is published on the Treasury of Lives website at https://treasuryoflives.org/biographies/view/Rongzom-Chokyi-Zangpo/6194."@en ;
+	skos:definition "A biography formatted in HTML for publication on a website."@en ;
+	skos:example "The Treasury of Lives biography of Rongzom Chokyi Zangpo is published on the Treasury of Lives website at https://treasuryoflives.org/biographies/view/Rongzom-Chokyi-Zangpo/6194."@en ;
 	skos:prefLabel "HTML Biography"@en ;
-	skos:scopeNote "An instance of an HTML"@en ;
 	.
 
 tolo:Incarnation
@@ -166,6 +179,42 @@ tolo:IncarnationLineage
 		"Incarnation Lineage"@en ,
 		"skye brgyud"@bo-x-ewts
 		;
+	.
+
+tolo:Institution
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:Organization
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:someValuesFrom tolo:InstitutionType ;
+			]
+		) ;
+	] ;
+	skos:definition "A human-made organization typically connected to a single or multiple physical buildings with a shared mission, identity, norms and rules that often contains subsidiary members or suborganizations."@en ;
+	skos:example "Choding Monastery, Kokonor Lake, Nyarongsha School, Mentsikhang Hospital."@en ;
+	skos:prefLabel "Institution"@en ;
+	.
+
+tolo:InstitutionType
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom tolo:Institution ;
+		]
+		;
+	skos:definition "Indicates the specific type of an institution."@en ;
+	skos:example "Monastery, hospital, school, etc."@en ;
+	skos:prefLabel "Institution Type"@en ;
+	skos:scopeNote "Using the class-type pattern, some institution types will also be represented as subclasses because they have specialized restrictions."@en ;
 	.
 
 tolo:KinshipGroup
@@ -202,6 +251,23 @@ tolo:KinshipGroupType
 	skos:example "Lhasa Aristocracy."@en ;
 	skos:prefLabel "Kinship Group Type"@en ;
 	skos:scopeNote "Currently only one type is defined."@en ;
+	.
+
+tolo:LandmarkType
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom gist:Landmark ;
+		]
+		;
+	skos:definition "Indicates the specific type of a building."@en ;
+	skos:example "Manor, government building, palace, temple."@en ;
+	skos:prefLabel "Landmark Type"@en ;
 	.
 
 tolo:Marriage
@@ -279,6 +345,22 @@ tolo:MarriageTerminationCause
 	skos:definition "The reason for the termination of a marriage."@en ;
 	skos:example "Death, divorce, dissolution."@en ;
 	skos:prefLabel "Marriage Termination Cause"@en ;
+	.
+
+tolo:Monastery
+	a owl:Class ;
+	rdfs:subClassOf tolo:Institution ;
+	skos:definition "TBD"@en ;
+	skos:editorialNote "Has a founder, has abotts"@en ;
+	skos:prefLabel "Monastery"@en ;
+	.
+
+tolo:MonasticCollege
+	a owl:Class ;
+	rdfs:subClassOf tolo:Institution ;
+	skos:definition "TBD"@en ;
+	skos:editorialNote "Part of a monastery"@en ;
+	skos:prefLabel "Monastic College"@en ;
 	.
 
 tolo:Person
@@ -373,18 +455,8 @@ tolo:birthFamilyName
 
 tolo:displayName
 	a owl:AnnotationProperty ;
-	owl:deprecated "true"^^xsd:boolean ;
-	skos:definition
-		"Name to display on the website, often a combination of title + name, possibly with ordinal if the title involves an incarnation lineage."@en ,
-		"The name of a person or other resource used for display purposes."@en
-		;
-	skos:editorialNote "May not be needed, but generated on the fly for display."@en ;
-	skos:example
-		"'Gyergom Tsultrim Sengge' is the display name of the person with the same preferred name."@en ,
-		"'The First Adzom Drukpa, Drodul Pawo Dorje' is the display name of Drodul Pawo Dorje. 'Adzom Drukpa' is the title, and the display title includes the ordinal."@en
-		;
+	skos:definition "The name of a person or other resource used for display purposes."@en ;
 	skos:prefLabel "display name"@en ;
-	skos:scopeNote "The same name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a preferred name in both its own and the Extended Wylie systems."@en ;
 	.
 
 tolo:dissolutionYear
@@ -433,6 +505,15 @@ tolo:familyName
 	skos:scopeNote "Also applies to marriages; in an ordinary marriage, the marriage, spouses, and children take the husband's family name; in a makpa marriage, the wife's. The marriage name can be inferred from the individuals' family names, or vice versa."@en ;
 	.
 
+tolo:firstName
+	a owl:DatatypeProperty ;
+	rdfs:subClassOf gist:name ;
+	rdfs:domain tolo:Person ;
+	skos:definition "The first name of a person."@en ;
+	skos:prefLabel "first name"@en ;
+	skos:scopeNote "Neutral as to whether the first name is the given or family name."@en ;
+	.
+
 tolo:foundingYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:actualStartYear ;
@@ -440,6 +521,25 @@ tolo:foundingYear
 	skos:editorialNote "We may want to follow the pattern of Birth and Death here, instead of just using a property. Depends on what other information is available. We could have Founding with an agent and a date."@en ;
 	skos:example "The Tshal-pa tradition was founded in 1123."@en ;
 	skos:prefLabel "founding year"@en ;
+	.
+
+tolo:fullName
+	a owl:DatatypeProperty ;
+	rdfs:subClassOf gist:name ;
+	skos:definition "The full name of a person."@en ;
+	skos:prefLabel "full name"@en ;
+	skos:scopeNote "Generally used with persons but conceivably could have other uses."@en ;
+	gist:domainIncludes tolo:Person ;
+	.
+
+tolo:hasAuthor
+	a owl:ObjectProperty ;
+	skos:definition "Relates a work to a person who has authored it."@en ;
+	skos:editorialNote
+		"Currently using a simple object property to relate an author to a biography because it seems to satisfy the use case, but check to make sure this works."@en ,
+		"Though there is a display order of multiple authors of a single biography, we do  not currently distinguish primary from secondary author in the model, because there may be more than two authors and we still need to specify the display order."@en
+		;
+	skos:prefLabel "has author"@en ;
 	.
 
 tolo:hasEvent
@@ -759,6 +859,15 @@ tolo:isWifeIn
 	skos:scopeNote "This could be asserted, or inferred from isSpouseIn and the gender of the person."@en ;
 	.
 
+tolo:lastName
+	a owl:DatatypeProperty ;
+	rdfs:subClassOf gist:name ;
+	rdfs:domain tolo:Person ;
+	skos:definition "The last name of a person."@en ;
+	skos:prefLabel "last name"@en ;
+	skos:scopeNote "Neutral as to whether the last name is the given or family name."@en ;
+	.
+
 tolo:marriedFamilyName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tolo:familyName ;
@@ -810,6 +919,13 @@ tolo:primaryName
 		"The primary/alternate distinction may be source- or system-dependent. Other systems or sources may a different name primary."@en ,
 		"The same name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a preferred name in both its own and the Extended Wylie systems."@en
 		;
+	.
+
+tolo:residesIn
+	a owl:ObjectProperty ;
+	rdfs:range gist:Place ;
+	skos:definition "Relates something to the place where it lives or exists."@en ;
+	skos:prefLabel "resides in"@en ;
 	.
 
 tolo:title
