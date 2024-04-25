@@ -122,11 +122,11 @@ WHERE {
     # GENDER
     BIND(
         COALESCE(
-            IF(?Gender = "M", tarql:expandPrefixedName("bdr:GenderMale"), ?unbound),
-            IF(?Gender = "F", tarql:expandPrefixedName("bdr:GenderFemale"), ?unbound)
-        )
-        AS ?gender_iri
+            IF(?Gender = "M", "GenderMale", ?unbound),
+            IF(?Gender = "F", "GenderFemale", ?unbound)
+        ) AS ?gender_local_name
     )
+    BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?gender_local_name)) AS ?gender_iri)
 
     # DATES
 
