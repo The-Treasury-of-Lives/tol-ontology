@@ -49,7 +49,7 @@ tolo:Authorship
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:hasParticipant ;
-				owl:someValuesFrom tolo:Bio ;
+				owl:someValuesFrom tolo:Biography ;
 			]
 		) ;
 	] ;
@@ -551,6 +551,13 @@ tolo:displayName
 	a owl:AnnotationProperty ;
 	skos:definition "The name of a person or other resource used for display purposes."@en ;
 	skos:prefLabel "display name"@en ;
+	.
+
+tolo:displayOrder
+	a owl:AnnotationProperty ;
+	skos:definition "Indicates display order in a list of values."@en ;
+	skos:example "Used to order biography author list when there are multiple authors."@en ;
+	skos:prefLabel "display order"@en ;
 	.
 
 tolo:dissolutionYear
