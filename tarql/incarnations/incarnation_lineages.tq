@@ -47,19 +47,23 @@ CONSTRUCT {
 	    owl:versionIRI <https://w3id.org/treasuryoflives/data/tolIncarnationLineagesX.x.x> ;
 	.
 
-    ?incarnation_lineage_iri a tolo:IncarnationLineage ;
+    ?incarnation_lineage_iri 
+        a tolo:IncarnationLineage ;
         owl:sameAs ?bdrc_lineage_iri ;
-        skos:prefLabel ?tol_name , 
-                  ?wylie_name , 
-                  ?chinese_name ,
-                  ?tibetan_name ;
-        gist:isAffiliatedWith ?monastery_iri ;       
-        gist:isAffiliatedWith ?tradition_1_iri ,
+        skos:prefLabel 
+            ?tol_name , 
+            ?wylie_name , 
+            ?chinese_name ,
+            ?tibetan_name ;
+        gist:isAffiliatedWith 
+            ?monastery_iri ;       
+            ?tradition_1_iri ,
             ?tradition_2_iri ;
         .
        
 
-    ?html_description_iri a gist:FormattedContent ;
+    ?html_description_iri 
+        a gist:FormattedContent ;
         skos:prefLabel ?description_label ;
         gist:isExpressedIn media-txt:html ;
         gist:containedText ?description ;
@@ -71,6 +75,7 @@ CONSTRUCT {
 WHERE {
 
     # Testing
+    # FILTER(?ROWNUM = 1)
  
     BIND(tarql:expandPrefixedName(CONCAT("told:_IncarnationLineage_", ?TOL_R_ID)) AS ?incarnation_lineage_iri)
 
