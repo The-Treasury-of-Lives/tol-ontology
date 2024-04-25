@@ -17,7 +17,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/> 
 
 ## COLUMNS 
-# biography_id (ignore)
+# biography_id - temporarily using to mint bio iri in order to link to the author display order data. Would prefer to use person id instead - TBD.
 # person_id
 # summary (HTML text)
 # body_text
@@ -70,18 +70,18 @@ CONSTRUCT {
 WHERE {
     
     # Testing
-    FILTER(?ROWNUM = 1)
+    # FILTER(?ROWNUM = 1)
 
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Biography_", ?person_id)) AS ?bio_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Biography_", ?biography_id)) AS ?bio_iri)
     BIND(STRLANG(?body_text, "en") AS ?bio_text_en)
     BIND(STRLANG(CONCAT("Biography of Person ", ?person_id), "en") AS ?bio_label_en)
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?person_id)) AS ?person_iri)
 
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Summary_Biography_", ?person_id)) AS ?summary_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Summary_Biography_", ?biography_id)) AS ?summary_iri)
     BIND(STRLANG(?summary, "en") AS ?summary_text_en)
     BIND(STRLANG(CONCAT("Summary of Biography of Person ", ?person_id), "en") AS ?summary_label_en)
 
-    BIND(tarql:expandPrefixedName(CONCAT("told:_SourceStatement_Biography_", ?person_id)) AS ?source_statement_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_SourceStatement_Biography_", ?biography_id)) AS ?source_statement_iri)
     BIND(STRLANG(?sources, "en") AS ?source_statement_en)
     BIND(STRLANG(CONCAT("Sources for Biography of Person ", ?person_id), "en") AS ?source_statement_label_en)
 
