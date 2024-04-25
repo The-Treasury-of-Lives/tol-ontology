@@ -26,13 +26,14 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # Tradition 2 -- ignore -- comes from tradition data
 # Tradition ID 2 ?tradition_2_iri
 # Wylie -- ?wylie_name
+# Tibetan --?tibetan_name
 # Chinese -- ?chinese_name
 # BDRC G ID -- monastery ID -- ignore (owl:sameAs will come from institution data)
 # TOL G ID -- ?monastery_iri
 # description -- ?html_description_iri
 
 # Run: 
-# tarql --dedup 5000 incarnation_lineages.tq incarnation-lineages-10-31-23.csv > tolIncarnationLineages.ttl
+# tarql --dedup 5000 incarnation_lineages.tq incarnation-lineages-4-18-24.csv > tolIncarnationLineages.ttl
 
 CONSTRUCT {
 
@@ -46,18 +47,23 @@ CONSTRUCT {
 	    owl:versionIRI <https://w3id.org/treasuryoflives/data/tolIncarnationLineagesX.x.x> ;
 	.
 
-    ?incarnation_lineage_iri a tolo:IncarnationLineage ;
+    ?incarnation_lineage_iri 
+        a tolo:IncarnationLineage ;
         owl:sameAs ?bdrc_lineage_iri ;
-        skos:prefLabel ?tol_name , 
-                  ?wylie_name , 
-                  ?chinese_name ;
-        gist:isAffiliatedWith ?monastery_iri ;       
-        gist:isAffiliatedWith ?tradition_1_iri ,
+        skos:prefLabel 
+            ?tol_name , 
+            ?wylie_name , 
+            ?chinese_name ,
+            ?tibetan_name ;
+        gist:isAffiliatedWith 
+            ?monastery_iri ;       
+            ?tradition_1_iri ,
             ?tradition_2_iri ;
         .
        
 
-    ?html_description_iri a gist:FormattedContent ;
+    ?html_description_iri 
+        a gist:FormattedContent ;
         skos:prefLabel ?description_label ;
         gist:isExpressedIn media-txt:html ;
         gist:containedText ?description ;
@@ -69,8 +75,8 @@ CONSTRUCT {
 WHERE {
 
     # Testing
-    FILTER(?ROWNUM = 1)
-
+    # FILTER(?ROWNUM = 1)
+ 
     BIND(tarql:expandPrefixedName(CONCAT("told:_IncarnationLineage_", ?TOL_R_ID)) AS ?incarnation_lineage_iri)
 
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_R_ID)) AS ?bdrc_lineage_iri) 
@@ -79,6 +85,7 @@ WHERE {
     BIND(STRLANG(?Incarnation_Name, "en") AS ?tol_name)
     BIND(STRLANG(?Wylie, "bo-x-ewts") AS ?wylie_name)
     BIND(STRLANG(?Chinese, "zh-Hani") AS ?chinese_name)
+    BIND(STRLANG(?Tibetan, "bo") AS ?tibetan_name)
 
     # Traditions
     BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", REPLACE(?Tradition_ID_1, "TOL", ""))) AS ?tradition_1_iri)
