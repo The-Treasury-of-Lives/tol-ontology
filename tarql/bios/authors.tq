@@ -21,29 +21,32 @@ PREFIX sws: <https://sws.geonames/org>
 # full_name
 # first_name
 # last_name
-# clean_name (Using for displayName - check)
+# clean_name (ignore)
 # bio_text
 # email_address
 # gender
+# country_id (ignore)
+# country_name (ignore)
 # geonames iri
-# is_active (TBD: what does it mean and do we need it?)
-# orcid_id (TBD: is this an identifier or an IRI with an owl:sameAs?)
+# is_active 
+# orcid_id 
 
 # Run: 
-# tarql --dedup 100000 authors.tq authors-11-15-23.csv > tolAuthors.ttl
+# tarql --dedup 100000 authors.tq authors-5-13-24.csv > tolAuthors.ttl
 
 
 CONSTRUCT {
 
     ?author_iri 
         a tolo:Author ;
+        owl:sameAs ?orcid_iri ;
         tolo:firstName ?first_name_en ;
         tolo:lastName ?last_name_en ;
         tolo:fullName ?full_name_en ;
-        tolo:displayName ?display_name_en ;
         bdo:personGender ?gender_iri ;
         tolo:residesIn ?country_iri ;
         gist:hasCommunicationAddress ?email_address_iri ;
+        gist:isCategorizedBy ?active_status ;
         .
 
     ?email_address_iri 
@@ -65,19 +68,20 @@ CONSTRUCT {
 WHERE {
     
     # Testing
-    # FILTER(?ROWNUM IN (1, 2, 5))
+    # FILTER(?ROWNUM IN (1, 2))
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_Author_", ?author_id)) AS ?author_iri)
 
-    # Names
+    # ORCID ID
+    BIND(IRI(?orcid_id) AS ?orcid_iri)
+
+    # Names  
     BIND(STRLANG(?first_name, "en") AS ?first_name_en)   
     BIND(STRLANG(?last_name, "en") AS ?last_name_en)
     BIND(
         COALESCE(
             IF(BOUND(?full_name), ?full_name, ?unbound),
-            IF(BOUND(?first_name) && BOUND(?last_name), CONCAT(?first_name, " ", ?last_name), ?unbound),
-            REPLACE(?clean_name, "^. ", "")
-
+            IF(BOUND(?first_name) && BOUND(?last_name), CONCAT(?first_name, " ", ?last_name), ?unbound)
     ) AS ?full_name_text)
     BIND(STRLANG(?full_name_text, "en") AS ?full_name_en)
 
@@ -85,7 +89,10 @@ WHERE {
     BIND(tarql:expandPrefixedName(CONCAT("told:_EmailAddress_Author_", ?author_id)) as ?email_address_iri)
 
     # Country of residence
-    BIND(IRI(?geonames_iri) AS ?country_iri) 
+    BIND(IRI(?geonames_iri) AS ?country_iri)
+    
+    # Active/Inactive
+    BIND(IF(?is_active = "1", tolx:_EntityActiveStatus_active, tolx:_EntityActiveStatus_inactive) AS ?active_status)
 
     # Gender
     BIND(IF(?gender = "M", "GenderMale", "GenderFemale") AS ?gender_local_name)

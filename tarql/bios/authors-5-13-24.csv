@@ -1,12 +1,12 @@
-author_id,full_name,first_name,last_name,clean_name,bio_text,email_address,gender,country_id,country_name,geonames iri,is_active,orcid_id
+author_id,full_name,first_name,last_name,clean_name,bio_text,email_address,gender,country_id,country_name,geonames_iri,is_active,orcid_id
 62,,John,Powers,John Powers,"<p>
 	is Research Professor in the Alfred Deakin Institute for Citizenship and Globalisation, Deakin University.&nbsp;He is the author of fourteen books and more than sixty articles. These include Introduction to Tibetan Buddhism and A Bull of a Man: Images of Masculinity, Sex, and the Body in Indian Buddhism.</p>
 <p>
 	&nbsp;</p>
-",john.powers@deakin.edu.au,M,13,Australia,https://sws.geonames.org/2077456,1,0000-0001-8637-5900
-61,,,,. Sonam Thakchoe,"<p>
+",john.powers@deakin.edu.au,M,13,Australia,https://sws.geonames.org/2077456,1,https://orcid.org/0000-0001-8637-5900
+61,Sonam Thakchoe,,,. Sonam Thakchoe,"<p>
 	Senior Philosophy Lecturer in the School of Humanities at the University of Tasmania. He teaches Asian philosophy, coordinates the Asian Philosophy Program and directs the Tasmanian Buddhist Studies in India Exchange Program.</p>
-",sonam.thakchoe@utas.edu.au,M,13,Australia,https://sws.geonames.org/2077456,1,0000-0001-9611-1247
+",sonam.thakchoe@utas.edu.au,M,13,Australia,https://sws.geonames.org/2077456,1,https://orcid.org/0000-0001-9611-1247
 13,,Jakob,Leschly,Jakob Leschly,"<p>
 	is a translator and practitioner, studying primarily under Dilgo Khyentse Rinpoche, Pema Wanggyal Rinpoche, and Dzongsar Khyentse Rinpoche. He completed a three year retreat in 1984.</p>
 ",jakobleschly@gmail.com,M,13,Australia,https://sws.geonames.org/2077456,1,
@@ -34,7 +34,7 @@ author_id,full_name,first_name,last_name,clean_name,bio_text,email_address,gende
 	is a research affiliate&nbsp;at the Robert H. N. Ho Centre for&nbsp;Buddhist Studies, University of Toronto. She received her PhD. in Tibetan studies from Humboldt University in Berlin in 2013</p>
 <p>
 	&nbsp;</p>
-",turek@uni-bonn.de,F,38,Canada,https://sws.geonames.org/6251999,1,0000-0001-6925-2570
+",turek@uni-bonn.de,F,38,Canada,https://sws.geonames.org/6251999,1,https://orcid.org/0000-0001-6925-2570
 36,,Ben,Wood,Ben Wood,"<p>
 	is a Ph.D. candidate in Buddhist Studies at the University of Toronto.</p>
 ",ben.m.wood@gmail.com,M,38,Canada,https://sws.geonames.org/6251999,1,
@@ -61,7 +61,7 @@ author_id,full_name,first_name,last_name,clean_name,bio_text,email_address,gende
 ",,F,44,China,https://sws.geonames.org/1814991,1,
 34,,Cameron David,Warner,Cameron David Warner,"<p>
 	is an Associate Professor of Anthropology at Aarhus University. He received his PhD from Harvard University in 2008. <a href=""https://pure.au.dk/portal/en/persons/cameron-david-warner(61b6d8e9-c723-46ba-a52b-31e49e037d0e).html"" target=""_blank"">http://pure.au.dk/portal/en/persons/cameron-david-warner(61b6d8e9-c723-46ba-a52b-31e49e037d0e).html</a></p>
-",etncw@cas.au.dk,M,58,Denmark,https://sws.geonames.org/2623032,1,0000-0003-0160-1265
+",etncw@cas.au.dk,M,58,Denmark,https://sws.geonames.org/2623032,1,https://orcid.org/0000-0003-0160-1265
 113,,Jaakko,Takkinen,Jaakko Takkinen,"<p>
 	is a PhD Candidate in the Department of Religious Studies at University of California, Santa Barbara.</p>
 <p>
@@ -69,10 +69,10 @@ author_id,full_name,first_name,last_name,clean_name,bio_text,email_address,gende
 ",takkinen@ucsb.edu,M,72,Finland,https://sws.geonames.org/660013,1,
 1,,Jean-Luc,Achard,Jean Luc Achard,"<p>
 	is a researcher at the National Center for Scientific Research (CNRS) in Paris and editor of the Revue d'Etudes Tibétaines.</p>
-",jeanluc.achard@sfr.fr,M,73,France,https://sws.geonames.org/3017382,1,0000-0001-9536-4904
+",jeanluc.achard@sfr.fr,M,73,France,https://sws.geonames.org/3017382,1,https://orcid.org/0000-0001-9536-4904
 98,,Stéphane,Arguillère,Stephane   Arguillere,"<p>
 	is professor of Tibetan language and civilisation at the National Institute of Oriental Languages and Civilisations (INALCO) in Paris, France, where he is also associate vice-president.</p>
-",arguillere@outlook.fr,M,73,France,https://sws.geonames.org/3017382,1,0000-0002-3460-5935
+",arguillere@outlook.fr,M,73,France,https://sws.geonames.org/3017382,1,https://orcid.org/0000-0002-3460-5935
 17,,Françoise,Pommaret,Francoise Pommaret,"<p>
 	is a cultural anthropologist, Director of Research at the CNRS (National Centre for Scientific Research, France) and Associate Professor at the College of Language and Culture (CLCS), Royal University of Bhutan. <a href=""http://www.crcao.fr/spip.php?article176"" target=""_blank"">http://www.crcao.fr/spip.php?article176</a></p>
 ",fpommaret@gmail.com,F,73,France,https://sws.geonames.org/3017382,1,
@@ -97,7 +97,7 @@ author_id,full_name,first_name,last_name,clean_name,bio_text,email_address,gende
 ",samkarmay@gmail.com,M,73,France,https://sws.geonames.org/3017382,1,
 119,,Franz Xaver,Erhard,Franz Xaver Erhard,"<p>
 	is a research fellow at Leipzig University, Germany. He holds a Ph.D. in Tibetan Studies with a dissertation on contemporary Tibetan literature. His research interests include secular life writing, modern Tibetan history, and the history of Tibetan print media.</p>
-",f.erhard@uni-leipzig.de,M,80,Germany,https://sws.geonames.org/2921044,1,0000-0002-5176-8023
+",f.erhard@uni-leipzig.de,M,80,Germany,https://sws.geonames.org/2921044,1,https://orcid.org/0000-0002-5176-8023
 8,,Jörg,Heimbel,Jorg Heimbel,"<p>
 	has a Ph.D. in Tibetology from Hamburg University, where he is a research associate and lecturer for Classical and Colloquial Tibetan.</p>
 <p>
@@ -133,7 +133,7 @@ author_id,full_name,first_name,last_name,clean_name,bio_text,email_address,gende
 	is associate professor at Kyōto University (GSAIS, Shishu-Kan), Japan, where he teaches Buddhist studies and cross-cultural philosophy. He received his PhD from the University of Paris in 2011.&nbsp; <a href=""https://www.gsais.kyoto-u.ac.jp/staff/deroche"" target=""_blank"">https://www.gsais.kyoto-u.ac.jp/staff/deroche</a></p>
 <p>
 	&nbsp;</p>
-",deroche.marchenri.6u@kyoto-u.ac.jp,M,107,Japan,https://sws.geonames.org/1861060,1,0000-0002-2390-9642
+",deroche.marchenri.6u@kyoto-u.ac.jp,M,107,Japan,https://sws.geonames.org/1861060,1,https://orcid.org/0000-0002-2390-9642
 83,,Ryosuke,Kobayashi,Ryosuke Kobayashi,"<p>
 	is&nbsp;Associate Professor&nbsp;at Kyushu University. His research interests include the history of Kham and the diplomatic activity of the Tibetan Government in the early 20th century.</p>
 <p>
@@ -144,7 +144,7 @@ author_id,full_name,first_name,last_name,clean_name,bio_text,email_address,gende
 ",,M,0,Mongolia,https://sws.geonames.org/2029969,0,
 131,,Julia,Stenzel,Julia Stenzel,"<p>
 	Director of Studies at Rangjung Yeshe Institute, Centre for Buddhist Studies of Kathmandu University, Nepal. She received her doctorate from McGill University in Canada. She received her Dharma education at Dhagpo Kundrol Ling, a monastic hermitage in France, under the guidance of the late Tibetan Buddhist master Lama Gendun Rinpoche. Julia is a member of Sakya Pandita Translation Group and Subashita Translation Group.</p>
-",julia.stenzel@ryi.org,F,149,Nepal,https://sws.geonames.org/1282988,1,0000-0002-6462-0204
+",julia.stenzel@ryi.org,F,149,Nepal,https://sws.geonames.org/1282988,1,https://orcid.org/0000-0002-6462-0204
 79,Sherab Drime,,,. Sherab Drime,"<p>
 	is an ordained monk and lama of the Karma Kagyu and Shangpa Kagyu traditions of German origin. An interpreter and translator for 30 years, he worked closely for the late Kyabje Tenga Rinpoche of Benchen monastery and now spends most of his time in solitary retreat in Yolmo.</p>
 ",SherabDrime@gmail.com,M,149,Nepal,https://sws.geonames.org/1282988,1,
@@ -156,16 +156,16 @@ author_id,full_name,first_name,last_name,clean_name,bio_text,email_address,gende
 ",han.kop.pema.dondrup@gmail.com,M,149,Nepal,https://sws.geonames.org/1282988,1,
 41,,Stefan,Larsson,Stefan Larsson,"<p>
         received his PhD in History of Religions from Stockholm University in 2009 and is currently a postdoctoral fellow at UC Berkeley.</p>
-",stefan.larsson@rel.su.se,M,205,Sweden,https://sws.geonames.org/2661886,1,0000-0002-1320-7073
+",stefan.larsson@rel.su.se,M,205,Sweden,https://sws.geonames.org/2661886,1,https://orcid.org/0000-0002-1320-7073
 136,,Joseph,McClellan,Joseph McClellan,"<p>
 	received a PhD from Columbia University's Department of Religion in 2013. He has taught humanities at colleges in several countries and is now an independent translator and writer based in Asia.</p>
 ",jmm2133@gmail.com,M,211,Thailand,https://sws.geonames.org/1605651,1,
 128,,Martin,Mills,Martin Mills,"<p align=""left"">
 	is Director of the Scottish Centre for Himalayan Research at the University of Aberdeen</p>
-",m.a.mills@abdn.ac.uk,M,225,United Kingdom,https://sws.geonames.org/2635167,1,0000-0003-0706-5475
+",m.a.mills@abdn.ac.uk,M,225,United Kingdom,https://sws.geonames.org/2635167,1,https://orcid.org/0000-0003-0706-5475
 46,,Adam,Pearcey,Adam Pearcey,"<p>
 	is the founder of <a href=""http://www.lotsawahouse.org/"">Lotsawa House</a>. He completed his PhD at SOAS, University of London, in 2018 with a thesis on Dzogchen, scholasticism and sectarian identity in early twentieth-century Tibet. Read more at&nbsp;<a href=""http://adamspearcey.com/"">adamspearcey.com</a>.</p>
-",adam.pearcey@gmail.com,M,225,United Kingdom,https://sws.geonames.org/2635167,1,0000-0003-3760-6260
+",adam.pearcey@gmail.com,M,225,United Kingdom,https://sws.geonames.org/2635167,1,https://orcid.org/0000-0003-3760-6260
 6,Gyurme Dorje,,,. Gyurme Dorje,"<p>
 	was director of Trans Himalaya, with offices in the United Kingdom, Chengdu, and Kham. He earned a Ph.D. in Tibetan Literature at the School for Oriental and Asian Studies in 1987 and a Masters degree in Sanskrit &amp; Oriental Studies at Edinburgh in 1971.</p>
 ",,M,225,United Kingdom,https://sws.geonames.org/2635167,0,
@@ -183,58 +183,58 @@ author_id,full_name,first_name,last_name,clean_name,bio_text,email_address,gende
 ",tenchoe135@gmail.com,M,225,United Kingdom,https://sws.geonames.org/2635167,1,
 124,,Adele,Tomlin,Adele Tomlin,"<p>
 	is an independent practitioner, scholar and translator with an MA in Philosophy and an MA in Tibetology. Book publications include&nbsp;Aesthetic Experience&nbsp;(2009),&nbsp;Tāranātha's Commentary on the Heart Sūtra&nbsp;(2017) and&nbsp;Chariot that Transports to the Four Kāyas&nbsp;(2019). She is the founder of&nbsp;<a href=""http://www.dakinitranslations.com/"">Dakini Translations and Publications</a>.</p>
-",adeletomlin@googlemail.com,F,225,United Kingdom,https://sws.geonames.org/2635167,1,
+",adeletomlin@googlemail.com,F,225,https://orcid.org/,https://sws.geonames.org/2635167,1,
 135,,Varvara,Chatzisavva,Varvara Chatzisavva,"<p>
 	is a PhD student at the University of South Wales working on contemporary Nyingma communities in Kham.</p>
 ",varvara.chatzisavva@yahoo.com,F,225,United Kingdom,https://sws.geonames.org/2635167,1,
 84,,Carole,McGranahan,Carole McGranahan,"<p>
 	is Professor of Cultural Anthropology and History at the University of Colorado, Boulder. She is the author of Arrested Histories: Tibet, the CIA, and Memories of a Forgotten War, and is currently writing a book about the Pangdatsang family.</p>
-",carole.mcgranahan@colorado.edu,F,226,United States,https://sws.geonames.org/6252001,1,0000-0001-5187-4769
+",carole.mcgranahan@colorado.edu,F,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0001-5187-4769
 121,,Renée,Ford,Renee Ford,"<p>
 	is a Lecturer at UNC-Wilmington. She completed her Ph.D. at Rice University in 2020.</p>
-",reneefordriceuniversity@gmail.com,F,226,United States,https://sws.geonames.org/6252001,1,0000-0001-6593-5366
+",reneefordriceuniversity@gmail.com,F,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0001-6593-5366
 28,,Michelle,Sorensen,Michelle Sorensen,"<p>
 	is Assistant Professor in the Philosophy and Religion Department at Western Carolina University. She completed her PhD in Indo-Tibetan Buddhist Studies at Columbia University in 2013.</p>
-",mjsorensen@email.wcu.edu,F,226,United States,https://sws.geonames.org/6252001,1,0000-0001-7211-3467
+",mjsorensen@email.wcu.edu,F,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0001-7211-3467
 44,,John Vincent,Bellezza,John Vincent Bellezza,"<p>
 	is a senior research fellow at the Tibet Center, University of Virginia. He is an expert in the archaeology and cultural history of Tibet.</p>
-",jbellezza@hotmail.com,M,226,United States,https://sws.geonames.org/6252001,1,0000-0001-7830-5099
+",jbellezza@hotmail.com,M,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0001-7830-5099
 112,,Kalzang Dorjee,Bhutia,Kalzang Dorjee Bhutia,"<p>
 	is originally from west Sikkim and completed his PhD in Buddhist Studies at Delhi University. He is currently a Robert H. N. Ho Research Fellow in Buddhist Studies and a Visiting Scholar at the University of California Los Angeles.</p>
-",kalzangdbhutia@yahoo.com,M,226,United States,https://sws.geonames.org/6252001,1,0000-0001-7839-7253
+",kalzangdbhutia@yahoo.com,M,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0001-7839-7253
 2,,Namdrol Miranda,Adams,Namdrol Miranda Adams,"<p>
 	is the Dean of Education and a founder of Maitripa College. She holds an MA in Education from Portland State University, and a BA in English Literature from New York University. She is currently completing her doctoral work in Education at University of Portland.&nbsp;</p>
-",education@maitripa.org,F,226,United States,https://sws.geonames.org/6252001,1,0000-0001-9683-6731
+",education@maitripa.org,F,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0001-9683-6731
 122,,Dominic,Sur,Dominic Sur,"<p>
 	is an Assistant Professor of Religious Studies at Utah State University and the translator of Rongzom’s <em>Entering the Way of the Great Vehicle</em> (Shambhala, 2017).</p>
-",dominic.sur@usu.edu,M,226,United States,https://sws.geonames.org/6252001,1,0000-0002-1870-0369
+",dominic.sur@usu.edu,M,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0002-1870-0369
 109,,Benjamin,Nourse,Benjamin Nourse,"<p>
 	is Assistant Professor of Religious Studies at the University of Denver.</p>
-",Benjamin.Nourse@du.edu,M,226,United States,https://sws.geonames.org/6252001,1,0000-0002-6055-2566
+",Benjamin.Nourse@du.edu,M,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0002-6055-2566
 66,,Bryan,Cuevas,Bryan Cuevas,"<p>
 	is the John F. Priest Professor of Religion at Florida State University.</p>
-",bcuevas@fsu.edu,M,226,United States,https://sws.geonames.org/6252001,1,0000-0002-8125-6862
+",bcuevas@fsu.edu,M,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0002-8125-6862
 78,,Alison,Melnick Dyer,Alison Melnick Dyer,"<p>
 	is an Assistant Professor of Religious Studies at Bates College. Her current research focuses on the Life of Mingyur Peldron.</p>
-",amelnick@bates.edu,F,226,United States,https://sws.geonames.org/6252001,1,0000-0003-0179-5231
+",amelnick@bates.edu,F,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0003-0179-5231
 31,Tsehua,,,. Tsehua,"<p>
 	is a Ph.D. candidate in Anthropology and Education at Teachers College, Columbia University.</p>
-",caihuajia@gmail.com,M,226,United States,https://sws.geonames.org/6252001,1,0000-0003-0311-6503
+",caihuajia@gmail.com,M,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0003-0311-6503
 21,,Andrew,Quintman,Andrew Quintman,"<p>
 	is Assistant Professor of Religious Studies at Wesleyan University. He completed his PhD in Buddhist Studies at the University of Michigan in 2006.</p>
-",aquintman@wesleyan.edu,M,226,United States,https://sws.geonames.org/6252001,1,0000-0003-0511-3728
+",aquintman@wesleyan.edu,M,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0003-0511-3728
 97,,David,DiValerio,David DiValerio,"<p>
 	is Associate Professor at the University of Wisconsin-Milwaukee.</p>
-",divaleri@uwm.edu,M,226,United States,https://sws.geonames.org/6252001,1,0000-0003-0927-0376
+",divaleri@uwm.edu,M,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0003-0927-0376
 49,,Douglas,Duckworth,Douglas Duckworth,"<p>
 	(PhD 2005, University of Virginia) is associate professor at Temple University and the director of graduate studies in the Department of Religion. His latest works include <em>Tibetan Buddhist Philosophy of Mind and Nature</em> (Oxford 2019) and a translation of an overview of the Wisdom Chapter of the <em>Way of the Bodhisattva</em> by Künzang Sönam, entitled <em>The Profound Reality of Interdependence</em> (Oxford 2019).</p>
-",douglas.duckworth@temple.edu,M,226,United States,https://sws.geonames.org/6252001,1,0000-0003-1097-3853
+",douglas.duckworth@temple.edu,M,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0003-1097-3853
 87,,Jay,Valentine,Jay Valentine,"<p>
 	is Assistant Professor of Philosophy and Religion at Troy University. His research focuses on the history of the Jangter Treasure Tradition.</p>
-",jvalentine@troy.edu,M,226,United States,https://sws.geonames.org/6252001,1,0000-0003-1939-8955
+",jvalentine@troy.edu,M,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0003-1939-8955
 33,,Gray,Tuttle,Gray Tuttle,"<p>
 	is Leila Hadley Luce Professor of Modern Tibetan Studies at Columbia University. He completed his PhD in Inner Asian History at Harvard in 2002.</p>
-",graytuttle108@aol.com,M,226,United States,https://sws.geonames.org/6252001,1,0000-0003-2940-5274
+",graytuttle108@aol.com,M,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0003-2940-5274
 3,,José,Cabezón,Jose Cabezon,"<p>
 	is the XIV Dalai Lama Endowed Chair in Tibetan Buddhism and Cultural Studies at the University of California, Santa Barbara.</p>
 <p>
@@ -248,7 +248,7 @@ author_id,full_name,first_name,last_name,clean_name,bio_text,email_address,gende
 ",,M,226,United States,https://sws.geonames.org/6252001,1,
 9,,Sarah,Jacoby,Sarah Jacoby,"<p>
 	is Assistant Professor of Religion at Northwestern University. She earned a PhD in Indo-Tibetan Buddhist Studies at the University of Virginia in 2007.</p>
-",s-jacoby@northwestern.edu,F,226,United States,https://sws.geonames.org/6252001,1,0000-0001-8377-827X
+",s-jacoby@northwestern.edu,F,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0001-8377-827X
 14,,Ariana,Maki,Ariana Maki,"<p>
 	is Associate Director of the Tibet Center and Bhutan Initiative at the University of Virginia and holds a Ph.D. in Art History with a specialization in Himalayan Art. <a href=""http://virginia.academia.edu/ArianaMaki"" target=""_blank"">http://virginia.academia.edu/ArianaMaki</a></p>
 ",ariana.maki@gmail.com,F,226,United States,https://sws.geonames.org/6252001,1,
@@ -269,7 +269,7 @@ author_id,full_name,first_name,last_name,clean_name,bio_text,email_address,gende
 	is Research Assistant Professor in Tibetan and Buddhist studies, Director of Scholarship at the Contemplative Sciences Center, and affiliated faculty with the Tibet Center&nbsp;at the University of Virginia.&nbsp;</p>
 <p>
 	&nbsp;</p>
-",ms4qm@virginia.edu,M,226,United States,https://sws.geonames.org/6252001,1,0000-0001-6543-6954
+",ms4qm@virginia.edu,M,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0001-6543-6954
 23,,Jann,Ronis,Jann Ronis,"<p>
 	is Executive Director of the Buddhist Digital Resource Center (BDRC). He received his Ph.D. from the University of Virginia in 2009.</p>
 ",jann@tbrc.org,M,226,United States,https://sws.geonames.org/6252001,1,
@@ -418,7 +418,7 @@ author_id,full_name,first_name,last_name,clean_name,bio_text,email_address,gende
 ",james_moallem@g.harvard.edu,M,226,United States,https://sws.geonames.org/6252001,1,
 74,,Holly,Gayley,Holly Gayley,"<p>
 	is Associate Professor in the Department of Religious Studies at the University of Colorado, Boulder. She is author of <em><a href=""https://cup.columbia.edu/book/love-letters-from-golok/9780231180528"" target=""_blank"">Love Letters from Golok: A Tantric Couple in Modern Tibet</a></em> (Columbia University Press, 2016).</p>
-",gayley@colorado.edu,F,226,United States,https://sws.geonames.org/6252001,1,0000-0003-2206-3451
+",gayley@colorado.edu,F,226,United States,https://sws.geonames.org/6252001,1,https://orcid.org/0000-0003-2206-3451
 108,,Elizabeth,Angowski,Elizabeth Angowski,"<p>
 	is an Assistant Professor of Religion at Earlham College. She completed her Ph.D. in Buddhist Studies at Harvard University in 2019. Her current research focuses on Buddhist narrative literature, ethics, and the figure of Yeshe Tsogyel.</p>
 <p>

@@ -4,6 +4,7 @@
 # imports: https://w3id.org/treasuryoflives/data/tolAuthorStatementsX.x.x
 # imports: https://w3id.org/treasuryoflives/data/tolTraditionsX.x.x
 # imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
+# imports: https://w3id.org/treasuryoflives/taxonomy/tolEntityStatusX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolMarriageRanksX.x.x
@@ -26,6 +27,7 @@
 		<https://w3id.org/treasuryoflives/data/tolAuthorStatementsX.x.x> ,
 		<https://w3id.org/treasuryoflives/data/tolTraditionsX.x.x> ,
 		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ,
+		<https://w3id.org/treasuryoflives/taxonomy/tolEntityStatusX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolMarriageRanksX.x.x> ,
