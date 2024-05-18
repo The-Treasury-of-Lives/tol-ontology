@@ -552,7 +552,7 @@ tolo:displayName
 tolo:displayOrder
 	a owl:AnnotationProperty ;
 	skos:definition "Indicates display order in a list of values."@en ;
-	skos:example "Used to order biography author list when there are multiple authors."@en ;
+	skos:example "Used to order a biography author list when there are multiple authors."@en ;
 	skos:prefLabel "display order"@en ;
 	.
 
