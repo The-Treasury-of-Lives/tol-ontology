@@ -40,6 +40,11 @@ CONSTRUCT {
     ?incarnation_lineage_iri 
         a tolo:IncarnationLineage ;
         owl:sameAs ?bdrc_lineage_iri ;
+        gist:name 
+            ?tol_name , 
+            ?wylie_name , 
+            ?chinese_name ,
+            ?tibetan_name ;
         skos:prefLabel 
             ?tol_name , 
             ?wylie_name , 
@@ -72,8 +77,8 @@ WHERE {
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", REPLACE(?BDRC_R_ID, " +$", ""))) AS ?bdrc_lineage_iri) 
 
     # Names
-    BIND(STRLANG(?Incarnation_Name, "en") AS ?tol_name)
-    BIND(STRLANG(?Wylie, "bo-x-ewts") AS ?wylie_name)
+    BIND(STRLANG(REPLACE(?Incarnation_Name, " +$", ""), "en") AS ?tol_name)
+    BIND(STRLANG(REPLACE(?Wylie, " +$", ""), "bo-x-ewts") AS ?wylie_name)
     BIND(STRLANG(?Chinese, "zh-Hani") AS ?chinese_name)
     BIND(STRLANG(?Tibetan, "bo") AS ?tibetan_name)
 
