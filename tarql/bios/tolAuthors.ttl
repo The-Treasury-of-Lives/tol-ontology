@@ -18,8 +18,10 @@
 
 told:_Author_1
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-9536-4904> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_1 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Jean-Luc"@en ;
 	tolo:fullName "Jean-Luc Achard"@en ;
 	tolo:lastName "Achard"@en ;
@@ -30,6 +32,7 @@ told:_Author_10
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_10 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Jagar Dorji"@en ;
 	tolo:residesIn <https://sws.geonames.org/1252634> ;
 	.
@@ -38,6 +41,7 @@ told:_Author_101
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_101 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Tom"@en ;
 	tolo:fullName "Tom Greensmith"@en ;
 	tolo:lastName "Greensmith"@en ;
@@ -48,6 +52,7 @@ told:_Author_103
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_103 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Will"@en ;
 	tolo:fullName "Will May"@en ;
 	tolo:lastName "May"@en ;
@@ -58,6 +63,7 @@ told:_Author_104
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_104 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Karma Sonam Gelek"@en ;
 	tolo:residesIn <https://sws.geonames.org/6252001> ;
 	.
@@ -66,6 +72,7 @@ told:_Author_105
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_105 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Ryan M."@en ;
 	tolo:fullName "Ryan M. Jacobson"@en ;
 	tolo:lastName "Jacobson"@en ;
@@ -76,6 +83,7 @@ told:_Author_106
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_106 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Thinley Dorje Lama"@en ;
 	tolo:residesIn <https://sws.geonames.org/1282988> ;
 	.
@@ -84,6 +92,7 @@ told:_Author_107
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_107 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Greg"@en ;
 	tolo:fullName "Greg Seton"@en ;
 	tolo:lastName "Seton"@en ;
@@ -93,6 +102,7 @@ told:_Author_107
 told:_Author_108
 	a tolo:Author ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_108 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Elizabeth"@en ;
 	tolo:fullName "Elizabeth Angowski"@en ;
 	tolo:lastName "Angowski"@en ;
@@ -101,8 +111,10 @@ told:_Author_108
 
 told:_Author_109
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0002-6055-2566> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_109 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Benjamin"@en ;
 	tolo:fullName "Benjamin Nourse"@en ;
 	tolo:lastName "Nourse"@en ;
@@ -113,6 +125,7 @@ told:_Author_11
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_11 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Karma Rigzin"@en ;
 	tolo:residesIn <https://sws.geonames.org/1252634> ;
 	.
@@ -121,6 +134,7 @@ told:_Author_110
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_110 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Han"@en ;
 	tolo:fullName "Han Kop"@en ;
 	tolo:lastName "Kop"@en ;
@@ -131,6 +145,7 @@ told:_Author_111
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_111 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Amy"@en ;
 	tolo:fullName "Amy Holmes Tagchungdarpa"@en ;
 	tolo:lastName "Holmes Tagchungdarpa"@en ;
@@ -139,8 +154,10 @@ told:_Author_111
 
 told:_Author_112
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-7839-7253> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_112 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Kalzang Dorjee"@en ;
 	tolo:fullName "Kalzang Dorjee Bhutia"@en ;
 	tolo:lastName "Bhutia"@en ;
@@ -151,6 +168,7 @@ told:_Author_113
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_113 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Jaakko"@en ;
 	tolo:fullName "Jaakko Takkinen"@en ;
 	tolo:lastName "Takkinen"@en ;
@@ -161,6 +179,7 @@ told:_Author_114
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_114 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "He Mufei (Helena)"@en ;
 	tolo:residesIn <https://sws.geonames.org/1814991> ;
 	.
@@ -169,6 +188,7 @@ told:_Author_115
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_115 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Neema Tashi"@en ;
 	tolo:residesIn <https://sws.geonames.org/1269750> ;
 	.
@@ -177,6 +197,7 @@ told:_Author_116
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_116 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Tenzin Choephel"@en ;
 	tolo:residesIn <https://sws.geonames.org/2635167> ;
 	.
@@ -185,6 +206,7 @@ told:_Author_117
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_117 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Patrick"@en ;
 	tolo:fullName "Patrick Dowd"@en ;
 	tolo:lastName "Dowd"@en ;
@@ -195,14 +217,17 @@ told:_Author_118
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_118 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Palden Gyal"@en ;
 	tolo:residesIn <https://sws.geonames.org/6252001> ;
 	.
 
 told:_Author_119
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0002-5176-8023> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_119 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Franz Xaver"@en ;
 	tolo:fullName "Franz Xaver Erhard"@en ;
 	tolo:lastName "Erhard"@en ;
@@ -213,6 +238,7 @@ told:_Author_12
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_12 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Khenpo Phuntsok Tashi"@en ;
 	tolo:residesIn <https://sws.geonames.org/1252634> ;
 	.
@@ -221,14 +247,17 @@ told:_Author_120
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_120 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Ngawang Dorje"@en ;
 	tolo:residesIn <https://sws.geonames.org/1814991> ;
 	.
 
 told:_Author_121
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-6593-5366> ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_121 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Renée"@en ;
 	tolo:fullName "Renée Ford"@en ;
 	tolo:lastName "Ford"@en ;
@@ -237,8 +266,10 @@ told:_Author_121
 
 told:_Author_122
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0002-1870-0369> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_122 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Dominic"@en ;
 	tolo:fullName "Dominic Sur"@en ;
 	tolo:lastName "Sur"@en ;
@@ -249,6 +280,7 @@ told:_Author_123
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_123 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Jamyang Norbu"@en ;
 	tolo:residesIn <https://sws.geonames.org/6252001> ;
 	.
@@ -257,6 +289,7 @@ told:_Author_124
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_124 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Adele"@en ;
 	tolo:fullName "Adele Tomlin"@en ;
 	tolo:lastName "Tomlin"@en ;
@@ -267,6 +300,7 @@ told:_Author_125
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_125 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Marlene"@en ;
 	tolo:fullName "Marlene Erschbamer"@en ;
 	tolo:lastName "Erschbamer"@en ;
@@ -277,6 +311,7 @@ told:_Author_126
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_126 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Ritiman"@en ;
 	tolo:fullName "Ritiman Das"@en ;
 	tolo:lastName "Das"@en ;
@@ -287,6 +322,7 @@ told:_Author_127
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_127 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Dhondup T."@en ;
 	tolo:fullName "Dhondup T. Rekjong"@en ;
 	tolo:lastName "Rekjong"@en ;
@@ -295,8 +331,10 @@ told:_Author_127
 
 told:_Author_128
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-0706-5475> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_128 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Martin"@en ;
 	tolo:fullName "Martin Mills"@en ;
 	tolo:lastName "Mills"@en ;
@@ -307,6 +345,7 @@ told:_Author_129
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_129 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "J. Arya"@en ;
 	tolo:fullName "J. Arya Moallem"@en ;
 	tolo:lastName "Moallem"@en ;
@@ -317,6 +356,7 @@ told:_Author_13
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_13 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Jakob"@en ;
 	tolo:fullName "Jakob Leschly"@en ;
 	tolo:lastName "Leschly"@en ;
@@ -327,14 +367,17 @@ told:_Author_130
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_130 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Wu"@en ;
 	tolo:residesIn <https://sws.geonames.org/1814991> ;
 	.
 
 told:_Author_131
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0002-6462-0204> ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_131 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Julia"@en ;
 	tolo:fullName "Julia Stenzel"@en ;
 	tolo:lastName "Stenzel"@en ;
@@ -345,6 +388,7 @@ told:_Author_132
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_132 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Yanchen Dolkar"@en ;
 	tolo:fullName "Yanchen Dolkar Tsatultsang"@en ;
 	tolo:lastName "Tsatultsang"@en ;
@@ -355,6 +399,7 @@ told:_Author_135
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_135 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Varvara"@en ;
 	tolo:fullName "Varvara Chatzisavva"@en ;
 	tolo:lastName "Chatzisavva"@en ;
@@ -365,6 +410,7 @@ told:_Author_136
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_136 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Joseph"@en ;
 	tolo:fullName "Joseph McClellan"@en ;
 	tolo:lastName "McClellan"@en ;
@@ -375,6 +421,7 @@ told:_Author_137
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_137 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Barbara"@en ;
 	tolo:fullName "Barbara Gerke"@en ;
 	tolo:lastName "Gerke"@en ;
@@ -385,6 +432,7 @@ told:_Author_138
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_138 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Jan M. A."@en ;
 	tolo:fullName "Jan M. A. van der Valk"@en ;
 	tolo:lastName "van der Valk"@en ;
@@ -395,6 +443,7 @@ told:_Author_139
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_139 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Pasang Yonten Arya"@en ;
 	tolo:residesIn <https://sws.geonames.org/2802361> ;
 	.
@@ -403,6 +452,7 @@ told:_Author_14
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_14 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Ariana"@en ;
 	tolo:fullName "Ariana Maki"@en ;
 	tolo:lastName "Maki"@en ;
@@ -413,6 +463,7 @@ told:_Author_140
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_140 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Oriane"@en ;
 	tolo:fullName "Oriane Lavole"@en ;
 	tolo:lastName "Lavole"@en ;
@@ -422,6 +473,7 @@ told:_Author_141
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_141 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_inactive ;
 	tolo:firstName "Lkhagvademchig"@en ;
 	tolo:fullName "Lkhagvademchig Jadamba"@en ;
 	tolo:lastName "Jadamba"@en ;
@@ -432,6 +484,7 @@ told:_Author_15
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_15 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_inactive ;
 	tolo:firstName "Arthur"@en ;
 	tolo:fullName "Arthur Mandelbaum"@en ;
 	tolo:lastName "Mandelbaum"@en ;
@@ -442,6 +495,7 @@ told:_Author_16
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_16 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Dan"@en ;
 	tolo:fullName "Dan Martin"@en ;
 	tolo:lastName "Martin"@en ;
@@ -452,6 +506,7 @@ told:_Author_17
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_17 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Françoise"@en ;
 	tolo:fullName "Françoise Pommaret"@en ;
 	tolo:lastName "Pommaret"@en ;
@@ -462,6 +517,7 @@ told:_Author_18
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_18 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Joona"@en ;
 	tolo:fullName "Joona Repo"@en ;
 	tolo:lastName "Repo"@en ;
@@ -472,14 +528,17 @@ told:_Author_19
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_19 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Samten Chhosphel"@en ;
 	tolo:residesIn <https://sws.geonames.org/6252001> ;
 	.
 
 told:_Author_2
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-9683-6731> ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_2 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Namdrol Miranda"@en ;
 	tolo:fullName "Namdrol Miranda Adams"@en ;
 	tolo:lastName "Adams"@en ;
@@ -488,8 +547,10 @@ told:_Author_2
 
 told:_Author_20
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-6543-6954> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_20 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Michael"@en ;
 	tolo:fullName "Michael Sheehy"@en ;
 	tolo:lastName "Sheehy"@en ;
@@ -498,8 +559,10 @@ told:_Author_20
 
 told:_Author_21
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-0511-3728> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_21 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Andrew"@en ;
 	tolo:fullName "Andrew Quintman"@en ;
 	tolo:lastName "Quintman"@en ;
@@ -510,6 +573,7 @@ told:_Author_22
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_22 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Matthieu"@en ;
 	tolo:fullName "Matthieu Ricard"@en ;
 	tolo:lastName "Ricard"@en ;
@@ -520,6 +584,7 @@ told:_Author_23
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_23 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Jann"@en ;
 	tolo:fullName "Jann Ronis"@en ;
 	tolo:lastName "Ronis"@en ;
@@ -530,6 +595,7 @@ told:_Author_24
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_24 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Joshua"@en ;
 	tolo:fullName "Joshua Schapiro"@en ;
 	tolo:lastName "Schapiro"@en ;
@@ -540,6 +606,7 @@ told:_Author_25
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_25 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_inactive ;
 	tolo:firstName "Gene"@en ;
 	tolo:fullName "Gene Smith"@en ;
 	tolo:lastName "Smith"@en ;
@@ -550,6 +617,7 @@ told:_Author_26
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_26 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Sonam Dorji"@en ;
 	tolo:residesIn <https://sws.geonames.org/1814991> ;
 	.
@@ -558,6 +626,7 @@ told:_Author_27
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_27 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Heather"@en ;
 	tolo:fullName "Heather Stoddard"@en ;
 	tolo:lastName "Stoddard"@en ;
@@ -566,8 +635,10 @@ told:_Author_27
 
 told:_Author_28
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-7211-3467> ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_28 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Michelle"@en ;
 	tolo:fullName "Michelle Sorensen"@en ;
 	tolo:lastName "Sorensen"@en ;
@@ -578,6 +649,7 @@ told:_Author_29
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_29 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Cyrus"@en ;
 	tolo:fullName "Cyrus Stearns"@en ;
 	tolo:lastName "Stearns"@en ;
@@ -588,6 +660,7 @@ told:_Author_3
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_3 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "José"@en ;
 	tolo:fullName "José Cabezón"@en ;
 	tolo:lastName "Cabezón"@en ;
@@ -598,6 +671,7 @@ told:_Author_30
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_30 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Dominique"@en ;
 	tolo:fullName "Dominique Townsend"@en ;
 	tolo:lastName "Townsend"@en ;
@@ -606,8 +680,10 @@ told:_Author_30
 
 told:_Author_31
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-0311-6503> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_31 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Tsehua"@en ;
 	tolo:residesIn <https://sws.geonames.org/6252001> ;
 	.
@@ -616,14 +692,17 @@ told:_Author_32
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_32 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Tsering Namgyal"@en ;
 	tolo:residesIn <https://sws.geonames.org/1814991> ;
 	.
 
 told:_Author_33
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-2940-5274> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_33 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Gray"@en ;
 	tolo:fullName "Gray Tuttle"@en ;
 	tolo:lastName "Tuttle"@en ;
@@ -632,8 +711,10 @@ told:_Author_33
 
 told:_Author_34
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-0160-1265> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_34 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Cameron David"@en ;
 	tolo:fullName "Cameron David Warner"@en ;
 	tolo:lastName "Warner"@en ;
@@ -644,6 +725,7 @@ told:_Author_35
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_35 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Jeff"@en ;
 	tolo:fullName "Jeff Watt"@en ;
 	tolo:lastName "Watt"@en ;
@@ -654,6 +736,7 @@ told:_Author_36
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_36 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Ben"@en ;
 	tolo:fullName "Ben Wood"@en ;
 	tolo:lastName "Wood"@en ;
@@ -664,6 +747,7 @@ told:_Author_37
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_37 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Nicole"@en ;
 	tolo:fullName "Nicole Willock"@en ;
 	tolo:lastName "Willock"@en ;
@@ -674,6 +758,7 @@ told:_Author_38
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_38 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Eveline"@en ;
 	tolo:fullName "Eveline Yang"@en ;
 	tolo:lastName "Yang"@en ;
@@ -684,6 +769,7 @@ told:_Author_39
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_39 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Yangdon Dhondup"@en ;
 	tolo:residesIn <https://sws.geonames.org/6252001> ;
 	.
@@ -692,14 +778,17 @@ told:_Author_4
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_4 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Dorje Penjore"@en ;
 	tolo:residesIn <https://sws.geonames.org/1252634> ;
 	.
 
 told:_Author_40
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0002-2390-9642> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_40 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Marc Henri"@en ;
 	tolo:fullName "Marc Henri Deroche"@en ;
 	tolo:lastName "Deroche"@en ;
@@ -708,8 +797,10 @@ told:_Author_40
 
 told:_Author_41
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0002-1320-7073> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_41 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Stefan"@en ;
 	tolo:fullName "Stefan Larsson"@en ;
 	tolo:lastName "Larsson"@en ;
@@ -720,6 +811,7 @@ told:_Author_42
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_42 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Simon"@en ;
 	tolo:fullName "Simon Wickham-Smith"@en ;
 	tolo:lastName "Wickham-Smith"@en ;
@@ -730,6 +822,7 @@ told:_Author_43
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_43 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Joel"@en ;
 	tolo:fullName "Joel Gruber"@en ;
 	tolo:lastName "Gruber"@en ;
@@ -738,8 +831,10 @@ told:_Author_43
 
 told:_Author_44
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-7830-5099> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_44 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "John Vincent"@en ;
 	tolo:fullName "John Vincent Bellezza"@en ;
 	tolo:lastName "Bellezza"@en ;
@@ -750,6 +845,7 @@ told:_Author_45
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_45 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Elisabeth"@en ;
 	tolo:fullName "Elisabeth Benard"@en ;
 	tolo:lastName "Benard"@en ;
@@ -758,8 +854,10 @@ told:_Author_45
 
 told:_Author_46
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-3760-6260> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_46 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Adam"@en ;
 	tolo:fullName "Adam Pearcey"@en ;
 	tolo:lastName "Pearcey"@en ;
@@ -770,6 +868,7 @@ told:_Author_47
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_47 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Thinlay Gyatso"@en ;
 	tolo:residesIn <https://sws.geonames.org/1814991> ;
 	.
@@ -778,6 +877,7 @@ told:_Author_48
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_48 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Tenzin Fedor"@en ;
 	tolo:fullName "Tenzin Fedor Stracke"@en ;
 	tolo:lastName "Stracke"@en ;
@@ -786,8 +886,10 @@ told:_Author_48
 
 told:_Author_49
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-1097-3853> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_49 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Douglas"@en ;
 	tolo:fullName "Douglas Duckworth"@en ;
 	tolo:lastName "Duckworth"@en ;
@@ -798,6 +900,7 @@ told:_Author_5
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_5 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Alexander"@en ;
 	tolo:fullName "Alexander Gardner"@en ;
 	tolo:lastName "Gardner"@en ;
@@ -808,6 +911,7 @@ told:_Author_50
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_50 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Irmgard"@en ;
 	tolo:fullName "Irmgard Mengele"@en ;
 	tolo:lastName "Mengele"@en ;
@@ -818,6 +922,7 @@ told:_Author_51
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_51 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Daniel"@en ;
 	tolo:fullName "Daniel Hirshberg"@en ;
 	tolo:lastName "Hirshberg"@en ;
@@ -828,6 +933,7 @@ told:_Author_52
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_52 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Martin"@en ;
 	tolo:fullName "Martin Boord"@en ;
 	tolo:lastName "Boord"@en ;
@@ -838,6 +944,7 @@ told:_Author_53
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_53 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Tsering Shakya"@en ;
 	tolo:residesIn <https://sws.geonames.org/6251999> ;
 	.
@@ -846,6 +953,7 @@ told:_Author_54
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_54 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Harry"@en ;
 	tolo:fullName "Harry Einhorn"@en ;
 	tolo:lastName "Einhorn"@en ;
@@ -856,6 +964,7 @@ told:_Author_55
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_55 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Matthew"@en ;
 	tolo:fullName "Matthew Kapstein"@en ;
 	tolo:lastName "Kapstein"@en ;
@@ -865,6 +974,7 @@ told:_Author_55
 told:_Author_56
 	a tolo:Author ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_56 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Sangngak Dorje"@en ;
 	.
 
@@ -872,6 +982,7 @@ told:_Author_57
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_57 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Liz"@en ;
 	tolo:fullName "Liz Flora"@en ;
 	tolo:lastName "Flora"@en ;
@@ -882,6 +993,7 @@ told:_Author_58
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_58 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Suzanne"@en ;
 	tolo:fullName "Suzanne Bessenger"@en ;
 	tolo:lastName "Bessenger"@en ;
@@ -892,6 +1004,7 @@ told:_Author_59
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_59 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Michael"@en ;
 	tolo:fullName "Michael Burroughs"@en ;
 	tolo:lastName "Burroughs"@en ;
@@ -902,6 +1015,7 @@ told:_Author_6
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_6 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_inactive ;
 	tolo:fullName "Gyurme Dorje"@en ;
 	tolo:residesIn <https://sws.geonames.org/2635167> ;
 	.
@@ -910,6 +1024,7 @@ told:_Author_60
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_60 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Antonio"@en ;
 	tolo:fullName "Antonio Terrone"@en ;
 	tolo:lastName "Terrone"@en ;
@@ -918,16 +1033,20 @@ told:_Author_60
 
 told:_Author_61
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-9611-1247> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_61 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Sonam Thakchoe"@en ;
 	tolo:residesIn <https://sws.geonames.org/2077456> ;
 	.
 
 told:_Author_62
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-8637-5900> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_62 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "John"@en ;
 	tolo:fullName "John Powers"@en ;
 	tolo:lastName "Powers"@en ;
@@ -938,6 +1057,7 @@ told:_Author_63
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_63 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Elizabeth"@en ;
 	tolo:fullName "Elizabeth Monson"@en ;
 	tolo:lastName "Monson"@en ;
@@ -948,6 +1068,7 @@ told:_Author_64
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_64 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Brandon"@en ;
 	tolo:fullName "Brandon Dotson"@en ;
 	tolo:lastName "Dotson"@en ;
@@ -958,6 +1079,7 @@ told:_Author_65
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_65 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Benjamin"@en ;
 	tolo:fullName "Benjamin Bogin"@en ;
 	tolo:lastName "Bogin"@en ;
@@ -966,8 +1088,10 @@ told:_Author_65
 
 told:_Author_66
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0002-8125-6862> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_66 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Bryan"@en ;
 	tolo:fullName "Bryan Cuevas"@en ;
 	tolo:lastName "Cuevas"@en ;
@@ -978,6 +1102,7 @@ told:_Author_67
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_67 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Hildegard"@en ;
 	tolo:fullName "Hildegard Diemberger"@en ;
 	tolo:lastName "Diemberger"@en ;
@@ -988,6 +1113,7 @@ told:_Author_68
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_68 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Evan"@en ;
 	tolo:fullName "Evan Yerburgh"@en ;
 	tolo:lastName "Yerburgh"@en ;
@@ -997,6 +1123,7 @@ told:_Author_69
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_69 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Nathan Eugene"@en ;
 	tolo:fullName "Nathan Eugene Bates"@en ;
 	tolo:lastName "Bates"@en ;
@@ -1007,6 +1134,7 @@ told:_Author_7
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_7 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Ron"@en ;
 	tolo:fullName "Ron Garry"@en ;
 	tolo:lastName "Garry"@en ;
@@ -1017,6 +1145,7 @@ told:_Author_70
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_70 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Willa"@en ;
 	tolo:fullName "Willa Miller"@en ;
 	tolo:lastName "Miller"@en ;
@@ -1027,6 +1156,7 @@ told:_Author_71
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_71 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Jacob"@en ;
 	tolo:fullName "Jacob Dalton"@en ;
 	tolo:lastName "Dalton"@en ;
@@ -1037,6 +1167,7 @@ told:_Author_73
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_73 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Catherine"@en ;
 	tolo:fullName "Catherine Tsuji"@en ;
 	tolo:lastName "Tsuji"@en ;
@@ -1045,8 +1176,10 @@ told:_Author_73
 
 told:_Author_74
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-2206-3451> ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_74 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Holly"@en ;
 	tolo:fullName "Holly Gayley"@en ;
 	tolo:lastName "Gayley"@en ;
@@ -1057,6 +1190,7 @@ told:_Author_75
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_75 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Dirk"@en ;
 	tolo:fullName "Dirk Schmidt"@en ;
 	tolo:lastName "Schmidt"@en ;
@@ -1066,6 +1200,7 @@ told:_Author_76
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_76 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Mads Garnak"@en ;
 	tolo:fullName "Mads Garnak Rasmussen"@en ;
 	tolo:lastName "Rasmussen"@en ;
@@ -1075,6 +1210,7 @@ told:_Author_77
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_77 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Lan"@en ;
 	tolo:fullName "Lan Wu"@en ;
 	tolo:lastName "Wu"@en ;
@@ -1083,8 +1219,10 @@ told:_Author_77
 
 told:_Author_78
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-0179-5231> ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_78 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Alison"@en ;
 	tolo:fullName "Alison Melnick Dyer"@en ;
 	tolo:lastName "Melnick Dyer"@en ;
@@ -1095,6 +1233,7 @@ told:_Author_79
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_79 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Sherab Drime"@en ;
 	tolo:residesIn <https://sws.geonames.org/1282988> ;
 	.
@@ -1103,6 +1242,7 @@ told:_Author_8
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_8 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Jörg"@en ;
 	tolo:fullName "Jörg Heimbel"@en ;
 	tolo:lastName "Heimbel"@en ;
@@ -1113,6 +1253,7 @@ told:_Author_80
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_80 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Sonam Tsering"@en ;
 	tolo:fullName "Sonam Tsering Ngulphu"@en ;
 	tolo:lastName "Ngulphu"@en ;
@@ -1123,6 +1264,7 @@ told:_Author_81
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_81 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Erick"@en ;
 	tolo:fullName "Erick Tsiknopoulos"@en ;
 	tolo:lastName "Tsiknopoulos"@en ;
@@ -1133,6 +1275,7 @@ told:_Author_82
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_82 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Tenzin Dickie"@en ;
 	tolo:residesIn <https://sws.geonames.org/6252001> ;
 	.
@@ -1141,6 +1284,7 @@ told:_Author_83
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_83 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Ryosuke"@en ;
 	tolo:fullName "Ryosuke Kobayashi"@en ;
 	tolo:lastName "Kobayashi"@en ;
@@ -1149,8 +1293,10 @@ told:_Author_83
 
 told:_Author_84
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-5187-4769> ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_84 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Carole"@en ;
 	tolo:fullName "Carole McGranahan"@en ;
 	tolo:lastName "McGranahan"@en ;
@@ -1161,6 +1307,7 @@ told:_Author_85
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_85 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Pema Bhum"@en ;
 	tolo:residesIn <https://sws.geonames.org/6252001> ;
 	.
@@ -1169,6 +1316,7 @@ told:_Author_86
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_86 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Chris"@en ;
 	tolo:fullName "Chris Hatchell"@en ;
 	tolo:lastName "Hatchell"@en ;
@@ -1177,8 +1325,10 @@ told:_Author_86
 
 told:_Author_87
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-1939-8955> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_87 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Jay"@en ;
 	tolo:fullName "Jay Valentine"@en ;
 	tolo:lastName "Valentine"@en ;
@@ -1187,8 +1337,10 @@ told:_Author_87
 
 told:_Author_88
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-6925-2570> ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_88 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Maria"@en ;
 	tolo:fullName "Maria Turek"@en ;
 	tolo:lastName "Turek"@en ;
@@ -1199,6 +1351,7 @@ told:_Author_89
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_89 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "ErdeneBaatar"@en ;
 	tolo:fullName "ErdeneBaatar Erdene Ochir"@en ;
 	tolo:lastName "Erdene Ochir"@en ;
@@ -1207,8 +1360,10 @@ told:_Author_89
 
 told:_Author_9
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-8377-827X> ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_9 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Sarah"@en ;
 	tolo:fullName "Sarah Jacoby"@en ;
 	tolo:lastName "Jacoby"@en ;
@@ -1219,6 +1374,7 @@ told:_Author_90
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_90 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Hamid"@en ;
 	tolo:fullName "Hamid Sardar"@en ;
 	tolo:lastName "Sardar"@en ;
@@ -1229,6 +1385,7 @@ told:_Author_91
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_91 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Jake"@en ;
 	tolo:fullName "Jake Nagasawa"@en ;
 	tolo:lastName "Nagasawa"@en ;
@@ -1239,6 +1396,7 @@ told:_Author_92
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_92 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Derek"@en ;
 	tolo:fullName "Derek Maher"@en ;
 	tolo:lastName "Maher"@en ;
@@ -1249,6 +1407,7 @@ told:_Author_93
 	a tolo:Author ;
 	bdo:personGender bdr:GenderFemale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_93 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Mayumi"@en ;
 	tolo:fullName "Mayumi Kodani"@en ;
 	tolo:lastName "Kodani"@en ;
@@ -1259,6 +1418,7 @@ told:_Author_94
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_94 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_inactive ;
 	tolo:firstName "Sean"@en ;
 	tolo:fullName "Sean Jones"@en ;
 	tolo:lastName "Jones"@en ;
@@ -1269,6 +1429,7 @@ told:_Author_95
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_95 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Yaroslav"@en ;
 	tolo:fullName "Yaroslav Komarovski"@en ;
 	tolo:lastName "Komarovski"@en ;
@@ -1279,14 +1440,17 @@ told:_Author_96
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_96 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:fullName "Samten Karmay"@en ;
 	tolo:residesIn <https://sws.geonames.org/3017382> ;
 	.
 
 told:_Author_97
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-0927-0376> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_97 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "David"@en ;
 	tolo:fullName "David DiValerio"@en ;
 	tolo:lastName "DiValerio"@en ;
@@ -1295,8 +1459,10 @@ told:_Author_97
 
 told:_Author_98
 	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0002-3460-5935> ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_98 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Stéphane"@en ;
 	tolo:fullName "Stéphane Arguillère"@en ;
 	tolo:lastName "Arguillère"@en ;
@@ -1307,6 +1473,7 @@ told:_Author_99
 	a tolo:Author ;
 	bdo:personGender bdr:GenderMale ;
 	gist:hasCommunicationAddress told:_EmailAddress_Author_99 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
 	tolo:firstName "Lowell"@en ;
 	tolo:fullName "Lowell Cook"@en ;
 	tolo:lastName "Cook"@en ;
