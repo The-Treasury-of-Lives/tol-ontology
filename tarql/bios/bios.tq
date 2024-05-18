@@ -26,8 +26,8 @@ PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/>
 # published_display_date
 # updated_display_date
 # published_default_name
-# relative_statement (binary)
-# student_statement (binary)
+# relative_statement (0/1)
+# student_statement (0/1)
 
 # Run: 
 # tarql --dedup 100000 bios.tq bio-4-22-24.csv > tolBios.ttl
@@ -41,10 +41,10 @@ CONSTRUCT {
         gist:isAbout ?person_iri ;
         gist:containedText ?bio_text_en ;
 	    gist:isExpressedIn media-txt:html ;
-        gist:isCategorizedBy   
-            ?peer_reviewed_category ,
-            ?relative_statement_category ,
-            ?student_statement_category ;
+        gist:isCategorizedBy ?peer_reviewed_category ;
+        tolo:hasStatement
+            ?relative_author_statement ,
+            ?student_author_statement ;
         tolo:publicationDisplayDate ?published_display_date ;
         tolo:updateDisplayDate ?updated_display_date ;
         .
@@ -70,7 +70,7 @@ CONSTRUCT {
 WHERE {
     
     # Testing
-    # FILTER(?ROWNUM = 1)
+    # FILTER(?ROWNUM = 1415)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_Biography_", ?biography_id)) AS ?bio_iri)
     BIND(STRLANG(?body_text, "en") AS ?bio_text_en)
@@ -85,13 +85,10 @@ WHERE {
     BIND(STRLANG(?sources, "en") AS ?source_statement_en)
     BIND(STRLANG(CONCAT("Sources for Biography of Person ", ?person_id), "en") AS ?source_statement_label_en)
 
-    BIND(IF(?relative_statement = "1", "true", "false") AS ?relative_statement_value)
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_RelativeStatement_", ?relative_statement_value)) AS ?relative_statement_category)
-
-    BIND(IF(?student_statement = "1", "true", "false") AS ?student_statement_value)
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_StudentStatement_", ?student_statement_value)) AS ?student_statement_category)
+    BIND(IF(?relative_statement = "1", told:_AuthorStatement_relative, ?unbound) AS ?relative_author_statement)
+    BIND(IF(?student_statement = "1", told:_AuthorStatement_student, ?unbound) AS ?student_author_statement)
 
     BIND(IF(?peer_reviewed = "1", "true", "false") AS ?peer_reviewed_value)
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_PeerReviewed_", ?peer_reviewed_value)) AS ?peer_reviewed_category)
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_PeerReviewStatus_", ?peer_reviewed_value)) AS ?peer_reviewed_category)
    
 }

@@ -35,6 +35,26 @@ tolo:Author
 	skos:prefLabel "Author"@en ;
 	.
 
+tolo:AuthorStatement
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:Text
+			[
+				a owl:Restriction ;
+				owl:onProperty [
+					owl:inverseOf tolo:hasStatement ;
+				] ;
+				owl:someValuesFrom tolo:Biography ;
+			]
+		) ;
+	] ;
+	skos:definition "A disclaimer or disclosure about the author of a biography."@en ;
+	skos:example "A statement indicating that the author of the biography is a relative or student of its subject."@en ;
+	skos:prefLabel "Author Statement"@en ;
+	.
+
 tolo:Authorship
 	a owl:Class ;
 	owl:equivalentClass [
@@ -376,7 +396,7 @@ tolo:MonasticCollege
 	skos:prefLabel "Monastic College"@en ;
 	.
 
-tolo:PeerReviewed
+tolo:PeerReviewStatus
 	a owl:Class ;
 	rdfs:subClassOf
 		gist:Category ,
@@ -388,7 +408,10 @@ tolo:PeerReviewed
 			owl:someValuesFrom tolo:Biography ;
 		]
 		;
-	skos:prefLabel "A binary category indicating whether a biography has been peer reviewed or not."@en ;
+	skos:prefLabel
+		"A binary category indicating whether a biography has been peer reviewed or not."@en ,
+		"Peer Review Status"@en
+		;
 	.
 
 tolo:Person
@@ -406,24 +429,6 @@ tolo:Person
 	skos:scopeNote "May include quasi-historical figures."@en ;
 	.
 
-tolo:RelativeStatement
-	a owl:Class ;
-	rdfs:subClassOf
-		gist:Category ,
-		[
-			a owl:Restriction ;
-			owl:onProperty [
-				owl:inverseOf gist:isCategorizedBy ;
-			] ;
-			owl:someValuesFrom tolo:Biography ;
-		]
-		;
-	skos:prefLabel
-		"A binary category indicating TBD..."@en ,
-		"Relative Statement"@en
-		;
-	.
-
 tolo:SourceStatement
 	a owl:Class ;
 	rdfs:subClassOf
@@ -437,24 +442,6 @@ tolo:SourceStatement
 	skos:definition "A statement of the sources used to compile a piece of content."@en ;
 	skos:editorialNote "Could alternatively model with an object property hasSourceStatement."@en ;
 	skos:prefLabel "Source Statement"@en ;
-	.
-
-tolo:StudentStatement
-	a owl:Class ;
-	rdfs:subClassOf
-		gist:Category ,
-		[
-			a owl:Restriction ;
-			owl:onProperty [
-				owl:inverseOf gist:isCategorizedBy ;
-			] ;
-			owl:someValuesFrom tolo:Biography ;
-		]
-		;
-	skos:prefLabel
-		"A binary category indicating TBD..."@en ,
-		"Student Statement"@en
-		;
 	.
 
 tolo:Summary
@@ -866,6 +853,15 @@ tolo:hasSororallNiece
 		"We do not currently distinguish biological, adoptive, half, and step relationships."@en ,
 		"While a niece can be related through either a sibling or sibling-in-law, a sororal nephew is always related through a sister."@en
 		;
+	.
+
+tolo:hasStatement
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:Biography ;
+	rdfs:range tolo:AuthorStatement ;
+	skos:definition "Relates a biography to a disclaimer or disclosure about its authorship."@en ;
+	skos:example "A biography has a statement indicating that its author is a relative or student of its subject."@en ;
+	skos:prefLabel "has statement"@en ;
 	.
 
 tolo:inYear
