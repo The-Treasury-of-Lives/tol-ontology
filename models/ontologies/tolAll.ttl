@@ -1,14 +1,13 @@
 # imports: http://purl.bdrc.io/ontology/types/Gender
 # imports: https://w3id.org/semanticarts/ontology/gistCore12.0.1
 # imports: https://w3id.org/semanticarts/ontology/gistMediaTypes12.0.1
+# imports: https://w3id.org/treasuryoflives/data/tolAuthorStatementsX.x.x
 # imports: https://w3id.org/treasuryoflives/data/tolTraditionsX.x.x
 # imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolMarriageRanksX.x.x
-# imports: https://w3id.org/treasuryoflives/taxonomy/tolPeerReviewedX.x.x
-# imports: https://w3id.org/treasuryoflives/taxonomy/tolRelativeStatementX.x.x
-# imports: https://w3id.org/treasuryoflives/taxonomy/tolStudentStatementX.x.x
+# imports: https://w3id.org/treasuryoflives/taxonomy/tolPeerReviewStatusX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x
 
 @prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
@@ -24,14 +23,13 @@
 		<http://purl.bdrc.io/ontology/types/Gender> ,
 		<https://w3id.org/semanticarts/ontology/gistCore12.0.1> ,
 		<https://w3id.org/semanticarts/ontology/gistMediaTypes12.0.1> ,
+		<https://w3id.org/treasuryoflives/data/tolAuthorStatementsX.x.x> ,
 		<https://w3id.org/treasuryoflives/data/tolTraditionsX.x.x> ,
 		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolMarriageRanksX.x.x> ,
-		<https://w3id.org/treasuryoflives/taxonomy/tolPeerReviewedX.x.x> ,
-		<https://w3id.org/treasuryoflives/taxonomy/tolRelativeStatementX.x.x> ,
-		<https://w3id.org/treasuryoflives/taxonomy/tolStudentStatementX.x.x> ,
+		<https://w3id.org/treasuryoflives/taxonomy/tolPeerReviewStatusX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x>
 		;
 	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolAllX.x.x> ;

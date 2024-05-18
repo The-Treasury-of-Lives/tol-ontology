@@ -15,23 +15,23 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/treasuryoflives/taxonomy/tolRelativeStatement>
+<https://w3id.org/treasuryoflives/taxonomy/tolPeerReviewStatus>
 	a owl:Ontology ;
 	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
-	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolRelativeStatementX.x.x> ;
-	skos:definition "Binary values indicating..."@en ;
-	skos:prefLabel "Relative statement"@en ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolPeerReviewStatusX.x.x> ;
+	skos:definition "Binary values indicating whether a biography has been peer-reviewed or not."@en ;
+	skos:prefLabel "Peer Reviewed"@en ;
 	.
 
-tolx:_RelativeStatement_false
-	a tolo:RelativeStatement ;
-	skos:definition "TBD."@en ;
-	skos:prefLabel "No Relative Statement"@en ;
+tolx:_PeerReviewStatus_false
+	a tolo:PeerReviewed ;
+	skos:definition "The biography has not been peer-reviewed."@en ;
+	skos:prefLabel "Not Peer-Reviewed"@en ;
 	.
 
-tolx:_RelativeStatement_true
-	a tolo:RelativeStatement ;
-	skos:definition "TBD."@en ;
-	skos:prefLabel "Has Relative Statement"@en ;
+tolx:_PeerReviewStatus_true
+	a tolo:PeerReviewed ;
+	skos:definition "The biography has been peer-reviewed."@en ;
+	skos:prefLabel "Peer-Reviewed"@en ;
 	.
 
