@@ -870,9 +870,9 @@ tolo:inYear
 
 tolo:isAffiliatedWith
 	a owl:ObjectProperty ;
-	rdfs:subPropertyOf gist:isConnectedTo ;
-	skos:definition "Relates a person or organization to a group, institution, religion, or larger organization it is connected to."@en ;
-	skos:example "A teacher is affiliated with a tradition; an incarnation lineage is associated with a monastery and tradition."@en ;
+	skos:definition "Relates a person, organization, or place to a group, institution, religion, or larger organization it is connected to."@en ;
+	skos:editorialNote "Or just use gist:isConnectedTo?"@en ;
+	skos:example "A teacher is affiliated with a tradition; an incarnation lineage is affiliated with a monastery and tradition; a monastery is affiliated with a tradition."@en ;
 	skos:prefLabel "is affiliated with"@en ;
 	.
 
