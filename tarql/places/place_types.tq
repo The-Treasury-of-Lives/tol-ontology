@@ -28,7 +28,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 # Note that Institutions are not places, but are included here because the relational database and thus the export combines them with places.
 
-# Run tarql place_types.tq place-types-5-16-23.csv > tolPlaceTypes.ttl
+# Run:
+# tarql place_types.tq place-types-5-16-23.csv > tolPlaceTypes.ttl
 
 CONSTRUCT {
 
@@ -42,6 +43,7 @@ CONSTRUCT {
             ?label_wylie ,
             ?label_tibetan ,
             ?label_chinese ;
+        skos:definition ?definition_en ;
     .
 
 }
@@ -68,4 +70,7 @@ WHERE {
             tarql:expandPrefixedName(CONCAT("tolo:", "InstitutionType")), 
             tarql:expandPrefixedName(CONCAT("gist:", ?Class, "Type"))       
         ) AS ?class_iri)
+
+
+    BIND(STRLANG(?Definition, "en") AS ?definition_en)
 }
