@@ -69,6 +69,8 @@ WHERE {
     BIND(tarql:expandPrefixedName(CONCAT("tolx:_", ?type_infix, "Type_", ?type)) AS ?type_iri)
 
     # Get the entity's IRI
-    BIND(tarql:expandPrefixedName(CONCAT("told:_", ?class_local_name, "_", ?community_id)) AS ?place_iri)
+    # All IRIs will use infix "Place" because the type data is not available in other exports
+    # that reference the place (e.g., founders, founding dates, descriptions, etc.).
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Place_", ?community_id)) AS ?place_iri)
 
 }
