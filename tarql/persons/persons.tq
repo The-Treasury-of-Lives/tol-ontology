@@ -36,8 +36,7 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # Wikidata ID
 
 # Run: 
-# tarql --dedup 50000 persons.tq person-w-bio-3-18-24.csv > tolPersonsWithBio.ttl
-# tarql --dedup 50000 persons.tq person-no-bio-3-18-24.csv > tolPersonsNoBio.ttl
+# tarql --dedup 50000 persons.tq persons-5-13-24.csv > tolPersons.ttl
 
 CONSTRUCT {
     ?person_iri 
@@ -89,10 +88,7 @@ CONSTRUCT {
 WHERE {
 
     # Testing
-    # with bio
-    # FILTER(?ROWNUM IN (1, 3))
-    # no bio
-    # FILTER(?ROWNUM IN (1, 24))
+    # FILTER(?ROWNUM = 1)
 
     # IRIs and URLs
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?TOL_ID)) AS ?person_iri)
@@ -122,11 +118,11 @@ WHERE {
     # GENDER
     BIND(
         COALESCE(
-            IF(?Gender = "M", tarql:expandPrefixedName("bdr:GenderMale"), ?unbound),
-            IF(?Gender = "F", tarql:expandPrefixedName("bdr:GenderFemale"), ?unbound)
-        )
-        AS ?gender_iri
+            IF(?Gender = "M", "GenderMale", ?unbound),
+            IF(?Gender = "F", "GenderFemale", ?unbound)
+        ) AS ?gender_local_name
     )
+    BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?gender_local_name)) AS ?gender_iri)
 
     # DATES
 

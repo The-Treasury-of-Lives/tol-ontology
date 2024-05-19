@@ -1,0 +1,3527 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sws: <https://sws.geonames/org> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:_Author_1
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-9536-4904> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_1 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Jean-Luc"@en ;
+	tolo:fullName "Jean-Luc Achard"@en ;
+	tolo:lastName "Achard"@en ;
+	tolo:residesIn <https://sws.geonames.org/3017382> ;
+	.
+
+told:_Author_10
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_10 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Jagar Dorji"@en ;
+	tolo:residesIn <https://sws.geonames.org/1252634> ;
+	.
+
+told:_Author_101
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_101 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Tom"@en ;
+	tolo:fullName "Tom Greensmith"@en ;
+	tolo:lastName "Greensmith"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_103
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_103 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Will"@en ;
+	tolo:fullName "Will May"@en ;
+	tolo:lastName "May"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_104
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_104 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Karma Sonam Gelek"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_105
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_105 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Ryan M."@en ;
+	tolo:fullName "Ryan M. Jacobson"@en ;
+	tolo:lastName "Jacobson"@en ;
+	tolo:residesIn <https://sws.geonames.org/2635167> ;
+	.
+
+told:_Author_106
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_106 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Thinley Dorje Lama"@en ;
+	tolo:residesIn <https://sws.geonames.org/1282988> ;
+	.
+
+told:_Author_107
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_107 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Greg"@en ;
+	tolo:fullName "Greg Seton"@en ;
+	tolo:lastName "Seton"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_108
+	a tolo:Author ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_108 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Elizabeth"@en ;
+	tolo:fullName "Elizabeth Angowski"@en ;
+	tolo:lastName "Angowski"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_109
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0002-6055-2566> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_109 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Benjamin"@en ;
+	tolo:fullName "Benjamin Nourse"@en ;
+	tolo:lastName "Nourse"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_11
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_11 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Karma Rigzin"@en ;
+	tolo:residesIn <https://sws.geonames.org/1252634> ;
+	.
+
+told:_Author_110
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_110 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Han"@en ;
+	tolo:fullName "Han Kop"@en ;
+	tolo:lastName "Kop"@en ;
+	tolo:residesIn <https://sws.geonames.org/1282988> ;
+	.
+
+told:_Author_111
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_111 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Amy"@en ;
+	tolo:fullName "Amy Holmes Tagchungdarpa"@en ;
+	tolo:lastName "Holmes Tagchungdarpa"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_112
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-7839-7253> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_112 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Kalzang Dorjee"@en ;
+	tolo:fullName "Kalzang Dorjee Bhutia"@en ;
+	tolo:lastName "Bhutia"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_113
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_113 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Jaakko"@en ;
+	tolo:fullName "Jaakko Takkinen"@en ;
+	tolo:lastName "Takkinen"@en ;
+	tolo:residesIn <https://sws.geonames.org/660013> ;
+	.
+
+told:_Author_114
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_114 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "He Mufei (Helena)"@en ;
+	tolo:residesIn <https://sws.geonames.org/1814991> ;
+	.
+
+told:_Author_115
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_115 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Neema Tashi"@en ;
+	tolo:residesIn <https://sws.geonames.org/1269750> ;
+	.
+
+told:_Author_116
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_116 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Tenzin Choephel"@en ;
+	tolo:residesIn <https://sws.geonames.org/2635167> ;
+	.
+
+told:_Author_117
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_117 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Patrick"@en ;
+	tolo:fullName "Patrick Dowd"@en ;
+	tolo:lastName "Dowd"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_118
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_118 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Palden Gyal"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_119
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0002-5176-8023> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_119 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Franz Xaver"@en ;
+	tolo:fullName "Franz Xaver Erhard"@en ;
+	tolo:lastName "Erhard"@en ;
+	tolo:residesIn <https://sws.geonames.org/2921044> ;
+	.
+
+told:_Author_12
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_12 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Khenpo Phuntsok Tashi"@en ;
+	tolo:residesIn <https://sws.geonames.org/1252634> ;
+	.
+
+told:_Author_120
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_120 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Ngawang Dorje"@en ;
+	tolo:residesIn <https://sws.geonames.org/1814991> ;
+	.
+
+told:_Author_121
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-6593-5366> ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_121 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Renée"@en ;
+	tolo:fullName "Renée Ford"@en ;
+	tolo:lastName "Ford"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_122
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0002-1870-0369> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_122 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Dominic"@en ;
+	tolo:fullName "Dominic Sur"@en ;
+	tolo:lastName "Sur"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_123
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_123 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Jamyang Norbu"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_124
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_124 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Adele"@en ;
+	tolo:fullName "Adele Tomlin"@en ;
+	tolo:lastName "Tomlin"@en ;
+	tolo:residesIn <https://sws.geonames.org/2635167> ;
+	.
+
+told:_Author_125
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_125 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Marlene"@en ;
+	tolo:fullName "Marlene Erschbamer"@en ;
+	tolo:lastName "Erschbamer"@en ;
+	tolo:residesIn <https://sws.geonames.org/2921044> ;
+	.
+
+told:_Author_126
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_126 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Ritiman"@en ;
+	tolo:fullName "Ritiman Das"@en ;
+	tolo:lastName "Das"@en ;
+	tolo:residesIn <https://sws.geonames.org/1269750> ;
+	.
+
+told:_Author_127
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_127 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Dhondup T."@en ;
+	tolo:fullName "Dhondup T. Rekjong"@en ;
+	tolo:lastName "Rekjong"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_128
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-0706-5475> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_128 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Martin"@en ;
+	tolo:fullName "Martin Mills"@en ;
+	tolo:lastName "Mills"@en ;
+	tolo:residesIn <https://sws.geonames.org/2635167> ;
+	.
+
+told:_Author_129
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_129 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "J. Arya"@en ;
+	tolo:fullName "J. Arya Moallem"@en ;
+	tolo:lastName "Moallem"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_13
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_13 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Jakob"@en ;
+	tolo:fullName "Jakob Leschly"@en ;
+	tolo:lastName "Leschly"@en ;
+	tolo:residesIn <https://sws.geonames.org/2077456> ;
+	.
+
+told:_Author_130
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_130 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Wu"@en ;
+	tolo:residesIn <https://sws.geonames.org/1814991> ;
+	.
+
+told:_Author_131
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0002-6462-0204> ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_131 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Julia"@en ;
+	tolo:fullName "Julia Stenzel"@en ;
+	tolo:lastName "Stenzel"@en ;
+	tolo:residesIn <https://sws.geonames.org/1282988> ;
+	.
+
+told:_Author_132
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_132 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Yanchen Dolkar"@en ;
+	tolo:fullName "Yanchen Dolkar Tsatultsang"@en ;
+	tolo:lastName "Tsatultsang"@en ;
+	tolo:residesIn <https://sws.geonames.org/1269750> ;
+	.
+
+told:_Author_135
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_135 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Varvara"@en ;
+	tolo:fullName "Varvara Chatzisavva"@en ;
+	tolo:lastName "Chatzisavva"@en ;
+	tolo:residesIn <https://sws.geonames.org/2635167> ;
+	.
+
+told:_Author_136
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_136 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Joseph"@en ;
+	tolo:fullName "Joseph McClellan"@en ;
+	tolo:lastName "McClellan"@en ;
+	tolo:residesIn <https://sws.geonames.org/1605651> ;
+	.
+
+told:_Author_137
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_137 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Barbara"@en ;
+	tolo:fullName "Barbara Gerke"@en ;
+	tolo:lastName "Gerke"@en ;
+	tolo:residesIn <https://sws.geonames.org/2782113> ;
+	.
+
+told:_Author_138
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_138 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Jan M. A."@en ;
+	tolo:fullName "Jan M. A. van der Valk"@en ;
+	tolo:lastName "van der Valk"@en ;
+	tolo:residesIn <https://sws.geonames.org/2802361> ;
+	.
+
+told:_Author_139
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_139 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Pasang Yonten Arya"@en ;
+	tolo:residesIn <https://sws.geonames.org/2802361> ;
+	.
+
+told:_Author_14
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_14 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Ariana"@en ;
+	tolo:fullName "Ariana Maki"@en ;
+	tolo:lastName "Maki"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_140
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_140 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Oriane"@en ;
+	tolo:fullName "Oriane Lavole"@en ;
+	tolo:lastName "Lavole"@en ;
+	.
+
+told:_Author_141
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_141 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_inactive ;
+	tolo:firstName "Lkhagvademchig"@en ;
+	tolo:fullName "Lkhagvademchig Jadamba"@en ;
+	tolo:lastName "Jadamba"@en ;
+	tolo:residesIn <https://sws.geonames.org/2029969> ;
+	.
+
+told:_Author_15
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_15 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_inactive ;
+	tolo:firstName "Arthur"@en ;
+	tolo:fullName "Arthur Mandelbaum"@en ;
+	tolo:lastName "Mandelbaum"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_16
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_16 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Dan"@en ;
+	tolo:fullName "Dan Martin"@en ;
+	tolo:lastName "Martin"@en ;
+	tolo:residesIn <https://sws.geonames.org/294640> ;
+	.
+
+told:_Author_17
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_17 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Françoise"@en ;
+	tolo:fullName "Françoise Pommaret"@en ;
+	tolo:lastName "Pommaret"@en ;
+	tolo:residesIn <https://sws.geonames.org/3017382> ;
+	.
+
+told:_Author_18
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_18 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Joona"@en ;
+	tolo:fullName "Joona Repo"@en ;
+	tolo:lastName "Repo"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_19
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_19 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Samten Chhosphel"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_2
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-9683-6731> ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_2 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Namdrol Miranda"@en ;
+	tolo:fullName "Namdrol Miranda Adams"@en ;
+	tolo:lastName "Adams"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_20
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-6543-6954> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_20 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Michael"@en ;
+	tolo:fullName "Michael Sheehy"@en ;
+	tolo:lastName "Sheehy"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_21
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-0511-3728> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_21 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Andrew"@en ;
+	tolo:fullName "Andrew Quintman"@en ;
+	tolo:lastName "Quintman"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_22
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_22 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Matthieu"@en ;
+	tolo:fullName "Matthieu Ricard"@en ;
+	tolo:lastName "Ricard"@en ;
+	tolo:residesIn <https://sws.geonames.org/3017382> ;
+	.
+
+told:_Author_23
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_23 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Jann"@en ;
+	tolo:fullName "Jann Ronis"@en ;
+	tolo:lastName "Ronis"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_24
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_24 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Joshua"@en ;
+	tolo:fullName "Joshua Schapiro"@en ;
+	tolo:lastName "Schapiro"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_25
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_25 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_inactive ;
+	tolo:firstName "Gene"@en ;
+	tolo:fullName "Gene Smith"@en ;
+	tolo:lastName "Smith"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_26
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_26 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Sonam Dorji"@en ;
+	tolo:residesIn <https://sws.geonames.org/1814991> ;
+	.
+
+told:_Author_27
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_27 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Heather"@en ;
+	tolo:fullName "Heather Stoddard"@en ;
+	tolo:lastName "Stoddard"@en ;
+	tolo:residesIn <https://sws.geonames.org/3017382> ;
+	.
+
+told:_Author_28
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-7211-3467> ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_28 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Michelle"@en ;
+	tolo:fullName "Michelle Sorensen"@en ;
+	tolo:lastName "Sorensen"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_29
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_29 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Cyrus"@en ;
+	tolo:fullName "Cyrus Stearns"@en ;
+	tolo:lastName "Stearns"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_3
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_3 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "José"@en ;
+	tolo:fullName "José Cabezón"@en ;
+	tolo:lastName "Cabezón"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_30
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_30 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Dominique"@en ;
+	tolo:fullName "Dominique Townsend"@en ;
+	tolo:lastName "Townsend"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_31
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-0311-6503> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_31 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Tsehua"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_32
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_32 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Tsering Namgyal"@en ;
+	tolo:residesIn <https://sws.geonames.org/1814991> ;
+	.
+
+told:_Author_33
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-2940-5274> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_33 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Gray"@en ;
+	tolo:fullName "Gray Tuttle"@en ;
+	tolo:lastName "Tuttle"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_34
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-0160-1265> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_34 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Cameron David"@en ;
+	tolo:fullName "Cameron David Warner"@en ;
+	tolo:lastName "Warner"@en ;
+	tolo:residesIn <https://sws.geonames.org/2623032> ;
+	.
+
+told:_Author_35
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_35 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Jeff"@en ;
+	tolo:fullName "Jeff Watt"@en ;
+	tolo:lastName "Watt"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_36
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_36 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Ben"@en ;
+	tolo:fullName "Ben Wood"@en ;
+	tolo:lastName "Wood"@en ;
+	tolo:residesIn <https://sws.geonames.org/6251999> ;
+	.
+
+told:_Author_37
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_37 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Nicole"@en ;
+	tolo:fullName "Nicole Willock"@en ;
+	tolo:lastName "Willock"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_38
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_38 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Eveline"@en ;
+	tolo:fullName "Eveline Yang"@en ;
+	tolo:lastName "Yang"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_39
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_39 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Yangdon Dhondup"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_4
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_4 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Dorje Penjore"@en ;
+	tolo:residesIn <https://sws.geonames.org/1252634> ;
+	.
+
+told:_Author_40
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0002-2390-9642> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_40 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Marc Henri"@en ;
+	tolo:fullName "Marc Henri Deroche"@en ;
+	tolo:lastName "Deroche"@en ;
+	tolo:residesIn <https://sws.geonames.org/1861060> ;
+	.
+
+told:_Author_41
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0002-1320-7073> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_41 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Stefan"@en ;
+	tolo:fullName "Stefan Larsson"@en ;
+	tolo:lastName "Larsson"@en ;
+	tolo:residesIn <https://sws.geonames.org/2661886> ;
+	.
+
+told:_Author_42
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_42 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Simon"@en ;
+	tolo:fullName "Simon Wickham-Smith"@en ;
+	tolo:lastName "Wickham-Smith"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_43
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_43 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Joel"@en ;
+	tolo:fullName "Joel Gruber"@en ;
+	tolo:lastName "Gruber"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_44
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-7830-5099> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_44 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "John Vincent"@en ;
+	tolo:fullName "John Vincent Bellezza"@en ;
+	tolo:lastName "Bellezza"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_45
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_45 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Elisabeth"@en ;
+	tolo:fullName "Elisabeth Benard"@en ;
+	tolo:lastName "Benard"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_46
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-3760-6260> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_46 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Adam"@en ;
+	tolo:fullName "Adam Pearcey"@en ;
+	tolo:lastName "Pearcey"@en ;
+	tolo:residesIn <https://sws.geonames.org/2635167> ;
+	.
+
+told:_Author_47
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_47 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Thinlay Gyatso"@en ;
+	tolo:residesIn <https://sws.geonames.org/1814991> ;
+	.
+
+told:_Author_48
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_48 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Tenzin Fedor"@en ;
+	tolo:fullName "Tenzin Fedor Stracke"@en ;
+	tolo:lastName "Stracke"@en ;
+	tolo:residesIn <https://sws.geonames.org/1269750> ;
+	.
+
+told:_Author_49
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-1097-3853> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_49 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Douglas"@en ;
+	tolo:fullName "Douglas Duckworth"@en ;
+	tolo:lastName "Duckworth"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_5
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_5 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Alexander"@en ;
+	tolo:fullName "Alexander Gardner"@en ;
+	tolo:lastName "Gardner"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_50
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_50 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Irmgard"@en ;
+	tolo:fullName "Irmgard Mengele"@en ;
+	tolo:lastName "Mengele"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_51
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_51 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Daniel"@en ;
+	tolo:fullName "Daniel Hirshberg"@en ;
+	tolo:lastName "Hirshberg"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_52
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_52 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Martin"@en ;
+	tolo:fullName "Martin Boord"@en ;
+	tolo:lastName "Boord"@en ;
+	tolo:residesIn <https://sws.geonames.org/2635167> ;
+	.
+
+told:_Author_53
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_53 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Tsering Shakya"@en ;
+	tolo:residesIn <https://sws.geonames.org/6251999> ;
+	.
+
+told:_Author_54
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_54 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Harry"@en ;
+	tolo:fullName "Harry Einhorn"@en ;
+	tolo:lastName "Einhorn"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_55
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_55 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Matthew"@en ;
+	tolo:fullName "Matthew Kapstein"@en ;
+	tolo:lastName "Kapstein"@en ;
+	tolo:residesIn <https://sws.geonames.org/3017382> ;
+	.
+
+told:_Author_56
+	a tolo:Author ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_56 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Sangngak Dorje"@en ;
+	.
+
+told:_Author_57
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_57 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Liz"@en ;
+	tolo:fullName "Liz Flora"@en ;
+	tolo:lastName "Flora"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_58
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_58 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Suzanne"@en ;
+	tolo:fullName "Suzanne Bessenger"@en ;
+	tolo:lastName "Bessenger"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_59
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_59 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Michael"@en ;
+	tolo:fullName "Michael Burroughs"@en ;
+	tolo:lastName "Burroughs"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_6
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_6 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_inactive ;
+	tolo:fullName "Gyurme Dorje"@en ;
+	tolo:residesIn <https://sws.geonames.org/2635167> ;
+	.
+
+told:_Author_60
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_60 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Antonio"@en ;
+	tolo:fullName "Antonio Terrone"@en ;
+	tolo:lastName "Terrone"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_61
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-9611-1247> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_61 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Sonam Thakchoe"@en ;
+	tolo:residesIn <https://sws.geonames.org/2077456> ;
+	.
+
+told:_Author_62
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-8637-5900> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_62 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "John"@en ;
+	tolo:fullName "John Powers"@en ;
+	tolo:lastName "Powers"@en ;
+	tolo:residesIn <https://sws.geonames.org/2077456> ;
+	.
+
+told:_Author_63
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_63 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Elizabeth"@en ;
+	tolo:fullName "Elizabeth Monson"@en ;
+	tolo:lastName "Monson"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_64
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_64 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Brandon"@en ;
+	tolo:fullName "Brandon Dotson"@en ;
+	tolo:lastName "Dotson"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_65
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_65 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Benjamin"@en ;
+	tolo:fullName "Benjamin Bogin"@en ;
+	tolo:lastName "Bogin"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_66
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0002-8125-6862> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_66 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Bryan"@en ;
+	tolo:fullName "Bryan Cuevas"@en ;
+	tolo:lastName "Cuevas"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_67
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_67 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Hildegard"@en ;
+	tolo:fullName "Hildegard Diemberger"@en ;
+	tolo:lastName "Diemberger"@en ;
+	tolo:residesIn <https://sws.geonames.org/2635167> ;
+	.
+
+told:_Author_68
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_68 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Evan"@en ;
+	tolo:fullName "Evan Yerburgh"@en ;
+	tolo:lastName "Yerburgh"@en ;
+	.
+
+told:_Author_69
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_69 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Nathan Eugene"@en ;
+	tolo:fullName "Nathan Eugene Bates"@en ;
+	tolo:lastName "Bates"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_7
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_7 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Ron"@en ;
+	tolo:fullName "Ron Garry"@en ;
+	tolo:lastName "Garry"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_70
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_70 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Willa"@en ;
+	tolo:fullName "Willa Miller"@en ;
+	tolo:lastName "Miller"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_71
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_71 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Jacob"@en ;
+	tolo:fullName "Jacob Dalton"@en ;
+	tolo:lastName "Dalton"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_73
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_73 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Catherine"@en ;
+	tolo:fullName "Catherine Tsuji"@en ;
+	tolo:lastName "Tsuji"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_74
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-2206-3451> ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_74 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Holly"@en ;
+	tolo:fullName "Holly Gayley"@en ;
+	tolo:lastName "Gayley"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_75
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_75 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Dirk"@en ;
+	tolo:fullName "Dirk Schmidt"@en ;
+	tolo:lastName "Schmidt"@en ;
+	.
+
+told:_Author_76
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_76 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Mads Garnak"@en ;
+	tolo:fullName "Mads Garnak Rasmussen"@en ;
+	tolo:lastName "Rasmussen"@en ;
+	.
+
+told:_Author_77
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_77 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Lan"@en ;
+	tolo:fullName "Lan Wu"@en ;
+	tolo:lastName "Wu"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_78
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-0179-5231> ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_78 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Alison"@en ;
+	tolo:fullName "Alison Melnick Dyer"@en ;
+	tolo:lastName "Melnick Dyer"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_79
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_79 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Sherab Drime"@en ;
+	tolo:residesIn <https://sws.geonames.org/1282988> ;
+	.
+
+told:_Author_8
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_8 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Jörg"@en ;
+	tolo:fullName "Jörg Heimbel"@en ;
+	tolo:lastName "Heimbel"@en ;
+	tolo:residesIn <https://sws.geonames.org/2921044> ;
+	.
+
+told:_Author_80
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_80 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Sonam Tsering"@en ;
+	tolo:fullName "Sonam Tsering Ngulphu"@en ;
+	tolo:lastName "Ngulphu"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_81
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_81 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Erick"@en ;
+	tolo:fullName "Erick Tsiknopoulos"@en ;
+	tolo:lastName "Tsiknopoulos"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_82
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_82 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Tenzin Dickie"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_83
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_83 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Ryosuke"@en ;
+	tolo:fullName "Ryosuke Kobayashi"@en ;
+	tolo:lastName "Kobayashi"@en ;
+	tolo:residesIn <https://sws.geonames.org/1861060> ;
+	.
+
+told:_Author_84
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-5187-4769> ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_84 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Carole"@en ;
+	tolo:fullName "Carole McGranahan"@en ;
+	tolo:lastName "McGranahan"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_85
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_85 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Pema Bhum"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_86
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_86 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Chris"@en ;
+	tolo:fullName "Chris Hatchell"@en ;
+	tolo:lastName "Hatchell"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_87
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-1939-8955> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_87 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Jay"@en ;
+	tolo:fullName "Jay Valentine"@en ;
+	tolo:lastName "Valentine"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_88
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-6925-2570> ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_88 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Maria"@en ;
+	tolo:fullName "Maria Turek"@en ;
+	tolo:lastName "Turek"@en ;
+	tolo:residesIn <https://sws.geonames.org/6251999> ;
+	.
+
+told:_Author_89
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_89 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "ErdeneBaatar"@en ;
+	tolo:fullName "ErdeneBaatar Erdene Ochir"@en ;
+	tolo:lastName "Erdene Ochir"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_9
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0001-8377-827X> ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_9 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Sarah"@en ;
+	tolo:fullName "Sarah Jacoby"@en ;
+	tolo:lastName "Jacoby"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_90
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_90 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Hamid"@en ;
+	tolo:fullName "Hamid Sardar"@en ;
+	tolo:lastName "Sardar"@en ;
+	tolo:residesIn <https://sws.geonames.org/3017382> ;
+	.
+
+told:_Author_91
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_91 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Jake"@en ;
+	tolo:fullName "Jake Nagasawa"@en ;
+	tolo:lastName "Nagasawa"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_92
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_92 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Derek"@en ;
+	tolo:fullName "Derek Maher"@en ;
+	tolo:lastName "Maher"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_93
+	a tolo:Author ;
+	bdo:personGender bdr:GenderFemale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_93 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Mayumi"@en ;
+	tolo:fullName "Mayumi Kodani"@en ;
+	tolo:lastName "Kodani"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_94
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_94 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_inactive ;
+	tolo:firstName "Sean"@en ;
+	tolo:fullName "Sean Jones"@en ;
+	tolo:lastName "Jones"@en ;
+	tolo:residesIn <https://sws.geonames.org/3017382> ;
+	.
+
+told:_Author_95
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_95 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Yaroslav"@en ;
+	tolo:fullName "Yaroslav Komarovski"@en ;
+	tolo:lastName "Komarovski"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_96
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_96 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:fullName "Samten Karmay"@en ;
+	tolo:residesIn <https://sws.geonames.org/3017382> ;
+	.
+
+told:_Author_97
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0003-0927-0376> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_97 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "David"@en ;
+	tolo:fullName "David DiValerio"@en ;
+	tolo:lastName "DiValerio"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_Author_98
+	a tolo:Author ;
+	owl:sameAs <https://orcid.org/0000-0002-3460-5935> ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_98 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Stéphane"@en ;
+	tolo:fullName "Stéphane Arguillère"@en ;
+	tolo:lastName "Arguillère"@en ;
+	tolo:residesIn <https://sws.geonames.org/3017382> ;
+	.
+
+told:_Author_99
+	a tolo:Author ;
+	bdo:personGender bdr:GenderMale ;
+	gist:hasCommunicationAddress told:_EmailAddress_Author_99 ;
+	gist:isCategorizedBy tolx:_EntityActiveStatus_active ;
+	tolo:firstName "Lowell"@en ;
+	tolo:fullName "Lowell Cook"@en ;
+	tolo:lastName "Cook"@en ;
+	tolo:residesIn <https://sws.geonames.org/6252001> ;
+	.
+
+told:_EmailAddress_Author_1
+	a gist:EmailAddress ;
+	skos:prefLabel "jeanluc.achard@sfr.fr"@en ;
+	gist:containedText "jeanluc.achard@sfr.fr"@en ;
+	.
+
+told:_EmailAddress_Author_10
+	a gist:EmailAddress ;
+	skos:prefLabel "jdorji@gmail.com"@en ;
+	gist:containedText "jdorji@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_101
+	a gist:EmailAddress ;
+	skos:prefLabel "tgreensmith81@gmail.com"@en ;
+	gist:containedText "tgreensmith81@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_103
+	a gist:EmailAddress ;
+	skos:prefLabel "merwandaone@gmail.com"@en ;
+	gist:containedText "merwandaone@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_104
+	a gist:EmailAddress ;
+	skos:prefLabel "karso70@hotmail.com"@en ;
+	gist:containedText "karso70@hotmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_105
+	a gist:EmailAddress ;
+	skos:prefLabel "ryan.jacobson33@gmail.com"@en ;
+	gist:containedText "ryan.jacobson33@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_106
+	a gist:EmailAddress ;
+	skos:prefLabel "thufenyekns@gmail.com"@en ;
+	gist:containedText "thufenyekns@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_107
+	a gist:EmailAddress ;
+	skos:prefLabel "Gregory.M.Seton@dartmouth.edu"@en ;
+	gist:containedText "Gregory.M.Seton@dartmouth.edu"@en ;
+	.
+
+told:_EmailAddress_Author_108
+	a gist:EmailAddress ;
+	skos:prefLabel "angowel@earlham.edu"@en ;
+	gist:containedText "angowel@earlham.edu"@en ;
+	.
+
+told:_EmailAddress_Author_109
+	a gist:EmailAddress ;
+	skos:prefLabel "Benjamin.Nourse@du.edu"@en ;
+	gist:containedText "Benjamin.Nourse@du.edu"@en ;
+	.
+
+told:_EmailAddress_Author_11
+	a gist:EmailAddress ;
+	skos:prefLabel "karma.clcs@rub.edu.bt"@en ;
+	gist:containedText "karma.clcs@rub.edu.bt"@en ;
+	.
+
+told:_EmailAddress_Author_110
+	a gist:EmailAddress ;
+	skos:prefLabel "han.kop.pema.dondrup@gmail.com"@en ;
+	gist:containedText "han.kop.pema.dondrup@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_111
+	a gist:EmailAddress ;
+	skos:prefLabel "tagchung@oxy.edu"@en ;
+	gist:containedText "tagchung@oxy.edu"@en ;
+	.
+
+told:_EmailAddress_Author_112
+	a gist:EmailAddress ;
+	skos:prefLabel "kalzangdbhutia@yahoo.com"@en ;
+	gist:containedText "kalzangdbhutia@yahoo.com"@en ;
+	.
+
+told:_EmailAddress_Author_113
+	a gist:EmailAddress ;
+	skos:prefLabel "takkinen@ucsb.edu"@en ;
+	gist:containedText "takkinen@ucsb.edu"@en ;
+	.
+
+told:_EmailAddress_Author_114
+	a gist:EmailAddress ;
+	.
+
+told:_EmailAddress_Author_115
+	a gist:EmailAddress ;
+	skos:prefLabel "neematashi47@gmail.com"@en ;
+	gist:containedText "neematashi47@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_116
+	a gist:EmailAddress ;
+	skos:prefLabel "tenchoe135@gmail.com"@en ;
+	gist:containedText "tenchoe135@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_117
+	a gist:EmailAddress ;
+	skos:prefLabel "patrickjdowd@gmail.com"@en ;
+	gist:containedText "patrickjdowd@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_118
+	a gist:EmailAddress ;
+	skos:prefLabel "palden.gyal@columbia.edu"@en ;
+	gist:containedText "palden.gyal@columbia.edu"@en ;
+	.
+
+told:_EmailAddress_Author_119
+	a gist:EmailAddress ;
+	skos:prefLabel "f.erhard@uni-leipzig.de"@en ;
+	gist:containedText "f.erhard@uni-leipzig.de"@en ;
+	.
+
+told:_EmailAddress_Author_12
+	a gist:EmailAddress ;
+	skos:prefLabel "kadchigma@yahoo.com"@en ;
+	gist:containedText "kadchigma@yahoo.com"@en ;
+	.
+
+told:_EmailAddress_Author_120
+	a gist:EmailAddress ;
+	skos:prefLabel "ngawangdj@163.com"@en ;
+	gist:containedText "ngawangdj@163.com"@en ;
+	.
+
+told:_EmailAddress_Author_121
+	a gist:EmailAddress ;
+	skos:prefLabel "reneefordriceuniversity@gmail.com"@en ;
+	gist:containedText "reneefordriceuniversity@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_122
+	a gist:EmailAddress ;
+	skos:prefLabel "dominic.sur@usu.edu"@en ;
+	gist:containedText "dominic.sur@usu.edu"@en ;
+	.
+
+told:_EmailAddress_Author_123
+	a gist:EmailAddress ;
+	skos:prefLabel "jnorbu59@gmail.com"@en ;
+	gist:containedText "jnorbu59@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_124
+	a gist:EmailAddress ;
+	skos:prefLabel "adeletomlin@googlemail.com"@en ;
+	gist:containedText "adeletomlin@googlemail.com"@en ;
+	.
+
+told:_EmailAddress_Author_125
+	a gist:EmailAddress ;
+	skos:prefLabel "marlene@erschbamer.net"@en ;
+	gist:containedText "marlene@erschbamer.net"@en ;
+	.
+
+told:_EmailAddress_Author_126
+	a gist:EmailAddress ;
+	skos:prefLabel "ritimandas90@gmail.com"@en ;
+	gist:containedText "ritimandas90@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_127
+	a gist:EmailAddress ;
+	skos:prefLabel "rekjong@gmail.com"@en ;
+	gist:containedText "rekjong@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_128
+	a gist:EmailAddress ;
+	skos:prefLabel "m.a.mills@abdn.ac.uk"@en ;
+	gist:containedText "m.a.mills@abdn.ac.uk"@en ;
+	.
+
+told:_EmailAddress_Author_129
+	a gist:EmailAddress ;
+	skos:prefLabel "james_moallem@g.harvard.edu"@en ;
+	gist:containedText "james_moallem@g.harvard.edu"@en ;
+	.
+
+told:_EmailAddress_Author_13
+	a gist:EmailAddress ;
+	skos:prefLabel "jakobleschly@gmail.com"@en ;
+	gist:containedText "jakobleschly@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_130
+	a gist:EmailAddress ;
+	.
+
+told:_EmailAddress_Author_131
+	a gist:EmailAddress ;
+	skos:prefLabel "julia.stenzel@ryi.org"@en ;
+	gist:containedText "julia.stenzel@ryi.org"@en ;
+	.
+
+told:_EmailAddress_Author_132
+	a gist:EmailAddress ;
+	skos:prefLabel "yangdol1951@gmail.com"@en ;
+	gist:containedText "yangdol1951@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_135
+	a gist:EmailAddress ;
+	skos:prefLabel "varvara.chatzisavva@yahoo.com"@en ;
+	gist:containedText "varvara.chatzisavva@yahoo.com"@en ;
+	.
+
+told:_EmailAddress_Author_136
+	a gist:EmailAddress ;
+	skos:prefLabel "jmm2133@gmail.com"@en ;
+	gist:containedText "jmm2133@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_137
+	a gist:EmailAddress ;
+	skos:prefLabel "barbara.gerke@univie.ac.at"@en ;
+	gist:containedText "barbara.gerke@univie.ac.at"@en ;
+	.
+
+told:_EmailAddress_Author_138
+	a gist:EmailAddress ;
+	skos:prefLabel "janvandervalk@posteo.net"@en ;
+	gist:containedText "janvandervalk@posteo.net"@en ;
+	.
+
+told:_EmailAddress_Author_139
+	a gist:EmailAddress ;
+	.
+
+told:_EmailAddress_Author_14
+	a gist:EmailAddress ;
+	skos:prefLabel "ariana.maki@gmail.com"@en ;
+	gist:containedText "ariana.maki@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_140
+	a gist:EmailAddress ;
+	skos:prefLabel "oriane@lhaseylotsawa.org"@en ;
+	gist:containedText "oriane@lhaseylotsawa.org"@en ;
+	.
+
+told:_EmailAddress_Author_141
+	a gist:EmailAddress ;
+	.
+
+told:_EmailAddress_Author_15
+	a gist:EmailAddress ;
+	.
+
+told:_EmailAddress_Author_16
+	a gist:EmailAddress ;
+	skos:prefLabel "dan.martin4@icloud.com"@en ;
+	gist:containedText "dan.martin4@icloud.com"@en ;
+	.
+
+told:_EmailAddress_Author_17
+	a gist:EmailAddress ;
+	skos:prefLabel "fpommaret@gmail.com"@en ;
+	gist:containedText "fpommaret@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_18
+	a gist:EmailAddress ;
+	skos:prefLabel "joonarepo@hotmail.com"@en ;
+	gist:containedText "joonarepo@hotmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_19
+	a gist:EmailAddress ;
+	skos:prefLabel "samtenchhosphel@yahoo.com"@en ;
+	gist:containedText "samtenchhosphel@yahoo.com"@en ;
+	.
+
+told:_EmailAddress_Author_2
+	a gist:EmailAddress ;
+	skos:prefLabel "education@maitripa.org"@en ;
+	gist:containedText "education@maitripa.org"@en ;
+	.
+
+told:_EmailAddress_Author_20
+	a gist:EmailAddress ;
+	skos:prefLabel "ms4qm@virginia.edu"@en ;
+	gist:containedText "ms4qm@virginia.edu"@en ;
+	.
+
+told:_EmailAddress_Author_21
+	a gist:EmailAddress ;
+	skos:prefLabel "aquintman@wesleyan.edu"@en ;
+	gist:containedText "aquintman@wesleyan.edu"@en ;
+	.
+
+told:_EmailAddress_Author_22
+	a gist:EmailAddress ;
+	skos:prefLabel "Mat108@gmail.com"@en ;
+	gist:containedText "Mat108@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_23
+	a gist:EmailAddress ;
+	skos:prefLabel "jann@tbrc.org"@en ;
+	gist:containedText "jann@tbrc.org"@en ;
+	.
+
+told:_EmailAddress_Author_24
+	a gist:EmailAddress ;
+	skos:prefLabel "joshschapiro@gmail.com"@en ;
+	gist:containedText "joshschapiro@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_25
+	a gist:EmailAddress ;
+	.
+
+told:_EmailAddress_Author_26
+	a gist:EmailAddress ;
+	skos:prefLabel "hugosuonam@gmail.com"@en ;
+	gist:containedText "hugosuonam@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_27
+	a gist:EmailAddress ;
+	skos:prefLabel "heatherstoddard@hotmail.com"@en ;
+	gist:containedText "heatherstoddard@hotmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_28
+	a gist:EmailAddress ;
+	skos:prefLabel "mjsorensen@email.wcu.edu"@en ;
+	gist:containedText "mjsorensen@email.wcu.edu"@en ;
+	.
+
+told:_EmailAddress_Author_29
+	a gist:EmailAddress ;
+	skos:prefLabel "cyrus@whidbey.com"@en ;
+	gist:containedText "cyrus@whidbey.com"@en ;
+	.
+
+told:_EmailAddress_Author_3
+	a gist:EmailAddress ;
+	skos:prefLabel "jcabezon@religion.ucsb.edu"@en ;
+	gist:containedText "jcabezon@religion.ucsb.edu"@en ;
+	.
+
+told:_EmailAddress_Author_30
+	a gist:EmailAddress ;
+	skos:prefLabel "dominique.townsend@gmail.com"@en ;
+	gist:containedText "dominique.townsend@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_31
+	a gist:EmailAddress ;
+	skos:prefLabel "caihuajia@gmail.com"@en ;
+	gist:containedText "caihuajia@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_32
+	a gist:EmailAddress ;
+	skos:prefLabel "kardrogavin@gmail.com"@en ;
+	gist:containedText "kardrogavin@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_33
+	a gist:EmailAddress ;
+	skos:prefLabel "graytuttle108@aol.com"@en ;
+	gist:containedText "graytuttle108@aol.com"@en ;
+	.
+
+told:_EmailAddress_Author_34
+	a gist:EmailAddress ;
+	skos:prefLabel "etncw@cas.au.dk"@en ;
+	gist:containedText "etncw@cas.au.dk"@en ;
+	.
+
+told:_EmailAddress_Author_35
+	a gist:EmailAddress ;
+	skos:prefLabel "jjwatt@gmail.com"@en ;
+	gist:containedText "jjwatt@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_36
+	a gist:EmailAddress ;
+	skos:prefLabel "ben.m.wood@gmail.com"@en ;
+	gist:containedText "ben.m.wood@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_37
+	a gist:EmailAddress ;
+	skos:prefLabel "nwillock@gmail.com"@en ;
+	gist:containedText "nwillock@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_38
+	a gist:EmailAddress ;
+	skos:prefLabel "yang.eveline@gmail.com"@en ;
+	gist:containedText "yang.eveline@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_39
+	a gist:EmailAddress ;
+	skos:prefLabel "yd3@soas.ac.uk"@en ;
+	gist:containedText "yd3@soas.ac.uk"@en ;
+	.
+
+told:_EmailAddress_Author_4
+	a gist:EmailAddress ;
+	skos:prefLabel "dpenjore@bhutanstudies.org.bt"@en ;
+	gist:containedText "dpenjore@bhutanstudies.org.bt"@en ;
+	.
+
+told:_EmailAddress_Author_40
+	a gist:EmailAddress ;
+	skos:prefLabel "deroche.marchenri.6u@kyoto-u.ac.jp"@en ;
+	gist:containedText "deroche.marchenri.6u@kyoto-u.ac.jp"@en ;
+	.
+
+told:_EmailAddress_Author_41
+	a gist:EmailAddress ;
+	skos:prefLabel "stefan.larsson@rel.su.se"@en ;
+	gist:containedText "stefan.larsson@rel.su.se"@en ;
+	.
+
+told:_EmailAddress_Author_42
+	a gist:EmailAddress ;
+	skos:prefLabel "wickhamsmith@gmx.net"@en ;
+	gist:containedText "wickhamsmith@gmx.net"@en ;
+	.
+
+told:_EmailAddress_Author_43
+	a gist:EmailAddress ;
+	skos:prefLabel "joelgruber@sandiego.edu"@en ;
+	gist:containedText "joelgruber@sandiego.edu"@en ;
+	.
+
+told:_EmailAddress_Author_44
+	a gist:EmailAddress ;
+	skos:prefLabel "jbellezza@hotmail.com"@en ;
+	gist:containedText "jbellezza@hotmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_45
+	a gist:EmailAddress ;
+	skos:prefLabel "elisbenard@gmail.com"@en ;
+	gist:containedText "elisbenard@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_46
+	a gist:EmailAddress ;
+	skos:prefLabel "adam.pearcey@gmail.com"@en ;
+	gist:containedText "adam.pearcey@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_47
+	a gist:EmailAddress ;
+	skos:prefLabel "thinleygyal@gmail.com"@en ;
+	gist:containedText "thinleygyal@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_48
+	a gist:EmailAddress ;
+	skos:prefLabel "do.ngak@yahoo.com"@en ;
+	gist:containedText "do.ngak@yahoo.com"@en ;
+	.
+
+told:_EmailAddress_Author_49
+	a gist:EmailAddress ;
+	skos:prefLabel "douglas.duckworth@temple.edu"@en ;
+	gist:containedText "douglas.duckworth@temple.edu"@en ;
+	.
+
+told:_EmailAddress_Author_5
+	a gist:EmailAddress ;
+	.
+
+told:_EmailAddress_Author_50
+	a gist:EmailAddress ;
+	skos:prefLabel "imengele@hotmail.com"@en ;
+	gist:containedText "imengele@hotmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_51
+	a gist:EmailAddress ;
+	skos:prefLabel "dhirshb@umw.edu"@en ;
+	gist:containedText "dhirshb@umw.edu"@en ;
+	.
+
+told:_EmailAddress_Author_52
+	a gist:EmailAddress ;
+	skos:prefLabel "vidyadharavajra@yahoo.co.uk"@en ;
+	gist:containedText "vidyadharavajra@yahoo.co.uk"@en ;
+	.
+
+told:_EmailAddress_Author_53
+	a gist:EmailAddress ;
+	skos:prefLabel "tshakya@exchange.ubc.ca"@en ;
+	gist:containedText "tshakya@exchange.ubc.ca"@en ;
+	.
+
+told:_EmailAddress_Author_54
+	a gist:EmailAddress ;
+	skos:prefLabel "h.einhorn@gmail.com"@en ;
+	gist:containedText "h.einhorn@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_55
+	a gist:EmailAddress ;
+	skos:prefLabel "m-kapstein@uchicago.edu"@en ;
+	gist:containedText "m-kapstein@uchicago.edu"@en ;
+	.
+
+told:_EmailAddress_Author_56
+	a gist:EmailAddress ;
+	.
+
+told:_EmailAddress_Author_57
+	a gist:EmailAddress ;
+	skos:prefLabel "eflizflo@gmail.com"@en ;
+	gist:containedText "eflizflo@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_58
+	a gist:EmailAddress ;
+	skos:prefLabel "sbessenger@randolphcollege.edu"@en ;
+	gist:containedText "sbessenger@randolphcollege.edu"@en ;
+	.
+
+told:_EmailAddress_Author_59
+	a gist:EmailAddress ;
+	skos:prefLabel "lhodrak@gmail.com"@en ;
+	gist:containedText "lhodrak@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_6
+	a gist:EmailAddress ;
+	.
+
+told:_EmailAddress_Author_60
+	a gist:EmailAddress ;
+	skos:prefLabel "terrone@lycos.com"@en ;
+	gist:containedText "terrone@lycos.com"@en ;
+	.
+
+told:_EmailAddress_Author_61
+	a gist:EmailAddress ;
+	skos:prefLabel "sonam.thakchoe@utas.edu.au"@en ;
+	gist:containedText "sonam.thakchoe@utas.edu.au"@en ;
+	.
+
+told:_EmailAddress_Author_62
+	a gist:EmailAddress ;
+	skos:prefLabel "john.powers@deakin.edu.au"@en ;
+	gist:containedText "john.powers@deakin.edu.au"@en ;
+	.
+
+told:_EmailAddress_Author_63
+	a gist:EmailAddress ;
+	skos:prefLabel "elizabeth@naturaldharma.org"@en ;
+	gist:containedText "elizabeth@naturaldharma.org"@en ;
+	.
+
+told:_EmailAddress_Author_64
+	a gist:EmailAddress ;
+	skos:prefLabel "dotson.brandon@gmail.com"@en ;
+	gist:containedText "dotson.brandon@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_65
+	a gist:EmailAddress ;
+	skos:prefLabel "bbogin@skidmore.edu"@en ;
+	gist:containedText "bbogin@skidmore.edu"@en ;
+	.
+
+told:_EmailAddress_Author_66
+	a gist:EmailAddress ;
+	skos:prefLabel "bcuevas@fsu.edu"@en ;
+	gist:containedText "bcuevas@fsu.edu"@en ;
+	.
+
+told:_EmailAddress_Author_67
+	a gist:EmailAddress ;
+	skos:prefLabel "hgmd2@cam.ac.uk"@en ;
+	gist:containedText "hgmd2@cam.ac.uk"@en ;
+	.
+
+told:_EmailAddress_Author_68
+	a gist:EmailAddress ;
+	skos:prefLabel "evanyerburgh@gmail.com"@en ;
+	gist:containedText "evanyerburgh@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_69
+	a gist:EmailAddress ;
+	.
+
+told:_EmailAddress_Author_7
+	a gist:EmailAddress ;
+	.
+
+told:_EmailAddress_Author_70
+	a gist:EmailAddress ;
+	skos:prefLabel "willablythe@gmail.com"@en ;
+	gist:containedText "willablythe@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_71
+	a gist:EmailAddress ;
+	skos:prefLabel "jakedalton@berkeley.edu"@en ;
+	gist:containedText "jakedalton@berkeley.edu"@en ;
+	.
+
+told:_EmailAddress_Author_73
+	a gist:EmailAddress ;
+	.
+
+told:_EmailAddress_Author_74
+	a gist:EmailAddress ;
+	skos:prefLabel "gayley@colorado.edu"@en ;
+	gist:containedText "gayley@colorado.edu"@en ;
+	.
+
+told:_EmailAddress_Author_75
+	a gist:EmailAddress ;
+	skos:prefLabel "thedirk@gmail.com"@en ;
+	gist:containedText "thedirk@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_76
+	a gist:EmailAddress ;
+	.
+
+told:_EmailAddress_Author_77
+	a gist:EmailAddress ;
+	skos:prefLabel "lwu@mtholyoke.edu"@en ;
+	gist:containedText "lwu@mtholyoke.edu"@en ;
+	.
+
+told:_EmailAddress_Author_78
+	a gist:EmailAddress ;
+	skos:prefLabel "amelnick@bates.edu"@en ;
+	gist:containedText "amelnick@bates.edu"@en ;
+	.
+
+told:_EmailAddress_Author_79
+	a gist:EmailAddress ;
+	skos:prefLabel "SherabDrime@gmail.com"@en ;
+	gist:containedText "SherabDrime@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_8
+	a gist:EmailAddress ;
+	skos:prefLabel "joerg.heimbel@uni-hamburg.de"@en ;
+	gist:containedText "joerg.heimbel@uni-hamburg.de"@en ;
+	.
+
+told:_EmailAddress_Author_80
+	a gist:EmailAddress ;
+	skos:prefLabel "st2855@columbia.edu"@en ;
+	gist:containedText "st2855@columbia.edu"@en ;
+	.
+
+told:_EmailAddress_Author_81
+	a gist:EmailAddress ;
+	skos:prefLabel "emptyelephant@yahoo.com"@en ;
+	gist:containedText "emptyelephant@yahoo.com"@en ;
+	.
+
+told:_EmailAddress_Author_82
+	a gist:EmailAddress ;
+	skos:prefLabel "tenzindickyi@gmail.com"@en ;
+	gist:containedText "tenzindickyi@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_83
+	a gist:EmailAddress ;
+	skos:prefLabel "ryosuke730@gmail.com"@en ;
+	gist:containedText "ryosuke730@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_84
+	a gist:EmailAddress ;
+	skos:prefLabel "carole.mcgranahan@colorado.edu"@en ;
+	gist:containedText "carole.mcgranahan@colorado.edu"@en ;
+	.
+
+told:_EmailAddress_Author_85
+	a gist:EmailAddress ;
+	skos:prefLabel "pbhum@latse.org"@en ;
+	gist:containedText "pbhum@latse.org"@en ;
+	.
+
+told:_EmailAddress_Author_86
+	a gist:EmailAddress ;
+	skos:prefLabel "chatchell@coe.edu"@en ;
+	gist:containedText "chatchell@coe.edu"@en ;
+	.
+
+told:_EmailAddress_Author_87
+	a gist:EmailAddress ;
+	skos:prefLabel "jvalentine@troy.edu"@en ;
+	gist:containedText "jvalentine@troy.edu"@en ;
+	.
+
+told:_EmailAddress_Author_88
+	a gist:EmailAddress ;
+	skos:prefLabel "turek@uni-bonn.de"@en ;
+	gist:containedText "turek@uni-bonn.de"@en ;
+	.
+
+told:_EmailAddress_Author_89
+	a gist:EmailAddress ;
+	skos:prefLabel "erdbaatar@gmail.com"@en ;
+	gist:containedText "erdbaatar@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_9
+	a gist:EmailAddress ;
+	skos:prefLabel "s-jacoby@northwestern.edu"@en ;
+	gist:containedText "s-jacoby@northwestern.edu"@en ;
+	.
+
+told:_EmailAddress_Author_90
+	a gist:EmailAddress ;
+	skos:prefLabel "mongolwindhorse@gmail.com"@en ;
+	gist:containedText "mongolwindhorse@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_91
+	a gist:EmailAddress ;
+	skos:prefLabel "jnagasawa@umail.ucsb.edu"@en ;
+	gist:containedText "jnagasawa@umail.ucsb.edu"@en ;
+	.
+
+told:_EmailAddress_Author_92
+	a gist:EmailAddress ;
+	skos:prefLabel "maherd@ecu.edu"@en ;
+	gist:containedText "maherd@ecu.edu"@en ;
+	.
+
+told:_EmailAddress_Author_93
+	a gist:EmailAddress ;
+	skos:prefLabel "mkodani@me.com"@en ;
+	gist:containedText "mkodani@me.com"@en ;
+	.
+
+told:_EmailAddress_Author_94
+	a gist:EmailAddress ;
+	skos:prefLabel "seanj@losmasos.com"@en ;
+	gist:containedText "seanj@losmasos.com"@en ;
+	.
+
+told:_EmailAddress_Author_95
+	a gist:EmailAddress ;
+	skos:prefLabel "ykomarovski@gmail.com"@en ;
+	gist:containedText "ykomarovski@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_96
+	a gist:EmailAddress ;
+	skos:prefLabel "samkarmay@gmail.com"@en ;
+	gist:containedText "samkarmay@gmail.com"@en ;
+	.
+
+told:_EmailAddress_Author_97
+	a gist:EmailAddress ;
+	skos:prefLabel "divaleri@uwm.edu"@en ;
+	gist:containedText "divaleri@uwm.edu"@en ;
+	.
+
+told:_EmailAddress_Author_98
+	a gist:EmailAddress ;
+	skos:prefLabel "arguillere@outlook.fr"@en ;
+	gist:containedText "arguillere@outlook.fr"@en ;
+	.
+
+told:_EmailAddress_Author_99
+	a gist:EmailAddress ;
+	skos:prefLabel "cook.lowell.w@gmail.com"@en ;
+	gist:containedText "cook.lowell.w@gmail.com"@en ;
+	.
+
+told:_FormattedContent_AuthorBio_1
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a researcher at the National Center for Scientific Research (CNRS) in Paris and editor of the Revue d'Etudes Tibétaines.</p>
+"""@en ;
+	gist:isAbout told:_Author_1 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_10
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a Member of Parliament, National Council of Bhutan.</p>
+"""@en ;
+	gist:isAbout told:_Author_10 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_101
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a MPhil graduate in Tibetan and Himalayan studies from Oxford University. His completed dissertation focused on the “non-sectarian” (<em>ris med</em>) figure of the Fifth Sle lung bZhad pa’i rdo rje (1697-1740) and his journey to Pad+mo bkod in 1729.</p>
+"""@en ;
+	gist:isAbout told:_Author_101 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_103
+	a gist:FormattedContent ;
+	gist:containedText '''<p>
+	is an independent Buddhist scholar and translator and the founder of the <a href="https://www.bootl.org/">Buddhist Open Online Translation Lab</a>.</p>
+'''@en ;
+	gist:isAbout told:_Author_103 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_104
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Tibetan, Sanskrit &amp; Chinese Language Researcher at Himalayan Art Resources</p>
+"""@en ;
+	gist:isAbout told:_Author_104 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_105
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	completed his graduate studies at Naropa University and the University of Oxford focusing on Buddhist Studies and Oriental Studies. His theses include work on a 19th century Mahāyoga meditation practice and the great accomplishment ceremony (<em>sgrub chen</em>).</p>
+"""@en ;
+	gist:isAbout told:_Author_105 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_106
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	studied at Namkha Khyung Dzong Monastery under Pema Rigtsal Rinpoche and Khenpo Nyima Gyaltsan for over fourteen years. He is from Humla, Nepal.</p>
+"""@en ;
+	gist:isAbout told:_Author_106 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_107
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a senior lecturer in the Department of Religion at Dartmouth College.</p>
+"""@en ;
+	gist:isAbout told:_Author_107 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_108
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is an Assistant Professor of Religion at Earlham College. She completed her Ph.D. in Buddhist Studies at Harvard University in 2019. Her current research focuses on Buddhist narrative literature, ethics, and the figure of Yeshe Tsogyel.</p>
+<p>
+	&nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_108 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_109
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Assistant Professor of Religious Studies at the University of Denver.</p>
+"""@en ;
+	gist:isAbout told:_Author_109 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_11
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a researcher at the Institute of Language and Culture Studies.</p>
+"""@en ;
+	gist:isAbout told:_Author_11 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_110
+	a gist:FormattedContent ;
+	gist:containedText '''<p>
+	has an MA in Translation from Rangjung Yeshe Institute and is the director of the <a href="https://www.longchennyingtik.org/">Longchen Nyingtik Project</a>, which aims to translate the Nyingtik Tsapö in English.</p>
+'''@en ;
+	gist:isAbout told:_Author_110 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_111
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is an associate professor in Religious Studies at Occidental College in Los Angeles, California.</p>
+"""@en ;
+	gist:isAbout told:_Author_111 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_112
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is originally from west Sikkim and completed his PhD in Buddhist Studies at Delhi University. He is currently a Robert H. N. Ho Research Fellow in Buddhist Studies and a Visiting Scholar at the University of California Los Angeles.</p>
+"""@en ;
+	gist:isAbout told:_Author_112 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_113
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a PhD Candidate in the Department of Religious Studies at University of California, Santa Barbara.</p>
+<p>
+	&nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_113 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_114
+	a gist:FormattedContent ;
+	gist:containedText '''<p>
+	is a PhD student in Tibetan Literature at Tsinghua University. Her research interests are Tibeto-Sino Buddhism and Buddhist Modernism.
+	<style type="text/css">
+	</style>
+</p>
+'''@en ;
+	gist:isAbout told:_Author_114 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_115
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+        is a research scholar working as a PhD student on Buddhist philosophy and history at Central Institute of Buddhist Studies, Leh, Ladakh, India.</p>
+"""@en ;
+	gist:isAbout told:_Author_115 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_116
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	was born in Tibet and completed his MPhil in Tibetan and Himalayan Studies at the University of Oxford. He has taught Tibetan language at SOAS, and he studied Buddhist philosophy at Drepung Loseling Monastery in south India.</p>
+"""@en ;
+	gist:isAbout told:_Author_116 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_117
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a PhD Candidate in the Department of Anthropology at the University of British Columbia. His research focuses on the culture of Tibetan language within the world of Tibetan Buddhism.</p>
+"""@en ;
+	gist:isAbout told:_Author_117 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_118
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a Ph.D. student in modern Tibetan and late imperial Chinese history at Columbia University. His research focuses on the institutional history of Tibetan communities in the Sino-Tibetan borderlands.</p>
+"""@en ;
+	gist:isAbout told:_Author_118 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_119
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a research fellow at Leipzig University, Germany. He holds a Ph.D. in Tibetan Studies with a dissertation on contemporary Tibetan literature. His research interests include secular life writing, modern Tibetan history, and the history of Tibetan print media.</p>
+"""@en ;
+	gist:isAbout told:_Author_119 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_12
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	was the Director of the National Museum of Bhutan.</p>
+"""@en ;
+	gist:isAbout told:_Author_12 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_120
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a Ph.D. candidate in Tibetan and late Imperial Chinese history at Minzu University of China in Beijing.&nbsp;His research focuses on the role of Tibetan Buddhism in Qing Inner Asia during the eighteenth century. He is also interested more broadly in the history and literature of the Kadam tradition.&nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_120 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_121
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a Lecturer at UNC-Wilmington. She completed her Ph.D. at Rice University in 2020.</p>
+"""@en ;
+	gist:isAbout told:_Author_121 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_122
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is an Assistant Professor of Religious Studies at Utah State University and the translator of Rongzom’s <em>Entering the Way of the Great Vehicle</em> (Shambhala, 2017).</p>
+"""@en ;
+	gist:isAbout told:_Author_122 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_123
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a novelist, historian, playwright and polemecist covering Tibetan politics, history and culture.</p>
+"""@en ;
+	gist:isAbout told:_Author_123 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_124
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is an independent practitioner, scholar and translator with an MA in Philosophy and an MA in Tibetology. Book publications include&nbsp;Aesthetic Experience&nbsp;(2009),&nbsp;Tāranātha's Commentary on the Heart Sūtra&nbsp;(2017) and&nbsp;Chariot that Transports to the Four Kāyas&nbsp;(2019). She is the founder of&nbsp;<a href=\"http://www.dakinitranslations.com/\">Dakini Translations and Publications</a>.</p>
+"""@en ;
+	gist:isAbout told:_Author_124 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_125
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is an independent scholar who holds a PhD in Buddhist Studies from the Ludwig-Maximilians-University, Munich. Her research interests include the Barawa Kagyu tradition, Sikkim Studies, Tibetan Buddhism and the role of gender, and the intersection of religion, nature, and culture in the Tibetan Cultural Area.</p>
+"""@en ;
+	gist:isAbout told:_Author_125 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_126
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a research scholar at the Department of Indo-Tibetan Studies, Visva-Bharati University. He has translated the biography of Seventeen Nālandā Panditas into Bengali.</p>
+"""@en ;
+	gist:isAbout told:_Author_126 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_127
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a Tibetan scholar and doctoral candidate in religious studies at Northwestern University.</p>
+"""@en ;
+	gist:isAbout told:_Author_127 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_128
+	a gist:FormattedContent ;
+	gist:containedText '''<p align="left">
+	is Director of the Scottish Centre for Himalayan Research at the University of Aberdeen</p>
+'''@en ;
+	gist:isAbout told:_Author_128 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_129
+	a gist:FormattedContent ;
+	gist:containedText '''<p>
+	<span style="caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; text-size-adjust: auto;">is a PhD candidate in History and East Asian Languages at Harvard University. His dissertation research focuses on the life and times of Miwang Polhane Sonam Tobgye, and works to situate his particular mode of lay kingship within Qing, Inner Asian, and Early Modern contexts.</span></p>
+'''@en ;
+	gist:isAbout told:_Author_129 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_13
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a translator and practitioner, studying primarily under Dilgo Khyentse Rinpoche, Pema Wanggyal Rinpoche, and Dzongsar Khyentse Rinpoche. He completed a three year retreat in 1984.</p>
+"""@en ;
+	gist:isAbout told:_Author_13 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_130
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is an independent researcher.&nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_130 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_131
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	Director of Studies at Rangjung Yeshe Institute, Centre for Buddhist Studies of Kathmandu University, Nepal. She received her doctorate from McGill University in Canada. She received her Dharma education at Dhagpo Kundrol Ling, a monastic hermitage in France, under the guidance of the late Tibetan Buddhist master Lama Gendun Rinpoche. Julia is a member of Sakya Pandita Translation Group and Subashita Translation Group.</p>
+"""@en ;
+	gist:isAbout told:_Author_131 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_132
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is the second daughter of Rinchen and Tseyang Sadutshang. She co-authored her mother's memoir, <em>My Youth in Tibet</em>, which was published by LTWA in 2012. She studied Buddhist philosophy for several years at Rangjung Yeshe Institute in Kathmandu and completed a two-year translation course at the International Buddhist Academy (IBA).</p>
+<p>
+	&nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_132 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_135
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a PhD student at the University of South Wales working on contemporary Nyingma communities in Kham.</p>
+"""@en ;
+	gist:isAbout told:_Author_135 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_136
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	received a PhD from Columbia University's Department of Religion in 2013. He has taught humanities at colleges in several countries and is now an independent translator and writer based in Asia.</p>
+"""@en ;
+	gist:isAbout told:_Author_136 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_137
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+        (DPhil, MSc, University of Oxford), has been based at the University of Vienna since 2015 and works across the disciplines of Medical Anthropology and Tibetan Studies, researching medico-religious interfaces in Sowa Rigpa across the Himalayas. Her open-access monograph <em>Taming the Poisonous: Mercury, Toxicity, and Safety in Tibetan Medical Practice</em> (Heidelberg University Publishing, 2021) examines the use of refined mercury in Tibetan medicines and related safety and toxicity debates. Her first monograph <em>Long Lives and Untimely Deaths</em> (Brill, 2012) analyses long-life rituals, as well as vitality and life-span concepts among Tibetans in the Darjeeling Hills.</p>
+"""@en ;
+	gist:isAbout told:_Author_137 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_138
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+        (PhD, University of Kent) is a scholar-practitioner specializing in Sowa Rigpa (Tibetan medicine). Drawing on a multidisciplinary training in anthropology, ethnobotany, and biology, his interests revolve around Eurasian medicinal plants and other potent substances, traditional pharmaceutical processes, more-than-human ecologies, and knowledge transmission. He mainly conducts ethnographic fieldwork in the Himalayan valleys of Ladakh (India) and Kathmandu (Nepal). Besides working as a postdoctoral researcher at the Institute of South Asian, Tibetan and Buddhist Studies (University of Vienna), he has a private Tibetan medical practice in Belgium, while also collaborating with his teacher Gen. Pasang Yonten Arya as the editor in chief of Bedurya Publications.</p>
+"""@en ;
+	gist:isAbout told:_Author_138 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_139
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+        (Menrampa) trained at Men-Tsee-Khang in Dharamsala, where he graduated first of his class in 1977 and served as assistant pharmacist, professor, and college principal until 1989. After lecturing at the Central Institute for Buddhist Studies (Ladakh, 1989-1991), he moved to Europe, where he acted as guest professor in Tibetan medicine for DÄGfa (the German Medical Association for Acupuncture) for more than two decades. He co-founded and directs the New Yuthok Institute (Italy) as well as TME – Tibetan Medicine Education Center (Switzerland), through which he has instructed many students on clinical, yogic, and tantric knowledge and practices that balance the body-mind. His recently published handbook <em>New Light on Tibetan Medicine: Volume I – Foundations</em> (2022) is based on his lifelong teaching experience.</p>
+"""@en ;
+	gist:isAbout told:_Author_139 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_14
+	a gist:FormattedContent ;
+	gist:containedText '''<p>
+	is Associate Director of the Tibet Center and Bhutan Initiative at the University of Virginia and holds a Ph.D. in Art History with a specialization in Himalayan Art. <a href="http://virginia.academia.edu/ArianaMaki" target="_blank">http://virginia.academia.edu/ArianaMaki</a></p>
+'''@en ;
+	gist:isAbout told:_Author_14 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_140
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+        is a PhD candidate in Religious Studies at Stanford University, and a translator and interpreter of Buddhist texts and teachings from Tibetan to English.</p>
+"""@en ;
+	gist:isAbout told:_Author_140 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_141
+	a gist:FormattedContent ;
+	gist:containedText '''<p>
+	<span style="caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica;">is a Senior Lecturer at the National University of Mongolia.&nbsp;</span><span style="caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica;">Currently, he is a Visiting Professor at the Center of International Studies, University&nbsp;</span><span style="caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica;">Institute of Lisbon (ISCTE), Portugal.</span></p>
+'''@en ;
+	gist:isAbout told:_Author_141 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_15
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	was a Buddhist practitioner and translator.</p>
+"""@en ;
+	gist:isAbout told:_Author_15 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_16
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a scholar based in Israel. He received his Ph.D. from Indiana University in 1991.</p>
+"""@en ;
+	gist:isAbout told:_Author_16 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_17
+	a gist:FormattedContent ;
+	gist:containedText '''<p>
+	is a cultural anthropologist, Director of Research at the CNRS (National Centre for Scientific Research, France) and Associate Professor at the College of Language and Culture (CLCS), Royal University of Bhutan. <a href="http://www.crcao.fr/spip.php?article176" target="_blank">http://www.crcao.fr/spip.php?article176</a></p>
+'''@en ;
+	gist:isAbout told:_Author_17 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_18
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is currently a researcher at the Department of World Cultures, University of Helsinki.</p>
+<p>
+	&nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_18 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_19
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	earned his PhD from CIHTS in India where he served as the head of Publication Dept. for 26 years. He has a Master’s degree in Writing and Publishing from Emerson College, Boston. Currently he is an adjunct Assistant Professor at the City University of New York, and Language Associate in Columbia University, NY.</p>
+<p>
+	&nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_19 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_2
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is the Dean of Education and a founder of Maitripa College. She holds an MA in Education from Portland State University, and a BA in English Literature from New York University. She is currently completing her doctoral work in Education at University of Portland.&nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_2 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_20
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Research Assistant Professor in Tibetan and Buddhist studies, Director of Scholarship at the Contemplative Sciences Center, and affiliated faculty with the Tibet Center&nbsp;at the University of Virginia.&nbsp;</p>
+<p>
+	&nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_20 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_21
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Assistant Professor of Religious Studies at Wesleyan University. He completed his PhD in Buddhist Studies at the University of Michigan in 2006.</p>
+"""@en ;
+	gist:isAbout told:_Author_21 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_22
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is the main coordinator at Karuna-Shechen. A Buddhist monk, he has lived and studied in the Himalayan region for over fity years, and was the full-time attendant of Dilgo Khyentse Rinpoche for thirteen years.</p>
+"""@en ;
+	gist:isAbout told:_Author_22 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_23
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Executive Director of the Buddhist Digital Resource Center (BDRC). He received his Ph.D. from the University of Virginia in 2009.</p>
+"""@en ;
+	gist:isAbout told:_Author_23 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_24
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a Ph.D. candidate in Religious Studies at Harvard University.</p>
+"""@en ;
+	gist:isAbout told:_Author_24 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_25
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	(1936-2010), one of the world's greatest scholars of Tibet, was the Founder of the Tibetan Buddhist Resource Center.</p>
+"""@en ;
+	gist:isAbout told:_Author_25 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_26
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a PHD candidate in Dunhuang Tibetan Manuscripts at North-west Nationalities’ University in Lanzhou.</p>
+"""@en ;
+	gist:isAbout told:_Author_26 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_27
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a professor at the National Institute for Oriental Languages and Civilizations in Paris (Institut National des Langues et Civilisations Orientales, CNRS), Paris.</p>
+"""@en ;
+	gist:isAbout told:_Author_27 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_28
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Assistant Professor in the Philosophy and Religion Department at Western Carolina University. She completed her PhD in Indo-Tibetan Buddhist Studies at Columbia University in 2013.</p>
+"""@en ;
+	gist:isAbout told:_Author_28 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_29
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a scholar based in Washington State, USA. He received his Ph.D. from the University of Washington in 1996.</p>
+"""@en ;
+	gist:isAbout told:_Author_29 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_3
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is the XIV Dalai Lama Endowed Chair in Tibetan Buddhism and Cultural Studies at the University of California, Santa Barbara.</p>
+<p>
+	&nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_3 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_30
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is an assistant professor of religion at Bard College.</p>
+"""@en ;
+	gist:isAbout told:_Author_30 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_31
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a Ph.D. candidate in Anthropology and Education at Teachers College, Columbia University.</p>
+"""@en ;
+	gist:isAbout told:_Author_31 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_32
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a scholar in Xining.</p>
+"""@en ;
+	gist:isAbout told:_Author_32 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_33
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Leila Hadley Luce Professor of Modern Tibetan Studies at Columbia University. He completed his PhD in Inner Asian History at Harvard in 2002.</p>
+"""@en ;
+	gist:isAbout told:_Author_33 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_34
+	a gist:FormattedContent ;
+	gist:containedText '''<p>
+	is an Associate Professor of Anthropology at Aarhus University. He received his PhD from Harvard University in 2008. <a href="https://pure.au.dk/portal/en/persons/cameron-david-warner(61b6d8e9-c723-46ba-a52b-31e49e037d0e).html" target="_blank">http://pure.au.dk/portal/en/persons/cameron-david-warner(61b6d8e9-c723-46ba-a52b-31e49e037d0e).html</a></p>
+'''@en ;
+	gist:isAbout told:_Author_34 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_35
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is one of the world's leading scholars of Himalayan Art. He is the Director and Chief Curator of Himalayan Art Resources (himalayanart.org).</p>
+"""@en ;
+	gist:isAbout told:_Author_35 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_36
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a Ph.D. candidate in Buddhist Studies at the University of Toronto.</p>
+"""@en ;
+	gist:isAbout told:_Author_36 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_37
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	(Ph.D. Indiana University Bloomington, Tibetan Studies and Religious Studies, 2011) is an assistant professor of Asian Religions at Old Dominion University in Norfolk, Virginia, where she teaches World Religions, Buddhism, and Religions of China and Tibet.</p>
+"""@en ;
+	gist:isAbout told:_Author_37 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_38
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	Director of the Modern Tibetan Studies Program Associate Research Scholar, Weatherhead East Asian Institute</p>
+"""@en ;
+	gist:isAbout told:_Author_38 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_39
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a Research Associate in the Department of the Languages and Cultures of China and Inner Asia, School of Oriental and African Studies, University of London.</p>
+"""@en ;
+	gist:isAbout told:_Author_39 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_4
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Chief Researcher at The Centre for Bhutan Studies.</p>
+<p>
+	&nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_4 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_40
+	a gist:FormattedContent ;
+	gist:containedText '''<p>
+	is associate professor at Kyōto University (GSAIS, Shishu-Kan), Japan, where he teaches Buddhist studies and cross-cultural philosophy. He received his PhD from the University of Paris in 2011.&nbsp; <a href="https://www.gsais.kyoto-u.ac.jp/staff/deroche" target="_blank">https://www.gsais.kyoto-u.ac.jp/staff/deroche</a></p>
+<p>
+	&nbsp;</p>
+'''@en ;
+	gist:isAbout told:_Author_40 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_41
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+        received his PhD in History of Religions from Stockholm University in 2009 and is currently a postdoctoral fellow at UC Berkeley.</p>
+"""@en ;
+	gist:isAbout told:_Author_41 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_42
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a PhD candidate at the University of Washington. He has published several translations of Mongolian and Tibetan literature, including several volumes of Mongolian poety. He has also released many recordings of experimental music.</p>
+"""@en ;
+	gist:isAbout told:_Author_42 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_43
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is teaching professor at the University of San Diego.</p>
+"""@en ;
+	gist:isAbout told:_Author_43 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_44
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a senior research fellow at the Tibet Center, University of Virginia. He is an expert in the archaeology and cultural history of Tibet.</p>
+"""@en ;
+	gist:isAbout told:_Author_44 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_45
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	recently retired from her position as Associate Professor at the University of Puget Sound, Tacoma, Washington. She continues to research the Sakya Jetsumas.</p>
+"""@en ;
+	gist:isAbout told:_Author_45 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_46
+	a gist:FormattedContent ;
+	gist:containedText '''<p>
+	is the founder of <a href="http://www.lotsawahouse.org/">Lotsawa House</a>. He completed his PhD at SOAS, University of London, in 2018 with a thesis on Dzogchen, scholasticism and sectarian identity in early twentieth-century Tibet. Read more at&nbsp;<a href="http://adamspearcey.com/">adamspearcey.com</a>.</p>
+'''@en ;
+	gist:isAbout told:_Author_46 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_47
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+        is an academic researcher at Lingnan University in Hong Kong. Born in Amdo and educated at Labrang and in India, he has published several translations, including <em>An Undercover Journey Through Tibet</em>, by Ajam (from Tibetan to English) and Bertrand Russel's <em>On Education: Especially in Early Childhood</em> (from English to Tibetan).</p>
+"""@en ;
+	gist:isAbout told:_Author_47 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_48
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+        is a candidate for the Geshe degree at Sera Monastery in India. He was one of the founders and the first director of Sera Je IMI house, a complex especially built for the Western monks studying at the monastery.</p>
+"""@en ;
+	gist:isAbout told:_Author_48 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_49
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	(PhD 2005, University of Virginia) is associate professor at Temple University and the director of graduate studies in the Department of Religion. His latest works include <em>Tibetan Buddhist Philosophy of Mind and Nature</em> (Oxford 2019) and a translation of an overview of the Wisdom Chapter of the <em>Way of the Bodhisattva</em> by Künzang Sönam, entitled <em>The Profound Reality of Interdependence</em> (Oxford 2019).</p>
+"""@en ;
+	gist:isAbout told:_Author_49 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_5
+	a gist:FormattedContent ;
+	gist:containedText '''<p>
+	is Director and Chief Editor of the Treasury of Lives. He completed his PhD in Buddhist Studies at the University of Michigan in 2007. He is the author of <em><a href="https://www.shambhala.com/life-of-jamgon-kongtrul-the-great.html">The Life of Jamgon Kongtrul The Great</a>.</em></p>
+'''@en ;
+	gist:isAbout told:_Author_5 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_50
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	received her PhD from the University of Hamburg.</p>
+"""@en ;
+	gist:isAbout told:_Author_50 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_51
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is an Assistant Professor of Religion at the University of Mary Washington in Fredericksburg, VA. He earned his Ph.D. in Inner Asian and Altaic Studies at Harvard University in 2012.</p>
+<p>
+	&nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_51 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_52
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	earned his PhD at the School of Oriental and African studies at the University of London in 1992. He has published widely on the topic of Vajrakīla.</p>
+"""@en ;
+	gist:isAbout told:_Author_52 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_53
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Canadian Research Chair in Religion and Contemporary Society in Asia at the Institute of Asian Research at the University of British Columbia.</p>
+"""@en ;
+	gist:isAbout told:_Author_53 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_54
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	works at the Rubin Museum of Art and is a composer and performer whose pieces have been performed in New York and elsewhere.</p>
+"""@en ;
+	gist:isAbout told:_Author_54 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_55
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is the Director of Tibetan Studies at the École Pratique des Hautes Études, Paris, and also Numata Visiting Professor of the Philosophy of Religions and the History of Religions in the Divinity School of the University of Chicago.</p>
+"""@en ;
+	gist:isAbout told:_Author_55 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_56
+	a gist:FormattedContent ;
+	gist:isAbout told:_Author_56 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_57
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	received an MA in East Asian Languages and Cultures from Columbia University in 2013.</p>
+"""@en ;
+	gist:isAbout told:_Author_57 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_58
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Associate Professor of Religious Studies at Randolph College in Lynchburg, Virginia. She completed a PhD in History of Religions at the University of Virginia in 2010. She is the author of <em>Echoes of Enlightenment: The Life and Legacy of the Tibetan Saint Sonam Peldren</em> (Oxford 2016).</p>
+"""@en ;
+	gist:isAbout told:_Author_58 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_59
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is an independent scholar living in Santa Cruz, CA. He is the founder of the Jang Ter Cho Gar, the Northern Treasures Buddhist Society which is the official branch of Dorje Drak in the United States.</p>
+"""@en ;
+	gist:isAbout told:_Author_59 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_6
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	was director of Trans Himalaya, with offices in the United Kingdom, Chengdu, and Kham. He earned a Ph.D. in Tibetan Literature at the School for Oriental and Asian Studies in 1987 and a Masters degree in Sanskrit &amp; Oriental Studies at Edinburgh in 1971.</p>
+"""@en ;
+	gist:isAbout told:_Author_6 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_60
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a specialist of religion and politics in China and East Asia.</p>
+"""@en ;
+	gist:isAbout told:_Author_60 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_61
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	Senior Philosophy Lecturer in the School of Humanities at the University of Tasmania. He teaches Asian philosophy, coordinates the Asian Philosophy Program and directs the Tasmanian Buddhist Studies in India Exchange Program.</p>
+"""@en ;
+	gist:isAbout told:_Author_61 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_62
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Research Professor in the Alfred Deakin Institute for Citizenship and Globalisation, Deakin University.&nbsp;He is the author of fourteen books and more than sixty articles. These include Introduction to Tibetan Buddhism and A Bull of a Man: Images of Masculinity, Sex, and the Body in Indian Buddhism.</p>
+<p>
+	&nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_62 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_63
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Spiritual Co-Director of Natural Dharma Fellowship and the Managing Teacher at Wonderwell Mountain Refuge</p>
+"""@en ;
+	gist:isAbout told:_Author_63 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_64
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Associate Professor in the Department of Theology at Georgetown University.</p>
+"""@en ;
+	gist:isAbout told:_Author_64 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_65
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Assistant Professor in the Asian Studies Program at Skidmore College.</p>
+"""@en ;
+	gist:isAbout told:_Author_65 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_66
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is the John F. Priest Professor of Religion at Florida State University.</p>
+"""@en ;
+	gist:isAbout told:_Author_66 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_67
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Senior Associate in Research, Mongolia and Inner Asia Studies Unit at Cambridge University.</p>
+"""@en ;
+	gist:isAbout told:_Author_67 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_68
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+        is an independent translator and writer who studied Tibetan at Esukhia among other places.</p>
+<p>
+        &nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_68 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_69
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a graduate student at Columbia University.</p>
+"""@en ;
+	gist:isAbout told:_Author_69 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_7
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	has a Ph.D. in Indo-Tibetan Buddhism and an M.A. in integral psychotherapy.</p>
+"""@en ;
+	gist:isAbout told:_Author_7 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_70
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Visiting Professor at Harvard Divinity School and Director of Natural Dharma Fellowship, a non-profit Buddhist organization. She completed a PhD in Religion at Harvard University in 2013.</p>
+"""@en ;
+	gist:isAbout told:_Author_70 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_71
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Assistant Professor of Tibetan Buddhist Studies at the University of California, Berkeley.</p>
+"""@en ;
+	gist:isAbout told:_Author_71 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_73
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	received an MA in Religious Studies at University of California Santa Barbara. She is currently an editor at the Treasury of Lives.</p>
+"""@en ;
+	gist:isAbout told:_Author_73 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_74
+	a gist:FormattedContent ;
+	gist:containedText '''<p>
+	is Associate Professor in the Department of Religious Studies at the University of Colorado, Boulder. She is author of <em><a href="https://cup.columbia.edu/book/love-letters-from-golok/9780231180528" target="_blank">Love Letters from Golok: A Tantric Couple in Modern Tibet</a></em> (Columbia University Press, 2016).</p>
+'''@en ;
+	gist:isAbout told:_Author_74 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_75
+	a gist:FormattedContent ;
+	gist:containedText '''<p>
+        holds an MA in Buddhist Studies and currently lives in Asia studying Tibetan language. He can be reached at <a href="https://cloudedcat.wordpress.com/">cloudedcat.com</a>.</p>
+'''@en ;
+	gist:isAbout told:_Author_75 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_76
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+        is currently studying Tibetan language and Buddhism in Dharamsala.</p>
+"""@en ;
+	gist:isAbout told:_Author_76 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_77
+	a gist:FormattedContent ;
+	gist:containedText '''<p>
+	is Assistant Professor of History in Mount Holyoke College. She received her Ph.D. in the History-East Asian Program at Columbia University in 2016. Her research interests include imperial formation in the early modern era and history of Buddhism in East Asia. <a href="https://www.mtholyoke.edu/people/lan-wu" target="_blank">https://www.mtholyoke.edu/people/lan-wu</a></p>
+'''@en ;
+	gist:isAbout told:_Author_77 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_78
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is an Assistant Professor of Religious Studies at Bates College. Her current research focuses on the Life of Mingyur Peldron.</p>
+"""@en ;
+	gist:isAbout told:_Author_78 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_79
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is an ordained monk and lama of the Karma Kagyu and Shangpa Kagyu traditions of German origin. An interpreter and translator for 30 years, he worked closely for the late Kyabje Tenga Rinpoche of Benchen monastery and now spends most of his time in solitary retreat in Yolmo.</p>
+"""@en ;
+	gist:isAbout told:_Author_79 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_8
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	has a Ph.D. in Tibetology from Hamburg University, where he is a research associate and lecturer for Classical and Colloquial Tibetan.</p>
+<p>
+	&nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_8 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_80
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	Sonam Tsering Ngulphu&nbsp;has a Ph.D. in Buddhist Studies/East Asian Religions from Columbia University, New York.&nbsp;He completed his master's degrees from Harvard University and Central University for Tibetan Studies.</p>
+"""@en ;
+	gist:isAbout told:_Author_80 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_81
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is the main translator of the Sugatagarbha Translation Group.</p>
+"""@en ;
+	gist:isAbout told:_Author_81 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_82
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a writer and translator. Formerly an editor at The Treasury of Lives, she is currently communications coordinator at the Buddhist Digital Resource Center.</p>
+"""@en ;
+	gist:isAbout told:_Author_82 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_83
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is&nbsp;Associate Professor&nbsp;at Kyushu University. His research interests include the history of Kham and the diplomatic activity of the Tibetan Government in the early 20th century.</p>
+<p>
+	&nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_83 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_84
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Professor of Cultural Anthropology and History at the University of Colorado, Boulder. She is the author of Arrested Histories: Tibet, the CIA, and Memories of a Forgotten War, and is currently writing a book about the Pangdatsang family.</p>
+"""@en ;
+	gist:isAbout told:_Author_84 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_85
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a writer and scholar. He is also Director of Latse Contemporary Tibetan Cultural Library.</p>
+"""@en ;
+	gist:isAbout told:_Author_85 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_86
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	teaches religious studies at Coe College in Cedar Rapids, Iowa. His research interests are in Kālacakra, Dzogchen, and the Bon tradition</p>
+"""@en ;
+	gist:isAbout told:_Author_86 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_87
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Assistant Professor of Philosophy and Religion at Troy University. His research focuses on the history of the Jangter Treasure Tradition.</p>
+"""@en ;
+	gist:isAbout told:_Author_87 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_88
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a research affiliate&nbsp;at the Robert H. N. Ho Centre for&nbsp;Buddhist Studies, University of Toronto. She received her PhD. in Tibetan studies from Humboldt University in Berlin in 2013</p>
+<p>
+	&nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_88 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_89
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a doctoral candidate at the University of California, Santa Barbara</p>
+"""@en ;
+	gist:isAbout told:_Author_89 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_9
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Assistant Professor of Religion at Northwestern University. She earned a PhD in Indo-Tibetan Buddhist Studies at the University of Virginia in 2007.</p>
+"""@en ;
+	gist:isAbout told:_Author_9 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_90
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	Hamid Sardar is a professional photographer as well a a scholar of Tibetan and Mongol languages who received his Ph.D. from Harvard University.</p>
+"""@en ;
+	gist:isAbout told:_Author_90 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_91
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a graduate student in Religious Studies at the University of California, Santa Barbara.</p>
+"""@en ;
+	gist:isAbout told:_Author_91 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_92
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Associate Professor, Religious Studies Program, and Associate Dean for Undergraduate Studies at East Carolina University.</p>
+"""@en ;
+	gist:isAbout told:_Author_92 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_93
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is a PhD candidate at the University of California, Santa Barbara.</p>
+"""@en ;
+	gist:isAbout told:_Author_93 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_94
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	left school in England in the 1960s to travel overland to India and lived in the Himalayan regions for a decade, before returning to London to establish a successful travel business. From 1985 he travelled all over Tibet and in the UK he co-founded a number of Tibet-related organizations. An autodidact, he wrote and published various articles on Tibet, its people and its history, including in Wikipedia.</p>
+"""@en ;
+	gist:isAbout told:_Author_94 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_95
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	(Ph.D. University of Virginia, 2007) is an Associate Professor of Religious Studies at the University of Nebraska – Lincoln.&nbsp; He is author of <em>Tibetan Buddhism and Mystical Experience</em> by Oxford University Press, <em>Visions of Unity: The Golden Pandita Shakya Chokden's New Interpretation of Yogācāra and Madhyamaka </em>by State University of New York Press&nbsp;and<em>&nbsp;Three Texts on Madhyamaka by Shakya Chokden&nbsp;</em>by Library of Tibetan Works and Archives.</p>
+"""@en ;
+	gist:isAbout told:_Author_95 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_96
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Director of Research Emeritus at the National Centre of Scientific Research (CNRS) in Paris.<br />
+	&nbsp;</p>
+"""@en ;
+	gist:isAbout told:_Author_96 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_97
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is Associate Professor at the University of Wisconsin-Milwaukee.</p>
+"""@en ;
+	gist:isAbout told:_Author_97 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_98
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	is professor of Tibetan language and civilisation at the National Institute of Oriental Languages and Civilisations (INALCO) in Paris, France, where he is also associate vice-president.</p>
+"""@en ;
+	gist:isAbout told:_Author_98 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_FormattedContent_AuthorBio_99
+	a gist:FormattedContent ;
+	gist:containedText """<p>
+	completed his MA in Translation, Textual Interpretation, and Philology at the Rangjung Yeshe Institute.</p>
+"""@en ;
+	gist:isAbout told:_Author_99 ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
