@@ -1,0 +1,1366 @@
+community_id,tbrc_id,community_name,tradition_id
+9,G17,Katok,1
+10,G14,Mindroling,1
+11,G11,Dorje Drak,1
+12,G16,Dzogchen Monastery,1
+13,G20,Shechen,1
+14,G18,Pelyul Monastery,1
+43,G188,Adzom Gar,1
+44,G3636,Nyoshul Jonpalung Monastery,1
+45,G2043,Zha Lhakhang,1
+48,G375,Dodrubchen Monastery,1
+59,G1AG98,Neten Monastery,1
+60,G3JT12623,Tsike,1
+85,G521,Shukseb,1
+115,G381,Chung Riwoche ,1
+127,G3791,Lhagang,1
+141,G4195,Kharchu Monastery,1
+143,G2067,Tangkya Lhakhang ,1
+150,G1KR1891,Powo Samling,1
+193,NULL,Samdrub Ling,1
+229,G392,Zur Ukpalung,1
+235,NULL,Chukyer Gonsar,1
+253,G665,Pelri Tekchen Ling ,1
+254,G351,Tseringjong,1
+259,G3774,Sinmo Dzong ,1
+290,G314,Dentik ,1
+309,G00JR2680,Bangri Jokpo ,1
+312,G3322,Nyima Tang Monastery ,1
+371,G2AG31,Petseling Jangchub Pelri Monastery ,1
+381,NULL,Chitokha Puntsok Rabten Ling ,1
+382,G183,Gangteng Monastery ,1
+383,NULL,Trakar Lhakhang ,1
+385,G382,Tsamdrak Monastery ,1
+388,NULL,Lhundrub Deyang,1
+393,G1TD43,Kyichu Lhakhang ,1
+400,NULL,Tamshing Lhakhang,1
+407,G1KR200,Karchen,1
+421,G518,Getse Dralek,1
+422,G3954,Gemang,1
+426,G1KR1686,Chakri Nyidrak Monastery,1
+427,G491,Takmogang Kelzang Puntsok Ling,1
+430,G3755,Rakchab Sengri Dorje Yudzong,1
+432,G1680,Gyarong Takten Nampar Gyelwai Ling,1
+439,G3219,Śrī Siṃha College,1
+444,G3961,Gegong,1
+449,G1603,Chagdud Orgyen Ling,1
+450,G1629,Kelzang Sanggye Choling Monastery,1
+452,G1590,Tsogyel Jomo,1
+455,NULL,Pel Nyenmo Ri Namgyel,1
+470,NULL,Jumohor Sangngak Choling,1
+471,G289,Junyung Hermitage,1
+488,G1723,Wangda,1
+489,G1740,Denang Monastery,1
+508,NULL,Tashi Chokhor Ling,1
+509,G3203,Gome Oseltang,1
+510,NULL,Nakchung Ritro,1
+514,G00AG01622,Se Trabzang,1
+515,G4795,Sang Ngak Tekchokling,1
+516,NULL,Guru Pema Evaṁ Chokgar,1
+518,G1604,Jazi,1
+519,G3635,Tromge Gon,1
+520,G1727,Horkor Gon,1
+522,G00EGS1016716,Gegyel Dzogchen,1
+524,G496,Yangcho Sangcho Pema Lhunding,1
+525,G3971,Nubzur Gon,1
+526,G2JM249,Changma Gar,1
+527,G3997,Larung Gar,1
+529,G389,Lhalung Gon,1
+534,NULL,Serkyi Gyelgo,1
+546,G1KR1596,Zhe Dratsang,1
+553,G7,Mawochok,1
+554,G00AG01620,Guru Lhakhang,1
+556,NULL,Dregon Sar,1
+559,NULL,Dekyi Ling,1
+563,G3507,Chakzam Chuwori,1
+565,G3703,Yama Tashikhyil,1
+567,G523,Dartang Monastery,1
+587,NULL,Drakkar Gepel Ling,1
+621,G1807,Golok Getse,1
+688,G4886,Namdroling,1
+696,G1797,Tsimda Monastery,1
+697,G3717,Nyenlung,1
+699,G3994,Zhuchen Monastery,1
+700,G4687,Simda Dzogchen Monastery,1
+713,G3526,Nyedo Monastery,1
+811,G4196,Khoting Lhakhang,1
+816,NULL,Muktinath,1
+822,G2036,Terdrom,1
+826,G516,Nyingon,1
+827,G2424,Chushur Tarpa Ling,1
+828,G388,Layak Guru Lhakhang,1
+841,G2508,Drakri Hermitage,1
+863,G2812,Drak Yongdzong,1
+867,NULL,Barkor Mani Lhakhang,1
+869,G4379,Karchung Monastery,1
+893,G1KR817,Nechung,1
+917,G8LS12773,Nyimalung Monastery,1
+928,G2CN11043,Zhitro Lhakhang,1
+954,G3467,Dzaka,1
+955,G1676,Tsashul,1
+957,G3992,Dartsang Kelzang Monastery,1
+970,G4165,Rudam Yangwen Sengdruk Puk,1
+982,G1884,Tege ,1
+1000,G2840,Zurlung Pelchen Lhakhang,1
+1004,G3705,Rigdzin Rapel Ling,1
+1010,G1634,Tsopu,1
+1013,G3639,Garje,1
+1014,NULL,Katok Drakdong Ritro,1
+1015,NULL,Gyelrong Ritro,1
+1016,G3747,Litang Nyingma Dratsang,1
+1046,G3625,Rongme Karmo Taktsang,1
+1050,NULL,Benchok Ritro,1
+1056,G1673,Lek Gon,1
+1066,G4166,Tharpaling,1
+1070,G3988,Sera Tekchen Chokhorling,1
+1071,G1KR2634,Bennak,1
+1073,G2MS14672,Māratika,1
+1095,G2JM240 ,Tosam Norbu Lhunpo,1
+1096,G3466,Muksang,1
+1097,G3736,Yulkhyong Monastery,1
+1105,G3841,Shukgang Monastery,1
+1106,G3835,Domang Monastery,1
+1108,G3844,Dranggo,1
+1109,G3837,Janggang,1
+1110,G3898,Rahor,1
+1111,G3833,Tsangme Sengge,1
+1112,G1KR147,Sango,1
+1113,G1KR151,Kuntsar,1
+1120,G00JR3006,Buchu Lhakhang,1
+1121,G2051,Katsel,1
+1122,G2GS1265,Drampagyang,1
+1141,G1AG92,Zhohong,1
+1144,G1PD110068,Drakkar Tashiding,1
+1145,G2876,Paro Taktsang,1
+1165,G1KR2455,Nangra,1
+1171,G3933,Dzagyel,1
+1172,G3983,Yarlung Pemako,1
+1173,G2JM237,Katok Shedra Norbu Lhunpo,1
+1182,G519,Gemang Ritro,1
+1184,G2829,Yarlung Sheldrak,1
+1190,NULL,Khamarin Khiid,1
+1211,NULL,Gojo Banak,1
+1212,G3821,Dago Monastery,1
+1213,G4169,Zingpa Takgo,1
+1214,G4808,Trengpo,1
+1217,G430,Chakhyi Lhakhang,1
+1218,G1KR1455,Chenye Monastery,1
+1224,G1602,Nyarong Gojam Gon,1
+1226,G3919,Chodrak Gon,1
+1243,G3810,Khangmar,1
+1244,G1798,Khemar Monastery,1
+1251,G26,Zangchen Monastery,1
+1256,G00AG01619,Dungsam Riwo Tengyeling,1
+1261,G4103,Rashel,1
+1262,G4116,Belo Hermitage,1
+1263,G4114,Gyelpak Monastery,1
+1264,G4108,Kunub Monastery,1
+1265,G339,Khyunggon Monastery,1
+1271,G4166,Tarpeling,1
+1277,G1588,Zhiwa Gon,1
+1279,G574,Shabme Gomne,1
+1284,G4154,Dzato Changmai Monastery,1
+1303,G00AG01403,Gangri Tokar,1
+1307,G19,Nyakla Gar,1
+1308,G3CN219,Karchung Doring,1
+1309,G1AG115,Shukchung,1
+1313,G2CN10949,Dzonggo,1
+1316,G3842,Khordong Monastery,1
+1318,G1563,Zhichen Monastery,1
+1320,G1KR159,Shukjung Monastery,1
+1321,G4098,Baḥne Monastery ,1
+1322,G522,Batang Drubgon,1
+1323,G3493,Do Dorje Drak,1
+1330,G1KR1893,Bakha,1
+1332,G01AG03004,Yanglesho,1
+1335,NULL,Dzogchen Yamāntaka Cave,1
+1336,G00AG01696,Pungpo Riwoche,1
+1339,G1681,Lhadrang Monastery,1
+1343,G2807,Yamalung,1
+1352,NULL,Ngedon Dongak Chokhor Ling,1
+1353,G1PD110067,Pemayangtse,1
+1380,G3955,Kilung,1
+1398,G1BL7,Daktok,1
+1428,G1KG514,Achung Namdzong,1
+1431,G353,Mahā Kyilung,1
+1432,G1KR84,Kachok,1
+1433,G4109,Minyak Kyernang,1
+1434,G3787,Kardza,1
+1435,G4110,Lautang,1
+1436,G1PD76604,Pema Ritro,1
+1441,G2JM244,Lekshe Nyida Ling,1
+1467,NULL,Sengchen Namdrak Monastery,1
+1504,G4732,Ka-Nying Shedrub Ling,1
+1526,G1PD110073,Dubdi,1
+1527,G1PD110069,Sangngak Choling Sikkim,1
+1528,G1PD110075,Doling,1
+1535,NULL,Gechak Monastery,1
+1536,NULL,Dzonggo Ling,1
+1538,NULL,Tergar Ösel Ling,1
+1544,NULL,Pema Choling,1
+1556,G3784,Drakkar,1
+1560,NULL,Lhalung Ritro,1
+1569,NULL,Khalek,1
+1570,NULL,Dogyu Tosam Ling,1
+1615,NULL,Dzogchen Monastery India,1
+1632,G1679 ,Yakze,1
+1633,G2CN11106,Khyungtak,1
+1637,NULL,Pema Osel Ling,1
+1639,NULL,Rigdzin Gatsel,1
+1640,NULL,Ati Ling,1
+1641,NULL,Rigdzin Ling,1
+1642,NULL,Khadro Ling,1
+1645,G1PD76601,Sarwahai,1
+1646,NULL,Do Dzong Hermitage,1
+1647,NULL,Nechen Pema Ritro,1
+1648,NULL,Zhakdra Yumtso,1
+1649,G1586,Pelri,1
+1655,NULL,Tarpa Tse,1
+1656,NULL,Kunzang Odsal Palyul Changchub Choling ,1
+1657,NULL,Palyul Retreat Center,1
+1664,NULL,Nyingma Institute,1
+1665,NULL,Yeshe Nyingpo,1
+1667,NULL,Orgyen Chö Dzong,1
+1671,NULL,Rigdzin Gatsel Ling ,1
+1672,NULL,Lama Ling,1
+1673,G4017,Jangkar Monastery,1
+1674,G3682,Yaso Monastery,1
+1676,G3660,Nego Monastery,1
+1685,NULL,Lachen Monastery,1
+1686,NULL,Thangu Monastery,1
+1698,1KR89,Namgyelteng,1
+1702,NULL,Tsade,1
+1704,G00JR820,Ke Mingyur Dorje Drak,1
+1706,G4811,Geri,1
+1709,G525,Zablung,1
+1710,G2CN11109,Draklha Gampo,1
+1711,G1PD83959,Drakkar Treldzong,1
+1712,G2CN11113,Kuso Togyel,1
+1713,G1802,Tashi Gomang,1
+1714,NULL,Durpin Monastery,1
+1716,NULL,Dundul Rabtenling,1
+1717,NULL,Tso Pema Orgyen Heruka Nyingmapa Gompa,1
+1718,NULL,Dudjom Gonpa  ,1
+1719,NULL,Tashi Choling,1
+1720,NULL,Urgyen Samyé Chöling ,1
+1722,NULL,Jangsa Gompa,1
+1723,NULL,Karye,1
+1724,G00AG01624,Zangzang Lhadrak,1
+1705,G1KR685,Kolri,1
+35,G275,Zhalu,4
+52,G3518,Dratang,4
+62,G225,Nartang,4
+91,G226,Sangpu Neutok,4
+92,G4605,Nyetang Drolma Lhakang,4
+101,G2844,Pokhang ,4
+117,G3055,Menchu,4
+120,G457,Nenying,4
+128,G233,Nalendra Monastery,4
+143,G2067,Tangkya Lhakhang ,4
+187,NULL,Lharitse,4
+195,G2824,Tangpoche,4
+199,G4576,Langtang,4
+216,G280,Gyel Lhakhang,4
+217,NULL,Dakpo Draka,4
+224,G4595,Poto,4
+226,G2CN11076,Puchung,4
+246,G4598,Joden Gendungang ,4
+251,G1KR1528,Dingma Monastery,4
+271,G241,Japuk Dongak Dargye Ling,4
+290,G314,Dentik ,4
+291,G4593,Neuzur,4
+292,G439,Tolung Takma,4
+293,G4188,Lhodrak Drowa Gon,4
+295,G223,Ngulchu Hermitage,4
+305,G4607,Rato,4
+311,G2359,Ladring Chode,4
+312,G3322,Nyima Tang Monastery ,4
+317,G405,Takpu Chode,4
+324,G2365,Taktse Rinchen Gang,4
+325,G4164,Kyormolung ,4
+327,G74,Reting Monastery,4
+352,G2194,Toling Monastery,4
+353,G229,To Jayul Monastery,4
+358,G161,Jakhyung Monastery,4
+435,G2066,Chekha,4
+443,G261,Chakpori,4
+531,NULL,Tashilung,4
+618,G1KR1569 ,Sekharchung,4
+657,G4676,Ripuk Hermitage,4
+719,G1KG17626,Tabo,4
+822,G2036,Terdrom,4
+824,G1KR1539,Changra,4
+837,G3255,Gyelje,4
+910,NULL,Nyarma,4
+958,G2065,Gyelteng Monastery,4
+959,G2064,Pangsa Monastery,4
+960,G4CZ1581,Wolkha Samling Monastery,4
+961,G1AG38,Khakyong Drak,4
+1025,G1AG68,Nalatse Nepoche,4
+1088,G1AG89,Trewel Ude,4
+1089,G2LS540,Dungkar,4
+1153,NULL,Serding,4
+1217,G430,Chakhyi Lhakhang,4
+1247,G4611,Chimilung,4
+1251,G26,Zangchen Monastery,4
+1259,G1GS140235,Penyul Drosa,4
+1281,G4596,Drayab Monastery,4
+1294,G3041,Lo Monastery,4
+1297,G2CN11075,Namtseding Monastery,4
+1388,G23,Tolung Tsendro,4
+1437,G2CN11063,Tabka,4
+1438,NULL,Trawakha,4
+1439,G407,Tangsak,4
+1500,G4454,Jasa Lhakhang,4
+1559,G4455,Ganden Chokhor Ling,4
+1698,1KR89,Namgyelteng,4
+32,G211,Ngor Ewaṃ Choden,7
+33,G1KR1565,Dar Drangmoche,7
+35,G275,Zhalu,7
+52,G3518,Dratang,7
+91,G226,Sangpu Neutok,7
+93,G357,Tsechen,7
+98,NULL,Palung,7
+102,G1511,Pelkhor Chode,7
+105,G391,Serdokchen,7
+108,NULL,Puntsok Samten Ling ,7
+114,G4818,Kyangdur ,7
+119,G1AG83,Cholung Jangtse,7
+122,G307,Sabzang Ganden,7
+127,G3791,Lhagang,7
+128,G233,Nalendra Monastery,7
+146,NULL,Uri Monastery,7
+178,G2552,Tarlam,7
+179,G3268,Dezhung Monastery,7
+180,G213,Dzongsar,7
+183,G2CN11074,Rong Ngurmik,7
+199,G4576,Langtang,7
+207,G193,Lhundrubteng,7
+249,G4147,Lingga Dewachen ,7
+250,G324,Musu Yama Monastery,7
+269,G2GS1070,Tanak Serling,7
+270,G506,Tanak Tubten Namgyel ,7
+272,NULL,Sakya Drakshar,7
+275,G245,Dreyul Kyetsel ,7
+276,G265,Nyenyo Jagoshong ,7
+277,G250,Chokhor Lhunpo ,7
+280,G1654,Chakra,7
+282,G1644,Pewar,7
+305,G4607,Rato,7
+333,G247,Ngamring Chode ,7
+338,NULL,Tetung Monastery,7
+346,NULL,Pari Tashi Choling ,7
+354,G435,Chone Ganden Shedrub Ling,7
+360,G1KR1936,Tsador Monastery ,7
+370,G2058,Evaṃ Monastery,7
+372,G1970,Dobi Ganden Pelgye Ling,7
+374,G163,Rongwo Monastery,7
+412,G1657,Derge Parkhang,7
+443,G261,Chakpori,7
+445,G4874,Khamshe Dargye Ling,7
+447,G1569,Langna,7
+451,NULL,Sangngak Dechen Ling,7
+453,G1KR1570,Tubten Gepel,7
+474,G1KR2454,Ngagar Jangchub Ling,7
+511,NULL,Ga Nyide,7
+512,G1KR2688,Jyekundo Dondrub Ling,7
+546,G1KR1596,Zhe Dratsang,7
+547,G1571,Khanon Gon,7
+557,G3795,Rikhud Monastery,7
+569,NULL,Dongtre Samten Ling,7
+603,G880,Sakya Monastery,7
+615,G3509,Gongkar Chode,7
+616,NULL,Yarlung Namgyel,7
+617,NULL,Yarlung Samten Ling,7
+657,G4676,Ripuk Hermitage,7
+682,G3550 ,Tsedong Monastery,7
+814,G73,Pelbar,7
+818,NULL,Khacho Monastery,7
+819,NULL,Zhigon Hermitage,7
+825,G2GS1264,Mugulung,7
+834,G3119,Kharta Tarpa Ling,7
+839,G1KR1614,Rong Jamchen,7
+934,G311,Zhitok Labrang,7
+935,G312,Rinchen Gang Labrang,7
+936,G466,Ducho Labrang,7
+937,G436,Lhakhang Labrang,7
+938,G4445,Drolma Podrang,7
+939,G232,Puntsok Podrang,7
+943,G1KR1564,Samdrub Gonsar,7
+987,G4293,Kyoda Monastery,7
+994,G1AG60,Khacho Deden,7
+1012,G1AG63,Nyamyo Jashong Monastery,7
+1025,G1AG68,Nalatse Nepoche,7
+1104,G1641,Yilhung Lhagyel,7
+1107,G2726,Tsangda Monastery,7
+1110,G3898,Rahor,7
+1128,G2KT9,Sakya Mendrong,7
+1153,NULL,Serding,7
+1183,G1656,Mandal Gon,7
+1188,G4447,Sakar Samdrub Ling,7
+1196,G2821,Nedong Tsetsokpa,7
+1204,G2KR46,Erdene Zuu,7
+1220,G879,Labrang Shar,7
+1228,G1TD37,Nub Padmo De,7
+1234,G1AG108,Khachar,7
+1235,G1AG109,Tubchen Dargye Ling,7
+1237,G3611,Taklung Tarling Chode,7
+1238,G1652,Wonto Monastery,7
+1255,G1KR347,Dzogon,7
+1276,G1019,Nedruk Lhakhang,7
+1329,G1KR1511,Chumik,7
+1334,NULL,Anja Ritro,7
+1337,G1655,Khardo Monastery,7
+1404,G1651,Galenteng,7
+1405,G1BL18,Matho,7
+1464,NULL,Gagu Hermitage,7
+1488,G2706,Damtok,7
+1489,G2715,Tridu Kelzang,7
+1490,G515,Serjong,7
+1491,G1647,Guzi,7
+1492,G1KR1602,Takmo Lingkha,7
+1496,G3266,Dzinda Neseb,7
+1497,G3269,Dzonyak Samdrub,7
+1498,G1KR2785,Tubten,7
+1499,G1KR2784,Dzonggo,7
+1500,G4454,Jasa Lhakhang,7
+1521,G4397,Ru Gonsar,7
+1555,NULL,Tangkya Gon,7
+1562,G3271,Dramagang,7
+1563,NULL,Dosib,7
+1564,NULL,Dungdo,7
+1565,NULL,Dzamtok,7
+1566,NULL,Shangto,7
+1567,G1642,Rabten,7
+1568,G4686,Wara,7
+1572,NULL,"Sakya Monastery, Seattle",7
+1573,NULL,Tharlam,7
+1574,NULL,Jetsun Sakya Center,7
+1576,G2261,Tashigang,7
+1591,NULL,Jamchen Lhakhang,7
+1592,NULL,Rinding,7
+1593,NULL,Lo Gekar,7
+1594,NULL,Dharma Swami Buddha Vihara,7
+1595,NULL,Tsarang,7
+1596,G2KG2759,Namgyel Chode,7
+1597,NULL,Tangtong Gyelpo Lhakhang,7
+1600,NULL,Montang Chode,7
+1601,NULL,Kak Chode,7
+1602,NULL,Gemi,7
+1603,NULL,Dzong Chode,7
+1604,G1KR2824,Beru Lachen,7
+1610,G508 ,Yarlung Tashi Chode,7
+1611,NULL,Sakya Centre,7
+1612,NULL,Shakya Shei-Drub Ling,7
+1617,G2CN10992,Tartse Labrang,7
+1618,NULL,Pende Labrang,7
+1619,NULL,Khangsar Labrang,7
+1620,NULL,Luding Labrang,7
+1627,G2722,Pangshar,7
+1630,G1567,Dongtok,7
+1631,G1KR183,Dhīpu,7
+1633,G2CN11106,Khyungtak,7
+15,G3429,Sekhar Gutok,8
+21,G4202,Zhung Treuzhing ,8
+63,G197,Daklha Gampo,8
+64,G434,Densatil,8
+132,G282,Kodrak Hermitage,8
+135,G2061,Rinchen Ling,8
+151,G4614,Parpu Monastery,8
+225,G2832,Rechung Puk,8
+227,NULL,Gyachak Ri,8
+326,G3012,Drakwar Monastery,8
+338,NULL,Tetung Monastery,8
+347,NULL,Serlung Monastery ,8
+485,G607,Tsetang,8
+595,NULL,Yanggon,8
+687,G1KR1884,Pulung Rinchen Ling,8
+713,G3526,Nyedo Monastery,8
+831,G168,Taklung Ganden Damcho Ling,8
+860,G2511,Keutsang West Hermitage,8
+881,G2CN11081,Tsokha Monastery,8
+968,G1PD110071,Rumtek,8
+971,G1TD4,Gampo Zanglung,8
+972,G1TD5,Tsur Lhalung,8
+974,G37,Tsādra Rinchen Drak,8
+986,NULL,Nyangto Sertreng Monastery,8
+999,G3263,Mokpa Lhatse,8
+1001,G1AG62,Nekhar Monastery,8
+1002,G1KR2692,Raknyak,8
+1218,G1KR1455,Chenye Monastery,8
+1241,G3420,Ya Nga Chamda Ganden Khacho Ling,8
+1292,G3109,Chuwar Monastery,8
+1309,G1AG115,Shukchung,8
+1403,G1KR424,Ridrak,8
+1502,NULL,Karma Chokhor Dechen Ling,8
+1504,G4732,Ka-Nying Shedrub Ling,8
+1506,NULL,Karma Migyur Ling,8
+1507,NULL,Dhagpo Kagyu Ling,8
+1511,NULL,Karma Drubgyu Thargay Ling,8
+1512,NULL,Karma Drupgyud Choeling,8
+1513,NULL,Shri Karma Raja Mahavihara,8
+1520,G4404,Taser,8
+1538,NULL,Tergar Ösel Ling,8
+1542,NULL,Benchen,8
+1544,NULL,Pema Choling,8
+1644,NULL,Richung,8
+70,G1KR1663,Barom Gon,22
+1175,G2610,Kumbum Monastery,22
+1338,G2651,Kyodrak Monastery,22
+1516,G2635,Lhalam,22
+1517,G1KR2864,Lachab,22
+1534,NULL,Tsangsar Namgon,22
+68,G30,Tsel Gungtang,23
+75,NULL,Lhachuk,23
+76,NULL,Jupu Monastery,23
+78,G368,Rokam,23
+154,G1AG90,Kharak,23
+294,G156,Purbuchok,23
+15,G3429,Sekhar Gutok,24
+95,G33,Tsurpu Monastery,24
+127,G3791,Lhagang,24
+159,G51,Dodzong,24
+174,G326,Zurmang Dutsitil,24
+215,G35,Karma Gon,24
+231,NULL,Dechen Teng,24
+331,G194,Nenang,24
+419,G4813,Tasho Pomdrak ,24
+441,G170,Chorten Tang Tashi Dargye Ling ,24
+472,G36,Pelpung,24
+473,G3617,Kaṁpo Nenang,24
+488,G1723,Wangda,24
+523,G2813,Monkhar Namseling,24
+529,G389,Lhalung Gon,24
+571,G1691,Alo Peljor Gang,24
+591,G4392,Samling Monastery,24
+599,G198,Yangpachen,24
+702,G2652,Zurmang Namgyeltse,24
+806,G1PD96097,Shadzong Ritro,24
+807,G2577,Trangu,24
+875,G1KR826,Karmashak Tsenkhang,24
+964,G2CN11100,Lekshe Ling,24
+977,G1AG47,Yutok Monastery,24
+1036,G1183,Menkhar Pende Ling,24
+1187,G214,Ga Benchen Monastery,24
+1189,G2581,Ladro Monastery,24
+1205,g4812,Lhateng,24
+1206,G2GS1050,Ganden Mamo,24
+1216,G1686,Ringu Monastery,24
+1242,G1575,Khangmar Monastery,24
+1250,G1KR604,Drentang Monastery,24
+1340,G527,Mendong Monastery,24
+1341,G1KR594,Namgyel Ling,24
+1342,G3857,Pangpuk,24
+1393,NULL,Chamdo Drolma Lhakhang,24
+1395,NULL,Samye Ling,24
+1415,G1574,Bengen,24
+1429,G409,Bo Gangkar Monastery,24
+1443,NULL,Gampo Abbey,24
+1445,NULL,Karmê Chöling,24
+1447,NULL,Boulder Shambhala Center,24
+1448,NULL,Shambhala Mountain Center,24
+1449,NULL,Yak Monastery,24
+1456,NULL,Karma Rimay O Sal Ling,24
+1457,NULL,Kagyu Changchub Chuling,24
+1458,NULL,Kagyu Shenpen Kunchab,24
+1459,NULL,Kagyu Dzong,24
+1460,NULL,Kagyu Ling,24
+1461,NULL,Kagyu Thubten Chöling,24
+1462,NULL,Sherabling,24
+1508,NULL,Buddhistisk Center Kobenhavn,24
+1509,NULL,Karma Triyana Dharmachakra,24
+1529,G1PD110070,Ralong,24
+1541,NULL,Pema Khyung Dzong,24
+1554,G4883,Jangchub Chokhor Ling,24
+1689,NULL,Tashi Gomang Stupa,24
+1701,G2642 ,Dilyak,24
+485,G607,Tsetang,25
+560,G1KR1648,Porong Pelmo Choding Monastery ,26
+564,G412,Samding Monastery,26
+612,G244,Bodong E,26
+618,G1KR1569 ,Sekharchung,26
+1545,G4401,Jekhar Chode Gon,26
+15,G3429,Sekhar Gutok,27
+36,G337,Ganden,27
+37,G154,Sera Monastery,27
+38,G108,Drepung Monastery,27
+39,G104,Tashilhunpo,27
+40,G160,Kumbum Jampa Ling,27
+41,G162,Labrang Tashikhyil,27
+45,G2043,Zha Lhakhang,27
+62,G225,Nartang,27
+68,G30,Tsel Gungtang,27
+85,G521,Shukseb,27
+91,G226,Sangpu Neutok,27
+93,G357,Tsechen,27
+101,G2844,Pokhang ,27
+102,G1511,Pelkhor Chode,27
+107,G1KR1359,Tupten Dargye Ling ,27
+110,G390,Takten Puntsok Ling ,27
+112,G4619,Chubzang,27
+117,G3055,Menchu,27
+120,G457,Nenying,27
+134,G1KR1885,Choding Monastery,27
+135,G2061,Rinchen Ling,27
+136,G1972,Jangchen,27
+137,G400,Litang Chokhor Ling,27
+140,G447,Ngari Dratsang,27
+141,G4195,Kharchu Monastery,27
+143,G2067,Tangkya Lhakhang ,27
+156,G165,Gonlung Jampa Ling,27
+181,G3946,Longtang Drolma Lhakhang,27
+185,G238,Wensa Monastery,27
+186,NULL,Chokhor Uding,27
+187,NULL,Lharitse,27
+188,G1AG31,Garmo Chodzong,27
+189,NULL,Lekdrub Dratsang,27
+190,G394,Gyume Dratsang,27
+191,G4247,Riwo Gepel,27
+192,G4244,Gangchen Chopel,27
+195,G2824,Tangpoche,27
+198,G2CN10832,Chekar Chode,27
+212,G1PD96118,Old Ditsa,27
+214,G2576,Ba Monastery,27
+236,G330,Tsunmo Tsel,27
+237,G180,Chamdo Jampa Ling ,27
+243,G1811,Lungkar,27
+255,G3386,Driru Gon,27
+256,G1237,Den Chokhor,27
+265,NULL,Zhertsa Chode ,27
+266,G1541,Dargye Monastery,27
+267,NULL,Potima ,27
+271,G241,Japuk Dongak Dargye Ling,27
+274,G4865,Azha Yarpung,27
+278,G3488,Tashi Pende,27
+279,NULL,Demola Monastery,27
+285,G3486,Tashi Cholung,27
+286,G2GS1296,Lho Chotritang ,27
+287,G288,Tseten,27
+288,G1KR2304,Tak Monastery,27
+289,G3222,Tuwa ,27
+290,G314,Dentik ,27
+294,G156,Purbuchok,27
+295,G223,Ngulchu Hermitage,27
+296,G1846,Sekya Tashi Gepel Ling,27
+298,G308,Dakpo Dratsang ,27
+305,G4607,Rato,27
+306,G2440,Nyetang Longdol Hermitage ,27
+310,G2360,Dar Chode,27
+311,G2359,Ladring Chode,27
+312,G3322,Nyima Tang Monastery ,27
+314,G402,Khardo Hermitage,27
+315,G77,Ganden Jangtse College ,27
+316,G236,Gyuto Dratsang,27
+317,G405,Takpu Chode,27
+318,G3011,Meldro Chakar Gon,27
+319,G304,Ganden Shartse College,27
+321,G2510,Rakadrak Hermitage,27
+322,NULL,Sera Utse,27
+323,G3487,Drula,27
+324,G2365,Taktse Rinchen Gang,27
+325,G4164,Kyormolung ,27
+326,G3012,Drakwar Monastery,27
+327,G74,Reting Monastery,27
+333,G247,Ngamring Chode ,27
+334,G399,Riwo Dechen,27
+335,G3036,Rinchen Drak,27
+338,NULL,Tetung Monastery,27
+339,G474,Tangring Monastery,27
+340,G164,Amdo Chubzang Monastery,27
+342,G109,Drepung Gomang Dratsang,27
+343,G2362,Dechen Sangngak Khar,27
+344,G107,Tashilhunpo Shartse Dratsang,27
+345,G1PD95975,Ganden Rinchen Ling,27
+346,NULL,Pari Tashi Choling ,27
+348,G155,Sera Je,27
+349,G237,Sera Me,27
+350,NULL,Dromda Monastery,27
+351,G1162,Dab Yangteng Monastery,27
+352,G2194,Toling Monastery,27
+353,G229,To Jayul Monastery,27
+354,G435,Chone Ganden Shedrub Ling,27
+355,G126,Drepung Loseling College,27
+356,NULL,Genden Chopeling,27
+357,G2363,Pakmo Chode,27
+358,G161,Jakhyung Monastery,27
+359,NULL,Rablo,27
+360,G1KR1936,Tsador Monastery ,27
+361,G301,Shitsang Gonsar,27
+362,G3232,Ngulra Monastery,27
+363,G3278,Ganden Shedrub Pekar Drolwai Ling,27
+364,G293,Tso Gon Ganden Choling ,27
+365,G1KR2037,Mokru Ganden Jampeling,27
+367,G4353,Muge Tashikhorlo ,27
+368,G3090,Ngawa Gomang,27
+369,G1519,Gyeltang Sungtseling,27
+370,G2058,Evaṃ Monastery,27
+372,G1970,Dobi Ganden Pelgye Ling,27
+373,G1963,Drotsang,27
+374,G163,Rongwo Monastery,27
+375,G1PD96117,Ditsa Tashi Choding ,27
+395,NULL,Sechang ,27
+396,G1KR2411,Shel Monastery,27
+397,G4698,Dzoge Monastery ,27
+398,G4681,Bido Gonchen,27
+399,NULL,Geting Ganden Choling ,27
+401,G271,Lamo Dechen ,27
+402,NULL,Taktsang Rawato ,27
+403,NULL,Shardzong,27
+404,G1KR983,Drugu,27
+407,G1KR200,Karchen,27
+408,NULL,Jamyang Mawai Sengge Ling ,27
+409,G4851,Gyakhar ,27
+410,G1965,Urge Dratsang Sangngak Mingye Ling,27
+411,G1542,Tongkhor Tashilhunpo,27
+413,G4786,Kīrti,27
+416,G4858,Luchung Taktsang Gon,27
+423,G395,Pabongkha Hermitage ,27
+424,NULL,E Rigo Chode ,27
+425,NULL,Lhetag Monastery,27
+434,G1KR2451,Magur Namgyel Ling,27
+437,G2539,Kangtsa Ganden Chopel Ling,27
+440,G239,Tongkhor Ganden Chokhor Ling ,27
+441,G170,Chorten Tang Tashi Dargye Ling ,27
+442,G1877,Chunak Tashi Choling,27
+443,G261,Chakpori,27
+446,G257,Nyang Tarpa Ling,27
+454,NULL,Ganden Tashi Choling,27
+455,NULL,Pel Nyenmo Ri Namgyel,27
+459,G2530,Khagya Me Monastery,27
+461,NULL,Drakkar Gyelmo,27
+464,G1931,Tsang Dondrub Rabten Ling,27
+465,G4646,Gangya Drakkar Gon,27
+466,G4634,Chokhor Gyel,27
+467,G4354,Tsagen Peshing,27
+468,G398,Ragya Ganden Tashi Jungne,27
+469,G3261,Sershul,27
+474,G1KR2454,Ngagar Jangchub Ling,27
+475,NULL,Oso,27
+476,G3494,Gartar,27
+479,G471,Terlung Yiga Chodzin Ling,27
+480,G393,Amchok Monastery,27
+481,G3158,Gartse Tubten Chokhor Ling,27
+482,G2535,Martang Obten,27
+484,G3190,Kīrti Namgyel Dechen Ling,27
+485,G607,Tsetang,27
+486,NULL,Sangsang Dungkar,27
+487,NULL,Lhogyu Sera,27
+490,G1738,Tongkyab,27
+491,NULL,Dori Hermitage,27
+492,NULL,Lhundrub Dzong,27
+493,NULL,Yugu Tongtse,27
+494,NULL,Wenne Tashikhyil,27
+495,NULL,Wenne Samdrub Deden Ling ,27
+496,G1KR2415,Dedzom Gatsel,27
+497,G224,Dzongkar Monastery,27
+498,NULL,Takdo,27
+499,G1PD96278,Dopuk,27
+500,NULL,Tsikyang,27
+501,NULL,Angang,27
+502,NULL,Chorten Kyak,27
+503,NULL,Namkyak Monastery,27
+504,G1948,Karing Tashi Dargye Ling,27
+505,NULL,Rongwo Tashikhyil,27
+507,NULL,Tsagyel,27
+517,NULL,Tashi Samten Ling,27
+530,G1GS54751,Ganden Mipam Choling,27
+532,G294,Tsenpo Gon,27
+533,G4651,Martsang Drak Gon,27
+535,G952,Pasho Gon,27
+536,G219,Kundeling,27
+539,G1711,Tatsak Lhundrub Dechen,27
+540,G4230,Ganden Shedrub Ling,27
+543,NULL,Drepung Zurkhang,27
+544,G1KR995,Gingtang Gon ,27
+546,G1KR1596,Zhe Dratsang,27
+551,G2427,Gyere,27
+561,G221,Shelkar Chode,27
+563,G3507,Chakzam Chuwori,27
+566,G1955,Yonghegong,27
+572,G1TD38,Sera Choding,27
+573,G397,Segyu Dratsang,27
+574,G1187,Lhunpo Tse,27
+575,NULL,Jangchen,27
+599,G198,Yangpachen,27
+672,G2820,Trandruk,27
+673,G1KR216 ,Khangsar,27
+716,G1917,Drakkar Treldzong Monastery,27
+717,NULL,Pabongkha Labrang,27
+718,G1962,Amchok Tsenyi,27
+719,G1KG17626,Tabo,27
+722,G4556,Meru Nyingpa,27
+723,G303,Tengyeling,27
+724,G220,Tsemonling,27
+804,G1KR226,Ganden Jangchub Chopel Ling,27
+805,G1KR2385,Arik Gonchen,27
+806,G1PD96097,Shadzong Ritro,27
+809,G3998,Chatreng Sampel Ling,27
+810,G4023,Batang Chode,27
+812,G4472,Semnyi,27
+813,G4689,Shopamdo,27
+814,G73,Pelbar,27
+815,NULL,Jampa Bumling,27
+823,G1213,Gadong,27
+824,G1KR1539,Changra,27
+827,G2424,Chushur Tarpa Ling,27
+829,G973,Dzingchi,27
+831,G168,Taklung Ganden Damcho Ling,27
+835,G3279,Gonsar,27
+837,G3255,Gyelje,27
+838,G373,Drongtse,27
+839,G1KR1614,Rong Jamchen,27
+840,G4CZ1583,Wolkha Cholung,27
+841,G2508,Drakri Hermitage,27
+842,G158,Gepel Hermitage,27
+860,G2511,Keutsang West Hermitage,27
+862,G3199,Drak Yerpa,27
+865,NULL,Banak Zhol Gyelkhang,27
+866,NULL,Barkor Jampa Lhakhang,27
+871,G157,Drib Tsechokling,27
+873,G1KR850,Gesar Lhakhang,27
+874,G4554,Jebumgang Lhakhang,27
+875,G1KR826,Karmashak Tsenkhang,27
+878,G1KR851,Lukhang,27
+879,NULL,Lingtsang Labrang,27
+880,G4555,Meru Dratsang,27
+882,NULL,Trijang Labrang,27
+884,NULL,Demo Labrang,27
+892,G4249,Namgyel,27
+893,G1KR817,Nechung,27
+900,G1KR841,Shide Dratsang,27
+905,G222,Potala,27
+906,G4145,Norbulingkha,27
+907,G248,Sera Ngakpa Dratsang,27
+908,G153,Drepung Deyang College,27
+909,G2CN11048,Drepung Ngakpa Dratsang,27
+911,NULL,Darpoling Tsenkhang,27
+912,G4553,Tsepak Lhakhang,27
+913,G1KR829,Trode Khangsar,27
+914,G4458,Riwo Choling,27
+920,G8LS12072 ,Labrang Kālacakra College,27
+921,G1716,Labrang Medical College,27
+922,G3212 ,Labrang Hevajra College,27
+923,NULL,Mejung Tosam Ling,27
+924,G1951,Kumbum Tantric College,27
+925,G1945,Kumbum Medical College,27
+926,G1710,Kumbum Kālacakra College,27
+927,NULL,Kumbum Debate College,27
+941,G8LS12302,Rongwo Tantric College,27
+942,G8LS12318,Rongwo Kālacakra College,27
+944,G3473,Ngangkyel Chode,27
+947,G2KR132,Ikh Khuree,27
+960,G4CZ1581,Wolkha Samling Monastery,27
+962,G4466,Tashi Dokha,27
+979,G2DB94319,Bora,27
+981,NULL,Tsongkhapa Lhakhang,27
+983,G1KR1910,Pari Drigung,27
+984,NULL,Tashi Chopel Dratsang,27
+985,G4022,Jakhyung Rito Pendeling,27
+988,G1KR10,Serwo,27
+991,NULL,Tsongkhapa Hall,27
+1002,G1KR2692,Raknyak,27
+1005,G169,Jakrong,27
+1009,G4347,Khyungritang,27
+1018,G1AG64,Langling Monastery,27
+1019,G1AG65,Wikcho Dzong,27
+1020,G2482,Tashi Choling Hermitage,27
+1021,G2479,Chubzang Hermitage (Sera),27
+1023,G3388,Driru Drubde,27
+1024,G1PD129182,Kumbum Printing Press,27
+1038,G4854,Nakdo Monastery,27
+1041,G1911,Banshul,27
+1042,G1858,Nyegon,27
+1043,G1KR2480,Datsen,27
+1044,G1KR2434,Sengge Shong Mago,27
+1045,G1KR2433,Sengge Shong Yago,27
+1049,NULL,Atsagat Datsan,27
+1054,G1KR1944,Chepa Darge Gon,27
+1055,NULL,Datsan Gunzechoinei,27
+1068,G1AG82,Chubar Hermitage,27
+1069,G2863,Ngodu Monastery,27
+1091,G298,Khyage,27
+1093,G1KR1977,Ongsum,27
+1100,G478,Tashi Gepel Ling,27
+1102,G0LAT901,Alchi Chokhor,27
+1103,G1KG24303,Likir,27
+1108,G3844,Dranggo,27
+1119,G2KT7,Sorik Dropen Ling,27
+1120,G00JR3006,Buchu Lhakhang,27
+1137,G2AG22,Draksum Puri,27
+1138,G2AG21,Hangri Drubde,27
+1143,G105,Tosamling College,27
+1147,G4699,Menlung Tashi Chopel Ling,27
+1148,G1KR2031,Tseuruma Serde,27
+1150,G3CN1712,Zungchu Zi,27
+1154,G4052,Drakteng Monastery,27
+1166,G452,Yershong,27
+1174,G3930,Mangge,27
+1178,G4847,Beshing Monastery,27
+1184,G2829,Yarlung Sheldrak,27
+1185,G1TD35,Gyelwa Sengge Ngaro Lhakhang,27
+1186,G1AG96,Lingto College,27
+1190,NULL,Khamarin Khiid,27
+1191,G3249,Riwo Gegye Ganden Shedrubling,27
+1192,G2KR4,Amarbayasgalant,27
+1194,NULL,Kunga Choling,27
+1195,NULL,Gyu Dratsang,27
+1200,G2KR18,Baruun Khiid,27
+1201,G2KR10,Pekar Choling,27
+1204,G2KR46,Erdene Zuu,27
+1215,G2GS1305,Tashi Tse,27
+1218,G1KR1455,Chenye Monastery,27
+1219,G380,Beri Monastery,27
+1229,G110,Hardong Khamtsen,27
+1230,G437,Taklung Drak,27
+1231,G2GS1126,Ling Khamtsen,27
+1233,G4184,Tikchi Monastery,27
+1241,G3420,Ya Nga Chamda Ganden Khacho Ling,27
+1242,G1575,Khangmar Monastery,27
+1246,G2463,Ara Khamtsen,27
+1247,G4611,Chimilung,27
+1248,G1KR2419,Shadrang ,27
+1251,G26,Zangchen Monastery,27
+1254,G1964,Gyakhar Gar,27
+1268,G2345,Drati House,27
+1273,G1TD41,Pomda Sangngak Dechen Monastery,27
+1274,G167,Zhamar Monastery,27
+1280,G507,Gandan Tegchenling,27
+1283,G505,Thikse Monastery,27
+1287,G3529,Tawang Monastery,27
+1288,G3477,Kharteng Monastery,27
+1292,G3109,Chuwar Monastery,27
+1294,G3041,Lo Monastery,27
+1295,G2KR38,Dambadarjaa Monastery,27
+1299,G254,Taktsang Monastery,27
+1300,G2454,Zhungpa Khamtsen,27
+1301,NULL,Doto Den Chokhor,27
+1302,G1438,Demo,27
+1315,G2470,Lhopa Khamtsen,27
+1317,G2437,Nyetang Mokchok,27
+1324,G184,Lelung Monastery,27
+1334,NULL,Anja Ritro,27
+1369,G2GS1124,Gyarong Khamtsen,27
+1373,G4CZ1550,Dranang Jampa Ling,27
+1386,G3046,Ney Monastery,27
+1387,G3047,Wosel Monastery,27
+1390,G461,Zhok Gurmon,27
+1391,G1KR1605,Ngonga Choding,27
+1392,G2572,Tashi Lhapuk,27
+1394,NULL,Dangkhar,27
+1399,G235,Gyama Rinchen Gang,27
+1400,G3010,Riwo Dangchen,27
+1401,G227,Kamkam Monastery,27
+1406,G1KG24026,Spituk,27
+1408,NULL,Samstanling,27
+1409,G142,Petub Khamsten,27
+1412,NULL,Pethub Stangey Choskhorling,27
+1413,NULL,Ivolginsky Datsan,27
+1414,NULL,Key,27
+1417,NULL,Diskit,27
+1418,NULL,Charasa,27
+1419,NULL,Ensa,27
+1420,NULL,Tsazar,27
+1421,NULL,Stongdey,27
+1422,NULL,Phuktal,27
+1423,NULL,Karsha,27
+1426,G1KR217,Taktsang Lhamo Kīrti,27
+1439,G407,Tangsak,27
+1450,G2CN11086,Lhapu Mokchok,27
+1469,NULL,Garpa Ritro,27
+1472,NULL,Drepung (India),27
+1474,NULL,Ganden Tritok Khang (India),27
+1475,NULL,Ganden Pelgye Ling,27
+1476,NULL,Chokhor Ling,27
+1477,NULL,Ganden (India),27
+1478,NULL,Ling Khamtsen (India),27
+1480,G2455,Pombora Khamtsen,27
+1481,G1KR795,Ngopu Yangchen Puntsok Ling,27
+1482,G1527,Bomrak Ganden Dondrub Ling,27
+1486,G3091,Adu Yakgo ,27
+1487,G3183,Datsang,27
+1521,G4397,Ru Gonsar,27
+1522,NULL,Labrang Gyuto Dratsang,27
+1523,NULL,Labrang Gyume Dratsang,27
+1524,NULL,Ghum Yiga Choeling,27
+1559,G4455,Ganden Chokhor Ling,27
+1560,NULL,Lhalung Ritro,27
+1575,G231,Rizong,27
+1578,NULL,Labu,27
+1579,G3005,Terlam,27
+1585,NULL,Sera (India),27
+1586,NULL,Tashi Lhunpo (India),27
+1605,G1KR2696,Gar Gon,27
+1608,G500,Kandze Shedrub Norbu Ling,27
+1624,G1PD96165,Yutsa,27
+1625,G1KG22026,Ditsa Parkhang,27
+1636,G3923,Bumsar,27
+1658,NULL,Dagpo Shedrubling Monastery,27
+1659,NULL,Drepung Gomang India,27
+1662,G0LAT587,Lingshed,27
+1670,NULL,Vajrapani Institute,27
+1678,NULL,Tekchen Choling Tsuklagkhang,27
+1679,G2DOMM0024,Dashchoilin Khiid,27
+1681,NULL,Geden Sheddup Choikorling,27
+1682,NULL,Green Tara Center,27
+1683,NULL,Moscow Buddhist Center Lama Tsongkhapa,27
+1691,NULL,Deer Park Buddhist Center,27
+1700,NULL,Tibetan Mongolian Buddhist Cultural Center,27
+1703,G1KR2912,Aten Tsamkhang,27
+1708,NULL,Tsakho,27
+1684,NULL,Idgaachoinzinling Monastic College,27
+1715,NULL,Ghoom Monastery,27
+90,G201,Jonang Monastery,28
+93,G357,Tsechen,28
+96,G4252,Drakram ,28
+97,G359,Gharung,28
+106,NULL,Chokhor Tse,28
+109,NULL,Changlung Choding ,28
+110,G390,Takten Puntsok Ling ,28
+116,G1AG44,Mending,28
+119,G1AG83,Cholung Jangtse,28
+121,G346,Tolung Namgyel,28
+124,G344,Pelteng,28
+126,NULL,Tselmin,28
+143,G2067,Tangkya Lhakhang ,28
+204,NULL,Darnga Hermitage,28
+205,G4932,Rashuk,28
+206,G529,Dzamtang,28
+208,G1KR168,Tsechu Monastery,28
+209,G1KR236,Choje Monastery,28
+210,G1KR166,Tsangwa Monastery,28
+596,NULL,Pel Zangden,28
+597,NULL,Chukha Monastery,28
+956,G1AG36,Ngedongyi Chozhi Gonde,28
+976,G4935,Dzamtang Gepel Hermitage,28
+994,G1AG60,Khacho Deden,28
+995,G1AG61,Kyipuk Deden,28
+1052,G358,Kalapa,28
+1161,G343,Tsang Chubzang,28
+1282,G4335,Drokge Monastery,28
+1660,G4910,Se Monastery,28
+1661,NULL,Takten Puntsok Choling,28
+711,G3125,Dingri Langkhor,37
+713,G3526,Nyedo Monastery,37
+1151,G2819,Zangri Kangmar,37
+45,G2043,Zha Lhakhang,42
+82,G340,Drigung Til,42
+102,G1511,Pelkhor Chode,42
+129,G64,Lhatel Rinchen Ling,42
+134,G1KR1885,Choding Monastery,42
+141,G4195,Kharchu Monastery,42
+159,G51,Dodzong,42
+228,G2251,Sewalung,42
+242,G1KR1755,Lupuk Gonpa ,42
+280,G1654,Chakra,42
+282,G1644,Pewar,42
+387,G1TD12,Tashichoedzong,42
+393,G1TD43,Kyichu Lhakhang ,42
+420,G62,Yangri Gar ,42
+479,G471,Terlung Yiga Chodzin Ling,42
+595,NULL,Yanggon,42
+701,G217,Phyang,42
+703,G2594,Kham Kyogon,42
+704,G2600,Tashi Gang,42
+705,NULL,Sharkyo Ganden Monastery,42
+707,NULL,Lho Ganden Monastery ,42
+821,NULL,Lamayuru,42
+822,G2036,Terdrom,42
+944,G3473,Ngangkyel Chode,42
+945,G1AG12,Legon Chokyi Podrang ,42
+1051,G2077,Nyima Changra,42
+1101,NULL,Lotsawa Lhakhang,42
+1102,G0LAT901,Alchi Chokhor,42
+1121,G2051,Katsel,42
+1145,G2876,Paro Taktsang,42
+1270,G1TD40,Dechenpuk,42
+1515,G4419,Tawu Sangngak Chokdrub Ling,42
+1552,NULL,Chungtang,42
+1605,G1KR2696,Gar Gon,42
+1666,NULL,Garchen Buddhist Institute,42
+67,G279,Tropu Monastery,43
+80,G67,Taklung Monastery,45
+218,G70,Riwoche Monastery,45
+219,G4744,Riwoche Yanggon,45
+247,G2601,Pelme Tekchen Evam Gatsel Ling ,45
+448,G3854,Drango,45
+992,G1AG58,Wenne Gurulung,45
+1306,NULL,Taklung Drilung,45
+85,G521,Shukseb,48
+157,G488,Shar Yelpuk ,54
+158,G2628,Jang Tana ,54
+159,G51,Dodzong,54
+130,G444,Yabzang Monastery,54
+1131,G00AG02483,Zara Monastery,54
+160,G1AG56,Sho Monastery,60
+813,G4689,Shopamdo,60
+120,G457,Nenying,67
+197,G4783,Zhangzhung Dorjeden,67
+590,G2CN11085,Chakar Monastery,67
+952,G11MS147,Tanak Dorjeden,67
+989,G3828,Dzongsho,67
+1216,G1686,Ringu Monastery,67
+1317,G2437,Nyetang Mokchok,67
+1415,G1574,Bengen,67
+1416,NULL,Sonada,67
+1450,G2CN11086,Lhapu Mokchok,67
+1452,NULL,Kagyu Kunchab Chuling,67
+1453,NULL,Kunzang Dechen Osel Ling,67
+1454,NULL,Kagyu Dzamling Kunchab,67
+1455,NULL,Kagyu Droden Kunchab,67
+1456,NULL,Karma Rimay O Sal Ling,67
+1457,NULL,Kagyu Changchub Chuling,67
+1458,NULL,Kagyu Shenpen Kunchab,67
+1459,NULL,Kagyu Dzong,67
+1460,NULL,Kagyu Ling,67
+241,G1KR1751,Patsang Gon Yungdrung Rabten Ling,72
+242,G1KR1755,Lupuk Gonpa ,72
+244,G4,Menri,72
+245,G3540,Yeru Wensakha,72
+263,NULL,Khyungpak Tsang,72
+297,NULL,Sang Ngak Tekchen Choling,72
+441,G170,Chorten Tang Tashi Dargye Ling ,72
+585,NULL,Senmo,72
+586,NULL,Tolung Yangwen Pelgon,72
+650,G1KR1169,Khyungpo Tengchen,72
+679,G1KR122,Gyu Monastery,72
+721,G1KR1754,Yeta Lungkar,72
+808,G3532,Rigyel,72
+861,G3,Yungdrung Ling,72
+1087,G1KR1185,Khapung,72
+1110,G3898,Rahor,72
+1133,G3830,Kharak Yungdrung Dechen Ling,72
+1179,G1KR171,Tokden Monastery,72
+1199,G1663,Tarde Monastery,72
+1249,G3832,Changlung Monastery,72
+1266,G2CN11149,Menri (Dolanji),72
+1267,G4491,Kyangtsang,72
+1286,G3536,Zangri Monastery,72
+1362,G4494,Rinpung Monastery,72
+1365,G1KR239,Dachen,72
+1367,NULL,Samdrub,72
+1368,G4492,Nateng,72
+1710,G2CN11109,Draklha Gampo,72
+657,G4676,Ripuk Hermitage,73
+713,G3526,Nyedo Monastery,73
+1144,G1PD110068,Drakkar Tashiding,77
+1493,G512,Baradrak Dondrubding,77
+1532,G3JT13480,Dranggyekha,77
+1533,G4717 ,Do Chorten,77
+1546,NULL,Drapu Choling,77
+1548,NULL,Tashi Choling,77
+1549,G1KR1632,Kagyu Gonsar,77
+1551,NULL,Chakkyi Yangtse,77
+1552,NULL,Chungtang,77
+1692,NULL,Rinak,77
+1693,NULL,Drilma Sangngak Choding,77
+1694,NULL,Drumpa Monastery,77
+1695,NULL,Kagyu Tsekchok Ling,77
+1696,NULL,Papyuk,77
+73,G504,Napu Monastery,
+87,G3582,Ralung Monastery,
+145,G1689,Druk Monastery,
+149,NULL,Gotsang Hermitage ,
+232,G00JR3353,Hemis,
+233,G1PD127458,Hanle,
+234,G1BL6,Chemrey,
+248,G2611,Nangchen Gar,
+273,G3JT12631,Shey,
+306,G2440,Nyetang Longdol Hermitage ,
+307,G4711,Cheri Monastery,
+308,G218,Tango,
+376,G3JT12434,Wangdue Phodrang Dzong ,
+377,NULL,Talang ,
+378,G2CN11045,Tubten Jago Pungpo ,
+380,G189,Talo Sangngak Choling ,
+384,NULL,Paro Lateng Monastery,
+387,G1TD12,Tashichoedzong,
+389,NULL,Gongto Sergyi Lhakhang ,
+390,G1TD42,Lhadzong Tashigang ,
+392,G58,Gorina Kunang Osel Ling ,
+405,G54,Punakha Dzong,
+406,NULL,Trongsa Dzong,
+415,G4718,Pajoding ,
+417,NULL,Drangjekha ,
+418,G55,Sang Chokhor ,
+537,NULL,Lampar Monastery,
+538,G48,Nyel Drewule Gon,
+576,G3122,Lhadong Gon,
+720,G50,Khampa Gar,
+949,G205,Tashi Tongmon,
+996,G212,Bardrok Dorje Ling,
+997,G511,Bamo Choding,
+1017,G1KR1012,Drugu Gon,
+1072,G56,Seula Chokhor Dorjeden,
+1114,G185,Dzigar,
+1115,G305,Mersho Monastery,
+1134,G712,Tsibri Monastery,
+1157,G206,Dingpoche,
+1162,G1TD32,Tachogang Lhakhang,
+1233,G4184,Tikchi Monastery,
+1236,G45,Druk Jangchub Choling,
+1257,NULL,Trashigang Dzong,
+1305,G1TD45,Sani Gonpa,
+1493,G512,Baradrak Dondrubding,
+1501,NULL,Druk Dechen Chokhor,
+1510,NULL,Khampa Gar (Tashi Jong),
+1518,G46,Sangngak Choling,
+1532,G3JT13480,Dranggyekha,
+1533,G4717 ,Do Chorten,
+1587,G1ER2,Stakna,
+1588,NULL,Bardan,
+1634,G1685,Tenpel,
+172,G3156,Swayambhunath,
+173,G00KG09762,Boudhanath,
+728,G1062,Surkhang Manor House,
+729,G2CN10932,Horkhang Manor House,
+843,NULL,Kyitopa Manor House,
+844,NULL,Pangdatsang Manor House,
+845,NULL,Sampho Manor house,
+846,G2CN10939,Punkhang Manor House,
+847,NULL,Changlochen Manor House,
+848,NULL,Palha Manor House,
+849,NULL,Namseling Manor House,
+850,NULL,Shakabpa Manor House,
+851,NULL,Tethong Manor House,
+852,G2CN10930,Doring Manor House,
+853,NULL,Tsarong Manor House,
+855,G1TD14,Yuthok Manor House,
+857,NULL,Lhalu Podrang,
+858,NULL,Dechen Rabten Manor House,
+868,NULL,Barkor Mani Lhakhang Shar,
+870,NULL,Taktser,
+872,NULL,Palden Lhamo Shrine,
+877,G4261,Lhasa Tsuklakhang ,
+883,NULL,Kunsangtse,
+887,G1KT3,Armory,
+888,NULL,Treasury,
+889,G1PD129185,Shol Printery,
+890,NULL,Shol Office,
+894,G1KR840,Northern Rigsum Gonpo Lhakhang,
+895,NULL,South-Eastern Rigsum Gonpo Shrine,
+896,NULL,South-Western Rigsum Gonpo Lhakhang,
+897,G1KR828,Southern Rigsum Gonpo Lhakhang,
+898,G1KR830,Rabsel Tsenkhang,
+899,G4552,Ramoche ,
+902,NULL,Shatra,
+903,G1TD44,Tromsikhang,
+904,NULL,Nangtseshar,
+915,G270,Mentsikhang,
+951,G3528,Samye Chimpu,
+1022,G1KR827,Ani Tsemkhung,
+1037,G2796 ,Kongpo Chabkar,
+1053,G360,Namkha Dzod,
+1065,G2CN568,Nālandā,
+1075,G1TD16,Gyari Castle,
+1077,G1TD15,Rigo Tashi Chodzong Castle ,
+1081,G587,Tso Pema,
+1082,G2GS1065,Yarlha Shampo,
+1083,G3614,Khawa Karpo,
+1084,G3247,Kailash,
+1085,G4631,Tsāri,
+1086,G3214,Amnye Machen,
+1092,G1TD20,Sadutshang Manor House,
+1094,G685,Tashi Yanggon,
+1099,G1TD23,Bhutan House,
+1118,G3140,Tsibri,
+1123,G660,Tsangdram,
+1124,G1KR1630,Traduntse,
+1125,G2GS1293,Mangyul Jamtrin Lhakhang,
+1126,G260,Menlung Trengpachen,
+1136,G2GS1064,Jomo Kharak,
+1139,NULL,Tsangrong Shardzong Ritro,
+1140,G3187,Wutai Shan,
+1142,G2DB25462,Kokonor,
+1152,G4473,Chozang Ritro,
+1158,G2GS1037,Bodhgaya,
+1163,G1CZ912,Labchi,
+1164,NULL,Emei Shan,
+1169,NULL,Riwo Jakang,
+1180,g4482,Mangdu,
+1198,G934,Gyel Kartse Palace,
+1221,G4635,Lhamo Latso,
+1222,G3248,Manasarovar,
+1227,G00JR823,Namchen Drakkar,
+1232,G317,Drakkar Taso,
+1240,G3CN378,Tanak Pu Monastery,
+1245,G3624,Pema Shelpuk,
+1253,G1426,Zamkhar,
+1258,G4498,Kongpo Bonri,
+1272,G2398,Namtso,
+1275,G2810,Tsogyel Latso,
+1278,G1KT10,Dakpa Shelri,
+1285,G1AG111,Dongkar Dzong,
+1289,G1GS88600,Shauk Tago,
+1291,G3197,Khawa Lungri,
+1296,G2CN11105,Chungchen Peldzong,
+1298,G2CN10934,Surkhang Printery,
+1311,G3CN392,Zambulung,
+1312,G1TD39,Roerich House,
+1325,NULL,Yamdrok Lake,
+1327,NULL,Nyarongsha School,
+1331,NULL,Odantapuri,
+1333,G2MS14671,Namo Buddha,
+1344,NULL,Yilhung Lhatso,
+1345,G4459,Yumbu Lagang,
+1346,NULL,Sengge Yumtso,
+1347,NULL,Sinpo Ri Lhakhang,
+1348,NULL,Hepo Ri,
+1349,NULL,Tashi Podrang,
+1350,NULL,Pemaling Lake,
+1351,G2833,Gontang Bumpa,
+1354,G1TD52,Namgyal Institute of Tibetology,
+1355,G2CN569,Vikramaśīla,
+1356,G2808,Drakmar Drinzang,
+1359,G1KR847,Drak Lhalubuk,
+1361,G4660,Shardza Hermitage,
+1363,NULL,Taktse Hermitage,
+1364,G2CN11047,Khyunglung Ngulkhar,
+1366,NULL,Drakkar Jago,
+1370,NULL,Indo Tibetan Buddhist Cultural Institute,
+1372,NULL,Śāntipura,
+1374,NULL,St. Joseph's School,
+1376,NULL,Chode (Denma),
+1377,NULL,Ximing Temple,
+1378,NULL,Daci'ensi,
+1379,NULL,Xiuduo Monastery,
+1396,NULL,Kanchendzonga,
+1397,NULL,Borobudur,
+1402,G3419,Nyenchen Tanglha,
+1407,G1BL25,Stok Royal Palace,
+1410,NULL,Mulagandhakuti Vihara,
+1411,NULL,Central Institute of Buddhist Studies,
+1430,NULL,Dagam Wangpuk,
+1440,NULL,Young Lama's Home School,
+1442,NULL,Naropa University,
+1463,NULL,Sengchen Namdrak,
+1465,G3CN282,Drakmar Keutsang,
+1466,NULL,Drinyendong,
+1468,NULL,Tsarashab Hermitage,
+1470,NULL,Birla House,
+1471,NULL,Chopra House,
+1473,NULL,Buxa Chogar Tosam Tardo Ling,
+1479,NULL,Labsum Shedrub Ling,
+1494,G2MS14675,Lumbini,
+1530,NULL,Men-tsee-khang,
+1537,NULL,Nagi Gonpa,
+1539,NULL,Hiraṇyavarṇa Mahāvihāra,
+1543,NULL,Central Tibetan Administration,
+1557,NULL,Potala School,
+1558,NULL,Sokmo Palace,
+1561,NULL,Drumpa Manor House,
+1589,NULL,Padum Palace,
+1598,NULL,Shukden Lhakhang,
+1606,NULL,Sarnath,
+1607,NULL,Putou Shan,
+1609,NULL,Lingyin Temple,
+1613,NULL,Lerab Ling,
+1621,G3184,Gyelmo Murdo,
+1638,NULL,Chagdud Dechen Ling,
+1651,NULL,Kyire School,
+1653,NULL,Chobar,
+1668,NULL,Tibet Center,
+1687,NULL,Changra Samdrubtse,
+1688,NULL,John Giorno Foundation,
+1690,NULL,Tibet House,
+1697,G3500,Zhakdra Lhatse,
+1707,NULL,CIHTS,
