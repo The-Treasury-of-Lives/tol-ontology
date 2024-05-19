@@ -64,7 +64,7 @@ CONSTRUCT {
 
     ?description_iri 
         a gist:FormattedContent ;
-        skos:prefLabel ?description_prefLabel_en ;
+        skos:prefLabel ?description_label_en ;
         gist:containedText ?description_en ;
         gist:isAbout ?tradition_iri ;
         gist:isExpressedIn media-txt:html ;
@@ -102,7 +102,7 @@ WHERE {
    
     # Description
     BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_Tradition_", ?Tradition_ID)) AS ?description_iri)
-    BIND(STRLANG((CONCAT(?Name, " Tradition")), "en") as ?description_prefLabel_en)
+    BIND(STRLANG((CONCAT(?Name, " Tradition")), "en") as ?description_label_en)
     BIND(STRLANG(?Description, "en") AS ?description_en)
 
 
