@@ -18,21 +18,21 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 ## COLUMNS
 # Name
 # TOL ID
-# Root Community Type
+# Root Community Type (ignore)
 # Wylie
 # Name Variants
 # Description
 # BDRC ID
+# Members (ignore)
 
-# Convert tabs to spaces in CSV before running tarq
 # Run: 
-# tarql --dedup 1000 kinship_group_descriptions.tq kinship_group_descriptions_2023-05-23.csv > tolKinshipGroupDescriptions.ttl
+# tarql --dedup 1000 kinship_group_descriptions.tq kinship_group_descriptions-5-13-24.csv > tolKinshipGroupDescriptions.ttl
 
 CONSTRUCT {
 
     ?description_iri 
         a gist:FormattedContent ;
-        skos:prefLabel ?label ;
+        skos:prefLabel ?label_en ;
         gist:containedText ?description_en ;
         gist:isAbout ?kinship_group_iri ;
 	    gist:isExpressedIn media-txt:html ;
@@ -45,11 +45,12 @@ WHERE {
     # Testing
     # FILTER(?ROWNUM = 1)
     
-    BIND(tarql:expandPrefixedName(CONCAT("told:_KinshipGroup_", ?kinship_group_id)) AS ?kinship_group_iri)
+    BIND(REPLACE(?TOL_ID, "TOL", "") AS ?id)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_KinshipGroup_", ?id)) AS ?kinship_group_iri)
 
     # Description
-    BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_KinshipGroup_", ?kinship_group_id)) AS ?description_iri)
-    BIND(STRLANG(?description, "en") AS ?description_en)
-    BIND(STRLANG(CONCAT("Description of the ", ?kinship_group_name, " kinship group."), "en") AS ?label)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_KinshipGroup_", ?id)) AS ?description_iri)
+    BIND(STRLANG(?Description, "en") AS ?description_en)
+    BIND(STRLANG(CONCAT("The ", ?Name, " Kinship Group"), "en") AS ?label_en)
     
 }
