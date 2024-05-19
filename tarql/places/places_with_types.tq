@@ -1,0 +1,76 @@
+PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
+PREFIX bdr: <http://purl.bdrc.io/resource/>
+PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
+PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX told: <https://w3id.org/treasuryoflives/ns/data/tol/>
+PREFIX tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/>
+PREFIX tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
+PREFIX wiki: <https://www.wikidata.org/wiki/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+## Columns
+# community_id
+# community_name (ignore)
+# place_type_name 
+# place_type_id (ignore)
+
+# Note that Institutions are not places, but are included here because the relational database and thus the export combines them with places.
+
+# Run:
+# tarql places_with_types.tq place-with-types-1-15-24.csv > tolPlacesWithTypes.ttl
+
+CONSTRUCT {
+
+    ?place_iri
+        a ?class_iri ;
+        gist:isCategorizedBy ?type_iri ;
+    .
+
+}
+
+WHERE {
+
+    # Testing
+    # FILTER(?community_id in ("9", "45"))
+
+    # Get the local name of the entity's class
+    BIND(
+        COALESCE(
+            IF(?place_type_name IN ("Manor", "Government Building", "Palace", "Temple"), 
+            "Building", ?unbound),  
+            IF(?place_type_name IN ("Stupa", "Hermitage", "Lake", "Mountain", "Hidden Land", "Cave"), 
+            "Landmark", ?unbound),
+            IF(?place_type_name = "Monastery", "Monastery", ?unbound),
+            "Institution"
+    ) AS ?class_local_name)
+
+    # Get the class name used in the infix
+    BIND(IF(?class_local_name = "Monastery",
+        "Institution",
+        ?class_local_name
+    ) AS ?type_infix)
+
+    # Get the entity's class - e.g., gist:Building, tolo:Institution
+    BIND(IF(?class_local_name IN ("Building", "Landmark"), 
+        tarql:expandPrefixedName(CONCAT("gist:", ?class_local_name)),
+        tarql:expandPrefixedName(CONCAT("tolo:", ?class_local_name))
+    ) AS ?class_iri)
+
+    # Get the entity's category - e.g., tolx:_BuildingType_manor
+    BIND(LCASE(REPLACE(?place_type_name, " ", "_")) AS ?type)
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_", ?type_infix, "Type_", ?type)) AS ?type_iri)
+
+    # Get the entity's IRI
+    # All IRIs will use infix "Place" because the type data is not available in other exports
+    # that reference the place (e.g., founders, founding dates, descriptions, etc.).
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Place_", ?community_id)) AS ?place_iri)
+
+}
