@@ -57,7 +57,7 @@ CONSTRUCT {
 
     ?bio_iri 
         a gist:FormattedContent ;
-        skos:prefLabel ?description_prefLabel_en ;
+        skos:prefLabel ?description_label_en ;
         gist:containedText ?bio_text_en ;
         gist:isAbout ?author_iri ;
         gist:isExpressedIn media-txt:html ;
@@ -102,7 +102,4 @@ WHERE {
     BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_AuthorBio_", ?author_id)) as ?bio_iri)
     BIND(STRLANG(?bio_text, "en") AS ?bio_text_en)
 
-    # is_active - TBD what does this mean and what to do with it?
-
-    # Orcid ID - TBD - is this an ID or an IRI
 }
