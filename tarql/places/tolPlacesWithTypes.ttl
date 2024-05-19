@@ -539,9 +539,19 @@ told:_Building_958
 	gist:isCategorizedBy tolx:_BuildingType_temple ;
 	.
 
+told:_Institution_1016
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
 told:_Institution_1022
 	a tolo:Institution ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
+	.
+
+told:_Institution_1051
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
 	.
 
 told:_Institution_1087
@@ -554,14 +564,49 @@ told:_Institution_1088
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
+told:_Institution_1095
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
 told:_Institution_1126
 	a tolo:Institution ;
 	gist:isCategorizedBy tolx:_InstitutionType_hospital ;
 	.
 
+told:_Institution_1143
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1173
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1186
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1195
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
 told:_Institution_1241
 	a tolo:Institution ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
+	.
+
+told:_Institution_1250
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_127
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
 	.
 
 told:_Institution_1327
@@ -572,6 +617,11 @@ told:_Institution_1327
 told:_Institution_1354
 	a tolo:Institution ;
 	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	.
+
+told:_Institution_1355
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
 	.
 
 told:_Institution_1370
@@ -589,9 +639,19 @@ told:_Institution_1386
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
+told:_Institution_1388
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
 told:_Institution_1395
 	a tolo:Institution ;
 	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	.
+
+told:_Institution_1401
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
 	.
 
 told:_Institution_1411
@@ -674,6 +734,11 @@ told:_Institution_1461
 	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
 	.
 
+told:_Institution_1473
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
 told:_Institution_1502
 	a tolo:Institution ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
@@ -694,6 +759,16 @@ told:_Institution_1520
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
+told:_Institution_1522
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_1523
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
 told:_Institution_1530
 	a tolo:Institution ;
 	gist:isCategorizedBy tolx:_InstitutionType_hospital ;
@@ -712,6 +787,11 @@ told:_Institution_1537
 told:_Institution_1557
 	a tolo:Institution ;
 	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	.
+
+told:_Institution_1570
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
 	.
 
 told:_Institution_1572
@@ -782,6 +862,11 @@ told:_Institution_1657
 	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
 	.
 
+told:_Institution_1659
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
 told:_Institution_1664
 	a tolo:Institution ;
 	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
@@ -837,9 +922,64 @@ told:_Institution_1691
 	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
 	.
 
+told:_Institution_190
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_315
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_316
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_319
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_344
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_355
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_439
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_445
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
 told:_Institution_452
 	a tolo:Institution ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
+	.
+
+told:_Institution_489
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_573
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_574
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
 	.
 
 told:_Institution_85
@@ -847,9 +987,79 @@ told:_Institution_85
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
+told:_Institution_907
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_908
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_909
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
 told:_Institution_915
 	a tolo:Institution ;
 	gist:isCategorizedBy tolx:_InstitutionType_hospital ;
+	.
+
+told:_Institution_920
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_921
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_922
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_924
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_925
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_926
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_927
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_941
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_942
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_947
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
+	.
+
+told:_Institution_984
+	a tolo:Institution ;
+	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
 	.
 
 told:_Landmark_1014
@@ -5841,215 +6051,5 @@ told:_Monastery_997
 told:_Monastery_999
 	a tolo:Monastery ;
 	gist:isCategorizedBy tolx:_InstitutionType_monastery ;
-	.
-
-told:_MonasticCollege_1016
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_1051
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_1095
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_1143
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_1173
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_1186
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_1195
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_1250
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_127
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_1355
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_1388
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_1401
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_1473
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_1522
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_1523
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_1570
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_1659
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_190
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_315
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_316
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_319
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_344
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_355
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_439
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_445
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_489
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_573
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_574
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_907
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_908
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_909
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_920
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_921
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_922
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_924
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_925
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_926
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_927
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_941
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_942
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_947
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
-	.
-
-told:_MonasticCollege_984
-	a tolo:MonasticCollege ;
-	gist:isCategorizedBy tolx:_InstitutionType_monastic_college ;
 	.
 

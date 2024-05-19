@@ -24,7 +24,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 # Note that Institutions are not places, but are included here because the relational database and thus the export combines them with places.
 
-# Run tarql places_with_types.tq places-with-types-1-15-24.csv > tolPlacesWithTypes.ttl
+# Run:
+# tarql places_with_types.tq place-with-types-1-15-24.csv > tolPlacesWithTypes.ttl
 
 CONSTRUCT {
 
@@ -48,12 +49,11 @@ WHERE {
             IF(?place_type_name IN ("Stupa", "Hermitage", "Lake", "Mountain", "Hidden Land", "Cave"), 
             "Landmark", ?unbound),
             IF(?place_type_name = "Monastery", "Monastery", ?unbound),
-            IF(?place_type_name = "Monastic College", "MonasticCollege", ?unbound),
             "Institution"
     ) AS ?class_local_name)
 
     # Get the class name used in the infix
-    BIND(IF(?class_local_name IN ("Monastery", "MonasticCollege"),
+    BIND(IF(?class_local_name = "Monastery",
         "Institution",
         ?class_local_name
     ) AS ?type_infix)
