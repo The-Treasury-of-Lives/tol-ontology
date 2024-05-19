@@ -29,16 +29,29 @@ CONSTRUCT {
 
     ?description_iri 
         a gist:FormattedContent ;
-        skos:prefLabel ?description_prefLabel_en ;
+        skos:prefLabel ?description_label_en ;
         gist:containedText ?description_en ;
         gist:isAbout ?place_iri ;
         gist:isExpressedIn media-txt:html ;
         .
 
+    ?place_iri 
+        owl:sameAs ?bdrc_place_iri ;
+    .
+
 }
 
 WHERE {
 
+    # Testing
+    # FILTER(?ROWNUM = 1)
 
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Place_", ?community_id)) AS ?place_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("bdr:", REPLACE(?tbrc_id, " +$", ""))) AS ?bdrc_place_iri)
    
+    # Description
+    BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_Place_", ?community_id)) AS ?description_iri)
+    BIND(STRLANG(?community_name, "en") AS ?description_label_en)
+    BIND(STRLANG(?description, "en") AS ?description_en)
+    
 }
