@@ -20,6 +20,7 @@
 	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolPeerReviewStatusX.x.x> ;
 	skos:definition "Binary values indicating whether a biography has been peer-reviewed or not."@en ;
+	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Peer Reviewed"@en ;
 	.
 

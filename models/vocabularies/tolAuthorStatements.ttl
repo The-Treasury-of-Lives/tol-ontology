@@ -20,6 +20,7 @@
 	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/data/tolAuthorStatementsX.x.x> ;
 	skos:definition "Defines author's disclaimers that can be placed on a biography."@en ;
+	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Author Statements"@en ;
 	.
 
