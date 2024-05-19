@@ -40,7 +40,7 @@ CONSTRUCT {
     ?incarnation_lineage_iri 
         a tolo:IncarnationLineage ;
         owl:sameAs ?bdrc_lineage_iri ;
-        gist:name 
+        tolo:primaryName 
             ?tol_name , 
             ?wylie_name , 
             ?chinese_name ,
@@ -91,7 +91,7 @@ WHERE {
     OPTIONAL {
         ?monastery apf:strSplit(?TOL_G_ID ", ")
     }
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Monastery_", REPLACE(?monastery, "TOL", ""))) AS ?monastery_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Monastery_", REPLACE(?monastery, "^[A-Z]+", ""))) AS ?monastery_iri)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_IncarnationLineage_", ?TOL_R_ID)) AS ?html_description_iri)
 
