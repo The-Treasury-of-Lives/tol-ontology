@@ -1004,6 +1004,18 @@ tolo:occursDuring
 		;
 	.
 
+tolo:ordinal
+	a owl:DatatypeProperty ;
+	rdfs:range xsd:integer ;
+	skos:definition "An integer used to designate position in a lineage."@en ;
+	skos:example "The First Dalai Lama"@en ;
+	skos:prefLabel "ordinal"@en ;
+	skos:scopeNote
+		"Suggested implementation is to store as an integer value and convert to an ordinal for display purposes. This provides more flexibility than storing as an ordinal string."@en ,
+		"The ordinal is generally but not always the same as the actual sequence in the lineage (ordered collection). In some incarnation lineages, for example, TBD..."@en
+		;
+	.
+
 tolo:primaryName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
