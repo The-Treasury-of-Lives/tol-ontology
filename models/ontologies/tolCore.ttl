@@ -8,7 +8,9 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
 @prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
 @prefix wiki: <https://www.wikidata.org/wiki/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -89,8 +91,8 @@ tolo:BuildingType
 			owl:allValuesFrom gist:Building ;
 		]
 		;
-	skos:definition "Indicates the specific type of a landmark."@en ;
-	skos:example "Stupa, hermitage, lake, mountain, cave, hidden land."@en ;
+	skos:definition "Indicates the specific type of a building."@en ;
+	skos:example "Manor, government building, palace, temple."@en ;
 	skos:prefLabel "Building Type"@en ;
 	.
 
@@ -191,8 +193,9 @@ tolo:Institution
 		) ;
 	] ;
 	skos:definition "A human-made organization typically connected to a single or multiple physical buildings with a shared mission, identity, norms and rules that often contains subsidiary members or suborganizations."@en ;
-	skos:example "Choding Monastery, Kokonor Lake, Nyarongsha School, Mentsikhang Hospital."@en ;
+	skos:example "Choding Monastery, Nyarongsha School, Mentsikhang Hospital."@en ;
 	skos:prefLabel "Institution"@en ;
+	skos:scopeNote "An institution is not a place per se - e.g., a monastery could move to a different site - but is associated with a place."@en ;
 	.
 
 tolo:InstitutionType
@@ -261,8 +264,8 @@ tolo:LandmarkType
 			owl:allValuesFrom gist:Landmark ;
 		]
 		;
-	skos:definition "Indicates the specific type of a building."@en ;
-	skos:example "Manor, government building, palace, temple."@en ;
+	skos:definition "Indicates the specific type of a landmark."@en ;
+	skos:example "Stupa, hermitage, lake, mountain, hidden land, cave"@en ;
 	skos:prefLabel "Landmark Type"@en ;
 	.
 
@@ -345,18 +348,20 @@ tolo:MarriageTerminationCause
 
 tolo:Monastery
 	a owl:Class ;
-	rdfs:subClassOf tolo:Institution ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			tolo:Institution
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:hasValue tolx:_InstitutionType_monastery ;
+			]
+		) ;
+	] ;
 	skos:definition "TBD"@en ;
 	skos:editorialNote "Has a founder, has abotts, ..."@en ;
 	skos:prefLabel "Monastery"@en ;
-	.
-
-tolo:MonasticCollege
-	a owl:Class ;
-	rdfs:subClassOf tolo:Institution ;
-	skos:definition "TBD"@en ;
-	skos:editorialNote "Part of a monastery"@en ;
-	skos:prefLabel "Monastic College"@en ;
 	.
 
 tolo:Person
