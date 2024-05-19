@@ -884,21 +884,9 @@ tolo:inYear
 tolo:isAffiliatedWith
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:isConnectedTo ;
-	skos:definition "Relates a person or organization to a group, institution, religion, or larger organization it is connected to."@en ;
+	skos:definition "Relates a person, organization, or lineage to a group, institution, religion, or larger organization it is connected to."@en ;
 	skos:example "A teacher is affiliated with a tradition; an incarnation lineage is associated with a monastery and tradition."@en ;
 	skos:prefLabel "is affiliated with"@en ;
-	.
-
-tolo:isBasedAt
-	a owl:ObjectProperty ;
-	skos:altLabel "is seated at"@en ;
-	skos:definition
-		"TBD"@en ,
-		"TBD."@en
-		;
-	skos:example "The incarnation lineage is based at the monastery Adzom Gar."@en ;
-	skos:prefLabel "is based at"@en ;
-	skos:scopeNote "Incarnation lineages may have more than one seat."@en ;
 	.
 
 tolo:isChildIn
