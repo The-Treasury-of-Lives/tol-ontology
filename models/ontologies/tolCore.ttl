@@ -870,22 +870,10 @@ tolo:inYear
 
 tolo:isAffiliatedWith
 	a owl:ObjectProperty ;
-	skos:definition "Relates a person, organization, or place to a group, institution, religion, or larger organization it is connected to."@en ;
-	skos:editorialNote "Or just use gist:isConnectedTo?"@en ;
-	skos:example "A teacher is affiliated with a tradition; an incarnation lineage is affiliated with a monastery and tradition; a monastery is affiliated with a tradition."@en ;
+	rdfs:subPropertyOf gist:isConnectedTo ;
+	skos:definition "Relates a person, organization, or lineage to a group, institution, religion, or larger organization it is connected to."@en ;
+	skos:example "A teacher is affiliated with a tradition; an incarnation lineage is associated with a monastery and tradition."@en ;
 	skos:prefLabel "is affiliated with"@en ;
-	.
-
-tolo:isBasedAt
-	a owl:ObjectProperty ;
-	skos:altLabel "is seated at"@en ;
-	skos:definition
-		"TBD"@en ,
-		"TBD."@en
-		;
-	skos:example "The incarnation lineage is based at the monastery Adzom Gar."@en ;
-	skos:prefLabel "is based at"@en ;
-	skos:scopeNote "Incarnation lineages may have more than one seat."@en ;
 	.
 
 tolo:isChildIn
@@ -988,6 +976,18 @@ tolo:occursDuring
 		gist:Event ,
 		gist:TemporalRelation ,
 		gist:TimeInterval
+		;
+	.
+
+tolo:ordinal
+	a owl:DatatypeProperty ;
+	rdfs:range xsd:integer ;
+	skos:definition "An integer used to designate position in a lineage."@en ;
+	skos:example "The First Dalai Lama"@en ;
+	skos:prefLabel "ordinal"@en ;
+	skos:scopeNote
+		"Suggested implementation is to store as an integer value and convert to an ordinal for display purposes. This provides more flexibility than storing as an ordinal string."@en ,
+		"The ordinal is generally but not always the same as the actual sequence in the lineage (ordered collection). In some incarnation lineages, for example, TBD..."@en
 		;
 	.
 
