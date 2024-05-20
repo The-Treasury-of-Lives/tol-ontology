@@ -18,33 +18,35 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 
 ## Columns
 # Incarnation Name -- ignore -- comes from incarnation lineage data
-# Incarnation BDRC ID -- ignore -- same as incarnation lineage data
+# Incarnation BDRC ID -- ignore -- comes from incarnation lineage data
 # Incarnation TOL ID -- ?incarnation_lineage_iri
 # Parent lineage TOL ID -- ?parent_lineage_iri
-# Preceding incarnation member TOL ID --
-# Ordinal --
-# Person BDRC ID -- ignore -- same as from person data
+# Preceding incarnation member TOL ID -- ignore
+# Incarnation sequence -- ?sequence
+# Ordinal -- ?ordinal_int
+# Person BDRC ID -- ignore -- comes from person data
 # Person TOL ID -- ?person_iri
-# Branched Lineage
+# Branched Lineage -- ignore
+# New Seat Established -- ignore
+# Notes -- ignore
 
 # Run: 
-# tarql --dedup 5000 incarnation_members.tq incarnation-members-10-31-23.csv > tolIncarnationMembers.ttl
+# tarql --dedup 5000 incarnation_members.tq incarnation-members-4-12-24.csv > tolIncarnationMembers.ttl
 
 CONSTRUCT {
 
     ?incarnation_lineage_iri 
+        a tolo:IncarnationLineage ; # temp
         tolo:isDerivedFrom ?parent_lineage_iri ;
         gist:hasMember ?incarnation_iri ;
-        tolo:hasPreincarnation ?preincarnation_iri ;
+        #tolo:hasPreincarnation ?preincarnation_iri ;
         .
     
     ?incarnation_iri 
+        a tolo:Incarnation ;
         gist:providesOrderFor ?person_iri ;
-        gist:sequence ?ordinal ;
-        .
-
-    ?preceding_incarnation_iri 
-        gist:precedesDirectly ?incarnation_iri ;
+        gist:sequence ?sequence ;
+        tolo:ordinal ?ordinal_int ;
         .
 
 }
@@ -52,28 +54,31 @@ CONSTRUCT {
 WHERE {
 
     # Testing
-    FILTER(?ROWNUM = 1)
+    # FILTER(?ROWNUM = 1)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_IncarnationLineage_", ?Incarnation_TOL_ID)) AS ?incarnation_lineage_iri)
+    
     # Parent incarnation lineage
-    BIND(tarql:expandPrefixedName(CONCAT("told:_IncarnationLineage_", ?parent_lineage_TOL_ID)) AS ?parent_lineage_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_IncarnationLineage_", ?Parent_lineage_TOL_ID)) AS ?parent_lineage_iri)
+
+    # Incarnation
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Incarnation_", ?Incarnation_TOL_ID, "_", ?Person_TOL_ID)) AS ?incarnation_iri)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?Person_TOL_ID)) AS ?person_iri)
 
+    BIND(STRDT(?Ordinal, xsd:integer) AS ?ordinal_int) 
+    BIND(STRDT(?Incarnation_Sequence, xsd:integer) AS ?sequence) 
+
     # Create incarnation except for preincarnations
-    BIND(IF(?Ordinal > 0, tarql:expandPrefixedName(CONCAT("told:_Incarnation_", ?Incarnation_TOL_ID, "_", ?Person_TOL_ID)), ?unbound) AS ?incarnation_iri) ;
-    BIND(IF(?Ordinal > 0, xsd:integer(?Ordinal), ?unbound) AS ?ordinal)
+    # BIND(IF(?Ordinal > 0, tarql:expandPrefixedName(CONCAT("told:_Incarnation_", ?Incarnation_TOL_ID, "_", ?Person_TOL_ID)), ?unbound) AS ?incarnation_iri) ;
+    # BIND(IF(?Ordinal > 0, xsd:integer(?Ordinal), ?unbound) AS ?ordinal)
 
     # Preceding incarnation
-    BIND(IF(BOUND(Preceding_incarnation_member_TOL_ID), tarql:expandPrefixedName(CONCAT("told:_Incarnation_", ?Incarnation_TOL_ID, "_", ?Preceding_incarnation_member_TOL_ID)), ?unbound) AS ?preceding_incarnation_iri)
-
-
+    # BIND(IF(BOUND(Preceding_incarnation_member_TOL_ID), tarql:expandPrefixedName(CONCAT("told:_Incarnation_", ?Incarnation_TOL_ID, "_", ?Preceding_incarnation_member_TOL_ID)), ?unbound) AS ?preceding_incarnation_iri)
 
     # Preincarnations
     ### TODO - problem - what person is the preincarnation the preincarnation of?
-    BIND(IF(?Ordinal = 0, ?person_iri, ?unbound) AS ?preincarnation_iri)
-    BIND(IF(BOUND(?preincarnation)))
+    # BIND(IF(?Ordinal = 0, ?person_iri, ?unbound) AS ?preincarnation_iri)
+    # BIND(IF(BOUND(?preincarnation)))
     
-
-
 }

@@ -29,7 +29,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # Tibetan --?tibetan_name
 # Chinese -- ?chinese_name
 # BDRC G ID -- monastery ID -- ignore (owl:sameAs will come from institution data)
-# TOL G ID -- ?monastery_iri
+# TOL G ID -- ?monastery_iri (may be multiple)
 # description -- ?html_description_iri
 
 # Run: 
@@ -37,26 +37,21 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 
 CONSTRUCT {
 
-    <https://w3id.org/treasuryoflives/data/tolIncarnationLineages>
-        a owl:Ontology ;
-        skos:definition "Defines incarnation lineages with associated monasteries and traditions."^^xsd:string ;
-        skos:prefLabel "Incarnation Lineages"^^xsd:string ;
-        skos:editorialNote "Auto-generated via TARQL." ;
-	    owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
-	    owl:imports <https://w3id.org/semanticarts/ontology/gistCore12.0.1> ;
-	    owl:versionIRI <https://w3id.org/treasuryoflives/data/tolIncarnationLineagesX.x.x> ;
-	.
-
     ?incarnation_lineage_iri 
         a tolo:IncarnationLineage ;
         owl:sameAs ?bdrc_lineage_iri ;
+        tolo:primaryName 
+            ?tol_name , 
+            ?wylie_name , 
+            ?chinese_name ,
+            ?tibetan_name ;
         skos:prefLabel 
             ?tol_name , 
             ?wylie_name , 
             ?chinese_name ,
             ?tibetan_name ;
         gist:isAffiliatedWith 
-            ?monastery_iri ;       
+            ?monastery_iri ,       
             ?tradition_1_iri ,
             ?tradition_2_iri ;
         .
@@ -75,15 +70,15 @@ CONSTRUCT {
 WHERE {
 
     # Testing
-    # FILTER(?ROWNUM = 1)
+    # FILTER(?ROWNUM = 2)
  
     BIND(tarql:expandPrefixedName(CONCAT("told:_IncarnationLineage_", ?TOL_R_ID)) AS ?incarnation_lineage_iri)
 
-    BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_R_ID)) AS ?bdrc_lineage_iri) 
+    BIND(tarql:expandPrefixedName(CONCAT("bdr:", REPLACE(?BDRC_R_ID, " +$", ""))) AS ?bdrc_lineage_iri) 
 
     # Names
-    BIND(STRLANG(?Incarnation_Name, "en") AS ?tol_name)
-    BIND(STRLANG(?Wylie, "bo-x-ewts") AS ?wylie_name)
+    BIND(STRLANG(REPLACE(?Incarnation_Name, " +$", ""), "en") AS ?tol_name)
+    BIND(STRLANG(REPLACE(?Wylie, " +$", ""), "bo-x-ewts") AS ?wylie_name)
     BIND(STRLANG(?Chinese, "zh-Hani") AS ?chinese_name)
     BIND(STRLANG(?Tibetan, "bo") AS ?tibetan_name)
 
@@ -93,7 +88,10 @@ WHERE {
 
     # Monastery
     # owl:sameAs to ?BDRC_G_ID will come from monastery data, but will need IRI
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Monastery_", REPLACE(?TOL_G_ID, "TOL", ""))) AS ?monastery_iri)
+    OPTIONAL {
+        ?monastery apf:strSplit(?TOL_G_ID ", ")
+    }
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Monastery_", REPLACE(?monastery, "^[A-Z]+", ""))) AS ?monastery_iri)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_IncarnationLineage_", ?TOL_R_ID)) AS ?html_description_iri)
 
