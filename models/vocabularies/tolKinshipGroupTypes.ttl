@@ -20,11 +20,8 @@
 	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypesX.x.x> ;
 	skos:definition "Defines specific types of kinship groups. Currently only one type is defined."@en ;
+	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Kinship Group Types"@en ;
-	.
-
-skos:prefLabel
-	a owl:AnnotationProperty ;
 	.
 
 tolx:_KinshipGroupType_Lhasa_Aristocracy

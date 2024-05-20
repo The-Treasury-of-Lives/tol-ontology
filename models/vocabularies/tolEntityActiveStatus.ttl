@@ -20,6 +20,7 @@
 	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolEntityActiveStatusX.x.x> ;
 	skos:definition "Defines values to indicate whether a resource is active or inactive."@en ;
+	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Entity Active Status"@en ;
 	skos:scopeNote "This will mean different things in different contexts."@en ;
 	.

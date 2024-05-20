@@ -1,0 +1,42 @@
+PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
+PREFIX bdr: <http://purl.bdrc.io/resource/>
+PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
+PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX told: <https://w3id.org/treasuryoflives/ns/data/tol/>
+PREFIX tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/>
+PREFIX tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
+PREFIX wiki: <https://www.wikidata.org/wiki/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+## Columns
+# Person TOL ID
+# Institution Founded ID
+
+# Run:
+# tarql place_founders.tq place-founder-4-28-23.csv > tolPlaceFounders.ttl
+
+CONSTRUCT {
+
+    ?place_iri 
+        tolo:hasFounder ?person_iri ;
+    .
+
+}
+
+WHERE {
+
+    # Testing
+    FILTER(?ROWNUM = 1)
+
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Place_", ?Institution_Founded_ID)) AS ?place_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?Person_TOL_ID)) AS ?person_iri)
+    
+}
