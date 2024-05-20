@@ -21,12 +21,12 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # Incarnation BDRC ID -- ignore -- comes from incarnation lineage data
 # Incarnation TOL ID -- ?incarnation_lineage_iri
 # Parent lineage TOL ID -- ?parent_lineage_iri
-# Preceding incarnation member TOL ID --
+# Preceding incarnation member TOL ID -- ignore
 # Incarnation sequence -- ?sequence
 # Ordinal -- ?ordinal_int
 # Person BDRC ID -- ignore -- comes from person data
 # Person TOL ID -- ?person_iri
-# Branched Lineage
+# Branched Lineage -- ignore
 # New Seat Established -- ignore
 # Notes -- ignore
 
@@ -48,10 +48,6 @@ CONSTRUCT {
         gist:sequence ?sequence ;
         tolo:ordinal ?ordinal_int ;
         .
-
-    # ?preceding_incarnation_iri 
-    #     gist:precedesDirectly ?incarnation_iri ;
-    #     .
 
 }
 
@@ -85,6 +81,4 @@ WHERE {
     # BIND(IF(?Ordinal = 0, ?person_iri, ?unbound) AS ?preincarnation_iri)
     # BIND(IF(BOUND(?preincarnation)))
     
-
-
 }

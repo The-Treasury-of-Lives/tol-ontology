@@ -1744,6 +1744,7 @@ told:_Incarnation_109_4002
 told:_Incarnation_109_62
 	a tolo:Incarnation ;
 	gist:providesOrderFor told:_Person_62 ;
+	gist:sequence "11"^^xsd:integer ;
 	tolo:ordinal "11"^^xsd:integer ;
 	.
 
@@ -5842,60 +5843,70 @@ told:_Incarnation_87_12104
 told:_Incarnation_88_10207
 	a tolo:Incarnation ;
 	gist:providesOrderFor told:_Person_10207 ;
+	gist:sequence "4"^^xsd:integer ;
 	tolo:ordinal "4"^^xsd:integer ;
 	.
 
 told:_Incarnation_88_13782
 	a tolo:Incarnation ;
 	gist:providesOrderFor told:_Person_13782 ;
+	gist:sequence "5"^^xsd:integer ;
 	tolo:ordinal "5"^^xsd:integer ;
 	.
 
 told:_Incarnation_88_13783
 	a tolo:Incarnation ;
 	gist:providesOrderFor told:_Person_13783 ;
+	gist:sequence "1"^^xsd:integer ;
 	tolo:ordinal "1"^^xsd:integer ;
 	.
 
 told:_Incarnation_88_13784
 	a tolo:Incarnation ;
 	gist:providesOrderFor told:_Person_13784 ;
+	gist:sequence "2"^^xsd:integer ;
 	tolo:ordinal "2"^^xsd:integer ;
 	.
 
 told:_Incarnation_88_13785
 	a tolo:Incarnation ;
 	gist:providesOrderFor told:_Person_13785 ;
+	gist:sequence "3"^^xsd:integer ;
 	tolo:ordinal "3"^^xsd:integer ;
 	.
 
 told:_Incarnation_89_13776
 	a tolo:Incarnation ;
 	gist:providesOrderFor told:_Person_13776 ;
+	gist:sequence "4"^^xsd:integer ;
 	tolo:ordinal "4"^^xsd:integer ;
 	.
 
 told:_Incarnation_89_13777
 	a tolo:Incarnation ;
 	gist:providesOrderFor told:_Person_13777 ;
+	gist:sequence "5"^^xsd:integer ;
 	tolo:ordinal "5"^^xsd:integer ;
 	.
 
 told:_Incarnation_89_7803
 	a tolo:Incarnation ;
 	gist:providesOrderFor told:_Person_7803 ;
+	gist:sequence "1"^^xsd:integer ;
 	tolo:ordinal "1"^^xsd:integer ;
 	.
 
 told:_Incarnation_89_8005
 	a tolo:Incarnation ;
 	gist:providesOrderFor told:_Person_8005 ;
+	gist:sequence "2"^^xsd:integer ;
 	tolo:ordinal "2"^^xsd:integer ;
 	.
 
 told:_Incarnation_89_8377
 	a tolo:Incarnation ;
 	gist:providesOrderFor told:_Person_8377 ;
+	gist:sequence "3"^^xsd:integer ;
 	tolo:ordinal "3"^^xsd:integer ;
 	.
 
@@ -5937,30 +5948,35 @@ told:_Incarnation_8_8618
 told:_Incarnation_90_11276
 	a tolo:Incarnation ;
 	gist:providesOrderFor told:_Person_11276 ;
+	gist:sequence "3"^^xsd:integer ;
 	tolo:ordinal "3"^^xsd:integer ;
 	.
 
 told:_Incarnation_90_11277
 	a tolo:Incarnation ;
 	gist:providesOrderFor told:_Person_11277 ;
+	gist:sequence "1"^^xsd:integer ;
 	tolo:ordinal "1"^^xsd:integer ;
 	.
 
 told:_Incarnation_90_11278
 	a tolo:Incarnation ;
 	gist:providesOrderFor told:_Person_11278 ;
+	gist:sequence "2"^^xsd:integer ;
 	tolo:ordinal "2"^^xsd:integer ;
 	.
 
 told:_Incarnation_91_11279
 	a tolo:Incarnation ;
 	gist:providesOrderFor told:_Person_11279 ;
+	gist:sequence "1"^^xsd:integer ;
 	tolo:ordinal "1"^^xsd:integer ;
 	.
 
 told:_Incarnation_91_8971
 	a tolo:Incarnation ;
 	gist:providesOrderFor told:_Person_8971 ;
+	gist:sequence "2"^^xsd:integer ;
 	tolo:ordinal "2"^^xsd:integer ;
 	.
 
