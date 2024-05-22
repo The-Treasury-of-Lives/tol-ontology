@@ -17,13 +17,33 @@
 
 told:_Person_10018
 	tolo:alternateName
+		"'jam dpal grub pa'i blo gros"@bo-x-ewts ,
 		"Drubwang Pelchen Dupa"@en ,
 		"Jampel Drubpai Lodro"@en ,
 		"Pema Kunzang Tendzin Norbu"@en ,
 		"Tubten Chokyi Langpo"@en ,
-		"jam dpal grub pa'i blo gros"@bo-x-ewts ,
 		"pad+ma kun bzang bstan 'dzin nor bu"@bo-x-ewts ,
 		"thub bstan chos kyi glang po"@bo-x-ewts
+		;
+	.
+
+told:_Person_10019
+	tolo:alternateName
+		"'gro 'dul gling pa"@bo-x-ewts ,
+		"'gyur med dge legs phyogs las rnam rgyal"@bo-x-ewts ,
+		"'jigs bral bde chen rdo rje drag po rtsal"@bo-x-ewts ,
+		"'jigs bral ye shes rdo rje"@bo-x-ewts ,
+		"Doje Dutsel"@en ,
+		"Drodul Lingpa"@en ,
+		"Gyelse Lodro Drime Pende Dawa Wozer"@en ,
+		"Gyurme Gelek Chokle Namgyel"@en ,
+		"Jikdrel Dechen Dorje Drakpotsel"@en ,
+		"Kunzang Chemchok Yonten Dupatsel"@en ,
+		"Tsojung Gyepai Langtso Tsuklak Mawai Nyima"@en ,
+		"kun bzang che mchog yon tan 'dus pa rtsal"@bo-x-ewts ,
+		"mtsho byung dgyes pa'i lang   tsho gtsug lag smra ba'i nyi ma"@bo-x-ewts ,
+		"rdo rje 'dus rtsal "@bo-x-ewts ,
+		"rgyal sras blo gros dri med phen bde zla ba'i 'od zer"@bo-x-ewts
 		;
 	.
 
@@ -75,7 +95,7 @@ told:_Person_10093
 	.
 
 told:_Person_1013
-	tolo:alternateName "jam dpal zhal mthong shAkya mi tra"@bo-x-ewts ;
+	tolo:alternateName "'jam dpal zhal mthong shAkya mi tra"@bo-x-ewts ;
 	.
 
 told:_Person_10136
@@ -118,6 +138,13 @@ told:_Person_10171
 
 told:_Person_10173
 	tolo:alternateName "las 'phro gling pa"@bo-x-ewts ;
+	.
+
+told:_Person_10177
+	tolo:alternateName
+		"kun bzang dbang rgyal"@bo-x-ewts ,
+		"smin gling khri chen kun bzang   dbang rgyal"@bo-x-ewts
+		;
 	.
 
 told:_Person_10199
@@ -188,6 +215,7 @@ told:_Person_1030
 told:_Person_10301
 	tolo:alternateName
 		"Ledrel Tsel"@en ,
+		"Pema Ledreltsel"@en ,
 		"Rinchen Tsuldor"@en ,
 		"Tsultrim Dorje"@en ,
 		"las 'brel rtsal"@bo-x-ewts ,
@@ -205,27 +233,27 @@ told:_Person_10311
 
 told:_Person_10315
 	tolo:alternateName
+		"'phrin las byams pa'i 'byung gnas"@bo-x-ewts ,
 		"Machen Tulku"@en ,
 		"Traktung Dudjom Namkai Dorje"@en ,
 		"Trinle Jampa Jungne"@en ,
 		"bdud 'joms nam mkha'i rdo rje"@bo-x-ewts ,
 		"khrag 'thung bdud 'joms nam mkha'i rdo rje"@bo-x-ewts ,
-		"ma chen sprul sku"@bo-x-ewts ,
-		"phrin las byams pa'i 'byung gnas"@bo-x-ewts
+		"ma chen sprul sku"@bo-x-ewts
 		;
 	.
 
 told:_Person_10319
 	tolo:alternateName
-		"Delok Lingza Chokyi"@en ,
-		"das log gling bza' chos skyid"@bo-x-ewts
+		"'das log gling bza' chos skyid"@bo-x-ewts ,
+		"Delok Lingza Chokyi"@en
 		;
 	.
 
 told:_Person_10320
 	tolo:alternateName
-		"Delok Karma Wangdzin"@en ,
-		"das log karma dbang 'dzin"@bo-x-ewts
+		"'das log karma dbang 'dzin"@bo-x-ewts ,
+		"Delok Karma Wangdzin"@en
 		;
 	.
 
@@ -235,6 +263,8 @@ told:_Person_1035
 
 told:_Person_10355
 	tolo:alternateName
+		"'jam dpal zla ba'i go cha dbyangs can dgyes pa'i bshes gnyen"@bo-x-ewts ,
+		"Dezhung Rinpoche"@en ,
 		"Jampa Kunga Tenpai Nyima"@en ,
 		"Jampa Kunga Tensel"@en ,
 		"Jampel Dawai Gocha Yangchen Gyewai Shenyen"@en ,
@@ -243,9 +273,9 @@ told:_Person_10355
 		"byams pa kun dga' bstan gsal"@bo-x-ewts ,
 		"byams pa kun dga' bstan pa'i nyi ma"@bo-x-ewts ,
 		"dkon mchog lhun grub"@bo-x-ewts ,
-		"jam dpal zla ba'i go cha dbyangs can dgyes pa'i bshes gnyen"@bo-x-ewts ,
 		"ngag dbang bzang po"@bo-x-ewts ,
-		"sde gzhung kun dga' bstan pa'i nyi ma"@bo-x-ewts
+		"sde gzhung kun dga' bstan pa'i nyi ma"@bo-x-ewts ,
+		"sde gzhung rin po che"@bo-x-ewts
 		;
 	.
 
@@ -292,10 +322,10 @@ told:_Person_10409
 
 told:_Person_10412
 	tolo:alternateName
+		"'jigs med bstan pa'i sde"@bo-x-ewts ,
 		"Jigme Tenpai De"@en ,
 		"Nyidrak 03 Mingyur Pende Gyatso"@en ,
 		"Nyitrul 03 Mingyur Pende Gyatso"@en ,
-		"jigs med bstan pa'i sde"@bo-x-ewts ,
 		"nyi grags 03 mi 'gyur phan bde rgya mtsho"@bo-x-ewts ,
 		"nyi sprul 03 mi 'gyur phan bde rgya mtsho"@bo-x-ewts
 		;
@@ -365,11 +395,11 @@ told:_Person_10452
 
 told:_Person_10457
 	tolo:alternateName
+		"'jigs med phun tshogs 'byung gnas"@bo-x-ewts ,
 		"Jigme Puntsok Jungne"@en ,
 		"Khenpo Jikpun"@en ,
 		"Ngawang Lodro Tsungne"@en ,
 		"Tubten Lekshe Zangpo"@en ,
-		"jigs med phun tshogs 'byung gnas"@bo-x-ewts ,
 		"mkhan po 'jigs phun"@bo-x-ewts ,
 		"ngag dbang blo gros mtshungs med"@bo-x-ewts ,
 		"thub bstan legs bshad bzang po"@bo-x-ewts
@@ -440,11 +470,11 @@ told:_Person_10497
 
 told:_Person_10507
 	tolo:alternateName
+		"'jam dbyangs dkon mchog lhun grub"@bo-x-ewts ,
 		"Jamyang Konchok Lhundrub"@en ,
 		"Lhago Dar"@en ,
 		"Ngorchen 10 Konchok Lhundrub"@en ,
 		"Ngorchen Konchok Lhundrub"@en ,
-		"jam dbyangs dkon mchog lhun grub"@bo-x-ewts ,
 		"lha rgod dar"@bo-x-ewts ,
 		"ngor chen dkon mchog lhun grub"@bo-x-ewts
 		;
@@ -452,10 +482,10 @@ told:_Person_10507
 
 told:_Person_10528
 	tolo:alternateName
+		"'jam mgon dkon mchog dpal ldan"@bo-x-ewts ,
 		"Jamgon Konchok Pelden"@en ,
 		"Ngor Khenchen 12 Konchok Pelden"@en ,
 		"Tseten Dondrub"@en ,
-		"jam mgon dkon mchog dpal ldan"@bo-x-ewts ,
 		"tshe brtan don grub"@bo-x-ewts
 		;
 	.
@@ -466,8 +496,8 @@ told:_Person_10530
 
 told:_Person_10531
 	tolo:alternateName
-		"Drukgom Zhigpo"@en ,
-		"brug sgom zhig po"@bo-x-ewts
+		"'brug sgom zhig po"@bo-x-ewts ,
+		"Drukgom Zhigpo"@en
 		;
 	.
 
@@ -604,8 +634,8 @@ told:_Person_10623
 
 told:_Person_10633
 	tolo:alternateName
-		"Jampeyang Ngawang Sonam Wangchuk"@en ,
-		"jam dpal dbyangs ngag dbang bsod nams dbang phyug"@bo-x-ewts
+		"'jam dpal dbyangs ngag dbang bsod nams dbang phyug"@bo-x-ewts ,
+		"Jampeyang Ngawang Sonam Wangchuk"@en
 		;
 	.
 
@@ -615,12 +645,21 @@ told:_Person_10634
 
 told:_Person_10644
 	tolo:alternateName
+		"'jam dbyangs sangs rgyas phun tshogs"@bo-x-ewts ,
 		"Dakme"@en ,
 		"Jamyang Sanggye Puntsok"@en ,
 		"Ngaripa Sanggye Puntsok"@en ,
 		"bdag med"@bo-x-ewts ,
-		"jam dbyangs sangs rgyas phun tshogs"@bo-x-ewts ,
 		"mnga' ris pa sangs rgyas phun tshogs"@bo-x-ewts
+		;
+	.
+
+told:_Person_10647
+	tolo:alternateName
+		"Jadrelwa Namkha Dorje"@en ,
+		"Katok Khedrub Namkha Dorje"@en ,
+		"bya bral ba nam mkha' rdo rje"@bo-x-ewts ,
+		"kaH thog mkhas grub nam mkha'   rdo rje"@bo-x-ewts
 		;
 	.
 
@@ -754,14 +793,22 @@ told:_Person_10742
 		;
 	.
 
+told:_Person_10743
+	tolo:alternateName
+		"dkon mchog 'gyur med"@bo-x-ewts ,
+		"mchog gling 02 dkon mchog 'gyur med"@bo-x-ewts ,
+		"rtsi ke mchog sprul dkon mchog 'gyur med"@bo-x-ewts
+		;
+	.
+
 told:_Person_10753
 	tolo:alternateName
+		"'jam dbyangs bsod nams rin chen"@bo-x-ewts ,
+		"'jam mgon bsod nams rin chen"@bo-x-ewts ,
 		"Jamgon Sonam Rinchen"@en ,
 		"Jamyang Sonam Rinchen"@en ,
 		"Ngawang Kunga Sonam Rinchen"@en ,
 		"Ngawang Sonam Rinchen"@en ,
-		"jam dbyangs bsod nams rin chen"@bo-x-ewts ,
-		"jam mgon bsod nams rin chen"@bo-x-ewts ,
 		"ngag dbang bsod nams rin chen"@bo-x-ewts ,
 		"ngag dbang kun dga' bsod nams rin chen"@bo-x-ewts
 		;
@@ -769,13 +816,13 @@ told:_Person_10753
 
 told:_Person_10794
 	tolo:alternateName
+		"'brong rtse blo gros chos skyong"@bo-x-ewts ,
 		"Drongtse Lodro Chokyong"@en ,
 		"Ganden Trichen 05 Lodro Chokyong"@en ,
 		"Ganden Tripa 05 Lodro Chokyong"@en ,
 		"Muli Khyabgon 01 Lodro Chokyong"@en ,
 		"Tripa 05 Lodro Chokyong"@en ,
 		"Yade Lodro Chokyong"@en ,
-		"brong rtse blo gros chos skyong"@bo-x-ewts ,
 		"dga' ldan khri chen 05 blo gros chos skyong"@bo-x-ewts ,
 		"g.yag sde blo gros chos skyong"@bo-x-ewts ,
 		"khri 05 blo gros chos skyong"@bo-x-ewts ,
@@ -815,13 +862,13 @@ told:_Person_10815
 
 told:_Person_10824
 	tolo:alternateName
+		"'gar dam pa shAkya dpal"@bo-x-ewts ,
 		"Chennga Gar Zhonnu Dorje"@en ,
 		"Chodingpa Shakya Pel"@en ,
 		"Gar Dampa Shakya Pel"@en ,
 		"Shākya Pel"@en ,
 		"Zhonnu Dorje"@en ,
 		"chos sdings pa shAkya dpal"@bo-x-ewts ,
-		"gar dam pa shAkya dpal"@bo-x-ewts ,
 		"gzhon nu rdo rje"@bo-x-ewts ,
 		"shAkya dpal"@bo-x-ewts ,
 		"spyan sgna mgar gzhon nu rdo rje"@bo-x-ewts
@@ -868,6 +915,9 @@ told:_Person_10846
 
 told:_Person_10857
 	tolo:alternateName
+		"'brug pa kun dga' legs pa"@bo-x-ewts ,
+		"'brug pa nang so"@bo-x-ewts ,
+		"'brug smyon pa kun dga' legs pa"@bo-x-ewts ,
 		"Druk Nyonpa Kunga Lekpa"@en ,
 		"Drukpa Kunga Lekpa"@en ,
 		"Drukpa Kunley"@en ,
@@ -875,9 +925,6 @@ told:_Person_10857
 		"Kunga Lekpa"@en ,
 		"Kunga Lekpa Peljor Zangpo "@en ,
 		"Tsewang Gyelpo"@en ,
-		"brug pa kun dga' legs pa"@bo-x-ewts ,
-		"brug pa nang so"@bo-x-ewts ,
-		"brug smyon pa kun dga' legs pa"@bo-x-ewts ,
 		"kun dga' legs pa"@bo-x-ewts ,
 		"kun dga' legs pa dpal 'byor bzang po"@bo-x-ewts ,
 		"tshe dbang rgyal po"@bo-x-ewts
@@ -933,6 +980,23 @@ told:_Person_10904
 		;
 	.
 
+told:_Person_10909
+	tolo:alternateName
+		"chos grags rgya mtsho"@bo-x-ewts ,
+		"kar+ma pa 07 chos grags rgya   mtsho"@bo-x-ewts ,
+		"rang byung kun mkhyen chos kyi   rgyal po"@bo-x-ewts
+		;
+	.
+
+told:_Person_10952
+	tolo:alternateName
+		"blo gsal dbang po"@bo-x-ewts ,
+		"kun dga' rnam rgyal nor bu"@bo-x-ewts ,
+		"mi pham pad+ma dkar po phyogs   las rnam par rgyal ba'i sde"@bo-x-ewts ,
+		"ngag dbang nor bu, 'brug chen   04"@bo-x-ewts
+		;
+	.
+
 told:_Person_10957
 	tolo:alternateName
 		"Gyeltsab Lobzang Chodrak"@en ,
@@ -965,14 +1029,22 @@ told:_Person_10970
 		;
 	.
 
+told:_Person_10984
+	tolo:alternateName
+		"bdud 'dul rdo rje"@bo-x-ewts ,
+		"dbang chen rdo rje zhi ba rtsal"@bo-x-ewts ,
+		"kar+ma pa 13 bdud 'dul rdo   rje"@bo-x-ewts
+		;
+	.
+
 told:_Person_11003
 	tolo:alternateName
+		"'dzi 'gag mchog sprul"@bo-x-ewts ,
 		"Choktrul Jampel Gyepai Dorje"@en ,
 		"Dzigak Choktrul"@en ,
 		"Second Darang Choktrul"@en ,
 		"Tubten Jigme Chokyi Dawa Shedrub Rabten Pelzangpo "@en ,
 		"dar thang mchog sprul 02"@bo-x-ewts ,
-		"dzi 'gag mchog sprul"@bo-x-ewts ,
 		"gzi 'gag mchog sprul"@bo-x-ewts ,
 		"mchog sprul 'jam dpal dgyes pa'i rdo rje"@bo-x-ewts ,
 		"rdzi 'gag mchog sprul"@bo-x-ewts ,
@@ -980,8 +1052,16 @@ told:_Person_11003
 		;
 	.
 
+told:_Person_11018
+	tolo:alternateName
+		"chos grub rgya mtsho"@bo-x-ewts ,
+		"dkon mchog chos kyi nyi ma"@bo-x-ewts ,
+		"zhwa dmar 10 chos grub rgya   mtsho"@bo-x-ewts
+		;
+	.
+
 told:_Person_11032
-	tolo:alternateName "phrin las rgya mtsho"@bo-x-ewts ;
+	tolo:alternateName "'phrin las rgya mtsho"@bo-x-ewts ;
 	.
 
 told:_Person_11056
@@ -1049,7 +1129,7 @@ told:_Person_11141
 	.
 
 told:_Person_11146
-	tolo:alternateName "jam dpal dga' ba'i bshes   gnyen"@bo-x-ewts ;
+	tolo:alternateName "'jam dpal dga' ba'i bshes   gnyen"@bo-x-ewts ;
 	.
 
 told:_Person_11158
@@ -1103,6 +1183,14 @@ told:_Person_11246
 		"Karma Chopel Zangpo"@en ,
 		"dpal yul gdan rabs 04 karma bkra shis"@bo-x-ewts ,
 		"karma chos dpal bzang po"@bo-x-ewts
+		;
+	.
+
+told:_Person_11252
+	tolo:alternateName
+		"bstan 'dzin grags pa bshad sgrub"@bo-x-ewts ,
+		"mi pham chos kyi blo gros"@bo-x-ewts ,
+		"zhwa dmar 14 mi pham chos kyi   blo gros"@bo-x-ewts
 		;
 	.
 
@@ -1184,8 +1272,8 @@ told:_Person_11310
 
 told:_Person_11352
 	tolo:alternateName
-		"Drukpa Jangchub Tsondru"@en ,
-		"brug pa byang chub brtson 'grus"@bo-x-ewts
+		"'brug pa byang chub brtson 'grus"@bo-x-ewts ,
+		"Drukpa Jangchub Tsondru"@en
 		;
 	.
 
@@ -1232,17 +1320,18 @@ told:_Person_11432
 
 told:_Person_11435
 	tolo:alternateName
+		"'jigs blo"@bo-x-ewts ,
 		"Awoi Khenchen Jigme Lodro"@en ,
 		"Jiklo"@en ,
 		"Khenpo Jiklo"@en ,
 		"a bo'i mkhan chen 'jigs med blo gros"@bo-x-ewts ,
-		"jigs blo"@bo-x-ewts ,
 		"mkhan po 'jigs blo"@bo-x-ewts
 		;
 	.
 
 told:_Person_11437
 	tolo:alternateName
+		"'jam dpal rnam grol chos kyi   rgyal mtshan"@bo-x-ewts ,
 		"Bog to rje btsun dam pa hu thug tu 09 'jam dpal rnam grol chos kyi rgyal mtshan "@bo-x-ewts ,
 		"IX Богд Жавзандамба хутагт"@ru-CYRL ,
 		"IX Богд Жэвзундамба хутагт"@mn-CYRL ,
@@ -1250,7 +1339,6 @@ told:_Person_11437
 		"Khalkha Jetsun Dampa Rinpoche"@en ,
 		"Khalkha Rinpoche"@en ,
 		"Ninth Khalkha Jebtsundampa Jampel Namdrol Chokyi Gyeltsen"@en ,
-		"jam dpal rnam grol chos kyi   rgyal mtshan"@bo-x-ewts ,
 		"khal kha rje btsun dam pa 09 'jam dpal rnam grol chos kyi rgyal mtshan"@bo-x-ewts ,
 		"rje btsun dam pa 09 'jam dpal   rnam grol chos kyi rgyal mtshan"@bo-x-ewts ,
 		"Богд Жэвзундамба гэгээн "@mn-CYRL ,
@@ -1263,10 +1351,10 @@ told:_Person_11437
 
 told:_Person_11441
 	tolo:alternateName
+		"'brug chen 03 'jam dbyangs chos kyi grags pa"@bo-x-ewts ,
+		"'jam dbyangs chos kyi grags pa"@bo-x-ewts ,
 		"Drukchen 03 Jamyang Chokyi Drakpa"@en ,
-		"Jamyang Chokyi Drakpa"@en ,
-		"brug chen 03 'jam dbyangs chos kyi grags pa"@bo-x-ewts ,
-		"jam dbyangs chos kyi grags pa"@bo-x-ewts
+		"Jamyang Chokyi Drakpa"@en
 		;
 	.
 
@@ -1348,9 +1436,9 @@ told:_Person_11490
 
 told:_Person_11491
 	tolo:alternateName
+		"'brug pa mkhan po bsod nams dge legs"@bo-x-ewts ,
 		"Drukpa Khenpo Sonam Gelek"@en ,
 		"Drukyul Khenpo Sonam Gelek"@en ,
-		"brug pa mkhan po bsod nams dge legs"@bo-x-ewts ,
 		"rdzogs chen mkhan rabs 06 bsod nams dge legs"@bo-x-ewts
 		;
 	.
@@ -1407,15 +1495,15 @@ told:_Person_11597
 
 told:_Person_11603
 	tolo:alternateName
+		"'gro 'dul pad+ma gar dbang gling pa"@bo-x-ewts ,
+		"'jigs med mdo sngags bstan pa'i nyi ma"@bo-x-ewts ,
 		"Drodul Pema Garwang Lingpa"@en ,
 		"Jazi Tulku Pema Garwang Lingpa"@en ,
 		"Jigme Dongak Tenpai Nyima"@en ,
 		"Pema Drodul Tsel"@en ,
 		"Pema Tashi"@en ,
 		"Tubten Chokyi Drakpa"@en ,
-		"gro 'dul pad+ma gar dbang gling pa"@bo-x-ewts ,
 		"ja bzi sprul sku pad+ma gar dbang gling pa"@bo-x-ewts ,
-		"jigs med mdo sngags bstan pa'i nyi ma"@bo-x-ewts ,
 		"pad+ma 'gro 'dul rtsal"@bo-x-ewts ,
 		"padma bkra shis"@bo-x-ewts ,
 		"thub bstan chos kyi grags pa"@bo-x-ewts
@@ -1439,22 +1527,32 @@ told:_Person_1163
 
 told:_Person_11632
 	tolo:alternateName
+		"'dzam thang tshes bcu sku   'phreng 01 rin chen dpal"@bo-x-ewts ,
 		"Drungpa 01 Rinchen Pel"@en ,
 		"Dzamtang Tsechu Kutreng 01 Rinchen Pel"@en ,
 		"Kabzhipa Rinchen Pel"@en ,
 		"Ratnaśrī"@sa-x-iast ,
 		"dka' bzhi pa rin chen dpal"@bo-x-ewts ,
 		"drung pa 01 rin chen dpal"@bo-x-ewts ,
-		"dzam thang tshes bcu sku   'phreng 01 rin chen dpal"@bo-x-ewts ,
 		"ratna shrI"@en
+		;
+	.
+
+told:_Person_11645
+	tolo:alternateName
+		"dbang phyug rdo rje"@bo-x-ewts ,
+		"dkon mchog 'bangs"@bo-x-ewts ,
+		"dpal ldan mi pham chos kyi dbang phyug"@bo-x-ewts ,
+		"kar+ma pa 09 dbang phyug rdo   rje"@bo-x-ewts ,
+		"nam mkha' rgyal po"@bo-x-ewts
 		;
 	.
 
 told:_Person_11731
 	tolo:alternateName
+		"'gab ma sku phreng 01 ngag dbang 'phrin las"@bo-x-ewts ,
 		"Gabma 01 Ngawang Trinle"@en ,
 		"Tsangpa Gapma 01 Ngawang Trinle"@en ,
-		"gab ma sku phreng 01 ngag dbang 'phrin las"@bo-x-ewts ,
 		"gtsang pa 'gab ma 01 ngag dbang 'phrin las"@bo-x-ewts
 		;
 	.
@@ -1468,6 +1566,10 @@ told:_Person_11741
 
 told:_Person_11775
 	tolo:alternateName "bsod nams lhun grub"@bo-x-ewts ;
+	.
+
+told:_Person_11779
+	tolo:alternateName "'phrin las rab rgyas"@bo-x-ewts ;
 	.
 
 told:_Person_11790
@@ -1503,13 +1605,13 @@ told:_Person_11862
 
 told:_Person_11865
 	tolo:alternateName
+		"'brug chen 1 gtsang pa rgya ras ye shes rdo rje"@bo-x-ewts ,
+		"'gro ba'i mgon po ye shes rdo rje"@bo-x-ewts ,
 		"Drowai Gonpo Yeshe Dorje"@en ,
 		"Drukchen 01 Tsangpa Gyare Yeshe Dorje"@en ,
 		"Gyare Yeshe Dorje"@en ,
 		"Sherab Dutsi Dorje"@en ,
 		"Yeshe Dorje"@en ,
-		"brug chen 1 gtsang pa rgya ras ye shes rdo rje"@bo-x-ewts ,
-		"gro ba'i mgon po ye shes rdo rje"@bo-x-ewts ,
 		"rgya ras ye shes rdo rje"@bo-x-ewts ,
 		"shes rab bdud rtsi 'khor lo"@bo-x-ewts ,
 		"ye shes rdo rje"@bo-x-ewts
@@ -1562,17 +1664,17 @@ told:_Person_11898
 
 told:_Person_11909
 	tolo:alternateName
-		"Drukpa Zhonnu Sengge"@en ,
-		"brug pa gzhon nu seng+ge"@bo-x-ewts
+		"'brug pa gzhon nu seng+ge"@bo-x-ewts ,
+		"Drukpa Zhonnu Sengge"@en
 		;
 	.
 
 told:_Person_11942
 	tolo:alternateName
+		"'brug pa seng+ge shes rab"@bo-x-ewts ,
 		"Dorje Lingpa Sengge Sherab"@en ,
 		"Drukpa Sengge Sherab"@en ,
 		"Gyelse Sengge Sherab"@en ,
-		"brug pa seng+ge shes rab"@bo-x-ewts ,
 		"rdo rje gling pa seng+ge shes rab"@bo-x-ewts ,
 		"rgyal sras seng ge shes rab"@bo-x-ewts
 		;
@@ -1595,6 +1697,14 @@ told:_Person_11997
 	tolo:alternateName "ngag dbang mkhyen brtse thub   bstan snying po"@bo-x-ewts ;
 	.
 
+told:_Person_12071
+	tolo:alternateName
+		"'jam dbyangs rin po che"@bo-x-ewts ,
+		"thugs sras 'jam dbyangs"@bo-x-ewts ,
+		"塔谢蒋扬"@zh-HANI
+		;
+	.
+
 told:_Person_12096
 	tolo:alternateName
 		"Yongdzin Sanggye Tendzin"@en ,
@@ -1608,9 +1718,16 @@ told:_Person_1211
 
 told:_Person_12169
 	tolo:alternateName
+		"'jam dbyangs mkhyen brtse'i 'od zer"@bo-x-ewts ,
 		"Karse Kongtrul"@en ,
 		"Karsey Kongtrul"@en ,
-		"mkhyen brtse 'od zer"@bo-x-ewts
+		"blo gros mi bzad byams pa'i go cha 'od zer dri ma med pa'i dpal"@bo-x-ewts ,
+		"dpal ldan mkhyen brtse 'od zer"@bo-x-ewts ,
+		"ka.rma 'jam dbyangs mkhyen brtse'i 'od zer"@bo-x-ewts ,
+		"kar sras kong sprul mkhyen brtse 'od zer"@bo-x-ewts ,
+		"kong sprul 02 mkhyen brtse 'od zer"@bo-x-ewts ,
+		"mkhyen brtse 'od zer"@bo-x-ewts ,
+		"pad+ma dri med legs pa'i blo   gros"@bo-x-ewts
 		;
 	.
 
@@ -1642,7 +1759,14 @@ told:_Person_1222
 	.
 
 told:_Person_12223
-	tolo:alternateName "phrin las rgya mtsho"@bo-x-ewts ;
+	tolo:alternateName "'phrin las rgya mtsho"@bo-x-ewts ;
+	.
+
+told:_Person_12234
+	tolo:alternateName
+		"kar+ma pa 11 ye shes rdo rje"@bo-x-ewts ,
+		"ye shes rdo rje"@bo-x-ewts
+		;
 	.
 
 told:_Person_12264
@@ -1700,6 +1824,7 @@ told:_Person_12439
 
 told:_Person_12479
 	tolo:alternateName
+		"'jam dbyangs nam mkha' rgyal mtshan"@bo-x-ewts ,
 		"Chobgye Trichen"@en ,
 		"Chogye Trichen Rinpoche Tubten Lekshe Gyatso"@en ,
 		"Jamyang Namkha Gyeltsen"@en ,
@@ -1707,7 +1832,6 @@ told:_Person_12479
 		"Tsering Namgyel Dorje"@en ,
 		"bco brgyad khri chen 18 thub   bstan legs bshad rgya mtsho"@bo-x-ewts ,
 		"bco brgyad khri chen rin po che thub bstan legs bshad rgya mtsho"@bo-x-ewts ,
-		"jam dbyangs nam mkha' rgyal mtshan"@bo-x-ewts ,
 		"kun bzang 'jigs med dbang po"@bo-x-ewts ,
 		"tshe ring rnam rgyal rdo rje"@bo-x-ewts
 		;
@@ -1719,9 +1843,9 @@ told:_Person_12489
 
 told:_Person_12500
 	tolo:alternateName
+		"'jam dbyangs kun dga' rnam rgyal"@bo-x-ewts ,
 		"Dezhung Chopel"@en ,
 		"Jamyang Kunga Namgyel"@en ,
-		"jam dbyangs kun dga' rnam rgyal"@bo-x-ewts ,
 		"rdzong sar mkhan rabs 05 chos 'phel"@bo-x-ewts ,
 		"sde gzhung chos 'phel"@bo-x-ewts
 		;
@@ -1832,6 +1956,12 @@ told:_Person_12750
 
 told:_Person_12785
 	tolo:alternateName
+		"'bya ba mdo sngags"@bo-x-ewts ,
+		"'gya ba a lags mdo sngags rgya mtsho"@bo-x-ewts ,
+		"'gya' pa mdo sngags"@bo-x-ewts ,
+		"'ja' pa a lags"@bo-x-ewts ,
+		"'ja' pa a lags mdo sngags"@bo-x-ewts ,
+		"'ja' pa mdo sngags chos kyi rgyal mtshan"@bo-x-ewts ,
 		"Alak Dongak"@en ,
 		"Gyapa Dongak"@en ,
 		"Gyawa Alak Dongak Gyatso"@en ,
@@ -1839,18 +1969,13 @@ told:_Person_12785
 		"Japa Dongak"@en ,
 		"Japa Dongak Chokyi Gyeltsen"@en ,
 		"Jawa Dongak"@en ,
-		"a lags mdo sngags"@bo-x-ewts ,
-		"bya ba mdo sngags"@bo-x-ewts ,
-		"gya ba a lags mdo sngags rgya mtsho"@bo-x-ewts ,
-		"gya' pa mdo sngags"@bo-x-ewts ,
-		"ja' pa a lags"@bo-x-ewts ,
-		"ja' pa a lags mdo sngags"@bo-x-ewts ,
-		"ja' pa mdo sngags chos kyi rgyal mtshan"@bo-x-ewts
+		"a lags mdo sngags"@bo-x-ewts
 		;
 	.
 
 told:_Person_12817
 	tolo:alternateName
+		"'ol dga' ba dge legs dpal bzang"@bo-x-ewts ,
 		"Dewa Chenpa Gelek Pelzang"@en ,
 		"Ganden Trichen 21 Gelek Pelzang"@en ,
 		"Ganden Tripa 21 Gelek Pelzang"@en ,
@@ -1858,8 +1983,7 @@ told:_Person_12817
 		"Trichen 21 Gelek Pelzang"@en ,
 		"bde ba can pa dge legs dpal bzang"@bo-x-ewts ,
 		"khri 21 dge legs dpal bzang"@bo-x-ewts ,
-		"khri chen 21 dge legs dpal bzang"@bo-x-ewts ,
-		"ol dga' ba dge legs dpal bzang"@bo-x-ewts
+		"khri chen 21 dge legs dpal bzang"@bo-x-ewts
 		;
 	.
 
@@ -1954,6 +2078,22 @@ told:_Person_12977
 	tolo:alternateName "mkhan po"@bo-x-ewts ;
 	.
 
+told:_Person_12982
+	tolo:alternateName
+		"Bomda Khenpo"@en ,
+		"Poli Khenpo Dorje"@en ,
+		"sbom mda' mkhan po"@bo-x-ewts ,
+		"spo li mkhan po rdo rje"@bo-x-ewts
+		;
+	.
+
+told:_Person_12983
+	tolo:alternateName
+		"phrin las nyin byed bzang po"@bo-x-ewts ,
+		"stag lung rtse sprul"@bo-x-ewts
+		;
+	.
+
 told:_Person_13004
 	tolo:alternateName "mkhan po"@bo-x-ewts ;
 	.
@@ -2026,13 +2166,13 @@ told:_Person_13071
 
 told:_Person_13072
 	tolo:alternateName
+		"'phrin las rgya mtsho"@bo-x-ewts ,
 		"Gara Lama"@en ,
 		"Lama Norla"@en ,
 		"Lama Nuola"@en ,
 		"Trinle Gyatso"@en ,
 		"bla ma nor lha"@bo-x-ewts ,
-		"mgar ra bla ma"@bo-x-ewts ,
-		"phrin las rgya mtsho"@bo-x-ewts
+		"mgar ra bla ma"@bo-x-ewts
 		;
 	.
 
@@ -2111,8 +2251,8 @@ told:_Person_13088
 
 told:_Person_13090
 	tolo:alternateName
-		"Drogon Yorpo Mepel"@en ,
-		"gro mgon g.yor po me dpal"@bo-x-ewts
+		"'gro mgon g.yor po me dpal"@bo-x-ewts ,
+		"Drogon Yorpo Mepel"@en
 		;
 	.
 
@@ -2275,9 +2415,9 @@ told:_Person_13121
 
 told:_Person_13122
 	tolo:alternateName
+		"'jigs med 'gro 'dul rdo rje"@bo-x-ewts ,
 		"Jigme Drodul Dorje "@en ,
 		"Petsaling Tulku 03 "@en ,
-		"jigs med 'gro 'dul rdo rje"@bo-x-ewts ,
 		"pad tshal gling sprul 03"@bo-x-ewts
 		;
 	.
@@ -2291,11 +2431,11 @@ told:_Person_13123
 
 told:_Person_13124
 	tolo:alternateName
+		"'jigs med kun grol nam rgyal"@bo-x-ewts ,
 		"Jangchub Gyeltsen "@en ,
 		"Khedrub Jigme Namgyel"@en ,
 		"Monla Jigme Kundrol "@en ,
 		"byang chub rgyal mtshan"@bo-x-ewts ,
-		"jigs med kun grol nam rgyal"@bo-x-ewts ,
 		"mkhas grub 'jigs med kun grol"@bo-x-ewts ,
 		"mon lha 'jigs med kun grol"@bo-x-ewts
 		;
@@ -2467,12 +2607,12 @@ told:_Person_13151
 
 told:_Person_13152
 	tolo:alternateName
+		"'jigs bral tshe dbang rdo rje bshad sgrub 'phrin las"@bo-x-ewts ,
 		"Dzogchen Ponlob Jikdrel Tsewang Dorje "@en ,
 		"Jikdrel Tsewang Dorje Shedrub Trinle "@en ,
 		"Ponlob Jikdrel Tsewang Dorje "@en ,
 		"Tubten Jigdrel Tsewang Dorje "@en ,
 		"dpon slob 06 'jigs bral tshe dbang rdo rje"@bo-x-ewts ,
-		"jigs bral tshe dbang rdo rje bshad sgrub 'phrin las"@bo-x-ewts ,
 		"rdzogs chen dpon slob 06 "@bo-x-ewts ,
 		"thub bstan 'jigs bral tshe dbang rdo rje"@bo-x-ewts
 		;
@@ -2558,7 +2698,7 @@ told:_Person_13181
 
 told:_Person_13182
 	tolo:alternateName
-		"bras spungs sgo mang grwa tshang gi mkhan thog 02"@bo-x-ewts ,
+		"'bras spungs sgo mang grwa tshang gi mkhan thog 02"@bo-x-ewts ,
 		"mkhas mchog sga leb pa"@bo-x-ewts
 		;
 	.
@@ -2601,8 +2741,8 @@ told:_Person_13189
 
 told:_Person_13190
 	tolo:alternateName
-		"Jampel Mindrol Lhundrub Dorje"@en ,
-		"jam dpal smin grol lhun grub rdo rje"@bo-x-ewts
+		"'jam dpal smin grol lhun grub rdo rje"@bo-x-ewts ,
+		"Jampel Mindrol Lhundrub Dorje"@en
 		;
 	.
 
@@ -2617,9 +2757,9 @@ told:_Person_13191
 
 told:_Person_13195
 	tolo:alternateName
+		"'bras spungs sgo mang grwa tshang gi mkhan thog 01"@bo-x-ewts ,
 		"Drungdrakpa Rinchen"@en ,
 		"Janglingpa Drakpa Rinchen"@en ,
-		"bras spungs sgo mang grwa tshang gi mkhan thog 01"@bo-x-ewts ,
 		"byang gling pa grags pa rin chen"@bo-x-ewts ,
 		"drung grags pa rin chen"@bo-x-ewts
 		;
@@ -2860,9 +3000,9 @@ told:_Person_13432
 
 told:_Person_13433
 	tolo:alternateName
+		"'dzin pa bsod nams rgya mtsho"@bo-x-ewts ,
 		"Dorje Dzinpa Sonam Gyatso "@en ,
-		"Sonam Gyatso "@en ,
-		"dzin pa bsod nams rgya mtsho"@bo-x-ewts
+		"Sonam Gyatso "@en
 		;
 	.
 
@@ -2925,9 +3065,9 @@ told:_Person_13440
 
 told:_Person_13442
 	tolo:alternateName
+		"'jam dpal gyi bu"@bo-x-ewts ,
 		"Gyawa Tamche Khyenpa"@en ,
 		"Jampelgyi Bu"@en ,
-		"jam dpal gyi bu"@bo-x-ewts ,
 		"rgya ba thams cad mkhyen pa"@bo-x-ewts
 		;
 	.
@@ -3275,10 +3415,10 @@ told:_Person_13546
 
 told:_Person_13547
 	tolo:alternateName
+		"'phrin las rgya mtsho/"@bo-x-ewts ,
 		"Koshi Ngawang Trinle Gyatso"@en ,
 		"Trinle Gyatso"@en ,
-		"ko+o shri ngag dbang 'phrin las rgya mtsho/"@bo-x-ewts ,
-		"phrin las rgya mtsho/"@bo-x-ewts
+		"ko+o shri ngag dbang 'phrin las rgya mtsho/"@bo-x-ewts
 		;
 	.
 
@@ -3300,26 +3440,6 @@ told:_Person_13549
 		"sa 'du blo snyen grags/"@bo-x-ewts ,
 		"sa 'du tshang blo snyen grags/"@bo-x-ewts ,
 		"sa 'du tshang/"@bo-x-ewts
-		;
-	.
-
-told:_Person_13554
-	tolo:alternateName
-		" karma pa 08 mi bskyod rdo rje"@bo-x-ewts ,
-		"Karmapa 08"@en ,
-		"chos kyi grags pa dpal bzang po"@bo-x-ewts ,
-		"karma pa 08"@bo-x-ewts ,
-		"karma pa mi bskyod rdo rje"@bo-x-ewts ,
-		"噶玛·弥觉多杰"@zh-HANI
-		;
-	.
-
-told:_Person_13556
-	tolo:alternateName
-		"dkon mchog 'bangs"@bo-x-ewts ,
-		"dpal ldan mi pham chos kyi dbang phyug"@bo-x-ewts ,
-		"karma pa 09"@bo-x-ewts ,
-		"nam mkha' rgyal po"@bo-x-ewts
 		;
 	.
 
@@ -3490,24 +3610,25 @@ told:_Person_13615
 
 told:_Person_13616
 	tolo:alternateName
+		"Ache Nangsa"@bo-x-ewts ,
 		"Ache Nangsel"@en ,
 		"Nagsel Wobum"@en ,
+		"Nangsa Obum"@en ,
 		"Nangsel Wodebum"@en ,
 		"Nangza Wobum"@en ,
 		"a lce snang gsal/"@bo-x-ewts ,
 		"snang bza' 'od 'bum/"@bo-x-ewts ,
-		"snang gsal 'o de 'bum/"@bo-x-ewts ,
-		"snang sa 'od 'bum/"@bo-x-ewts
+		"snang gsal 'o de 'bum/"@bo-x-ewts
 		;
 	.
 
 told:_Person_13617
 	tolo:alternateName
+		"'khor gdong gter chen 01 'gro phan gling pa"@bo-x-ewts ,
+		"'khor gdong nus ldan rdo rje"@bo-x-ewts ,
 		"Khordong Nuden Dorje"@en ,
 		"Khordong Terchen Dropen Lingpa"@en ,
 		"Nuden Dorje Dropen Lingpa"@en ,
-		"khor gdong gter chen 01 'gro phan gling pa"@bo-x-ewts ,
-		"khor gdong nus ldan rdo rje"@bo-x-ewts ,
 		"nus ldan rdo rje 'gro phan gling pa"@bo-x-ewts
 		;
 	.
@@ -3618,25 +3739,22 @@ told:_Person_13652
 
 told:_Person_13654
 	tolo:alternateName
+		"'jam dbyangs chos kyi dbang phyug	"@bo-x-ewts ,
+		"Humchen Heka Lingpa"@en ,
+		"Jamyang Chokyi Wangchuk"@en ,
 		"Khyentse Chokyi Wangchuk"@en ,
+		"hum chen he ka gling pa"@bo-x-ewts ,
 		"mkhyen brtse chos kyi dbang phyug"@bo-x-ewts
-		;
-	.
-
-told:_Person_13656
-	tolo:alternateName
-		"Karmapa 05"@en ,
-		"karma pa 05"@bo-x-ewts ,
-		"karma pa de bzhin gshegs pa"@bo-x-ewts
 		;
 	.
 
 told:_Person_13659
 	tolo:alternateName
+		"'gro 'dul klong yangs rdo rje"@bo-x-ewts ,
 		"Drodul Lonyang Dorje"@en ,
 		"Drokhe Tokden"@en ,
+		"Togden Ugyen Tenzin"@en ,
 		"Tsechu Dorje"@en ,
-		"gro 'dul klong yangs rdo rje"@bo-x-ewts ,
 		"gro khe rtog ldan"@bo-x-ewts ,
 		"tshe bcu rdo rje"@bo-x-ewts
 		;
@@ -3661,12 +3779,12 @@ told:_Person_13687
 
 told:_Person_13688
 	tolo:alternateName
+		"'khor gdong gter chen nus ldan rdo rje"@bo-x-ewts ,
+		"'khor gdong padma kun bzang ye shes"@bo-x-ewts ,
 		"Khordong Pema Kunzang Yeshe "@en ,
 		"Khordong Terchen Nuden"@en ,
 		"Pema Longyang"@en ,
 		"Sanggye Dorje "@en ,
-		"khor gdong gter chen nus ldan rdo rje"@bo-x-ewts ,
-		"khor gdong padma kun bzang ye shes"@bo-x-ewts ,
 		"padma klong yangs"@bo-x-ewts ,
 		"sangs rgyas rdo rje"@bo-x-ewts
 		;
@@ -3707,11 +3825,11 @@ told:_Person_13699
 
 told:_Person_1370
 	tolo:alternateName
+		"'khon klu'i dbang po bsrung ba"@bo-x-ewts ,
 		"Khon Lui Wangpo Sungwa"@en ,
 		"Khon Nāgabhodi"@en ,
 		"Lui Wangpo Sungwa"@en ,
 		"Nāgandra Rakṣita"@sa-x-iast ,
-		"khon klu'i dbang po bsrung ba"@bo-x-ewts ,
 		"klu'i dbang po bsrung ba"@bo-x-ewts ,
 		"lo tsA ba bande klu'i dbang po"@bo-x-ewts ,
 		"nAgendra rakSita"@bo-x-ewts
@@ -3735,9 +3853,9 @@ told:_Person_13703
 
 told:_Person_13707
 	tolo:alternateName
+		"'Jam dbyangs thub bstan chos kyi rgyal mtshan"@bo-x-ewts ,
 		"Dosib Tubten Chokyi Gyeltsen"@en ,
 		"Dosib Tubten Gyeltsen"@en ,
-		"Jam dbyangs thub bstan chos kyi rgyal mtshan"@bo-x-ewts ,
 		"Jamyang Tubten Chokyi Gyeltsen"@en ,
 		"Tubten Chokyi Gyeltsen"@en ,
 		"mdo srib thub bstan chos kyi rgyal mtshan"@bo-x-ewts ,
@@ -3829,6 +3947,17 @@ told:_Person_13773
 		;
 	.
 
+told:_Person_13774
+	tolo:alternateName
+		"grub chen byang chub dbang po/"@bo-x-ewts ,
+		"in dra bhu ti/"@bo-x-ewts ,
+		"in+dra bo d+hi che ba/"@bo-x-ewts ,
+		"o rgyan gyi rgyal po/"@bo-x-ewts ,
+		"rgyal po in+dra bo d+hi/"@bo-x-ewts ,
+		"the enlightened siddha king"@en
+		;
+	.
+
 told:_Person_13795
 	tolo:alternateName
 		"Jampa Kunga Tenpai Nyima"@en ,
@@ -3858,12 +3987,12 @@ told:_Person_13809
 
 told:_Person_13811
 	tolo:alternateName
+		"'gyur med grags pa"@bo-x-ewts ,
 		"Gyurme Drakpa"@en ,
 		"Lama Gyurda La"@en ,
 		"Lama Jurdala"@en ,
 		"Yakzewa Gyurme Drakpa"@en ,
-		"g.yag ze ba 'gyur med grags pa"@bo-x-ewts ,
-		"gyur med grags pa"@bo-x-ewts
+		"g.yag ze ba 'gyur med grags pa"@bo-x-ewts
 		;
 	.
 
@@ -3996,6 +4125,97 @@ told:_Person_13853
 		;
 	.
 
+told:_Person_13864
+	tolo:alternateName
+		"Kang Keming"@zh-LATN-pinyin ,
+		"Wangchen Lhagyel"@en ,
+		"dbang chen lha rgyal"@bo-x-ewts ,
+		"康克明"@zh-HANS
+		;
+	.
+
+told:_Person_13865
+	tolo:alternateName
+		"A shi dan"@zh-LATN-pinyin ,
+		"Third Aten Tulku"@en ,
+		"a brtan sprul sku 03"@bo-x-ewts ,
+		"阿什旦"@zh-HANS
+		;
+	.
+
+told:_Person_13866
+	tolo:alternateName
+		"Kan cang zhou jie"@zh-LATN-pinyin ,
+		"堪藏周杰"@zh-HANS
+		;
+	.
+
+told:_Person_13867
+	tolo:alternateName
+		"Eighth Tenzin Hutuktu"@en ,
+		"Ma Danjiang"@zh-LATN-pinyin ,
+		"bstan 'dzin hu tug thu"@bo-x-ewts
+		;
+	.
+
+told:_Person_13869
+	tolo:alternateName
+		"'bro bza' khri rgyal mang mo btsan"@bo-x-ewts ,
+		"'bro bza' khri rgyal mo btsun"@bo-x-ewts ,
+		"Droza Tri Gyel Mangmotsen"@en ,
+		"Droza Tri Gyelmotsun"@en ,
+		"Jangchub Je"@en ,
+		"byang chub rje"@bo-x-ewts
+		;
+	.
+
+told:_Person_13870
+	tolo:alternateName
+		"Maṇiwa Sanggye Gyeltsen "@en ,
+		"maNi ba sangs rgyas rgyal mtshan"@bo-x-ewts
+		;
+	.
+
+told:_Person_13871
+	tolo:alternateName "grub thob nyi phug pa chos grags"@bo-x-ewts ;
+	.
+
+told:_Person_13876
+	tolo:alternateName
+		"bka' zur kun gling 'od zer rgyal mtshan/"@bo-x-ewts ,
+		"bka' zur kun gling dza sag 'od zer rgyal mtshan/"@bo-x-ewts ,
+		"kasur kundeling woeser gyaltsen"@en ,
+		"kun gling 'od zer rgyal mtshan/"@bo-x-ewts
+		;
+	.
+
+told:_Person_13878
+	tolo:alternateName
+		"'gyur med chos 'dzin"@bo-x-ewts ,
+		"Gyurme Chozin"@en
+		;
+	.
+
+told:_Person_13879
+	tolo:alternateName
+		"'khor gdong gter chen 'gyur med rdo rje"@bo-x-ewts ,
+		"Khordong Terchen Gyurme Dorje"@en
+		;
+	.
+
+told:_Person_13882
+	tolo:alternateName "lha gcig ldem bu"@bo-x-ewts ;
+	.
+
+told:_Person_13883
+	tolo:alternateName
+		"'das log ma bstan 'dzin chos sgron/"@bo-x-ewts ,
+		"'dzoms pa bu khrid"@bo-x-ewts ,
+		"Dzompa Butri"@en ,
+		"bstan 'dzin chos sgron/"@bo-x-ewts
+		;
+	.
+
 told:_Person_1450
 	tolo:alternateName "chos kyi grags pa"@bo-x-ewts ;
 	.
@@ -4009,7 +4229,7 @@ told:_Person_1559
 	.
 
 told:_Person_156
-	tolo:alternateName "jam dbyangs rdo rje"@bo-x-ewts ;
+	tolo:alternateName "'jam dbyangs rdo rje"@bo-x-ewts ;
 	.
 
 told:_Person_1564
@@ -4032,6 +4252,13 @@ told:_Person_1586
 		"Migza"@en ,
 		"dge legs rgya mtsho"@bo-x-ewts ,
 		"dmig sa"@bo-x-ewts
+		;
+	.
+
+told:_Person_1597
+	tolo:alternateName
+		"kar+ma pa 06 mthong ba don   ldan"@bo-x-ewts ,
+		"mthong ba don ldan"@bo-x-ewts
 		;
 	.
 
@@ -4070,9 +4297,9 @@ told:_Person_1654
 
 told:_Person_1659
 	tolo:alternateName
+		"'dan ma grub thob"@bo-x-ewts ,
 		"Denma Drubtob"@en ,
 		"Drubtob Sanggye Nyenpa"@en ,
-		"dan ma grub thob"@bo-x-ewts ,
 		"grub thob sangs rgyas mnyan pa"@bo-x-ewts
 		;
 	.
@@ -4101,9 +4328,9 @@ told:_Person_1720
 
 told:_Person_1721
 	tolo:alternateName
+		"'a 'u ma"@bo-x-ewts ,
 		"Auma"@en ,
 		"Jomo Auma"@en ,
-		"a 'u ma"@bo-x-ewts ,
 		"jo mo 'a 'u ma"@bo-x-ewts
 		;
 	.
@@ -4297,14 +4524,14 @@ told:_Person_2029
 
 told:_Person_2051
 	tolo:alternateName
+		"'gro mgon 'phags pa blo gros rgyal mtshan"@bo-x-ewts ,
+		"'phags pa lug skyes"@bo-x-ewts ,
 		"Chogyel Pakpa Lodro Gyeltsen"@en ,
 		"Drogon Pakpa Lodro Gyeltsen"@en ,
 		"Lodro Gyeltsen"@en ,
 		"Pakpa Lukye"@en ,
 		"blo gros rgyal mtshan"@bo-x-ewts ,
-		"chos rgyal 'phags pa blo gros rgyal mtshan"@bo-x-ewts ,
-		"gro mgon 'phags pa blo gros rgyal mtshan"@bo-x-ewts ,
-		"phags pa lug skyes"@bo-x-ewts
+		"chos rgyal 'phags pa blo gros rgyal mtshan"@bo-x-ewts
 		;
 	.
 
@@ -4357,6 +4584,10 @@ told:_Person_2137
 
 told:_Person_214
 	tolo:alternateName "rin chen don grub"@bo-x-ewts ;
+	.
+
+told:_Person_2149
+	tolo:alternateName "听列衮秋"@zh-HANI ;
 	.
 
 told:_Person_2151
@@ -4468,6 +4699,7 @@ told:_Person_2323
 
 told:_Person_2327
 	tolo:alternateName
+		"'phen po blo bzang don yod"@bo-x-ewts ,
 		"Ganden Trichen 42 Lobzang Donyo"@en ,
 		"Ganden Tripa 42 Lobzang Donyo"@en ,
 		"Lobzang Dar"@en ,
@@ -4477,22 +4709,21 @@ told:_Person_2327
 		"blo bzang dar"@bo-x-ewts ,
 		"dga' ldan khri chen 42 blo bzang don yod"@bo-x-ewts ,
 		"khri 42 rnam dag rdo rje"@bo-x-ewts ,
-		"phen po blo bzang don yod"@bo-x-ewts ,
 		"rnam dag rdo rje"@bo-x-ewts
 		;
 	.
 
 told:_Person_2328
 	tolo:alternateName
+		"'phags pa chos rgyal"@bo-x-ewts ,
+		"'phags pa lha rnam par rgyal ba rgya mtsho'i sde"@bo-x-ewts ,
+		"'phags pa phyogs thams cad las rnam par rgyal ba rgya mtsho'i sde"@bo-x-ewts ,
 		"Chamdo Trirab 16 Pakpa lha 04 Chokyi Gyelpo "@en ,
 		"Dorje Pagchok"@en ,
 		"Pakpa Chogyel"@en ,
 		"Pakpa Lha Chog Tamchele Nampar Gyelwa Gyatso De"@en ,
 		"Pakpa Lha Nampar Gyelwa Gyatso De"@en ,
 		"chab mdo khri rabs 16 'phags pa lha 04 chos kyi rgyal po"@bo-x-ewts ,
-		"phags pa chos rgyal"@bo-x-ewts ,
-		"phags pa lha rnam par rgyal ba rgya mtsho'i sde"@bo-x-ewts ,
-		"phags pa phyogs thams cad las rnam par rgyal ba rgya mtsho'i sde"@bo-x-ewts ,
 		"rdo rje 'phags mchog"@bo-x-ewts
 		;
 	.
@@ -4518,14 +4749,14 @@ told:_Person_2330
 
 told:_Person_2338
 	tolo:alternateName
+		"'a zha mkhyen brtse'i dbang phyug"@bo-x-ewts ,
+		"'jam dbyangs mkhyen brtse'i dbang phyug"@bo-x-ewts ,
 		"Azha Mkhyentse Wangchuk"@en ,
 		"Jamyang Khyentse Wangchuk"@en ,
 		"Khyentse Wangchuk"@en ,
 		"Nesar Khyentse Wangchuk"@en ,
 		"Zhalu Khenchen 14 Jamyang Khyentse Wangchuk"@en ,
-		"a zha mkhyen brtse'i dbang phyug"@bo-x-ewts ,
 		"gnas gsar mkhyen brtse'i dbang phyug"@bo-x-ewts ,
-		"jam dbyangs mkhyen brtse'i dbang phyug"@bo-x-ewts ,
 		"mkhyen brtse'i dbang phyug"@bo-x-ewts ,
 		"zhwa lu mkhan chen 14 'jam dbyangs mkhyen brtse'i dbang phyug"@bo-x-ewts
 		;
@@ -4679,11 +4910,11 @@ told:_Person_2442
 
 told:_Person_2456
 	tolo:alternateName
+		"'bri gung pa mkhyen rab yon tan rgya mtsho"@bo-x-ewts ,
 		"Chang-gyabpa Trichen Khyenrab Yonten Gyatso "@en ,
 		"Drigungpa Khyenrab Yonten Gyatso "@en ,
 		"Ganden Trichen 88 Khyenrab Yonten Gyatso"@en ,
 		"Ganden Tripa 88 Khyenrab Yonten Gyatso"@en ,
-		"bri gung pa mkhyen rab yon tan rgya mtsho"@bo-x-ewts ,
 		"dga' ldan khri chen 88 mkhyen rab yon tan rgya mtsho"@bo-x-ewts ,
 		"lcang rgyab khri chen mkhyen rab yon tan rgya mtsho"@bo-x-ewts
 		;
@@ -4752,6 +4983,8 @@ told:_Person_2504
 
 told:_Person_2506
 	tolo:alternateName
+		"'jam dbyangs bzhad pa 03 blo bzang thub bstan 'jigs med rgya mtsho"@bo-x-ewts ,
+		"'jigs med rgya mtsho"@bo-x-ewts ,
 		"Jamyang Zhepa 03 Lobzang Tubten Jigme Gyatso"@en ,
 		"Jigme Gyatso"@en ,
 		"Labrang Tripa 27 Lobzang Tubten Jigme Gyatso"@en ,
@@ -4761,8 +4994,6 @@ told:_Person_2506
 		"bla brang khri 27 blo bzang thub bstan 'jigs med rgya mtsho"@bo-x-ewts ,
 		"blo bzang thub bstan 'jigs med dbang po'i sde"@bo-x-ewts ,
 		"blo bzang thub bstan 'jigs med rgya mtsho"@bo-x-ewts ,
-		"jam dbyangs bzhad pa 03 blo bzang thub bstan 'jigs med rgya mtsho"@bo-x-ewts ,
-		"jigs med rgya mtsho"@bo-x-ewts ,
 		"shis tshang gdan rabs 01 blo bzang thub bstan 'jigs med rgya mtsho"@bo-x-ewts
 		;
 	.
@@ -4793,6 +5024,7 @@ told:_Person_2521
 
 told:_Person_2523
 	tolo:alternateName
+		"'phan yul pa ngag dbang chos kyi rgyal mtshan"@bo-x-ewts ,
 		"Ganden Trichen 34 Ngawang Chokyi Gyeltsen"@en ,
 		"Ganden Tripa 34 Ngawang Chokyi Gyeltsen"@en ,
 		"Phenyulpa Ngawang Chokyi Gyeltsen"@en ,
@@ -4802,7 +5034,6 @@ told:_Person_2523
 		"dga' ldan khri chen 34 ngag dbang chos kyi rgyal mtshan"@bo-x-ewts ,
 		"gsal khang sku skye 2 ngag dbang chos kyi rgyal mtshan"@bo-x-ewts ,
 		"khri pa ngag dbang chos kyi rgyal mtshan"@bo-x-ewts ,
-		"phan yul pa ngag dbang chos kyi rgyal mtshan"@bo-x-ewts ,
 		"stag khang sku skye ngag dbang chos kyi rgyal mtshan"@bo-x-ewts
 		;
 	.
@@ -4818,10 +5049,10 @@ told:_Person_2527
 
 told:_Person_2539
 	tolo:alternateName
+		"'gro mgon rdo rje rgyal po"@bo-x-ewts ,
 		"Dorje Gyelpo"@en ,
 		"Drogon Dorje Gyelpo"@en ,
 		"Khamton Dorje Gyelpo"@en ,
-		"gro mgon rdo rje rgyal po"@bo-x-ewts ,
 		"khams ston rdo rje rgyal po"@bo-x-ewts ,
 		"rdo rje rgyal po"@bo-x-ewts
 		;
@@ -4829,10 +5060,10 @@ told:_Person_2539
 
 told:_Person_2541
 	tolo:alternateName
+		"'jigs med thub bstan rgya mtsho"@bo-x-ewts ,
 		"Golok Menpa Takla Norbu"@en ,
 		"Jigme Tubten Gyatso"@en ,
 		"Takgo Menpa Lama"@en ,
-		"jigs med thub bstan rgya mtsho"@bo-x-ewts ,
 		"mgo log sman pa stag bla nor bu"@bo-x-ewts ,
 		"stag go sman pa bla ma"@bo-x-ewts
 		;
@@ -4854,22 +5085,22 @@ told:_Person_2577
 
 told:_Person_2578
 	tolo:alternateName
+		"'dul 'dzin"@bo-x-ewts ,
 		"Drakpa Tsondru"@en ,
 		"Duldzin"@en ,
-		"dul 'dzin"@bo-x-ewts ,
 		"grags pa brtson 'grus"@bo-x-ewts
 		;
 	.
 
 told:_Person_2584
 	tolo:alternateName
+		"'bri gung dbon shes rab 'byung gnas"@bo-x-ewts ,
+		"'bri gung gling pa"@bo-x-ewts ,
+		"'bri gung spyan snga shes rab 'byung gnas"@bo-x-ewts ,
 		"Chennga Sherab Jungne"@en ,
 		"Drigung Lingpa"@en ,
 		"Drigung On Sherab Jungne"@en ,
 		"Sherab Jungne"@en ,
-		"bri gung dbon shes rab 'byung gnas"@bo-x-ewts ,
-		"bri gung gling pa"@bo-x-ewts ,
-		"bri gung spyan snga shes rab 'byung gnas"@bo-x-ewts ,
 		"shes rab 'byung gnas"@bo-x-ewts ,
 		"spyan snga shes rab 'byung gnas"@bo-x-ewts
 		;
@@ -4930,21 +5161,21 @@ told:_Person_2593
 
 told:_Person_2595
 	tolo:alternateName
+		"'bri gung gdan rabs 04 grags pa 'byung gnas"@bo-x-ewts ,
+		"'bri gung spyan snga grags pa 'byung gnas"@bo-x-ewts ,
 		"Drakpa Jungne"@en ,
 		"Drigung Chennga Drakpa Jungne"@en ,
 		"Drigung Danrab 04 Drakpa Jungne"@en ,
-		"bri gung gdan rabs 04 grags pa 'byung gnas"@bo-x-ewts ,
-		"bri gung spyan snga grags pa 'byung gnas"@bo-x-ewts ,
 		"grags pa 'byung gnas"@bo-x-ewts
 		;
 	.
 
 told:_Person_2598
 	tolo:alternateName
+		"'dzeng dgon dbang phyug rgyal mtshan"@bo-x-ewts ,
 		"Dzenggom Wangchuk Gyeltsen"@en ,
 		"Wangchuk Gyeltsen"@en ,
-		"dbang phyug rgyal mtshan"@bo-x-ewts ,
-		"dzeng dgon dbang phyug rgyal mtshan"@bo-x-ewts
+		"dbang phyug rgyal mtshan"@bo-x-ewts
 		;
 	.
 
@@ -4966,12 +5197,12 @@ told:_Person_2606
 
 told:_Person_2638
 	tolo:alternateName
+		"'dul 'dzin thag ma ba"@bo-x-ewts ,
 		"Darma Sengge"@en ,
 		"Duldzin Tagmapa"@en ,
 		"Kawa Darseng"@en ,
 		"Takmapa"@en ,
 		"dar ma seng+ge"@bo-x-ewts ,
-		"dul 'dzin thag ma ba"@bo-x-ewts ,
 		"ka ba dar seng"@bo-x-ewts ,
 		"thag ma pa"@bo-x-ewts
 		;
@@ -5053,8 +5284,30 @@ told:_Person_2687
 		;
 	.
 
+told:_Person_2693
+	tolo:alternateName
+		"de bzhin gshegs pa"@bo-x-ewts ,
+		"kar+ma pa 05 de bzhin gshegs   pa"@bo-x-ewts
+		;
+	.
+
+told:_Person_2696
+	tolo:alternateName
+		"mkha' spyod dbang po"@bo-x-ewts ,
+		"mkha' spyod dri med dpall ye shes"@bo-x-ewts ,
+		"ye   shes dpal"@bo-x-ewts ,
+		"zhwa dmar 02 mkha' spyod dbang   po"@bo-x-ewts
+		;
+	.
+
 told:_Person_2710
-	tolo:alternateName "dkon mchog 'bangs"@bo-x-ewts ;
+	tolo:alternateName
+		"dkon mchog 'bangs"@bo-x-ewts ,
+		"dkon mchog yan lag"@bo-x-ewts ,
+		"spyan snga dkon mchog 'bangs"@bo-x-ewts ,
+		"zhwa dmar 05 dkon mchog yan   lag"@bo-x-ewts ,
+		"zla ba chu skyes"@bo-x-ewts
+		;
 	.
 
 told:_Person_2712
@@ -5073,8 +5326,8 @@ told:_Person_2720
 
 told:_Person_2730
 	tolo:alternateName
-		"Bo Gangkar Karma Shedrub Chokyi Sengge"@en ,
-		"bo gangs dkar karma bshad sgrub chos kyi seng ge"@bo-x-ewts
+		"'bo gangs dkar karma bshad sgrub chos kyi seng ge"@bo-x-ewts ,
+		"Bo Gangkar Karma Shedrub Chokyi Sengge"@en
 		;
 	.
 
@@ -5097,6 +5350,10 @@ told:_Person_2740
 		"rdo rje dpal ba"@bo-x-ewts ,
 		"rdor rje 'bum"@bo-x-ewts
 		;
+	.
+
+told:_Person_2742
+	tolo:alternateName "rol pa'i rdo rje"@bo-x-ewts ;
 	.
 
 told:_Person_2743
@@ -5130,10 +5387,10 @@ told:_Person_276
 
 told:_Person_2774
 	tolo:alternateName
+		"'bri gung gdan rabs 11 chos kyi rgyal po"@bo-x-ewts ,
 		"Chennga Chokyi Gyelpo"@en ,
 		"Drigung Danrab 11 Chokyi Gyelpo"@en ,
 		"Nyernyipa Chokyi Gyelpo"@en ,
-		"bri gung gdan rabs 11 chos kyi rgyal po"@bo-x-ewts ,
 		"nyer gnyis pa chos kyi rgyal po"@bo-x-ewts ,
 		"pyan snga chos kyi rgyal po"@bo-x-ewts
 		;
@@ -5240,11 +5497,11 @@ told:_Person_2799
 
 told:_Person_2801
 	tolo:alternateName
+		"'jam dbyangs blo gros"@bo-x-ewts ,
 		"Jamyang Lodro"@en ,
 		"Lodro Gyeltsen"@en ,
 		"Mati Paṇchen"@en ,
 		"blo gros rgyal mtshan"@bo-x-ewts ,
-		"jam dbyangs blo gros"@bo-x-ewts ,
 		"ma ti paN chen"@bo-x-ewts
 		;
 	.
@@ -5364,6 +5621,7 @@ told:_Person_2871
 
 told:_Person_2872
 	tolo:alternateName
+		"'jam dbyangs bla ma ngag dbang blo gros"@bo-x-ewts ,
 		"Gyanakpa Lodro Gyatso"@en ,
 		"Gyanakpa Ngawang Lodro Gyatso"@en ,
 		"Jamyang Lama Ngawang Lodro "@en ,
@@ -5371,7 +5629,6 @@ told:_Person_2872
 		"Ngawang Lodro Gyatso"@en ,
 		"Trichen 44"@en ,
 		"dga' ldan khri chen 44 blo gros rgya mtsho"@bo-x-ewts ,
-		"jam dbyangs bla ma ngag dbang blo gros"@bo-x-ewts ,
 		"khri chen klu 'bum pa ngag dbag blo gros rgya mtsho"@bo-x-ewts ,
 		"khri rgya nag pa blo gros rgya mtsho"@bo-x-ewts ,
 		"klu 'bum blo gros rgya mtsho"@bo-x-ewts ,
@@ -5427,6 +5684,10 @@ told:_Person_2896
 
 told:_Person_2899
 	tolo:alternateName
+		"'bri gung pa rin chen dpal"@bo-x-ewts ,
+		"'bri gung skyob pa 'jig rten mgon po"@bo-x-ewts ,
+		"'jig rten gsum mgon"@bo-x-ewts ,
+		"'jig rten mgon po"@bo-x-ewts ,
 		"Dorje Pel"@en ,
 		"Drigung Kyobpa Jikten Gonpo"@en ,
 		"Drigungpa Rinchen Pel"@en ,
@@ -5435,12 +5696,8 @@ told:_Person_2899
 		"Rinchen Pel"@en ,
 		"Tsunpa Kyab"@en ,
 		"Welbar Tar"@en ,
-		"bri gung pa rin chen dpal"@bo-x-ewts ,
-		"bri gung skyob pa 'jig rten mgon po"@bo-x-ewts ,
 		"btsun pa skyabs"@bo-x-ewts ,
 		"dbal 'bar thar"@bo-x-ewts ,
-		"jig rten gsum mgon"@bo-x-ewts ,
-		"jig rten mgon po"@bo-x-ewts ,
 		"rdo rje dpal"@bo-x-ewts ,
 		"rin chen dpal"@bo-x-ewts ,
 		"skyob pa 'jig rten mgon po"@bo-x-ewts
@@ -5479,6 +5736,15 @@ told:_Person_2916
 		"Sakyapa Chenpo Kunga Nyingpo"@en ,
 		"kun dga' snying po"@bo-x-ewts ,
 		"sa skya pa chen po kun dga' snying po"@bo-x-ewts
+		;
+	.
+
+told:_Person_2918
+	tolo:alternateName
+		"Dawa Gyeltsen"@en ,
+		"Jangsem Dagyel"@en ,
+		"byang sems zla rgyal"@bo-x-ewts ,
+		"zla ba rgyal mtshan"@bo-x-ewts
 		;
 	.
 
@@ -5558,6 +5824,7 @@ told:_Person_2949
 
 told:_Person_2952
 	tolo:alternateName
+		"'jang zhabs dge 'dun rin chen rgyal mtshan"@bo-x-ewts ,
 		"Ganden Trichen 37 Gendun Rinchen Gyeltsen"@en ,
 		"Ganden Tripa 37 Gendun Rinchen Gyeltsen"@en ,
 		"Gendun Rinchen"@en ,
@@ -5567,7 +5834,6 @@ told:_Person_2952
 		"dga' ldan khri chen 37 dge 'dun rin chen rgyal mtshan"@bo-x-ewts ,
 		"dga' ldan khri pa 37 dge 'dun rin chen   rgyal mtshan"@bo-x-ewts ,
 		"dge 'dun rin chen"@bo-x-ewts ,
-		"jang zhabs dge 'dun rin chen rgyal mtshan"@bo-x-ewts ,
 		"khri chen dge 'dun rin chen rgyal mtshan"@bo-x-ewts ,
 		"thang ring bla ma rgyal ba dge 'dun rin chen rgyal mtshan"@bo-x-ewts
 		;
@@ -5618,8 +5884,30 @@ told:_Person_2987
 		;
 	.
 
+told:_Person_2992
+	tolo:alternateName
+		"Dra Terton"@en ,
+		"Drangpo Jangchub Gyeltsen"@en ,
+		"Huṃnak Namkhai Dorje"@en ,
+		"Katokpa Jangchub Gyatso"@en ,
+		"Longsel Dorje Nyingpo"@en ,
+		"Rigdzin Longsel Nyingpo"@en ,
+		"Wangdrak Gyatso"@en ,
+		"dbang drag rgya mtsho"@bo-x-ewts ,
+		"dbra gter ston"@bo-x-ewts ,
+		"hUM nag nam mkha'i rdo rje"@bo-x-ewts ,
+		"kaH thog pabyang chub rgya mtsho"@bo-x-ewts ,
+		"klong gsal rdo rje snying po"@bo-x-ewts ,
+		"o rgyan mdo sngags gling"@bo-x-ewts ,
+		"rig 'dzin klong gsal snying po"@bo-x-ewts ,
+		"sprang po byang chub rgyal mtshan"@bo-x-ewts
+		;
+	.
+
 told:_Person_2996
 	tolo:alternateName
+		"'jam dbyangs 'phrin las"@bo-x-ewts ,
+		"'jam dbyangs legs bshad 'phreng ba'i blo gros"@bo-x-ewts ,
 		"Gola "@en ,
 		"Jamyang Lekshe Trengwai Lodro"@en ,
 		"Jamyang Trinle "@en ,
@@ -5630,8 +5918,6 @@ told:_Person_2996
 		"Ngawang Jamyang Trinle Gyeltsen"@en ,
 		"bla brang khri 11 dkon mchog 'jigs med dbang po"@bo-x-ewts ,
 		"bla sgo"@bo-x-ewts ,
-		"jam dbyangs 'phrin las"@bo-x-ewts ,
-		"jam dbyangs legs bshad 'phreng ba'i blo gros"@bo-x-ewts ,
 		"ngag dbang 'jam dbyangs 'phrin las rgyal mtshan"@bo-x-ewts ,
 		"ngag dbang rgyal mtshan"@bo-x-ewts ,
 		"sgo bla"@bo-x-ewts ,
@@ -5702,12 +5988,12 @@ told:_Person_3010
 
 told:_Person_3020
 	tolo:alternateName
+		"'jigs med mkhyen brtse'i dbang phyug phrin las rnam rgyal rdo rje"@bo-x-ewts ,
 		"Dzogchen 04 Mingyur Namkhai Dorje"@en ,
 		"Dzogchen Drubwang 04"@en ,
 		"Jigme Khyentse Wangchuk Trinle Namgyel Dorje "@en ,
 		"Mingyur Namkhai Dorje Tsewang Drubpa Tsel "@en ,
 		"Rigdzin Gyurme Kunzang Tekchok Tendzin"@en ,
-		"jigs med mkhyen brtse'i dbang phyug phrin las rnam rgyal rdo rje"@bo-x-ewts ,
 		"mi 'gyur nam mkha'i rdo rje tshe dbang grub pa rtsal"@bo-x-ewts ,
 		"rdzogs chen gdan rabs 07"@bo-x-ewts ,
 		"rdzogs chen grub dbang 04"@bo-x-ewts ,
@@ -5717,10 +6003,10 @@ told:_Person_3020
 
 told:_Person_3028
 	tolo:alternateName
+		"'brug pa blo gros seng+ge"@bo-x-ewts ,
+		"'jam dbyangs blo gros seng+ge"@bo-x-ewts ,
 		"Drukpa Lodro Sengge"@en ,
-		"Jamyang Lodro Sengge"@en ,
-		"brug pa blo gros seng+ge"@bo-x-ewts ,
-		"jam dbyangs blo gros seng+ge"@bo-x-ewts
+		"Jamyang Lodro Sengge"@en
 		;
 	.
 
@@ -5796,6 +6082,17 @@ told:_Person_3086
 		;
 	.
 
+told:_Person_3096
+	tolo:alternateName
+		"'jigs med rgya mtsho, 'on   rgyal sras"@bo-x-ewts ,
+		"'on rgyal sras 5 skal bzang   thub bstan 'jigs med rgya mtsho"@bo-x-ewts ,
+		"bskal bzang thub bstan"@bo-x-ewts ,
+		"rgyal sras 05 skal bzang thub bstan   'jigs med rgya mtsho"@bo-x-ewts ,
+		"skal bzang thub bstan 'jigs med   rgya mtsho"@bo-x-ewts ,
+		"yongs 'dzin no min han skal bzang   thub bstan 'jigs med rgya mtsho"@bo-x-ewts
+		;
+	.
+
 told:_Person_3101
 	tolo:alternateName
 		"Rinchen Gonpo"@en ,
@@ -5807,11 +6104,18 @@ told:_Person_3101
 		;
 	.
 
+told:_Person_3104
+	tolo:alternateName
+		"de mo 04 lha dbang bstan pa'i   rgyal mtshan"@bo-x-ewts ,
+		"lha dbang bstan pa'i rgyal   mtshan"@bo-x-ewts
+		;
+	.
+
 told:_Person_3107
 	tolo:alternateName
+		"'jam dbyangs sgeg pa'i lang tsho dbyangs can dgyes pa'i rdo rje"@bo-x-ewts ,
 		"Jayang Gekpai Langtso Yangchen Gyepai Dorje"@en ,
 		"bskal bzang rgya mtsho"@bo-x-ewts ,
-		"jam dbyangs sgeg pa'i lang tsho dbyangs can dgyes pa'i rdo rje"@bo-x-ewts ,
 		"ta la'i bla ma skal bzang rgya mtsho"@bo-x-ewts ,
 		"ta lai bla ma 07 skal bzang rgya mtsho"@bo-x-ewts
 		;
@@ -5836,8 +6140,8 @@ told:_Person_3121
 
 told:_Person_3125
 	tolo:alternateName
-		"Trulzhik Nauwa Chadrelwa Dorjedze"@en ,
-		"khrul zhig sna'u ba bya bral ba rdo rje mdzes"@bo-x-ewts
+		"'khrul zhig sna'u ba bya bral ba rdo rje mdzes"@bo-x-ewts ,
+		"Trulzhik Nauwa Chadrelwa Dorjedze"@en
 		;
 	.
 
@@ -5933,6 +6237,7 @@ told:_Person_3168
 
 told:_Person_3169
 	tolo:alternateName
+		"'dzam gling grags pa"@bo-x-ewts ,
 		"Dak Gom"@en ,
 		"Dakgom Tsultrim Nyingpo"@en ,
 		"Dakpo Gomtsul"@en ,
@@ -5944,7 +6249,6 @@ told:_Person_3169
 		"dwags po sgom tshul"@bo-x-ewts ,
 		"dwags sgom"@bo-x-ewts ,
 		"dwags sgom tshul khrims snying po"@bo-x-ewts ,
-		"dzam gling grags pa"@bo-x-ewts ,
 		"sgam po tshul khrims snying po"@bo-x-ewts ,
 		"tshul khrims snying po"@bo-x-ewts
 		;
@@ -5990,9 +6294,9 @@ told:_Person_3178
 
 told:_Person_3181
 	tolo:alternateName
+		"'bum skyabs"@bo-x-ewts ,
 		"Bum Kyab"@en ,
 		"Darma Wangchuk"@en ,
-		"bum skyabs"@bo-x-ewts ,
 		"dar ma dbang phyug"@bo-x-ewts
 		;
 	.
@@ -6049,6 +6353,14 @@ told:_Person_3194
 		"d+harma pA la raksi ta"@bo-x-ewts ,
 		"sa skya bdag nyid chen po"@bo-x-ewts ,
 		"sa skya bdag nyid chen po d+harma pA la raksi ta"@bo-x-ewts
+		;
+	.
+
+told:_Person_32
+	tolo:alternateName
+		"dbyangs can sgrol dkar tsha rong"@bo-x-ewts ,
+		"tsarong yangchen dolkar"@en ,
+		"yangchen dolkar tsarong"@en
 		;
 	.
 
@@ -6153,8 +6465,21 @@ told:_Person_3414
 		;
 	.
 
+told:_Person_3417
+	tolo:alternateName "rin chen gling pa"@bo-x-ewts ;
+	.
+
 told:_Person_3435
 	tolo:alternateName "ye shes rgya mtsho"@bo-x-ewts ;
+	.
+
+told:_Person_3436
+	tolo:alternateName
+		"DAk+ki blo gsal sgrol ma"@bo-x-ewts ,
+		"Dakini Losel Drolma"@en ,
+		"Khandro Losel Drolma"@en ,
+		"mkha' 'gro blo gsal sgrol ma"@bo-x-ewts
+		;
 	.
 
 told:_Person_3459
@@ -6321,10 +6646,10 @@ told:_Person_3769
 
 told:_Person_3778
 	tolo:alternateName
+		"'phags pa bsod nams rnam par rgyal ba dbang po'i sde"@bo-x-ewts ,
 		"Chamdo Trirab 14 Tongwa Dongden"@en ,
 		"Pagpa Sonam Nampar Gyelwa Wangpode"@en ,
-		"chab mdo khri rabs 14 mthong ba don ldan"@bo-x-ewts ,
-		"phags pa bsod nams rnam par rgyal ba dbang po'i sde"@bo-x-ewts
+		"chab mdo khri rabs 14 mthong ba don ldan"@bo-x-ewts
 		;
 	.
 
@@ -6334,18 +6659,18 @@ told:_Person_3780
 
 told:_Person_3782
 	tolo:alternateName
-		"Pakpa Yeshe Tenpai Gonpo"@en ,
-		"phags pa ye shes bstan pa'i mgon po"@bo-x-ewts
+		"'phags pa ye shes bstan pa'i mgon po"@bo-x-ewts ,
+		"Pakpa Yeshe Tenpai Gonpo"@en
 		;
 	.
 
 told:_Person_3783
 	tolo:alternateName
+		"'phags pa 'jigs med bstan pa'i mgon po"@bo-x-ewts ,
+		"'phags pa lha 07 'phags pa 'jigs med bstan pa'i mgon po"@bo-x-ewts ,
+		"'phags pa ye shes 'jigs med dpal ldan bstan pa'i mgon po "@bo-x-ewts ,
 		"Pakpa Jigme Tenpai Gonpo "@en ,
-		"Pakpa Yeshe Jigme Pelden Tenpai Gonpo"@en ,
-		"phags pa 'jigs med bstan pa'i mgon po"@bo-x-ewts ,
-		"phags pa lha 07 'phags pa 'jigs med bstan pa'i mgon po"@bo-x-ewts ,
-		"phags pa ye shes 'jigs med dpal ldan bstan pa'i mgon po "@bo-x-ewts
+		"Pakpa Yeshe Jigme Pelden Tenpai Gonpo"@en
 		;
 	.
 
@@ -6358,11 +6683,11 @@ told:_Person_3784
 
 told:_Person_3785
 	tolo:alternateName
+		"'phags pa mkhas grub ngag dbang blo bzang 'jigs med bstan pa'i rgyal mtshan"@bo-x-ewts ,
 		"Chamdo Trirab 27 Pakpa lha 09 Khedrub Ngawang Lobzang Jigme Tenpai Gyeltsen"@en ,
 		"Khedrub Ngawang Lobzang Jigme Tenpai Gyeltsen "@en ,
 		"Pakpa Khedrub Ngawang Lobzang Jigme Tenpai Gyeltsen "@en ,
-		"chab mdo khri rabs 27 'phags pa lha 09 mkhas grub ngag dbang blo bzang 'jigs med bstan pa'i rgyal mtshan"@bo-x-ewts ,
-		"phags pa mkhas grub ngag dbang blo bzang 'jigs med bstan pa'i rgyal mtshan"@bo-x-ewts
+		"chab mdo khri rabs 27 'phags pa lha 09 mkhas grub ngag dbang blo bzang 'jigs med bstan pa'i rgyal mtshan"@bo-x-ewts
 		;
 	.
 
@@ -6377,11 +6702,11 @@ told:_Person_3789
 
 told:_Person_3791
 	tolo:alternateName
+		"'phags pa chos kyi rgyal mtshan "@bo-x-ewts ,
 		"Chamdo Trirab 18 Pakpa Chokyi Gyeltsen"@en ,
 		"Pakpa Chokyi Gyeltsen"@en ,
 		"Third Zhiwa Lha"@en ,
-		"chab mdo khri rabs 18 'phags pa chos kyi rgyal mtshan "@bo-x-ewts ,
-		"phags pa chos kyi rgyal mtshan "@bo-x-ewts
+		"chab mdo khri rabs 18 'phags pa chos kyi rgyal mtshan "@bo-x-ewts
 		;
 	.
 
@@ -6442,7 +6767,7 @@ told:_Person_3822
 	.
 
 told:_Person_3827
-	tolo:alternateName "dul 'dzin"@bo-x-ewts ;
+	tolo:alternateName "'dul 'dzin"@bo-x-ewts ;
 	.
 
 told:_Person_3866
@@ -6474,8 +6799,8 @@ told:_Person_388
 
 told:_Person_3881
 	tolo:alternateName
-		"Dulwa O"@en ,
-		"dul ba 'od"@bo-x-ewts
+		"'dul ba 'od"@bo-x-ewts ,
+		"Dulwa O"@en
 		;
 	.
 
@@ -6488,6 +6813,7 @@ told:_Person_3883
 
 told:_Person_3889
 	tolo:alternateName
+		"'jigs med smra ba'i seng+ge mi pham dbyangs can dgyes pa gnas lnga rig pa'i rdo rje"@bo-x-ewts ,
 		"Abhya Tsenchen"@en ,
 		"Dzongkar Jigme Damcho Gyatso"@en ,
 		"Guru Wangchen Kyap "@en ,
@@ -6497,7 +6823,6 @@ told:_Person_3889
 		"Rinjung Gegpai Dorje"@en ,
 		"a bhya mtshan can"@bo-x-ewts ,
 		"gu ru dbang chen skyab"@bo-x-ewts ,
-		"jigs med smra ba'i seng+ge mi pham dbyangs can dgyes pa gnas lnga rig pa'i rdo rje"@bo-x-ewts ,
 		"ma nang sku phyogs"@bo-x-ewts ,
 		"mi pham dbyangs can dgyes pa'i rdo rje"@bo-x-ewts ,
 		"rdzong dkar 'jigs med dam chos rgya mtsho"@bo-x-ewts ,
@@ -6507,10 +6832,10 @@ told:_Person_3889
 
 told:_Person_3890
 	tolo:alternateName
+		"'bri gung gdan rabs 02 tshul khrims rdo rje"@bo-x-ewts ,
 		"Drigung Denrab 02 Tsultrim Dorje"@en ,
 		"Sumton Tsultrim Dorje"@en ,
 		"Tsultrim Dorje"@en ,
-		"bri gung gdan rabs 02 tshul khrims rdo rje"@bo-x-ewts ,
 		"rdo rje tshul khrims"@bo-x-ewts ,
 		"sum ston tshul khrims rdo rje"@bo-x-ewts ,
 		"tshul khrims rdo rje"@bo-x-ewts
@@ -6519,10 +6844,10 @@ told:_Person_3890
 
 told:_Person_3902
 	tolo:alternateName
+		"'bri gung gcung rdo rje grags pa"@bo-x-ewts ,
 		"Demowa Dorje Drakpa"@en ,
 		"Drigung Chung Dorje Drakpa"@en ,
 		"Telo Dorje Drakpa"@en ,
-		"bri gung gcung rdo rje grags pa"@bo-x-ewts ,
 		"de mo ba rdo rje grags pa"@bo-x-ewts ,
 		"rdo rje grags pa"@bo-x-ewts ,
 		"te lo rdo rje grags pa"@bo-x-ewts
@@ -6560,12 +6885,12 @@ told:_Person_3907
 
 told:_Person_3936
 	tolo:alternateName
+		"'bri gung lo tsA ba"@bo-x-ewts ,
 		"Drigung Lotsāwa"@en ,
-		"Manikashri"@sa-x-iast ,
-		"Manikashrijnana"@sa-x-iast ,
+		"Manikashri"@en ,
+		"Manikashrijnana"@en ,
 		"Maṇikaśrī"@sa-x-iast ,
 		"Norbu Pel Yeshe"@en ,
-		"bri gung lo tsA ba"@bo-x-ewts ,
 		"ma Ni ka shrI"@bo-x-ewts ,
 		"nor bu dpal ye shes"@bo-x-ewts
 		;
@@ -6664,8 +6989,16 @@ told:_Person_3989
 		;
 	.
 
+told:_Person_40
+	tolo:alternateName
+		"sempa dorje"@en ,
+		"sems dpa' rdo rje"@bo-x-ewts
+		;
+	.
+
 told:_Person_4000
 	tolo:alternateName
+		"'jam dpal bstan pa'i dngos grub"@bo-x-ewts ,
 		"Jampel Tenpai Ngodrub"@en ,
 		"Ngawang Lobzang Jampel Tenpai Ngodrub"@en ,
 		"Pema Dorje"@en ,
@@ -6673,7 +7006,6 @@ told:_Person_4000
 		"Takpu Dorje Chang"@en ,
 		"Takpu Jampel Tenpai Ngodrub"@en ,
 		"Takpu Pema Vajra"@en ,
-		"jam dpal bstan pa'i dngos grub"@bo-x-ewts ,
 		"ngag dbang blo bzang 'jam dpal bstan pa'i dngos grub"@bo-x-ewts ,
 		"pad+ma ba dz+ra"@bo-x-ewts ,
 		"pad+ma rdo rje"@bo-x-ewts ,
@@ -6685,6 +7017,7 @@ told:_Person_4000
 
 told:_Person_4002
 	tolo:alternateName
+		"'ol dga' rje drung 01 dge 'dun bkra shis"@bo-x-ewts ,
 		"Chamdo Trirab 07 Gendun Tashi"@en ,
 		"Jedrung Gendun Tashi"@en ,
 		"Jedrung Ngak Rampa Gendun Tashi"@en ,
@@ -6693,7 +7026,6 @@ told:_Person_4002
 		"Wolga Jedrung 01 Gendun Tashi"@en ,
 		"chab mdo khri rabs 08 dge 'dun bkra shis"@bo-x-ewts ,
 		"gsang bdag rje drung sprul sku 02"@bo-x-ewts ,
-		"ol dga' rje drung 01 dge 'dun bkra shis"@bo-x-ewts ,
 		"rje drung dge 'dun bkra shis"@bo-x-ewts ,
 		"rje drung sngags rams pa dge 'dun bkra shis"@bo-x-ewts ,
 		"sngags rams pa dge 'dun bkra shis"@bo-x-ewts
@@ -6724,7 +7056,7 @@ told:_Person_4043
 	.
 
 told:_Person_4066
-	tolo:alternateName "jam dbyangs bstan 'dzin rgya   mtsho"@bo-x-ewts ;
+	tolo:alternateName "'jam dbyangs bstan 'dzin rgya   mtsho"@bo-x-ewts ;
 	.
 
 told:_Person_4076
@@ -6783,6 +7115,7 @@ told:_Person_4086
 
 told:_Person_4092
 	tolo:alternateName
+		"'jang zhabs dam chos dpal ba"@bo-x-ewts ,
 		"Damcho Pelzang"@en ,
 		"Ganden Trichen 31 Damcho Pelwa"@en ,
 		"Ganden Tripa 31 Damcho Pelwa"@en ,
@@ -6791,7 +7124,6 @@ told:_Person_4092
 		"Trichen Damcho Pelwa"@en ,
 		"dam chos dpal bzang"@bo-x-ewts ,
 		"dga' ldan khri chen 31 dam chos dpal ba"@bo-x-ewts ,
-		"jang zhabs dam chos dpal ba"@bo-x-ewts ,
 		"khri chen dam chos dpal ba"@bo-x-ewts ,
 		"shar pa dam chos dpal ba"@bo-x-ewts
 		;
@@ -6817,9 +7149,9 @@ told:_Person_4114
 
 told:_Person_4115
 	tolo:alternateName
+		"'ja' rong pa lha'i rgyal mtshan"@bo-x-ewts ,
 		"Jarongpa Lhai Gyeltsen"@en ,
 		"Lhai Gyeltsen"@en ,
-		"ja' rong pa lha'i rgyal mtshan"@bo-x-ewts ,
 		"lha'i rgyal mtshan"@bo-x-ewts
 		;
 	.
@@ -6833,6 +7165,8 @@ told:_Person_4119
 
 told:_Person_4125
 	tolo:alternateName
+		"'khrul zhig byang chub gling pa"@bo-x-ewts ,
+		"'khrul zhig gling pa"@bo-x-ewts ,
 		"Drubchen Pema Dudul"@en ,
 		"Lhangdrak Drubchen Pema Dudul"@en ,
 		"Nyida Kundze"@en ,
@@ -6840,8 +7174,6 @@ told:_Person_4125
 		"Trulzhik Jangchub Lingpa"@en ,
 		"Trulzhik Lingpa"@en ,
 		"grub chen pad+ma bdud 'dul"@bo-x-ewts ,
-		"khrul zhig byang chub gling pa"@bo-x-ewts ,
-		"khrul zhig gling pa"@bo-x-ewts ,
 		"lhang brag grub chen pad+ma bdud 'dul"@bo-x-ewts ,
 		"nyi zla kun mdzes"@bo-x-ewts ,
 		"pad+ma bdud 'dul"@bo-x-ewts
@@ -6966,19 +7298,19 @@ told:_Person_4177
 
 told:_Person_4185
 	tolo:alternateName
+		"'jigs med bstan nyi"@bo-x-ewts ,
 		"Dodrubchen 03 Jigme Tenpai Nyima"@en ,
 		"Dowa Drubchen Jigme Tenpai Nyima"@en ,
-		"jigs med bstan nyi"@bo-x-ewts ,
 		"rdo grub 03 'jigs med bstan pa'i nyi ma"@bo-x-ewts
 		;
 	.
 
 told:_Person_4196
 	tolo:alternateName
+		"'phrin las rdo rje"@bo-x-ewts ,
 		"Kirti 08 Lobzang Trinle Tenpa Gyatso "@en ,
 		"Rongwo Choje Tulku Lobzang Trinle Gyatso"@en ,
 		"Trinle Dorje"@en ,
-		"phrin las rdo rje"@bo-x-ewts ,
 		"rong po chos rje sprul sku blo bzang 'phrin las rgya mtsho"@bo-x-ewts
 		;
 	.
@@ -6999,22 +7331,22 @@ told:_Person_4213
 
 told:_Person_4219
 	tolo:alternateName
+		"'jam dbyangs sangs rgyas seng+ge"@bo-x-ewts ,
 		"Jamyang Sanggye Sengge"@en ,
 		"Lhamo Tsering"@en ,
 		"Ngor Khenchen 11 Sanggye Sengge"@en ,
-		"jam dbyangs sangs rgyas seng+ge"@bo-x-ewts ,
 		"lha mo tshe ring"@bo-x-ewts
 		;
 	.
 
 told:_Person_4220
 	tolo:alternateName
+		"'jam dbyangs kun dga' bsod nams lhun grub"@bo-x-ewts ,
 		"Dorje Gyasog"@en ,
 		"Jamyang Kunga Sonam Lhundrub"@en ,
 		"Kunga Sonam Lhundrub Tashi Drakpa Gyeltsen Pel Zangpo"@en ,
 		"Ngor Khenchen 15 Kunga Sonam Lhundrub"@en ,
 		"Tsedongpa Kunga Sonam Lhundrub"@en ,
-		"jam dbyangs kun dga' bsod nams lhun grub"@bo-x-ewts ,
 		"kun dga' bsod nams lhun grub bkra shis grags pa rgyal mtshan dpal bzang po"@bo-x-ewts ,
 		"rdo rje rgya sog"@bo-x-ewts ,
 		"rtse gdong pa kun dga' bsod nams lhun grub"@bo-x-ewts
@@ -7050,9 +7382,9 @@ told:_Person_4223
 
 told:_Person_4224
 	tolo:alternateName
+		"'jam mgon dpal mchog rgyal mtshan"@bo-x-ewts ,
 		"Jamgon Pelchok Gyeltsen"@en ,
 		"Ngor Khenchen 22"@en ,
-		"jam mgon dpal mchog rgyal mtshan"@bo-x-ewts ,
 		"ngor mkhan chen 22"@bo-x-ewts
 		;
 	.
@@ -7073,12 +7405,21 @@ told:_Person_4227
 
 told:_Person_4228
 	tolo:alternateName
+		"'jam mgon mi pham rgya mtsho"@bo-x-ewts ,
+		"'ju mi pham rnam rgyal rgya mtsho"@bo-x-ewts ,
 		"Jamgon Mipam Gyatso"@en ,
 		"Ju Mipam Gyatso"@en ,
 		"Mipam Namgyel Gyatso"@en ,
-		"jam mgon mi pham rgya mtsho"@bo-x-ewts ,
-		"ju mi pham rnam rgyal rgya mtsho"@bo-x-ewts ,
 		"mi pham rnam rgyal rgya mtsho"@bo-x-ewts
+		;
+	.
+
+told:_Person_4234
+	tolo:alternateName
+		"byams pa nam mkha' 'chi med"@bo-x-ewts ,
+		"nam mkha' 'chi med, byams pa"@bo-x-ewts ,
+		"ngor mkhan chen 44 byams pa   nam mkha' 'chi med"@bo-x-ewts ,
+		"thar rtse byams pa nam mkha' 'chi med"@bo-x-ewts
 		;
 	.
 
@@ -7108,13 +7449,13 @@ told:_Person_4261
 
 told:_Person_4265
 	tolo:alternateName
+		"'brong rtse tshul khrims chos 'phel"@bo-x-ewts ,
 		"Changlo Chenpa Tsultrim Chopel"@en ,
 		"Drongtse Tsultrim Chopel"@en ,
 		"Ganden Trichen 32 Tsultrim Chopel"@en ,
 		"Ganden Tripa 32 Tsultrim Chopel"@en ,
 		"Sonam Chopel"@en ,
 		"Trichen Tsultrim Chopel"@en ,
-		"brong rtse tshul khrims chos 'phel"@bo-x-ewts ,
 		"bsod nams chos 'phel"@bo-x-ewts ,
 		"dga' ldan khri chen 32 tshul khrims chos 'phel"@bo-x-ewts ,
 		"khri chen tshul khrims chos 'phel"@bo-x-ewts ,
@@ -7135,6 +7476,7 @@ told:_Person_4267
 
 told:_Person_4276
 	tolo:alternateName
+		"'jam dbyangs dkon mchog chos 'phel"@bo-x-ewts ,
 		"Dranang Kongchok Chopel"@en ,
 		"Ganden Trichen 35 Konchok Chopel"@en ,
 		"Ganden Tripa 35 Konchok Chopel"@en ,
@@ -7146,7 +7488,6 @@ told:_Person_4276
 		"dga' ldan khri chen 35 dkon mchog chos 'phel"@bo-x-ewts ,
 		"gling smad zhabs drung dkon mchog chos 'phel"@bo-x-ewts ,
 		"gra nang dkon mchog chos 'phel"@bo-x-ewts ,
-		"jam dbyangs dkon mchog chos 'phel"@bo-x-ewts ,
 		"khri chen dkon mchog chos 'phel"@bo-x-ewts ,
 		"yon tan rnam rgyal"@bo-x-ewts
 		;
@@ -7218,6 +7559,9 @@ told:_Person_4285
 
 told:_Person_4291
 	tolo:alternateName
+		"'jigs med mkhyen brtse'i myu gu"@bo-x-ewts ,
+		"'od gsal rdo rje thugs mchog rtsal"@bo-x-ewts ,
+		"'od gsal sprul pa'i rdo rje"@bo-x-ewts ,
 		"Dorje Zijitsal"@en ,
 		"Jigme Khyentse Nyugu"@en ,
 		"Khyentse Wangpo"@en ,
@@ -7229,15 +7573,20 @@ told:_Person_4291
 		"Tsokye Lama Gyepaibang"@en ,
 		"Tsuglamawai Nyima Tsokye Shonnui Langtso"@en ,
 		"gtsug lag smra ba'i nyi ma mtsho skyes gzhon nu'i lang tsho"@bo-x-ewts ,
-		"jigs med mkhyen brtse'i myu gu"@bo-x-ewts ,
 		"kun dga' bstan pa'i rgyal mtshan dpal bzang po"@bo-x-ewts ,
 		"mkhyen brtse'i dbang po"@bo-x-ewts ,
 		"mtsho skyes bla ma dgyes pa'i 'bangs"@bo-x-ewts ,
-		"od gsal rdo rje thugs mchog rtsal"@bo-x-ewts ,
-		"od gsal sprul pa'i rdo rje"@bo-x-ewts ,
 		"pad+ma 'od gsal mdo sngags gling pa"@bo-x-ewts ,
 		"rdo rje gzi brjid rtsal"@bo-x-ewts ,
 		"tshangs sras dgyes pa'i blo ldan"@bo-x-ewts
+		;
+	.
+
+told:_Person_4300
+	tolo:alternateName
+		"chos kyi dbang phyug, sras"@bo-x-ewts ,
+		"dharmesvara"@en ,
+		"sras d+har me shwa ra"@bo-x-ewts
 		;
 	.
 
@@ -7294,7 +7643,7 @@ told:_Person_4314
 	.
 
 told:_Person_4325
-	tolo:alternateName "jigs med bstan pa'i rgyal   mtshan"@bo-x-ewts ;
+	tolo:alternateName "'jigs med bstan pa'i rgyal   mtshan"@bo-x-ewts ;
 	.
 
 told:_Person_4327
@@ -7306,23 +7655,23 @@ told:_Person_4327
 
 told:_Person_4344
 	tolo:alternateName
+		"'jigs med grags pa"@bo-x-ewts ,
 		"Chogle Namgyel"@en ,
 		"Chokyi Gyeltsen"@en ,
 		"Jigme Drakpa"@en ,
 		"Yungdrung Sanggyenyi"@en ,
 		"bo dong paN chen chos kyi rgyal mtshan"@bo-x-ewts ,
 		"g.yung drung sangs rgyas skyid"@bo-x-ewts ,
-		"gsang ba byin"@bo-x-ewts ,
-		"jigs med grags pa"@bo-x-ewts
+		"gsang ba byin"@bo-x-ewts
 		;
 	.
 
 told:_Person_4348
 	tolo:alternateName
+		"'brug pa shes rab bzang po"@bo-x-ewts ,
 		"Chenrezig Tulku Sherab Zangpo"@en ,
 		"Drukpa Sherab Zangpo"@en ,
 		"Sangdak Sherab Zangpo"@en ,
-		"brug pa shes rab bzang po"@bo-x-ewts ,
 		"gsang bdag shes rab bzang po"@bo-x-ewts ,
 		"pradznya b+ha dra"@bo-x-ewts ,
 		"spyan ras gzigs sprul sku shes rab bzang po"@bo-x-ewts
@@ -7331,11 +7680,11 @@ told:_Person_4348
 
 told:_Person_4349
 	tolo:alternateName
+		"'brug pa nam mkha' dpal bzang"@bo-x-ewts ,
 		"Chakdor Tulku"@en ,
 		"Drukpa Namkha Pelzang"@en ,
 		"Ranyon Namkha Pelzang"@en ,
 		"Sangdak Namkha Pelzang"@en ,
-		"brug pa nam mkha' dpal bzang"@bo-x-ewts ,
 		"gsang bdag nam mkha' dpal bzang"@bo-x-ewts ,
 		"phyag rdor sprul sku"@bo-x-ewts ,
 		"rwa smyon nam mkha' dpal bzang"@bo-x-ewts
@@ -7369,6 +7718,8 @@ told:_Person_4354
 
 told:_Person_4358
 	tolo:alternateName
+		"'chi med bstan gnyis g.yung drung gling pa"@bo-x-ewts ,
+		"'jam mgon kong sprul yon tan rgya mtsho"@bo-x-ewts ,
 		"Chime Tennyi Yudrung Lingpa"@en ,
 		"Jamgon Kongtrul Yonten Gyatso"@en ,
 		"Karma Ngawang Yonten Gyatso"@en ,
@@ -7382,8 +7733,6 @@ told:_Person_4358
 		"Tennyi Yungdrung Lingpa"@en ,
 		"Zilnon Gepa Tsel"@en ,
 		"bstan gnyis g.yung drung gling pa"@bo-x-ewts ,
-		"chi med bstan gnyis g.yung drung gling pa"@bo-x-ewts ,
-		"jam mgon kong sprul yon tan rgya mtsho"@bo-x-ewts ,
 		"karma ngag dbang yon tan rgya mtsho 'phrin las kun mkhyab dpal bzang po"@bo-x-ewts ,
 		"kong sprul 01 yon tan rgya mtsho"@bo-x-ewts ,
 		"kong sprul ngag dbang blo gros mtha' yas"@bo-x-ewts ,
@@ -7450,7 +7799,18 @@ told:_Person_4380
 
 told:_Person_4387
 	tolo:alternateName
+		"'bri gung chung tshang 01 chos   kyi grags pa"@bo-x-ewts ,
+		"'bri gung gdan rabs 25 chos   kyi grags pa"@bo-x-ewts ,
+		"'bri gung rig 'dzin chos kyi grags pa"@bo-x-ewts ,
+		"che mchog 'dus pa rtsal"@bo-x-ewts ,
 		"chos kyi grags pa"@bo-x-ewts ,
+		"chos kyi grags pa phrin las   rnam par rgyal ba'i sde"@bo-x-ewts ,
+		"dbur smyon"@bo-x-ewts ,
+		"dkon mchog phun tshogs"@bo-x-ewts ,
+		"mi bskyod rdo rje, 'bri gung   pa"@bo-x-ewts ,
+		"pad+ma ba dz+ra rtsal"@bo-x-ewts ,
+		"rig 'dzin chos kyi grags pa"@bo-x-ewts ,
+		"rtag pa'i rdo rje"@bo-x-ewts ,
 		"thugs kyi rdo rje"@bo-x-ewts
 		;
 	.
@@ -7475,6 +7835,7 @@ told:_Person_4425
 		"Dzogchen Khenrab 05 Orgyen Jigme Chokyi Wangpo"@en ,
 		"Dzogchen Pelge Tulku Orgyen Jigme Chokyi Wangpo"@en ,
 		"Jigme Chokyi Wangpo"@en ,
+		"Orgyen Jigme Chokyi Wangpo"@en ,
 		"Pelge Tulku"@en ,
 		"Peltrul Jigme Chokyi Wangpo"@en ,
 		"a bu hral po"@bo-x-ewts ,
@@ -7498,10 +7859,10 @@ told:_Person_4469
 
 told:_Person_4478
 	tolo:alternateName
+		"'phrin las rdo rje"@bo-x-ewts ,
 		"Gangteng Tulku 08 Orgyen Trinle Dorje"@en ,
 		"Peling Gyelse 08"@en ,
 		"Trinle Dorje"@en ,
-		"phrin las rdo rje"@bo-x-ewts ,
 		"sgang steng 08 'phrin las rdo rje"@bo-x-ewts
 		;
 	.
@@ -7751,11 +8112,11 @@ told:_Person_4611
 
 told:_Person_4622
 	tolo:alternateName
+		"'jigs med ngo mtshar"@bo-x-ewts ,
 		"First Kilung Rinpoche Jigme Ngotsar Gyatso"@en ,
 		"Getse Lama Sonam Tenzin"@en ,
 		"Jigme Ngotsar"@en ,
 		"dge rtse'i bla ma bsod nams bstan 'dzin"@bo-x-ewts ,
-		"jigs med ngo mtshar"@bo-x-ewts ,
 		"ki lung rin po chen 01 'jigs med ngo mtshar rgya mtsho"@bo-x-ewts
 		;
 	.
@@ -7771,11 +8132,11 @@ told:_Person_4626
 
 told:_Person_4630
 	tolo:alternateName
+		"'ug pa lung pa shAkya 'byung gnas"@bo-x-ewts ,
 		"Shakya Jungne"@en ,
 		"Upelungpa Shakya Jungne"@en ,
 		"Zurchen"@en ,
 		"shAkya 'byung gnas"@bo-x-ewts ,
-		"ug pa lung pa shAkya 'byung gnas"@bo-x-ewts ,
 		"zur chen"@bo-x-ewts
 		;
 	.
@@ -7793,17 +8154,18 @@ told:_Person_4631
 
 told:_Person_4632
 	tolo:alternateName
+		"'ug pa lung gdan rabs 02 shes rab grags pa"@bo-x-ewts ,
 		"Deshek Gyawo"@en ,
 		"Sherab Drakpa"@en ,
 		"Upelung Denrab 02 Sherab Drakpa"@en ,
 		"bde gshegs rgya bo"@bo-x-ewts ,
-		"shes rab grags pa"@bo-x-ewts ,
-		"ug pa lung gdan rabs 02 shes rab grags pa"@bo-x-ewts
+		"shes rab grags pa"@bo-x-ewts
 		;
 	.
 
 told:_Person_4642
 	tolo:alternateName
+		"'jam dpal dgyes pa'i blo gros"@bo-x-ewts ,
 		"Dobi Geshe Sherab Gyatso "@en ,
 		"Geshe Sherab Gyatso "@en ,
 		"Jampel Gyepai Lodro "@en ,
@@ -7811,7 +8173,6 @@ told:_Person_4642
 		"Pelden Dorje Dudul"@en ,
 		"dge bshes shes rab rgya mtsho"@bo-x-ewts ,
 		"dpal ldan rdo rje bdud 'dul"@bo-x-ewts ,
-		"jam dpal dgyes pa'i blo gros"@bo-x-ewts ,
 		"klu 'bum dge bshes shes rab rgya mtsho"@bo-x-ewts ,
 		"rdo sbis dge bshes shes rab rgya mtsho"@bo-x-ewts ,
 		"喜饶嘉措"@zh-HANI
@@ -7834,9 +8195,9 @@ told:_Person_4659
 
 told:_Person_4660
 	tolo:alternateName
+		"'jam dbyangs grags pa rgyal mtshan"@bo-x-ewts ,
 		"Jamyang Drakpa Gyeltsen"@en ,
 		"Zhalu Khenchen Drakpa Gyeltsen"@en ,
-		"jam dbyangs grags pa rgyal mtshan"@bo-x-ewts ,
 		"zhwa lu mkhan chen 02 grags pa rgyal mtshan"@bo-x-ewts
 		;
 	.
@@ -8284,11 +8645,11 @@ told:_Person_5381
 
 told:_Person_5386
 	tolo:alternateName
+		"'tshur ston dbang gi rdo rje"@bo-x-ewts ,
 		"Tsurton Wangnge"@en ,
 		"Wanggi Dorje"@en ,
 		"dbang gi rdo rje"@bo-x-ewts ,
-		"mtshur ston dbang nge"@bo-x-ewts ,
-		"tshur ston dbang gi rdo rje"@bo-x-ewts
+		"mtshur ston dbang nge"@bo-x-ewts
 		;
 	.
 
@@ -8343,10 +8704,10 @@ told:_Person_5415
 
 told:_Person_5426
 	tolo:alternateName
+		"'brong rtse yongs 'dzin blo bzang tshul khrims"@bo-x-ewts ,
 		"Drongtse Yongdzin Lobzang Tsultrim "@en ,
 		"Tashilhunpo Gyupa Dratsang Tritok 18 Lobzang Tsultrim "@en ,
-		"bkra shis lhun po rgyud pa grwa tshang khri thog 18 blo bzang tshul khrims"@bo-x-ewts ,
-		"brong rtse yongs 'dzin blo bzang tshul khrims"@bo-x-ewts
+		"bkra shis lhun po rgyud pa grwa tshang khri thog 18 blo bzang tshul khrims"@bo-x-ewts
 		;
 	.
 
@@ -8375,23 +8736,23 @@ told:_Person_5436
 
 told:_Person_5437
 	tolo:alternateName
+		"'jam dbyangs bkra shis rgyal mtshan"@bo-x-ewts ,
 		"Jamyang Tashi Gyeltsen"@en ,
 		"Janglingpa Rinchen Tashi Gyeltsen"@en ,
 		"Rinchen Tashi Gyeltsen"@en ,
 		"byang gling pa rin chen bkra shis rgyal mtshan"@bo-x-ewts ,
-		"jam dbyangs bkra shis rgyal mtshan"@bo-x-ewts ,
 		"rin chen bkra shis rgyal mtshan"@bo-x-ewts
 		;
 	.
 
 told:_Person_5457
 	tolo:alternateName
+		"'jigs med gling pa mkhyen brtse 'od zer"@bo-x-ewts ,
 		"Jigme Lingpa Khyentse Wozer"@en ,
 		"Khyentse Wozer"@en ,
 		"Pema Khyentse Wozer"@en ,
 		"Pema Wangchen"@en ,
 		"Rangjung Dorje Khyentse Wozer"@en ,
-		"jigs med gling pa mkhyen brtse 'od zer"@bo-x-ewts ,
 		"mkhyen brtse 'od zer"@bo-x-ewts ,
 		"pad+ma dbang chen"@bo-x-ewts ,
 		"pad+ma mkhyen brtse'i 'od zer"@bo-x-ewts ,
@@ -8514,15 +8875,22 @@ told:_Person_5588
 		;
 	.
 
+told:_Person_5599
+	tolo:alternateName
+		"blo bzang thub bstan chos kyi   rgyal mtshan"@bo-x-ewts ,
+		"thu'u bkwan 04 blo bzang thub   bstan chos kyi rgyal mtshan"@bo-x-ewts
+		;
+	.
+
 told:_Person_5605
 	tolo:alternateName "gzhon nu dpal"@bo-x-ewts ;
 	.
 
 told:_Person_5615
 	tolo:alternateName
+		"'brog mi lo tsA ba"@bo-x-ewts ,
 		"Drokmi Lotsāwa"@en ,
 		"Shakya Yeshe"@en ,
-		"brog mi lo tsA ba"@bo-x-ewts ,
 		"shAkya ye shes"@bo-x-ewts
 		;
 	.
@@ -8556,6 +8924,7 @@ told:_Person_5641
 
 told:_Person_5644
 	tolo:alternateName
+		"Machig Labdron"@en ,
 		"Machik Labkyi Dronma"@en ,
 		"ma cig lab kyi sgron ma"@bo-x-ewts ,
 		"ma gcig lab sgron"@bo-x-ewts
@@ -8601,13 +8970,13 @@ told:_Person_5696
 
 told:_Person_5706
 	tolo:alternateName
+		"'jam dbyangs tshul khrims dar rgyas"@bo-x-ewts ,
 		"Chone Jamyang Tsultrim Dargye "@en ,
 		"Ganden Trichen 45 Tsultrim Dargye "@en ,
 		"Ganden Tripa 45 Tsultrim Dargye "@en ,
 		"Jamyang Tsultrim Dargye "@en ,
 		"co ne 'jam dbyangs tshul khrims dar rgyas"@bo-x-ewts ,
-		"dga' ldan khri chen 45 tshul khrims dar rgyas"@bo-x-ewts ,
-		"jam dbyangs tshul khrims dar rgyas"@bo-x-ewts
+		"dga' ldan khri chen 45 tshul khrims dar rgyas"@bo-x-ewts
 		;
 	.
 
@@ -8655,7 +9024,7 @@ told:_Person_5753
 	.
 
 told:_Person_5759
-	tolo:alternateName "dul 'dzin"@bo-x-ewts ;
+	tolo:alternateName "'dul 'dzin"@bo-x-ewts ;
 	.
 
 told:_Person_5777
@@ -8805,9 +9174,9 @@ told:_Person_5820
 
 told:_Person_5822
 	tolo:alternateName
+		"'bum rtag"@bo-x-ewts ,
 		"Bumtak"@en ,
 		"Jayulwa Chenpo"@en ,
-		"bum rtag"@bo-x-ewts ,
 		"bya yul ba chen po"@bo-x-ewts ,
 		"gzhon nu 'od"@bo-x-ewts
 		;
@@ -8872,9 +9241,9 @@ told:_Person_5894
 
 told:_Person_5897
 	tolo:alternateName
+		"'jam dpal rol pa'i blo gros"@bo-x-ewts ,
 		"Jampel Rolpai Lodro"@en ,
 		"Tsojung Zhepai Langtso"@en ,
-		"jam dpal rol pa'i blo gros"@bo-x-ewts ,
 		"mtsho byung bzhad pa'i lang   tsho"@bo-x-ewts
 		;
 	.
@@ -8943,13 +9312,13 @@ told:_Person_5928
 
 told:_Person_5932
 	tolo:alternateName
+		"'phan yul blo bzang dge legs"@bo-x-ewts ,
 		"Ganden Trichen 68 Lobzang Gelek"@en ,
 		"Ganden Tripa 68 Lobzang Gelek"@en ,
 		"Jangtse Lobzang Gelek "@en ,
 		"Penyul Lobzang Gelek "@en ,
 		"byang rtse blo bzang dge legs"@bo-x-ewts ,
-		"dga' ldan khri chen 68 blo bzang dge legs"@bo-x-ewts ,
-		"phan yul blo bzang dge legs"@bo-x-ewts
+		"dga' ldan khri chen 68 blo bzang dge legs"@bo-x-ewts
 		;
 	.
 
@@ -9009,6 +9378,7 @@ told:_Person_5999
 
 told:_Person_6009
 	tolo:alternateName
+		"'phrin las rgya mtsho"@bo-x-ewts ,
 		"Depa Drongmepa"@en ,
 		"Desi Drongmepa Trinle Gyatso"@en ,
 		"Drongmene"@en ,
@@ -9018,20 +9388,19 @@ told:_Person_6009
 		"grong smad pa 'phrin las rgya mtsho"@bo-x-ewts ,
 		"jai sang sde pa"@bo-x-ewts ,
 		"jai sang sde pa 'phrin las rgya mtsho"@bo-x-ewts ,
-		"phrin las rgya mtsho"@bo-x-ewts ,
 		"sde srid 'phrin las rgya mtsho"@bo-x-ewts
 		;
 	.
 
 told:_Person_6010
 	tolo:alternateName
+		"'gro ba'i mgon po"@bo-x-ewts ,
+		"'gro mgon nam mkha' dpal"@bo-x-ewts ,
 		"Drogon Namkha Pel"@en ,
 		"Drowagonpo"@en ,
 		"Ngadak Drowagonpo Namkha Pel"@en ,
 		"Ngadak Nyang"@en ,
 		"Ngadak Nyang Drowai Gonpo"@en ,
-		"gro ba'i mgon po"@bo-x-ewts ,
-		"gro mgon nam mkha' dpal"@bo-x-ewts ,
 		"mnga' bdag 'gro ba mgon po nam mkha' dpal"@bo-x-ewts ,
 		"mnga' bdag nyang"@bo-x-ewts ,
 		"mnga' bdag nyang 'gro ba'i mgon po"@bo-x-ewts
@@ -9040,10 +9409,10 @@ told:_Person_6010
 
 told:_Person_6025
 	tolo:alternateName
+		"'jigs med bstan pa'i rgyal mtshan"@bo-x-ewts ,
 		"Gyangro Jigme Gyeltsen"@en ,
 		"Jigme Tenpai Gyeltsen"@en ,
 		"gyang ro 'jigs med rgyal mtshan"@bo-x-ewts ,
-		"jigs med bstan pa'i rgyal mtshan"@bo-x-ewts ,
 		"rkyang ro 'jigs med rgyal mtshan"@bo-x-ewts
 		;
 	.
@@ -9127,7 +9496,7 @@ told:_Person_6110
 
 told:_Person_6122
 	tolo:alternateName
-		"khrul zhig tshul khrims rgyal mtshan"@bo-x-ewts ,
+		"'khrul zhig tshul khrims rgyal mtshan"@bo-x-ewts ,
 		"zhwa lu mkhan chen 4 tshul khrims rgyal mtshan"@bo-x-ewts
 		;
 	.
@@ -9178,7 +9547,7 @@ told:_Person_6159
 	.
 
 told:_Person_6160
-	tolo:alternateName "dul 'dzin"@bo-x-ewts ;
+	tolo:alternateName "'dul 'dzin"@bo-x-ewts ;
 	.
 
 told:_Person_6161
@@ -9268,6 +9637,8 @@ told:_Person_6214
 
 told:_Person_6219
 	tolo:alternateName
+		"'jam dbyangs legs pa'i blo gros"@bo-x-ewts ,
+		"'jam dbyangs shes rab dar legs pa'i blo gros"@bo-x-ewts ,
 		"Ganden Trichen 12 Lekpai Lodro "@en ,
 		"Ganden Tripa 12 Lekpai Lodro "@en ,
 		"Jamyang Legpai Lodro"@en ,
@@ -9275,10 +9646,16 @@ told:_Person_6219
 		"Trichen Sherab Dar Lekpai Lodro"@en ,
 		"dga' ldan khri chen 12 legs pa'i blo gros"@bo-x-ewts ,
 		"dga' ldan tri pa 12 legs pa'i blo gros"@bo-x-ewts ,
-		"jam dbyangs legs pa'i blo gros"@bo-x-ewts ,
-		"jam dbyangs shes rab dar legs pa'i blo gros"@bo-x-ewts ,
 		"khri 12 'jam dbyangs shes rab dar legs pa'i blo gros"@bo-x-ewts ,
 		"khri chen shes rab dar legs pa'i blo gros"@bo-x-ewts
+		;
+	.
+
+told:_Person_6230
+	tolo:alternateName
+		"chos kyi grags pa dpal bzang   po"@bo-x-ewts ,
+		"kar+ma pa 08 mi bskyod rdo   rje"@bo-x-ewts ,
+		"mi bskyod rdo rje"@bo-x-ewts
 		;
 	.
 
@@ -9303,11 +9680,11 @@ told:_Person_6256
 
 told:_Person_6257
 	tolo:alternateName
+		"'phags pa gzhon nu blo gros"@bo-x-ewts ,
 		"Dorje Saten"@en ,
 		"Pakpa Zhonnu Lodro"@en ,
 		"Zhonnu Lodro"@en ,
 		"gzhon nu blo gros"@bo-x-ewts ,
-		"phags pa gzhon nu blo gros"@bo-x-ewts ,
 		"rdo rje sra brtan"@bo-x-ewts
 		;
 	.
@@ -9350,10 +9727,10 @@ told:_Person_6285
 
 told:_Person_6286
 	tolo:alternateName
+		"'dar ston blo bzang grags pa"@bo-x-ewts ,
 		"Darton Lobzang Drakpa"@en ,
 		"Ganden Trichen 11 Lobzang Drakpa"@en ,
 		"Ganden Tripa 11 Lobzang Drakpa"@en ,
-		"dar ston blo bzang grags pa"@bo-x-ewts ,
 		"dga' ldan khri chen 11 blo bzang grags pa"@bo-x-ewts ,
 		"dga' ldan tri pa 11 blo bzang grags pa"@bo-x-ewts ,
 		"khri 11 blo bzang grags pa"@bo-x-ewts
@@ -9366,20 +9743,20 @@ told:_Person_6334
 
 told:_Person_6340
 	tolo:alternateName
+		"'phags pa sangs rgyas dpal"@bo-x-ewts ,
 		"Lhari Sanggye"@en ,
 		"Pakpa Sanggye Pel"@en ,
-		"lha ri sangs rgyas"@bo-x-ewts ,
-		"phags pa sangs rgyas dpal"@bo-x-ewts
+		"lha ri sangs rgyas"@bo-x-ewts
 		;
 	.
 
 told:_Person_6351
 	tolo:alternateName
+		"'jam dpal dga' ba'i bshes gnyen"@bo-x-ewts ,
 		"Jampel Gawai Shenyen"@en ,
 		"Serdok Paṇchen Shākya Chokden "@en ,
 		"Zilung Paṇchen Shākya Chokden"@en ,
 		"gser mdog paN chen shAkya mchog ldan"@bo-x-ewts ,
-		"jam dpal dga' ba'i bshes gnyen"@bo-x-ewts ,
 		"zi lung paN chen shAkya mchog ldan"@bo-x-ewts
 		;
 	.
@@ -9436,7 +9813,7 @@ told:_Person_6395
 	.
 
 told:_Person_6398
-	tolo:alternateName "dul 'dzin"@bo-x-ewts ;
+	tolo:alternateName "'dul 'dzin"@bo-x-ewts ;
 	.
 
 told:_Person_6405
@@ -9488,7 +9865,7 @@ told:_Person_6466
 	.
 
 told:_Person_647
-	tolo:alternateName "jam dpal bzang po"@bo-x-ewts ;
+	tolo:alternateName "'jam dpal bzang po"@bo-x-ewts ;
 	.
 
 told:_Person_6470
@@ -9615,16 +9992,16 @@ told:_Person_6535
 
 told:_Person_6536
 	tolo:alternateName
+		"'jigs med seng+ge"@bo-x-ewts ,
 		"Hortsang Sertri 03 Jigme Rigpai Sengge "@en ,
 		"Jigme Sengge"@en ,
 		"Labrang Tri 20 Jigme Rigpai Sengge "@en ,
-		"bla brang khri 20 'jigs med rig pa'i seng+ge"@bo-x-ewts ,
-		"jigs med seng+ge"@bo-x-ewts
+		"bla brang khri 20 'jigs med rig pa'i seng+ge"@bo-x-ewts
 		;
 	.
 
 told:_Person_6545
-	tolo:alternateName "gro ba'i mgon po"@bo-x-ewts ;
+	tolo:alternateName "'gro ba'i mgon po"@bo-x-ewts ;
 	.
 
 told:_Person_6547
@@ -9701,6 +10078,14 @@ told:_Person_6620
 	tolo:alternateName "bsam gling pa"@bo-x-ewts ;
 	.
 
+told:_Person_6626
+	tolo:alternateName
+		"bsod nams phyogs glang, paN   chen"@bo-x-ewts ,
+		"bsod nams phyogs kyi glang po"@bo-x-ewts ,
+		"paN chen"@bo-x-ewts
+		;
+	.
+
 told:_Person_6634
 	tolo:alternateName
 		"Kelden 05 Lobzang Trinle Gyatso"@en ,
@@ -9721,6 +10106,7 @@ told:_Person_6635
 
 told:_Person_6646
 	tolo:alternateName
+		"'jam dbyangs bzhad pa 01 ngag dbang brtson 'grus"@bo-x-ewts ,
 		"Jamyang Zhepa 01 Ngawang Tsondru"@en ,
 		"Labrang Tri 01 Ngawang Tsondru "@en ,
 		"Lobzang Gyeltsen "@en ,
@@ -9729,7 +10115,6 @@ told:_Person_6646
 		"bla brang khri 01 ngag dbang brtson 'grus"@bo-x-ewts ,
 		"blo bzang rgyal mtshan"@bo-x-ewts ,
 		"dbal shul ngag dbang brtson 'grus"@bo-x-ewts ,
-		"jam dbyangs bzhad pa 01 ngag dbang brtson 'grus"@bo-x-ewts ,
 		"ngag dbang brtson 'grus"@bo-x-ewts
 		;
 	.
@@ -9809,6 +10194,13 @@ told:_Person_6672
 		;
 	.
 
+told:_Person_6676
+	tolo:alternateName
+		"manjusrivarman"@en ,
+		"pandita manjusrivarman"@en
+		;
+	.
+
 told:_Person_6678
 	tolo:alternateName
 		"Lotsāwa Pelgyi Lhunpo"@en ,
@@ -9829,9 +10221,9 @@ told:_Person_6681
 
 told:_Person_6690
 	tolo:alternateName
+		"'phags pa lha 01"@bo-x-ewts ,
 		"Gyelwa Pakpa Lha"@en ,
 		"Pakpa Lha 01"@en ,
-		"phags pa lha 01"@bo-x-ewts ,
 		"rgyal ba 'phags pa lha"@bo-x-ewts
 		;
 	.
@@ -10127,7 +10519,7 @@ told:_Person_6910
 	.
 
 told:_Person_6917
-	tolo:alternateName "brug pa Nang so"@bo-x-ewts ;
+	tolo:alternateName "'brug pa Nang so"@bo-x-ewts ;
 	.
 
 told:_Person_6929
@@ -10140,10 +10532,10 @@ told:_Person_6933
 
 told:_Person_6935
 	tolo:alternateName
+		"'phags dbon lha skyabs"@bo-x-ewts ,
 		"Lhakyab Choje"@en ,
 		"Pakwon Lhakyab"@en ,
 		"lha skyabs chos rje"@bo-x-ewts ,
-		"phags dbon lha skyabs"@bo-x-ewts ,
 		"rta tshag 02 dbon po lha skyabs"@bo-x-ewts
 		;
 	.
@@ -10257,15 +10649,17 @@ told:_Person_7024
 
 told:_Person_7038
 	tolo:alternateName
+		"'bri gung dbon bsod nams grags pa"@bo-x-ewts ,
 		"Drigung Won Sonam Drakpa"@en ,
 		"Sonam Drakpa"@en ,
-		"bri gung dbon bsod nams grags pa"@bo-x-ewts ,
 		"bsod nams grags pa"@bo-x-ewts
 		;
 	.
 
 told:_Person_7040
 	tolo:alternateName
+		"'bri gung pa rin chen dpal gyi rgyal mtshan"@bo-x-ewts ,
+		"'chi med grub pa mnga brnyes bdag po dbang"@bo-x-ewts ,
 		"Chime Drubpa Nganye Dakpo Wang"@en ,
 		"Dakpo Wang"@en ,
 		"Dakpo Wang Rinchen Wangyel"@en ,
@@ -10273,8 +10667,6 @@ told:_Person_7040
 		"Rinchen Wanggi Gyelpo"@en ,
 		"bdag po dbang"@bo-x-ewts ,
 		"bdag po dbang rin chen dbang rgyal"@bo-x-ewts ,
-		"bri gung pa rin chen dpal gyi rgyal mtshan"@bo-x-ewts ,
-		"chi med grub pa mnga brnyes bdag po dbang"@bo-x-ewts ,
 		"dpal gyi rgyal mtshan bdag po dbang"@bo-x-ewts ,
 		"rin chen dbang gyi rgyal po"@bo-x-ewts ,
 		"rin chen dpal gyi rgyal mtshan"@bo-x-ewts
@@ -10294,12 +10686,12 @@ told:_Person_7053
 
 told:_Person_7064
 	tolo:alternateName
+		"'jam dbyangs kun dga' bsod nams grags pa rgyal mtshan"@bo-x-ewts ,
+		"'jam pa'i rdo rje"@bo-x-ewts ,
 		"Dorje Gyasok Tashi Gyeltsen"@en ,
 		"Jampai Dorje"@en ,
 		"Jamyang Kunga Sonam Drakpa Gyeltsen"@en ,
 		"Sakya Trichen 22 Jampai Dorje"@en ,
-		"jam dbyangs kun dga' bsod nams grags pa rgyal mtshan"@bo-x-ewts ,
-		"jam pa'i rdo rje"@bo-x-ewts ,
 		"rdo rje rgya sog bkra shis rgyal mtshan"@bo-x-ewts ,
 		"sa skya khri chen 22 'jam pa'i rdo rje"@bo-x-ewts ,
 		"sa skya lo tsA ba kun dga' bsod nams"@bo-x-ewts
@@ -10416,17 +10808,17 @@ told:_Person_7162
 
 told:_Person_7164
 	tolo:alternateName
+		"'gro 'dul gling pa"@bo-x-ewts ,
 		"Drodul Lingpa"@en ,
 		"Rinchen Pelzangpo"@en ,
 		"Zhikpo Lingpa"@en ,
-		"gro 'dul gling pa"@bo-x-ewts ,
 		"rin chen dpal bzang po"@bo-x-ewts ,
 		"zhig po gling pa"@bo-x-ewts
 		;
 	.
 
 told:_Person_7168
-	tolo:alternateName "dul 'dzin"@bo-x-ewts ;
+	tolo:alternateName "'dul 'dzin"@bo-x-ewts ;
 	.
 
 told:_Person_7170
@@ -10501,6 +10893,15 @@ told:_Person_7240
 		;
 	.
 
+told:_Person_7254
+	tolo:alternateName
+		"'gyur med bstan pa rnam rgyal"@bo-x-ewts ,
+		"'gyur med rnam rgyal"@bo-x-ewts ,
+		"Gyurme Namgyel"@en ,
+		"dge rtse 03 'gyur med rnam   rgyal"@bo-x-ewts
+		;
+	.
+
 told:_Person_726
 	tolo:alternateName
 		"Namkha Pelzang"@en ,
@@ -10572,14 +10973,14 @@ told:_Person_7348
 	.
 
 told:_Person_7353
-	tolo:alternateName "dul 'dzin"@bo-x-ewts ;
+	tolo:alternateName "'dul 'dzin"@bo-x-ewts ;
 	.
 
 told:_Person_7370
 	tolo:alternateName
+		"'bum phrag gsum pa"@bo-x-ewts ,
 		"Bumdrak Sumpa"@en ,
 		"Paṇchen Bumdrak Sumpa Rinchen Chokyi Wangpo"@en ,
-		"bum phrag gsum pa"@bo-x-ewts ,
 		"paN chen 'bum phrag gsum pa rin chen chos kyi dbang po"@bo-x-ewts
 		;
 	.
@@ -10647,11 +11048,11 @@ told:_Person_7512
 
 told:_Person_7523
 	tolo:alternateName
+		"'bri gung pa don grub rgyal po"@bo-x-ewts ,
 		"Drigungpa Dondrub Gyelpo"@en ,
 		"Drung Shenyen Dondrub Gyelpo"@en ,
 		"Shenyen"@en ,
 		"Shenyen Dondrub Gyelpo"@en ,
-		"bri gung pa don grub rgyal po"@bo-x-ewts ,
 		"bshes gnyen"@bo-x-ewts ,
 		"bshes gnyen don grub rgyal po"@bo-x-ewts ,
 		"drung bshes gnyen pa don grub rgyal po"@bo-x-ewts
@@ -10723,8 +11124,8 @@ told:_Person_7589
 
 told:_Person_7601
 	tolo:alternateName
-		"Druk Je Khenpo 02 Sonam Wozer"@en ,
-		"brug rje mkhan po 02 bsod nams 'od zer"@bo-x-ewts
+		"'brug rje mkhan po 02 bsod nams 'od zer"@bo-x-ewts ,
+		"Druk Je Khenpo 02 Sonam Wozer"@en
 		;
 	.
 
@@ -10738,11 +11139,11 @@ told:_Person_7613
 
 told:_Person_7622
 	tolo:alternateName
+		"'brug bla ma khri pa 01"@bo-x-ewts ,
+		"'brug sde srid 04 bstan 'dzin rab rgyas "@bo-x-ewts ,
 		"Druk Desi 04 Tendzin Rabgye "@en ,
 		"Druk Lama Tripa 01"@en ,
 		"Gyelse Tendzin Rabgye"@en ,
-		"brug bla ma khri pa 01"@bo-x-ewts ,
-		"brug sde srid 04 bstan 'dzin rab rgyas "@bo-x-ewts ,
 		"rgyal sras bstan 'dzin rab   rgyas"@bo-x-ewts
 		;
 	.
@@ -10758,9 +11159,9 @@ told:_Person_7636
 
 told:_Person_7637
 	tolo:alternateName
+		"'gro mgon ti shrI ras pa"@bo-x-ewts ,
 		"Drogon Tishri Repa"@en ,
 		"Sherab Sengge"@en ,
-		"gro mgon ti shrI ras pa"@bo-x-ewts ,
 		"shes rab seng+ge"@bo-x-ewts
 		;
 	.
@@ -10775,7 +11176,7 @@ told:_Person_7641
 	.
 
 told:_Person_7642
-	tolo:alternateName "dul 'dzin"@bo-x-ewts ;
+	tolo:alternateName "'dul 'dzin"@bo-x-ewts ;
 	.
 
 told:_Person_7644
@@ -10806,10 +11207,10 @@ told:_Person_7674
 
 told:_Person_7676
 	tolo:alternateName
+		"'brug rje mkhan po 04 dam chos pad dkar"@bo-x-ewts ,
+		"'brug rje mkhan po 04 pad dkar lhun grub"@bo-x-ewts ,
 		"Druk Je Khenpo 04 Damcho Pekar"@en ,
-		"Druk Je Khenpo Pekar Lhundrub"@en ,
-		"brug rje mkhan po 04 dam chos pad dkar"@bo-x-ewts ,
-		"brug rje mkhan po 04 pad dkar lhun grub"@bo-x-ewts
+		"Druk Je Khenpo Pekar Lhundrub"@en
 		;
 	.
 
@@ -10827,9 +11228,9 @@ told:_Person_7706
 
 told:_Person_7718
 	tolo:alternateName
+		"'jam dbyangs shes bya bzang po"@bo-x-ewts ,
 		"Shabto Dzilungpa Khenchen Jampa Sheja Zangpo"@en ,
 		"Shabto Jelungpa Khenchen Jampa Sheja Zangpo"@en ,
-		"jam dbyangs shes bya bzang po"@bo-x-ewts ,
 		"shab stod rdzi lung pa mkhan chen byams pa shes bya bzang po"@bo-x-ewts ,
 		"shab stod rje lung pa mkhan chen byams pa shes bya bzang po"@bo-x-ewts
 		;
@@ -10837,10 +11238,10 @@ told:_Person_7718
 
 told:_Person_7719
 	tolo:alternateName
+		"'brug rgyal sras sprul sku 02 kun dga' rgyal mtshan"@bo-x-ewts ,
 		"Druk Gyelse Tulku 02 Kunga Gyeltsen"@en ,
 		"Gyelse Ganapati"@en ,
 		"Kunga Gyeltsen"@en ,
-		"brug rgyal sras sprul sku 02 kun dga' rgyal mtshan"@bo-x-ewts ,
 		"kun dga' rgyal mtshan"@bo-x-ewts ,
 		"rgyal sras ganapati"@en
 		;
@@ -10848,12 +11249,12 @@ told:_Person_7719
 
 told:_Person_7732
 	tolo:alternateName
+		"'jigs med skal bzang"@bo-x-ewts ,
 		"Dzongngon Tulku"@en ,
 		"Khungta Jigme Kelzang"@en ,
 		"Kyeme Dorje"@en ,
 		"Zhonnu Yeshe Dorje"@en ,
 		"gzhon nu ye shes rdo rje"@bo-x-ewts ,
-		"jigs med skal bzang"@bo-x-ewts ,
 		"khung rta 'jigs med skal bzang"@bo-x-ewts ,
 		"rdzong sngon sprul sku"@bo-x-ewts ,
 		"skye med rdo rje"@bo-x-ewts
@@ -10923,8 +11324,8 @@ told:_Person_7803
 
 told:_Person_7815
 	tolo:alternateName
-		"Druk Je Khenpo 09 Shakya Rinchen"@en ,
-		"brug rje mkhan po 09 shAkya rin chen"@bo-x-ewts
+		"'brug rje mkhan po 09 shAkya rin chen"@bo-x-ewts ,
+		"Druk Je Khenpo 09 Shakya Rinchen"@en
 		;
 	.
 
@@ -10945,10 +11346,10 @@ told:_Person_7870
 
 told:_Person_7874
 	tolo:alternateName
+		"'jam dbyangs shAkya bstan 'dzin"@bo-x-ewts ,
 		"Chokle Shakya Tendzin"@en ,
 		"Jamyang Shakya Tendzin"@en ,
 		"Zhabdrung Sungtrul 02 Shakya Tendzin"@en ,
-		"jam dbyangs shAkya bstan 'dzin"@bo-x-ewts ,
 		"phyogs las shAkya bstan 'dzin"@bo-x-ewts ,
 		"zhabs drung gsung sprul 2"@bo-x-ewts
 		;
@@ -10966,6 +11367,13 @@ told:_Person_7879
 		"dbang chen tshe ring"@bo-x-ewts ,
 		"gung thang 05 'jam dbyangs   bstan pa'i nyi ma"@bo-x-ewts ,
 		"shis tshang gdan rabs 28 'jam   dbyangs bstan pa'i nyi ma"@bo-x-ewts
+		;
+	.
+
+told:_Person_7880
+	tolo:alternateName
+		"dam chos nyi ma"@bo-x-ewts ,
+		"skal bzang dam chos nyi ma"@bo-x-ewts
 		;
 	.
 
@@ -10987,12 +11395,12 @@ told:_Person_7882
 
 told:_Person_7895
 	tolo:alternateName
+		"'brug rje mkhan po 12"@bo-x-ewts ,
+		"'brug rje mkhan po 12 kun dga' rgya mtsho"@bo-x-ewts ,
+		"'jam dbyangs kun dga' rgya mtsho"@bo-x-ewts ,
 		"Druk Je Khenpo 12"@en ,
 		"Druk Je Khenpo 12 Kunga Gyatso"@en ,
-		"Jamyang Kunga Gyatso"@en ,
-		"brug rje mkhan po 12"@bo-x-ewts ,
-		"brug rje mkhan po 12 kun dga' rgya mtsho"@bo-x-ewts ,
-		"jam dbyangs kun dga' rgya mtsho"@bo-x-ewts
+		"Jamyang Kunga Gyatso"@en
 		;
 	.
 
@@ -11002,10 +11410,10 @@ told:_Person_7912
 
 told:_Person_7918
 	tolo:alternateName
+		"'brug rje mkhan po 16"@bo-x-ewts ,
+		"'brug rje mkhan po 16 shes rab seng+ge"@bo-x-ewts ,
 		"Druk Je Khenpo 16 Sherab Sengge"@en ,
-		"Je Khenpo 16 Sherab Sengge "@en ,
-		"brug rje mkhan po 16"@bo-x-ewts ,
-		"brug rje mkhan po 16 shes rab seng+ge"@bo-x-ewts
+		"Je Khenpo 16 Sherab Sengge "@en
 		;
 	.
 
@@ -11031,6 +11439,7 @@ told:_Person_7937
 
 told:_Person_7945
 	tolo:alternateName
+		"'jam mgon bla ma dgyes pa'i 'bangs 'jam dpal dgyes pa'i blo gros tshangs sras snyems pa'i sde"@bo-x-ewts ,
 		"Jamgon Lama Gyepai Wang Jampel Gyepai Lodro Tsangse Nyem Paide"@en ,
 		"Kunzang Zhepai Dorje"@en ,
 		"Lobzang Dongak Chokyi Gyatso"@en ,
@@ -11038,7 +11447,6 @@ told:_Person_7945
 		"Tubten Dawa Zangpo"@en ,
 		"Tulku Sungrab"@en ,
 		"blo bzang mdo sngags chos kyi rgya mtsho"@bo-x-ewts ,
-		"jam mgon bla ma dgyes pa'i 'bangs 'jam dpal dgyes pa'i blo gros tshangs sras snyems pa'i sde"@bo-x-ewts ,
 		"kun bzang bzhad pa'i rdo rje"@bo-x-ewts ,
 		"snyan dgon sprul sku mdo sngags chos kyi rgya mtsho"@bo-x-ewts ,
 		"sprul sku gsung rab pa"@bo-x-ewts ,
@@ -11050,10 +11458,23 @@ told:_Person_7964
 	tolo:alternateName "byams pa bstan 'dzin 'phrin   las"@bo-x-ewts ;
 	.
 
+told:_Person_7989
+	tolo:alternateName
+		"'ol dga' rje drung 2"@bo-x-ewts ,
+		"'ol dga' rje drung 2 bstan pa   rgya mtsho"@bo-x-ewts ,
+		"bstan pa rgya mtsho"@bo-x-ewts ,
+		"dge 'dun bstan pa rgya mtsho"@bo-x-ewts
+		;
+	.
+
+told:_Person_7991
+	tolo:alternateName "blo bzang lhun grub 'phrin las   rgyal mtshan"@bo-x-ewts ;
+	.
+
 told:_Person_8
 	tolo:alternateName
+		"'jigs bral dpal ldan pa'i nyi ma 'chi med rtag pa'i rdo rje srid zhi'i dbang phyig don thams cad yongs su grub pa'i sde"@bo-x-ewts ,
 		"Dokham Dege Gyelgenma"@en ,
-		"jigs bral dpal ldan pa'i nyi ma 'chi med rtag pa'i rdo rje srid zhi'i dbang phyig don thams cad yongs su grub pa'i sde"@bo-x-ewts ,
 		"mdo khams sde dge rgyal rgan ma"@bo-x-ewts ,
 		"tshe dbang rig 'dzin"@bo-x-ewts
 		;
@@ -11072,11 +11493,11 @@ told:_Person_8027
 
 told:_Person_8028
 	tolo:alternateName
+		"'brug rje mkhan po 13"@bo-x-ewts ,
+		"'brug rje mkhan po 13 yon tan mtha' yas"@bo-x-ewts ,
 		"Druk Je Khenpo 13"@en ,
 		"Druk Je Khenpo 13 Yonten Taye"@en ,
 		"Ngawang Yonten Taye"@en ,
-		"brug rje mkhan po 13"@bo-x-ewts ,
-		"brug rje mkhan po 13 yon tan mtha' yas"@bo-x-ewts ,
 		"ngag dbang yon tan mtha' yas"@bo-x-ewts
 		;
 	.
@@ -11239,11 +11660,11 @@ told:_Person_8109
 
 told:_Person_8116
 	tolo:alternateName
+		"'phags pa shAkya lha dbang"@bo-x-ewts ,
 		"Kondor 01"@en ,
 		"Pakpa Shakya Lhawang"@en ,
 		"Phende Tulku Shakya Lhawang"@en ,
 		"dkon rdor 01"@bo-x-ewts ,
-		"phags pa shAkya lha dbang"@bo-x-ewts ,
 		"phan bde sprul sku shAkya lha dbang"@bo-x-ewts
 		;
 	.
@@ -11259,9 +11680,9 @@ told:_Person_8126
 
 told:_Person_8128
 	tolo:alternateName
+		"'jigs med bstan pa'i dbang phyug 'jigs bral phyogs las rnam rgyal"@bo-x-ewts ,
 		"Gungtang 06 Jigme Tenpai Wangchuk"@en ,
-		"Jigme Tenpai Wangchuk Jikdrel Chokle Namgyel "@en ,
-		"jigs med bstan pa'i dbang phyug 'jigs bral phyogs las rnam rgyal"@bo-x-ewts
+		"Jigme Tenpai Wangchuk Jikdrel Chokle Namgyel "@en
 		;
 	.
 
@@ -11277,10 +11698,28 @@ told:_Person_8156
 		;
 	.
 
+told:_Person_8159
+	tolo:alternateName
+		"blo bzang grub mchog"@bo-x-ewts ,
+		"kar+ma pa 14 theg mchog rdo   rje"@bo-x-ewts ,
+		"theg mchog rdo rje"@bo-x-ewts
+		;
+	.
+
+told:_Person_8170
+	tolo:alternateName
+		"don grub rdo rje"@bo-x-ewts ,
+		"dpal ldan kun bzang chos kyi nyi ma chen po 'phrin las mkha' khyab rdo rje phyogs las rnam par rgyal"@bo-x-ewts ,
+		"kar+ma pa 15 mkha' khyab rdo   rje"@bo-x-ewts ,
+		"mkha' khyab rdo rje"@bo-x-ewts ,
+		"rang byung lhan skyes rdo rje"@bo-x-ewts
+		;
+	.
+
 told:_Person_8177
 	tolo:alternateName
-		"Jamyang Dorje"@en ,
-		"jam dbyangs rdo rje"@bo-x-ewts
+		"'jam dbyangs rdo rje"@bo-x-ewts ,
+		"Jamyang Dorje"@en
 		;
 	.
 
@@ -11307,7 +11746,7 @@ told:_Person_8201
 	.
 
 told:_Person_8214
-	tolo:alternateName "ye shes rgyal mtshan"@bo-x-ewts ;
+	tolo:alternateName "'brug rje mkhan po 20 ye shes   rgyal mtshan"@bo-x-ewts ;
 	.
 
 told:_Person_8257
@@ -11320,12 +11759,12 @@ told:_Person_8334
 
 told:_Person_8343
 	tolo:alternateName
+		"'brug rje mkhan po 25 shes rab rgyal mtshan"@bo-x-ewts ,
+		"'jam dbyangs shes rab rgyal mtshan"@bo-x-ewts ,
+		"'jam dpal shes rab rgyal mtshan"@bo-x-ewts ,
 		"Druk Je Khenpo 25 Sherab Gyeltsen"@en ,
 		"Jampel Sherab Gyeltsen "@en ,
-		"Jamyang Sherab Gyeltsen "@en ,
-		"brug rje mkhan po 25 shes rab rgyal mtshan"@bo-x-ewts ,
-		"jam dbyangs shes rab rgyal mtshan"@bo-x-ewts ,
-		"jam dpal shes rab rgyal mtshan"@bo-x-ewts
+		"Jamyang Sherab Gyeltsen "@en
 		;
 	.
 
@@ -11358,10 +11797,10 @@ told:_Person_8361
 
 told:_Person_8397
 	tolo:alternateName
+		"'brug rje mkhan po 53 ye shes dngos grub"@bo-x-ewts ,
 		"Druk Je Khenpo 53 Yeshe Ngodrub"@en ,
 		"Rigdzin Gyatso"@en ,
 		"Zhabdrung Sungtrul 05 Yeshe Ngodrub"@en ,
-		"brug rje mkhan po 53 ye shes dngos grub"@bo-x-ewts ,
 		"rig 'dzin rgya mtsho"@bo-x-ewts
 		;
 	.
@@ -11392,12 +11831,12 @@ told:_Person_8454
 
 told:_Person_8455
 	tolo:alternateName
+		"'khrul zhig kun ldan ras ma"@bo-x-ewts ,
 		"Drinchen Kunden Rema"@en ,
 		"Machik Kunden Rema"@en ,
 		"Semo Kunden Rema"@en ,
 		"Trulshik Kunden Rema"@en ,
 		"drin chen kun ldan ras ma"@bo-x-ewts ,
-		"khrul zhig kun ldan ras ma"@bo-x-ewts ,
 		"ma gcig kun ldan ras ma"@bo-x-ewts ,
 		"sras mo kun ldan ras ma"@bo-x-ewts
 		;
@@ -11441,6 +11880,9 @@ told:_Person_8480
 
 told:_Person_8507
 	tolo:alternateName
+		"'jam dbyangs mkhyen rab"@bo-x-ewts ,
+		"'jam dbyangs thub bstan dge legs"@bo-x-ewts ,
+		"'od zer dkar ril"@bo-x-ewts ,
 		"Jamyang Khyenrab"@en ,
 		"Jamyang Tubten Gelek"@en ,
 		"Khenpo Khyenrab Chokyi Wozer"@en ,
@@ -11458,13 +11900,10 @@ told:_Person_8507
 		"dbon stod mkhyen rab"@bo-x-ewts ,
 		"dbon stod mkhyen rab chos kyi 'od zer"@bo-x-ewts ,
 		"dbon stod pa 'jam dbyangs mkhyen rab"@bo-x-ewts ,
-		"jam dbyangs mkhyen rab"@bo-x-ewts ,
-		"jam dbyangs thub bstan dge legs"@bo-x-ewts ,
 		"mkhan po mkhyen rab chos kyi 'od zer"@bo-x-ewts ,
 		"mkhyen rab chos kyi 'od zer"@bo-x-ewts ,
 		"mkhyen rab chos kyi nyi ma 'phrin las mtha' yas pa'i 'od zer "@bo-x-ewts ,
 		"mkhyen rab chos kyi snang ba"@bo-x-ewts ,
-		"od zer dkar ril"@bo-x-ewts ,
 		"rdzong sar mkhan rabs 02 'jam dbyangs mkhan rab"@bo-x-ewts ,
 		"rin chen rdo rje"@bo-x-ewts ,
 		"sum ldan rdo rje 'dzin pa chen po dbon stod pa mkhan chen thams cad mkhyen rab chos kyi nyi ma 'phri"@bo-x-ewts
@@ -11485,6 +11924,7 @@ told:_Person_8536
 
 told:_Person_8538
 	tolo:alternateName
+		"'phrin las mtha' yas rtsal"@bo-x-ewts ,
 		"Nyala Sogyel"@en ,
 		"Terchen Pema Dechen Rangdrol Tsel "@en ,
 		"Terton Sogyel "@en ,
@@ -11493,7 +11933,6 @@ told:_Person_8538
 		"gter chen pad+ma bde chen rang grol rtsal"@bo-x-ewts ,
 		"gter ston bsod rgyal"@bo-x-ewts ,
 		"nyag bla bsod rgyal"@bo-x-ewts ,
-		"phrin las mtha' yas rtsal"@bo-x-ewts ,
 		"rtsa shul sprul sku bsod rgyal"@bo-x-ewts
 		;
 	.
@@ -11502,6 +11941,13 @@ told:_Person_8539
 	tolo:alternateName
 		"Sonam Deutsen"@en ,
 		"bsod nams lde'u btsan"@bo-x-ewts
+		;
+	.
+
+told:_Person_8540
+	tolo:alternateName
+		"dri med zhing skyong 01 dri   med zhing skyong mgon po"@bo-x-ewts ,
+		"dri med zhing skyong mgon po"@bo-x-ewts
 		;
 	.
 
@@ -11583,11 +12029,11 @@ told:_Person_8574
 
 told:_Person_8578
 	tolo:alternateName
+		"'gyur med bstan pa rnam rgyal"@bo-x-ewts ,
 		"Dzogcehnpa Won Pema Kundrol"@en ,
 		"Gyurme Tenpa Namgyel "@en ,
 		"Jewon Pema Kundrol Namgyel "@en ,
 		"Pema Kundrol"@en ,
-		"gyur med bstan pa rnam rgyal"@bo-x-ewts ,
 		"pad+ma kun grol"@bo-x-ewts ,
 		"rdzogs chen pa dbon pad+ma kun grol"@bo-x-ewts ,
 		"rje dbon pad+ma kun grol rnam rgyal"@bo-x-ewts
@@ -11596,10 +12042,10 @@ told:_Person_8578
 
 told:_Person_8580
 	tolo:alternateName
+		"'jigs bral chos dbyings rdo rje"@bo-x-ewts ,
 		"Jikdrel Choying Dorje "@en ,
 		"Katok Moktsa Choying Dorje "@en ,
 		"Moktsa Choying Dorje "@en ,
-		"jigs bral chos dbyings rdo rje"@bo-x-ewts ,
 		"kaH thog rmog rtsa chos dbyings rdo rje"@bo-x-ewts ,
 		"rmog rtsa chos dbyings rdo rje"@bo-x-ewts
 		;
@@ -11614,12 +12060,12 @@ told:_Person_8583
 
 told:_Person_8584
 	tolo:alternateName
+		"'od gsal sprul pa'i rdo rje"@bo-x-ewts ,
 		"Nyingon Choktrul 02 Wosel Dorje Nyingpo "@en ,
 		"Nyingon Wosel Trulpai Dorje"@en ,
 		"Wosel Trulpai Dorje"@en ,
 		"nyin dgon 'od gsal sprul pa'i   rdo rje"@bo-x-ewts ,
-		"nyin dgon mchog sprul 02"@bo-x-ewts ,
-		"od gsal sprul pa'i rdo rje"@bo-x-ewts
+		"nyin dgon mchog sprul 02"@bo-x-ewts
 		;
 	.
 
@@ -11636,6 +12082,7 @@ told:_Person_8585
 
 told:_Person_8596
 	tolo:alternateName
+		"'gyur med skal bzang stobs rgyal"@bo-x-ewts ,
 		"Gyurme Kelzang Tobgyel"@en ,
 		"Gyurme Tobgye"@en ,
 		"Kelzang Tobgyel"@en ,
@@ -11643,7 +12090,6 @@ told:_Person_8596
 		"Nyingon Choktrul 05 Gyurme Kelzang Tobgyel Dorje"@en ,
 		"Nyingon Choktrul 05 Kelzang Tobgyel"@en ,
 		"Nyingon Kelzang Tobgyel"@en ,
-		"gyur med skal bzang stobs rgyal"@bo-x-ewts ,
 		"nyin dgon mchog sprul 05"@bo-x-ewts ,
 		"nyin dgon mchog sprul 05 skal bzang stobs rgyal"@bo-x-ewts ,
 		"nyin dgon skal bzang stobs rgyal"@bo-x-ewts ,
@@ -11777,15 +12223,15 @@ told:_Person_8633
 
 told:_Person_8637
 	tolo:alternateName
+		"'brug pa seng+ge rgyal po"@bo-x-ewts ,
 		"Chusumpa Sengge Gyelpo"@en ,
 		"Drukpa Sengge Gyelpo"@en ,
-		"bcu gsum pa seng+ge rgyal po"@bo-x-ewts ,
-		"brug pa seng+ge rgyal po"@bo-x-ewts
+		"bcu gsum pa seng+ge rgyal po"@bo-x-ewts
 		;
 	.
 
 told:_Person_8645
-	tolo:alternateName "jigs bral chos dbyings rdo   rje"@bo-x-ewts ;
+	tolo:alternateName "'jigs bral chos dbyings rdo   rje"@bo-x-ewts ;
 	.
 
 told:_Person_8650
@@ -11829,26 +12275,27 @@ told:_Person_8704
 
 told:_Person_8730
 	tolo:alternateName
+		"'brom gzhon nu blo gros"@bo-x-ewts ,
 		"Drom Zhonnu Lodro"@en ,
 		"Zhonnu Lodro"@en ,
-		"brom gzhon nu blo gros"@bo-x-ewts ,
 		"gzhon nu blo gros"@bo-x-ewts
 		;
 	.
 
 told:_Person_8752
 	tolo:alternateName
+		"'dzam thang mkhan po blo gros grags pa"@bo-x-ewts ,
 		"Dzamtang Khenpo Lodro Drakpa"@en ,
 		"Khenpo Lodrak"@en ,
 		"Lodro Drakpa"@en ,
 		"blo gros grags pa"@bo-x-ewts ,
-		"dzam thang mkhan po blo gros grags pa"@bo-x-ewts ,
 		"mkhan po blo grags"@bo-x-ewts
 		;
 	.
 
 told:_Person_8753
 	tolo:alternateName
+		"'jam dbyangs shes rab chos kyi snang ba blo gros rgya mtsho'i sde"@bo-x-ewts ,
 		"Dzigak Tulku Jamyang Sherab Chokyi Nangway"@en ,
 		"Dzitrul Jamyang Sherab Chokyi Nangwa"@en ,
 		"Jamyang Sherab Chokyi Nangwa Lodro Gyatsoi De"@en ,
@@ -11857,7 +12304,6 @@ told:_Person_8753
 		"dpal yul gzi 'gags sprul sku 'jam dbyangs shes rab chos kyi nyi ma"@bo-x-ewts ,
 		"gzi 'gags sprul sku 'jam dbyangs shes rab chos kyi snang ba"@bo-x-ewts ,
 		"gzi sprul 'jam dbyangs shes rab chos kyi snang ba"@bo-x-ewts ,
-		"jam dbyangs shes rab chos kyi snang ba blo gros rgya mtsho'i sde"@bo-x-ewts ,
 		"rdzi 'gags sprul sku 'jam dbyangs shes rab chos kyi snang ba"@bo-x-ewts ,
 		"shes rab chos kyi snang ba"@bo-x-ewts
 		;
@@ -11891,6 +12337,7 @@ told:_Person_8772
 
 told:_Person_8782
 	tolo:alternateName
+		"'ja' lus rdo rje rtsal"@bo-x-ewts ,
 		"Drubpai Wangchuk Chenpo Sarahai Tulpa Shākya Shrījñyāna"@en ,
 		"Drugu Tokden Shākya Shrī"@en ,
 		"Jalu Dorje Tsel"@en ,
@@ -11899,7 +12346,6 @@ told:_Person_8782
 		"Tsokdruk Rangdrol Jalu Dorje Tsel"@en ,
 		"gru gu rtogs ldan shAkya shrI"@bo-x-ewts ,
 		"grub pa'i dbang phyug chen po sa ra ha'i sprul pa shakya shri dzya na"@bo-x-ewts ,
-		"ja' lus rdo rje rtsal"@bo-x-ewts ,
 		"kun bzang gang shar rang grol"@bo-x-ewts ,
 		"rtogs ldan shAkya shrI"@bo-x-ewts ,
 		"tshogs drug rang grol 'ja' lus rdo rje rtsal"@bo-x-ewts
@@ -11908,6 +12354,10 @@ told:_Person_8782
 
 told:_Person_8825
 	tolo:alternateName
+		"'gyur med lab sum rgyal mtshan"@bo-x-ewts ,
+		"'gyur med theg mchog bstan pa'i rgyal mtshan"@bo-x-ewts ,
+		"'jam dbyangs bla ma dgyes pa'i 'bangs mang+ga la"@bo-x-ewts ,
+		"'od gsal rdo rje thugs mchog rtsal"@bo-x-ewts ,
 		"Dilgo Khyentse"@en ,
 		"Dilgo Khyentse Rinpoche"@en ,
 		"Gyurme Labsum Gyeltsen"@en ,
@@ -11920,12 +12370,8 @@ told:_Person_8825
 		"Tashi Peljor"@en ,
 		"bkra shis dpal 'byor"@bo-x-ewts ,
 		"dil mgo mkhyen brtse"@bo-x-ewts ,
-		"gyur med lab sum rgyal mtshan"@bo-x-ewts ,
-		"gyur med theg mchog bstan pa'i rgyal mtshan"@bo-x-ewts ,
-		"jam dbyangs bla ma dgyes pa'i 'bangs mang+ga la"@bo-x-ewts ,
 		"mangala sribhuti"@bo-x-ewts ,
 		"o rgyan skyab"@bo-x-ewts ,
-		"od gsal rdo rje thugs mchog rtsal"@bo-x-ewts ,
 		"pad+ma gar dbang 'od gsal mdo sngags gling pa"@bo-x-ewts ,
 		"rab gsal zla ba"@bo-x-ewts
 		;
@@ -11933,10 +12379,11 @@ told:_Person_8825
 
 told:_Person_8836
 	tolo:alternateName
+		"'khrul zhig ngag dbang chos   kyi blo gros"@bo-x-ewts ,
 		"Trulshik Rinpoche"@en ,
 		"Trulzhik Rinpoche"@en ,
-		"khrul zhig ngag dbang chos   kyi blo gros"@bo-x-ewts ,
 		"kun bzang 'phrin las 'gro 'dul   rtsal"@bo-x-ewts ,
+		"ngag dbang chos kyi blo gros"@bo-x-ewts ,
 		"rdza 'khrul zhig ngag dbang   chos kyi blo gros"@bo-x-ewts
 		;
 	.
@@ -12027,19 +12474,27 @@ told:_Person_8923
 		;
 	.
 
+told:_Person_8930
+	tolo:alternateName
+		"ar skung mkhan po tsandra 'gyur med"@bo-x-ewts ,
+		"dar thang mkhan rabs 12 tsandra 'gyur   med"@bo-x-ewts ,
+		"tsandra 'gyur med"@bo-x-ewts
+		;
+	.
+
 told:_Person_8941
 	tolo:alternateName "ngag dbang bstan 'dzin"@bo-x-ewts ;
 	.
 
 told:_Person_8964
 	tolo:alternateName
+		"'gro 'dul gling pa"@bo-x-ewts ,
+		"'phreng po gter chen shes rab 'od zer"@bo-x-ewts ,
+		"'phreng po gter ston shes rab 'od zer"@bo-x-ewts ,
 		"Drodul Lingpa"@en ,
 		"Prajñāraśmi "@sa-x-iast ,
 		"Trengpo Terchen Sherab Wozer"@en ,
 		"Trengpo Terton Sherab Wozer"@en ,
-		"gro 'dul gling pa"@bo-x-ewts ,
-		"phreng po gter chen shes rab 'od zer"@bo-x-ewts ,
-		"phreng po gter ston shes rab 'od zer"@bo-x-ewts ,
 		"pra dz+nyA rasmri"@bo-x-ewts
 		;
 	.
@@ -12224,6 +12679,8 @@ told:_Person_9060
 
 told:_Person_9062
 	tolo:alternateName
+		"'khon ston dpal 'byor lhun grub"@bo-x-ewts ,
+		"'khon ston pa dpal 'byor lhun grub"@bo-x-ewts ,
 		"Khonton Peljor Lhundrub"@en ,
 		"Khontonpa Peljor Lhundrub"@en ,
 		"Nangdze Dorje"@en ,
@@ -12231,11 +12688,28 @@ told:_Person_9062
 		"Pabongkhapa Peljor Lhundrub "@en ,
 		"Sonam Namgyel"@en ,
 		"bsod nams rnam rgyal"@bo-x-ewts ,
-		"khon ston dpal 'byor lhun grub"@bo-x-ewts ,
-		"khon ston pa dpal 'byor lhun grub"@bo-x-ewts ,
 		"pha bong kha pa dpal 'byor lhun grub"@bo-x-ewts ,
 		"pha bong kha pa snang mdzad rdo rje"@bo-x-ewts ,
 		"snang mdzad rdo rje"@bo-x-ewts
+		;
+	.
+
+told:_Person_9083
+	tolo:alternateName
+		"Apang Terton Pawo Choying Dorje"@en ,
+		"Apaṃ Terton Pawo Choying Dorje"@en ,
+		"Apong Terton"@en ,
+		"Orgyen Sangdak Choying Dorje"@en ,
+		"Orgyen Trinle Lingpa"@en ,
+		"Pawo Choying Dorje"@en ,
+		"Zhepa Tsel"@en ,
+		"a paM gter ston dpa' bo chos   dbyings rdo rje"@bo-x-ewts ,
+		"a pang gter ston dpa' bo chos dbyings   rdo rje"@bo-x-ewts ,
+		"a pong gter ston"@bo-x-ewts ,
+		"bzhad pa rtsal"@bo-x-ewts ,
+		"dpa' bo chos dbyings rdo rje"@bo-x-ewts ,
+		"o rgyan gsang bdag chos dbyings rdo rje"@bo-x-ewts ,
+		"o rgyan phrin las gling pa"@bo-x-ewts
 		;
 	.
 
@@ -12280,6 +12754,10 @@ told:_Person_9105
 
 told:_Person_9106
 	tolo:alternateName "rin chen 'byung gnas"@bo-x-ewts ;
+	.
+
+told:_Person_9107
+	tolo:alternateName "stag lung pa o rgyan mgon po"@bo-x-ewts ;
 	.
 
 told:_Person_9121
@@ -12351,9 +12829,9 @@ told:_Person_9169
 
 told:_Person_9171
 	tolo:alternateName
+		"'bri gung mkha' 'gro ma"@bo-x-ewts ,
 		"Drigung Khandroma"@en ,
 		"Nene Choden Zangmo"@en ,
-		"bri gung mkha' 'gro ma"@bo-x-ewts ,
 		"ne ne chos ldan bzang mo"@bo-x-ewts
 		;
 	.
@@ -12394,13 +12872,13 @@ told:_Person_9201
 
 told:_Person_9203
 	tolo:alternateName
+		"'jigs med rta mgrin yon tan mgon po"@bo-x-ewts ,
+		"'jigs med yon tan mgon po"@bo-x-ewts ,
 		"Gonri"@en ,
 		"Jigme Tamdrin Yonten Gonpo"@en ,
 		"Jigme Yonten Gonpo"@en ,
 		"Tamdrin Yonten Gonpo"@en ,
 		"Yongdzin Khenchen Yonten Gonpo"@en ,
-		"jigs med rta mgrin yon tan mgon po"@bo-x-ewts ,
-		"jigs med yon tan mgon po"@bo-x-ewts ,
 		"mgon ris"@bo-x-ewts ,
 		"rdzogs chen mkhan chen yon tan mgon po"@bo-x-ewts ,
 		"rta mgrin yon tan mgon po"@bo-x-ewts
@@ -12495,6 +12973,8 @@ told:_Person_9355
 
 told:_Person_9361
 	tolo:alternateName
+		"'ol dga' rje drung 04 blo bzang 'phrin las"@bo-x-ewts ,
+		"'phrin las dbang po"@bo-x-ewts ,
 		"Fourth Wolga Jedrung Lobzang Trinle"@en ,
 		"Lelung Zhedrung Zhepai Dorje"@en ,
 		"Lelung Zhepai Dorje"@en ,
@@ -12504,8 +12984,6 @@ told:_Person_9361
 		"Zhepai Dorje"@en ,
 		"Zhepai Dorje Trinle Wangpo"@en ,
 		"blo bzang bstan pa grub pa'i rgyal mtshan"@bo-x-ewts ,
-		"ol dga' rje drung 04 blo bzang 'phrin las"@bo-x-ewts ,
-		"phrin las dbang po"@bo-x-ewts ,
 		"sle lung bzhad pa'i rdo rje"@bo-x-ewts ,
 		"sle lung rje drung bzhad pa'i rdo rje"@bo-x-ewts
 		;
@@ -12592,10 +13070,10 @@ told:_Person_9514
 
 told:_Person_9523
 	tolo:alternateName
+		"'jigs med nam mkha'"@bo-x-ewts ,
 		"Jigme Namkha"@en ,
 		"Ngawa Gomang Jigme Namkha "@en ,
 		"Second Shingza Jigme Namkha "@en ,
-		"jigs med nam mkha'"@bo-x-ewts ,
 		"rnga ba sgo mang khri rabs 02 'jigs med nam mkha'"@bo-x-ewts ,
 		"shing bza' 02 'jigs med nam mkha'"@bo-x-ewts
 		;
@@ -12603,8 +13081,8 @@ told:_Person_9523
 
 told:_Person_9525
 	tolo:alternateName
-		"Gyurme Kunzang Namgyel Losel Gyatso De "@en ,
-		"gyur med kun bzang rnam rgyal blo gsal rgya mtsho'i de"@bo-x-ewts
+		"'gyur med kun bzang rnam rgyal blo gsal rgya mtsho'i de"@bo-x-ewts ,
+		"Gyurme Kunzang Namgyel Losel Gyatso De "@en
 		;
 	.
 
@@ -12766,12 +13244,12 @@ told:_Person_9601
 
 told:_Person_9612
 	tolo:alternateName
+		"'ja' lus rdo rje"@bo-x-ewts ,
 		"Do Khyentse"@en ,
 		"Jalu Dorje"@en ,
 		"Traktung Lekyi Pawo"@en ,
 		"Yeshe Dorje"@en ,
 		"dpal ri mkhyen brtse ye shes rdo rje"@bo-x-ewts ,
-		"ja' lus rdo rje"@bo-x-ewts ,
 		"khrag 'thung las kyi dpa' bo"@bo-x-ewts ,
 		"ye shes rdo rje"@bo-x-ewts
 		;
@@ -12903,6 +13381,15 @@ told:_Person_9761
 	tolo:alternateName "grub dbang dkon mchog rgyal mtshan"@bo-x-ewts ;
 	.
 
+told:_Person_9764
+	tolo:alternateName
+		"Lhopa Ngawang Chokyi Gyatso"@en ,
+		"Third Pakri Kagyu Tulku "@en ,
+		"lho pa ngag dbang chos kyi   rgya mtsho"@bo-x-ewts ,
+		"phag ri bka' brygud sprul sku o3"@bo-x-ewts
+		;
+	.
+
 told:_Person_9778
 	tolo:alternateName "nor bu bstan 'dzin"@bo-x-ewts ;
 	.
@@ -12922,6 +13409,7 @@ told:_Person_9789
 
 told:_Person_9795
 	tolo:alternateName
+		"'jam dbyangs stag lung brag pa blo gros rgya mtsho"@bo-x-ewts ,
 		"Drakpa Lodro Gyatso"@en ,
 		"Ganden Trichen 30 Lodro Gyatso"@en ,
 		"Ganden Tripa 30 Lodro Gyatso"@en ,
@@ -12931,7 +13419,6 @@ told:_Person_9795
 		"Trichen Lodro Gyatso"@en ,
 		"dga' ldan khri chen 30 blo gros rgya mtsho"@bo-x-ewts ,
 		"grags pa blo gros rgya mtsho"@bo-x-ewts ,
-		"jam dbyangs stag lung brag pa blo gros rgya mtsho"@bo-x-ewts ,
 		"khri chen blo gros rgya mtsho"@bo-x-ewts ,
 		"lab skyabs mgon 05 blo gros rgya mtsho"@bo-x-ewts ,
 		"stag lung brag pa blo gros rgya mtsho"@bo-x-ewts
@@ -12973,15 +13460,16 @@ told:_Person_984
 
 told:_Person_9884
 	tolo:alternateName
+		"'gyur med kun bzang bstan pa'i nyi ma"@bo-x-ewts ,
 		"Gyurme Kunzang Tenpai Gyeltsen"@en ,
 		"Gyurme Kunzang Tenpai Nyima"@en ,
-		"gyur med kun bzang bstan pa'i nyi ma"@bo-x-ewts ,
 		"pad+ma theg mchog bstan pa'i   rgyal mtshan"@bo-x-ewts
 		;
 	.
 
 told:_Person_9895
 	tolo:alternateName
+		"'od gsal rin chen snying po"@bo-x-ewts ,
 		"Dzogchen Khenpo Ngakchung"@en ,
 		"Katok Khenpo Ngawang Pelzang"@en ,
 		"Khenpo Ngaga"@en ,
@@ -12998,11 +13486,14 @@ told:_Person_9895
 		"mkhan po ngag dga'"@bo-x-ewts ,
 		"ngag chung"@bo-x-ewts ,
 		"ngag dbang dpal bzang"@bo-x-ewts ,
-		"od gsal rin chen snying po"@bo-x-ewts ,
 		"pad+ma las 'brel rtsal"@bo-x-ewts ,
 		"rdzogs chen mkhan po ngag chung"@bo-x-ewts ,
 		"tshul khrims rgya mtsho"@bo-x-ewts
 		;
+	.
+
+told:_Person_9910
+	tolo:alternateName "kha che'i mkhan po d+harma   shrI"@bo-x-ewts ;
 	.
 
 told:_Person_9923
@@ -13088,9 +13579,9 @@ told:_Person_9985
 
 told:_Person_9990
 	tolo:alternateName
+		"'jam dbyangs chos kyi blo gros"@bo-x-ewts ,
 		"Dzongsar Khyentse Chokyi Lodro"@en ,
 		"Jamyang Chokyi Lodro"@en ,
-		"jam dbyangs chos kyi blo gros"@bo-x-ewts ,
 		"rdzong sar mkhyen brtse 'jam dbyangs chos kyi blo gros"@bo-x-ewts
 		;
 	.
