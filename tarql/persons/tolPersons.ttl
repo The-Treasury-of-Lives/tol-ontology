@@ -40521,12 +40521,12 @@ told:_Person_10413
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"jigs med chos dbyings rdo rje"@bo-x-ewts ,
-		"འཇིགས་མེ���་ཆོས་དབྱིངས་རྡོ་རྗེ།"@bo
+		"འཇིགས་མེད་ཆོས་དབྱིངས་རྡོ་རྗེ།"@bo
 		;
 	tolo:hasEvent told:_Birth_10413 ;
 	tolo:primaryName
 		"jigs med chos dbyings rdo rje"@bo-x-ewts ,
-		"འཇིགས་མེ���་ཆོས་དབྱིངས་རྡོ་རྗེ།"@bo
+		"འཇིགས་མེད་ཆོས་དབྱིངས་རྡོ་རྗེ།"@bo
 		;
 	tolo:title "chags ri nyi sprul"@bo-x-ewts ;
 	.
@@ -42148,7 +42148,7 @@ told:_Person_10572
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"blo gros seng+ge"@bo-x-ewts ,
-		"བློ་གྲོས་སེངྒེ���"@bo
+		"བློ་གྲོས་སེངྒེ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_10572 ,
@@ -42156,7 +42156,7 @@ told:_Person_10572
 		;
 	tolo:primaryName
 		"blo gros seng+ge"@bo-x-ewts ,
-		"བློ་གྲོས་སེངྒེ���"@bo
+		"བློ་གྲོས་སེངྒེ།"@bo
 		;
 	.
 
@@ -42358,7 +42358,7 @@ told:_Person_10591
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"jam mgon a myes zhabs ngag dbang kun dga' bsod nams"@bo-x-ewts ,
-		"འཇམ་མགོན་ཨ་མྱེས་ཞབས་ངག་དབང་ཀུན་དགའ་བསོད་ན���ས།"@bo
+		"འཇམ་མགོན་ཨ་མྱེས་ཞབས་ངག་དབང་ཀུན་དགའ་བསོད་ནམས།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_10591 ,
@@ -42366,7 +42366,7 @@ told:_Person_10591
 		;
 	tolo:primaryName
 		"jam mgon a myes zhabs ngag dbang kun dga' bsod nams"@bo-x-ewts ,
-		"འཇམ་མགོན་ཨ་མྱེས་ཞབས་ངག་དབང་ཀུན་དགའ་བསོད་ན���ས།"@bo
+		"འཇམ་མགོན་ཨ་མྱེས་ཞབས་ངག་དབང་ཀུན་དགའ་བསོད་ནམས།"@bo
 		;
 	.
 
@@ -43094,7 +43094,7 @@ told:_Person_10658
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"blo gros 'bum"@bo-x-ewts ,
-		"བློ་གྲ���ས་འབུམ།"@bo
+		"བློ་གྲོས་འབུམ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_10658 ,
@@ -43102,7 +43102,7 @@ told:_Person_10658
 		;
 	tolo:primaryName
 		"blo gros 'bum"@bo-x-ewts ,
-		"བློ་གྲ���ས་འབུམ།"@bo
+		"བློ་གྲོས་འབུམ།"@bo
 		;
 	.
 
@@ -43323,12 +43323,12 @@ told:_Person_10678
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"kun bzang byams pa seng+ge"@bo-x-ewts ,
-		"ཀུན་བ���ང་བྱམས་པ་སེངྒེ།"@bo
+		"ཀུན་བཟང་བྱམས་པ་སེངྒེ།"@bo
 		;
 	tolo:hasEvent told:_Birth_10678 ;
 	tolo:primaryName
 		"kun bzang byams pa seng+ge"@bo-x-ewts ,
-		"ཀུན་བ���ང་བྱམས་པ་སེངྒེ།"@bo
+		"ཀུན་བཟང་བྱམས་པ་སེངྒེ།"@bo
 		;
 	tolo:title "phyag tsha sprul sku"@bo-x-ewts ;
 	.
@@ -43962,7 +43962,7 @@ told:_Person_10742
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"ngag dbang kun dga' blo gros"@bo-x-ewts ,
-		"ངག་དབང་ཀུན་དགའ་���ློ་གྲོས།"@bo
+		"ངག་དབང་ཀུན་དགའ་བློ་གྲོས།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_10742 ,
@@ -43970,7 +43970,7 @@ told:_Person_10742
 		;
 	tolo:primaryName
 		"ngag dbang kun dga' blo gros"@bo-x-ewts ,
-		"ངག་དབང་ཀུན་དགའ་���ློ་གྲོས།"@bo
+		"ངག་དབང་ཀུན་དགའ་བློ་གྲོས།"@bo
 		;
 	tolo:title "sa skya khri 'dzin"@bo-x-ewts ;
 	.
@@ -46242,12 +46242,12 @@ told:_Person_10982
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"dge ba'i blo gros"@bo-x-ewts ,
-		"དགེ་བའི་བློ་���ྲོས།"@bo
+		"དགེ་བའི་བློ་གྲོས།"@bo
 		;
 	tolo:hasEvent told:_Birth_10982 ;
 	tolo:primaryName
 		"dge ba'i blo gros"@bo-x-ewts ,
-		"དགེ་བའི་བློ་���ྲོས།"@bo
+		"དགེ་བའི་བློ་གྲོས།"@bo
 		;
 	.
 
@@ -50855,7 +50855,7 @@ told:_Person_11453
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"mnyam med shAkya ye shes"@bo-x-ewts ,
-		"མཉམ་མེད་ཤཱཀྱ��ཡེ་ཤེས།"@bo
+		"མཉམ་མེད་ཤཱཀྱ་ཡེ་ཤེས།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_11453 ,
@@ -50863,7 +50863,7 @@ told:_Person_11453
 		;
 	tolo:primaryName
 		"mnyam med shAkya ye shes"@bo-x-ewts ,
-		"མཉམ་མེད་ཤཱཀྱ��ཡེ་ཤེས།"@bo
+		"མཉམ་མེད་ཤཱཀྱ་ཡེ་ཤེས།"@bo
 		;
 	.
 
@@ -52489,7 +52489,7 @@ told:_Person_11618
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"ngag dbang 'phrin las bzang po"@bo-x-ewts ,
-		"ངག་དབང་འ���ྲིན་ལས་བཟང་པོ།"@bo
+		"ངག་དབང་འཕྲིན་ལས་བཟང་པོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_11618 ,
@@ -52497,7 +52497,7 @@ told:_Person_11618
 		;
 	tolo:primaryName
 		"ngag dbang 'phrin las bzang po"@bo-x-ewts ,
-		"ངག་དབང་འ���ྲིན་ལས་བཟང་པོ།"@bo
+		"ངག་དབང་འཕྲིན་ལས་བཟང་པོ།"@bo
 		;
 	tolo:title "lcags ra sprul sku"@bo-x-ewts ;
 	.
@@ -54204,7 +54204,7 @@ told:_Person_11790
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"zur khang dbang chen tshe brtan"@bo-x-ewts ,
-		"ཟུར་ཁང་��བང་ཆེན་ཚེ་བརྟན།"@bo
+		"ཟུར་ཁང་དབང་ཆེན་ཚེ་བརྟན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_11790 ,
@@ -54212,7 +54212,7 @@ told:_Person_11790
 		;
 	tolo:primaryName
 		"zur khang dbang chen tshe brtan"@bo-x-ewts ,
-		"ཟུར་ཁང་��བང་ཆེན་ཚེ་བརྟན།"@bo
+		"ཟུར་ཁང་དབང་ཆེན་ཚེ་བརྟན།"@bo
 		;
 	.
 
@@ -65941,7 +65941,7 @@ told:_Person_13069
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"grags pa rin chen shes rab"@bo-x-ewts ,
-		"གྲགས་པ་རིན་ཆེན་ཤེ���་རབ།"@bo
+		"གྲགས་པ་རིན་ཆེན་ཤེས་རབ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_13069 ,
@@ -65949,7 +65949,7 @@ told:_Person_13069
 		;
 	tolo:primaryName
 		"grags pa rin chen shes rab"@bo-x-ewts ,
-		"གྲགས་པ་རིན་ཆེན་ཤེ���་རབ།"@bo
+		"གྲགས་པ་རིན་ཆེན་ཤེས་རབ།"@bo
 		;
 	tolo:title "ri bo che rje drung"@bo-x-ewts ;
 	.
@@ -66728,12 +66728,12 @@ told:_Person_13112
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"chos dpal bzang po"@bo-x-ewts ,
-		"ཆ��ས་དཔལ་བཟང་པོ།"@bo
+		"ཆོས་དཔལ་བཟང་པོ།"@bo
 		;
 	tolo:hasEvent told:_Birth_13112 ;
 	tolo:primaryName
 		"chos dpal bzang po"@bo-x-ewts ,
-		"ཆ��ས་དཔལ་བཟང་པོ།"@bo
+		"ཆོས་དཔལ་བཟང་པོ།"@bo
 		;
 	.
 
@@ -67132,7 +67132,7 @@ told:_Person_13139
 	bdo:personGender bdr:GenderFemale ;
 	skos:prefLabel
 		"a g.yu mkha' 'gro rdo rje dpal sgron"@bo-x-ewts ,
-		"ཨ་གཡུ་མཁའ་འགྲོ་རྡོ་རྗེ��དཔལ་སྒྲོན།"@bo
+		"ཨ་གཡུ་མཁའ་འགྲོ་རྡོ་རྗེ་དཔལ་སྒྲོན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_13139 ,
@@ -67140,7 +67140,7 @@ told:_Person_13139
 		;
 	tolo:primaryName
 		"a g.yu mkha' 'gro rdo rje dpal sgron"@bo-x-ewts ,
-		"ཨ་གཡུ་མཁའ་འགྲོ་རྡོ་རྗེ��དཔལ་སྒྲོན།"@bo
+		"ཨ་གཡུ་མཁའ་འགྲོ་རྡོ་རྗེ་དཔལ་སྒྲོན།"@bo
 		;
 	.
 
@@ -68113,7 +68113,7 @@ told:_Person_13203
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"dge 'dun dkon mchog blo bzang bstan 'dzin"@bo-x-ewts ,
-		"དགེ་འདུན་དཀོན་མཆོག་བློ་བཟང་བསྟ��་འཛིན།"@bo
+		"དགེ་འདུན་དཀོན་མཆོག་བློ་བཟང་བསྟན་འཛིན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_13203 ,
@@ -68121,7 +68121,7 @@ told:_Person_13203
 		;
 	tolo:primaryName
 		"dge 'dun dkon mchog blo bzang bstan 'dzin"@bo-x-ewts ,
-		"དགེ་འདུན་དཀོན་མཆོག་བློ་བཟང་བསྟ��་འཛིན།"@bo
+		"དགེ་འདུན་དཀོན་མཆོག་བློ་བཟང་བསྟན་འཛིན།"@bo
 		;
 	tolo:title "ma Ni pa"@bo-x-ewts ;
 	.
@@ -68644,12 +68644,12 @@ told:_Person_13239
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"dge sbyong bkra shis 'bum"@bo-x-ewts ,
-		"དགེ་སྦྱོང་བཀྲ་ཤིས་འབ��མ།"@bo
+		"དགེ་སྦྱོང་བཀྲ་ཤིས་འབུམ།"@bo
 		;
 	tolo:hasEvent told:_Birth_13239 ;
 	tolo:primaryName
 		"dge sbyong bkra shis 'bum"@bo-x-ewts ,
-		"དགེ་སྦྱོང་བཀྲ་ཤིས་འབ��མ།"@bo
+		"དགེ་སྦྱོང་བཀྲ་ཤིས་འབུམ།"@bo
 		;
 	.
 
@@ -68736,7 +68736,7 @@ told:_Person_13246
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"jam dbyangs kun bzang thub bstan chos kyi rgyal mtshan"@bo-x-ewts ,
-		"འཇམ་དབྱངས་ཀུན་བཟང་ཐུབ་བསྟན་ཆོས་ཀྱི་རྒ��ལ་མཚན།"@bo
+		"འཇམ་དབྱངས་ཀུན་བཟང་ཐུབ་བསྟན་ཆོས་ཀྱི་རྒྱལ་མཚན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_13246 ,
@@ -68744,7 +68744,7 @@ told:_Person_13246
 		;
 	tolo:primaryName
 		"jam dbyangs kun bzang thub bstan chos kyi rgyal mtshan"@bo-x-ewts ,
-		"འཇམ་དབྱངས་ཀུན་བཟང་ཐུབ་བསྟན་ཆོས་ཀྱི་རྒ��ལ་མཚན།"@bo
+		"འཇམ་དབྱངས་ཀུན་བཟང་ཐུབ་བསྟན་ཆོས་ཀྱི་རྒྱལ་མཚན།"@bo
 		;
 	.
 
@@ -70558,12 +70558,12 @@ told:_Person_13441
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"sgom pa a grub pa"@bo-x-ewts ,
-		"སྒོམ་པ��ཨ་གྲུབ་པ།"@bo
+		"སྒོམ་པ་ཨ་གྲུབ་པ།"@bo
 		;
 	tolo:hasEvent told:_Birth_13441 ;
 	tolo:primaryName
 		"sgom pa a grub pa"@bo-x-ewts ,
-		"སྒོམ་པ��ཨ་གྲུབ་པ།"@bo
+		"སྒོམ་པ་ཨ་གྲུབ་པ།"@bo
 		;
 	.
 
@@ -70666,12 +70666,12 @@ told:_Person_13448
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"slob dpon ye shes byang chub"@bo-x-ewts ,
-		"སློབ་དཔོན་ཡེ་ཤེས་བྱང་ཆུབ��"@bo
+		"སློབ་དཔོན་ཡེ་ཤེས་བྱང་ཆུབ།"@bo
 		;
 	tolo:hasEvent told:_Birth_13448 ;
 	tolo:primaryName
 		"slob dpon ye shes byang chub"@bo-x-ewts ,
-		"སློབ་དཔོན་ཡེ་ཤེས་བྱང་ཆུབ��"@bo
+		"སློབ་དཔོན་ཡེ་ཤེས་བྱང་ཆུབ།"@bo
 		;
 	.
 
@@ -73082,7 +73082,7 @@ told:_Person_13659
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"rtogs ldan o rgyan bstan 'dzin"@bo-x-ewts ,
-		"རྟོག���ལྡན་ཨོ་རྒྱན་བསྟན་འཛིན།"@bo
+		"རྟོག་ལྡན་ཨོ་རྒྱན་བསྟན་འཛིན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_13659 ,
@@ -73090,7 +73090,7 @@ told:_Person_13659
 		;
 	tolo:primaryName
 		"rtogs ldan o rgyan bstan 'dzin"@bo-x-ewts ,
-		"རྟོག���ལྡན་ཨོ་རྒྱན་བསྟན་འཛིན།"@bo
+		"རྟོག་ལྡན་ཨོ་རྒྱན་བསྟན་འཛིན།"@bo
 		;
 	.
 
@@ -73705,7 +73705,7 @@ told:_Person_13708
 	bdo:personGender bdr:GenderFemale ;
 	skos:prefLabel
 		"rig 'dzin chos sgron"@bo-x-ewts ,
-		"རིག་འཛིན་ཆོས་སྒ���ོན།"@bo
+		"རིག་འཛིན་ཆོས་སྒྲོན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_13708 ,
@@ -73713,7 +73713,7 @@ told:_Person_13708
 		;
 	tolo:primaryName
 		"rig 'dzin chos sgron"@bo-x-ewts ,
-		"རིག་འཛིན་ཆོས་སྒ���ོན།"@bo
+		"རིག་འཛིན་ཆོས་སྒྲོན།"@bo
 		;
 	.
 
@@ -73798,7 +73798,7 @@ told:_Person_13719
 	bdo:personGender bdr:GenderFemale ;
 	skos:prefLabel
 		"rgya ri 'chi med sgrol ma"@bo-x-ewts ,
-		"རྒྱ་རི་འཆི་མ��ད་སྒྲོལ་མ།"@bo
+		"རྒྱ་རི་འཆི་མེད་སྒྲོལ་མ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_13719 ,
@@ -73806,7 +73806,7 @@ told:_Person_13719
 		;
 	tolo:primaryName
 		"rgya ri 'chi med sgrol ma"@bo-x-ewts ,
-		"རྒྱ་རི་འཆི་མ��ད་སྒྲོལ་མ།"@bo
+		"རྒྱ་རི་འཆི་མེད་སྒྲོལ་མ།"@bo
 		;
 	.
 
@@ -75846,12 +75846,12 @@ told:_Person_13882
 	bdo:personGender bdr:GenderFemale ;
 	skos:prefLabel
 		"lha cig ldem bu"@bo-x-ewts ,
-		"ལྷ་ཅིག་��ྡེམ་བུ།"@bo
+		"ལྷ་ཅིག་ལྡེམ་བུ།"@bo
 		;
 	tolo:hasEvent told:_Birth_13882 ;
 	tolo:primaryName
 		"lha cig ldem bu"@bo-x-ewts ,
-		"ལྷ་ཅིག་��ྡེམ་བུ།"@bo
+		"ལྷ་ཅིག་ལྡེམ་བུ།"@bo
 		;
 	.
 
@@ -77420,7 +77420,7 @@ told:_Person_1575
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"rgyal ba rgya mtsho"@bo-x-ewts ,
-		"རྒྱལ་བ་རྒྱ་མཚོ��"@bo
+		"རྒྱལ་བ་རྒྱ་མཚོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_1575 ,
@@ -77428,7 +77428,7 @@ told:_Person_1575
 		;
 	tolo:primaryName
 		"rgyal ba rgya mtsho"@bo-x-ewts ,
-		"རྒྱལ་བ་རྒྱ་མཚོ��"@bo
+		"རྒྱལ་བ་རྒྱ་མཚོ།"@bo
 		;
 	tolo:title "stong 'khor"@bo-x-ewts ;
 	.
@@ -84479,7 +84479,7 @@ told:_Person_2329
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"ngag dbang byams pa"@bo-x-ewts ,
-		"ངག་དབང���བྱམས་པ།"@bo
+		"ངག་དབང་བྱམས་པ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_2329 ,
@@ -84487,7 +84487,7 @@ told:_Person_2329
 		;
 	tolo:primaryName
 		"ngag dbang byams pa"@bo-x-ewts ,
-		"ངག་དབང���བྱམས་པ།"@bo
+		"ངག་དབང་བྱམས་པ།"@bo
 		;
 	tolo:title "phur lcog"@bo-x-ewts ;
 	.
@@ -84606,7 +84606,7 @@ told:_Person_2339
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"jam dpal rgya mtsho"@bo-x-ewts ,
-		"འཇམ་དཔ���་རྒྱ་མཚོ།"@bo
+		"འཇམ་དཔལ་རྒྱ་མཚོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_2339 ,
@@ -84614,7 +84614,7 @@ told:_Person_2339
 		;
 	tolo:primaryName
 		"jam dpal rgya mtsho"@bo-x-ewts ,
-		"འཇམ་དཔ���་རྒྱ་མཚོ།"@bo
+		"འཇམ་དཔལ་རྒྱ་མཚོ།"@bo
 		;
 	tolo:title "ta la'i bla ma"@bo-x-ewts ;
 	.
@@ -90602,7 +90602,7 @@ told:_Person_2899
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"jig rten mgon po rin chen dpal"@bo-x-ewts ,
-		"འཇིག་རྟེན་མགོན་པོ་རིན་ཆ��ན་དཔལ།"@bo
+		"འཇིག་རྟེན་མགོན་པོ་རིན་ཆེན་དཔལ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_2899 ,
@@ -90610,7 +90610,7 @@ told:_Person_2899
 		;
 	tolo:primaryName
 		"jig rten mgon po rin chen dpal"@bo-x-ewts ,
-		"འཇིག་རྟེན་མགོན་པོ་རིན་ཆ��ན་དཔལ།"@bo
+		"འཇིག་རྟེན་མགོན་པོ་རིན་ཆེན་དཔལ།"@bo
 		;
 	.
 
@@ -92618,7 +92618,7 @@ told:_Person_3072
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"jam dbyangs nor bu"@bo-x-ewts ,
-		"འཇམ་���བྱངས་ནོར་བུ།"@bo
+		"འཇམ་དབྱངས་ནོར་བུ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_3072 ,
@@ -92626,7 +92626,7 @@ told:_Person_3072
 		;
 	tolo:primaryName
 		"jam dbyangs nor bu"@bo-x-ewts ,
-		"འཇམ་���བྱངས་ནོར་བུ།"@bo
+		"འཇམ་དབྱངས་ནོར་བུ།"@bo
 		;
 	tolo:title "co ne sa skyong"@bo-x-ewts ;
 	.
@@ -93676,7 +93676,7 @@ told:_Person_3168
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"sgam po pa bsod nams rin chen"@bo-x-ewts ,
-		"སྒམ་པོ་པ་བསོད་ནམས་རི��་ཆེན།"@bo
+		"སྒམ་པོ་པ་བསོད་ནམས་རིན་ཆེན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_3168 ,
@@ -93684,7 +93684,7 @@ told:_Person_3168
 		;
 	tolo:primaryName
 		"sgam po pa bsod nams rin chen"@bo-x-ewts ,
-		"སྒམ་པོ་པ་བསོད་ནམས་རི��་ཆེན།"@bo
+		"སྒམ་པོ་པ་བསོད་ནམས་རིན་ཆེན།"@bo
 		;
 	.
 
@@ -93939,7 +93939,7 @@ told:_Person_3188
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"tA dban kun dga' rin chen"@bo-x-ewts ,
-		"ཏཱ་དབན་ཀུན་དག���་རིན་ཆེན།"@bo
+		"ཏཱ་དབན་ཀུན་དགའ་རིན་ཆེན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_3188 ,
@@ -93947,7 +93947,7 @@ told:_Person_3188
 		;
 	tolo:primaryName
 		"tA dban kun dga' rin chen"@bo-x-ewts ,
-		"ཏཱ་དབན་ཀུན་དག���་རིན་ཆེན།"@bo
+		"ཏཱ་དབན་ཀུན་དགའ་རིན་ཆེན།"@bo
 		;
 	.
 
@@ -99560,7 +99560,7 @@ told:_Person_3794
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"ngag dbang 'jigs med mkhyen rab bstan 'dzin 'phrin las"@bo-x-ewts ,
-		"ངག་དབང་འཇིགས་མེད་མཁྱེན་རབ་བསྟན་���ཛིན་འཕྲིན་ལས།"@bo
+		"ངག་དབང་འཇིགས་མེད་མཁྱེན་རབ་བསྟན་འཛིན་འཕྲིན་ལས།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_3794 ,
@@ -99568,7 +99568,7 @@ told:_Person_3794
 		;
 	tolo:primaryName
 		"ngag dbang 'jigs med mkhyen rab bstan 'dzin 'phrin las"@bo-x-ewts ,
-		"ངག་དབང་འཇིགས་མེད་མཁྱེན་རབ་བསྟན་���ཛིན་འཕྲིན་ལས།"@bo
+		"ངག་དབང་འཇིགས་མེད་མཁྱེན་རབ་བསྟན་འཛིན་འཕྲིན་ལས།"@bo
 		;
 	tolo:title "zhi ba lha"@bo-x-ewts ;
 	.
@@ -104081,7 +104081,7 @@ told:_Person_4222
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"nam mkha' rin chen"@bo-x-ewts ,
-		"ནམ་མཁའ་རི��་ཆེན།"@bo
+		"ནམ་མཁའ་རིན་ཆེན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_4222 ,
@@ -104089,7 +104089,7 @@ told:_Person_4222
 		;
 	tolo:primaryName
 		"nam mkha' rin chen"@bo-x-ewts ,
-		"ནམ་མཁའ་རི��་ཆེན།"@bo
+		"ནམ་མཁའ་རིན་ཆེན།"@bo
 		;
 	tolo:title "ngor mkhan chen"@bo-x-ewts ;
 	.
@@ -104593,7 +104593,7 @@ told:_Person_4267
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"brom ston rgyal ba'i 'byung gnas"@bo-x-ewts ,
-		"འ���ྲོམ་སྟོན་རྒྱལ་བའི་འབྱུང་གནས།"@bo
+		"འབྲོམ་སྟོན་རྒྱལ་བའི་འབྱུང་གནས།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_4267 ,
@@ -104601,7 +104601,7 @@ told:_Person_4267
 		;
 	tolo:primaryName
 		"brom ston rgyal ba'i 'byung gnas"@bo-x-ewts ,
-		"འ���ྲོམ་སྟོན་རྒྱལ་བའི་འབྱུང་གནས།"@bo
+		"འབྲོམ་སྟོན་རྒྱལ་བའི་འབྱུང་གནས།"@bo
 		;
 	.
 
@@ -106370,7 +106370,7 @@ told:_Person_4425
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"dpal sprul rin po che"@bo-x-ewts ,
-		"ད��ལ་སྤྲུལ་ཨོ་རྒྱན་འཇིགས་མེད་ཆོས་ཀྱི་དབང་པོ།"@bo
+		"དཔལ་སྤྲུལ་ཨོ་རྒྱན་འཇིགས་མེད་ཆོས་ཀྱི་དབང་པོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_4425 ,
@@ -106378,7 +106378,7 @@ told:_Person_4425
 		;
 	tolo:primaryName
 		"dpal sprul rin po che"@bo-x-ewts ,
-		"ད��ལ་སྤྲུལ་ཨོ་རྒྱན་འཇིགས་མེད་ཆོས་ཀྱི་དབང་པོ།"@bo
+		"དཔལ་སྤྲུལ་ཨོ་རྒྱན་འཇིགས་མེད་ཆོས་ཀྱི་དབང་པོ།"@bo
 		;
 	.
 
@@ -114206,12 +114206,12 @@ told:_Person_5313
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"sum ston ye shes gzungs"@bo-x-ewts ,
-		"སུམ་སྟོན���ཡེ་ཤེས་གཟུངས།"@bo
+		"སུམ་སྟོན་ཡེ་ཤེས་གཟུངས།"@bo
 		;
 	tolo:hasEvent told:_Birth_5313 ;
 	tolo:primaryName
 		"sum ston ye shes gzungs"@bo-x-ewts ,
-		"སུམ་སྟོན���ཡེ་ཤེས་གཟུངས།"@bo
+		"སུམ་སྟོན་ཡེ་ཤེས་གཟུངས།"@bo
 		;
 	.
 
@@ -116091,7 +116091,7 @@ told:_Person_5500
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"gos lo tsA ba gzhon nu dpal"@bo-x-ewts ,
-		"འགོས་ལོ་ཙཱ་བ་གཞོན་ནུ་��པལ།"@bo
+		"འགོས་ལོ་ཙཱ་བ་གཞོན་ནུ་དཔལ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_5500 ,
@@ -116099,7 +116099,7 @@ told:_Person_5500
 		;
 	tolo:primaryName
 		"gos lo tsA ba gzhon nu dpal"@bo-x-ewts ,
-		"འགོས་ལོ་ཙཱ་བ་གཞོན་ནུ་��པལ།"@bo
+		"འགོས་ལོ་ཙཱ་བ་གཞོན་ནུ་དཔལ།"@bo
 		;
 	.
 
@@ -117526,7 +117526,7 @@ told:_Person_5652
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"ngag dbang tshul khrims"@bo-x-ewts ,
-		"���ག་དབང་ཚུལ་ཁྲིམས།"@bo
+		"ངག་དབང་ཚུལ་ཁྲིམས།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_5652 ,
@@ -117534,7 +117534,7 @@ told:_Person_5652
 		;
 	tolo:primaryName
 		"ngag dbang tshul khrims"@bo-x-ewts ,
-		"���ག་དབང་ཚུལ་ཁྲིམས།"@bo
+		"ངག་དབང་ཚུལ་ཁྲིམས།"@bo
 		;
 	tolo:title "dga' ldan khri pa"@bo-x-ewts ;
 	.
@@ -119025,12 +119025,12 @@ told:_Person_5803
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"gos khug pa lhas btsas"@bo-x-ewts ,
-		"འགོས་ཁུག་པ་ལྷས་���ཙས།"@bo
+		"འགོས་ཁུག་པ་ལྷས་བཙས།"@bo
 		;
 	tolo:hasEvent told:_Birth_5803 ;
 	tolo:primaryName
 		"gos khug pa lhas btsas"@bo-x-ewts ,
-		"འགོས་ཁུག་པ་ལྷས་���ཙས།"@bo
+		"འགོས་ཁུག་པ་ལྷས་བཙས།"@bo
 		;
 	.
 
@@ -120070,7 +120070,7 @@ told:_Person_5901
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"dge 'dun tshul khrims"@bo-x-ewts ,
-		"དགེ་འདུན་ཚུལ་ཁྲིམ��།"@bo
+		"དགེ་འདུན་ཚུལ་ཁྲིམས།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_5901 ,
@@ -120078,7 +120078,7 @@ told:_Person_5901
 		;
 	tolo:primaryName
 		"dge 'dun tshul khrims"@bo-x-ewts ,
-		"དགེ་འདུན་ཚུལ་ཁྲིམ��།"@bo
+		"དགེ་འདུན་ཚུལ་ཁྲིམས།"@bo
 		;
 	tolo:title "dga' ldan khri pa"@bo-x-ewts ;
 	.
@@ -122266,7 +122266,7 @@ told:_Person_6110
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"dkon mchog bstan pa'i rgya mtsho"@bo-x-ewts ,
-		"དཀོན་མཆོག་བསྟན་པའི་རྒྱ��མཚོ།"@bo
+		"དཀོན་མཆོག་བསྟན་པའི་རྒྱ་མཚོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_6110 ,
@@ -122274,7 +122274,7 @@ told:_Person_6110
 		;
 	tolo:primaryName
 		"dkon mchog bstan pa'i rgya mtsho"@bo-x-ewts ,
-		"དཀོན་མཆོག་བསྟན་པའི་རྒྱ��མཚོ།"@bo
+		"དཀོན་མཆོག་བསྟན་པའི་རྒྱ་མཚོ།"@bo
 		;
 	tolo:title "gung thang"@bo-x-ewts ;
 	.
@@ -123757,7 +123757,7 @@ told:_Person_6257
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"sa bzang 'phags pa gzhon nu blo gros"@bo-x-ewts ,
-		"ས་བཟང་འཕགས་པ་གཞོན་ནུ་བ��ོ་གྲོས།"@bo
+		"ས་བཟང་འཕགས་པ་གཞོན་ནུ་བློ་གྲོས།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_6257 ,
@@ -123765,7 +123765,7 @@ told:_Person_6257
 		;
 	tolo:primaryName
 		"sa bzang 'phags pa gzhon nu blo gros"@bo-x-ewts ,
-		"ས་བཟང་འཕགས་པ་གཞོན་ནུ་བ��ོ་གྲོས།"@bo
+		"ས་བཟང་འཕགས་པ་གཞོན་ནུ་བློ་གྲོས།"@bo
 		;
 	.
 
@@ -124689,7 +124689,7 @@ told:_Person_6342
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"bskal bzang dbang phyug"@bo-x-ewts ,
-		"བསྐལ་���ཟང་དབང་ཕྱུག།"@bo
+		"བསྐལ་བཟང་དབང་ཕྱུག།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_6342 ,
@@ -124697,7 +124697,7 @@ told:_Person_6342
 		;
 	tolo:primaryName
 		"bskal bzang dbang phyug"@bo-x-ewts ,
-		"བསྐལ་���ཟང་དབང་ཕྱུག།"@bo
+		"བསྐལ་བཟང་དབང་ཕྱུག།"@bo
 		;
 	tolo:title "co ne sa skyong"@bo-x-ewts ;
 	.
@@ -132664,7 +132664,7 @@ told:_Person_7090
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"rin chen nam mkha' rdo rje"@bo-x-ewts ,
-		"རིན་ཆེན་ནམ་མཁའ་ར��ོ་རྗེ།"@bo
+		"རིན་ཆེན་ནམ་མཁའ་རྡོ་རྗེ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_7090 ,
@@ -132672,7 +132672,7 @@ told:_Person_7090
 		;
 	tolo:primaryName
 		"rin chen nam mkha' rdo rje"@bo-x-ewts ,
-		"རིན་ཆེན་ནམ་མཁའ་ར��ོ་རྗེ།"@bo
+		"རིན་ཆེན་ནམ་མཁའ་རྡོ་རྗེ།"@bo
 		;
 	.
 
@@ -134695,7 +134695,7 @@ told:_Person_7294
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"dpal 'byor lhun grub"@bo-x-ewts ,
-		"དཔ���་འབྱོར་ལྷུན་གྲུབ།"@bo
+		"དཔལ་འབྱོར་ལྷུན་གྲུབ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_7294 ,
@@ -134703,7 +134703,7 @@ told:_Person_7294
 		;
 	tolo:primaryName
 		"dpal 'byor lhun grub"@bo-x-ewts ,
-		"དཔ���་འབྱོར་ལྷུན་གྲུབ།"@bo
+		"དཔལ་འབྱོར་ལྷུན་གྲུབ།"@bo
 		;
 	.
 
@@ -139004,12 +139004,12 @@ told:_Person_7736
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"byang chub blo gros"@bo-x-ewts ,
-		"བྱང་ཆུབ��བློ་གྲོས།"@bo
+		"བྱང་ཆུབ་བློ་གྲོས།"@bo
 		;
 	tolo:hasEvent told:_Birth_7736 ;
 	tolo:primaryName
 		"byang chub blo gros"@bo-x-ewts ,
-		"བྱང་ཆུབ��བློ་གྲོས།"@bo
+		"བྱང་ཆུབ་བློ་གྲོས།"@bo
 		;
 	.
 
@@ -139386,7 +139386,7 @@ told:_Person_7775
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"yang dgon pa rgyal mtshan dpal"@bo-x-ewts ,
-		"ཡང་དགོན་པ���རྒྱལ་མཚན་དཔལ།"@bo
+		"ཡང་དགོན་པ་རྒྱལ་མཚན་དཔལ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_7775 ,
@@ -139394,7 +139394,7 @@ told:_Person_7775
 		;
 	tolo:primaryName
 		"yang dgon pa rgyal mtshan dpal"@bo-x-ewts ,
-		"ཡང་དགོན་པ���རྒྱལ་མཚན་དཔལ།"@bo
+		"ཡང་དགོན་པ་རྒྱལ་མཚན་དཔལ།"@bo
 		;
 	.
 
@@ -147109,12 +147109,12 @@ told:_Person_8543
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"brtson 'grus rgya mtsho"@bo-x-ewts ,
-		"བརྩོན་འགྲུས་��ྒྱ་མཚོ།"@bo
+		"བརྩོན་འགྲུས་རྒྱ་མཚོ།"@bo
 		;
 	tolo:hasEvent told:_Birth_8543 ;
 	tolo:primaryName
 		"brtson 'grus rgya mtsho"@bo-x-ewts ,
-		"བརྩོན་འགྲུས་��ྒྱ་མཚོ།"@bo
+		"བརྩོན་འགྲུས་རྒྱ་མཚོ།"@bo
 		;
 	.
 
@@ -148186,12 +148186,12 @@ told:_Person_8633
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"hor mdo smyon rin po che"@bo-x-ewts ,
-		"ཧོར་མདོ་སྨྱ���ན་རིན་པོ་ཆེ།"@bo
+		"ཧོར་མདོ་སྨྱོན་རིན་པོ་ཆེ།"@bo
 		;
 	tolo:hasEvent told:_Birth_8633 ;
 	tolo:primaryName
 		"hor mdo smyon rin po che"@bo-x-ewts ,
-		"ཧོར་མདོ་སྨྱ���ན་རིན་པོ་ཆེ།"@bo
+		"ཧོར་མདོ་སྨྱོན་རིན་པོ་ཆེ།"@bo
 		;
 	.
 
@@ -149350,7 +149350,7 @@ told:_Person_8752
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"ngag dbang blo gros grags pa"@bo-x-ewts ,
-		"ངག་དབང་བློ་གྲོས་གྲག���་པ།"@bo
+		"ངག་དབང་བློ་གྲོས་གྲགས་པ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_8752 ,
@@ -149358,7 +149358,7 @@ told:_Person_8752
 		;
 	tolo:primaryName
 		"ngag dbang blo gros grags pa"@bo-x-ewts ,
-		"ངག་དབང་བློ་གྲོས་གྲག���་པ།"@bo
+		"ངག་དབང་བློ་གྲོས་གྲགས་པ།"@bo
 		;
 	.
 
@@ -152455,7 +152455,7 @@ told:_Person_9056
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"blo bzang snyan grags rgya mtsho"@bo-x-ewts ,
-		"བློ་བཟང་སྙན་གྲགས་རྒྱ་མཚ��།"@bo
+		"བློ་བཟང་སྙན་གྲགས་རྒྱ་མཚོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_9056 ,
@@ -152463,7 +152463,7 @@ told:_Person_9056
 		;
 	tolo:primaryName
 		"blo bzang snyan grags rgya mtsho"@bo-x-ewts ,
-		"བློ་བཟང་སྙན་གྲགས་རྒྱ་མཚ��།"@bo
+		"བློ་བཟང་སྙན་གྲགས་རྒྱ་མཚོ།"@bo
 		;
 	tolo:title "dga' ldan khri pa"@bo-x-ewts ;
 	.
@@ -153977,7 +153977,7 @@ told:_Person_9201
 	bdo:personGender bdr:GenderMale ;
 	skos:prefLabel
 		"rang byung rdo rje"@bo-x-ewts ,
-		"རང་བྱུང་རྡོ་ར���ེ།"@bo
+		"རང་བྱུང་རྡོ་རྗེ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_9201 ,
@@ -153985,7 +153985,7 @@ told:_Person_9201
 		;
 	tolo:primaryName
 		"rang byung rdo rje"@bo-x-ewts ,
-		"རང་བྱུང་རྡོ་ར���ེ།"@bo
+		"རང་བྱུང་རྡོ་རྗེ།"@bo
 		;
 	tolo:title "karma pa"@bo-x-ewts ;
 	.
