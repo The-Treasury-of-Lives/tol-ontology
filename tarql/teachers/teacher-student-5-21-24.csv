@@ -1,0 +1,697 @@
+teacher_id,tbrc_teacher_id,teacher_default_name,teacher_default_name-_lang-encoding,teacher_has_bio,student_id,student_bdrc_id,student_default_name,student_default_name-_lang-encoding,student_has_bio
+40,P00EGS1016936,"Acharya Sempa Dorje",2,5,2147,P10569,"mtha' yas rdo rje",2,NULL
+200,P00KG02843,"karma legs bshad sgra dbyangs",1,NULL,12180,P938,"Karma Rangjung Kunkhyab",1,5
+294,P012AG03491,"gling bzhag o rgyan lhun grub",1,NULL,13688,P8LS76439,"Khamtrul Sherab Mebar",1,5
+330,P0RK1033,"lha mo bung ba'i padma",1,NULL,13773,P4CZ10542,"Gelongma Pelmo",1,5
+1311,P0RK714,"mkhas grub chos rje",1,NULL,8455,P5894,"Kunden Rema",1,5
+1616,P10079,"kun dga' thugs rje",1,NULL,11437,P8697,"Jampel Namdrol Chokyi Gyeltsen",1,5
+1696,P10155,"a seng",1,NULL,2203,P1062,"Zhangton Konchok Pel",1,5
+1817,P10267,"pad+ma bshes gnyen",1,NULL,13688,P8LS76439,"Khamtrul Sherab Mebar",1,5
+2069,P10497,"Rinchen Dorje",2,5,12743,P9907,"Damcho Wozer",2,5
+2162,P10582,"Tashi Namgyel",2,5,6230,P385,"Mikyo Dorje",2,4
+2203,P1062,"Zhangton Konchok Pel",2,5,6735,P431,"Rongton Sheja Kunrik",2,5
+2246,P10659,"pad+ma mchog dpal bzang po",1,NULL,13683,P8LS76442,"Jampa Gyeltsen Lhalungpa",1,5
+2328,P1079,"Chokyi Gyelpo",2,5,2442,P1182,"Sumpa Damcho Gyatso",2,5
+2418,P1160,"Ngawang Lobzang",2,5,276,P00KG09732,"Lhagyari Namgyel Gyatso",2,5
+2418,P1160,"Ngawang Lobzang",2,5,13120,P2AG27,"Drodul Dorji Tenzin",2,5
+2419,P1161,"Dungkar Lobzang Trinle",2,5,7613,P5110,"Dondrub Gyel",2,5
+2419,P1161,"Dungkar Lobzang Trinle",2,5,10386,P7707,"'brug thar",2,NULL
+2483,P1219,"Kyoton Monlam Tsultrim",2,5,8730,P6145,"Dromton Zhonnu Lodro",2,5
+2484,P122,"ngag dbang thub bstan rgya   mtsho",1,NULL,7881,P5367,"Jamyang Tenzin Gyatso",1,5
+2491,P1226,"Lama Dampa Sonam Gyeltsen",2,5,3266,P1932,"Barawa Gyeltsen Pelzang",2,5
+2541,P1271,"Takla Norbu",2,5,13685,P2KG228978,"rig 'dzin 'ja' lus rdo rje",2,NULL
+2570,P1298,"blo bzang grags pa",1,NULL,4086,P2388,"Jangchub Tsemo",1,5
+2653,P1373,"bkra shis 'od zer",1,NULL,12180,P938,"Karma Rangjung Kunkhyab",1,5
+2653,P1373,"bkra shis 'od zer",1,NULL,13841,,"Karma Jangchub Gyelpo",1,5
+2661,P1380,"Peljor Dondrub",2,5,1659,P1012,"Tashi Peljor",2,5
+2662,P1382,"Choying Dorje",2,5,13838,,"Jangchub Nyima",2,5
+2670,P139,"Dolpopa Sherab Gyeltsen",2,5,4086,P2388,"Jangchub Tsemo",2,5
+2673,P1392,"nges don bstan pa rab rgyas",1,NULL,8181,P564,"Chokgyur Lingpa",1,5
+2673,P1392,"nges don bstan pa rab rgyas",1,NULL,13861,,"Karma Ngawang Drakpa Chokdrub",1,5
+2730,P1445,"Karma Shedrub Chokyi Sengge",2,5,10355,P7679,"Kunga Tenpai Nyima",2,5
+2733,P1448,"Orgyenpa Rinchen Pel",2,5,8455,P5894,"Kunden Rema",2,5
+2758,P1470,"Kelzang Tubten Wangchuk",2,5,1902,P10343,"Kelzang Lodro Kunga Lungtok Gyatso",2,5
+2768,P148,"bsod nams grags pa",1,NULL,8454,P5893,"Kunpang Delek Rinchen",1,5
+2776,P1487,"Karma Pakshi",2,5,8455,P5894,"Kunden Rema",2,5
+2788,P1499,"Jigme Trinle Gyatso",2,5,7882,P5368,"Jigme Tsultrim Namgyel",2,5
+2799,P1508,"Tropu Gyeltsa Rinchen Gon",2,5,7373,P4892,"Chegompa Sherab Dorje",2,5
+2799,P1508,"Tropu Gyeltsa Rinchen Gon",2,5,13462,P1AG37,"Machik Rema",2,5
+2801,P151,"Sabzang Mati Paṇchen Lodro Gyeltsen",2,5,4086,P2388,"Jangchub Tsemo",2,5
+2810,P1518,Śākyaśrībhadra,3,5,6010,P365,"Namkha Pel",3,5
+2845,P155,"Buton Rinchen Drub",2,5,3266,P1932,"Barawa Gyeltsen Pelzang",2,5
+2845,P155,"Buton Rinchen Drub",2,5,3936,P2252,"Drigung Lotsāwa Maṇikaśrījñāna",2,5
+2845,P155,"Buton Rinchen Drub",2,5,13870,,"Sanggye Gyeltsen",2,5
+2939,P1636,"blo bzang tshul khrims chos   'phel",1,NULL,13652,P3CN15711,"Ngawang Lobzang Thubstan Choknor",1,5
+2940,P1637,"blo bzang dam chos rgya mtsho",1,NULL,3955,P227,"Khyenrab Norbu",1,5
+2944,P1641,"don grub rdo rje",1,NULL,12171,P9371,"Lobzang Dorje",1,5
+2953,P1650,"phrin las lhun grub chos kyi   rgyal mtshan",1,NULL,2945,P1642,"Sungrab Gyatso",1,5
+2959,P1656,"'jigs med nam mkha'i rdo rje",1,NULL,40,P00EGS1016936,"Acharya Sempa Dorje",1,5
+2985,P168,"dpal ldan ye shes",1,NULL,9764,P7120,"Ngawang Chokyi Gyatso",1,5
+2992,P1686,"Longsel Nyingpo",2,5,150,P00JR2402,"sangs rgyas rdo rje",2,NULL
+2992,P1686,"Longsel Nyingpo",2,5,151,P00JR2403,"nam mkha' bkra shis",2,NULL
+2992,P1686,"Longsel Nyingpo",2,5,152,P00JR2404,"bkra shis blo gros",2,NULL
+2992,P1686,"Longsel Nyingpo",2,5,154,P00JR2406,"chos nyid rang grol",2,NULL
+2992,P1686,"Longsel Nyingpo",2,5,157,P00JR822,"kun bzang stobs chen",2,NULL
+2992,P1686,"Longsel Nyingpo",2,5,158,P00JR884,"u rgyan lhun grub",2,NULL
+3020,P1710,"Mingyur Namkhai Dorje",2,5,3436,P1GS138134,"Losel Drolma",2,5
+3152,P183,"Shukseb Jetsun Choying Zangmo",2,5,12479,P966,"Tubten Lekshe Gyatso",2,5
+3152,P183,"Shukseb Jetsun Choying Zangmo",2,5,13843,P1TD122,"Tseten Yudron",2,5
+3204,P1877,"Zangpo Pel",2,5,8454,P5893,"Kunpang Delek Rinchen",2,5
+3266,P1932,"Barawa Gyeltsen Pelzang",2,5,13870,,"Sanggye Gyeltsen",2,5
+3307,P197,"Tubten Gyatso",2,5,2541,P1271,"Takla Norbu",2,5
+3307,P197,"Tubten Gyatso",2,5,4310,P2597,"Jampa Kunga Tenzin",2,5
+3307,P197,"Tubten Gyatso",2,5,12479,P966,"Tubten Lekshe Gyatso",2,5
+3307,P197,"Tubten Gyatso",2,5,13812,,"Pelling Ani Wangdzin",2,5
+3307,P197,"Tubten Gyatso",2,5,13823,,"Khenpo Lobzang Puntsok",2,5
+3307,P197,"Tubten Gyatso",2,5,13857,,"Tubten Woden",2,5
+3417,P1GS124509,"Meban Rinchen Lingpa",2,5,1287,P0RK684,"lo tsa ba nyi ma rin chen",2,NULL
+3417,P1GS124509,"Meban Rinchen Lingpa",2,5,1654,P10115,"rdo rje dpal",2,NULL
+3417,P1GS124509,"Meban Rinchen Lingpa",2,5,7767,P5254,"Rigdzin Godemchen Ngodrub Gyeltsen",2,5
+3417,P1GS124509,"Meban Rinchen Lingpa",2,5,9201,P66,"Rangjung Dorje",2,5
+3417,P1GS124509,"Meban Rinchen Lingpa",2,5,10298,P7625,"rgyal sras legs pa",2,NULL
+3436,P1GS138134,"Losel Drolma",2,5,3627,P1PD76599,"Khaying Drolma",2,5
+3436,P1GS138134,"Losel Drolma",2,5,3630,P1PD76603,"shes rab me 'bar",2,NULL
+3436,P1GS138134,"Losel Drolma",2,5,10617,P7933,"Rigpai Reltri",2,5
+3633,P1PD76609,"tshe 'dzin dbang mo",1,NULL,3485,P1GS60402,"Do Dasel Wangmo",1,5
+3790,P212,"thub bstan 'jam dpal ye shes   bstan pa'i rgyal mtshan",1,NULL,7007,P4559,"Thupten Lungtok Namgyal Trinley",1,5
+3790,P212,"thub bstan 'jam dpal ye shes   bstan pa'i rgyal mtshan",1,NULL,11437,P8697,"Jampel Namdrol Chokyi Gyeltsen",1,5
+3819,P2147,"nyi ma rgyal mtshan",1,NULL,8454,P5893,"Kunpang Delek Rinchen",1,5
+3819,P2147,"nyi ma rgyal mtshan",1,NULL,8455,P5894,"Kunden Rema",1,5
+3822,P215,"Tubten Chokyi Nyima",2,5,2541,P1271,"Takla Norbu",2,5
+3822,P215,"Tubten Chokyi Nyima",2,5,2758,P1470,"Kelzang Tubten Wangchuk",2,5
+3822,P215,"Tubten Chokyi Nyima",2,5,7882,P5368,"Jigme Tsultrim Namgyel",2,5
+3822,P215,"Tubten Chokyi Nyima",2,5,13510,P1KG4195,"Agvan Dorjiev",2,5
+3857,P2181,"byams pa thub dbang",1,NULL,5894,P3542,"Tubten Lhundrub",1,5
+3891,P2211,"dge 'dun 'od zer",1,NULL,2521,P1253,"Lobzang Trinle Lungtok Gyatso",1,5
+3908,P2227,"zhi ba'i blo gros",1,NULL,13821,P3CN27002,"Gergan Konchok Sonam",1,5
+3955,P227,"Khyenrab Norbu",2,5,12439,P9623,"Tashi Yangphel Tashigang",2,5
+3955,P227,"Khyenrab Norbu",2,5,13598,P1AG113,"Yangchen Lhamo",2,5
+3955,P227,"Khyenrab Norbu",2,5,13693,P4CZ366523,"Lobzang Wanggyel",2,5
+3955,P227,"Khyenrab Norbu",2,5,13694,P8LS76437,"Tenzin Chodrak",2,5
+3989,P230,"Dechen Nyingpo",2,5,3955,P227,"Khyenrab Norbu",2,5
+3989,P230,"Dechen Nyingpo",2,5,8156,P5617,"Kachen Lobzang Zotpa",2,5
+3989,P230,"Dechen Nyingpo",2,5,11437,P8697,"Jampel Namdrol Chokyi Gyeltsen",2,5
+3989,P230,"Dechen Nyingpo",2,5,13666,P8LS76444,"Pawo Wangchuk Tengpa Lobzang Nyima",2,5
+4022,P233,"ngag dbang gsung rab mthu stobs",1,NULL,2758,P1470,"Kelzang Tubten Wangchuk",1,5
+4066,P237,"'jam dbyangs thub bstan rgya   mtsho",1,NULL,1902,P10343,"Kelzang Lodro Kunga Lungtok Gyatso",1,5
+4086,P2388,"Jangchub Tsemo",2,5,8986,P64,"Tsongkhapa Lobzang Drakpa",2,5
+4086,P2388,"Jangchub Tsemo",2,5,13244,P10MS19659,"Lotsāwa Drakpa Gyeltsen",2,NULL
+4185,P248,"Jigme Tenpai Nyima",2,5,2541,P1271,"Takla Norbu",2,5
+4185,P248,"Jigme Tenpai Nyima",2,5,13850,P1TD74,"Khandro Bumo Trinle Peldron",2,5
+4228,P252,"Mipam Gyatso",2,5,8507,P5941,"Chokyi Wozer",2,5
+4228,P252,"Mipam Gyatso",2,5,9594,P6963,"Kunga Pelden",2,5
+4228,P252,"Mipam Gyatso",2,5,10355,P7679,"Kunga Tenpai Nyima",2,5
+4228,P252,"Mipam Gyatso",2,5,13692,P8LS76436,"Konchok Peldron",2,5
+4228,P252,"Mipam Gyatso",2,5,13699,P8LS76451,"Ngawang Jampel Rinchen",2,5
+4273,P2562,"kun bzang 'jigs med chos   dbyings rang grol",1,NULL,7009,P4560,"sprul sku don grub",1,NULL
+4273,P2562,"kun bzang 'jigs med chos   dbyings rang grol",1,NULL,13648,P8LS76445,"Sindrang Yab Gomchen Dorje Lopen Chewang Rinzin Tagchungdarpa",1,5
+4291,P258,"Jamyang Khyentse Wangpo",2,5,8,P00AG0401,"Pelden Chime Takpai Dorje",2,5
+4291,P258,"Jamyang Khyentse Wangpo",2,5,8181,P564,"Chokgyur Lingpa",2,5
+4291,P258,"Jamyang Khyentse Wangpo",2,5,9594,P6963,"Kunga Pelden",2,5
+4291,P258,"Jamyang Khyentse Wangpo",2,5,12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",2,5
+4291,P258,"Jamyang Khyentse Wangpo",2,5,13677,P8LS76440,"Ngawang Nyima",2,5
+4291,P258,"Jamyang Khyentse Wangpo",2,5,13692,P8LS76436,"Konchok Peldron",2,5
+4291,P258,"Jamyang Khyentse Wangpo",2,5,13699,P8LS76451,"Ngawang Jampel Rinchen",2,5
+4291,P258,"Jamyang Khyentse Wangpo",2,5,13747,,"Chime Dorje",2,5
+4291,P258,"Jamyang Khyentse Wangpo",2,5,13796,,"Wara Zhabdrung Jamyang Namkha Gyeltsen",2,5
+4309,P2596,"Lobzang Yeshe Tenzin Gyatso",2,5,2419,P1161,"Dungkar Lobzang Trinle",2,5
+4309,P2596,"Lobzang Yeshe Tenzin Gyatso",2,5,11437,P8697,"Jampel Namdrol Chokyi Gyeltsen",2,5
+4309,P2596,"Lobzang Yeshe Tenzin Gyatso",2,5,11798,P9029,"Yuthok Dorje Yudon",2,5
+4309,P2596,"Lobzang Yeshe Tenzin Gyatso",2,5,12479,P966,"Tubten Lekshe Gyatso",2,5
+4310,P2597,"Jampa Kunga Tenzin",2,5,12479,P966,"Tubten Lekshe Gyatso",2,5
+4310,P2597,"Jampa Kunga Tenzin",2,5,12613,P9786,"Ngawang Lodro Rinchen",2,5
+4358,P264,"Jamgon Kongtrul Lodro Taye",2,5,8,P00AG0401,"Pelden Chime Takpai Dorje",2,5
+4358,P264,"Jamgon Kongtrul Lodro Taye",2,5,8181,P564,"Chokgyur Lingpa",2,5
+4358,P264,"Jamgon Kongtrul Lodro Taye",2,5,8592,P6019,"Tsewang Rigdzin Gyatso",2,5
+4358,P264,"Jamgon Kongtrul Lodro Taye",2,5,12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",2,5
+4358,P264,"Jamgon Kongtrul Lodro Taye",2,5,13692,P8LS76436,"Konchok Peldron",2,5
+4358,P264,"Jamgon Kongtrul Lodro Taye",2,5,13699,P8LS76451,"Ngawang Jampel Rinchen",2,5
+4413,P269,"blo bzang dpal ldan bstan 'dzin   snyan grags",1,NULL,9083,P6489,"Apang Terton",1,5
+4413,P269,"blo bzang dpal ldan bstan 'dzin   snyan grags",1,NULL,13806,P1KG17602,"Gepel Tulku Jamyang Kunga Chokyi Nyima",1,5
+4425,P270,"Patrul Rinpoche",2,5,9594,P6963,"Kunga Pelden",2,5
+4425,P270,"Patrul Rinpoche",2,5,13692,P8LS76436,"Konchok Peldron",2,5
+4440,P2713,"Tsewang Norbu",2,NULL,13686,P9904,"Samten Gyatso",2,5
+4440,P2713,"Tsewang Norbu",2,NULL,13749,,"Tersey Tulku",2,5
+4642,P29,"Sherab Gyatso",2,5,2424,P1166,"Horkhang Sonam Pelbar",2,5
+4676,P293,"Jigme Trinle Wozer",2,5,3436,P1GS138134,"Losel Drolma",2,5
+4676,P293,"Jigme Trinle Wozer",2,5,13187,P10MS14671,"Tsewang Lhamo",2,5
+4691,P2943,"Gyurme Tsewang Chokdrub",2,5,3436,P1GS138134,"Losel Drolma",2,5
+4691,P2943,"Gyurme Tsewang Chokdrub",2,5,13187,P10MS14671,"Tsewang Lhamo",2,5
+4820,P2DB5980,"Druk Khenpo Ngawang Yonten Gyatso",2,5,9278,P6672,"nam mkha'i nor bu",2,NULL
+4820,P2DB5980,"Druk Khenpo Ngawang Yonten Gyatso",2,5,10209,P754,"chos kyi dbang phyug",2,NULL
+4820,P2DB5980,"Druk Khenpo Ngawang Yonten Gyatso",2,5,13248,P1KG4182,"Ngawang Khedrub Gyatso",2,5
+4820,P2DB5980,"Druk Khenpo Ngawang Yonten Gyatso",2,5,13654,P8LS76435,"Jamyang Khyentse Chokyi Wangchuk",2,5
+4820,P2DB5980,"Druk Khenpo Ngawang Yonten Gyatso",2,5,13670,P8LS1422,"'jigs med dbang phyug",2,NULL
+4864,P2JM131,Mañjuśrījñāna,3,NULL,6194,P3816,"Rongzom Chokyi Zangpo",3,5
+4865,P2JM132,Upāyaśrīmitra,3,NULL,6194,P3816,"Rongzom Chokyi Zangpo",3,5
+4866,P2JM133,Buddhākarabhadra,3,NULL,6194,P3816,"Rongzom Chokyi Zangpo",3,5
+4868,P2JM135,Amogavajra,1,NULL,6194,P3816,"Rongzom Chokyi Zangpo",1,5
+5164,P2JM436,"Peljor Gyatso",2,5,3436,P1GS138134,"Losel Drolma",2,5
+5391,P3079,"gzhon nu bsod nams",1,NULL,8454,P5893,"Kunpang Delek Rinchen",1,5
+5413,P3099,"rin chen seng+ge",1,NULL,8454,P5893,"Kunpang Delek Rinchen",1,5
+5457,P314,"Jigme Lingpa",2,5,13187,P10MS14671,"Tsewang Lhamo",2,5
+5479,P316,"Arik Geshe Jampa Gelek Gyeltsen",2,5,4611,P287,"Zhabkar Tsokdruk Rangdrol",2,5
+5644,P3312,"Machik Labdron",2,5,5648,P3316,"thod smyon la ston",2,NULL
+5728,P3389,"legs pa'i shes rab",1,NULL,6076,P3709,"Pakpa Sherab",1,5
+5729,P339,"Sumpa Khenpo Yeshe Peljor",2,5,5902,P3550,"Shedrub Gyatso",2,5
+5864,P3513,"byams pa kun dga' bstan 'dzin",1,NULL,12745,P9909,"Ngawang Lodro Nyingpo",1,5
+5864,P3513,"byams pa kun dga' bstan 'dzin",1,NULL,13796,,"Wara Zhabdrung Jamyang Namkha Gyeltsen",1,5
+5894,P3542,"Tubten Lhundrub",2,5,8906,P6324,"Karma Chopel",2,5
+5894,P3542,"Tubten Lhundrub",2,5,13693,P4CZ366523,"Lobzang Wanggyel",2,5
+5894,P3542,"Tubten Lhundrub",2,5,13694,P8LS76437,"Tenzin Chodrak",2,5
+5897,P3546,"Amdo Geshe Jampel Rolpai Lodro",2,5,3955,P227,"Khyenrab Norbu",2,5
+5927,P3575,"Chokyi Gyeltsen",2,5,13837,,"Drubgyud Tulku",2,5
+6076,P3709,"Pakpa Sherab",2,5,5720,P3381,"nyi ma shes rab",2,NULL
+6076,P3709,"Pakpa Sherab",2,5,5731,P3391,"tshul 'bar",2,NULL
+6096,P3727,"rdor lo",1,NULL,13884,,"Gyurme Tenpa Gyeltsen",1,5
+6110,P374,"Konchok Tenpai Gyatso",2,5,7881,P5367,"Jamyang Tenzin Gyatso",2,5
+6194,P3816,"Rongzom Chokyi Zangpo",2,5,3181,P1856,"Barompa Darma Wangchuk",2,5
+6194,P3816,"Rongzom Chokyi Zangpo",2,5,10865,P8168,"byang chub shes rab",2,NULL
+6198,P382,"Jamyang Tubten Nyima",2,5,7881,P5367,"Jamyang Tenzin Gyatso",2,5
+6209,P3830,"grags pa rgyal mtshan",1,NULL,4086,P2388,"Jangchub Tsemo",1,5
+6405,P4007,"Tropu Lotsāwa Jampa Pel",2,5,8455,P5894,"Kunden Rema",2,5
+6535,P4128,"Jigme Tenpai Nyima",2,5,7881,P5367,"Jamyang Tenzin Gyatso",2,5
+6676,P4257,Mañjuśrīvarman,3,NULL,6194,P3816,"Rongzom Chokyi Zangpo",3,5
+7007,P4559,"Thupten Lungtok Namgyal Trinley",2,5,2419,P1161,"Dungkar Lobzang Trinle",2,5
+7007,P4559,"Thupten Lungtok Namgyal Trinley",2,5,8641,P6063,"ngag dbang kun dga' theg chen   dpal 'bar",2,NULL
+7007,P4559,"Thupten Lungtok Namgyal Trinley",2,5,8825,P625,"Dilgo Khyentse Tashi Peljor",2,5
+7007,P4559,"Thupten Lungtok Namgyal Trinley",2,5,11437,P8697,"Jampel Namdrol Chokyi Gyeltsen",2,5
+7007,P4559,"Thupten Lungtok Namgyal Trinley",2,5,12387,P9575,"bstan 'dzin 'jigs med mthu   stobs dbang phyug",2,NULL
+7032,P4581,"bstan 'dzin chos kyi 'byung   gnas",1,NULL,10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",1,5
+7033,P4582,"Trinle Lhundrub",2,NULL,13821,P3CN27002,"Gergan Konchok Sonam",2,5
+7033,P4582,"Trinle Lhundrub",2,NULL,13824,,"Konchok Tokdrol",2,5
+7122,P4662,"o rgyan bstan 'dzin",1,NULL,3955,P227,"Khyenrab Norbu",1,5
+7122,P4662,"o rgyan bstan 'dzin",1,NULL,5894,P3542,"Tubten Lhundrub",1,5
+7130,P467,"Jampel Zangpo",2,5,1659,P1012,"Tashi Peljor",2,5
+7254,P4782,"Gyurme Tenpa Namgyel",2,5,8624,P6048,"Tubten Gyeltsen Wozer",2,5
+7254,P4782,"Gyurme Tenpa Namgyel",2,5,9929,P7274,"Khenpo Munsel",2,5
+7254,P4782,"Gyurme Tenpa Namgyel",2,5,10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5
+7254,P4782,"Gyurme Tenpa Namgyel",2,5,13847,P2KG235388,"mkhan po legs bshad 'byor ldan",2,NULL
+7256,P4784,"rgyal mtshan 'od zer",1,NULL,13884,,"Gyurme Tenpa Gyeltsen",1,5
+7305,P483,"Sherab Zangpo",2,5,10687,P80,"Gendun Drub",2,5
+7331,P4853,"byams pa 'phrin las",1,NULL,12439,P9623,"Tashi Yangphel Tashigang",1,5
+7560,P5063,"pad+ma 'jigs med",1,NULL,8972,P6387,"Lekshe Chokyi Drayang",1,5
+7632,P5129,"pad+ma dam chos",1,NULL,13162,P3AG54,"Garwang Lerab Lingpa",1,5
+7667,P5161,"ye shes snang ba",1,NULL,8782,P620,"Shākya Shrī",1,5
+7728,P5218,"a dpal",1,NULL,13707,P1PD108248,"Tubten Gyeltsen",1,5
+7870,P5355,"Jampa Chodrak",2,5,11437,P8697,"Jampel Namdrol Chokyi Gyeltsen",2,5
+8027,P55,"Khedrubje Gelek Pelzang",2,5,7305,P483,"Sherab Zangpo",2,5
+8126,P559,"Pema Nyinje Wangpo",2,5,13840,,"Drubgyud Tulku",2,5
+8138,P560,"blo gter dbang po",1,NULL,8507,P5941,"Chokyi Wozer",1,5
+8138,P560,"blo gter dbang po",1,NULL,12613,P9786,"Ngawang Lodro Rinchen",1,5
+8138,P560,"blo gter dbang po",1,NULL,13653,P8LS76438,"Jamyang Chokyi Wangpo",1,5
+8138,P560,"blo gter dbang po",1,NULL,13654,P8LS76435,"Jamyang Khyentse Chokyi Wangchuk",1,5
+8138,P560,"blo gter dbang po",1,NULL,13707,P1PD108248,"Tubten Gyeltsen",1,5
+8138,P560,"blo gter dbang po",1,NULL,13721,,"Drayab Tubten Zangpo",1,5
+8138,P560,"blo gter dbang po",1,NULL,13795,,"Wara Zhabdrung Tenpai Nyima",1,5
+8159,P562,"Tekchok Dorje",2,NULL,13840,,"Drubgyud Tulku",2,5
+8170,P563,"Khakhyab Dorje",2,NULL,2730,P1445,"Karma Shedrub Chokyi Sengge",2,5
+8170,P563,"Khakhyab Dorje",2,NULL,12839,P9901,"Tulku Urgyen",2,5
+8170,P563,"Khakhyab Dorje",2,NULL,13686,P9904,"Samten Gyatso",2,5
+8170,P563,"Khakhyab Dorje",2,NULL,13841,,"Karma Jangchub Gyelpo",2,5
+8181,P564,"Chokgyur Lingpa",2,5,8,P00AG0401,"Pelden Chime Takpai Dorje",2,5
+8181,P564,"Chokgyur Lingpa",2,5,13692,P8LS76436,"Konchok Peldron",2,5
+8181,P564,"Chokgyur Lingpa",2,5,13699,P8LS76451,"Ngawang Jampel Rinchen",2,5
+8454,P5893,"Kunpang Delek Rinchen",2,5,11130,P8414,"gzi brjid rgyal mtshan",2,NULL
+8484,P5920,"'jigs med rgya mtsho",1,NULL,12171,P9371,"Lobzang Dorje",1,5
+8505,P594,"blo gros rgyal mtshan",1,NULL,13707,P1PD108248,"Tubten Gyeltsen",1,5
+8506,P5940,"bkra shis rgyal mtshan",1,NULL,4820,P2DB5980,"Druk Khenpo Ngawang Yonten Gyatso",1,5
+8506,P5940,"bkra shis rgyal mtshan",1,NULL,8507,P5941,"Chokyi Wozer",1,5
+8506,P5940,"bkra shis rgyal mtshan",1,NULL,13654,P8LS76435,"Jamyang Khyentse Chokyi Wangchuk",1,5
+8507,P5941,"Chokyi Wozer",2,5,2060,P10488,"kun dga' bsod nams",2,NULL
+8507,P5941,"Chokyi Wozer",2,5,2069,P10497,"Rinchen Dorje",2,5
+8507,P5941,"Chokyi Wozer",2,5,2070,P10498,"thub bstan",2,NULL
+8507,P5941,"Chokyi Wozer",2,5,8508,P5942,"blo gros rgyal mtshan",2,NULL
+8507,P5941,"Chokyi Wozer",2,5,8825,P625,"Dilgo Khyentse Tashi Peljor",2,5
+8507,P5941,"Chokyi Wozer",2,5,9278,P6672,"nam mkha'i nor bu",2,NULL
+8507,P5941,"Chokyi Wozer",2,5,10355,P7679,"Kunga Tenpai Nyima",2,5
+8507,P5941,"Chokyi Wozer",2,5,12489,P967,"kun dga' bstan pa'i rgyal   mtshan",2,NULL
+8507,P5941,"Chokyi Wozer",2,5,12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",2,5
+8507,P5941,"Chokyi Wozer",2,5,13707,P1PD108248,"Tubten Gyeltsen",2,5
+8508,P5942,"blo gros rgyal mtshan",1,NULL,12742,P9906,"Khyenrab Sengge",1,5
+8538,P5970,"Lerab Lingpa",2,5,9083,P6489,"Apang Terton",2,5
+8538,P5970,"Lerab Lingpa",2,5,9895,P724,"Khenpo Ngawang Pelzang",2,5
+8538,P5970,"Lerab Lingpa",2,5,13850,P1TD74,"Khandro Bumo Trinle Peldron",2,5
+8538,P5970,"Lerab Lingpa",2,5,13879,,"Khordong Choktrul Gyurme Dorje",2,5
+8550,P5981,"chos kyi seng+ge",1,NULL,3436,P1GS138134,"Losel Drolma",1,5
+8562,P5992,"Jigme Rigdzin Gonpo",2,5,3436,P1GS138134,"Losel Drolma",2,5
+8564,P5994,"chos kyi blo gros",1,NULL,8592,P6019,"Tsewang Rigdzin Gyatso",1,5
+8568,P5998,"mthu stobs gling pa",1,NULL,9895,P724,"Khenpo Ngawang Pelzang",1,5
+8570,P6,"pad+ma 'gyur med rgya mtsho",1,NULL,9394,P678,"Mingyur Peldron",1,5
+8574,P6002,"Drodul Pawo Dorje",2,5,9594,P6963,"Kunga Pelden",2,5
+8574,P6002,"Drodul Pawo Dorje",2,5,13653,P8LS76438,"Jamyang Chokyi Wangpo",2,5
+8574,P6002,"Drodul Pawo Dorje",2,5,13654,P8LS76435,"Jamyang Khyentse Chokyi Wangchuk",2,5
+8574,P6002,"Drodul Pawo Dorje",2,5,13659,P3JT12060,"Tokden Orgyen Tenzin",2,5
+8580,P6008,"Choying Dorje",2,5,3436,P1GS138134,"Losel Drolma",2,5
+8587,P6014,"bsod nams rin chen",1,NULL,13815,P1TD67,"Delok Dawa Drolma",1,5
+8592,P6019,"Tsewang Rigdzin Gyatso",2,5,4291,P258,"Jamyang Khyentse Wangpo",2,5
+8592,P6019,"Tsewang Rigdzin Gyatso",2,5,4358,P264,"Jamgon Kongtrul Lodro Taye",2,5
+8592,P6019,"Tsewang Rigdzin Gyatso",2,5,8181,P564,"Chokgyur Lingpa",2,5
+8592,P6019,"Tsewang Rigdzin Gyatso",2,5,8538,P5970,"Lerab Lingpa",2,5
+8611,P6036,"sangs rgyas rdo rje",1,NULL,10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",1,5
+8611,P6036,"sangs rgyas rdo rje",1,NULL,12180,P938,"Karma Rangjung Kunkhyab",1,5
+8611,P6036,"sangs rgyas rdo rje",1,NULL,13648,P8LS76445,"Sindrang Yab Gomchen Dorje Lopen Chewang Rinzin Tagchungdarpa",1,5
+8611,P6036,"sangs rgyas rdo rje",1,NULL,13820,P1TD80,"Kunzang Dechen",1,5
+8635,P6058,"bcom ldan rdo rje",1,NULL,9895,P724,"Khenpo Ngawang Pelzang",1,5
+8641,P6063,"ngag dbang kun dga' theg chen   dpal 'bar",1,NULL,12180,P938,"Karma Rangjung Kunkhyab",1,5
+8670,P6090,"tshul khrims bzang po",1,NULL,13689,P1KG9680,"Chime Rigdzin",1,5
+8670,P6090,"tshul khrims bzang po",1,NULL,13879,,"Khordong Choktrul Gyurme Dorje",1,5
+8730,P6145,"Dromton Zhonnu Lodro",2,5,13199,P2CZ7866,"Nyima Gyeltsen",2,5
+8745,P616,"chos dbyings rdo rje",1,NULL,13856,,"Kelzang Choying Gyatso",1,5
+8749,P6163,"dkar brgyud bstan 'dzin nor bu",1,NULL,10355,P7679,"Kunga Tenpai Nyima",1,5
+8755,P617,"pad+ma chos rgyal",1,NULL,13859,,"Ngawang Tenpai Gyeltsen",1,5
+8759,P6175,"bsod nams dpal ldan",1,NULL,12171,P9371,"Lobzang Dorje",1,5
+8782,P620,"Shākya Shrī",2,5,11363,P863,"Mipam Chokyi Wangpo",2,NULL
+8782,P620,"Shākya Shrī",2,5,13659,P3JT12060,"Tokden Orgyen Tenzin",2,5
+8782,P620,"Shākya Shrī",2,5,13749,,"Tersey Tulku",2,5
+8782,P620,"Shākya Shrī",2,5,13812,,"Pelling Ani Wangdzin",2,5
+8813,P6239,"'jam dpal bzang po",1,NULL,8972,P6387,"Lekshe Chokyi Drayang",1,5
+8825,P625,"Dilgo Khyentse Tashi Peljor",2,5,12180,P938,"Karma Rangjung Kunkhyab",2,5
+8825,P625,"Dilgo Khyentse Tashi Peljor",2,5,13697,P1TD226,"Tsering Chodron",2,5
+8825,P625,"Dilgo Khyentse Tashi Peljor",2,5,13820,P1TD80,"Kunzang Dechen",2,5
+8836,P626,"Ngawang Chokyi Lodro",2,NULL,13820,P1TD80,"Kunzang Dechen",2,5
+8836,P626,"Ngawang Chokyi Lodro",2,NULL,13884,,"Gyurme Tenpa Gyeltsen",2,5
+8899,P6318,"byams pa chos 'dzin",1,NULL,2541,P1271,"Takla Norbu",1,5
+8906,P6324,"Karma Chopel",2,5,12439,P9623,"Tashi Yangphel Tashigang",2,5
+8920,P6337,"'jigs med dkon mchog",1,NULL,8972,P6387,"Lekshe Chokyi Drayang",1,5
+8947,P6363,"'jam dpal blo gros",1,NULL,2541,P1271,"Takla Norbu",1,5
+8972,P6387,"Lekshe Chokyi Drayang",2,5,8344,P5790,"pad+ma shes rab",2,NULL
+8972,P6387,"Lekshe Chokyi Drayang",2,5,11280,P8555,"thub bstan dpal bzang",2,NULL
+8972,P6387,"Lekshe Chokyi Drayang",2,5,13884,,"Gyurme Tenpa Gyeltsen",2,5
+9019,P6429,"rol pa'i rdo rje",1,NULL,12171,P9371,"Lobzang Dorje",1,5
+9047,P6455,"Pema Kunzang Rangdrol",2,5,7250,P4779,"tshe rnam",2,NULL
+9053,P6460,"Lhundrub Tsondru",2,5,2419,P1161,"Dungkar Lobzang Trinle",2,5
+9083,P6489,"Apang Terton",2,5,2541,P1271,"Takla Norbu",2,5
+9083,P6489,"Apang Terton",2,5,4185,P248,"Jigme Tenpai Nyima",2,5
+9083,P6489,"Apang Terton",2,5,4273,P2562,"kun bzang 'jigs med chos   dbyings rang grol",2,NULL
+9083,P6489,"Apang Terton",2,5,8618,P6042,"Kunzang Pema Trinle",2,5
+9083,P6489,"Apang Terton",2,5,8957,P6372,"tshangs dbyangs blo gros",2,NULL
+9083,P6489,"Apang Terton",2,5,9214,P6610,"kun bzang nyi ma",2,NULL
+9083,P6489,"Apang Terton",2,5,10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5
+9083,P6489,"Apang Terton",2,5,13685,P2KG228978,"rig 'dzin 'ja' lus rdo rje",2,NULL
+9095,P65,"Gyeltsabje Darma Rinchen",2,5,6770,P4341,"Chowang Drakpa",2,5
+9095,P65,"Gyeltsabje Darma Rinchen",2,5,7305,P483,"Sherab Zangpo",2,5
+9105,P651,"Dudul Dorje",2,5,2998,P1691,"nam mkha' 'jigs med",2,NULL
+9105,P651,"Dudul Dorje",2,5,7580,P5081,"kun bzang pad+ma blo ldan",2,NULL
+9105,P651,"Dudul Dorje",2,5,7582,P5083,"Pema Norbu",2,5
+9105,P651,"Dudul Dorje",2,5,9190,P659,"Namcho Mingyur Dorje",2,5
+9201,P66,"Rangjung Dorje",2,5,3266,P1932,"Barawa Gyeltsen Pelzang",2,5
+9201,P66,"Rangjung Dorje",2,5,3417,P1GS124509,"Meban Rinchen Lingpa",2,5
+9203,P6600,"Yonten Gonpo",2,5,3485,P1GS60402,"Do Dasel Wangmo",2,5
+9203,P6600,"Yonten Gonpo",2,5,13162,P3AG54,"Garwang Lerab Lingpa",2,5
+9213,P661,"Tenpai Gyeltsen",2,5,5152,P2JM425,"pad+ma rgyal mtshan",2,NULL
+9213,P661,"Tenpai Gyeltsen",2,5,5153,P2JM426,"klu bse bla ma dar rgyas",2,NULL
+9213,P661,"Tenpai Gyeltsen",2,5,5154,P2JM427,"o rgyan tshul khrims",2,NULL
+9213,P661,"Tenpai Gyeltsen",2,5,5155,P2JM428,"o rgyan skal bzang",2,NULL
+9275,P667,"d+harma shrI",1,NULL,5805,P346,"Polhane Sonam Tobgye",1,5
+9389,P6775,"byang chub snang ba",1,NULL,7373,P4892,"Chegompa Sherab Dorje",1,5
+9394,P678,"Mingyur Peldron",2,5,4250,P2541,"pad+ma bstan 'dzin",2,NULL
+9394,P678,"Mingyur Peldron",2,5,5805,P346,"Polhane Sonam Tobgye",2,5
+9394,P678,"Mingyur Peldron",2,5,9502,P688,"khyung po ras pa 'gyur med 'od   gsal",2,NULL
+9513,P689,"Kelzang Pema Wangchuk",2,5,13688,P8LS76439,"Khamtrul Sherab Mebar",2,5
+9585,P6955,"Pema Tekchok Loden",2,5,2069,P10497,"Rinchen Dorje",2,5
+9585,P6955,"Pema Tekchok Loden",2,5,9594,P6963,"Kunga Pelden",2,5
+9587,P6957,"thub bstan chos 'phel",1,NULL,12742,P9906,"Khyenrab Sengge",1,5
+9587,P6957,"thub bstan chos 'phel",1,NULL,12981,P3JM56,"Pema Gargyi Wangchuk",1,5
+9594,P6963,"Kunga Pelden",2,5,4413,P269,"blo bzang dpal ldan bstan 'dzin   snyan grags",2,NULL
+9594,P6963,"Kunga Pelden",2,5,5048,P2JM331,"Konchok Zangpo",2,5
+9594,P6963,"Kunga Pelden",2,5,7632,P5129,"pad+ma dam chos",2,NULL
+9594,P6963,"Kunga Pelden",2,5,8825,P625,"Dilgo Khyentse Tashi Peljor",2,5
+9594,P6963,"Kunga Pelden",2,5,8887,P6306,"tshe dbang rig 'dzin",2,NULL
+9594,P6963,"Kunga Pelden",2,5,9586,P6956,"nor bu bstan 'dzin",2,NULL
+9594,P6963,"Kunga Pelden",2,5,9589,P6959,"Chime Yeshe",2,5
+9594,P6963,"Kunga Pelden",2,5,10063,P740,"bstan 'dzin rgyal mtshan",2,NULL
+9594,P6963,"Kunga Pelden",2,5,11435,P8695,"Jigme Lodro",2,5
+9594,P6963,"Kunga Pelden",2,5,12040,P925,"Pema Wangchok Gyelpo",2,NULL
+9594,P6963,"Kunga Pelden",2,5,13651,P4CZ355080,"Tokden Jampa Tendar",2,NULL
+9594,P6963,"Kunga Pelden",2,5,13654,P8LS76435,"Jamyang Khyentse Chokyi Wangchuk",2,5
+9622,P699,"Khenpo Zhenga Zhenpen Chokyi Nangwa",2,5,4310,P2597,"Jampa Kunga Tenzin",2,5
+9622,P699,"Khenpo Zhenga Zhenpen Chokyi Nangwa",2,5,4820,P2DB5980,"Druk Khenpo Ngawang Yonten Gyatso",2,5
+9622,P699,"Khenpo Zhenga Zhenpen Chokyi Nangwa",2,5,8507,P5941,"Chokyi Wozer",2,5
+9622,P699,"Khenpo Zhenga Zhenpen Chokyi Nangwa",2,5,9895,P724,"Khenpo Ngawang Pelzang",2,5
+9622,P699,"Khenpo Zhenga Zhenpen Chokyi Nangwa",2,5,10355,P7679,"Kunga Tenpai Nyima",2,5
+9622,P699,"Khenpo Zhenga Zhenpen Chokyi Nangwa",2,5,11290,P8564,"Jigme Tsewang Dudul",2,5
+9622,P699,"Khenpo Zhenga Zhenpen Chokyi Nangwa",2,5,13654,P8LS76435,"Jamyang Khyentse Chokyi Wangchuk",2,5
+9622,P699,"Khenpo Zhenga Zhenpen Chokyi Nangwa",2,5,13677,P8LS76440,"Ngawang Nyima",2,5
+9622,P699,"Khenpo Zhenga Zhenpen Chokyi Nangwa",2,5,13679,P8LS76443,"Ga Lama Gendun Zangpo",2,5
+9622,P699,"Khenpo Zhenga Zhenpen Chokyi Nangwa",2,5,13721,,"Drayab Tubten Zangpo",2,5
+9633,P7,"'gyur med rdo rje",1,NULL,5805,P346,"Polhane Sonam Tobgye",1,5
+9646,P701,"Tubten Chokyi Dorje",2,5,9594,P6963,"Kunga Pelden",2,5
+9646,P701,"Tubten Chokyi Dorje",2,5,12981,P3JM56,"Pema Gargyi Wangchuk",2,5
+9646,P701,"Tubten Chokyi Dorje",2,5,13653,P8LS76438,"Jamyang Chokyi Wangpo",2,5
+9646,P701,"Tubten Chokyi Dorje",2,5,13654,P8LS76435,"Jamyang Khyentse Chokyi Wangchuk",2,5
+9646,P701,"Tubten Chokyi Dorje",2,5,13659,P3JT12060,"Tokden Orgyen Tenzin",2,5
+9646,P701,"Tubten Chokyi Dorje",2,5,13809,P1TD90,"Tsering Wangmo",2,5
+9646,P701,"Tubten Chokyi Dorje",2,5,13828,P1TD70,"Gyarong Khandro Dechen Wangmo",2,5
+9646,P701,"Tubten Chokyi Dorje",2,5,13850,P1TD74,"Khandro Bumo Trinle Peldron",2,5
+9668,P703,"pad+ma dbang chen bstan 'dzin   'phrin las",1,NULL,10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",1,5
+9668,P703,"pad+ma dbang chen bstan 'dzin   'phrin las",1,NULL,13843,P1TD122,"Tseten Yudron",1,5
+9677,P704,"e ta rA dza",1,NULL,13788,P1TD59,"Chime Dolkar",1,5
+9699,P706,"chos kyi rgya mtsho",1,NULL,9895,P724,"Khenpo Ngawang Pelzang",1,5
+9699,P706,"chos kyi rgya mtsho",1,NULL,12171,P9371,"Lobzang Dorje",1,5
+9709,P707,"pad+ma 'gro 'dul gsang sngags   gling pa",1,NULL,9083,P6489,"Apang Terton",1,5
+9709,P707,"pad+ma 'gro 'dul gsang sngags   gling pa",1,NULL,9895,P724,"Khenpo Ngawang Pelzang",1,5
+9709,P707,"pad+ma 'gro 'dul gsang sngags   gling pa",1,NULL,10083,P742,"Sera Khandro Kunzang Dekyong Wangmo",1,5
+9759,P7116,"nam mkha' rgyal po",1,NULL,9761,P7118,"Konchok Gyeltsen",1,5
+9760,P7117,"karma gsal byed",1,NULL,9761,P7118,"Konchok Gyeltsen",1,5
+9761,P7118,"Konchok Gyeltsen",2,5,12255,P945,"rin chen bstan pa'i gsal byed",2,NULL
+9762,P7119,"karma dpal ldan",1,NULL,9764,P7120,"Ngawang Chokyi Gyatso",1,5
+9764,P7120,"Ngawang Chokyi Gyatso",2,5,8745,P616,"chos dbyings rdo rje",2,NULL
+9792,P7147,"dpal ldan blo gros rgyal mtshan",1,NULL,12745,P9909,"Ngawang Lodro Nyingpo",1,5
+9884,P723,"Pema Tekchok Tenpai Gyeltsen",2,5,12981,P3JM56,"Pema Gargyi Wangchuk",2,5
+9895,P724,"Khenpo Ngawang Pelzang",2,5,5083,P2JM363,"sgrol ma tshe ring",2,NULL
+9895,P724,"Khenpo Ngawang Pelzang",2,5,8972,P6387,"Lekshe Chokyi Drayang",2,5
+9895,P724,"Khenpo Ngawang Pelzang",2,5,12981,P3JM56,"Pema Gargyi Wangchuk",2,5
+9895,P724,"Khenpo Ngawang Pelzang",2,5,13809,P1TD90,"Tsering Wangmo",2,5
+9895,P724,"Khenpo Ngawang Pelzang",2,5,13847,P2KG235388,"mkhan po legs bshad 'byor ldan",2,NULL
+9895,P724,"Khenpo Ngawang Pelzang",2,5,13849,P3CN8484,"'das log ma tshul khrims dbang mo/",2,NULL
+9916,P7262,"pad+ma dri med 'od zer",1,NULL,13861,,"Karma Ngawang Drakpa Chokdrub",1,5
+9929,P7274,"Khenpo Munsel",2,5,13884,,"Gyurme Tenpa Gyeltsen",2,5
+9934,P7279,"ngag dbang yon tan bzang po",1,NULL,11437,P8697,"Jampel Namdrol Chokyi Gyeltsen",1,5
+9935,P728,"Tubten Chowang Nyamnyi Dorje",2,5,13879,,"Khordong Choktrul Gyurme Dorje",2,5
+9966,P7308,"blo gros phun tshogs",1,NULL,11290,P8564,"Jigme Tsewang Dudul",1,5
+9979,P732,"thub bstan bshad sgrub rgya   mtsho",1,NULL,12742,P9906,"Khyenrab Sengge",1,5
+9990,P733,"Jamyang Khyentse Chokyi Lodro",2,5,4820,P2DB5980,"Druk Khenpo Ngawang Yonten Gyatso",2,5
+9990,P733,"Jamyang Khyentse Chokyi Lodro",2,5,8507,P5941,"Chokyi Wozer",2,5
+9990,P733,"Jamyang Khyentse Chokyi Lodro",2,5,10355,P7679,"Kunga Tenpai Nyima",2,5
+9990,P733,"Jamyang Khyentse Chokyi Lodro",2,5,11290,P8564,"Jigme Tsewang Dudul",2,5
+9990,P733,"Jamyang Khyentse Chokyi Lodro",2,5,12180,P938,"Karma Rangjung Kunkhyab",2,5
+9990,P733,"Jamyang Khyentse Chokyi Lodro",2,5,12479,P966,"Tubten Lekshe Gyatso",2,5
+9990,P733,"Jamyang Khyentse Chokyi Lodro",2,5,12743,P9907,"Damcho Wozer",2,5
+9990,P733,"Jamyang Khyentse Chokyi Lodro",2,5,12981,P3JM56,"Pema Gargyi Wangchuk",2,5
+9990,P733,"Jamyang Khyentse Chokyi Lodro",2,5,13648,P8LS76445,"Sindrang Yab Gomchen Dorje Lopen Chewang Rinzin Tagchungdarpa",2,5
+9990,P733,"Jamyang Khyentse Chokyi Lodro",2,5,13654,P8LS76435,"Jamyang Khyentse Chokyi Wangchuk",2,5
+9990,P733,"Jamyang Khyentse Chokyi Lodro",2,5,13697,P1TD226,"Tsering Chodron",2,5
+9990,P733,"Jamyang Khyentse Chokyi Lodro",2,5,13707,P1PD108248,"Tubten Gyeltsen",2,5
+9990,P733,"Jamyang Khyentse Chokyi Lodro",2,5,13809,P1TD90,"Tsering Wangmo",2,5
+9990,P733,"Jamyang Khyentse Chokyi Lodro",2,5,13811,,"Lama Gyurdrak",2,5
+9990,P733,"Jamyang Khyentse Chokyi Lodro",2,5,13828,P1TD70,"Gyarong Khandro Dechen Wangmo",2,5
+9990,P733,"Jamyang Khyentse Chokyi Lodro",2,5,13841,,"Karma Jangchub Gyelpo",2,5
+10001,P734,"Longchen Yeshe Dorje",2,NULL,12180,P938,"Karma Rangjung Kunkhyab",2,5
+10001,P734,"Longchen Yeshe Dorje",2,NULL,13811,,"Lama Gyurdrak",2,5
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,2060,P10488,"kun dga' bsod nams",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,3553,P1KG1593,"sangs rgyas bstan 'dzin",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,4479,P2749,"pad+ma 'od gsal 'gyur med rdo   rje",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,5237,P2JM501,"bstan 'dzin bzang po",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,7254,P4782,"Gyurme Tenpa Namgyel",2,5
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,8180,P5639,"tshe dbang don rgyal",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,8611,P6036,"sangs rgyas rdo rje",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,8836,P626,"Ngawang Chokyi Lodro",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,8969,P6384,"kun dga' dge legs ye shes rdo   rje",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,9083,P6489,"Apang Terton",2,5
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,9722,P7081,"brtul zhugs gling pa",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,10011,P735,"pad+ma dbang rgyal",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,10146,P748,"Tubten Tsondru",2,5
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,10177,P751,"Kunzang Wanggyel",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,10188,P752,"rnam grol rgya mtsho",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,11231,P851,"Chogyam Trungpa",2,5
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,11242,P852,"thub bstan bstan pa'i nyi ma",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,12180,P938,"Karma Rangjung Kunkhyab",2,5
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,12653,P9822,"ngag dbang chos grags",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,12765,P9928,"Gyatrul Rinpoche",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,12839,P9901,"Tulku Urgyen",2,5
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,12982,P3JM57,"Polu Khenpo Dorje",2,5
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,13282,P8LS12194,"Ngawang Khyentse Norbu",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,13648,P8LS76445,"Sindrang Yab Gomchen Dorje Lopen Chewang Rinzin Tagchungdarpa",2,5
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,13811,,"Lama Gyurdrak",2,5
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,13834,,"Lama Tharchin",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,13843,P1TD122,"Tseten Yudron",2,5
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,13873,P1PD108569,"thub bstan 'jigs med rnam grol rgya mtsho/",2,NULL
+10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5,13874,P1KG21882,"thub bstan lung rtogs rgya mtsho",2,NULL
+10063,P740,"bstan 'dzin rgyal mtshan",1,NULL,3955,P227,"Khyenrab Norbu",1,5
+10063,P740,"bstan 'dzin rgyal mtshan",1,NULL,10355,P7679,"Kunga Tenpai Nyima",1,5
+10063,P740,"bstan 'dzin rgyal mtshan",1,NULL,12479,P966,"Tubten Lekshe Gyatso",1,5
+10073,P741,"'gyur med rdo rje",1,NULL,3485,P1GS60402,"Do Dasel Wangmo",1,5
+10083,P742,"Sera Khandro Kunzang Dekyong Wangmo",2,5,8574,P6002,"Drodul Pawo Dorje",2,5
+10083,P742,"Sera Khandro Kunzang Dekyong Wangmo",2,5,8618,P6042,"Kunzang Pema Trinle",2,5
+10083,P742,"Sera Khandro Kunzang Dekyong Wangmo",2,5,8974,P6389,"'jigs bral chos kyi blo gros",2,NULL
+10083,P742,"Sera Khandro Kunzang Dekyong Wangmo",2,5,10073,P741,"'gyur med rdo rje",2,NULL
+10083,P742,"Sera Khandro Kunzang Dekyong Wangmo",2,5,11017,P8309,"rdo rje dgra 'dul",2,NULL
+10103,P744,"pad+ma dri med",1,NULL,12180,P938,"Karma Rangjung Kunkhyab",1,5
+10103,P744,"pad+ma dri med",1,NULL,12839,P9901,"Tulku Urgyen",1,5
+10103,P744,"pad+ma dri med",1,NULL,13820,P1TD80,"Kunzang Dechen",1,5
+10135,P747,"dpal 'byor lhun grub rdo rje",1,NULL,13648,P8LS76445,"Sindrang Yab Gomchen Dorje Lopen Chewang Rinzin Tagchungdarpa",1,5
+10169,P750,"Jikdrel Jangchub Dorje",2,5,12180,P938,"Karma Rangjung Kunkhyab",2,5
+10203,P7533,"Ngawang Khyenrab Jampel Nyingpo",2,5,12479,P966,"Tubten Lekshe Gyatso",2,5
+10203,P7533,"Ngawang Khyenrab Jampel Nyingpo",2,5,13249,P8LS13102,"Jampa Namkha Kunzang Tenpai Gyeltsen",2,5
+10205,P7535,"byams pa dpal ldan chos mdzad",1,NULL,12741,P9905,"Nyiga Kunga Nyima",1,5
+10280,P7609,Mitrayogin,2,5,6405,P4007,"Tropu Lotsāwa Jampa Pel",2,5
+10298,P7625,"rgyal sras legs pa",1,NULL,3417,P1GS124509,"Meban Rinchen Lingpa",1,5
+10301,P7628,"Pema Ledrel Tsel",2,5,3417,P1GS124509,"Meban Rinchen Lingpa",2,5
+10326,P7650,"pad+ma 'phrin las snying po",1,NULL,12839,P9901,"Tulku Urgyen",1,5
+10344,P7668,"kun dga' bstan pa'i blo gros",1,NULL,12741,P9905,"Nyiga Kunga Nyima",1,5
+10355,P7679,"Kunga Tenpai Nyima",2,5,12180,P938,"Karma Rangjung Kunkhyab",2,5
+10355,P7679,"Kunga Tenpai Nyima",2,5,12314,P9505,"bstan pa'i rgyal mtshan",2,NULL
+10355,P7679,"Kunga Tenpai Nyima",2,5,13249,P8LS13102,"Jampa Namkha Kunzang Tenpai Gyeltsen",2,5
+10449,P7767,"'jam dbyangs shes rab rgya   mtsho",1,NULL,12741,P9905,"Nyiga Kunga Nyima",1,5
+10449,P7767,"'jam dbyangs shes rab rgya   mtsho",1,NULL,12745,P9909,"Ngawang Lodro Nyingpo",1,5
+10450,P7768,"'jam dbyangs rin chen rdo rje",1,NULL,13795,,"Wara Zhabdrung Tenpai Nyima",1,5
+10454,P7771,"phu khang dge bshes blo bzang   rgya mtsho",1,NULL,13825,,"Ngawang Tashi Dechen Dorje",1,5
+10457,P7774,"Khenpo Jigme Puntsok",2,5,13884,,"Gyurme Tenpa Gyeltsen",2,5
+10548,P787,"Ngawang Chodrak",2,5,9761,P7118,"Konchok Gyeltsen",2,5
+10595,P7913,"dung dkar sprul sku nges don   chos kyi rgya mtsho",1,NULL,10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",1,5
+10711,P8020,"taring, rinchen dolma",1,NULL,2424,P1166,"Horkhang Sonam Pelbar",1,5
+10743,P8050,"Konchok Gyurme",2,NULL,12839,P9901,"Tulku Urgyen",2,5
+10743,P8050,"Konchok Gyurme",2,NULL,13747,,"Chime Dorje",2,5
+10743,P8050,"Konchok Gyurme",2,NULL,13748,,"Lama Sangngak",2,5
+10743,P8050,"Konchok Gyurme",2,NULL,13860,,"Karma Zopa Zangpo",2,5
+10793,P8099,"thub bstan pad+ma phrin las",1,NULL,13884,,"Gyurme Tenpa Gyeltsen",1,5
+10795,P810,"dpal ldan chos kyi rgyal mtshan",1,NULL,13796,,"Wara Zhabdrung Jamyang Namkha Gyeltsen",1,5
+10815,P812,"Gaton Ngawang Lekpa",2,5,4820,P2DB5980,"Druk Khenpo Ngawang Yonten Gyatso",2,5
+10815,P812,"Gaton Ngawang Lekpa",2,5,8507,P5941,"Chokyi Wozer",2,5
+10815,P812,"Gaton Ngawang Lekpa",2,5,10355,P7679,"Kunga Tenpai Nyima",2,5
+10815,P812,"Gaton Ngawang Lekpa",2,5,12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",2,5
+10815,P812,"Gaton Ngawang Lekpa",2,5,13246,P8LS13100,"Jamyang Kunzang Tubten Chokyi Gyeltsen",2,5
+10815,P812,"Gaton Ngawang Lekpa",2,5,13248,P1KG4182,"Ngawang Khedrub Gyatso",2,5
+10815,P812,"Gaton Ngawang Lekpa",2,5,13249,P8LS13102,"Jampa Namkha Kunzang Tenpai Gyeltsen",2,5
+10827,P8132,"Pema Sangngak Tendzin",2,5,13688,P8LS76439,"Khamtrul Sherab Mebar",2,5
+10904,P8205,"Nanam Yeshe De",2,5,9618,P6986,"Lhalung Pelgyi Dorje",2,5
+10984,P828,"Dudul Dorje",2,NULL,13839,,"Drubgyud Tulku",2,5
+11003,P8297,"Jampel Gyepai Dorje",2,5,2541,P1271,"Takla Norbu",2,5
+11031,P8321,"thub bstan rgya mtsho",1,NULL,12171,P9371,"Lobzang Dorje",1,5
+11037,P8327,"'jam dpal bsam gtan rgya mtsho",1,NULL,3436,P1GS138134,"Losel Drolma",1,5
+11070,P836,"ngag dbang chos grags rgya   mtsho",1,NULL,9764,P7120,"Ngawang Chokyi Gyatso",1,5
+11158,P8441,"Jampa Rinchen Khyentse Wangpo",2,5,4310,P2597,"Jampa Kunga Tenzin",2,5
+11158,P8441,"Jampa Rinchen Khyentse Wangpo",2,5,12479,P966,"Tubten Lekshe Gyatso",2,5
+11158,P8441,"Jampa Rinchen Khyentse Wangpo",2,5,12613,P9786,"Ngawang Lodro Rinchen",2,5
+11158,P8441,"Jampa Rinchen Khyentse Wangpo",2,5,13721,,"Drayab Tubten Zangpo",2,5
+11158,P8441,"Jampa Rinchen Khyentse Wangpo",2,5,13793,,"Jampa Ngawang Kunga Chopel",2,5
+11178,P846,"Kunzik Chokyi Nangwa",2,NULL,13840,,"Drubgyud Tulku",2,5
+11183,P8464,"Jetsunma Kunga Trinle Wangmo",2,5,1869,P10313,"Lodro Namgyel",2,5
+11183,P8464,"Jetsunma Kunga Trinle Wangmo",2,5,4613,P2871,"kun bzang dbang po",2,NULL
+11259,P8536,"bsod nams don grub",1,NULL,8972,P6387,"Lekshe Chokyi Drayang",1,5
+11265,P8541,"mgon 'grub",1,NULL,8972,P6387,"Lekshe Chokyi Drayang",1,5
+11363,P863,"Mipam Chokyi Wangpo",2,NULL,11385,P865,"Rangjung Rigpai Dorje",2,5
+11385,P865,"Rangjung Rigpai Dorje",2,5,10355,P7679,"Kunga Tenpai Nyima",2,5
+11385,P865,"Rangjung Rigpai Dorje",2,5,11231,P851,"Chogyam Trungpa",2,5
+11385,P865,"Rangjung Rigpai Dorje",2,5,11252,P853,"Mipam Chokyi Lodro",2,NULL
+11385,P865,"Rangjung Rigpai Dorje",2,5,11274,P855,"Pema Donyo Nyinje",2,NULL
+11385,P865,"Rangjung Rigpai Dorje",2,5,11437,P8697,"Jampel Namdrol Chokyi Gyeltsen",2,5
+11385,P865,"Rangjung Rigpai Dorje",2,5,12180,P938,"Karma Rangjung Kunkhyab",2,5
+11385,P865,"Rangjung Rigpai Dorje",2,5,12653,P9822,"ngag dbang chos grags",2,NULL
+11385,P865,"Rangjung Rigpai Dorje",2,5,13747,,"Chime Dorje",2,5
+11385,P865,"Rangjung Rigpai Dorje",2,5,13820,P1TD80,"Kunzang Dechen",2,5
+11385,P865,"Rangjung Rigpai Dorje",2,5,13821,P3CN27002,"Gergan Konchok Sonam",2,5
+11385,P865,"Rangjung Rigpai Dorje",2,5,13842,,"Drubgyud Tulku",2,5
+11385,P865,"Rangjung Rigpai Dorje",2,5,13859,,"Ngawang Tenpai Gyeltsen",2,5
+11385,P865,"Rangjung Rigpai Dorje",2,5,13860,,"Karma Zopa Zangpo",2,5
+11396,P866,"ye shes rang grol",1,NULL,13859,,"Ngawang Tenpai Gyeltsen",1,5
+11418,P868,"gtsug lag snang ba dbang   phyug",1,NULL,11385,P865,"Rangjung Rigpai Dorje",1,5
+11418,P868,"gtsug lag snang ba dbang   phyug",1,NULL,12180,P938,"Karma Rangjung Kunkhyab",1,5
+11428,P8689,"Yilhung Sonam Namgyel",2,5,13811,,"Lama Gyurdrak",2,5
+11433,P8693,"pad+ma bde chen bzang po",1,NULL,9594,P6963,"Kunga Pelden",1,5
+11437,P8697,"Jampel Namdrol Chokyi Gyeltsen",2,5,4168,P2464,"Jamyang Konchok Zangpo",2,5
+12040,P925,"Pema Wangchok Gyelpo",2,NULL,2069,P10497,"Rinchen Dorje",2,5
+12040,P925,"Pema Wangchok Gyelpo",2,NULL,8507,P5941,"Chokyi Wozer",2,5
+12040,P925,"Pema Wangchok Gyelpo",2,NULL,10355,P7679,"Kunga Tenpai Nyima",2,5
+12040,P925,"Pema Wangchok Gyelpo",2,NULL,11290,P8564,"Jigme Tsewang Dudul",2,5
+12040,P925,"Pema Wangchok Gyelpo",2,NULL,12180,P938,"Karma Rangjung Kunkhyab",2,5
+12040,P925,"Pema Wangchok Gyelpo",2,NULL,13841,,"Karma Jangchub Gyelpo",2,5
+12040,P925,"Pema Wangchok Gyelpo",2,NULL,13860,,"Karma Zopa Zangpo",2,5
+12093,P930,"grags pa rgya mtsho",1,NULL,11385,P865,"Rangjung Rigpai Dorje",1,5
+12104,P931,"Karma Jamyang Khyentse Wozer",2,NULL,11385,P865,"Rangjung Rigpai Dorje",2,5
+12104,P931,"Karma Jamyang Khyentse Wozer",2,NULL,12180,P938,"Karma Rangjung Kunkhyab",2,5
+12104,P931,"Karma Jamyang Khyentse Wozer",2,NULL,13860,,"Karma Zopa Zangpo",2,5
+12169,P937,"Khyentse Wozer",2,NULL,12180,P938,"Karma Rangjung Kunkhyab",2,5
+12169,P937,"Khyentse Wozer",2,NULL,13820,P1TD80,"Kunzang Dechen",2,5
+12169,P937,"Khyentse Wozer",2,NULL,13860,,"Karma Zopa Zangpo",2,5
+12171,P9371,"Lobzang Dorje",2,5,9467,P6848,"pad+ma gtum po",2,NULL
+12171,P9371,"Lobzang Dorje",2,5,11095,P8382,"bstan pa'i dbang phyug, khang   sar",2,NULL
+12180,P938,"Karma Rangjung Kunkhyab",2,5,2165,P10585,"grags pa bstan pa yar 'phel",2,NULL
+12180,P938,"Karma Rangjung Kunkhyab",2,5,3790,P212,"thub bstan 'jam dpal ye shes   bstan pa'i rgyal mtshan",2,NULL
+12180,P938,"Karma Rangjung Kunkhyab",2,5,8147,P5608,"rgyal mtshan",2,NULL
+12180,P938,"Karma Rangjung Kunkhyab",2,5,8798,P622,"bsod nams bzang po",2,NULL
+12180,P938,"Karma Rangjung Kunkhyab",2,5,10355,P7679,"Kunga Tenpai Nyima",2,5
+12180,P938,"Karma Rangjung Kunkhyab",2,5,11252,P853,"Mipam Chokyi Lodro",2,NULL
+12180,P938,"Karma Rangjung Kunkhyab",2,5,11274,P855,"Pema Donyo Nyinje",2,NULL
+12180,P938,"Karma Rangjung Kunkhyab",2,5,11437,P8697,"Jampel Namdrol Chokyi Gyeltsen",2,5
+12180,P938,"Karma Rangjung Kunkhyab",2,5,13658,P1PD108511,"bskal bzang thub bstan snyan grags",2,NULL
+12264,P946,"Chogyel Mipam Trinle Rabten",2,5,13838,,"Jangchub Nyima",2,5
+12371,P956,"Chokyi Jungne",2,NULL,13839,,"Drubgyud Tulku",2,5
+12381,P957,"dkon mchog 'od zer",1,NULL,13839,,"Drubgyud Tulku",1,5
+12403,P959,"Tsultrim Nyima",2,5,2939,P1636,"blo bzang tshul khrims chos   'phel",2,NULL
+12435,P962,"kun dga' bstan pa'i rgyal   mtshan",1,NULL,12745,P9909,"Ngawang Lodro Nyingpo",1,5
+12479,P966,"Tubten Lekshe Gyatso",2,5,13576,P1649,"Tenzin Gyatso",2,NULL
+12479,P966,"Tubten Lekshe Gyatso",2,5,13632,P1KG4922,"Smith, E. Gene",2,NULL
+12479,P966,"Tubten Lekshe Gyatso",2,5,13745,P1TD81,"Kunzang Tendron",2,5
+12489,P967,"kun dga' bstan pa'i rgyal   mtshan",1,NULL,10355,P7679,"Kunga Tenpai Nyima",1,5
+12500,P968,"Dezhung Chopel Jamyang Kunga Namgyel",2,5,10355,P7679,"Kunga Tenpai Nyima",2,5
+12504,P9684,"dpal ldan rgyal mtshan",1,NULL,13693,P4CZ366523,"Lobzang Wanggyel",1,5
+12504,P9684,"dpal ldan rgyal mtshan",1,NULL,13694,P8LS76437,"Tenzin Chodrak",1,5
+12522,P970,"'jam dbyangs chos kyi rgyal mtshan",1,NULL,4820,P2DB5980,"Druk Khenpo Ngawang Yonten Gyatso",1,5
+12522,P970,"'jam dbyangs chos kyi rgyal mtshan",1,NULL,10355,P7679,"Kunga Tenpai Nyima",1,5
+12522,P970,"'jam dbyangs chos kyi rgyal mtshan",1,NULL,11290,P8564,"Jigme Tsewang Dudul",1,5
+12522,P970,"'jam dbyangs chos kyi rgyal mtshan",1,NULL,13654,P8LS76435,"Jamyang Khyentse Chokyi Wangchuk",1,5
+12522,P970,"'jam dbyangs chos kyi rgyal mtshan",1,NULL,13707,P1PD108248,"Tubten Gyeltsen",1,5
+12532,P9709,"'jam dbyangs grags pa",1,NULL,8507,P5941,"Chokyi Wozer",1,5
+12532,P9709,"'jam dbyangs grags pa",1,NULL,12839,P9901,"Tulku Urgyen",1,5
+12533,P971,"bsam gtan blo gros",1,NULL,10355,P7679,"Kunga Tenpai Nyima",1,5
+12533,P971,"bsam gtan blo gros",1,NULL,12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",1,5
+12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",2,5,4820,P2DB5980,"Druk Khenpo Ngawang Yonten Gyatso",2,5
+12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",2,5,8641,P6063,"ngag dbang kun dga' theg chen   dpal 'bar",2,NULL
+12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",2,5,10355,P7679,"Kunga Tenpai Nyima",2,5
+12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",2,5,12479,P966,"Tubten Lekshe Gyatso",2,5
+12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",2,5,12613,P9786,"Ngawang Lodro Rinchen",2,5
+12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",2,5,13248,P1KG4182,"Ngawang Khedrub Gyatso",2,5
+12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",2,5,13250,P8LS13103,"'jam dbyangs thub bstan lung rtogs rgyal mtshan",2,NULL
+12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",2,5,13251,P1KG4183,"ngag dbang mkhyen brtse thub bstan snying po",2,NULL
+12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",2,5,13252,P8LS13104,"'jam dbyangs kun dga' bstan pa'i rgyal mtshan",2,NULL
+12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",2,5,13654,P8LS76435,"Jamyang Khyentse Chokyi Wangchuk",2,5
+12584,P976,"kun dga' snying po",1,NULL,12745,P9909,"Ngawang Lodro Nyingpo",1,5
+12584,P976,"kun dga' snying po",1,NULL,13186,P10MS14669,"Pema Trinle",1,5
+12602,P9776,"'jam dpal mthu stobs",1,NULL,5894,P3542,"Tubten Lhundrub",1,5
+12606,P978,"ngag dbang mthu stobs dbang phyug",1,NULL,12479,P966,"Tubten Lekshe Gyatso",1,5
+12613,P9786,"Ngawang Lodro Rinchen",2,5,4310,P2597,"Jampa Kunga Tenzin",2,5
+12613,P9786,"Ngawang Lodro Rinchen",2,5,12479,P966,"Tubten Lekshe Gyatso",2,5
+12613,P9786,"Ngawang Lodro Rinchen",2,5,13745,P1TD81,"Kunzang Tendron",2,5
+12613,P9786,"Ngawang Lodro Rinchen",2,5,13803,,"Nun of the Cemeteries",2,5
+12617,P979,"drag shul 'phrin las rin chen",1,NULL,4310,P2597,"Jampa Kunga Tenzin",1,5
+12625,P9797,"sangs rgyas chos 'phel",1,NULL,9761,P7118,"Konchok Gyeltsen",1,5
+12629,P980,"ngag dbang kun dga' rin chen",1,NULL,7882,P5368,"Jigme Tsultrim Namgyel",1,5
+12629,P980,"ngag dbang kun dga' rin chen",1,NULL,12479,P966,"Tubten Lekshe Gyatso",1,5
+12741,P9905,"Nyiga Kunga Nyima",2,5,4820,P2DB5980,"Druk Khenpo Ngawang Yonten Gyatso",2,5
+12741,P9905,"Nyiga Kunga Nyima",2,5,10355,P7679,"Kunga Tenpai Nyima",2,5
+12741,P9905,"Nyiga Kunga Nyima",2,5,12489,P967,"kun dga' bstan pa'i rgyal   mtshan",2,NULL
+12741,P9905,"Nyiga Kunga Nyima",2,5,12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",2,5
+12741,P9905,"Nyiga Kunga Nyima",2,5,13677,P8LS76440,"Ngawang Nyima",2,5
+12741,P9905,"Nyiga Kunga Nyima",2,5,13679,P8LS76443,"Ga Lama Gendun Zangpo",2,5
+12742,P9906,"Khyenrab Sengge",2,5,7632,P5129,"pad+ma dam chos",2,NULL
+12743,P9907,"Damcho Wozer",2,5,7632,P5129,"pad+ma dam chos",2,NULL
+12743,P9907,"Damcho Wozer",2,5,9278,P6672,"nam mkha'i nor bu",2,NULL
+12743,P9907,"Damcho Wozer",2,5,12314,P9505,"bstan pa'i rgyal mtshan",2,NULL
+12745,P9909,"Ngawang Lodro Nyingpo",2,5,12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",2,5
+12745,P9909,"Ngawang Lodro Nyingpo",2,5,13186,P10MS14669,"Pema Trinle",2,5
+12745,P9909,"Ngawang Lodro Nyingpo",2,5,13677,P8LS76440,"Ngawang Nyima",2,5
+12775,P3JM10,"ser shul mkhan po",1,NULL,12171,P9371,"Lobzang Dorje",1,5
+12776,P3JM11,"mgar ba'i mkhan po 'jigs 'od",1,NULL,12171,P9371,"Lobzang Dorje",1,5
+12777,P3JM12,"klu shul mkhan po",1,NULL,12171,P9371,"Lobzang Dorje",1,5
+12800,P9962,"dze ta kar+Na",1,NULL,8454,P5893,"Kunpang Delek Rinchen",1,5
+12838,P9999,"Tsembupa Darma Wozer",2,5,1268,P0RK647,"spyi bo lhas pa",2,NULL
+12839,P9901,"Tulku Urgyen",2,5,10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5
+12839,P9901,"Tulku Urgyen",2,5,13820,P1TD80,"Kunzang Dechen",2,5
+12906,P3JM101,"Tubten Trinle Gyatso",2,5,13162,P3AG54,"Garwang Lerab Lingpa",2,5
+12982,P3JM57,"Polu Khenpo Dorje",2,5,12839,P9901,"Tulku Urgyen",2,5
+12982,P3JM57,"Polu Khenpo Dorje",2,5,12981,P3JM56,"Pema Gargyi Wangchuk",2,5
+12983,P3JM58,"Trinle Nyinje Wangpo",2,NULL,13884,,"Gyurme Tenpa Gyeltsen",2,5
+13111,P2AG19,"Jampa Taye",2,5,2424,P1166,"Horkhang Sonam Pelbar",2,5
+13186,P10MS14669,"Pema Trinle",2,5,4310,P2597,"Jampa Kunga Tenzin",2,5
+13186,P10MS14669,"Pema Trinle",2,5,8641,P6063,"ngag dbang kun dga' theg chen   dpal 'bar",2,NULL
+13186,P10MS14669,"Pema Trinle",2,5,10355,P7679,"Kunga Tenpai Nyima",2,5
+13216,P8LS13193,"Lobzang Tubten Jigme Gyeltsen",2,NULL,11437,P8697,"Jampel Namdrol Chokyi Gyeltsen",2,5
+13218,P8LS12558,"Ngawang Lobzang Yeshe Tenpai Gyeltsen",2,NULL,3822,P215,"Tubten Chokyi Nyima",2,5
+13246,P8LS13100,"Jamyang Kunzang Tubten Chokyi Gyeltsen",2,5,12479,P966,"Tubten Lekshe Gyatso",2,5
+13248,P1KG4182,"Ngawang Khedrub Gyatso",2,5,13252,P8LS13104,"'jam dbyangs kun dga' bstan pa'i rgyal mtshan",2,NULL
+13248,P1KG4182,"Ngawang Khedrub Gyatso",2,5,13253,P8LS13105,"'jam dbyangs bstan pa'i nyi ma",2,NULL
+13249,P8LS13102,"Jampa Namkha Kunzang Tenpai Gyeltsen",2,5,8339,P5785,"kun dga' dbang phyug",2,NULL
+13251,P1KG4183,"ngag dbang mkhyen brtse thub bstan snying po",1,NULL,10355,P7679,"Kunga Tenpai Nyima",1,5
+13282,P8LS12194,"Ngawang Khyentse Norbu",2,NULL,12981,P3JM56,"Pema Gargyi Wangchuk",2,5
+13575,P8LS13183,"'gyur med pad+ma rdo rje",1,NULL,12180,P938,"Karma Rangjung Kunkhyab",1,5
+13576,P1649,"Tenzin Gyatso",2,NULL,8972,P6387,"Lekshe Chokyi Drayang",2,5
+13576,P1649,"Tenzin Gyatso",2,NULL,11437,P8697,"Jampel Namdrol Chokyi Gyeltsen",2,5
+13576,P1649,"Tenzin Gyatso",2,NULL,12180,P938,"Karma Rangjung Kunkhyab",2,5
+13576,P1649,"Tenzin Gyatso",2,NULL,13884,,"Gyurme Tenpa Gyeltsen",2,5
+13577,P1AG97,"Ngedon Drubpai Dorje",2,NULL,12839,P9901,"Tulku Urgyen",2,5
+13598,P1AG113,"Yangchen Lhamo",2,5,12439,P9623,"Tashi Yangphel Tashigang",2,5
+13599,P8LS12189,"Tendzin Chokyi Nangwa",2,NULL,13821,P3CN27002,"Gergan Konchok Sonam",2,5
+13647,P8LS13097,"Jamyang Kunzang Tenpai Gyeltsen",2,5,12479,P966,"Tubten Lekshe Gyatso",2,5
+13647,P8LS13097,"Jamyang Kunzang Tenpai Gyeltsen",2,5,13249,P8LS13102,"Jampa Namkha Kunzang Tenpai Gyeltsen",2,5
+13652,P3CN15711,"Ngawang Lobzang Thubstan Choknor",2,5,6995,P4548,"thub bstan bzod pa",2,NULL
+13654,P8LS76435,"Jamyang Khyentse Chokyi Wangchuk",2,5,3790,P212,"thub bstan 'jam dpal ye shes   bstan pa'i rgyal mtshan",2,NULL
+13654,P8LS76435,"Jamyang Khyentse Chokyi Wangchuk",2,5,9278,P6672,"nam mkha'i nor bu",2,NULL
+13654,P8LS76435,"Jamyang Khyentse Chokyi Wangchuk",2,5,13659,P3JT12060,"Tokden Orgyen Tenzin",2,5
+13659,P3JT12060,"Tokden Orgyen Tenzin",2,5,9278,P6672,"nam mkha'i nor bu",2,NULL
+13662,P8LS15530,"yab rong ban rin chen tshul khrims",1,NULL,6194,P3816,"Rongzom Chokyi Zangpo",1,5
+13667,P1TD24,"ngag dbang thub bstan chos kyi dbang phyug/",1,NULL,7882,P5368,"Jigme Tsultrim Namgyel",1,5
+13667,P1TD24,"ngag dbang thub bstan chos kyi dbang phyug/",1,NULL,11437,P8697,"Jampel Namdrol Chokyi Gyeltsen",1,5
+13677,P8LS76440,"Ngawang Nyima",2,5,10355,P7679,"Kunga Tenpai Nyima",2,5
+13678,P11MS232,"Dezhung Lungrik Nyima",2,NULL,12741,P9905,"Nyiga Kunga Nyima",2,5
+13678,P11MS232,"Dezhung Lungrik Nyima",2,NULL,13186,P10MS14669,"Pema Trinle",2,5
+13678,P11MS232,"Dezhung Lungrik Nyima",2,NULL,13677,P8LS76440,"Ngawang Nyima",2,5
+13679,P8LS76443,"Ga Lama Gendun Zangpo",2,5,4820,P2DB5980,"Druk Khenpo Ngawang Yonten Gyatso",2,5
+13679,P8LS76443,"Ga Lama Gendun Zangpo",2,5,8825,P625,"Dilgo Khyentse Tashi Peljor",2,5
+13679,P8LS76443,"Ga Lama Gendun Zangpo",2,5,10355,P7679,"Kunga Tenpai Nyima",2,5
+13679,P8LS76443,"Ga Lama Gendun Zangpo",2,5,12613,P9786,"Ngawang Lodro Rinchen",2,5
+13680,P1PD90412,"'jam dpal bstan 'dzin phrin las",1,NULL,12741,P9905,"Nyiga Kunga Nyima",1,5
+13685,P2KG228978,"rig 'dzin 'ja' lus rdo rje",1,NULL,12171,P9371,"Lobzang Dorje",1,5
+13686,P9904,"Samten Gyatso",2,5,8170,P563,"Khakhyab Dorje",2,NULL
+13686,P9904,"Samten Gyatso",2,5,10019,P736,"Dudjom Rinpoche Jigdrel Yeshe Dorje",2,5
+13686,P9904,"Samten Gyatso",2,5,11385,P865,"Rangjung Rigpai Dorje",2,5
+13686,P9904,"Samten Gyatso",2,5,11407,P867,"tshe dbang mchog grub dpal 'bar",2,NULL
+13686,P9904,"Samten Gyatso",2,5,12839,P9901,"Tulku Urgyen",2,5
+13686,P9904,"Samten Gyatso",2,5,13747,,"Chime Dorje",2,5
+13686,P9904,"Samten Gyatso",2,5,13748,,"Lama Sangngak",2,5
+13686,P9904,"Samten Gyatso",2,5,13749,,"Tersey Tulku",2,5
+13686,P9904,"Samten Gyatso",2,5,13750,,"Tashi Chime",2,5
+13688,P8LS76439,"Khamtrul Sherab Mebar",2,5,13617,P1KG9679,"Khordong Terchen Nuden Dorje",2,5
+13689,P1KG9680,"Chime Rigdzin",2,5,7009,P4560,"sprul sku don grub",2,NULL
+13692,P8LS76436,"Konchok Peldron",2,5,12839,P9901,"Tulku Urgyen",2,5
+13692,P8LS76436,"Konchok Peldron",2,5,13747,,"Chime Dorje",2,5
+13692,P8LS76436,"Konchok Peldron",2,5,13748,,"Lama Sangngak",2,5
+13692,P8LS76436,"Konchok Peldron",2,5,13749,,"Tersey Tulku",2,5
+13692,P8LS76436,"Konchok Peldron",2,5,13750,,"Tashi Chime",2,5
+13693,P4CZ366523,"Lobzang Wanggyel",2,5,13695,P1KG5612,"e pa bsod nams rin chen",2,NULL
+13694,P8LS76437,"Tenzin Chodrak",2,5,13695,P1KG5612,"e pa bsod nams rin chen",2,NULL
+13707,P1PD108248,"Tubten Gyeltsen",2,5,8339,P5785,"kun dga' dbang phyug",2,NULL
+13707,P1PD108248,"Tubten Gyeltsen",2,5,8514,P5949,"yon tan bzang po",2,NULL
+13707,P1PD108248,"Tubten Gyeltsen",2,5,8641,P6063,"ngag dbang kun dga' theg chen   dpal 'bar",2,NULL
+13707,P1PD108248,"Tubten Gyeltsen",2,5,12314,P9505,"bstan pa'i rgyal mtshan",2,NULL
+13707,P1PD108248,"Tubten Gyeltsen",2,5,12742,P9906,"Khyenrab Sengge",2,5
+13707,P1PD108248,"Tubten Gyeltsen",2,5,12743,P9907,"Damcho Wozer",2,5
+13707,P1PD108248,"Tubten Gyeltsen",2,5,13252,P8LS13104,"'jam dbyangs kun dga' bstan pa'i rgyal mtshan",2,NULL
+13707,P1PD108248,"Tubten Gyeltsen",2,5,13253,P8LS13105,"'jam dbyangs bstan pa'i nyi ma",2,NULL
+13707,P1PD108248,"Tubten Gyeltsen",2,5,13701,P8LS76452,"Jago Tobden",2,5
+13721,,"Drayab Tubten Zangpo",2,5,12613,P9786,"Ngawang Lodro Rinchen",2,5
+13736,P4CZ10577,Devākaracandra,3,NULL,6194,P3816,"Rongzom Chokyi Zangpo",3,5
+13747,,"Chime Dorje",2,5,12839,P9901,"Tulku Urgyen",2,5
+13748,,"Lama Sangngak",2,5,12839,P9901,"Tulku Urgyen",2,5
+13748,,"Lama Sangngak",2,5,13686,P9904,"Samten Gyatso",2,5
+13749,,"Tersey Tulku",2,5,8825,P625,"Dilgo Khyentse Tashi Peljor",2,5
+13749,,"Tersey Tulku",2,5,12169,P937,"Khyentse Wozer",2,NULL
+13767,P8LS13251,"'jigs bral blo gros bstan pa'i rgyal mtshan",1,NULL,13884,,"Gyurme Tenpa Gyeltsen",1,5
+13773,P4CZ10542,"Gelongma Pelmo",2,5,332,P0RK1035,"rgyal po indra bo dhi chung ba",2,NULL
+13773,P4CZ10542,"Gelongma Pelmo",2,5,334,P0RK1037,"kha che shes rab gsang ba   (kAshmIra prajnyAgupta)",2,NULL
+13773,P4CZ10542,"Gelongma Pelmo",2,5,1113,P0RK390,Jñyānabhadra,2,NULL
+13773,P4CZ10542,"Gelongma Pelmo",2,5,5628,P3299,"nag po pa",2,NULL
+13774,P2CN574,Indrabodhi,1,NULL,13773,P4CZ10542,"Gelongma Pelmo",1,5
+13793,,"Jampa Ngawang Kunga Chopel",2,5,12479,P966,"Tubten Lekshe Gyatso",2,5
+13795,,"Wara Zhabdrung Tenpai Nyima",2,5,9990,P733,"Jamyang Khyentse Chokyi Lodro",2,5
+13796,,"Wara Zhabdrung Jamyang Namkha Gyeltsen",2,5,4291,P258,"Jamyang Khyentse Wangpo",2,5
+13796,,"Wara Zhabdrung Jamyang Namkha Gyeltsen",2,5,8138,P560,"blo gter dbang po",2,NULL
+13796,,"Wara Zhabdrung Jamyang Namkha Gyeltsen",2,5,10450,P7768,"'jam dbyangs rin chen rdo rje",2,NULL
+13796,,"Wara Zhabdrung Jamyang Namkha Gyeltsen",2,5,12553,P973,"Dampa Rinpoche Ngawang Lodro Zhenpen Nyingpo",2,5
+13798,,"Nyendrak Tarpa",2,5,4310,P2597,"Jampa Kunga Tenzin",2,5
+13798,,"Nyendrak Tarpa",2,5,12479,P966,"Tubten Lekshe Gyatso",2,5
+13806,P1KG17602,"Gepel Tulku Jamyang Kunga Chokyi Nyima",2,5,8468,P5905,"don grub rin chen",2,NULL
+13806,P1KG17602,"Gepel Tulku Jamyang Kunga Chokyi Nyima",2,5,12479,P966,"Tubten Lekshe Gyatso",2,5
+13807,P8LS13715,"Minling Chung Rinpoche Ngawang Chokyi Drakpa",2,NULL,12479,P966,"Tubten Lekshe Gyatso",2,5
+13808,P4CZ333431,"Lhatsun Tulku Lobzang Tubten Gelek Rabgye",2,NULL,11437,P8697,"Jampel Namdrol Chokyi Gyeltsen",2,5
+13808,P4CZ333431,"Lhatsun Tulku Lobzang Tubten Gelek Rabgye",2,NULL,12479,P966,"Tubten Lekshe Gyatso",2,5
+13811,,"Lama Gyurdrak",2,5,8784,P6204,"don grub, sprul sku",2,NULL
+13817,,"Gonpo Wanggyel",2,5,13879,,"Khordong Choktrul Gyurme Dorje",2,5
+13822,,"Geshe Mila Lobzang Tashi",2,5,12403,P959,"Tsultrim Nyima",2,5
+13827,P1KG21101,"dge bshes chos grags",1,NULL,2424,P1166,"Horkhang Sonam Pelbar",1,5
+13828,P1TD70,"Gyarong Khandro Dechen Wangmo",2,5,13697,P1TD226,"Tsering Chodron",2,5
+13828,P1TD70,"Gyarong Khandro Dechen Wangmo",2,5,13811,,"Lama Gyurdrak",2,5
+13855,P8LS13000,"Tenzin Nyida",2,5,11070,P836,"ngag dbang chos grags rgya   mtsho",2,NULL
+13860,,"Karma Zopa Zangpo",2,5,12739,P9903,"bkra shis tshe dbang stobs   rgyal",2,NULL
+13879,,"Khordong Choktrul Gyurme Dorje",2,5,9945,P7289,"Choying Khyabdel",2,5
