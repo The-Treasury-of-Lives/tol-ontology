@@ -59,7 +59,7 @@ CONSTRUCT {
             ?name_chinese ;
         tolo:hasFounder ?founder_iri ;
         tolo:isDerivedFrom ?parent_tradition_iri ;
-        # tolo:isAffiliatedWith ?monastery_iri ;
+        # gist:isConnectedTo ?monastery_iri ;
         .
 
     ?description_iri 
