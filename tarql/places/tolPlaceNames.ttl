@@ -586,7 +586,7 @@ told:_Place_1065
 		"nA len+dra"@bo-x-ewts ,
 		"那烂陀寺"@zh-HANI
 		;
-	tolo:alternate_name "नालंदा"@sa ;
+	tolo:alternate_name "नालंदा"@sa-DEVA ;
 	tolo:primaryName
 		"Nālandā"@en ,
 		"nA len+dra"@bo-x-ewts ,
@@ -1416,7 +1416,7 @@ told:_Place_1150
 	tolo:alternate_name
 		"Songzhu si"@en ,
 		"pe cin zung cu dgon"@bo-x-ewts ,
-		"嵩���寺"@zh-HANI
+		"嵩祝寺"@zh-HANI
 		;
 	tolo:primaryName
 		"Zungchu Zi"@en ,
@@ -1470,7 +1470,7 @@ told:_Place_1158
 	tolo:alternate_name
 		"Mahabodhi Stupa"@en ,
 		"Vajrāsana"@en ,
-		"बोधगया"@sa
+		"बोधगया"@sa-DEVA
 		;
 	tolo:primaryName
 		"Bodhgaya"@en ,
@@ -2432,7 +2432,7 @@ told:_Place_1251
 	skos:prefLabel
 		"Zangchen Monastery"@en ,
 		"zangs chen dgon"@bo-x-ewts ,
-		"桑���寺"@zh-HANI
+		"桑青寺"@zh-HANI
 		;
 	tolo:alternate_name
 		"Nyel Zangpoche"@en ,
@@ -2443,7 +2443,7 @@ told:_Place_1251
 	tolo:primaryName
 		"Zangchen Monastery"@en ,
 		"zangs chen dgon"@bo-x-ewts ,
-		"桑���寺"@zh-HANI
+		"桑青寺"@zh-HANI
 		;
 	.
 
@@ -5266,15 +5266,9 @@ told:_Place_1538
 	.
 
 told:_Place_1539
-	skos:prefLabel
-		"Hiraṇyavarṇa Mahāvihāra"@en ,
-		"Hira��yavarṇa Mahāvihāra"@en
-		;
+	skos:prefLabel "Hiraṇyavarṇa Mahāvihāra"@en ;
 	tolo:alternate_name "Golden Temple"@en ;
-	tolo:primaryName
-		"Hiraṇyavarṇa Mahāvihāra"@en ,
-		"Hira��yavarṇa Mahāvihāra"@en
-		;
+	tolo:primaryName "Hiraṇyavarṇa Mahāvihāra"@en ;
 	.
 
 told:_Place_154
@@ -6754,13 +6748,13 @@ told:_Place_212
 	skos:prefLabel
 		"Old Ditsa"@en ,
 		"d+hi tsha"@bo-x-ewts ,
-		"老支���寺"@zh-HANI
+		"老支扎寺"@zh-HANI
 		;
 	tolo:alternate_name "d+hi tsha dgon rnying"@bo-x-ewts ;
 	tolo:primaryName
 		"Old Ditsa"@en ,
 		"d+hi tsha"@bo-x-ewts ,
-		"老支���寺"@zh-HANI
+		"老支扎寺"@zh-HANI
 		;
 	.
 
@@ -9885,7 +9879,7 @@ told:_Place_45
 		"Zhwai Lhakhang"@en ,
 		"xia lakang"@en ,
 		"xiang lakang si"@en ,
-		"霞��康"@zh-HANI ,
+		"霞拉康"@zh-HANI ,
 		"香拉康寺"@zh-HANI
 		;
 	tolo:primaryName
@@ -13777,7 +13771,7 @@ told:_Place_905
 		"bu da la gong"@en ,
 		"pho brang khri rtse dmar po"@bo-x-ewts ,
 		"pho brang po ta la"@bo-x-ewts ,
-		"布达��宫"@zh-HANI ,
+		"布达拉宫"@zh-HANI ,
 		"布達拉宮"@zh-HANI
 		;
 	tolo:primaryName
