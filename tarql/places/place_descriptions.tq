@@ -23,7 +23,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # description
 
 # Run:
-# tarql place_descriptions.tq place-description-5-5-23.csv > tolPlaceDescriptions.ttl
+# tarql -e utf-8 place_descriptions.tq place-description-5-5-23.csv > tolPlaceDescriptions.ttl
 
 CONSTRUCT {
 
