@@ -94,21 +94,14 @@ tolo:Authorship
 tolo:Biography
 	a owl:Class ;
 	rdfs:subClassOf
-		gist:FormattedContent ,
-		[
-			a owl:Restriction ;
-			owl:onProperty gist:isExpressedIn ;
-			owl:hasValue media-txt:html ;
-		] ,
+		gist:Content ,
 		[
 			a owl:Restriction ;
 			owl:onProperty gist:isAbout ;
 			owl:someValuesFrom tolo:Person ;
 		]
 		;
-	skos:definition "A written account of another person's life, formatted in HTML for publication on the Treasury of Lives website."@en ;
-	skos:editorialNote "Using subclass axioms rather than equivalence because the author bios should not be inferred into the class. TODO: Generalize the model a bit for external consumption: define a generic Biography class, subclass of bf:Work (or gist:Content?), then HtmlBio as formatted html content, etc."@en ;
-	skos:example "The Treasury of Lives biography of Rongzom Chokyi Zangpo is published on the Treasury of Lives website at https://treasuryoflives.org/biographies/view/Rongzom-Chokyi-Zangpo/6194."@en ;
+	skos:definition "A written account of another person's life"@en ;
 	skos:prefLabel "Biography"@en ;
 	skos:scopeNote "A biography involves more than just basic facts like education, work, relationships, and death; it portrays a person's experience of these life events."@en ;
 	.
@@ -199,6 +192,26 @@ tolo:HistoricalPeriod
 	skos:example "The 10th century, the eary/mid/late 19th century."@en ;
 	skos:prefLabel "Historical Period"@en ;
 	skos:scopeNote "Whereas a time interval is any period of time, such as 2-4pm this afternoon or 1848-1947, a historical period is named and cited in relation to historical events or culture. Historical periods include full and partial centuries, which are ordinally numbered."@en ;
+	.
+
+tolo:HtmlBiography
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			tolo:Biography
+			gist:FormattedContent
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isExpressedIn ;
+				owl:hasValue media-txt:html ;
+			]
+		) ;
+	] ;
+	skos:definition "A biography formatted in HTML for publication on a website."@en ;
+	skos:example "The Treasury of Lives biography of Rongzom Chokyi Zangpo is published on the Treasury of Lives website at https://treasuryoflives.org/biographies/view/Rongzom-Chokyi-Zangpo/6194."@en ;
+	skos:prefLabel "HTML Biography"@en ;
+	skos:scopeNote "Note that author bios are not members of this class."@en ;
 	.
 
 tolo:Incarnation

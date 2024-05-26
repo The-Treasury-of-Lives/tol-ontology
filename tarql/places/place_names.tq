@@ -25,6 +25,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # en_variants
 # bo_x_ewts_variants
 # zh_hani_variants
+# sh_iast_variants
 # sa_deva_variants
 # ru_cyrl_variants
 # mn_cyrl_variants
@@ -40,19 +41,20 @@ CONSTRUCT {
             ?primary_name_en ,
             ?primary_name_wylie ,
             ?primary_name_tibetan ,
-            ?primary_name_chinese 
+            ?primary_name_zh_hani 
             ;
         tolo:primaryName 
             ?primary_name_en ,
             ?primary_name_wylie ,
             ?primary_name_tibetan ,
-            ?primary_name_chinese 
+            ?primary_name_zh_hani 
             ;    
         tolo:alternate_name ?alternate_name_en ,
             ?alternate_name_wylie ,
-            ?alternate_name_chinese ,
+            ?alternate_name_zh_hani ,
             ?alternate_name_sa_deva ,
-            ?alternate_name_ru_cyrl ,
+            ?alternate_name_sa_iast ,
+            ?alternate_name_ru ,
             ?alternate_name_mn_cyrl ,
             ?alternate_name_mn_mong 
             ;
@@ -70,7 +72,7 @@ WHERE {
     # Primary names
     BIND(STRLANG(?community_name, "en") AS ?primary_name_en)
     BIND(STRLANG(?wylie_name, "bo-x-ewts") AS ?primary_name_wylie)
-    BIND(STRLANG(?chinese_name, "zh-Hani") AS ?primary_name_chinese)
+    BIND(STRLANG(?chinese_name, "zh-Hani") AS ?primary_name_zh_hani)
 
     # Alternate names
 
@@ -90,19 +92,25 @@ WHERE {
     OPTIONAL {
         ?chinese_variant apf:strSplit(?zh_hani_variants ";") 
     }
-    BIND(STRLANG(?chinese_variant, "zh-Hani") AS ?alternate_name_chinese)
+    BIND(STRLANG(?chinese_variant, "zh-Hani") AS ?alternate_name_zh_hani)
 
-    # Sanskrit
+    # Sanskrit Devangari
     OPTIONAL {
         ?sa_deva_variant apf:strSplit(?sa_deva_variants ";") 
     }
-    BIND(STRLANG(?sa_deva_variant, "sa") AS ?alternate_name_sa_deva)
+    BIND(STRLANG(?sa_deva_variants, "sa-Deva") AS ?alternate_name_sa_deva)
+
+    # Sanskrit IAST transliteration
+    OPTIONAL {
+        ?sa_iast_variant apf:strSplit(?sa_iast_variants ";") 
+    }
+    BIND(STRLANG(?sa_iast_variants, "sa-x-iast") AS ?alternate_name_sa_iast)
 
     # Russian 
     OPTIONAL {
-        ?ru_cyrl_variant apf:strSplit(?ru_cyrl_variants ";") 
+        ?ru_variant apf:strSplit(?ru_variants ";") 
     }
-    BIND(STRLANG(?ru_cyrl_variant, "ru") AS ?alternate_name_ru_cyrl)
+    BIND(STRLANG(?ru_variant, "ru") AS ?alternate_name_ru)
 
     # Classical Mongolian in Cyrillic script
     OPTIONAL {
