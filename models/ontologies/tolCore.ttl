@@ -582,20 +582,6 @@ tolo:birthFamilyName
 	skos:scopeNote "A family name other than the birth name can be acquired through marriage."@en ;
 	.
 
-tolo:displayName
-	a owl:AnnotationProperty ;
-	skos:definition "The name of a person or other resource used for display purposes."@en ;
-	skos:editorialNote "Not sure if needed."@en ;
-	skos:prefLabel "display name"@en ;
-	.
-
-tolo:displayOrder
-	a owl:AnnotationProperty ;
-	skos:definition "Indicates display order in a list of values."@en ;
-	skos:example "Used to order a biography author list when there are multiple authors."@en ;
-	skos:prefLabel "display order"@en ;
-	.
-
 tolo:dissolutionYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:actualEndYear ;
@@ -923,10 +909,9 @@ tolo:inYear
 
 tolo:isAffiliatedWith
 	a owl:ObjectProperty ;
-	rdfs:subPropertyOf gist:isConnectedTo ;
 	owl:deprecated "true"^^xsd:boolean ;
 	skos:definition "Relates a person, organization, or lineage to a group, institution, religion, or larger organization it is connected to."@en ;
-	skos:editorialNote "For now using gist:isConnectedTo instead; seems adequate and it's hard to pin down a narrower meaning of affiliation."@en ;
+	skos:editorialNote "For now using gist:isConnectedTo instead; seems adequate and it's hard to pin down a narrower meaning of affiliation. Note that this property would not be a subproperty of gist:isConnectedTo because it is not symmetric."@en ;
 	skos:example "A teacher is affiliated with a tradition; an incarnation lineage is associated with a monastery and tradition."@en ;
 	skos:prefLabel "is affiliated with"@en ;
 	.
@@ -1055,17 +1040,8 @@ tolo:primaryName
 	skos:prefLabel "primary name"@en ;
 	skos:scopeNote
 		"The primary/alternate distinction may be source- or system-dependent. Other systems or sources may a different name primary."@en ,
-		"The same name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a preferred name in both its own and the Extended Wylie systems."@en
+		"The same name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a primary name in both its own and the Extended Wylie systems and possibly others."@en
 		;
-	.
-
-tolo:publicationDisplayDate
-	a owl:AnnotationProperty ;
-	rdfs:domain tolo:Biography ;
-	rdfs:range xsd:string ;
-	skos:definition "The date of publication to display with a biography."@en ;
-	skos:example "August 2007"@en ;
-	skos:prefLabel "publication display date"@en ;
 	.
 
 tolo:residesIn
@@ -1080,14 +1056,5 @@ tolo:title
 	rdfs:range rdf:langString ;
 	skos:definition "An appellation of dignity, honor, distinction, or preeminence attached to a person or family by virtue of rank, office, precedent, privilege, attainment, or lands."@en ;
 	skos:prefLabel "title"@en ;
-	.
-
-tolo:updateDisplayDate
-	a owl:AnnotationProperty ;
-	rdfs:domain tolo:Biography ;
-	rdfs:range xsd:string ;
-	skos:definition "The date of last update to display with a biography."@en ;
-	skos:example "August 2007"@en ;
-	skos:prefLabel "update display date"@en ;
 	.
 

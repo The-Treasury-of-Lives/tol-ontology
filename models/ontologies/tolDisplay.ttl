@@ -1,0 +1,75 @@
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/treasuryoflives/ontology/tolDisplay>
+	a owl:Ontology ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x> ;
+	skos:definition "Classes and properties to support Treasury of Lives website display."@en ;
+	skos:prefLabel "Treasury of Lives Display Ontology"@en ;
+	gist:license "TBD"@en ;
+	.
+
+tolo:MappingPriority
+	a owl:Class ;
+	rdfs:subClassOf gist:Category ;
+	skos:definition "A category specifying mapping priority level and minimum zoom level."@en ;
+	skos:prefLabel "Mapping Priority"@en ;
+	.
+
+tolo:displayName
+	a owl:AnnotationProperty ;
+	skos:definition "The name of a person or other resource used for display purposes."@en ;
+	skos:editorialNote "Not sure if needed."@en ;
+	skos:prefLabel "display name"@en ;
+	.
+
+tolo:displayOrder
+	a owl:AnnotationProperty ;
+	skos:definition "Indicates display order in a list of values."@en ;
+	skos:example "Used to order a biography author list when there are multiple authors."@en ;
+	skos:prefLabel "display order"@en ;
+	.
+
+tolo:hasMappingPriority
+	a owl:AnnotationProperty ;
+	skos:definition "Relates a place to its priority level in map displays."@en ;
+	skos:prefLabel "has mapping priority"@en ;
+	.
+
+tolo:minZoomLevel
+	a owl:DatatypeProperty ;
+	rdfs:range xsd:integer ;
+	skos:definition "Relates a mapping priority to its minimum zoom level."@en ;
+	skos:preflabel "minimum zoom level"@en ;
+	.
+
+tolo:priority
+	a owl:DatatypeProperty ;
+	rdfs:range xsd:integer ;
+	skos:definition "Relates a mapping priority to its level."@en ;
+	skos:prefLabel "priority"@en ;
+	.
+
+tolo:publicationDisplayDate
+	a owl:AnnotationProperty ;
+	rdfs:domain tolo:Biography ;
+	rdfs:range xsd:string ;
+	skos:definition "The date of publication to display with a biography."@en ;
+	skos:example "August 2007"@en ;
+	skos:prefLabel "publication display date"@en ;
+	.
+
+tolo:updateDisplayDate
+	a owl:AnnotationProperty ;
+	rdfs:domain tolo:Biography ;
+	rdfs:range xsd:string ;
+	skos:definition "The date of last update to display with a biography."@en ;
+	skos:example "August 2007"@en ;
+	skos:prefLabel "update display date"@en ;
+	.
+
