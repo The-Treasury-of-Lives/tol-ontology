@@ -27,7 +27,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # parent_tradition_name (ignore)
 
 # Run: 
-# tarql --dedup 10000 person_traditions.tq person-tradition-4-4-24.csv > tolPersonTraditions.ttl
+# tarql -e utf-8 --dedup 10000 person_traditions.tq person-tradition-4-4-24.csv > tolPersonTraditions.ttl
 
 CONSTRUCT {
 

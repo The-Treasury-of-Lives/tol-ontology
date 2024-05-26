@@ -29,7 +29,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # Note that Institutions are not places, but are included here because the relational database and thus the export combines them with places.
 
 # Run:
-# tarql place_types.tq place-types-5-16-23.csv > tolPlaceTypes.ttl
+# tarql -e utf-8 place_types.tq place-types-5-16-23.csv > tolPlaceTypes.ttl
 
 CONSTRUCT {
 

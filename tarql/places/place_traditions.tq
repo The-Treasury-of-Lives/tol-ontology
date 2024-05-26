@@ -23,7 +23,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # tradition_id
 
 # Run:
-# tarql place_traditions.tq place-tradition-4-3-24.csv > tolPlaceTraditions.ttl
+# tarql -e utf-8 place_traditions.tq place-tradition-4-3-24.csv > tolPlaceTraditions.ttl
 
 CONSTRUCT {
 

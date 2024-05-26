@@ -31,7 +31,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # Notes -- ignore
 
 # Run: 
-# tarql --dedup 5000 incarnation_members.tq incarnation-members-4-12-24.csv > tolIncarnationMembers.ttl
+# tarql -e utf-8 --dedup 5000 incarnation_members.tq incarnation-members-4-12-24.csv > tolIncarnationMembers.ttl
 
 CONSTRUCT {
 

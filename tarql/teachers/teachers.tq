@@ -30,8 +30,8 @@ PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/>
 # student_has_bio
 
 # Run: 
-# tarql --dedup 100000 teachers.tq teacher-student-11-05-23.csv > tolTeachers.ttl
-# tarql --dedup 100000 teachers.tq teacher-student-bdrc-11-05-23.csv > tolTeachersBdrc.ttl
+# tarql -e utf-8 --dedup 50000 teachers.tq teacher-student-11-05-23.csv > tolTeachers.ttl
+# tarql -e utf-8  -dedup 50000 teachers.tq teacher-student-bdrc-11-05-23.csv > tolTeachersBdrc.ttl
 
 CONSTRUCT {
 
