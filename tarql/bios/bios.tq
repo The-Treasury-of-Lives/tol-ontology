@@ -29,7 +29,7 @@ PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/>
 # student_statement (0/1)
 
 # Run: 
-# tarql --dedup 100000 bios.tq bio-4-22-24.csv > tolBios.ttl
+# tarql -e utf-8 --dedup 100000 bios.tq bio-4-22-24.csv > tolBios.ttl
 
 
 CONSTRUCT {

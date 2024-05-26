@@ -32,7 +32,7 @@ PREFIX sws: <https://sws.geonames/org>
 # orcid_id 
 
 # Run: 
-# tarql --dedup 100000 authors.tq authors-5-13-24.csv > tolAuthors.ttl
+# tarql -e utf-8 --dedup 100000 authors.tq authors-5-13-24.csv > tolAuthors.ttl
 
 
 CONSTRUCT {
