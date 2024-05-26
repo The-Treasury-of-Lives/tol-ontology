@@ -38672,7 +38672,7 @@ told:_Person_10202
 	skos:prefLabel
 		"Khedrub Sherab Gyeltsen"@en ,
 		"mkhas grub shes rab rgyal mtshan"@bo-x-ewts ,
-		"མཁས་གྲུབ��ཤེས་རབ་རྒྱལ་མཚན།"@bo
+		"མཁས་གྲུབ་ཤེས་རབ་རྒྱལ་མཚན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_10202 ,
@@ -38681,7 +38681,7 @@ told:_Person_10202
 	tolo:primaryName
 		"Khedrub Sherab Gyeltsen"@en ,
 		"mkhas grub shes rab rgyal mtshan"@bo-x-ewts ,
-		"མཁས་གྲུབ��ཤེས་རབ་རྒྱལ་མཚན།"@bo
+		"མཁས་གྲུབ་ཤེས་རབ་རྒྱལ་མཚན།"@bo
 		;
 	.
 
@@ -42686,13 +42686,13 @@ told:_Person_10580
 	skos:prefLabel
 		"'jam dbyangs mthu stobs dbang phyug"@bo-x-ewts ,
 		"Jamyang Tutob Wangchuk"@en ,
-		"འཇམ་དབྱངས་མཐུ་སྟོབས་དབང་ཕྱ��ག།"@bo
+		"འཇམ་དབྱངས་མཐུ་སྟོབས་དབང་ཕྱུག།"@bo
 		;
 	tolo:hasEvent told:_Birth_10580 ;
 	tolo:primaryName
 		"'jam dbyangs mthu stobs dbang phyug"@bo-x-ewts ,
 		"Jamyang Tutob Wangchuk"@en ,
-		"འཇམ་དབྱངས་མཐུ་སྟོབས་དབང་ཕྱ��ག།"@bo
+		"འཇམ་དབྱངས་མཐུ་སྟོབས་དབང་ཕྱུག།"@bo
 		;
 	.
 
@@ -43149,7 +43149,7 @@ told:_Person_10623
 	skos:prefLabel
 		"Sonam Gyatso"@en ,
 		"bsod nams rgya mtsho"@bo-x-ewts ,
-		"བསོད་ནམས་རྒྱ་མཚོ��"@bo
+		"བསོད་ནམས་རྒྱ་མཚོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_10623 ,
@@ -43158,7 +43158,7 @@ told:_Person_10623
 	tolo:primaryName
 		"Sonam Gyatso"@en ,
 		"bsod nams rgya mtsho"@bo-x-ewts ,
-		"བསོད་ནམས་རྒྱ་མཚོ��"@bo
+		"བསོད་ནམས་རྒྱ་མཚོ།"@bo
 		;
 	tolo:title "ngor mkhan chen"@bo-x-ewts ;
 	.
@@ -54897,7 +54897,7 @@ told:_Person_11731
 	skos:prefLabel
 		"Ngawang Trinle"@en ,
 		"ngag dbang 'phrin las"@bo-x-ewts ,
-		"ངག་དབ��་འཕྲིན་ལས།"@bo
+		"ངག་དབང་འཕྲིན་ལས།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_11731 ,
@@ -54906,7 +54906,7 @@ told:_Person_11731
 	tolo:primaryName
 		"Ngawang Trinle"@en ,
 		"ngag dbang 'phrin las"@bo-x-ewts ,
-		"ངག་དབ��་འཕྲིན་ལས།"@bo
+		"ངག་དབང་འཕྲིན་ལས།"@bo
 		;
 	.
 
@@ -56355,7 +56355,7 @@ told:_Person_11883
 	skos:prefLabel
 		"Tamdrin Wangmo"@en ,
 		"rta mgrin dbang mo"@bo-x-ewts ,
-		"རྟ་མགྲ��ན་དབང་མོ།"@bo
+		"རྟ་མགྲིན་དབང་མོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_11883 ,
@@ -56364,7 +56364,7 @@ told:_Person_11883
 	tolo:primaryName
 		"Tamdrin Wangmo"@en ,
 		"rta mgrin dbang mo"@bo-x-ewts ,
-		"རྟ་མགྲ��ན་དབང་མོ།"@bo
+		"རྟ་མགྲིན་དབང་མོ།"@bo
 		;
 	.
 
@@ -58505,7 +58505,7 @@ told:_Person_12096
 	skos:prefLabel
 		"Sanggye Tendzin"@en ,
 		"sangs rgyas bstan 'dzin"@bo-x-ewts ,
-		"སངས་རྒ��ས་བསྟན་འཛིན།"@bo
+		"སངས་རྒྱས་བསྟན་འཛིན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_12096 ,
@@ -58514,7 +58514,7 @@ told:_Person_12096
 	tolo:primaryName
 		"Sanggye Tendzin"@en ,
 		"sangs rgyas bstan 'dzin"@bo-x-ewts ,
-		"སངས་རྒ��ས་བསྟན་འཛིན།"@bo
+		"སངས་རྒྱས་བསྟན་འཛིན།"@bo
 		;
 	.
 
@@ -62666,7 +62666,7 @@ told:_Person_12500
 	skos:prefLabel
 		"Dezhung Chopel Jamyang Kunga Namgyel"@en ,
 		"sde gzhung chos 'phel 'jam dbyangs kun dga' rnam rgyal"@bo-x-ewts ,
-		"སྡེ་གཞུང་ཆོས་འཕ���ལ་འཇམ་དབྱངས་ཀུན་དགའ་རྣམ་རྒྱལ།"@bo
+		"སྡེ་གཞུང་ཆོས་འཕེལ་འཇམ་དབྱངས་ཀུན་དགའ་རྣམ་རྒྱལ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_12500 ,
@@ -62675,7 +62675,7 @@ told:_Person_12500
 	tolo:primaryName
 		"Dezhung Chopel Jamyang Kunga Namgyel"@en ,
 		"sde gzhung chos 'phel 'jam dbyangs kun dga' rnam rgyal"@bo-x-ewts ,
-		"སྡེ་གཞུང་ཆོས་འཕ���ལ་འཇམ་དབྱངས་ཀུན་དགའ་རྣམ་རྒྱལ།"@bo
+		"སྡེ་གཞུང་ཆོས་འཕེལ་འཇམ་དབྱངས་ཀུན་དགའ་རྣམ་རྒྱལ།"@bo
 		;
 	.
 
@@ -67682,7 +67682,7 @@ told:_Person_13026
 	skos:prefLabel
 		"Wensapa Lobzang Dondrub"@en ,
 		"dben sa pa blo bzang don grub"@bo-x-ewts ,
-		"དབེན་ས་པ་བློ་བཟང་ད��ན་གྲུབ།"@bo
+		"དབེན་ས་པ་བློ་བཟང་དོན་གྲུབ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_13026 ,
@@ -67691,7 +67691,7 @@ told:_Person_13026
 	tolo:primaryName
 		"Wensapa Lobzang Dondrub"@en ,
 		"dben sa pa blo bzang don grub"@bo-x-ewts ,
-		"དབེན་ས་པ་བློ་བཟང་ད��ན་གྲུབ།"@bo
+		"དབེན་ས་པ་བློ་བཟང་དོན་གྲུབ།"@bo
 		;
 	tolo:title "paN chen bla ma"@bo-x-ewts ;
 	.
@@ -68011,7 +68011,7 @@ told:_Person_13064
 	skos:prefLabel
 		"Kunga Pelzang "@en ,
 		"kun dga' dpal bzang"@bo-x-ewts ,
-		"���ུན་དགའ་དཔལ་བཟང།"@bo
+		"ཀུན་དགའ་དཔལ་བཟང།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_13064 ,
@@ -68020,7 +68020,7 @@ told:_Person_13064
 	tolo:primaryName
 		"Kunga Pelzang "@en ,
 		"kun dga' dpal bzang"@bo-x-ewts ,
-		"���ུན་དགའ་དཔལ་བཟང།"@bo
+		"ཀུན་དགའ་དཔལ་བཟང།"@bo
 		;
 	.
 
@@ -69956,7 +69956,7 @@ told:_Person_13171
 	skos:prefLabel
 		"Lobzang Tubten Jigme Tsultrim Gyatso"@en ,
 		"blo bzang thub bstan 'jigs med tshul khrims rgya mtsho"@bo-x-ewts ,
-		"བློ་བཟང་ལྷུན་གྲུབ���འཇིགས་མེད་རྒྱ་མཚོ།"@bo
+		"བློ་བཟང་ལྷུན་གྲུབ་འཇིགས་མེད་རྒྱ་མཚོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_13171 ,
@@ -69965,7 +69965,7 @@ told:_Person_13171
 	tolo:primaryName
 		"Lobzang Tubten Jigme Tsultrim Gyatso"@en ,
 		"blo bzang thub bstan 'jigs med tshul khrims rgya mtsho"@bo-x-ewts ,
-		"བློ་བཟང་ལྷུན་གྲུབ���འཇིགས་མེད་རྒྱ་མཚོ།"@bo
+		"བློ་བཟང་ལྷུན་གྲུབ་འཇིགས་མེད་རྒྱ་མཚོ།"@bo
 		;
 	tolo:title "stong 'khor"@bo-x-ewts ;
 	.
@@ -70157,13 +70157,13 @@ told:_Person_13181
 	skos:prefLabel
 		"Tubten Tsultrim Gyatso"@en ,
 		"thub bstan tshul khrims rgya mtsho"@bo-x-ewts ,
-		"ཐུབ་བསྟན་ཚུལ་ཁ���ིམས་རྒྱ་མཚོ།"@bo
+		"ཐུབ་བསྟན་ཚུལ་ཁྲིམས་རྒྱ་མཚོ།"@bo
 		;
 	tolo:hasEvent told:_Birth_13181 ;
 	tolo:primaryName
 		"Tubten Tsultrim Gyatso"@en ,
 		"thub bstan tshul khrims rgya mtsho"@bo-x-ewts ,
-		"ཐུབ་བསྟན་ཚུལ་ཁ���ིམས་རྒྱ་མཚོ།"@bo
+		"ཐུབ་བསྟན་ཚུལ་ཁྲིམས་རྒྱ་མཚོ།"@bo
 		;
 	.
 
@@ -73236,13 +73236,13 @@ told:_Person_13445
 	skos:prefLabel
 		"Lobpon Gonkarwa"@en ,
 		"slob dpon dgon dkar ba"@bo-x-ewts ,
-		"སློབ་དཔོན་དགོན་དཀར་��།"@bo
+		"སློབ་དཔོན་དགོན་དཀར་བ།"@bo
 		;
 	tolo:hasEvent told:_Birth_13445 ;
 	tolo:primaryName
 		"Lobpon Gonkarwa"@en ,
 		"slob dpon dgon dkar ba"@bo-x-ewts ,
-		"སློབ་དཔོན་དགོན་དཀར་��།"@bo
+		"སློབ་དཔོན་དགོན་དཀར་བ།"@bo
 		;
 	.
 
@@ -74145,7 +74145,7 @@ told:_Person_13521
 	skos:prefLabel
 		"Rapga Pangdatsang"@en ,
 		"rab dga' spang mda' tshang"@bo-x-ewts ,
-		"རབ་དགའ་སྤང་མདའ་ཚ���།"@bo
+		"རབ་དགའ་སྤང་མདའ་ཚང།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_13521 ,
@@ -74154,7 +74154,7 @@ told:_Person_13521
 	tolo:primaryName
 		"Rapga Pangdatsang"@en ,
 		"rab dga' spang mda' tshang"@bo-x-ewts ,
-		"རབ་དགའ་སྤང་མདའ་ཚ���།"@bo
+		"རབ་དགའ་སྤང་མདའ་ཚང།"@bo
 		;
 	.
 
@@ -75887,7 +75887,7 @@ told:_Person_13648
 	skos:prefLabel
 		"Sindrang Yab Gomchen Dorje Lopen Chewang Rinzin Tagchungdarpa"@en ,
 		"sin da rang yab sgom chen rdo rje slob dpon tshe dbang rig 'dzin stag chung dar pa"@bo-x-ewts ,
-		"���བ་ཚེ་དབང་རིག་འཛིན་སྟག་ཆུང་དར་པ།"@bo
+		"ཡབ་ཚེ་དབང་རིག་འཛིན་སྟག་ཆུང་དར་པ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_13648 ,
@@ -75896,7 +75896,7 @@ told:_Person_13648
 	tolo:primaryName
 		"Sindrang Yab Gomchen Dorje Lopen Chewang Rinzin Tagchungdarpa"@en ,
 		"sin da rang yab sgom chen rdo rje slob dpon tshe dbang rig 'dzin stag chung dar pa"@bo-x-ewts ,
-		"���བ་ཚེ་དབང་རིག་འཛིན་སྟག་ཆུང་དར་པ།"@bo
+		"ཡབ་ཚེ་དབང་རིག་འཛིན་སྟག་ཆུང་དར་པ།"@bo
 		;
 	.
 
@@ -81013,7 +81013,7 @@ told:_Person_1597
 	skos:prefLabel
 		"Tongwa Donden"@en ,
 		"mthong ba don ldan"@bo-x-ewts ,
-		"མཐོང་��་དོན་ལྡན།"@bo
+		"མཐོང་བ་དོན་ལྡན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_1597 ,
@@ -81022,7 +81022,7 @@ told:_Person_1597
 	tolo:primaryName
 		"Tongwa Donden"@en ,
 		"mthong ba don ldan"@bo-x-ewts ,
-		"མཐོང་��་དོན་ལྡན།"@bo
+		"མཐོང་བ་དོན་ལྡན།"@bo
 		;
 	tolo:title "karma pa"@bo-x-ewts ;
 	.
@@ -83137,7 +83137,7 @@ told:_Person_1820
 	skos:prefLabel
 		"Muchen Sanggye Rinchen"@en ,
 		"mus chen sangs rgyas rin chen"@bo-x-ewts ,
-		"མ��ས་ཆེན་སངས་རྒྱས་རིན་ཆེན།"@bo
+		"མུས་ཆེན་སངས་རྒྱས་རིན་ཆེན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_1820 ,
@@ -83146,7 +83146,7 @@ told:_Person_1820
 	tolo:primaryName
 		"Muchen Sanggye Rinchen"@en ,
 		"mus chen sangs rgyas rin chen"@bo-x-ewts ,
-		"མ��ས་ཆེན་སངས་རྒྱས་རིན་ཆེན།"@bo
+		"མུས་ཆེན་སངས་རྒྱས་རིན་ཆེན།"@bo
 		;
 	tolo:title "ngor mkhan chen"@bo-x-ewts ;
 	.
@@ -89759,7 +89759,7 @@ told:_Person_2483
 	skos:prefLabel
 		"Kyoton Monlam Tsultrim"@en ,
 		"skyo ston smon lam tshul khrims"@bo-x-ewts ,
-		"སྐྱོ་སྟོན་སྨོན་ལམ་ཚུལ་ཁྲི���ས།"@bo
+		"སྐྱོ་སྟོན་སྨོན་ལམ་ཚུལ་ཁྲིམས།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_2483 ,
@@ -89768,7 +89768,7 @@ told:_Person_2483
 	tolo:primaryName
 		"Kyoton Monlam Tsultrim"@en ,
 		"skyo ston smon lam tshul khrims"@bo-x-ewts ,
-		"སྐྱོ་སྟོན་སྨོན་ལམ་ཚུལ་ཁྲི���ས།"@bo
+		"སྐྱོ་སྟོན་སྨོན་ལམ་ཚུལ་ཁྲིམས།"@bo
 		;
 	.
 
@@ -90221,7 +90221,7 @@ told:_Person_2523
 	skos:prefLabel
 		"Ngawang Chokyi Gyeltsen"@en ,
 		"ngag dbang chos kyi rgyal mtshan"@bo-x-ewts ,
-		"ངག་དབ��་ཆོས་ཀྱི་རྒྱལ་མཚན།"@bo
+		"ངག་དབང་ཆོས་ཀྱི་རྒྱལ་མཚན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_2523 ,
@@ -90230,7 +90230,7 @@ told:_Person_2523
 	tolo:primaryName
 		"Ngawang Chokyi Gyeltsen"@en ,
 		"ngag dbang chos kyi rgyal mtshan"@bo-x-ewts ,
-		"ངག་དབ��་ཆོས་ཀྱི་རྒྱལ་མཚན།"@bo
+		"ངག་དབང་ཆོས་ཀྱི་རྒྱལ་མཚན།"@bo
 		;
 	tolo:title "dga' ldan khri pa"@bo-x-ewts ;
 	.
@@ -93252,7 +93252,7 @@ told:_Person_2788
 	skos:prefLabel
 		"'jigs med 'phrin las rgya mtsho"@bo-x-ewts ,
 		"Jigme Trinle Gyatso"@en ,
-		"འཇིག��་མེད་འཕྲིན་ལས་རྒྱ་མཚོ།"@bo
+		"འཇིགས་མེད་འཕྲིན་ལས་རྒྱ་མཚོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_2788 ,
@@ -93261,7 +93261,7 @@ told:_Person_2788
 	tolo:primaryName
 		"'jigs med 'phrin las rgya mtsho"@bo-x-ewts ,
 		"Jigme Trinle Gyatso"@en ,
-		"འཇིག��་མེད་འཕྲིན་ལས་རྒྱ་མཚོ།"@bo
+		"འཇིགས་མེད་འཕྲིན་ལས་རྒྱ་མཚོ།"@bo
 		;
 	.
 
@@ -93410,7 +93410,7 @@ told:_Person_2799
 	skos:prefLabel
 		"Tropu Gyeltsa Rinchen Gon"@en ,
 		"khro phu rgyal tsha rin chen mgon"@bo-x-ewts ,
-		"ཁྲོ་ཕུ་རྒྱལ་ཚ་རིན་ཆེན་མག���ན།"@bo
+		"ཁྲོ་ཕུ་རྒྱལ་ཚ་རིན་ཆེན་མགོན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_2799 ,
@@ -93419,7 +93419,7 @@ told:_Person_2799
 	tolo:primaryName
 		"Tropu Gyeltsa Rinchen Gon"@en ,
 		"khro phu rgyal tsha rin chen mgon"@bo-x-ewts ,
-		"ཁྲོ་ཕུ་རྒྱལ་ཚ་རིན་ཆེན་མག���ན།"@bo
+		"ཁྲོ་ཕུ་རྒྱལ་ཚ་རིན་ཆེན་མགོན།"@bo
 		;
 	.
 
@@ -95746,7 +95746,7 @@ told:_Person_2996
 	skos:prefLabel
 		"Konchok Jigme Wangpo"@en ,
 		"dkon mchog 'jigs med dbang po"@bo-x-ewts ,
-		"དཀོན་མཆོག་འཇིགས་མེད་དབ��་པོ།"@bo
+		"དཀོན་མཆོག་འཇིགས་མེད་དབང་པོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_2996 ,
@@ -95755,7 +95755,7 @@ told:_Person_2996
 	tolo:primaryName
 		"Konchok Jigme Wangpo"@en ,
 		"dkon mchog 'jigs med dbang po"@bo-x-ewts ,
-		"དཀོན་མཆོག་འཇིགས་མེད་དབ��་པོ།"@bo
+		"དཀོན་མཆོག་འཇིགས་མེད་དབང་པོ།"@bo
 		;
 	tolo:title "'jam dbyangs bzhad pa"@bo-x-ewts ;
 	.
@@ -95826,7 +95826,7 @@ told:_Person_3000
 	skos:prefLabel
 		"Pema Lingpa"@en ,
 		"pad+ma gling pa"@bo-x-ewts ,
-		"པད��་གླིང་པ།"@bo
+		"པདྨ་གླིང་པ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_3000 ,
@@ -95835,7 +95835,7 @@ told:_Person_3000
 	tolo:primaryName
 		"Pema Lingpa"@en ,
 		"pad+ma gling pa"@bo-x-ewts ,
-		"པད��་གླིང་པ།"@bo
+		"པདྨ་གླིང་པ།"@bo
 		;
 	.
 
@@ -98046,7 +98046,7 @@ told:_Person_3189
 	skos:prefLabel
 		"Namkha Lekpai Gyeltsen"@en ,
 		"nam mkha' legs pa'i rgyal mtshan"@bo-x-ewts ,
-		"ནམ་མཁའ་ལེགས��པའི་རྒྱལ་མཚན།"@bo
+		"ནམ་མཁའ་ལེགས་པའི་རྒྱལ་མཚན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_3189 ,
@@ -98055,7 +98055,7 @@ told:_Person_3189
 	tolo:primaryName
 		"Namkha Lekpai Gyeltsen"@en ,
 		"nam mkha' legs pa'i rgyal mtshan"@bo-x-ewts ,
-		"ནམ་མཁའ་ལེགས��པའི་རྒྱལ་མཚན།"@bo
+		"ནམ་མཁའ་ལེགས་པའི་རྒྱལ་མཚན།"@bo
 		;
 	.
 
@@ -98200,7 +98200,7 @@ told:_Person_3200
 	skos:prefLabel
 		"Konchok Pelwa"@en ,
 		"dkon mchog 'phel ba"@bo-x-ewts ,
-		"དཀོན་མཆོག��འཕེལ་བ།"@bo
+		"དཀོན་མཆོག་འཕེལ་བ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_3200 ,
@@ -98209,7 +98209,7 @@ told:_Person_3200
 	tolo:primaryName
 		"Konchok Pelwa"@en ,
 		"dkon mchog 'phel ba"@bo-x-ewts ,
-		"དཀོན་མཆོག��འཕེལ་བ།"@bo
+		"དཀོན་མཆོག་འཕེལ་བ།"@bo
 		;
 	tolo:title "ngor mkhan chen"@bo-x-ewts ;
 	.
@@ -103092,7 +103092,7 @@ told:_Person_3733
 	skos:prefLabel
 		"Tubten Jigme Kelzang"@en ,
 		"thub bstan 'jigs med skal bzang"@bo-x-ewts ,
-		"ཐུབ་བསྟན་འཇིགས་མེད་ས���ལ་བཟང།"@bo
+		"ཐུབ་བསྟན་འཇིགས་མེད་སྐལ་བཟང།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_3733 ,
@@ -103101,7 +103101,7 @@ told:_Person_3733
 	tolo:primaryName
 		"Tubten Jigme Kelzang"@en ,
 		"thub bstan 'jigs med skal bzang"@bo-x-ewts ,
-		"ཐུབ་བསྟན་འཇིགས་མེད་ས���ལ་བཟང།"@bo
+		"ཐུབ་བསྟན་འཇིགས་མེད་སྐལ་བཟང།"@bo
 		;
 	tolo:title "stong 'khor"@bo-x-ewts ;
 	.
@@ -103725,7 +103725,7 @@ told:_Person_3782
 	skos:prefLabel
 		"'jigs med bstan pa'i rgya mtsho"@bo-x-ewts ,
 		"Jigme Tenpai Gyatso"@en ,
-		"འཇིགས་མ��ད་བསྟན་པའི་རྒྱ་མཚོ།"@bo
+		"འཇིགས་མེད་བསྟན་པའི་རྒྱ་མཚོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_3782 ,
@@ -103734,7 +103734,7 @@ told:_Person_3782
 	tolo:primaryName
 		"'jigs med bstan pa'i rgya mtsho"@bo-x-ewts ,
 		"Jigme Tenpai Gyatso"@en ,
-		"འཇིགས་མ��ད་བསྟན་པའི་རྒྱ་མཚོ།"@bo
+		"འཇིགས་མེད་བསྟན་པའི་རྒྱ་མཚོ།"@bo
 		;
 	tolo:title "'phags pa lha"@bo-x-ewts ;
 	.
@@ -105508,7 +105508,7 @@ told:_Person_3937
 	skos:prefLabel
 		"Zhangton Gyawo Sonam Drakpa"@en ,
 		"zhang ston rgya bo bsod nams grags pa"@bo-x-ewts ,
-		"ཞང་སྟོན་རྒྱ་བོ་བསོད་ནམས་���ྲགས་པ།"@bo
+		"ཞང་སྟོན་རྒྱ་བོ་བསོད་ནམས་གྲགས་པ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_3937 ,
@@ -105517,7 +105517,7 @@ told:_Person_3937
 	tolo:primaryName
 		"Zhangton Gyawo Sonam Drakpa"@en ,
 		"zhang ston rgya bo bsod nams grags pa"@bo-x-ewts ,
-		"ཞང་སྟོན་རྒྱ་བོ་བསོད་ནམས་���ྲགས་པ།"@bo
+		"ཞང་སྟོན་རྒྱ་བོ་བསོད་ནམས་གྲགས་པ།"@bo
 		;
 	.
 
@@ -107980,7 +107980,7 @@ told:_Person_4168
 	skos:prefLabel
 		"'jam dbyangs dkon mchog bzang po"@bo-x-ewts ,
 		"Jamyang Konchok Zangpo"@en ,
-		"འཇམ་ད��ྱངས་དཀོན་མཆོག་བཟང་པོ།"@bo
+		"འཇམ་དབྱངས་དཀོན་མཆོག་བཟང་པོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_4168 ,
@@ -107989,7 +107989,7 @@ told:_Person_4168
 	tolo:primaryName
 		"'jam dbyangs dkon mchog bzang po"@bo-x-ewts ,
 		"Jamyang Konchok Zangpo"@en ,
-		"འཇམ་ད��ྱངས་དཀོན་མཆོག་བཟང་པོ།"@bo
+		"འཇམ་དབྱངས་དཀོན་མཆོག་བཟང་པོ།"@bo
 		;
 	.
 
@@ -108748,7 +108748,7 @@ told:_Person_4228
 	skos:prefLabel
 		"Mipam Gyatso"@en ,
 		"mi pham rgya mtsho"@bo-x-ewts ,
-		"མ���་ཕམ་རྒྱ་མཚོ།"@bo
+		"མི་ཕམ་རྒྱ་མཚོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_4228 ,
@@ -108757,7 +108757,7 @@ told:_Person_4228
 	tolo:primaryName
 		"Mipam Gyatso"@en ,
 		"mi pham rgya mtsho"@bo-x-ewts ,
-		"མ���་ཕམ་རྒྱ་མཚོ།"@bo
+		"མི་ཕམ་རྒྱ་མཚོ།"@bo
 		;
 	.
 
@@ -109282,7 +109282,7 @@ told:_Person_4276
 	skos:prefLabel
 		"Konchok Chopel"@en ,
 		"dkon mchog chos 'phel"@bo-x-ewts ,
-		"དཀོན་མཆོག་��ོས་འཕེལ།"@bo
+		"དཀོན་མཆོག་ཆོས་འཕེལ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_4276 ,
@@ -109291,7 +109291,7 @@ told:_Person_4276
 	tolo:primaryName
 		"Konchok Chopel"@en ,
 		"dkon mchog chos 'phel"@bo-x-ewts ,
-		"དཀོན་མཆོག་��ོས་འཕེལ།"@bo
+		"དཀོན་མཆོག་ཆོས་འཕེལ།"@bo
 		;
 	tolo:title "dga' ldan khri pa"@bo-x-ewts ;
 	.
@@ -111653,7 +111653,7 @@ told:_Person_4488
 	skos:prefLabel
 		"Dondrub Gyatso"@en ,
 		"don grub rgya mtsho"@bo-x-ewts ,
-		"དོན���གྲུབ་རྒྱ་མཚོ།"@bo
+		"དོན་གྲུབ་རྒྱ་མཚོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_4488 ,
@@ -111662,7 +111662,7 @@ told:_Person_4488
 	tolo:primaryName
 		"Dondrub Gyatso"@en ,
 		"don grub rgya mtsho"@bo-x-ewts ,
-		"དོན���གྲུབ་རྒྱ་མཚོ།"@bo
+		"དོན་གྲུབ་རྒྱ་མཚོ།"@bo
 		;
 	tolo:title "dga' ldan khri pa"@bo-x-ewts ;
 	.
@@ -113059,13 +113059,13 @@ told:_Person_4622
 	skos:prefLabel
 		"'jigs med ngo mtshar rgya mtsho"@bo-x-ewts ,
 		"Jigme Ngotsar Gyatso"@en ,
-		"འཇིགས་མེད་ངོ་མཚར་རྒ��་མཚོ།"@bo
+		"འཇིགས་མེད་ངོ་མཚར་རྒྱ་མཚོ།"@bo
 		;
 	tolo:hasEvent told:_Birth_4622 ;
 	tolo:primaryName
 		"'jigs med ngo mtshar rgya mtsho"@bo-x-ewts ,
 		"Jigme Ngotsar Gyatso"@en ,
-		"འཇིགས་མེད་ངོ་མཚར་རྒ��་མཚོ།"@bo
+		"འཇིགས་མེད་ངོ་མཚར་རྒྱ་མཚོ།"@bo
 		;
 	.
 
@@ -113293,7 +113293,7 @@ told:_Person_4642
 	skos:prefLabel
 		"Sherab Gyatso"@en ,
 		"shes rab rgya mtsho"@bo-x-ewts ,
-		"ཤེ��་རབ་རྒྱ་མཚོ།"@bo
+		"ཤེས་རབ་རྒྱ་མཚོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_4642 ,
@@ -113302,7 +113302,7 @@ told:_Person_4642
 	tolo:primaryName
 		"Sherab Gyatso"@en ,
 		"shes rab rgya mtsho"@bo-x-ewts ,
-		"ཤེ��་རབ་རྒྱ་མཚོ།"@bo
+		"ཤེས་རབ་རྒྱ་མཚོ།"@bo
 		;
 	.
 
@@ -116661,7 +116661,7 @@ told:_Person_5024
 	skos:prefLabel
 		"Ngawang Norbu"@en ,
 		"ngag dbang nor bu"@bo-x-ewts ,
-		"ངག་དབང་ན��ར་བུ།"@bo
+		"ངག་དབང་ནོར་བུ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_5024 ,
@@ -116670,7 +116670,7 @@ told:_Person_5024
 	tolo:primaryName
 		"Ngawang Norbu"@en ,
 		"ngag dbang nor bu"@bo-x-ewts ,
-		"ངག་དབང་ན��ར་བུ།"@bo
+		"ངག་དབང་ནོར་བུ།"@bo
 		;
 	.
 
@@ -117103,7 +117103,7 @@ told:_Person_5078
 	skos:prefLabel
 		"'gyur med 'od gsal"@bo-x-ewts ,
 		"Gyurme Wosel"@en ,
-		"འགྱུར་མེད་འོད��གསལ།"@bo
+		"འགྱུར་མེད་འོད་གསལ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_5078 ,
@@ -117112,7 +117112,7 @@ told:_Person_5078
 	tolo:primaryName
 		"'gyur med 'od gsal"@bo-x-ewts ,
 		"Gyurme Wosel"@en ,
-		"འགྱུར་མེད་འོད��གསལ།"@bo
+		"འགྱུར་མེད་འོད་གསལ།"@bo
 		;
 	.
 
@@ -120592,7 +120592,7 @@ told:_Person_5457
 	skos:prefLabel
 		"'jigs med gling pa"@bo-x-ewts ,
 		"Jigme Lingpa"@en ,
-		"འཇིགས་མེད་གླིང��པ།"@bo
+		"འཇིགས་མེད་གླིང་པ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_5457 ,
@@ -120601,7 +120601,7 @@ told:_Person_5457
 	tolo:primaryName
 		"'jigs med gling pa"@bo-x-ewts ,
 		"Jigme Lingpa"@en ,
-		"འཇིགས་མེད་གླིང��པ།"@bo
+		"འཇིགས་མེད་གླིང་པ།"@bo
 		;
 	.
 
@@ -124093,7 +124093,7 @@ told:_Person_5805
 	skos:prefLabel
 		"Polhane Sonam Tobgye"@en ,
 		"pho lha nas bsod nams stobs rgyas"@bo-x-ewts ,
-		"ཕོ་ལྷ་ནས་བསོད་ན���ས་སྟོབས་རྒྱས།"@bo
+		"ཕོ་ལྷ་ནས་བསོད་ནམས་སྟོབས་རྒྱས།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_5805 ,
@@ -124102,7 +124102,7 @@ told:_Person_5805
 	tolo:primaryName
 		"Polhane Sonam Tobgye"@en ,
 		"pho lha nas bsod nams stobs rgyas"@bo-x-ewts ,
-		"ཕོ་ལྷ་ནས་བསོད་ན���ས་སྟོབས་རྒྱས།"@bo
+		"ཕོ་ལྷ་ནས་བསོད་ནམས་སྟོབས་རྒྱས།"@bo
 		;
 	.
 
@@ -124341,13 +124341,13 @@ told:_Person_5824
 	skos:prefLabel
 		"Tsakho Ngawang Drakpa"@en ,
 		"tsha kho ngag dbang grags pa"@bo-x-ewts ,
-		"ཚ་ཁོ་ངག་དབང་གྲགས་���།"@bo
+		"ཚ་ཁོ་ངག་དབང་གྲགས་པ།"@bo
 		;
 	tolo:hasEvent told:_Birth_5824 ;
 	tolo:primaryName
 		"Tsakho Ngawang Drakpa"@en ,
 		"tsha kho ngag dbang grags pa"@bo-x-ewts ,
-		"ཚ་ཁོ་ངག་དབང་གྲགས་���།"@bo
+		"ཚ་ཁོ་ངག་དབང་གྲགས་པ།"@bo
 		;
 	.
 
@@ -125481,7 +125481,7 @@ told:_Person_5928
 	skos:prefLabel
 		"Mutruk Chokyi Gocha"@en ,
 		"mi 'khrugs chos kyi go cha"@bo-x-ewts ,
-		"མི་འཁྲུ���ས་ཆོས་ཀྱི་གོ་ཆ།"@bo
+		"མི་འཁྲུགས་ཆོས་ཀྱི་གོ་ཆ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_5928 ,
@@ -125490,7 +125490,7 @@ told:_Person_5928
 	tolo:primaryName
 		"Mutruk Chokyi Gocha"@en ,
 		"mi 'khrugs chos kyi go cha"@bo-x-ewts ,
-		"མི་འཁྲུ���ས་ཆོས་ཀྱི་གོ་ཆ།"@bo
+		"མི་འཁྲུགས་ཆོས་ཀྱི་གོ་ཆ།"@bo
 		;
 	tolo:title "ta'i si tu"@bo-x-ewts ;
 	.
@@ -127291,7 +127291,7 @@ told:_Person_6100
 	skos:prefLabel
 		"'khon dkon mchog rgyal po"@bo-x-ewts ,
 		"Khon Konchok Gyelpo"@en ,
-		"འཁོན་དཀོན་མཆོ���་རྒྱལ་པོ།"@bo
+		"འཁོན་དཀོན་མཆོག་རྒྱལ་པོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_6100 ,
@@ -127300,7 +127300,7 @@ told:_Person_6100
 	tolo:primaryName
 		"'khon dkon mchog rgyal po"@bo-x-ewts ,
 		"Khon Konchok Gyelpo"@en ,
-		"འཁོན་དཀོན་མཆོ���་རྒྱལ་པོ།"@bo
+		"འཁོན་དཀོན་མཆོག་རྒྱལ་པོ།"@bo
 		;
 	.
 
@@ -128269,13 +128269,13 @@ told:_Person_6194
 	skos:prefLabel
 		"Rongzom Chokyi Zangpo"@en ,
 		"rong zom chos kyi bzang po"@bo-x-ewts ,
-		"རོང��ཟོམ་ཆོས་ཀྱི་བཟང་པོ།"@bo
+		"རོང་ཟོམ་ཆོས་ཀྱི་བཟང་པོ།"@bo
 		;
 	tolo:hasEvent told:_Birth_6194 ;
 	tolo:primaryName
 		"Rongzom Chokyi Zangpo"@en ,
 		"rong zom chos kyi bzang po"@bo-x-ewts ,
-		"རོང��ཟོམ་ཆོས་ཀྱི་བཟང་པོ།"@bo
+		"རོང་ཟོམ་ཆོས་ཀྱི་བཟང་པོ།"@bo
 		;
 	.
 
@@ -129708,7 +129708,7 @@ told:_Person_6332
 	skos:prefLabel
 		"Lobzang Tendzin Namgyel Trinle Dorje"@en ,
 		"blo bzang bstan 'dzin rnam rgyal 'phrin las rdo rje"@bo-x-ewts ,
-		"བློ་བཟང་བསྟན་འཛིན་རྣམ་རྒྱལ་འཕྲི���་ལས་རྡོ་རྗེ།"@bo
+		"བློ་བཟང་བསྟན་འཛིན་རྣམ་རྒྱལ་འཕྲིན་ལས་རྡོ་རྗེ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_6332 ,
@@ -129717,7 +129717,7 @@ told:_Person_6332
 	tolo:primaryName
 		"Lobzang Tendzin Namgyel Trinle Dorje"@en ,
 		"blo bzang bstan 'dzin rnam rgyal 'phrin las rdo rje"@bo-x-ewts ,
-		"བློ་བཟང་བསྟན་འཛིན་རྣམ་རྒྱལ་འཕྲི���་ལས་རྡོ་རྗེ།"@bo
+		"བློ་བཟང་བསྟན་འཛིན་རྣམ་རྒྱལ་འཕྲིན་ལས་རྡོ་རྗེ།"@bo
 		;
 	tolo:title "co ne sa skyong"@bo-x-ewts ;
 	.
@@ -131937,7 +131937,7 @@ told:_Person_6526
 	skos:prefLabel
 		"Ngawang Chokden"@en ,
 		"ngag dbang mchog ldan"@bo-x-ewts ,
-		"���ག་དབང་མཆོག་ལྡན།"@bo
+		"ངག་དབང་མཆོག་ལྡན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_6526 ,
@@ -131946,7 +131946,7 @@ told:_Person_6526
 	tolo:primaryName
 		"Ngawang Chokden"@en ,
 		"ngag dbang mchog ldan"@bo-x-ewts ,
-		"���ག་དབང་མཆོག་ལྡན།"@bo
+		"ངག་དབང་མཆོག་ལྡན།"@bo
 		;
 	tolo:title "dga' ldan khri pa"@bo-x-ewts ;
 	.
@@ -136181,7 +136181,7 @@ told:_Person_6910
 	skos:prefLabel
 		"Chokyi Shenyen"@en ,
 		"chos kyi bshes gnyen"@bo-x-ewts ,
-		"ཆོས་ཀྱི་བཤེ��་གཉེན།"@bo
+		"ཆོས་ཀྱི་བཤེས་གཉེན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_6910 ,
@@ -136190,7 +136190,7 @@ told:_Person_6910
 	tolo:primaryName
 		"Chokyi Shenyen"@en ,
 		"chos kyi bshes gnyen"@bo-x-ewts ,
-		"ཆོས་ཀྱི་བཤེ��་གཉེན།"@bo
+		"ཆོས་ཀྱི་བཤེས་གཉེན།"@bo
 		;
 	tolo:title "dga' ldan khri pa"@bo-x-ewts ;
 	.
@@ -136912,7 +136912,7 @@ told:_Person_6979
 	skos:prefLabel
 		"Ngawang Jampel Tsultrim Gyatso"@en ,
 		"ngag dbang 'jam dpal tshul khrims rgya mtsho"@bo-x-ewts ,
-		"ངག་དབང་འཇམ་དཔལ་ཚུལ་ཁྲིམ���་རྒྱ་མཚོ།"@bo
+		"ངག་དབང་འཇམ་དཔལ་ཚུལ་ཁྲིམས་རྒྱ་མཚོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_6979 ,
@@ -136921,7 +136921,7 @@ told:_Person_6979
 	tolo:primaryName
 		"Ngawang Jampel Tsultrim Gyatso"@en ,
 		"ngag dbang 'jam dpal tshul khrims rgya mtsho"@bo-x-ewts ,
-		"ངག་དབང་འཇམ་དཔལ་ཚུལ་ཁྲིམ���་རྒྱ་མཚོ།"@bo
+		"ངག་དབང་འཇམ་དཔལ་ཚུལ་ཁྲིམས་རྒྱ་མཚོ།"@bo
 		;
 	tolo:title "tshe smon gling"@bo-x-ewts ;
 	.
@@ -139067,7 +139067,7 @@ told:_Person_7172
 	skos:prefLabel
 		"Lobzang Tashi Trinle Gyatso"@en ,
 		"blo bzang bkra shis 'phrin las rgya mtsho"@bo-x-ewts ,
-		"བློ་བཟང་བཀྲ་ཤིས་འཕྲིན་ལས་རྒ���་མཚོ།"@bo
+		"བློ་བཟང་བཀྲ་ཤིས་འཕྲིན་ལས་རྒྱ་མཚོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_7172 ,
@@ -139076,7 +139076,7 @@ told:_Person_7172
 	tolo:primaryName
 		"Lobzang Tashi Trinle Gyatso"@en ,
 		"blo bzang bkra shis 'phrin las rgya mtsho"@bo-x-ewts ,
-		"བློ་བཟང་བཀྲ་ཤིས་འཕྲིན་ལས་རྒ���་མཚོ།"@bo
+		"བློ་བཟང་བཀྲ་ཤིས་འཕྲིན་ལས་རྒྱ་མཚོ།"@bo
 		;
 	tolo:title "bse tshang"@bo-x-ewts ;
 	.
@@ -140278,7 +140278,7 @@ told:_Person_7297
 	skos:prefLabel
 		"Damcho Tsomo"@en ,
 		"dam chos mtsho mo"@bo-x-ewts ,
-		"དམ་ཆོ���་མཚོ་མོ།"@bo
+		"དམ་ཆོས་མཚོ་མོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_7297 ,
@@ -140287,7 +140287,7 @@ told:_Person_7297
 	tolo:primaryName
 		"Damcho Tsomo"@en ,
 		"dam chos mtsho mo"@bo-x-ewts ,
-		"དམ་ཆོ���་མཚོ་མོ།"@bo
+		"དམ་ཆོས་མཚོ་མོ།"@bo
 		;
 	.
 
@@ -140778,7 +140778,7 @@ told:_Person_7348
 	skos:prefLabel
 		"Lodro Gyeltsen"@en ,
 		"blo gros rgyal mtshan"@bo-x-ewts ,
-		"བློ་གྲོས་རྒྱལ་���ཚན།"@bo
+		"བློ་གྲོས་རྒྱལ་མཚན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_7348 ,
@@ -140787,7 +140787,7 @@ told:_Person_7348
 	tolo:primaryName
 		"Lodro Gyeltsen"@en ,
 		"blo gros rgyal mtshan"@bo-x-ewts ,
-		"བློ་གྲོས་རྒྱལ་���ཚན།"@bo
+		"བློ་གྲོས་རྒྱལ་མཚན།"@bo
 		;
 	tolo:title "sa skya khri 'dzin"@bo-x-ewts ;
 	.
@@ -140992,7 +140992,7 @@ told:_Person_7370
 	skos:prefLabel
 		"Paṇchen Bumdrak Sumpa"@en ,
 		"paN chen'bum phrag gsum pa"@bo-x-ewts ,
-		"པཎ་��ེནའབུམ་ཕྲག་གསུམ་པ།"@bo
+		"པཎ་ཆེནའབུམ་ཕྲག་གསུམ་པ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_7370 ,
@@ -141001,7 +141001,7 @@ told:_Person_7370
 	tolo:primaryName
 		"Paṇchen Bumdrak Sumpa"@en ,
 		"paN chen'bum phrag gsum pa"@bo-x-ewts ,
-		"པཎ་��ེནའབུམ་ཕྲག་གསུམ་པ།"@bo
+		"པཎ་ཆེནའབུམ་ཕྲག་གསུམ་པ།"@bo
 		;
 	.
 
@@ -143986,7 +143986,7 @@ told:_Person_7673
 	skos:prefLabel
 		"'ol kha ba sgrol sgom chos g.yung"@bo-x-ewts ,
 		"Wolkhawa Drolgom Choyung"@en ,
-		"འོལ་ཁ་བ་སྒྲོལ་སྒོམ་ཆ���ས་གཡུང།"@bo
+		"འོལ་ཁ་བ་སྒྲོལ་སྒོམ་ཆོས་གཡུང།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_7673 ,
@@ -143995,7 +143995,7 @@ told:_Person_7673
 	tolo:primaryName
 		"'ol kha ba sgrol sgom chos g.yung"@bo-x-ewts ,
 		"Wolkhawa Drolgom Choyung"@en ,
-		"འོལ་ཁ་བ་སྒྲོལ་སྒོམ་ཆ���ས་གཡུང།"@bo
+		"འོལ་ཁ་བ་སྒྲོལ་སྒོམ་ཆོས་གཡུང།"@bo
 		;
 	.
 
@@ -146017,7 +146017,7 @@ told:_Person_7877
 	skos:prefLabel
 		"'jam dbyangs bstan pa'i rgyal mtshan"@bo-x-ewts ,
 		"Jamyang Tenpai Gyeltsen"@en ,
-		"འཇམ་དབྱངས་བསྟན་���འི་རྒྱལ་མཚན།"@bo
+		"འཇམ་དབྱངས་བསྟན་པའི་རྒྱལ་མཚན།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_7877 ,
@@ -146026,7 +146026,7 @@ told:_Person_7877
 	tolo:primaryName
 		"'jam dbyangs bstan pa'i rgyal mtshan"@bo-x-ewts ,
 		"Jamyang Tenpai Gyeltsen"@en ,
-		"འཇམ་དབྱངས་བསྟན་���འི་རྒྱལ་མཚན།"@bo
+		"འཇམ་དབྱངས་བསྟན་པའི་རྒྱལ་མཚན།"@bo
 		;
 	tolo:title "sde khri"@bo-x-ewts ;
 	.
@@ -146095,7 +146095,7 @@ told:_Person_7881
 	skos:prefLabel
 		"'jam dbyangs bstan 'dzin rgya mtsho"@bo-x-ewts ,
 		"Jamyang Tenzin Gyatso"@en ,
-		"འཇམ་ད���ྱངས་བསྟན་འཛིན་རྒྱ་མཚོ།"@bo
+		"འཇམ་དབྱངས་བསྟན་འཛིན་རྒྱ་མཚོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_7881 ,
@@ -146104,7 +146104,7 @@ told:_Person_7881
 	tolo:primaryName
 		"'jam dbyangs bstan 'dzin rgya mtsho"@bo-x-ewts ,
 		"Jamyang Tenzin Gyatso"@en ,
-		"འཇམ་ད���ྱངས་བསྟན་འཛིན་རྒྱ་མཚོ།"@bo
+		"འཇམ་དབྱངས་བསྟན་འཛིན་རྒྱ་མཚོ།"@bo
 		;
 	tolo:title "dbal mang"@bo-x-ewts ;
 	.
@@ -146626,7 +146626,7 @@ told:_Person_7929
 	skos:prefLabel
 		"Tsarong Dasang Damdul"@en ,
 		"tsha rong zla bzang dgra 'dul"@bo-x-ewts ,
-		"ཚ��རོང་ཟླ་བཟང་དགྲ་འདུལ།"@bo
+		"ཚ་རོང་ཟླ་བཟང་དགྲ་འདུལ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_7929 ,
@@ -146635,7 +146635,7 @@ told:_Person_7929
 	tolo:primaryName
 		"Tsarong Dasang Damdul"@en ,
 		"tsha rong zla bzang dgra 'dul"@bo-x-ewts ,
-		"ཚ��རོང་ཟླ་བཟང་དགྲ་འདུལ།"@bo
+		"ཚ་རོང་ཟླ་བཟང་དགྲ་འདུལ།"@bo
 		;
 	.
 
@@ -148837,7 +148837,7 @@ told:_Person_8126
 	skos:prefLabel
 		"Pema Nyinje Wangpo"@en ,
 		"pad+ma nyin byed dbang po"@bo-x-ewts ,
-		"པདྨ་ཉིན་��ྱེད་དབང་པོ།"@bo
+		"པདྨ་ཉིན་བྱེད་དབང་པོ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_8126 ,
@@ -148846,7 +148846,7 @@ told:_Person_8126
 	tolo:primaryName
 		"Pema Nyinje Wangpo"@en ,
 		"pad+ma nyin byed dbang po"@bo-x-ewts ,
-		"པདྨ་ཉིན་��ྱེད་དབང་པོ།"@bo
+		"པདྨ་ཉིན་བྱེད་དབང་པོ།"@bo
 		;
 	tolo:title "si tu"@bo-x-ewts ;
 	.
@@ -149438,7 +149438,7 @@ told:_Person_8181
 	skos:prefLabel
 		"Chokgyur Lingpa"@en ,
 		"mchog gyur gling pa"@bo-x-ewts ,
-		"མཆོག་གྱུར་གླིང��པ།"@bo
+		"མཆོག་གྱུར་གླིང་པ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_8181 ,
@@ -149447,7 +149447,7 @@ told:_Person_8181
 	tolo:primaryName
 		"Chokgyur Lingpa"@en ,
 		"mchog gyur gling pa"@bo-x-ewts ,
-		"མཆོག་གྱུར་གླིང��པ།"@bo
+		"མཆོག་གྱུར་གླིང་པ།"@bo
 		;
 	.
 
@@ -153622,7 +153622,7 @@ told:_Person_8596
 	skos:prefLabel
 		"'gyur med skal bzang stobs rgyal rdo rje"@bo-x-ewts ,
 		"Gyurme Kelzang Tobgyel Dorje"@en ,
-		"འགྱུར་མེད་སྐལ་བཟང་སྟོབས་རྒྱལ་ར���ོ་རྗེ།"@bo
+		"འགྱུར་མེད་སྐལ་བཟང་སྟོབས་རྒྱལ་རྡོ་རྗེ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_8596 ,
@@ -153631,7 +153631,7 @@ told:_Person_8596
 	tolo:primaryName
 		"'gyur med skal bzang stobs rgyal rdo rje"@bo-x-ewts ,
 		"Gyurme Kelzang Tobgyel Dorje"@en ,
-		"འགྱུར་མེད་སྐལ་བཟང་སྟོབས་རྒྱལ་ར���ོ་རྗེ།"@bo
+		"འགྱུར་མེད་སྐལ་བཟང་སྟོབས་རྒྱལ་རྡོ་རྗེ།"@bo
 		;
 	tolo:title "nyin dgon mchog sprul"@bo-x-ewts ;
 	.
@@ -154559,7 +154559,7 @@ told:_Person_8675
 	skos:prefLabel
 		"Nangdze Dorje"@en ,
 		"snang mdzad rdo rje"@bo-x-ewts ,
-		"སྣང་མཛད་རྡ��་རྗེ།"@bo
+		"སྣང་མཛད་རྡོ་རྗེ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_8675 ,
@@ -154568,7 +154568,7 @@ told:_Person_8675
 	tolo:primaryName
 		"Nangdze Dorje"@en ,
 		"snang mdzad rdo rje"@bo-x-ewts ,
-		"སྣང་མཛད་རྡ��་རྗེ།"@bo
+		"སྣང་མཛད་རྡོ་རྗེ།"@bo
 		;
 	.
 
@@ -158576,13 +158576,13 @@ told:_Person_9055
 	skos:prefLabel
 		"Drakpa Dondrub"@en ,
 		"grags pa don grub"@bo-x-ewts ,
-		"གྲགས་���་དོན་གྲུབ།"@bo
+		"གྲགས་པ་དོན་གྲུབ།"@bo
 		;
 	tolo:hasEvent told:_Birth_9055 ;
 	tolo:primaryName
 		"Drakpa Dondrub"@en ,
 		"grags pa don grub"@bo-x-ewts ,
-		"གྲགས་���་དོན་གྲུབ།"@bo
+		"གྲགས་པ་དོན་གྲུབ།"@bo
 		;
 	tolo:title "dga' ldan khri pa"@bo-x-ewts ;
 	.
@@ -163530,7 +163530,7 @@ told:_Person_9523
 	skos:prefLabel
 		"Lobzang Jigme Namkha"@en ,
 		"blo bzang 'jigs med nam mkha'"@bo-x-ewts ,
-		"བློ་བཟང་འཇིགས་མེད་ནམ་མ��འ།"@bo
+		"བློ་བཟང་འཇིགས་མེད་ནམ་མཁའ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_9523 ,
@@ -163539,7 +163539,7 @@ told:_Person_9523
 	tolo:primaryName
 		"Lobzang Jigme Namkha"@en ,
 		"blo bzang 'jigs med nam mkha'"@bo-x-ewts ,
-		"བློ་བཟང་འཇིགས་མེད་ནམ་མ��འ།"@bo
+		"བློ་བཟང་འཇིགས་མེད་ནམ་མཁའ།"@bo
 		;
 	tolo:title "zam tsha gser khri"@bo-x-ewts ;
 	.
@@ -164100,7 +164100,7 @@ told:_Person_9579
 	skos:prefLabel
 		"'jigs med rgyal ba'i myu gu"@bo-x-ewts ,
 		"Jigme Gyelwai Nyugu"@en ,
-		"འཇིགས་མེ���་རྒྱལ་བའི་མྱུ་གུ།"@bo
+		"འཇིགས་མེད་རྒྱལ་བའི་མྱུ་གུ།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_9579 ,
@@ -164109,7 +164109,7 @@ told:_Person_9579
 	tolo:primaryName
 		"'jigs med rgyal ba'i myu gu"@bo-x-ewts ,
 		"Jigme Gyelwai Nyugu"@en ,
-		"འཇིགས་མེ���་རྒྱལ་བའི་མྱུ་གུ།"@bo
+		"འཇིགས་མེད་རྒྱལ་བའི་མྱུ་གུ།"@bo
 		;
 	.
 
@@ -164410,7 +164410,7 @@ told:_Person_9601
 	skos:prefLabel
 		"Gyelse Zhenpen Taye Wozer"@en ,
 		"rgyal sras gzhan phan mtha' yas 'od zer"@bo-x-ewts ,
-		"རྒྱལ་སྲས་གཞན་ཕན་མཐའ་ཡས་འོད་���ེར།"@bo
+		"རྒྱལ་སྲས་གཞན་ཕན་མཐའ་ཡས་འོད་ཟེར།"@bo
 		;
 	tolo:hasEvent
 		told:_Birth_9601 ,
@@ -164419,7 +164419,7 @@ told:_Person_9601
 	tolo:primaryName
 		"Gyelse Zhenpen Taye Wozer"@en ,
 		"rgyal sras gzhan phan mtha' yas 'od zer"@bo-x-ewts ,
-		"རྒྱལ་སྲས་གཞན་ཕན་མཐའ་ཡས་འོད་���ེར།"@bo
+		"རྒྱལ་སྲས་གཞན་ཕན་མཐའ་ཡས་འོད་ཟེར།"@bo
 		;
 	.
 
