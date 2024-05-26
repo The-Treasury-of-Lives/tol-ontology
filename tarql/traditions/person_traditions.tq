@@ -32,7 +32,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 CONSTRUCT {
 
     ?person_iri 
-        tolo:isAffiliatedWith 
+        gist:isConnectedTo 
             ?tradition_iri ,
             ?parent_tradition_iri ;
     .

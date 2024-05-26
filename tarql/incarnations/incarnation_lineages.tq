@@ -50,7 +50,7 @@ CONSTRUCT {
             ?wylie_name , 
             ?chinese_name ,
             ?tibetan_name ;
-        gist:isAffiliatedWith 
+        gist:isConnectedTo 
             ?monastery_iri ,       
             ?tradition_1_iri ,
             ?tradition_2_iri ;
