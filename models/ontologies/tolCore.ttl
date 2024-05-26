@@ -102,8 +102,8 @@ tolo:Biography
 		]
 		;
 	skos:definition "A written account of another person's life"@en ;
+	skos:editorialNote "If we want to bring BIBFRAME into the mix, would be a subclass of bf:Work."@en ;
 	skos:prefLabel "Biography"@en ;
-	skos:scopeNote "A biography involves more than just basic facts like education, work, relationships, and death; it portrays a person's experience of these life events."@en ;
 	.
 
 tolo:Birth
