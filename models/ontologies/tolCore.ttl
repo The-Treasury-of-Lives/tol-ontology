@@ -477,51 +477,6 @@ tolo:Person
 	skos:scopeNote "May include quasi-historical figures."@en ;
 	.
 
-tolo:Reference
-	a owl:Class ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			gist:RenderedContent
-			[
-				a owl:Restriction ;
-				owl:onProperty tolo:localName ;
-				owl:someValuesFrom xsd:string ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:isCategorizedBy ;
-				owl:someValuesFrom tolo:ReferenceCollection ;
-			]
-		) ;
-	] ;
-	skos:definition "An online resource providing documentation on an entity such as a person or image."@en ;
-	skos:example "TBD"@en ;
-	skos:prefLabel "Reference"@en ;
-	skos:scopeNote "The link to the reference is built from the domain and display label of the reference type."@en ;
-	.
-
-tolo:ReferenceCollection
-	a owl:Class ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			gist:Collection
-			[
-				a owl:Restriction ;
-				owl:onProperty tolo:url ;
-				owl:someValuesFrom xsd:anyURI ;
-			]
-		) ;
-	] ;
-	skos:definition
-		"A collection with online resources about Treasury of Lives entities such as persons and images."@en ,
-		"The collection specifies the domain and label to be used for creating links to a particular online reference. The domain is concatenated with the reference name to create the full URL, and the label is used for the link text."@en
-		;
-	skos:example "Lotsawa House, Rubin Museum of Art"@en ;
-	skos:prefLabel "Reference Collection"@en ;
-	.
-
 tolo:SourceStatement
 	a owl:Class ;
 	rdfs:subClassOf
@@ -1024,12 +979,6 @@ tolo:lastName
 	skos:scopeNote "Neutral as to whether the last name is the given or family name."@en ;
 	.
 
-tolo:localName
-	a owl:DatatypeProperty ;
-	skos:definition "The local name of an IRI."@en ;
-	skos:prefLabel "local name"@en ;
-	.
-
 tolo:marriedFamilyName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tolo:familyName ;
@@ -1107,12 +1056,5 @@ tolo:title
 	rdfs:range rdf:langString ;
 	skos:definition "An appellation of dignity, honor, distinction, or preeminence attached to a person or family by virtue of rank, office, precedent, privilege, attainment, or lands."@en ;
 	skos:prefLabel "title"@en ;
-	.
-
-tolo:url
-	a owl:DatatypeProperty ;
-	rdfs:range xsd:anyURI ;
-	skos:definition "A URL."@en ;
-	skos:prefLabel "url"@en ;
 	.
 
