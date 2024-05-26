@@ -203,25 +203,78 @@ tolo:HistoricalPeriod
 
 tolo:Incarnation
 	a owl:Class ;
-	skos:definition "The relationship connecting a person to an incarnation lineage and expressing the sequence of the person in the lineage"@en ;
+	rdfs:subClassOf
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:hasMember ;
+			] ;
+			owl:allValuesFrom tolo:IncarnationLineage ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:providesOrderFor ;
+			owl:allValuesFrom tolo:Person ;
+		]
+		;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:OrderedMember
+			[
+				a owl:Restriction ;
+				owl:onProperty [
+					owl:inverseOf gist:hasMember ;
+				] ;
+				owl:someValuesFrom tolo:IncarnationLineage ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:providesOrderFor ;
+				owl:someValuesFrom tolo:Person ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:sequence ;
+				owl:someValuesFrom xsd:integer ;
+			]
+		) ;
+	] ;
+	skos:definition "The relationship connecting a person to an incarnation lineage and expressing the sequence and ordinal of the person in the lineage."@en ;
 	skos:editorialNote "Connects person to lineage."@en ;
 	skos:example "The Third Dalai Lama."@en ;
 	skos:prefLabel
 		"Incarnation"@en ,
 		"sprul sku"@bo-x-ewts
 		;
+	skos:scopeNote "The sequence and ordinal may differ in some cases, and in some cases there may be no ordinal."@en ;
 	.
 
 tolo:IncarnationLineage
 	a owl:Class ;
-	rdfs:subClassOf gist:OrderedCollection ;
+	rdfs:subClassOf [
+		a owl:Restriction ;
+		owl:onProperty gist:hasMember ;
+		owl:allValuesFrom tolo:Incarnation ;
+	] ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:OrderedCollection
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasMember ;
+				owl:someValuesFrom tolo:Incarnation ;
+			]
+		) ;
+	] ;
 	skos:definition "A consecutive line of people regarded as incarnations of a non-living person or mythical figure."@en ;
-	skos:editorialNote "Enumerated chronologically and can branch into multiple lines. Usually associated with a seat, such as a monastery."@en ;
 	skos:example "The Dalai Lamas, the Karmapas."@en ;
 	skos:prefLabel
 		"Incarnation Lineage"@en ,
 		"skye brgyud"@bo-x-ewts
 		;
+	skos:scopeNote "An incarnation lineage is enumerated chronologically and can branch into multiple lines. Usually associated with a seat, such as a monastery, and a tradition."@en ;
 	.
 
 tolo:Institution
@@ -871,7 +924,9 @@ tolo:inYear
 tolo:isAffiliatedWith
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:isConnectedTo ;
+	owl:deprecated "true"^^xsd:boolean ;
 	skos:definition "Relates a person, organization, or lineage to a group, institution, religion, or larger organization it is connected to."@en ;
+	skos:editorialNote "For now using gist:isConnectedTo instead; seems adequate and it's hard to pin down a narrower meaning of affiliation."@en ;
 	skos:example "A teacher is affiliated with a tradition; an incarnation lineage is associated with a monastery and tradition."@en ;
 	skos:prefLabel "is affiliated with"@en ;
 	.

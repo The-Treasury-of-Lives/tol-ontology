@@ -27,8 +27,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 CONSTRUCT {
 
-    ?place_iri 
-        tolo:isAffiliatedWith ?tradition_iri ;
+    ?place_iri gist:isConnectedTo ?tradition_iri ;
     .
 
 }
