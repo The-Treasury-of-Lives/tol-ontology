@@ -21,7 +21,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # Institution Founded ID
 
 # Run:
-# tarql place_founders.tq place-founder-4-28-23.csv > tolPlaceFounders.ttl
+# tarql -e utf-8 place_founders.tq place-founder-4-28-23.csv > tolPlaceFounders.ttl
 
 CONSTRUCT {
 

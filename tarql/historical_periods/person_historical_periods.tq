@@ -22,7 +22,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # Ignore others
 
 # Run:
-# tarql person_historical_periods.tq person-historical-period-1-26-24.csv > tolPersonHistoricalPeriods.ttl
+# tarql -e utf-8 person_historical_periods.tq person-historical-period-1-26-24.csv > tolPersonHistoricalPeriods.ttl
 
 
 CONSTRUCT {
