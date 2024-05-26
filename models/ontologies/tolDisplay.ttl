@@ -21,11 +21,10 @@ tolo:MappingPriority
 	skos:prefLabel "Mapping Priority"@en ;
 	.
 
-tolo:displayName
+tolo:displayLabel
 	a owl:AnnotationProperty ;
 	skos:definition "The name of a person or other resource used for display purposes."@en ;
-	skos:editorialNote "Not sure if needed."@en ;
-	skos:prefLabel "display name"@en ;
+	skos:prefLabel "display label"@en ;
 	.
 
 tolo:displayOrder
