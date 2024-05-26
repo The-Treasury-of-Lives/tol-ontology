@@ -12,7 +12,6 @@
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolMarriageRanksX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolPeerReviewStatusX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolPlaceTypesX.x.x
-# imports: https://w3id.org/treasuryoflives/taxonomy/tolReferenceCollectionsX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x
 
 @prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
@@ -39,7 +38,6 @@
 		<https://w3id.org/treasuryoflives/taxonomy/tolMarriageRanksX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolPeerReviewStatusX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolPlaceTypesX.x.x> ,
-		<https://w3id.org/treasuryoflives/taxonomy/tolReferenceCollectionsX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x>
 		;
 	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolAllX.x.x> ;
