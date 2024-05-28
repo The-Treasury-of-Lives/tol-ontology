@@ -1,0 +1,113 @@
+PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
+PREFIX bdr: <http://purl.bdrc.io/resource/> 
+PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX told: <https://w3id.org/treasuryoflives/ns/data/tol/>
+PREFIX tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/>
+PREFIX tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wiki: <https://www.wikidata.org/wiki/>
+PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
+
+
+
+# Run: 
+# tarql -e utf-8 subscriptions.tq XXX.csv > tolSubscriptions.ttl
+
+CONSTRUCT {
+
+    ?subscription_iri
+        a tolo:Subscription ;
+        gist:hasParticipant ?organization_iri ;
+        gist:isCategorizedBy
+            ?entity_active_status_iri , 
+            ?ip_access_status_iri ,
+            ?tier_iri ;
+        gist:actualStartDate ?start_date ;
+        tolo:hasContactPerson ?contact_iri ;
+        .
+
+    ?organization_iri 
+        a gist:Organization ;
+        gist:name ?Name ;
+        gist:hasCommunicationAddress ?organization_email_iri ;
+        gist:hasAddress ?ip_address_iri ;
+        tolo:domain ?Domain ;
+        .
+
+    ?organization_email_iri
+        a gist:EmailAddress ;
+        gist:containedText ?Admin_email ;
+        .
+
+    ?ip_address_iri 
+        a tolo:IpAddress ;
+        gist:uniqueText ?ip_address ;
+        .
+
+    ?contact_iri 
+        a gist:Person ;
+        skos:prefLabel ?Contact_name ;
+        gist:name ?Contact_name ;
+        gist:hasCommunicationAddress 
+            ?contact_email_iri ,
+            ?contact_phone_iri ;
+        .
+
+    ?contact_email_iri  
+        a gist:EmailAddress ;
+        gist:containedText ?Contact_email ;
+        .
+
+    ?contact_phone_iri  
+        a gist:TelephoneNumber ;
+        gist:containedText ?Contact_phone ;
+        .
+    
+}
+
+WHERE {
+
+    # Testing
+    # FILTER(?ROWNUM = 2)
+
+    # Subscription
+    BIND(LCASE(REPLACE(?Name, " +", "_")) AS ?organization_name)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Subscription_", ?organization_name)) AS ?subscription_iri) 
+
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_EntityActiveStatus_", ?status)) as ?entity_active_status_iri) 
+    # Check whether TARQL replaces hyphen with underscore.
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_IpAccessStatus_", ?IP-based_access)) as ?ip_access_status_iri)   
+
+    # Check whether the cast works for date formats mm/dd/yy
+    # BIND(STRDT(?Subscription_start, xsd:dateTime) AS ?start_date)
+
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_SubscriptionTier_", ?Tier)) AS ?tier_iri)
+
+    
+    # Organization 
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Organization_", ?organization_name)) AS ?organization_iri) 
+
+    BIND(tarql:expandPrefixedName(CONCAT("told:_EmailAddress_", LCASE(REPLACE(REPLACE(REPLACE(?Admin_email, "[^\\w]", "_" ), "_+", "_"), "_$", "")))) AS ?organization_email_iri)
+
+    OPTIONAL {
+        ?ip_address apf:strSplit(?IP_addresses ",") 
+    }
+    BIND(tarql:expandPrefixedName(CONCAT("told:_IpAddress_", LCASE(REPLACE(?Contact_name, " +", "_")))) AS ?ip_address_iri)
+
+    
+    # Contact person
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", LCASE(REPLACE(?Contact_name, " +", "_")))) AS ?contact_iri)
+
+    BIND(tarql:expandPrefixedName(CONCAT("told:_EmailAddress_", LCASE(REPLACE(REPLACE(REPLACE(?Contact_email, "[^\\w]", "_" ), "_+", "_"), "_$", "")))) AS ?contact_email_iri)
+
+    BIND(tarql:expandPrefixedName(CONCAT("told:_TelephoneNumber_", LCASE(REPLACE(REPLACE(REPLACE(?Contact_phone, "[^\\w]", "_" ), "_+", "_"), "_$", "")))) AS ?contact_phone_iri)
+
+}

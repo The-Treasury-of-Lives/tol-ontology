@@ -1,3 +1,6 @@
+# imports: https://w3id.org/semanticarts/ontology/gistCore12.0.1
+# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
+
 @prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -8,22 +11,61 @@
 
 <https://w3id.org/treasuryoflives/ontology/tolDisplay>
 	a owl:Ontology ;
+	owl:imports
+		<https://w3id.org/semanticarts/ontology/gistCore12.0.1> ,
+		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
+		;
 	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x> ;
-	skos:definition "Classes and properties to support Treasury of Lives website display."@en ;
+	skos:definition "Defines concepts to support Treasury of Lives website display."@en ;
+	skos:editoralNote "Currently splitting display and admin; see if this is maintainable."@en ;
 	skos:prefLabel "Treasury of Lives Display Ontology"@en ;
 	gist:license "TBD"@en ;
 	.
 
 tolo:MappingPriority
 	a owl:Class ;
-	rdfs:subClassOf gist:Category ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:Category
+			[
+				a owl:Restriction ;
+				owl:onProperty tolo:level ;
+				owl:someValuesFrom xsd:integer ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty tolo:minZoomLevel ;
+				owl:someValuesFrom xsd:integer ;
+			]
+		) ;
+	] ;
 	skos:definition "A category specifying mapping priority level and minimum zoom level."@en ;
 	skos:prefLabel "Mapping Priority"@en ;
 	.
 
+tolo:caption
+	a owl:DatatypeProperty ;
+	rdfs:domain tolo:Image ;
+	rdfs:range xsd:string ;
+	skos:definition "A short piece of text under an image that describes or explains it."@en ;
+	skos:editorialNote "Should this go in the admin or display ontology? Is it an annotation property?"@en ;
+	skos:prefLabel "credit"@en ;
+	.
+
+tolo:credit
+	a owl:DatatypeProperty ;
+	rdfs:domain tolo:Image ;
+	rdfs:range xsd:string ;
+	skos:definition "A note acknowledging the source of an image."@en ;
+	skos:editorialNote "Should this go in the admin or display ontology? Is it an annotation property?"@en ;
+	skos:prefLabel "credit"@en ;
+	.
+
 tolo:displayLabel
 	a owl:AnnotationProperty ;
-	skos:definition "The name of a person or other resource used for display purposes."@en ;
+	rdfs:range xsd:string ;
+	skos:definition "The name or label of a person or other resource used for display purposes."@en ;
 	skos:prefLabel "display label"@en ;
 	.
 
@@ -45,13 +87,6 @@ tolo:minZoomLevel
 	rdfs:range xsd:integer ;
 	skos:definition "Relates a mapping priority to its minimum zoom level."@en ;
 	skos:preflabel "minimum zoom level"@en ;
-	.
-
-tolo:priority
-	a owl:DatatypeProperty ;
-	rdfs:range xsd:integer ;
-	skos:definition "Relates a mapping priority to its level."@en ;
-	skos:prefLabel "priority"@en ;
 	.
 
 tolo:publicationDisplayDate
