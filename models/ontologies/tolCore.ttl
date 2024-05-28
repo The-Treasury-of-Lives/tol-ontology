@@ -20,7 +20,7 @@
 	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, facilitate the consumption of external RDF, and to to enhance the narrative text with structured data."@en ;
 	skos:editoralNote
 		"Add rdfs:isDefinedBy using onto-toolkit."@en ,
-		"Combining all terms into one module for now; may break up into separate modules later."@en
+		"Combining all terms into one module for now; may break up into separate modules later. E.g., mapping priorities, timestamps, and display properties could go into a metadata ontology, but there is sometimes a fine line between data and metadata (e.g., is an image credit or a link to an external website data or metadata?)."@en
 		;
 	skos:editorialNote """
 		Temporarily removing imports:
@@ -212,6 +212,14 @@ tolo:HtmlBiography
 	skos:example "The Treasury of Lives biography of Rongzom Chokyi Zangpo is published on the Treasury of Lives website at https://treasuryoflives.org/biographies/view/Rongzom-Chokyi-Zangpo/6194."@en ;
 	skos:prefLabel "HTML Biography"@en ;
 	skos:scopeNote "Note that author bios are not members of this class."@en ;
+	.
+
+tolo:Image
+	a owl:Class ;
+	rdfs:subClassOf gist:FormattedContent ;
+	skos:definition "A visual representation."@en ;
+	skos:prefLabel "Image"@en ;
+	skos:scopeNote "Images are associated with people and places on the Treasury of Lives website."@en ;
 	.
 
 tolo:Incarnation
@@ -492,6 +500,7 @@ tolo:Person
 
 tolo:Reference
 	a owl:Class ;
+	owl:deprecated "true"^^xsd:boolean ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -509,6 +518,7 @@ tolo:Reference
 		) ;
 	] ;
 	skos:definition "An online resource providing documentation on an entity such as a person or image."@en ;
+	skos:editorialNote "Deprecated for now in favor of using a simple URL. The reason for defining Reference and ReferenceCollection classes is to provide a display label, but maybe it's not worth the overhead."@en ;
 	skos:example "TBD"@en ;
 	skos:prefLabel "Reference"@en ;
 	skos:scopeNote "The link to the reference is built from the domain and display label of the reference type."@en ;
@@ -516,6 +526,7 @@ tolo:Reference
 
 tolo:ReferenceCollection
 	a owl:Class ;
+	owl:deprecated "true"^^xsd:boolean ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -638,6 +649,14 @@ tolo:birthFamilyName
 	skos:definition "The family name a person is assigned at birth."@en ;
 	skos:prefLabel "birth family name"@en ;
 	skos:scopeNote "A family name other than the birth name can be acquired through marriage."@en ;
+	.
+
+tolo:creationDate
+	a owl:DatatypeProperty ;
+	rdfs:subClassOf gist:atDateTime ;
+	skos:definition "The date an image was created, with day precision."@en ;
+	skos:prefLabel "creation date"@en ;
+	skos:scopeNote "Differs from the timestamp when the image metadata was entered into the database."@en ;
 	.
 
 tolo:dissolutionYear
@@ -1035,6 +1054,14 @@ tolo:lastName
 	skos:definition "The last name of a person."@en ;
 	skos:prefLabel "last name"@en ;
 	skos:scopeNote "Neutral as to whether the last name is the given or family name."@en ;
+	.
+
+tolo:level
+	a owl:DatatypeProperty ;
+	rdfs:range xsd:integer ;
+	skos:definition "A level in a hierarchy."@en ;
+	skos:example "The level of a mapping priority; the tier of a subscription."@en ;
+	skos:prefLabel "priority"@en ;
 	.
 
 tolo:localName

@@ -1,0 +1,196 @@
+# imports: https://w3id.org/semanticarts/ontology/gistCore12.0.1
+# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
+
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/treasuryoflives/ontology/tolAdmin>
+	a owl:Ontology ;
+	owl:imports
+		<https://w3id.org/semanticarts/ontology/gistCore12.0.1> ,
+		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
+		;
+	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolAdminX.x.x> ;
+	skos:definition "Classes and properties to support Treasury of Lives administrative functions."@en ;
+	skos:editoralNote "Currently splitting display and admin; see if this is maintainable."@en ;
+	skos:prefLabel "Treasury of Lives Admin Ontology"@en ;
+	gist:license "TBD"@en ;
+	.
+
+tolo:IpAccessStatus
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:someValuesFrom tolo:Subscription ;
+		]
+		;
+	skos:definition "Indicates whether a subsriber has IP access-based status to the Treasury of Lives website."@en ;
+	skos:prefLabel "IP Access Status"@en ;
+	.
+
+tolo:IpAddress
+	a owl:Class ;
+	skos:altLabel "IP Address"@en ;
+	skos:definition "A numeric label assigned to a device connected to a computer network that uses the Internet Protocol for communication. IP addresses serve two main functions: network interface identification and location addressing."@en ;
+	skos:example "Harvard Library's top-level domain is harvard.edu."@en ;
+	skos:prefLabel "Internet Protocol Address"@en ;
+	skos:scopeNote "Subscribers may have no, one, or multiple IP addresses. Value can be either a full or wildcarded IP address."@en ;
+	.
+
+tolo:Rank
+	a owl:Class ;
+	rdfs:subClassOf gist:Category ;
+	skos:definition "Relative standing or position."@en ;
+	skos:example "Primary or secondary image of a person"@en ;
+	skos:prefLabel "Rank"@en ;
+	skos:scopeNote "Used primarily for non-numeric values. Numeric values can use gist:sequence."@en ;
+	.
+
+tolo:Subscription
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:TemporalRelation
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasParticipant ;
+				owl:someValuesFrom gist:Organization ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty tolo:hasContactPerson ;
+				owl:someValuesFrom gist:Person ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:someValuesFrom tolo:IpAccessStatus ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:someValuesFrom gist:EntityActiveStatus ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:someValuesFrom tolo:SubscriptionTier ;
+			]
+		) ;
+	] ;
+	skos:definition "A subscription to the Treasury of Lives website."@en ;
+	skos:editorialNote "Add class equivalence based on property restrictions."@en ;
+	skos:prefLabel "Subscription"@en ;
+	.
+
+tolo:SubscriptionTier
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:someValuesFrom tolo:Subscription ;
+		]
+		;
+	skos:definition "A level of subscription with specific privileges."@en ;
+	skos:editorialNote "Using a category rather than an integer in case we want to attach information or apply SHACL validation to tiers."@en ;
+	skos:prefLabel "Subscription Tier"@en ;
+	.
+
+tolo:UserAccount
+	a owl:Class ;
+	skos:definition "An account for a person with editing access to the Treasury of Lives website."@en ;
+	skos:editorialNote "Tied to a person, has certain privileges."@en ;
+	skos:prefLabel "User Account"@en ;
+	.
+
+tolo:createDateTime
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:atDateTime ;
+	skos:definition "The timestamp of the creation of metadata related to some resource."@en ;
+	skos:prefLabel "create datetime"@en ;
+	.
+
+tolo:domain
+	a owl:DatatypeProperty ;
+	skos:definition "An internet domain owned by a person or organization."@en ;
+	skos:editorialNote "See whether we can get full URLs - then use url property."@en ;
+	skos:example "stanford.edu, cornell.edu"@en ;
+	skos:prefLabel "domain"@en ;
+	skos:scopeNote "Note that these are not full URLs."@en ;
+	.
+
+tolo:fileName
+	a owl:DatatypeProperty ;
+	rdfs:range xsd:string ;
+	skos:definition "The name of a file, such as an image file."@en ;
+	skos:editorialNote "Should this go in the admin or display ontology? Is it an annotation property?"@en ;
+	skos:prefLabel "file name"@en ;
+	.
+
+tolo:filePath
+	a owl:DatatypeProperty ;
+	rdfs:range xsd:string ;
+	skos:definition "The full path to a file, such as an image file."@en ;
+	skos:editorialNote "Should this go in the admin or display ontology? Is it an annotation property?"@en ;
+	skos:prefLabel "file path"@en ;
+	.
+
+tolo:hasContactPerson
+	a owl:ObjectProperty ;
+	rdfs:range gist:Person ;
+	skos:definition "The contact person for an organization or temporal relation such as a subscription."@en ;
+	skos:prefLabel "has contact person"@en ;
+	.
+
+tolo:hasThumbnail
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:Image ;
+	rdfs:range tolo:Image ;
+	skos:definition "Relates an image to a reduced-size version used to help in recognizing and organizing a collection of images."@en ;
+	skos:editorialNote "Should this go in the admin or display ontology? Is it an annotation property?"@en ;
+	skos:prefLabel "has thumbnail"@en ;
+	.
+
+tolo:isCreatedBy
+	a owl:ObjectProperty ;
+	rdfs:range tolo:UserAccount ;
+	skos:definition "The user account which created metadata related to some resource, such as an image."@en ;
+	skos:prefLabel "is created by"@en ;
+	.
+
+tolo:isLastModifiedBy
+	a owl:ObjectProperty ;
+	rdfs:range tolo:UserAccount ;
+	skos:definition "The user account which last modified metadata related to some resource, such as an image."@en ;
+	skos:prefLabel "is last modified by"@en ;
+	.
+
+tolo:lastModifiedDateTime
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:atDateTime ;
+	skos:definition "The timestamp of the last modification of metadata related to some resource."@en ;
+	skos:prefLabel "last modified datetime"@en ;
+	.
+
+tolo:sourceUrl
+	a owl:DatatypeProperty ;
+	rdfs:range xsd:anyURI ;
+	skos:definition "The URL of the source of an image or other content."@en ;
+	skos:prefLabel "source URL"@en ;
+	.
+
