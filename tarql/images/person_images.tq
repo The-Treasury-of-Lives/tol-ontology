@@ -83,13 +83,15 @@ WHERE {
 
     BIND(REPLACE(?create_date, " .+$", "") AS ?create_day)
     BIND(REPLACE(?create_date, "^.+ ", "") AS ?create_time)
-    BIND(STRDT(CONCAT(?create_day, "T", ?create_time), xsd:dateTime) AS ?create_datetime)
+    BIND(IF(REGEX(?create_time, "^\\d:"), CONCAT("0", ?create_time), ?create_time) AS ?normalized_create_time)
+    BIND(STRDT(CONCAT(?create_day, "T", ?normalized_create_time), xsd:dateTime) AS ?create_datetime)
     
     # If no modification date/user, use creation date/user.
     BIND(IF(?last_modified_user_id != "NULL", tarql:expandPrefixedName(CONCAT("told:_UserAccount_", ?last_modified_user_id)), ?created_by_iri) AS ?last_modified_by_iri)
 
     BIND(IF(?last_modified_date != "NULL", REPLACE(?last_modified_date, " .+$", ""), ?unbound) AS ?last_modified_day)
     BIND(IF(?last_modified_date != "NULL", REPLACE(?last_modified_date, "^.+ ", ""), ?unbound) AS ?last_modified_time)
-    BIND(IF(?last_modified_date != "NULL", STRDT(CONCAT(?last_modified_day, "T", ?last_modified_time), xsd:dateTime), ?create_datetime) AS ?last_modified_datetime)
+    BIND(IF(REGEX(?last_modified_time, "^\\d:"), CONCAT("0", ?last_modified_time), ?last_modified_time) AS ?normalized_last_modified_time)
+    BIND(IF(?last_modified_date != "NULL", STRDT(CONCAT(?last_modified_day, "T", ?normalized_last_modified_time), xsd:dateTime), ?create_datetime) AS ?last_modified_datetime)
 
 }
