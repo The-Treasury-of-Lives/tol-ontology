@@ -20,7 +20,7 @@
 	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, facilitate the consumption of external RDF, and to to enhance the narrative text with structured data."@en ;
 	skos:editoralNote
 		"Add rdfs:isDefinedBy using onto-toolkit."@en ,
-		"Combining all terms into one module for now; may break up into separate modules later."@en
+		"Combining all terms into one module for now; may break up into separate modules later. E.g., mapping priorities, timestamps, and display properties could go into a metadata ontology, but there is sometimes a fine line between data and metadata (e.g., is an image credit or a link to an external website data or metadata?)."@en
 		;
 	skos:editorialNote """
 		Temporarily removing imports:
@@ -94,23 +94,16 @@ tolo:Authorship
 tolo:Biography
 	a owl:Class ;
 	rdfs:subClassOf
-		gist:FormattedContent ,
-		[
-			a owl:Restriction ;
-			owl:onProperty gist:isExpressedIn ;
-			owl:hasValue media-txt:html ;
-		] ,
+		gist:Content ,
 		[
 			a owl:Restriction ;
 			owl:onProperty gist:isAbout ;
 			owl:someValuesFrom tolo:Person ;
 		]
 		;
-	skos:definition "A written account of another person's life, formatted in HTML for publication on the Treasury of Lives website."@en ;
-	skos:editorialNote "Using subclass axioms rather than equivalence because the author bios should not be inferred into the class. TODO: Generalize the model a bit for external consumption: define a generic Biography class, subclass of bf:Work (or gist:Content?), then HtmlBio as formatted html content, etc."@en ;
-	skos:example "The Treasury of Lives biography of Rongzom Chokyi Zangpo is published on the Treasury of Lives website at https://treasuryoflives.org/biographies/view/Rongzom-Chokyi-Zangpo/6194."@en ;
+	skos:definition "A written account of another person's life"@en ;
+	skos:editorialNote "If we want to bring BIBFRAME into the mix, would be a subclass of bf:Work."@en ;
 	skos:prefLabel "Biography"@en ;
-	skos:scopeNote "A biography involves more than just basic facts like education, work, relationships, and death; it portrays a person's experience of these life events."@en ;
 	.
 
 tolo:Birth
@@ -201,27 +194,108 @@ tolo:HistoricalPeriod
 	skos:scopeNote "Whereas a time interval is any period of time, such as 2-4pm this afternoon or 1848-1947, a historical period is named and cited in relation to historical events or culture. Historical periods include full and partial centuries, which are ordinally numbered."@en ;
 	.
 
+tolo:HtmlBiography
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			tolo:Biography
+			gist:FormattedContent
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isExpressedIn ;
+				owl:hasValue media-txt:html ;
+			]
+		) ;
+	] ;
+	skos:definition "A biography formatted in HTML for publication on a website."@en ;
+	skos:example "The Treasury of Lives biography of Rongzom Chokyi Zangpo is published on the Treasury of Lives website at https://treasuryoflives.org/biographies/view/Rongzom-Chokyi-Zangpo/6194."@en ;
+	skos:prefLabel "HTML Biography"@en ;
+	skos:scopeNote "Note that author bios are not members of this class."@en ;
+	.
+
+tolo:Image
+	a owl:Class ;
+	rdfs:subClassOf gist:FormattedContent ;
+	skos:definition "A visual representation."@en ;
+	skos:prefLabel "Image"@en ;
+	skos:scopeNote "Images are associated with people and places on the Treasury of Lives website."@en ;
+	.
+
 tolo:Incarnation
 	a owl:Class ;
-	skos:definition "The relationship connecting a person to an incarnation lineage and expressing the sequence of the person in the lineage"@en ;
+	rdfs:subClassOf
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:hasMember ;
+			] ;
+			owl:allValuesFrom tolo:IncarnationLineage ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:providesOrderFor ;
+			owl:allValuesFrom tolo:Person ;
+		]
+		;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:OrderedMember
+			[
+				a owl:Restriction ;
+				owl:onProperty [
+					owl:inverseOf gist:hasMember ;
+				] ;
+				owl:someValuesFrom tolo:IncarnationLineage ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:providesOrderFor ;
+				owl:someValuesFrom tolo:Person ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:sequence ;
+				owl:someValuesFrom xsd:integer ;
+			]
+		) ;
+	] ;
+	skos:definition "The relationship connecting a person to an incarnation lineage and expressing the sequence and ordinal of the person in the lineage."@en ;
 	skos:editorialNote "Connects person to lineage."@en ;
 	skos:example "The Third Dalai Lama."@en ;
 	skos:prefLabel
 		"Incarnation"@en ,
 		"sprul sku"@bo-x-ewts
 		;
+	skos:scopeNote "The sequence and ordinal may differ in some cases, and in some cases there may be no ordinal."@en ;
 	.
 
 tolo:IncarnationLineage
 	a owl:Class ;
-	rdfs:subClassOf gist:OrderedCollection ;
+	rdfs:subClassOf [
+		a owl:Restriction ;
+		owl:onProperty gist:hasMember ;
+		owl:allValuesFrom tolo:Incarnation ;
+	] ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:OrderedCollection
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasMember ;
+				owl:someValuesFrom tolo:Incarnation ;
+			]
+		) ;
+	] ;
 	skos:definition "A consecutive line of people regarded as incarnations of a non-living person or mythical figure."@en ;
-	skos:editorialNote "Enumerated chronologically and can branch into multiple lines. Usually associated with a seat, such as a monastery."@en ;
 	skos:example "The Dalai Lamas, the Karmapas."@en ;
 	skos:prefLabel
 		"Incarnation Lineage"@en ,
 		"skye brgyud"@bo-x-ewts
 		;
+	skos:scopeNote "An incarnation lineage is enumerated chronologically and can branch into multiple lines. Usually associated with a seat, such as a monastery, and a tradition."@en ;
 	.
 
 tolo:Institution
@@ -424,6 +498,54 @@ tolo:Person
 	skos:scopeNote "May include quasi-historical figures."@en ;
 	.
 
+tolo:Reference
+	a owl:Class ;
+	owl:deprecated "true"^^xsd:boolean ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:RenderedContent
+			[
+				a owl:Restriction ;
+				owl:onProperty tolo:localName ;
+				owl:someValuesFrom xsd:string ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:someValuesFrom tolo:ReferenceCollection ;
+			]
+		) ;
+	] ;
+	skos:definition "An online resource providing documentation on an entity such as a person or image."@en ;
+	skos:editorialNote "Deprecated for now in favor of using a simple URL. The reason for defining Reference and ReferenceCollection classes is to provide a display label, but maybe it's not worth the overhead."@en ;
+	skos:example "TBD"@en ;
+	skos:prefLabel "Reference"@en ;
+	skos:scopeNote "The link to the reference is built from the domain and display label of the reference type."@en ;
+	.
+
+tolo:ReferenceCollection
+	a owl:Class ;
+	owl:deprecated "true"^^xsd:boolean ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:Collection
+			[
+				a owl:Restriction ;
+				owl:onProperty tolo:url ;
+				owl:someValuesFrom xsd:anyURI ;
+			]
+		) ;
+	] ;
+	skos:definition
+		"A collection with online resources about Treasury of Lives entities such as persons and images."@en ,
+		"The collection specifies the domain and label to be used for creating links to a particular online reference. The domain is concatenated with the reference name to create the full URL, and the label is used for the link text."@en
+		;
+	skos:example "Lotsawa House, Rubin Museum of Art"@en ;
+	skos:prefLabel "Reference Collection"@en ;
+	.
+
 tolo:SourceStatement
 	a owl:Class ;
 	rdfs:subClassOf
@@ -529,18 +651,12 @@ tolo:birthFamilyName
 	skos:scopeNote "A family name other than the birth name can be acquired through marriage."@en ;
 	.
 
-tolo:displayName
-	a owl:AnnotationProperty ;
-	skos:definition "The name of a person or other resource used for display purposes."@en ;
-	skos:editorialNote "Not sure if needed."@en ;
-	skos:prefLabel "display name"@en ;
-	.
-
-tolo:displayOrder
-	a owl:AnnotationProperty ;
-	skos:definition "Indicates display order in a list of values."@en ;
-	skos:example "Used to order a biography author list when there are multiple authors."@en ;
-	skos:prefLabel "display order"@en ;
+tolo:creationDate
+	a owl:DatatypeProperty ;
+	rdfs:subClassOf gist:atDateTime ;
+	skos:definition "The date an image was created, with day precision."@en ;
+	skos:prefLabel "creation date"@en ;
+	skos:scopeNote "Differs from the timestamp when the image metadata was entered into the database."@en ;
 	.
 
 tolo:dissolutionYear
@@ -870,8 +986,9 @@ tolo:inYear
 
 tolo:isAffiliatedWith
 	a owl:ObjectProperty ;
-	rdfs:subPropertyOf gist:isConnectedTo ;
+	owl:deprecated "true"^^xsd:boolean ;
 	skos:definition "Relates a person, organization, or lineage to a group, institution, religion, or larger organization it is connected to."@en ;
+	skos:editorialNote "For now using gist:isConnectedTo instead; seems adequate and it's hard to pin down a narrower meaning of affiliation. Note that this property would not be a subproperty of gist:isConnectedTo because it is not symmetric."@en ;
 	skos:example "A teacher is affiliated with a tradition; an incarnation lineage is associated with a monastery and tradition."@en ;
 	skos:prefLabel "is affiliated with"@en ;
 	.
@@ -939,6 +1056,20 @@ tolo:lastName
 	skos:scopeNote "Neutral as to whether the last name is the given or family name."@en ;
 	.
 
+tolo:level
+	a owl:DatatypeProperty ;
+	rdfs:range xsd:integer ;
+	skos:definition "A level in a hierarchy."@en ;
+	skos:example "The level of a mapping priority; the tier of a subscription."@en ;
+	skos:prefLabel "priority"@en ;
+	.
+
+tolo:localName
+	a owl:DatatypeProperty ;
+	skos:definition "The local name of an IRI."@en ;
+	skos:prefLabel "local name"@en ;
+	.
+
 tolo:marriedFamilyName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tolo:familyName ;
@@ -1000,17 +1131,8 @@ tolo:primaryName
 	skos:prefLabel "primary name"@en ;
 	skos:scopeNote
 		"The primary/alternate distinction may be source- or system-dependent. Other systems or sources may a different name primary."@en ,
-		"The same name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a preferred name in both its own and the Extended Wylie systems."@en
+		"The same name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a primary name in both its own and the Extended Wylie systems and possibly others."@en
 		;
-	.
-
-tolo:publicationDisplayDate
-	a owl:AnnotationProperty ;
-	rdfs:domain tolo:Biography ;
-	rdfs:range xsd:string ;
-	skos:definition "The date of publication to display with a biography."@en ;
-	skos:example "August 2007"@en ;
-	skos:prefLabel "publication display date"@en ;
 	.
 
 tolo:residesIn
@@ -1027,12 +1149,10 @@ tolo:title
 	skos:prefLabel "title"@en ;
 	.
 
-tolo:updateDisplayDate
-	a owl:AnnotationProperty ;
-	rdfs:domain tolo:Biography ;
-	rdfs:range xsd:string ;
-	skos:definition "The date of last update to display with a biography."@en ;
-	skos:example "August 2007"@en ;
-	skos:prefLabel "update display date"@en ;
+tolo:url
+	a owl:DatatypeProperty ;
+	rdfs:range xsd:anyURI ;
+	skos:definition "A URL."@en ;
+	skos:prefLabel "url"@en ;
 	.
 

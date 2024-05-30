@@ -29,7 +29,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # Description
 
 # Run: 
-# tarql --dedup 1000 traditions.tq traditions-5-22-23.csv > tolTraditions.ttl
+# tarql -e utf-8 --dedup 1000 traditions.tq traditions-5-22-23.csv > tolTraditions.ttl
 
 
 CONSTRUCT {
@@ -59,7 +59,7 @@ CONSTRUCT {
             ?name_chinese ;
         tolo:hasFounder ?founder_iri ;
         tolo:isDerivedFrom ?parent_tradition_iri ;
-        # tolo:isAffiliatedWith ?monastery_iri ;
+        # gist:isConnectedTo ?monastery_iri ;
         .
 
     ?description_iri 

@@ -33,7 +33,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # description -- ?html_description_iri
 
 # Run: 
-# tarql --dedup 5000 incarnation_lineages.tq incarnation-lineages-4-18-24.csv > tolIncarnationLineages.ttl
+# tarql -e utf-8 --dedup 5000 incarnation_lineages.tq incarnation-lineages-4-18-24.csv > tolIncarnationLineages.ttl
 
 CONSTRUCT {
 
@@ -50,7 +50,7 @@ CONSTRUCT {
             ?wylie_name , 
             ?chinese_name ,
             ?tibetan_name ;
-        gist:isAffiliatedWith 
+        gist:isConnectedTo 
             ?monastery_iri ,       
             ?tradition_1_iri ,
             ?tradition_2_iri ;

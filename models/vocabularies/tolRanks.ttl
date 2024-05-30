@@ -15,27 +15,26 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/treasuryoflives/taxonomy/tolEntityActiveStatus>
+<https://w3id.org/treasuryoflives/taxonomy/tolRanks>
 	a owl:Ontology ;
 	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
-	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolEntityActiveStatusX.x.x> ;
-	skos:definition "Defines values to indicate whether a resource is active or inactive."@en ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolRanksX.x.x> ;
+	skos:definition "Defines non-numeric rank categories such as primary and secondary."@en ;
 	skos:editorialNote "Hand-curated."@en ;
-	skos:prefLabel "Entity Active Status"@en ;
-	skos:scopeNote "This will mean different things in different contexts."@en ;
+	skos:prefLabel " Ranks"@en ;
 	.
 
-tolx:_EntityActiveStatus_active
-	a tolo:EntityActiveStatus ;
-	skos:definition "The entity is currently active."@en ;
-	skos:example "An author is an active contributor to Treasury of Lives; a subscription is active."@en ;
-	skos:prefLabel "Active"@en ;
+tolx:_Rank_primary
+	a tolo:Rank ;
+	skos:definition "First in importance or significance."@en ;
+	skos:example "The primary image of a person or place"@en ;
+	skos:prefLabel "Primary"@en ;
 	.
 
-tolx:_EntityActiveStatus_inactive
-	a tolo:EntityActiveStatus ;
-	skos:definition "The entity is no longer active."@en ;
-	skos:example "An author is no longer living or no longer a contributor to Treasury of Lives."@en ;
-	skos:prefLabel "Inactive"@en ;
+tolx:_Rank_secondary
+	a tolo:Rank ;
+	skos:definition "Second or non-primary in importance or significance."@en ;
+	skos:example "A secondary image of a person or place"@en ;
+	skos:prefLabel "Secondary"@en ;
 	.
 

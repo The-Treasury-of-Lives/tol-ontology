@@ -19,12 +19,12 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # tol_id
 # tbrc_id
 # primary_name
-# prefered_wylie [sic]
+# preferred_wylie 
 # name_variant
 # lang_tag
 
 # Run: 
-# tarql --dedup 50000 person_name_variants.tq person-name-variants-01-15-24.csv > tolPersonNameVariants.ttl
+# tarql -e utf-8 --dedup 50000 person_name_variants.tq person-name-variants-5-21-24.csv > tolPersonNameVariants.ttl
 
 
 CONSTRUCT {
@@ -38,6 +38,6 @@ WHERE {
     #  FILTER(?ROWNUM IN (1, 2))
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?tol_id)) AS ?person_iri)
-    BIND(IF(?name_variant != ?primary_name && ?name_variant != ?prefered_wylie, STRLANG(?name_variant, ?lang_tag), ?unbound) AS ?alternate_name)
+    BIND(IF(?name_variant != ?primary_name && ?name_variant != ?preferred_wylie, STRLANG(?name_variant, ?lang_tag), ?unbound) AS ?alternate_name)
 
 }

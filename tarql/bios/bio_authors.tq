@@ -22,7 +22,7 @@ PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/>
 # display_order
 
 # Run: 
-# tarql bio_authors.tq bio-order-5-1-24.csv > tolBioAuthors.ttl
+# tarql -e utf-8 bio_authors.tq bio-order-5-1-24.csv > tolBioAuthors.ttl
 
 
 CONSTRUCT {
