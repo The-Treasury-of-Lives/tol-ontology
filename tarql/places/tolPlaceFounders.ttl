@@ -1,0 +1,1725 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:_Place_10
+	tolo:hasFounder told:_Person_9633 ;
+	.
+
+told:_Place_1000
+	tolo:hasFounder told:_Person_4632 ;
+	.
+
+told:_Place_1009
+	tolo:hasFounder told:_Person_11736 ;
+	.
+
+told:_Place_101
+	tolo:hasFounder told:_Person_4341 ;
+	.
+
+told:_Place_1016
+	tolo:hasFounder told:_Person_8603 ;
+	.
+
+told:_Place_1021
+	tolo:hasFounder told:_Person_6009 ;
+	.
+
+told:_Place_1023
+	tolo:hasFounder told:_Person_4000 ;
+	.
+
+told:_Place_1038
+	tolo:hasFounder told:_Person_6344 ;
+	.
+
+told:_Place_105
+	tolo:hasFounder told:_Person_4343 ;
+	.
+
+told:_Place_1055
+	tolo:hasFounder told:_Person_13510 ;
+	.
+
+told:_Place_1056
+	tolo:hasFounder told:_Person_10832 ;
+	.
+
+told:_Place_1066
+	tolo:hasFounder told:_Person_2882 ;
+	.
+
+told:_Place_1068
+	tolo:hasFounder told:_Person_13104 ;
+	.
+
+told:_Place_1069
+	tolo:hasFounder told:_Person_13530 ;
+	.
+
+told:_Place_1072
+	tolo:hasFounder told:_Person_7803 ;
+	.
+
+told:_Place_1073
+	tolo:hasFounder told:_Person_7442 ;
+	.
+
+told:_Place_1087
+	tolo:hasFounder told:_Person_12100 ;
+	.
+
+told:_Place_1090
+	tolo:hasFounder told:_Person_7486 ;
+	.
+
+told:_Place_1097
+	tolo:hasFounder told:_Person_11246 ;
+	.
+
+told:_Place_11
+	tolo:hasFounder told:_Person_8975 ;
+	.
+
+told:_Place_110
+	tolo:hasFounder told:_Person_2712 ;
+	.
+
+told:_Place_1102
+	tolo:hasFounder told:_Person_10199 ;
+	.
+
+told:_Place_1104
+	tolo:hasFounder told:_Person_8513 ;
+	.
+
+told:_Place_1119
+	tolo:hasFounder told:_Person_6065 ;
+	.
+
+told:_Place_1120
+	tolo:hasFounder told:_Person_10760 ;
+	.
+
+told:_Place_1121
+	tolo:hasFounder told:_Person_10760 ;
+	.
+
+told:_Place_1122
+	tolo:hasFounder told:_Person_10750 ;
+	.
+
+told:_Place_1123
+	tolo:hasFounder told:_Person_10760 ;
+	.
+
+told:_Place_1124
+	tolo:hasFounder told:_Person_10760 ;
+	.
+
+told:_Place_1125
+	tolo:hasFounder told:_Person_10760 ;
+	.
+
+told:_Place_1126
+	tolo:hasFounder told:_Person_2427 ;
+	.
+
+told:_Place_1131
+	tolo:hasFounder told:_Person_6756 ;
+	.
+
+told:_Place_1147
+	tolo:hasFounder told:_Person_12840 ;
+	.
+
+told:_Place_1150
+	tolo:hasFounder told:_Person_3758 ;
+	.
+
+told:_Place_1157
+	tolo:hasFounder told:_Person_11550 ;
+	.
+
+told:_Place_116
+	tolo:hasFounder
+		told:_Person_13065 ,
+		told:_Person_4118
+		;
+	.
+
+told:_Place_1162
+	tolo:hasFounder told:_Person_4511 ;
+	.
+
+told:_Place_1165
+	tolo:hasFounder told:_Person_2854 ;
+	.
+
+told:_Place_1166
+	tolo:hasFounder told:_Person_6766 ;
+	.
+
+told:_Place_117
+	tolo:hasFounder told:_Person_5728 ;
+	.
+
+told:_Place_1172
+	tolo:hasFounder told:_Person_4676 ;
+	.
+
+told:_Place_1173
+	tolo:hasFounder told:_Person_9699 ;
+	.
+
+told:_Place_1185
+	tolo:hasFounder told:_Person_9523 ;
+	.
+
+told:_Place_1191
+	tolo:hasFounder told:_Person_8334 ;
+	.
+
+told:_Place_1194
+	tolo:hasFounder told:_Person_8342 ;
+	.
+
+told:_Place_12
+	tolo:hasFounder told:_Person_9126 ;
+	.
+
+told:_Place_1206
+	tolo:hasFounder told:_Person_2696 ;
+	.
+
+told:_Place_1211
+	tolo:hasFounder told:_Person_10018 ;
+	.
+
+told:_Place_1216
+	tolo:hasFounder told:_Person_10909 ;
+	.
+
+told:_Place_1218
+	tolo:hasFounder told:_Person_7114 ;
+	.
+
+told:_Place_1224
+	tolo:hasFounder told:_Person_13593 ;
+	.
+
+told:_Place_1226
+	tolo:hasFounder told:_Person_525 ;
+	.
+
+told:_Place_1230
+	tolo:hasFounder told:_Person_5317 ;
+	.
+
+told:_Place_1240
+	tolo:hasFounder told:_Person_5803 ;
+	.
+
+told:_Place_1244
+	tolo:hasFounder told:_Person_8538 ;
+	.
+
+told:_Place_1248
+	tolo:hasFounder told:_Person_2854 ;
+	.
+
+told:_Place_1249
+	tolo:hasFounder told:_Person_2986 ;
+	.
+
+told:_Place_1250
+	tolo:hasFounder told:_Person_7326 ;
+	.
+
+told:_Place_1251
+	tolo:hasFounder told:_Person_10434 ;
+	.
+
+told:_Place_127
+	tolo:hasFounder told:_Person_10811 ;
+	.
+
+told:_Place_1273
+	tolo:hasFounder told:_Person_3778 ;
+	.
+
+told:_Place_128
+	tolo:hasFounder told:_Person_6735 ;
+	.
+
+told:_Place_1282
+	tolo:hasFounder told:_Person_11726 ;
+	.
+
+told:_Place_1284
+	tolo:hasFounder told:_Person_9587 ;
+	.
+
+told:_Place_129
+	tolo:hasFounder told:_Person_2789 ;
+	.
+
+told:_Place_1294
+	tolo:hasFounder told:_Person_5820 ;
+	.
+
+told:_Place_1299
+	tolo:hasFounder told:_Person_6548 ;
+	.
+
+told:_Place_13
+	tolo:hasFounder told:_Person_9525 ;
+	.
+
+told:_Place_130
+	tolo:hasFounder told:_Person_6749 ;
+	.
+
+told:_Place_1305
+	tolo:hasFounder told:_Person_7442 ;
+	.
+
+told:_Place_1318
+	tolo:hasFounder told:_Person_294 ;
+	.
+
+told:_Place_132
+	tolo:hasFounder told:_Person_2806 ;
+	.
+
+told:_Place_134
+	tolo:hasFounder told:_Person_10824 ;
+	.
+
+told:_Place_1340
+	tolo:hasFounder told:_Person_12050 ;
+	.
+
+told:_Place_1353
+	tolo:hasFounder told:_Person_2998 ;
+	.
+
+told:_Place_136
+	tolo:hasFounder told:_Person_12828 ;
+	.
+
+told:_Place_137
+	tolo:hasFounder told:_Person_12828 ;
+	.
+
+told:_Place_1370
+	tolo:hasFounder told:_Person_13628 ;
+	.
+
+told:_Place_1380
+	tolo:hasFounder told:_Person_4622 ;
+	.
+
+told:_Place_1386
+	tolo:hasFounder told:_Person_5820 ;
+	.
+
+told:_Place_1387
+	tolo:hasFounder told:_Person_5820 ;
+	.
+
+told:_Place_1388
+	tolo:hasFounder told:_Person_6441 ;
+	.
+
+told:_Place_1390
+	tolo:hasFounder told:_Person_2511 ;
+	.
+
+told:_Place_1399
+	tolo:hasFounder told:_Person_5823 ;
+	.
+
+told:_Place_14
+	tolo:hasFounder told:_Person_9148 ;
+	.
+
+told:_Place_140
+	tolo:hasFounder told:_Person_11114 ;
+	.
+
+told:_Place_1400
+	tolo:hasFounder told:_Person_8027 ;
+	.
+
+told:_Place_1404
+	tolo:hasFounder told:_Person_9618 ;
+	.
+
+told:_Place_1408
+	tolo:hasFounder told:_Person_12403 ;
+	.
+
+told:_Place_1412
+	tolo:hasFounder told:_Person_13652 ;
+	.
+
+told:_Place_1414
+	tolo:hasFounder told:_Person_4267 ;
+	.
+
+told:_Place_1417
+	tolo:hasFounder told:_Person_7305 ;
+	.
+
+told:_Place_1418
+	tolo:hasFounder told:_Person_7305 ;
+	.
+
+told:_Place_1419
+	tolo:hasFounder told:_Person_7305 ;
+	.
+
+told:_Place_1420
+	tolo:hasFounder told:_Person_7305 ;
+	.
+
+told:_Place_1422
+	tolo:hasFounder told:_Person_7305 ;
+	.
+
+told:_Place_1426
+	tolo:hasFounder told:_Person_3049 ;
+	.
+
+told:_Place_1442
+	tolo:hasFounder told:_Person_11231 ;
+	.
+
+told:_Place_145
+	tolo:hasFounder told:_Person_9296 ;
+	.
+
+told:_Place_1450
+	tolo:hasFounder told:_Person_3323 ;
+	.
+
+told:_Place_1453
+	tolo:hasFounder told:_Person_12180 ;
+	.
+
+told:_Place_1454
+	tolo:hasFounder told:_Person_12180 ;
+	.
+
+told:_Place_1455
+	tolo:hasFounder told:_Person_12180 ;
+	.
+
+told:_Place_1456
+	tolo:hasFounder told:_Person_12180 ;
+	.
+
+told:_Place_1457
+	tolo:hasFounder told:_Person_12180 ;
+	.
+
+told:_Place_1458
+	tolo:hasFounder told:_Person_12180 ;
+	.
+
+told:_Place_1459
+	tolo:hasFounder told:_Person_12180 ;
+	.
+
+told:_Place_1460
+	tolo:hasFounder told:_Person_12180 ;
+	.
+
+told:_Place_1461
+	tolo:hasFounder told:_Person_12180 ;
+	.
+
+told:_Place_1462
+	tolo:hasFounder told:_Person_11274 ;
+	.
+
+told:_Place_1486
+	tolo:hasFounder told:_Person_5824 ;
+	.
+
+told:_Place_1487
+	tolo:hasFounder told:_Person_5824 ;
+	.
+
+told:_Place_1493
+	tolo:hasFounder told:_Person_3266 ;
+	.
+
+told:_Place_1496
+	tolo:hasFounder told:_Person_10343 ;
+	.
+
+told:_Place_15
+	tolo:hasFounder told:_Person_3178 ;
+	.
+
+told:_Place_1501
+	tolo:hasFounder told:_Person_11483 ;
+	.
+
+told:_Place_1502
+	tolo:hasFounder told:_Person_11385 ;
+	.
+
+told:_Place_1504
+	tolo:hasFounder told:_Person_11407 ;
+	.
+
+told:_Place_1506
+	tolo:hasFounder told:_Person_11385 ;
+	.
+
+told:_Place_1507
+	tolo:hasFounder told:_Person_11385 ;
+	.
+
+told:_Place_1509
+	tolo:hasFounder told:_Person_11385 ;
+	.
+
+told:_Place_151
+	tolo:hasFounder told:_Person_6159 ;
+	.
+
+told:_Place_1510
+	tolo:hasFounder told:_Person_11199 ;
+	.
+
+told:_Place_1512
+	tolo:hasFounder told:_Person_11385 ;
+	.
+
+told:_Place_1513
+	tolo:hasFounder told:_Person_5489 ;
+	.
+
+told:_Place_1518
+	tolo:hasFounder told:_Person_10952 ;
+	.
+
+told:_Place_1521
+	tolo:hasFounder told:_Person_6118 ;
+	.
+
+told:_Place_1522
+	tolo:hasFounder told:_Person_2784 ;
+	.
+
+told:_Place_1523
+	tolo:hasFounder told:_Person_6646 ;
+	.
+
+told:_Place_1530
+	tolo:hasFounder
+		told:_Person_13576 ,
+		told:_Person_2951
+		;
+	.
+
+told:_Place_1535
+	tolo:hasFounder told:_Person_10015 ;
+	.
+
+told:_Place_1541
+	tolo:hasFounder told:_Person_2776 ;
+	.
+
+told:_Place_1543
+	tolo:hasFounder
+		told:_Person_13576 ,
+		told:_Person_2951
+		;
+	.
+
+told:_Place_1551
+	tolo:hasFounder told:_Person_7218 ;
+	.
+
+told:_Place_1554
+	tolo:hasFounder told:_Person_1659 ;
+	.
+
+told:_Place_1556
+	tolo:hasFounder told:_Person_2776 ;
+	.
+
+told:_Place_156
+	tolo:hasFounder told:_Person_11619 ;
+	.
+
+told:_Place_1560
+	tolo:hasFounder told:_Person_3419 ;
+	.
+
+told:_Place_1562
+	tolo:hasFounder told:_Person_11042 ;
+	.
+
+told:_Place_157
+	tolo:hasFounder told:_Person_7636 ;
+	.
+
+told:_Place_1573
+	tolo:hasFounder told:_Person_10355 ;
+	.
+
+told:_Place_1575
+	tolo:hasFounder told:_Person_12403 ;
+	.
+
+told:_Place_1578
+	tolo:hasFounder told:_Person_9095 ;
+	.
+
+told:_Place_159
+	tolo:hasFounder told:_Person_7636 ;
+	.
+
+told:_Place_1591
+	tolo:hasFounder told:_Person_12479 ;
+	.
+
+told:_Place_160
+	tolo:hasFounder told:_Person_3469 ;
+	.
+
+told:_Place_1611
+	tolo:hasFounder told:_Person_8641 ;
+	.
+
+told:_Place_1612
+	tolo:hasFounder told:_Person_10355 ;
+	.
+
+told:_Place_1627
+	tolo:hasFounder told:_Person_2051 ;
+	.
+
+told:_Place_1632
+	tolo:hasFounder told:_Person_9126 ;
+	.
+
+told:_Place_1633
+	tolo:hasFounder told:_Person_2962 ;
+	.
+
+told:_Place_1642
+	tolo:hasFounder told:_Person_12981 ;
+	.
+
+told:_Place_165
+	tolo:hasFounder told:_Person_10467 ;
+	.
+
+told:_Place_1662
+	tolo:hasFounder told:_Person_7305 ;
+	.
+
+told:_Place_1717
+	tolo:hasFounder told:_Person_10019 ;
+	.
+
+told:_Place_174
+	tolo:hasFounder told:_Person_12523 ;
+	.
+
+told:_Place_178
+	tolo:hasFounder told:_Person_1831 ;
+	.
+
+told:_Place_180
+	tolo:hasFounder told:_Person_2051 ;
+	.
+
+told:_Place_185
+	tolo:hasFounder
+		told:_Person_13557 ,
+		told:_Person_6626
+		;
+	.
+
+told:_Place_190
+	tolo:hasFounder told:_Person_3762 ;
+	.
+
+told:_Place_191
+	tolo:hasFounder told:_Person_5557 ;
+	.
+
+told:_Place_192
+	tolo:hasFounder told:_Person_7393 ;
+	.
+
+told:_Place_195
+	tolo:hasFounder told:_Person_5810 ;
+	.
+
+told:_Place_197
+	tolo:hasFounder told:_Person_6285 ;
+	.
+
+told:_Place_199
+	tolo:hasFounder told:_Person_5789 ;
+	.
+
+told:_Place_200
+	tolo:hasFounder told:_Person_13587 ;
+	.
+
+told:_Place_206
+	tolo:hasFounder told:_Person_11632 ;
+	.
+
+told:_Place_209
+	tolo:hasFounder told:_Person_11632 ;
+	.
+
+told:_Place_21
+	tolo:hasFounder told:_Person_11471 ;
+	.
+
+told:_Place_210
+	tolo:hasFounder told:_Person_1869 ;
+	.
+
+told:_Place_215
+	tolo:hasFounder told:_Person_2683 ;
+	.
+
+told:_Place_216
+	tolo:hasFounder told:_Person_2875 ;
+	.
+
+told:_Place_218
+	tolo:hasFounder
+		told:_Person_13141 ,
+		told:_Person_1732
+		;
+	.
+
+told:_Place_219
+	tolo:hasFounder told:_Person_13068 ;
+	.
+
+told:_Place_224
+	tolo:hasFounder told:_Person_5786 ;
+	.
+
+told:_Place_225
+	tolo:hasFounder told:_Person_6699 ;
+	.
+
+told:_Place_226
+	tolo:hasFounder told:_Person_6452 ;
+	.
+
+told:_Place_229
+	tolo:hasFounder told:_Person_4630 ;
+	.
+
+told:_Place_231
+	tolo:hasFounder told:_Person_9201 ;
+	.
+
+told:_Place_233
+	tolo:hasFounder told:_Person_10536 ;
+	.
+
+told:_Place_234
+	tolo:hasFounder told:_Person_10536 ;
+	.
+
+told:_Place_236
+	tolo:hasFounder told:_Person_2891 ;
+	.
+
+told:_Place_237
+	tolo:hasFounder told:_Person_13078 ;
+	.
+
+told:_Place_241
+	tolo:hasFounder told:_Person_12078 ;
+	.
+
+told:_Place_242
+	tolo:hasFounder told:_Person_4369 ;
+	.
+
+told:_Place_244
+	tolo:hasFounder told:_Person_2980 ;
+	.
+
+told:_Place_245
+	tolo:hasFounder told:_Person_13571 ;
+	.
+
+told:_Place_249
+	tolo:hasFounder told:_Person_1898 ;
+	.
+
+told:_Place_250
+	tolo:hasFounder told:_Person_1898 ;
+	.
+
+told:_Place_254
+	tolo:hasFounder told:_Person_5457 ;
+	.
+
+told:_Place_255
+	tolo:hasFounder told:_Person_6770 ;
+	.
+
+told:_Place_266
+	tolo:hasFounder told:_Person_8103 ;
+	.
+
+told:_Place_267
+	tolo:hasFounder told:_Person_8103 ;
+	.
+
+told:_Place_269
+	tolo:hasFounder told:_Person_1985 ;
+	.
+
+told:_Place_270
+	tolo:hasFounder told:_Person_1985 ;
+	.
+
+told:_Place_275
+	tolo:hasFounder told:_Person_1952 ;
+	.
+
+told:_Place_276
+	tolo:hasFounder told:_Person_7370 ;
+	.
+
+told:_Place_277
+	tolo:hasFounder told:_Person_12692 ;
+	.
+
+told:_Place_279
+	tolo:hasFounder told:_Person_6690 ;
+	.
+
+told:_Place_282
+	tolo:hasFounder told:_Person_13230 ;
+	.
+
+told:_Place_285
+	tolo:hasFounder told:_Person_6690 ;
+	.
+
+told:_Place_286
+	tolo:hasFounder told:_Person_6690 ;
+	.
+
+told:_Place_291
+	tolo:hasFounder told:_Person_2591 ;
+	.
+
+told:_Place_298
+	tolo:hasFounder told:_Person_7093 ;
+	.
+
+told:_Place_305
+	tolo:hasFounder told:_Person_9065 ;
+	.
+
+told:_Place_306
+	tolo:hasFounder told:_Person_11865 ;
+	.
+
+told:_Place_307
+	tolo:hasFounder told:_Person_7589 ;
+	.
+
+told:_Place_308
+	tolo:hasFounder told:_Person_10531 ;
+	.
+
+told:_Place_309
+	tolo:hasFounder told:_Person_11572 ;
+	.
+
+told:_Place_314
+	tolo:hasFounder told:_Person_6175 ;
+	.
+
+told:_Place_316
+	tolo:hasFounder told:_Person_13036 ;
+	.
+
+told:_Place_317
+	tolo:hasFounder told:_Person_6441 ;
+	.
+
+told:_Place_32
+	tolo:hasFounder told:_Person_2387 ;
+	.
+
+told:_Place_321
+	tolo:hasFounder told:_Person_1586 ;
+	.
+
+told:_Place_322
+	tolo:hasFounder told:_Person_1586 ;
+	.
+
+told:_Place_323
+	tolo:hasFounder told:_Person_10440 ;
+	.
+
+told:_Place_324
+	tolo:hasFounder told:_Person_5823 ;
+	.
+
+told:_Place_325
+	tolo:hasFounder told:_Person_2596 ;
+	.
+
+told:_Place_327
+	tolo:hasFounder told:_Person_4267 ;
+	.
+
+told:_Place_33
+	tolo:hasFounder told:_Person_10539 ;
+	.
+
+told:_Place_331
+	tolo:hasFounder told:_Person_9634 ;
+	.
+
+told:_Place_335
+	tolo:hasFounder told:_Person_2892 ;
+	.
+
+told:_Place_339
+	tolo:hasFounder told:_Person_2952 ;
+	.
+
+told:_Place_340
+	tolo:hasFounder told:_Person_5962 ;
+	.
+
+told:_Place_342
+	tolo:hasFounder told:_Person_13195 ;
+	.
+
+told:_Place_343
+	tolo:hasFounder told:_Person_8986 ;
+	.
+
+told:_Place_348
+	tolo:hasFounder told:_Person_7232 ;
+	.
+
+told:_Place_35
+	tolo:hasFounder told:_Person_2817 ;
+	.
+
+told:_Place_352
+	tolo:hasFounder told:_Person_10199 ;
+	.
+
+told:_Place_354
+	tolo:hasFounder told:_Person_2051 ;
+	.
+
+told:_Place_357
+	tolo:hasFounder told:_Person_6712 ;
+	.
+
+told:_Place_358
+	tolo:hasFounder told:_Person_2854 ;
+	.
+
+told:_Place_36
+	tolo:hasFounder told:_Person_8986 ;
+	.
+
+told:_Place_361
+	tolo:hasFounder told:_Person_6198 ;
+	.
+
+told:_Place_363
+	tolo:hasFounder told:_Person_4492 ;
+	.
+
+told:_Place_364
+	tolo:hasFounder told:_Person_12763 ;
+	.
+
+told:_Place_367
+	tolo:hasFounder told:_Person_5824 ;
+	.
+
+told:_Place_368
+	tolo:hasFounder told:_Person_2996 ;
+	.
+
+told:_Place_37
+	tolo:hasFounder told:_Person_5795 ;
+	.
+
+told:_Place_370
+	tolo:hasFounder told:_Person_6738 ;
+	.
+
+told:_Place_371
+	tolo:hasFounder told:_Person_13121 ;
+	.
+
+told:_Place_373
+	tolo:hasFounder told:_Person_1871 ;
+	.
+
+told:_Place_375
+	tolo:hasFounder told:_Person_3296 ;
+	.
+
+told:_Place_376
+	tolo:hasFounder told:_Person_7589 ;
+	.
+
+told:_Place_378
+	tolo:hasFounder told:_Person_7815 ;
+	.
+
+told:_Place_38
+	tolo:hasFounder told:_Person_5849 ;
+	.
+
+told:_Place_381
+	tolo:hasFounder told:_Person_7644 ;
+	.
+
+told:_Place_382
+	tolo:hasFounder told:_Person_4379 ;
+	.
+
+told:_Place_383
+	tolo:hasFounder told:_Person_4379 ;
+	.
+
+told:_Place_387
+	tolo:hasFounder told:_Person_2789 ;
+	.
+
+told:_Place_388
+	tolo:hasFounder told:_Person_4372 ;
+	.
+
+told:_Place_389
+	tolo:hasFounder told:_Person_4372 ;
+	.
+
+told:_Place_39
+	tolo:hasFounder told:_Person_10687 ;
+	.
+
+told:_Place_390
+	tolo:hasFounder told:_Person_7895 ;
+	.
+
+told:_Place_392
+	tolo:hasFounder told:_Person_8343 ;
+	.
+
+told:_Place_393
+	tolo:hasFounder told:_Person_10760 ;
+	.
+
+told:_Place_40
+	tolo:hasFounder told:_Person_12828 ;
+	.
+
+told:_Place_400
+	tolo:hasFounder told:_Person_3000 ;
+	.
+
+told:_Place_401
+	tolo:hasFounder told:_Person_3062 ;
+	.
+
+told:_Place_404
+	tolo:hasFounder told:_Person_9750 ;
+	.
+
+told:_Place_405
+	tolo:hasFounder told:_Person_7589 ;
+	.
+
+told:_Place_406
+	tolo:hasFounder told:_Person_2882 ;
+	.
+
+told:_Place_408
+	tolo:hasFounder told:_Person_4727 ;
+	.
+
+told:_Place_41
+	tolo:hasFounder told:_Person_6646 ;
+	.
+
+told:_Place_411
+	tolo:hasFounder told:_Person_3712 ;
+	.
+
+told:_Place_412
+	tolo:hasFounder told:_Person_9383 ;
+	.
+
+told:_Place_413
+	tolo:hasFounder told:_Person_1852 ;
+	.
+
+told:_Place_415
+	tolo:hasFounder told:_Person_10531 ;
+	.
+
+told:_Place_418
+	tolo:hasFounder told:_Person_7874 ;
+	.
+
+told:_Place_419
+	tolo:hasFounder told:_Person_4140 ;
+	.
+
+told:_Place_421
+	tolo:hasFounder told:_Person_4691 ;
+	.
+
+told:_Place_426
+	tolo:hasFounder told:_Person_6668 ;
+	.
+
+told:_Place_427
+	tolo:hasFounder told:_Person_6668 ;
+	.
+
+told:_Place_43
+	tolo:hasFounder told:_Person_8574 ;
+	.
+
+told:_Place_430
+	tolo:hasFounder told:_Person_8625 ;
+	.
+
+told:_Place_432
+	tolo:hasFounder told:_Person_8578 ;
+	.
+
+told:_Place_434
+	tolo:hasFounder told:_Person_6667 ;
+	.
+
+told:_Place_435
+	tolo:hasFounder told:_Person_5791 ;
+	.
+
+told:_Place_439
+	tolo:hasFounder told:_Person_9601 ;
+	.
+
+told:_Place_44
+	tolo:hasFounder told:_Person_9895 ;
+	.
+
+told:_Place_440
+	tolo:hasFounder told:_Person_9873 ;
+	.
+
+told:_Place_441
+	tolo:hasFounder told:_Person_9873 ;
+	.
+
+told:_Place_442
+	tolo:hasFounder told:_Person_3134 ;
+	.
+
+told:_Place_445
+	tolo:hasFounder told:_Person_9622 ;
+	.
+
+told:_Place_447
+	tolo:hasFounder told:_Person_2051 ;
+	.
+
+told:_Place_449
+	tolo:hasFounder told:_Person_13814 ;
+	.
+
+told:_Place_45
+	tolo:hasFounder told:_Person_6205 ;
+	.
+
+told:_Place_450
+	tolo:hasFounder told:_Person_4125 ;
+	.
+
+told:_Place_452
+	tolo:hasFounder told:_Person_4125 ;
+	.
+
+told:_Place_453
+	tolo:hasFounder told:_Person_10539 ;
+	.
+
+told:_Place_455
+	tolo:hasFounder told:_Person_5897 ;
+	.
+
+told:_Place_464
+	tolo:hasFounder told:_Person_6162 ;
+	.
+
+told:_Place_466
+	tolo:hasFounder told:_Person_11114 ;
+	.
+
+told:_Place_468
+	tolo:hasFounder told:_Person_5479 ;
+	.
+
+told:_Place_472
+	tolo:hasFounder told:_Person_12371 ;
+	.
+
+told:_Place_473
+	tolo:hasFounder told:_Person_2683 ;
+	.
+
+told:_Place_48
+	tolo:hasFounder told:_Person_4676 ;
+	.
+
+told:_Place_480
+	tolo:hasFounder told:_Person_2996 ;
+	.
+
+told:_Place_482
+	tolo:hasFounder told:_Person_6045 ;
+	.
+
+told:_Place_484
+	tolo:hasFounder told:_Person_3049 ;
+	.
+
+told:_Place_485
+	tolo:hasFounder told:_Person_2489 ;
+	.
+
+told:_Place_488
+	tolo:hasFounder told:_Person_9071 ;
+	.
+
+told:_Place_496
+	tolo:hasFounder told:_Person_1564 ;
+	.
+
+told:_Place_497
+	tolo:hasFounder told:_Person_6635 ;
+	.
+
+told:_Place_498
+	tolo:hasFounder told:_Person_6635 ;
+	.
+
+told:_Place_500
+	tolo:hasFounder told:_Person_6635 ;
+	.
+
+told:_Place_502
+	tolo:hasFounder told:_Person_6635 ;
+	.
+
+told:_Place_503
+	tolo:hasFounder told:_Person_6635 ;
+	.
+
+told:_Place_504
+	tolo:hasFounder told:_Person_6635 ;
+	.
+
+told:_Place_508
+	tolo:hasFounder told:_Person_9929 ;
+	.
+
+told:_Place_509
+	tolo:hasFounder told:_Person_9929 ;
+	.
+
+told:_Place_514
+	tolo:hasFounder told:_Person_7767 ;
+	.
+
+told:_Place_515
+	tolo:hasFounder told:_Person_9052 ;
+	.
+
+told:_Place_516
+	tolo:hasFounder told:_Person_9052 ;
+	.
+
+told:_Place_517
+	tolo:hasFounder told:_Person_1901 ;
+	.
+
+told:_Place_52
+	tolo:hasFounder told:_Person_7114 ;
+	.
+
+told:_Place_524
+	tolo:hasFounder told:_Person_3246 ;
+	.
+
+told:_Place_526
+	tolo:hasFounder told:_Person_9587 ;
+	.
+
+told:_Place_532
+	tolo:hasFounder told:_Person_5961 ;
+	.
+
+told:_Place_533
+	tolo:hasFounder told:_Person_2816 ;
+	.
+
+told:_Place_539
+	tolo:hasFounder told:_Person_6746 ;
+	.
+
+told:_Place_540
+	tolo:hasFounder told:_Person_2330 ;
+	.
+
+told:_Place_547
+	tolo:hasFounder told:_Person_4328 ;
+	.
+
+told:_Place_551
+	tolo:hasFounder told:_Person_5417 ;
+	.
+
+told:_Place_560
+	tolo:hasFounder told:_Person_4344 ;
+	.
+
+told:_Place_561
+	tolo:hasFounder told:_Person_13244 ;
+	.
+
+told:_Place_564
+	tolo:hasFounder told:_Person_13206 ;
+	.
+
+told:_Place_567
+	tolo:hasFounder told:_Person_8892 ;
+	.
+
+told:_Place_571
+	tolo:hasFounder told:_Person_10909 ;
+	.
+
+told:_Place_585
+	tolo:hasFounder told:_Person_13221 ;
+	.
+
+told:_Place_586
+	tolo:hasFounder told:_Person_13222 ;
+	.
+
+told:_Place_59
+	tolo:hasFounder told:_Person_8181 ;
+	.
+
+told:_Place_590
+	tolo:hasFounder told:_Person_6285 ;
+	.
+
+told:_Place_591
+	tolo:hasFounder told:_Person_6620 ;
+	.
+
+told:_Place_599
+	tolo:hasFounder told:_Person_5489 ;
+	.
+
+told:_Place_60
+	tolo:hasFounder told:_Person_8181 ;
+	.
+
+told:_Place_603
+	tolo:hasFounder told:_Person_6100 ;
+	.
+
+told:_Place_615
+	tolo:hasFounder told:_Person_5504 ;
+	.
+
+told:_Place_62
+	tolo:hasFounder told:_Person_5790 ;
+	.
+
+told:_Place_63
+	tolo:hasFounder told:_Person_3168 ;
+	.
+
+told:_Place_64
+	tolo:hasFounder told:_Person_2539 ;
+	.
+
+told:_Place_650
+	tolo:hasFounder told:_Person_13587 ;
+	.
+
+told:_Place_67
+	tolo:hasFounder told:_Person_2799 ;
+	.
+
+told:_Place_672
+	tolo:hasFounder told:_Person_10760 ;
+	.
+
+told:_Place_68
+	tolo:hasFounder told:_Person_3182 ;
+	.
+
+told:_Place_687
+	tolo:hasFounder told:_Person_10824 ;
+	.
+
+told:_Place_688
+	tolo:hasFounder told:_Person_8972 ;
+	.
+
+told:_Place_691
+	tolo:hasFounder told:_Person_13525 ;
+	.
+
+told:_Place_696
+	tolo:hasFounder told:_Person_9083 ;
+	.
+
+told:_Place_70
+	tolo:hasFounder told:_Person_3181 ;
+	.
+
+told:_Place_700
+	tolo:hasFounder told:_Person_5151 ;
+	.
+
+told:_Place_702
+	tolo:hasFounder told:_Person_1617 ;
+	.
+
+told:_Place_703
+	tolo:hasFounder told:_Person_13233 ;
+	.
+
+told:_Place_704
+	tolo:hasFounder told:_Person_13233 ;
+	.
+
+told:_Place_711
+	tolo:hasFounder told:_Person_2510 ;
+	.
+
+told:_Place_713
+	tolo:hasFounder told:_Person_6130 ;
+	.
+
+told:_Place_718
+	tolo:hasFounder told:_Person_13760 ;
+	.
+
+told:_Place_719
+	tolo:hasFounder told:_Person_10199 ;
+	.
+
+told:_Place_720
+	tolo:hasFounder told:_Person_5447 ;
+	.
+
+told:_Place_723
+	tolo:hasFounder told:_Person_13751 ;
+	.
+
+told:_Place_724
+	tolo:hasFounder told:_Person_5652 ;
+	.
+
+told:_Place_73
+	tolo:hasFounder told:_Person_11877 ;
+	.
+
+told:_Place_75
+	tolo:hasFounder told:_Person_6547 ;
+	.
+
+told:_Place_76
+	tolo:hasFounder told:_Person_6547 ;
+	.
+
+told:_Place_78
+	tolo:hasFounder told:_Person_4175 ;
+	.
+
+told:_Place_80
+	tolo:hasFounder told:_Person_4368 ;
+	.
+
+told:_Place_807
+	tolo:hasFounder told:_Person_2683 ;
+	.
+
+told:_Place_808
+	tolo:hasFounder told:_Person_10500 ;
+	.
+
+told:_Place_810
+	tolo:hasFounder told:_Person_6065 ;
+	.
+
+told:_Place_811
+	tolo:hasFounder told:_Person_5999 ;
+	.
+
+told:_Place_812
+	tolo:hasFounder told:_Person_12828 ;
+	.
+
+told:_Place_814
+	tolo:hasFounder told:_Person_2137 ;
+	.
+
+told:_Place_82
+	tolo:hasFounder told:_Person_2899 ;
+	.
+
+told:_Place_821
+	tolo:hasFounder told:_Person_10199 ;
+	.
+
+told:_Place_827
+	tolo:hasFounder told:_Person_6065 ;
+	.
+
+told:_Place_828
+	tolo:hasFounder told:_Person_5588 ;
+	.
+
+told:_Place_829
+	tolo:hasFounder told:_Person_1539 ;
+	.
+
+told:_Place_834
+	tolo:hasFounder told:_Person_2504 ;
+	.
+
+told:_Place_838
+	tolo:hasFounder told:_Person_4266 ;
+	.
+
+told:_Place_840
+	tolo:hasFounder told:_Person_8986 ;
+	.
+
+told:_Place_85
+	tolo:hasFounder told:_Person_5 ;
+	.
+
+told:_Place_861
+	tolo:hasFounder told:_Person_4513 ;
+	.
+
+told:_Place_866
+	tolo:hasFounder told:_Person_6712 ;
+	.
+
+told:_Place_869
+	tolo:hasFounder told:_Person_13469 ;
+	.
+
+told:_Place_87
+	tolo:hasFounder told:_Person_11865 ;
+	.
+
+told:_Place_871
+	tolo:hasFounder told:_Person_2072 ;
+	.
+
+told:_Place_874
+	tolo:hasFounder told:_Person_3135 ;
+	.
+
+told:_Place_878
+	tolo:hasFounder told:_Person_5871 ;
+	.
+
+told:_Place_881
+	tolo:hasFounder told:_Person_13277 ;
+	.
+
+told:_Place_889
+	tolo:hasFounder told:_Person_6065 ;
+	.
+
+told:_Place_892
+	tolo:hasFounder told:_Person_12828 ;
+	.
+
+told:_Place_894
+	tolo:hasFounder told:_Person_10760 ;
+	.
+
+told:_Place_899
+	tolo:hasFounder told:_Person_10811 ;
+	.
+
+told:_Place_9
+	tolo:hasFounder told:_Person_2589 ;
+	.
+
+told:_Place_90
+	tolo:hasFounder told:_Person_11307 ;
+	.
+
+told:_Place_906
+	tolo:hasFounder told:_Person_3107 ;
+	.
+
+told:_Place_91
+	tolo:hasFounder told:_Person_5728 ;
+	.
+
+told:_Place_910
+	tolo:hasFounder told:_Person_10199 ;
+	.
+
+told:_Place_911
+	tolo:hasFounder told:_Person_10687 ;
+	.
+
+told:_Place_912
+	tolo:hasFounder told:_Person_10760 ;
+	.
+
+told:_Place_915
+	tolo:hasFounder told:_Person_3955 ;
+	.
+
+told:_Place_920
+	tolo:hasFounder told:_Person_2996 ;
+	.
+
+told:_Place_921
+	tolo:hasFounder told:_Person_2996 ;
+	.
+
+told:_Place_922
+	tolo:hasFounder told:_Person_2758 ;
+	.
+
+told:_Place_923
+	tolo:hasFounder told:_Person_6646 ;
+	.
+
+told:_Place_93
+	tolo:hasFounder told:_Person_3673 ;
+	.
+
+told:_Place_935
+	tolo:hasFounder told:_Person_3899 ;
+	.
+
+told:_Place_937
+	tolo:hasFounder told:_Person_3899 ;
+	.
+
+told:_Place_938
+	tolo:hasFounder told:_Person_10772 ;
+	.
+
+told:_Place_939
+	tolo:hasFounder told:_Person_11880 ;
+	.
+
+told:_Place_942
+	tolo:hasFounder told:_Person_5436 ;
+	.
+
+told:_Place_944
+	tolo:hasFounder told:_Person_13435 ;
+	.
+
+told:_Place_947
+	tolo:hasFounder told:_Person_8334 ;
+	.
+
+told:_Place_95
+	tolo:hasFounder told:_Person_2683 ;
+	.
+
+told:_Place_955
+	tolo:hasFounder told:_Person_4691 ;
+	.
+
+told:_Place_956
+	tolo:hasFounder told:_Person_4166 ;
+	.
+
+told:_Place_957
+	tolo:hasFounder told:_Person_9688 ;
+	.
+
+told:_Place_961
+	tolo:hasFounder told:_Person_7373 ;
+	.
+
+told:_Place_968
+	tolo:hasFounder told:_Person_11385 ;
+	.
+
+told:_Place_972
+	tolo:hasFounder told:_Person_3169 ;
+	.
+
+told:_Place_974
+	tolo:hasFounder told:_Person_4358 ;
+	.
+
+told:_Place_984
+	tolo:hasFounder told:_Person_7069 ;
+	.
+
+told:_Place_989
+	tolo:hasFounder told:_Person_4358 ;
+	.
+
