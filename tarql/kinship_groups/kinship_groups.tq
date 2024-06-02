@@ -20,29 +20,53 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 ## COLUMNS
 # Name
 # TOL ID
-# Family Type ID (TBD)
-# Family Type Name (TBD)
-# Wylie Name
+# Wylie
+# Tibetan
 # Chinese
+# En Name Variants
+# Wylie Name Variants
+# Tibetan Name Variants
+# Family Type Id (ignore)
+# Family Type
+# Family Type Wylie
+# Family Type Chinese
+# Lhasa Aristocracy Type English
+# Lhasa Aristocracy Type Wylie (ignore)
+# Lhasa Aristocracy Type Tibetan (ignore)
+# Lhasa Aristocracy Type Chinese (ignore)
+# Description
 # BDRC ID
 # Members
 
 # Run: 
-# tarql -e utf-8 --dedup 1000 kinship_groups.tq kinship-groups-5-25-23.csv > tolKinshipGroups.ttl
+# tarql -e utf-8 --dedup 50000 kinship_groups.tq kinship_groups-5-29-24.csv > tolKinshipGroups.ttl
 
 CONSTRUCT {
 
     ?kinship_group_iri 
         a tolo:KinshipGroup ; 
         owl:sameAs ?bdrc_id ;
-        skos:prefLabel ?primary_name_tol , 
+        skos:prefLabel ?primary_name_en , 
             ?primary_name_wylie ,
+            ?primary_name_tibetan ,
             ?primary_name_chinese ;
-        tolo:primaryName ?primary_name_tol , 
+        tolo:primaryName ?primary_name_en , 
             ?primary_name_wylie ,
+            ?primary_name_tibetan ,
             ?primary_name_chinese ;
+        tolo:nameVariant ?name_variant_en ,
+            ?name_variant_wylie ,
+            ?name_variant_tibetan ;
         gist:isCategorizedBy ?kinship_group_type_iri ;
         gist:hasMember ?person_iri ;
+    .
+
+    ?description_iri 
+        a gist:FormattedContent ;
+        skos:prefLabel ?label_en ;
+        gist:containedText ?description_en ;
+        gist:isAbout ?kinship_group_iri ;
+	    gist:isExpressedIn media-txt:html ;
     .
 
 }
@@ -50,7 +74,7 @@ CONSTRUCT {
 WHERE {
     
     # Testing
-    # FILTER(?ROWNUM IN (1, 27))
+    # FILTER(?ROWNUM IN (150, 151))
 
     BIND(REPLACE(?TOL_ID, "TOL", "") AS ?tol_id)
     BIND(tarql:expandPrefixedName(CONCAT("told:_KinshipGroup_", ?tol_id)) AS ?kinship_group_iri)
@@ -58,13 +82,46 @@ WHERE {
     # Equivalent BDRC resource
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_ID)) AS ?bdrc_id)
 
-    # Names
-    BIND(STRLANG(?Name, "en") AS ?primary_name_tol)
-    BIND(STRLANG(?Wylie_Name, "bo-x-ewts") AS ?primary_name_wylie)
+    # Primary names
+    BIND(STRLANG(?Name, "en") AS ?primary_name_en)
+    BIND(STRLANG(?Wylie, "bo-x-ewts") AS ?primary_name_wylie)
+    BIND(STRLANG(?Tibetan, "bo") AS ?primary_name_tibetan)
     BIND(STRLANG(?Chinese, "zh-Hani") AS ?primary_name_chinese)
 
-    # Class and category
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_KinshipGroupType_", REPLACE(?Family_Type_Name, ' ', '_'))) AS ?kinship_group_type_iri)
+    # Name variants
+    # English
+    OPTIONAL {
+        ?en_name_variant apf:strSplit(?En_Name_Variants "; ")
+    }
+    BIND(STRLANG(?en_name_variant, "en") AS ?name_variant_en)
+
+    # Wylie
+    OPTIONAL {
+        ?wylie_name_variant apf:strSplit(?Wylie_Name_Variants "; ")
+    }
+    BIND(STRLANG(?wylie_name_variant, "bo-x-ewts") AS ?name_variant_wylie)
+
+    # Wylie
+    OPTIONAL {
+        ?tibetan_name_variant apf:strSplit(?Tibetan_Name_Variants "; ")
+    }
+    BIND(STRLANG(?tibetan_name_variant, "bo-x-ewts") AS ?name_variant_tibetan)
+
+    # Kinship group type
+    OPTIONAL {
+        ?lhasa_type apf:strSplit(?Lhasa_Aristocracy_Type_English "; ")
+    }
+    BIND(
+        COALESCE(
+            IF(BOUND(?lhasa_type), LCASE(?lhasa_type), ?unbound),
+            IF(BOUND(?Family_Type), LCASE(REPLACE(?Family_Type, " ", "_")), ?unbound)
+    ) AS ?kinship_group_type)
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_KinshipGroupType_", ?kinship_group_type)) AS ?kinship_group_type_iri)
+
+    # Description
+    BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_KinshipGroup_", ?tol_id)) AS ?description_iri)
+    BIND(STRLANG(?Description, "en") AS ?description_en)
+    BIND(STRLANG(CONCAT("The ", ?Name, " Family"), "en") AS ?label_en)
 
     # Group members
     OPTIONAL { ?person apf:strSplit(?Members ";") }

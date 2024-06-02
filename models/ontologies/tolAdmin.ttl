@@ -134,6 +134,13 @@ tolo:domain
 	skos:scopeNote "Note that these are not full URLs."@en ;
 	.
 
+tolo:editUrl
+	a owl:AnnotationProperty ;
+	skos:definition "Links a piece of content in HTML format, such as a biography, summary, description, etc., to an HTML editor where it can be edited."@en ;
+	skos:prefLabel "edit URL"@en ;
+	skos:scopeNote "This is a temporary workaround because the primary editing platform has no built-in HTML editor. Once this is implemented this property can be removed."@en ;
+	.
+
 tolo:fileName
 	a owl:DatatypeProperty ;
 	rdfs:range xsd:string ;
