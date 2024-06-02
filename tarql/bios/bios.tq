@@ -45,23 +45,23 @@ CONSTRUCT {
             ?relative_author_statement ,
             ?student_author_statement ;
         tolo:publicationDisplayDate ?published_display_date ;
-        tolo:updateDisplayDate ?updated_display_date ;
+        tolo:updateDisplayDate ?updated_display_date ,
+        tolo:hasSummary ?summary_iri ;
+        tolo:hasSourceStatement ?source_statement_iri ;
         .
 
     ?summary_iri
-        a tolo:Summary ;
+        a gist:FormattedContent ;
         skos:prefLabel ?summary_label_en ;
         gist:isExpressedIn media-txt:html ;
         gist:containedText ?summary_text_en ;
-        gist:isAbout ?bio_iri ;
         .
 
     ?source_statement_iri
-        a tolo:SourceStatement ;
+        a gist:FormattedContent ;
         skos:prefLabel ?source_statement_label_en ;
         gist:isExpressedIn media-txt:html ;
         gist:containedText ?source_statement_en ;
-        gist:isAbout ?bio_iri ;
         .  
 
 }

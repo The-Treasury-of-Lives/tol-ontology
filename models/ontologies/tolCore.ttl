@@ -40,7 +40,7 @@ gist:EntityActiveStatus
 
 tolo:Author
 	a owl:Class ;
-	rdfs:subClassOf tolo:Person ;
+	rdfs:subClassOf gist:Person ;
 	skos:definition "A person who has authored or contributed to authoring at least one work."@en ;
 	skos:prefLabel "Author"@en ;
 	.
@@ -94,16 +94,17 @@ tolo:Authorship
 tolo:Biography
 	a owl:Class ;
 	rdfs:subClassOf
-		gist:Content ,
+		gist:FormattedContent ,
 		[
 			a owl:Restriction ;
 			owl:onProperty gist:isAbout ;
 			owl:someValuesFrom tolo:Person ;
 		]
 		;
-	skos:definition "A written account of another person's life"@en ;
+	skos:definition "A written account of another person's life."@en ;
 	skos:editorialNote "If we want to bring BIBFRAME into the mix, would be a subclass of bf:Work."@en ;
 	skos:prefLabel "Biography"@en ;
+	skos:scopeNote "Author bios are not tolo:Biographies because authors are instances of gist:Person but not tolo:Person."@en ;
 	.
 
 tolo:Birth
@@ -192,26 +193,6 @@ tolo:HistoricalPeriod
 	skos:example "The 10th century, the eary/mid/late 19th century."@en ;
 	skos:prefLabel "Historical Period"@en ;
 	skos:scopeNote "Whereas a time interval is any period of time, such as 2-4pm this afternoon or 1848-1947, a historical period is named and cited in relation to historical events or culture. Historical periods include full and partial centuries, which are ordinally numbered."@en ;
-	.
-
-tolo:HtmlBiography
-	a owl:Class ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			tolo:Biography
-			gist:FormattedContent
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:isExpressedIn ;
-				owl:hasValue media-txt:html ;
-			]
-		) ;
-	] ;
-	skos:definition "A biography formatted in HTML for publication on a website."@en ;
-	skos:example "The Treasury of Lives biography of Rongzom Chokyi Zangpo is published on the Treasury of Lives website at https://treasuryoflives.org/biographies/view/Rongzom-Chokyi-Zangpo/6194."@en ;
-	skos:prefLabel "HTML Biography"@en ;
-	skos:scopeNote "Note that author bios are not members of this class."@en ;
 	.
 
 tolo:Image
@@ -490,12 +471,12 @@ tolo:Person
 		gist:Person ,
 		wiki:Person
 		;
-	skos:definition "An individual being who was born, lived, and died in the human realm."@en ;
+	skos:definition "An individual being who was born, lived, and died in the human realm and is or potentiallly is the subject of a Treasury of Lives biography."@en ;
 	skos:prefLabel
 		"Person"@en ,
 		"mi"@bo-x-ewts
 		;
-	skos:scopeNote "May include quasi-historical figures."@en ;
+	skos:scopeNote "May include quasi-historical figures. Encompasses persons from other data sources, such as BDRC, who are referenced from biographies but do not have a biography on the ToL site. Other persons in the data such as users, subscriber contacts, and authors are instances of gist:Person rather than tolo:Person (unless they also become the subject of a biography)."@en ;
 	.
 
 tolo:Reference
@@ -544,36 +525,6 @@ tolo:ReferenceCollection
 		;
 	skos:example "Lotsawa House, Rubin Museum of Art"@en ;
 	skos:prefLabel "Reference Collection"@en ;
-	.
-
-tolo:SourceStatement
-	a owl:Class ;
-	rdfs:subClassOf
-		gist:Content ,
-		[
-			a owl:Restriction ;
-			owl:onProperty gist:isAbout ;
-			owl:someValuesFrom gist:Content ;
-		]
-		;
-	skos:definition "A statement of the sources used to compile a piece of content."@en ;
-	skos:editorialNote "Could alternatively model with an object property hasSourceStatement."@en ;
-	skos:prefLabel "Source Statement"@en ;
-	.
-
-tolo:Summary
-	a owl:Class ;
-	rdfs:subClassOf
-		gist:Content ,
-		[
-			a owl:Restriction ;
-			owl:onProperty gist:isAbout ;
-			owl:someValuesFrom gist:Content ;
-		]
-		;
-	skos:definition "A brief statement or restatement of the main points of a larger work."@en ;
-	skos:editorialNote "Could alternatively model with an object property hasSummary."@en ;
-	skos:prefLabel "Summary"@en ;
 	.
 
 tolo:TeacherStudentRelationship
@@ -967,6 +918,14 @@ tolo:hasSororallNiece
 		;
 	.
 
+tolo:hasSourceStatement
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:FormattedContent ;
+	rdfs:range gist:FormattedContent ;
+	skos:definition "Relates a piece of content to a statement of its sources."@en ;
+	skos:prefLabel "has source statement"@en ;
+	.
+
 tolo:hasStatement
 	a owl:ObjectProperty ;
 	rdfs:domain tolo:Biography ;
@@ -974,6 +933,14 @@ tolo:hasStatement
 	skos:definition "Relates a biography to a disclaimer or disclosure about its authorship."@en ;
 	skos:example "A biography has a statement indicating that its author is a relative or student of its subject."@en ;
 	skos:prefLabel "has statement"@en ;
+	.
+
+tolo:hasSummary
+	a owl:ObjectProperty ;
+	rdfs:domain tolo:FormattedContent ;
+	rdfs:range gist:FormattedContent ;
+	skos:definition "Relates a piece of content, such as a biography, to a brief statement or restatement of the main points of a larger work."@en ;
+	skos:prefLabel "has summary"@en ;
 	.
 
 tolo:inYear
