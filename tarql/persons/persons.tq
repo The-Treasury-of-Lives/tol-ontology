@@ -20,9 +20,11 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # TBRC RID
 # Primary title
 # Primary name
+# Primary name encoding
 # Wylie title
 # Wylie name
 # Tibetan
+# Display name
 # Birth year
 # Birth year approximate
 # Birth year alternate
@@ -34,9 +36,13 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # Gender
 # Ordinal - not converted; do with incarnations
 # Wikidata ID
+# Lotsawa House URL
+# HAR URL (?)
+# RMA URL
+# 84000 URL
 
 # Run: 
-# tarql -e utf-8 --dedup 50000 persons.tq persons-5-21-24.csv > tolPersons.ttl
+# tarql -e utf-8 --dedup 50000 persons.tq persons-5-30-24.csv > tolPersons.ttl
 
 CONSTRUCT {
     ?person_iri 
@@ -59,10 +65,18 @@ CONSTRUCT {
             ?title_en ,
             ?title_wylie ;
 
+        tolo:displayLabel ?display_label_en ;
+
         bdo:personGender ?gender_iri ;
 
         tolo:hasEvent ?birth_iri ;
         tolo:hasEvent ?death_iri ;
+
+        rdfs:seeAlso
+            ?lotsawa_house_url ,
+            # ?har_url ,
+            ?rma_url ,
+            ?84000_url ;
         .
 
     ?birth_iri a tolo:Birth ;
@@ -88,7 +102,7 @@ CONSTRUCT {
 WHERE {
 
     # Testing
-    # FILTER(?ROWNUM = 1)
+    # FILTER(?ROWNUM = 406)
 
     # IRIs and URLs
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?TOL_ID)) AS ?person_iri)
@@ -96,9 +110,6 @@ WHERE {
     # owl:sameAs
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?TBRC_RID)) AS ?bdrc_iri)
     BIND(tarql:expandPrefixedName(CONCAT("wiki:", ?Wikidata_ID)) AS ?wikidata_iri) 
-
-    # HAR URL will be attached to image
-    # BIND(STRDT(?HAR_URL, xsd:anyURI) AS ?har_url)
 
 
     # NAMES AND TITLES
@@ -114,6 +125,10 @@ WHERE {
 
     # Tibetan name
     BIND(STRLANG(?Tibetan, "bo") AS ?primary_name_tibetan)
+
+    # Display name
+    BIND(STRLANG(?Display_name_English, "en") AS ?display_label_en)    
+
 
     # GENDER
     BIND(
@@ -170,8 +185,8 @@ WHERE {
     BIND(IF(!BOUND(?alternate_birth_year) && !BOUND(?approximate_birth_year_datetime), ?full_birth_year_datetime, ?unbound) AS ?actual_birth_year_datetime)
     BIND(IF(BOUND(?alternate_birth_year), ?full_birth_year_datetime, ?unbound) AS ?actual_alternate_birth_year_datetime)
 
-    # Birth century (including early, mid, and late) - only used if no birth year
-    BIND(IF(!BOUND(?Birth_year), tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", REPLACE(REPLACE(?Birth_century, " ", "_"), "[()]", ""))), ?unbound) AS ?birth_time_period_iri) 
+    # Birth century
+    BIND(tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", ?Birth_century)) AS ?birth_time_period_iri) 
 
 
     # Death 
@@ -214,8 +229,15 @@ WHERE {
     BIND(IF(!BOUND(?alternate_death_year) && !BOUND(?approximate_death_year_datetime), ?full_death_year_datetime, ?unbound) AS ?actual_death_year_datetime)
     BIND(IF(BOUND(?alternate_death_year), ?full_death_year_datetime, ?unbound) AS ?actual_alternate_death_year_datetime)
 
-    # Death century (including early, mid, and late) - only used if no death year
-    # Ignore for now - awaiting corrected data
-    BIND(IF(!BOUND(?Death_year), tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", REPLACE(REPLACE(?Death_century, " ", "_"), "[()]", ""))), ?unbound) AS ?death_time_period_iri) 
+    # Death century
+    BIND(tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", ?Death_century)) AS ?death_time_period_iri) 
+
+
+    # ONLINE REFERENCES
+    BIND(STRDT(?Lotsawa_House_URL, xsd:anyURI) AS ?lotsawa_house_url)
+    # Check with Katie - should go on image rather than person?
+    # BIND(STRDT(?HAR_URL, xsd:anyURI) AS ?har_url)
+    BIND(STRDT(?RMA_URL, xsd:anyURI) AS ?rma_url)
+    BIND(STRDT(?84000_URL, xsd:anyURI) AS ?84000_url)
 
 }
