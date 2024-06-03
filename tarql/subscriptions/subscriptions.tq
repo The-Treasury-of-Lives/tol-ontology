@@ -16,7 +16,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX wiki: <https://www.wikidata.org/wiki/>
 PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
 
-
+# COLUMNS
 
 # Run: 
 # tarql -e utf-8 subscriptions.tq XXX.csv > tolSubscriptions.ttl
@@ -28,7 +28,7 @@ CONSTRUCT {
         gist:hasParticipant ?organization_iri ;
         gist:isCategorizedBy
             ?entity_active_status_iri , 
-            ?ip_access_status_iri ,
+            ?subscription_access_type_iri ,
             ?tier_iri ;
         gist:actualStartDate ?start_date ;
         tolo:hasContactPerson ?contact_iri ;
@@ -38,7 +38,7 @@ CONSTRUCT {
         a gist:Organization ;
         gist:name ?Name ;
         gist:hasCommunicationAddress ?organization_email_iri ;
-        gist:hasAddress ?ip_address_iri ;
+        tolo:ipAddress ?ip_address ;
         tolo:domain ?Domain ;
         .
 
@@ -84,7 +84,8 @@ WHERE {
 
     BIND(tarql:expandPrefixedName(CONCAT("tolx:_EntityActiveStatus_", ?status)) as ?entity_active_status_iri) 
     # Check whether TARQL replaces hyphen with underscore.
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_IpAccessStatus_", ?IP-based_access)) as ?ip_access_status_iri)   
+    BIND(IF(?IP-based_access = "active", "ip", "email")) AS ?access_type ;
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_SubscriptionAccessType_", ?access_type)) as ?subscription_access_type_iri)   
 
     # Check whether the cast works for date formats mm/dd/yy
     # BIND(STRDT(?Subscription_start, xsd:dateTime) AS ?start_date)
@@ -100,9 +101,7 @@ WHERE {
     OPTIONAL {
         ?ip_address apf:strSplit(?IP_addresses ",") 
     }
-    BIND(tarql:expandPrefixedName(CONCAT("told:_IpAddress_", LCASE(REPLACE(?Contact_name, " +", "_")))) AS ?ip_address_iri)
-
-    
+   
     # Contact person
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", LCASE(REPLACE(?Contact_name, " +", "_")))) AS ?contact_iri)
 
