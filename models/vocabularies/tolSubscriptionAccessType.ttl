@@ -15,24 +15,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/treasuryoflives/taxonomy/tolIpAccessStatus>
+<https://w3id.org/treasuryoflives/taxonomy/tolSubscriptionAccessType>
 	a owl:Ontology ;
 	owl:imports <https://w3id.org/treasuryoflives/ontology/tolAdminX.x.x> ;
-	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolIpAccessStatusX.x.x> ;
-	skos:definition "Defines values indicating whether a subscriber IP access to the Treasury of Lives website is active or inactive."@en ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/ttolSubscriptionAccessTypeX.x.x> ;
+	skos:definition "Defines values indicating how a subscriber is authorized to access Treasury of Lives subscriber content."@en ;
 	skos:editorialNote "Hand-curated."@en ;
-	skos:prefLabel "IP Access Status"@en ;
+	skos:prefLabel "Subscription Access Type"@en ;
 	.
 
-tolx:_IpAccessStatus_active
-	a tolo:IpAccessStatus ;
-	skos:definition "The subscriber has IP access."@en ;
-	skos:prefLabel "Active"@en ;
+tolx:_SubscriptionAccessType_email
+	a tolo:SubscriptionAccessType ;
+	skos:definition "The subscriber has only email access."@en ;
+	skos:prefLabel "Email Access"@en ;
 	.
 
-tolx:_IpAccessStatus_inactive
-	a tolo:IpAccessStatus ;
-	skos:definition "The subscriber does not have IP access."@en ;
-	skos:prefLabel "Inactive"@en ;
+tolx:_SubscriptionAccessType_ip
+	a tolo:SubscriptionAccessType ;
+	skos:definition "The subscriber has IP-based access."@en ;
+	skos:prefLabel "IP-Based Access"@en ;
 	.
 
