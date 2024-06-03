@@ -8,7 +8,6 @@
 # imports: https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolEntityActiveStatusX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x
-# imports: https://w3id.org/treasuryoflives/taxonomy/tolIpAccessStatusX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolMappingPrioritiesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolMarriageRanksX.x.x
@@ -16,6 +15,7 @@
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolPlaceTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolRanksX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolReferenceCollectionsX.x.x
+# imports: https://w3id.org/treasuryoflives/taxonomy/tolSubscriptionAccessTypeX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x
 
 @prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
@@ -38,7 +38,6 @@
 		<https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolEntityActiveStatusX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x> ,
-		<https://w3id.org/treasuryoflives/taxonomy/tolIpAccessStatusX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolMappingPrioritiesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolMarriageRanksX.x.x> ,
@@ -46,6 +45,7 @@
 		<https://w3id.org/treasuryoflives/taxonomy/tolPlaceTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolRanksX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolReferenceCollectionsX.x.x> ,
+		<https://w3id.org/treasuryoflives/taxonomy/tolSubscriptionAccessTypeX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x>
 		;
 	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolAllX.x.x> ;
