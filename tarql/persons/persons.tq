@@ -65,7 +65,8 @@ CONSTRUCT {
             ?title_en ,
             ?title_wylie ;
 
-        tolo:displayLabel ?display_label_en ;
+        # These are mixed between English, Wylie, and others, so omit language tag.
+        tolo:displayLabel ?Display_name_English ;
 
         bdo:personGender ?gender_iri ;
 
@@ -125,9 +126,6 @@ WHERE {
 
     # Tibetan name
     BIND(STRLANG(?Tibetan, "bo") AS ?primary_name_tibetan)
-
-    # Display name
-    BIND(STRLANG(?Display_name_English, "en") AS ?display_label_en)    
 
 
     # GENDER
