@@ -37,7 +37,7 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # Ordinal - not converted; do with incarnations
 # Wikidata ID
 # Lotsawa House URL
-# HAR URL (?)
+# HAR URL
 # RMA URL
 # 84000 URL
 
@@ -75,7 +75,7 @@ CONSTRUCT {
 
         rdfs:seeAlso
             ?lotsawa_house_url ,
-            # ?har_url ,
+            ?har_url ,
             ?rma_url ,
             ?84000_url ;
         .
@@ -111,6 +111,13 @@ WHERE {
     # owl:sameAs
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?TBRC_RID)) AS ?bdrc_iri)
     BIND(tarql:expandPrefixedName(CONCAT("wiki:", ?Wikidata_ID)) AS ?wikidata_iri) 
+
+    # rdfs:seeAlso
+    BIND(STRDT(?Lotsawa_House_URL, xsd:anyURI) AS ?lotsawa_house_url)
+    # Some HAR URLs related directly to persons rather than images, so add here as well
+    BIND(STRDT(?HAR_URL, xsd:anyURI) AS ?har_url)
+    BIND(STRDT(?RMA_URL, xsd:anyURI) AS ?rma_url)
+    BIND(STRDT(?84000_URL, xsd:anyURI) AS ?84000_url)
 
 
     # NAMES AND TITLES
@@ -229,13 +236,5 @@ WHERE {
 
     # Death century
     BIND(tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", ?Death_century)) AS ?death_time_period_iri) 
-
-
-    # ONLINE REFERENCES
-    BIND(STRDT(?Lotsawa_House_URL, xsd:anyURI) AS ?lotsawa_house_url)
-    # Check with Katie - should go on image rather than person?
-    # BIND(STRDT(?HAR_URL, xsd:anyURI) AS ?har_url)
-    BIND(STRDT(?RMA_URL, xsd:anyURI) AS ?rma_url)
-    BIND(STRDT(?84000_URL, xsd:anyURI) AS ?84000_url)
 
 }
