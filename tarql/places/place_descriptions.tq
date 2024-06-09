@@ -47,7 +47,7 @@ WHERE {
     # FILTER(?ROWNUM = 1)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_Place_", ?community_id)) AS ?place_iri)
-    BIND(tarql:expandPrefixedName(CONCAT("bdr:", REPLACE(?tbrc_id, " +$", ""))) AS ?bdrc_place_iri)
+    BIND(IF(?tbrc_id != "NULL", tarql:expandPrefixedName(CONCAT("bdr:", REPLACE(?tbrc_id, " +$", ""))), ?unbound) AS ?bdrc_place_iri)
    
     # Description
     BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_Place_", ?community_id)) AS ?description_iri)
