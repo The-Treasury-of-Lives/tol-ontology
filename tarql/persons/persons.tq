@@ -70,9 +70,6 @@ CONSTRUCT {
 
         bdo:personGender ?gender_iri ;
 
-        tolo:hasEvent ?birth_iri ;
-        tolo:hasEvent ?death_iri ;
-
         rdfs:seeAlso
             ?lotsawa_house_url ,
             ?har_url ,
@@ -87,6 +84,7 @@ CONSTRUCT {
         tolo:alternateYear ?alternate_birth_year_datetime ;
         tolo:alternateYear ?actual_alternate_birth_year_datetime ;
         tolo:occursDuring ?birth_time_period_iri ;
+        gist:hasParticipant ?person_iri ;
         .
 
     ?death_iri a tolo:Death ;
@@ -96,6 +94,7 @@ CONSTRUCT {
         tolo:alternateYear ?alternate_death_year_datetime ;
         tolo:alternateYear ?actual_alternate_death_year_datetime ;
         tolo:occursDuring ?death_time_period_iri ;
+        gist:hasParticipant ?person_iri ;
         .
 
 }
