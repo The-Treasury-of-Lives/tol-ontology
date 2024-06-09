@@ -32,7 +32,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # mn_mong_variants
 
 # Run:
-# tarql -e utf-8 --dedup 50000 place_names.tq place-names-w-variants-6-23-23.csv > tolPlaceNames.ttl
+# tarql -e utf-8 --dedup 50000 place_names.tq place-names-w-variants-5-29-24.csv > tolPlaceNames.ttl
 
 CONSTRUCT {
 

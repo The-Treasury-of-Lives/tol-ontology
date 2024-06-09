@@ -25,7 +25,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # Note that Institutions are not places, but are included here because the relational database and thus the export combines them with places.
 
 # Run:
-# tarql -e utf-8 places_with_types.tq place-with-types-1-15-24.csv > tolPlacesWithTypes.ttl
+# tarql -e utf-8 places_with_types.tq place-with-types-5-19-24.csv > tolPlacesWithTypes.ttl
 
 CONSTRUCT {
 
@@ -44,11 +44,23 @@ WHERE {
     # Get the local name of the entity's class
     BIND(
         COALESCE(
-            IF(?place_type_name IN ("Manor", "Government Building", "Palace", "Temple"), 
-            "Building", ?unbound),  
-            IF(?place_type_name IN ("Stupa", "Hermitage", "Lake", "Mountain", "Hidden Land", "Cave"), 
-            "Landmark", ?unbound),
             IF(?place_type_name = "Monastery", "Monastery", ?unbound),
+
+            IF(?place_type_name IN ("Government Building", 
+                                    "Manor", 
+                                    "Palace", 
+                                    "Temple"), 
+            "Building", ?unbound),  
+
+            IF(?place_type_name IN ("Cave", 
+                                    "Hermitage", 
+                                    "Hidden Land",
+                                    "Lake", 
+                                    "Mountain", 
+                                    "Stupa"), 
+            "Landmark", ?unbound),
+
+            # Dharma Center, Hospital, Monastic College, Nunnery, School 
             "Institution"
     ) AS ?class_local_name)
 
