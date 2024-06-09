@@ -1,5 +1,4435 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:_Place_10
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1000
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1001
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_1002
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_8
+		;
+	.
+
+told:_Place_1004
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1005
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1009
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_101
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_1010
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1012
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1013
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1014
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1015
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1016
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1018
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1019
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_102
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_42 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_1020
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1021
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1023
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1024
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1025
+	gist:isConnectedTo
+		told:_Tradition_4 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_1036
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1038
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1041
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1042
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1043
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1044
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1045
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1046
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1049
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_105
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1050
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1051
+	gist:isConnectedTo told:_Tradition_42 ;
+	.
+
+told:_Place_1052
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_1054
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1055
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1056
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_106
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_1066
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1068
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1069
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_107
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1070
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1071
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1073
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_108
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1087
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_1088
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_1089
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_109
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_1091
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1093
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1095
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1096
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1097
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_11
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_110
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_28
+		;
+	.
+
+told:_Place_1100
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1101
+	gist:isConnectedTo told:_Tradition_42 ;
+	.
+
+told:_Place_1102
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_42
+		;
+	.
+
+told:_Place_1103
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1104
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1105
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1106
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1107
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1108
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27
+		;
+	.
+
+told:_Place_1109
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1110
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_7 ,
+		told:_Tradition_72
+		;
+	.
+
+told:_Place_1111
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1112
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1113
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1119
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_112
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1120
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27
+		;
+	.
+
+told:_Place_1121
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_42
+		;
+	.
+
+told:_Place_1122
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1128
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1131
+	gist:isConnectedTo told:_Tradition_54 ;
+	.
+
+told:_Place_1133
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_1137
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1138
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_114
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1141
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1143
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1144
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_77
+		;
+	.
+
+told:_Place_1145
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_42
+		;
+	.
+
+told:_Place_1147
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1148
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_115
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1150
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1151
+	gist:isConnectedTo told:_Tradition_37 ;
+	.
+
+told:_Place_1153
+	gist:isConnectedTo
+		told:_Tradition_4 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_1154
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_116
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_1161
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_1165
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1166
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_117
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_1171
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1172
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1173
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1174
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1175
+	gist:isConnectedTo told:_Tradition_22 ;
+	.
+
+told:_Place_1178
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1179
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_1182
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1183
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1184
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27
+		;
+	.
+
+told:_Place_1185
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1186
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1187
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1188
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1189
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_119
+	gist:isConnectedTo
+		told:_Tradition_28 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_1190
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27
+		;
+	.
+
+told:_Place_1191
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1192
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1194
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1195
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1196
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1199
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_12
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_120
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4 ,
+		told:_Tradition_67
+		;
+	.
+
+told:_Place_1200
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1201
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1204
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_1205
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1206
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_121
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_1211
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1212
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1213
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1214
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1215
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1216
+	gist:isConnectedTo
+		told:_Tradition_24 ,
+		told:_Tradition_67
+		;
+	.
+
+told:_Place_1217
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_1218
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27 ,
+		told:_Tradition_8
+		;
+	.
+
+told:_Place_1219
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_122
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1220
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1224
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1226
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1228
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1229
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1230
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1231
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1233
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1234
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1235
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1237
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1238
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_124
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_1241
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_8
+		;
+	.
+
+told:_Place_1242
+	gist:isConnectedTo
+		told:_Tradition_24 ,
+		told:_Tradition_27
+		;
+	.
+
+told:_Place_1243
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1244
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1246
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1247
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_1248
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1249
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_1250
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1251
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_1254
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1255
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1256
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1259
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_126
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_1261
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1262
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1263
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1264
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1265
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1266
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_1267
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_1268
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_127
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_24 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_1270
+	gist:isConnectedTo told:_Tradition_42 ;
+	.
+
+told:_Place_1271
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1273
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1274
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1276
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1277
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1279
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_128
+	gist:isConnectedTo
+		told:_Tradition_4 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_1280
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1281
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_1282
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_1283
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1284
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1286
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_1287
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1288
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_129
+	gist:isConnectedTo told:_Tradition_42 ;
+	.
+
+told:_Place_1292
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_8
+		;
+	.
+
+told:_Place_1294
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_1295
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1297
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_1299
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_13
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_130
+	gist:isConnectedTo told:_Tradition_54 ;
+	.
+
+told:_Place_1300
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1301
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1302
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1303
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1306
+	gist:isConnectedTo told:_Tradition_45 ;
+	.
+
+told:_Place_1307
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1308
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1309
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_8
+		;
+	.
+
+told:_Place_1313
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1315
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1316
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1317
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_67
+		;
+	.
+
+told:_Place_1318
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_132
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_1320
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1321
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1322
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1323
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1324
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1329
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1330
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1332
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1334
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_1335
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1336
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1337
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1338
+	gist:isConnectedTo told:_Tradition_22 ;
+	.
+
+told:_Place_1339
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_134
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_42
+		;
+	.
+
+told:_Place_1340
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1341
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1342
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1343
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_135
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_8
+		;
+	.
+
+told:_Place_1352
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1353
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_136
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1362
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_1365
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_1367
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_1368
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_1369
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_137
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1373
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1380
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1386
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1387
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1388
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_1390
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1391
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1392
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1393
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1394
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1395
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1398
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1399
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_14
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_140
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1400
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1401
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1403
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_1404
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1405
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1406
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1408
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1409
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_141
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27 ,
+		told:_Tradition_42
+		;
+	.
+
+told:_Place_1412
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1413
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1414
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1415
+	gist:isConnectedTo
+		told:_Tradition_24 ,
+		told:_Tradition_67
+		;
+	.
+
+told:_Place_1416
+	gist:isConnectedTo told:_Tradition_67 ;
+	.
+
+told:_Place_1417
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1418
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1419
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1420
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1421
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1422
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1423
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1426
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1428
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1429
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_143
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27 ,
+		told:_Tradition_28 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_1431
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1432
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1433
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1434
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1435
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1436
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1437
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_1438
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_1439
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_1441
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1443
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1445
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1447
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1448
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1449
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1450
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_67
+		;
+	.
+
+told:_Place_1452
+	gist:isConnectedTo told:_Tradition_67 ;
+	.
+
+told:_Place_1453
+	gist:isConnectedTo told:_Tradition_67 ;
+	.
+
+told:_Place_1454
+	gist:isConnectedTo told:_Tradition_67 ;
+	.
+
+told:_Place_1455
+	gist:isConnectedTo told:_Tradition_67 ;
+	.
+
+told:_Place_1456
+	gist:isConnectedTo
+		told:_Tradition_24 ,
+		told:_Tradition_67
+		;
+	.
+
+told:_Place_1457
+	gist:isConnectedTo
+		told:_Tradition_24 ,
+		told:_Tradition_67
+		;
+	.
+
+told:_Place_1458
+	gist:isConnectedTo
+		told:_Tradition_24 ,
+		told:_Tradition_67
+		;
+	.
+
+told:_Place_1459
+	gist:isConnectedTo
+		told:_Tradition_24 ,
+		told:_Tradition_67
+		;
+	.
+
+told:_Place_146
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1460
+	gist:isConnectedTo
+		told:_Tradition_24 ,
+		told:_Tradition_67
+		;
+	.
+
+told:_Place_1461
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1462
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1464
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1467
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1469
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1472
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1474
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1475
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1476
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1477
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1478
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1480
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1481
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1482
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1486
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1487
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1488
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1489
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1490
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1491
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1492
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1493
+	gist:isConnectedTo told:_Tradition_77 ;
+	.
+
+told:_Place_1496
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1497
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1498
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1499
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_15
+	gist:isConnectedTo
+		told:_Tradition_24 ,
+		told:_Tradition_27 ,
+		told:_Tradition_8
+		;
+	.
+
+told:_Place_150
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1500
+	gist:isConnectedTo
+		told:_Tradition_4 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_1502
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_1504
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_8
+		;
+	.
+
+told:_Place_1506
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_1507
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_1508
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1509
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_151
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_1511
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_1512
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_1513
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_1515
+	gist:isConnectedTo told:_Tradition_42 ;
+	.
+
+told:_Place_1516
+	gist:isConnectedTo told:_Tradition_22 ;
+	.
+
+told:_Place_1517
+	gist:isConnectedTo told:_Tradition_22 ;
+	.
+
+told:_Place_1520
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_1521
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_1522
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1523
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1524
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1526
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1527
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1528
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1529
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1532
+	gist:isConnectedTo told:_Tradition_77 ;
+	.
+
+told:_Place_1533
+	gist:isConnectedTo told:_Tradition_77 ;
+	.
+
+told:_Place_1534
+	gist:isConnectedTo told:_Tradition_22 ;
+	.
+
+told:_Place_1535
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1536
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1538
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_8
+		;
+	.
+
+told:_Place_154
+	gist:isConnectedTo told:_Tradition_23 ;
+	.
+
+told:_Place_1541
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1542
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_1544
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_8
+		;
+	.
+
+told:_Place_1545
+	gist:isConnectedTo told:_Tradition_26 ;
+	.
+
+told:_Place_1546
+	gist:isConnectedTo told:_Tradition_77 ;
+	.
+
+told:_Place_1548
+	gist:isConnectedTo told:_Tradition_77 ;
+	.
+
+told:_Place_1549
+	gist:isConnectedTo told:_Tradition_77 ;
+	.
+
+told:_Place_1551
+	gist:isConnectedTo told:_Tradition_77 ;
+	.
+
+told:_Place_1552
+	gist:isConnectedTo
+		told:_Tradition_42 ,
+		told:_Tradition_77
+		;
+	.
+
+told:_Place_1554
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1555
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1556
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1559
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_156
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1560
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27
+		;
+	.
+
+told:_Place_1562
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1563
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1564
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1565
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1566
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1567
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1568
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1569
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_157
+	gist:isConnectedTo told:_Tradition_54 ;
+	.
+
+told:_Place_1570
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1572
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1573
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1574
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1575
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1576
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1578
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1579
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_158
+	gist:isConnectedTo told:_Tradition_54 ;
+	.
+
+told:_Place_1585
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1586
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_159
+	gist:isConnectedTo
+		told:_Tradition_24 ,
+		told:_Tradition_42 ,
+		told:_Tradition_54
+		;
+	.
+
+told:_Place_1591
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1592
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1593
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1594
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1595
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1596
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1597
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_160
+	gist:isConnectedTo told:_Tradition_60 ;
+	.
+
+told:_Place_1600
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1601
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1602
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1603
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1604
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1605
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_42
+		;
+	.
+
+told:_Place_1608
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1610
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1611
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1612
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1615
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1617
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1618
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1619
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1620
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1624
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1625
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1627
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1630
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1631
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_1632
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1633
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_1636
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1637
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1639
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1640
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1641
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1642
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1644
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_1645
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1646
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1647
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1648
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1649
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1655
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1656
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1657
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1658
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1659
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1660
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_1661
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_1662
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1664
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1665
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1666
+	gist:isConnectedTo told:_Tradition_42 ;
+	.
+
+told:_Place_1667
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1670
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1671
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1672
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1673
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1674
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1676
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1678
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1679
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1681
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1682
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1683
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1684
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1685
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1686
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1689
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1691
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1692
+	gist:isConnectedTo told:_Tradition_77 ;
+	.
+
+told:_Place_1693
+	gist:isConnectedTo told:_Tradition_77 ;
+	.
+
+told:_Place_1694
+	gist:isConnectedTo told:_Tradition_77 ;
+	.
+
+told:_Place_1695
+	gist:isConnectedTo told:_Tradition_77 ;
+	.
+
+told:_Place_1696
+	gist:isConnectedTo told:_Tradition_77 ;
+	.
+
+told:_Place_1698
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_1700
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1701
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_1702
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1703
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1704
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1705
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1706
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1708
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1709
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1710
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_72
+		;
+	.
+
+told:_Place_1711
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1712
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1713
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1714
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1715
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_1716
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1717
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1718
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1719
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1720
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1722
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1723
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_1724
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_174
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_178
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_179
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_180
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_181
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_183
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_185
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_186
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_187
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_188
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_189
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_190
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_191
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_192
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_193
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_195
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_197
+	gist:isConnectedTo told:_Tradition_67 ;
+	.
+
+told:_Place_198
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_199
+	gist:isConnectedTo
+		told:_Tradition_4 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_204
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_205
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_206
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_207
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_208
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_209
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_21
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_210
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_212
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_214
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_215
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_216
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_217
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_218
+	gist:isConnectedTo told:_Tradition_45 ;
+	.
+
+told:_Place_219
+	gist:isConnectedTo told:_Tradition_45 ;
+	.
+
+told:_Place_224
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_225
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_226
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_227
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_228
+	gist:isConnectedTo told:_Tradition_42 ;
+	.
+
+told:_Place_229
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_231
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_235
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_236
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_237
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_241
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_242
+	gist:isConnectedTo
+		told:_Tradition_42 ,
+		told:_Tradition_72
+		;
+	.
+
+told:_Place_243
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_244
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_245
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_246
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_247
+	gist:isConnectedTo told:_Tradition_45 ;
+	.
+
+told:_Place_249
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_250
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_251
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_253
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_254
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_255
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_256
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_259
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_263
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_265
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_266
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_267
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_269
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_270
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_271
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_272
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_274
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_275
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_276
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_277
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_278
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_279
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_280
+	gist:isConnectedTo
+		told:_Tradition_42 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_282
+	gist:isConnectedTo
+		told:_Tradition_42 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_285
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_286
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_287
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_288
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_289
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_290
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_291
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_292
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_293
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_294
+	gist:isConnectedTo
+		told:_Tradition_23 ,
+		told:_Tradition_27
+		;
+	.
+
+told:_Place_295
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_296
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_297
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_298
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_305
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_306
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_309
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_310
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_311
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_312
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_314
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_315
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_316
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_317
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_318
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_319
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_32
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_321
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_322
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_323
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_324
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_325
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_326
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_8
+		;
+	.
+
+told:_Place_327
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_33
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_331
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_333
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_334
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_335
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_338
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_7 ,
+		told:_Tradition_8
+		;
+	.
+
+told:_Place_339
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_340
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_342
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_343
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_344
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_345
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_346
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_347
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_348
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_349
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_35
+	gist:isConnectedTo
+		told:_Tradition_4 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_350
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_351
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_352
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_353
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_354
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_355
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_356
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_357
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_358
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_359
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_36
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_360
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_361
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_362
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_363
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_364
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_365
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_367
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_368
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_369
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_37
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_370
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_371
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_372
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_373
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_374
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_375
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_38
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_381
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_382
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_383
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_385
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_387
+	gist:isConnectedTo told:_Tradition_42 ;
+	.
+
+told:_Place_388
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_39
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_393
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_42
+		;
+	.
+
+told:_Place_395
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_396
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_397
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_398
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_399
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_40
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_400
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_401
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_402
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_403
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_404
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_407
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27
+		;
+	.
+
+told:_Place_408
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_409
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_41
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_410
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_411
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_412
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_413
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_416
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_419
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_420
+	gist:isConnectedTo told:_Tradition_42 ;
+	.
+
+told:_Place_421
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_422
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_423
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_424
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_425
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_426
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_427
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_43
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_430
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_432
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_434
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_435
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_437
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_439
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_44
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_440
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_441
+	gist:isConnectedTo
+		told:_Tradition_24 ,
+		told:_Tradition_27 ,
+		told:_Tradition_72
+		;
+	.
+
+told:_Place_442
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_443
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_444
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_445
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_446
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_447
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_448
+	gist:isConnectedTo told:_Tradition_45 ;
+	.
+
+told:_Place_449
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_45
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27 ,
+		told:_Tradition_42
+		;
+	.
+
+told:_Place_450
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_451
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_452
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_453
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_454
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_455
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27
+		;
+	.
+
+told:_Place_459
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_461
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_464
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_465
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_466
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_467
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_468
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_469
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_470
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_471
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_472
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_473
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_474
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_475
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_476
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_479
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_42
+		;
+	.
+
+told:_Place_48
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_480
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_481
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_482
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_484
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_485
+	gist:isConnectedTo
+		told:_Tradition_25 ,
+		told:_Tradition_27 ,
+		told:_Tradition_8
+		;
+	.
+
+told:_Place_486
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_487
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_488
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_24
+		;
+	.
+
+told:_Place_489
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_490
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_491
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_492
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_493
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_494
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_495
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_496
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_497
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_498
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_499
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_500
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_501
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_502
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_503
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_504
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_505
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_507
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_508
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_509
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_510
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_511
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_512
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_514
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_515
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_516
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_517
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_518
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_519
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_52
+	gist:isConnectedTo
+		told:_Tradition_4 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_520
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_522
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_523
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_524
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_525
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_526
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_527
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_529
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_24
+		;
+	.
+
+told:_Place_530
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_531
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_532
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_533
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_534
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_535
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_536
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_539
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_540
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_543
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_544
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_546
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_547
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_551
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_553
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_554
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_556
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_557
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_559
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_560
+	gist:isConnectedTo told:_Tradition_26 ;
+	.
+
+told:_Place_561
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_563
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27
+		;
+	.
+
+told:_Place_564
+	gist:isConnectedTo told:_Tradition_26 ;
+	.
+
+told:_Place_565
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_566
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_567
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_569
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_571
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_572
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_573
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_574
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_575
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_585
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_586
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_587
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_59
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_590
+	gist:isConnectedTo told:_Tradition_67 ;
+	.
+
+told:_Place_591
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_595
+	gist:isConnectedTo
+		told:_Tradition_42 ,
+		told:_Tradition_8
+		;
+	.
+
+told:_Place_596
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_597
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_599
+	gist:isConnectedTo
+		told:_Tradition_24 ,
+		told:_Tradition_27
+		;
+	.
+
+told:_Place_60
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_603
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_612
+	gist:isConnectedTo told:_Tradition_26 ;
+	.
+
+told:_Place_615
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_616
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_617
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_618
+	gist:isConnectedTo
+		told:_Tradition_26 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_62
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_621
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_63
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_64
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_650
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_657
+	gist:isConnectedTo
+		told:_Tradition_4 ,
+		told:_Tradition_7 ,
+		told:_Tradition_73
+		;
+	.
+
+told:_Place_67
+	gist:isConnectedTo told:_Tradition_43 ;
+	.
+
+told:_Place_672
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_673
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_679
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_68
+	gist:isConnectedTo
+		told:_Tradition_23 ,
+		told:_Tradition_27
+		;
+	.
+
+told:_Place_682
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_687
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_688
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_696
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_697
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_699
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_70
+	gist:isConnectedTo told:_Tradition_22 ;
+	.
+
+told:_Place_700
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_701
+	gist:isConnectedTo told:_Tradition_42 ;
+	.
+
+told:_Place_702
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_703
+	gist:isConnectedTo told:_Tradition_42 ;
+	.
+
+told:_Place_704
+	gist:isConnectedTo told:_Tradition_42 ;
+	.
+
+told:_Place_705
+	gist:isConnectedTo told:_Tradition_42 ;
+	.
+
+told:_Place_707
+	gist:isConnectedTo told:_Tradition_42 ;
+	.
+
+told:_Place_711
+	gist:isConnectedTo told:_Tradition_37 ;
+	.
+
+told:_Place_713
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_37 ,
+		told:_Tradition_73 ,
+		told:_Tradition_8
+		;
+	.
+
+told:_Place_716
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_717
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_718
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_719
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_721
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_722
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_723
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_724
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_75
+	gist:isConnectedTo told:_Tradition_23 ;
+	.
+
+told:_Place_76
+	gist:isConnectedTo told:_Tradition_23 ;
+	.
+
+told:_Place_78
+	gist:isConnectedTo told:_Tradition_23 ;
+	.
+
+told:_Place_80
+	gist:isConnectedTo told:_Tradition_45 ;
+	.
+
+told:_Place_804
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_805
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_806
+	gist:isConnectedTo
+		told:_Tradition_24 ,
+		told:_Tradition_27
+		;
+	.
+
+told:_Place_807
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_808
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_809
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_810
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_811
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_812
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_813
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_60
+		;
+	.
+
+told:_Place_814
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_815
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_816
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_818
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_819
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_82
+	gist:isConnectedTo told:_Tradition_42 ;
+	.
+
+told:_Place_821
+	gist:isConnectedTo told:_Tradition_42 ;
+	.
+
+told:_Place_822
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_4 ,
+		told:_Tradition_42
+		;
+	.
+
+told:_Place_823
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_824
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_825
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_826
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_827
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27
+		;
+	.
+
+told:_Place_828
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_829
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_831
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_8
+		;
+	.
+
+told:_Place_834
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_835
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_837
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_838
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_839
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_840
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_841
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27
+		;
+	.
+
+told:_Place_842
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_85
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27 ,
+		told:_Tradition_48
+		;
+	.
+
+told:_Place_860
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_8
+		;
+	.
+
+told:_Place_861
+	gist:isConnectedTo told:_Tradition_72 ;
+	.
+
+told:_Place_862
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_863
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_865
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_866
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_867
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_869
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_871
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_873
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_874
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_875
+	gist:isConnectedTo
+		told:_Tradition_24 ,
+		told:_Tradition_27
+		;
+	.
+
+told:_Place_878
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_879
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_880
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_881
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_882
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_884
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_892
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_893
+	gist:isConnectedTo
+		told:_Tradition_1 ,
+		told:_Tradition_27
+		;
+	.
+
+told:_Place_9
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_90
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_900
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_905
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_906
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_907
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_908
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_909
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_91
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_910
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_911
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_912
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_913
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_914
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_917
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_92
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_920
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_921
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_922
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_923
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_924
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_925
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_926
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_927
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_928
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_93
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_28 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_934
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_935
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_936
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_937
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_938
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_939
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_941
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_942
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_943
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_944
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_42
+		;
+	.
+
+told:_Place_945
+	gist:isConnectedTo told:_Tradition_42 ;
+	.
+
+told:_Place_947
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_95
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_952
+	gist:isConnectedTo told:_Tradition_67 ;
+	.
+
+told:_Place_954
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_955
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_956
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_957
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_958
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_959
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_96
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_960
+	gist:isConnectedTo
+		told:_Tradition_27 ,
+		told:_Tradition_4
+		;
+	.
+
+told:_Place_961
+	gist:isConnectedTo told:_Tradition_4 ;
+	.
+
+told:_Place_962
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_964
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_968
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_97
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_970
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_971
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_972
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_974
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_976
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_977
+	gist:isConnectedTo told:_Tradition_24 ;
+	.
+
+told:_Place_979
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_98
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_981
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_982
+	gist:isConnectedTo told:_Tradition_1 ;
+	.
+
+told:_Place_983
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_984
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_985
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_986
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
+
+told:_Place_987
+	gist:isConnectedTo told:_Tradition_7 ;
+	.
+
+told:_Place_988
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_989
+	gist:isConnectedTo told:_Tradition_67 ;
+	.
+
+told:_Place_991
+	gist:isConnectedTo told:_Tradition_27 ;
+	.
+
+told:_Place_992
+	gist:isConnectedTo told:_Tradition_45 ;
+	.
+
+told:_Place_994
+	gist:isConnectedTo
+		told:_Tradition_28 ,
+		told:_Tradition_7
+		;
+	.
+
+told:_Place_995
+	gist:isConnectedTo told:_Tradition_28 ;
+	.
+
+told:_Place_999
+	gist:isConnectedTo told:_Tradition_8 ;
+	.
 

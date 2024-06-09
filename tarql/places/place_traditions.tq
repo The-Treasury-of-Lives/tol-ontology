@@ -23,7 +23,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # tradition_id
 
 # Run:
-# tarql -e utf-8 place_traditions.tq place-tradition-4-3-24.csv > tolPlaceTraditions.ttl
+# tarql -e utf-8 place_traditions.tq place-tradition-4-22-24.csv > tolPlaceTraditions.ttl
 
 CONSTRUCT {
 
@@ -35,7 +35,7 @@ CONSTRUCT {
 WHERE {
 
     # Testing
-    FILTER(?ROWNUM = 1)
+    # FILTER(?ROWNUM = 1)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_Place_", ?community_id)) AS ?place_iri)
     BIND(tarql:expandPrefixedName(CONCAT("told:_Tradition_", ?tradition_id)) AS ?tradition_iri)
