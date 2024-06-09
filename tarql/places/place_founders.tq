@@ -21,12 +21,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # Institution Founded ID
 
 # Run:
-# tarql -e utf-8 place_founders.tq place-founder-4-28-23.csv > tolPlaceFounders.ttl
+# tarql -e utf-8 place_founders.tq place-founder-5-19-24.csv > tolPlaceFounders.ttl
 
 CONSTRUCT {
 
-    ?place_iri 
-        tolo:hasFounder ?person_iri ;
+    ?founding_iri 
+        a tolo:Founding ;
+        gist:hasParticipant 
+            ?place_iri ,
+            ?person_iri ;
     .
 
 }
@@ -34,8 +37,9 @@ CONSTRUCT {
 WHERE {
 
     # Testing
-    FILTER(?ROWNUM = 1)
+    # FILTER(?ROWNUM = 1)
 
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Founding_", ?Institution_Founded_ID)) AS ?founding_iri)
     BIND(tarql:expandPrefixedName(CONCAT("told:_Place_", ?Institution_Founded_ID)) AS ?place_iri)
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?Person_TOL_ID)) AS ?person_iri)
     
