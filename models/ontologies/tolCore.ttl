@@ -1084,8 +1084,8 @@ tolo:ordinal
 	skos:example "The First Dalai Lama"@en ;
 	skos:prefLabel "ordinal"@en ;
 	skos:scopeNote
-		"Suggested implementation is to store as an integer value and convert to an ordinal for display purposes. This provides more flexibility than storing as an ordinal string."@en ,
-		"The ordinal is generally but not always the same as the actual sequence in the lineage (ordered collection). In some incarnation lineages, for example, TBD..."@en
+		"Incarnation ordinals reflect the accepted convention of the position of a given individual in the sequence of lives. These occasionally, though rarely, differ from the incarnation sequence due to contested numbering strategies or from the line's originating individual not being counted as the 'first.' An example of the first variant would be the Panchen Lama incarnation line, which has two ordinal sequences based on differing systems of which individual counts as the First Panchen Lama. In this instance, the actual incarnation sequence is the same in both systems, but lines up with the ordinals in one system and differs in the other. An example of the other variant would be the First Shechen Kongtrul, who is the second member of an incarnation sequence that begins with Jamgon Kongtrul."@en ,
+		"This value is stored as an integer value and converted to an ordinal string for display purposes. This provides more flexibility than storing as an ordinal string."@en
 		;
 	.
 

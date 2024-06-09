@@ -11531,14 +11531,6 @@ told:_Place_1013
 	owl:sameAs bdr:G3639 ;
 	.
 
-told:_Place_1014
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1015
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1016
 	owl:sameAs bdr:G3747 ;
 	.
@@ -11619,16 +11611,8 @@ told:_Place_1046
 	owl:sameAs bdr:G3625 ;
 	.
 
-told:_Place_1049
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_105
 	owl:sameAs bdr:G391 ;
-	.
-
-told:_Place_1050
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1051
@@ -11647,16 +11631,8 @@ told:_Place_1054
 	owl:sameAs bdr:G1KR1944 ;
 	.
 
-told:_Place_1055
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1056
 	owl:sameAs bdr:G1673 ;
-	.
-
-told:_Place_106
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1065
@@ -11703,10 +11679,6 @@ told:_Place_1077
 	owl:sameAs bdr:G1TD15 ;
 	.
 
-told:_Place_108
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1081
 	owl:sameAs bdr:G587 ;
 	.
@@ -11741,10 +11713,6 @@ told:_Place_1088
 
 told:_Place_1089
 	owl:sameAs bdr:G2LS540 ;
-	.
-
-told:_Place_109
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1091
@@ -11789,14 +11757,6 @@ told:_Place_110
 
 told:_Place_1100
 	owl:sameAs bdr:G478 ;
-	.
-
-told:_Place_1101
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1102
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1103
@@ -11919,10 +11879,6 @@ told:_Place_1138
 	owl:sameAs bdr:G2AG21 ;
 	.
 
-told:_Place_1139
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_114
 	owl:sameAs bdr:G4818 ;
 	.
@@ -11975,10 +11931,6 @@ told:_Place_1152
 	owl:sameAs bdr:G4473 ;
 	.
 
-told:_Place_1153
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1154
 	owl:sameAs bdr:G4052 ;
 	.
@@ -12007,20 +11959,12 @@ told:_Place_1163
 	owl:sameAs bdr:G1CZ912 ;
 	.
 
-told:_Place_1164
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1165
 	owl:sameAs bdr:G1KR2455 ;
 	.
 
 told:_Place_1166
 	owl:sameAs bdr:G452 ;
-	.
-
-told:_Place_1169
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_117
@@ -12095,24 +12039,12 @@ told:_Place_119
 	owl:sameAs bdr:G1AG83 ;
 	.
 
-told:_Place_1190
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1191
 	owl:sameAs bdr:G3249 ;
 	.
 
 told:_Place_1192
 	owl:sameAs bdr:G2KR4 ;
-	.
-
-told:_Place_1194
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1195
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1196
@@ -12157,10 +12089,6 @@ told:_Place_1206
 
 told:_Place_121
 	owl:sameAs bdr:G346 ;
-	.
-
-told:_Place_1211
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1212
@@ -12335,20 +12263,12 @@ told:_Place_1256
 	owl:sameAs bdr:G00AG01619 ;
 	.
 
-told:_Place_1257
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1258
 	owl:sameAs bdr:G4498 ;
 	.
 
 told:_Place_1259
 	owl:sameAs bdr:G1GS140235 ;
-	.
-
-told:_Place_126
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1261
@@ -12519,10 +12439,6 @@ told:_Place_1300
 	owl:sameAs bdr:G2454 ;
 	.
 
-told:_Place_1301
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1302
 	owl:sameAs bdr:G1438 ;
 	.
@@ -12533,10 +12449,6 @@ told:_Place_1303
 
 told:_Place_1305
 	owl:sameAs bdr:G1TD45 ;
-	.
-
-told:_Place_1306
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1307
@@ -12603,14 +12515,6 @@ told:_Place_1324
 	owl:sameAs bdr:G184 ;
 	.
 
-told:_Place_1325
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1327
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1329
 	owl:sameAs bdr:G1KR1511 ;
 	.
@@ -12619,24 +12523,12 @@ told:_Place_1330
 	owl:sameAs bdr:G1KR1893 ;
 	.
 
-told:_Place_1331
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1332
 	owl:sameAs bdr:G01AG03004 ;
 	.
 
 told:_Place_1333
 	owl:sameAs bdr:G2MS14671 ;
-	.
-
-told:_Place_1334
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1335
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1336
@@ -12675,44 +12567,16 @@ told:_Place_1343
 	owl:sameAs bdr:G2807 ;
 	.
 
-told:_Place_1344
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1345
 	owl:sameAs bdr:G4459 ;
-	.
-
-told:_Place_1346
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1347
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1348
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1349
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_135
 	owl:sameAs bdr:G2061 ;
 	.
 
-told:_Place_1350
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1351
 	owl:sameAs bdr:G2833 ;
-	.
-
-told:_Place_1352
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1353
@@ -12747,24 +12611,12 @@ told:_Place_1362
 	owl:sameAs bdr:G4494 ;
 	.
 
-told:_Place_1363
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1364
 	owl:sameAs bdr:G2CN11047 ;
 	.
 
 told:_Place_1365
 	owl:sameAs bdr:G1KR239 ;
-	.
-
-told:_Place_1366
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1367
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1368
@@ -12779,36 +12631,8 @@ told:_Place_137
 	owl:sameAs bdr:G400 ;
 	.
 
-told:_Place_1370
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1372
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1373
 	owl:sameAs bdr:G4CZ1550 ;
-	.
-
-told:_Place_1374
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1376
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1377
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1378
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1379
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1380
@@ -12837,30 +12661,6 @@ told:_Place_1391
 
 told:_Place_1392
 	owl:sameAs bdr:G2572 ;
-	.
-
-told:_Place_1393
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1394
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1395
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1396
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1397
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1398
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1399
@@ -12895,20 +12695,8 @@ told:_Place_1404
 	owl:sameAs bdr:G1651 ;
 	.
 
-told:_Place_1405
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1406
 	owl:sameAs bdr:G1KG24026 ;
-	.
-
-told:_Place_1407
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1408
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1409
@@ -12919,60 +12707,8 @@ told:_Place_141
 	owl:sameAs bdr:G4195 ;
 	.
 
-told:_Place_1410
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1411
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1412
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1413
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1414
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1415
 	owl:sameAs bdr:G1574 ;
-	.
-
-told:_Place_1416
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1417
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1418
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1419
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1420
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1421
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1422
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1423
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1426
@@ -12989,10 +12725,6 @@ told:_Place_1429
 
 told:_Place_143
 	owl:sameAs bdr:G2067 ;
-	.
-
-told:_Place_1430
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1431
@@ -13023,44 +12755,12 @@ told:_Place_1437
 	owl:sameAs bdr:G2CN11063 ;
 	.
 
-told:_Place_1438
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1439
 	owl:sameAs bdr:G407 ;
 	.
 
-told:_Place_1440
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1441
 	owl:sameAs bdr:G2JM244 ;
-	.
-
-told:_Place_1442
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1443
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1445
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1447
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1448
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1449
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_145
@@ -13071,120 +12771,8 @@ told:_Place_1450
 	owl:sameAs bdr:G2CN11086 ;
 	.
 
-told:_Place_1452
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1453
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1454
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1455
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1456
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1457
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1458
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1459
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_146
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1460
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1461
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1462
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1463
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1464
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1465
 	owl:sameAs bdr:G3CN282 ;
-	.
-
-told:_Place_1466
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1467
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1468
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1469
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1470
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1471
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1472
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1473
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1474
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1475
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1476
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1477
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1478
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1479
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1480
@@ -13213,10 +12801,6 @@ told:_Place_1488
 
 told:_Place_1489
 	owl:sameAs bdr:G2715 ;
-	.
-
-told:_Place_149
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1490
@@ -13267,52 +12851,12 @@ told:_Place_1500
 	owl:sameAs bdr:G4454 ;
 	.
 
-told:_Place_1501
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1502
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1504
 	owl:sameAs bdr:G4732 ;
 	.
 
-told:_Place_1506
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1507
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1508
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1509
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_151
 	owl:sameAs bdr:G4614 ;
-	.
-
-told:_Place_1510
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1511
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1512
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1513
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1515
@@ -13339,18 +12883,6 @@ told:_Place_1521
 	owl:sameAs bdr:G4397 ;
 	.
 
-told:_Place_1522
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1523
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1524
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1526
 	owl:sameAs bdr:G1PD110073 ;
 	.
@@ -13367,10 +12899,6 @@ told:_Place_1529
 	owl:sameAs bdr:G1PD110070 ;
 	.
 
-told:_Place_1530
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1532
 	owl:sameAs bdr:G3JT13480 ;
 	.
@@ -13379,92 +12907,20 @@ told:_Place_1533
 	owl:sameAs bdr:G4717 ;
 	.
 
-told:_Place_1534
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1535
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1536
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1537
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1538
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1539
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_154
 	owl:sameAs bdr:G1AG90 ;
-	.
-
-told:_Place_1541
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1542
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1543
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1544
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1545
 	owl:sameAs bdr:G4401 ;
 	.
 
-told:_Place_1546
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1548
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1549
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1551
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1552
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1554
 	owl:sameAs bdr:G4883 ;
 	.
 
-told:_Place_1555
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1556
 	owl:sameAs bdr:G3784 ;
-	.
-
-told:_Place_1557
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1558
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1559
@@ -13475,32 +12931,8 @@ told:_Place_156
 	owl:sameAs bdr:G165 ;
 	.
 
-told:_Place_1560
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1561
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1562
 	owl:sameAs bdr:G3271 ;
-	.
-
-told:_Place_1563
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1564
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1565
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1566
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1567
@@ -13511,28 +12943,8 @@ told:_Place_1568
 	owl:sameAs bdr:G4686 ;
 	.
 
-told:_Place_1569
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_157
 	owl:sameAs bdr:G488 ;
-	.
-
-told:_Place_1570
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1572
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1573
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1574
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1575
@@ -13543,10 +12955,6 @@ told:_Place_1576
 	owl:sameAs bdr:G2261 ;
 	.
 
-told:_Place_1578
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1579
 	owl:sameAs bdr:G3005 ;
 	.
@@ -13555,80 +12963,16 @@ told:_Place_158
 	owl:sameAs bdr:G2628 ;
 	.
 
-told:_Place_1585
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1586
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1587
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1588
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1589
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_159
 	owl:sameAs bdr:G51 ;
-	.
-
-told:_Place_1591
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1592
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1593
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1594
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1595
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1596
 	owl:sameAs bdr:G2KG2759 ;
 	.
 
-told:_Place_1597
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1598
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_160
 	owl:sameAs bdr:G1AG56 ;
-	.
-
-told:_Place_1600
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1601
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1602
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1603
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1604
@@ -13639,56 +12983,16 @@ told:_Place_1605
 	owl:sameAs bdr:G1KR2696 ;
 	.
 
-told:_Place_1606
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1607
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1608
 	owl:sameAs bdr:G500 ;
-	.
-
-told:_Place_1609
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1610
 	owl:sameAs bdr:G508 ;
 	.
 
-told:_Place_1611
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1612
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1613
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1615
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_1617
 	owl:sameAs bdr:G2CN10992 ;
-	.
-
-told:_Place_1618
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1619
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_1620
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_1621
@@ -13739,20 +13043,8 @@ told:_Place_185
 	owl:sameAs bdr:G238 ;
 	.
 
-told:_Place_186
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_187
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_188
 	owl:sameAs bdr:G1AG31 ;
-	.
-
-told:_Place_189
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_190
@@ -13765,10 +13057,6 @@ told:_Place_191
 
 told:_Place_192
 	owl:sameAs bdr:G4244 ;
-	.
-
-told:_Place_193
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_195
@@ -13785,10 +13073,6 @@ told:_Place_198
 
 told:_Place_199
 	owl:sameAs bdr:G4576 ;
-	.
-
-told:_Place_204
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_205
@@ -13835,10 +13119,6 @@ told:_Place_216
 	owl:sameAs bdr:G280 ;
 	.
 
-told:_Place_217
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_218
 	owl:sameAs bdr:G70 ;
 	.
@@ -13859,10 +13139,6 @@ told:_Place_226
 	owl:sameAs bdr:G2CN11076 ;
 	.
 
-told:_Place_227
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_228
 	owl:sameAs bdr:G2251 ;
 	.
@@ -13871,24 +13147,12 @@ told:_Place_229
 	owl:sameAs bdr:G392 ;
 	.
 
-told:_Place_231
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_232
 	owl:sameAs bdr:G00JR3353 ;
 	.
 
 told:_Place_233
 	owl:sameAs bdr:G1PD127458 ;
-	.
-
-told:_Place_234
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_235
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_236
@@ -13963,20 +13227,8 @@ told:_Place_259
 	owl:sameAs bdr:G3774 ;
 	.
 
-told:_Place_263
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_265
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_266
 	owl:sameAs bdr:G1541 ;
-	.
-
-told:_Place_267
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_269
@@ -13989,10 +13241,6 @@ told:_Place_270
 
 told:_Place_271
 	owl:sameAs bdr:G241 ;
-	.
-
-told:_Place_272
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_273
@@ -14017,10 +13265,6 @@ told:_Place_277
 
 told:_Place_278
 	owl:sameAs bdr:G3488 ;
-	.
-
-told:_Place_279
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_280
@@ -14077,10 +13321,6 @@ told:_Place_295
 
 told:_Place_296
 	owl:sameAs bdr:G1846 ;
-	.
-
-told:_Place_297
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_298
@@ -14151,10 +13391,6 @@ told:_Place_321
 	owl:sameAs bdr:G2510 ;
 	.
 
-told:_Place_322
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_323
 	owl:sameAs bdr:G3487 ;
 	.
@@ -14195,10 +13431,6 @@ told:_Place_335
 	owl:sameAs bdr:G3036 ;
 	.
 
-told:_Place_338
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_339
 	owl:sameAs bdr:G474 ;
 	.
@@ -14223,14 +13455,6 @@ told:_Place_345
 	owl:sameAs bdr:G1PD95975 ;
 	.
 
-told:_Place_346
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_347
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_348
 	owl:sameAs bdr:G155 ;
 	.
@@ -14241,10 +13465,6 @@ told:_Place_349
 
 told:_Place_35
 	owl:sameAs bdr:G275 ;
-	.
-
-told:_Place_350
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_351
@@ -14267,20 +13487,12 @@ told:_Place_355
 	owl:sameAs bdr:G126 ;
 	.
 
-told:_Place_356
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_357
 	owl:sameAs bdr:G2363 ;
 	.
 
 told:_Place_358
 	owl:sameAs bdr:G161 ;
-	.
-
-told:_Place_359
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_36
@@ -14355,10 +13567,6 @@ told:_Place_376
 	owl:sameAs bdr:G3JT12434 ;
 	.
 
-told:_Place_377
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_378
 	owl:sameAs bdr:G2CN11045 ;
 	.
@@ -14371,20 +13579,8 @@ told:_Place_380
 	owl:sameAs bdr:G189 ;
 	.
 
-told:_Place_381
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_382
 	owl:sameAs bdr:G183 ;
-	.
-
-told:_Place_383
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_384
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_385
@@ -14393,14 +13589,6 @@ told:_Place_385
 
 told:_Place_387
 	owl:sameAs bdr:G1TD12 ;
-	.
-
-told:_Place_388
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_389
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_39
@@ -14419,10 +13607,6 @@ told:_Place_393
 	owl:sameAs bdr:G1TD43 ;
 	.
 
-told:_Place_395
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_396
 	owl:sameAs bdr:G1KR2411 ;
 	.
@@ -14435,28 +13619,12 @@ told:_Place_398
 	owl:sameAs bdr:G4681 ;
 	.
 
-told:_Place_399
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_40
 	owl:sameAs bdr:G160 ;
 	.
 
-told:_Place_400
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_401
 	owl:sameAs bdr:G271 ;
-	.
-
-told:_Place_402
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_403
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_404
@@ -14467,16 +13635,8 @@ told:_Place_405
 	owl:sameAs bdr:G54 ;
 	.
 
-told:_Place_406
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_407
 	owl:sameAs bdr:G1KR200 ;
-	.
-
-told:_Place_408
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_409
@@ -14511,10 +13671,6 @@ told:_Place_416
 	owl:sameAs bdr:G4858 ;
 	.
 
-told:_Place_417
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_418
 	owl:sameAs bdr:G55 ;
 	.
@@ -14537,14 +13693,6 @@ told:_Place_422
 
 told:_Place_423
 	owl:sameAs bdr:G395 ;
-	.
-
-told:_Place_424
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_425
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_426
@@ -14635,10 +13783,6 @@ told:_Place_450
 	owl:sameAs bdr:G1629 ;
 	.
 
-told:_Place_451
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_452
 	owl:sameAs bdr:G1590 ;
 	.
@@ -14647,20 +13791,8 @@ told:_Place_453
 	owl:sameAs bdr:G1KR1570 ;
 	.
 
-told:_Place_454
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_455
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_459
 	owl:sameAs bdr:G2530 ;
-	.
-
-told:_Place_461
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_464
@@ -14687,10 +13819,6 @@ told:_Place_469
 	owl:sameAs bdr:G3261 ;
 	.
 
-told:_Place_470
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_471
 	owl:sameAs bdr:G289 ;
 	.
@@ -14705,10 +13833,6 @@ told:_Place_473
 
 told:_Place_474
 	owl:sameAs bdr:G1KR2454 ;
-	.
-
-told:_Place_475
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_476
@@ -14743,14 +13867,6 @@ told:_Place_485
 	owl:sameAs bdr:G607 ;
 	.
 
-told:_Place_486
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_487
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_488
 	owl:sameAs bdr:G1723 ;
 	.
@@ -14763,26 +13879,6 @@ told:_Place_490
 	owl:sameAs bdr:G1738 ;
 	.
 
-told:_Place_491
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_492
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_493
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_494
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_495
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_496
 	owl:sameAs bdr:G1KR2415 ;
 	.
@@ -14791,56 +13887,16 @@ told:_Place_497
 	owl:sameAs bdr:G224 ;
 	.
 
-told:_Place_498
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_499
 	owl:sameAs bdr:G1PD96278 ;
-	.
-
-told:_Place_500
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_501
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_502
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_503
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_504
 	owl:sameAs bdr:G1948 ;
 	.
 
-told:_Place_505
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_507
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_508
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_509
 	owl:sameAs bdr:G3203 ;
-	.
-
-told:_Place_510
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_511
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_512
@@ -14853,14 +13909,6 @@ told:_Place_514
 
 told:_Place_515
 	owl:sameAs bdr:G4795 ;
-	.
-
-told:_Place_516
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_517
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_518
@@ -14877,10 +13925,6 @@ told:_Place_52
 
 told:_Place_520
 	owl:sameAs bdr:G1727 ;
-	.
-
-told:_Place_521
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_522
@@ -14915,10 +13959,6 @@ told:_Place_530
 	owl:sameAs bdr:G1GS54751 ;
 	.
 
-told:_Place_531
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_532
 	owl:sameAs bdr:G294 ;
 	.
@@ -14927,20 +13967,12 @@ told:_Place_533
 	owl:sameAs bdr:G4651 ;
 	.
 
-told:_Place_534
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_535
 	owl:sameAs bdr:G952 ;
 	.
 
 told:_Place_536
 	owl:sameAs bdr:G219 ;
-	.
-
-told:_Place_537
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_538
@@ -14953,10 +13985,6 @@ told:_Place_539
 
 told:_Place_540
 	owl:sameAs bdr:G4230 ;
-	.
-
-told:_Place_543
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_544
@@ -14983,16 +14011,8 @@ told:_Place_554
 	owl:sameAs bdr:G00AG01620 ;
 	.
 
-told:_Place_556
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_557
 	owl:sameAs bdr:G3795 ;
-	.
-
-told:_Place_559
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_560
@@ -15023,10 +14043,6 @@ told:_Place_567
 	owl:sameAs bdr:G523 ;
 	.
 
-told:_Place_569
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_571
 	owl:sameAs bdr:G1691 ;
 	.
@@ -15043,24 +14059,8 @@ told:_Place_574
 	owl:sameAs bdr:G1187 ;
 	.
 
-told:_Place_575
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_576
 	owl:sameAs bdr:G3122 ;
-	.
-
-told:_Place_585
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_586
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_587
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_59
@@ -15073,18 +14073,6 @@ told:_Place_590
 
 told:_Place_591
 	owl:sameAs bdr:G4392 ;
-	.
-
-told:_Place_595
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_596
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_597
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_599
@@ -15105,14 +14093,6 @@ told:_Place_612
 
 told:_Place_615
 	owl:sameAs bdr:G3509 ;
-	.
-
-told:_Place_616
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_617
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_618
@@ -15211,14 +14191,6 @@ told:_Place_704
 	owl:sameAs bdr:G2600 ;
 	.
 
-told:_Place_705
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_707
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_711
 	owl:sameAs bdr:G3125 ;
 	.
@@ -15229,10 +14201,6 @@ told:_Place_713
 
 told:_Place_716
 	owl:sameAs bdr:G1917 ;
-	.
-
-told:_Place_717
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_718
@@ -15273,14 +14241,6 @@ told:_Place_729
 
 told:_Place_73
 	owl:sameAs bdr:G504 ;
-	.
-
-told:_Place_75
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_76
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_78
@@ -15335,28 +14295,8 @@ told:_Place_814
 	owl:sameAs bdr:G73 ;
 	.
 
-told:_Place_815
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_816
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_818
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_819
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_82
 	owl:sameAs bdr:G340 ;
-	.
-
-told:_Place_821
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_822
@@ -15427,64 +14367,20 @@ told:_Place_842
 	owl:sameAs bdr:G158 ;
 	.
 
-told:_Place_843
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_844
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_845
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_846
 	owl:sameAs bdr:G2CN10939 ;
-	.
-
-told:_Place_847
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_848
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_849
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_85
 	owl:sameAs bdr:G521 ;
 	.
 
-told:_Place_850
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_851
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_852
 	owl:sameAs bdr:G2CN10930 ;
 	.
 
-told:_Place_853
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_855
 	owl:sameAs bdr:G1TD14 ;
-	.
-
-told:_Place_857
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_858
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_860
@@ -15503,22 +14399,6 @@ told:_Place_863
 	owl:sameAs bdr:G2812 ;
 	.
 
-told:_Place_865
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_866
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_867
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_868
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_869
 	owl:sameAs bdr:G4379 ;
 	.
@@ -15527,16 +14407,8 @@ told:_Place_87
 	owl:sameAs bdr:G3582 ;
 	.
 
-told:_Place_870
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_871
 	owl:sameAs bdr:G157 ;
-	.
-
-told:_Place_872
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_873
@@ -15559,10 +14431,6 @@ told:_Place_878
 	owl:sameAs bdr:G1KR851 ;
 	.
 
-told:_Place_879
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_880
 	owl:sameAs bdr:G4555 ;
 	.
@@ -15571,32 +14439,12 @@ told:_Place_881
 	owl:sameAs bdr:G2CN11081 ;
 	.
 
-told:_Place_882
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_883
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_884
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_887
 	owl:sameAs bdr:G1KT3 ;
 	.
 
-told:_Place_888
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_889
 	owl:sameAs bdr:G1PD129185 ;
-	.
-
-told:_Place_890
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_892
@@ -15609,14 +14457,6 @@ told:_Place_893
 
 told:_Place_894
 	owl:sameAs bdr:G1KR840 ;
-	.
-
-told:_Place_895
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_896
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_897
@@ -15643,16 +14483,8 @@ told:_Place_900
 	owl:sameAs bdr:G1KR841 ;
 	.
 
-told:_Place_902
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_903
 	owl:sameAs bdr:G1TD44 ;
-	.
-
-told:_Place_904
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_905
@@ -15677,14 +14509,6 @@ told:_Place_909
 
 told:_Place_91
 	owl:sameAs bdr:G226 ;
-	.
-
-told:_Place_910
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_911
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_912
@@ -15723,10 +14547,6 @@ told:_Place_922
 	owl:sameAs bdr:G3212 ;
 	.
 
-told:_Place_923
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_924
 	owl:sameAs bdr:G1951 ;
 	.
@@ -15737,10 +14557,6 @@ told:_Place_925
 
 told:_Place_926
 	owl:sameAs bdr:G1710 ;
-	.
-
-told:_Place_927
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_928
@@ -15895,14 +14711,6 @@ told:_Place_979
 	owl:sameAs bdr:G2DB94319 ;
 	.
 
-told:_Place_98
-	owl:sameAs bdr:NULL ;
-	.
-
-told:_Place_981
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_982
 	owl:sameAs bdr:G1884 ;
 	.
@@ -15911,16 +14719,8 @@ told:_Place_983
 	owl:sameAs bdr:G1KR1910 ;
 	.
 
-told:_Place_984
-	owl:sameAs bdr:NULL ;
-	.
-
 told:_Place_985
 	owl:sameAs bdr:G4022 ;
-	.
-
-told:_Place_986
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_987
@@ -15933,10 +14733,6 @@ told:_Place_988
 
 told:_Place_989
 	owl:sameAs bdr:G3828 ;
-	.
-
-told:_Place_991
-	owl:sameAs bdr:NULL ;
 	.
 
 told:_Place_992
