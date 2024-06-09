@@ -189,7 +189,7 @@ tolo:Death
 tolo:Founding
 	a owl:Class ;
 	rdfs:subClassOf gist:Event ;
-	skos:definition "The event of founding an institution such as a monastery. A founding object is used to attach various dates (year, alternate year, century, etc.), as well as the founder, to the institution."@en ;
+	skos:definition "The event of establishng or originating an institution such as a monastery. A founding object is used to attach various dates (year, alternate year, century, etc.), as well as the founder, to the institution."@en ;
 	skos:prefLabel "Founding"@en ;
 	.
 
@@ -605,6 +605,7 @@ tolo:birthFamilyName
 	rdfs:domain tolo:Person ;
 	rdfs:range rdf:langString ;
 	skos:definition "The family name a person is assigned at birth."@en ;
+	skos:editorialNote "Not sure we need this - we might link to genealogical groups by birth or by marriage."@en ;
 	skos:prefLabel "birth family name"@en ;
 	skos:scopeNote "A family name other than the birth name can be acquired through marriage."@en ;
 	.
@@ -847,7 +848,7 @@ tolo:hasPreincarnation
 	skos:definition "The relationship of a person to a non-living person or mythical figure who is named as a previous emanation."@en ;
 	skos:example "Jamgong Kongtrul had the preincarnation Tarnatha."@en ;
 	skos:prefLabel "has preincarnation"@en ;
-	skos:scopeNote "Not part of the ordered members of incarnation lines and thus represented as a direct relationship between two people."@en ;
+	skos:scopeNote "Not part of the ordered members of incarnation lines and thus represented as a direct relationship between two people. We do not currently have the data to populate this property."@en ;
 	.
 
 tolo:hasSeniorHusband
@@ -932,24 +933,7 @@ tolo:inYear
 	skos:definition "The year in which something existed or took place, ambiguous as to start/end and planned/actual/approximate/alternate."@en ;
 	skos:example "Gyergom Tsultime Sengge's birth took place in 1144."@en ;
 	skos:prefLabel "in year"@en ;
-	.
-
-tolo:isAffiliatedWith
-	a owl:ObjectProperty ;
-	owl:deprecated "true"^^xsd:boolean ;
-	skos:definition "Relates a person, organization, or lineage to a group, institution, religion, or larger organization it is connected to."@en ;
-	skos:editorialNote "For now using gist:isConnectedTo instead; seems adequate and it's hard to pin down a narrower meaning of affiliation. Note that this property would not be a subproperty of gist:isConnectedTo because it is not symmetric."@en ;
-	skos:example "A teacher is affiliated with a tradition; an incarnation lineage is associated with a monastery and tradition."@en ;
-	skos:prefLabel "is affiliated with"@en ;
-	.
-
-tolo:isChildIn
-	a owl:ObjectProperty ;
-	rdfs:domain tolo:Person ;
-	rdfs:range tolo:Marriage ;
-	skos:definition "Relates a child to a materialized marriage relationship."@en ;
-	skos:editorialNote "Do we need this, or is it sufficient to relate the child to its parents?"@en ;
-	skos:prefLabel "is child in"@en ;
+	skos:scopeNote "This is a covering concept for approximate, actual, and alternate years (as for births, deaths, and foundings) but would generally not be materialized directly."@en ;
 	.
 
 tolo:isDerivedFrom
@@ -1031,15 +1015,31 @@ tolo:nameVariant
 	skos:scopeNote "The primary/alternate distinction may be source- or system-dependent. Other systems or sources may prefer a name different from Treasury of Lives' primary name."@en ;
 	.
 
+tolo:occursBy
+	a
+		owl:ObjectProperty ,
+		owl:TransitiveProperty
+		;
+	skos:definition "Relates an event or temporal resource to another that temporally contains it."@en ;
+	skos:example "The exact founding year or century of Pabongkha Hermitage is unknown, but it occurred by at least the 7th century."@en ;
+	skos:prefLabel "occurs by"@en ;
+	skos:scopeNote "Less precise than tolo:occursDuring."@en ;
+	gist:domainIncludes
+		gist:Event ,
+		gist:TemporalRelation
+		;
+	gist:rangeIncludes gist:TimeInterval ;
+	.
+
 tolo:occursDuring
 	a
 		owl:ObjectProperty ,
 		owl:TransitiveProperty
 		;
-	skos:definition "Relates one temporal resource to another that temporally contains it."@en ;
-	skos:example "The birth of Gyergom Tsultrim Sengge occurred during the 12th century."@en ;
+	skos:definition "Relates one event, time interval, or temporal resource to another that temporally contains it."@en ;
+	skos:example "The birth of Gyergom Tsultrim Sengge occurred during the 12th century; the exact year of the founding of Nyima Tang Monastery is unknown, but it occurred sometime during the 7th century."@en ;
 	skos:prefLabel "occurs during"@en ;
-	skos:scopeNote "Contrasts with tolo:occursDuring, whose subject is a non-temporal resource."@en ;
+	skos:scopeNote "Used when a more precise value, such as year, is unknown or uncertain."@en ;
 	gist:domainIncludes
 		gist:Event ,
 		gist:TemporalRelation ,
