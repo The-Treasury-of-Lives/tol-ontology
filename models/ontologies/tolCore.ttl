@@ -186,6 +186,13 @@ tolo:Death
 	skos:prefLabel "Death"@en ;
 	.
 
+tolo:Founding
+	a owl:Class ;
+	rdfs:subClassOf gist:Event ;
+	skos:definition "The event of founding an institution such as a monastery. A founding object is used to attach various dates (year, alternate year, century, etc.), as well as the founder, to the institution."@en ;
+	skos:prefLabel "Founding"@en ;
+	.
+
 tolo:HistoricalPeriod
 	a owl:Class ;
 	rdfs:subClassOf gist:TimeInterval ;
@@ -665,15 +672,6 @@ tolo:firstName
 	skos:scopeNote "Neutral as to whether the first name is the given or family name."@en ;
 	.
 
-tolo:foundingYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:actualStartYear ;
-	skos:definition "TODO"@en ;
-	skos:editorialNote "We may want to follow the pattern of Birth and Death here, instead of just using a property. Depends on what other information is available. We could have Founding with an agent and a date."@en ;
-	skos:example "The Tshal-pa tradition was founded in 1123."@en ;
-	skos:prefLabel "founding year"@en ;
-	.
-
 tolo:fullName
 	a owl:DatatypeProperty ;
 	rdfs:subClassOf gist:name ;
@@ -681,14 +679,6 @@ tolo:fullName
 	skos:prefLabel "full name"@en ;
 	skos:scopeNote "Generally used with persons but conceivably could have other uses."@en ;
 	gist:domainIncludes tolo:Person ;
-	.
-
-tolo:hasEvent
-	a owl:ObjectProperty ;
-	rdfs:range gist:Event ;
-	skos:definition "Relates something to an event pertaining to it."@en ;
-	skos:example "A person's birth or death; the founding of an institution; the dissolution of a marriage."@en ;
-	skos:prefLabel "has event"@en ;
 	.
 
 tolo:hasFinalRestingPlace
@@ -699,13 +689,6 @@ tolo:hasFinalRestingPlace
 	skos:editorialNote "Consider connecting to Death rather than Person."@en ;
 	skos:prefLabel "has final resting place"@en ;
 	skos:scopeNote "Significant people such as the Dalai Lamas have reliquary stupas in geographic locations like temples or chapels. Sometimes there can be relics in multiple places."@en ;
-	.
-
-tolo:hasFounder
-	a owl:ObjectProperty ;
-	rdfs:range tolo:Person ;
-	skos:definition "TBD."@en ;
-	skos:prefLabel "has founder"@en ;
 	.
 
 tolo:hasFraternalNephew
@@ -977,14 +960,6 @@ tolo:isDerivedFrom
 	skos:prefLabel "is derived from"@en ;
 	gist:domainIncludes tolo:Tradition ;
 	gist:rangeIncludes tolo:Tradition ;
-	.
-
-tolo:isEventOf
-	a owl:ObjectProperty ;
-	owl:inverseOf tolo:hasEvent ;
-	skos:definition "Relates an event to the thing it pertains to."@en ;
-	skos:example "A person's birth or death; the founding of an institution; the dissolution of a marriage."@en ;
-	skos:prefLabel "is event of"@en ;
 	.
 
 tolo:isHusbandIn
