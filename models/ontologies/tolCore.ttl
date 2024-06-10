@@ -902,6 +902,18 @@ tolo:hasSororallNiece
 		;
 	.
 
+tolo:hasSource
+	a owl:ObjectProperty ;
+	rdfs:domain gist:ContentExpression ;
+	rdfs:range gist:ContentExpression ;
+	skos:definition "Relates a piece of content to a source of information used to create that content."@en ;
+	skos:prefLabel "has source"@en ;
+	skos:scopeNote
+		"There is currently minimal parsing of source text to generate sources due to the complexity of this task. Pages are in a separate field and the remainder of the source is in a skos:prefLabel."@en ,
+		"Written sources are used to create content about persons (i.e., biographies) and places on the Treasury of Lives website and cited with this content."@en
+		;
+	.
+
 tolo:hasSourceStatement
 	a owl:ObjectProperty ;
 	rdfs:domain tolo:FormattedContent ;
@@ -1061,6 +1073,18 @@ tolo:ordinal
 	skos:scopeNote
 		"Incarnation ordinals reflect the accepted convention of the position of a given individual in the sequence of lives. These occasionally, though rarely, differ from the incarnation sequence due to contested numbering strategies or from the line's originating individual not being counted as the 'first.' An example of the first variant would be the Panchen Lama incarnation line, which has two ordinal sequences based on differing systems of which individual counts as the First Panchen Lama. In this instance, the actual incarnation sequence is the same in both systems, but lines up with the ordinals in one system and differs in the other. An example of the other variant would be the First Shechen Kongtrul, who is the second member of an incarnation sequence that begins with Jamgon Kongtrul."@en ,
 		"This value is stored as an integer value and converted to an ordinal string for display purposes. This provides more flexibility than storing as an ordinal string."@en
+		;
+	.
+
+tolo:pages
+	a owl:DatatypeProperty ;
+	rdfs:domain gist:ContentExpression ;
+	rdfs:range xsd:string ;
+	skos:definition "Particular page number(s) of a work."@en ;
+	skos:prefLabel "page(s)"@en ;
+	skos:scopeNote
+		"Note that this is a string rather than a number, to account for page ranges."@en ,
+		"Used on the Treasury of Lives website in citations of sources."@en
 		;
 	.
 
