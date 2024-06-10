@@ -1,0 +1,51 @@
+PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
+PREFIX bdr: <http://purl.bdrc.io/resource/> 
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX told: <https://w3id.org/treasuryoflives/ns/data/tol/>
+PREFIX tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/>
+PREFIX tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wiki: <https://www.wikidata.org/wiki/>
+PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
+PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/> 
+
+## COLUMNS 
+# author_id
+# person_id
+# biography_id
+# display_order
+
+# Run: 
+# tarql -e utf-8 authorship.tq bio-order-5-7-24.csv > tolAuthorship.ttl
+
+
+CONSTRUCT {
+
+    ?authorship_iri
+        a tolo:Authorship ;
+        skos:prefLabel ?label_en ;
+        gist:hasParticipant ?author_iri ;
+        gist:hasParticipant ?bio_iri ;
+        tolo:displayOrder ?display_order_int ;
+        .
+
+}
+
+WHERE {
+    
+    # Testing
+    # FILTER(?ROWNUM = 1)
+
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Authorship_", ?person_id, "_", ?author_id)) AS ?authorship_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Biography_", ?person_id)) AS ?bio_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Author_", ?author_id)) AS ?author_iri)
+    BIND(STRDT(?display_order, xsd:integer) AS ?display_order_int)
+
+}
