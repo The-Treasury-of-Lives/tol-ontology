@@ -1,0 +1,116 @@
+PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
+PREFIX bdr: <http://purl.bdrc.io/resource/> 
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX told: <https://w3id.org/treasuryoflives/ns/data/tol/>
+PREFIX tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/>
+PREFIX tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wiki: <https://www.wikidata.org/wiki/>
+PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
+PREFIX relators: <http://id.loc.gov/vocabulary/relators/> 
+PREFIX viaf: <https://viaf.org/viaf/>
+
+
+## COLUMNS 
+# person_id
+# place id
+# TOL Source ID
+# Source
+# Pages
+# BDRC ID
+# VIAF ID
+# OCLC ID
+# LCCN
+# OLID ID
+# Source Display
+
+# Run: 
+# tarql -e utf-8 --dedup 100000 sources.tq Sources.csv > tolSources.ttl
+
+
+CONSTRUCT {
+
+    ?subject_iri
+        gist:isBasedOn ?source_iri ;
+        .
+
+    ?source_iri
+        a gist:ContentExpression ;
+        # Can we get language tag for this text?
+        skos:prefLabel ?Source ;
+        tolo:pages ?Pages ;
+        owl:sameAs 
+            ?bdrc_iri ,
+            ?viaf_iri ,
+            ?lccn_iri ;
+            
+        rdfs:seeAlso
+            ?oclc_url ;
+        
+        gist:isIdentifiedBy 
+            ?oclc_id_iri ;
+        .
+
+    ?display_text_iri
+        a gist:FormattedContent ;
+        # Can we get language tags for this text?
+        gist:containedText ?Source_Display ;
+        gist:isAbout ?source_iri ;
+        gist:isExpressedIn media-txt:html ;
+        .
+
+    ?oclc_id_iri
+        a gist:Identifier ;
+        gist:uniqueText ?OCLC_ID ;
+        gist:isCategorizedBy ?idtype_oclc_iri ;
+        .
+
+}
+
+WHERE {
+    
+    # Testing
+    # FILTER(?ROWNUM = 1)
+
+    BIND(tarql:expandPrefixedName(CONCAT("told:_ContentExpression_Source_", ?TOL_Source_ID)) AS ?source_iri)
+
+    BIND(
+        COALESCE(
+            IF(BOUND(?PERSON_ID), tarql:expandPrefixedName(CONCAT("told:_Biography_", ?PERSON_ID)), ?unbound),
+            IF(BOUND(?PLACE_ID), tarql:expandPrefixedName(CONCAT("told:_Place_", ?PLACE_ID)), ?unbound)
+        )
+        AS ?subject_iri 
+    )
+
+TODO - isBasedOn for bio, source isAbout place for place
+OR just get as two exports
+Pages can't go on the work. We need a Source or Reference object that points to the Content.
+    # BIND(IF(BOUND(?PERSON_ID), ("isBasedOn", "isAbout")) AS ?predicate_name)
+    # BIND(tarql:expandPrefixedName(CONCAT("gist:", ?predicateName)) AS ?predicate_iri)
+
+    BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Source_DisplayText_", ?TOL_Source_ID)) AS ?display_text_iri)
+
+    # owl:SameAs
+    BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_ID)) AS ?bdrc_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("viaf:", ?VIAF_ID)) AS ?viaf_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("lccn:", ?LCCN)) AS ?lccn_iri)
+    # Not sure if these are RDF or not: OLID, LCCN
+
+    # Method 1: rdfs:seeAlso
+    BIND(URI(CONCAT("https://www.worldcat.org/oclc/", ?OCLC_ID)) AS ?oclc_url)
+    # Etc.
+
+    # Method 2: External identifiers
+    # OCLC
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Identifier_", ?OCLC_ID)) AS ?oclc_id_iri)
+    # This ID Type would store the namespace
+    BIND(tarql:expandPrefixedName("tolx:_IdentifierType_oclc") AS ?idtype_oclc_iri)
+
+}
