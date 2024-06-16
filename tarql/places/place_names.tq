@@ -49,7 +49,7 @@ CONSTRUCT {
             ?primary_name_tibetan ,
             ?primary_name_zh_hani 
             ;    
-        tolo:alternate_name ?alternate_name_en ,
+        tolo:nameVariant ?alternate_name_en ,
             ?alternate_name_wylie ,
             ?alternate_name_zh_hani ,
             ?alternate_name_sa_deva ,
