@@ -15,26 +15,33 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/treasuryoflives/taxonomy/tolRanks>
+<https://w3id.org/treasuryoflives/taxonomy/tolRegionTypes>
 	a owl:Ontology ;
 	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
-	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolRanksX.x.x> ;
-	skos:definition "Defines non-numeric rank categories such as primary and secondary."@en ;
-	skos:editorialNote "Hand-curated."@en ;
-	skos:prefLabel "Ranks"@en ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolRegionTypesX.x.x> ;
+	skos:definition "Defines region types for map display."@en ;
+	skos:editorialNote
+		"Hand-curated."@en ,
+		"TBD different between region_type and region and what to call them. Fix definitions."@en
+		;
+	skos:prefLabel "Region Types"@en ;
 	.
 
-tolx:_Rank_primary
-	a tolo:Rank ;
-	skos:definition "First in importance or significance."@en ;
-	skos:example "The primary image of a person or place"@en ;
-	skos:prefLabel "Primary"@en ;
+tolx:_RegionType_local_region
+	a tolo:RegionType ;
+	skos:definition "TBD."@en ;
+	skos:prefLabel "Local Region"@en ;
 	.
 
-tolx:_Rank_secondary
-	a tolo:Rank ;
-	skos:definition "Second or non-primary in importance or significance."@en ;
-	skos:example "A secondary image of a person or place"@en ;
-	skos:prefLabel "Secondary"@en ;
+tolx:_RegionType_region
+	a tolo:RegionType ;
+	skos:definition "TBD."@en ;
+	skos:prefLabel "Region"@en ;
+	.
+
+tolx:_RegionType_sub_region
+	a tolo:RegionType ;
+	skos:definition "TBD."@en ;
+	skos:prefLabel "Subregion"@en ;
 	.
 
