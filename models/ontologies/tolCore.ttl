@@ -256,6 +256,11 @@ tolo:Incarnation
 				owl:onProperty gist:sequence ;
 				owl:someValuesFrom xsd:integer ;
 			]
+			[
+				a owl:Restriction ;
+				owl:onProperty tolo:ordinal ;
+				owl:someValuesFrom xsd:integer ;
+			]
 		) ;
 	] ;
 	skos:definition "The relationship connecting a person to an incarnation lineage and expressing the sequence and ordinal of the person in the lineage."@en ;
@@ -461,6 +466,72 @@ tolo:Monastery
 	skos:definition "TBD"@en ;
 	skos:editorialNote "Has a founder, has abotts, ..."@en ;
 	skos:prefLabel "Monastery"@en ;
+	.
+
+tolo:MonasteryHead
+	a owl:Class ;
+	rdfs:subClassOf
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:hasMember ;
+			] ;
+			owl:allValuesFrom tolo:MonasteryHeadLineage ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:providesOrderFor ;
+			owl:allValuesFrom tolo:Person ;
+		]
+		;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:OrderedMember
+			[
+				a owl:Restriction ;
+				owl:onProperty [
+					owl:inverseOf gist:hasMember ;
+				] ;
+				owl:someValuesFrom tolo:MonasteryHeadLineage ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:providesOrderFor ;
+				owl:someValuesFrom tolo:Person ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:sequence ;
+				owl:someValuesFrom xsd:integer ;
+			]
+		) ;
+	] ;
+	skos:definition "TBD"@en ;
+	skos:prefLabel "Monastery Head"@en ;
+	.
+
+tolo:MonasteryHeadLineage
+	a owl:Class ;
+	rdfs:subClassOf [
+		a owl:Restriction ;
+		owl:onProperty gist:hasMember ;
+		owl:allValuesFrom tolo:MonasteryHead ;
+	] ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:OrderedCollection
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasMember ;
+				owl:someValuesFrom tolo:MonasteryHead ;
+			]
+		) ;
+	] ;
+	skos:definition "A consecutive line of monastery heads."@en ;
+	skos:editorialNote "Are there discrepancies between ordinal and sequence as for incarnations?"@en ;
+	skos:prefLabel "Monastery Head Lineage"@en ;
 	.
 
 tolo:Person
