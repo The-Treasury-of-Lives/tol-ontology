@@ -64,8 +64,8 @@ tolo:credit
 
 tolo:displayLabel
 	a owl:AnnotationProperty ;
-	rdfs:range xsd:string ;
 	skos:definition "The name or label of a person or other resource used for display purposes."@en ;
+	skos:example "The display label 'The Fifth Chakri Nyidrak, Tenzin Trinle Wangchuk' combines ordinal, title, and name of Tenzin Trinle Wangchuk."@en ;
 	skos:prefLabel "display label"@en ;
 	.
 
@@ -74,6 +74,13 @@ tolo:displayOrder
 	skos:definition "Indicates display order in a list of values."@en ;
 	skos:example "Used to order a biography author list when there are multiple authors."@en ;
 	skos:prefLabel "display order"@en ;
+	.
+
+tolo:displayText
+	a owl:AnnotationProperty ;
+	skos:definition "Display text for a resource, often formatted content such as HTML."@en ;
+	skos:example "Ahmad, Zahiruddin. 1999.&nbsp;<em>Sangs-rGyas rGya-mTSHo. Life of the Fifth Dalai Lama</em>. New Delhi: International Academy of Indian Culture &amp; Aditya Prakashan.</p>."@en ;
+	skos:prefLabel "display text"@en ;
 	.
 
 tolo:hasMappingPriority
