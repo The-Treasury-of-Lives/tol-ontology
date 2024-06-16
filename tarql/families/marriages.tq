@@ -1,0 +1,140 @@
+PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
+PREFIX bdr: <http://purl.bdrc.io/resource/>
+PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
+PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX told: <https://w3id.org/treasuryoflives/ns/data/tol/>
+PREFIX tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/>
+PREFIX tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
+PREFIX wiki: <https://www.wikidata.org/wiki/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# Use when sibling relationships but not parents are known.
+
+## Columns
+# marriage_id (ignore)
+# start
+# start_approximate
+# end
+# end_approximate
+# end_reason_id (ignore)
+# end_reason_name
+# is_matrilocal
+# is_junior_for_wife
+# is_senior_for_wife
+# is_junior_for_husband
+# is_senior_for_husband
+# wife_id
+# husband_id
+
+# Run:
+# tarql -e utf-8 smarriages.tq marriages-6-2-24.csv > tolMarriages.ttl
+
+CONSTRUCT {
+
+    ?marriage_iri
+        a tolo:Marriage ;
+        ?wife_predicate_iri ?wife_iri ;
+        ?husband_predicate_iri ?husband_iri ;
+        ?start_predicate_iri ?start_datetime ;
+        ?end_predicate_iri ?end_datetime ;
+        gist:isCategorizedBy    
+            ?termination_cause_iri ,
+            ?marriage_type_iri ;
+    .
+
+}
+
+WHERE {
+
+    # Testing
+    FILTER(?ROWNUM = 12)
+
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?husband_id, "_", ?wife_id)) AS ?marriage_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?wife_id)) AS ?wife_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?husband_id)) AS ?husband_iri)
+
+    # Junior/senior wife
+    BIND(
+        COALESCE(
+            IF(?is_junior_for_wife = "1", "hasJuniorWife", ?unbound),
+            IF(?is_senior_for_wife = "1", "hasSeniorWife", ?unbound),    
+            "hasWife"            
+        ) AS ?wife_predicate
+    )
+    BIND(tarql:expandPrefixedName(CONCAT("tolo:", ?wife_predicate)) AS ?wife_predicate_iri)
+
+    # Junior/senior husband
+    BIND(
+        COALESCE(
+            IF(?is_junior_for_husband = "1", "hasJuniorHusband", ?unbound),
+            IF(?is_senior_for_husband = "1", "hasSeniorHusband", ?unbound),    
+            "hasHusband"            
+        ) AS ?husband_predicate
+    )
+    BIND(tarql:expandPrefixedName(CONCAT("tolo:", ?husband_predicate)) AS ?husband_predicate_iri)
+
+    # Matrilocal/Patrilocal
+    BIND(IF(?is_matrilocal = "1", "matrilocal", "patrilocal") AS ?marriage_type)
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_MarriageType_", ?marriage_type)) AS ?marriage_type_iri)
+
+
+    # Marriage dates
+    # To create an xsd:dateTime from a year string
+    BIND("-01-01T00:00:00" AS ?date_time_completion)
+
+    # Start year
+    BIND(
+        COALESCE(
+            IF(REGEX(?start, "^\\d{4}$"), ?start, ?unbound), 
+            # Add initial 0 to 3-digit year to create a well-formed year
+            IF(REGEX(?start, "^\\d{3}$"), CONCAT("0", ?start), ?unbound),
+            ?unbound
+        ) 
+        AS ?start_year
+    )
+
+    BIND(STRDT(CONCAT(?start_year, ?date_time_completion), xsd:dateTime) AS ?start_datetime)
+
+    # Actual vs approximate
+    BIND(
+        COALESCE(
+            IF(BOUND(?start_year) && ?start_approximate = "1", "tolo:approximateStartYear", ?unbound),
+            IF(BOUND(?start_year), "gist:actualStartYear", ?unbound),  
+            ?unbound              
+        ) AS ?start_predicate
+    )
+    BIND(tarql:expandPrefixedName(?start_predicate) AS ?start_predicate_iri)   
+
+
+    # End year
+    BIND(
+        COALESCE(
+            IF(REGEX(?end, "^\\d{4}$"), ?end, ?unbound), 
+            # Add initial 0 to 3-digit year to create a well-formed year
+            IF(REGEX(?end, "^\\d{3}$"), CONCAT("0",?start), ?unbound)
+        ) 
+        AS ?end_year
+    )
+
+    BIND(STRDT(CONCAT(?end_year, ?date_time_completion), xsd:dateTime) AS ?end_datetime)
+
+    # Actual vs approximate
+    BIND(
+        COALESCE(
+            IF(BOUND(?end_year) && ?end_approximate = "1", "tolo:approximateEndYear", ?unbound),
+            IF(BOUND(?end_year), "gist:actualEndYear", ?unbound),  
+            ?unbound              
+        ) AS ?end_predicate
+    )
+    BIND(tarql:expandPrefixedName(?end_predicate) AS ?end_predicate_iri)  
+
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_MarriageTerminationCause_", ?reason_name)) AS ?termination_cause_iri)
+}
