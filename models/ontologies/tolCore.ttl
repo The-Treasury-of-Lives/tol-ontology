@@ -390,59 +390,25 @@ tolo:Marriage
 	owl:equivalentClass [
 		owl:intersectionOf (
 			gist:Agreement
-			gist:TemporalRelation
 			[
 				a owl:Restriction ;
-				owl:onProperty gist:hasParty ;
-				owl:allValuesFrom tolo:Person ;
+				owl:onProperty tolo:hasWife ;
+				owl:someValuesFrom tolo:Person ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty tolo:hasHusband ;
+				owl:someValuesFrom tolo:Person ;
 			]
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:isCategorizedBy ;
-				owl:onClass tolo:MarriageRank ;
-				owl:cardinality "1"^^xsd:nonNegativeInteger ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:hasParty ;
-				owl:onClass tolo:Person ;
-				owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty tolo:familyName ;
-				owl:cardinality "1"^^xsd:nonNegativeInteger ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty tolo:familyName ;
-				owl:cardinality "1"^^xsd:nonNegativeInteger ;
+				owl:someValuesFrom tolo:MarriageType ;
 			]
 		) ;
 	] ;
 	skos:definition "A culturally and often legally recognized union between two people, called spouses, that establishes rights and obligations between them."@en ;
-	skos:editorialNote
-		"Cardinality restriction on gist:hasParty of 2 generates Protege error, so using qualified cardinality restriction instead."@en ,
-		"Predicates should be directed from the relationship to the other objects, to support named graph drops to delete the relationship."@en
-		;
 	skos:prefLabel "Marriage"@en ;
-	.
-
-tolo:MarriageRank
-	a owl:Class ;
-	rdfs:subClassOf
-		gist:Category ,
-		[
-			a owl:Restriction ;
-			owl:onProperty [
-				owl:inverseOf gist:isCategorizedBy ;
-			] ;
-			owl:allValuesFrom tolo:Marriage ;
-		]
-		;
-	skos:definition "A category differentiating senior (first) from subsequent (junior) marriages in polygamous relationships."@en ;
-	skos:prefLabel "Marriage Rank"@en ;
-	skos:scopeNote "The associated spouse is termed a junior or senior wife/husband. There is only one senior wife or husband; all others are uniformly designated junior."@en ;
 	.
 
 tolo:MarriageTerminationCause
@@ -460,6 +426,23 @@ tolo:MarriageTerminationCause
 	skos:definition "The reason for the termination of a marriage."@en ;
 	skos:example "Death, divorce, dissolution."@en ;
 	skos:prefLabel "Marriage Termination Cause"@en ;
+	.
+
+tolo:MarriageType
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom tolo:Marriage ;
+		]
+		;
+	skos:definition "A category characterizing a marriage."@en ;
+	skos:example "Matrilocal, patrilocal (default)"@en ;
+	skos:prefLabel "Marriage Type"@en ;
 	.
 
 tolo:Monastery
@@ -599,6 +582,20 @@ tolo:alternateYear
 	skos:scopeNote "Differs from tolo:approximateYear, which specifies a single year but is intended to be inexact. In this case, various scholars have proposed different years. If there is an alternate year, there is no actual year; rather, both proposed dates are asserted as alternates."@en ;
 	.
 
+tolo:approximateEndYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tolo:inYear ;
+	skos:definition "The approximate year in which an event or relationship, such as a marriage, ended."@en ;
+	skos:prefLabel "approximate end year"@en ;
+	.
+
+tolo:approximateStartYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tolo:inYear ;
+	skos:definition "The approximate year in which an event or relationship, such as a marriage, began."@en ;
+	skos:prefLabel "approximate start year"@en ;
+	.
+
 tolo:approximateYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tolo:inYear ;
@@ -731,25 +728,44 @@ tolo:hasFraternalNiece
 		;
 	.
 
+tolo:hasHusband
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf tolo:hasSpouse ;
+	rdfs:domain tolo:Marriage ;
+	rdfs:range tolo:Person ;
+	skos:definition "Relates a marriage relationship to the husband."@en ;
+	skos:prefLabel "has wife"@en ;
+	skos:scopeNote
+		"This is a convenience property to relate a marriage to the male spouse."@en ,
+		"Use bdo:hasHusband to assert a direct relationship from wife to husband."@en
+		;
+	.
+
 tolo:hasJuniorHusband
 	a owl:ObjectProperty ;
-	rdfs:subPropertyOf bdo:hasHusband ;
-	rdfs:domain tolo:Person ;
+	rdfs:subPropertyOf tolo:hasHusband ;
+	rdfs:domain tolo:Marriage ;
 	rdfs:range tolo:Person ;
-	skos:definition "The relationship of a wife to her husband in a junior marriage, which is any but the first of multiple simultaneous marriages."@en ;
-	skos:note "In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."@en ;
-	skos:prefLabel "has junior husband"@en ;
-	skos:scopeNote "This property will generally not be asserted, but rather inferred from the relationships of the spouses to a Marriage object and the MarriageRank of that object."@en ;
+	skos:definition "Relates a marriage relationship to a junior husband; that is, this is the second or subsequent marriage in a series of concurrent marriages involving the same wife."@en ;
+	skos:prefLabel "has wife"@en ;
+	skos:scopeNote
+		"A convenience property derived, at least conceptually, from the existence of other marriages of the wife and their dates. Data may not be available to support this."@en ,
+		"In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."@en ,
+		"Use bdo:hasHusband to assert a direct relationship from wife to husband."@en
+		;
 	.
 
 tolo:hasJuniorWife
 	a owl:ObjectProperty ;
-	rdfs:subPropertyOf bdo:hasWife ;
-	rdfs:domain tolo:Person ;
+	rdfs:subPropertyOf tolo:hasWife ;
+	rdfs:domain tolo:Marriage ;
 	rdfs:range tolo:Person ;
-	skos:definition "The relationship of a husband to his wife in a junior marriage, which is any but the first of multiple simultaneous marriages."@en ;
-	skos:prefLabel "has junior wife"@en ;
-	skos:scopeNote "This property will generally not be asserted, but rather inferred from the relationships of the spouses to a Marriage object and the MarriageRank of that object."@en ;
+	skos:definition "Relates a marriage relationship to a junior wife; that is, this is the second or subsequent marriage in a series of concurrent marriages involving the same husband."@en ;
+	skos:prefLabel "has wife"@en ;
+	skos:scopeNote
+		"A convenience property derived, at least conceptually, from the existence of other marriages of the husband and their dates. Data may not be available to support this."@en ,
+		"Use bdo:hasWife to assert a direct relationship from husband to wife."@en
+		;
 	.
 
 tolo:hasMaternalCousin
@@ -854,6 +870,8 @@ tolo:hasPaternalGrandparent
 
 tolo:hasPreincarnation
 	a owl:ObjectProperty ;
+	rdfs:domain tolo:Person ;
+	rdfs:range tolo:Person ;
 	skos:definition "The relationship of a person to a non-living person or mythical figure who is named as a previous emanation."@en ;
 	skos:example "Jamgong Kongtrul had the preincarnation Tarnatha."@en ;
 	skos:prefLabel "has preincarnation"@en ;
@@ -862,23 +880,28 @@ tolo:hasPreincarnation
 
 tolo:hasSeniorHusband
 	a owl:ObjectProperty ;
-	rdfs:subPropertyOf bdo:hasHusband ;
-	rdfs:domain tolo:Person ;
+	rdfs:subPropertyOf tolo:hasHusband ;
+	rdfs:domain tolo:Marriage ;
 	rdfs:range tolo:Person ;
-	skos:definition "The relationship of a wife to her husband in a senior marriage, which is the first marriage of multiple simultaneous marriages."@en ;
-	skos:note "In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."@en ;
-	skos:prefLabel "has senior husband"@en ;
-	skos:scopeNote "This property will generally not be asserted, but rather inferred from the relationships of the spouses to a Marriage object and the MarriageRank of that object."@en ;
+	skos:definition "Relates a marriage relationship to a senior husband; that is, this is the first marriage in a series of concurrent marriages involving the same wife."@en ;
+	skos:prefLabel "has wife"@en ;
+	skos:scopeNote
+		"In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."@en ,
+		"Use bdo:hasHusband to assert a direct relationship from wife to husband."@en
+		;
 	.
 
 tolo:hasSeniorWife
 	a owl:ObjectProperty ;
-	rdfs:subPropertyOf bdo:hasWife ;
-	rdfs:domain tolo:Person ;
+	rdfs:subPropertyOf tolo:hasWife ;
+	rdfs:domain tolo:Marriage ;
 	rdfs:range tolo:Person ;
-	skos:definition "The relationship of a husband to his wife in a senior marriage, which is the first of multiple simultaneous marriages."@en ;
-	skos:prefLabel "has senior wife"@en ;
-	skos:scopeNote "This property will generally not be asserted, but rather inferred from the relationships of the spouses to a Marriage object and the MarriageRank of that object."@en ;
+	skos:definition "Relates a marriage relationship to a senior wife; that is, this is the first marriage in a series of concurrent marriages involving the same husband."@en ;
+	skos:prefLabel "has wife"@en ;
+	skos:scopeNote
+		"A convenience property derived, at least conceptually, from the existence of other marriages of the wife and their dates. Data may not be available to support this."@en ,
+		"Use bdo:hasWife to assert a direct relationship from husband to wife."@en
+		;
 	.
 
 tolo:hasSororallNephew
@@ -931,6 +954,16 @@ tolo:hasSourceStatement
 	skos:prefLabel "has source statement"@en ;
 	.
 
+tolo:hasSpouse
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf gist:hasParty ;
+	rdfs:domain tolo:Marriage ;
+	rdfs:range tolo:Person ;
+	skos:definition "Relates a marriage relationship to one of its spouses."@en ;
+	skos:prefLabel "has spouse"@en ;
+	skos:scopeNote "Use bdo:hasSpouse to assert a direct relationship between the spouses."@en ;
+	.
+
 tolo:hasStatement
 	a owl:ObjectProperty ;
 	rdfs:domain tolo:Biography ;
@@ -946,6 +979,20 @@ tolo:hasSummary
 	rdfs:range gist:FormattedContent ;
 	skos:definition "Relates a piece of content, such as a biography, to a brief statement or restatement of the main points of a larger work."@en ;
 	skos:prefLabel "has summary"@en ;
+	.
+
+tolo:hasWife
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf tolo:hasSpouse ;
+	rdfs:domain tolo:Marriage ;
+	rdfs:range tolo:Person ;
+	skos:definition "Relates a marriage relationship to the wife."@en ;
+	skos:prefLabel "has wife"@en ;
+	skos:scopeNote
+		"A convenience property derived, at least conceptually, from the existence of other marriages of the husband and their dates. Data may not be available to support this."@en ,
+		"This is a convenience property to relate a marriage to the female spouse."@en ,
+		"Use bdo:hasWife to assert a direct relationship from husband to wife."@en
+		;
 	.
 
 tolo:inYear
