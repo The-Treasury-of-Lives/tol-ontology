@@ -3,8 +3,9 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
-@prefix lccn: <https://lccn.loc.gov/> .
+@prefix lccn: <https://id.loc.gov/resources/works/> .
 @prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix olid: <https://openlibrary.org/works/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -19,18 +20,19 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 told:_Biography_12481
-	gist:isBasedOn told:_ContentExpression_Source_1 ;
+	tolo:hasSource told:_ContentExpression_Source_1 ;
 	.
 
 told:_Biography_5
-	gist:isBasedOn told:_ContentExpression_Source_2 ;
+	tolo:hasSource told:_ContentExpression_Source_2 ;
 	.
 
 told:_ContentExpression_Source_1
 	a gist:ContentExpression ;
-	rdfs:seeAlso <https://www.worldcat.org/oclc/1051317433> ;
+	owl:sameAs olid:test_olid ;
 	skos:prefLabel "Ahmad, Zahiruddin. 1999. Sangs-rGyas rGya-mTSHo. Life of the Fifth Dalai Lama. New Delhi: International Academy of Indian Culture & Aditya Prakashan."@en ;
-	gist:isIdentifiedBy told:_Identifier_1051317433 ;
+	gist:isIdentifiedBy told:_ID_worldcat_1051317433 ;
+	tolo:displayText told:_FormattedContent_Source_DisplayText_1 ;
 	.
 
 told:_ContentExpression_Source_2
@@ -39,9 +41,9 @@ told:_ContentExpression_Source_2
 		lccn:2914622 ,
 		viaf:488147484315849360004
 		;
-	rdfs:seeAlso <https://www.worldcat.org/oclc/42273440> ;
 	skos:prefLabel "Karmay, Samten G. 1988. Secret Visions of the Fifth Dalai Lama: The Gold Manuscript in the Fournier Collection. London: Serindia."@en ;
-	gist:isIdentifiedBy told:_Identifier_42273440 ;
+	gist:isIdentifiedBy told:_ID_worldcat_42273440 ;
+	tolo:displayText told:_FormattedContent_Source_DisplayText_2 ;
 	.
 
 told:_ContentExpression_Source_3
@@ -50,44 +52,41 @@ told:_ContentExpression_Source_3
 		bdr:MW1PD105777 ,
 		lccn:2010309061
 		;
-	skos:prefLabel "2009. krung go'i bod brgyud dgon pa'i dkar chag las kan su'u glegs bam. lan kru'u: kan su'u mi rigs dpe skrun khang."@en ;
-	tolo:pages "753-754"@en ;
+	skos:prefLabel "2009. krung go'i bod brgyud dgon pa'i dkar chag las kan su'u glegs bam. lan kru'u: kan su'u mi rigs dpe skrun khang."@bo-x-ewts ;
+	tolo:displayText told:_FormattedContent_Source_DisplayText_3 ;
 	.
 
 told:_FormattedContent_Source_DisplayText_1
 	a gist:FormattedContent ;
 	gist:containedText "Ahmad, Zahiruddin. 1999.&nbsp;<em>Sangs-rGyas rGya-mTSHo. Life of the Fifth Dalai Lama</em>. New Delhi: International Academy of Indian Culture &amp; Aditya Prakashan.</p>"@en ;
-	gist:isAbout told:_ContentExpression_Source_1 ;
 	gist:isExpressedIn media-txt:html ;
 	.
 
 told:_FormattedContent_Source_DisplayText_2
 	a gist:FormattedContent ;
 	gist:containedText "Karmay, Samten G. 1988.&nbsp;<em>Secret Visions of the Fifth Dalai Lama: The Gold Manuscript in the Fournier Collection</em>. London: Serindia.</p>"@en ;
-	gist:isAbout told:_ContentExpression_Source_2 ;
 	gist:isExpressedIn media-txt:html ;
 	.
 
 told:_FormattedContent_Source_DisplayText_3
 	a gist:FormattedContent ;
-	gist:containedText "2009. <em>krung go&#39;i bod brgyud dgon pa&#39;i dkar chag las kan su&#39;u glegs bam</em>.&nbsp;lan kru&#39;u:&nbsp;kan su&#39;u mi rigs dpe skrun khang, p. 756."@en ;
-	gist:isAbout told:_ContentExpression_Source_3 ;
+	gist:containedText "2009. <em>krung go&#39;i bod brgyud dgon pa&#39;i dkar chag las kan su&#39;u glegs bam</em>.&nbsp;lan kru&#39;u:&nbsp;kan su&#39;u mi rigs dpe skrun khang, p. 756."@bo-x-ewts ;
 	gist:isExpressedIn media-txt:html ;
 	.
 
-told:_Identifier_1051317433
-	a gist:Identifier ;
-	gist:isCategorizedBy tolx:_IdentifierType_oclc ;
+told:_ID_worldcat_1051317433
+	a gist:ID ;
+	gist:isCategorizedBy tolx:_IdType_worldcat ;
 	gist:uniqueText "1051317433"@en ;
 	.
 
-told:_Identifier_42273440
-	a gist:Identifier ;
-	gist:isCategorizedBy tolx:_IdentifierType_oclc ;
+told:_ID_worldcat_42273440
+	a gist:ID ;
+	gist:isCategorizedBy tolx:_IdType_worldcat ;
 	gist:uniqueText "42273440"@en ;
 	.
 
 told:_Place_983
-	gist:isBasedOn told:_ContentExpression_Source_3 ;
+	rdfs:seeAlso told:_ContentExpression_Source_3 ;
 	.
 

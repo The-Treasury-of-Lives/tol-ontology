@@ -16,12 +16,15 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
 PREFIX relators: <http://id.loc.gov/vocabulary/relators/> 
 PREFIX viaf: <https://viaf.org/viaf/>
+PREFIX lccn: <https://id.loc.gov/resources/works/>
+PREFIX olid: <https://openlibrary.org/works/> 
 
 
 ## COLUMNS 
-# person_id
-# place id
+# PERSON ID
+# PLACE ID
 # TOL Source ID
+# Source Lang Tag
 # Source
 # Pages
 # BDRC ID
@@ -29,30 +32,28 @@ PREFIX viaf: <https://viaf.org/viaf/>
 # OCLC ID
 # LCCN
 # OLID ID
+# Source Display Lang Tag
 # Source Display
 
 # Run: 
-# tarql -e utf-8 --dedup 100000 sources.tq Sources.csv > tolSources.ttl
+# tarql -e utf-8 --dedup 50000 sources.tq Sources-6-14-24.csv > tolSources.ttl
 
 
 CONSTRUCT {
 
     ?subject_iri
-        gist:isBasedOn ?source_iri ;
+        ?predicate_iri ?source_iri ;
         .
 
     ?source_iri
         a gist:ContentExpression ;
-        # Can we get language tag for this text?
-        skos:prefLabel ?Source ;
-        tolo:pages ?Pages ;
+        skos:prefLabel ?source_label ;
+        tolo:displayText ?display_text_iri ;
         owl:sameAs 
             ?bdrc_iri ,
             ?viaf_iri ,
-            ?lccn_iri ;
-            
-        rdfs:seeAlso
-            ?oclc_url ;
+            ?lccn_iri ,
+            ?olid_iri ;
         
         gist:isIdentifiedBy 
             ?oclc_id_iri ;
@@ -60,16 +61,14 @@ CONSTRUCT {
 
     ?display_text_iri
         a gist:FormattedContent ;
-        # Can we get language tags for this text?
-        gist:containedText ?Source_Display ;
-        gist:isAbout ?source_iri ;
+        gist:containedText ?display_text ;
         gist:isExpressedIn media-txt:html ;
         .
 
-    ?oclc_id_iri
-        a gist:Identifier ;
+    ?worldcat_id_iri
+        a gist:ID ;
         gist:uniqueText ?OCLC_ID ;
-        gist:isCategorizedBy ?idtype_oclc_iri ;
+        gist:isCategorizedBy tolx:_IdType_worldcat ;
         .
 
 }
@@ -89,28 +88,26 @@ WHERE {
         AS ?subject_iri 
     )
 
-TODO - isBasedOn for bio, source isAbout place for place
-OR just get as two exports
-Pages can't go on the work. We need a Source or Reference object that points to the Content.
-    # BIND(IF(BOUND(?PERSON_ID), ("isBasedOn", "isAbout")) AS ?predicate_name)
-    # BIND(tarql:expandPrefixedName(CONCAT("gist:", ?predicateName)) AS ?predicate_iri)
+    BIND(
+        COALESCE(
+            IF(BOUND(?PERSON_ID), tarql:expandPrefixedName("tolo:hasSource"), ?unbound),
+            IF(BOUND(?PLACE_ID), tarql:expandPrefixedName("rdfs:seeAlso"), ?unbound)
+        )
+        AS ?predicate_iri
+    )
+
+    BIND(STRLANG(?Source, ?Source_Lang_Tag) AS ?source_label) 
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Source_DisplayText_", ?TOL_Source_ID)) AS ?display_text_iri)
+    BIND(STRLANG(?Source_Display, ?Source_Display_Lang_Tag) AS ?display_text)
 
     # owl:SameAs
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_ID)) AS ?bdrc_iri)
     BIND(tarql:expandPrefixedName(CONCAT("viaf:", ?VIAF_ID)) AS ?viaf_iri)
     BIND(tarql:expandPrefixedName(CONCAT("lccn:", ?LCCN)) AS ?lccn_iri)
-    # Not sure if these are RDF or not: OLID, LCCN
+    BIND(tarql:expandPrefixedName(CONCAT("olid:", ?OLID_ID)) AS ?olid_iri)
 
-    # Method 1: rdfs:seeAlso
-    BIND(URI(CONCAT("https://www.worldcat.org/oclc/", ?OCLC_ID)) AS ?oclc_url)
-    # Etc.
-
-    # Method 2: External identifiers
-    # OCLC
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Identifier_", ?OCLC_ID)) AS ?oclc_id_iri)
-    # This ID Type would store the namespace
-    BIND(tarql:expandPrefixedName("tolx:_IdentifierType_oclc") AS ?idtype_oclc_iri)
+    # WorldCat 
+    BIND(tarql:expandPrefixedName(CONCAT("told:_ID_worldcat_", ?OCLC_ID)) AS ?worldcat_id_iri)
 
 }

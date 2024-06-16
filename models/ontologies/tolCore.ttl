@@ -202,6 +202,15 @@ tolo:HistoricalPeriod
 	skos:scopeNote "Whereas a time interval is any period of time, such as 2-4pm this afternoon or 1848-1947, a historical period is named and cited in relation to historical events or culture. Historical periods include full and partial centuries, which are ordinally numbered."@en ;
 	.
 
+tolo:IdType
+	a owl:Class ;
+	rdfs:subClassOf gist:Category ;
+	skos:definition "A kind of identifier, usually associated with an allocating organization."@en ;
+	skos:example "Gendun Drub has Himalayan Art (HAR) identifier 582."@en ;
+	skos:prefLabel "ID Type"@en ;
+	skos:scopeNote "The ID type is used to construct links by specifying a URL fragment to combine with the identifier to form a URL and a display label to use as link text."@en ;
+	.
+
 tolo:Image
 	a owl:Class ;
 	rdfs:subClassOf gist:FormattedContent ;
@@ -1080,7 +1089,9 @@ tolo:pages
 	a owl:DatatypeProperty ;
 	rdfs:domain gist:ContentExpression ;
 	rdfs:range xsd:string ;
+	owl:deprecated "true"^^xsd:boolean ;
 	skos:definition "Particular page number(s) of a work."@en ;
+	skos:editorialNote "Currently deprecated - do not use."@en ;
 	skos:prefLabel "page(s)"@en ;
 	skos:scopeNote
 		"Note that this is a string rather than a number, to account for page ranges."@en ,
@@ -1099,6 +1110,13 @@ tolo:primaryName
 		"The primary/alternate distinction may be source- or system-dependent. Other systems or sources may a different name primary."@en ,
 		"The same name may be rendered differently in different transliteration or transcription systems. For example, ToL displays a primary name in both its own and the Extended Wylie systems and possibly others."@en
 		;
+	.
+
+tolo:references
+	a owl:ObjectProperty ;
+	skos:definition "Relates content, such as a biography, to a another content instance that was either used as a source or provides additional information about the content."@en ;
+	skos:example "The biography of Gyergom Tsultrim Sengge has source 'Secret Visions of the Fifth Dalai Lama by Samten G. Karmay."@en ;
+	skos:prefLabel "references"@en ;
 	.
 
 tolo:residesIn
