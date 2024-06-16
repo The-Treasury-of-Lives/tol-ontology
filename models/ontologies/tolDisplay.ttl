@@ -17,9 +17,15 @@
 		;
 	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x> ;
 	skos:definition "Defines concepts to support Treasury of Lives website display."@en ;
-	skos:editoralNote "Currently splitting display and admin; see if this is maintainable."@en ;
 	skos:prefLabel "Treasury of Lives Display Ontology"@en ;
 	gist:license "TBD"@en ;
+	.
+
+tolo:MapRegionType
+	a owl:Class ;
+	rdfs:subClassOf gist:Category ;
+	skos:definition "TBD"@en ;
+	skos:prefLabel "Map Region Type"@en ;
 	.
 
 tolo:MappingPriority
@@ -42,6 +48,13 @@ tolo:MappingPriority
 	] ;
 	skos:definition "A category specifying mapping priority level and minimum zoom level."@en ;
 	skos:prefLabel "Mapping Priority"@en ;
+	.
+
+tolo:RegionType
+	a owl:Class ;
+	rdfs:subClassOf gist:Category ;
+	skos:definition "TBD"@en ;
+	skos:prefLabel "Region Type"@en ;
 	.
 
 tolo:caption
@@ -83,16 +96,35 @@ tolo:displayText
 	skos:prefLabel "display text"@en ;
 	.
 
+tolo:hasDisplayGeoPoint
+	a owl:AnnotationProperty ;
+	skos:definition "The geo point to use in the display of a place on a map."@en ;
+	skos:prefLabel "has display geo point"@en ;
+	skos:scopeNote "Considered a display property because in the real world places are not located at single geo points."@en ;
+	.
+
 tolo:hasMappingPriority
 	a owl:AnnotationProperty ;
+	rdfs:range tolo:MappingPriority ;
 	skos:definition "Relates a place to its priority level in map displays."@en ;
 	skos:prefLabel "has mapping priority"@en ;
+	gist:domainIncludes
+		gist:Place ,
+		tolo:Institution
+		;
+	.
+
+tolo:maxZoomLevel
+	a owl:AnnotationProperty ;
+	rdfs:range xsd:integer ;
+	skos:definition "Relates a map region to its maximum zoom level."@en ;
+	skos:preflabel "maximum zoom level"@en ;
 	.
 
 tolo:minZoomLevel
-	a owl:DatatypeProperty ;
+	a owl:AnnotationProperty ;
 	rdfs:range xsd:integer ;
-	skos:definition "Relates a mapping priority to its minimum zoom level."@en ;
+	skos:definition "Relates a mapping priority or map region to its minimum zoom level."@en ;
 	skos:preflabel "minimum zoom level"@en ;
 	.
 
@@ -112,5 +144,13 @@ tolo:updateDisplayDate
 	skos:definition "The date of last update to display with a biography."@en ;
 	skos:example "August 2007"@en ;
 	skos:prefLabel "update display date"@en ;
+	.
+
+tolo:zoomLevelOnClick
+	a owl:AnnotationProperty ;
+	rdfs:range xsd:integer ;
+	skos:definition "Relates a map region to its zoom level when clicked."@en ;
+	skos:editorialNote "Is it correct that this is the default level?"@en ;
+	skos:preflabel "zoom level on click"@en ;
 	.
 

@@ -25,8 +25,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 CONSTRUCT {
 
-    # TBD Is this the right relationship?
-    #?place_iri gist:hasMember ?person_iri ;
     ?place_iri gist:isConnectedTo ?person_iri ;
     .
 
