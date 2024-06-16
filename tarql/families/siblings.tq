@@ -16,7 +16,7 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-# Use when sibling relationships but not parents are known.
+# Use when sibling relationships are known but there are no parent records.
 
 ## Columns
 # sibling 1 id
