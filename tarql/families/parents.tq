@@ -16,18 +16,17 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-# Use when sibling relationships are known but there are no parent records.
-
 ## Columns
-# sibling 1 id
-# sibling 2 id
+# id (ignore)
+# parent_id
+# child_id
 
 # Run:
-# tarql -e utf-8 siblings.tq sibling-no-parent-id-sample.csv > tolSiblings.ttl
+# tarql -e utf-8 parents.tq parent-child-5-31-24.csv > tolParents.ttl
 
 CONSTRUCT {
 
-    ?sibling_1_iri bdo:hasSibling ?sibling_2_iri ;
+    ?child_iri bdo:hasParent ?parent_iri ;
     .
 
 }
@@ -37,7 +36,7 @@ WHERE {
     # Testing
     # FILTER(?ROWNUM = 1)
 
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?sibling_1_id)) AS ?sibling_1_iri)
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?sibling_2_id)) AS ?sibling_2_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?parent_id)) AS ?parent_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?child_id)) AS ?child_iri)
    
 }
