@@ -17,23 +17,23 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 told:_Person_10018
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10019
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10068
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10083
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10093
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_42 ,
 		told:_Tradition_8
@@ -41,38 +41,38 @@ told:_Person_10093
 	.
 
 told:_Person_10146
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10168
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_4
 		;
 	.
 
 told:_Person_10169
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10171
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10199
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_10202
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_10203
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_10258
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_37 ,
 		told:_Tradition_8
@@ -80,26 +80,26 @@ told:_Person_10258
 	.
 
 told:_Person_10280
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_43 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_1029
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_10301
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10311
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10315
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_45 ,
 		told:_Tradition_8
@@ -107,11 +107,11 @@ told:_Person_10315
 	.
 
 told:_Person_10319
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_10320
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_40 ,
 		told:_Tradition_8
@@ -119,15 +119,15 @@ told:_Person_10320
 	.
 
 told:_Person_1035
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_10355
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_10372
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_40 ,
 		told:_Tradition_8
@@ -135,35 +135,35 @@ told:_Person_10372
 	.
 
 told:_Person_10373
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10394
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_10412
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10413
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10414
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10415
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10422
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10442
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_40 ,
 		told:_Tradition_8
@@ -171,37 +171,37 @@ told:_Person_10442
 	.
 
 told:_Person_10457
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10480
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_10482
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_10497
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_10507
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_10528
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_10531
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_37 ,
 		told:_Tradition_40 ,
@@ -210,7 +210,7 @@ told:_Person_10531
 	.
 
 told:_Person_10536
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_40 ,
 		told:_Tradition_8
@@ -218,11 +218,11 @@ told:_Person_10536
 	.
 
 told:_Person_10546
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10548
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_7 ,
 		told:_Tradition_8
@@ -230,19 +230,19 @@ told:_Person_10548
 	.
 
 told:_Person_10561
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_10571
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10572
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10573
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_4 ,
@@ -251,7 +251,7 @@ told:_Person_10573
 	.
 
 told:_Person_10579
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_4 ,
 		told:_Tradition_7
@@ -259,35 +259,35 @@ told:_Person_10579
 	.
 
 told:_Person_10580
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_10591
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_10613
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_10617
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10633
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_10644
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_10647
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10649
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_37 ,
 		told:_Tradition_4 ,
@@ -296,46 +296,46 @@ told:_Person_10649
 	.
 
 told:_Person_10654
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10656
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10658
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10659
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10673
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10676
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10678
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10683
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_10687
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_4
 		;
 	.
 
 told:_Person_10699
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_7 ,
 		told:_Tradition_8
@@ -343,107 +343,107 @@ told:_Person_10699
 	.
 
 told:_Person_10742
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_10753
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_10794
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_10811
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10815
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_10824
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_10827
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10828
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10832
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10835
-	tolo:isAffiliatedWith told:_Tradition_8 ;
+	gist:isConnectedTo told:_Tradition_8 ;
 	.
 
 told:_Person_10857
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_10878
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_10881
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10892
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_10898
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_10904
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_10957
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_10961
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_10982
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_11003
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11056
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_1108
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11114
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_67 ,
 		told:_Tradition_7 ,
@@ -452,15 +452,15 @@ told:_Person_11114
 	.
 
 told:_Person_11117
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11131
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_11141
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_37 ,
 		told:_Tradition_45 ,
 		told:_Tradition_7 ,
@@ -469,15 +469,15 @@ told:_Person_11141
 	.
 
 told:_Person_11158
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_11183
-	tolo:isAffiliatedWith told:_Tradition_28 ;
+	gist:isConnectedTo told:_Tradition_28 ;
 	.
 
 told:_Person_11231
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_8
@@ -485,11 +485,11 @@ told:_Person_11231
 	.
 
 told:_Person_11245
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11246
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_8
@@ -497,30 +497,30 @@ told:_Person_11246
 	.
 
 told:_Person_11258
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_11277
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11278
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11279
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11285
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_11290
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_7 ,
@@ -529,21 +529,21 @@ told:_Person_11290
 	.
 
 told:_Person_11299
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_11307
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_11352
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27 ,
 		told:_Tradition_40 ,
@@ -552,140 +552,140 @@ told:_Person_11352
 	.
 
 told:_Person_11385
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_11417
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_11426
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11427
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11428
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11432
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11435
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11437
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_28
 		;
 	.
 
 told:_Person_11441
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_11443
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11444
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11445
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11453
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_23 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_11462
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_11487
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11488
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11489
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11490
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11491
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11565
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_11569
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_11572
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11575
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_11597
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_11603
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11618
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_11632
-	tolo:isAffiliatedWith told:_Tradition_28 ;
+	gist:isConnectedTo told:_Tradition_28 ;
 	.
 
 told:_Person_11645
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_11731
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_28 ,
 		told:_Tradition_40 ,
@@ -696,58 +696,58 @@ told:_Person_11731
 	.
 
 told:_Person_11741
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_11798
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_11865
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_11866
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_11877
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_11883
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_11898
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_11909
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_11942
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_11972
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_7 ,
@@ -756,29 +756,29 @@ told:_Person_11972
 	.
 
 told:_Person_11986
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_12096
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_12100
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_12171
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_12180
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_67 ,
@@ -787,14 +787,14 @@ told:_Person_12180
 	.
 
 told:_Person_12264
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_12340
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_7 ,
 		told:_Tradition_8
@@ -802,80 +802,80 @@ told:_Person_12340
 	.
 
 told:_Person_12403
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_12405
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_12479
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_12500
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_12521
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_12547
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_12553
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_12613
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_12741
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_12742
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_12743
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_12745
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_12785
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_12817
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_12828
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_12838
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_12839
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_22 ,
 		told:_Tradition_24 ,
@@ -884,50 +884,50 @@ told:_Person_12839
 	.
 
 told:_Person_12865
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_12883
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_12906
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_12981
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_12982
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13026
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13057
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13058
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13061
-	tolo:isAffiliatedWith told:_Tradition_37 ;
+	gist:isConnectedTo told:_Tradition_37 ;
 	.
 
 told:_Person_13063
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13064
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_67 ,
 		told:_Tradition_7 ,
@@ -936,53 +936,53 @@ told:_Person_13064
 	.
 
 told:_Person_13065
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13066
-	tolo:isAffiliatedWith told:_Tradition_8 ;
+	gist:isConnectedTo told:_Tradition_8 ;
 	.
 
 told:_Person_13067
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_45 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13068
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_45 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13069
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_45 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13070
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_45 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13071
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_45 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13072
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_45 ,
 		told:_Tradition_8
@@ -990,7 +990,7 @@ told:_Person_13072
 	.
 
 told:_Person_13073
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_25 ,
 		told:_Tradition_27 ,
 		told:_Tradition_4 ,
@@ -1000,7 +1000,7 @@ told:_Person_13073
 	.
 
 told:_Person_13074
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_22 ,
 		told:_Tradition_24 ,
 		told:_Tradition_8
@@ -1008,19 +1008,19 @@ told:_Person_13074
 	.
 
 told:_Person_13075
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13076
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13077
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13078
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_27 ,
 		told:_Tradition_28 ,
@@ -1030,11 +1030,11 @@ told:_Person_13078
 	.
 
 told:_Person_13079
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13080
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_45 ,
 		told:_Tradition_72 ,
 		told:_Tradition_8
@@ -1042,158 +1042,158 @@ told:_Person_13080
 	.
 
 told:_Person_13081
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13082
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13083
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13084
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13086
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_7 ,
 		told:_Tradition_72
 		;
 	.
 
 told:_Person_13087
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13088
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13089
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13090
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13091
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13092
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13093
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13094
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13095
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13096
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13097
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13098
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13099
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13100
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13101
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13102
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13103
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13104
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13105
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13106
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13107
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13108
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13109
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13110
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13111
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13112
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13113
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13115
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13116
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13117
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13118
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13119
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13120
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_40 ,
@@ -1202,7 +1202,7 @@ told:_Person_13120
 	.
 
 told:_Person_13121
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_40 ,
 		told:_Tradition_8
@@ -1210,84 +1210,84 @@ told:_Person_13121
 	.
 
 told:_Person_13122
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13123
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13124
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13125
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13127
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13128
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13129
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13131
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_7 ,
 		told:_Tradition_72
 		;
 	.
 
 told:_Person_13132
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13133
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13134
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13135
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13139
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13140
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13141
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_45 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13142
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13143
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13145
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_40 ,
 		told:_Tradition_8
@@ -1295,11 +1295,11 @@ told:_Person_13145
 	.
 
 told:_Person_13146
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13147
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_40 ,
 		told:_Tradition_8
@@ -1307,23 +1307,23 @@ told:_Person_13147
 	.
 
 told:_Person_13148
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13149
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13150
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13151
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13152
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_8
@@ -1331,160 +1331,160 @@ told:_Person_13152
 	.
 
 told:_Person_13157
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13162
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13163
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13164
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13165
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13166
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13167
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13168
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13169
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13170
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13171
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13173
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13174
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13175
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13176
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13177
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13178
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13179
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13180
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13181
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13182
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13183
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_4
 		;
 	.
 
 told:_Person_13186
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13187
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13188
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13189
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13190
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13191
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13195
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13196
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13197
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13199
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_13201
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13202
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13203
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13204
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13205
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_67 ,
 		told:_Tradition_8
@@ -1492,7 +1492,7 @@ told:_Person_13205
 	.
 
 told:_Person_13206
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_67 ,
 		told:_Tradition_8
@@ -1500,67 +1500,67 @@ told:_Person_13206
 	.
 
 told:_Person_13217
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13220
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13221
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13222
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13225
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13226
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13227
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13228
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13230
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13231
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13232
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13233
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13234
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_42 ,
 		told:_Tradition_8
@@ -1568,113 +1568,113 @@ told:_Person_13234
 	.
 
 told:_Person_13235
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13236
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13237
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13238
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13239
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13240
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13241
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13242
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13246
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13248
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13249
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13404
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13423
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13425
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13426
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13427
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13428
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13429
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13430
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13431
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_42 ,
@@ -1683,21 +1683,21 @@ told:_Person_13431
 	.
 
 told:_Person_13432
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13433
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13434
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_23 ,
 		told:_Tradition_42 ,
 		told:_Tradition_8
@@ -1705,7 +1705,7 @@ told:_Person_13434
 	.
 
 told:_Person_13435
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_42 ,
 		told:_Tradition_8
@@ -1713,14 +1713,14 @@ told:_Person_13435
 	.
 
 told:_Person_13436
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13437
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_25 ,
 		told:_Tradition_42 ,
 		told:_Tradition_8
@@ -1728,7 +1728,7 @@ told:_Person_13437
 	.
 
 told:_Person_13438
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_42 ,
 		told:_Tradition_8
@@ -1736,14 +1736,14 @@ told:_Person_13438
 	.
 
 told:_Person_13439
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13440
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_25 ,
 		told:_Tradition_42 ,
 		told:_Tradition_8
@@ -1751,90 +1751,90 @@ told:_Person_13440
 	.
 
 told:_Person_13442
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13443
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13444
-	tolo:isAffiliatedWith told:_Tradition_8 ;
+	gist:isConnectedTo told:_Tradition_8 ;
 	.
 
 told:_Person_13445
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13446
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13447
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13448
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13449
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13450
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13451
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13452
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13453
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13454
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13455
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13462
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_37 ,
 		told:_Tradition_43 ,
 		told:_Tradition_8
@@ -1842,108 +1842,108 @@ told:_Person_13462
 	.
 
 told:_Person_13502
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13507
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13509
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13510
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13511
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13512
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13513
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13514
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13515
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13516
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13517
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13518
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13519
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13520
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13521
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13522
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13523
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13527
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13528
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13531
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_72
 		;
 	.
 
 told:_Person_13532
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_27 ,
@@ -1953,7 +1953,7 @@ told:_Person_13532
 	.
 
 told:_Person_13533
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_7 ,
@@ -1962,171 +1962,171 @@ told:_Person_13533
 	.
 
 told:_Person_13534
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13535
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13536
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13537
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13538
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13539
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13540
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_13541
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13542
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_4
 		;
 	.
 
 told:_Person_13543
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13544
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13547
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13548
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13549
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13550
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13558
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_72
 		;
 	.
 
 told:_Person_13559
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13560
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13561
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13562
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13563
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13564
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13566
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13572
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_22 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13574
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13588
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_13596
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13597
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13598
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_45 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13612
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_28
 		;
 	.
 
 told:_Person_13613
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13614
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13615
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13617
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13625
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13628
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_27 ,
 		told:_Tradition_72 ,
@@ -2135,37 +2135,37 @@ told:_Person_13628
 	.
 
 told:_Person_13647
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13648
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13650
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13652
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13653
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13654
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13659
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_40 ,
 		told:_Tradition_8
@@ -2173,27 +2173,27 @@ told:_Person_13659
 	.
 
 told:_Person_13666
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13677
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13679
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13683
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13684
-	tolo:isAffiliatedWith told:_Tradition_8 ;
+	gist:isConnectedTo told:_Tradition_8 ;
 	.
 
 told:_Person_13686
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_22 ,
 		told:_Tradition_8
@@ -2201,45 +2201,45 @@ told:_Person_13686
 	.
 
 told:_Person_13687
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13688
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13689
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13692
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13693
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13694
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_26 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_13697
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13698
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13699
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_7 ,
@@ -2248,14 +2248,14 @@ told:_Person_13699
 	.
 
 told:_Person_1370
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13700
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_7 ,
@@ -2264,79 +2264,79 @@ told:_Person_13700
 	.
 
 told:_Person_13701
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13702
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13703
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13706
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_4
 		;
 	.
 
 told:_Person_13707
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13721
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_7 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13722
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13724
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13725
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13731
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13737
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13738
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13740
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13744
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13745
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13747
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_22 ,
 		told:_Tradition_8
@@ -2344,11 +2344,11 @@ told:_Person_13747
 	.
 
 told:_Person_13748
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13749
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_22 ,
 		told:_Tradition_8
@@ -2356,11 +2356,11 @@ told:_Person_13749
 	.
 
 told:_Person_13750
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13773
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27 ,
 		told:_Tradition_4 ,
@@ -2370,136 +2370,136 @@ told:_Person_13773
 	.
 
 told:_Person_13787
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13788
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13789
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13790
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13793
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13794
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13795
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13796
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13797
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13798
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13803
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13805
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13806
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_13809
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_13810
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13811
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13812
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13815
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13817
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13819
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13820
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13821
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13822
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13823
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13824
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13825
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13828
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13836
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_59 ,
 		told:_Tradition_8
@@ -2507,7 +2507,7 @@ told:_Person_13836
 	.
 
 told:_Person_13837
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_59 ,
@@ -2516,7 +2516,7 @@ told:_Person_13837
 	.
 
 told:_Person_13838
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_59 ,
 		told:_Tradition_8
@@ -2524,7 +2524,7 @@ told:_Person_13838
 	.
 
 told:_Person_13839
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_59 ,
 		told:_Tradition_8
@@ -2532,7 +2532,7 @@ told:_Person_13839
 	.
 
 told:_Person_13840
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_59 ,
 		told:_Tradition_8
@@ -2540,7 +2540,7 @@ told:_Person_13840
 	.
 
 told:_Person_13841
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_59 ,
 		told:_Tradition_8
@@ -2548,7 +2548,7 @@ told:_Person_13841
 	.
 
 told:_Person_13842
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_59 ,
 		told:_Tradition_8
@@ -2556,54 +2556,54 @@ told:_Person_13842
 	.
 
 told:_Person_13843
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13850
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13853
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_13855
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_77 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13856
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_77 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13857
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_77 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13858
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_77 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13859
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_77 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13860
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_59 ,
@@ -2612,7 +2612,7 @@ told:_Person_13860
 	.
 
 told:_Person_13861
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_59 ,
 		told:_Tradition_8
@@ -2620,26 +2620,26 @@ told:_Person_13861
 	.
 
 told:_Person_13862
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_59 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_13865
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13867
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_13868
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_13870
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_7 ,
 		told:_Tradition_77 ,
 		told:_Tradition_8
@@ -2647,7 +2647,7 @@ told:_Person_13870
 	.
 
 told:_Person_13877
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_77 ,
 		told:_Tradition_8
@@ -2655,7 +2655,7 @@ told:_Person_13877
 	.
 
 told:_Person_13878
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_77 ,
 		told:_Tradition_8
@@ -2663,80 +2663,80 @@ told:_Person_13878
 	.
 
 told:_Person_13879
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_1564
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_1575
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_1586
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_1628
-	tolo:isAffiliatedWith told:_Tradition_73 ;
+	gist:isConnectedTo told:_Tradition_73 ;
 	.
 
 told:_Person_1637
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_1639
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_1659
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_1719
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_1720
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_1721
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_1722
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_1726
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_1728
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_1754
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_37
 		;
 	.
 
 told:_Person_1820
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_1831
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_4 ,
 		told:_Tradition_7
@@ -2744,165 +2744,165 @@ told:_Person_1831
 	.
 
 told:_Person_1852
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_1869
-	tolo:isAffiliatedWith told:_Tradition_28 ;
+	gist:isConnectedTo told:_Tradition_28 ;
 	.
 
 told:_Person_1871
-	tolo:isAffiliatedWith told:_Tradition_8 ;
+	gist:isConnectedTo told:_Tradition_8 ;
 	.
 
 told:_Person_1898
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_37 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_1901
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_1902
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_1903
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_1908
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_1930
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_1963
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_1974
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_1981
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_1985
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_2029
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_2051
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_2069
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_2104
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_2118
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_2137
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_2162
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_2180
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_72
 		;
 	.
 
 told:_Person_2181
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_2203
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_2232
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_2235
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2237
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2238
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2280
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_23
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_2314
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_2327
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2328
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2329
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2330
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2336
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_2338
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_40 ,
 		told:_Tradition_7 ,
@@ -2911,115 +2911,115 @@ told:_Person_2338
 	.
 
 told:_Person_2339
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2340
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_2387
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_2392
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2393
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2399
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2409
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2418
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2419
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2423
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2427
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2434
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_2436
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2441
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2442
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2456
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2462
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2469
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2483
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_2491
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_2495
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2504
-	tolo:isAffiliatedWith told:_Tradition_37 ;
+	gist:isConnectedTo told:_Tradition_37 ;
 	.
 
 told:_Person_2506
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2510
-	tolo:isAffiliatedWith told:_Tradition_37 ;
+	gist:isConnectedTo told:_Tradition_37 ;
 	.
 
 told:_Person_2521
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2523
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2527
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2539
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_25 ,
 		told:_Tradition_37 ,
 		told:_Tradition_4 ,
@@ -3029,7 +3029,7 @@ told:_Person_2539
 	.
 
 told:_Person_2541
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_8
@@ -3037,7 +3037,7 @@ told:_Person_2541
 	.
 
 told:_Person_2561
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_25 ,
 		told:_Tradition_42 ,
 		told:_Tradition_8
@@ -3045,22 +3045,22 @@ told:_Person_2561
 	.
 
 told:_Person_2577
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_2578
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_2584
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_2589
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_4 ,
@@ -3069,30 +3069,30 @@ told:_Person_2589
 	.
 
 told:_Person_2591
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_2592
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_2593
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_2595
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_2598
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_2606
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_7 ,
 		told:_Tradition_8
@@ -3100,32 +3100,32 @@ told:_Person_2606
 	.
 
 told:_Person_2638
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_2639
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_2640
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_2661
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_2662
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_8
@@ -3133,14 +3133,14 @@ told:_Person_2662
 	.
 
 told:_Person_2665
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_2670
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_37 ,
 		told:_Tradition_7
@@ -3148,7 +3148,7 @@ told:_Person_2670
 	.
 
 told:_Person_2683
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_4 ,
 		told:_Tradition_8
@@ -3156,14 +3156,14 @@ told:_Person_2683
 	.
 
 told:_Person_2712
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_2720
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_7 ,
@@ -3172,14 +3172,14 @@ told:_Person_2720
 	.
 
 told:_Person_2730
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_2733
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_38 ,
 		told:_Tradition_40 ,
 		told:_Tradition_8
@@ -3187,7 +3187,7 @@ told:_Person_2733
 	.
 
 told:_Person_2740
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_8
@@ -3195,15 +3195,15 @@ told:_Person_2740
 	.
 
 told:_Person_2755
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2758
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2774
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_7 ,
 		told:_Tradition_8
@@ -3211,7 +3211,7 @@ told:_Person_2774
 	.
 
 told:_Person_2776
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_8
@@ -3219,34 +3219,34 @@ told:_Person_2776
 	.
 
 told:_Person_2780
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_2781
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_2784
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2787
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2788
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2789
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_2790
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_28 ,
 		told:_Tradition_7
@@ -3254,25 +3254,25 @@ told:_Person_2790
 	.
 
 told:_Person_2791
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_2798
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_43 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_2799
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_43 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_2801
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_37 ,
 		told:_Tradition_7
@@ -3280,14 +3280,14 @@ told:_Person_2801
 	.
 
 told:_Person_2803
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_2806
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_26 ,
 		told:_Tradition_37 ,
@@ -3298,7 +3298,7 @@ told:_Person_2806
 	.
 
 told:_Person_2810
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_42 ,
 		told:_Tradition_43 ,
@@ -3308,33 +3308,33 @@ told:_Person_2810
 	.
 
 told:_Person_2812
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_2814
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2816
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_2819
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2823
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_2845
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_4 ,
 		told:_Tradition_7 ,
@@ -3343,26 +3343,26 @@ told:_Person_2845
 	.
 
 told:_Person_2854
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_2866
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_2871
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2872
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2882
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_4 ,
 		told:_Tradition_7 ,
@@ -3371,7 +3371,7 @@ told:_Person_2882
 	.
 
 told:_Person_2891
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_4 ,
 		told:_Tradition_42 ,
@@ -3381,54 +3381,54 @@ told:_Person_2891
 	.
 
 told:_Person_2896
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2899
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_29
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2912
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2915
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_2916
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_2919
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_2926
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2931
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2943
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2945
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2948
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27 ,
 		told:_Tradition_7
@@ -3436,54 +3436,54 @@ told:_Person_2948
 	.
 
 told:_Person_2949
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2950
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2952
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2973
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_2974
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_2980
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_2987
-	tolo:isAffiliatedWith told:_Tradition_72 ;
+	gist:isConnectedTo told:_Tradition_72 ;
 	.
 
 told:_Person_2992
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_2996
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_2997
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_3000
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_3006
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_4 ,
 		told:_Tradition_7
@@ -3491,88 +3491,88 @@ told:_Person_3006
 	.
 
 told:_Person_3008
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3010
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_3020
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_3028
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_303
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_3040
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3049
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3061
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3062
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3064
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3072
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3074
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3080
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3085
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3086
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3101
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_45 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_3107
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_3109
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3121
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_25 ,
@@ -3582,63 +3582,63 @@ told:_Person_3121
 	.
 
 told:_Person_3125
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_3134
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3139
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_45 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_3141
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3152
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_37
 		;
 	.
 
 told:_Person_3153
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_3165
-	tolo:isAffiliatedWith told:_Tradition_8 ;
+	gist:isConnectedTo told:_Tradition_8 ;
 	.
 
 told:_Person_3168
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_3169
-	tolo:isAffiliatedWith told:_Tradition_8 ;
+	gist:isConnectedTo told:_Tradition_8 ;
 	.
 
 told:_Person_3171
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3173
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3175
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_72 ,
 		told:_Tradition_8
@@ -3646,61 +3646,61 @@ told:_Person_3175
 	.
 
 told:_Person_3178
-	tolo:isAffiliatedWith told:_Tradition_8 ;
+	gist:isConnectedTo told:_Tradition_8 ;
 	.
 
 told:_Person_3181
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_22 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_3182
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_23 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_3188
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_3189
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_3191
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_3194
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_3200
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_3204
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_3208
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_3211
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_3225
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3266
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_48 ,
@@ -3711,80 +3711,80 @@ told:_Person_3266
 	.
 
 told:_Person_3274
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3296
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3307
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_3414
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3417
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_3436
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_3469
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_60 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_3485
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_3627
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_3673
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_3708
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3712
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3730
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3733
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3734
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3735
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3736
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_40 ,
 		told:_Tradition_7 ,
@@ -3793,26 +3793,26 @@ told:_Person_3736
 	.
 
 told:_Person_3738
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3739
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3743
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3744
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_4
 		;
 	.
 
 told:_Person_3753
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_26 ,
 		told:_Tradition_4 ,
 		told:_Tradition_7
@@ -3820,11 +3820,11 @@ told:_Person_3753
 	.
 
 told:_Person_3758
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3759
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_37 ,
 		told:_Tradition_4 ,
 		told:_Tradition_40 ,
@@ -3833,7 +3833,7 @@ told:_Person_3759
 	.
 
 told:_Person_3762
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_4 ,
 		told:_Tradition_7
@@ -3841,77 +3841,77 @@ told:_Person_3762
 	.
 
 told:_Person_3769
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3770
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_3778
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3782
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3783
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3784
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3785
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3786
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3788
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3789
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3791
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_37
 		;
 	.
 
 told:_Person_3792
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_37
 		;
 	.
 
 told:_Person_3793
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3794
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3795
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3822
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3866
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27 ,
 		told:_Tradition_72
@@ -3919,35 +3919,35 @@ told:_Person_3866
 	.
 
 told:_Person_3877
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_37
 		;
 	.
 
 told:_Person_3881
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_23 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_3883
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_3889
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_3890
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_42 ,
 		told:_Tradition_8
@@ -3955,42 +3955,42 @@ told:_Person_3890
 	.
 
 told:_Person_3902
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_3903
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_3904
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_3906
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_3907
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_3936
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_42 ,
 		told:_Tradition_8
@@ -3998,7 +3998,7 @@ told:_Person_3936
 	.
 
 told:_Person_3937
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7 ,
 		told:_Tradition_8
@@ -4006,14 +4006,14 @@ told:_Person_3937
 	.
 
 told:_Person_3938
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_3939
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_37 ,
 		told:_Tradition_7
@@ -4021,7 +4021,7 @@ told:_Person_3939
 	.
 
 told:_Person_3940
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7 ,
 		told:_Tradition_8
@@ -4029,38 +4029,38 @@ told:_Person_3940
 	.
 
 told:_Person_3957
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_3977
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_3989
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_40
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4000
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4002
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4028
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4043
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_25 ,
 		told:_Tradition_8
@@ -4068,18 +4068,18 @@ told:_Person_4043
 	.
 
 told:_Person_4077
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4080
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_4085
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_28 ,
 		told:_Tradition_67 ,
@@ -4089,25 +4089,25 @@ told:_Person_4085
 	.
 
 told:_Person_4086
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_7 ,
 		told:_Tradition_73
 		;
 	.
 
 told:_Person_4092
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4113
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_4114
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_28 ,
 		told:_Tradition_4 ,
@@ -4118,7 +4118,7 @@ told:_Person_4114
 	.
 
 told:_Person_4115
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_40 ,
 		told:_Tradition_7 ,
@@ -4127,18 +4127,18 @@ told:_Person_4115
 	.
 
 told:_Person_4119
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_4125
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4140
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_8
@@ -4146,37 +4146,37 @@ told:_Person_4140
 	.
 
 told:_Person_4141
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4150
-	tolo:isAffiliatedWith told:_Tradition_28 ;
+	gist:isConnectedTo told:_Tradition_28 ;
 	.
 
 told:_Person_4163
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4164
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_4166
-	tolo:isAffiliatedWith told:_Tradition_28 ;
+	gist:isConnectedTo told:_Tradition_28 ;
 	.
 
 told:_Person_4167
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_4168
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_37 ,
 		told:_Tradition_7 ,
@@ -4185,57 +4185,57 @@ told:_Person_4168
 	.
 
 told:_Person_4170
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_4175
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_23 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_4185
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4196
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4206
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4217
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_4219
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_4220
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_4224
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_4225
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_4227
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_4228
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_27 ,
@@ -4245,59 +4245,59 @@ told:_Person_4228
 	.
 
 told:_Person_4249
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_4259
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4261
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_4265
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4267
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_4272
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4276
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4277
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4278
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4279
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4280
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4282
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4285
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4291
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7 ,
 		told:_Tradition_8
@@ -4305,70 +4305,70 @@ told:_Person_4291
 	.
 
 told:_Person_4301
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_73
 		;
 	.
 
 told:_Person_4302
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4309
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4310
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_4314
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4327
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_4344
-	tolo:isAffiliatedWith told:_Tradition_26 ;
+	gist:isConnectedTo told:_Tradition_26 ;
 	.
 
 told:_Person_4348
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_4349
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_4350
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_4352
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_4354
-	tolo:isAffiliatedWith told:_Tradition_8 ;
+	gist:isConnectedTo told:_Tradition_8 ;
 	.
 
 told:_Person_4358
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_28 ,
@@ -4380,209 +4380,209 @@ told:_Person_4358
 	.
 
 told:_Person_4359
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_4368
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_45 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_4372
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4379
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4380
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4402
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4425
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4469
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4478
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4487
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4488
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4489
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4490
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4492
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4493
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4494
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4495
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4496
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4497
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4498
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4499
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4500
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4501
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4524
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4535
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4607
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4611
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_4622
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4626
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4630
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4631
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4632
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4642
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4659
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4660
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_4665
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4669
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4676
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4691
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4720
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4727
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4730
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_4820
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_490
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4903
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_494
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_495
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4986
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_4987
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_37 ,
 		told:_Tradition_48 ,
 		told:_Tradition_8
@@ -4590,185 +4590,185 @@ told:_Person_5
 	.
 
 told:_Person_5024
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5041
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5044
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5048
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5078
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5099
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5115
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5117
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5120
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5121
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5122
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5137
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5151
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5159
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5164
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5166
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5234
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5281
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5312
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5317
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5326
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_5328
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5331
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5338
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5360
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5371
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5381
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5386
-	tolo:isAffiliatedWith told:_Tradition_8 ;
+	gist:isConnectedTo told:_Tradition_8 ;
 	.
 
 told:_Person_5401
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_5406
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_5408
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_5410
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5415
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5426
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5432
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5436
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5437
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_5457
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5461
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5479
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5480
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5485
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5490
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5500
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_27 ,
@@ -4778,47 +4778,47 @@ told:_Person_5500
 	.
 
 told:_Person_5511
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_5527
-	tolo:isAffiliatedWith told:_Tradition_8 ;
+	gist:isConnectedTo told:_Tradition_8 ;
 	.
 
 told:_Person_5555
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_5588
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_5615
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_5626
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_5641
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_5644
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_37 ,
 		told:_Tradition_4
@@ -4826,11 +4826,11 @@ told:_Person_5644
 	.
 
 told:_Person_5652
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5693
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_27 ,
 		told:_Tradition_8
@@ -4838,19 +4838,19 @@ told:_Person_5693
 	.
 
 told:_Person_5706
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5717
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_5729
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5750
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_7 ,
 		told:_Tradition_8
@@ -4858,27 +4858,27 @@ told:_Person_5750
 	.
 
 told:_Person_5753
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_5777
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5786
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_5790
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_5791
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_5795
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_23 ,
 		told:_Tradition_27 ,
 		told:_Tradition_8
@@ -4886,78 +4886,78 @@ told:_Person_5795
 	.
 
 told:_Person_5796
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5801
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_5803
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_4
 		;
 	.
 
 told:_Person_5805
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_5817
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_5818
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_5819
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_5820
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_5822
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_5824
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5849
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_5858
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_5871
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_5889
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5897
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27 ,
 		told:_Tradition_37 ,
@@ -4966,97 +4966,97 @@ told:_Person_5897
 	.
 
 told:_Person_5899
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5901
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5902
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5910
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5924
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_5926
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_5927
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_5928
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_5932
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5953
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5985
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_5997
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_5999
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_6009
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6010
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_6025
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6037
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_6045
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6065
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_37 ,
 		told:_Tradition_40 ,
@@ -5066,37 +5066,37 @@ told:_Person_6065
 	.
 
 told:_Person_6076
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_6099
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_61
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_6100
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_6110
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6122
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_6134
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_42 ,
 		told:_Tradition_8
@@ -5104,14 +5104,14 @@ told:_Person_6134
 	.
 
 told:_Person_6138
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_6147
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_23 ,
 		told:_Tradition_42 ,
 		told:_Tradition_8
@@ -5119,7 +5119,7 @@ told:_Person_6147
 	.
 
 told:_Person_6159
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_59 ,
 		told:_Tradition_8
@@ -5127,56 +5127,56 @@ told:_Person_6159
 	.
 
 told:_Person_6161
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6175
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6185
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6194
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_4
 		;
 	.
 
 told:_Person_6198
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_620
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_6205
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_6214
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_6219
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6251
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_6257
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_28 ,
 		told:_Tradition_37 ,
@@ -5188,25 +5188,25 @@ told:_Person_6257
 	.
 
 told:_Person_6264
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_6275
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_4
 		;
 	.
 
 told:_Person_6278
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_6285
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_4 ,
 		told:_Tradition_67 ,
@@ -5215,118 +5215,118 @@ told:_Person_6285
 	.
 
 told:_Person_6286
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6331
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6332
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6333
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6334
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6335
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6336
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6337
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6338
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6339
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6340
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6341
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6342
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6343
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6344
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6345
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6346
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6348
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6349
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6350
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6351
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_6353
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6367
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_6373
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6374
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_6393
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_6395
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_6405
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_43 ,
 		told:_Tradition_7 ,
 		told:_Tradition_8
@@ -5334,34 +5334,34 @@ told:_Person_6405
 	.
 
 told:_Person_6412
-	tolo:isAffiliatedWith told:_Tradition_28 ;
+	gist:isConnectedTo told:_Tradition_28 ;
 	.
 
 told:_Person_6419
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6441
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_6452
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_6466
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6470
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_6489
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_27 ,
 		told:_Tradition_45 ,
@@ -5371,19 +5371,19 @@ told:_Person_6489
 	.
 
 told:_Person_6491
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_6493
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6498
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6499
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_7 ,
@@ -5392,113 +5392,113 @@ told:_Person_6499
 	.
 
 told:_Person_6502
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6505
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6526
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6529
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6535
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6536
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6547
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_23 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_6548
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6567
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_28
 		;
 	.
 
 told:_Person_6568
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_6578
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_6580
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6586
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6587
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_6620
-	tolo:isAffiliatedWith told:_Tradition_8 ;
+	gist:isConnectedTo told:_Tradition_8 ;
 	.
 
 told:_Person_6622
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_37
 		;
 	.
 
 told:_Person_6634
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6635
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6646
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_37
 		;
 	.
 
 told:_Person_6648
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6653
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_72
 		;
 	.
 
 told:_Person_6667
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6668
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_40 ,
 		told:_Tradition_8
@@ -5506,18 +5506,18 @@ told:_Person_6668
 	.
 
 told:_Person_6670
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6671
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_6672
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_37 ,
 		told:_Tradition_40 ,
 		told:_Tradition_8
@@ -5525,29 +5525,29 @@ told:_Person_6672
 	.
 
 told:_Person_6681
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_72
 		;
 	.
 
 told:_Person_6690
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6721
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_6723
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_6726
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_37 ,
 		told:_Tradition_8
@@ -5555,15 +5555,15 @@ told:_Person_6726
 	.
 
 told:_Person_6729
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6731
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6733
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_7 ,
 		told:_Tradition_8
@@ -5571,7 +5571,7 @@ told:_Person_6733
 	.
 
 told:_Person_6735
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_7 ,
 		told:_Tradition_72
@@ -5579,7 +5579,7 @@ told:_Person_6735
 	.
 
 told:_Person_6738
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_26 ,
@@ -5590,14 +5590,14 @@ told:_Person_6738
 	.
 
 told:_Person_6746
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_37
 		;
 	.
 
 told:_Person_6749
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_37 ,
 		told:_Tradition_54 ,
 		told:_Tradition_8
@@ -5605,7 +5605,7 @@ told:_Person_6749
 	.
 
 told:_Person_6756
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_37 ,
 		told:_Tradition_54 ,
 		told:_Tradition_8
@@ -5613,175 +5613,175 @@ told:_Person_6756
 	.
 
 told:_Person_6760
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6770
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6779
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_6788
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6793
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6801
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_6818
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6856
-	tolo:isAffiliatedWith told:_Tradition_8 ;
+	gist:isConnectedTo told:_Tradition_8 ;
 	.
 
 told:_Person_6872
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6874
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6892
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_6895
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_6910
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6928
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6929
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6935
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6940
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6953
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6962
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_37
 		;
 	.
 
 told:_Person_6978
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6979
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_6982
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_6997
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7007
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7024
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_7038
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_7040
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_7053
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_7064
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_7069
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7083
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7090
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_7093
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_4
 		;
 	.
 
 told:_Person_7105
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7107
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7113
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_7114
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_37 ,
 		told:_Tradition_4
@@ -5789,7 +5789,7 @@ told:_Person_7114
 	.
 
 told:_Person_7130
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_7 ,
 		told:_Tradition_8
@@ -5797,35 +5797,35 @@ told:_Person_7130
 	.
 
 told:_Person_7152
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_7162
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7164
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_7169
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7170
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7171
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7172
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7182
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27 ,
 		told:_Tradition_72
@@ -5833,26 +5833,26 @@ told:_Person_7182
 	.
 
 told:_Person_7230
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7232
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_7240
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7254
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_726
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_37 ,
 		told:_Tradition_7
@@ -5860,7 +5860,7 @@ told:_Person_726
 	.
 
 told:_Person_7272
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_27 ,
@@ -5870,31 +5870,31 @@ told:_Person_7272
 	.
 
 told:_Person_7294
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7297
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7305
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7326
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_7348
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_7370
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_7373
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_23 ,
 		told:_Tradition_4 ,
 		told:_Tradition_43 ,
@@ -5903,56 +5903,56 @@ told:_Person_7373
 	.
 
 told:_Person_7429
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_7442
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_72
 		;
 	.
 
 told:_Person_7512
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_7523
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_7525
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7545
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_7551
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_7559
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_7565
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7581
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_7582
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_8
@@ -5960,28 +5960,28 @@ told:_Person_7582
 	.
 
 told:_Person_7601
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_7622
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_7636
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_59 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_7637
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_22 ,
 		told:_Tradition_23 ,
 		told:_Tradition_45 ,
@@ -5992,7 +5992,7 @@ told:_Person_7637
 	.
 
 told:_Person_7641
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_22 ,
 		told:_Tradition_8
@@ -6000,56 +6000,56 @@ told:_Person_7641
 	.
 
 told:_Person_7644
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_7673
-	tolo:isAffiliatedWith told:_Tradition_8 ;
+	gist:isConnectedTo told:_Tradition_8 ;
 	.
 
 told:_Person_7676
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_7681
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_7718
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_7719
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_7732
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_7736
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_7743
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7767
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_7775
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_42 ,
 		told:_Tradition_7 ,
@@ -6059,52 +6059,52 @@ told:_Person_7775
 	.
 
 told:_Person_7803
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_7815
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_7870
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7874
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_7876
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7877
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7879
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7881
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7882
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7895
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27 ,
 		told:_Tradition_40 ,
@@ -6113,25 +6113,25 @@ told:_Person_7895
 	.
 
 told:_Person_7918
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_7937
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_7945
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_8
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_7 ,
@@ -6140,7 +6140,7 @@ told:_Person_8
 	.
 
 told:_Person_8027
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_4 ,
 		told:_Tradition_7
@@ -6148,7 +6148,7 @@ told:_Person_8027
 	.
 
 told:_Person_8028
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_40 ,
 		told:_Tradition_8
@@ -6156,70 +6156,70 @@ told:_Person_8028
 	.
 
 told:_Person_8069
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8076
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8079
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8085
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8086
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8097
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8099
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8101
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_72
 		;
 	.
 
 told:_Person_8103
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8105
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8106
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8107
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8108
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8109
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8116
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8126
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_28 ,
@@ -6232,15 +6232,15 @@ told:_Person_8126
 	.
 
 told:_Person_8128
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8156
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8177
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_37 ,
 		told:_Tradition_7 ,
@@ -6249,7 +6249,7 @@ told:_Person_8177
 	.
 
 told:_Person_8181
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_40 ,
@@ -6259,26 +6259,26 @@ told:_Person_8181
 	.
 
 told:_Person_8184
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8342
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8343
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_8354
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8355
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_40 ,
 		told:_Tradition_8
@@ -6286,7 +6286,7 @@ told:_Person_8355
 	.
 
 told:_Person_8361
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_40 ,
 		told:_Tradition_8
@@ -6294,37 +6294,37 @@ told:_Person_8361
 	.
 
 told:_Person_8397
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_84
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8454
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_41 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_8455
-	tolo:isAffiliatedWith told:_Tradition_41 ;
+	gist:isConnectedTo told:_Tradition_41 ;
 	.
 
 told:_Person_8456
-	tolo:isAffiliatedWith told:_Tradition_41 ;
+	gist:isConnectedTo told:_Tradition_41 ;
 	.
 
 told:_Person_8459
-	tolo:isAffiliatedWith told:_Tradition_8 ;
+	gist:isConnectedTo told:_Tradition_8 ;
 	.
 
 told:_Person_8460
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_40 ,
 		told:_Tradition_8
@@ -6332,223 +6332,223 @@ told:_Person_8460
 	.
 
 told:_Person_8472
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_37
 		;
 	.
 
 told:_Person_8474
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_8507
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_8536
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8538
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8539
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8543
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8549
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8551
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8562
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8563
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8566
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8567
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8571
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_4 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_8574
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8575
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8578
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8580
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8583
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8584
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8585
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8592
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8596
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_86
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8600
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8603
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8609
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8610
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8612
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_37
 		;
 	.
 
 told:_Person_8616
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8617
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8618
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8624
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8625
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8629
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8630
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8631
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_37
 		;
 	.
 
 told:_Person_8633
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8637
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_40 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_8650
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8651
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8675
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8730
-	tolo:isAffiliatedWith told:_Tradition_4 ;
+	gist:isConnectedTo told:_Tradition_4 ;
 	.
 
 told:_Person_8750
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8752
-	tolo:isAffiliatedWith told:_Tradition_28 ;
+	gist:isConnectedTo told:_Tradition_28 ;
 	.
 
 told:_Person_8753
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8754
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_4
 		;
 	.
 
 told:_Person_8757
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8782
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_40 ,
 		told:_Tradition_8
@@ -6556,30 +6556,30 @@ told:_Person_8782
 	.
 
 told:_Person_8825
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8857
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_37
 		;
 	.
 
 told:_Person_8860
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8861
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8868
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8891
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7 ,
 		told:_Tradition_8
@@ -6587,7 +6587,7 @@ told:_Person_8891
 	.
 
 told:_Person_8892
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_8
@@ -6595,11 +6595,11 @@ told:_Person_8892
 	.
 
 told:_Person_8906
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_8912
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_23 ,
 		told:_Tradition_7 ,
@@ -6608,11 +6608,11 @@ told:_Person_8912
 	.
 
 told:_Person_8923
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8964
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27 ,
 		told:_Tradition_42 ,
@@ -6622,15 +6622,15 @@ told:_Person_8964
 	.
 
 told:_Person_8972
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8975
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_8986
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_27 ,
@@ -6641,11 +6641,11 @@ told:_Person_8986
 	.
 
 told:_Person_9
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9030
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_67 ,
 		told:_Tradition_7 ,
@@ -6654,51 +6654,51 @@ told:_Person_9030
 	.
 
 told:_Person_9047
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9049
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9050
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9051
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9052
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9053
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9055
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9056
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9057
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9058
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9059
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9062
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27 ,
 		told:_Tradition_7
@@ -6706,11 +6706,11 @@ told:_Person_9062
 	.
 
 told:_Person_9083
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9095
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_4 ,
 		told:_Tradition_7
@@ -6718,31 +6718,31 @@ told:_Person_9095
 	.
 
 told:_Person_9105
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9121
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9126
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9141
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9158
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9169
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9171
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_42 ,
 		told:_Tradition_45 ,
 		told:_Tradition_8
@@ -6750,21 +6750,21 @@ told:_Person_9171
 	.
 
 told:_Person_9172
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_45 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_9190
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_9201
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_37 ,
@@ -6773,11 +6773,11 @@ told:_Person_9201
 	.
 
 told:_Person_9203
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9213
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27 ,
 		told:_Tradition_4 ,
@@ -6786,7 +6786,7 @@ told:_Person_9213
 	.
 
 told:_Person_9254
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27 ,
 		told:_Tradition_45 ,
@@ -6795,34 +6795,34 @@ told:_Person_9254
 	.
 
 told:_Person_9287
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9297
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9333
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9343
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9355
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9361
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_9372
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_24 ,
 		told:_Tradition_28 ,
@@ -6831,19 +6831,19 @@ told:_Person_9372
 	.
 
 told:_Person_9383
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9394
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9442
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9482
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_4 ,
 		told:_Tradition_7
@@ -6851,134 +6851,134 @@ told:_Person_9482
 	.
 
 told:_Person_9513
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9523
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9525
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9546
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9572
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_9574
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9579
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9585
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9588
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_9589
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9590
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_27
 		;
 	.
 
 told:_Person_9593
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9594
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_96
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9601
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9612
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9618
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9622
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_9624
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9634
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_24 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_9646
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9688
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9690
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9693
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9703
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9712
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9750
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9753
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9761
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_7 ,
 		told:_Tradition_77 ,
 		told:_Tradition_8
@@ -6986,29 +6986,29 @@ told:_Person_9761
 	.
 
 told:_Person_9764
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_77 ,
 		told:_Tradition_8
 		;
 	.
 
 told:_Person_9788
-	tolo:isAffiliatedWith told:_Tradition_7 ;
+	gist:isConnectedTo told:_Tradition_7 ;
 	.
 
 told:_Person_9789
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_28 ,
 		told:_Tradition_7
 		;
 	.
 
 told:_Person_9795
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9839
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_27 ,
 		told:_Tradition_37 ,
 		told:_Tradition_40 ,
@@ -7017,19 +7017,19 @@ told:_Person_9839
 	.
 
 told:_Person_9873
-	tolo:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	.
 
 told:_Person_9884
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9895
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9923
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_7 ,
 		told:_Tradition_8
@@ -7037,23 +7037,23 @@ told:_Person_9923
 	.
 
 told:_Person_9929
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9935
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9945
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9985
-	tolo:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	.
 
 told:_Person_9990
-	tolo:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Tradition_1 ,
 		told:_Tradition_67 ,
 		told:_Tradition_7 ,
