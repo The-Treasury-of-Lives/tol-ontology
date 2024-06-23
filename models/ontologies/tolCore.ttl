@@ -138,23 +138,6 @@ tolo:Birth
 	skos:prefLabel "Birth"@en ;
 	.
 
-tolo:BuildingType
-	a owl:Class ;
-	rdfs:subClassOf
-		gist:Category ,
-		[
-			a owl:Restriction ;
-			owl:onProperty [
-				owl:inverseOf gist:isCategorizedBy ;
-			] ;
-			owl:allValuesFrom gist:Building ;
-		]
-		;
-	skos:definition "Indicates the specific type of a building."@en ;
-	skos:example "Manor, government building, palace, temple."@en ;
-	skos:prefLabel "Building Type"@en ;
-	.
-
 tolo:Death
 	a owl:Class ;
 	rdfs:subClassOf
@@ -373,23 +356,6 @@ tolo:KinshipGroupType
 	skos:scopeNote "Currently only one type is defined."@en ;
 	.
 
-tolo:LandmarkType
-	a owl:Class ;
-	rdfs:subClassOf
-		gist:Category ,
-		[
-			a owl:Restriction ;
-			owl:onProperty [
-				owl:inverseOf gist:isCategorizedBy ;
-			] ;
-			owl:allValuesFrom gist:Landmark ;
-		]
-		;
-	skos:definition "Indicates the specific type of a landmark."@en ;
-	skos:example "Stupa, hermitage, lake, mountain, hidden land, cave"@en ;
-	skos:prefLabel "Landmark Type"@en ;
-	.
-
 tolo:Marriage
 	a owl:Class ;
 	owl:equivalentClass [
@@ -547,6 +513,40 @@ tolo:Person
 		"mi"@bo-x-ewts
 		;
 	skos:scopeNote "May include quasi-historical figures. Encompasses persons from other data sources, such as BDRC, who are referenced from biographies but do not have a biography on the ToL site. Other persons in the data such as users, subscriber contacts, and authors are instances of gist:Person rather than tolo:Person (unless they also become the subject of a biography)."@en ;
+	.
+
+tolo:PlaceFunction
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom gist:Place ;
+		]
+		;
+	skos:definition "A category indicating a kind of place, generally man-made, based on function."@en ;
+	skos:example "Monastery, dharma center, school, hospital, etc."@en ;
+	skos:prefLabel "Place Function"@en ;
+	.
+
+tolo:PlaceType
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom gist:Place ;
+		]
+		;
+	skos:definition "A category indicating a kind of place based on physical features."@en ;
+	skos:example "Lake, mountain, hidden land, cave."@en ;
+	skos:prefLabel "Place Type"@en ;
 	.
 
 tolo:Reference

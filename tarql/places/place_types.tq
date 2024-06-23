@@ -55,7 +55,19 @@ WHERE {
     # FILTER(?ROWNUM IN (1, 7, 13)) 
 
     BIND(LCASE(REPLACE(?Site__Place__Type, " ", "_")) AS ?type)
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_", ?Class, "Type_", ?type)) AS ?type_iri)
+
+    # Category
+    BIND(
+        COALESCE(
+            IF(?type IN ("cave", "hidden_land", "lake", "mountain"), "PlaceType", ?unbound),
+            IF(?type IN ("government_building", "hermitage", "manor",  "palace", "stupa", "temple"), "PlaceFunction", ?unbound),
+            "InstitutionType"
+        ) AS ?category_class
+    )
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_", ?category_class, "_", ?type)) AS ?type_iri)
+
+    # Category class
+    BIND(tarql:expandPrefixedName(CONCAT("tolo:", ?category_class)) AS ?class_iri)
 
     # owl:sameAs
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_ID)) AS ?bdrc_iri)
@@ -66,12 +78,6 @@ WHERE {
     BIND(STRLANG(?Wylie, "bo-x-ewts") AS ?label_wylie)
     BIND(STRLANG(?Tibetan, "bo") AS ?label_tibetan)
     BIND(STRLANG(?Chinese, "zh-Hani") AS ?label_chinese)
-
-    BIND(IF(?Class = "Institution", 
-            tarql:expandPrefixedName(CONCAT("tolo:", "InstitutionType")), 
-            tarql:expandPrefixedName(CONCAT("gist:", ?Class, "Type"))       
-        ) AS ?class_iri)
-
 
     BIND(STRLANG(?Definition, "en") AS ?definition_en)
 }
