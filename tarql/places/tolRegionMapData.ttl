@@ -8,7 +8,6 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix relators: <ttp://id.loc.gov/vocabulary/relators/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
 @prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
@@ -17,10 +16,34 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-told:_TeacherStudentRelationship_2069_12743
-	a tolo:TeacherStudentRelationship ;
-	skos:prefLabel "Teacher 2069 - Student 12743"@en ;
-	gist:hasGiver told:_Person_2069 ;
-	gist:hasRecipient told:_Person_12743 ;
+told:_FormattedContent_MapRegion_27
+	a gist:FormattedContent ;
+	gist:containedText "<h2 class='tsang spaced-1' id='demo1'>TSANG</h2>"@en ;
+	gist:isExpressedIn media-txt:html ;
+	.
+
+told:_GeoPoint_29.42325_88.82994
+	a gist:GeoPoint ;
+	gist:latitude "29.42325"^^xsd:decimal ;
+	gist:longitude "88.82994"^^xsd:decimal ;
+	.
+
+told:_GeoRegion_27
+	a gist:GeoRegion ;
+	skos:prefLabel
+		"TSANG"@en ,
+		"gtsang"@bo-x-ewts ,
+		"གཙང།"@bo
+		;
+	gist:isCategorizedBy
+		tolx:_MapRegionType_region ,
+		tolx:_RegionType_sub_region
+		;
+	tolo:displayText told:_FormattedContent_MapRegion_27 ;
+	tolo:hasDisplayGeoPoint told:_GeoPoint_29.42325_88.82994 ;
+	tolo:hasMappingPriority tolx:_MappingPriority_2 ;
+	tolo:maxZoomLevel "8"^^xsd:integer ;
+	tolo:minZoomLevel "6"^^xsd:integer ;
+	tolo:zoomLevelOnClick "6"^^xsd:integer ;
 	.
 
