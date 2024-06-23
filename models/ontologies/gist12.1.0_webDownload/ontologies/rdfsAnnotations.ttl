@@ -1,0 +1,1878 @@
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+gist:Account
+	rdfs:label "Account"@en ;
+	rdfs:comment "DEFINITION: An agreement having a balance, as in a bank account, or credit card account, or Accounts Receivable account."@en ;
+	.
+
+gist:Actuator
+	rdfs:label "Actuator"@en ;
+	rdfs:comment "DEFINITION: A device that can affect the real world via a message interface"@en ;
+	.
+
+gist:Address
+	rdfs:label "Address"@en ;
+	rdfs:comment "DEFINITION: A reference to a place (real or virtual) that can be located by some routing algorithm, and where messages or things can be sent to or retrieved from. E.g. PO Box or URL to a PDF file."@en ;
+	.
+
+gist:Agreement
+	rdfs:label "Agreement"@en ;
+	rdfs:comment "DEFINITION: Something which two or more People or Organizations mutually commit to do."@en ;
+	.
+
+gist:Area
+	rdfs:label "Area"@en ;
+	rdfs:comment "DEFINITION: A measurement of two-dimensional space."@en ;
+	.
+
+gist:AreaUnit
+	rdfs:label "Area Unit"@en ;
+	rdfs:comment "DEFINITION: A unit of two-dimensional area, such as square inches or hectares."@en ;
+	.
+
+gist:Artifact
+	rdfs:label "Artifact"@en ;
+	rdfs:comment "DEFINITION: An intentional, person-made thing, which could be physical or content"@en ;
+	.
+
+gist:Aspect
+	rdfs:label "Aspect"@en ;
+	rdfs:comment "DEFINITION: A very general term for the characteristic of something that is being measured.  E.g., property (height) or a process (cycle time) or a behavior (loyalty)."@en ;
+	.
+
+gist:Balance
+	rdfs:label "Balance"@en ;
+	rdfs:comment "DEFINITION: An amount decremented or incremented by a series of transactions."@en ;
+	.
+
+gist:BaseUnit
+	rdfs:label "Base Unit"@en ;
+	rdfs:comment "DEFINITION: A primitive unit that cannot be decomposed into other units. It can be converted from one measurement system to another.  The base units in gist are the seven primitive units from the System Internationale (SI): (meter, second, kilogram, ampere, kelvin, mole, candela), plus three convenience ones: each. bit and usDollar."@en ;
+	.
+
+gist:Behavior
+	rdfs:label "Behavior"@en ;
+	rdfs:comment "DEFINITION: A way of categorizing events.  E.g., differentiating drilling versus cutting."@en ;
+	.
+
+gist:Building
+	rdfs:label "Building"@en ;
+	rdfs:comment
+		"DEFINITION: A relatively permanent man-made structure situated on a plot of land, having a roof and walls, commonly used for dwelling, entertaining, or working."@en ,
+		"EXAMPLE: A house, school, store, factory, chicken coop."@en ,
+		"EXAMPLE: Negative examples: houseboats (not built on land), caves (not man-made), food trucks and RVs (not permanently situated)."@en ,
+		"NOTE: User discretion can be applied to edge cases: e.g., is a traditional yurt 'relatively permanently situated' although it is portable and has a tent-like construction?"@en
+		;
+	.
+
+gist:BundledCatalogItem
+	rdfs:label "Bundled Catalog Item"@en ;
+	rdfs:comment "DEFINITION: Any combination of descriptions of things offered together.  Could be a kit (several parts offered together), but could also be a product plus a warranty."@en ;
+	.
+
+gist:CatalogItem
+	rdfs:label "Catalog Item"@en ;
+	rdfs:comment
+		"DEFINITION: A description of a product or service to be delivered, given in a sufficient level of detail that a receiver could determine whether delivery constituted discharge of the obligation to deliver."@en ,
+		"NOTE: In short, an unambiguous characterization of what it is that a potential buyer is paying for."@en
+		;
+	.
+
+gist:Category
+	rdfs:label "Category"@en ;
+	rdfs:comment
+		"DEFINITION: A concept or label used to categorize other instances without specifying any formal semantics. Things that can be thought of as types are often categories."@en ,
+		"EXAMPLE: Tags used in folksonomies; formal definitions from other systems."@en ,
+		"NOTE: Often a type can be modeled either as an owl:Class or as a gist:Category. Use the latter if you don't care much about the formal structure of the different types, or if there is a whole hierarchy of types that are going to be managed by a group separate from the ontology developers. The formal structure may be defined elsewhere and linked to, if necessary."@en
+		;
+	.
+
+gist:CoherentProductUnit
+	rdfs:label "Coherent Product Unit"@en ;
+	rdfs:comment
+		"DEFINITION: A product unit both of whose factors are coherent units. The conversion factor is 1."@en ,
+		"EXAMPLE: Square meter, an area unit."@en
+		;
+	.
+
+gist:CoherentRatioUnit
+	rdfs:label "Coherent Ratio Unit"@en ;
+	rdfs:comment
+		"DEFINITION: A ratio unit whose conversion factor is 1."@en ,
+		"EXAMPLE: Newton, a force unit also expressed as kg-m/s^2"@en
+		;
+	.
+
+gist:CoherentUnit
+	rdfs:label "Coherent Unit"@en ;
+	rdfs:comment
+		"DEFINITION: A unit that is expressed in units that have no conversions.  It may be a simple unit.  It may also be a product or ratio unit that bottoms out in simple units."@en ,
+		"EXAMPLE: A simple unit: kilogram"@en ,
+		"EXAMPLE: The standard unit for acceleration is meters per square second (feet per square second  requires a conversion)"@en ,
+		"NOTE: Coherent unit is the physics term for this, informally you might think of it as the standard unit for a given dimension."@en ,
+		"NOTE: In principle, the CoherentUnit for a ProductUnit or RatioUnit can be inferred by recursively decomposing the products and ratios into their respective CoherentUnits, bottoming out in SimpleUnits"@en
+		;
+	.
+
+gist:Collection
+	rdfs:label "Collection"@en ;
+	rdfs:comment
+		"DEFINITION: A grouping of things."@en ,
+		"EXAMPLE: A jury is a group of people, a financial ledger is a collection of transaction entries; a route is an (ordered) collection of segments."@en ,
+		"NOTE: Individuals are placed in the collection using the gist:hasMember property. Collections typically are created because the members are functionally connected in some way. This definition allows a collection to have zero members."@en
+		;
+	.
+
+gist:Commitment
+	rdfs:label "Commitment"@en ;
+	rdfs:comment "DEFINITION: An obligation (possibly unilateral)."@en ;
+	.
+
+gist:Component
+	rdfs:label "Component"@en ;
+	rdfs:comment "DEFINITION: A component is an artifact that contributes to a system.  Could be a simple mechanical component, such as the float contributing to the toilet tank maintaining a constant level, or much more complex as in the internet of things."@en ;
+	.
+
+gist:ContemporaryEvent
+	rdfs:label "Contemporary Event"@en ;
+	rdfs:comment
+		"DEFINITION: An event that has started but has not yet ended."@en ,
+		"NOTE: When the event actually ends, it will cease being contemporary."@en
+		;
+	.
+
+gist:Content
+	rdfs:label "Content"@en ;
+	rdfs:comment "DEFINITION: A document, program, image, etc.  (Categories are not content until they are written down.)"@en ;
+	.
+
+gist:ContentExpression
+	rdfs:label "Content Expression"@en ;
+	rdfs:comment "DEFINITION: Intellectual Property reduced to text, audio etc.  If it contains text (written or spoken), it may be in a language."@en ;
+	.
+
+gist:ContingentEvent
+	rdfs:label "Contingent Event"@en ;
+	rdfs:comment
+		"DEFINITION: An event with a probability of happening in the future, and usually dependent upon some other event or condition."@en ,
+		"EXAMPLE: Fire insurance is contingent on a particular building burning down"@en ,
+		"EXAMPLE: Sell 20 shares of stock in a given company when the price drops below $200/share."@en ,
+		"EXAMPLE: The death benefit payout on a life insurance policy following the death of a specific person."@en
+		;
+	.
+
+gist:ContingentObligation
+	rdfs:label "Contingent Obligation"@en ;
+	rdfs:comment
+		"DEFINITION: An obligation that is not yet firm.  There is some contingent event, the occurrence of which will cause the obligation to become firm."@en ,
+		"NOTE: A contingent obligation might have a getter counterparty (as in the case of insurance); but it might not (as in the case of an offer)."@en
+		;
+	.
+
+gist:Contract
+	rdfs:label "Contract"@en ;
+	rdfs:comment "DEFINITION: An Agreement which can be enforced by law"@en ;
+	.
+
+gist:ContractTerm
+	rdfs:label "Contract Term"@en ;
+	rdfs:comment "DEFINITION: A specification of some aspect of a contract."@en ;
+	.
+
+gist:ControlledVocabulary
+	rdfs:label "Controlled Vocabulary"@en ;
+	rdfs:comment "DEFINITION: A collection of terms approved and managed by some organization or person."@en ;
+	.
+
+gist:Controller
+	rdfs:label "Controller"@en ;
+	rdfs:comment "DEFINITION: A device that takes messages or signals from a sensor and decides through algorithms whether and which actuator to fire via messages"@en ;
+	.
+
+gist:ControllerType
+	rdfs:label "Controller Type"@en ;
+	rdfs:comment "DEFINITION: A kind of controller."@en ;
+	.
+
+gist:Count
+	rdfs:label "Count"@en ;
+	rdfs:comment
+		"DEFINITION: A measure that involves countable amounts (?eaches? as well as cases, etc.). Can be decimal."@en ,
+		"NOTE: Count is not disjoint with all the other magnitudes, as there are some magnitudes that could conceivably be counted."@en
+		;
+	.
+
+gist:CountingUnit
+	rdfs:label "Counting Unit"@en ;
+	rdfs:comment "DEFINITION: A unit of counting, especially ?each?, but also units such as dozens."@en ;
+	.
+
+gist:CountryGeoRegion
+	rdfs:label "Country Geo-Region"@en ;
+	rdfs:comment "DEFINITION: A defined geographical area (or areas) governed by exactly one country government."@en ;
+	.
+
+gist:CountryGovernment
+	rdfs:label "Country Government"@en ;
+	rdfs:comment
+		"DEFINITION: A Government Organization which asserts both sovereignty (i.e., it is not governed by some other government organization) and governance over an entity generally recognized as a 'country'."@en ,
+		"NOTE: While a country government may enter into treaties with other country governments, there are no governing relationships among the treaty members."@en
+		;
+	.
+
+gist:CurrencyPerDurationUnit
+	rdfs:label "Currency per Duration Unit"@en ;
+	rdfs:comment "DEFINITION: A unit for measuring a monetary amount over a period of time, such as dollars/hour or euros/month."@en ;
+	.
+
+gist:CurrencyUnit
+	rdfs:label "Currency Unit"@en ;
+	rdfs:comment "DEFINITION: A unit of money. Note: this is the only unit whose conversion factors include time (i.e., the conversion rates change on a daily basis)."@en ;
+	.
+
+gist:DataSizeUnit
+	rdfs:label "Data Size Unit"@en ;
+	rdfs:comment "DEFINITION: A unit to measure amounts of digital information."@en ;
+	.
+
+gist:DegreeOfCommitment
+	rdfs:label "Degree Of Commitment"@en ;
+	rdfs:comment
+		"DEFINITION: The difficulty of reversing a commitment."@en ,
+		"EXAMPLE: A car rental typically has a lower degree of commitment than an airfare reservation."@en
+		;
+	.
+
+gist:DistanceUnit
+	rdfs:label "Distance Unit"@en ;
+	rdfs:comment "DEFINITION: A unit to measure linear distance, such as feet or kilometers."@en ;
+	.
+
+gist:Duration
+	rdfs:label "Duration"@en ;
+	rdfs:comment
+		"DEFINITION: Time, but not on a timeline."@en ,
+		"EXAMPLE: One week (or seven days), but not Jan 1, 2008 to Jan 7, 2008 (which is an interval)."@en ,
+		"NOTE: Intervals have durations, but are not themselves durations."@en
+		;
+	.
+
+gist:DurationUnit
+	rdfs:label "Duration Unit"@en ;
+	rdfs:comment "DEFINITION: A unit to measure passage of time: hours, days, years."@en ;
+	.
+
+gist:ElectricCurrent
+	rdfs:label "Electric Current"@en ;
+	rdfs:comment "DEFINITION: A flow of electric charge."@en ;
+	.
+
+gist:ElectricalCurrentUnit
+	rdfs:label "Electrical Current Unit"@en ;
+	rdfs:comment "DEFINITION: Unit of electrical current, which is charge per unit time.  The SI unit is the ampere.  (Note that electrical current is a composed unit.)"@en ;
+	.
+
+gist:ElectronicMessageAddress
+	rdfs:label "Electronic Message Address"@en ;
+	rdfs:comment "DEFINITION: Any place an electronic message (email, fax, etc.) can be sent."@en ;
+	.
+
+gist:EmailAddress
+	rdfs:label "Email Address"@en ;
+	rdfs:comment "DEFINITION: An email address is a unique identifier for an email account. It is used to both send and receive email messages over the Internet."@en ;
+	.
+
+gist:Equipment
+	rdfs:label "Equipment"@en ;
+	rdfs:comment "DEFINITION: Tangible property other than land or buildings.  Any kind of equipment, could be machine, router, car etc."@en ;
+	.
+
+gist:EquipmentType
+	rdfs:label "Equipment Type"@en ;
+	rdfs:comment "DEFINITION: Categories of equipment"@en ;
+	.
+
+gist:Event
+	rdfs:label "Event"@en ;
+	rdfs:comment
+		"DEFINITION: Something that occurs over a period of time, often characterized as an activity being carried out by some person, organization, or software application or brought about by natural forces."@en ,
+		"EXAMPLE: A transaction, conference, baseball game, earthquake."@en ,
+		"NOTE: An event does not necessarily have either planned or actual start or end datetimes. For example, a conference can be in the planning phase without any dates selected, but is nevertheless an (unscheduled) event. The subclasses of Event state particular restrictions on planned and actual start and end dates."@en ,
+		"NOTE: An event occurs during a time interval, which is distinct from the event."@en
+		;
+	.
+
+gist:Extent
+	rdfs:label "Extent"@en ;
+	rdfs:comment "DEFINITION: A measure of distance, which could be distances over the Earth, and could also be height, width, length, depth, girth, etc."@en ;
+	.
+
+gist:FormattedContent
+	rdfs:label "Formatted Content"@en ;
+	rdfs:comment "DEFINITION: Content which is in a particular format. (E.g., HTML, PDF, JPG.)"@en ;
+	.
+
+gist:Function
+	rdfs:label "Function"@en ;
+	rdfs:comment "DEFINITION: A function is what a specific made item is intended to do.  For instance: transmit electricity, provide ballast, control ambient temperature."@en ;
+	.
+
+gist:GeneralMediaType
+	rdfs:label "General Media Type"@en ;
+	rdfs:comment
+		"DEFINITION: The real-world media type for content."@en ,
+		"EXAMPLE: Audio, still image, video, textual, physical (e.g., a statue), or performance (i.e. a play).  Or it could be oil or pastel for a painting."@en
+		;
+	.
+
+gist:GeoPoint
+	rdfs:label "Geo Point"@en ;
+	rdfs:comment
+		"DEFINITION: An individual point on the Earth's surface, identified by latitude, longitude and altitude. If altitude is missing, it is assumed to be at the Earth's surface.  However, altitude is measured from sea level.  these points are to the WGS-84 coordinate system using the GPS decimal lat/long"@en ,
+		"NOTE: Assume coordinate system used by Google (WGS 84 Web Mercator)."@en
+		;
+	.
+
+gist:GeoRegion
+	rdfs:label "Geo Region"@en ;
+	rdfs:comment
+		"DEFINITION: A bounded region (or set of regions) on the surface of the Earth."@en ,
+		"EXAMPLE: The bounded shape that defines the region occupied by Crater Lake; the bounded area known as the contiguous USA."@en ,
+		"NOTE: A GeoRegion could be non-contiguous; e.g. the region governed by the USA is the region governed by the lower 48 states plus that of Alaska and Hawaii.  Child classes in lower ontologies can make this distinction."@en ,
+		"NOTE: A GeoRegion has an area, but it is not itself an instance of the Area class.  (Area in gist is a magnitude)."@en
+		;
+	.
+
+gist:GeoRoute
+	rdfs:label "Geo Route"@en ;
+	rdfs:comment "DEFINITION: An ordered set of GeoPoints that defines a path from starting point to ending point."@en ;
+	.
+
+gist:GeoSegment
+	rdfs:label "Geo Segment"@en ;
+	rdfs:comment "DEFINITION: A single portion of a GeoRegion which has been divided (i.e., segmented)."@en ;
+	.
+
+gist:GeoVolume
+	rdfs:label "Geo Volume"@en ;
+	rdfs:comment "DEFINITION: A three-dimensional space on or near the surface of the Earth, such as an oil reservoir, the body of a lake, or an airspace."@en ;
+	.
+
+gist:Goal
+	rdfs:label "Goal"@en ;
+	rdfs:comment "DEFINITION: A specific intentional endpoint.  One can tell whether it has been achieved, as opposed to an intention, which may not have an evaluation function."@en ;
+	.
+
+gist:GovernedGeoRegion
+	rdfs:label "Governed Geo-Region"@en ;
+	rdfs:comment
+		"DEFINITION: A defined geographic area or areas governed by at least one government organization."@en ,
+		"NOTE: Geographic regions do not need not be physically contiguous in order to constitute a governed geo-region; e.g., Alaska and Hawaii."@en
+		;
+	.
+
+gist:GovernmentOrganization
+	rdfs:label "Government Organization"@en ;
+	rdfs:comment
+		"DEFINITION: An organization which exercises political and/or regulatory authority over a political unit, people, geo-region, etc., as well as performing certain functions for this unit or body. Differs from a corporation in that it cannot be owned."@en ,
+		"EXAMPLE: The State of Washington Office of Financial Management; the Food and Drug Administration; the Scottish Parliament."@en ,
+		"NOTE: Includes administrative, regulatory, and enforcement organizations created or sanctioned by Country or SubCountry Governments."@en
+		;
+	.
+
+gist:HistoricalEvent
+	rdfs:label "Historical Event"@en ;
+	rdfs:comment "DEFINITION: An event which occurred in time, with an actual end earlier than the present moment."@en ;
+	.
+
+gist:ID
+	rdfs:label "ID"@en ;
+	rdfs:comment
+		"DEFINITION: Content that is used to uniquely identify something or someone."@en ,
+		"EXAMPLE: SSN for a person; serial number for a product; employee ID."@en ,
+		"NOTE: This is used in conjunction with gist:isIdentifiedBy"@en
+		;
+	.
+
+gist:InformationQuantity
+	rdfs:label "Information Quantity"@en ;
+	rdfs:comment "DEFINITION: An amount of data, such as 6 petabytes, or 640KB."@en ;
+	.
+
+gist:IntellectualProperty
+	rdfs:label "Intellectual Property"@en ;
+	rdfs:comment
+		"DEFINITION: A work, invention or concept, independent of its being expressed in text, audio, video, image, or live performance.  IP can also be tacit knowledge, know-how, or skill. Also includes Brands."@en ,
+		"EXAMPLE: The Old Man and The Sea; the Page Rank algorithm; Coca Cola"@en ,
+		"NOTE: For literature this could be called the ?Work?, except that ?work? is a highly overloaded term (expenditure of energy, resource consumption, art).  Often the first expression precedes our recognition of the IP, but subsequent expressions are known to be derivatives of the IP, even if they are expression-to-expression translations (or copies)."@en
+		;
+	.
+
+gist:Intention
+	rdfs:label "Intention"@en ;
+	rdfs:comment 'DEFINITION: Goal, desire, aspiration. This is the "teleologic" aspect of the system that indicates things are done with a purpose.'@en ;
+	.
+
+gist:IntergovernmentalOrganization
+	rdfs:label "Intergovernmental Organization"@en ;
+	rdfs:comment
+		"DEFINITION: An organization whose members are government organizations. This can comprise regional, municipal, state/province, or national level entities."@en ,
+		"EXAMPLE: The United Nations, the European Union, the MTA (Metropolitan Transit Authority)"@en
+		;
+	.
+
+gist:Landmark
+	rdfs:label "Landmark"@en ;
+	rdfs:comment "DEFINITION: Something permanently attached to the Earth."@en ;
+	.
+
+gist:Language
+	rdfs:label "Language"@en ;
+	rdfs:comment
+		"DEFINITION: A recognized, organized set of symbols and grammar."@en ,
+		"EXAMPLE: Natural languages such as English and Spanish; computer languages such as OWL, Python, and XML."@en
+		;
+	.
+
+gist:LivingThing
+	rdfs:label "Living Thing"@en ;
+	rdfs:comment
+		"DEFINITION: Something that is currently, or at some point in time was, alive."@en ,
+		"EXAMPLE: A cat, a mushroom, a tree."@en ,
+		"EXAMPLE: Negative examples: fictional life forms such as unicorns or Mickey Mouse."@en ,
+		"NOTE: Not all life forms have exactly two parents, so the restriction only specifies a minimum of one."@en
+		;
+	.
+
+gist:LuminousIntensity
+	rdfs:label "Luminous Intensity"@en ;
+	rdfs:comment "DEFINITION: A measure of the wavelength-weighted power emitted by a light source in a particular direction per unit solid angle.  This is based on the luminosity function, a standardized model of the sensitivity of the human eye."@en ;
+	.
+
+gist:LuminousIntensityUnit
+	rdfs:label "Luminous Intensity Unit"@en ;
+	rdfs:comment "DEFINITION: The measure of brightness. The SI unit is the candela."@en ;
+	.
+
+gist:Magnitude
+	rdfs:label "Magnitude"@en ;
+	rdfs:comment
+		"DEFINITION: A quantity expressed with a unit of measure and a number."@en ,
+		"EXAMPLE: 3 millimeters; 70 miles per hour; 110 degrees F"@en ,
+		"NOTE: Magnitudes of the same dimensional type (i.e., duration or electric current) can be compared with a greater-than or less-than operator, but can still differ in their relationToTheWorld type.  (I.e., you can compare actuals to estimates or references, so long as the dimension is the same.)"@en ,
+		"NOTE: The precision should be in the same type of unit as the magnitude."@en
+		;
+	.
+
+gist:Mass
+	rdfs:label "Mass"@en ;
+	rdfs:comment "DEFINITION: Magnitude of mass."@en ;
+	.
+
+gist:MassUnit
+	rdfs:label "Mass Unit"@en ;
+	rdfs:comment "DEFINITION: A unit representing the amount of matter in a particle or object.  The SI unit of mass is the kilogram."@en ;
+	.
+
+gist:MediaType
+	rdfs:label "Media Type"@en ;
+	rdfs:comment "DEFINITION: A digitized type that computer applications can recognize."@en ;
+	.
+
+gist:Medium
+	rdfs:label "Medium"@en ;
+	rdfs:comment "DEFINITION: A physicality on which a work could be implemented or exposed. E.g., paper, clay, or a computer monitor."@en ;
+	.
+
+gist:Message
+	rdfs:label "Message"@en ;
+	rdfs:comment
+		"DEFINITION: A specific instance of content sent from a sender to at least one other recipient."@en ,
+		"EXAMPLE: An email message, a phone call, a voice message, or a Web Service message."@en
+		;
+	.
+
+gist:MessageDefinition
+	rdfs:label "Message Definition"@en ;
+	rdfs:comment "DEFINITION: Each pulse from a Sensor is reflected in a message, as well as each instruction to an Actuator"@en ;
+	.
+
+gist:MolarQuantity
+	rdfs:label "Molar Quantity"@en ;
+	rdfs:comment "DEFINITION: Amount of a substance, as counted molecules."@en ;
+	.
+
+gist:MoleUnit
+	rdfs:label "Mole Unit"@en ;
+	rdfs:comment "DEFINITION: Amount of chemical material.  Measured in Avogadro units (moles) of 6.02 x 10^23 molecules."@en ;
+	.
+
+gist:Monetary
+	rdfs:label "Monetary"@en ;
+	rdfs:comment "DEFINITION: A special type of magnitude, due to the way rounding is handled in math and the temporal aspect of conversion."@en ;
+	.
+
+gist:MonetaryPerDuration
+	rdfs:label "Monetary per Duration"@en ;
+	rdfs:comment
+		"DEFINITION: An amount of money over a period of time."@en ,
+		"EXAMPLE: 20 dollars per hour, 2000 euros per week."@en
+		;
+	.
+
+gist:Network
+	rdfs:label "Network"@en ;
+	rdfs:comment
+		"DEFINITION: A network is a set of nodes connected by links."@en ,
+		"EXAMPLE: A physical network could include connected computers or routers, whereas a social network would consist of related Person or Organization instances."@en
+		;
+	.
+
+gist:NetworkLink
+	rdfs:label "Network Link"@en ;
+	rdfs:comment
+		"DEFINITION: An abstract representation of the connection between two or more nodes in a network."@en ,
+		"EXAMPLE: A network link may be physical, such as pipes, wired or wireless networks, but may also be a link in a non-physical network, such as organizational structures or social networks."@en ,
+		"NOTE: Each NetworkLink is connected to a NetworkNode via the property 'gist:links' or one of its subproperties."@en
+		;
+	.
+
+gist:NetworkNode
+	rdfs:label "Network Node"@en ;
+	rdfs:comment
+		"DEFINITION: A node in a network."@en ,
+		"EXAMPLE: A person is a node in a social network; a valve is a node in a network of pipes."@en
+		;
+	.
+
+gist:Obligation
+	rdfs:label "Obligation"@en ;
+	rdfs:comment
+		"DEFINITION: A future commitment from one organization or person to another. Contracts are sets of obligations to do or forbear, or to indemnify or warrant."@en ,
+		"NOTE: Obligations will often be governed by some Agreement or Offer."@en
+		;
+	.
+
+gist:Offer
+	rdfs:label "Offer"@en ;
+	rdfs:comment "DEFINITION: A commitment to buy or sell a described or identified part or service."@en ;
+	.
+
+gist:OrderedCollection
+	rdfs:label "Ordered Collection"@en ;
+	rdfs:comment
+		"DEFINITION: A collection in which the members are sequentially ordered. All members of an OrderedCollection are OrderedMembers."@en ,
+		"NOTE: Includes collections in which members occupy the same position in a 'tie.'"@en
+		;
+	.
+
+gist:OrderedMember
+	rdfs:label "Ordered Member"@en ;
+	rdfs:comment
+		"DEFINITION: A member of an ordered collection serving as a proxy for a real world item, which can appear in different orders in different collections. The ordered member appears in exactly one ordered collection."@en ,
+		"EXAMPLE: A person may rank 12th in the Boston Marathon but 29th in the New York City Marathon."@en ,
+		"NOTE: An ordered member points to the real world item via the providesOrderFor property. Ordering information is represented either as a number in a sequence, or by preceding or following another ordered member."@en
+		;
+	.
+
+gist:Organization
+	rdfs:label "Organization"@en ;
+	rdfs:comment
+		"DEFINITION: A generic organization that can be formal or informal, legal or non-legal. It can have members, or not."@en ,
+		"EXAMPLE: Legal entities like companies; non-legal entities like clubs, committees, or departments."@en ,
+		"NOTE: There are a plethora of different kinds of organizations that differ along many facets, including members, structure, purpose, legal vs. non-legal, etc."@en
+		;
+	.
+
+gist:Permission
+	rdfs:label "Permission"@en ;
+	rdfs:comment "DEFINITION: A description of things one is permitted to do. This could be broad, such as free speech, but more often is very specific, such as the right of egress through a particular property."@en ;
+	.
+
+gist:Person
+	rdfs:label "Person"@en ;
+	rdfs:comment
+		"DEFINITION: A human being that may or may not still be alive."@en ,
+		"EXAMPLE: Negative example:fictional characters."@en
+		;
+	.
+
+gist:PhenomenaType
+	rdfs:label "Phenomena Type"@en ;
+	rdfs:comment "DEFINITION: The things that a sensor can sense, such as light, heat, current, moisture, etc."@en ;
+	.
+
+gist:PhysicalActionType
+	rdfs:label "Physical Action Type"@en ;
+	rdfs:comment "DEFINITION: The effects to be realized in the real world, such as lifting a garage door, turning off a valve, dropping cadmium rods, etc."@en ;
+	.
+
+gist:PhysicalEvent
+	rdfs:label "Physical Event"@en ;
+	rdfs:comment
+		"DEFINITION: An event that can be said to have occurred at some place in space."@en ,
+		"EXAMPLE: A meeting, a car accident."@en ,
+		"EXAMPLE: Negative examples: Excludes events that have no meaningful location, such as financial events or project milestones."@en
+		;
+	.
+
+gist:PhysicalIdentifiableItem
+	rdfs:label "Physical Identifiable Item"@en ;
+	rdfs:comment
+		"DEFINITION: A discrete physical object which, if subdivided, will result in parts that are distinguishable in nature from the whole and in general also from the other parts."@en ,
+		"EXAMPLE: A computer, book, car."@en ,
+		"NOTE: This concept generally corresponds to count nouns in English. By contrast, instances of PhysicalSubstance, such as an amount of water, flour, or sand, are mass nouns. PhysicalIdentifiableItems are made up of PhysicalSubstances; e.g., a cake is made up of butter, flour, and sugar; a statue is made of bronze. If you divide a PhysicalSubstance such as an amount of water into parts, you have two amounts of water otherwise indistinguishable from one another; if you divide a PhysicalIdentifiableItem such as a computer into parts, each part is different from the whole."@en
+		;
+	.
+
+gist:PhysicalSubstance
+	rdfs:label "Physical Substance"@en ;
+	rdfs:comment
+		"DEFINITION: An undifferentiated amount of physical material which, when subdivided, results in each part being indistinguishable in nature from the whole and from every other part."@en ,
+		"EXAMPLE: An amount of water, penicillin, sand, gold: an actual piece of gold, not the concept of gold."@en ,
+		"NOTE: An instance of this class has weight and takes up space. We mean the physical gold in a ring, not the concept of gold that shows up in the periodic table."@en ,
+		"NOTE: This concept generally corresponds to mass nouns in English. By contrast, instances of PhysicalIdentifiableItem, such as a computer, book, or car, are count nouns. PhysicalIdentifiableItems are made up of PhysicalSubstances; e.g., a cake is made up of butter, flour, and sugar; a ring is made of gold. If you divide a PhysicalSubstance such as an amount of water into parts, you have different amounts of water otherwise indistinguishable from one another; if you divide a PhysicalIdentifiableItem such as a computer into parts, each part will be distinguishable from the original whole."@en
+		;
+	.
+
+gist:Place
+	rdfs:label "Place"@en ;
+	rdfs:comment "DEFINITION: Union of all the geo classes"@en ;
+	.
+
+gist:PostalAddress
+	rdfs:label "Postal Address"@en ;
+	rdfs:comment
+		"DEFINITION: A set of codes the postal authorities can use to deliver physical mail."@en ,
+		"EXAMPLE: A street address, a PO Box, an FPO code, or the route codes."@en
+		;
+	.
+
+gist:ProductCategory
+	rdfs:label "Product Category"@en ;
+	rdfs:comment "DEFINITION: Any of many ways of categorizing products, including models, NATO product codes, and the like."@en ;
+	.
+
+gist:ProductMagnitude
+	rdfs:label "Product Magnitude"@en ;
+	rdfs:comment "DEFINITION: A magnitude expressed as a product of primitives.  (E.g., Force = M*A)."@en ;
+	.
+
+gist:ProductSpecification
+	rdfs:label "Product Specification"@en ;
+	rdfs:comment "DEFINITION: Offering something which could be physically warehoused or digitally stored."@en ;
+	.
+
+gist:ProductUnit
+	rdfs:label "Product Unit"@en ;
+	rdfs:comment
+		"DEFINITION: A unit of measure that is the product of two simpler ones."@en ,
+		"EXAMPLE: Area and Volume are the classic cases.  But other, more exotic cases exist, such as Newtons."@en ,
+		"NOTE: A ProductUnit is intended have a value for conversionFactor."@en
+		;
+	.
+
+gist:Project
+	rdfs:label "Project"@en ;
+	rdfs:comment
+		"DEFINITION: A task, usually of longer duration, made up of other tasks."@en ,
+		"EXAMPLE: Designing an insurance product, adding a new feature to a software application, assessing the level of risk for a mortgage application."@en
+		;
+	.
+
+gist:RatioMagnitude
+	rdfs:label "Ratio Magnitude"@en ;
+	rdfs:comment
+		"DEFINITION: This is a number whose unit of measure is a ratio."@en ,
+		"EXAMPLE: Speed.  The ratio magnitude is 60, the unit of measure might be MilesPerHour."@en ,
+		"NOTE: A RatioMagnitude just has one decimal value."@en
+		;
+	.
+
+gist:RatioUnit
+	rdfs:label "Ratio Unit"@en ;
+	rdfs:comment
+		"DEFINITION: A UnitOfMeasure composed of a numerator unit and a denominator unit."@en ,
+		"EXAMPLE: Miles per hour."@en ,
+		"NOTE: If needed, a conversion factor for a RatioUnit can be (recursively) derived from the conversion factors of the numerator and denominator units.  E.g., the derived conversion factor from km/minute to meters/second is 1000/60 or 16 2/3."@en
+		;
+	.
+
+gist:ReferenceValue
+	rdfs:label "Reference Value"@en ;
+	rdfs:comment "DEFINITION: A measure that was neither measured nor estimated but set by fiat. For instance, a goal. There is no Measurement associated with a ReferenceValue."@en ;
+	.
+
+gist:RenderedContent
+	rdfs:label "Rendered Content"@en ;
+	rdfs:comment "DEFINITION: Content which has been expressed, either to print, or through speakers, or on a monitor."@en ;
+	.
+
+gist:Requirement
+	rdfs:label "Requirement"@en ;
+	rdfs:comment "DEFINITION: A documented physical or functional need that a particular design, product, or process must be able to perform.  Alternately, the obligation of a person or organization to behave in a certain way (i.e., drive on the right side of the road)."@en ;
+	.
+
+gist:Restriction
+	rdfs:label "Restriction"@en ;
+	rdfs:comment "DEFINITION: A description of things one is prevented from doing.  Most laws are restrictions."@en ;
+	.
+
+gist:ScheduledEvent
+	rdfs:label "Scheduled Event"@en ;
+	rdfs:comment
+		"DEFINITION: An event with a planned start datetime."@en ,
+		"NOTE: If the event already started, but has not yet ended, it is a contemporary event with an actual start datetime. If the event is over, it is a historical event having an actual end datetime. The event always retains its planned start datetime, and thus continues to be a scheduled event."@en
+		;
+	.
+
+gist:ScheduledTask
+	rdfs:label "Scheduled Task"@en ;
+	rdfs:comment
+		"DEFINITION: A task with a planned start datetime."@en ,
+		"NOTE: If work on the task has already started, but has not yet ended, it will have an actual start datetime. If the task is completed, it will also have an actual end datetime. The task always retains its planned start time, and thus continues to be a scheduled task."@en
+		;
+	.
+
+gist:SchemaMetaData
+	rdfs:label "Schema Meta Data"@en ;
+	rdfs:comment "DEFINITION: Superclass for all types of metadata, including owl concepts (such as class) and relational (tables, elements) and tool related (queries, R2RML maps etc etc)"@en ;
+	.
+
+gist:Sensor
+	rdfs:label "Sensor"@en ;
+	rdfs:comment "DEFINITION: A device that can detect something and report it. Light sensors, temperature sensors,"@en ;
+	.
+
+gist:ServiceSpecification
+	rdfs:label "Service Specification"@en ;
+	rdfs:comment "DEFINITION: A description of something that can be done for a person or organization (which produces some form of an act)."@en ;
+	.
+
+gist:SimpleUnitOfMeasure
+	rdfs:label "Simple Unit Of Measure"@en ;
+	rdfs:comment "DEFINITION: Each simple unit has a base unit and a conversion factor to the base. The bases are from the System International (SI). The conversion factor is the number which one multiplies a Unit by to get to base, or divides by to get from base.  E.g., the conversionFactor for inch is 0.0254 to get to the base unit (meter)."@en ;
+	.
+
+gist:Specification
+	rdfs:label "Specification"@en ;
+	rdfs:comment "DEFINITION: One or more requirements to be satisfied by a material, design, product, or service."@en ;
+	.
+
+gist:StreetAddress
+	rdfs:label "Street Address"@en ;
+	rdfs:comment
+		"DEFINITION: An address which references a fixed location in the physical world."@en ,
+		"EXAMPLE: The street address of a building, a park, campground, or an empty lot."@en ,
+		"NOTE: This excludes addresses not associated with a fixed location, such as a PO box or FPO code."@en
+		;
+	.
+
+gist:SubCountryGovernment
+	rdfs:label "Sub-Country Government"@en ;
+	rdfs:comment
+		"DEFINITION: A government of a governed geo-region other than a country, which is under the direct or indirect control of a country government."@en ,
+		"NOTE: Across the world, there are a variety of types of subsections of a country and the governments thereof (as well as different terms, like 'province' and 'state', which refer to essentially the same type of thing). We should not automatically assume 'state', 'county', and 'city'.  It is more future-proof just to mint the instances using the generic SubCountryGovernment and, where greater specificity is needed, define categories or subclasses."@en ,
+		"NOTE: Note that the predicate 'governs' is used both for the relationship a government has to a governed geo-region, and for the relationship one government has to the governments of its sub-regions."@en ,
+		"NOTE: This class applies only to organizations governing geo-regions. Regulatory and bureaucratic organizations are members of the more generic GovernmentOrganization class."@en
+		;
+	.
+
+gist:System
+	rdfs:label "System"@en ;
+	rdfs:comment "DEFINITION: A system is an artifact with component parts where the parts contribute to the goal of the system"@en ;
+	.
+
+gist:Tag
+	rdfs:label "Tag"@en ;
+	rdfs:comment "DEFINITION: A term in a folksonomy used to categorize things. Tags can be made up on the fly by users."@en ;
+	.
+
+gist:Task
+	rdfs:label "Task"@en ;
+	rdfs:comment
+		"DEFINITION: A piece of work that is either proposed, planned, scheduled, underway, or completed."@en ,
+		"NOTE: Something that could potentially be executed, which is merely described but not proposed in any specific way, such as a business process for onboarding a new employee, or the steps in a recipe for making polyethylene from ethylene, is not a task but rather a task template."@en ,
+		"NOTE: Use the property isBasedOn to link a Task back to the TaskTemplate."@en
+		;
+	.
+
+gist:TaskTemplate
+	rdfs:label "Task Template"@en ;
+	rdfs:comment
+		"DEFINITION: An outline of a task of a particular type, which is the basis for executing such tasks."@en ,
+		"EXAMPLE: A business process for onboarding new employees."@en ,
+		"NOTE: A task template may define a single activity or a series of activities; the level of granularity can be varied according to use case. For example, in a new employee onboarding process, signing up for benefits might be one activity, or it might be broken down into signing up for health insurance, signing up for dental insurance, etc."@en ,
+		"NOTE: Use the property isBasedOn to link the Task back to the TaskTemplate."@en
+		;
+	.
+
+gist:Taxonomy
+	rdfs:label "Taxonomy"@en ;
+	rdfs:comment "DEFINITION: A controlled vocabulary arranged as a hierarchy of concepts."@en ;
+	.
+
+gist:TelephoneNumber
+	rdfs:label "Telephone Number"@en ;
+	rdfs:comment
+		"DEFINITION: A numeric code a telephonic device uses for contacting another telephonic device."@en ,
+		"EXAMPLE: Mobile, fax, or landline phone number."@en
+		;
+	.
+
+gist:Temperature
+	rdfs:label "Temperature"@en ;
+	rdfs:comment "DEFINITION: The degree or intensity of heat present in a substance or object, especially as expressed according to a comparative scale."@en ;
+	.
+
+gist:TemperatureUnit
+	rdfs:label "Temperature Unit"@en ;
+	rdfs:comment "DEFINITION: Unit of measurement for expressing temperature.  Per SI, the base of temperature is in Kelvin, to allow for all units to be expressed relative to a real (in this case absolute) zero."@en ;
+	.
+
+gist:Template
+	rdfs:label "Template"@en ;
+	rdfs:comment
+		"DEFINITION: Something used to make objects in its own image."@en ,
+		"EXAMPLE: A die in manufacturing that is used to make stamped parts. "@en ,
+		"EXAMPLE: A form. A filled-in form has the structure of the form with data entered into some or all of the fields."@en ,
+		"EXAMPLE: Cookie cutters are templates for cookies."@en ,
+		"NOTE: Use gist:isBasedOn to link the object made from the template back to the template."@en
+		;
+	.
+
+gist:TemporalRelation
+	rdfs:label "Temporal Relation"@en ;
+	rdfs:comment
+		"DEFINITION: A relationship existing for a period of time."@en ,
+		"EXAMPLE: employs-Employment, hasStreetAddress-EstablishedLocation. One important context for reifying a property."@en ,
+		"NOTE: A temporal relation must have a minimum of two participants. For example, both the employer and the employee are participants in a temporal relation representing a period of employment."@en ,
+		"NOTE: Note that 'participant' does not imply agency; a non-sentient being can be participate in a temporal relation. For example, both a person and a house could be participants in a hypothetical relation 'lives at.'"@en
+		;
+	.
+
+gist:Text
+	rdfs:label "Text"@en ;
+	rdfs:comment "DEFINITION: Content expressed as words and numbers (not graphics)."@en ;
+	.
+
+gist:TimeInterval
+	rdfs:label "Time Interval"@en ;
+	rdfs:comment
+		"DEFINITION: A span of time with a known start time, end time, and duration. As long as two of the three are known, the third can be inferred."@en ,
+		"EXAMPLE: 7pm to 9pm on Jan 1, 2001; fiscal year 2023; the week starting at midnight of January 12, 2023 and lasting exactly 168 hours."@en ,
+		"NOTE: An ongoing state of affairs with an unknown end time in the future cannot be a time interval; e.g. the lifespan of a living person cannot be a time interval, as the end time is unknown."@en ,
+		"NOTE: This is distinct from a gist:Duration, which describes how long a time interval lasts (e.g., one hour; 3 days; 22 minutes)."@en
+		;
+	.
+
+gist:Transaction
+	rdfs:label "Transaction"@en ;
+	rdfs:comment
+		"DEFINITION: An exchange or transfer of goods, services, or funds."@en ,
+		"NOTE: Different sorts of transactions can have different datetime precisions. For example, an electronic transaction would have a gist:actualEndMicrosecond."@en
+		;
+	.
+
+gist:UnitOfMeasure
+	rdfs:label "Unit of Measure"@en ;
+	rdfs:comment "DEFINITION: Standard unit by which we measure things"@en ;
+	.
+
+gist:Volume
+	rdfs:label "Volume"@en ;
+	rdfs:comment "DEFINITION: Three-dimensional space, or equivalent fluid measurement."@en ;
+	.
+
+gist:VolumeUnit
+	rdfs:label "Volume Unit"@en ;
+	rdfs:comment "DEFINITION: Units of three-dimensional space, expressed here as an area times a distance."@en ;
+	.
+
+gist:_USDollar
+	rdfs:label "US Dollar"@en ;
+	rdfs:comment "DEFINITION: The base unit for currency."@en ;
+	.
+
+gist:_ampere
+	rdfs:label "ampere"@en ;
+	rdfs:comment "DEFINITION: The base unit for electrical current."@en ;
+	.
+
+gist:_bit
+	rdfs:label "bit"@en ;
+	rdfs:comment
+		"DEFINITION: The base unit for measuring digital information."@en ,
+		"NOTE: A bit (short for binary digit) is the smallest unit of data in a computer. A bit has a single binary value, either 0 or 1."@en
+		;
+	.
+
+gist:_candela
+	rdfs:label "candela"@en ;
+	rdfs:comment "DEFINITION: The base unit for luminous intensity."@en ;
+	.
+
+gist:_day
+	rdfs:label "day"@en ;
+	rdfs:comment "DEFINITION: A duration unit that is 24 hours long."@en ;
+	.
+
+gist:_each
+	rdfs:label "each"@en ;
+	rdfs:comment "DEFINITION: The base unit for count magnitudes."@en ;
+	.
+
+gist:_kelvin
+	rdfs:label "Kelvin"@en ;
+	rdfs:comment "DEFINITION: The base unit for measuring temperature."@en ;
+	.
+
+gist:_kilogram
+	rdfs:label "mass"@en ;
+	rdfs:comment "DEFINITION: The base unit for measuring mass."@en ;
+	.
+
+gist:_meter
+	rdfs:label "distance"@en ;
+	rdfs:comment "DEFINITION: The base unit for measuring distance."@en ;
+	.
+
+gist:_millisecond
+	rdfs:label "millisecond"@en ;
+	rdfs:comment "DEFINITION: A unit equal to a thousandth of a second."@en ;
+	.
+
+gist:_minute
+	rdfs:label "minute"@en ;
+	rdfs:comment "DEFINITION: A unit equal to 60 seconds."@en ;
+	.
+
+gist:_mole
+	rdfs:label "mole"@en ;
+	rdfs:comment "DEFINITION: The base unit for measuring molar quantities."@en ;
+	.
+
+gist:_percent
+	rdfs:label "percent"@en ;
+	rdfs:comment
+		"DEFINITION: The unit designating a quantity that is the ratio of two quantities with the same unit of measure and which has been multiplied by 100."@en ,
+		"NOTE: Because the units of the numerator and denominator are the same, they cancel out, resulting in a dimensionless quantity."@en ,
+		"NOTE: To keep the unit of measure of the numerator and denominator, use a ratio unit; e.g., cm/cm."@en
+		;
+	.
+
+gist:_second
+	rdfs:label "second"@en ;
+	rdfs:comment "DEFINITION: The base unit for measuring durations."@en ;
+	.
+
+gist:accepts
+	rdfs:label "accepts"@en ;
+	rdfs:comment "DEFINITION: The types of input messages that will be allowed."@en ;
+	.
+
+gist:actualEndDate
+	rdfs:label "actual end date"@en ;
+	rdfs:comment
+		"DEFINITION: The actual date that something ended, with precision of one day."@en ,
+		"EXAMPLE: '2021-06-01T00:00:00-6:00'^^xsd:dateTime"@en ,
+		"NOTE: Used for things where the precision of a date is sufficient, such as most projects, tasks, and the like. Recommended usage is to zero out the hours through microseconds to avoid spurious precision."@en
+		;
+	.
+
+gist:actualEndDateTime
+	rdfs:label "actual end date time"@en ;
+	rdfs:comment
+		"DEFINITION: The actual date and time that something ended, with no implied precision."@en ,
+		"NOTE: This is an abstraction over the various precisions of actual end time, and is not expected to be asserted directly. Values with different precisions can be compared since they all have the same format."@en
+		;
+	.
+
+gist:actualEndMicrosecond
+	rdfs:label "actual end microsecond"@en ;
+	rdfs:comment
+		"DEFINITION: The actual time that something ended, expressed as a system time used for timestamps."@en ,
+		"EXAMPLE: '2021-06-01T08:03:27.12324-6:00'^^xsd:dateTime"@en ,
+		"NOTE: A system time will be as precise as the system can supply, typically at least milliseconds, sometimes microseconds. The convention for timestamps, such as recording a transaction, is to specify just the end point; the start time is rarely needed."@en
+		;
+	.
+
+gist:actualEndMinute
+	rdfs:label "actual end minute"@en ;
+	rdfs:comment
+		"DEFINITION: The actual date and time that something ended, with precision of one minute."@en ,
+		"EXAMPLE: '2021-06-01T08:32:00-6:00'^^xsd:dateTime"@en ,
+		"NOTE: Used for things like meetings and time card entries, where the hour and minute are important. Recommended usage is to zero out the seconds and microseconds to avoid spurious precision."@en
+		;
+	.
+
+gist:actualEndYear
+	rdfs:label "actual end year"@en ;
+	rdfs:comment
+		"DEFINITION: The actual date that something ended, with precision of one year."@en ,
+		"EXAMPLE: '2021-01-01T00:00:00-6:00'^^xsd:dateTime"@en ,
+		"EXAMPLE: The tenure of the previous chairman of the board ended in 2021."@en ,
+		"NOTE: Used for things where the precision of a year is sufficient. Recommended usage is to zero out the hours through microseconds to avoid spurious precision. Note that it is not valid to zero out months and days, so arbitrary values must be included."@en
+		;
+	.
+
+gist:actualStartDate
+	rdfs:label "actual start date"@en ;
+	rdfs:comment
+		"DEFINITION: The actual date that something started, with precision of one day."@en ,
+		"EXAMPLE: '2021-06-01T00:00:00-6:00'^^xsd:dateTime"@en ,
+		"NOTE: Used for things where the precision of a date is sufficient, such as most projects, tasks, and the like. Recommended usage is to zero out the hours through microseconds to avoid spurious precision."@en
+		;
+	.
+
+gist:actualStartDateTime
+	rdfs:label "actual start date time"@en ;
+	rdfs:comment
+		"DEFINITION: The actual date and time that something started, with no implied precision."@en ,
+		"NOTE: This is an abstraction over the various precisions of actual start time, and is not expected to be asserted directly. Values with different precisions can be compared since they all have the same format."@en
+		;
+	.
+
+gist:actualStartMicrosecond
+	rdfs:label "actual start microsecond"@en ;
+	rdfs:comment
+		"DEFINITION: The actual time that something started, expressed as a system time used for timestamps."@en ,
+		"EXAMPLE: '2021-06-01T08:03:27.12324-6:00'^^xsd:dateTime"@en ,
+		"NOTE: A system time will be as precise as the system can supply, typically at least milliseconds, sometimes microseconds. The convention for timestamps, such as recording a transaction, is to specify just the end point; the start time is rarely needed. This property is defined for the cases when you do need to capture the runtime of a system process, and is then used in conjunction with gist:actualEndMicrosecond."@en
+		;
+	.
+
+gist:actualStartMinute
+	rdfs:label "actual start minute"@en ;
+	rdfs:comment
+		"DEFINITION: The actual date and time that something started, with precision of one minute."@en ,
+		"EXAMPLE: '2021-06-01T08:32:00-6:00'^^xsd:dateTime"@en ,
+		"NOTE: Used for things like meetings and time card entries, where the hour and minute are important. Recommended usage is to zero out the seconds and microseconds to avoid spurious precision."@en
+		;
+	.
+
+gist:actualStartYear
+	rdfs:label "actual start year"@en ;
+	rdfs:comment
+		"DEFINITION: The actual date that something started, with precision of one year."@en ,
+		"EXAMPLE: '2021-01-01T00:00:00-6:00'^^xsd:dateTime"@en ,
+		"EXAMPLE: The tenure of the current chairman of the board began in 2021."@en ,
+		"NOTE: Used for things where the precision of a year is sufficient. Recommended usage is to zero out the hours through microseconds to avoid spurious precision. Note that it is not valid to zero out months and days, so arbitrary values must be included."@en
+		;
+	.
+
+gist:allows
+	rdfs:label "allows"@en ;
+	rdfs:comment "DEFINITION: The intention (say a grant) allows a particular kind of activity (for instance egress)"@en ;
+	.
+
+gist:atDateTime
+	rdfs:label "at date time"@en ;
+	rdfs:comment
+		"DEFINITION: The date and time at which something did or will occur, with variants for precision, start and end, and actual vs. planned."@en ,
+		"""NOTE: This is the top level property for asserting time, and is not expected to be asserted directly.
+
+The subproperties allow the ontologist to do three things:
+1) Distinguish start and end times.
+2) Indicate whether a time is planned or actual. This is useful for everything from project management to calendar appointments and the like. It is also useful for date effectivities; i.e., something valid up to a planned date).
+3) Distinguish varying levels of precision; sort of a simple version of the Allen functions.
+
+All datetimes are of the same format: '2021-06-01T08:03:27.12324-6:00'^^xsd:dateTime. This is compatible with and a subset of ISO 8601.
+
+Time zone offset, such as -6:00 (of which there are a few dozen) is recognized in the date itself, as shown. The actual time zone standard (of which there are 131) may optionally be attached to the event or other object itself.
+
+There will be many historical dates that do not have a time zone offset (e.g., Lincoln's birthday, as well as about 75% of all legacy systems), and in that case the offset can be omitted.
+
+The conventions for precision that are repeated in each property name are as follows:
+	- *DateTime is an abstraction over the various precisions of its subproperties.
+	- *Date refers to a calendar date (e.g., birthdays and invoice dates) and is assumed to have precision of one day. Time zone offset is allowed.
+	- *Minute refers to clock time; e.g., a meeting will start at 9:15 with a timezone offset. Precision is assumed to have precision of one minute.
+	- *Microsecond refers to system time, and it will be as precise as the system can supply; typically at least milliseconds, sometime microseconds.
+"""@en
+		;
+	.
+
+gist:birthDate
+	rdfs:label "birth date"@en ;
+	rdfs:comment
+		"DEFINITION: The date some living thing was or will be born, with precision of one day."@en ,
+		"EXAMPLE: '2021-06-01T00:00:00-6:00'^^xsd:dateTime"@en ,
+		"NOTE: This is a subproperty of gist:startDateTime rather than gist:actualStartDate because some living things have yet to be born. This property refers to a calendar date and is assumed to precision of one day (time zone offset is allowed). It is recommended to zero out the hours through microseconds to avoid spurious precision. Implementations requiring a birthdate to the minute can define a subproperty."@en
+		;
+	.
+
+gist:comesFromAgent
+	rdfs:label "comes from agent"@en ;
+	rdfs:comment
+		"DEFINITION: The party that is the source of something (e.g. a message, shipment, etc.)"@en ,
+		'NOTE: This is not the inverse of gist:goesToAgent. A message can be to someone. If we made it the inverse the person would be "from" the message'@en
+		;
+	.
+
+gist:comesFromPlace
+	rdfs:label "comes from place"@en ;
+	rdfs:comment "DEFINITION: Origin"@en ;
+	.
+
+gist:conformsTo
+	rdfs:label "conforms to"@en ;
+	rdfs:comment "DEFINITION: The subject conforms to the Object, e.g. meet an obligation, meet terms of an offer, adhere to a specification"@en ;
+	.
+
+gist:containedText
+	rdfs:label "contained text"@en ;
+	rdfs:comment
+		"DEFINITION: A string that is closely associated with an individual."@en ,
+		"EXAMPLE: The string associated with a tag."@en ,
+		"EXAMPLE: The string associated with text content."@en
+		;
+	.
+
+gist:contributesTo
+	rdfs:label "contributes to"@en ;
+	rdfs:comment "DEFINITION: The parts of a system contribute to the goal/ function of the whole system"@en ;
+	.
+
+gist:conversionFactor
+	rdfs:label "conversion factor"@en ;
+	rdfs:comment
+		"DEFINITION: The conversion factor used to convert a unit to its standard (i.e., coherent) unit (which could be a base unit.)"@en ,
+		"EXAMPLE: A value expressed in inches is multiplied by a conversion factor of 0.0254 to express the value in the base unit, meter."@en ,
+		"EXAMPLE: An area expressed as 7 square kilometers is multiplied by a conversion factor of one million which results in 7 million square meters."@en ,
+		"NOTE: Sometimes this property must be used in conjunction with conversionOffset. Kelvin =  (Degrees F - conversionOffset) * conversionFactor. Or K = (F-(-469.67)) * (5/9)."@en
+		;
+	.
+
+gist:conversionOffset
+	rdfs:label "conversion offset"@en ;
+	rdfs:comment "DEFINITION: Add this number to get to the zero point.  On the Celsius scale, the conversionOffset is -273.15 degrees C. On the Fahrenheit scale it is -459.67 degrees.  Is equal to 0 when the unit has the same zero point as the base unit. e.g. inch, meter."@en ;
+	.
+
+gist:deathDate
+	rdfs:label "death date"@en ;
+	rdfs:comment
+		"DEFINITION: The date some living thing died."@en ,
+		"EXAMPLE: '2021-06-01T00:00:00-6:00'^^xsd:dateTime"@en ,
+		"NOTE: Refers to a calendar date and is assumed to have precision of one day (time zone offset is allowed). Recommended usage is to zero out the hours through microseconds to avoid spurious precision. Implementations requiring a death date to the minute can define a subproperty."@en
+		;
+	.
+
+gist:description
+	rdfs:label "description"@en ;
+	rdfs:comment
+		"DEFINITION: A statement about someone or something's attributes or characteristics."@en ,
+		"EXAMPLE: The Empire State Building is a 102-story Art Deco skyscraper in Midtown Manhattan in New York City, United States. It was designed by Shreve, Lamb & Harmon and built from 1930 to 1931."@en ,
+		"NOTE: This property is used to provide a description of an individual in greater detail than a label."@en
+		;
+	.
+
+gist:directs
+	rdfs:label "directs"@en ;
+	rdfs:comment "DEFINITION: The set of actuators that a controller can affect"@en ;
+	.
+
+gist:domainIncludes
+	rdfs:label "domain includes"@en ;
+	rdfs:comment
+		"DEFINITION: Relates a property to a class that is (one of) the type(s) the property is expected to be used on."@en ,
+		"EXAMPLE: The domain for the property gist:hasMember includes gist:Collection."@en ,
+		"NOTE: This property is used to guide the ontology user; like all annotation properties, it does not play a role in inference."@en ,
+		"NOTE: This property means the same thing as the Schema.org version, which is an rdf:Property and not compliant with OWL-DL."@en
+		;
+	.
+
+gist:encryptedText
+	rdfs:label "encrypted text"@en ;
+	rdfs:comment "DEFINITION: Links to the string corresponding to EncryptedText"@en ;
+	.
+
+gist:endDateTime
+	rdfs:label "end date time"@en ;
+	rdfs:comment
+		"DEFINITION: The date and time that something ended."@en ,
+		"NOTE: This is an abstraction over the various precisions of end time, and is not expected to be asserted directly. Values with different precisions can be compared since they all have the same format."@en ,
+		"NOTE: We have looked at some extreme edge cases (e.g., did this meeting end before or after the trade was posted?) and we couldn't find any use case that required special processing. Those who have such use cases can implement them (and feel free to let us know)."@en
+		;
+	.
+
+gist:goesToAgent
+	rdfs:label "goes to agent"@en ;
+	rdfs:comment
+		"DEFINITION: The party that is the recipient of something (e.g. a message, shipment, etc.)"@en ,
+		'NOTE: This is not the inverse of gist:comesFromAgent. A message can be from someone. If we made it the inverse the person would be "to" the message'@en
+		;
+	.
+
+gist:goesToPlace
+	rdfs:label "goes to place"@en ;
+	rdfs:comment "DEFINITION: Destination"@en ;
+	.
+
+gist:hasAddress
+	rdfs:label "has address"@en ;
+	rdfs:comment
+		"DEFINITION: Relates the subject to its physical or virtual address."@en ,
+		"EXAMPLE: The street address of a building; the email address of a person."@en
+		;
+	.
+
+gist:hasAltitude
+	rdfs:label "has altitude"@en ;
+	rdfs:comment "DEFINITION: Distance above sea level"@en ;
+	.
+
+gist:hasBaseUnit
+	rdfs:label "has base unit"@en ;
+	rdfs:comment
+		"DEFINITION: Relates a UnitOfMeasure to its BaseUnit.  This indicates what kind of Unit something is."@en ,
+		"EXAMPLE: Saying that a furlong hasBaseUnit  meter says it is a DistanceUnit."@en
+		;
+	.
+
+gist:hasBiologicalParent
+	rdfs:label "has biological parent"@en ;
+	rdfs:comment "DEFINITION: Relates a living thing to its biological parent."@en ;
+	.
+
+gist:hasCommunicationAddress
+	rdfs:label "has communication address"@en ;
+	rdfs:comment "DEFINITION: Relates a Person or Organization to where they can receive messages, including postal addresses, fax numbers, phone numbers, email, web site, etc."@en ;
+	.
+
+gist:hasDenominator
+	rdfs:label "has denominator"@en ;
+	rdfs:comment
+		"DEFINITION: Relates a ratio or fraction to its denominator."@en ,
+		"EXAMPLE: Second is the denominator for the standard speed unit, meters per second."@en
+		;
+	.
+
+gist:hasDirectPart
+	rdfs:label "has direct part"@en ;
+	rdfs:comment
+		"DEFINITION: The relationship between a whole and a part where the part has independent existence."@en ,
+		"NOTE: It is safest to use this property when there is semantic directness inherent in the relationship, rather than choosing appropriate granularity. For example, a spark plug is a direct part of an engine block; there cannot be any intermediate parts.  Beware of making a hasDirectPart assertion and then inserting an intermediate part; this will result in making an asserted triple false even though there was no change in the world."@en ,
+		"NOTE: No cascading delete."@en ,
+		"NOTE: Use this property to directly associate a part with the whole. gist:hasPart is the transitive version."@en
+		;
+	.
+
+gist:hasDirectSuperCategory
+	rdfs:label "has direct supercategory"@en ;
+	rdfs:comment
+		"DEFINITION: The subject category is a subcategory of the object category. This property defines the direct links in a category hierarchy; no intermediate categories can exist between the direct links."@en ,
+		"NOTE: Unlike its superproperty gist:hasSuperCategory, this property is not transitive. It is essentially the same as the non-transitive skos:broader, using gist:Category rather than skos:Concept."@en
+		;
+	.
+
+gist:hasFirstMember
+	rdfs:label "has first member"@en ;
+	rdfs:comment
+		"DEFINITION: Relates an ordered collection to its first member."@en ,
+		"NOTE: Given the Open World Assumption, the absence of a predecessor does not entail that an ordered member is the first member of an ordered collection. This property is used to explicitly indicate the first member. Since ordered collections may not be strictly ordered, there can be more than one first member."@en
+		;
+	.
+
+gist:hasGiver
+	rdfs:label "has giver"@en ;
+	rdfs:comment "DEFINITION: The active party, the one with the obligation or the one initiating the transfer"@en ;
+	.
+
+gist:hasGoal
+	rdfs:label "has goal"@en ;
+	rdfs:comment "DEFINITION: The reason for doing something"@en ;
+	.
+
+gist:hasIncumbent
+	rdfs:label "has incumbent"@en ;
+	rdfs:comment "DEFINITION: What equipment or person is currently in this node.  Note to create a temporal view make a TemporalRelation for this property"@en ;
+	.
+
+gist:hasMagnitude
+	rdfs:label "has magnitude"@en ;
+	rdfs:comment "DEFINITION: To have a comparable numeric value. Each magnitude has a unit."@en ;
+	.
+
+gist:hasMember
+	rdfs:label "has member"@en ;
+	rdfs:comment "DEFINITION: Relates something, such as a collection or organization, to its member individuals."@en ;
+	.
+
+gist:hasMultiplicand
+	rdfs:label "has multiplicand"@en ;
+	rdfs:comment
+		"DEFINITION: Relates a product to the factor that is being multiplied by another factor (i.e. the multiplier)."@en ,
+		"EXAMPLE: Meter is the multiplicand for the unit: newton-meter"@en ,
+		"NOTE: Because multiplication is commutative, the difference between multiplier and multiplicand will not matter for computation, but it may matter if you care about the order for presentation, e.g. newton-meter vs. meter-newton."@en
+		;
+	.
+
+gist:hasMultiplier
+	rdfs:label "has multiplier"@en ;
+	rdfs:comment
+		"DEFINITION: Relates a product to the factor that is multiplying another factor (i.e. the multiplicand)."@en ,
+		"EXAMPLE: Newton is the multiplier for the unit: newton-meter"@en ,
+		"NOTE: Because multiplication is commutative, the difference between multiplier and multiplicand will not matter for computation, but it may matter if you care about the order for presentation, e.g. newton-meter vs. meter-newton."@en
+		;
+	.
+
+gist:hasNavigationalParent
+	rdfs:label "has navigational parent"@en ;
+	rdfs:comment
+		"DEFINITION: Relates a child category to a parent category in an informal (e.g., faceted) hierarchy."@en ,
+		"EXAMPLE: Refrigerator handles are not refrigerators, but it may be useful to represent their relationship hierarchically for a faceted UI filter."@en
+		;
+	.
+
+gist:hasNumerator
+	rdfs:label "has numerator"@en ;
+	rdfs:comment
+		"DEFINITION: Relates a ratio or fraction to its numerator."@en ,
+		"EXAMPLE: Meter is the numerator for the standard speed unit, meters per second."@en
+		;
+	.
+
+gist:hasPart
+	rdfs:label "has part"@en ;
+	rdfs:comment "DEFINITION: The transitive version of gist:hasDirectPart"@en ;
+	.
+
+gist:hasParticipant
+	rdfs:label "has participant"@en ;
+	rdfs:comment
+		"DEFINITION: Relates something (e.g. an agreement) to things that play a role, or take part or are otherwise involved in some way."@en ,
+		"EXAMPLE: An event of transferring money has a participating account that receives the money."@en ,
+		"NOTE: The thing with participants will often be an agreement, event or obligation. Participation does not imply agency."@en ,
+		"NOTE: This will most often be used as an abstract property. Use subproperties that indicate the nature of the participation (e.g. hasBorrower, hasVenue)."@en
+		;
+	.
+
+gist:hasParty
+	rdfs:label "has party"@en ;
+	rdfs:comment
+		"DEFINITION: The people or organizations participating in an event, agreement or obligation"@en ,
+		"EXAMPLE: For loan agreements, one might create hasLender and hasBorrower as subproperties of hasParty."@en
+		;
+	.
+
+gist:hasPhysicalLocation
+	rdfs:label "has physical location"@en ;
+	rdfs:comment
+		"DEFINITION: Relates something to its physical location."@en ,
+		"NOTE: This property does not distinguish between things whose locations are stable and those whose locations change over time; e.g., a fire hydrant vs. a car."@en
+		;
+	.
+
+gist:hasPrecision
+	rdfs:label "has precision"@en ;
+	rdfs:comment
+		"DEFINITION: Links a Magnitude to the degree of accuracy of the numeric value.   This allows for fuzzy numbers.  All magnitudes have a precision.  Usually we don't record them.  When we do this, it will be a value whose extent covers 2 standard deviations around the stated magnitude"@en ,
+		"EXAMPLE: Temperature precise to tenth of a degree C; length precise to the nearest centimeter."@en
+		;
+	.
+
+gist:hasRecipient
+	rdfs:label "has recipient"@en ;
+	rdfs:comment "DEFINITION: The recipient"@en ;
+	.
+
+gist:hasStandardUnit
+	rdfs:label "has standard unit"@en ;
+	rdfs:comment "DEFINITION: For a complex unit refers to a unit that has all the component parts in SI"@en ;
+	.
+
+gist:hasSuperCategory
+	rdfs:label "has supercategory"@en ;
+	rdfs:comment
+		"DEFINITION: The subject category is included by, or narrower than, the object category. Everything categorized by the subcategory can be inferred to be categorized by the supercategory."@en ,
+		"NOTE: This is essentially the same as skos:broaderTransitive, using gist:Category instead of skos:Concept."@en
+		;
+	.
+
+gist:hasUniqueNavigationalParent
+	rdfs:label "has unique navigational parent"@en ;
+	rdfs:comment "DEFINITION: Relates a subject category to a unique parent category in an informal (e.g., faceted) hierarchy."@en ;
+	.
+
+gist:hasUniqueSuperCategory
+	rdfs:label "has unique supercategory"@en ;
+	rdfs:comment "DEFINITION: Used for taxos that must have single parents"@en ;
+	.
+
+gist:hasUnitOfMeasure
+	rdfs:label "has unit of measure"@en ;
+	rdfs:comment "DEFINITION: Which unit of measure you are using. All measures are expressed in some unit of measure, even if we don't know what it is initially."@en ;
+	.
+
+gist:hasViableRange
+	rdfs:label "has viable range"@en ;
+	rdfs:comment "DEFINITION: The area over which the sensor can sense (might be a small geospatial area or a specific wire in a circuit)"@en ;
+	.
+
+gist:idText
+	rdfs:label "id text"@en ;
+	rdfs:comment
+		"DEFINITION: Relates an individual to a text string that identifies it."@en ,
+		"EXAMPLE: The id text for a car is '4Y1SL65848Z411439'"@en ,
+		"EXAMPLE: The id text for the HR department for Company X is H31415"@en ,
+		"NOTE: A common use case would be for pre-existing internal company identifiers."@en ,
+		"NOTE: Often, there will be just one identifying text string. More would be appropriate if the individual had different identifiers, such as employee number and social security number. A good way to model that would be to have functional subproperties of idText, such as departmentNumber."@en ,
+		"NOTE: This property is an alternative to using the property isIdentifiedBy in conjunction with instances of the class ID."@en
+		;
+	.
+
+gist:isAbout
+	rdfs:label "is about"@en ;
+	rdfs:comment "DEFINITION: Subject matter of a document."@en ;
+	.
+
+gist:isAffectedBy
+	rdfs:label "is affected by"@en ;
+	rdfs:comment "DEFINITION: Where the effect came from"@en ;
+	.
+
+gist:isAllocatedBy
+	rdfs:label "is allocated by"@en ;
+	rdfs:comment
+		"DEFINITION: Relates the subject to whomever or whatever assigns or distributes it."@en ,
+		"EXAMPLE: A U.S. Social Security number is allocated by the U.S. Social Security Administration. The media type https://www.iana.org/assignments/media-types/text/csv is allocated by the Internet Assigned Numbers Authority (IANA)."@en ,
+		"NOTE: The allocator may be a person, organization, or automated process."@en
+		;
+	.
+
+gist:isAspectOf
+	rdfs:label "is aspect of"@en ;
+	rdfs:comment "DEFINITION: What this aspect is referring to"@en ;
+	.
+
+gist:isBasedOn
+	rdfs:label "is based on"@en ;
+	rdfs:comment
+		"DEFINITION: The Object is a foundation for, a starting point for, gave rise to or justifies the Subject"@en ,
+		"EXAMPLE: A document is based on a document template. A metric computing the average income of a population is based on the metric for individual income."@en
+		;
+	.
+
+gist:isCategorizedBy
+	rdfs:label "is categorized by"@en ;
+	rdfs:comment "DEFINITION: Points to a taxonomy item or other less formally defined class."@en ;
+	.
+
+gist:isCharacterizedAs
+	rdfs:label "is characterized as"@en ;
+	rdfs:comment "DEFINITION: A way to categorize a behavior."@en ;
+	.
+
+gist:isConnectedTo
+	rdfs:label "is connected to"@en ;
+	rdfs:comment "DEFINITION: A non-owning, non-causal, non-subordinate (i.e., peer-to-peer) relationship."@en ;
+	.
+
+gist:isExpressedIn
+	rdfs:label "is expressed in"@en ;
+	rdfs:comment "DEFINITION: The language something was expressed in"@en ;
+	.
+
+gist:isGeographicallyContainedIn
+	rdfs:label "is geographically contained in"@en ;
+	rdfs:comment "DEFINITION: Relates one place to another place that contains the first."@en ;
+	.
+
+gist:isGovernedBy
+	rdfs:label "is governed by"@en ;
+	rdfs:comment "DEFINITION: A reference from the thing being governed to the governor"@en ;
+	.
+
+gist:isIdentifiedBy
+	rdfs:label "is identified by"@en ;
+	rdfs:comment "DEFINITION: This is like a URI: a thing can have more than one ID, but each of the IDs must refer to a unique thing."@en ;
+	.
+
+gist:isMadeUpOf
+	rdfs:label "is made up of"@en ;
+	rdfs:comment
+		"DEFINITION: Relates something to a substance that it is made up of."@en ,
+		"EXAMPLE: The vase is made up of clay. Water is made up of hydrogen and oxygen."@en
+		;
+	.
+
+gist:isRecognizedBy
+	rdfs:label "is recognized by"@en ;
+	rdfs:comment
+		"DEFINITION: Relates something to a party that formally acknowledges its existence, validity, or legality."@en ,
+		"EXAMPLE: The existence of a particular company is recognized by the state."@en
+		;
+	.
+
+gist:isRecognizedDirectlyBy
+	rdfs:label "is recognized directly by"@en ;
+	rdfs:comment "DEFINITION: The party doing the recognition"@en ;
+	.
+
+gist:isRecordedAt
+	rdfs:label "is recorded at"@en ;
+	rdfs:comment
+		"DEFINITION: Date that something was posted, not necessarily the date it occurred. Must be after the date of occurrence, but could be before or after the planned date. (Unusual, but I could record today that I expected to be paid last week.)"@en ,
+		"NOTE: Precision may vary according to context."@en
+		;
+	.
+
+gist:isRenderedOn
+	rdfs:label "is rendered on"@en ;
+	rdfs:comment "DEFINITION: What media something was rendered On"@en ;
+	.
+
+gist:isSupersededBy
+	rdfs:label "is superseded by"@en ;
+	rdfs:comment
+		"DEFINITION: Relates a deprecated term to a term that replaces it, which is either an exact (in the case of simple renaming) or approximate (in the case of renaming and some semantic change) semantic match."@en ,
+		"EXAMPLE: gist:connectedTo gist:isSupersededBy gist:isConnectedTo (renaming with no semantic change)."@en
+		;
+	.
+
+gist:isTriggeredBy
+	rdfs:label "is triggered by"@en ;
+	rdfs:comment
+		"DEFINITION: Relates a contingency, such as an event or obligation, to the event that gives rise to it."@en ,
+		"EXAMPLE: Fire insurance is contingent on a particular building burning down"@en ,
+		"EXAMPLE: The death benefit payout on a life insurance policy following the death of a specific person."@en ,
+		"NOTE: For obligations, this property describes what must happen to trigger the contingent obligation. Other uses include controls, processes, etc."@en
+		;
+	.
+
+gist:isUnderJurisdictionOf
+	rdfs:label "is under jurisdiction of"@en ;
+	rdfs:comment "DEFINITION: Relates a law, contract, etc., to the system of law or government which has the power, right, or authority to interpret and apply it."@en ;
+	.
+
+gist:latitude
+	rdfs:label "latitude"@en ;
+	rdfs:comment "DEFINITION: Degrees above or below equator"@en ;
+	.
+
+gist:license
+	rdfs:label "license"@en ;
+	rdfs:comment "DEFINITION: An annotation for providing the licensing on this or derivative ontologies"@en ;
+	.
+
+gist:links
+	rdfs:label "links"@en ;
+	rdfs:comment "DEFINITION: Relates a NetworkLink to a NetworkNode that it connects to another node. Used when the connections are undirected, or the direction is not known."@en ;
+	.
+
+gist:linksFrom
+	rdfs:label "links from"@en ;
+	rdfs:comment "DEFINITION: Relates a NetworkLink to its origin NetworkNode. Unlike the superproperty, this represents a directed connection."@en ;
+	.
+
+gist:linksTo
+	rdfs:label "links to"@en ;
+	rdfs:comment "DEFINITION: Relates a NetworkLink to its destination NetworkNode. Unlike the superproperty, this represents a directed connection."@en ;
+	.
+
+gist:longitude
+	rdfs:label "longitude"@en ;
+	rdfs:comment "DEFINITION: Degrees from GM"@en ;
+	.
+
+gist:name
+	rdfs:label "name"@en ;
+	rdfs:comment "DEFINITION: Relates an individual to (one of) its name(s)."@en ;
+	.
+
+gist:numericValue
+	rdfs:label "numeric value"@en ;
+	rdfs:comment "DEFINITION: The actual value of a magnitude."@en ;
+	.
+
+gist:occupiesGeographically
+	rdfs:label "occupies geographically"@en ;
+	rdfs:comment "DEFINITION: A thing occupies are region"@en ;
+	.
+
+gist:occupiesGeographicallyPermanently
+	rdfs:label "occupies geographically permanently"@en ;
+	rdfs:comment "DEFINITION: To be in a fixed position on the earth"@en ;
+	.
+
+gist:occursIn
+	rdfs:label "occurs in"@en ;
+	rdfs:comment "DEFINITION: The geospatial place where something happened or will happen"@en ;
+	.
+
+gist:owns
+	rdfs:label "owns"@en ;
+	rdfs:comment "DEFINITION: Possessing and controlling.  Ultimate form of ownership is the right to destroy.  Long list of potential Range classes"@en ;
+	.
+
+gist:plannedEndDate
+	rdfs:label "planned end date"@en ;
+	rdfs:comment
+		"DEFINITION: The date that something is or was planned to end, with precision of one day."@en ,
+		"EXAMPLE: '2021-06-01T00:00:00-6:00'^^xsd:dateTime"@en ,
+		"NOTE: Used for anything with a planned end date, such as when a lease will expire, when an offer is no longer available, etc. Typically a planned date is in the future when first captured, but when tasks run late, we leave the plan where it was and compare it to the actual. Recommended usage is to zero out the hours through microseconds to avoid spurious precision."@en
+		;
+	.
+
+gist:plannedEndDateTime
+	rdfs:label "planned end date time"@en ;
+	rdfs:comment
+		"DEFINITION: The date that something is or was planned to end, with no implied precision."@en ,
+		"NOTE: This is an abstraction over the various precisions of planned end time, and is not expected to be asserted directly.  Values with different precisions can be compared since they all have the same format."@en ,
+		"NOTE: This property, unlike gist:actualEndDateTime, does not have a subproperty for microsecond precision, because planned times typically are not expressed at that level of granularity. Typically a planned date is in the future when first captured, but when tasks run late, we leave the plan where it was and compare it to the actual."@en
+		;
+	.
+
+gist:plannedEndMinute
+	rdfs:label "planned end minute"@en ;
+	rdfs:comment
+		"DEFINITION: The date and time that something is or was planned to end, with precision of one minute."@en ,
+		"EXAMPLE: '2021-06-01T08:32:00-6:00'^^xsd:dateTime"@en ,
+		"NOTE: Used for things like meetings and time card entries, where the hour and minute are important. Recommended usage is to zero out the seconds and microseconds to avoid spurious precision.Typically a planned date is in the future when first captured, but when tasks run late, we leave the plan where it was and compare it to the actual."@en
+		;
+	.
+
+gist:plannedEndYear
+	rdfs:label "planned end year"@en ;
+	rdfs:comment
+		"DEFINITION: The date that something is or was planned to end, with precision of one year."@en ,
+		"EXAMPLE: '2021-01-01T00:00:00-6:00'^^xsd:dateTime"@en ,
+		"EXAMPLE: The automobile manufacturer announced that it will stop producing gas-powered vehicles in 2035."@en ,
+		"NOTE: Used for anything with a planned end date where precision of one year is sufficient. Typically a planned date is in the future when first captured, but when tasks run late, we leave the plan where it was and compare it to the actual. Recommended usage is to zero out the hours through microseconds to avoid spurious precision. Note that it is not valid to zero out months and days, so arbitrary values must be included."@en
+		;
+	.
+
+gist:plannedStartDate
+	rdfs:label "planned start date"@en ;
+	rdfs:comment
+		"DEFINITION: The date that something is or was planned to start, with precision of one day."@en ,
+		"EXAMPLE: '2021-06-01T00:00:00-6:00'^^xsd:dateTime"@en ,
+		"NOTE: Used for anything with a planned start date, such as when a lease will start, when a configuration becomes available, etc. Typically a planned date is in the future when first captured, but when tasks run late, we leave the plan where it was and compare it to the actual. Recommended usage is to zero out the hours through microseconds to avoid spurious precision."@en
+		;
+	.
+
+gist:plannedStartDateTime
+	rdfs:label "planned start date time"@en ;
+	rdfs:comment
+		"DEFINITION: The date and time that something is or was planned to start, with no implied precision."@en ,
+		"NOTE: This is an abstraction over the various precisions of planned start time, and is not expected to be asserted directly. Values with different precisions can be compared since they all have the same format."@en ,
+		"NOTE: This property, unlike gist:actualStartDateTime, does not have a subproperty for microsecond precision, because planned times typically are not expressed at that level of granularity. Typically a planned date is in the future when first captured, but when tasks run late, we leave the plan where it was and compare it to the actual."@en
+		;
+	.
+
+gist:plannedStartMinute
+	rdfs:label "planned start minute"@en ;
+	rdfs:comment
+		"DEFINITION: The date and time that something is or was planned to start, with precision of one minute."@en ,
+		"EXAMPLE: '2021-06-01T08:32:00-6:00'^^xsd:dateTime"@en ,
+		"NOTE: Used for things like meetings and time card entries, where the hour and minute are important. Typically a planned date is in the future when first captured, but when tasks run late, we leave the plan where it was and compare it to the actual. Recommended usage is to zero out the seconds and microseconds to avoid spurious precision."@en
+		;
+	.
+
+gist:plannedStartYear
+	rdfs:label "planned start year"@en ;
+	rdfs:comment
+		"DEFINITION: The date that something is or was planned to start, with precision of one year."@en ,
+		"EXAMPLE: '2021-01-01T00:00:00-6:00'^^xsd:dateTime"@en ,
+		"EXAMPLE: The automobile manufacturer announced that its full line-up will include only electric cars starting in 2035."@en ,
+		"NOTE: Used for anything with a planned start date where precision of one year is sufficient. Typically a planned date is in the future when first captured, but when tasks run late, we leave the plan where it was and compare it to the actual. Recommended usage is to zero out the hours through microseconds to avoid spurious precision. Note that it is not valid to zero out months and days, so arbitrary values must be included."@en
+		;
+	.
+
+gist:precedes
+	rdfs:label "precedes"@en ;
+	rdfs:comment
+		"DEFINITION: A generic ordering relation indicating that the subject comes before the object."@en ,
+		"NOTE: The less-than symbol is often used to represent this relation."@en ,
+		"NOTE: This is the transitive version of gist:precedesDirectly."@en ,
+		"NOTE: Typically this predicate would be used asymmetricallly and irreflexively, but the ontology does not formalize this."@en
+		;
+	.
+
+gist:precedesDirectly
+	rdfs:label "precedes directly"@en ;
+	rdfs:comment
+		"DEFINITION: A generic ordering relation indicating that the subject comes immediately before the object."@en ,
+		"NOTE: If two items in an ordered collection share the same position, they both directly precede the following element."@en ,
+		"NOTE: It is safest to use this property only when the directness has a semantic correspondence with the world. Only break a direct link by inserting an intermediate item when that change corresponds to a change in the world."@en ,
+		"NOTE: Typically this predicate would be used asymmetricallly and irreflexively, but the ontology does not formalize this."@en
+		;
+	.
+
+gist:prevents
+	rdfs:label "prevents"@en ;
+	rdfs:comment "DEFINITION: The intention (say a law) is intended to prevent this kind of behavior (say jay-walking)"@en ;
+	.
+
+gist:produces
+	rdfs:label "produces"@en ;
+	rdfs:comment
+		"DEFINITION: The subject creates the object."@en ,
+		"EXAMPLE: A task produces a deliverable."@en
+		;
+	.
+
+gist:providesOrderFor
+	rdfs:label "provides order for"@en ;
+	rdfs:comment "DEFINITION: Links a member of an ordered collection to the real-world item it represents in that collection."@en ;
+	.
+
+gist:rangeIncludes
+	rdfs:label "range includes"@en ;
+	rdfs:comment
+		"DEFINITION: Relates a property to a class that constitutes (one of) the expected type(s) for values of the property."@en ,
+		"EXAMPLE: The range for the property gist:isCategorizedBy includes gist:Category."@en ,
+		"NOTE: This property is used to guide the ontology user; like all annotation properties, it does not play a role in inference."@en ,
+		"NOTE: This property means the same thing as the Schema.org version, which is an rdf:Property and not compliant with OWL-DL."@en
+		;
+	.
+
+gist:requires
+	rdfs:label "requires"@en ;
+	rdfs:comment
+		"DEFINITION: The subject needs the object or makes it necessary, mandatory, or compulsory."@en ,
+		"EXAMPLE: Humans require air; solar power requires sunshine."@en ,
+		"""NOTE: This predicate is defined generally enough to encompass a few different meanings of the English word 'requires':
+
+		1. To need something or to make something necessary.
+		2. To order or demand something, or to order someone to do something, especially because of a rule or law.
+		3. To make it officially necessary for someone to do something.
+
+	Implementations requiring a more specific meaning should define subproperties."""@en
+		;
+	.
+
+gist:respondsTo
+	rdfs:label "responds to"@en ;
+	rdfs:comment "DEFINITION: The set of sensors that a controller is attached to"@en ;
+	.
+
+gist:sequence
+	rdfs:label "sequence"@en ;
+	rdfs:comment "DEFINITION: For ordering ordered lists."@en ;
+	.
+
+gist:startDateTime
+	rdfs:label "start date time"@en ;
+	rdfs:comment
+		"DEFINITION: The date and time that something started."@en ,
+		"NOTE: This is an abstraction over the various precisions of start time, and is not expected to be asserted directly. Values with different precisions can be compared since they all have the same format."@en ,
+		"NOTE: We have looked at some extreme edge cases (e.g., did this meeting end before or after the trade was posted?) and we couldn't find any use case that required special processing. Those who have such use cases can implement them (and feel free to let us know)."@en
+		;
+	.
+
+gist:symbol
+	rdfs:label "symbol"@en ;
+	rdfs:comment
+		"DEFINITION: A symbol for something using only ASCII characters."@en ,
+		"EXAMPLE: The ASCII symbol for square meter is m^2."@en
+		;
+	.
+
+gist:tagText
+	rdfs:label "tag text"@en ;
+	rdfs:comment "DEFINITION: Used for folksonomy style categories (non controlled vocabulary)"@en ;
+	.
+
+gist:uniqueText
+	rdfs:label "unique text"@en ;
+	rdfs:comment
+		"DEFINITION: The unique string value of some content object; i.e., there is no possibility of having more than one value."@en ,
+		"EXAMPLE: The unique string for a vehicle identification number."@en ,
+		"NOTE: The uniqueness only goes in one direction. A product catalog number might also be an employee identifier."@en
+		;
+	.
+
+gist:unitSymbol
+	rdfs:label "unit symbol"@en ;
+	rdfs:comment "DEFINITION: The standard symbol for the unit NOT using any special characters.  E.g. square meter would be m^2 rather than m?."@en ;
+	.
+
+gist:unitSymbolHtml
+	rdfs:label "unit symbol HTML"@en ;
+	rdfs:comment 'DEFINITION: The standard symbol for the unit in HTML format for  pretty printing, may use special characters.  E.g. to show square meter as  m? rather than m^2, the value of this property would be "m&sup2;" This is for when Unicode not supported and the display will be HTML format.'@en ;
+	.
+
+gist:unitSymbolUnicode
+	rdfs:label "unit symbol Unicode"@en ;
+	rdfs:comment "DEFINITION: The standard symbol for the unit preferred for pretty printing, may use special characters.  E.g. square meter would be  m? rather than m^2."@en ;
+	.
+
+<https://w3id.org/semanticarts/ontology/gistCore>
+	rdfs:label "gist"@en ;
+	rdfs:comment "DEFINITION: gist is a minimalist upper ontology created by Semantic Arts."@en ;
+	.
+
+<https://w3id.org/semanticarts/ontology/gistMediaTypes>
+	rdfs:label "gist Media Types"@en ;
+	rdfs:comment "DEFINITION: Definitions of IANA Media Types."@en ;
+	.
+
+<https://w3id.org/semanticarts/ontology/gistPrefixDeclarations>
+	rdfs:label "gist Prefix Declarations"@en ;
+	rdfs:comment
+		"DEFINITION: Defines prefix declarations, which pair a prefix with a namespace, used in the gist ontology."@en ,
+		"NOTE: These prefixes are provided to support applications such as visualizers. Note that importing this file breaks OWL 2 DL conformance because SHACL is not an OWL ontology."@en
+		;
+	.
+
+<https://w3id.org/semanticarts/ontology/gistSubClassAssertions>
+	rdfs:label "gist Subclass Assertions"@en ;
+	rdfs:comment
+		"DEFINITION: Supplementary subclass assertions for gistCore."@en ,
+		"NOTE: This ontology contains supplementary subclass assertions that are logically entailed by gistCore but are not inferred by some automated reasoners. For example, an OWL RL reasoner would not infer that gist:Commitment is a subclass of gist:Intention, although it follows from the ontology axioms. More precisely, it contains (1) subclass assertions derived using an OWL DL reasoner and (2) the subclass assertions that are already explicit in gistCore."@en
+		;
+	.
+
+<https://www.iana.org/assignments/media-types/application/json>
+	rdfs:label "JSON"@en ;
+	.
+
+<https://www.iana.org/assignments/media-types/application/ld+json>
+	rdfs:label "JSON-LD"@en ;
+	.
+
+<https://www.iana.org/assignments/media-types/application/n-quads>
+	rdfs:label "N-Quads"@en ;
+	.
+
+<https://www.iana.org/assignments/media-types/application/n-triples>
+	rdfs:label "N-Triples"@en ;
+	.
+
+<https://www.iana.org/assignments/media-types/application/rdf+xml>
+	rdfs:label "RDF/XML"@en ;
+	.
+
+<https://www.iana.org/assignments/media-types/application/sparql-results+json>
+	rdfs:label "SPARQL 1.1 Query Results JSON"@en ;
+	.
+
+<https://www.iana.org/assignments/media-types/application/sparql-results+xml>
+	rdfs:label "SPARQL 1.1 Query Results XML"@en ;
+	.
+
+<https://www.iana.org/assignments/media-types/application/trig>
+	rdfs:label "TriG"@en ;
+	.
+
+<https://www.iana.org/assignments/media-types/text/csv>
+	rdfs:label "CSV"@en ;
+	.
+
+<https://www.iana.org/assignments/media-types/text/html>
+	rdfs:label "HTML"@en ;
+	.
+
+<https://www.iana.org/assignments/media-types/text/plain>
+	rdfs:label "Plain Text"@en ;
+	.
+
+<https://www.iana.org/assignments/media-types/text/turtle>
+	rdfs:label "Turtle"@en ;
+	.
+
