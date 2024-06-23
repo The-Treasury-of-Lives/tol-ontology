@@ -29,6 +29,6 @@ tolx:_IdType_worldcat
 	skos:editorialNote "Not sure if the display label should be 'WorldCat' or 'OCLC'."@en ;
 	skos:prefLabel "WorldCat"@en ;
 	tolo:displayLabel "WorldCat"@en ;
-	tolo:url "https://www.worldcat.org/oclc/"@en ;
+	tolo:url "https://www.worldcat.org/oclc/"^^xsd:anyURI ;
 	.
 
