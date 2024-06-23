@@ -41,6 +41,11 @@ WHERE {
     # Testing
     # FILTER(?community_id in ("9", "45"))
 
+    # Get the entity's IRI
+    # All IRIs will use infix "Place" because the type data is not available in other exports
+    # that reference the place (e.g., founders, founding dates, descriptions, etc.).
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Place_", ?community_id)) AS ?place_iri)
+
     # Get the local name of the entity's class
     BIND(
         COALESCE(
@@ -49,6 +54,7 @@ WHERE {
             IF(?place_type_name IN ("Government Building", 
                                     "Manor", 
                                     "Palace", 
+                                    "Stupa",
                                     "Temple"), 
             "Building", ?unbound),  
 
@@ -64,25 +70,23 @@ WHERE {
             "Institution"
     ) AS ?class_local_name)
 
-    # Get the class name used in the infix
-    BIND(IF(?class_local_name = "Monastery",
-        "Institution",
-        ?class_local_name
-    ) AS ?type_infix)
-
-    # Get the entity's class - e.g., gist:Building, tolo:Institution
+    # Get the entity's class IRI - gist:Building, gist:Landmark, tolo:Institution, 
+    # or tolo:Monastery
     BIND(IF(?class_local_name IN ("Building", "Landmark"), 
         tarql:expandPrefixedName(CONCAT("gist:", ?class_local_name)),
         tarql:expandPrefixedName(CONCAT("tolo:", ?class_local_name))
     ) AS ?class_iri)
 
-    # Get the entity's category - e.g., tolx:_BuildingType_manor
+    # Get the entity's category - e.g., tolx:_PlaceFunction_manor
+    # Get the category class name used in the infix  
     BIND(LCASE(REPLACE(?place_type_name, " ", "_")) AS ?type)
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_", ?type_infix, "Type_", ?type)) AS ?type_iri)
-
-    # Get the entity's IRI
-    # All IRIs will use infix "Place" because the type data is not available in other exports
-    # that reference the place (e.g., founders, founding dates, descriptions, etc.).
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Place_", ?community_id)) AS ?place_iri)
+    BIND(
+        COALESCE(
+            IF(?type IN ("cave", "hidden_land", "lake", "mountain"), "PlaceType", ?unbound),
+            IF(?type IN ("government_building", "hermitage", "manor",  "palace", "stupa", "temple"), "PlaceFunction", ?unbound),
+            "InstitutionType"
+        ) AS ?category_class
+    )
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_", ?category_class, "_", ?type)) AS ?type_iri)
 
 }
