@@ -1,0 +1,232 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:_Person_10029
+	bdo:hasParent
+		told:_Person_10019 ,
+		told:_Person_13843
+		;
+	.
+
+told:_Person_10169
+	bdo:hasParent told:_Person_5024 ;
+	.
+
+told:_Person_11428
+	bdo:hasParent
+		told:_Person_12992 ,
+		told:_Person_12993
+		;
+	.
+
+told:_Person_12479
+	bdo:hasParent
+		told:_Person_13787 ,
+		told:_Person_13788
+		;
+	.
+
+told:_Person_12940
+	bdo:hasParent told:_Person_9688 ;
+	.
+
+told:_Person_12981
+	bdo:hasParent
+		told:_Person_13658 ,
+		told:_Person_13813 ,
+		told:_Person_13815
+		;
+	.
+
+told:_Person_13246
+	bdo:hasParent told:_Person_13794 ;
+	.
+
+told:_Person_13249
+	bdo:hasParent told:_Person_13787 ;
+	.
+
+told:_Person_13468
+	bdo:hasParent told:_Person_13853 ;
+	.
+
+told:_Person_13569
+	bdo:hasParent told:_Person_13853 ;
+	.
+
+told:_Person_13570
+	bdo:hasParent told:_Person_13853 ;
+	.
+
+told:_Person_13581
+	bdo:hasParent told:_Person_13820 ;
+	.
+
+told:_Person_13615
+	bdo:hasParent told:_Person_13187 ;
+	.
+
+told:_Person_13647
+	bdo:hasParent told:_Person_13797 ;
+	.
+
+told:_Person_13651
+	bdo:hasParent told:_Person_2424 ;
+	.
+
+told:_Person_13692
+	bdo:hasParent told:_Person_8181 ;
+	.
+
+told:_Person_13702
+	bdo:hasParent told:_Person_13703 ;
+	.
+
+told:_Person_13745
+	bdo:hasParent
+		told:_Person_13787 ,
+		told:_Person_13788
+		;
+	.
+
+told:_Person_13788
+	bdo:hasParent told:_Person_13794 ;
+	.
+
+told:_Person_13789
+	bdo:hasParent told:_Person_13787 ;
+	.
+
+told:_Person_13790
+	bdo:hasParent told:_Person_13787 ;
+	.
+
+told:_Person_13794
+	bdo:hasParent told:_Person_13797 ;
+	.
+
+told:_Person_13795
+	bdo:hasParent told:_Person_13794 ;
+	.
+
+told:_Person_13811
+	bdo:hasParent told:_Person_11428 ;
+	.
+
+told:_Person_13818
+	bdo:hasParent told:_Person_13617 ;
+	.
+
+told:_Person_13819
+	bdo:hasParent told:_Person_12940 ;
+	.
+
+told:_Person_13879
+	bdo:hasParent told:_Person_13817 ;
+	.
+
+told:_Person_1628
+	bdo:hasParent told:_Person_4300 ;
+	.
+
+told:_Person_2424
+	bdo:hasParent told:_Person_13739 ;
+	.
+
+told:_Person_2915
+	bdo:hasParent told:_Person_2917 ;
+	.
+
+told:_Person_2916
+	bdo:hasParent told:_Person_1698 ;
+	.
+
+told:_Person_2919
+	bdo:hasParent told:_Person_2917 ;
+	.
+
+told:_Person_3627
+	bdo:hasParent told:_Person_3628 ;
+	.
+
+told:_Person_3770
+	bdo:hasParent told:_Person_3780 ;
+	.
+
+told:_Person_3822
+	bdo:hasParent
+		told:_Person_7296 ,
+		told:_Person_7297
+		;
+	.
+
+told:_Person_4300
+	bdo:hasParent told:_Person_4301 ;
+	.
+
+told:_Person_4440
+	bdo:hasParent told:_Person_8181 ;
+	.
+
+told:_Person_6
+	bdo:hasParent told:_Person_8181 ;
+	.
+
+told:_Person_6000
+	bdo:hasParent told:_Person_2917 ;
+	.
+
+told:_Person_6457
+	bdo:hasParent told:_Person_10019 ;
+	.
+
+told:_Person_7561
+	bdo:hasParent told:_Person_13187 ;
+	.
+
+told:_Person_8158
+	bdo:hasParent
+		told:_Person_7296 ,
+		told:_Person_7297
+		;
+	.
+
+told:_Person_8454
+	bdo:hasParent told:_Person_2314 ;
+	.
+
+told:_Person_8455
+	bdo:hasParent told:_Person_8456 ;
+	.
+
+told:_Person_8539
+	bdo:hasParent told:_Person_2992 ;
+	.
+
+told:_Person_8651
+	bdo:hasParent told:_Person_9083 ;
+	.
+
+told:_Person_8670
+	bdo:hasParent told:_Person_13817 ;
+	.
+
+told:_Person_8975
+	bdo:hasParent told:_Person_9052 ;
+	.
+
