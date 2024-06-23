@@ -47,8 +47,8 @@ told:_Place_1005
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -84,13 +84,13 @@ told:_Place_1014
 		;
 	gist:isCategorizedBy
 		tolx:_InstitutionType_monastery ,
-		tolx:_LandmarkType_hermitage
+		tolx:_PlaceFunction_hermitage
 		;
 	.
 
 told:_Place_1015
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1016
@@ -145,7 +145,7 @@ told:_Place_1024
 
 told:_Place_1025
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1036
@@ -190,7 +190,7 @@ told:_Place_1045
 
 told:_Place_1046
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1049
@@ -205,7 +205,7 @@ told:_Place_105
 
 told:_Place_1050
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1051
@@ -215,12 +215,12 @@ told:_Place_1051
 
 told:_Place_1052
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1053
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1054
@@ -255,7 +255,7 @@ told:_Place_1066
 
 told:_Place_1068
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1069
@@ -295,32 +295,32 @@ told:_Place_108
 
 told:_Place_1081
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	gist:isCategorizedBy tolx:_PlaceType_lake ;
 	.
 
 told:_Place_1082
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	gist:isCategorizedBy tolx:_PlaceType_mountain ;
 	.
 
 told:_Place_1083
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	gist:isCategorizedBy tolx:_PlaceType_mountain ;
 	.
 
 told:_Place_1084
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	gist:isCategorizedBy tolx:_PlaceType_mountain ;
 	.
 
 told:_Place_1085
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	gist:isCategorizedBy tolx:_PlaceType_mountain ;
 	.
 
 told:_Place_1086
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	gist:isCategorizedBy tolx:_PlaceType_mountain ;
 	.
 
 told:_Place_1087
@@ -350,7 +350,7 @@ told:_Place_1091
 
 told:_Place_1092
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_1093
@@ -380,7 +380,7 @@ told:_Place_1097
 
 told:_Place_1099
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_11
@@ -395,7 +395,7 @@ told:_Place_110
 
 told:_Place_1100
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1101
@@ -404,8 +404,8 @@ told:_Place_1101
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -481,7 +481,7 @@ told:_Place_1115
 
 told:_Place_1118
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	gist:isCategorizedBy tolx:_PlaceType_mountain ;
 	.
 
 told:_Place_1119
@@ -496,7 +496,7 @@ told:_Place_112
 
 told:_Place_1120
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1121
@@ -506,22 +506,22 @@ told:_Place_1121
 
 told:_Place_1122
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1123
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1124
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1125
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1126
@@ -551,7 +551,7 @@ told:_Place_1134
 
 told:_Place_1136
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	gist:isCategorizedBy tolx:_PlaceType_mountain ;
 	.
 
 told:_Place_1137
@@ -566,7 +566,7 @@ told:_Place_1138
 
 told:_Place_1139
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_114
@@ -576,7 +576,7 @@ told:_Place_114
 
 told:_Place_1140
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	gist:isCategorizedBy tolx:_PlaceType_mountain ;
 	.
 
 told:_Place_1141
@@ -586,7 +586,7 @@ told:_Place_1141
 
 told:_Place_1142
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	gist:isCategorizedBy tolx:_PlaceType_lake ;
 	.
 
 told:_Place_1143
@@ -626,12 +626,12 @@ told:_Place_1150
 
 told:_Place_1151
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1152
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1153
@@ -650,8 +650,8 @@ told:_Place_1157
 	.
 
 told:_Place_1158
-	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_stupa ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_stupa ;
 	.
 
 told:_Place_116
@@ -666,17 +666,17 @@ told:_Place_1161
 
 told:_Place_1162
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1163
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	gist:isCategorizedBy tolx:_PlaceType_mountain ;
 	.
 
 told:_Place_1164
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	gist:isCategorizedBy tolx:_PlaceType_mountain ;
 	.
 
 told:_Place_1165
@@ -691,7 +691,7 @@ told:_Place_1166
 
 told:_Place_1169
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	gist:isCategorizedBy tolx:_PlaceType_mountain ;
 	.
 
 told:_Place_117
@@ -701,7 +701,7 @@ told:_Place_117
 
 told:_Place_1170
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1171
@@ -746,12 +746,12 @@ told:_Place_1179
 
 told:_Place_1180
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1182
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1183
@@ -766,14 +766,14 @@ told:_Place_1184
 		;
 	gist:isCategorizedBy
 		tolx:_InstitutionType_monastery ,
-		tolx:_LandmarkType_cave ,
-		tolx:_LandmarkType_hermitage
+		tolx:_PlaceFunction_hermitage ,
+		tolx:_PlaceType_cave
 		;
 	.
 
 told:_Place_1185
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1186
@@ -788,7 +788,7 @@ told:_Place_1187
 
 told:_Place_1188
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1189
@@ -838,7 +838,7 @@ told:_Place_1197
 
 told:_Place_1198
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	gist:isCategorizedBy tolx:_PlaceFunction_palace ;
 	.
 
 told:_Place_1199
@@ -852,8 +852,8 @@ told:_Place_12
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -904,12 +904,12 @@ told:_Place_1212
 
 told:_Place_1213
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1214
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1215
@@ -924,7 +924,7 @@ told:_Place_1216
 
 told:_Place_1217
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1218
@@ -949,12 +949,12 @@ told:_Place_1220
 
 told:_Place_1221
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	gist:isCategorizedBy tolx:_PlaceType_lake ;
 	.
 
 told:_Place_1222
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	gist:isCategorizedBy tolx:_PlaceType_lake ;
 	.
 
 told:_Place_1224
@@ -970,8 +970,8 @@ told:_Place_1226
 told:_Place_1227
 	a gist:Landmark ;
 	gist:isCategorizedBy
-		tolx:_LandmarkType_cave ,
-		tolx:_LandmarkType_hermitage
+		tolx:_PlaceFunction_hermitage ,
+		tolx:_PlaceType_cave
 		;
 	.
 
@@ -987,7 +987,7 @@ told:_Place_1229
 
 told:_Place_1230
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1231
@@ -998,8 +998,8 @@ told:_Place_1231
 told:_Place_1232
 	a gist:Landmark ;
 	gist:isCategorizedBy
-		tolx:_LandmarkType_cave ,
-		tolx:_LandmarkType_hermitage
+		tolx:_PlaceFunction_hermitage ,
+		tolx:_PlaceType_cave
 		;
 	.
 
@@ -1066,8 +1066,8 @@ told:_Place_1244
 told:_Place_1245
 	a gist:Landmark ;
 	gist:isCategorizedBy
-		tolx:_LandmarkType_cave ,
-		tolx:_LandmarkType_hermitage
+		tolx:_PlaceFunction_hermitage ,
+		tolx:_PlaceType_cave
 		;
 	.
 
@@ -1123,7 +1123,7 @@ told:_Place_1257
 
 told:_Place_1258
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	gist:isCategorizedBy tolx:_PlaceType_mountain ;
 	.
 
 told:_Place_1259
@@ -1143,7 +1143,7 @@ told:_Place_1261
 
 told:_Place_1262
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1263
@@ -1193,7 +1193,7 @@ told:_Place_1271
 
 told:_Place_1272
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	gist:isCategorizedBy tolx:_PlaceType_lake ;
 	.
 
 told:_Place_1273
@@ -1208,7 +1208,7 @@ told:_Place_1274
 
 told:_Place_1275
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	gist:isCategorizedBy tolx:_PlaceType_lake ;
 	.
 
 told:_Place_1276
@@ -1223,7 +1223,7 @@ told:_Place_1277
 
 told:_Place_1278
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	gist:isCategorizedBy tolx:_PlaceType_mountain ;
 	.
 
 told:_Place_1279
@@ -1289,8 +1289,8 @@ told:_Place_129
 told:_Place_1291
 	a gist:Landmark ;
 	gist:isCategorizedBy
-		tolx:_LandmarkType_cave ,
-		tolx:_LandmarkType_hermitage
+		tolx:_PlaceFunction_hermitage ,
+		tolx:_PlaceType_cave
 		;
 	.
 
@@ -1312,8 +1312,8 @@ told:_Place_1295
 told:_Place_1296
 	a gist:Landmark ;
 	gist:isCategorizedBy
-		tolx:_LandmarkType_cave ,
-		tolx:_LandmarkType_hermitage
+		tolx:_PlaceFunction_hermitage ,
+		tolx:_PlaceType_cave
 		;
 	.
 
@@ -1324,7 +1324,7 @@ told:_Place_1297
 
 told:_Place_1298
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_1299
@@ -1359,7 +1359,7 @@ told:_Place_1302
 
 told:_Place_1303
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1305
@@ -1369,7 +1369,7 @@ told:_Place_1305
 
 told:_Place_1306
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1307
@@ -1389,12 +1389,12 @@ told:_Place_1309
 
 told:_Place_1311
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hidden_land ;
+	gist:isCategorizedBy tolx:_PlaceType_hidden_land ;
 	.
 
 told:_Place_1312
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_1313
@@ -1454,7 +1454,7 @@ told:_Place_1324
 
 told:_Place_1325
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	gist:isCategorizedBy tolx:_PlaceType_lake ;
 	.
 
 told:_Place_1327
@@ -1479,22 +1479,22 @@ told:_Place_1331
 
 told:_Place_1332
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1333
-	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_stupa ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_stupa ;
 	.
 
 told:_Place_1334
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1335
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1336
@@ -1528,8 +1528,8 @@ told:_Place_1340
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -1545,37 +1545,37 @@ told:_Place_1342
 
 told:_Place_1343
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1344
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	gist:isCategorizedBy tolx:_PlaceType_lake ;
 	.
 
 told:_Place_1345
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	gist:isCategorizedBy tolx:_PlaceFunction_palace ;
 	.
 
 told:_Place_1346
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	gist:isCategorizedBy tolx:_PlaceType_lake ;
 	.
 
 told:_Place_1347
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1348
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	gist:isCategorizedBy tolx:_PlaceType_mountain ;
 	.
 
 told:_Place_1349
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	gist:isCategorizedBy tolx:_PlaceFunction_palace ;
 	.
 
 told:_Place_135
@@ -1585,12 +1585,12 @@ told:_Place_135
 
 told:_Place_1350
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_lake ;
+	gist:isCategorizedBy tolx:_PlaceType_lake ;
 	.
 
 told:_Place_1351
-	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_stupa ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_stupa ;
 	.
 
 told:_Place_1352
@@ -1615,7 +1615,7 @@ told:_Place_1355
 
 told:_Place_1356
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1359
@@ -1624,8 +1624,8 @@ told:_Place_1359
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -1636,7 +1636,7 @@ told:_Place_136
 
 told:_Place_1361
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1362
@@ -1646,7 +1646,7 @@ told:_Place_1362
 
 told:_Place_1363
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1364
@@ -1661,7 +1661,7 @@ told:_Place_1365
 
 told:_Place_1366
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1367
@@ -1691,7 +1691,7 @@ told:_Place_1370
 
 told:_Place_1372
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1373
@@ -1706,7 +1706,7 @@ told:_Place_1374
 
 told:_Place_1376
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1377
@@ -1715,8 +1715,8 @@ told:_Place_1377
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -1782,12 +1782,12 @@ told:_Place_1395
 
 told:_Place_1396
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	gist:isCategorizedBy tolx:_PlaceType_mountain ;
 	.
 
 told:_Place_1397
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1398
@@ -1822,7 +1822,7 @@ told:_Place_1401
 
 told:_Place_1402
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	gist:isCategorizedBy tolx:_PlaceType_mountain ;
 	.
 
 told:_Place_1403
@@ -1846,14 +1846,14 @@ told:_Place_1406
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
 told:_Place_1407
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	gist:isCategorizedBy tolx:_PlaceFunction_palace ;
 	.
 
 told:_Place_1408
@@ -1962,14 +1962,14 @@ told:_Place_143
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
 told:_Place_1430
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1431
@@ -1999,7 +1999,7 @@ told:_Place_1435
 
 told:_Place_1436
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1437
@@ -2118,8 +2118,8 @@ told:_Place_1460
 		tolo:Institution
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_dharma_center
+		tolx:_InstitutionType_dharma_center ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -2135,22 +2135,22 @@ told:_Place_1462
 
 told:_Place_1463
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1464
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1465
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1466
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1467
@@ -2160,22 +2160,22 @@ told:_Place_1467
 
 told:_Place_1468
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1469
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1470
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_1471
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_1472
@@ -2279,13 +2279,13 @@ told:_Place_1493
 	.
 
 told:_Place_1494
-	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_stupa ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_stupa ;
 	.
 
 told:_Place_1496
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1497
@@ -2315,7 +2315,7 @@ told:_Place_150
 
 told:_Place_1500
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1501
@@ -2470,7 +2470,7 @@ told:_Place_1535
 
 told:_Place_1536
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1537
@@ -2485,7 +2485,7 @@ told:_Place_1538
 
 told:_Place_1539
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_154
@@ -2505,7 +2505,7 @@ told:_Place_1542
 
 told:_Place_1543
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_government_building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_government_building ;
 	.
 
 told:_Place_1544
@@ -2535,7 +2535,7 @@ told:_Place_1549
 
 told:_Place_1551
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1552
@@ -2565,7 +2565,7 @@ told:_Place_1557
 
 told:_Place_1558
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	gist:isCategorizedBy tolx:_PlaceFunction_palace ;
 	.
 
 told:_Place_1559
@@ -2580,17 +2580,17 @@ told:_Place_156
 
 told:_Place_1560
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1561
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_1562
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1563
@@ -2625,7 +2625,7 @@ told:_Place_1568
 
 told:_Place_1569
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_157
@@ -2700,7 +2700,7 @@ told:_Place_1588
 
 told:_Place_1589
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	gist:isCategorizedBy tolx:_PlaceFunction_palace ;
 	.
 
 told:_Place_159
@@ -2710,7 +2710,7 @@ told:_Place_159
 
 told:_Place_1591
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1592
@@ -2740,12 +2740,12 @@ told:_Place_1596
 
 told:_Place_1597
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1598
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_160
@@ -2785,7 +2785,7 @@ told:_Place_1605
 
 told:_Place_1607
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_mountain ;
+	gist:isCategorizedBy tolx:_PlaceType_mountain ;
 	.
 
 told:_Place_1608
@@ -2795,12 +2795,12 @@ told:_Place_1608
 
 told:_Place_1609
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1610
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_cave ;
+	gist:isCategorizedBy tolx:_PlaceType_cave ;
 	.
 
 told:_Place_1611
@@ -2820,9 +2820,9 @@ told:_Place_1613
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
 		tolx:_InstitutionType_dharma_center ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -2868,7 +2868,7 @@ told:_Place_1627
 
 told:_Place_1628
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_cave ;
+	gist:isCategorizedBy tolx:_PlaceType_cave ;
 	.
 
 told:_Place_1630
@@ -2888,7 +2888,7 @@ told:_Place_1632
 
 told:_Place_1633
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1634
@@ -2931,29 +2931,29 @@ told:_Place_1642
 
 told:_Place_1644
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1645
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1646
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1647
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1648
 	a gist:Landmark ;
 	gist:isCategorizedBy
-		tolx:_LandmarkType_hermitage ,
-		tolx:_LandmarkType_lake
+		tolx:_PlaceFunction_hermitage ,
+		tolx:_PlaceType_lake
 		;
 	.
 
@@ -2968,8 +2968,8 @@ told:_Place_165
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -2980,12 +2980,12 @@ told:_Place_1651
 
 told:_Place_1653
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1655
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1656
@@ -3055,7 +3055,7 @@ told:_Place_1670
 
 told:_Place_1671
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1673
@@ -3075,7 +3075,7 @@ told:_Place_1676
 
 told:_Place_1678
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_1679
@@ -3110,7 +3110,7 @@ told:_Place_1686
 
 told:_Place_1687
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	gist:isCategorizedBy tolx:_PlaceFunction_palace ;
 	.
 
 told:_Place_1688
@@ -3119,8 +3119,8 @@ told:_Place_1688
 	.
 
 told:_Place_1689
-	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_stupa ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_stupa ;
 	.
 
 told:_Place_1690
@@ -3134,13 +3134,13 @@ told:_Place_1691
 	.
 
 told:_Place_172
-	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_stupa ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_stupa ;
 	.
 
 told:_Place_173
-	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_stupa ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_stupa ;
 	.
 
 told:_Place_174
@@ -3165,7 +3165,7 @@ told:_Place_180
 
 told:_Place_181
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_183
@@ -3190,7 +3190,7 @@ told:_Place_187
 
 told:_Place_188
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_189
@@ -3245,7 +3245,7 @@ told:_Place_204
 		;
 	gist:isCategorizedBy
 		tolx:_InstitutionType_monastery ,
-		tolx:_LandmarkType_hermitage
+		tolx:_PlaceFunction_hermitage
 		;
 	.
 
@@ -3326,7 +3326,7 @@ told:_Place_224
 
 told:_Place_225
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_226
@@ -3631,7 +3631,7 @@ told:_Place_306
 		;
 	gist:isCategorizedBy
 		tolx:_InstitutionType_monastery ,
-		tolx:_LandmarkType_cave
+		tolx:_PlaceType_cave
 		;
 	.
 
@@ -3796,8 +3796,8 @@ told:_Place_345
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -4313,7 +4313,7 @@ told:_Place_449
 
 told:_Place_45
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_450
@@ -4503,7 +4503,7 @@ told:_Place_494
 		;
 	gist:isCategorizedBy
 		tolx:_InstitutionType_monastery ,
-		tolx:_LandmarkType_hermitage
+		tolx:_PlaceFunction_hermitage
 		;
 	.
 
@@ -4514,7 +4514,7 @@ told:_Place_495
 		;
 	gist:isCategorizedBy
 		tolx:_InstitutionType_monastery ,
-		tolx:_LandmarkType_hermitage
+		tolx:_PlaceFunction_hermitage
 		;
 	.
 
@@ -4570,7 +4570,7 @@ told:_Place_505
 
 told:_Place_507
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_508
@@ -4579,8 +4579,8 @@ told:_Place_508
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -4596,7 +4596,7 @@ told:_Place_510
 		;
 	gist:isCategorizedBy
 		tolx:_InstitutionType_monastery ,
-		tolx:_LandmarkType_hermitage
+		tolx:_PlaceFunction_hermitage
 		;
 	.
 
@@ -4707,7 +4707,7 @@ told:_Place_533
 
 told:_Place_534
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_535
@@ -5127,12 +5127,12 @@ told:_Place_724
 
 told:_Place_728
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_729
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_73
@@ -5231,8 +5231,8 @@ told:_Place_818
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -5273,7 +5273,7 @@ told:_Place_825
 		;
 	gist:isCategorizedBy
 		tolx:_InstitutionType_monastery ,
-		tolx:_LandmarkType_hermitage
+		tolx:_PlaceFunction_hermitage
 		;
 	.
 
@@ -5339,7 +5339,7 @@ told:_Place_841
 		;
 	gist:isCategorizedBy
 		tolx:_InstitutionType_monastery ,
-		tolx:_LandmarkType_hermitage
+		tolx:_PlaceFunction_hermitage
 		;
 	.
 
@@ -5350,37 +5350,37 @@ told:_Place_842
 
 told:_Place_843
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_844
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_845
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_846
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_847
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_848
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_849
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_85
@@ -5390,40 +5390,40 @@ told:_Place_85
 
 told:_Place_850
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_851
 	a gist:Building ;
 	gist:isCategorizedBy
-		tolx:_BuildingType_manor ,
-		tolx:_BuildingType_temple
+		tolx:_PlaceFunction_manor ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
 told:_Place_852
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_853
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_855
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_857
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_858
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_860
@@ -5433,7 +5433,7 @@ told:_Place_860
 		;
 	gist:isCategorizedBy
 		tolx:_InstitutionType_monastery ,
-		tolx:_LandmarkType_hermitage
+		tolx:_PlaceFunction_hermitage
 		;
 	.
 
@@ -5449,27 +5449,27 @@ told:_Place_862
 
 told:_Place_863
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_865
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_866
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_867
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_868
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_869
@@ -5484,7 +5484,7 @@ told:_Place_87
 
 told:_Place_870
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_871
@@ -5494,32 +5494,32 @@ told:_Place_871
 
 told:_Place_872
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_873
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_874
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_875
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_877
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_878
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_879
@@ -5544,7 +5544,7 @@ told:_Place_882
 
 told:_Place_883
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_884
@@ -5554,22 +5554,22 @@ told:_Place_884
 
 told:_Place_887
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_government_building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_government_building ;
 	.
 
 told:_Place_888
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_government_building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_government_building ;
 	.
 
 told:_Place_889
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_government_building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_government_building ;
 	.
 
 told:_Place_890
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_government_building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_government_building ;
 	.
 
 told:_Place_892
@@ -5583,39 +5583,39 @@ told:_Place_893
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
 told:_Place_894
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_895
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_896
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_897
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_898
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_899
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_9
@@ -5635,27 +5635,27 @@ told:_Place_900
 
 told:_Place_902
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_903
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_manor ;
+	gist:isCategorizedBy tolx:_PlaceFunction_manor ;
 	.
 
 told:_Place_904
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_government_building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_government_building ;
 	.
 
 told:_Place_905
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	gist:isCategorizedBy tolx:_PlaceFunction_palace ;
 	.
 
 told:_Place_906
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_palace ;
+	gist:isCategorizedBy tolx:_PlaceFunction_palace ;
 	.
 
 told:_Place_907
@@ -5715,7 +5715,7 @@ told:_Place_917
 
 told:_Place_92
 	a gist:Building ;
-	gist:isCategorizedBy tolx:_BuildingType_temple ;
+	gist:isCategorizedBy tolx:_PlaceFunction_temple ;
 	.
 
 told:_Place_920
@@ -5774,8 +5774,8 @@ told:_Place_934
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -5785,8 +5785,8 @@ told:_Place_935
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -5796,8 +5796,8 @@ told:_Place_936
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -5807,8 +5807,8 @@ told:_Place_937
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -5818,8 +5818,8 @@ told:_Place_938
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -5829,8 +5829,8 @@ told:_Place_939
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -5876,7 +5876,7 @@ told:_Place_95
 
 told:_Place_951
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_952
@@ -5910,8 +5910,8 @@ told:_Place_958
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_BuildingType_temple ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_temple
 		;
 	.
 
@@ -5957,12 +5957,12 @@ told:_Place_97
 
 told:_Place_970
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_971
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_972
@@ -5972,12 +5972,12 @@ told:_Place_972
 
 told:_Place_974
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_976
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_977
@@ -6043,7 +6043,7 @@ told:_Place_988
 
 told:_Place_989
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_991
@@ -6053,17 +6053,17 @@ told:_Place_991
 
 told:_Place_992
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_994
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_995
 	a gist:Landmark ;
-	gist:isCategorizedBy tolx:_LandmarkType_hermitage ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_996
