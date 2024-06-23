@@ -21,7 +21,7 @@ told:_Place_10
 		"Mindroling"@en ,
 		"smin grol gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"'og min o rgyan smin grol gling"@bo-x-ewts ,
 		"Orgyen Mindroling"@en ,
 		"minzhulin si"@en ,
@@ -65,7 +65,7 @@ told:_Place_1002
 		"rag nyag dgon"@bo-x-ewts ,
 		"热尼牙寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"rag nyag dgon phun tshogs theg chen gling"@bo-x-ewts ,
 		"rangniang si"@en ,
 		"reniya si"@en ,
@@ -107,7 +107,7 @@ told:_Place_1009
 		"Khyungritang"@en ,
 		"khyung ri thang dgon pa"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Khyungritang Gonpa"@en ,
 		"Khyungritang Monastery"@en ,
 		"Lusho Khyungritang Gonpa"@en ,
@@ -124,7 +124,7 @@ told:_Place_101
 		"Pokhang"@en ,
 		"spos khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"bokang cuoba"@en ,
 		"bokang si"@en ,
 		"spos khang tshogs pa"@bo-x-ewts ,
@@ -142,7 +142,7 @@ told:_Place_1010
 		"Tsopu"@en ,
 		"mtsho phu dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tram Tsopu"@en ,
 		"Tsophu Monastery"@en ,
 		"Tsopu Gon"@en ,
@@ -174,7 +174,7 @@ told:_Place_1013
 		"Garje"@en ,
 		"sga rje bde chen dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"deqing si"@en ,
 		"德青寺"@zh-HANI
 		;
@@ -200,7 +200,7 @@ told:_Place_1016
 		"Litang Nyingma Dratsang"@en ,
 		"li thang rnying ma grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"le thang rnying ma grwa tshang"@bo-x-ewts ,
 		"ningma si"@en ,
 		"ningma zhacang"@en ,
@@ -220,7 +220,7 @@ told:_Place_1017
 		"Drugu Gon"@en ,
 		"gru gu dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"tho gru gu dgon"@bo-x-ewts ,
 		"zhugu si"@en ,
 		"珠古寺"@zh-HANI
@@ -258,7 +258,7 @@ told:_Place_102
 		"Pelkhor Chode"@en ,
 		"dpal 'khor chos sde"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gyaltse Pelkhor Chode"@en ,
 		"Gyangtse Monastery"@en ,
 		"Palkhor Chode"@en ,
@@ -305,7 +305,7 @@ told:_Place_1023
 		"Driru Drubde"@en ,
 		"bri ru sgrub sde"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Takpu Drubde Genden Lukzang Kunpel Ling"@en ,
 		"stag phu sgrub sde dge ldan lugs bzang kun 'phel gling"@bo-x-ewts
 		;
@@ -320,7 +320,7 @@ told:_Place_1024
 		"Kumbum Printing Press"@en ,
 		"sku 'bum par khang"@bo-x-ewts
 		;
-	tolo:alternate_name "sku 'bum byams pa gling par khang"@bo-x-ewts ;
+	tolo:nameVariant "sku 'bum byams pa gling par khang"@bo-x-ewts ;
 	tolo:primaryName
 		"Kumbum Printing Press"@en ,
 		"sku 'bum par khang"@bo-x-ewts
@@ -366,7 +366,7 @@ told:_Place_1038
 		"nags mdo dgon blo bzang bde chen gling"@bo-x-ewts ,
 		"七步寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"blo bzang bde chen gling"@bo-x-ewts ,
 		"nags mdo dgon dga' ldan chos gling"@bo-x-ewts ,
 		"qibu si"@en ,
@@ -385,7 +385,7 @@ told:_Place_1041
 		"ban shul dgon bshad sgrub rin chen gling"@bo-x-ewts ,
 		"万秀讲修宝洲"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"bshad sgrub rin chen gling"@bo-x-ewts ,
 		"wanxiu jiangxiu baozhou"@en ,
 		"wanxiu si"@en
@@ -403,7 +403,7 @@ told:_Place_1042
 		"rnye dgon"@bo-x-ewts ,
 		"尼尔寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Nyedrubde Lhundrub Chodzong"@en ,
 		"lhun grub chos rdzong"@bo-x-ewts ,
 		"rnye dgon lhun grub chos rdzong"@bo-x-ewts ,
@@ -422,7 +422,7 @@ told:_Place_1043
 		"mda' tshan dgon bkra shis dga' ldan gling"@bo-x-ewts ,
 		"达参寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Datshen"@en ,
 		"Serlung"@en ,
 		"dacan si"@en ,
@@ -442,7 +442,7 @@ told:_Place_1044
 		"seng+ge gshong ma mgo dgon pa"@bo-x-ewts ,
 		"五屯下庄寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Senggeshong Mago Gonpa"@en ,
 		"seng+ge gshong ma mgo dgon pa dge ldan phun tshogs chos gling"@bo-x-ewts ,
 		"wutun xiazhuang si"@en
@@ -460,7 +460,7 @@ told:_Place_1045
 		"seng+ge gshong ya mgo dgon pa"@bo-x-ewts ,
 		"五屯上庄寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Senggeshong Yagotsang"@en ,
 		"dpal ldan chos 'byor gling"@bo-x-ewts ,
 		"seng+ge gshong ya mgo dgon pa"@bo-x-ewts ,
@@ -478,7 +478,7 @@ told:_Place_1049
 		"Atsagat Datsan"@en ,
 		"dga' ldan dar rgyas gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ganden Dargyeling"@en ,
 		"Асагадай дасан"@mn-CYRL ,
 		"Асагадай дасан"@ru ,
@@ -499,7 +499,7 @@ told:_Place_105
 		"gser mdog can"@bo-x-ewts ,
 		"土登赛朵金寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Zilung"@en ,
 		"gzi lung"@bo-x-ewts ,
 		"pan gser mdog can"@bo-x-ewts ,
@@ -532,7 +532,7 @@ told:_Place_1054
 		"chas pa dar dge dgon phun tshogs dar rgyas gling"@bo-x-ewts ,
 		"却巴达格寺"@zh-HANI
 		;
-	tolo:alternate_name "queba dage si"@en ;
+	tolo:nameVariant "queba dage si"@en ;
 	tolo:primaryName
 		"Chepa Darge Gon"@en ,
 		"chas pa dar dge dgon phun tshogs dar rgyas gling"@bo-x-ewts ,
@@ -542,7 +542,7 @@ told:_Place_1054
 
 told:_Place_1055
 	skos:prefLabel "Datsan Gunzechoinei"@en ;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Дацан Гунзэчойнэй"@mn-CYRL ,
 		"Дацан Гунзэчойнэй"@ru
 		;
@@ -555,7 +555,7 @@ told:_Place_1056
 		"legs dgon"@bo-x-ewts ,
 		"勒干寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"legan si"@en ,
 		"legs dgon gsang chen smin grol chos gling"@bo-x-ewts ,
 		"legs rgan dgon"@bo-x-ewts ,
@@ -586,7 +586,7 @@ told:_Place_1065
 		"nA len+dra"@bo-x-ewts ,
 		"那烂陀寺"@zh-HANI
 		;
-	tolo:alternate_name "नालंदा"@sa-DEVA ;
+	tolo:nameVariant "नालंदा"@sa-DEVA ;
 	tolo:primaryName
 		"Nālandā"@en ,
 		"nA len+dra"@bo-x-ewts ,
@@ -599,7 +599,7 @@ told:_Place_1066
 		"Tharpaling"@en ,
 		"brug yul thar pa gling"@bo-x-ewts
 		;
-	tolo:alternate_name "Tharpaling"@en ;
+	tolo:nameVariant "Tharpaling"@en ;
 	tolo:primaryName
 		"Tharpaling"@en ,
 		"brug yul thar pa gling"@bo-x-ewts
@@ -622,7 +622,7 @@ told:_Place_107
 		"Tupten Dargye Ling"@en ,
 		"thub bstan dar rgyas gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Thubten Dargye Ling"@en ,
 		"Tudengdajilin si"@en ,
 		"加桑卡乡土登达吉林寺"@zh-HANI ,
@@ -639,7 +639,7 @@ told:_Place_1070
 		"Sera Tekchen Chokhorling"@en ,
 		"se ra theg chen chos 'khor gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Serta Sera Monastery"@en ,
 		"gser thar se ra dgon"@bo-x-ewts
 		;
@@ -655,7 +655,7 @@ told:_Place_1071
 		"pan nag"@bo-x-ewts ,
 		"班那合寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Bannak"@en ,
 		"Benak"@en ,
 		"ban nag"@bo-x-ewts ,
@@ -673,7 +673,7 @@ told:_Place_1072
 		"Seula Chokhor Dorjeden"@en ,
 		"se'u la chos 'khor rdo rje ldan"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Sela Chonkhor Dorje Den"@en ,
 		"Sela Gon"@en
 		;
@@ -688,7 +688,7 @@ told:_Place_1073
 		"Māratika"@en ,
 		"mA ra ti ka"@bo-x-ewts
 		;
-	tolo:alternate_name "Maratika Chimey Takten Choling"@en ;
+	tolo:nameVariant "Maratika Chimey Takten Choling"@en ;
 	tolo:primaryName
 		"Māratika"@en ,
 		"mA ra ti ka"@bo-x-ewts
@@ -733,7 +733,7 @@ told:_Place_1089
 		"Dungkar"@en ,
 		"dung dkar"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dunkar"@en ,
 		"dun bkar"@bo-x-ewts
 		;
@@ -760,7 +760,7 @@ told:_Place_1091
 		"khya dge dgon"@bo-x-ewts ,
 		"恰盖寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kyage"@en ,
 		"Kyage Gon Leksheling"@en ,
 		"khya dge dgon legs bshad gling"@bo-x-ewts ,
@@ -790,7 +790,7 @@ told:_Place_1093
 		"ong gsum dga' ldan chos 'phel gling"@bo-x-ewts ,
 		"巴楞寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"baleng si"@en ,
 		"ong gsum dgon dga' ldan tshogs 'phel gling"@bo-x-ewts
 		;
@@ -861,7 +861,7 @@ told:_Place_11
 		"Dorje Drak"@en ,
 		"rdo rje brag"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ewam Chokgar"@en ,
 		"Jang Dorje Drak"@en ,
 		"Tubten Dorje Drak Ewam Chokgar"@en ,
@@ -878,7 +878,7 @@ told:_Place_110
 		"Takten Puntsok Ling"@en ,
 		"rtag brtan phun tshogs gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ganden Phuntsok Ling"@en ,
 		"Takten Damcho Ling Ngedon Gaway Tshal"@en ,
 		"Takten Phuntsok Ling"@en ,
@@ -897,7 +897,7 @@ told:_Place_1101
 		"Lotsawa Lhakhang"@en ,
 		"lo tsA ba lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name "Shangrong Lhakhang"@en ;
+	tolo:nameVariant "Shangrong Lhakhang"@en ;
 	tolo:primaryName
 		"Lotsawa Lhakhang"@en ,
 		"lo tsA ba lha khang"@bo-x-ewts
@@ -932,7 +932,7 @@ told:_Place_1104
 		"yid lhung lha rgyal"@bo-x-ewts ,
 		"拉加寺"@zh-HANI
 		;
-	tolo:alternate_name "Yilung Lhagyel"@en ;
+	tolo:nameVariant "Yilung Lhagyel"@en ;
 	tolo:primaryName
 		"Yilhung Lhagyel"@en ,
 		"yid lhung lha rgyal"@bo-x-ewts ,
@@ -946,7 +946,7 @@ told:_Place_1105
 		"shug sgang dgon"@bo-x-ewts ,
 		"修公寺"@zh-HANI
 		;
-	tolo:alternate_name "shug sgang 'od gsal lhun grub gling"@bo-x-ewts ;
+	tolo:nameVariant "shug sgang 'od gsal lhun grub gling"@bo-x-ewts ;
 	tolo:primaryName
 		"Shukgang Monastery"@en ,
 		"shug sgang dgon"@bo-x-ewts ,
@@ -982,7 +982,7 @@ told:_Place_1108
 		"brag 'go"@bo-x-ewts ,
 		"寿灵寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Hor Dranggo"@en ,
 		"shouling si"@en
 		;
@@ -1010,7 +1010,7 @@ told:_Place_1110
 		"ra hor"@bo-x-ewts ,
 		"然哈寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Rahor Tashi Lungrik Chime Gatsel"@en ,
 		"brag hor dgon"@bo-x-ewts
 		;
@@ -1040,7 +1040,7 @@ told:_Place_1112
 		"sa 'go"@bo-x-ewts ,
 		"桑古寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Sago"@en ,
 		"dpal yul rnam rgyal gtsang rung rgyal ba'i yang dgon"@bo-x-ewts ,
 		"sang gu si"@en
@@ -1058,7 +1058,7 @@ told:_Place_1113
 		"kun mtshar"@bo-x-ewts ,
 		"更扎寺"@zh-HANI
 		;
-	tolo:alternate_name "geng zha si"@en ;
+	tolo:nameVariant "geng zha si"@en ;
 	tolo:primaryName
 		"Kuntsar"@en ,
 		"kun mtshar"@bo-x-ewts ,
@@ -1072,7 +1072,7 @@ told:_Place_1114
 		"dzi dgar"@bo-x-ewts ,
 		"字嘎寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dzigar Chogar"@en ,
 		"dzi dkar"@bo-x-ewts ,
 		"dzi sgar"@bo-x-ewts ,
@@ -1114,7 +1114,7 @@ told:_Place_112
 		"chu bzang"@bo-x-ewts ,
 		"却桑寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tolung Chubzang Tupten Dargye Ling"@en ,
 		"stod lung chu bzang dgon thub bstan dar rgyas gling"@bo-x-ewts
 		;
@@ -1130,7 +1130,7 @@ told:_Place_1120
 		"Buchu Lhakhang"@en ,
 		"bu chu lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Buchu Sergyi Lhakhang"@en ,
 		"kong po bu chu"@bo-x-ewts ,
 		"kong yul bo chu thar legs"@bo-x-ewts
@@ -1147,7 +1147,7 @@ told:_Place_1121
 		"bka' tshal"@bo-x-ewts ,
 		"噶才寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"dbu ru bka' tshal"@bo-x-ewts ,
 		"ka tshal"@bo-x-ewts ,
 		"ka tshal mi 'gyur lha khang"@bo-x-ewts
@@ -1175,7 +1175,7 @@ told:_Place_1123
 		"Tsangdram"@en ,
 		"gtsang 'gram"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tsangdram Jema Lhakhang"@en ,
 		"g.yas ru gtsang 'gram bde rgyas bye ma gling gi gtsug lag khang"@bo-x-ewts ,
 		"g.yas ru gtsang 'gram bye ma'i lha khang"@bo-x-ewts
@@ -1192,7 +1192,7 @@ told:_Place_1124
 		"pra dun rtse"@bo-x-ewts ,
 		"江扎东哲寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Jang Traduntse"@en ,
 		"Zhadun Lakang"@en
 		;
@@ -1209,7 +1209,7 @@ told:_Place_1125
 		"mang yul byams sprin lha khang"@bo-x-ewts ,
 		"强真寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Jamdrin Lhakhang"@en ,
 		"Jamtrim Gegye Temple"@en ,
 		"byams sprin lha khang"@bo-x-ewts ,
@@ -1251,7 +1251,7 @@ told:_Place_1133
 		"kha rag"@bo-x-ewts ,
 		"卡热寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Pel Shenten Kharak Yungdrung Dechen Ling"@en ,
 		"Yungdrung Dechen Ling"@en ,
 		"dpal gshen bstan kha rag g.yung drung bde chen gling"@bo-x-ewts ,
@@ -1271,7 +1271,7 @@ told:_Place_1134
 		"Tsibri Monastery"@en ,
 		"rtsib ri dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"la stod rtsib ri dgon"@bo-x-ewts ,
 		"rgyal gyi shrI dgon"@bo-x-ewts
 		;
@@ -1319,7 +1319,7 @@ told:_Place_1141
 		"Zhohong"@en ,
 		"zho 'ong"@bo-x-ewts
 		;
-	tolo:alternate_name "zho 'phong"@bo-x-ewts ;
+	tolo:nameVariant "zho 'phong"@bo-x-ewts ;
 	tolo:primaryName
 		"Zhohong"@en ,
 		"zho 'ong"@bo-x-ewts
@@ -1331,7 +1331,7 @@ told:_Place_1143
 		"Tosamling College"@en ,
 		"thos bsam gling grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name "bkra shis lhun po thos bsam gling grwa tshang"@bo-x-ewts ;
+	tolo:nameVariant "bkra shis lhun po thos bsam gling grwa tshang"@bo-x-ewts ;
 	tolo:primaryName
 		"Tosamling College"@en ,
 		"thos bsam gling grwa tshang"@bo-x-ewts
@@ -1343,7 +1343,7 @@ told:_Place_1144
 		"Drakkar Tashiding"@en ,
 		"brag dkar bkra shis sdings"@bo-x-ewts
 		;
-	tolo:alternate_name "Tashiding"@en ;
+	tolo:nameVariant "Tashiding"@en ;
 	tolo:primaryName
 		"Drakkar Tashiding"@en ,
 		"brag dkar bkra shis sdings"@bo-x-ewts
@@ -1367,7 +1367,7 @@ told:_Place_1147
 		"sman lung dgon bkra shis chos 'phel gling"@bo-x-ewts ,
 		"曼龙寺"@zh-HANI
 		;
-	tolo:alternate_name "Manlongsi"@en ;
+	tolo:nameVariant "Manlongsi"@en ;
 	tolo:primaryName
 		"Menlung Tashi Chopel Ling"@en ,
 		"sman lung dgon bkra shis chos 'phel gling"@bo-x-ewts ,
@@ -1381,7 +1381,7 @@ told:_Place_1148
 		"mtshe'u ru ma'i ser sde"@bo-x-ewts ,
 		"采日玛塞德寺"@zh-HANI
 		;
-	tolo:alternate_name "cairima saide si"@en ;
+	tolo:nameVariant "cairima saide si"@en ;
 	tolo:primaryName
 		"Tseuruma Serde"@en ,
 		"mtshe'u ru ma'i ser sde"@bo-x-ewts ,
@@ -1394,7 +1394,7 @@ told:_Place_115
 		"Chung Riwoche"@en ,
 		"cung ri bo che"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ewam Gakyil"@en ,
 		"Pel Riwoche"@en ,
 		"dpal ri bo che dgon e waM dga' 'khyil"@bo-x-ewts ,
@@ -1413,7 +1413,7 @@ told:_Place_1150
 		"zung cu zi"@bo-x-ewts ,
 		"嵩祝寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Songzhu si"@en ,
 		"pe cin zung cu dgon"@bo-x-ewts ,
 		"嵩祝寺"@zh-HANI
@@ -1441,7 +1441,7 @@ told:_Place_1154
 		"Drakteng Monastery"@en ,
 		"brag steng dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Drakteng Puntsok Ling"@en ,
 		"brag steng phun tshogs gling"@bo-x-ewts
 		;
@@ -1467,7 +1467,7 @@ told:_Place_1158
 		"Bodhgaya"@en ,
 		"rdo rje gdan"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Mahabodhi Stupa"@en ,
 		"Vajrāsana"@en ,
 		"बोधगया"@sa-DEVA
@@ -1505,7 +1505,7 @@ told:_Place_1162
 		"Tachogang Lhakhang"@en ,
 		"rta mchog sgang lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name "Tachog Lhakhang"@en ;
+	tolo:nameVariant "Tachog Lhakhang"@en ;
 	tolo:primaryName
 		"Tachogang Lhakhang"@en ,
 		"rta mchog sgang lha khang"@bo-x-ewts
@@ -1518,7 +1518,7 @@ told:_Place_1165
 		"snang ra gser khang"@bo-x-ewts ,
 		"昂拉赛康寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Nangra Serkhang"@en ,
 		"angla saigang si"@en ,
 		"angla saikang si"@en ,
@@ -1539,7 +1539,7 @@ told:_Place_1166
 		"g.yer gshong dgon"@bo-x-ewts ,
 		"叶什姜寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Yershong Samten Chopel Ling"@en ,
 		"bsam gtan chos 'phel gling"@bo-x-ewts ,
 		"g.yer gshong bsam gtan chos 'phel gling"@bo-x-ewts ,
@@ -1596,7 +1596,7 @@ told:_Place_1173
 		"Katok Shedra Norbu Lhunpo"@en ,
 		"kaH thog bshad grwa nor bu lhun po"@bo-x-ewts
 		;
-	tolo:alternate_name "Shedrub Norbu Lhunpo"@en ;
+	tolo:nameVariant "Shedrub Norbu Lhunpo"@en ;
 	tolo:primaryName
 		"Katok Shedra Norbu Lhunpo"@en ,
 		"kaH thog bshad grwa nor bu lhun po"@bo-x-ewts
@@ -1627,7 +1627,7 @@ told:_Place_1178
 		"be shing dgon"@bo-x-ewts ,
 		"外相寺, 佐盖尼玛外相贡噶丹绕吉朗"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dzoge Nyima"@en ,
 		"Dzoge Nyima Ganden Rabgye Ling"@en ,
 		"Ganden Rabgye Ling"@en ,
@@ -1659,7 +1659,7 @@ told:_Place_1183
 		"maN+Dal dgon"@bo-x-ewts ,
 		"门查寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"men cha si"@en ,
 		"men zha si"@en ,
 		"sde dge maN+Dal dgon"@bo-x-ewts ,
@@ -1690,7 +1690,7 @@ told:_Place_1185
 		"Gyelwa Sengge Ngaro Lhakhang"@en ,
 		"rgyal ba seng ge'i nga ro'i lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name "Dedenling Sengge Ngaro"@en ;
+	tolo:nameVariant "Dedenling Sengge Ngaro"@en ;
 	tolo:primaryName
 		"Gyelwa Sengge Ngaro Lhakhang"@en ,
 		"rgyal ba seng ge'i nga ro'i lha khang"@bo-x-ewts
@@ -1725,7 +1725,7 @@ told:_Place_1189
 		"gla gro bsam grub lha ldan chos 'khor gling"@bo-x-ewts ,
 		"拉喔寺"@zh-HANI
 		;
-	tolo:alternate_name "Ladro Samdrub Lhaden Chokhor Ling"@en ;
+	tolo:nameVariant "Ladro Samdrub Lhaden Chokhor Ling"@en ;
 	tolo:primaryName
 		"Ladro Monastery"@en ,
 		"gla gro bsam grub lha ldan chos 'khor gling"@bo-x-ewts ,
@@ -1746,7 +1746,7 @@ told:_Place_119
 
 told:_Place_1190
 	skos:prefLabel "Khamarin Khiid"@en ;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Hamariin Khiid"@en ,
 		"Khamar Monastery"@en ,
 		"Khamaryn Khural"@en ,
@@ -1760,7 +1760,7 @@ told:_Place_1191
 		"Riwo Gegye Ganden Shedrubling"@en ,
 		"ri bo dge rgyas dga' ldan bshad sgrub gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Nomiin Ikh Khuree"@en ,
 		"Riwogejigandanshaddublin"@en ,
 		"Zuun Khuree"@en
@@ -1776,7 +1776,7 @@ told:_Place_1192
 		"Amarbayasgalant"@en ,
 		"慶寧寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Amurbayasqulangtu keyid"@en ,
 		"Urgun Elhe Sy"@en ,
 		"慶寧寺"@zh-HANI
@@ -1792,7 +1792,7 @@ told:_Place_1194
 		"Kunga Choling"@en ,
 		"kun dga' chos gling grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name "Güngaachoilin datsan"@en ;
+	tolo:nameVariant "Güngaachoilin datsan"@en ;
 	tolo:primaryName
 		"Kunga Choling"@en ,
 		"kun dga' chos gling grwa tshang"@bo-x-ewts
@@ -1804,7 +1804,7 @@ told:_Place_1195
 		"Gyu Dratsang"@en ,
 		"rgyud grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name "Jud Datsan"@en ;
+	tolo:nameVariant "Jud Datsan"@en ;
 	tolo:primaryName
 		"Gyu Dratsang"@en ,
 		"rgyud grwa tshang"@bo-x-ewts
@@ -1816,7 +1816,7 @@ told:_Place_1196
 		"Nedong Tsetsokpa"@en ,
 		"sne gdong rtse tshogs pa"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Neudong"@en ,
 		"ne'u gdong"@bo-x-ewts
 		;
@@ -1832,7 +1832,7 @@ told:_Place_1198
 		"pho grang rgyal mkhar rtse"@bo-x-ewts ,
 		"江孜城堡"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"jiangzi chengbao"@en ,
 		"rgyal rtse rdzong mkhar"@bo-x-ewts
 		;
@@ -1849,7 +1849,7 @@ told:_Place_1199
 		"thar bde dgon"@bo-x-ewts ,
 		"塔德寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tarde Hermitage"@en ,
 		"thar bde ri khrod"@bo-x-ewts
 		;
@@ -1866,7 +1866,7 @@ told:_Place_12
 		"rdzogs chen dgon"@bo-x-ewts ,
 		"竹庆寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Derge Dzogchen"@en ,
 		"Dzogchen"@en ,
 		"Orgyen Samten Choling"@en ,
@@ -1889,7 +1889,7 @@ told:_Place_120
 		"gnas rnying"@bo-x-ewts ,
 		"乃宁寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"gnas snying dgon pa"@bo-x-ewts ,
 		"naining si"@en
 		;
@@ -1905,7 +1905,7 @@ told:_Place_1200
 		"Baruun Khiid"@en ,
 		"贺兰山南寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Baraghun keid"@en ,
 		"Baraγun Keyid"@en ,
 		"Baruun khiid"@en ,
@@ -1927,7 +1927,7 @@ told:_Place_1201
 		"pad dkar chos gling"@bo-x-ewts ,
 		"广觉寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Badgar choiling süm"@en ,
 		"Badghar coiling süme"@en ,
 		"Baotou Wudangzhao"@en ,
@@ -1952,7 +1952,7 @@ told:_Place_1204
 		"e rte ni jo bo"@bo-x-ewts ,
 		"光显寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Eerdeni zhao"@en ,
 		"Erdene juu"@en ,
 		"Erdeni juu"@en ,
@@ -2041,7 +2041,7 @@ told:_Place_1216
 		"ri mgul dgon"@bo-x-ewts ,
 		"仁古寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Derge Dzari Ringu"@en ,
 		"Rigul"@en ,
 		"Ringul"@en ,
@@ -2061,7 +2061,7 @@ told:_Place_1217
 		"Chakhyi Lhakhang"@en ,
 		"bya khyi lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name "Chakyi Lhakang"@en ;
+	tolo:nameVariant "Chakyi Lhakang"@en ;
 	tolo:primaryName
 		"Chakhyi Lhakhang"@en ,
 		"bya khyi lha khang"@bo-x-ewts
@@ -2074,7 +2074,7 @@ told:_Place_1218
 		"spyan g.yas dgon pa"@bo-x-ewts ,
 		"建叶寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Putang Chenye"@en ,
 		"phu thang spyan g.yas"@bo-x-ewts
 		;
@@ -2091,7 +2091,7 @@ told:_Place_1219
 		"be ri dpal ldan 'gro phan gling"@bo-x-ewts ,
 		"白利寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"baili si"@en ,
 		"bairi si"@en ,
 		"be ru dgon"@bo-x-ewts ,
@@ -2135,7 +2135,7 @@ told:_Place_1224
 		"nyag rong go 'byams dgon"@bo-x-ewts ,
 		"贡觉寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"go 'byams dgon"@bo-x-ewts ,
 		"gong jue si"@en ,
 		"贡觉寺"@zh-HANI
@@ -2153,7 +2153,7 @@ told:_Place_1226
 		"chos grags dgon"@bo-x-ewts ,
 		"曲扎寺"@zh-HANI
 		;
-	tolo:alternate_name "quzha si"@en ;
+	tolo:nameVariant "quzha si"@en ;
 	tolo:primaryName
 		"Chodrak Gon"@en ,
 		"chos grags dgon"@bo-x-ewts ,
@@ -2177,7 +2177,7 @@ told:_Place_1229
 		"Hardong Khamtsen"@en ,
 		"har gdong khams tshan"@bo-x-ewts
 		;
-	tolo:alternate_name "Drepung Gomang Hardong"@en ;
+	tolo:nameVariant "Drepung Gomang Hardong"@en ;
 	tolo:primaryName
 		"Hardong Khamtsen"@en ,
 		"har gdong khams tshan"@bo-x-ewts
@@ -2189,7 +2189,7 @@ told:_Place_1231
 		"Ling Khamtsen"@en ,
 		"gling khams tshan"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Lingwa House"@en ,
 		"Lingwa Khamsten"@en
 		;
@@ -2204,7 +2204,7 @@ told:_Place_1233
 		"Tikchi Monastery"@en ,
 		"thig phyi dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Benpa Chakdor Lhakhang"@en ,
 		"ban pa phyag rdor lha khang"@bo-x-ewts
 		;
@@ -2242,7 +2242,7 @@ told:_Place_1236
 		"brug byang chub chos gling"@bo-x-ewts ,
 		"降曲林寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"'brug byang chub chos gling"@bo-x-ewts ,
 		"gnam 'brug se ba byang chub gling"@bo-x-ewts ,
 		"jiangqulin si"@en ,
@@ -2262,7 +2262,7 @@ told:_Place_1237
 		"stag lung thar gling chos sde"@bo-x-ewts ,
 		"达隆寺, 南达隆寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"lho stag lung"@bo-x-ewts ,
 		"stag lung gwa tshang zhol thar gling chos gter"@bo-x-ewts ,
 		"yar 'brog stag lung"@bo-x-ewts
@@ -2280,7 +2280,7 @@ told:_Place_1238
 		"dbon stod dgon"@bo-x-ewts ,
 		"汪堆寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Wonton"@en ,
 		"dbon ston dgon"@bo-x-ewts
 		;
@@ -2296,7 +2296,7 @@ told:_Place_124
 		"Pelteng"@en ,
 		"dpal steng"@bo-x-ewts
 		;
-	tolo:alternate_name "gtsang dpal steng dgon pa"@bo-x-ewts ;
+	tolo:nameVariant "gtsang dpal steng dgon pa"@bo-x-ewts ;
 	tolo:primaryName
 		"Pelteng"@en ,
 		"dpal steng"@bo-x-ewts
@@ -2343,7 +2343,7 @@ told:_Place_1244
 		"Khemar Monastery"@en ,
 		"khas dmar dgon"@bo-x-ewts
 		;
-	tolo:alternate_name "dbang ros dgon pa"@bo-x-ewts ;
+	tolo:nameVariant "dbang ros dgon pa"@bo-x-ewts ;
 	tolo:primaryName
 		"Khemar Monastery"@en ,
 		"khas dmar dgon"@bo-x-ewts
@@ -2355,7 +2355,7 @@ told:_Place_1246
 		"Ara Khamtsen"@en ,
 		"a ra khams mtshan"@bo-x-ewts
 		;
-	tolo:alternate_name "Ara Khangtsen"@en ;
+	tolo:nameVariant "Ara Khangtsen"@en ;
 	tolo:primaryName
 		"Ara Khamtsen"@en ,
 		"a ra khams mtshan"@bo-x-ewts
@@ -2368,7 +2368,7 @@ told:_Place_1247
 		"phyir mig lung dgon"@bo-x-ewts ,
 		"奇密隆寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Chirmiklung"@en ,
 		"phyi mi lung"@bo-x-ewts ,
 		"奇密隆寺"@en ,
@@ -2387,7 +2387,7 @@ told:_Place_1248
 		"sha sbrang"@bo-x-ewts ,
 		"夏卜浪寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Shadrang Puntsok Choling"@en ,
 		"sha sbrang phun tshogs chos gling"@bo-x-ewts ,
 		"xiapulang si"@en ,
@@ -2416,7 +2416,7 @@ told:_Place_1250
 		"Drentang Monastery"@en ,
 		"dran thang dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Drentang Hermitage"@en ,
 		"Drentang Kumbum"@en ,
 		"dran thang ri khrod"@bo-x-ewts ,
@@ -2434,7 +2434,7 @@ told:_Place_1251
 		"zangs chen dgon"@bo-x-ewts ,
 		"桑青寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Nyel Zangpoche"@en ,
 		"Zangpoche"@en ,
 		"gnyal zang po che"@bo-x-ewts ,
@@ -2463,7 +2463,7 @@ told:_Place_1254
 		"Gyakhar Gar"@en ,
 		"rgya mkhar sgar"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tso Gyakhar Gar"@en ,
 		"gtsos rgya mkhar sgar"@bo-x-ewts
 		;
@@ -2489,7 +2489,7 @@ told:_Place_1256
 		"Dungsam Riwo Tengyeling"@en ,
 		"gdung bsam ri bo bstan rgyas gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dungsam Yongla"@en ,
 		"Yongla Goenpa"@en
 		;
@@ -2504,7 +2504,7 @@ told:_Place_1257
 		"Trashigang Dzong"@en ,
 		"bkra shis sgang dzong"@bo-x-ewts
 		;
-	tolo:alternate_name "Tashigang Dzong"@en ;
+	tolo:nameVariant "Tashigang Dzong"@en ;
 	tolo:primaryName
 		"Trashigang Dzong"@en ,
 		"bkra shis sgang dzong"@bo-x-ewts
@@ -2538,7 +2538,7 @@ told:_Place_1261
 		"Rashel"@en ,
 		"rwa shel"@bo-x-ewts
 		;
-	tolo:alternate_name "ra shel"@bo-x-ewts ;
+	tolo:nameVariant "ra shel"@bo-x-ewts ;
 	tolo:primaryName
 		"Rashel"@en ,
 		"rwa shel"@bo-x-ewts
@@ -2550,7 +2550,7 @@ told:_Place_1263
 		"Gyelpak Monastery"@en ,
 		"rgyal 'phags bkra shis chos gling"@bo-x-ewts
 		;
-	tolo:alternate_name "Tashi Choling"@en ;
+	tolo:nameVariant "Tashi Choling"@en ;
 	tolo:primaryName
 		"Gyelpak Monastery"@en ,
 		"rgyal 'phags bkra shis chos gling"@bo-x-ewts
@@ -2570,7 +2570,7 @@ told:_Place_1264
 
 told:_Place_1265
 	skos:prefLabel "Khyunggon Monastery"@en ;
-	tolo:alternate_name "Khyunggon Mingyur Dorje Ling"@en ;
+	tolo:nameVariant "Khyunggon Mingyur Dorje Ling"@en ;
 	tolo:primaryName "Khyunggon Monastery"@en ;
 	.
 
@@ -2603,7 +2603,7 @@ told:_Place_1268
 		"Drati House"@en ,
 		"sbra ti khang tshan"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Sera Je Drati House"@en ,
 		"ser byes sbra ti khang tshan"@bo-x-ewts
 		;
@@ -2618,7 +2618,7 @@ told:_Place_127
 		"Lhagang"@en ,
 		"lha sgang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Lhagong"@en ,
 		"Tagong"@en ,
 		"dpal lha sgang dgon"@bo-x-ewts ,
@@ -2637,7 +2637,7 @@ told:_Place_1270
 		"Dechenpuk"@en ,
 		"bde chen phug"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dechen Puk"@en ,
 		"Dechenpuk Drubde"@en ,
 		"bde chen phug sgrub sde"@bo-x-ewts
@@ -2653,7 +2653,7 @@ told:_Place_1271
 		"Tarpeling"@en ,
 		"thar pa’i gling"@bo-x-ewts
 		;
-	tolo:alternate_name "Bumthang Tarpeling"@en ;
+	tolo:nameVariant "Bumthang Tarpeling"@en ;
 	tolo:primaryName
 		"Tarpeling"@en ,
 		"thar pa’i gling"@bo-x-ewts
@@ -2665,7 +2665,7 @@ told:_Place_1273
 		"Pomda Sangngak Dechen Monastery"@en ,
 		"spom mda' gsang sngags bde chen dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Sangngak Dechen"@en ,
 		"Tsawa Pomda"@en
 		;
@@ -2681,7 +2681,7 @@ told:_Place_1274
 		"zhwa dmar dgon"@bo-x-ewts ,
 		"南冲寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Amdo Zhamar"@en ,
 		"nanchong si"@en ,
 		"xiama si"@en ,
@@ -2712,7 +2712,7 @@ told:_Place_1277
 		"zhi ba dgon"@bo-x-ewts ,
 		"俄沃寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"dpal ldan zhi ba dgon"@bo-x-ewts ,
 		"ewo si"@en ,
 		"nyag rong zhi ba dgon"@bo-x-ewts ,
@@ -2730,7 +2730,7 @@ told:_Place_1279
 		"Shabme Gomne"@en ,
 		"shab smad sgom gnas"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gomne"@en ,
 		"Tsangto Tropu Shabme Gomne"@en
 		;
@@ -2746,7 +2746,7 @@ told:_Place_128
 		"na len dra dgon"@bo-x-ewts ,
 		"那烂扎寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"'phan po nAlen+dra"@bo-x-ewts ,
 		"'phan yul nA len+dra"@bo-x-ewts ,
 		"dpal nA len dra"@bo-x-ewts ,
@@ -2791,7 +2791,7 @@ told:_Place_1282
 		"Drokge Monastery"@en ,
 		"brog dge dgon"@bo-x-ewts
 		;
-	tolo:alternate_name "Pel Mingyur Ngedon Samdrub Ling"@en ;
+	tolo:nameVariant "Pel Mingyur Ngedon Samdrub Ling"@en ;
 	tolo:primaryName
 		"Drokge Monastery"@en ,
 		"brog dge dgon"@bo-x-ewts
@@ -2804,7 +2804,7 @@ told:_Place_1283
 		"khrig tse dgon"@bo-x-ewts ,
 		"提克西寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tikse"@en ,
 		"khri tshogs dgon pa"@bo-x-ewts
 		;
@@ -2820,7 +2820,7 @@ told:_Place_1284
 		"Dzato Changmai Monastery"@en ,
 		"rdza stod lcang ma'i dgon"@bo-x-ewts
 		;
-	tolo:alternate_name "lcang mai' dgon"@bo-x-ewts ;
+	tolo:nameVariant "lcang mai' dgon"@bo-x-ewts ;
 	tolo:primaryName
 		"Dzato Changmai Monastery"@en ,
 		"rdza stod lcang ma'i dgon"@bo-x-ewts
@@ -2843,7 +2843,7 @@ told:_Place_1286
 		"Zangri Monastery"@en ,
 		"bzang ri dgon"@bo-x-ewts
 		;
-	tolo:alternate_name "Zangpori"@en ;
+	tolo:nameVariant "Zangpori"@en ;
 	tolo:primaryName
 		"Zangri Monastery"@en ,
 		"bzang ri dgon"@bo-x-ewts
@@ -2855,7 +2855,7 @@ told:_Place_1287
 		"Tawang Monastery"@en ,
 		"rta dbang dgon"@bo-x-ewts
 		;
-	tolo:alternate_name "Ganden Namgyel Lhatse"@en ;
+	tolo:nameVariant "Ganden Namgyel Lhatse"@en ;
 	tolo:primaryName
 		"Tawang Monastery"@en ,
 		"rta dbang dgon"@bo-x-ewts
@@ -2867,7 +2867,7 @@ told:_Place_1288
 		"Kharteng Monastery"@en ,
 		"mkhar steng dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Nyel Kharteng"@en ,
 		"gnyal mkhar steng"@bo-x-ewts ,
 		"kading si"@en ,
@@ -2884,7 +2884,7 @@ told:_Place_1289
 		"Shauk Tago"@en ,
 		"sha 'ug stag sgo"@bo-x-ewts
 		;
-	tolo:alternate_name "bde chen chos kyi 'khor lo"@bo-x-ewts ;
+	tolo:nameVariant "bde chen chos kyi 'khor lo"@bo-x-ewts ;
 	tolo:primaryName
 		"Shauk Tago"@en ,
 		"sha 'ug stag sgo"@bo-x-ewts
@@ -2907,7 +2907,7 @@ told:_Place_1292
 		"Chuwar Monastery"@en ,
 		"chu dbar dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"quwa si"@en ,
 		"曲瓦寺"@zh-HANI
 		;
@@ -2922,7 +2922,7 @@ told:_Place_1294
 		"Lo Monastery"@en ,
 		"lo dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Logon"@en ,
 		"luo si"@en ,
 		"luopu si"@en ,
@@ -2940,7 +2940,7 @@ told:_Place_1295
 		"Dambadarjaa Monastery"@en ,
 		"bstan pa dar rgyas gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dambadarjaa khiid"@en ,
 		"Dambadarjaalin"@en ,
 		"anba darjai keyid"@en
@@ -2956,7 +2956,7 @@ told:_Place_1297
 		"Namtseding Monastery"@en ,
 		"gnam rtse lding"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Namtseding Chode"@en ,
 		"Namtsibteng"@en ,
 		"gnam rtsib steng"@bo-x-ewts
@@ -2972,7 +2972,7 @@ told:_Place_1298
 		"Surkhang Printery"@en ,
 		"zur khang par khang"@bo-x-ewts
 		;
-	tolo:alternate_name "gzim zur khang gi par khang"@bo-x-ewts ;
+	tolo:nameVariant "gzim zur khang gi par khang"@bo-x-ewts ;
 	tolo:primaryName
 		"Surkhang Printery"@en ,
 		"zur khang par khang"@bo-x-ewts
@@ -2984,7 +2984,7 @@ told:_Place_1299
 		"Taktsang Monastery"@en ,
 		"stag tshang dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Taktsang Ritro"@en ,
 		"Tashi Choling"@en ,
 		"stag tshang ri khrod"@bo-x-ewts
@@ -3000,7 +3000,7 @@ told:_Place_13
 		"Shechen"@en ,
 		"zhe chen"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Shechen Gon"@en ,
 		"Shechen Tennyi Dargyeling"@en ,
 		"Zhechen"@en ,
@@ -3020,7 +3020,7 @@ told:_Place_130
 		"g.ya' bzang dgon"@bo-x-ewts ,
 		"亚桑寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Yabzang Gon"@en ,
 		"dga' ldan bsam gtan gling"@bo-x-ewts ,
 		"亚桑寺"@zh-HANI
@@ -3037,7 +3037,7 @@ told:_Place_1300
 		"Zhungpa Khamtsen"@en ,
 		"gzhung pa khams tshan"@bo-x-ewts
 		;
-	tolo:alternate_name "Zhungpa Khangtsen"@en ;
+	tolo:nameVariant "Zhungpa Khangtsen"@en ;
 	tolo:primaryName
 		"Zhungpa Khamtsen"@en ,
 		"gzhung pa khams tshan"@bo-x-ewts
@@ -3061,7 +3061,7 @@ told:_Place_1302
 		"de mo"@bo-x-ewts ,
 		"第穆寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"demu si"@en ,
 		"dimu si"@en ,
 		"kong po de mo"@bo-x-ewts ,
@@ -3125,7 +3125,7 @@ told:_Place_1312
 		"Roerich House"@en ,
 		"gzims shag ro rig"@bo-x-ewts
 		;
-	tolo:alternate_name "Urusvati Institute"@en ;
+	tolo:nameVariant "Urusvati Institute"@en ;
 	tolo:primaryName
 		"Roerich House"@en ,
 		"gzims shag ro rig"@bo-x-ewts
@@ -3138,7 +3138,7 @@ told:_Place_1313
 		"rdzong mgo"@bo-x-ewts ,
 		"绒戈寺"@zh-HANI
 		;
-	tolo:alternate_name "rongge si"@en ;
+	tolo:nameVariant "rongge si"@en ;
 	tolo:primaryName
 		"Dzonggo"@en ,
 		"rdzong mgo"@bo-x-ewts ,
@@ -3163,7 +3163,7 @@ told:_Place_1316
 		"khor gdong dgon"@bo-x-ewts ,
 		"柯洛洞寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dechen Sangngak Khorlodong"@en ,
 		"Khorlodong"@en ,
 		"bde chen gsang snangs 'khor lo gdong"@bo-x-ewts ,
@@ -3193,7 +3193,7 @@ told:_Place_1318
 		"gzhi chen"@bo-x-ewts ,
 		"昔青寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Golok Zhichen"@en ,
 		"Zhichen Kharmar Sangngak Tengyeling"@en ,
 		"gzhi chen mkhar dmar gsang sngags bstan rgyas gling"@bo-x-ewts ,
@@ -3211,7 +3211,7 @@ told:_Place_132
 		"Kodrak Hermitage"@en ,
 		"ko brag ri khrod"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Nyangto Kodrak"@en ,
 		"myang stod ko brag"@bo-x-ewts
 		;
@@ -3237,7 +3237,7 @@ told:_Place_1321
 		"Baḥne Monastery"@en ,
 		"baH gnas bsam gtan bshad sgrub bst"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Bahne"@en ,
 		"be zur dgon pa"@bo-x-ewts ,
 		"dri so dgon pa"@bo-x-ewts
@@ -3254,7 +3254,7 @@ told:_Place_1322
 		"ba' thang grub dgon"@bo-x-ewts ,
 		"竹瓦寺"@zh-HANI
 		;
-	tolo:alternate_name "ba' grub pa dgon o rgyan theg mchog gling"@bo-x-ewts ;
+	tolo:nameVariant "ba' grub pa dgon o rgyan theg mchog gling"@bo-x-ewts ;
 	tolo:primaryName
 		"Batang Drubgon"@en ,
 		"ba' thang grub dgon"@bo-x-ewts ,
@@ -3268,7 +3268,7 @@ told:_Place_1323
 		"mdo rdo rje brag"@bo-x-ewts ,
 		"康定金刚寺"@zh-HANI
 		;
-	tolo:alternate_name "dar mdo rdo rje brag dgon"@bo-x-ewts ;
+	tolo:nameVariant "dar mdo rdo rje brag dgon"@bo-x-ewts ;
 	tolo:primaryName
 		"Do Dorje Drak"@en ,
 		"mdo rdo rje brag"@bo-x-ewts ,
@@ -3281,7 +3281,7 @@ told:_Place_1324
 		"Lelung Monastery"@en ,
 		"sle lung dgon"@bo-x-ewts
 		;
-	tolo:alternate_name "ol dga' sle lung dgon"@bo-x-ewts ;
+	tolo:nameVariant "ol dga' sle lung dgon"@bo-x-ewts ;
 	tolo:primaryName
 		"Lelung Monastery"@en ,
 		"sle lung dgon"@bo-x-ewts
@@ -3294,7 +3294,7 @@ told:_Place_1329
 		"chu mig"@bo-x-ewts ,
 		"曲米寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tsang Chumik Ringmo"@en ,
 		"gtsang chu mig ring mo"@bo-x-ewts ,
 		"qumi si"@en
@@ -3312,7 +3312,7 @@ told:_Place_1330
 		"rba kha"@bo-x-ewts ,
 		"巴卡寺"@zh-HANI
 		;
-	tolo:alternate_name "Bakha Sangngak Choling"@en ;
+	tolo:nameVariant "Bakha Sangngak Choling"@en ;
 	tolo:primaryName
 		"Bakha"@en ,
 		"rba kha"@bo-x-ewts ,
@@ -3325,7 +3325,7 @@ told:_Place_1331
 		"Odantapuri"@en ,
 		"o tan ta pU ri"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Uddaṇḍapura"@en ,
 		"Uḍḍandapura"@en
 		;
@@ -3340,7 +3340,7 @@ told:_Place_1333
 		"Namo Buddha"@en ,
 		"stag mo lus sbyin mchod rten"@bo-x-ewts
 		;
-	tolo:alternate_name "Takmo Lujin"@en ;
+	tolo:nameVariant "Takmo Lujin"@en ;
 	tolo:primaryName
 		"Namo Buddha"@en ,
 		"stag mo lus sbyin mchod rten"@bo-x-ewts
@@ -3390,7 +3390,7 @@ told:_Place_1339
 		"sde dge lha 'brang dgon"@bo-x-ewts ,
 		"拉仲寺"@zh-HANI
 		;
-	tolo:alternate_name "lanzhong si"@en ;
+	tolo:nameVariant "lanzhong si"@en ;
 	tolo:primaryName
 		"Lhadrang Monastery"@en ,
 		"sde dge lha 'brang dgon"@bo-x-ewts ,
@@ -3428,7 +3428,7 @@ told:_Place_1341
 		"rnam rgyal gling dgon"@bo-x-ewts ,
 		"郎吉岭寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ganden Namgyel Ling"@en ,
 		"dga' ldan rnam rgyal gling"@bo-x-ewts
 		;
@@ -3456,7 +3456,7 @@ told:_Place_1345
 		"yum bu bla sgang"@bo-x-ewts ,
 		"雍布拉岗"@zh-HANI
 		;
-	tolo:alternate_name "yum bu bla mkhar"@bo-x-ewts ;
+	tolo:nameVariant "yum bu bla mkhar"@bo-x-ewts ;
 	tolo:primaryName
 		"Yumbu Lagang"@en ,
 		"yum bu bla sgang"@bo-x-ewts ,
@@ -3492,7 +3492,7 @@ told:_Place_135
 		"rin chen gling"@bo-x-ewts ,
 		"仁青林寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Rinchenling"@en ,
 		"mal gro gung dkar rin chen gling dgon"@bo-x-ewts ,
 		"rennqinglin si"@en ,
@@ -3558,7 +3558,7 @@ told:_Place_1359
 		"brag lha klu sbug"@bo-x-ewts ,
 		"扎拉鲁浦寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Chogyel Zimpuk"@en ,
 		"Drak Lhalupuk"@en ,
 		"Drakla Lubu"@en ,
@@ -3580,7 +3580,7 @@ told:_Place_136
 		"Jangchen"@en ,
 		"byang chen"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"byang chen theg chen chos 'khor gling"@bo-x-ewts ,
 		"theg chen chos 'khor gling"@bo-x-ewts
 		;
@@ -3620,7 +3620,7 @@ told:_Place_1365
 		"mda' chen dgon"@bo-x-ewts ,
 		"大金寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"mda' chen g.yung drung bshad sgrub dar rgyas gling"@bo-x-ewts ,
 		"shel phug skyang tshang"@bo-x-ewts
 		;
@@ -3648,7 +3648,7 @@ told:_Place_1368
 		"sna steng dgon"@bo-x-ewts ,
 		"郎依寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"snang zhig dgon"@bo-x-ewts ,
 		"snang zhig lcags mdud bkra shis g.yung drung"@bo-x-ewts
 		;
@@ -3675,7 +3675,7 @@ told:_Place_137
 		"Litang Chokhor Ling"@en ,
 		"li thang chos 'khor gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ganden Tubchen Chokorling"@en ,
 		"Litang Chode"@en ,
 		"Litang Monastery"@en ,
@@ -3759,7 +3759,7 @@ told:_Place_1380
 		"Kilung"@en ,
 		"ki lung"@bo-x-ewts
 		;
-	tolo:alternate_name "KiH lung"@bo-x-ewts ;
+	tolo:nameVariant "KiH lung"@bo-x-ewts ;
 	tolo:primaryName
 		"Kilung"@en ,
 		"ki lung"@bo-x-ewts
@@ -3839,7 +3839,7 @@ told:_Place_1394
 		"Dangkhar"@en ,
 		"brag mkhar"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dangkhar Tashi Chöling"@en ,
 		"Dhankar Monastery"@en ,
 		"Lagope"@en ,
@@ -3868,7 +3868,7 @@ told:_Place_1394
 
 told:_Place_1397
 	skos:prefLabel "Borobudur"@en ;
-	tolo:alternate_name "Barabudur"@en ;
+	tolo:nameVariant "Barabudur"@en ;
 	tolo:primaryName "Borobudur"@en ;
 	.
 
@@ -3877,7 +3877,7 @@ told:_Place_1398
 		"Daktok"@en ,
 		"brag thog"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tak Tok"@en ,
 		"Takthok"@en ,
 		"Taktok"@en
@@ -3904,7 +3904,7 @@ told:_Place_14
 		"Pelyul Monastery"@en ,
 		"dpal yul"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Palyul Gonpa Namgyal Jangchubling"@en ,
 		"Payul"@en ,
 		"Pelyul Monastery"@en ,
@@ -3927,7 +3927,7 @@ told:_Place_140
 		"Ngari Dratsang"@en ,
 		"mnga' ris grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"ali zhacang si"@en ,
 		"on mda' mnga' ris grwa tshang"@bo-x-ewts ,
 		"阿里扎仓寺"@zh-HANI
@@ -3966,7 +3966,7 @@ told:_Place_1403
 		"ri brag"@bo-x-ewts ,
 		"日绕寺"@zh-HANI
 		;
-	tolo:alternate_name "Ridak"@en ;
+	tolo:nameVariant "Ridak"@en ;
 	tolo:primaryName
 		"Ridrak"@en ,
 		"ri brag"@bo-x-ewts ,
@@ -3980,7 +3980,7 @@ told:_Place_1404
 		"sga len steng"@bo-x-ewts ,
 		"嘎伦寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Galingteng"@en ,
 		"sga gling steng"@bo-x-ewts ,
 		"sga len dgon"@bo-x-ewts
@@ -4008,7 +4008,7 @@ told:_Place_1406
 		"Spituk"@en ,
 		"dpe thub dga' ldan dar rgyas gling dgon pa"@bo-x-ewts
 		;
-	tolo:alternate_name "Petub Ganden Dargye Ling"@en ;
+	tolo:nameVariant "Petub Ganden Dargye Ling"@en ;
 	tolo:primaryName
 		"Spituk"@en ,
 		"dpe thub dga' ldan dar rgyas gling dgon pa"@bo-x-ewts
@@ -4025,7 +4025,7 @@ told:_Place_1408
 		"Samstanling"@en ,
 		"bsam bstan gling dgon pa"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Samstaling"@en ,
 		"Sumur Samtenling"@en
 		;
@@ -4051,7 +4051,7 @@ told:_Place_141
 		"Kharchu Monastery"@en ,
 		"mkhar chu dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ganden Dudjom Ling"@en ,
 		"dga' ldan bdud 'joms gling"@bo-x-ewts
 		;
@@ -4063,7 +4063,7 @@ told:_Place_141
 
 told:_Place_1410
 	skos:prefLabel "Mulagandhakuti Vihara"@en ;
-	tolo:alternate_name "Sarnath"@en ;
+	tolo:nameVariant "Sarnath"@en ;
 	tolo:primaryName "Mulagandhakuti Vihara"@en ;
 	.
 
@@ -4073,7 +4073,7 @@ told:_Place_1412
 		"dpe thub bstan rgyas chos 'khor gling dgon pa"@bo-x-ewts ,
 		"贝图桑吉春科林寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Bakula Rinpoche Khiid"@en ,
 		"Betüv Khiid"@en ,
 		"Pethub Stangey Choskhor Ling Khiid"@en ,
@@ -4091,7 +4091,7 @@ told:_Place_1413
 		"Ivolginsky Datsan"@en ,
 		"dga' ldan bkra shis chos 'khor"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Иволгинский дацан"@mn-CYRL ,
 		"Иволгинский дацан"@ru
 		;
@@ -4106,7 +4106,7 @@ told:_Place_1414
 		"Key"@en ,
 		"skyid dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ki"@en ,
 		"Kye"@en ,
 		"Kyi"@en
@@ -4123,7 +4123,7 @@ told:_Place_1415
 		"ban rgan dgon"@bo-x-ewts ,
 		"白格寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Pangen Gonpa"@en ,
 		"baige si"@en ,
 		"bsam gtan chos rdzong gling"@bo-x-ewts ,
@@ -4141,7 +4141,7 @@ told:_Place_1416
 		"Sonada"@en ,
 		"bsam grub dar rgyas chos gling"@bo-x-ewts
 		;
-	tolo:alternate_name "Samdrub Darjay Chöling Monastery"@en ;
+	tolo:nameVariant "Samdrub Darjay Chöling Monastery"@en ;
 	tolo:primaryName
 		"Sonada"@en ,
 		"bsam grub dar rgyas chos gling"@bo-x-ewts
@@ -4175,7 +4175,7 @@ told:_Place_1419
 		"Ensa"@en ,
 		"dben sa"@bo-x-ewts
 		;
-	tolo:alternate_name "Wensa"@en ;
+	tolo:nameVariant "Wensa"@en ;
 	tolo:primaryName
 		"Ensa"@en ,
 		"dben sa"@bo-x-ewts
@@ -4198,7 +4198,7 @@ told:_Place_1421
 		"Stongdey"@en ,
 		"stong sde'i dgon pa"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Thongde"@en ,
 		"Tongde"@en
 		;
@@ -4224,7 +4224,7 @@ told:_Place_1423
 		"Karsha"@en ,
 		"dkar sha dgon pa"@bo-x-ewts
 		;
-	tolo:alternate_name "Kursha"@en ;
+	tolo:nameVariant "Kursha"@en ;
 	tolo:primaryName
 		"Karsha"@en ,
 		"dkar sha dgon pa"@bo-x-ewts
@@ -4237,7 +4237,7 @@ told:_Place_1426
 		"stag tshang lha mo kir+ti dgon"@bo-x-ewts ,
 		"纳摩格尔登寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kirti Monastery Namgyel Dechen Ling"@en ,
 		"kirti dgon rnam rgyal bde chen ling"@bo-x-ewts
 		;
@@ -4266,7 +4266,7 @@ told:_Place_1429
 		"Bo Gangkar Monastery"@en ,
 		"bo gangs dkar sgrub sde"@bo-x-ewts
 		;
-	tolo:alternate_name "bo gangs dkar dgon"@bo-x-ewts ;
+	tolo:nameVariant "bo gangs dkar dgon"@bo-x-ewts ;
 	tolo:primaryName
 		"Bo Gangkar Monastery"@en ,
 		"bo gangs dkar sgrub sde"@bo-x-ewts
@@ -4286,7 +4286,7 @@ told:_Place_143
 
 told:_Place_1431
 	skos:prefLabel "Mahā Kyilung"@en ;
-	tolo:alternate_name "skyid lung gsang sngags chos sde gling"@bo-x-ewts ;
+	tolo:nameVariant "skyid lung gsang sngags chos sde gling"@bo-x-ewts ;
 	tolo:primaryName "Mahā Kyilung"@en ;
 	.
 
@@ -4319,7 +4319,7 @@ told:_Place_1434
 		"Kardza"@en ,
 		"dkar mdza'"@bo-x-ewts
 		;
-	tolo:alternate_name "gar nang dkar mdza' ri khrod"@bo-x-ewts ;
+	tolo:nameVariant "gar nang dkar mdza' ri khrod"@bo-x-ewts ;
 	tolo:primaryName
 		"Kardza"@en ,
 		"dkar mdza'"@bo-x-ewts
@@ -4402,7 +4402,7 @@ told:_Place_145
 		"Druk Monastery"@en ,
 		"brug dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Derge Druk Gonpa"@en ,
 		"Okmin Jampa Chokhor Ling"@en
 		;
@@ -4439,7 +4439,7 @@ told:_Place_1462
 		"Sherabling"@en ,
 		"shes rab gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Palpung Sherabling"@en ,
 		"dpal spung shes rab gling"@bo-x-ewts
 		;
@@ -4498,7 +4498,7 @@ told:_Place_1473
 		"Buxa Chogar Tosam Tardo Ling"@en ,
 		"sbag sa chos sgar thos bsam thar 'dod gling"@bo-x-ewts
 		;
-	tolo:alternate_name "Thosam Thardo Ling College for the Preservation of Buddhist Culture"@en ;
+	tolo:nameVariant "Thosam Thardo Ling College for the Preservation of Buddhist Culture"@en ;
 	tolo:primaryName
 		"Buxa Chogar Tosam Tardo Ling"@en ,
 		"sbag sa chos sgar thos bsam thar 'dod gling"@bo-x-ewts
@@ -4510,7 +4510,7 @@ told:_Place_1474
 		"Ganden Tritok Khang (India)"@en ,
 		"dga' ldan khri thog khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tripa House"@en ,
 		"Trithok Khang"@en ,
 		"Tritok Khang"@en
@@ -4526,7 +4526,7 @@ told:_Place_1475
 		"Ganden Pelgye Ling"@en ,
 		"dga' ldan 'phel rgyas gling"@bo-x-ewts
 		;
-	tolo:alternate_name "Gaden Phelgye Ling"@en ;
+	tolo:nameVariant "Gaden Phelgye Ling"@en ;
 	tolo:primaryName
 		"Ganden Pelgye Ling"@en ,
 		"dga' ldan 'phel rgyas gling"@bo-x-ewts
@@ -4538,7 +4538,7 @@ told:_Place_1476
 		"Chokhor Ling"@en ,
 		"chos 'khor gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kloster zum Rad der Lehre"@en ,
 		"Tibet-Institut Rikon"@en
 		;
@@ -4575,7 +4575,7 @@ told:_Place_1479
 		"Labsum Shedrub Ling"@en ,
 		"bslab gsum bshad sgrub gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Lamaist Buddhist Monastery of America"@en ,
 		"Tibetan Buddhist Learning Center"@en
 		;
@@ -4590,7 +4590,7 @@ told:_Place_1480
 		"Pombora Khamtsen"@en ,
 		"spom 'bo ra khams tshan"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Bompora Khamtsen"@en ,
 		"Pomra Khamtsen"@en ,
 		"spom ra"@bo-x-ewts
@@ -4607,7 +4607,7 @@ told:_Place_1481
 		"sngo phu yang can phun tshogs gling"@bo-x-ewts ,
 		"红坡寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ganden Yangpachen"@en ,
 		"dga' ldan yangs pa can"@bo-x-ewts
 		;
@@ -4624,7 +4624,7 @@ told:_Place_1482
 		"sbom rag dga' ldan don grub gling"@bo-x-ewts ,
 		"噶丹东竹林寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Trungtrung Tsogang"@en ,
 		"khrung khrung mtsho sgang"@bo-x-ewts
 		;
@@ -4640,7 +4640,7 @@ told:_Place_1486
 		"Adu Yakgo"@en ,
 		"a 'dus yag mgo dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Sangchen Tashi Choling"@en ,
 		"gsang chen bkra shis gling"@bo-x-ewts
 		;
@@ -4656,7 +4656,7 @@ told:_Place_1487
 		"da tshang dgon"@bo-x-ewts ,
 		"大藏寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ganden Datsang Lhundrub Ling"@en ,
 		"dga' ldan da tshang lhun grub gling"@bo-x-ewts
 		;
@@ -4686,7 +4686,7 @@ told:_Place_1489
 		"khri 'du skal bzang dgon"@bo-x-ewts ,
 		"尕藏寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kelzang Peljor Ling"@en ,
 		"skal bzang dpal 'byor gling"@bo-x-ewts
 		;
@@ -4725,7 +4725,7 @@ told:_Place_1491
 		"gu zi dgon"@bo-x-ewts ,
 		"俄支寺"@zh-HANI
 		;
-	tolo:alternate_name "go zi dgon"@bo-x-ewts ;
+	tolo:nameVariant "go zi dgon"@bo-x-ewts ;
 	tolo:primaryName
 		"Guzi"@en ,
 		"gu zi dgon"@bo-x-ewts ,
@@ -4739,7 +4739,7 @@ told:_Place_1492
 		"stag mo gling kha"@bo-x-ewts ,
 		"达摩林卡寺"@zh-HANI
 		;
-	tolo:alternate_name "Mu Takpoling"@en ;
+	tolo:nameVariant "Mu Takpoling"@en ;
 	tolo:primaryName
 		"Takmo Lingkha"@en ,
 		"stag mo gling kha"@bo-x-ewts ,
@@ -4753,7 +4753,7 @@ told:_Place_1493
 		"ba' ra brag don grub lding"@bo-x-ewts ,
 		"巴热扎嘎寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Shang Bara Drakkar"@en ,
 		"shangs 'ba' ra brag dkar"@bo-x-ewts
 		;
@@ -4825,7 +4825,7 @@ told:_Place_15
 		"sras mkhar dgu thog"@bo-x-ewts ,
 		"色喀古陀寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Sekhar Guthok"@en ,
 		"塞卡尔古陀寺"@zh-HANI ,
 		"色喀古陀寺"@zh-HANI
@@ -4879,7 +4879,7 @@ told:_Place_1502
 		"Karma Chokhor Dechen Ling"@en ,
 		"karma chos 'khor bde chen gling"@bo-x-ewts
 		;
-	tolo:alternate_name "Karmé Chökhor Dechen Ling"@en ;
+	tolo:nameVariant "Karmé Chökhor Dechen Ling"@en ;
 	tolo:primaryName
 		"Karma Chokhor Dechen Ling"@en ,
 		"karma chos 'khor bde chen gling"@bo-x-ewts
@@ -4902,7 +4902,7 @@ told:_Place_1506
 		"Karma Migyur Ling"@en ,
 		"karma mi 'gyur gling"@bo-x-ewts
 		;
-	tolo:alternate_name "Karma Mingyur Ling"@en ;
+	tolo:nameVariant "Karma Mingyur Ling"@en ;
 	tolo:primaryName
 		"Karma Migyur Ling"@en ,
 		"karma mi 'gyur gling"@bo-x-ewts
@@ -4936,7 +4936,7 @@ told:_Place_151
 		"spar phu dgon pa"@bo-x-ewts ,
 		"巴普寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Parphu Monastery"@en ,
 		"bapu si"@en ,
 		"par phu dgon"@bo-x-ewts ,
@@ -4965,7 +4965,7 @@ told:_Place_1511
 		"Karma Drubgyu Thargay Ling"@en ,
 		"karma grub brgyud dar rgyas gling"@bo-x-ewts
 		;
-	tolo:alternate_name "Tilokpur Nunnery"@en ;
+	tolo:nameVariant "Tilokpur Nunnery"@en ;
 	tolo:primaryName
 		"Karma Drubgyu Thargay Ling"@en ,
 		"karma grub brgyud dar rgyas gling"@bo-x-ewts
@@ -5010,7 +5010,7 @@ told:_Place_1516
 		"Lhalam"@en ,
 		"lha lam dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Lhalam Wosel Ling"@en ,
 		"Tsangsar Lhalam Monastery"@en ,
 		"gtsang sar lha lam dgon"@bo-x-ewts ,
@@ -5027,7 +5027,7 @@ told:_Place_1517
 		"Lachab"@en ,
 		"bla khyab"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Lachab Jangchub Norzin Choling"@en ,
 		"Tsangsar Lachab"@en ,
 		"bla khyab byang chub nor 'dzin chos gling"@bo-x-ewts
@@ -5044,7 +5044,7 @@ told:_Place_1518
 		"gsang sngags chos gling"@bo-x-ewts ,
 		"三安曲林寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Jar Sang-ngak Choling"@en ,
 		"byar gsang sngags chos gling"@bo-x-ewts
 		;
@@ -5082,7 +5082,7 @@ told:_Place_1522
 		"Labrang Gyuto Dratsang"@en ,
 		"rgyud stod grwa tshang gsang chen rdo rje gling"@bo-x-ewts
 		;
-	tolo:alternate_name "Labrang Upper Tantric College"@en ;
+	tolo:nameVariant "Labrang Upper Tantric College"@en ;
 	tolo:primaryName
 		"Labrang Gyuto Dratsang"@en ,
 		"rgyud stod grwa tshang gsang chen rdo rje gling"@bo-x-ewts
@@ -5094,7 +5094,7 @@ told:_Place_1523
 		"Labrang Gyume Dratsang"@en ,
 		"bla brang rgyud smad grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name "Labrang Lower Tantric College"@en ;
+	tolo:nameVariant "Labrang Lower Tantric College"@en ;
 	tolo:primaryName
 		"Labrang Gyume Dratsang"@en ,
 		"bla brang rgyud smad grwa tshang"@bo-x-ewts
@@ -5106,7 +5106,7 @@ told:_Place_1524
 		"Ghum Yiga Choeling"@en ,
 		"yid dga chos gling"@bo-x-ewts
 		;
-	tolo:alternate_name "Ghoom Yiga Choling"@en ;
+	tolo:nameVariant "Ghoom Yiga Choling"@en ;
 	tolo:primaryName
 		"Ghum Yiga Choeling"@en ,
 		"yid dga chos gling"@bo-x-ewts
@@ -5118,7 +5118,7 @@ told:_Place_1526
 		"Dubdi"@en ,
 		"sgrub sde gsang sngag rdo rje gdan"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Drubde Sang Ngak Dorje Den"@en ,
 		"Yukzom"@en
 		;
@@ -5133,7 +5133,7 @@ told:_Place_1527
 		"Sangngak Choling"@en ,
 		"gsang sngags chos gling"@bo-x-ewts
 		;
-	tolo:alternate_name "Sanga Choeling"@en ;
+	tolo:nameVariant "Sanga Choeling"@en ;
 	tolo:primaryName
 		"Sangngak Choling"@en ,
 		"gsang sngags chos gling"@bo-x-ewts
@@ -5156,7 +5156,7 @@ told:_Place_1529
 		"Ralong"@en ,
 		"ra langs karma rab brtan gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Old Ralang Monastery"@en ,
 		"Ralang"@en
 		;
@@ -5171,7 +5171,7 @@ told:_Place_1530
 		"Men-tsee-khang"@en ,
 		"sman rtsis khang / rda ram sa la"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Mentsikhang"@en ,
 		"Tibetan Medical and Astrological Institute of His Holiness the Dalai Lama"@en ,
 		"bod gzhung sman rtsis khang"@bo-x-ewts
@@ -5187,7 +5187,7 @@ told:_Place_1532
 		"Dranggyekha"@en ,
 		"brang rgyas kha dgon"@bo-x-ewts
 		;
-	tolo:alternate_name "spa gro 'brang rgyas kha"@bo-x-ewts ;
+	tolo:nameVariant "spa gro 'brang rgyas kha"@bo-x-ewts ;
 	tolo:primaryName
 		"Dranggyekha"@en ,
 		"brang rgyas kha dgon"@bo-x-ewts
@@ -5217,7 +5217,7 @@ told:_Place_1535
 		"Gechak Monastery"@en ,
 		"gad chags dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gebchag"@en ,
 		"Gebchak"@en ,
 		"ge bcags"@bo-x-ewts
@@ -5233,7 +5233,7 @@ told:_Place_1536
 		"Dzonggo Ling"@en ,
 		"rdzong mgo gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Fortress Peak"@en ,
 		"Raja Dzong"@en
 		;
@@ -5267,7 +5267,7 @@ told:_Place_1538
 
 told:_Place_1539
 	skos:prefLabel "Hiraṇyavarṇa Mahāvihāra"@en ;
-	tolo:alternate_name "Golden Temple"@en ;
+	tolo:nameVariant "Golden Temple"@en ;
 	tolo:primaryName "Hiraṇyavarṇa Mahāvihāra"@en ;
 	.
 
@@ -5303,7 +5303,7 @@ told:_Place_1543
 		"Central Tibetan Administration"@en ,
 		"btsan byol bod mi'i sgrig 'dzugs"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Bözhung Ganden Potrang Choklé Namgyel"@en ,
 		"CTA"@en ,
 		"Tibetan Government in Exile"@en ,
@@ -5331,7 +5331,7 @@ told:_Place_1545
 		"Jekhar Chode Gon"@en ,
 		"bye mkhar chos sde dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Nyemo Chode Monastery"@en ,
 		"snye mo chos sde"@bo-x-ewts
 		;
@@ -5346,7 +5346,7 @@ told:_Place_1546
 		"Drapu Choling"@en ,
 		"grwa phu chos gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tashi Choling"@en ,
 		"bkra shis chos gling"@bo-x-ewts
 		;
@@ -5372,7 +5372,7 @@ told:_Place_1549
 		"Kagyu Gonsar"@en ,
 		"bka' brgyud dgon gsar"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dromo Kagyu"@en ,
 		"Ganden Tengye Ling"@en ,
 		"Kagon Tshechokling"@en ,
@@ -5399,7 +5399,7 @@ told:_Place_1551
 
 told:_Place_1552
 	skos:prefLabel "Chungtang"@en ;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tsunmo Rinchentang"@en ,
 		"btsun mor rin chen thang"@bo-x-ewts
 		;
@@ -5434,7 +5434,7 @@ told:_Place_1556
 		"drag dkar"@bo-x-ewts ,
 		"丈卡寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Mindrol Norbu Ling"@en ,
 		"thub bstan yongs 'dus dga' tshal brag mkhar smin grol nor bu gling"@bo-x-ewts
 		;
@@ -5450,7 +5450,7 @@ told:_Place_1557
 		"Potala School"@en ,
 		"rtse slob grwa"@bo-x-ewts
 		;
-	tolo:alternate_name "Tse Lobdra"@en ;
+	tolo:nameVariant "Tse Lobdra"@en ;
 	tolo:primaryName
 		"Potala School"@en ,
 		"rtse slob grwa"@bo-x-ewts
@@ -5485,7 +5485,7 @@ told:_Place_156
 		"dgon lung"@bo-x-ewts ,
 		"佑宁寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gonlung"@en ,
 		"Gonlung Jampaling"@en ,
 		"dgon lung byams pa gling"@bo-x-ewts ,
@@ -5516,7 +5516,7 @@ told:_Place_1561
 		"Drumpa Manor House"@en ,
 		"bhruM pa gzims shag"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dakpo Drumpa"@en ,
 		"Trumpa"@en
 		;
@@ -5531,7 +5531,7 @@ told:_Place_1562
 		"Dramagang"@en ,
 		"drwa ma sgang"@bo-x-ewts
 		;
-	tolo:alternate_name "grwa ma dgon"@bo-x-ewts ;
+	tolo:nameVariant "grwa ma dgon"@bo-x-ewts ;
 	tolo:primaryName
 		"Dramagang"@en ,
 		"drwa ma sgang"@bo-x-ewts
@@ -5543,7 +5543,7 @@ told:_Place_1563
 		"Dosib"@en ,
 		"mdo srib"@bo-x-ewts
 		;
-	tolo:alternate_name "mdo srid"@bo-x-ewts ;
+	tolo:nameVariant "mdo srid"@bo-x-ewts ;
 	tolo:primaryName
 		"Dosib"@en ,
 		"mdo srib"@bo-x-ewts
@@ -5588,7 +5588,7 @@ told:_Place_1567
 		"Rabten"@en ,
 		"rab brtan"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"'bri rgyud rab brtan dgon"@bo-x-ewts ,
 		"mgon gzigs rab brtan dgon"@bo-x-ewts
 		;
@@ -5614,7 +5614,7 @@ told:_Place_1569
 		"Khalek"@en ,
 		"kha legs"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kharlek"@en ,
 		"mkhar legs"@bo-x-ewts
 		;
@@ -5629,7 +5629,7 @@ told:_Place_157
 		"Shar Yelpuk"@en ,
 		"shar yel phug"@bo-x-ewts
 		;
-	tolo:alternate_name "Shar Yelphug Gonpa"@en ;
+	tolo:nameVariant "Shar Yelphug Gonpa"@en ;
 	tolo:primaryName
 		"Shar Yelpuk"@en ,
 		"shar yel phug"@bo-x-ewts
@@ -5658,7 +5658,7 @@ told:_Place_1573
 		"thar lam"@bo-x-ewts ,
 		"汤陇寺"@zh-HANI
 		;
-	tolo:alternate_name "Tarlam"@en ;
+	tolo:nameVariant "Tarlam"@en ;
 	tolo:primaryName
 		"Tharlam"@en ,
 		"thar lam"@bo-x-ewts ,
@@ -5709,7 +5709,7 @@ told:_Place_1579
 		"Terlam"@en ,
 		"gter lam"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dulam"@en ,
 		"Ganden Sang-ngak Yarpel Ling"@en ,
 		"Tulam"@en ,
@@ -5726,7 +5726,7 @@ told:_Place_158
 		"Jang Tana"@en ,
 		"byang rta rna dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ling Monastery"@en ,
 		"Sengge Namdzong"@en ,
 		"Tana Sengge Namdzong"@en ,
@@ -5778,7 +5778,7 @@ told:_Place_1588
 		"Bardan"@en ,
 		"bar gdan dgon pa"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Bardam"@en ,
 		"bar gdan gsang sngags chos gling"@bo-x-ewts
 		;
@@ -5804,7 +5804,7 @@ told:_Place_159
 		"Dodzong"@en ,
 		"rdo rdzong"@bo-x-ewts
 		;
-	tolo:alternate_name "Dordzong"@en ;
+	tolo:nameVariant "Dordzong"@en ;
 	tolo:primaryName
 		"Dodzong"@en ,
 		"rdo rdzong"@bo-x-ewts
@@ -5816,7 +5816,7 @@ told:_Place_1591
 		"Jamchen Lhakhang"@en ,
 		"byams chen lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Great Maitreya Temple"@en ,
 		"Trikal Maitreya Buddha Vihara"@en
 		;
@@ -5831,7 +5831,7 @@ told:_Place_1592
 		"Rinding"@en ,
 		"rin sding"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Riding"@en ,
 		"Rinchending"@en ,
 		"Rindeng"@en ,
@@ -5857,7 +5857,7 @@ told:_Place_1593
 
 told:_Place_1594
 	skos:prefLabel "Dharma Swami Buddha Vihara"@en ;
-	tolo:alternate_name "New Buddha Mandir"@en ;
+	tolo:nameVariant "New Buddha Mandir"@en ;
 	tolo:primaryName "Dharma Swami Buddha Vihara"@en ;
 	.
 
@@ -5866,7 +5866,7 @@ told:_Place_1595
 		"Tsarang"@en ,
 		"rtsa rang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Lo Tsarang Tubten Shedrub Dargye Ling"@en ,
 		"glo rtsa rang thub bstan bshad sgrub dar rgyas gling"@bo-x-ewts ,
 		"rtsa brang"@bo-x-ewts
@@ -5882,7 +5882,7 @@ told:_Place_1596
 		"Namgyel Chode"@en ,
 		"rnam rgyal chos sde"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Namgyel Chode Tubten Dargye Ling"@en ,
 		"rnam rgyal chos sde thub bstan dar rgyas gling"@bo-x-ewts
 		;
@@ -5897,7 +5897,7 @@ told:_Place_1597
 		"Tangtong Gyelpo Lhakhang"@en ,
 		"thang stong rgyal po lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tanggyel Lhakhang"@en ,
 		"Tangtong Gyelpo Temple"@en ,
 		"Tangyel Lhakhang"@en ,
@@ -5925,7 +5925,7 @@ told:_Place_160
 		"Sho Monastery"@en ,
 		"sho dgon"@bo-x-ewts
 		;
-	tolo:alternate_name "shog dgon"@bo-x-ewts ;
+	tolo:nameVariant "shog dgon"@bo-x-ewts ;
 	tolo:primaryName
 		"Sho Monastery"@en ,
 		"sho dgon"@bo-x-ewts
@@ -5937,7 +5937,7 @@ told:_Place_1600
 		"Montang Chode"@en ,
 		"smon thang chos sde"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Moncho Drakkar Tekchen Ling"@en ,
 		"smon chos brag dkar theg chen gling"@bo-x-ewts
 		;
@@ -5952,7 +5952,7 @@ told:_Place_1601
 		"Kak Chode"@en ,
 		"skag chos sde"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kagbeni"@en ,
 		"Kak Chode Tubten Sampel Ling"@en ,
 		"Kakbeni"@en ,
@@ -5969,7 +5969,7 @@ told:_Place_1602
 		"Gemi"@en ,
 		"gad smad"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Shedrub Dargye Ling"@en ,
 		"bshad sgrub dar rgyas gling"@bo-x-ewts
 		;
@@ -5984,7 +5984,7 @@ told:_Place_1603
 		"Dzong Chode"@en ,
 		"rrzong chos sde"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dzong Chode Shedrub Dargye Ling"@en ,
 		"rdzong chos sde bshad sgrub chos ’phel gling"@bo-x-ewts
 		;
@@ -5999,7 +5999,7 @@ told:_Place_1604
 		"Beru Lachen"@en ,
 		"be ru bla chen"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"bes ri bla chen dgon pa"@bo-x-ewts ,
 		"dre'u ri bla chen dgon pa"@bo-x-ewts ,
 		"白日拉庆寺"@zh-HANI
@@ -6015,7 +6015,7 @@ told:_Place_1605
 		"Gar Gon"@en ,
 		"gar dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Jangchub Choling"@en ,
 		"byang chub chos gling"@bo-x-ewts ,
 		"尕拉寺/嘎寺"@zh-HANI
@@ -6048,7 +6048,7 @@ told:_Place_1608
 		"dkar mdzes bshad sgrub nor bu gling"@bo-x-ewts ,
 		"甘孜扎西萝卜楞寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ganze"@en ,
 		"Kandze Monastery"@en
 		;
@@ -6085,7 +6085,7 @@ told:_Place_1610
 
 told:_Place_1611
 	skos:prefLabel "Sakya Centre"@en ;
-	tolo:alternate_name "Tsechen Tenpal Gatsal Shedup Chokhorling"@en ;
+	tolo:nameVariant "Tsechen Tenpal Gatsal Shedup Chokhorling"@en ;
 	tolo:primaryName "Sakya Centre"@en ;
 	.
 
@@ -6120,7 +6120,7 @@ told:_Place_1618
 		"Pende Labrang"@en ,
 		"phan bde bla brang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Penkhang Labrang"@en ,
 		"phan khang bla brang"@bo-x-ewts
 		;
@@ -6157,7 +6157,7 @@ told:_Place_1621
 		"Gyelmo Murdo"@en ,
 		"rgyal mo dmu rdo"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Murdo Yungdrung Puntse"@en ,
 		"dmu rdo g.yung drung spungs rtse"@bo-x-ewts
 		;
@@ -6292,7 +6292,7 @@ told:_Place_172
 		"Swayambhunath"@en ,
 		"phags pa shing kun"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"'phags shing mchod rten"@bo-x-ewts ,
 		"Monkey Temple"@en ,
 		"Svayambhunath"@en ,
@@ -6310,7 +6310,7 @@ told:_Place_173
 		"Boudhanath"@en ,
 		"bya rung kha shor"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Bouda Nath"@en ,
 		"Boudanath"@en ,
 		"Jarung Kashor"@en ,
@@ -6329,7 +6329,7 @@ told:_Place_174
 		"Zurmang Dutsitil"@en ,
 		"zur mang bdud rtsi mthil"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Surmang"@en ,
 		"Surmang Dütsi Thil"@en ,
 		"Zurmang Dustetil"@en ,
@@ -6349,7 +6349,7 @@ told:_Place_178
 		"thar lam"@bo-x-ewts ,
 		"唐隆寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tarlam Sabzang Namgyaling"@en ,
 		"Tharlam"@en ,
 		"tanglong si"@en ,
@@ -6368,7 +6368,7 @@ told:_Place_179
 		"Dezhung Monastery"@en ,
 		"sde gzhung dgon"@bo-x-ewts
 		;
-	tolo:alternate_name "sde gzhung grwa tshang bshad sgrub dar rgyas gling"@bo-x-ewts ;
+	tolo:nameVariant "sde gzhung grwa tshang bshad sgrub dar rgyas gling"@bo-x-ewts ;
 	tolo:primaryName
 		"Dezhung Monastery"@en ,
 		"sde gzhung dgon"@bo-x-ewts
@@ -6380,7 +6380,7 @@ told:_Place_180
 		"Dzongsar"@en ,
 		"rdzong sar"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Derge Dzongsar Gon Shedrub Dargye Ling"@en ,
 		"Dzongsar Tashi Lhatse"@en ,
 		"dege zongsa si"@en ,
@@ -6401,7 +6401,7 @@ told:_Place_181
 		"Longtang Dolma Lhakhang"@en ,
 		"klong thang sgrol ma lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dolma Lhakhang"@en ,
 		"Langtang Dolma"@en
 		;
@@ -6416,7 +6416,7 @@ told:_Place_183
 		"Rong Ngurmik"@en ,
 		"rong ngur smig"@bo-x-ewts
 		;
-	tolo:alternate_name "Ngurmik Drolma Lhakhang"@en ;
+	tolo:nameVariant "Ngurmik Drolma Lhakhang"@en ;
 	tolo:primaryName
 		"Rong Ngurmik"@en ,
 		"rong ngur smig"@bo-x-ewts
@@ -6429,7 +6429,7 @@ told:_Place_185
 		"dben sa dgon"@bo-x-ewts ,
 		"温萨寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ensa"@en ,
 		"Lower Wesna"@en ,
 		"Uding"@en ,
@@ -6492,7 +6492,7 @@ told:_Place_190
 		"Gyume Dratsang"@en ,
 		"rgyud smad grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gyume College"@en ,
 		"Gyurme"@en ,
 		"Lower Tantric College"@en ,
@@ -6522,7 +6522,7 @@ told:_Place_192
 		"Gangchen Chopel"@en ,
 		"gangs can chos 'phel"@bo-x-ewts
 		;
-	tolo:alternate_name "Kangchen Chopel"@en ;
+	tolo:nameVariant "Kangchen Chopel"@en ;
 	tolo:primaryName
 		"Gangchen Chopel"@en ,
 		"gangs can chos 'phel"@bo-x-ewts
@@ -6534,7 +6534,7 @@ told:_Place_193
 		"Samdrub Ling"@en ,
 		"bsam 'grub gling"@bo-x-ewts
 		;
-	tolo:alternate_name "bsam grub ling"@bo-x-ewts ;
+	tolo:nameVariant "bsam grub ling"@bo-x-ewts ;
 	tolo:primaryName
 		"Samdrub Ling"@en ,
 		"bsam 'grub gling"@bo-x-ewts
@@ -6546,7 +6546,7 @@ told:_Place_195
 		"Tangpoche"@en ,
 		"thang po che"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Solnak Tangpoche"@en ,
 		"Solnak Thang"@en ,
 		"Thangpoche"@en ,
@@ -6566,7 +6566,7 @@ told:_Place_197
 		"zhang zhung rdo rje gdan"@bo-x-ewts ,
 		"雄雄寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Zhang Zhang Dorjeden"@en ,
 		"Zhangzhong Gon"@en ,
 		"xiangxiong jingangzuo"@en ,
@@ -6586,7 +6586,7 @@ told:_Place_198
 		"Chekar Chode"@en ,
 		"chad dkar chos sde"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"'chad dkar bkra shis rab brtan dgon"@bo-x-ewts ,
 		"'chad dkar chos sde"@bo-x-ewts ,
 		"Chagar Monastery"@en ,
@@ -6606,7 +6606,7 @@ told:_Place_199
 		"glang thang"@bo-x-ewts ,
 		"朗塘寺"@zh-HANI
 		;
-	tolo:alternate_name "langtang si"@en ;
+	tolo:nameVariant "langtang si"@en ;
 	tolo:primaryName
 		"Langtang"@en ,
 		"glang thang"@bo-x-ewts ,
@@ -6630,7 +6630,7 @@ told:_Place_205
 		"Rashuk"@en ,
 		"ra shug"@bo-x-ewts
 		;
-	tolo:alternate_name "ra shug ri khrod"@bo-x-ewts ;
+	tolo:nameVariant "ra shug ri khrod"@bo-x-ewts ;
 	tolo:primaryName
 		"Rashuk"@en ,
 		"ra shug"@bo-x-ewts
@@ -6643,7 +6643,7 @@ told:_Place_206
 		"dzam thang"@bo-x-ewts ,
 		"中壤塘"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dzamtang chode chenpo"@en ,
 		"Great Dzamtang Lamasery"@en
 		;
@@ -6659,7 +6659,7 @@ told:_Place_207
 		"Lhundrubteng"@en ,
 		"lhun 'grub steng"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Derge Gonchen"@en ,
 		"Lhundrupteng"@en ,
 		"dgon chen"@bo-x-ewts ,
@@ -6676,7 +6676,7 @@ told:_Place_208
 		"Tsechu Monastery"@en ,
 		"tshes bcu"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"dpal 'dzam thang tshe bcu pho brang bsam 'grub nor bu'i gling"@bo-x-ewts ,
 		"zebuji si"@en ,
 		"泽布基寺"@zh-HANI
@@ -6693,7 +6693,7 @@ told:_Place_209
 		"chos rje"@bo-x-ewts ,
 		"求吉寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ali Choje"@en ,
 		"Pelden Shedrub Norbu Chopel Ling"@en ,
 		"a li chos rje dgon"@bo-x-ewts ,
@@ -6713,7 +6713,7 @@ told:_Place_21
 		"Zhung Treuzhing"@en ,
 		"gzhung spre'u zhing"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Zhuntrelzhing"@en ,
 		"Zung Trezhing"@en ,
 		"xiong zhixing si"@en ,
@@ -6730,7 +6730,7 @@ told:_Place_210
 		"Tsangwa Monastery"@en ,
 		"gtsang ba"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"'dzam thang gtsang ba dgon bsam 'grub nor bu'i gling"@bo-x-ewts ,
 		"Dzamthang Tsangwa"@en ,
 		"gtsang pa"@bo-x-ewts ,
@@ -6750,7 +6750,7 @@ told:_Place_212
 		"d+hi tsha"@bo-x-ewts ,
 		"老支扎寺"@zh-HANI
 		;
-	tolo:alternate_name "d+hi tsha dgon rnying"@bo-x-ewts ;
+	tolo:nameVariant "d+hi tsha dgon rnying"@bo-x-ewts ;
 	tolo:primaryName
 		"Old Ditsa"@en ,
 		"d+hi tsha"@bo-x-ewts ,
@@ -6764,7 +6764,7 @@ told:_Place_214
 		"ba' dgon"@bo-x-ewts ,
 		"巴干寺"@zh-HANI
 		;
-	tolo:alternate_name "naincuo bagan si"@en ;
+	tolo:nameVariant "naincuo bagan si"@en ;
 	tolo:primaryName
 		"Ba Monastery"@en ,
 		"ba' dgon"@bo-x-ewts ,
@@ -6778,7 +6778,7 @@ told:_Place_215
 		"karma dgon"@bo-x-ewts ,
 		"嘎玛寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"'og min karma dgon"@bo-x-ewts ,
 		"'og min thub bstan chos 'khor gling"@bo-x-ewts ,
 		"Karma Densa"@en ,
@@ -6802,7 +6802,7 @@ told:_Place_216
 		"rgyal lha khang"@bo-x-ewts ,
 		"杰拉康"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gyal Lhakang"@en ,
 		"jie lakang"@en ,
 		"jiedui si"@en ,
@@ -6833,7 +6833,7 @@ told:_Place_218
 		"ri bo che dgon"@bo-x-ewts ,
 		"类乌齐寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"khams ri bo che"@bo-x-ewts ,
 		"ri wo che gtsug lha khang khra 'jigs ma"@bo-x-ewts
 		;
@@ -6849,7 +6849,7 @@ told:_Place_219
 		"Riwoche Yanggon"@en ,
 		"ri bo che yang dgon"@bo-x-ewts
 		;
-	tolo:alternate_name "Yangon"@en ;
+	tolo:nameVariant "Yangon"@en ;
 	tolo:primaryName
 		"Riwoche Yanggon"@en ,
 		"ri bo che yang dgon"@bo-x-ewts
@@ -6861,7 +6861,7 @@ told:_Place_224
 		"Poto"@en ,
 		"po to"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"boduo si"@en ,
 		"波多寺"@zh-HANI
 		;
@@ -6877,7 +6877,7 @@ told:_Place_225
 		"ras chung phug"@bo-x-ewts ,
 		"热琼洞"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Rachung Phuk"@en ,
 		"reqiong dong"@en
 		;
@@ -6904,7 +6904,7 @@ told:_Place_227
 		"Gyachak Ri"@en ,
 		"rgya lcags ri"@bo-x-ewts
 		;
-	tolo:alternate_name "Penyul Gyachak Ri"@en ;
+	tolo:nameVariant "Penyul Gyachak Ri"@en ;
 	tolo:primaryName
 		"Gyachak Ri"@en ,
 		"rgya lcags ri"@bo-x-ewts
@@ -6917,7 +6917,7 @@ told:_Place_228
 		"se ba lung"@bo-x-ewts ,
 		"色瓦龙寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"se ra lung dgon"@bo-x-ewts ,
 		"sewalong si"@en
 		;
@@ -6933,7 +6933,7 @@ told:_Place_229
 		"Zur Ukpalung"@en ,
 		"zur 'ug pa lung"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ugpalung"@en ,
 		"Ukpa Lung"@en ,
 		"Upalung"@en ,
@@ -6951,7 +6951,7 @@ told:_Place_231
 		"Dechen Teng"@en ,
 		"bde chen steng"@bo-x-ewts
 		;
-	tolo:alternate_name "Dechenteng"@en ;
+	tolo:nameVariant "Dechenteng"@en ;
 	tolo:primaryName
 		"Dechen Teng"@en ,
 		"bde chen steng"@bo-x-ewts
@@ -6963,7 +6963,7 @@ told:_Place_232
 		"Hemis"@en ,
 		"he mi dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Hemis Jangchub Choling"@en ,
 		"he mi byang chub chos gling"@bo-x-ewts ,
 		"he mi grwa tshang"@bo-x-ewts
@@ -6987,7 +6987,7 @@ told:_Place_233
 
 told:_Place_234
 	skos:prefLabel "Chemrey"@en ;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Chemdey"@en ,
 		"Chemre"@en
 		;
@@ -6999,7 +6999,7 @@ told:_Place_235
 		"Chukyer Gonsar"@en ,
 		"chu mkhyer dgon gsar"@bo-x-ewts
 		;
-	tolo:alternate_name "Chukyer"@en ;
+	tolo:nameVariant "Chukyer"@en ;
 	tolo:primaryName
 		"Chukyer Gonsar"@en ,
 		"chu mkhyer dgon gsar"@bo-x-ewts
@@ -7011,7 +7011,7 @@ told:_Place_236
 		"Tsunmo Tsel"@en ,
 		"btsun mo tshal"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tsunmotsal"@en ,
 		"zunmucai si"@en ,
 		"尊木采寺"@zh-HANI
@@ -7028,7 +7028,7 @@ told:_Place_237
 		"chab mdo byams pa gling"@bo-x-ewts ,
 		"强巴林寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Chamdo Jampaling"@en ,
 		"Chamdo Monastery"@en ,
 		"Chokhor Kelden Jampa Ling"@en ,
@@ -7047,7 +7047,7 @@ told:_Place_241
 		"Patsang Gon Yungdrung Rabten Ling"@en ,
 		"spa tshang dgon g.yung drung rab brtan gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"bacang si"@en ,
 		"巴仓寺"@zh-HANI
 		;
@@ -7062,7 +7062,7 @@ told:_Place_242
 		"Lupuk Gonpa"@en ,
 		"klu phug dgon pa"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"g.yung drung bde chen gling"@bo-x-ewts ,
 		"gshen bstan g.yung drung bde chen gling"@bo-x-ewts ,
 		"luba si"@en ,
@@ -7083,7 +7083,7 @@ told:_Place_243
 		"Lungkar"@en ,
 		"lung dkar dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"dga' ldan chos 'phel gling"@bo-x-ewts ,
 		"longge si"@en ,
 		"lung dkar dgon bsam grub bde ldan gling"@bo-x-ewts ,
@@ -7101,7 +7101,7 @@ told:_Place_244
 		"Menri"@en ,
 		"sman ri"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Menri Gon"@en ,
 		"bkra shis sman ri"@bo-x-ewts ,
 		"meiri si"@en ,
@@ -7120,7 +7120,7 @@ told:_Place_245
 		"Yeru Wensakha"@en ,
 		"g.yas ru dben sa kha"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Yeru Ensakha"@en ,
 		"叶如恩萨喀寺"@zh-HANI
 		;
@@ -7136,7 +7136,7 @@ told:_Place_246
 		"jo gdan dge 'dun sgang"@bo-x-ewts ,
 		"觉丹寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Joden"@en ,
 		"juedan si"@en
 		;
@@ -7152,7 +7152,7 @@ told:_Place_247
 		"Pelme Tekchen Evam Gatsel Ling"@en ,
 		"dpal me theg chen e vaM dga' tshal gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"bami si"@en ,
 		"dpal me dgon"@bo-x-ewts ,
 		"theg chen e waM dga' tshal gling"@bo-x-ewts ,
@@ -7169,7 +7169,7 @@ told:_Place_248
 		"Nangchen Gar"@en ,
 		"nang chen gar"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"gari si"@en ,
 		"mgar dgon"@bo-x-ewts ,
 		"mgar nyang chen byang chub chos gling"@bo-x-ewts ,
@@ -7187,7 +7187,7 @@ told:_Place_249
 		"Lingga Dewachen"@en ,
 		"gling dga' bde ba can"@bo-x-ewts
 		;
-	tolo:alternate_name "mus gling dga' bde ba can"@bo-x-ewts ;
+	tolo:nameVariant "mus gling dga' bde ba can"@bo-x-ewts ;
 	tolo:primaryName
 		"Lingga Dewachen"@en ,
 		"gling dga' bde ba can"@bo-x-ewts
@@ -7222,7 +7222,7 @@ told:_Place_253
 		"dpal ri theg chen gling"@bo-x-ewts ,
 		"白日寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Chonggye Pelri Tekchok Ling"@en ,
 		"Pelri Monastery"@en ,
 		"Pelri Osel Tekchen Ling"@en ,
@@ -7241,7 +7241,7 @@ told:_Place_254
 		"Tseringjong"@en ,
 		"tshe ring ljongs"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tsering jong"@en ,
 		"cirenjiong si"@en ,
 		"dongga nigu si"@en ,
@@ -7260,7 +7260,7 @@ told:_Place_255
 		"Driru Gon"@en ,
 		"bri ru dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Namgyel Pelbar"@en ,
 		"biru si"@en ,
 		"rnam rgyal dpal 'bar"@bo-x-ewts ,
@@ -7289,7 +7289,7 @@ told:_Place_259
 		"Sinmo Dzong"@en ,
 		"srin mo rdzong"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kham Sinmo Dzong"@en ,
 		"khams srin mo rdzong"@bo-x-ewts
 		;
@@ -7326,7 +7326,7 @@ told:_Place_266
 		"Dargye Monastery"@en ,
 		"dar rgyas dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kandze Dargye"@en ,
 		"Tashi Dargye"@en ,
 		"Tewo Tashi Dargye"@en ,
@@ -7356,7 +7356,7 @@ told:_Place_269
 		"Tanak Serling"@en ,
 		"rta nag gser gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Serling Gonpa"@en ,
 		"gser gling dgon pa"@bo-x-ewts
 		;
@@ -7372,7 +7372,7 @@ told:_Place_270
 		"rta nag thub bstan rnam rgyal"@bo-x-ewts ,
 		"达那土旦寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Thubten Namgyal"@en ,
 		"Tubtan"@en ,
 		"Tupten Namgyel"@en ,
@@ -7391,7 +7391,7 @@ told:_Place_271
 		"Japuk Dongak Dargye Ling"@en ,
 		"bya phug mdo sngags dar rgyas gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Do-ngak Dargye Ling"@en ,
 		"Dongak Dargye Ling"@en ,
 		"Japuk Dongak Dargyeling"@en ,
@@ -7419,7 +7419,7 @@ told:_Place_273
 		"Shey"@en ,
 		"shel dkar pho brang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"la dwags shel mkhar pho brang"@bo-x-ewts ,
 		"la dwags shel thub chen dgon"@bo-x-ewts
 		;
@@ -7447,7 +7447,7 @@ told:_Place_275
 		"Dreyul Kyetsel"@en ,
 		"bras yul skyed tshal"@bo-x-ewts
 		;
-	tolo:alternate_name "Dreyul Kyemotsel"@en ;
+	tolo:nameVariant "Dreyul Kyemotsel"@en ;
 	tolo:primaryName
 		"Dreyul Kyetsel"@en ,
 		"bras yul skyed tshal"@bo-x-ewts
@@ -7459,7 +7459,7 @@ told:_Place_276
 		"Nyenyo Jagoshong"@en ,
 		"mnyan yod bya rgod gshongs"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Nyanyo Chagoshong"@en ,
 		"bya rgod gshongs dgon pa"@bo-x-ewts ,
 		"nianyu si"@en ,
@@ -7520,7 +7520,7 @@ told:_Place_280
 		"Chakra"@en ,
 		"lcags ra"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Chakra Monastery"@en ,
 		"Changra"@en ,
 		"Derge Chakra Gon"@en ,
@@ -7538,7 +7538,7 @@ told:_Place_282
 		"Pewar"@en ,
 		"dpe war"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"baiya si"@en ,
 		"dpe war dgon"@bo-x-ewts ,
 		"sde dge dpe war dgon"@bo-x-ewts ,
@@ -7556,7 +7556,7 @@ told:_Place_285
 		"Tashi Cholung"@en ,
 		"bkra shis chos lung"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Nyangpo Tashi Cholung"@en ,
 		"nyang po bkra shis chos lung"@bo-x-ewts
 		;
@@ -7582,7 +7582,7 @@ told:_Place_287
 		"Tseten"@en ,
 		"tshe tan dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tseten Gon Ganden Shedrubling"@en ,
 		"she tan dgon"@bo-x-ewts ,
 		"tshe tan dgon dga' ldan bshad sgrub gling"@bo-x-ewts ,
@@ -7612,7 +7612,7 @@ told:_Place_289
 		"Tuwa"@en ,
 		"mthu ba"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"dan tig mthu ba dgon"@bo-x-ewts ,
 		"mthu ba dgon bkra shis chos sde"@bo-x-ewts ,
 		"tuwacang si"@en ,
@@ -7629,7 +7629,7 @@ told:_Place_290
 		"Dentik"@en ,
 		"dan tig"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dentik Shelgyi Yang Gon"@en ,
 		"dan tig shel gyi yang dgon"@bo-x-ewts
 		;
@@ -7645,7 +7645,7 @@ told:_Place_291
 		"sne'u zur"@bo-x-ewts ,
 		"乃苏寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"naisu si"@en ,
 		"nezur"@en
 		;
@@ -7661,7 +7661,7 @@ told:_Place_292
 		"Tolung Takma"@en ,
 		"stod lung thag ma"@bo-x-ewts
 		;
-	tolo:alternate_name "stod lung thag ma dgon"@bo-x-ewts ;
+	tolo:nameVariant "stod lung thag ma dgon"@bo-x-ewts ;
 	tolo:primaryName
 		"Tolung Takma"@en ,
 		"stod lung thag ma"@bo-x-ewts
@@ -7684,7 +7684,7 @@ told:_Place_294
 		"Purbuchok"@en ,
 		"phur bu lcog"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Phurbuchok"@en ,
 		"Purbuchog Ritro Jangchubling"@en ,
 		"Purchok"@en ,
@@ -7708,7 +7708,7 @@ told:_Place_295
 		"dngul chu ri khrod"@bo-x-ewts ,
 		"欧曲寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ngulchu Chodzong"@en ,
 		"dngul chu chos rdzong"@bo-x-ewts ,
 		"dngul chu ri khrod"@bo-x-ewts ,
@@ -7726,7 +7726,7 @@ told:_Place_296
 		"Sekya Tashi Gepel Ling"@en ,
 		"se kyA bkra shis dge 'phel gling"@bo-x-ewts
 		;
-	tolo:alternate_name "色尔加寺"@zh-HANI ;
+	tolo:nameVariant "色尔加寺"@zh-HANI ;
 	tolo:primaryName
 		"Sekya Tashi Gepel Ling"@en ,
 		"se kyA bkra shis dge 'phel gling"@bo-x-ewts
@@ -7749,7 +7749,7 @@ told:_Place_298
 		"Dakpo Dratsang"@en ,
 		"dwags po grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dakpo Ganden Shedrub Ling"@en ,
 		"Namrab Dakpo Dratsang"@en ,
 		"bshad sgrub bstan pa'i 'byung gnas mthong smon dwags po grwa tshang"@bo-x-ewts ,
@@ -7768,7 +7768,7 @@ told:_Place_305
 		"rwa stod"@bo-x-ewts ,
 		"热堆寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Nyetang Dewachen"@en ,
 		"Rawa Me"@en ,
 		"Rawa To"@en ,
@@ -7802,7 +7802,7 @@ told:_Place_307
 		"Cheri Monastery"@en ,
 		"lcags ri"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Chagri"@en ,
 		"Chakri"@en ,
 		"Chakri Dorjeden"@en
@@ -7818,7 +7818,7 @@ told:_Place_308
 		"Tango"@en ,
 		"rta mgo"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tamgo"@en ,
 		"rta mgo chos dbyings rdzong"@bo-x-ewts
 		;
@@ -7866,7 +7866,7 @@ told:_Place_312
 		"Nyima Tang Monastery"@en ,
 		"nyi ma thang dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"nimatang si"@en ,
 		"尼玛汤寺"@zh-HANI
 		;
@@ -7882,7 +7882,7 @@ told:_Place_314
 		"mkhar rdo ri khrod"@bo-x-ewts ,
 		"卡多寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"kaduo si"@en ,
 		"卡多寺"@zh-HANI
 		;
@@ -7898,7 +7898,7 @@ told:_Place_315
 		"Ganden Jangtse College"@en ,
 		"dga' ldan byang rtse drwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name "Jangtse Dratsang"@en ;
+	tolo:nameVariant "Jangtse Dratsang"@en ;
 	tolo:primaryName
 		"Ganden Jangtse College"@en ,
 		"dga' ldan byang rtse drwa tshang"@bo-x-ewts
@@ -7910,7 +7910,7 @@ told:_Place_316
 		"Gyuto Dratsang"@en ,
 		"rgyud stod grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gyuto College"@en ,
 		"Gyuto Monastery"@en ,
 		"Uto Jampel Ling"@en ,
@@ -7928,7 +7928,7 @@ told:_Place_317
 		"Takpu Chode"@en ,
 		"stag phu chos sde"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Takphu"@en ,
 		"Takpu"@en ,
 		"dapu si"@en ,
@@ -7948,7 +7948,7 @@ told:_Place_318
 		"Meldro Chakar Gon"@en ,
 		"mal gro cha dkar dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kargya Gon"@en ,
 		"dkar rgya dgon"@bo-x-ewts
 		;
@@ -7963,7 +7963,7 @@ told:_Place_319
 		"Ganden Shartse College"@en ,
 		"dga' ldan shar rtse grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name "Shartse Dratsang"@en ;
+	tolo:nameVariant "Shartse Dratsang"@en ;
 	tolo:primaryName
 		"Ganden Shartse College"@en ,
 		"dga' ldan shar rtse grwa tshang"@bo-x-ewts
@@ -7975,7 +7975,7 @@ told:_Place_32
 		"Ngor Ewaṃ Choden"@en ,
 		"ngor e waM chos ldan"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ngor Monastery"@en ,
 		"aiwang quedan si"@en ,
 		"e-er si"@en ,
@@ -7993,7 +7993,7 @@ told:_Place_321
 		"Rakadrak Hermitage"@en ,
 		"ra kha brag ri khrod"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Rakadrak Ritro"@en ,
 		"rekazha si"@en ,
 		"se ra byes kyi rag kha brag ri khrod"@bo-x-ewts ,
@@ -8010,7 +8010,7 @@ told:_Place_322
 		"Sera Utse"@en ,
 		"se ra dbu rtse"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Drubkhang Hermitage"@en ,
 		"Sera Peak"@en ,
 		"Sera Tse"@en ,
@@ -8028,7 +8028,7 @@ told:_Place_323
 		"Drula"@en ,
 		"bru la"@bo-x-ewts
 		;
-	tolo:alternate_name "Kongpo Drula Gon"@en ;
+	tolo:nameVariant "Kongpo Drula Gon"@en ;
 	tolo:primaryName
 		"Drula"@en ,
 		"bru la"@bo-x-ewts
@@ -8052,7 +8052,7 @@ told:_Place_325
 		"skyor mo lung"@bo-x-ewts ,
 		"觉摩隆寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"juemolong si"@en ,
 		"觉摩隆寺"@zh-HANI
 		;
@@ -8080,7 +8080,7 @@ told:_Place_327
 		"rwa sgreng dgon"@bo-x-ewts ,
 		"热振寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"byang rwa sgreng"@bo-x-ewts ,
 		"rezhen si"@en ,
 		"rgyal ba'i dben gnas"@bo-x-ewts ,
@@ -8100,7 +8100,7 @@ told:_Place_33
 		"Dar Drangmoche"@en ,
 		"dar grong mo che"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"'dar grang mo che chos 'khor yang rtse"@bo-x-ewts ,
 		"Dar Drangmoche Chokhor Yangtse"@en ,
 		"dar grang mo che"@bo-x-ewts ,
@@ -8117,7 +8117,7 @@ told:_Place_331
 		"Nenang"@en ,
 		"gnas nang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"nailang si"@en ,
 		"nainang si"@en ,
 		"stod lung gnas nang dgon"@bo-x-ewts ,
@@ -8136,7 +8136,7 @@ told:_Place_333
 		"Ngamring Chode"@en ,
 		"ngam ring chos sde"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Jang Namring"@en ,
 		"angren qude si"@en ,
 		"ngoms ring chos sde"@bo-x-ewts ,
@@ -8165,7 +8165,7 @@ told:_Place_335
 		"Rinchen Drak"@en ,
 		"rin chen brag"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dre Rinchen Drak"@en ,
 		"spras rin chen brag"@bo-x-ewts
 		;
@@ -8180,7 +8180,7 @@ told:_Place_338
 		"Tetung Monastery"@en ,
 		"te thung dgon chen"@bo-x-ewts
 		;
-	tolo:alternate_name "Tethung Gonchen"@en ;
+	tolo:nameVariant "Tethung Gonchen"@en ;
 	tolo:primaryName
 		"Tetung Monastery"@en ,
 		"te thung dgon chen"@bo-x-ewts
@@ -8205,7 +8205,7 @@ told:_Place_340
 		"Amdo Chubzang Monastery"@en ,
 		"chu bzang dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Amdo Chubzang"@en ,
 		"Chubzang Gon Ganden Migyur Ling"@en ,
 		"Chubzang Gon Tubten Rabgye Ling"@en ,
@@ -8223,7 +8223,7 @@ told:_Place_342
 		"Drepung Gomang Dratsang"@en ,
 		"sgo mang grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Drepung Gomang College"@en ,
 		"Gomang Dratsang"@en
 		;
@@ -8238,7 +8238,7 @@ told:_Place_343
 		"Dechen Sangngak Khar"@en ,
 		"bde chen gsang sngags mkhar"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Sangngak Khar"@en ,
 		"gsang sngags mkhar"@bo-x-ewts
 		;
@@ -8264,7 +8264,7 @@ told:_Place_345
 		"Ganden Rinchen Ling"@en ,
 		"dga' ldan rin chen gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ganden Rinchenling"@en ,
 		"baobei si"@en ,
 		"宝贝寺"@zh-HANI
@@ -8281,7 +8281,7 @@ told:_Place_346
 		"dpa' ri bkra shis chos gling"@bo-x-ewts ,
 		"⽺官寺"@zh-HANI
 		;
-	tolo:alternate_name "dpa' ris stong shag bkra shis chos gling"@bo-x-ewts ;
+	tolo:nameVariant "dpa' ris stong shag bkra shis chos gling"@bo-x-ewts ;
 	tolo:primaryName
 		"Pari Tashi Choling"@en ,
 		"dpa' ri bkra shis chos gling"@bo-x-ewts ,
@@ -8305,7 +8305,7 @@ told:_Place_348
 		"Sera Je"@en ,
 		"se ra byes"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Sera Je College"@en ,
 		"Sera Je Dratsang"@en ,
 		"Sera Jey"@en ,
@@ -8324,7 +8324,7 @@ told:_Place_349
 		"Sera Me"@en ,
 		"se ra smad"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Sera Me Dratsang"@en ,
 		"Sera Me Tratsang"@en
 		;
@@ -8339,7 +8339,7 @@ told:_Place_35
 		"Zhalu"@en ,
 		"zhwa lu"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Shalu"@en ,
 		"xialu si"@en ,
 		"夏鲁寺"@zh-HANI
@@ -8366,7 +8366,7 @@ told:_Place_351
 		"Dab Yangteng Monastery"@en ,
 		"dab yang steng dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kham Dab Yangteng"@en ,
 		"Yangteng Monastery"@en ,
 		"khams 'dabs yang steng dgon"@bo-x-ewts ,
@@ -8385,7 +8385,7 @@ told:_Place_352
 		"mtho lding dgon"@bo-x-ewts ,
 		"托林寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ngari Toding"@en ,
 		"mnga' ris mtho lding"@bo-x-ewts
 		;
@@ -8401,7 +8401,7 @@ told:_Place_353
 		"To Jayul Monastery"@en ,
 		"stod bya yul dgon pa"@bo-x-ewts
 		;
-	tolo:alternate_name "Jayul Gon"@en ;
+	tolo:nameVariant "Jayul Gon"@en ;
 	tolo:primaryName
 		"To Jayul Monastery"@en ,
 		"stod bya yul dgon pa"@bo-x-ewts
@@ -8414,7 +8414,7 @@ told:_Place_354
 		"co ne dga' ldan bshad sgrub gling"@bo-x-ewts ,
 		"卓尼丹丁寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Chone"@en ,
 		"Chone Gonchen"@en ,
 		"Tingdzin Dargye Ling"@en ,
@@ -8432,7 +8432,7 @@ told:_Place_355
 		"Drepung Loseling College"@en ,
 		"bras spungs blo gsal gling grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name "Loseling Dratsang"@en ;
+	tolo:nameVariant "Loseling Dratsang"@en ;
 	tolo:primaryName
 		"Drepung Loseling College"@en ,
 		"bras spungs blo gsal gling grwa tshang"@bo-x-ewts
@@ -8466,7 +8466,7 @@ told:_Place_358
 		"Jakhyung Monastery"@en ,
 		"bya khyung dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Amdo Jakhyung"@en ,
 		"Jakhyung Tekchen Yonten Dargye Ling"@en ,
 		"shachong si"@en ,
@@ -8502,7 +8502,7 @@ told:_Place_36
 		"dga' ldan"@bo-x-ewts ,
 		"甘丹寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"'brog ri bo dge ldan rnam par rgyal ba'i gling"@bo-x-ewts ,
 		"Ganden Monastery"@en ,
 		"Ganden Namgyel Ling"@en ,
@@ -8523,7 +8523,7 @@ told:_Place_360
 		"Tsador Monastery"@en ,
 		"tsha rdor dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tshador Gon"@en ,
 		"chadao-er si"@en ,
 		"tsha rdor dgon bkra shis byams pa rnam rgyal gling"@bo-x-ewts ,
@@ -8542,7 +8542,7 @@ told:_Place_361
 		"Shitsang Gonsar"@en ,
 		"shis tshang dgon gsar"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"dga' ldan bshad sgrub chos 'khor gling"@bo-x-ewts ,
 		"嘎丹谢珠曲科林"@zh-HANI ,
 		"西仓新寺"@zh-HANI
@@ -8558,7 +8558,7 @@ told:_Place_362
 		"Ngulra Monastery"@en ,
 		"dngul rwa dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"dga' ldan dam chos kun rgyas gling"@bo-x-ewts ,
 		"dngul rwa gnyan thog dgon"@bo-x-ewts ,
 		"gnyan thog dgon dga' ldan dam chos kun rgyas gling"@bo-x-ewts ,
@@ -8576,7 +8576,7 @@ told:_Place_363
 		"Ganden Shedrub Pekar Drolwai Ling"@en ,
 		"dga' ldan bshad sgrub pad dkar grol ba'i gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Serchen Gompa"@en ,
 		"Sertang"@en ,
 		"Sertri"@en ,
@@ -8593,7 +8593,7 @@ told:_Place_364
 		"Tso Gon Ganden Choling"@en ,
 		"gtsos dgon dge ldan chos gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tso Gon Genden Choling"@en ,
 		"gtsos dgon pa"@bo-x-ewts ,
 		"合作寺"@zh-HANI ,
@@ -8610,7 +8610,7 @@ told:_Place_365
 		"Mokru Ganden Jampeling"@en ,
 		"rmog ru dgon dga' ldan byams 'phel gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"mengru si"@en ,
 		"mengru si gedan xiangpeilin"@en ,
 		"蒙茹寺"@zh-HANI ,
@@ -8627,7 +8627,7 @@ told:_Place_367
 		"Muge Tashikhorlo"@en ,
 		"dmu dge bkra shis 'khor lo"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"dmu dge dgon"@bo-x-ewts ,
 		"mao-ergai si"@en ,
 		"毛儿盖寺"@zh-HANI ,
@@ -8644,7 +8644,7 @@ told:_Place_368
 		"Ngawa Gomang"@en ,
 		"rnga ba sgo mang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ge mo si"@en ,
 		"Ngayul Gomang"@en ,
 		"bshad sgrub 'phel rgyas gling"@bo-x-ewts ,
@@ -8664,7 +8664,7 @@ told:_Place_369
 		"Gyeltang Sungtseling"@en ,
 		"rgyal thang dgon pa"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ganden Sumtsen Ling"@en ,
 		"Gedan Songzanlin"@en ,
 		"Gyaltang"@en ,
@@ -8684,7 +8684,7 @@ told:_Place_37
 		"Sera Monastery"@en ,
 		"se ra"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Sera Monastery"@en ,
 		"Sera Tekchenling"@en ,
 		"Sera Thekchenling"@en
@@ -8700,7 +8700,7 @@ told:_Place_370
 		"Evaṃ Monastery"@en ,
 		"e waM dgon;"@bo-x-ewts
 		;
-	tolo:alternate_name "Medro Gongkar Evam"@en ;
+	tolo:nameVariant "Medro Gongkar Evam"@en ;
 	tolo:primaryName
 		"Evaṃ Monastery"@en ,
 		"e waM dgon;"@bo-x-ewts
@@ -8712,7 +8712,7 @@ told:_Place_371
 		"Petseling Jangchub Pelri Monastery"@en ,
 		"pad tshal gling byang chub dpal ri dgon pa"@bo-x-ewts
 		;
-	tolo:alternate_name "Pedtsheling Goenpa"@en ;
+	tolo:nameVariant "Pedtsheling Goenpa"@en ;
 	tolo:primaryName
 		"Petseling Jangchub Pelri Monastery"@en ,
 		"pad tshal gling byang chub dpal ri dgon pa"@bo-x-ewts
@@ -8724,7 +8724,7 @@ told:_Place_372
 		"Dobi Ganden Pelgye Ling"@en ,
 		"rdo sbis dge ldan 'phel rgyas gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dowi Gori Dratsang"@en ,
 		"Gori Dratsang"@en ,
 		"dgo ri grwa tshang"@bo-x-ewts ,
@@ -8742,7 +8742,7 @@ told:_Place_373
 		"Drotsang"@en ,
 		"gro tshang dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Drotsang Lhakhang Gautamde"@en ,
 		"Gautama"@en ,
 		"Qutan Si"@en ,
@@ -8759,7 +8759,7 @@ told:_Place_374
 		"Rongwo Monastery"@en ,
 		"rong bo thos bsam rnam rgyal gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Rongpo"@en ,
 		"Rongpo Gonchen Tosam Namgyaling"@en ,
 		"Rongpo Monastery"@en ,
@@ -8779,7 +8779,7 @@ told:_Place_375
 		"Ditsa Tashi Choding"@en ,
 		"d+hi tsha bkra shis chos sding"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ditsa"@en ,
 		"Genden Tashi Choding"@en ,
 		"ldi tsha bkra shis chos sdings"@bo-x-ewts
@@ -8795,7 +8795,7 @@ told:_Place_376
 		"Wangdue Phodrang Dzong"@en ,
 		"dbang 'dus pho brang rdzong"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Wangdiphodrang"@en ,
 		"Wangdu Podrang Dzong"@en ,
 		"Wangduephodrang Dzong"@en
@@ -8844,7 +8844,7 @@ told:_Place_380
 		"Talo Sangngak Choling"@en ,
 		"rta log gsang sngags chos gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Talo Monastery"@en ,
 		"Talok Sangngak Choling"@en
 		;
@@ -8859,7 +8859,7 @@ told:_Place_381
 		"Chitokha Puntsok Rabten Ling"@en ,
 		"spyi to kha phun tshogs rab brtan gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Chitokha"@en ,
 		"Puntsok Rabten Ling"@en
 		;
@@ -8874,7 +8874,7 @@ told:_Place_382
 		"Gangteng Monastery"@en ,
 		"sgang steng dgon pa"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gangte"@en ,
 		"Gangtey"@en
 		;
@@ -8889,7 +8889,7 @@ told:_Place_383
 		"Trakar Lhakhang"@en ,
 		"spra mkhar lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Prakhar Goemba"@en ,
 		"Prakhar Ngatshang"@en
 		;
@@ -8926,7 +8926,7 @@ told:_Place_387
 		"Tashichoedzong"@en ,
 		"bkra shis chos rdzong"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dechen Phodrang"@en ,
 		"Tashichho Dzong"@en ,
 		"Tashichodzong"@en ,
@@ -8968,7 +8968,7 @@ told:_Place_39
 		"bkra shis lhun po"@bo-x-ewts ,
 		"扎什伦布寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tashi Lhunpo"@en ,
 		"gtsang bkra shis lhun po dpal gyi sde chen"@bo-x-ewts ,
 		"phyogs thams cad las rnam par rgyal ba'i gling"@bo-x-ewts ,
@@ -8999,7 +8999,7 @@ told:_Place_392
 		"Gorina Kunang Osel Ling"@en ,
 		"go ri na sku snang 'od gsal gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gorina"@en ,
 		"Gorina Kunnang Osel"@en ,
 		"Gorinang Kunnang Osel"@en ,
@@ -9016,7 +9016,7 @@ told:_Place_393
 		"Kyichu Lhakhang"@en ,
 		"skyid chu lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kyerchu Lhakhang"@en ,
 		"skyer chu"@bo-x-ewts ,
 		"xiguan si"@en
@@ -9043,7 +9043,7 @@ told:_Place_396
 		"Shel Monastery"@en ,
 		"shel dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dechen Chokyi Podrang"@en ,
 		"Shelgon Tashi Dzong"@en ,
 		"西关寺"@zh-HANI
@@ -9059,7 +9059,7 @@ told:_Place_397
 		"Dzoge Monastery"@en ,
 		"mdzod dge dgon sar dga' ldan rab rgyas gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dzoge Gonsar Ganden Rabgye Ling"@en ,
 		"Taktsa"@en ,
 		"stag tsha dgon pa"@bo-x-ewts
@@ -9076,7 +9076,7 @@ told:_Place_398
 		"bis mdo dgon chen"@bo-x-ewts ,
 		"文都寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Bido Tashi Tosam Chokhor Ling"@en ,
 		"Bimdo"@en ,
 		"Bindo"@en ,
@@ -9107,7 +9107,7 @@ told:_Place_40
 		"sku 'bum byams pa gling"@bo-x-ewts ,
 		"塔尔寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kumbum Jampaling"@en ,
 		"Tǎ'ěrsì"@en ,
 		"ta-er si"@en ,
@@ -9127,7 +9127,7 @@ told:_Place_400
 		"Tamshing Lhakhang"@en ,
 		"gtam zhing lhun grub chos gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tamzhing Lhakhang"@en ,
 		"Tamzhing Lhundrup Choling"@en
 		;
@@ -9142,7 +9142,7 @@ told:_Place_401
 		"Lamo Dechen"@en ,
 		"la mo bde chen"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"deqian si"@en ,
 		"德千寺"@zh-HANI
 		;
@@ -9180,7 +9180,7 @@ told:_Place_404
 		"gru gu dgon"@bo-x-ewts ,
 		"珠古寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Drugu Tang Drubde"@en ,
 		"Trugu"@en ,
 		"Zhugusi"@en ,
@@ -9200,7 +9200,7 @@ told:_Place_405
 		"Punakha Dzong"@en ,
 		"spungs thang bde ba can"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Punakha"@en ,
 		"Puntang Dewachen"@en ,
 		"spu na kha"@bo-x-ewts
@@ -9216,7 +9216,7 @@ told:_Place_406
 		"Trongsa Dzong"@en ,
 		"krong gsar rdzong"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Choekhor Rabtentse Dzong"@en ,
 		"Chökhor Raptse Dzong"@en ,
 		"krong gsar chos 'khor rab brtan"@bo-x-ewts
@@ -9232,7 +9232,7 @@ told:_Place_407
 		"Karchen"@en ,
 		"dkar chen"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"dben gnas byams pa gling"@bo-x-ewts ,
 		"嘎尔清寺"@zh-HANI ,
 		"在 宗教史要 中无相应的寺名"@zh-HANI
@@ -9260,7 +9260,7 @@ told:_Place_409
 		"rgya mkhar dgon"@bo-x-ewts ,
 		"江河寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Chepa Gyakhar"@en ,
 		"bshad sgrub dar rgyas gling"@bo-x-ewts ,
 		"chas pa rgya mkhar dgon"@bo-x-ewts ,
@@ -9279,7 +9279,7 @@ told:_Place_41
 		"Labrang Tashikhyil"@en ,
 		"bla brang bkra shis 'khyil"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"bla brang bkra shis 'khyil"@en ,
 		"dga' ldan bshad sgrub dar rgyas bkra shis g.yas su 'khyil ba'i gling"@en ,
 		"lapuleng si"@en ,
@@ -9296,7 +9296,7 @@ told:_Place_410
 		"Urge Dratsang Sangngak Mingye Ling"@en ,
 		"urge grwa tshang gsang sngags smin rgyas gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Chogar Tashi Chodzong"@en ,
 		"Urge Dratsang Sang Ngak Mingye Ling"@en
 		;
@@ -9311,7 +9311,7 @@ told:_Place_411
 		"Tongkhor Tashilhunpo"@en ,
 		"stong 'khor bkra shis lhun po"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"donggu si"@en ,
 		"gsang chen mi 'gyur rdo rje gling bkra shis lhun po"@bo-x-ewts ,
 		"khams stong 'khor dgon"@bo-x-ewts ,
@@ -9330,7 +9330,7 @@ told:_Place_412
 		"sde dge par khang"@bo-x-ewts ,
 		"德格印经院"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dege Yinjing Yuan"@en ,
 		"Derge Printing House"@en ,
 		"sde dge par khang chos mdzod chen mo bkra shis sgo mang"@bo-x-ewts ,
@@ -9348,7 +9348,7 @@ told:_Place_413
 		"Kīrti"@en ,
 		"kIrti"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kalari Kirti"@en ,
 		"Kirti"@en ,
 		"bkra shis lhun grub"@bo-x-ewts ,
@@ -9366,7 +9366,7 @@ told:_Place_415
 		"Pajoding"@en ,
 		"pha jo sdings"@bo-x-ewts
 		;
-	tolo:alternate_name "Phajoding"@en ;
+	tolo:nameVariant "Phajoding"@en ;
 	tolo:primaryName
 		"Pajoding"@en ,
 		"pha jo sdings"@bo-x-ewts
@@ -9378,7 +9378,7 @@ told:_Place_416
 		"Luchung Taktsang Gon"@en ,
 		"stag tshang dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Luchung"@en ,
 		"dga' ldan phun tshogs gling"@bo-x-ewts ,
 		"klu chung stag tshang dgon"@bo-x-ewts
@@ -9428,7 +9428,7 @@ told:_Place_420
 		"yang ri sgar"@bo-x-ewts ,
 		"羊日岗寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"aimari si"@en ,
 		"yangmari si"@en ,
 		"yangrigang si"@en ,
@@ -9447,7 +9447,7 @@ told:_Place_421
 		"Getse Tralek"@en ,
 		"dge rtse bkra legs"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dralak Shedrub Dongak Ling"@en ,
 		"Getse Dralak"@en ,
 		"bkra lag dgon"@bo-x-ewts ,
@@ -9470,7 +9470,7 @@ told:_Place_422
 		"dge mang"@bo-x-ewts ,
 		"格蒙寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Drama Barmi Gonlung"@en ,
 		"Dzagyu Gemang"@en ,
 		"Gemang Gon Lhundup Dechen Ling"@en ,
@@ -9505,7 +9505,7 @@ told:_Place_424
 		"E Rigo Chode"@en ,
 		"e ri sgo chos sde"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"e ri sgo bslab gsum chosde"@bo-x-ewts ,
 		"rigo chode"@bo-x-ewts
 		;
@@ -9531,7 +9531,7 @@ told:_Place_426
 		"Chakri Nyidrak Monastery"@en ,
 		"chags ri nyi grags dgon"@bo-x-ewts
 		;
-	tolo:alternate_name "Sindzong Osel Drubde"@en ;
+	tolo:nameVariant "Sindzong Osel Drubde"@en ;
 	tolo:primaryName
 		"Chakri Nyidrak Monastery"@en ,
 		"chags ri nyi grags dgon"@bo-x-ewts
@@ -9543,7 +9543,7 @@ told:_Place_427
 		"Takmogang Kelzang Puntsok Ling"@en ,
 		"stag mo sgang skal bzang phun tshogs gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dzin Takmo Gon"@en ,
 		"dzin stag mo dgon"@bo-x-ewts
 		;
@@ -9558,7 +9558,7 @@ told:_Place_43
 		"Adzom Gar"@en ,
 		"a 'dzom sgar"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Anzom"@en ,
 		"Anzom Chogar"@en ,
 		"Osal Tegchogling"@en ,
@@ -9587,7 +9587,7 @@ told:_Place_432
 		"Gyarong Takten Nampar Gyelwai Ling"@en ,
 		"rgyal rong rtag brtan rnam par rgyal ba'i gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Derge Gyarong"@en ,
 		"Gyarong"@en ,
 		"Gyarong Takten Namper Gyalwai Ling"@en ,
@@ -9607,7 +9607,7 @@ told:_Place_434
 		"rma mgur rnam rgyal gling"@bo-x-ewts ,
 		"古鲁寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"gulu si"@en ,
 		"古鲁寺"@zh-HANI
 		;
@@ -9623,7 +9623,7 @@ told:_Place_435
 		"Chekha"@en ,
 		"chad kha"@bo-x-ewts
 		;
-	tolo:alternate_name "Cheka"@en ;
+	tolo:nameVariant "Cheka"@en ;
 	tolo:primaryName
 		"Chekha"@en ,
 		"chad kha"@bo-x-ewts
@@ -9636,7 +9636,7 @@ told:_Place_437
 		"rkang tsha dga' ldan chos 'phel gling"@bo-x-ewts ,
 		"岗察寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ganden Chopel Ling"@en ,
 		"Kangtsa"@en ,
 		"Kangtsa Gonchen"@en ,
@@ -9658,7 +9658,7 @@ told:_Place_439
 		"shrI sing+ha bshad grwa"@bo-x-ewts ,
 		"Śrī Siṃha College"@en
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dzogchen Sengge Ri College"@en ,
 		"Sengge Ri Shedra"@en ,
 		"Shrisimha college"@en ,
@@ -9682,7 +9682,7 @@ told:_Place_44
 		"Nyoshul Jonpalung Monastery"@en ,
 		"smyo shul ljon pa lung dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"liaoxi si"@en ,
 		"liaoxi yuanlin"@en ,
 		"辽西圆林"@zh-HANI ,
@@ -9699,7 +9699,7 @@ told:_Place_440
 		"Tongkhor Ganden Chokhor Ling"@en ,
 		"stong 'khor dga' ldan chos 'khor gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"dongke'er si"@en ,
 		"东科尔寺"@zh-HANI ,
 		"洞阔寺"@zh-HANI
@@ -9716,7 +9716,7 @@ told:_Place_441
 		"mchod rten thang bkra shis dar rgyas gling"@bo-x-ewts ,
 		"天堂寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Chortentang Tashi Dargyeling"@en ,
 		"tiantang si"@en ,
 		"天堂寺"@zh-HANI
@@ -9734,7 +9734,7 @@ told:_Place_442
 		"chu nag bkra shis chos gling"@bo-x-ewts ,
 		"曲乃亥寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Chunak"@en ,
 		"qunaihai si"@en ,
 		"曲乃亥寺"@zh-HANI ,
@@ -9752,7 +9752,7 @@ told:_Place_443
 		"Chakpori"@en ,
 		"lcags po ri"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Chakpori"@en ,
 		"Chakri"@en ,
 		"lcags po ri gso rig slob grwa"@bo-x-ewts ,
@@ -9769,7 +9769,7 @@ told:_Place_444
 		"Gegong"@en ,
 		"dge gong"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"gegong si"@en ,
 		"格贡寺"@zh-HANI
 		;
@@ -9784,7 +9784,7 @@ told:_Place_445
 		"Khamshe Dargye Ling"@en ,
 		"khams byed dar rgyas gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dzongsar Khamshe"@en ,
 		"rdzong sar khams bye grwa tshang"@bo-x-ewts
 		;
@@ -9799,7 +9799,7 @@ told:_Place_446
 		"Nyang Tarpa Ling"@en ,
 		"myang thar pa gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tarpa Ling"@en ,
 		"tabalin si"@en ,
 		"塔巴林寺"@zh-HANI
@@ -9816,7 +9816,7 @@ told:_Place_447
 		"glang sna"@bo-x-ewts ,
 		"郎乃寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Lang Nak"@en ,
 		"Langna Gon"@en ,
 		"dkar mdzes glang sna dgon"@bo-x-ewts ,
@@ -9841,7 +9841,7 @@ told:_Place_448
 		"Drango"@en ,
 		"brag mgo dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dabpa dzong drango gon"@en ,
 		"Drakgo"@en
 		;
@@ -9856,7 +9856,7 @@ told:_Place_449
 		"Chagdud Orgyen Ling"@en ,
 		"lcags mdud o rgyan gling dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Chagdud"@en ,
 		"Nyarong Chagdud Gon"@en ,
 		"nyag rong lcags mdud dgon"@bo-x-ewts
@@ -9872,7 +9872,7 @@ told:_Place_45
 		"Zha Lhakhang"@en ,
 		"zhwa'i lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Zhai Lhakhang"@en ,
 		"Zhva Lhakhang"@en ,
 		"Zhwa Lhakhang"@en ,
@@ -9893,7 +9893,7 @@ told:_Place_450
 		"Kelzang Sanggye Choling Monastery"@en ,
 		"bskal bzang sangs rgyas chos gling dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gyelwa Kelzang Gon"@en ,
 		"Nyarong Shar Gyelwa Kelzang Gon"@en ,
 		"nyag rong shar rgyal ba skal bzang dgon"@bo-x-ewts ,
@@ -9921,7 +9921,7 @@ told:_Place_453
 		"Tubten Gepel"@en ,
 		"thub bstan dge 'phel"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Mangkhar Tubten Gepel"@en ,
 		"Thubden Gepel"@en ,
 		"土丹根培林"@zh-HANI
@@ -9949,7 +9949,7 @@ told:_Place_455
 		"dpal snyan mo ri rnam rgyal"@bo-x-ewts ,
 		"年毛寺"@zh-HANI
 		;
-	tolo:alternate_name "Nyenmo"@en ;
+	tolo:nameVariant "Nyenmo"@en ;
 	tolo:primaryName
 		"Pel Nyenmo Ri Namgyel"@en ,
 		"dpal snyan mo ri rnam rgyal"@bo-x-ewts ,
@@ -9962,7 +9962,7 @@ told:_Place_459
 		"Khagya Me Monastery"@en ,
 		"kha gya smad dgon"@bo-x-ewts
 		;
-	tolo:alternate_name "Kagyame"@en ;
+	tolo:nameVariant "Kagyame"@en ;
 	tolo:primaryName
 		"Khagya Me Monastery"@en ,
 		"kha gya smad dgon"@bo-x-ewts
@@ -9974,7 +9974,7 @@ told:_Place_461
 		"Drakkar Gyelmo"@en ,
 		"brag dkar rgyal mo"@bo-x-ewts
 		;
-	tolo:alternate_name "Drakar"@en ;
+	tolo:nameVariant "Drakar"@en ;
 	tolo:primaryName
 		"Drakkar Gyelmo"@en ,
 		"brag dkar rgyal mo"@bo-x-ewts
@@ -9986,7 +9986,7 @@ told:_Place_464
 		"Tsang Dondrub Rabten Ling"@en ,
 		"gtsang dgon don grub rab brtan gling"@bo-x-ewts
 		;
-	tolo:alternate_name "Dondrub Rabtenling"@en ;
+	tolo:nameVariant "Dondrub Rabtenling"@en ;
 	tolo:primaryName
 		"Tsang Dondrub Rabten Ling"@en ,
 		"gtsang dgon don grub rab brtan gling"@bo-x-ewts
@@ -9999,7 +9999,7 @@ told:_Place_465
 		"rgan rgya brag dkar dgon"@bo-x-ewts ,
 		"甘加白石崖寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gangya Drakkar"@en ,
 		"Ganjia Baishian Si"@en ,
 		"Khecho Evam Gakyil Ling"@en ,
@@ -10021,7 +10021,7 @@ told:_Place_466
 		"Chokhor Gyel"@en ,
 		"chos 'khor rgyal"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Chokhor Gyel Metok Tang"@en ,
 		"Chokhorgyal"@en ,
 		"qingkeji si"@en ,
@@ -10044,7 +10044,7 @@ told:_Place_467
 		"Tsagen Peshing"@en ,
 		"tsha gan pe shing"@bo-x-ewts
 		;
-	tolo:alternate_name "tsha gan pe shing dga' ldan rab rgyas gling"@bo-x-ewts ;
+	tolo:nameVariant "tsha gan pe shing dga' ldan rab rgyas gling"@bo-x-ewts ;
 	tolo:primaryName
 		"Tsagen Peshing"@en ,
 		"tsha gan pe shing"@bo-x-ewts
@@ -10056,7 +10056,7 @@ told:_Place_468
 		"Ragya Ganden Tashi Jungne"@en ,
 		"rwa rgya dga' ldan bkra shis 'byung gnas"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ragya"@en ,
 		"Ragya Ganden Tashi Jungne"@en ,
 		"Ragya Gon Tashi Kundeling"@en ,
@@ -10079,7 +10079,7 @@ told:_Place_469
 		"Sershul"@en ,
 		"ser shul"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"sexu si"@en ,
 		"色须寺"@zh-HANI
 		;
@@ -10105,7 +10105,7 @@ told:_Place_471
 		"Junyung Hermitage"@en ,
 		"ju nyung ri khrod"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ju"@en ,
 		"ju ri khrod"@bo-x-ewts
 		;
@@ -10120,7 +10120,7 @@ told:_Place_472
 		"Pelpung"@en ,
 		"dpal spungs"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"babang si"@en ,
 		"dpal spungs chos 'khor gling"@bo-x-ewts ,
 		"dpal spungs thub bstan chos 'khor gling"@bo-x-ewts ,
@@ -10140,7 +10140,7 @@ told:_Place_473
 		"Kaṁpo Nenang"@en ,
 		"kaM po gnas nang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Lengu Gon"@en ,
 		"chab mdo kam po gnas nang dgon"@bo-x-ewts
 		;
@@ -10155,7 +10155,7 @@ told:_Place_474
 		"Ngagar Jangchub Ling"@en ,
 		"rnga sgar byang chub gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ngagar"@en ,
 		"Ngawa Gar Jangchub Ling"@en ,
 		"angwa si"@en ,
@@ -10186,7 +10186,7 @@ told:_Place_476
 		"Gartar"@en ,
 		"mgar thar"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gartar Jampa Ling"@en ,
 		"ga' thar chos sde"@bo-x-ewts ,
 		"gada xiangbalin"@en ,
@@ -10207,7 +10207,7 @@ told:_Place_479
 		"gter lung yid dga chos 'dzin gling"@bo-x-ewts ,
 		"沙沟寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Shagou Si"@en ,
 		"Terlung Gon"@en ,
 		"duilong si"@en ,
@@ -10225,7 +10225,7 @@ told:_Place_48
 		"Dodrubchen Monastery"@en ,
 		"rdo grub chen"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dodrub Tsangchen Ngodrub Pelbar Ling"@en ,
 		"Drubchen Gon"@en ,
 		"Tsangchen Ngodrub Pelbar Ling"@en ,
@@ -10243,7 +10243,7 @@ told:_Place_480
 		"Amchok Monastery"@en ,
 		"a mchog dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Amchok Demotang Ganden Chokhor Ling"@en ,
 		"Amchok Gon Ganden Chokhor Ling"@en ,
 		"a mchog bde mo thang dga' ldan chos 'khor gling"@bo-x-ewts ,
@@ -10260,7 +10260,7 @@ told:_Place_481
 		"Gartse Tubten Chokhor Ling"@en ,
 		"gar rtse thub bstan chos 'khor gling"@bo-x-ewts
 		;
-	tolo:alternate_name "Gartse"@en ;
+	tolo:nameVariant "Gartse"@en ;
 	tolo:primaryName
 		"Gartse Tubten Chokhor Ling"@en ,
 		"gar rtse thub bstan chos 'khor gling"@bo-x-ewts
@@ -10272,7 +10272,7 @@ told:_Place_482
 		"Martang Obten"@en ,
 		"mar thang ob bstan dgon pa"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"mar thang bsam 'phel dar rgyas gling"@bo-x-ewts ,
 		"shantang aodan si"@en
 		;
@@ -10288,7 +10288,7 @@ told:_Place_484
 		"kIrti rnam rgyal bde chen gling"@bo-x-ewts ,
 		"格尔登寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"geerdeng si"@en ,
 		"ki rti dgon gsar dge ldan legs bshad gli"@bo-x-ewts ,
 		"ki rti dgon pa"@bo-x-ewts ,
@@ -10307,7 +10307,7 @@ told:_Place_485
 		"rtsed thang"@bo-x-ewts ,
 		"阿曲扎仓"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Cethang"@en ,
 		"Ngacho Dratsang"@en ,
 		"Tsetang Monastery"@en ,
@@ -10349,7 +10349,7 @@ told:_Place_488
 		"Wangda"@en ,
 		"dbang mda'"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Wangda Gon Shedrub Tashikhyil"@en ,
 		"Wangda Gon Tubten Chokorling"@en ,
 		"dbang mda' dgon bshad sgrub bkra shis g.yas 'khyil"@bo-x-ewts ,
@@ -10377,7 +10377,7 @@ told:_Place_490
 		"Tongkyab"@en ,
 		"stong skyabs"@bo-x-ewts
 		;
-	tolo:alternate_name "Tongkyap"@en ;
+	tolo:nameVariant "Tongkyap"@en ;
 	tolo:primaryName
 		"Tongkyab"@en ,
 		"stong skyabs"@bo-x-ewts
@@ -10444,7 +10444,7 @@ told:_Place_496
 		"Dedzom Gatsel"@en ,
 		"bde 'dzoms dga' tshal"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Darzhing Dedzom Gatsel"@en ,
 		"Darzhing Dedzom Gon"@en ,
 		"Darzhing Gon Dedzom Gatsel"@en ,
@@ -10461,7 +10461,7 @@ told:_Place_497
 		"Dzongkar Monastery"@en ,
 		"rdzong dkar bka' gdams pho brang bkra shis gling"@bo-x-ewts
 		;
-	tolo:alternate_name "Dzongkar Kadam Podrang Tashi Ling"@en ;
+	tolo:nameVariant "Dzongkar Kadam Podrang Tashi Ling"@en ;
 	tolo:primaryName
 		"Dzongkar Monastery"@en ,
 		"rdzong dkar bka' gdams pho brang bkra shis gling"@bo-x-ewts
@@ -10484,7 +10484,7 @@ told:_Place_499
 		"Dopuk"@en ,
 		"rdo phug"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dopuk Hermitage"@en ,
 		"rdo phug ri khrod"@bo-x-ewts
 		;
@@ -10510,7 +10510,7 @@ told:_Place_501
 		"Angang"@en ,
 		"a 'gang"@bo-x-ewts
 		;
-	tolo:alternate_name "Agang"@en ;
+	tolo:nameVariant "Agang"@en ;
 	tolo:primaryName
 		"Angang"@en ,
 		"a 'gang"@bo-x-ewts
@@ -10544,7 +10544,7 @@ told:_Place_504
 		"Karing Tashi Dargye Ling"@en ,
 		"ka ring bkra shis dar rgyas gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Garing"@en ,
 		"Karing"@en ,
 		"galeng si"@en ,
@@ -10584,7 +10584,7 @@ told:_Place_508
 		"Tashi Chokhor Ling"@en ,
 		"bkra shis chos 'khor gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"karma thub bstan bkra shis chos 'khor gling"@bo-x-ewts ,
 		"pho ldang dgon"@bo-x-ewts
 		;
@@ -10599,7 +10599,7 @@ told:_Place_509
 		"Gome Oseltang"@en ,
 		"sgom med 'od gsal thang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gomme Oselthang"@en ,
 		"sgom med 'od gsal thang chos sgar"@bo-x-ewts
 		;
@@ -10625,7 +10625,7 @@ told:_Place_511
 		"Ga Nyide"@en ,
 		"sga nyi bde"@bo-x-ewts
 		;
-	tolo:alternate_name "Nyide"@en ;
+	tolo:nameVariant "Nyide"@en ;
 	tolo:primaryName
 		"Ga Nyide"@en ,
 		"sga nyi bde"@bo-x-ewts
@@ -10637,7 +10637,7 @@ told:_Place_512
 		"Jyekundo Dondrub Ling"@en ,
 		"skye dgu mdo don grub gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kyegu Dondrub Ling"@en ,
 		"jiegu si"@en ,
 		"skye rgu dgon"@bo-x-ewts ,
@@ -10656,7 +10656,7 @@ told:_Place_514
 		"Se Trazang"@en ,
 		"se bkra bzang dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gyel Trazang"@en ,
 		"Riwo Trazang"@en ,
 		"扎桑寺"@zh-HANI ,
@@ -10684,7 +10684,7 @@ told:_Place_516
 		"Guru Pema Evaṁ Chokgar"@en ,
 		"gu ru padma e waM lchog sgar"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Guru Pema Evam Choggar"@en ,
 		"Guru Pema Ewam Chokgar"@en
 		;
@@ -10711,7 +10711,7 @@ told:_Place_518
 		"ja bzi"@bo-x-ewts ,
 		"甲孜寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Jazi Gon Sangngak Dechen Choling"@en ,
 		"Nyarong Jazi Gon"@en ,
 		"gya bzi dgon"@bo-x-ewts ,
@@ -10732,7 +10732,7 @@ told:_Place_519
 		"Tromge Gon"@en ,
 		"khrom dge dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"changgen si"@en ,
 		"昌根寺"@zh-HANI
 		;
@@ -10747,7 +10747,7 @@ told:_Place_52
 		"Dratang"@en ,
 		"grwa thang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dranang"@bo-x-ewts ,
 		"Dranang"@en ,
 		"Drathang"@bo-x-ewts ,
@@ -10765,7 +10765,7 @@ told:_Place_520
 		"Horkor Gon"@en ,
 		"hor skor dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Horkor Shedrub Dargye Ling"@en ,
 		"hor skor dgon bshad sgrub dar rgyas gling"@bo-x-ewts
 		;
@@ -10791,7 +10791,7 @@ told:_Place_522
 		"Gegyel Dzogchen"@en ,
 		"dge rgyal rdzogs chen"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gegyel Natsang"@en ,
 		"dge rgyal nag tshang dgon"@bo-x-ewts
 		;
@@ -10806,7 +10806,7 @@ told:_Place_523
 		"Monkhar Namseling"@en ,
 		"mon mkhar rnam sras gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Namseling Shamar Gonsar"@en ,
 		"rnam sras gling zhwa dmar dgon gsar"@bo-x-ewts
 		;
@@ -10821,7 +10821,7 @@ told:_Place_524
 		"Yangcho Sangcho Pema Lhunding"@en ,
 		"yang chos gsang chos padma lhun sdings"@bo-x-ewts
 		;
-	tolo:alternate_name "g.yang chos dgon"@bo-x-ewts ;
+	tolo:nameVariant "g.yang chos dgon"@bo-x-ewts ;
 	tolo:primaryName
 		"Yangcho Sangcho Pema Lhunding"@en ,
 		"yang chos gsang chos padma lhun sdings"@bo-x-ewts
@@ -10833,7 +10833,7 @@ told:_Place_525
 		"Nubzur Gon"@en ,
 		"gnubs zur dgon pa"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"luo ruo si"@en ,
 		"洛若寺"@zh-HANI
 		;
@@ -10848,7 +10848,7 @@ told:_Place_526
 		"Changma Gar"@en ,
 		"lcang ma sgar"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dzato Changma Gar Samten Dargye Ling"@en ,
 		"Samten Dargye Ling"@en ,
 		"rdza stod lcang ma sgar bsam gtan dar rgyas gling"@bo-x-ewts
@@ -10865,7 +10865,7 @@ told:_Place_527
 		"bla rung sgar"@bo-x-ewts ,
 		"色达五明佛学院"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Larung Gar English Centre for the Five Traditional Sciences and Higher Buddhist Studies"@en ,
 		"Serta Larung Five Sciences Buddhist Academy"@en ,
 		"bla rung slob gling"@bo-x-ewts ,
@@ -10887,7 +10887,7 @@ told:_Place_529
 		"Lhalung Gon"@en ,
 		"lha lung dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Lhalung Tekchokling"@en ,
 		"lalong si"@en ,
 		"拉隆寺"@zh-HANI
@@ -10903,7 +10903,7 @@ told:_Place_530
 		"Ganden Mipam Choling"@en ,
 		"dga' ldan mi pham chos gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Alaksha"@en ,
 		"Alashan"@en ,
 		"Gedrub Ling"@en ,
@@ -10921,7 +10921,7 @@ told:_Place_531
 		"Tashilung"@en ,
 		"bkra shis lung"@bo-x-ewts
 		;
-	tolo:alternate_name "bkra shis lung"@bo-x-ewts ;
+	tolo:nameVariant "bkra shis lung"@bo-x-ewts ;
 	tolo:primaryName
 		"Tashilung"@en ,
 		"bkra shis lung"@bo-x-ewts
@@ -10933,7 +10933,7 @@ told:_Place_532
 		"Tsenpo Gon"@en ,
 		"btsan po dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Serkhok"@en ,
 		"dga' ldan dam chos gling"@bo-x-ewts ,
 		"gser khog dgon"@bo-x-ewts ,
@@ -10954,7 +10954,7 @@ told:_Place_533
 		"dmar gtsang brag dgon"@bo-x-ewts ,
 		"白马寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Martsangdrag Gonpa"@en ,
 		"White Horse Temple"@en ,
 		"baima si"@en ,
@@ -10984,7 +10984,7 @@ told:_Place_535
 		"dpa' shod dgon pa"@bo-x-ewts ,
 		"八宿寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Basu si"@en ,
 		"八宿寺"@zh-HANI ,
 		"同卡寺"@zh-HANI ,
@@ -11003,7 +11003,7 @@ told:_Place_536
 		"kun bde gling"@bo-x-ewts ,
 		"功德林寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kunde Ling"@en ,
 		"gongdelin si"@en ,
 		"功德林寺"@zh-HANI
@@ -11032,7 +11032,7 @@ told:_Place_538
 		"gnyal dre'u lhas dgon"@bo-x-ewts ,
 		"查乌寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Drinlay Gon"@en ,
 		"brug dre'u lhas gser gyi chos 'khor"@bo-x-ewts ,
 		"chawu si"@en ,
@@ -11054,7 +11054,7 @@ told:_Place_539
 		"Tatsak Lhundrub Dechen"@en ,
 		"rta tshag lhun grub bde chen"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Baso Lhundrub Dechen Gon"@en ,
 		"Tashak Lhundrub Dechen"@en ,
 		"Tobgyel Baso Lhundrub Dechen Gon"@en ,
@@ -11072,7 +11072,7 @@ told:_Place_540
 		"Ganden Shedrub Ling"@en ,
 		"dga' ldan bshad sgrub gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kato Gon"@en ,
 		"Shedrub Ling"@en ,
 		"ka mtho dgon"@bo-x-ewts
@@ -11099,7 +11099,7 @@ told:_Place_544
 		"Gingtang Gon"@en ,
 		"ging thang dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gingtang Gon Ganden Shedrub Peljor Ling"@en ,
 		"gentang si"@en ,
 		"gentang si gandan xiezhu banjuelin"@en ,
@@ -11118,7 +11118,7 @@ told:_Place_546
 		"Zhe Dratsang"@en ,
 		"bzhad grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dratsang Monastery"@en ,
 		"chazang si"@en ,
 		"查藏寺"@zh-HANI ,
@@ -11135,7 +11135,7 @@ told:_Place_547
 		"Khanon Gon"@en ,
 		"kha non dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tubten Nyinje Gatsel Ling"@en ,
 		"dkar mdzes kha non dgon"@bo-x-ewts ,
 		"kalong si"@en ,
@@ -11165,7 +11165,7 @@ told:_Place_553
 		"smra bo lcogs"@bo-x-ewts ,
 		"莫吾觉寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Mawachok"@en ,
 		"mowujue si"@en ,
 		"smra ba cog"@bo-x-ewts ,
@@ -11206,7 +11206,7 @@ told:_Place_557
 		"Rikhud Monastery"@en ,
 		"ri khud dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Rikhu"@en ,
 		"dpal ldan bsam 'grub chos dar gling"@bo-x-ewts ,
 		"riku si"@en ,
@@ -11223,7 +11223,7 @@ told:_Place_559
 		"Dekyi Ling"@en ,
 		"bde skyid gling"@bo-x-ewts
 		;
-	tolo:alternate_name "Dekyiling"@en ;
+	tolo:nameVariant "Dekyiling"@en ;
 	tolo:primaryName
 		"Dekyi Ling"@en ,
 		"bde skyid gling"@bo-x-ewts
@@ -11235,7 +11235,7 @@ told:_Place_560
 		"Porong Pelmo Choding Monastery"@en ,
 		"spo rong dpal mo chos sdings"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Pema Choling"@en ,
 		"bde chen dpal mo chos lding"@bo-x-ewts ,
 		"pad ma chos gling"@bo-x-ewts ,
@@ -11253,7 +11253,7 @@ told:_Place_561
 		"Shelkar Chode"@en ,
 		"shel dkar chos sde"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Shelkhar Chode"@en ,
 		"shel dkar chos sde dga' ldan legs bshad gling"@bo-x-ewts ,
 		"xiege-er qude si"@en ,
@@ -11270,7 +11270,7 @@ told:_Place_563
 		"Chakzam Chuwori"@en ,
 		"lcags zam chu bo ri"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tshechu Drubde"@en ,
 		"cijiu zhudan si"@en ,
 		"cijiu zhude si"@en ,
@@ -11293,7 +11293,7 @@ told:_Place_564
 		"bsam sdings dgon pa"@bo-x-ewts ,
 		"桑丁寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Pel Khandro Duwei Tine Samdrub Chokyi De"@en ,
 		"Yardrok Samding"@en ,
 		"dpal mkha' 'gro 'du ba'i bsti gnas bsam grub chos kyi sde"@bo-x-ewts
@@ -11310,7 +11310,7 @@ told:_Place_565
 		"Yama Tashikhyil"@en ,
 		"g.ya' ma bkra shis 'khyil"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Yama Trashikyil"@en ,
 		"Yarma Tashikyil"@en ,
 		"reb kong bkra shis 'khyil"@bo-x-ewts ,
@@ -11329,7 +11329,7 @@ told:_Place_566
 		"dga' ldan byin chags gling"@bo-x-ewts ,
 		"雍和宫"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Lama Temple"@en ,
 		"Yonghe Gong Ganden Jinchak Ling"@en ,
 		"g.yung hwa dgon"@bo-x-ewts ,
@@ -11373,7 +11373,7 @@ told:_Place_571
 		"Alo Peljor Gang"@en ,
 		"a lo dpal 'byor sgang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Derge Peljor Gon"@en ,
 		"Peljor Gon"@en ,
 		"dpal 'byor dgon"@bo-x-ewts ,
@@ -11390,7 +11390,7 @@ told:_Place_572
 		"Sera Choding"@en ,
 		"se ra chos sdings"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Choding Khang"@en ,
 		"Sera Choding Ritro"@en
 		;
@@ -11405,7 +11405,7 @@ told:_Place_573
 		"Segyu Dratsang"@en ,
 		"srad rgyud grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Segyu Gaden Phodrang Monastery"@en ,
 		"Segyued Monastery"@en
 		;
@@ -11420,7 +11420,7 @@ told:_Place_574
 		"Lhunpo Tse"@en ,
 		"lhun po rtse"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Shabto Lhunpotse Chode"@en ,
 		"shab stod lhun po rtse'i chos sde"@bo-x-ewts
 		;
@@ -11446,7 +11446,7 @@ told:_Place_576
 		"Lhadong Gon"@en ,
 		"lha gdong dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Padruk Lhagong Monastery"@en ,
 		"pha drug lha gdong dgon"@bo-x-ewts
 		;
@@ -11507,7 +11507,7 @@ told:_Place_590
 		"Chakar Monastery"@en ,
 		"chad dkar dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"'jog mda' 'chad kha dgon"@bo-x-ewts ,
 		"'phan yul 'chad kha dgon"@bo-x-ewts ,
 		"Chakha"@en ,
@@ -11569,7 +11569,7 @@ told:_Place_599
 		"yangs pa can"@bo-x-ewts ,
 		"羊八井寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"byang yangs pa can dgon pa"@bo-x-ewts ,
 		"yangbajing si"@en ,
 		"羊八井寺"@zh-HANI
@@ -11586,7 +11586,7 @@ told:_Place_60
 		"Tsike"@en ,
 		"rtsi ke"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"rtsi ke nor bu gling"@bo-x-ewts ,
 		"rtsi ske nor bu gling"@bo-x-ewts ,
 		"纳唐寺"@zh-HANI ,
@@ -11604,7 +11604,7 @@ told:_Place_603
 		"sa skya dgon pa"@bo-x-ewts ,
 		"萨迦寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Sakya Gonchen"@en ,
 		"sa skya dgon chen"@bo-x-ewts ,
 		"sajia si"@en
@@ -11632,7 +11632,7 @@ told:_Place_615
 		"Gongkar Chode"@en ,
 		"gong dkar chos sde"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dorje Den"@en ,
 		"Gangkar Dorjeden"@en ,
 		"Gongkar"@en ,
@@ -11687,7 +11687,7 @@ told:_Place_62
 		"snar thang"@bo-x-ewts ,
 		"纳唐寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"narthang"@en ,
 		"natang si"@en
 		;
@@ -11703,7 +11703,7 @@ told:_Place_621
 		"Golok Getse"@en ,
 		"mgo log dge rtse"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"geshize si"@en ,
 		"zemgmuda si"@en ,
 		"增木达寺"@zh-HANI ,
@@ -11721,7 +11721,7 @@ told:_Place_63
 		"dwags lha sgam po"@bo-x-ewts ,
 		"达拉岗布寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"dala gangbu si"@en ,
 		"ri bo shAn ti"@bo-x-ewts ,
 		"达拉岗布寺"@zh-HANI
@@ -11738,7 +11738,7 @@ told:_Place_64
 		"Densatil"@en ,
 		"gdan sa mthil"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ngomsho Pakmo Drupai Densatil"@en ,
 		"Pakdru Densatil"@en ,
 		"gdan sa thel"@bo-x-ewts ,
@@ -11755,7 +11755,7 @@ told:_Place_650
 		"Khyungpo Tengchen"@en ,
 		"khyung po steng chen"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tengchen"@en ,
 		"dingqing si"@en ,
 		"g.yung drung bstan rgyas gling"@bo-x-ewts ,
@@ -11776,7 +11776,7 @@ told:_Place_657
 		"ri phug ri khrod"@bo-x-ewts ,
 		"日布寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ribuk Ritro"@en ,
 		"ri phug chos kyi dga' tshal"@bo-x-ewts ,
 		"ri sbug ri khrod"@bo-x-ewts ,
@@ -11798,7 +11798,7 @@ told:_Place_67
 		"khro phu dgon"@bo-x-ewts ,
 		"超浦寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"chaopu si"@en ,
 		"chuopu si"@en ,
 		"khro phu byams chen chos sde"@bo-x-ewts ,
@@ -11817,7 +11817,7 @@ told:_Place_672
 		"Trandruk"@en ,
 		"khra 'brug"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tradrug"@en ,
 		"Tradruk"@en ,
 		"Traduk"@en ,
@@ -11839,7 +11839,7 @@ told:_Place_673
 		"Khangsar"@en ,
 		"khang gsar"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kang sa si"@en ,
 		"Khangsar Monastery"@en ,
 		"bshad sgrub nor bu'i gling"@bo-x-ewts ,
@@ -11858,7 +11858,7 @@ told:_Place_679
 		"Gyu Monastery"@en ,
 		"rgyus"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Er cha si"@en ,
 		"Er ju si"@en ,
 		"二居寺二查寺 (可能性大）"@zh-HANI
@@ -11875,7 +11875,7 @@ told:_Place_68
 		"tshal gung thang"@bo-x-ewts ,
 		"蔡贡唐寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tsal Gungtang"@en ,
 		"gung thang chos sde"@bo-x-ewts
 		;
@@ -11892,7 +11892,7 @@ told:_Place_682
 		"rtse gdong dgon"@bo-x-ewts ,
 		"孜东寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tsedong Gon"@en ,
 		"srid gsum rnam rgyal gsang chen smra ba'i gling"@bo-x-ewts ,
 		"zidong si"@en ,
@@ -11910,7 +11910,7 @@ told:_Place_687
 		"Pulung Rinchen Ling"@en ,
 		"phu lung rin chen gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"pho lung dgon"@bo-x-ewts ,
 		"phu lung chos lding"@bo-x-ewts ,
 		"phu lung dgon 'og min byang chub gling"@bo-x-ewts ,
@@ -11952,7 +11952,7 @@ told:_Place_697
 		"Nyenlung"@en ,
 		"snyan lung dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"nianlong si"@en ,
 		"年龙寺"@zh-HANI
 		;
@@ -11989,7 +11989,7 @@ told:_Place_70
 		"Barom Gon"@en ,
 		"ba' rom dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Barom Riwoche"@en ,
 		"Riwoche"@en ,
 		"ba' rom ri bo che"@bo-x-ewts ,
@@ -12007,7 +12007,7 @@ told:_Place_700
 		"srib mda' rdzogs chen dgon"@bo-x-ewts ,
 		"卓金寺"@zh-HANI
 		;
-	tolo:alternate_name "Sibda Dzogchen"@en ;
+	tolo:nameVariant "Sibda Dzogchen"@en ;
 	tolo:primaryName
 		"Simda Dzogchen Monastery"@en ,
 		"srib mda' rdzogs chen dgon"@bo-x-ewts ,
@@ -12020,7 +12020,7 @@ told:_Place_701
 		"Phyang"@en ,
 		"sgang sngon bkra shis chos rdzong"@bo-x-ewts
 		;
-	tolo:alternate_name "Gangngon"@en ;
+	tolo:nameVariant "Gangngon"@en ;
 	tolo:primaryName
 		"Phyang"@en ,
 		"sgang sngon bkra shis chos rdzong"@bo-x-ewts
@@ -12043,7 +12043,7 @@ told:_Place_703
 		"Kham Kyogon"@en ,
 		"khams skyo dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Kham Gyok"@en ,
 		"kangjue si"@en ,
 		"康觉寺"@zh-HANI
@@ -12097,7 +12097,7 @@ told:_Place_713
 		"Nyedo Monastery"@en ,
 		"snye mdo dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Nyemdo"@en ,
 		"ningduo si"@en ,
 		"snying rdo dgon"@bo-x-ewts ,
@@ -12115,7 +12115,7 @@ told:_Place_716
 		"Drakkar Treldzong"@en ,
 		"brag dkar sprel rdzong dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tosam Yonten Dargyeling"@en ,
 		"brag dkar sprel rdzong thos bsam yon tan dar rgyas gling"@bo-x-ewts ,
 		"扎嘎者宗托桑云丹达吉林"@zh-HANI ,
@@ -12143,7 +12143,7 @@ told:_Place_718
 		"Amchok Tsenyi"@en ,
 		"a mchog mtshan nyid dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"chali si"@en ,
 		"dpal ldan smra ba'i seng+ge gling"@bo-x-ewts ,
 		"查理寺"@zh-HANI ,
@@ -12160,7 +12160,7 @@ told:_Place_719
 		"Tabo"@en ,
 		"ta po dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"spi ti ta dgon"@bo-x-ewts ,
 		"spi ti ta dgon theg chen chos gling"@bo-x-ewts ,
 		"spyi ti ta po'i dpal bkra shis bde gnas gtsug lag khang"@bo-x-ewts ,
@@ -12177,7 +12177,7 @@ told:_Place_720
 		"Khampa Gar"@en ,
 		"khams pa sgar"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"'brug dgon khams pa sgar"@bo-x-ewts ,
 		"Kangba si"@en ,
 		"Khampagar"@en ,
@@ -12196,7 +12196,7 @@ told:_Place_721
 		"Yeta Lungkar"@en ,
 		"ye tha lung dkar dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"longga si"@en ,
 		"longka si"@en ,
 		"ye tha lung dkar dgon gshen bstan rin chen gling"@bo-x-ewts ,
@@ -12215,7 +12215,7 @@ told:_Place_722
 		"rme ru rnying pa"@bo-x-ewts ,
 		"旧木如寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Old Meru"@en ,
 		"jiu muru si"@en
 		;
@@ -12242,7 +12242,7 @@ told:_Place_724
 		"Tsemonling"@en ,
 		"tshe smon gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tsemoling"@en ,
 		"Tsomonling"@en ,
 		"cemenlin si"@en ,
@@ -12282,7 +12282,7 @@ told:_Place_73
 		"Napu Monastery"@en ,
 		"sna phu dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"sna phu chos lung dgon"@bo-x-ewts ,
 		"snang phu chos lung dgon"@bo-x-ewts
 		;
@@ -12308,7 +12308,7 @@ told:_Place_76
 		"Jupu Monastery"@en ,
 		"ju phu dgon"@bo-x-ewts
 		;
-	tolo:alternate_name "Juphu"@en ;
+	tolo:nameVariant "Juphu"@en ;
 	tolo:primaryName
 		"Jupu Monastery"@en ,
 		"ju phu dgon"@bo-x-ewts
@@ -12332,7 +12332,7 @@ told:_Place_80
 		"stag lung dgon"@bo-x-ewts ,
 		"达隆寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Taklung Gonchen"@en ,
 		"Taklung Tang"@en ,
 		"达龙寺"@zh-HANI
@@ -12349,7 +12349,7 @@ told:_Place_804
 		"Ganden Jangchub Chopel Ling"@en ,
 		"dga ldan byang chub chos 'phel gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Lungzang Hermitage"@en ,
 		"Lungzang Ritro"@en ,
 		"Tewo Ganden Jangchub Chopel Ling"@en ,
@@ -12367,7 +12367,7 @@ told:_Place_805
 		"a rig dgon chen"@bo-x-ewts ,
 		"阿柔大寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"a rig dgon dga' ldan chos 'phel gling"@bo-x-ewts ,
 		"alike dasi"@en ,
 		"arou dasi"@en ,
@@ -12386,7 +12386,7 @@ told:_Place_806
 		"Shadzong Ritro"@en ,
 		"shwa rdzong ri khrod"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"shwa rdzong sgrub sde"@bo-x-ewts ,
 		"xiazong si"@en ,
 		"夏宗寺"@zh-HANI
@@ -12402,7 +12402,7 @@ told:_Place_807
 		"Trangu"@en ,
 		"khra 'gu dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gato Tragu Gon Tashi Choling"@en ,
 		"Thrangu"@en ,
 		"changu si"@en ,
@@ -12422,7 +12422,7 @@ told:_Place_808
 		"Rigyel"@en ,
 		"ri rgyal dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Rigyal Gon"@en ,
 		"dar sdings ri rgyal dgon"@bo-x-ewts ,
 		"gshen gyi gdan sa rtse re rgyal dgon"@bo-x-ewts ,
@@ -12445,7 +12445,7 @@ told:_Place_809
 		"Chatreng Sampel Ling"@en ,
 		"cha phreng bsam 'phel gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"phyag 'phreng bsam 'phel gling"@bo-x-ewts ,
 		"sangpi si"@en ,
 		"桑皮寺"@zh-HANI
@@ -12461,7 +12461,7 @@ told:_Place_810
 		"Batang Chode"@en ,
 		"ba' thang chos sde"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"ba' thang chos sde dga' ldan phan bde gling"@bo-x-ewts ,
 		"dingning si"@en ,
 		"kangning si"@en ,
@@ -12480,7 +12480,7 @@ told:_Place_811
 		"Khoting Lhakhang"@en ,
 		"kho thing lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"kuoting lakang"@en ,
 		"mkho mthing lha khang"@bo-x-ewts ,
 		"mkho mthing rnam snang lha khang"@bo-x-ewts ,
@@ -12497,7 +12497,7 @@ told:_Place_812
 		"Semnyi"@en ,
 		"sems nyid dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"dga' ldan dar rgyas gling"@bo-x-ewts ,
 		"sems nyid dgon dga' ldan dar rgyas gling"@bo-x-ewts ,
 		"xianmi si"@en ,
@@ -12516,7 +12516,7 @@ told:_Place_813
 		"Shopamdo"@en ,
 		"sho pa mdo dgon"@bo-x-ewts
 		;
-	tolo:alternate_name "shwa pa mdo dgon"@bo-x-ewts ;
+	tolo:nameVariant "shwa pa mdo dgon"@bo-x-ewts ;
 	tolo:primaryName
 		"Shopamdo"@en ,
 		"sho pa mdo dgon"@bo-x-ewts
@@ -12529,7 +12529,7 @@ told:_Place_814
 		"dpal 'bar dgon"@bo-x-ewts ,
 		"边坝寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Bianba si"@en ,
 		"Pelber"@en ,
 		"Pelwar"@en ,
@@ -12550,7 +12550,7 @@ told:_Place_815
 		"Jampa Bumling"@en ,
 		"byams pa bum gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tang Shu Cave"@en ,
 		"thang hru'u brag phug"@bo-x-ewts ,
 		"唐述窟"@zh-HANI
@@ -12566,7 +12566,7 @@ told:_Place_816
 		"Muktinath"@en ,
 		"chu mig rgya mtsho"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Chumig Gyatsa"@en ,
 		"Mukti Kshetra"@en
 		;
@@ -12603,7 +12603,7 @@ told:_Place_82
 		"Drigung Til"@en ,
 		"bri gung mthil"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Drigung Monastery"@en ,
 		"Drigung Til Monastery"@en ,
 		"Til Monastery"@en
@@ -12619,7 +12619,7 @@ told:_Place_821
 		"Lamayuru"@en ,
 		"bla ma g.yung drung dgon pa"@bo-x-ewts
 		;
-	tolo:alternate_name "Yuru"@en ;
+	tolo:nameVariant "Yuru"@en ;
 	tolo:primaryName
 		"Lamayuru"@en ,
 		"bla ma g.yung drung dgon pa"@bo-x-ewts
@@ -12632,7 +12632,7 @@ told:_Place_822
 		"gter sgrom dgon"@bo-x-ewts ,
 		"德仲寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"bri gung gter sgrom dgon"@bo-x-ewts ,
 		"gter sgro dgon"@bo-x-ewts ,
 		"gzho stod ti sgro"@bo-x-ewts ,
@@ -12650,7 +12650,7 @@ told:_Place_823
 		"Gadong"@en ,
 		"dga' gdong dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"dga' ba gdong dgon"@bo-x-ewts ,
 		"gadong si"@en ,
 		"嘎东寺"@zh-HANI
@@ -12666,7 +12666,7 @@ told:_Place_824
 		"Changra"@en ,
 		"lcang ra"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Jangra Gon"@en ,
 		"jiangre si"@en ,
 		"myang stod lcang ra dpal 'bar gyi dgon"@bo-x-ewts ,
@@ -12683,7 +12683,7 @@ told:_Place_825
 		"Mugulung"@en ,
 		"mu gu lung"@bo-x-ewts
 		;
-	tolo:alternate_name "mang mkha mu gu lung"@bo-x-ewts ;
+	tolo:nameVariant "mang mkha mu gu lung"@bo-x-ewts ;
 	tolo:primaryName
 		"Mugulung"@en ,
 		"mu gu lung"@bo-x-ewts
@@ -12706,7 +12706,7 @@ told:_Place_827
 		"Chushur Tarpa Ling"@en ,
 		"chu shur thar pa gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tarpa Ling"@en ,
 		"Tarpaling"@en ,
 		"塔巴林寺"@zh-HANI
@@ -12722,7 +12722,7 @@ told:_Place_828
 		"Layak Guru Lhakhang"@en ,
 		"la yag gu ru lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Layak Guru Lhakhang"@en ,
 		"bsam grub bde ba chen po"@bo-x-ewts ,
 		"laya guru lakang"@en ,
@@ -12740,7 +12740,7 @@ told:_Place_829
 		"rdzing phyi chos sde"@bo-x-ewts ,
 		"真起寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dzingchi Chode"@en ,
 		"Olkha Dzingchi"@en ,
 		"ol dga' rdzing phyi"@bo-x-ewts ,
@@ -12760,7 +12760,7 @@ told:_Place_831
 		"stag lung dga' ldan dam chos gling"@bo-x-ewts ,
 		"达隆寺"@zh-HANI
 		;
-	tolo:alternate_name "zung zhan stag lung dgon"@bo-x-ewts ;
+	tolo:nameVariant "zung zhan stag lung dgon"@bo-x-ewts ;
 	tolo:primaryName
 		"Taklung Ganden Damcho Ling"@en ,
 		"stag lung dga' ldan dam chos gling"@bo-x-ewts ,
@@ -12773,7 +12773,7 @@ told:_Place_834
 		"Kharta Tarpa Ling"@en ,
 		"mkhar rta thar pa gling"@bo-x-ewts
 		;
-	tolo:alternate_name "Tharpaling"@en ;
+	tolo:nameVariant "Tharpaling"@en ;
 	tolo:primaryName
 		"Kharta Tarpa Ling"@en ,
 		"mkhar rta thar pa gling"@bo-x-ewts
@@ -12796,7 +12796,7 @@ told:_Place_837
 		"Gyelje"@en ,
 		"rgyal byed dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gyeje"@en ,
 		"Gyeze"@en ,
 		"jieji si"@en ,
@@ -12815,7 +12815,7 @@ told:_Place_838
 		"Drongtse"@en ,
 		"brong rtse"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"'brong rtse chos sde"@en ,
 		"brong dkar rtse dgon pa"@en ,
 		"nyang gzhung 'brong rtse chos sde thar pa gling"@en ,
@@ -12833,7 +12833,7 @@ told:_Place_839
 		"Rong Jamchen"@en ,
 		"rong byams chen dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Rong Chamchen Gon"@en ,
 		"byams chen chos sde"@bo-x-ewts ,
 		"dga' ldan byams pa gling"@bo-x-ewts ,
@@ -12853,7 +12853,7 @@ told:_Place_840
 		"ol kha chos lung"@bo-x-ewts ,
 		"沃卡曲龙寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Olka Cholung"@en ,
 		"ol dga' chos lung"@bo-x-ewts ,
 		"qulong si"@en ,
@@ -12873,7 +12873,7 @@ told:_Place_841
 		"Drakri Hermitage"@en ,
 		"brag ri ri khrod"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Bari"@en ,
 		"se ra byes kyi brag ri ri khrod"@bo-x-ewts ,
 		"zhari"@bo-x-ewts ,
@@ -12892,7 +12892,7 @@ told:_Place_842
 		"Gepel Hermitage"@en ,
 		"dge 'phel ri khrod"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Gempe Ritro"@en ,
 		"Gepel Ritro"@en
 		;
@@ -12918,7 +12918,7 @@ told:_Place_844
 		"Pangdatsang Manor House"@en ,
 		"spom mda' gzims shag"@bo-x-ewts
 		;
-	tolo:alternate_name "Pomdatsang"@en ;
+	tolo:nameVariant "Pomdatsang"@en ;
 	tolo:primaryName
 		"Pangdatsang Manor House"@en ,
 		"spom mda' gzims shag"@bo-x-ewts
@@ -12930,7 +12930,7 @@ told:_Place_845
 		"Sampho Manor house"@en ,
 		"bsam grub pho brang gzims shag"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Samdrub Podrang"@en ,
 		"Sampo"@en ,
 		"bsam pho"@en
@@ -12968,7 +12968,7 @@ told:_Place_848
 		"Palha Manor House"@en ,
 		"pha lha gzims shag"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Pajo Lhakhang"@en ,
 		"Phala"@en ,
 		"pha jo lha khang"@bo-x-ewts
@@ -12984,7 +12984,7 @@ told:_Place_849
 		"Namseling Manor House"@en ,
 		"rnam sras gling gzims shag"@bo-x-ewts
 		;
-	tolo:alternate_name "Namling"@en ;
+	tolo:nameVariant "Namling"@en ;
 	tolo:primaryName
 		"Namseling Manor House"@en ,
 		"rnam sras gling gzims shag"@bo-x-ewts
@@ -13018,7 +13018,7 @@ told:_Place_852
 		"Doring Manor House"@en ,
 		"rdo ring gzims shag"@bo-x-ewts
 		;
-	tolo:alternate_name "Gazhi Manor House"@en ;
+	tolo:nameVariant "Gazhi Manor House"@en ;
 	tolo:primaryName
 		"Doring Manor House"@en ,
 		"rdo ring gzims shag"@bo-x-ewts
@@ -13074,7 +13074,7 @@ told:_Place_860
 		"Keutsang West Hermitage"@en ,
 		"ke'u tshang nub ri khrod"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Keutsang Nub Ritro"@en ,
 		"geiwucang xisi"@en ,
 		"se ra byes kyi ke'u tshang nub ri khrod"@bo-x-ewts ,
@@ -13091,7 +13091,7 @@ told:_Place_861
 		"Yungdrung Ling"@en ,
 		"g.yung drung gling dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Yungdrungling"@en ,
 		"ra lag g.yung drung gling"@bo-x-ewts ,
 		"rab legs g.yung drung gling"@bo-x-ewts ,
@@ -13113,7 +13113,7 @@ told:_Place_862
 		"Drak Yerpa"@en ,
 		"brag yer pa"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"yeba si"@en ,
 		"zhayeba si"@en ,
 		"叶巴寺"@zh-HANI ,
@@ -13130,7 +13130,7 @@ told:_Place_863
 		"Drak Yongdzong"@en ,
 		"bsgrags yongs rdzong"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dra Yongdzong"@en ,
 		"Drak Yangdzong"@en ,
 		"Drakyongdzong"@en ,
@@ -13153,7 +13153,7 @@ told:_Place_865
 		"Banak Zhol Gyelkhang"@en ,
 		"sbra nag zhol rgyal khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Banak Shol"@en ,
 		"Banakshol"@en
 		;
@@ -13168,7 +13168,7 @@ told:_Place_866
 		"Barkor Jampa Lhakhang"@en ,
 		"bar skor byams pa lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Jamkhang"@en ,
 		"Jampa Lhakhang"@en ,
 		"byams khang"@en
@@ -13184,7 +13184,7 @@ told:_Place_867
 		"Barkor Mani Lhakhang"@en ,
 		"bar skor ma Ni lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Mani Lhakhang"@en ,
 		"Miwang Khorlo"@en
 		;
@@ -13199,7 +13199,7 @@ told:_Place_868
 		"Barkor Mani Lhakhang Shar"@en ,
 		"bar skor ma Ni lha khang shar"@bo-x-ewts
 		;
-	tolo:alternate_name "Eastern Barkor Mani Lhakhang"@en ;
+	tolo:nameVariant "Eastern Barkor Mani Lhakhang"@en ;
 	tolo:primaryName
 		"Barkor Mani Lhakhang Shar"@en ,
 		"bar skor ma Ni lha khang shar"@bo-x-ewts
@@ -13211,7 +13211,7 @@ told:_Place_869
 		"Karchung Monastery"@en ,
 		"dkar chung"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Karchung Ramagang"@en ,
 		"Karchung temple"@en ,
 		"Sangda Karchung"@en ,
@@ -13229,7 +13229,7 @@ told:_Place_87
 		"Ralung Monastery"@en ,
 		"rwa lung dgon pa"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"relong si"@en ,
 		"热隆寺"@zh-HANI ,
 		"热龙寺"@zh-HANI
@@ -13245,7 +13245,7 @@ told:_Place_870
 		"Taktser"@en ,
 		"stag mtsher"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"yab gzhis stag lha"@bo-x-ewts ,
 		"yab gzhis stag mtsher"@bo-x-ewts
 		;
@@ -13260,7 +13260,7 @@ told:_Place_871
 		"Drib Tsechokling"@en ,
 		"grib tshe mchog gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Drib Tsechok Samten Ling"@en ,
 		"Tsechok Ling"@en ,
 		"Tsemchok Ling"@en ,
@@ -13284,7 +13284,7 @@ told:_Place_872
 		"Palden Lhamo Shrine"@en ,
 		"dpal lha'i tsha khang"@bo-x-ewts
 		;
-	tolo:alternate_name "Panden Lhamo Shrine"@en ;
+	tolo:nameVariant "Panden Lhamo Shrine"@en ;
 	tolo:primaryName
 		"Palden Lhamo Shrine"@en ,
 		"dpal lha'i tsha khang"@bo-x-ewts
@@ -13296,7 +13296,7 @@ told:_Place_873
 		"Gesar Lhakhang"@en ,
 		"ge sar lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Barmari"@en ,
 		"bamare si"@en ,
 		"bar ma ri"@bo-x-ewts ,
@@ -13319,7 +13319,7 @@ told:_Place_874
 		"rje 'bum sgang lha khang"@bo-x-ewts ,
 		"吉崩岗拉康"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Jebum temple"@en ,
 		"jibenggang lakang"@en ,
 		"rje 'bum lha khang"@bo-x-ewts
@@ -13336,7 +13336,7 @@ told:_Place_875
 		"Karmashak Tsenkhang"@en ,
 		"karma shag btsan khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Karmasha"@en ,
 		"gamaxia si"@en ,
 		"karma shag"@en ,
@@ -13353,7 +13353,7 @@ told:_Place_877
 		"Lhasa Tsuklakhang"@en ,
 		"lha sa gtsug lag khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Jokhang"@en ,
 		"Rasa Trulnang Tsuklakhang"@en ,
 		"dazhao si"@en ,
@@ -13378,7 +13378,7 @@ told:_Place_878
 		"klu khang"@bo-x-ewts ,
 		"龙王潭"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dzonggyab Lukhang"@en ,
 		"longwangtan"@en ,
 		"rdzong rgyab klu khang"@bo-x-ewts ,
@@ -13408,7 +13408,7 @@ told:_Place_880
 		"Meru Dratsang"@en ,
 		"rme ru grwa tshang/"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Meru Gonsar"@en ,
 		"Meru Puntsok Norbu Ling"@en ,
 		"New Meru"@en ,
@@ -13474,7 +13474,7 @@ told:_Place_887
 		"Armory"@en ,
 		"dmag spyi khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Magchikhang"@en ,
 		"Magshikhang"@en ,
 		"Makshikhang"@en
@@ -13490,7 +13490,7 @@ told:_Place_888
 		"Treasury"@en ,
 		"dngul par khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ngu Barkhang"@en ,
 		"Ngul Parkhang"@en
 		;
@@ -13505,7 +13505,7 @@ told:_Place_889
 		"Shol Printery"@en ,
 		"zhol spar khang shar dga' ldan phun tshogs gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Shoel Printing House"@en ,
 		"Shol Barkhang"@en ,
 		"Shol Parkhang"@en ,
@@ -13522,7 +13522,7 @@ told:_Place_890
 		"Shol Office"@en ,
 		"zhol pa las khungs"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Shoelpa Laekung"@en ,
 		"Shol Lekhung"@en ,
 		"Zhol Lekhung"@en
@@ -13538,7 +13538,7 @@ told:_Place_892
 		"Namgyel"@en ,
 		"rnam rgyal"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Namgyel Dratsang"@en ,
 		"Namgyel Tantric College"@en ,
 		"Tse Namgyel Dratsang"@en ,
@@ -13557,7 +13557,7 @@ told:_Place_893
 		"Nechung"@en ,
 		"gnas chung"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Nechung Dorje Drayang Ling"@en ,
 		"gnas chung grwa tshang"@bo-x-ewts ,
 		"gnas chung rdo rje sgra dbyangs gling"@bo-x-ewts ,
@@ -13578,7 +13578,7 @@ told:_Place_894
 		"Northern Rigsum Gonpo Lhakhang"@en ,
 		"byang rigs gsum mgon po'i lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Jang Rigsum Gonpo Lhakhang"@en ,
 		"North Sanyou Temple"@en
 		;
@@ -13593,7 +13593,7 @@ told:_Place_895
 		"South-Eastern Rigsum Gonpo Shrine"@en ,
 		"lho shar rigs gsum mgon po'i lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name "Lho Shar Rigsum Gonpo"@en ;
+	tolo:nameVariant "Lho Shar Rigsum Gonpo"@en ;
 	tolo:primaryName
 		"South-Eastern Rigsum Gonpo Shrine"@en ,
 		"lho shar rigs gsum mgon po'i lha khang"@bo-x-ewts
@@ -13605,7 +13605,7 @@ told:_Place_896
 		"South-Western Rigsum Gonpo Lhakhang"@en ,
 		"lho nub rigs gsum mgon po'i lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name "Lho Nub Rigsum Gonpo Lhakhang"@en ;
+	tolo:nameVariant "Lho Nub Rigsum Gonpo Lhakhang"@en ;
 	tolo:primaryName
 		"South-Western Rigsum Gonpo Lhakhang"@en ,
 		"lho nub rigs gsum mgon po'i lha khang"@bo-x-ewts
@@ -13617,7 +13617,7 @@ told:_Place_897
 		"Southern Rigsum Gonpo Lhakhang"@en ,
 		"lho rigs gsum mgon po'i lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name "Lho Rigsum Gonpo Lhakhang"@en ;
+	tolo:nameVariant "Lho Rigsum Gonpo Lhakhang"@en ;
 	tolo:primaryName
 		"Southern Rigsum Gonpo Lhakhang"@en ,
 		"lho rigs gsum mgon po'i lha khang"@bo-x-ewts
@@ -13629,7 +13629,7 @@ told:_Place_898
 		"Rabsel Tsenkhang"@en ,
 		"rab gsal btsan khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"raosai zankang"@en ,
 		"绕赛赞康"@zh-HANI
 		;
@@ -13645,7 +13645,7 @@ told:_Place_899
 		"ra mo che gtsug lag khang"@bo-x-ewts ,
 		"小昭寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"jiada remuqi zulakang"@en ,
 		"rgya btab ra mo che gtsug lag khang"@bo-x-ewts ,
 		"rgya stag ra mo che"@bo-x-ewts ,
@@ -13665,7 +13665,7 @@ told:_Place_9
 		"Katok"@en ,
 		"kaH thog"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Katok Dorjeden"@en ,
 		"gatuo si"@en ,
 		"kaHthog rdo rje gdan"@bo-x-ewts ,
@@ -13684,7 +13684,7 @@ told:_Place_90
 		"jo nang"@bo-x-ewts ,
 		"觉朗寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Jomonang"@en ,
 		"jo mo nang"@bo-x-ewts ,
 		"jo nang rgyal ba'i ri khrod"@bo-x-ewts ,
@@ -13704,7 +13704,7 @@ told:_Place_900
 		"Shide Dratsang"@en ,
 		"bzhi sde grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Shide Dratsang"@en ,
 		"bzhi sde dga' ldan bsam gtan gling"@bo-x-ewts ,
 		"xide si"@en ,
@@ -13724,7 +13724,7 @@ told:_Place_902
 		"Shatra"@en ,
 		"gzims shag bshad sgra"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Puntsok Khangsar"@en ,
 		"Shedra"@en
 		;
@@ -13739,7 +13739,7 @@ told:_Place_903
 		"Tromsikhang"@en ,
 		"grom gzigs khang, Tromzikhang"@bo-x-ewts
 		;
-	tolo:alternate_name "Tromzikhang"@en ;
+	tolo:nameVariant "Tromzikhang"@en ;
 	tolo:primaryName
 		"Tromsikhang"@en ,
 		"grom gzigs khang, Tromzikhang"@bo-x-ewts
@@ -13751,7 +13751,7 @@ told:_Place_904
 		"Nangtseshar"@en ,
 		"snang rtse shar"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Nangtseshak"@en ,
 		"snang rtse shag las khungs"@bo-x-ewts
 		;
@@ -13767,7 +13767,7 @@ told:_Place_905
 		"po ta la"@bo-x-ewts ,
 		"布达拉宫"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"bu da la gong"@en ,
 		"pho brang khri rtse dmar po"@bo-x-ewts ,
 		"pho brang po ta la"@bo-x-ewts ,
@@ -13786,7 +13786,7 @@ told:_Place_906
 		"Norbulingkha"@en ,
 		"nor bu gling kha"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Norbu Lingka Palace"@en ,
 		"Norbulingka"@en ,
 		"luobu linka gongdian"@en ,
@@ -13804,7 +13804,7 @@ told:_Place_907
 		"Sera Ngakpa Dratsang"@en ,
 		"se ra sngags pa grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name "Sera Ngakpa College"@en ;
+	tolo:nameVariant "Sera Ngakpa College"@en ;
 	tolo:primaryName
 		"Sera Ngakpa Dratsang"@en ,
 		"se ra sngags pa grwa tshang"@bo-x-ewts
@@ -13839,7 +13839,7 @@ told:_Place_91
 		"gsang phu ne'u thog"@bo-x-ewts ,
 		"桑普寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Sangphu Neutok"@en ,
 		"sangpu si"@en ,
 		"桑普寺"@zh-HANI
@@ -13856,7 +13856,7 @@ told:_Place_910
 		"Nyarma"@en ,
 		"mya ma"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"nyar ma"@bo-x-ewts ,
 		"nynar ma"@bo-x-ewts
 		;
@@ -13882,7 +13882,7 @@ told:_Place_912
 		"Tsepak Lhakhang"@en ,
 		"tshe dpag lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name "Tsepag Lhakhang"@en ;
+	tolo:nameVariant "Tsepag Lhakhang"@en ;
 	tolo:primaryName
 		"Tsepak Lhakhang"@en ,
 		"tshe dpag lha khang"@bo-x-ewts
@@ -13894,7 +13894,7 @@ told:_Place_913
 		"Trode Khangsar"@en ,
 		"spro bde khang gsar"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Pode Khangsar"@en ,
 		"zhuode kangsa"@en ,
 		"卓德康萨"@zh-HANI
@@ -13910,7 +13910,7 @@ told:_Place_914
 		"Riwo Choling"@en ,
 		"ri bo chos gling"@bo-x-ewts
 		;
-	tolo:alternate_name "日乌曲林"@zh-HANI ;
+	tolo:nameVariant "日乌曲林"@zh-HANI ;
 	tolo:primaryName
 		"Riwo Choling"@en ,
 		"ri bo chos gling"@bo-x-ewts
@@ -13934,7 +13934,7 @@ told:_Place_92
 		"snye thang sgrol ma lha khang"@bo-x-ewts ,
 		"聂塘卓玛拉康"@zh-HANI
 		;
-	tolo:alternate_name "nietang zhuoma lakang"@en ;
+	tolo:nameVariant "nietang zhuoma lakang"@en ;
 	tolo:primaryName
 		"Nyetang Dolma Lhakang"@en ,
 		"snye thang sgrol ma lha khang"@bo-x-ewts ,
@@ -13947,7 +13947,7 @@ told:_Place_920
 		"Labrang Kālacakra College"@en ,
 		"bla brang dus 'khor grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Labrang Tashikhyil Dukhor Dratsang"@en ,
 		"e waM chos 'khor gling"@bo-x-ewts
 		;
@@ -13984,7 +13984,7 @@ told:_Place_923
 		"Mejung Tosam Ling"@en ,
 		"Tosam ling, rmad byung thos bsam gling"@bo-x-ewts
 		;
-	tolo:alternate_name "smad byung thos bsam gling"@bo-x-ewts ;
+	tolo:nameVariant "smad byung thos bsam gling"@bo-x-ewts ;
 	tolo:primaryName
 		"Mejung Tosam Ling"@en ,
 		"Tosam ling, rmad byung thos bsam gling"@bo-x-ewts
@@ -14034,7 +14034,7 @@ told:_Place_928
 		"Zhitro Lhakhang"@en ,
 		"zhi khro'i lha khang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Yidam Lhakhang"@en ,
 		"rgya 'bum sgang zhi khro'i lha khang"@bo-x-ewts
 		;
@@ -14049,7 +14049,7 @@ told:_Place_93
 		"Tsechen"@en ,
 		"rtse chen"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Shambu Tsegu"@en ,
 		"thub bstan rab rgyas gling"@bo-x-ewts ,
 		"zijin si"@en ,
@@ -14143,7 +14143,7 @@ told:_Place_942
 		"Rongwo Kālacakra College"@en ,
 		"rong po dus 'khor grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name "dus 'khor grwa tshang gsang sngags dar rgyas gling"@bo-x-ewts ;
+	tolo:nameVariant "dus 'khor grwa tshang gsang sngags dar rgyas gling"@bo-x-ewts ;
 	tolo:primaryName
 		"Rongwo Kālacakra College"@en ,
 		"rong po dus 'khor grwa tshang"@bo-x-ewts
@@ -14188,7 +14188,7 @@ told:_Place_947
 		"Ikh Khuree"@en ,
 		"da khu re dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Da Khuree"@en ,
 		"Ikh Khuree"@en ,
 		"Urga"@en
@@ -14215,7 +14215,7 @@ told:_Place_95
 		"Tsurpu Monastery"@en ,
 		"mtshur phu dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"'og min mtshur phu"@bo-x-ewts ,
 		"Okmin Tsurpu"@en ,
 		"Tsurphu"@en ,
@@ -14234,7 +14234,7 @@ told:_Place_951
 		"bsam yas mchims phu"@bo-x-ewts ,
 		"青浦"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Samye Chimphu"@en ,
 		"mchims phu"@bo-x-ewts ,
 		"qingpu"@en ,
@@ -14263,7 +14263,7 @@ told:_Place_954
 		"Dzaka"@en ,
 		"dzaHka dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"dzaH ka dgon"@bo-x-ewts ,
 		"dzaHka dgon gsang sngags rab brtan gling"@bo-x-ewts ,
 		"zhaga si"@en ,
@@ -14281,7 +14281,7 @@ told:_Place_955
 		"Tsashul"@en ,
 		"rtsa shul dgon"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Tashi Monastery"@en ,
 		"bkra shis mdo sngags dar rgyas gling"@bo-x-ewts ,
 		"rtswa shul dgon"@bo-x-ewts ,
@@ -14345,7 +14345,7 @@ told:_Place_96
 		"Drakram"@en ,
 		"brag ram"@bo-x-ewts
 		;
-	tolo:alternate_name "Dragram"@en ;
+	tolo:nameVariant "Dragram"@en ;
 	tolo:primaryName
 		"Drakram"@en ,
 		"brag ram"@bo-x-ewts
@@ -14358,7 +14358,7 @@ told:_Place_960
 		"ol kha bsam gling dgon"@bo-x-ewts ,
 		"桑林寺"@zh-HANI
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Olkha Samling"@en ,
 		"Woka Samling"@en ,
 		"bsam gtan gling"@bo-x-ewts
@@ -14408,7 +14408,7 @@ told:_Place_968
 		"Rumtek"@en ,
 		"rum theg"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dharmachakra Centre"@en ,
 		"Rumtek Monastery"@en ,
 		"karma thub bstan chos 'khor gling"@bo-x-ewts ,
@@ -14464,7 +14464,7 @@ told:_Place_979
 		"Bora"@en ,
 		"bo ra"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"bo la si"@en ,
 		"bo ra'i dgon pa"@bo-x-ewts ,
 		"博拉寺"@zh-HANI
@@ -14502,7 +14502,7 @@ told:_Place_982
 		"Tege"@en ,
 		"the ge"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"tege dargye ling"@en ,
 		"tege sangngak dargye ling"@en ,
 		"the ge gsang sngags dar rgyas gling"@bo-x-ewts ,
@@ -14519,7 +14519,7 @@ told:_Place_983
 		"Pari Drigung"@en ,
 		"bri gung"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Drigung Ganden Lekshe Ling"@en ,
 		"Pari Drigung"@en ,
 		"bri gung dgon dga' ldan legs bshad gling"@bo-x-ewts ,
@@ -14536,7 +14536,7 @@ told:_Place_984
 		"Tashi Chopel Dratsang"@en ,
 		"bkra shis chos 'phel grwa tshang"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Dashchoinpel"@en ,
 		"Tashi Chopel Dratsang"@en ,
 		"Ulzii khutgiin nomiig arwijuulagch"@en
@@ -14552,7 +14552,7 @@ told:_Place_985
 		"Jakhyung Rito Pendeling"@en ,
 		"bya khyung ri stod phan bde gling"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Ba Rito Gon"@en ,
 		"ba' ri stod dgon"@bo-x-ewts ,
 		"ri stod dgon"@bo-x-ewts ,
@@ -14592,7 +14592,7 @@ told:_Place_988
 		"Serwo"@en ,
 		"ser bo"@bo-x-ewts
 		;
-	tolo:alternate_name
+	tolo:nameVariant
 		"Xiao bao si"@en ,
 		"肖包寺"@zh-HANI
 		;

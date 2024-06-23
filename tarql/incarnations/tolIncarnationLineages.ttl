@@ -1134,7 +1134,7 @@ told:_IncarnationLineage_1
 		"a 'dzom 'brug pa"@bo-x-ewts ,
 		"ཨ་འཛོམ་འབྲུག་པ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_43 ,
 		told:_Tradition_1
 		;
@@ -1153,7 +1153,7 @@ told:_IncarnationLineage_10
 		"che shos"@bo-x-ewts ,
 		"ཆེ་ཤོས།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_40 ,
 		told:_Tradition_27
 		;
@@ -1172,7 +1172,7 @@ told:_IncarnationLineage_100
 		"de mo"@bo-x-ewts ,
 		"དེ་མོ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_723 ,
 		told:_Tradition_27
 		;
@@ -1191,7 +1191,7 @@ told:_IncarnationLineage_101
 		"bri gung che tshang"@bo-x-ewts ,
 		"འབྲི་གུང་ཆེ་ཚང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_82 ,
 		told:_Tradition_42
 		;
@@ -1210,7 +1210,7 @@ told:_IncarnationLineage_102
 		"bri gung chung tshang"@bo-x-ewts ,
 		"འབྲི་གུང་ཆུང་ཚང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_82 ,
 		told:_Tradition_42
 		;
@@ -1229,7 +1229,7 @@ told:_IncarnationLineage_103
 		"gung ri mkha' 'gro"@bo-x-ewts ,
 		"གུང་རི་མཁའ་འགྲོ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_465 ,
 		told:_Tradition_27
 		;
@@ -1248,7 +1248,7 @@ told:_IncarnationLineage_104
 		"rdzong dkar"@bo-x-ewts ,
 		"རྫོང་དཀར།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_497 ,
 		told:_Tradition_27
 		;
@@ -1267,7 +1267,7 @@ told:_IncarnationLineage_105
 		"rdzong nang bla ma"@bo-x-ewts ,
 		"རྫོང་ནང་རྗེ་དབོན།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_14 ,
 		told:_Tradition_1
 		;
@@ -1286,7 +1286,7 @@ told:_IncarnationLineage_106
 		"tshe mchog gling"@bo-x-ewts ,
 		"ཚེ་མཆོག་གླིང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_871 ,
 		told:_Tradition_27
 		;
@@ -1305,7 +1305,7 @@ told:_IncarnationLineage_107
 		"dpal 'bar sprul sku"@bo-x-ewts ,
 		"དཔལ་འབར་སྤྲུལ་སྐུ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_814 ,
 		told:_Tradition_27 ,
 		told:_Tradition_7
@@ -1325,7 +1325,7 @@ told:_IncarnationLineage_108
 		"chas pa rgya mkhar"@bo-x-ewts ,
 		"ཆས་པ་རྒྱ་མཁར།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_409 ,
 		told:_Tradition_27
 		;
@@ -1343,7 +1343,7 @@ told:_IncarnationLineage_109
 		"sle lung rje drung"@bo-x-ewts ,
 		"སླེ་ལུང་རྗེ་དྲུང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_237 ,
 		told:_Tradition_27
 		;
@@ -1361,7 +1361,7 @@ told:_IncarnationLineage_11
 		"chos nyid rgya mtsho"@bo-x-ewts ,
 		"ཆོས་ཉིད་རྒྱ་མཚོ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_9 ,
 		told:_Tradition_1
 		;
@@ -1379,7 +1379,7 @@ told:_IncarnationLineage_111
 		"dil mgo mkhyen brtse"@bo-x-ewts ,
 		"དིལ་མགོ་མཁྱེན་བརྩེ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_13 ,
 		told:_Tradition_1
 		;
@@ -1397,7 +1397,7 @@ told:_IncarnationLineage_113
 		"dpal me mkhyen brtse"@bo-x-ewts ,
 		"དཔལ་མེ་མཁྱེན་བརྩེ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_247 ,
 		told:_Tradition_42
 		;
@@ -1415,7 +1415,7 @@ told:_IncarnationLineage_114
 		"phags mchog mkhyen brtse"@bo-x-ewts ,
 		"ཕགས་མཆོག་མཁྱེན་བརྩེ།"@bo
 		;
-	gist:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	tolo:primaryName
 		"Pakchok Khyentse"@en ,
 		"phags mchog mkhyen brtse"@bo-x-ewts ,
@@ -1430,7 +1430,7 @@ told:_IncarnationLineage_115
 		"dgon chen mkhyen brtse"@bo-x-ewts ,
 		"དགོན་ཆེན་མཁྱེན་བརྩེ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_207 ,
 		told:_Tradition_7
 		;
@@ -1448,7 +1448,7 @@ told:_IncarnationLineage_116
 		"khor gdong"@bo-x-ewts ,
 		"འཁོར་གདོང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_1316 ,
 		told:_Tradition_1
 		;
@@ -1467,7 +1467,7 @@ told:_IncarnationLineage_117
 		"dung dkar"@bo-x-ewts ,
 		"དུང་དཀར།"@bo
 		;
-	gist:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	tolo:primaryName
 		"Dungkar"@en ,
 		"dung dkar"@bo-x-ewts ,
@@ -1482,7 +1482,7 @@ told:_IncarnationLineage_118
 		"a mdo stong 'khor"@bo-x-ewts ,
 		"ཨ་མདོ་སྟོང་འཁོར།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_440 ,
 		told:_Tradition_27
 		;
@@ -1501,7 +1501,7 @@ told:_IncarnationLineage_119
 		"gzims 'og"@bo-x-ewts ,
 		"གཟིམས་འོག།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_128 ,
 		told:_Tradition_7
 		;
@@ -1521,7 +1521,7 @@ told:_IncarnationLineage_12
 		"ཏཱ་ལའི་བླ་མ།"@bo ,
 		"达赖喇嘛"@zh-HANI
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_38 ,
 		told:_Tradition_27
 		;
@@ -1541,7 +1541,7 @@ told:_IncarnationLineage_120
 		"khal kha rje btsun dam pa'i skye brgyud"@bo-x-ewts ,
 		"ཁལ་ཁ་རྗེ་བཙུན་དམ་པའི་སྐྱེ་བརྒྱུད།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_1280 ,
 		told:_Tradition_27 ,
 		told:_Tradition_278
@@ -1560,7 +1560,7 @@ told:_IncarnationLineage_121
 		"sgrub rgyud sprul sku"@bo-x-ewts ,
 		"སྒྲུབ་རྒྱུད་སྤྲུལ་སྐུ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_158 ,
 		told:_Tradition_54
 		;
@@ -1579,7 +1579,7 @@ told:_IncarnationLineage_122
 		"kaH thog dge rtse"@bo-x-ewts ,
 		"ཀཿ་ཐོག་དགེ་རྩེ།"@bo
 		;
-	gist:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	tolo:primaryName
 		"Katok Getse"@en ,
 		"kaH thog dge rtse"@bo-x-ewts ,
@@ -1594,7 +1594,7 @@ told:_IncarnationLineage_123
 		"bdud 'joms"@bo-x-ewts ,
 		"བདུད་འཇོམས།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_957 ,
 		told:_Tradition_1
 		;
@@ -1613,7 +1613,7 @@ told:_IncarnationLineage_124
 		"bka' brgyud sprul sku"@bo-x-ewts ,
 		"བཀའ་བརྒྱུད་སྤྲུལ་སྐུ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_1549 ,
 		told:_Tradition_77
 		;
@@ -1629,16 +1629,16 @@ told:_IncarnationLineage_125
 	skos:prefLabel
 		"Tana Lhatse"@en ,
 		"rta rna lha rtse"@bo-x-ewts ,
-		"རྟ་ར��་ལྷ་རྩེ།"@bo
+		"རྟ་རྣ་ལྷ་རྩེ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_158 ,
 		told:_Tradition_54
 		;
 	tolo:primaryName
 		"Tana Lhatse"@en ,
 		"rta rna lha rtse"@bo-x-ewts ,
-		"རྟ་ར��་ལྷ་རྩེ།"@bo
+		"རྟ་རྣ་ལྷ་རྩེ།"@bo
 		;
 	.
 
@@ -1649,7 +1649,7 @@ told:_IncarnationLineage_126
 		"sde gzhung"@bo-x-ewts ,
 		"སྡེ་གཞུང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_179 ,
 		told:_Tradition_7
 		;
@@ -1668,7 +1668,7 @@ told:_IncarnationLineage_13
 		"sde khri"@bo-x-ewts ,
 		"སྡེ་ཁྲི།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_361 ,
 		told:_Monastery_450 ,
 		told:_Tradition_27
@@ -1688,7 +1688,7 @@ told:_IncarnationLineage_14
 		"rdo grub chen"@bo-x-ewts ,
 		"རྡོ་གྲུབ་ཆེན།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_48 ,
 		told:_Tradition_1
 		;
@@ -1707,7 +1707,7 @@ told:_IncarnationLineage_15
 		"rdo rje brag rig 'dzin"@bo-x-ewts ,
 		"རྡོ་རྗེ་བྲག་རིག་འཛིན།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_11 ,
 		told:_Tradition_1
 		;
@@ -1726,7 +1726,7 @@ told:_IncarnationLineage_16
 		"rdo rje phag mo"@bo-x-ewts ,
 		"རྡོ་རྗེ་ཕག་མོ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_564 ,
 		told:_Tradition_26
 		;
@@ -1745,7 +1745,7 @@ told:_IncarnationLineage_17
 		"dri med zhing skyong"@bo-x-ewts ,
 		"དྲི་མེད་ཞིང་སྐྱོང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_9 ,
 		told:_Tradition_1
 		;
@@ -1762,16 +1762,16 @@ told:_IncarnationLineage_18
 	skos:prefLabel
 		"Druk Lama Tripa"@en ,
 		"brug bla ma khri pa"@bo-x-ewts ,
-		"བྲུག་བླ་མ་ཁ���ི་པ།"@bo
+		"བྲུག་བླ་མ་ཁྲི་པ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_308 ,
 		told:_Tradition_40
 		;
 	tolo:primaryName
 		"Druk Lama Tripa"@en ,
 		"brug bla ma khri pa"@bo-x-ewts ,
-		"བྲུག་བླ་མ་ཁ���ི་པ།"@bo
+		"བྲུག་བླ་མ་ཁྲི་པ།"@bo
 		;
 	.
 
@@ -1783,7 +1783,7 @@ told:_IncarnationLineage_19
 		"brug rgyal sras"@bo-x-ewts ,
 		"བྲུག་རྒྱལ་སྲས།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_405 ,
 		told:_Tradition_40
 		;
@@ -1802,7 +1802,7 @@ told:_IncarnationLineage_2
 		"a mchog"@bo-x-ewts ,
 		"ཨ་མཆོག།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_480 ,
 		told:_Monastery_718 ,
 		told:_Tradition_27
@@ -1822,7 +1822,7 @@ told:_IncarnationLineage_20
 		"brug chen"@bo-x-ewts ,
 		"བྲུག་ཆེན།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_1518 ,
 		told:_Monastery_277 ,
 		told:_Tradition_40
@@ -1842,7 +1842,7 @@ told:_IncarnationLineage_21
 		"rdzogs chen grub dban"@bo-x-ewts ,
 		"རྫོགས་ཆེན་གྲུབ་དབན།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_12 ,
 		told:_Tradition_1
 		;
@@ -1861,7 +1861,7 @@ told:_IncarnationLineage_22
 		"rdzogs chen mkhyen brtse"@bo-x-ewts ,
 		"རྫོགས་ཆེན་མཁྱེན་བརྩེ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_12 ,
 		told:_Tradition_1
 		;
@@ -1880,7 +1880,7 @@ told:_IncarnationLineage_23
 		"rdzogs chen dpon slob"@bo-x-ewts ,
 		"རྫོགས་ཆེན་དཔོན་སློབ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_12 ,
 		told:_Tradition_1
 		;
@@ -1899,7 +1899,7 @@ told:_IncarnationLineage_24
 		"rdzogs chen kong sprul"@bo-x-ewts ,
 		"རྫོགས་ཆེན་ཀོང་སྤྲུལ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_12 ,
 		told:_Tradition_1
 		;
@@ -1918,7 +1918,7 @@ told:_IncarnationLineage_25
 		"gangs dkar"@bo-x-ewts ,
 		"གངས་དཀར།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_1429 ,
 		told:_Tradition_24
 		;
@@ -1936,7 +1936,7 @@ told:_IncarnationLineage_26
 		"sgang steng"@bo-x-ewts ,
 		"སྒང་སྟེང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_382 ,
 		told:_Tradition_1
 		;
@@ -1955,7 +1955,7 @@ told:_IncarnationLineage_27
 		"dge mang"@bo-x-ewts ,
 		"དགེ་མང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_12 ,
 		told:_Monastery_422 ,
 		told:_Tradition_1
@@ -1975,7 +1975,7 @@ told:_IncarnationLineage_28
 		"gung thang"@bo-x-ewts ,
 		"གུང་ཐང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_41 ,
 		told:_Tradition_27
 		;
@@ -1994,7 +1994,7 @@ told:_IncarnationLineage_29
 		"rgya ra sprul sku"@bo-x-ewts ,
 		"རྒྱ་ར་སྤྲུལ་སྐུ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_404 ,
 		told:_Tradition_27
 		;
@@ -2013,7 +2013,7 @@ told:_IncarnationLineage_3
 		"a mdo zhwa dmar"@bo-x-ewts ,
 		"ཨ་མདོ་ཞྭ་དམར།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_375 ,
 		told:_Monastery_401 ,
 		told:_Monastery_450 ,
@@ -2034,7 +2034,7 @@ told:_IncarnationLineage_30
 		"mtshur phu rgyal tshab"@bo-x-ewts ,
 		"མཚུར་ཕུ་རྒྱལ་ཚབ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_95 ,
 		told:_Tradition_24
 		;
@@ -2053,7 +2053,7 @@ told:_IncarnationLineage_31
 		"hor tshang gser khri"@bo-x-ewts ,
 		"ཧོར་ཚང་གསེར་ཁྲི།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_41 ,
 		told:_Tradition_27
 		;
@@ -2072,7 +2072,7 @@ told:_IncarnationLineage_32
 		"jam dbyang bzhad pa"@bo-x-ewts ,
 		"ཇམ་དབྱང་བཞད་པ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_41 ,
 		told:_Tradition_27
 		;
@@ -2092,7 +2092,7 @@ told:_IncarnationLineage_33
 		"ཀརྨ་པ་"@bo ,
 		"噶瑪巴"@zh-HANI
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_95 ,
 		told:_Tradition_24
 		;
@@ -2112,7 +2112,7 @@ told:_IncarnationLineage_34
 		"kir+ti"@bo-x-ewts ,
 		"ཀིརྟི།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_363 ,
 		told:_Monastery_413 ,
 		told:_Monastery_484 ,
@@ -2133,7 +2133,7 @@ told:_IncarnationLineage_35
 		"dkon rdor"@bo-x-ewts ,
 		"དཀོན་རྡོར།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_237 ,
 		told:_Tradition_27
 		;
@@ -2151,7 +2151,7 @@ told:_IncarnationLineage_36
 		"gling"@bo-x-ewts ,
 		"གླིང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_355 ,
 		told:_Tradition_27
 		;
@@ -2170,7 +2170,7 @@ told:_IncarnationLineage_37
 		"gling bla"@bo-x-ewts ,
 		"གླིང་བླ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_12 ,
 		told:_Tradition_1
 		;
@@ -2189,7 +2189,7 @@ told:_IncarnationLineage_38
 		"gling sprul"@bo-x-ewts ,
 		"གླིང་སྤྲུལ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_41 ,
 		told:_Tradition_27
 		;
@@ -2208,7 +2208,7 @@ told:_IncarnationLineage_39
 		"rmog rtsa"@bo-x-ewts ,
 		"རྨོག་རྩ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_9 ,
 		told:_Tradition_1
 		;
@@ -2227,7 +2227,7 @@ told:_IncarnationLineage_4
 		"dbal mang"@bo-x-ewts ,
 		"དབལ་མང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_361 ,
 		told:_Monastery_450 ,
 		told:_Tradition_27
@@ -2247,7 +2247,7 @@ told:_IncarnationLineage_40
 		"rnga rgod"@bo-x-ewts ,
 		"རྔ་རྒོད།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_361 ,
 		told:_Monastery_40 ,
 		told:_Monastery_41 ,
@@ -2268,7 +2268,7 @@ told:_IncarnationLineage_41
 		"snyan grags"@bo-x-ewts ,
 		"སྙན་གྲགས།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_41 ,
 		told:_Tradition_27
 		;
@@ -2287,7 +2287,7 @@ told:_IncarnationLineage_42
 		"nyin dgon mchog sprul"@bo-x-ewts ,
 		"ཉིན་དགོན་མཆོག་སྤྲུལ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_2726 ,
 		told:_Monastery_9 ,
 		told:_Tradition_1
@@ -2307,7 +2307,7 @@ told:_IncarnationLineage_43
 		"phags pa lha"@bo-x-ewts ,
 		"ཕགས་པ་ལྷ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_237 ,
 		told:_Tradition_27
 		;
@@ -2328,7 +2328,7 @@ told:_IncarnationLineage_44
 """@bo ,
 		"班禅额尔德尼"@zh-HANI
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_39 ,
 		told:_Tradition_27
 		;
@@ -2349,7 +2349,7 @@ told:_IncarnationLineage_45
 		"gnas nang dpa' bo"@bo-x-ewts ,
 		"གནས་ནང་དཔའ་བོ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_15 ,
 		told:_Monastery_331 ,
 		told:_Tradition_24
@@ -2369,7 +2369,7 @@ told:_IncarnationLineage_46
 		"pad+gling thugs sras"@bo-x-ewts ,
 		"པདྒལིང་ཐུགས་སྲས།"@bo
 		;
-	gist:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	tolo:primaryName
 		"Peling Tukse"@en ,
 		"pad+gling thugs sras"@bo-x-ewts ,
@@ -2384,7 +2384,7 @@ told:_IncarnationLineage_47
 		"pad tshal gling sprul sku"@bo-x-ewts ,
 		"པད་ཚལ་གླིང་སྤྲུལ་སྐུ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_371 ,
 		told:_Tradition_1
 		;
@@ -2403,7 +2403,7 @@ told:_IncarnationLineage_48
 		"phur lcog"@bo-x-ewts ,
 		"ཕུར་ལྕོག།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_294 ,
 		told:_Tradition_27
 		;
@@ -2422,7 +2422,7 @@ told:_IncarnationLineage_49
 		"rwa sgreng"@bo-x-ewts ,
 		"རྭ་སྒྲེང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_327 ,
 		told:_Tradition_27
 		;
@@ -2441,7 +2441,7 @@ told:_IncarnationLineage_5
 		"dbal mang chung ba"@bo-x-ewts ,
 		"དབལ་མང་ཆུང་བ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_41 ,
 		told:_Tradition_27
 		;
@@ -2459,7 +2459,7 @@ told:_IncarnationLineage_50
 		"ri bo che rje drung"@bo-x-ewts ,
 		"རི་བོ་ཆེ་རྗེ་དྲུང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_218 ,
 		told:_Tradition_45
 		;
@@ -2478,7 +2478,7 @@ told:_IncarnationLineage_51
 		"rong po grub chen"@bo-x-ewts ,
 		"རོང་པོ་གྲུབ་ཆེན།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_374 ,
 		told:_Tradition_27
 		;
@@ -2496,7 +2496,7 @@ told:_IncarnationLineage_52
 		"gser ri'i ma Ni paNDita"@bo-x-ewts ,
 		"གསེར་རིའི་མ་ཎི་པཎཌིཏ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_40 ,
 		told:_Tradition_27
 		;
@@ -2515,7 +2515,7 @@ told:_IncarnationLineage_53
 		"bse tshang"@bo-x-ewts ,
 		"བསེ་ཚང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_479 ,
 		told:_Tradition_27
 		;
@@ -2533,7 +2533,7 @@ told:_IncarnationLineage_54
 		"shar gdong"@bo-x-ewts ,
 		"ཤར་གདོང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_358 ,
 		told:_Tradition_27
 		;
@@ -2552,7 +2552,7 @@ told:_IncarnationLineage_55
 		"bsod grags sprul sku"@bo-x-ewts ,
 		"བསོད་གྲགས་སྤྲུལ་སྐུ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_41 ,
 		told:_Tradition_27
 		;
@@ -2571,7 +2571,7 @@ told:_IncarnationLineage_56
 		"stag phu"@bo-x-ewts ,
 		"སྟག་ཕུ།"@bo
 		;
-	gist:isAffiliatedWith told:_Tradition_27 ;
+	gist:isConnectedTo told:_Tradition_27 ;
 	tolo:primaryName
 		"Takpu"@en ,
 		"stag phu"@bo-x-ewts ,
@@ -2584,16 +2584,16 @@ told:_IncarnationLineage_57
 	skos:prefLabel
 		"Taktser"@en ,
 		"stag mtsher"@bo-x-ewts ,
-		"སྟག་མཚེ���།"@bo
+		"སྟག་མཚེར།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_40 ,
 		told:_Tradition_27
 		;
 	tolo:primaryName
 		"Taktser"@en ,
 		"stag mtsher"@bo-x-ewts ,
-		"སྟག་མཚེ���།"@bo
+		"སྟག་མཚེར།"@bo
 		;
 	.
 
@@ -2605,7 +2605,7 @@ told:_IncarnationLineage_58
 		"rta tshag rje drung"@bo-x-ewts ,
 		"རྟ་ཚག་རྗེ་དྲུང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_536 ,
 		told:_Tradition_27
 		;
@@ -2622,16 +2622,16 @@ told:_IncarnationLineage_59
 	skos:prefLabel
 		"Tewo Lungzang Nangwa"@en ,
 		"the bo lung bzang nang ba"@bo-x-ewts ,
-		"ཐེ་བ���་ལུང་བཟང་ནང་བ།"@bo
+		"ཐེ་བོ་ལུང་བཟང་ནང་བ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_804 ,
 		told:_Tradition_27
 		;
 	tolo:primaryName
 		"Tewo Lungzang Nangwa"@en ,
 		"the bo lung bzang nang ba"@bo-x-ewts ,
-		"ཐེ་བ���་ལུང་བཟང་ནང་བ།"@bo
+		"ཐེ་བོ་ལུང་བཟང་ནང་བ།"@bo
 		;
 	.
 
@@ -2643,7 +2643,7 @@ told:_IncarnationLineage_6
 		"lcags ra"@bo-x-ewts ,
 		"ལྕགས་ར།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_237 ,
 		told:_Tradition_27
 		;
@@ -2662,7 +2662,7 @@ told:_IncarnationLineage_60
 		"stong 'khor"@bo-x-ewts ,
 		"སྟོང་འཁོར།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_411 ,
 		told:_Tradition_27
 		;
@@ -2680,7 +2680,7 @@ told:_IncarnationLineage_61
 		"khri byang"@bo-x-ewts ,
 		"ཁྲི་བྱང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_36 ,
 		told:_Tradition_27
 		;
@@ -2699,7 +2699,7 @@ told:_IncarnationLineage_62
 		"tshe smon gling"@bo-x-ewts ,
 		"ཚེ་སྨོན་གླིང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		<https://w3id.org/treasuryoflives/ns/data/tol/_Monastery_724,TOL36> ,
 		told:_Tradition_27
 		;
@@ -2717,7 +2717,7 @@ told:_IncarnationLineage_63
 		"tshe tan zhabs drung"@bo-x-ewts ,
 		"ཚེ་ཏན་ཞབས་དྲུང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_287 ,
 		told:_Tradition_27
 		;
@@ -2736,7 +2736,7 @@ told:_IncarnationLineage_64
 		"mtsho phu grub chen"@bo-x-ewts ,
 		"མཚོ་ཕུ་གྲུབ་ཆེན།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_9 ,
 		told:_Tradition_1
 		;
@@ -2755,7 +2755,7 @@ told:_IncarnationLineage_65
 		"thu'u bkwan"@bo-x-ewts ,
 		"ཐུའུ་བཀྭན།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_156 ,
 		told:_Tradition_27
 		;
@@ -2773,7 +2773,7 @@ told:_IncarnationLineage_66
 		"yol mo"@bo-x-ewts ,
 		"ཡོལ་མོ།"@bo
 		;
-	gist:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	tolo:primaryName
 		"Yolmo"@en ,
 		"yol mo"@bo-x-ewts ,
@@ -2789,7 +2789,7 @@ told:_IncarnationLineage_67
 		"zam tsha gser khri"@bo-x-ewts ,
 		"ཟམ་ཚ་གསེར་ཁྲི།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_41 ,
 		told:_Tradition_27
 		;
@@ -2808,7 +2808,7 @@ told:_IncarnationLineage_68
 		"zhabs drung dkar po"@bo-x-ewts ,
 		"ཞབས་དྲུང་དཀར་པོ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_1180 ,
 		told:_Tradition_27
 		;
@@ -2825,16 +2825,16 @@ told:_IncarnationLineage_69
 	skos:prefLabel
 		"Zhabdrung Sungtrul"@en ,
 		"zhabs drung gsung sprul"@bo-x-ewts ,
-		"ཞབས་དྲུང་ག��ུང་སྤྲུལ།"@bo
+		"ཞབས་དྲུང་གསུང་སྤྲུལ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_418 ,
 		told:_Tradition_40
 		;
 	tolo:primaryName
 		"Zhabdrung Sungtrul"@en ,
 		"zhabs drung gsung sprul"@bo-x-ewts ,
-		"ཞབས་དྲུང་ག��ུང་སྤྲུལ།"@bo
+		"ཞབས་དྲུང་གསུང་སྤྲུལ།"@bo
 		;
 	.
 
@@ -2846,7 +2846,7 @@ told:_IncarnationLineage_7
 		"chags ri nyi grags"@bo-x-ewts ,
 		"ཆགས་རི་ཉི་གྲགས།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_426 ,
 		told:_Tradition_1
 		;
@@ -2865,7 +2865,7 @@ told:_IncarnationLineage_70
 		"zhe chen rab 'byams"@bo-x-ewts ,
 		"ཞེ་ཆེན་རབ་འབྱམས།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_13 ,
 		told:_Tradition_1
 		;
@@ -2884,7 +2884,7 @@ told:_IncarnationLineage_71
 		"zhi ba lha"@bo-x-ewts ,
 		"ཞི་བ་ལྷ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_237 ,
 		told:_Tradition_27
 		;
@@ -2903,7 +2903,7 @@ told:_IncarnationLineage_72
 		"zhwa dmar pa"@bo-x-ewts ,
 		"ཞྭ་དམར་པ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_599 ,
 		told:_Tradition_24
 		;
@@ -2922,7 +2922,7 @@ told:_IncarnationLineage_73
 		"srib mda' rdzogs chen sprul sku skye brgyud/"@bo-x-ewts ,
 		"སྲིབ་མདའ་རྫོགས་ཆེན།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_700 ,
 		told:_Tradition_1
 		;
@@ -2941,7 +2941,7 @@ told:_IncarnationLineage_74
 		"ta'i si tu"@bo-x-ewts ,
 		"ཏའི་སི་ཏུ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_215 ,
 		told:_Monastery_472 ,
 		told:_Tradition_24
@@ -2960,7 +2960,7 @@ told:_IncarnationLineage_75
 		"smin grol no mon han"@bo-x-ewts ,
 		"སྨིན་གྲོལ་ནོ་མོན་ཧན།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_532 ,
 		told:_Tradition_27
 		;
@@ -2979,7 +2979,7 @@ told:_IncarnationLineage_76
 		"rdzong dkar chung ba"@bo-x-ewts ,
 		"རྫོང་དཀར་ཆུང་བ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_497 ,
 		told:_Tradition_27
 		;
@@ -2998,7 +2998,7 @@ told:_IncarnationLineage_77
 		"jam mgon kong sprul"@bo-x-ewts ,
 		"འཇམ་མགོན་ཀོང་སྤྲུལ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_472 ,
 		told:_Tradition_24
 		;
@@ -3017,7 +3017,7 @@ told:_IncarnationLineage_79
 		"pad nor"@bo-x-ewts ,
 		"པད་ནོར།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_14 ,
 		told:_Tradition_1
 		;
@@ -3034,16 +3034,16 @@ told:_IncarnationLineage_8
 	skos:prefLabel
 		"Chaktsa"@en ,
 		"phyag tsha"@bo-x-ewts ,
-		"ཕྱག་ཚ��"@bo
+		"ཕྱག་ཚ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_421 ,
 		told:_Tradition_1
 		;
 	tolo:primaryName
 		"Chaktsa"@en ,
 		"phyag tsha"@bo-x-ewts ,
-		"ཕྱག་ཚ��"@bo
+		"ཕྱག་ཚ།"@bo
 		;
 	.
 
@@ -3055,7 +3055,7 @@ told:_IncarnationLineage_80
 		"zur mang drung pa"@bo-x-ewts ,
 		"ཟུར་མང་དྲུང་པ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_174 ,
 		told:_Tradition_24
 		;
@@ -3074,7 +3074,7 @@ told:_IncarnationLineage_81
 		"phags mchog"@bo-x-ewts ,
 		"འཕགས་མཆོག།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_218 ,
 		told:_Tradition_1 ,
 		told:_Tradition_45
@@ -3094,7 +3094,7 @@ told:_IncarnationLineage_82
 		"karma sku chen"@bo-x-ewts ,
 		"ཀརྨ་སྐུ་ཆེན།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_14 ,
 		told:_Tradition_1
 		;
@@ -3112,7 +3112,7 @@ told:_IncarnationLineage_83
 		"dzi sgar kong sprul"@bo-x-ewts ,
 		"ཛི་སྒར་ཀོང་སྤྲུལ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_1114 ,
 		told:_Tradition_24
 		;
@@ -3130,7 +3130,7 @@ told:_IncarnationLineage_84
 		"zhe chen kong sprul"@bo-x-ewts ,
 		"ཞེ་ཆེན་ཀོང་སྤྲུལ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_13 ,
 		told:_Tradition_1
 		;
@@ -3148,7 +3148,7 @@ told:_IncarnationLineage_85
 		"kar lu rin po che"@bo-x-ewts ,
 		"ཀར་ལུ་རིན་པོ་ཆེ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_472 ,
 		told:_Tradition_67
 		;
@@ -3167,7 +3167,7 @@ told:_IncarnationLineage_86
 		"rdzong sar mkhyen brtse"@bo-x-ewts ,
 		"རྫོགས་ཆེན་མཁྱེན་བརྩེ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_180 ,
 		told:_Tradition_7
 		;
@@ -3185,7 +3185,7 @@ told:_IncarnationLineage_87
 		"be ru mkhyen brtse"@bo-x-ewts ,
 		"བེ་རུ་མཁྱེན་བརྩེ།"@bo
 		;
-	gist:isAffiliatedWith told:_Tradition_24 ;
+	gist:isConnectedTo told:_Tradition_24 ;
 	tolo:primaryName
 		"Beru Khyentse"@en ,
 		"be ru mkhyen brtse"@bo-x-ewts ,
@@ -3201,7 +3201,7 @@ told:_IncarnationLineage_88
 		"dpal ri"@bo-x-ewts ,
 		"དཔལ་རི།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_253 ,
 		told:_Tradition_1
 		;
@@ -3220,7 +3220,7 @@ told:_IncarnationLineage_89
 		"se'u la byams mgon"@bo-x-ewts ,
 		"སེའུ་ལ་བྱམས་མགོན།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_1072 ,
 		told:_Tradition_40
 		;
@@ -3239,7 +3239,7 @@ told:_IncarnationLineage_9
 		"lcang skya"@bo-x-ewts ,
 		"ལྕང་སྐྱ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_156 ,
 		told:_Tradition_27
 		;
@@ -3258,7 +3258,7 @@ told:_IncarnationLineage_90
 		"khang nang"@bo-x-ewts ,
 		"ཁང་ནང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_14 ,
 		told:_Tradition_1
 		;
@@ -3277,7 +3277,7 @@ told:_IncarnationLineage_91
 		"rdzong nang rje dbon"@bo-x-ewts ,
 		"རྫོང་ནང་རྗེ་དབོན།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_14 ,
 		told:_Tradition_1
 		;
@@ -3296,7 +3296,7 @@ told:_IncarnationLineage_92
 		"dpal yul mchog sprul"@bo-x-ewts ,
 		"དཔལ་ཡུལ་མཆོག་སྤྲུལ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_14 ,
 		told:_Tradition_1
 		;
@@ -3315,7 +3315,7 @@ told:_IncarnationLineage_93
 		"pad gling gsung sprul"@bo-x-ewts ,
 		"པད་གླིང་གསུང་སྤྲུལ།"@bo
 		;
-	gist:isAffiliatedWith told:_Tradition_1 ;
+	gist:isConnectedTo told:_Tradition_1 ;
 	tolo:primaryName
 		"Peling Sungtrul"@en ,
 		"pad gling gsung sprul"@bo-x-ewts ,
@@ -3331,7 +3331,7 @@ told:_IncarnationLineage_94
 		"mgar chen"@bo-x-ewts ,
 		"མགར་ཆེན།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_1605 ,
 		told:_Tradition_42
 		;
@@ -3350,7 +3350,7 @@ told:_IncarnationLineage_95
 		"gnas brtan mchog gling"@bo-x-ewts ,
 		"གནས་བརྟན་མཆོག་གླིང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_59 ,
 		told:_Tradition_1
 		;
@@ -3369,7 +3369,7 @@ told:_IncarnationLineage_96
 		"rtsi ke mchog gling"@bo-x-ewts ,
 		"རྩི་ཀེ་མཆོག་གླིང་།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_60 ,
 		told:_Tradition_1
 		;
@@ -3388,7 +3388,7 @@ told:_IncarnationLineage_97
 		"zhe chen rgyal tshab"@bo-x-ewts ,
 		"ཞེ་ཆེན་རྒྱལ་ཚབ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_13 ,
 		told:_Tradition_1
 		;
@@ -3407,7 +3407,7 @@ told:_IncarnationLineage_98
 		"mnyes thang smog lcog"@bo-x-ewts ,
 		"མཉེས་ཐང་སྨོག་ལྕོག།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_1317 ,
 		told:_Tradition_67
 		;
@@ -3425,7 +3425,7 @@ told:_IncarnationLineage_99
 		"lcam sprul"@bo-x-ewts ,
 		"ལྕམ་སྤྲུལ།"@bo
 		;
-	gist:isAffiliatedWith
+	gist:isConnectedTo
 		told:_Monastery_9 ,
 		told:_Tradition_1
 		;
