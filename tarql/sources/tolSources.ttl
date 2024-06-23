@@ -31,7 +31,6 @@ told:_ContentExpression_Source_1
 	a gist:ContentExpression ;
 	owl:sameAs olid:test_olid ;
 	skos:prefLabel "Ahmad, Zahiruddin. 1999. Sangs-rGyas rGya-mTSHo. Life of the Fifth Dalai Lama. New Delhi: International Academy of Indian Culture & Aditya Prakashan."@en ;
-	gist:isIdentifiedBy told:_ID_worldcat_1051317433 ;
 	tolo:displayText told:_FormattedContent_Source_DisplayText_1 ;
 	.
 
@@ -42,7 +41,6 @@ told:_ContentExpression_Source_2
 		viaf:488147484315849360004
 		;
 	skos:prefLabel "Karmay, Samten G. 1988. Secret Visions of the Fifth Dalai Lama: The Gold Manuscript in the Fournier Collection. London: Serindia."@en ;
-	gist:isIdentifiedBy told:_ID_worldcat_42273440 ;
 	tolo:displayText told:_FormattedContent_Source_DisplayText_2 ;
 	.
 
