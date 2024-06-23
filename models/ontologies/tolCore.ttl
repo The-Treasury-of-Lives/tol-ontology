@@ -1,4 +1,4 @@
-# imports: https://w3id.org/semanticarts/ontology/gistCore12.0.1
+# imports: https://w3id.org/semanticarts/ontology/gistCore12.1.0
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
@@ -15,7 +15,7 @@
 
 <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
 	a owl:Ontology ;
-	owl:imports <https://w3id.org/semanticarts/ontology/gistCore12.0.1> ;
+	owl:imports <https://w3id.org/semanticarts/ontology/gistCore12.1.0> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, facilitate the consumption of external RDF, and to to enhance the narrative text with structured data."@en ;
 	skos:editoralNote
