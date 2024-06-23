@@ -1,4 +1,4 @@
-# imports: https://w3id.org/semanticarts/ontology/gistCore12.0.1
+# imports: https://w3id.org/semanticarts/ontology/gistCore12.1.0
 # imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
@@ -22,7 +22,7 @@
 <https://w3id.org/treasuryoflives/data/tolHistoricalPeriods>
 	a owl:Ontology ;
 	owl:imports
-		<https://w3id.org/semanticarts/ontology/gistCore12.0.1> ,
+		<https://w3id.org/semanticarts/ontology/gistCore12.1.0> ,
 		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
 		;
 	owl:versionIRI <https://w3id.org/treasuryoflives/data/tolHistoricalPeriodsX.x.x> ;
