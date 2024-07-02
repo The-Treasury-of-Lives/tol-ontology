@@ -18,6 +18,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 
 ## Columns
+# married_kinship_group
 # marriage_id (ignore)
 # start
 # start_approximate
@@ -25,16 +26,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # end_approximate
 # end_reason_id (ignore)
 # end_reason_name
-# is_matrilocal
+# is_matrilocal (ignore)
 # is_junior_for_wife
 # is_senior_for_wife
 # is_junior_for_husband
 # is_senior_for_husband
 # wife_id
 # husband_id
+# birth_genealogical_group_id (?)
 
 # Run:
-# tarql -e utf-8 marriages.tq marriages-6-2-24.csv > tolMarriages.ttl
+# tarql -e utf-8 marriages.tq person-marriage-6-24-24.csv > tolMarriages.ttl
 
 CONSTRUCT {
 
@@ -45,8 +47,11 @@ CONSTRUCT {
         ?start_predicate_iri ?start_datetime ;
         ?end_predicate_iri ?end_datetime ;
         gist:isCategorizedBy    
-            ?termination_cause_iri ,
-            ?marriage_type_iri ;
+            ?termination_cause_iri ;
+    .
+
+    ?kinship_group_iri
+        gist:hasMember ?marriage_iri ;
     .
 
 }
@@ -54,11 +59,13 @@ CONSTRUCT {
 WHERE {
 
     # Testing
-    FILTER(?ROWNUM = 12)
+    # FILTER(?ROWNUM = 31)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?husband_id, "_", ?wife_id)) AS ?marriage_iri)
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?wife_id)) AS ?wife_iri)
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?husband_id)) AS ?husband_iri)
+
+    BIND(tarql:expandPrefixedName(CONCAT("told:_KinshipGroup_", ?married_kinship_group)) AS ?kinship_group_iri)
 
     # Junior/senior wife
     BIND(
@@ -79,11 +86,6 @@ WHERE {
         ) AS ?husband_predicate
     )
     BIND(tarql:expandPrefixedName(CONCAT("tolo:", ?husband_predicate)) AS ?husband_predicate_iri)
-
-    # Matrilocal/Patrilocal
-    BIND(IF(?is_matrilocal = "1", "matrilocal", "patrilocal") AS ?marriage_type)
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_MarriageType_", ?marriage_type)) AS ?marriage_type_iri)
-
 
     # Marriage dates
     # To create an xsd:dateTime from a year string
@@ -136,4 +138,5 @@ WHERE {
     BIND(tarql:expandPrefixedName(?end_predicate) AS ?end_predicate_iri)  
 
     BIND(tarql:expandPrefixedName(CONCAT("tolx:_MarriageTerminationCause_", ?reason_name)) AS ?termination_cause_iri)
+
 }

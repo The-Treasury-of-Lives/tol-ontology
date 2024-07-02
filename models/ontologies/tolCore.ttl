@@ -327,7 +327,13 @@ tolo:KinshipGroup
 		[
 			a owl:Restriction ;
 			owl:onProperty gist:hasMember ;
-			owl:allValuesFrom tolo:Person ;
+			owl:allValuesFrom [
+				a owl:Class ;
+				owl:unionOf (
+					tolo:Person
+					tolo:Marriage
+				) ;
+			] ;
 		]
 		;
 	skos:definition "A social unit consisting of people with a common ancestor."@en ;
@@ -371,10 +377,18 @@ tolo:Marriage
 				owl:onProperty tolo:hasHusband ;
 				owl:someValuesFrom tolo:Person ;
 			]
+			[
+				a owl:Restriction ;
+				owl:onProperty [
+					owl:inverseOf gist:hasMember ;
+				] ;
+				owl:someValuesFrom tolo:KinshipGroup ;
+			]
 		) ;
 	] ;
 	skos:definition "A culturally and often legally recognized union between two people, called spouses, that establishes rights and obligations between them."@en ;
 	skos:prefLabel "Marriage"@en ;
+	skos:scopeNote "A marriage is associated with the birth kinship group of either the father ('patrilocal') or mother ('matrilocal')."@en ;
 	.
 
 tolo:MarriageTerminationCause
@@ -424,9 +438,14 @@ tolo:Monastery
 			]
 		) ;
 	] ;
-	skos:definition "TBD"@en ;
-	skos:editorialNote "Has a founder, has abotts, ..."@en ;
-	skos:prefLabel "Monastery"@en ;
+	skos:definition "A community of ordained individuals affiliated with a particular religious tradition with a common annual ritual calendar and rules. The community is organized hierarchically, with established roles such as abbot, treasurer, and the like. Human-created structures such as temples, assembly halls, residential houses and meditation halls are typical features."@en ;
+	skos:editorialNote "Has a founder, has monastery lineage, ..."@en ;
+	skos:prefLabel
+		"Monastery"@en ,
+		"dgon pa"@bo-x-ewts ,
+		"དགོན་པ་"@bo ,
+		"寺院"@zh-HANI
+		;
 	.
 
 tolo:MonasteryHead
