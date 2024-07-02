@@ -96,13 +96,6 @@ tolo:displayText
 	skos:prefLabel "display text"@en ;
 	.
 
-tolo:hasDisplayGeoPoint
-	a owl:AnnotationProperty ;
-	skos:definition "The geo point to use in the display of a place on a map."@en ;
-	skos:prefLabel "has display geo point"@en ;
-	skos:scopeNote "Considered a display property because in the real world places are not located at single geo points."@en ;
-	.
-
 tolo:hasMappingPriority
 	a owl:AnnotationProperty ;
 	rdfs:range tolo:MappingPriority ;
@@ -112,6 +105,14 @@ tolo:hasMappingPriority
 		gist:Place ,
 		tolo:Institution
 		;
+	.
+
+tolo:isRenderedAt
+	a owl:AnnotationProperty ;
+	skos:definition "Relates a resource to the location, such as a geo-point on a map, where it is rendered or displayed."@en ;
+	skos:example "Wutai Shan Mountain is rendered at the geo-point at latitude 39.0792 and longitude 113.5647."@en ;
+	skos:prefLabel "is rendered at"@en ;
+	skos:scopeNote "Considered a display property because in the real world places are not located at single geo-points."@en ;
 	.
 
 tolo:maxZoomLevel
