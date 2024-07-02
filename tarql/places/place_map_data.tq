@@ -32,7 +32,7 @@ CONSTRUCT {
 
 
     ?place_iri 
-        tolo:hasDisplayGeoPoint ?geo_point_iri ;
+        tolo:isRenderedAt ?geo_point_iri ;
         tolo:displayLabel 
             ?display_label_en ,
             ?display_label_bo ;
