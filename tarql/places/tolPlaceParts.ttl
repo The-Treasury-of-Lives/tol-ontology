@@ -1,0 +1,237 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:_Place_1085
+	gist:hasPart told:_Place_1278 ;
+	.
+
+told:_Place_12
+	gist:hasPart told:_Place_439 ;
+	.
+
+told:_Place_13
+	gist:hasPart told:_Place_1441 ;
+	.
+
+told:_Place_14
+	gist:hasPart told:_Place_1095 ;
+	.
+
+told:_Place_1472
+	gist:hasPart told:_Place_1478 ;
+	.
+
+told:_Place_1477
+	gist:hasPart told:_Place_1474 ;
+	.
+
+told:_Place_1622
+	gist:hasPart told:_Place_1704 ;
+	.
+
+told:_Place_1750
+	gist:hasPart
+		told:_Place_1522 ,
+		told:_Place_1523
+		;
+	.
+
+told:_Place_180
+	gist:hasPart told:_Place_445 ;
+	.
+
+told:_Place_207
+	gist:hasPart told:_Place_412 ;
+	.
+
+told:_Place_237
+	gist:hasPart told:_Place_1186 ;
+	.
+
+told:_Place_32
+	gist:hasPart
+		told:_Place_1617 ,
+		told:_Place_1618 ,
+		told:_Place_1619 ,
+		told:_Place_1620 ,
+		told:_Place_543
+		;
+	.
+
+told:_Place_342
+	gist:hasPart told:_Place_1229 ;
+	.
+
+told:_Place_348
+	gist:hasPart
+		told:_Place_1268 ,
+		told:_Place_1315
+		;
+	.
+
+told:_Place_349
+	gist:hasPart
+		told:_Place_1021 ,
+		told:_Place_1246 ,
+		told:_Place_1300 ,
+		told:_Place_1480 ,
+		told:_Place_907
+		;
+	.
+
+told:_Place_355
+	gist:hasPart
+		told:_Place_1231 ,
+		told:_Place_1369 ,
+		told:_Place_1409
+		;
+	.
+
+told:_Place_36
+	gist:hasPart
+		told:_Place_315 ,
+		told:_Place_319
+		;
+	.
+
+told:_Place_369
+	gist:hasPart told:_Place_981 ;
+	.
+
+told:_Place_37
+	gist:hasPart
+		told:_Place_1020 ,
+		told:_Place_294 ,
+		told:_Place_322 ,
+		told:_Place_348 ,
+		told:_Place_349 ,
+		told:_Place_423 ,
+		told:_Place_572 ,
+		told:_Place_841 ,
+		told:_Place_860
+		;
+	.
+
+told:_Place_374
+	gist:hasPart
+		told:_Place_505 ,
+		told:_Place_941 ,
+		told:_Place_942
+		;
+	.
+
+told:_Place_375
+	gist:hasPart told:_Place_1625 ;
+	.
+
+told:_Place_38
+	gist:hasPart
+		told:_Place_342 ,
+		told:_Place_355 ,
+		told:_Place_908 ,
+		told:_Place_909
+		;
+	.
+
+told:_Place_39
+	gist:hasPart
+		told:_Place_1143 ,
+		told:_Place_344
+		;
+	.
+
+told:_Place_40
+	gist:hasPart
+		told:_Place_1024 ,
+		told:_Place_924 ,
+		told:_Place_925 ,
+		told:_Place_926 ,
+		told:_Place_927
+		;
+	.
+
+told:_Place_41
+	gist:hasPart
+		told:_Place_1750 ,
+		told:_Place_920 ,
+		told:_Place_921 ,
+		told:_Place_922 ,
+		told:_Place_923
+		;
+	.
+
+told:_Place_443
+	gist:hasPart told:_Place_1359 ;
+	.
+
+told:_Place_567
+	gist:hasPart told:_Place_1570 ;
+	.
+
+told:_Place_603
+	gist:hasPart
+		told:_Place_1220 ,
+		told:_Place_1276 ,
+		told:_Place_934 ,
+		told:_Place_935 ,
+		told:_Place_936 ,
+		told:_Place_937 ,
+		told:_Place_938 ,
+		told:_Place_939
+		;
+	.
+
+told:_Place_727
+	gist:hasPart told:_Place_851 ;
+	.
+
+told:_Place_728
+	gist:hasPart told:_Place_1298 ;
+	.
+
+told:_Place_809
+	gist:hasPart told:_Place_991 ;
+	.
+
+told:_Place_869
+	gist:hasPart told:_Place_1308 ;
+	.
+
+told:_Place_9
+	gist:hasPart
+		told:_Place_1014 ,
+		told:_Place_1173
+		;
+	.
+
+told:_Place_947
+	gist:hasPart
+		told:_Place_1191 ,
+		told:_Place_1194 ,
+		told:_Place_1195 ,
+		told:_Place_984
+		;
+	.
+
+told:_Place_95
+	gist:hasPart
+		told:_Place_1541 ,
+		told:_Place_1745
+		;
+	.
+
