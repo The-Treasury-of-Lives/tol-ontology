@@ -163,7 +163,7 @@ tolx:_PlaceFunction_stupa
 		bdr:PT0072 ,
 		wiki:Q180987
 		;
-	skos:definition "A dome-shaped monument housing relics of the Buddha or an accomplished master that are often sites of pilgrimage and worship. "@en ;
+	skos:definition "A dome-shaped monument housing relics of the Buddha or an accomplished master that are often sites of pilgrimage and worship."@en ;
 	skos:prefLabel
 		"Stupa"@en ,
 		"mchod rten"@bo-x-ewts ,
@@ -221,7 +221,7 @@ tolx:_PlaceType_lake
 		bdr:PT0028 ,
 		wiki:Q23397
 		;
-	skos:definition "A body of fresh water"@en ;
+	skos:definition "A body of fresh water."@en ;
 	skos:prefLabel
 		"""
 མཚོ་"""@bo ,
@@ -237,7 +237,7 @@ tolx:_PlaceType_mountain
 		bdr:PT0042 ,
 		wiki:Q8502
 		;
-	skos:definition "An elevated section of earth"@en ;
+	skos:definition "An elevated section of earth."@en ;
 	skos:prefLabel
 		"Mountain"@en ,
 		"ri bo"@bo-x-ewts ,
