@@ -20,28 +20,19 @@
 	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolRegionTypesX.x.x> ;
 	skos:definition "Defines region types for map display."@en ;
-	skos:editorialNote
-		"Hand-curated."@en ,
-		"TBD different between region_type and region and what to call them. Fix definitions."@en
-		;
-	skos:prefLabel "Region Types"@en ;
+	skos:editorialNote "Hand-curated."@en ;
+	skos:prefLabel "Map Region Types"@en ;
 	.
 
-tolx:_RegionType_local_region
+tolx:_RegionType_county_seat
 	a tolo:RegionType ;
 	skos:definition "TBD."@en ;
-	skos:prefLabel "Local Region"@en ;
+	skos:prefLabel "County Seat"@en ;
 	.
 
-tolx:_RegionType_region
+tolx:_RegionType_folk_region
 	a tolo:RegionType ;
 	skos:definition "TBD."@en ;
-	skos:prefLabel "Region"@en ;
-	.
-
-tolx:_RegionType_sub_region
-	a tolo:RegionType ;
-	skos:definition "TBD."@en ;
-	skos:prefLabel "Subregion"@en ;
+	skos:prefLabel "Folk Region"@en ;
 	.
 

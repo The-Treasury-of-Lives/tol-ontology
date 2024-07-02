@@ -10,7 +10,6 @@
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolIdTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypesX.x.x
-# imports: https://w3id.org/treasuryoflives/taxonomy/tolMapRegionTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolMappingPrioritiesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolPeerReviewStatusX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolPlaceTypesX.x.x
@@ -42,7 +41,6 @@
 		<https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolIdTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypesX.x.x> ,
-		<https://w3id.org/treasuryoflives/taxonomy/tolMapRegionTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolMappingPrioritiesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolPeerReviewStatusX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolPlaceTypesX.x.x> ,
