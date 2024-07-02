@@ -20,7 +20,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # community_id
 # lat
 # long
-# icon
+# icon (ignore - will be determined by place category)
 # map_priority_level_id
 # map_display_name
 # map_display_name_script
@@ -29,7 +29,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # tarql -e utf-8 place_map_data.tq place-map-data-5-29-24.csv > tolPlaceMapData.ttl
 
 CONSTRUCT {
-
 
     ?place_iri 
         tolo:isRenderedAt ?geo_point_iri ;

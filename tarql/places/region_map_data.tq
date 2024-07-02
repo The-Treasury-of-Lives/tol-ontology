@@ -17,7 +17,20 @@ PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 ## Columns
-# 
+# map_region_id
+# bdrc_id
+# label
+# wylie
+# tibetan
+# chinese
+# lat
+# long
+# zoom_min
+# zoom_max
+# type
+# zoom_level_on_click
+# map_priority_level_id
+
 # Run:
 # tarql -e utf-8 region_map_data.tq region-map-data-5-21-24.csv > tolRegionMapData.ttl
 
@@ -38,8 +51,7 @@ CONSTRUCT {
         tolo:maxZoomLevel ?max_zoom_level ; 
         tolo:zoomLevelOnClick ?on_click_zoom_level ; 
         gist:isCategorizedBy    
-            ?region_type_iri ,
-            ?map_region_type_iri ;
+            ?region_type_iri ;
         tolo:displayText 
             ?formatted_content_iri ;
     .
@@ -61,11 +73,10 @@ CONSTRUCT {
 WHERE {
 
     # Testing
-    # FILTER(?ROWNUM = 22)
+    FILTER(?ROWNUM = 22)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_GeoRegion_", ?map_region_id)) AS ?region_iri)
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?bdrc_id)) AS ?bdrc_iri)
-
 
     BIND(STRLANG(?label, "en") AS ?label_en)
     BIND(STRLANG(?tibetan, "bo") AS ?label_tibetan)  
@@ -73,16 +84,21 @@ WHERE {
     BIND(STRLANG(?chinese, "zh-Hani") AS ?label_chinese) 
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_GeoPoint_", ?lat, "_", ?long)) AS ?geo_point_iri)
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_MappingPriority_", ?map_priority_level_id)) AS ?map_priority_iri)
     BIND(STRDT(?lat, xsd:decimal) AS ?latitude)
     BIND(STRDT(?long, xsd:decimal) AS ?longitude)
 
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_MappingPriority_", ?map_priority_level_id)) AS ?map_priority_iri)
     BIND(STRDT(?zoom_min, xsd:integer) AS ?min_zoom_level)
     BIND(STRDT(?zoom_max, xsd:integer) AS ?max_zoom_level)
     BIND(STRDT(?zoom_level_on_click, xsd:integer) AS ?on_click_zoom_level)
 
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_RegionType_", ?region_type)) AS ?region_type_iri)
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_MapRegionType_", ?type)) AS ?map_region_type_iri)
+    BIND(COALESCE(
+        IF(?type = "city", "county_seat", ?unbound),
+        IF(?type = "region", "folk_region", ?unbound),
+        ?unbound
+        ) AS ?region_type
+    )
+    BIND(IF(BOUND(?region_type), tarql:expandPrefixedName(CONCAT("tolx:_RegionType_", ?region_type)), ?unbound) AS ?region_type_iri)
 
     BIND(IF(BOUND(?html), tarql:expandPrefixedName(CONCAT("told:_FormattedContent_MapRegion_", ?map_region_id)), ?unbound) AS ?formatted_content_iri) 
 
