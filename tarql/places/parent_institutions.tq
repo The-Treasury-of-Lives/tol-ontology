@@ -16,16 +16,18 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 PREFIX xml: <http://www.w3.org/XML/1998/namespace>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+# Example: Exile monasteries derived from the original in Tibet
+
 ## Columns
-# community_id
-# person_id
+# is_derived_from
+# place_id
 
 # Run:
-# tarql -e utf-8 place_affiliations.tq person-places-6-11-24.csv > tolPlaceAffiliations.ttl
+# tarql -e utf-8 parent_institutions.tq place_derived_from_6-24-24.csv > tolParentInstitutions.ttl
 
 CONSTRUCT {
 
-    ?person_iri gist:isConnectedTo ?place_iri ;
+    ?institution_iri tolo:isDerivedFrom ?parent_iri ;
     .
 
 }
@@ -35,12 +37,7 @@ WHERE {
     # Testing
     # FILTER(?ROWNUM = 1)
 
-    # These are mostly monasteries but may also be monastic colleges and there is one cave
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Place_", ?community_id)) AS ?place_iri)
-
-    OPTIONAL {
-        ?person apf:strSplit(?person_id "; ") 
-    }
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?person)) AS ?person_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Place_", ?place_id)) AS ?institution_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Place_", ?is_derived_from)) AS ?parent_iri)
 
 }
