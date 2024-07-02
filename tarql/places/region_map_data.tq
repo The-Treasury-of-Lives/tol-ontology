@@ -25,7 +25,7 @@ CONSTRUCT {
 
     ?region_iri 
         a gist:GeoRegion ;
-        tolo:hasDisplayGeoPoint ?geo_point_iri ;
+        tolo:isRenderedAt ?geo_point_iri ;
         skos:prefLabel 
             ?label_en ,
             ?label_wylie ,
@@ -61,7 +61,7 @@ CONSTRUCT {
 WHERE {
 
     # Testing
-    FILTER(?ROWNUM = 22)
+    # FILTER(?ROWNUM = 22)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_GeoRegion_", ?map_region_id)) AS ?region_iri)
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?bdrc_id)) AS ?bdrc_iri)
