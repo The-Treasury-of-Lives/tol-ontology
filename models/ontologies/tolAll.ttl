@@ -19,6 +19,7 @@
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolRanksX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolReferenceCollectionsX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolRegionTypesX.x.x
+# imports: https://w3id.org/treasuryoflives/taxonomy/tolRolesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolSubscriptionAccessTypeX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x
 
@@ -53,6 +54,7 @@
 		<https://w3id.org/treasuryoflives/taxonomy/tolRanksX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolReferenceCollectionsX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolRegionTypesX.x.x> ,
+		<https://w3id.org/treasuryoflives/taxonomy/tolRolesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolSubscriptionAccessTypeX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x>
 		;
