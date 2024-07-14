@@ -611,6 +611,14 @@ tolo:ReferenceCollection
 	skos:prefLabel "Reference Collection"@en ;
 	.
 
+tolo:Role
+	a owl:Class ;
+	rdfs:subClassOf gist:Category ;
+	skos:definition "A role, office, or vocation played by a person, typically, though not always, in an institutional context."@en ;
+	skos:example "Artist, government officer, monastic officer, Indian master."@en ;
+	skos:prefLabel "Role"@en ;
+	.
+
 tolo:TeacherStudentRelationship
 	a owl:Class ;
 	owl:equivalentClass [
