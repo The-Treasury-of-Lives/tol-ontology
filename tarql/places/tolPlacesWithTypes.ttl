@@ -73,7 +73,7 @@ told:_Place_1013
 
 told:_Place_1014
 	a
-		gist:Landmark ,
+		gist:Building ,
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
@@ -83,7 +83,7 @@ told:_Place_1014
 	.
 
 told:_Place_1015
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -113,17 +113,17 @@ told:_Place_102
 	.
 
 told:_Place_1020
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1021
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1022
-	a tolo:Institution ;
+	a tolo:Monastery ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
@@ -183,7 +183,7 @@ told:_Place_1045
 	.
 
 told:_Place_1046
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -198,7 +198,7 @@ told:_Place_105
 	.
 
 told:_Place_1050
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -208,12 +208,12 @@ told:_Place_1051
 	.
 
 told:_Place_1052
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1053
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -248,7 +248,7 @@ told:_Place_1066
 	.
 
 told:_Place_1068
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -318,12 +318,12 @@ told:_Place_1086
 	.
 
 told:_Place_1087
-	a tolo:Institution ;
+	a tolo:Monastery ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
 told:_Place_1088
-	a tolo:Institution ;
+	a tolo:Monastery ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
@@ -388,7 +388,7 @@ told:_Place_110
 	.
 
 told:_Place_1100
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -513,8 +513,8 @@ told:_Place_1125
 	.
 
 told:_Place_1126
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_hospital ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hospital ;
 	.
 
 told:_Place_1128
@@ -553,7 +553,7 @@ told:_Place_1138
 	.
 
 told:_Place_1139
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -613,12 +613,12 @@ told:_Place_1150
 	.
 
 told:_Place_1151
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1152
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -638,7 +638,7 @@ told:_Place_1157
 	.
 
 told:_Place_1158
-	a gist:Building ;
+	a gist:Landmark ;
 	gist:isCategorizedBy tolx:_PlaceFunction_stupa ;
 	.
 
@@ -688,7 +688,7 @@ told:_Place_117
 	.
 
 told:_Place_1170
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -733,12 +733,12 @@ told:_Place_1179
 	.
 
 told:_Place_1180
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1182
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -749,6 +749,7 @@ told:_Place_1183
 
 told:_Place_1184
 	a
+		gist:Building ,
 		gist:Landmark ,
 		tolo:Monastery
 		;
@@ -775,7 +776,7 @@ told:_Place_1187
 	.
 
 told:_Place_1188
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -885,12 +886,12 @@ told:_Place_1212
 	.
 
 told:_Place_1213
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1214
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -950,7 +951,10 @@ told:_Place_1226
 	.
 
 told:_Place_1227
-	a gist:Landmark ;
+	a
+		gist:Building ,
+		gist:Landmark
+		;
 	gist:isCategorizedBy
 		tolx:_PlaceFunction_hermitage ,
 		tolx:_PlaceType_cave
@@ -968,7 +972,7 @@ told:_Place_1229
 	.
 
 told:_Place_1230
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -978,7 +982,10 @@ told:_Place_1231
 	.
 
 told:_Place_1232
-	a gist:Landmark ;
+	a
+		gist:Building ,
+		gist:Landmark
+		;
 	gist:isCategorizedBy
 		tolx:_PlaceFunction_hermitage ,
 		tolx:_PlaceType_cave
@@ -1026,7 +1033,7 @@ told:_Place_1240
 	.
 
 told:_Place_1241
-	a tolo:Institution ;
+	a tolo:Monastery ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
@@ -1046,7 +1053,10 @@ told:_Place_1244
 	.
 
 told:_Place_1245
-	a gist:Landmark ;
+	a
+		gist:Building ,
+		gist:Landmark
+		;
 	gist:isCategorizedBy
 		tolx:_PlaceFunction_hermitage ,
 		tolx:_PlaceType_cave
@@ -1124,7 +1134,7 @@ told:_Place_1261
 	.
 
 told:_Place_1262
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -1269,7 +1279,10 @@ told:_Place_129
 	.
 
 told:_Place_1291
-	a gist:Landmark ;
+	a
+		gist:Building ,
+		gist:Landmark
+		;
 	gist:isCategorizedBy
 		tolx:_PlaceFunction_hermitage ,
 		tolx:_PlaceType_cave
@@ -1292,7 +1305,10 @@ told:_Place_1295
 	.
 
 told:_Place_1296
-	a gist:Landmark ;
+	a
+		gist:Building ,
+		gist:Landmark
+		;
 	gist:isCategorizedBy
 		tolx:_PlaceFunction_hermitage ,
 		tolx:_PlaceType_cave
@@ -1340,7 +1356,7 @@ told:_Place_1302
 	.
 
 told:_Place_1303
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -1350,7 +1366,7 @@ told:_Place_1305
 	.
 
 told:_Place_1306
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -1405,7 +1421,7 @@ told:_Place_1318
 	.
 
 told:_Place_132
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -1440,8 +1456,8 @@ told:_Place_1325
 	.
 
 told:_Place_1327
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_school ;
 	.
 
 told:_Place_1329
@@ -1460,22 +1476,22 @@ told:_Place_1331
 	.
 
 told:_Place_1332
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1333
-	a gist:Building ;
+	a gist:Landmark ;
 	gist:isCategorizedBy tolx:_PlaceFunction_stupa ;
 	.
 
 told:_Place_1334
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1335
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -1526,7 +1542,7 @@ told:_Place_1342
 	.
 
 told:_Place_1343
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -1571,7 +1587,7 @@ told:_Place_1350
 	.
 
 told:_Place_1351
-	a gist:Building ;
+	a gist:Landmark ;
 	gist:isCategorizedBy tolx:_PlaceFunction_stupa ;
 	.
 
@@ -1586,8 +1602,8 @@ told:_Place_1353
 	.
 
 told:_Place_1354
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_school ;
 	.
 
 told:_Place_1355
@@ -1596,7 +1612,7 @@ told:_Place_1355
 	.
 
 told:_Place_1356
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -1617,7 +1633,7 @@ told:_Place_136
 	.
 
 told:_Place_1361
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -1627,7 +1643,7 @@ told:_Place_1362
 	.
 
 told:_Place_1363
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -1642,7 +1658,7 @@ told:_Place_1365
 	.
 
 told:_Place_1366
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -1667,8 +1683,8 @@ told:_Place_137
 	.
 
 told:_Place_1370
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_school ;
 	.
 
 told:_Place_1372
@@ -1682,8 +1698,8 @@ told:_Place_1373
 	.
 
 told:_Place_1374
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_school ;
 	.
 
 told:_Place_1376
@@ -1718,7 +1734,7 @@ told:_Place_1380
 	.
 
 told:_Place_1386
-	a tolo:Institution ;
+	a tolo:Monastery ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
@@ -1758,8 +1774,8 @@ told:_Place_1394
 	.
 
 told:_Place_1395
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1396
@@ -1859,8 +1875,8 @@ told:_Place_1410
 	.
 
 told:_Place_1411
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_school ;
 	.
 
 told:_Place_1412
@@ -1950,7 +1966,7 @@ told:_Place_143
 	.
 
 told:_Place_1430
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -1980,7 +1996,7 @@ told:_Place_1435
 	.
 
 told:_Place_1436
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -2000,8 +2016,8 @@ told:_Place_1439
 	.
 
 told:_Place_1440
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_school ;
 	.
 
 told:_Place_1441
@@ -2010,8 +2026,8 @@ told:_Place_1441
 	.
 
 told:_Place_1442
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_school ;
 	.
 
 told:_Place_1443
@@ -2020,18 +2036,18 @@ told:_Place_1443
 	.
 
 told:_Place_1445
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1447
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1448
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1449
@@ -2050,43 +2066,43 @@ told:_Place_1450
 	.
 
 told:_Place_1452
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1453
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1454
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1455
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1456
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1457
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1458
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1459
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_146
@@ -2095,19 +2111,16 @@ told:_Place_146
 	.
 
 told:_Place_1460
-	a
-		gist:Building ,
-		tolo:Institution
-		;
+	a gist:Building ;
 	gist:isCategorizedBy
-		tolx:_InstitutionType_dharma_center ,
+		tolx:_PlaceFunction_dharma_center ,
 		tolx:_PlaceFunction_temple
 		;
 	.
 
 told:_Place_1461
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1462
@@ -2116,22 +2129,22 @@ told:_Place_1462
 	.
 
 told:_Place_1463
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1464
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1465
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1466
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -2141,12 +2154,12 @@ told:_Place_1467
 	.
 
 told:_Place_1468
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1469
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -2236,7 +2249,10 @@ told:_Place_1489
 	.
 
 told:_Place_149
-	a gist:Landmark ;
+	a
+		gist:Building ,
+		gist:Landmark
+		;
 	gist:isCategorizedBy
 		tolx:_PlaceFunction_hermitage ,
 		tolx:_PlaceType_cave
@@ -2264,12 +2280,12 @@ told:_Place_1493
 	.
 
 told:_Place_1494
-	a gist:Building ;
+	a gist:Landmark ;
 	gist:isCategorizedBy tolx:_PlaceFunction_stupa ;
 	.
 
 told:_Place_1496
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -2309,7 +2325,7 @@ told:_Place_1501
 	.
 
 told:_Place_1502
-	a tolo:Institution ;
+	a tolo:Monastery ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
@@ -2329,8 +2345,8 @@ told:_Place_1507
 	.
 
 told:_Place_1508
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1509
@@ -2349,7 +2365,7 @@ told:_Place_1510
 	.
 
 told:_Place_1511
-	a tolo:Institution ;
+	a tolo:Monastery ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
@@ -2384,7 +2400,7 @@ told:_Place_1518
 	.
 
 told:_Place_1520
-	a tolo:Institution ;
+	a tolo:Monastery ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
@@ -2429,8 +2445,8 @@ told:_Place_1529
 	.
 
 told:_Place_1530
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_hospital ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hospital ;
 	.
 
 told:_Place_1532
@@ -2449,17 +2465,17 @@ told:_Place_1534
 	.
 
 told:_Place_1535
-	a tolo:Institution ;
+	a tolo:Monastery ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
 told:_Place_1536
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1537
-	a tolo:Institution ;
+	a tolo:Monastery ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
@@ -2519,7 +2535,7 @@ told:_Place_1549
 	.
 
 told:_Place_1551
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -2544,8 +2560,8 @@ told:_Place_1556
 	.
 
 told:_Place_1557
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_school ;
 	.
 
 told:_Place_1558
@@ -2564,7 +2580,7 @@ told:_Place_156
 	.
 
 told:_Place_1560
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -2574,7 +2590,7 @@ told:_Place_1561
 	.
 
 told:_Place_1562
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -2609,7 +2625,7 @@ told:_Place_1568
 	.
 
 told:_Place_1569
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -2624,8 +2640,8 @@ told:_Place_1570
 	.
 
 told:_Place_1572
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1573
@@ -2634,8 +2650,8 @@ told:_Place_1573
 	.
 
 told:_Place_1574
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1575
@@ -2699,7 +2715,7 @@ told:_Place_1591
 	.
 
 told:_Place_1592
-	a tolo:Institution ;
+	a tolo:Monastery ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
@@ -2794,19 +2810,18 @@ told:_Place_1611
 	.
 
 told:_Place_1612
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1613
 	a
 		gist:Building ,
-		tolo:Institution ,
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_InstitutionType_dharma_center ,
 		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_dharma_center ,
 		tolx:_PlaceFunction_temple
 		;
 	.
@@ -2872,7 +2887,7 @@ told:_Place_1632
 	.
 
 told:_Place_1633
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -2887,52 +2902,55 @@ told:_Place_1636
 	.
 
 told:_Place_1637
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1639
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1640
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1641
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1642
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1644
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1645
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1646
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1647
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1648
-	a gist:Landmark ;
+	a
+		gist:Building ,
+		gist:Landmark
+		;
 	gist:isCategorizedBy
 		tolx:_PlaceFunction_hermitage ,
 		tolx:_PlaceType_lake
@@ -2956,8 +2974,8 @@ told:_Place_165
 	.
 
 told:_Place_1651
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_school ;
 	.
 
 told:_Place_1653
@@ -2966,18 +2984,18 @@ told:_Place_1653
 	.
 
 told:_Place_1655
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_1656
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1657
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1658
@@ -3006,37 +3024,37 @@ told:_Place_1662
 	.
 
 told:_Place_1664
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1665
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1666
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1667
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1668
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1670
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1671
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -3071,13 +3089,13 @@ told:_Place_1681
 	.
 
 told:_Place_1682
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1683
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1685
@@ -3096,28 +3114,28 @@ told:_Place_1687
 	.
 
 told:_Place_1688
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1689
-	a gist:Building ;
+	a gist:Landmark ;
 	gist:isCategorizedBy tolx:_PlaceFunction_stupa ;
 	.
 
 told:_Place_1690
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1691
 	a
-		tolo:Institution ,
+		gist:Building ,
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
-		tolx:_InstitutionType_dharma_center ,
-		tolx:_InstitutionType_monastery
+		tolx:_InstitutionType_monastery ,
+		tolx:_PlaceFunction_dharma_center
 		;
 	.
 
@@ -3157,8 +3175,8 @@ told:_Place_1698
 	.
 
 told:_Place_1700
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1701
@@ -3188,7 +3206,7 @@ told:_Place_1705
 
 told:_Place_1706
 	a
-		gist:Landmark ,
+		gist:Building ,
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
@@ -3198,8 +3216,8 @@ told:_Place_1706
 	.
 
 told:_Place_1707
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_school ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_school ;
 	.
 
 told:_Place_1708
@@ -3258,18 +3276,18 @@ told:_Place_1718
 	.
 
 told:_Place_1719
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_172
-	a gist:Building ;
+	a gist:Landmark ;
 	gist:isCategorizedBy tolx:_PlaceFunction_stupa ;
 	.
 
 told:_Place_1720
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1722
@@ -3288,8 +3306,8 @@ told:_Place_1724
 	.
 
 told:_Place_1725
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1726
@@ -3303,17 +3321,17 @@ told:_Place_1727
 	.
 
 told:_Place_1728
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1729
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_173
-	a gist:Building ;
+	a gist:Landmark ;
 	gist:isCategorizedBy tolx:_PlaceFunction_stupa ;
 	.
 
@@ -3328,43 +3346,43 @@ told:_Place_1731
 	.
 
 told:_Place_1732
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1733
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1734
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1735
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1736
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1737
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1738
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1739
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_174
@@ -3373,8 +3391,8 @@ told:_Place_174
 	.
 
 told:_Place_1740
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1741
@@ -3383,8 +3401,8 @@ told:_Place_1741
 	.
 
 told:_Place_1742
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1743
@@ -3393,12 +3411,12 @@ told:_Place_1743
 	.
 
 told:_Place_1744
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_dharma_center ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_dharma_center ;
 	.
 
 told:_Place_1745
-	a tolo:Institution ;
+	a tolo:Monastery ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
@@ -3473,7 +3491,7 @@ told:_Place_187
 	.
 
 told:_Place_188
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -3523,7 +3541,7 @@ told:_Place_199
 	.
 
 told:_Place_204
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -3603,7 +3621,7 @@ told:_Place_224
 	.
 
 told:_Place_225
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -3878,7 +3896,7 @@ told:_Place_294
 	.
 
 told:_Place_295
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -3903,7 +3921,7 @@ told:_Place_305
 	.
 
 told:_Place_306
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -3938,7 +3956,7 @@ told:_Place_312
 	.
 
 told:_Place_314
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -3973,12 +3991,12 @@ told:_Place_32
 	.
 
 told:_Place_321
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_322
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -4469,7 +4487,7 @@ told:_Place_422
 	.
 
 told:_Place_423
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -4599,7 +4617,7 @@ told:_Place_451
 	.
 
 told:_Place_452
-	a tolo:Institution ;
+	a tolo:Monastery ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
@@ -4664,7 +4682,7 @@ told:_Place_470
 	.
 
 told:_Place_471
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -4754,7 +4772,7 @@ told:_Place_490
 	.
 
 told:_Place_491
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -4770,7 +4788,7 @@ told:_Place_493
 
 told:_Place_494
 	a
-		gist:Landmark ,
+		gist:Building ,
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
@@ -4781,7 +4799,7 @@ told:_Place_494
 
 told:_Place_495
 	a
-		gist:Landmark ,
+		gist:Building ,
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
@@ -4841,7 +4859,7 @@ told:_Place_505
 	.
 
 told:_Place_507
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -4863,7 +4881,7 @@ told:_Place_509
 
 told:_Place_510
 	a
-		gist:Landmark ,
+		gist:Building ,
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
@@ -4978,7 +4996,7 @@ told:_Place_533
 	.
 
 told:_Place_534
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -5243,7 +5261,7 @@ told:_Place_650
 	.
 
 told:_Place_657
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -5509,7 +5527,7 @@ told:_Place_818
 	.
 
 told:_Place_819
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -5540,7 +5558,7 @@ told:_Place_824
 
 told:_Place_825
 	a
-		gist:Landmark ,
+		gist:Building ,
 		tolo:Monastery
 		;
 	gist:isCategorizedBy
@@ -5605,12 +5623,12 @@ told:_Place_840
 	.
 
 told:_Place_841
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_842
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -5650,7 +5668,7 @@ told:_Place_849
 	.
 
 told:_Place_85
-	a tolo:Institution ;
+	a tolo:Monastery ;
 	gist:isCategorizedBy tolx:_InstitutionType_nunnery ;
 	.
 
@@ -5693,7 +5711,7 @@ told:_Place_858
 	.
 
 told:_Place_860
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -5708,7 +5726,7 @@ told:_Place_862
 	.
 
 told:_Place_863
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -5964,8 +5982,8 @@ told:_Place_914
 	.
 
 told:_Place_915
-	a tolo:Institution ;
-	gist:isCategorizedBy tolx:_InstitutionType_hospital ;
+	a gist:Building ;
+	gist:isCategorizedBy tolx:_PlaceFunction_hospital ;
 	.
 
 told:_Place_917
@@ -6099,7 +6117,7 @@ told:_Place_95
 	.
 
 told:_Place_951
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -6174,12 +6192,12 @@ told:_Place_97
 	.
 
 told:_Place_970
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_971
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -6189,12 +6207,12 @@ told:_Place_972
 	.
 
 told:_Place_974
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_976
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -6260,7 +6278,7 @@ told:_Place_988
 	.
 
 told:_Place_989
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
@@ -6270,17 +6288,17 @@ told:_Place_991
 	.
 
 told:_Place_992
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_994
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
 told:_Place_995
-	a gist:Landmark ;
+	a gist:Building ;
 	gist:isCategorizedBy tolx:_PlaceFunction_hermitage ;
 	.
 
