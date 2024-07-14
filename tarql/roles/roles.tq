@@ -1,0 +1,111 @@
+PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
+PREFIX bdr: <http://purl.bdrc.io/resource/> 
+PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX told: <https://w3id.org/treasuryoflives/ns/data/tol/>
+PREFIX tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/>
+PREFIX tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wiki: <https://www.wikidata.org/wiki/>
+PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
+PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/> 
+
+## COLUMNS 
+# Wikidata
+# BDRC ROLE ID
+# Role ID
+# Role Name
+# Role Parent
+# Role Parent ID
+# Role Variant Names
+# Wylie Role Name
+# Tibetan Script
+# Role Name Chinese
+# Role Variant Names Tibetan
+# Role Variant Names Wylie
+# Role Description
+
+# Run:
+# tarql -e utf-8 --dedup 50000 roles.tq Roles-6-24-24.csv > tolRoles.ttl
+
+CONSTRUCT {
+    
+    <https://w3id.org/treasuryoflives/data/tolRoles>
+	a owl:Ontology ;
+	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ,
+        <https://w3id.org/semanticarts/ontology/gistCore12.1.0> ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/data/tolRolesX.x.x> ;
+	skos:definition "A role, office, or vocation played by a person, typically, though not always, in an institutional context."@en ;
+	skos:prefLabel "Treasury of Lives Roles"@en ;
+	.
+
+    ?role_iri 
+        a tolo:Role ;
+        skos:prefLabel 
+            ?pref_label_en ,
+            ?pref_label_wylie ,
+            ?pref_label_tibetan ,
+            ?pref_label_chinese ;
+        skos:altLabel 
+            ?alt_label_en ,
+            ?alt_label_wylie ,
+            ?alt_label_tibetan ;
+        gist:hasSuperCategory ?parent_role_iri ;
+        owl:sameAs
+            ?wikidata_role_iri ,
+            ?bdrc_role_iri ;
+        gist:description ?description_en ;
+        .
+
+}
+
+WHERE {
+
+    # Testing
+    # FILTER($ROWNUM = 5)
+    
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_Role_", LCASE(REPLACE(?Role_Name, " ", "_")))) AS ?role_iri)
+
+    # Same as
+    BIND(tarql:expandPrefixedName(CONCAT("wiki:", ?Wikidata)) AS ?wikidata_role_iri)  
+    BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_ROLE_ID)) AS ?bdrc_role_iri)  
+
+    # Parent role
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_Role_", LCASE(REPLACE(?Role_Parent, " ", "_")))) AS ?parent_role_iri)     
+
+    # Preferred label
+    BIND(STRLANG(?Role_Name, "en") AS ?pref_label_en)
+    BIND(STRLANG(?Wylie_Role_Name, "bo-x-ewts") AS ?pref_label_wylie)
+    BIND(STRLANG(?Tibetan_Script, "bo") AS ?pref_label_tibetan)
+    BIND(STRLANG(?Role_Chinese_Name, "zh-Hani") AS ?pref_label_chinese)
+
+    # Alternate names
+    # NB Currently no examples with more than one name variant per cell. 
+    # English 
+    OPTIONAL {
+        ?en_variant apf:strSplit(?Role_Variant_Names ";") 
+    }
+    BIND(STRLANG(?en_variant, "en") AS ?alt_label_en)
+
+    # Wylie 
+    OPTIONAL {
+        ?wylie_variant apf:strSplit(?Role_Variant_Names_Wylie ";") 
+    }
+    BIND(STRLANG(?wylie_variant, "bo-x-ewts") AS ?alt_label_wylie)
+
+    # Tibetan 
+    OPTIONAL {
+        ?tibetan_variant apf:strSplit(?Role_Variant_Names_Tibetan ";") 
+    }
+    BIND(STRLANG(?tibetan_variant, "bo") AS ?alt_label_tibetan)
+
+    # Description
+    BIND(STRLANG(?Role_Description, "en") AS ?description_en)
+}
