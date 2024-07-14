@@ -123,7 +123,8 @@ WHERE {
 
     # Primary name and title
     # Note: TOL transcription is tagged as English
-    BIND(STRLANG(?Primary_name, ?Primary_name_encoding) AS ?primary_name)
+    BIND(IF(?Primary_name_encoding = "UNKNOWN", "en", ?Primary_name_encoding) AS ?primary_name_lg)
+    BIND(STRLANG(?Primary_name, ?primary_name_lg) AS ?primary_name)
     BIND(STRLANG(?Primary_title, "en") AS ?title_en)
 
     # Wylie name and title
