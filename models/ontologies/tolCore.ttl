@@ -1073,14 +1073,32 @@ tolo:inYear
 	skos:scopeNote "This is a covering concept for approximate, actual, and alternate years (as for births, deaths, and foundings) but would generally not be materialized directly."@en ;
 	.
 
+tolo:isBranchOf
+	a owl:ObjectProperty ;
+	skos:definition "Relates a monastery to a larger monastery in another location of which it is a subsidiary or affiliate."@en ;
+	skos:editorialNote "Consider whether the domain/rangeIncludes should be tightened to rdfs:domain/range, or perhaps, slightly looser, Institution rather than Monastery."@en ;
+	skos:example "The Adzom Gar monastery is a branch of the Katok monastery."@en ;
+	skos:prefLabel "is branch of"@en ;
+	skos:scopeNote "Differs from the tolo:isDerivedFrom relationship between monasteries, which is used for monasteries in exile."@en ;
+	gist:domainIncludes tolo:Monastery ;
+	gist:rangeIncludes tolo:Monastery ;
+	.
+
 tolo:isDerivedFrom
 	a owl:ObjectProperty ;
-	skos:definition "Relates a resource in a hierarchy to its parent entity in that hierarchy."@en ;
-	skos:editorialNote "Consider better names - e.g., hasParentEntity, branchesFrom."@en ;
-	skos:example "The Barom Kagyu tradition is derived from, or branches off of, the Marpa Kagyu tradition."@en ;
+	skos:definition "Relates a resource to another it is derived from. This could be in the context of a hierarchy, as for traditions and incarnation lineages, or not, as for monasteries in exile."@en ;
+	skos:example "The Barom Kagyu tradition is derived from, or branches off of, the Marpa Kagyu tradition; the Kalu Rinpoche incarnation lineage is derived from the Jamgon Kongtrul lineage; the Ganden and Ganden Tritok Khang monasteries in India are derived from the Ganden monastery in Tibet."@en ;
 	skos:prefLabel "is derived from"@en ;
-	gist:domainIncludes tolo:Tradition ;
-	gist:rangeIncludes tolo:Tradition ;
+	gist:domainIncludes
+		tolo:IncarnationLineage ,
+		tolo:Monastery ,
+		tolo:Tradition
+		;
+	gist:rangeIncludes
+		tolo:IncarnationLineage ,
+		tolo:Monastery ,
+		tolo:Tradition
+		;
 	.
 
 tolo:isHusbandIn
