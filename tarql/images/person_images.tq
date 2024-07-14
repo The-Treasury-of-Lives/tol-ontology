@@ -5,6 +5,7 @@ PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
 PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
+PREFIX media-image: <https://www.iana.org/assignments/media-types/image/> 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -44,7 +45,9 @@ CONSTRUCT {
         rdfs:seeAlso ?har_url ;
         tolo:credit ?credit_en ;
         tolo:caption ?caption_en ;
-        gist:isCategorizedBy ?rank_iri ;
+        gist:isCategorizedBy 
+            ?rank_iri ,
+            ?media_type_iri ;
         tolo:isCreatedBy ?created_by_iri ;
         tolo:createDateTime ?create_datetime ;
         tolo:isLastModifiedBy ?last_modified_by_iri ;
@@ -54,6 +57,7 @@ CONSTRUCT {
     ?thumbnail_iri 
         a tolo:Image ;
         tolo:fileName ?thumb_file_name ;
+        gist:isCategorizedBy ?media_type_iri ;
         .
 
 }
@@ -76,6 +80,15 @@ WHERE {
 
     BIND(IF(?is_primary = "1", "primary", "secondary") AS ?rank_value)
     BIND(tarql:expandPrefixedName(CONCAT("tolx:_Rank_", ?rank_value)) AS ?rank_iri)
+
+    # Assuming image and thumbnail always have the same media type.
+    BIND(LCASE(REPLACE(?image_file_name, "^.+\\.", "")) AS ?image_file_ext)
+    BIND(
+        COALESCE(
+            IF(?image_file_ext IN ("jpg", "jpeg"), media-image:jpg, ?unbound),
+            IF(?image_file_ext = "png", media-image:png, ?unbound)
+        ) AS ?media_type_iri
+    )
 
     BIND(IF(?caption != "NULL", STRLANG(?caption, "en"), ?unbound) AS ?caption_en)
 

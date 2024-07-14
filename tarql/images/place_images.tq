@@ -5,6 +5,7 @@ PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
 PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
+PREFIX media-image: <https://www.iana.org/assignments/media-types/image/> 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -39,6 +40,7 @@ CONSTRUCT {
         gist:license ?license_en ;
         tolo:sourceUrl ?source_url ;
         tolo:creationDate ?creation_date ;
+        gist:isCategorizedBy ?media_type_iri ;
         .
 
 }
@@ -60,5 +62,13 @@ WHERE {
     BIND(IF(?image_source_url != "NULL", STRDT(?image_source_url, xsd:anyURI), ?unbound) AS ?source_url)
 
     BIND(IF(?image_date_taken != "NULL", STRDT(CONCAT(?image_date_taken, "T00:00:00"), xsd:dateTime), ?unbound) as ?creation_date)
+
+    BIND(LCASE(REPLACE(?image_path, "^.+\\.", "")) AS ?image_file_ext)
+    BIND(
+        COALESCE(
+            IF(?image_file_ext IN ("jpg", "jpeg"), media-image:jpg, ?unbound),
+            IF(?image_file_ext = "png", media-image:png, ?unbound)
+        ) AS ?media_type_iri
+    )
 
 }
