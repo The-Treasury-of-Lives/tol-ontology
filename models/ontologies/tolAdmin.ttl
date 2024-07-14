@@ -173,22 +173,21 @@ tolo:ipAddress
 	.
 
 tolo:isCreatedBy
-	a owl:ObjectProperty ;
-	rdfs:range tolo:UserAccount ;
+	a owl:AnnotationProperty ;
 	skos:definition "The user account which created metadata related to some resource, such as an image."@en ;
+	skos:editorialNote "Not sure what this will point to - User, UserAccount."@en ;
 	skos:prefLabel "is created by"@en ;
 	.
 
 tolo:isLastModifiedBy
-	a owl:ObjectProperty ;
-	rdfs:range tolo:UserAccount ;
+	a owl:AnnotationProperty ;
 	skos:definition "The user account which last modified metadata related to some resource, such as an image."@en ;
+	skos:editorialNote "Not sure what this will point to - User, UserAccount."@en ;
 	skos:prefLabel "is last modified by"@en ;
 	.
 
 tolo:lastModifiedDateTime
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:atDateTime ;
+	a owl:AnnotationProperty ;
 	skos:definition "The timestamp of the last modification of metadata related to some resource."@en ;
 	skos:prefLabel "last modified datetime"@en ;
 	.
