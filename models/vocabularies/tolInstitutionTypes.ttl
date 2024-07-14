@@ -1,0 +1,61 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+tolx:_InstitutionType_monastery
+	a tolo:InstitutionType ;
+	owl:sameAs
+		bdr:PT0037 ,
+		wiki:Q44613
+		;
+	skos:definition "A community of ordained individuals affiliated with a particular religious tradition with a common annual ritual calendar and rules. The community is organized heirarchically, with established roles such as abbot, treasurer, and the like. Human-created structures such as temples, assembly halls, residential houses and meditation halls are typical features."@en ;
+	skos:prefLabel
+		"Monastery"@en ,
+		"dgon pa"@bo-x-ewts ,
+		"དགོན་པ་"@bo ,
+		"寺院"@zh-HANI
+		;
+	.
+
+tolx:_InstitutionType_monastic_college
+	a tolo:InstitutionType ;
+	owl:sameAs bdr:PT0038 ;
+	skos:definition "An institute of higher studies associated with a monastery. Members include teachers and students. Most monastic colleges train monks or nuns in the religious texts and rituals of the associated monastery."@en ;
+	skos:prefLabel
+		"""
+གྲྭ་ཚང་; བཤད་གྲྭ་"""@bo ,
+		"Monastic College"@en ,
+		"grwa tshang, bshad grwa"@bo-x-ewts ,
+		"讲经院"@zh-HANI
+		;
+	.
+
+tolx:_InstitutionType_nunnery
+	a tolo:InstitutionType ;
+	owl:sameAs
+		bdr:PT0050 ,
+		wiki:Q6021560
+		;
+	skos:definition "A community of women dedicated to religious practice."@en ;
+	skos:prefLabel
+		"Nunnery"@en ,
+		"a ni dgon pa; btsun dgon;  jo mo dgon"@bo-x-ewts ,
+		"ཨ་ནི་དགོན་པ་; བཙུན་དགོན་; ཇོ་མོ་དགོན་"@bo ,
+		"尼姑寺"@zh-HANI
+		;
+	.
+

@@ -29,12 +29,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # Definition
 
 # Run:
-# tarql -e utf-8 place_types.tq place-types-7-14-24.csv > tolPlaceTypes.ttl
+# tarql -e utf-8 place_functions.tq place-types-7-14-24.csv > tolPlaceFunctions.ttl
 
 CONSTRUCT {
 
     ?type_iri
-        a tolo:PlaceType ;
+        a tolo:PlaceFunction ;
         owl:sameAs 
             ?bdrc_iri ,
             ?wikidata_iri ;
@@ -50,15 +50,15 @@ CONSTRUCT {
 
 WHERE {
 
-    FILTER(?Class = "PlaceType")
+    FILTER(?Class = "PlaceFunction")
 
     # Testing
-    # FILTER(?ROWNUM = 1)
+    # FILTER(?ROWNUM = 2) 
 
     BIND(LCASE(REPLACE(?Site__Place__Type, " ", "_")) AS ?type)
 
     # Category
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_PlaceType_", ?type)) AS ?type_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_PlaceFunction_", ?type)) AS ?type_iri)
 
     # owl:sameAs
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?BDRC_ID)) AS ?bdrc_iri)
