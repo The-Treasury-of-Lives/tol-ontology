@@ -1228,6 +1228,14 @@ tolo:primaryName
 		;
 	.
 
+tolo:publicationDate
+	a owl:DatatypeProperty ;
+	rdfs:subClassOf gist:atDateTime ;
+	skos:definition "The date a biography was published, with day precision."@en ;
+	skos:prefLabel "publication date"@en ;
+	skos:scopeNote "Differs from the timestamp when the biography metadata was entered into the database (tolo:createDateTime)."@en ;
+	.
+
 tolo:references
 	a owl:ObjectProperty ;
 	skos:definition "Relates content, such as a biography, to a another content instance that was either used as a source or provides additional information about the content."@en ;
@@ -1247,6 +1255,14 @@ tolo:title
 	rdfs:range rdf:langString ;
 	skos:definition "An appellation of dignity, honor, distinction, or preeminence attached to a person or family by virtue of rank, office, precedent, privilege, attainment, or lands."@en ;
 	skos:prefLabel "title"@en ;
+	.
+
+tolo:updateDate
+	a owl:DatatypeProperty ;
+	rdfs:subClassOf gist:atDateTime ;
+	skos:definition "The date a biography was updated, with day precision."@en ;
+	skos:prefLabel "update date"@en ;
+	skos:scopeNote "Differs from the timestamp when the biography metadata was last modified in the database (tolo:lastModifiedDateTime)."@en ;
 	.
 
 tolo:url
