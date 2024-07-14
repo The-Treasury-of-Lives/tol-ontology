@@ -65,8 +65,9 @@ CONSTRUCT {
             ?title_en ,
             ?title_wylie ;
 
-        # These are mixed between English, Wylie, and others, so omit language tag.
         tolo:displayLabel ?Display_name_English ;
+
+        gist:isIdentifiedBy ?tol_id_iri ;
 
         bdo:personGender ?gender_iri ;
 
@@ -75,6 +76,11 @@ CONSTRUCT {
             ?har_url ,
             ?rma_url ,
             ?84000_url ;
+        .
+
+    ?tol_id_iri a gist:ID ;
+        gist:uniqueText ?TOL_ID ;
+        gist:isCategorizedBy tolx:_IdType_tol ;
         .
 
     ?birth_iri a tolo:Birth ;
@@ -110,6 +116,9 @@ WHERE {
     # owl:sameAs
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?TBRC_RID)) AS ?bdrc_iri)
     BIND(tarql:expandPrefixedName(CONCAT("wiki:", ?Wikidata_ID)) AS ?wikidata_iri) 
+
+    # TOL ID
+    BIND(tarql:expandPrefixedName(CONCAT("told:_ID_tol_Person_", ?TOL_ID)) AS ?tol_id_iri)
 
     # rdfs:seeAlso
     BIND(STRDT(?Lotsawa_House_URL, xsd:anyURI) AS ?lotsawa_house_url)
