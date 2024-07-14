@@ -1,0 +1,12 @@
+c1,c2,c3,status
+_InstitutionType_monastery,_PlaceFunction_hermitage,_PlaceType_cave,
+_InstitutionType_monastery,_PlaceType_cave,,
+_PlaceFunction_hermitage,_PlaceType_cave,,
+_InstitutionType_dharma_center,_InstitutionType_monastery,_PlaceFunction_temple,
+_InstitutionType_dharma_center,_PlaceFunction_temple,,
+_PlaceFunction_hermitage,_PlaceType_lake,,
+_InstitutionType_dharma_center,_InstitutionType_monastery,,
+_InstitutionType_monastery,_PlaceFunction_hermitage,,
+_PlaceFunction_manor,_PlaceFunction_temple,,
+_InstitutionType_monastery,_PlaceFunction_temple,,
+_InstitutionType_monastery,_InstitutionType_monastic_college,,
