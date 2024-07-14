@@ -43,6 +43,7 @@ CONSTRUCT {
         <https://w3id.org/semanticarts/ontology/gistCore12.1.0> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/data/tolRolesX.x.x> ;
 	skos:definition "A role, office, or vocation played by a person, typically, though not always, in an institutional context."@en ;
+    skos:editorialNote "Auto-generated via TARQL."@en ;
 	skos:prefLabel "Treasury of Lives Roles"@en ;
 	.
 
