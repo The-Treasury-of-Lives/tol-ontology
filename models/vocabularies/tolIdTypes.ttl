@@ -19,9 +19,16 @@
 	a owl:Ontology ;
 	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/data/tolIdTypesX.x.x> ;
-	skos:definition "Defines types of external identifiers. The ID type is used to construct links by specifying a URL fragment to combine with the identifier to form a URL and a display label to use as link text."@en ;
+	skos:definition "Defines types of identifiers. In the case of external IDs, ID type is used to construct links by specifying a URL fragment to combine with the identifier to form a URL and a display label to use as link text."@en ;
 	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Identifier Types"@en ;
+	.
+
+tolx:_IdType_tol
+	a tolo:IdType ;
+	skos:definition "Used to store legacy TOL ID."@en ;
+	skos:editorialNote "Currently used only for persons."@en ;
+	skos:prefLabel "Treasury of Lives ID"@en ;
 	.
 
 tolx:_IdType_worldcat
