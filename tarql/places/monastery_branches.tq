@@ -25,7 +25,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 CONSTRUCT {
 
-    ?monastery_iri tolo:isDerivedFrom ?parent_iri ;
+    ?monastery_iri tolo:isBranchOf ?parent_iri ;
     .
 
 }

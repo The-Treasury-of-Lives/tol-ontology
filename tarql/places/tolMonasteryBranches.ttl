@@ -17,438 +17,438 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 told:_Place_1013
-	tolo:isDerivedFrom told:_Place_41 ;
+	tolo:isBranchOf told:_Place_41 ;
 	.
 
 told:_Place_1038
-	tolo:isDerivedFrom told:_Place_354 ;
+	tolo:isBranchOf told:_Place_354 ;
 	.
 
 told:_Place_1042
-	tolo:isDerivedFrom told:_Place_401 ;
+	tolo:isBranchOf told:_Place_401 ;
 	.
 
 told:_Place_1069
-	tolo:isDerivedFrom told:_Place_237 ;
+	tolo:isBranchOf told:_Place_237 ;
 	.
 
 told:_Place_1089
-	tolo:isDerivedFrom told:_Place_352 ;
+	tolo:isBranchOf told:_Place_352 ;
 	.
 
 told:_Place_1096
-	tolo:isDerivedFrom told:_Place_14 ;
+	tolo:isBranchOf told:_Place_14 ;
 	.
 
 told:_Place_110
-	tolo:isDerivedFrom told:_Place_39 ;
+	tolo:isBranchOf told:_Place_39 ;
 	.
 
 told:_Place_1112
-	tolo:isDerivedFrom told:_Place_14 ;
+	tolo:isBranchOf told:_Place_14 ;
 	.
 
 told:_Place_1178
-	tolo:isDerivedFrom told:_Place_41 ;
+	tolo:isBranchOf told:_Place_41 ;
 	.
 
 told:_Place_1185
-	tolo:isDerivedFrom told:_Place_41 ;
+	tolo:isBranchOf told:_Place_41 ;
 	.
 
 told:_Place_1187
-	tolo:isDerivedFrom told:_Place_95 ;
+	tolo:isBranchOf told:_Place_95 ;
 	.
 
 told:_Place_1191
-	tolo:isDerivedFrom told:_Place_947 ;
+	tolo:isBranchOf told:_Place_947 ;
 	.
 
 told:_Place_1194
-	tolo:isDerivedFrom told:_Place_947 ;
+	tolo:isBranchOf told:_Place_947 ;
 	.
 
 told:_Place_1211
-	tolo:isDerivedFrom told:_Place_14 ;
+	tolo:isBranchOf told:_Place_14 ;
 	.
 
 told:_Place_1216
-	tolo:isDerivedFrom told:_Place_215 ;
+	tolo:isBranchOf told:_Place_215 ;
 	.
 
 told:_Place_1229
-	tolo:isDerivedFrom told:_Place_342 ;
+	tolo:isBranchOf told:_Place_342 ;
 	.
 
 told:_Place_1231
-	tolo:isDerivedFrom told:_Place_38 ;
+	tolo:isBranchOf told:_Place_38 ;
 	.
 
 told:_Place_1246
-	tolo:isDerivedFrom told:_Place_349 ;
+	tolo:isBranchOf told:_Place_349 ;
 	.
 
 told:_Place_1261
-	tolo:isDerivedFrom told:_Place_12 ;
+	tolo:isBranchOf told:_Place_12 ;
 	.
 
 told:_Place_1263
-	tolo:isDerivedFrom told:_Place_12 ;
+	tolo:isBranchOf told:_Place_12 ;
 	.
 
 told:_Place_1266
-	tolo:isDerivedFrom told:_Place_244 ;
+	tolo:isBranchOf told:_Place_244 ;
 	.
 
 told:_Place_1273
-	tolo:isDerivedFrom told:_Place_237 ;
+	tolo:isBranchOf told:_Place_237 ;
 	.
 
 told:_Place_1276
-	tolo:isDerivedFrom told:_Place_603 ;
+	tolo:isBranchOf told:_Place_603 ;
 	.
 
 told:_Place_1277
-	tolo:isDerivedFrom told:_Place_9 ;
+	tolo:isBranchOf told:_Place_9 ;
 	.
 
 told:_Place_1300
-	tolo:isDerivedFrom told:_Place_1299 ;
+	tolo:isBranchOf told:_Place_1299 ;
 	.
 
 told:_Place_1308
-	tolo:isDerivedFrom told:_Place_869 ;
+	tolo:isBranchOf told:_Place_869 ;
 	.
 
 told:_Place_1315
-	tolo:isDerivedFrom told:_Place_348 ;
+	tolo:isBranchOf told:_Place_348 ;
 	.
 
 told:_Place_1317
-	tolo:isDerivedFrom told:_Place_38 ;
+	tolo:isBranchOf told:_Place_38 ;
 	.
 
 told:_Place_1318
-	tolo:isDerivedFrom told:_Place_9 ;
+	tolo:isBranchOf told:_Place_9 ;
 	.
 
 told:_Place_1320
-	tolo:isDerivedFrom told:_Place_1316 ;
+	tolo:isBranchOf told:_Place_1316 ;
 	.
 
 told:_Place_1334
-	tolo:isDerivedFrom told:_Place_40 ;
+	tolo:isBranchOf told:_Place_40 ;
 	.
 
 told:_Place_1335
-	tolo:isDerivedFrom told:_Place_12 ;
+	tolo:isBranchOf told:_Place_12 ;
 	.
 
 told:_Place_1340
-	tolo:isDerivedFrom told:_Place_95 ;
+	tolo:isBranchOf told:_Place_95 ;
 	.
 
 told:_Place_1398
-	tolo:isDerivedFrom told:_Place_11 ;
+	tolo:isBranchOf told:_Place_11 ;
 	.
 
 told:_Place_1401
-	tolo:isDerivedFrom told:_Place_327 ;
+	tolo:isBranchOf told:_Place_327 ;
 	.
 
 told:_Place_1431
-	tolo:isDerivedFrom told:_Place_9 ;
+	tolo:isBranchOf told:_Place_9 ;
 	.
 
 told:_Place_145
-	tolo:isDerivedFrom told:_Place_720 ;
+	tolo:isBranchOf told:_Place_720 ;
 	.
 
 told:_Place_1475
-	tolo:isDerivedFrom told:_Place_892 ;
+	tolo:isBranchOf told:_Place_892 ;
 	.
 
 told:_Place_1502
-	tolo:isDerivedFrom told:_Place_968 ;
+	tolo:isBranchOf told:_Place_968 ;
 	.
 
 told:_Place_1521
-	tolo:isDerivedFrom told:_Place_342 ;
+	tolo:isBranchOf told:_Place_342 ;
 	.
 
 told:_Place_1541
-	tolo:isDerivedFrom told:_Place_95 ;
+	tolo:isBranchOf told:_Place_95 ;
 	.
 
 told:_Place_1549
-	tolo:isDerivedFrom told:_Place_385 ;
+	tolo:isBranchOf told:_Place_385 ;
 	.
 
 told:_Place_1551
-	tolo:isDerivedFrom told:_Place_1493 ;
+	tolo:isBranchOf told:_Place_1493 ;
 	.
 
 told:_Place_1556
-	tolo:isDerivedFrom told:_Place_12 ;
+	tolo:isBranchOf told:_Place_12 ;
 	.
 
 told:_Place_1560
-	tolo:isDerivedFrom told:_Place_893 ;
+	tolo:isBranchOf told:_Place_893 ;
 	.
 
 told:_Place_158
-	tolo:isDerivedFrom told:_Place_95 ;
+	tolo:isBranchOf told:_Place_95 ;
 	.
 
 told:_Place_159
-	tolo:isDerivedFrom told:_Place_720 ;
+	tolo:isBranchOf told:_Place_720 ;
 	.
 
 told:_Place_1592
-	tolo:isDerivedFrom told:_Place_128 ;
+	tolo:isBranchOf told:_Place_128 ;
 	.
 
 told:_Place_1596
-	tolo:isDerivedFrom told:_Place_32 ;
+	tolo:isBranchOf told:_Place_32 ;
 	.
 
 told:_Place_1597
-	tolo:isDerivedFrom told:_Place_207 ;
+	tolo:isBranchOf told:_Place_207 ;
 	.
 
 told:_Place_1604
-	tolo:isDerivedFrom told:_Place_128 ;
+	tolo:isBranchOf told:_Place_128 ;
 	.
 
 told:_Place_1617
-	tolo:isDerivedFrom told:_Place_32 ;
+	tolo:isBranchOf told:_Place_32 ;
 	.
 
 told:_Place_1618
-	tolo:isDerivedFrom told:_Place_32 ;
+	tolo:isBranchOf told:_Place_32 ;
 	.
 
 told:_Place_1619
-	tolo:isDerivedFrom told:_Place_32 ;
+	tolo:isBranchOf told:_Place_32 ;
 	.
 
 told:_Place_1620
-	tolo:isDerivedFrom told:_Place_32 ;
+	tolo:isBranchOf told:_Place_32 ;
 	.
 
 told:_Place_1625
-	tolo:isDerivedFrom told:_Place_375 ;
+	tolo:isBranchOf told:_Place_375 ;
 	.
 
 told:_Place_1631
-	tolo:isDerivedFrom told:_Place_128 ;
+	tolo:isBranchOf told:_Place_128 ;
 	.
 
 told:_Place_1632
-	tolo:isDerivedFrom told:_Place_12 ;
+	tolo:isBranchOf told:_Place_12 ;
 	.
 
 told:_Place_1649
-	tolo:isDerivedFrom told:_Place_9 ;
+	tolo:isBranchOf told:_Place_9 ;
 	.
 
 told:_Place_1659
-	tolo:isDerivedFrom told:_Place_342 ;
+	tolo:isBranchOf told:_Place_342 ;
 	.
 
 told:_Place_1674
-	tolo:isDerivedFrom told:_Place_9 ;
+	tolo:isBranchOf told:_Place_9 ;
 	.
 
 told:_Place_1676
-	tolo:isDerivedFrom told:_Place_9 ;
+	tolo:isBranchOf told:_Place_9 ;
 	.
 
 told:_Place_1686
-	tolo:isDerivedFrom told:_Place_1685 ;
+	tolo:isBranchOf told:_Place_1685 ;
 	.
 
 told:_Place_1694
-	tolo:isDerivedFrom told:_Place_1493 ;
+	tolo:isBranchOf told:_Place_1493 ;
 	.
 
 told:_Place_1702
-	tolo:isDerivedFrom told:_Place_9 ;
+	tolo:isBranchOf told:_Place_9 ;
 	.
 
 told:_Place_1747
-	tolo:isDerivedFrom told:_Place_9 ;
+	tolo:isBranchOf told:_Place_9 ;
 	.
 
 told:_Place_1750
-	tolo:isDerivedFrom told:_Place_41 ;
+	tolo:isBranchOf told:_Place_41 ;
 	.
 
 told:_Place_179
-	tolo:isDerivedFrom told:_Place_128 ;
+	tolo:isBranchOf told:_Place_128 ;
 	.
 
 told:_Place_183
-	tolo:isDerivedFrom told:_Place_839 ;
+	tolo:isBranchOf told:_Place_839 ;
 	.
 
 told:_Place_207
-	tolo:isDerivedFrom told:_Place_32 ;
+	tolo:isBranchOf told:_Place_32 ;
 	.
 
 told:_Place_209
-	tolo:isDerivedFrom told:_Place_206 ;
+	tolo:isBranchOf told:_Place_206 ;
 	.
 
 told:_Place_219
-	tolo:isDerivedFrom told:_Place_218 ;
+	tolo:isBranchOf told:_Place_218 ;
 	.
 
 told:_Place_243
-	tolo:isDerivedFrom told:_Place_468 ;
+	tolo:isBranchOf told:_Place_468 ;
 	.
 
 told:_Place_345
-	tolo:isDerivedFrom told:_Place_156 ;
+	tolo:isBranchOf told:_Place_156 ;
 	.
 
 told:_Place_346
-	tolo:isDerivedFrom told:_Place_156 ;
+	tolo:isBranchOf told:_Place_156 ;
 	.
 
 told:_Place_361
-	tolo:isDerivedFrom told:_Place_41 ;
+	tolo:isBranchOf told:_Place_41 ;
 	.
 
 told:_Place_368
-	tolo:isDerivedFrom told:_Place_41 ;
+	tolo:isBranchOf told:_Place_41 ;
 	.
 
 told:_Place_403
-	tolo:isDerivedFrom told:_Place_1299 ;
+	tolo:isBranchOf told:_Place_1299 ;
 	.
 
 told:_Place_404
-	tolo:isDerivedFrom told:_Place_237 ;
+	tolo:isBranchOf told:_Place_237 ;
 	.
 
 told:_Place_410
-	tolo:isDerivedFrom told:_Place_41 ;
+	tolo:isBranchOf told:_Place_41 ;
 	.
 
 told:_Place_421
-	tolo:isDerivedFrom told:_Place_9 ;
+	tolo:isBranchOf told:_Place_9 ;
 	.
 
 told:_Place_43
-	tolo:isDerivedFrom told:_Place_9 ;
+	tolo:isBranchOf told:_Place_9 ;
 	.
 
 told:_Place_437
-	tolo:isDerivedFrom told:_Place_375 ;
+	tolo:isBranchOf told:_Place_375 ;
 	.
 
 told:_Place_44
-	tolo:isDerivedFrom told:_Place_9 ;
+	tolo:isBranchOf told:_Place_9 ;
 	.
 
 told:_Place_470
-	tolo:isDerivedFrom told:_Place_13 ;
+	tolo:isBranchOf told:_Place_13 ;
 	.
 
 told:_Place_473
-	tolo:isDerivedFrom told:_Place_95 ;
+	tolo:isBranchOf told:_Place_95 ;
 	.
 
 told:_Place_480
-	tolo:isDerivedFrom told:_Place_41 ;
+	tolo:isBranchOf told:_Place_41 ;
 	.
 
 told:_Place_485
-	tolo:isDerivedFrom told:_Place_64 ;
+	tolo:isBranchOf told:_Place_64 ;
 	.
 
 told:_Place_488
-	tolo:isDerivedFrom told:_Place_9 ;
+	tolo:isBranchOf told:_Place_9 ;
 	.
 
 told:_Place_499
-	tolo:isDerivedFrom told:_Place_398 ;
+	tolo:isBranchOf told:_Place_398 ;
 	.
 
 told:_Place_519
-	tolo:isDerivedFrom told:_Place_9 ;
+	tolo:isBranchOf told:_Place_9 ;
 	.
 
 told:_Place_522
-	tolo:isDerivedFrom told:_Place_12 ;
+	tolo:isBranchOf told:_Place_12 ;
 	.
 
 told:_Place_525
-	tolo:isDerivedFrom told:_Place_14 ;
+	tolo:isBranchOf told:_Place_14 ;
 	.
 
 told:_Place_567
-	tolo:isDerivedFrom told:_Place_14 ;
+	tolo:isBranchOf told:_Place_14 ;
 	.
 
 told:_Place_572
-	tolo:isDerivedFrom told:_Place_190 ;
+	tolo:isBranchOf told:_Place_190 ;
 	.
 
 told:_Place_574
-	tolo:isDerivedFrom told:_Place_39 ;
+	tolo:isBranchOf told:_Place_39 ;
 	.
 
 told:_Place_591
-	tolo:isDerivedFrom told:_Place_95 ;
+	tolo:isBranchOf told:_Place_95 ;
 	.
 
 told:_Place_62
-	tolo:isDerivedFrom told:_Place_39 ;
+	tolo:isBranchOf told:_Place_39 ;
 	.
 
 told:_Place_621
-	tolo:isDerivedFrom told:_Place_14 ;
+	tolo:isBranchOf told:_Place_14 ;
 	.
 
 told:_Place_687
-	tolo:isDerivedFrom told:_Place_95 ;
+	tolo:isBranchOf told:_Place_95 ;
 	.
 
 told:_Place_696
-	tolo:isDerivedFrom told:_Place_9 ;
+	tolo:isBranchOf told:_Place_9 ;
 	.
 
 told:_Place_697
-	tolo:isDerivedFrom told:_Place_9 ;
+	tolo:isBranchOf told:_Place_9 ;
 	.
 
 told:_Place_699
-	tolo:isDerivedFrom told:_Place_9 ;
+	tolo:isBranchOf told:_Place_9 ;
 	.
 
 told:_Place_702
-	tolo:isDerivedFrom told:_Place_174 ;
+	tolo:isBranchOf told:_Place_174 ;
 	.
 
 told:_Place_724
-	tolo:isDerivedFrom told:_Place_349 ;
+	tolo:isBranchOf told:_Place_349 ;
 	.
 
 told:_Place_813
-	tolo:isDerivedFrom told:_Place_237 ;
+	tolo:isBranchOf told:_Place_237 ;
 	.
 
 told:_Place_827
-	tolo:isDerivedFrom told:_Place_892 ;
+	tolo:isBranchOf told:_Place_892 ;
 	.
 
 told:_Place_838
-	tolo:isDerivedFrom told:_Place_39 ;
+	tolo:isBranchOf told:_Place_39 ;
 	.
 
 told:_Place_979
-	tolo:isDerivedFrom told:_Place_41 ;
+	tolo:isBranchOf told:_Place_41 ;
 	.
 
