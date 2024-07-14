@@ -21,8 +21,8 @@ PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/>
 # summary (HTML text)
 # body_text
 # peer_reviewed (binary)
-# published_display_date
-# updated_display_date
+# published_display_date (ignore)
+# updated_display_date (ignore)
 # relative_statement (binary)
 # student_statement (binary)
 
@@ -42,8 +42,6 @@ CONSTRUCT {
         tolo:hasStatement
             ?relative_author_statement ,
             ?student_author_statement ;
-        tolo:publicationDisplayDate ?published_display_date ;
-        tolo:updateDisplayDate ?updated_display_date ;
         tolo:hasSummary ?summary_iri ;
         .
 

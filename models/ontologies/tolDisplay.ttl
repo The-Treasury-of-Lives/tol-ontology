@@ -129,24 +129,6 @@ tolo:minZoomLevel
 	skos:preflabel "minimum zoom level"@en ;
 	.
 
-tolo:publicationDisplayDate
-	a owl:AnnotationProperty ;
-	rdfs:domain tolo:Biography ;
-	rdfs:range xsd:string ;
-	skos:definition "The date of publication to display with a biography."@en ;
-	skos:example "August 2007"@en ;
-	skos:prefLabel "publication display date"@en ;
-	.
-
-tolo:updateDisplayDate
-	a owl:AnnotationProperty ;
-	rdfs:domain tolo:Biography ;
-	rdfs:range xsd:string ;
-	skos:definition "The date of last update to display with a biography."@en ;
-	skos:example "August 2007"@en ;
-	skos:prefLabel "update display date"@en ;
-	.
-
 tolo:zoomLevelOnClick
 	a owl:AnnotationProperty ;
 	rdfs:range xsd:integer ;
