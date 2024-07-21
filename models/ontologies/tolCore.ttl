@@ -221,7 +221,7 @@ tolo:Incarnation
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
-			gist:OrderedMember
+			tolo:LineageMember
 			[
 				a owl:Restriction ;
 				owl:onProperty [
@@ -266,7 +266,7 @@ tolo:IncarnationLineage
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
-			gist:OrderedCollection
+			tolo:Lineage
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:hasMember ;
@@ -360,6 +360,47 @@ tolo:KinshipGroupType
 	skos:example "Lhasa Aristocracy."@en ;
 	skos:prefLabel "Kinship Group Type"@en ;
 	skos:scopeNote "Currently only one type is defined."@en ;
+	.
+
+tolo:Lineage
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:OrderedCollection
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasMember ;
+				owl:allValuesFrom tolo:LineageMember ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasMember ;
+				owl:someValuesFrom tolo:LineageMember ;
+			]
+		) ;
+	] ;
+	skos:definition "A line of persons serving in a certain role or function, such as the heads of a particular monastery or an incarnation lineage."@en ;
+	skos:prefLabel "Lineage"@en ;
+	.
+
+tolo:LineageMember
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:OrderedMember ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:sequence ;
+			owl:someValuesFrom xsd:integer ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty tolo:ordinal ;
+			owl:someValuesFrom xsd:integer ;
+		]
+		;
+	skos:definition "TBD"@en ;
+	skos:prefLabel "Lineage Member"@en ;
 	.
 
 tolo:Marriage
@@ -498,20 +539,52 @@ tolo:MonasteryHeadLineage
 		owl:onProperty gist:hasMember ;
 		owl:allValuesFrom tolo:MonasteryHead ;
 	] ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			gist:OrderedCollection
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:hasMember ;
-				owl:someValuesFrom tolo:MonasteryHead ;
-			]
-		) ;
-	] ;
-	skos:definition "A consecutive line of monastery heads."@en ;
-	skos:editorialNote "Are there discrepancies between ordinal and sequence as for incarnations?"@en ;
-	skos:prefLabel "Monastery Head Lineage"@en ;
+	owl:disjointWith tolo:IncarnationLineage ;
+	owl:equivalentClass
+		[
+			a owl:Class ;
+			owl:intersectionOf (
+				gist:OrderedCollection
+				[
+					a owl:Restriction ;
+					owl:onProperty gist:hasMember ;
+					owl:someValuesFrom tolo:MonasteryHead ;
+				]
+			) ;
+		] ,
+		[
+			a owl:Class ;
+			owl:intersectionOf (
+				tolo:Lineage
+				[
+					a owl:Restriction ;
+					owl:onProperty gist:hasMember ;
+					owl:someValuesFrom [
+						a owl:Restriction ;
+						owl:onProperty gist:isCategorizedBy ;
+						owl:someValuesFrom tolx:_Role_monastery_head ;
+					] ;
+				]
+				[
+					a owl:Restriction ;
+					owl:onProperty gist:isConnectedTo ;
+					owl:someValuesFrom tolo:Monastery ;
+				]
+			) ;
+		]
+		;
+	skos:definition
+		"A consecutive line of monastery heads."@en ,
+		"A lineage of heads of a particular monastery."@en
+		;
+	skos:editorialNote
+		"Are there discrepancies between ordinal and sequence as for incarnations?"@en ,
+		"We may just use the generic Lineage instead."@en
+		;
+	skos:prefLabel
+		"Monastery Head Lineage"@en ,
+		"Monastery Head Lineage"@en
+		;
 	.
 
 tolo:Person
@@ -565,37 +638,10 @@ tolo:PlaceType
 
 tolo:Reference
 	a owl:Class ;
-	owl:deprecated "true"^^xsd:boolean ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
 			gist:RenderedContent
-			[
-				a owl:Restriction ;
-				owl:onProperty tolo:localName ;
-				owl:someValuesFrom xsd:string ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:isCategorizedBy ;
-				owl:someValuesFrom tolo:ReferenceCollection ;
-			]
-		) ;
-	] ;
-	skos:definition "An online resource providing documentation on an entity such as a person or image."@en ;
-	skos:editorialNote "Deprecated for now in favor of using a simple URL. The reason for defining Reference and ReferenceCollection classes is to provide a display label, but maybe it's not worth the overhead."@en ;
-	skos:example "TBD"@en ;
-	skos:prefLabel "Reference"@en ;
-	skos:scopeNote "The link to the reference is built from the domain and display label of the reference type."@en ;
-	.
-
-tolo:ReferenceCollection
-	a owl:Class ;
-	owl:deprecated "true"^^xsd:boolean ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			gist:Collection
 			[
 				a owl:Restriction ;
 				owl:onProperty tolo:url ;
@@ -603,10 +649,26 @@ tolo:ReferenceCollection
 			]
 		) ;
 	] ;
-	skos:definition
-		"A collection with online resources about Treasury of Lives entities such as persons and images."@en ,
-		"The collection specifies the domain and label to be used for creating links to a particular online reference. The domain is concatenated with the reference name to create the full URL, and the label is used for the link text."@en
-		;
+	skos:definition "An online resource providing information about an entity such as a person or image."@en ;
+	skos:example "TBD"@en ;
+	skos:prefLabel "Reference"@en ;
+	skos:scopeNote "The classes Reference and ReferenceCollection are used to provide URLs and display text for links to the reference."@en ;
+	.
+
+tolo:ReferenceCollection
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:Collection
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasMember ;
+				owl:someValuesFrom tolo:Reference ;
+			]
+		) ;
+	] ;
+	skos:definition "A collection with online resources about Treasury of Lives entities such as persons and images."@en ;
 	skos:example "Lotsawa House, Rubin Museum of Art"@en ;
 	skos:prefLabel "Reference Collection"@en ;
 	.
