@@ -1,0 +1,70 @@
+# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
+# imports: https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/treasuryoflives/data/tolReferenceTypes>
+	a owl:Ontology ;
+	owl:deprecated "true"^^xsd:boolean ;
+	owl:imports
+		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ,
+		<https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x>
+		;
+	owl:versionIRI <https://w3id.org/treasuryoflives/data/tolReferenceTypesX.x.x> ;
+	skos:definition "Defines online reference collections used in seeAlso links from resources such as persons and images."@en ;
+	skos:editorialNote "Hand-curated."@en ;
+	skos:prefLabel "Treasury of Lives Reference Types"@en ;
+	skos:scopeNote "Ideally, the link to a specific resource would be constructed from the collection url and the local name of the reference, but for some sites we do not have canonical URLs, and different links use different domains. Until we can get this data we  will provide the entire URL with the individual reference. Display labels are used for link text."@en ;
+	.
+
+tolx:_ReferenceType_84000
+	a tolo:ReferenceType ;
+	skos:editorialNote
+		"Currently not used"@en ,
+		"May need display label different from skos:prefLabel."@en
+		;
+	skos:prefLabel "84000"@en ;
+	tolo:displayLabel "84000"@en ;
+	tolo:url "https://84000.co/"^^xsd:anyURI ;
+	.
+
+tolx:_ReferenceType_har
+	a tolo:ReferenceType ;
+	skos:altLabel "HAR"@en ;
+	skos:prefLabel "Himalayan Art Resources"@en ;
+	tolo:displayLabel "View Image at HAR"@en ;
+	tolo:url "https://www.himalayanart.org/"^^xsd:anyURI ;
+	.
+
+tolx:_ReferenceType_lotsawa_house
+	a tolo:ReferenceType ;
+	skos:editorialNote "May need display label different from skos:prefLabel."@en ;
+	skos:prefLabel "Lotsawa House"@en ;
+	tolo:displayLabel "Lotsawa House"@en ;
+	tolo:url "https://www.lotsawahouse.org/"^^xsd:anyURI ;
+	.
+
+tolx:_ReferenceType_rma
+	a tolo:ReferenceType ;
+	skos:editorialNote
+		"Currently not used"@en ,
+		"May need display label different from skos:prefLabel."@en
+		;
+	skos:prefLabel "Rubin Museum of Art"@en ;
+	tolo:displayLabel "Rubin Museum of Art"@en ;
+	tolo:url "https://rubinmuseum.org/"^^xsd:anyURI ;
+	.
+
