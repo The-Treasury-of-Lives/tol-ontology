@@ -89,11 +89,15 @@ tolx:_PlaceFunction_palace
 		bdr:PT0051 ,
 		wiki:Q16560
 		;
+	skos:altLabel
+		"rgyal khang"@bo-x-ewts ,
+		"རྒྱལ་ཁང་"@bo
+		;
 	skos:definition "A residence of a member of a royal family."@en ;
 	skos:prefLabel
 		"Palace"@en ,
-		"pho brang, rgyal khang"@bo-x-ewts ,
-		"ཕོ་བྲང་; རྒྱལ་ཁང་"@bo ,
+		"pho brang"@bo-x-ewts ,
+		"ཕོ་བྲང་"@bo ,
 		"宫殿"@zh-HANI
 		;
 	.
@@ -136,10 +140,9 @@ tolx:_PlaceFunction_temple
 		;
 	skos:definition "A building that is dedicated to the worship of a particular deity."@en ;
 	skos:prefLabel
-		"""
-ལྷ་ཁང་"""@bo ,
 		"Temple"@en ,
 		"lha khang"@bo-x-ewts ,
+		"ལྷ་ཁང་"@bo ,
 		"宇"@zh-HANI
 		;
 	.
