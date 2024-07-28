@@ -19,13 +19,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 ## Columns
 # community_id
 # community_name (ignore)
-# place_type_name 
 # place_type_id (ignore)
+# place_type_name 
 
 # Note that Institutions are not places, but are included here because the relational database and thus the export combines them with places.
 
 # Run:
-# tarql -e utf-8 places_with_types.tq place-with-types-6-27-24.csv > tolPlacesWithTypes.ttl
+# tarql -e utf-8 places_with_types.tq place-with-types-7-19-24.csv > tolPlacesWithTypes.ttl
 
 CONSTRUCT {
 
