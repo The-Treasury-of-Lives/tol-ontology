@@ -24,7 +24,6 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # Wylie title
 # Wylie name
 # Tibetan
-# Display name
 # Birth year
 # Birth year approximate
 # Birth year alternate
@@ -34,15 +33,19 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # Death year alternate
 # Death century
 # Gender
-# Ordinal - not converted; do with incarnations
+# Display name English
+# Display name Wylie
+# Display name Tibetan
 # Wikidata ID
 # Lotsawa House URL
 # HAR URL
+## If added in future:
 # RMA URL
 # 84000 URL
 
+
 # Run: 
-# tarql -e utf-8 --dedup 50000 persons.tq persons-5-30-24.csv > tolPersons.ttl
+# tarql -e utf-8 --dedup 50000 persons.tq persons-7-26-24.csv > tolPersons.ttl
 
 CONSTRUCT {
     ?person_iri 
@@ -65,18 +68,46 @@ CONSTRUCT {
             ?title_en ,
             ?title_wylie ;
 
-        tolo:displayLabel ?Display_name_English ;
+        tolo:displayLabel 
+            ?display_label_en , 
+            ?display_label_wylie ,
+            ?display_label_tibetan ;
 
         gist:isIdentifiedBy ?tol_id_iri ;
 
         bdo:personGender ?gender_iri ;
 
         rdfs:seeAlso
-            ?lotsawa_house_url ,
-            ?har_url ,
-            ?rma_url ,
-            ?84000_url ;
+            ?lotsawa_house_reference_iri ,
+            ?har_reference_iri 
+            # ?rma_url ,
+            # ?84000_url 
+            ;
         .
+
+    ?lotsawa_house_reference_iri
+        a tolo:Reference ;
+        gist:isCategorizedBy tolx:_ReferenceType_lotsawa_house ;
+        tolo:url ?lotsawa_house_url ;
+        .
+
+    ?har_reference_iri
+        a tolo:Reference ;
+        gist:isCategorizedBy tolx:_ReferenceType_har ;
+        tolo:url ?har_url ;
+        .
+
+    # ?rma_reference_iri
+    #     a tolo:Reference ;
+    #     gist:isCategorizedBy tolx:_ReferenceType_rma ;
+    #     tolo:url ?rma_url ;
+    #     .
+
+    # ?84000_reference_iri
+    #     a tolo:Reference ;
+    #     gist:isCategorizedBy tolx:_ReferenceType_84000 ;
+    #     tolo:url ?84000_url ;
+    #     .
 
     ?tol_id_iri a gist:ID ;
         gist:uniqueText ?TOL_ID ;
@@ -113,6 +144,7 @@ WHERE {
     # IRIs and URLs
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?TOL_ID)) AS ?person_iri)
 
+    # SAME AS, IDS, REFERENCES
     # owl:sameAs
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?TBRC_RID)) AS ?bdrc_iri)
     BIND(tarql:expandPrefixedName(CONCAT("wiki:", ?Wikidata_ID)) AS ?wikidata_iri) 
@@ -120,29 +152,41 @@ WHERE {
     # TOL ID
     BIND(tarql:expandPrefixedName(CONCAT("told:_ID_tol_Person_", ?TOL_ID)) AS ?tol_id_iri)
 
-    # rdfs:seeAlso
-    BIND(STRDT(?Lotsawa_House_URL, xsd:anyURI) AS ?lotsawa_house_url)
-    # Some HAR URLs related directly to persons rather than images, so add here as well
-    BIND(STRDT(?HAR_URL, xsd:anyURI) AS ?har_url)
-    BIND(STRDT(?RMA_URL, xsd:anyURI) AS ?rma_url)
-    BIND(STRDT(?84000_URL, xsd:anyURI) AS ?84000_url)
+    
+    # REFERENCES
+    # Lotsawa House
+    BIND(IF(BOUND(?Lotsawa_House_URL), tarql:expandPrefixedName(CONCAT("told:_Reference_lotsawa_house_Person_", ?TOL_ID)), ?unbound) AS ?lotsawa_house_reference_iri)
+    BIND(IF(BOUND(?lotsawa_house_reference_iri), STRDT(?Lotsawa_House_URL, xsd:anyURI), ?unbound) AS ?lotsawa_house_url)
+
+    # HAR
+    BIND(IF(BOUND(?HAR_URL), tarql:expandPrefixedName(CONCAT("told:_Reference_har_Person_", ?TOL_ID)), ?unbound) AS ?har_reference_iri)
+    BIND(IF(BOUND(?har_reference_iri), STRDT(?HAR_URL, xsd:anyURI), ?unbound) AS ?har_url)
+
+    # RMA
+    # BIND(IF(BOUND(?RMA_URL), tarql:expandPrefixedName(CONCAT("told:_Reference_rma_Person_", ?TOL_ID)), ?unbound) AS ?rma_reference_iri)
+    # BIND(IF(BOUND(?rma_reference_iri), STRDT(?RMA_URL, xsd:anyURI), ?unbound) AS ?rma_url)
+
+    # 84000
+    # BIND(IF(BOUND(?84000_URL), tarql:expandPrefixedName(CONCAT("told:_Reference_84000_Person_", ?TOL_ID)), ?unbound) AS ?84000_reference_iri)
+    # BIND(IF(BOUND(?84000_reference_iri), STRDT(?84000_URL, xsd:anyURI), ?unbound) AS ?84000_url)
 
 
     # NAMES AND TITLES
-
     # Primary name and title
     # Note: TOL transcription is tagged as English
-    BIND(IF(?Primary_name_encoding = "UNKNOWN", "en", ?Primary_name_encoding) AS ?primary_name_lg)
-    BIND(STRLANG(?Primary_name, ?primary_name_lg) AS ?primary_name)
+    # BIND(IF(?Primary_name_encoding = "UNKNOWN", "en", ?Primary_name_encoding) AS ?primary_name_lg)
+    BIND(STRLANG(?Primary_name, ?Primary_name_encoding) AS ?primary_name)
     BIND(STRLANG(?Primary_title, "en") AS ?title_en)
+    BIND(STRLANG(?Display_name_English, "en") AS ?display_label_en)
 
     # Wylie name and title
     BIND(STRLANG(?Wylie_name, "bo-x-ewts") AS ?primary_name_wylie)
     BIND(STRLANG(?Wylie_title, "bo-x-ewts") AS ?title_wylie)
+    BIND(STRLANG(?Display_name_Wylie, "bo-x-ewts") AS ?display_label_wylie)
 
     # Tibetan name
     BIND(STRLANG(?Tibetan, "bo") AS ?primary_name_tibetan)
-
+    BIND(STRLANG(?Display_name_Tibetan, "bo") AS ?display_label_tibetan)
 
     # GENDER
     BIND(
@@ -152,6 +196,8 @@ WHERE {
         ) AS ?gender_local_name
     )
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?gender_local_name)) AS ?gender_iri)
+
+
 
     # DATES
 
