@@ -1,0 +1,2584 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix relators: <ttp://id.loc.gov/vocabulary/relators/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:_Vocation_1030_10372
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10372 ;
+	gist:isCategorizedBy tolx:_Role_1030 ;
+	.
+
+told:_Vocation_1030_10699
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10699 ;
+	gist:isCategorizedBy tolx:_Role_1030 ;
+	.
+
+told:_Vocation_1030_13070
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13070 ;
+	gist:isCategorizedBy tolx:_Role_1030 ;
+	.
+
+told:_Vocation_1030_13203
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13203 ;
+	gist:isCategorizedBy tolx:_Role_1030 ;
+	.
+
+told:_Vocation_1030_13588
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13588 ;
+	gist:isCategorizedBy tolx:_Role_1030 ;
+	.
+
+told:_Vocation_1030_13816
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13816 ;
+	gist:isCategorizedBy tolx:_Role_1030 ;
+	.
+
+told:_Vocation_1030_13863
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13863 ;
+	gist:isCategorizedBy tolx:_Role_1030 ;
+	.
+
+told:_Vocation_1030_2662
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2662 ;
+	gist:isCategorizedBy tolx:_Role_1030 ;
+	.
+
+told:_Vocation_1030_3866
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3866 ;
+	gist:isCategorizedBy tolx:_Role_1030 ;
+	.
+
+told:_Vocation_1030_4043
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_4043 ;
+	gist:isCategorizedBy tolx:_Role_1030 ;
+	.
+
+told:_Vocation_1030_5729
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5729 ;
+	gist:isCategorizedBy tolx:_Role_1030 ;
+	.
+
+told:_Vocation_1030_6230
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6230 ;
+	gist:isCategorizedBy tolx:_Role_1030 ;
+	.
+
+told:_Vocation_1030_7473
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_7473 ;
+	gist:isCategorizedBy tolx:_Role_1030 ;
+	.
+
+told:_Vocation_1030_8397
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8397 ;
+	gist:isCategorizedBy tolx:_Role_1030 ;
+	.
+
+told:_Vocation_1031_10199
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10199 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_10699
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10699 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_10881
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10881 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_10892
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10892 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_10900
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10900 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_10904
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10904 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_10908
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10908 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_10911
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10911 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_10970
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10970 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_10980
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10980 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_10981
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10981 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_10982
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10982 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_11117
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_11117 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_11285
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_11285 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_13057
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13057 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_13065
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13065 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_13066
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13066 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_13072
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13072 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_13077
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13077 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_13241
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13241 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_13611
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13611 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_13627
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13627 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_13628
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13628 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_13631
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13631 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_13634
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13634 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_13636
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13636 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_13638
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13638 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_13642
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13642 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_13698
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13698 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_1370
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1370 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_1726
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1726 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_1728
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1728 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_2029
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2029 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_2104
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2104 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_2137
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2137 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_2730
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2730 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_2823
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2823 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_2845
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2845 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_2948
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2948 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_2949
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2949 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_303
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_303 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_3660
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3660 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_3736
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3736 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_3753
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3753 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_3866
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3866 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_3936
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3936 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_4086
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_4086 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_4261
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_4261 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_4354
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_4354 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_4642
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_4642 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_5234
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5234 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_5386
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5386 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_5401
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5401 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_5461
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5461 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_5500
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5500 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_5527
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5527 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_5615
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5615 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_5652
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5652 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_5750
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5750 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_5801
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5801 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_5803
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5803 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_6037
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6037 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_6076
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6076 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_6194
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6194 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_6275
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6275 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_6367
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6367 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_6374
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6374 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_6405
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6405 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_6678
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6678 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_6681
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6681 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_6733
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6733 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_7064
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_7064 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_7473
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_7473 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_8342
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8342 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_84
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_84 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_86
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_86 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_9030
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9030 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_9121
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9121 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_9482
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9482 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_96
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_96 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_9624
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9624 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1031_9985
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9985 ;
+	gist:isCategorizedBy tolx:_Role_1031 ;
+	.
+
+told:_Vocation_1032_10315
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10315 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_11972
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_11972 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_12439
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_12439 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_13533
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13533 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_13588
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13588 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_13598
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13598 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_13693
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13693 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_13694
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13694 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_13723
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13723 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_13731
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13731 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_13866
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13866 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_2427
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2427 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_2434
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2434 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_2639
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2639 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_2640
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2640 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_3109
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3109 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_3168
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3168 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_3485
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3485 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_3955
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3955 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_4080
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_4080 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_4177
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_4177 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_5312
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5312 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_5313
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5313 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_5326
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5326 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_5331
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5331 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_5641
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5641 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_5894
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5894 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_5985
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5985 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_6278
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6278 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_6395
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6395 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_6567
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6567 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_6568
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6568 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_6779
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6779 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_6801
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6801 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_6892
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6892 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_6982
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6982 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_7462
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_7462 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_7521
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_7521 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_7673
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_7673 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1032_9442
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9442 ;
+	gist:isCategorizedBy tolx:_Role_1032 ;
+	.
+
+told:_Vocation_1035_10019
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10019 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_10083
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10083 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_10171
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10171 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_10301
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10301 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_10315
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10315 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_10422
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10422 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_11231
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_11231 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_11572
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_11572 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_11865
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_11865 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_13072
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13072 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_13165
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13165 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_13452
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13452 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_13588
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13588 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_13617
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13617 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_13654
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13654 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_13817
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13817 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_13828
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13828 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_13879
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13879 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_2232
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2232 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_2338
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2338 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_2973
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2973 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_2992
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2992 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_2997
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2997 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_3000
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3000 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_3006
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3006 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_3010
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3010 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_3121
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3121 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_3485
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3485 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_5166
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5166 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_5312
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5312 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_5457
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5457 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_5588
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5588 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_5999
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5999 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_6065
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6065 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_6646
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6646 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_7114
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_7114 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_7164
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_7164 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_7429
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_7429 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_7767
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_7767 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_8181
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8181 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_8472
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8472 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_8538
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8538 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_8549
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8549 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_8567
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8567 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_8625
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8625 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_8630
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8630 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_8650
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8650 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_8651
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8651 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_8750
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8750 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_8825
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8825 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_8868
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8868 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_8923
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8923 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_8964
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8964 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_8975
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8975 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_9083
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9083 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_9105
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9105 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_9126
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9126 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_9158
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9158 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_9190
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9190 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_9297
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9297 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_9572
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9572 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_9574
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9574 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1035_9612
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9612 ;
+	gist:isCategorizedBy tolx:_Role_1035 ;
+	.
+
+told:_Vocation_1116_13690
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13690 ;
+	gist:isCategorizedBy tolx:_Role_1116 ;
+	.
+
+told:_Vocation_1252_10280
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10280 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_10546
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10546 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_10892
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10892 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_10900
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10900 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_10908
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10908 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_10911
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10911 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_10970
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10970 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_13066
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13066 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_13627
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13627 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_13631
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13631 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_13642
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13642 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_23
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_23 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_2510
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2510 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_2810
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2810 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_3736
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3736 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_5527
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5527 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_5717
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5717 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_6214
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6214 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_6412
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6412 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_6723
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6723 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_7326
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_7326 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_7442
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_7442 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_9
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1252_9985
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9985 ;
+	gist:isCategorizedBy tolx:_Role_1252 ;
+	.
+
+told:_Vocation_1319_13217
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13217 ;
+	gist:isCategorizedBy tolx:_Role_1319 ;
+	.
+
+told:_Vocation_1319_13614
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13614 ;
+	gist:isCategorizedBy tolx:_Role_1319 ;
+	.
+
+told:_Vocation_1319_3133
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3133 ;
+	gist:isCategorizedBy tolx:_Role_1319 ;
+	.
+
+told:_Vocation_1319_3241
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3241 ;
+	gist:isCategorizedBy tolx:_Role_1319 ;
+	.
+
+told:_Vocation_1319_3790
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3790 ;
+	gist:isCategorizedBy tolx:_Role_1319 ;
+	.
+
+told:_Vocation_1319_5718
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5718 ;
+	gist:isCategorizedBy tolx:_Role_1319 ;
+	.
+
+told:_Vocation_1319_6009
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6009 ;
+	gist:isCategorizedBy tolx:_Role_1319 ;
+	.
+
+told:_Vocation_1319_6874
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6874 ;
+	gist:isCategorizedBy tolx:_Role_1319 ;
+	tolo:actualStartYear "1643-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_1319_6979
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6979 ;
+	gist:isCategorizedBy tolx:_Role_1319 ;
+	.
+
+told:_Vocation_1319_9164
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9164 ;
+	gist:isCategorizedBy tolx:_Role_1319 ;
+	.
+
+told:_Vocation_1319_9166
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9166 ;
+	gist:isCategorizedBy tolx:_Role_1319 ;
+	.
+
+told:_Vocation_1360_11790
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_11790 ;
+	gist:isCategorizedBy tolx:_Role_1360 ;
+	.
+
+told:_Vocation_1360_13561
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13561 ;
+	gist:isCategorizedBy tolx:_Role_1360 ;
+	.
+
+told:_Vocation_1360_13564
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13564 ;
+	gist:isCategorizedBy tolx:_Role_1360 ;
+	.
+
+told:_Vocation_1360_13583
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13583 ;
+	gist:isCategorizedBy tolx:_Role_1360 ;
+	.
+
+told:_Vocation_1360_2423
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2423 ;
+	gist:isCategorizedBy tolx:_Role_1360 ;
+	.
+
+told:_Vocation_1360_276
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_276 ;
+	gist:isCategorizedBy tolx:_Role_1360 ;
+	.
+
+told:_Vocation_1360_4027
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_4027 ;
+	gist:isCategorizedBy tolx:_Role_1360 ;
+	tolo:actualStartYear "1924-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_1360_9305
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9305 ;
+	gist:isCategorizedBy tolx:_Role_1360 ;
+	.
+
+told:_Vocation_1360_9333
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9333 ;
+	gist:isCategorizedBy tolx:_Role_1360 ;
+	.
+
+told:_Vocation_1360_9343
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9343 ;
+	gist:isCategorizedBy tolx:_Role_1360 ;
+	.
+
+told:_Vocation_1371_13628
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13628 ;
+	gist:isCategorizedBy tolx:_Role_1371 ;
+	.
+
+told:_Vocation_1371_13683
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13683 ;
+	gist:isCategorizedBy tolx:_Role_1371 ;
+	.
+
+told:_Vocation_1483_13666
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13666 ;
+	gist:isCategorizedBy tolx:_Role_1483 ;
+	.
+
+told:_Vocation_1483_13722
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13722 ;
+	gist:isCategorizedBy tolx:_Role_1483 ;
+	.
+
+told:_Vocation_1483_7929
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_7929 ;
+	gist:isCategorizedBy tolx:_Role_1483 ;
+	.
+
+told:_Vocation_1483_9983
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9983 ;
+	gist:isCategorizedBy tolx:_Role_1483 ;
+	.
+
+told:_Vocation_1580_13583
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13583 ;
+	gist:isCategorizedBy tolx:_Role_1580 ;
+	.
+
+told:_Vocation_1580_5894
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5894 ;
+	gist:isCategorizedBy tolx:_Role_1580 ;
+	.
+
+told:_Vocation_1581_13583
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13583 ;
+	gist:isCategorizedBy tolx:_Role_1581 ;
+	.
+
+told:_Vocation_1581_5894
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5894 ;
+	gist:isCategorizedBy tolx:_Role_1581 ;
+	.
+
+told:_Vocation_1582_5306
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5306 ;
+	gist:isCategorizedBy tolx:_Role_1582 ;
+	.
+
+told:_Vocation_1582_9289
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9289 ;
+	gist:isCategorizedBy tolx:_Role_1582 ;
+	.
+
+told:_Vocation_1654_10319
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10319 ;
+	gist:isCategorizedBy tolx:_Role_1654 ;
+	.
+
+told:_Vocation_1654_10320
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_10320 ;
+	gist:isCategorizedBy tolx:_Role_1654 ;
+	.
+
+told:_Vocation_1654_13616
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13616 ;
+	gist:isCategorizedBy tolx:_Role_1654 ;
+	.
+
+told:_Vocation_1654_13815
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13815 ;
+	gist:isCategorizedBy tolx:_Role_1654 ;
+	.
+
+told:_Vocation_1654_9172
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9172 ;
+	gist:isCategorizedBy tolx:_Role_1654 ;
+	.
+
+told:_Vocation_1658_13693
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13693 ;
+	gist:isCategorizedBy tolx:_Role_1658 ;
+	.
+
+told:_Vocation_1658_13694
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13694 ;
+	gist:isCategorizedBy tolx:_Role_1658 ;
+	.
+
+told:_Vocation_1658_13731
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13731 ;
+	gist:isCategorizedBy tolx:_Role_1658 ;
+	.
+
+told:_Vocation_1658_3109
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3109 ;
+	gist:isCategorizedBy tolx:_Role_1658 ;
+	.
+
+told:_Vocation_1658_3955
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3955 ;
+	gist:isCategorizedBy tolx:_Role_1658 ;
+	.
+
+told:_Vocation_1658_5326
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5326 ;
+	gist:isCategorizedBy tolx:_Role_1658 ;
+	.
+
+told:_Vocation_1658_5894
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5894 ;
+	gist:isCategorizedBy tolx:_Role_1658 ;
+	.
+
+told:_Vocation_1658_6567
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6567 ;
+	gist:isCategorizedBy tolx:_Role_1658 ;
+	.
+
+told:_Vocation_1658_6801
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6801 ;
+	gist:isCategorizedBy tolx:_Role_1658 ;
+	.
+
+told:_Vocation_1658_9442
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9442 ;
+	gist:isCategorizedBy tolx:_Role_1658 ;
+	.
+
+told:_Vocation_1659_3769
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_3769 ;
+	gist:isCategorizedBy tolx:_Role_1659 ;
+	.
+
+told:_Vocation_1659_6874
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_6874 ;
+	gist:isCategorizedBy tolx:_Role_1659 ;
+	.
+
+told:_Vocation_1659_9301
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9301 ;
+	gist:isCategorizedBy tolx:_Role_1659 ;
+	.
+
+told:_Vocation_1660_4309
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_4309 ;
+	gist:isCategorizedBy tolx:_Role_1660 ;
+	.
+
+told:_Vocation_1660_7007
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_7007 ;
+	gist:isCategorizedBy tolx:_Role_1660 ;
+	.
+
+told:_Vocation_1661_334
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_334 ;
+	gist:isCategorizedBy tolx:_Role_1661 ;
+	tolo:actualStartYear "1941-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_1661_342
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_342 ;
+	gist:isCategorizedBy tolx:_Role_1661 ;
+	tolo:actualStartYear "1924-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_1661_346
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_346 ;
+	gist:isCategorizedBy tolx:_Role_1661 ;
+	tolo:actualStartYear "1924-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_1661_348
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_348 ;
+	gist:isCategorizedBy tolx:_Role_1661 ;
+	tolo:actualStartYear "1924-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_1661_995
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_995 ;
+	gist:isCategorizedBy tolx:_Role_1661 ;
+	.
+
+told:_Vocation_694_13652
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13652 ;
+	gist:isCategorizedBy tolx:_Role_694 ;
+	.
+
+told:_Vocation_695_11790
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_11790 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	.
+
+told:_Vocation_695_13226
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13226 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	.
+
+told:_Vocation_695_13521
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13521 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	.
+
+told:_Vocation_695_13522
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13522 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	.
+
+told:_Vocation_695_13523
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13523 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	.
+
+told:_Vocation_695_13545
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_13545 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	.
+
+told:_Vocation_695_2423
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2423 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualStartYear "1943-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:approximateEndYear "1961-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_2424
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_2424 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	.
+
+told:_Vocation_695_4025
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_4025 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1921-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1914-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_5306
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_5306 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	.
+
+told:_Vocation_695_7618
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_7618 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1938-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1932-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_7929
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_7929 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1930-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1915-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_8706
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_8706 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1903-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:approximateStartYear "1900-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9301
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9301 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1903-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1894-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9303
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9303 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1903-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1902-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9304
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9304 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1907-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1903-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9305
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9305 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1912-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1903-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9309
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9309 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1914-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1904-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9310
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9310 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1913-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1912-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9311
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9311 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1914-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1913-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9312
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9312 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualStartYear "1914-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:approximateEndYear "1935-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9313
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9313 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1932-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1921-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9315
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9315 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1931-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1929-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9317
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9317 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1943-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1932-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9320
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9320 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1945-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1934-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9321
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9321 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1946-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1938-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9324
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9324 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1949-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1945-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9325
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9325 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1952-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1946-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9326
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9326 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1957-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1949-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9327
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9327 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1959-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1950-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9331
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9331 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1959-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1957-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9333
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9333 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	.
+
+told:_Vocation_695_9334
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9334 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1901-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1893-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9336
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9336 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1891-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:approximateStartYear "1881-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9338
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9338 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1898-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:approximateStartYear "1878-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9339
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9339 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1891-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1876-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9340
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9340 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualStartYear "1873-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:approximateEndYear "1878-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9343
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9343 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1896-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1871-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9344
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9344 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualStartYear "1870-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9345
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9345 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1871-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1869-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_695_9550
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_9550 ;
+	gist:isCategorizedBy tolx:_Role_695 ;
+	tolo:actualEndYear "1750-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:approximateStartYear "1734-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1000
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1000 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1850-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1848-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1002
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1002 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1848-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1847-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1003
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1003 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1807-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1803-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1004
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1004 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1840-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1839-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1005
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1005 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1858-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1851-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1007
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1007 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1836-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1831-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1008
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1008 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1839-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1836-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1009
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1009 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1851-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1850-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1010
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1010 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1917-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1915-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1011
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1011 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1860-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1858-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1012
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1012 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1861-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1860-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1013
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1013 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1865-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1861-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1014
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1014 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1990-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1986-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1015
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1015 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1912-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1909-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1016
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1016 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1869-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1865-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1017
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1017 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1873-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1869-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1018
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1018 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1875-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1873-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1019
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1019 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1878-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1875-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1022
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1022 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1881-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1878-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1023
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1023 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1886-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1881-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1025
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1025 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1891-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1889-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1028
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1028 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1889-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1888-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1032
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1032 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1894-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1891-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1036
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1036 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1899-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1894-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1038
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1038 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1901-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1899-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1039
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1039 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1903-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1901-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1040
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1040 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1907-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1903-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1042
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1042 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1909-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1907-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1044
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1044 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1919-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1918-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1046
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1046 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1918-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1917-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1047
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1047 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1922-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1919-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1049
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1049 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1927-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1922-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1050
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1050 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1931-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1927-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1218
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1218 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1940-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1931-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1219
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1219 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1946-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1940-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1220
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1220 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1996-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1990-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1221
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1221 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1955-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1946-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1222
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1222 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1956-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1955-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1223
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1223 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1961-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1956-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1224
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1224 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1965-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1961-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1225
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1225 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1968-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1965-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1227
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1227 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualStartYear "1986-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1296
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1296 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualStartYear "1996-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1479
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1479 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1707-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1697-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_150
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_150 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1672-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1651-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1844
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1844 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1915-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1912-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1845
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1845 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1888-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1886-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1846
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1846 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1847-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1840-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1847
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1847 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1816-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1811-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1848
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1848 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1971-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1968-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_1851
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_1851 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	.
+
+told:_Vocation_830_892
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_892 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1689-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1672-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_893
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_893 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1697-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1689-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_905
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_905 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1724-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1707-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_907
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_907 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1730-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1724-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_910
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_910 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1738-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1730-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_911
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_911 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	.
+
+told:_Vocation_830_914
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_914 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	.
+
+told:_Vocation_830_931
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_931 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1771-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1769-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_935
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_935 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1781-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1775-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_940
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_940 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1791-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1784-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_943
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_943 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1762-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1755-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_956
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_956 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1769-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1762-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_963
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_963 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1784-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1781-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_964
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_964 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1797-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1791-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_969
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_969 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1775-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1771-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_970
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_970 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1803-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1797-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_975
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_975 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1826-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1816-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_986
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_986 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1831-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1826-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_Vocation_830_999
+	a tolo:Vocation ;
+	gist:hasParticipant told:_Person_999 ;
+	gist:isCategorizedBy tolx:_Role_830 ;
+	tolo:actualEndYear "1811-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:actualStartYear "1807-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
