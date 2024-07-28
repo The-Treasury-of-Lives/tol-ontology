@@ -19,16 +19,18 @@ PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/>
 ## COLUMNS 
 # biography_id (ignore)
 # person_id
-# initial_approval_date
+# initial_approval_date ( = publish date)
 # published_display_date (ignore)
+# update_date
 
 # Run: 
-# tarql -e utf-8 --dedup 100000 bio_dates.tq bio-publish-date-7-9-24.csv > tolBioDates.ttl
+# tarql -e utf-8 --dedup 100000 bio_dates.tq bio-publish-date-7-15-24.csv > tolBioDates.ttl
 
 
 CONSTRUCT {
 
-    ?bio_iri tolo:publicationDate ?pub_date ;
+    ?bio_iri tolo:publicationDate ?pub_datetime ;
+        tolo:updateDate ?update_datetime ;
         .
 }
 
@@ -40,6 +42,11 @@ WHERE {
     BIND(tarql:expandPrefixedName(CONCAT("told:_Biography_", ?person_id)) AS ?bio_iri)
 
     BIND(REPLACE(?initial_approval_date, " ", "T") AS ?approval_date)
-    BIND(IF(REGEX(?approval_date, "T\\d:"), REPLACE(?approval_date, "T", "T0"), ?approval_date) AS ?date)
-    BIND(STRDT(?date, xsd:dateTime) AS ?pub_date)
+    BIND(IF(REGEX(?approval_date, "T\\d:"), REPLACE(?approval_date, "T", "T0"), ?approval_date) AS ?pub_date)
+    BIND(STRDT(?pub_date, xsd:dateTime) AS ?pub_datetime)
+
+    BIND(REPLACE(?updated_date, " ", "T") AS ?update_date)
+    BIND(IF(REGEX(?update_date, "T\\d:"), REPLACE(?update_date, "T", "T0"), ?update_date) AS ?up_date)
+    BIND(STRDT(?up_date, xsd:dateTime) AS ?update_datetime)
+
 }
