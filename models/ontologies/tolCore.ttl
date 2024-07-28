@@ -782,6 +782,28 @@ tolo:Tradition
 		;
 	.
 
+tolo:Vocation
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:TemporalRelation
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasParticipant ;
+				owl:someValuesFrom tolo:Person ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:someValuesFrom tolo:Role ;
+			]
+		) ;
+	] ;
+	skos:definition "Relates a person to a role played by that person, possibly for a defined period of time."@en ;
+	skos:prefLabel "Vocation"@en ;
+	.
+
 tolo:actualYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tolo:inYear ;
