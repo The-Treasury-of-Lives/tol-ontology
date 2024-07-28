@@ -16,36 +16,6 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-told:_FormattedContent_MapRegion_26
-	a gist:FormattedContent ;
-	gist:containedText "<h2 class='normal spaced'  id='demo2'>KHAM</h2>"@en ;
-	gist:isExpressedIn media-txt:html ;
-	.
-
-told:_FormattedContent_MapRegion_27
-	a gist:FormattedContent ;
-	gist:containedText "<h2 class='tsang spaced-1' id='demo1'>TSANG</h2>"@en ;
-	gist:isExpressedIn media-txt:html ;
-	.
-
-told:_FormattedContent_MapRegion_28
-	a gist:FormattedContent ;
-	gist:containedText "<h2 class='normal spaced' id='NGARI'>NGARI</h2>"@en ;
-	gist:isExpressedIn media-txt:html ;
-	.
-
-told:_FormattedContent_MapRegion_29
-	a gist:FormattedContent ;
-	gist:containedText "<h1 class='u-normal spaced-1'>U</h2>"@en ;
-	gist:isExpressedIn media-txt:html ;
-	.
-
-told:_FormattedContent_MapRegion_30
-	a gist:FormattedContent ;
-	gist:containedText "<h2 class='normal spaced-1'  id='demo3'>AMDO</h2>"@en ;
-	gist:isExpressedIn media-txt:html ;
-	.
-
 told:_GeoPoint_26.85554_100.22497
 	a gist:GeoPoint ;
 	gist:latitude "26.85554"^^xsd:decimal ;
@@ -64,46 +34,10 @@ told:_GeoPoint_27.1845_99.2853
 	gist:longitude "99.2853"^^xsd:decimal ;
 	.
 
-told:_GeoPoint_27.237152_88.268428
-	a gist:GeoPoint ;
-	gist:latitude "27.237152"^^xsd:decimal ;
-	gist:longitude "88.268428"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_27.295407_88.253646
-	a gist:GeoPoint ;
-	gist:latitude "27.295407"^^xsd:decimal ;
-	gist:longitude "88.253646"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_27.309711_88.291653
-	a gist:GeoPoint ;
-	gist:latitude "27.309711"^^xsd:decimal ;
-	gist:longitude "88.291653"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_27.324152_88.211265
-	a gist:GeoPoint ;
-	gist:latitude "27.324152"^^xsd:decimal ;
-	gist:longitude "88.211265"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_27.328845_88.197851
-	a gist:GeoPoint ;
-	gist:latitude "27.328845"^^xsd:decimal ;
-	gist:longitude "88.197851"^^xsd:decimal ;
-	.
-
 told:_GeoPoint_27.33566_88.61169
 	a gist:GeoPoint ;
 	gist:latitude "27.33566"^^xsd:decimal ;
 	gist:longitude "88.61169"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_27.4135_90.4195
-	a gist:GeoPoint ;
-	gist:latitude "27.4135"^^xsd:decimal ;
-	gist:longitude "90.4195"^^xsd:decimal ;
 	.
 
 told:_GeoPoint_27.47248_89.63934
@@ -142,12 +76,6 @@ told:_GeoPoint_27.72475_89.15157
 	gist:longitude "89.15157"^^xsd:decimal ;
 	.
 
-told:_GeoPoint_27.7727_99.7059
-	a gist:GeoPoint ;
-	gist:latitude "27.7727"^^xsd:decimal ;
-	gist:longitude "99.7059"^^xsd:decimal ;
-	.
-
 told:_GeoPoint_27.831728_99.699976
 	a gist:GeoPoint ;
 	gist:latitude "27.831728"^^xsd:decimal ;
@@ -182,18 +110,6 @@ told:_GeoPoint_28.15981_92.39227
 	a gist:GeoPoint ;
 	gist:latitude "28.15981"^^xsd:decimal ;
 	gist:longitude "92.39227"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_28.17192_91.06018
-	a gist:GeoPoint ;
-	gist:latitude "28.17192"^^xsd:decimal ;
-	gist:longitude "91.06018"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_28.264_83.9614
-	a gist:GeoPoint ;
-	gist:latitude "28.264"^^xsd:decimal ;
-	gist:longitude "83.9614"^^xsd:decimal ;
 	.
 
 told:_GeoPoint_28.27657_88.51384
@@ -304,12 +220,6 @@ told:_GeoPoint_28.85453_85.29365
 	gist:longitude "85.29365"^^xsd:decimal ;
 	.
 
-told:_GeoPoint_28.90239_88.01992
-	a gist:GeoPoint ;
-	gist:latitude "28.90239"^^xsd:decimal ;
-	gist:longitude "88.01992"^^xsd:decimal ;
-	.
-
 told:_GeoPoint_28.91533_89.60362
 	a gist:GeoPoint ;
 	gist:latitude "28.91533"^^xsd:decimal ;
@@ -352,34 +262,16 @@ told:_GeoPoint_29.048407_93.072996
 	gist:longitude "93.072996"^^xsd:decimal ;
 	.
 
-told:_GeoPoint_29.0502_92.76581
-	a gist:GeoPoint ;
-	gist:latitude "29.0502"^^xsd:decimal ;
-	gist:longitude "92.76581"^^xsd:decimal ;
-	.
-
 told:_GeoPoint_29.0662_92.19907
 	a gist:GeoPoint ;
 	gist:latitude "29.0662"^^xsd:decimal ;
 	gist:longitude "92.19907"^^xsd:decimal ;
 	.
 
-told:_GeoPoint_29.0665482_92.1904343
-	a gist:GeoPoint ;
-	gist:latitude "29.0665482"^^xsd:decimal ;
-	gist:longitude "92.1904343"^^xsd:decimal ;
-	.
-
 told:_GeoPoint_29.091654_87.637155
 	a gist:GeoPoint ;
 	gist:latitude "29.091654"^^xsd:decimal ;
 	gist:longitude "87.637155"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_29.10149_89.44794
-	a gist:GeoPoint ;
-	gist:latitude "29.10149"^^xsd:decimal ;
-	gist:longitude "89.44794"^^xsd:decimal ;
 	.
 
 told:_GeoPoint_29.14342_92.59106
@@ -416,12 +308,6 @@ told:_GeoPoint_29.239405_91.333115
 	a gist:GeoPoint ;
 	gist:latitude "29.239405"^^xsd:decimal ;
 	gist:longitude "91.333115"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_29.25227_83.74878
-	a gist:GeoPoint ;
-	gist:latitude "29.25227"^^xsd:decimal ;
-	gist:longitude "83.74878"^^xsd:decimal ;
 	.
 
 told:_GeoPoint_29.26505_92.00638
@@ -478,12 +364,6 @@ told:_GeoPoint_29.35596_90.72939
 	gist:longitude "90.72939"^^xsd:decimal ;
 	.
 
-told:_GeoPoint_29.42325_88.82994
-	a gist:GeoPoint ;
-	gist:latitude "29.42325"^^xsd:decimal ;
-	gist:longitude "88.82994"^^xsd:decimal ;
-	.
-
 told:_GeoPoint_29.42675_92.40738
 	a gist:GeoPoint ;
 	gist:latitude "29.42675"^^xsd:decimal ;
@@ -506,12 +386,6 @@ told:_GeoPoint_29.44021_90.14008
 	a gist:GeoPoint ;
 	gist:latitude "29.44021"^^xsd:decimal ;
 	gist:longitude "90.14008"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_29.4733_91.799
-	a gist:GeoPoint ;
-	gist:latitude "29.4733"^^xsd:decimal ;
-	gist:longitude "91.799"^^xsd:decimal ;
 	.
 
 told:_GeoPoint_29.48415_88.25523
@@ -550,12 +424,6 @@ told:_GeoPoint_29.646604_91.001085
 	gist:longitude "91.001085"^^xsd:decimal ;
 	.
 
-told:_GeoPoint_29.6535_91.1225
-	a gist:GeoPoint ;
-	gist:latitude "29.6535"^^xsd:decimal ;
-	gist:longitude "91.1225"^^xsd:decimal ;
-	.
-
 told:_GeoPoint_29.67315_91.34278
 	a gist:GeoPoint ;
 	gist:latitude "29.67315"^^xsd:decimal ;
@@ -572,12 +440,6 @@ told:_GeoPoint_29.69504_98.5932
 	a gist:GeoPoint ;
 	gist:latitude "29.69504"^^xsd:decimal ;
 	gist:longitude "98.5932"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_29.69644_93.83972
-	a gist:GeoPoint ;
-	gist:latitude "29.69644"^^xsd:decimal ;
-	gist:longitude "93.83972"^^xsd:decimal ;
 	.
 
 told:_GeoPoint_29.69899_91.13365
@@ -784,12 +646,6 @@ told:_GeoPoint_30.998158_102.360065
 	gist:longitude "102.360065"^^xsd:decimal ;
 	.
 
-told:_GeoPoint_31.14107_97.17665
-	a gist:GeoPoint ;
-	gist:latitude "31.14107"^^xsd:decimal ;
-	gist:longitude "97.17665"^^xsd:decimal ;
-	.
-
 told:_GeoPoint_31.208422_98.82629
 	a gist:GeoPoint ;
 	gist:latitude "31.208422"^^xsd:decimal ;
@@ -800,12 +656,6 @@ told:_GeoPoint_31.211923_96.600596
 	a gist:GeoPoint ;
 	gist:latitude "31.211923"^^xsd:decimal ;
 	gist:longitude "96.600596"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_31.3066_98.0279
-	a gist:GeoPoint ;
-	gist:latitude "31.3066"^^xsd:decimal ;
-	gist:longitude "98.0279"^^xsd:decimal ;
 	.
 
 told:_GeoPoint_31.394046_100.676081
@@ -868,12 +718,6 @@ told:_GeoPoint_31.54658_97.287
 	gist:longitude "97.287"^^xsd:decimal ;
 	.
 
-told:_GeoPoint_31.5575_88.0466
-	a gist:GeoPoint ;
-	gist:latitude "31.5575"^^xsd:decimal ;
-	gist:longitude "88.0466"^^xsd:decimal ;
-	.
-
 told:_GeoPoint_31.625937_99.989382
 	a gist:GeoPoint ;
 	gist:latitude "31.625937"^^xsd:decimal ;
@@ -886,22 +730,10 @@ told:_GeoPoint_31.67924_103.850833
 	gist:longitude "103.850833"^^xsd:decimal ;
 	.
 
-told:_GeoPoint_31.77606_98.96157
-	a gist:GeoPoint ;
-	gist:latitude "31.77606"^^xsd:decimal ;
-	gist:longitude "98.96157"^^xsd:decimal ;
-	.
-
 told:_GeoPoint_31.796861_87.239544
 	a gist:GeoPoint ;
 	gist:latitude "31.796861"^^xsd:decimal ;
 	gist:longitude "87.239544"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_31.80645_98.5798
-	a gist:GeoPoint ;
-	gist:latitude "31.80645"^^xsd:decimal ;
-	gist:longitude "98.5798"^^xsd:decimal ;
 	.
 
 told:_GeoPoint_31.90314_102.22006
@@ -976,22 +808,10 @@ told:_GeoPoint_32.3313_93.40027
 	gist:longitude "93.40027"^^xsd:decimal ;
 	.
 
-told:_GeoPoint_32.38988_98.19434
-	a gist:GeoPoint ;
-	gist:latitude "32.38988"^^xsd:decimal ;
-	gist:longitude "98.19434"^^xsd:decimal ;
-	.
-
 told:_GeoPoint_32.50329_80.10527
 	a gist:GeoPoint ;
 	gist:latitude "32.50329"^^xsd:decimal ;
 	gist:longitude "80.10527"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_32.5697_96.6231
-	a gist:GeoPoint ;
-	gist:latitude "32.5697"^^xsd:decimal ;
-	gist:longitude "96.6231"^^xsd:decimal ;
 	.
 
 told:_GeoPoint_32.655972_103.604253
@@ -1010,12 +830,6 @@ told:_GeoPoint_32.79704_102.53943
 	a gist:GeoPoint ;
 	gist:latitude "32.79704"^^xsd:decimal ;
 	gist:longitude "102.53943"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_32.87155_101.56586
-	a gist:GeoPoint ;
-	gist:latitude "32.87155"^^xsd:decimal ;
-	gist:longitude "101.56586"^^xsd:decimal ;
 	.
 
 told:_GeoPoint_32.895503_95.299614
@@ -1040,12 +854,6 @@ told:_GeoPoint_32.979221_98.10122
 	a gist:GeoPoint ;
 	gist:latitude "32.979221"^^xsd:decimal ;
 	gist:longitude "98.10122"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_32_82.2
-	a gist:GeoPoint ;
-	gist:latitude "32"^^xsd:decimal ;
-	gist:longitude "82.2"^^xsd:decimal ;
 	.
 
 told:_GeoPoint_33.00266_97.01189
@@ -1156,18 +964,6 @@ told:_GeoPoint_34.16388_77.58475
 	gist:longitude "77.58475"^^xsd:decimal ;
 	.
 
-told:_GeoPoint_34.35379_77.82543
-	a gist:GeoPoint ;
-	gist:latitude "34.35379"^^xsd:decimal ;
-	gist:longitude "77.82543"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_34.41_77.28882
-	a gist:GeoPoint ;
-	gist:latitude "34.41"^^xsd:decimal ;
-	gist:longitude "77.28882"^^xsd:decimal ;
-	.
-
 told:_GeoPoint_34.478916_100.238279
 	a gist:GeoPoint ;
 	gist:latitude "34.478916"^^xsd:decimal ;
@@ -1216,22 +1012,10 @@ told:_GeoPoint_34.9908314_102.9099223
 	gist:longitude "102.9099223"^^xsd:decimal ;
 	.
 
-told:_GeoPoint_34_100
-	a gist:GeoPoint ;
-	gist:latitude "34"^^xsd:decimal ;
-	gist:longitude "100"^^xsd:decimal ;
-	.
-
 told:_GeoPoint_35.037203_101.465694
 	a gist:GeoPoint ;
 	gist:latitude "35.037203"^^xsd:decimal ;
 	gist:longitude "101.465694"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_35.10026_102.74414
-	a gist:GeoPoint ;
-	gist:latitude "35.10026"^^xsd:decimal ;
-	gist:longitude "102.74414"^^xsd:decimal ;
 	.
 
 told:_GeoPoint_35.19779_102.51252
@@ -1244,12 +1028,6 @@ told:_GeoPoint_35.249055_100.588502
 	a gist:GeoPoint ;
 	gist:latitude "35.249055"^^xsd:decimal ;
 	gist:longitude "100.588502"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_35.49032_101.98334
-	a gist:GeoPoint ;
-	gist:latitude "35.49032"^^xsd:decimal ;
-	gist:longitude "101.98334"^^xsd:decimal ;
 	.
 
 told:_GeoPoint_35.509074_102.015314
@@ -1286,12 +1064,6 @@ told:_GeoPoint_35.9862_96.1874
 	a gist:GeoPoint ;
 	gist:latitude "35.9862"^^xsd:decimal ;
 	gist:longitude "96.1874"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_36.00335_100.48645
-	a gist:GeoPoint ;
-	gist:latitude "36.00335"^^xsd:decimal ;
-	gist:longitude "100.48645"^^xsd:decimal ;
 	.
 
 told:_GeoPoint_36.040286_101.433258
@@ -1358,12 +1130,6 @@ told:_GeoPoint_36.6871424_101.260798
 	a gist:GeoPoint ;
 	gist:latitude "36.6871424"^^xsd:decimal ;
 	gist:longitude "101.260798"^^xsd:decimal ;
-	.
-
-told:_GeoPoint_36.70699_101.84326
-	a gist:GeoPoint ;
-	gist:latitude "36.70699"^^xsd:decimal ;
-	gist:longitude "101.84326"^^xsd:decimal ;
 	.
 
 told:_GeoPoint_36.83515_101.95673
@@ -1504,12 +1270,6 @@ told:_GeoPoint_51.83571_107.58896
 	gist:longitude "107.58896"^^xsd:decimal ;
 	.
 
-told:_GeoPoint_52.7182426_109.492143
-	a gist:GeoPoint ;
-	gist:latitude "52.7182426"^^xsd:decimal ;
-	gist:longitude "109.492143"^^xsd:decimal ;
-	.
-
 told:_GeoRegion_1
 	a gist:GeoRegion ;
 	skos:prefLabel
@@ -1517,7 +1277,11 @@ told:_GeoRegion_1
 		"se ra"@bo-x-ewts ,
 		"སེ་ར།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_cluster ;
+	tolo:displayLabel
+		"Sera"@en ,
+		"se ra"@bo-x-ewts ,
+		"སེ་ར།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.69899_91.13365 ;
 	tolo:maxZoomLevel "12"^^xsd:integer ;
@@ -1534,7 +1298,13 @@ told:_GeoRegion_10
 		"ལི་ཐང།"@bo ,
 		"理塘县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Litang"@en ,
+		"li thang"@bo-x-ewts ,
+		"ལི་ཐང།"@bo ,
+		"理塘县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.99441_100.27198 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1545,7 +1315,8 @@ told:_GeoRegion_10
 told:_GeoRegion_100
 	a gist:GeoRegion ;
 	skos:prefLabel "Wuhai"@en ;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel "Wuhai"@en ;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_39.67497_106.81183 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1562,7 +1333,13 @@ told:_GeoRegion_101
 		"ལན་ཀྲུའུ།"@bo ,
 		"兰州"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Lanzhou"@en ,
+		"lan kru'u"@bo-x-ewts ,
+		"ལན་ཀྲུའུ།"@bo ,
+		"兰州"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_36.064777_103.828354 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1578,7 +1355,13 @@ told:_GeoRegion_102
 		"བརྒྱད་གཅིག་གྲོང།"@bo ,
 		"八一"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Bayi"@en ,
+		"brgyad gcig grong"@bo-x-ewts ,
+		"བརྒྱད་གཅིག་གྲོང།"@bo ,
+		"八一"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.639986_94.36047 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1595,7 +1378,13 @@ told:_GeoRegion_103
 		"ཀོང་པོ་རྒྱ་མདའ།"@bo ,
 		"工布江达"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Kongpo Gyamda"@en ,
+		"kong po rgya mda'"@bo-x-ewts ,
+		"ཀོང་པོ་རྒྱ་མདའ།"@bo ,
+		"工布江达"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
 	tolo:isRenderedAt told:_GeoPoint_29.886148_93.244259 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1612,7 +1401,13 @@ told:_GeoRegion_104
 		"སྨན་གླིང།"@bo ,
 		"米林"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Menling"@en ,
+		"sman gling"@bo-x-ewts ,
+		"སྨན་གླིང།"@bo ,
+		"米林"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.216078_94.212396 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1629,7 +1424,13 @@ told:_GeoRegion_105
 		"མེ་ཏོག།"@bo ,
 		"美多"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Metok"@en ,
+		"me tog"@bo-x-ewts ,
+		"མེ་ཏོག།"@bo ,
+		"美多"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.326059_95.332293 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1646,7 +1447,13 @@ told:_GeoRegion_106
 		"སྤྲ་རྨོག།"@bo ,
 		"扎木"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Tramok"@en ,
+		"spra rmog"@bo-x-ewts ,
+		"སྤྲ་རྨོག།"@bo ,
+		"扎木"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.859337_95.756956 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1663,7 +1470,13 @@ told:_GeoRegion_107
 		"རྫ་ཡུལ།"@bo ,
 		"察隅"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Zayul"@en ,
+		"rdza yul"@bo-x-ewts ,
+		"རྫ་ཡུལ།"@bo ,
+		"察隅"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.661748_97.466365 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1680,7 +1493,13 @@ told:_GeoRegion_108
 		"སྣང།"@bo ,
 		"朗"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Nang "@en ,
+		"snang"@bo-x-ewts ,
+		"སྣང།"@bo ,
+		"朗"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.048407_93.072996 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1697,7 +1516,13 @@ told:_GeoRegion_109
 		"ལུང་དགུ་།"@bo ,
 		"汶川"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Lunggu"@en ,
+		"lung dgu "@bo-x-ewts ,
+		"ལུང་དགུ་།"@bo ,
+		"汶川"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.47633_103.5779 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1714,7 +1539,13 @@ told:_GeoRegion_11
 		"དར་རྩེ་མདོ།"@bo ,
 		"康定县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Dartsedo"@en ,
+		"dar rtse mdo"@bo-x-ewts ,
+		"དར་རྩེ་མདོ།"@bo ,
+		"康定县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.99824_101.95491 ;
 	tolo:maxZoomLevel "14"^^xsd:integer ;
@@ -1731,7 +1562,13 @@ told:_GeoRegion_110
 		"བཀྲ་ཤིས་གླིང།"@bo ,
 		"理"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Tashi Ling"@en ,
+		"bkra shis gling"@bo-x-ewts ,
+		"བཀྲ་ཤིས་གླིང།"@bo ,
+		"理"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.436611_103.166961 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1748,7 +1585,13 @@ told:_GeoRegion_111
 		"དམར་ཐང།"@bo ,
 		"茂县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Martang"@en ,
+		"dmar thang"@bo-x-ewts ,
+		"དམར་ཐང།"@bo ,
+		"茂县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.67924_103.850833 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1765,7 +1608,13 @@ told:_GeoRegion_112
 		"ཟུང་ཆུ།"@bo ,
 		"松潘 "@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Zungchu"@en ,
+		"zung chu"@bo-x-ewts ,
+		"ཟུང་ཆུ།"@bo ,
+		"松潘 "@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_32.655972_103.604253 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1782,7 +1631,13 @@ told:_GeoRegion_113
 		"རྣམ་འཕེལ།"@bo ,
 		"南坪"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Nampel"@en ,
+		"rnam 'phel"@bo-x-ewts ,
+		"རྣམ་འཕེལ།"@bo ,
+		"南坪"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_33.25283_104.245457 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1799,7 +1654,13 @@ told:_GeoRegion_114
 		"ཆུ་ཆེན།"@bo ,
 		"金川"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Chuchen"@en ,
+		"chu chen"@bo-x-ewts ,
+		"ཆུ་ཆེན།"@bo ,
+		"金川"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.476716_102.063711 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1815,7 +1676,13 @@ told:_GeoRegion_115
 		"གྲོང་རྡལ།"@bo ,
 		"美兴"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Drongdal"@en ,
+		"grong rdal"@bo-x-ewts ,
+		"གྲོང་རྡལ།"@bo ,
+		"美兴"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.998158_102.360065 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1832,7 +1699,13 @@ told:_GeoRegion_116
 		"ཁྲོ་ཆུ།"@bo ,
 		"黑水"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Trochu"@en ,
+		"khro chu"@bo-x-ewts ,
+		"ཁྲོ་ཆུ།"@bo ,
+		"黑水"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_32.062492_102.990034 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1849,7 +1722,13 @@ told:_GeoRegion_117
 		"འབར་ཁམས།"@bo ,
 		"马尔康"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Barkham"@en ,
+		"bar khams"@bo-x-ewts ,
+		"འབར་ཁམས།"@bo ,
+		"马尔康"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.90314_102.22006 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1866,7 +1745,13 @@ told:_GeoRegion_118
 		"འཛམ་ཐང།"@bo ,
 		"壤塘 "@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Dzamtang"@en ,
+		"dzam thang"@bo-x-ewts ,
+		"འཛམ་ཐང།"@bo ,
+		"壤塘 "@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
 	tolo:isRenderedAt told:_GeoPoint_32.26881_100.97575 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1883,7 +1768,13 @@ told:_GeoRegion_119
 		"རྔ་བ།"@bo ,
 		"阿坝"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Ngawa"@en ,
+		"rnga ba"@bo-x-ewts ,
+		"རྔ་བ།"@bo ,
+		"阿坝"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
 	tolo:isRenderedAt told:_GeoPoint_32.904067_101.695843 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1900,7 +1791,13 @@ told:_GeoRegion_12
 		"རྩེད་ཐང།"@bo ,
 		"泽当镇"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Tsetang"@en ,
+		"rtsed thang"@bo-x-ewts ,
+		"རྩེད་ཐང།"@bo ,
+		"泽当镇"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.23626_91.76204 ;
 	tolo:maxZoomLevel "16"^^xsd:integer ;
@@ -1916,7 +1813,13 @@ told:_GeoRegion_120
 		"སྟག་ཚ་དགོན།"@bo ,
 		"达扎寺"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Taktsa Gon"@en ,
+		"stag tsha dgon"@bo-x-ewts ,
+		"སྟག་ཚ་དགོན།"@bo ,
+		"达扎寺"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_33.576972_102.960947 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1933,7 +1836,13 @@ told:_GeoRegion_121
 		"རྐ་ཁོག།"@bo ,
 		"红原"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Kakhok"@en ,
+		"rka khog"@bo-x-ewts ,
+		"རྐ་ཁོག།"@bo ,
+		"红原"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_32.79704_102.53943 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1950,7 +1859,13 @@ told:_GeoRegion_122
 		"ལྕགས་ཟམ།"@bo ,
 		"泸定"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Chakzam"@en ,
+		"lcags zam"@bo-x-ewts ,
+		"ལྕགས་ཟམ།"@bo ,
+		"泸定"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.909438_102.232313 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1967,7 +1882,13 @@ told:_GeoRegion_123
 		"རོང་མི་བྲག་འགོ།"@bo ,
 		"丹巴"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Rongmi Drango"@en ,
+		"rong mi brag 'go"@bo-x-ewts ,
+		"རོང་མི་བྲག་འགོ།"@bo ,
+		"丹巴"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.878147_101.884848 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -1984,7 +1905,13 @@ told:_GeoRegion_124
 		"བརྒྱད་ཟུར།"@bo ,
 		"九龙"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Gyezur"@en ,
+		"brgyad zur"@bo-x-ewts ,
+		"བརྒྱད་ཟུར།"@bo ,
+		"九龙"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.002135_101.505892 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2001,7 +1928,13 @@ told:_GeoRegion_125
 		"ཉག་ཆུ་ཁ།"@bo ,
 		"雅江"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Nyakchukha"@en ,
+		"nyag chu kha"@bo-x-ewts ,
+		"ཉག་ཆུ་ཁ།"@bo ,
+		"雅江"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.033519_101.014773 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2018,7 +1951,13 @@ told:_GeoRegion_126
 		"རྟའུ།"@bo ,
 		"道孚"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Tawu"@en ,
+		"rta'u"@bo-x-ewts ,
+		"རྟའུ།"@bo ,
+		"道孚"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.97835_101.11868 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2035,7 +1974,13 @@ told:_GeoRegion_127
 		"བྲག་འགོ།"@bo ,
 		"炉霍"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Drango"@en ,
+		"brag 'go"@bo-x-ewts ,
+		"བྲག་འགོ།"@bo ,
+		"炉霍"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.394046_100.676081 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2052,7 +1997,13 @@ told:_GeoRegion_128
 		"དཀར་མཛེས།"@bo ,
 		"甘孜"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Kandze"@en ,
+		"dkar mdzes"@bo-x-ewts ,
+		"དཀར་མཛེས།"@bo ,
+		"甘孜"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.625937_99.989382 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2069,7 +2020,13 @@ told:_GeoRegion_129
 		"ཉག་རོང།"@bo ,
 		"新龙 "@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Nyarong"@en ,
+		"nyag rong"@bo-x-ewts ,
+		"ཉག་རོང།"@bo ,
+		"新龙 "@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.939932_100.310216 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2085,7 +2042,12 @@ told:_GeoRegion_13
 		"gle"@bo-x-ewts ,
 		"གླེ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Leh"@en ,
+		"gle"@bo-x-ewts ,
+		"གླེ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_34.16388_77.58475 ;
 	tolo:maxZoomLevel "16"^^xsd:integer ;
@@ -2102,7 +2064,13 @@ told:_GeoRegion_130
 		"དཔལ་ཡུལ།"@bo ,
 		"白玉"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Pelyul"@en ,
+		"dpal yul"@bo-x-ewts ,
+		"དཔལ་ཡུལ།"@bo ,
+		"白玉"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.208422_98.82629 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2119,7 +2087,13 @@ told:_GeoRegion_131
 		"སེར་ཤུལ།"@bo ,
 		"石渠"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Sershul"@en ,
+		"ser shul"@bo-x-ewts ,
+		"སེར་ཤུལ།"@bo ,
+		"石渠"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_32.979221_98.10122 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2136,7 +2110,13 @@ told:_GeoRegion_132
 		"འབའ་ཐང།"@bo ,
 		"巴塘县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Batang"@en ,
+		"ba' thang"@bo-x-ewts ,
+		"འབའ་ཐང།"@bo ,
+		"巴塘县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.00868_99.10247 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2153,7 +2133,13 @@ told:_GeoRegion_133
 		"ཆ་ཕྲེང།"@bo ,
 		"乡城"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Chatreng"@en ,
+		"cha phreng"@bo-x-ewts ,
+		"ཆ་ཕྲེང།"@bo ,
+		"乡城"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.93586_99.79841 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2170,7 +2156,13 @@ told:_GeoRegion_134
 		"འདབ་པ།"@bo ,
 		"稻城"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Dabpa"@en ,
+		"dab pa"@bo-x-ewts ,
+		"འདབ་པ།"@bo ,
+		"稻城"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.03758_100.296768 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2187,7 +2179,13 @@ told:_GeoRegion_135
 		"སྡེ་རོང།"@bo ,
 		"得榮"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Sangme"@en ,
+		"sde rong"@bo-x-ewts ,
+		"སྡེ་རོང།"@bo ,
+		"得榮"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.71686_99.28448 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2204,7 +2202,13 @@ told:_GeoRegion_136
 		"རྨི་ལི།"@bo ,
 		"木里"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Mili"@en ,
+		"rmi li"@bo-x-ewts ,
+		"རྨི་ལི།"@bo ,
+		"木里"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_27.930168_101.279815 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2221,7 +2225,13 @@ told:_GeoRegion_138
 		"བདེ་ཆེན།"@bo ,
 		"德欽"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Dechen"@en ,
+		"bde chen"@bo-x-ewts ,
+		"བདེ་ཆེན།"@bo ,
+		"德欽"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.4877_98.9137 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2238,7 +2248,13 @@ told:_GeoRegion_139
 		"ཕག་རི།"@bo ,
 		"帕里"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Pakri"@en ,
+		"phag ri"@bo-x-ewts ,
+		"ཕག་རི།"@bo ,
+		"帕里"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_27.72475_89.15157 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2255,7 +2271,13 @@ told:_GeoRegion_14
 		"སྐྱེ་དགུ་མདོ།"@bo ,
 		"结古"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Jyekundo"@en ,
+		"skye dgu mdo"@bo-x-ewts ,
+		"སྐྱེ་དགུ་མདོ།"@bo ,
+		"结古"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_33.00266_97.01189 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2272,7 +2294,13 @@ told:_GeoRegion_141
 		"གཙོས།"@bo ,
 		"合作"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Tso"@en ,
+		"gtsos"@bo-x-ewts ,
+		"གཙོས།"@bo ,
+		"合作"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_34.9908314_102.9099223 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2289,7 +2317,13 @@ told:_GeoRegion_142
 		"བཱ་ཙེ།"@bo ,
 		"临潭县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Batse (Lintan)"@en ,
+		"bA tse"@bo-x-ewts ,
+		"བཱ་ཙེ།"@bo ,
+		"临潭县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_34.68949_103.35429 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2305,7 +2339,13 @@ told:_GeoRegion_143
 		"བའ་ལུང།"@bo ,
 		"维西僳族自治县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Balung"@en ,
+		"ba' lung"@bo-x-ewts ,
+		"བའ་ལུང།"@bo ,
+		"维西僳族自治县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_27.1845_99.2853 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2322,7 +2362,13 @@ told:_GeoRegion_144
 		"ཅོ་ནེ།"@bo ,
 		"卓尼"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Chone"@en ,
+		"co ne"@bo-x-ewts ,
+		"ཅོ་ནེ།"@bo ,
+		"卓尼"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_34.591605_103.506473 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2338,7 +2384,13 @@ told:_GeoRegion_146
 		"ཐེ་བོ།"@bo ,
 		"迭部"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Tewo"@en ,
+		"the bo"@bo-x-ewts ,
+		"ཐེ་བོ།"@bo ,
+		"迭部"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_34.057673_103.220545 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2355,7 +2407,13 @@ told:_GeoRegion_147
 		"རྨ་ཆུ།"@bo ,
 		"玛曲"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Machu"@en ,
+		"rma chu"@bo-x-ewts ,
+		"རྨ་ཆུ།"@bo ,
+		"玛曲"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_33.9993_102.0744 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2372,7 +2430,13 @@ told:_GeoRegion_148
 		"ཀླུ་ཆུ།"@bo ,
 		"碌曲"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Luchu"@en ,
+		"klu chu"@bo-x-ewts ,
+		"ཀླུ་ཆུ།"@bo ,
+		"碌曲"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_34.590388_102.4890594 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2389,7 +2453,13 @@ told:_GeoRegion_149
 		"བླ་བྲང་།"@bo ,
 		"夏河"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Labrang"@en ,
+		"bla brang "@bo-x-ewts ,
+		"བླ་བྲང་།"@bo ,
+		"夏河"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_2 ;
 	tolo:isRenderedAt told:_GeoPoint_35.19779_102.51252 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2406,7 +2476,13 @@ told:_GeoRegion_15
 		"ཟི་ལིང།"@bo ,
 		"西宁市"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Xining"@en ,
+		"zi ling"@bo-x-ewts ,
+		"ཟི་ལིང།"@bo ,
+		"西宁市"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_1 ;
 	tolo:isRenderedAt told:_GeoPoint_36.61138_101.77031 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2423,7 +2499,13 @@ told:_GeoRegion_150
 		"གསེར་ཁོག།"@bo ,
 		"大通"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Serkhok"@en ,
+		"gser khog"@bo-x-ewts ,
+		"གསེར་ཁོག།"@bo ,
+		"大通"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_36.928897_101.687103 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2440,7 +2522,13 @@ told:_GeoRegion_151
 		"ཐེམ་ཆེན།"@bo ,
 		"天峻"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Temchen"@en ,
+		"them chen"@bo-x-ewts ,
+		"ཐེམ་ཆེན།"@bo ,
+		"天峻"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_37.30716_99.019954 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2457,7 +2545,13 @@ told:_GeoRegion_152
 		"ཝུའུ་ལན།"@bo ,
 		"乌兰"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Ulan"@en ,
+		"wu'u lan"@bo-x-ewts ,
+		"ཝུའུ་ལན།"@bo ,
+		"乌兰"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_36.93473_98.477575 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2474,7 +2568,13 @@ told:_GeoRegion_153
 		"གཏེར་ལེན་ཁ།"@bo ,
 		"德令哈"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Terlenka"@en ,
+		"gter len kha"@bo-x-ewts ,
+		"གཏེར་ལེན་ཁ།"@bo ,
+		"德令哈"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_37.37011_97.36088 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2491,7 +2591,13 @@ told:_GeoRegion_154
 		"རུ་ཤར།"@bo ,
 		"湟中"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Rushar"@en ,
+		"ru shar"@bo-x-ewts ,
+		"རུ་ཤར།"@bo ,
+		"湟中"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_36.500673_101.572933 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2508,7 +2614,13 @@ told:_GeoRegion_155
 		"ཆུ་དམར་ལེབ།"@bo ,
 		"曲麻莱"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Chumarleb"@en ,
+		"chu dmar leb"@bo-x-ewts ,
+		"ཆུ་དམར་ལེབ།"@bo ,
+		"曲麻莱"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_34.128264_95.79762 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2525,7 +2637,13 @@ told:_GeoRegion_156
 		"སྟོང་སྐོར།"@bo ,
 		"湟源"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Tongkor"@en ,
+		"stong skor"@bo-x-ewts ,
+		"སྟོང་སྐོར།"@bo ,
+		"湟源"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_36.6871424_101.260798 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2542,7 +2660,13 @@ told:_GeoRegion_157
 		"ཙོང་ཁ་མཁར།"@bo ,
 		"平安"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Tsongkha Khar"@en ,
+		"tsong kha mkhar"@bo-x-ewts ,
+		"ཙོང་ཁ་མཁར།"@bo ,
+		"平安"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_36.5036089_102.101777 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2559,7 +2683,13 @@ told:_GeoRegion_158
 		"བཀའ་མ་ལོག།"@bo ,
 		"民和"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Kamalok"@en ,
+		"bka' ma log"@bo-x-ewts ,
+		"བཀའ་མ་ལོག།"@bo ,
+		"民和"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_36.320736_102.831299 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2576,7 +2706,13 @@ told:_GeoRegion_159
 		"གྲོ་ཚང།"@bo ,
 		"乐都"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Drotsang"@en ,
+		"gro tshang"@bo-x-ewts ,
+		"གྲོ་ཚང།"@bo ,
+		"乐都"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_36.48069_102.40494 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2593,7 +2729,13 @@ told:_GeoRegion_16
 		"རྒྱལ་རྩེ།"@bo ,
 		"江孜县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Gyantse"@en ,
+		"rgyal rtse"@bo-x-ewts ,
+		"རྒྱལ་རྩེ།"@bo ,
+		"江孜县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.91533_89.60362 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2609,7 +2751,13 @@ told:_GeoRegion_160
 		"བག་ཆེན།"@bo ,
 		"吾勤"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Bakchen"@en ,
+		"bag chen"@bo-x-ewts ,
+		"བག་ཆེན།"@bo ,
+		"吾勤"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_33.970903_99.900059 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2626,7 +2774,13 @@ told:_GeoRegion_161
 		"དགོན་ལུང།"@bo ,
 		"互助"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Gonlung"@en ,
+		"dgon lung"@bo-x-ewts ,
+		"དགོན་ལུང།"@bo ,
+		"互助"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_36.83515_101.95673 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2643,7 +2797,13 @@ told:_GeoRegion_162
 		"བ་ཡན།"@bo ,
 		"化隆回族自治县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Bayan"@en ,
+		"ba yan"@bo-x-ewts ,
+		"བ་ཡན།"@bo ,
+		"化隆回族自治县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_36.095422_102.26467 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2660,7 +2820,13 @@ told:_GeoRegion_163
 		"ཡ་རྫི།"@bo ,
 		"循化县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Yadzi Khar "@en ,
+		"ya rdzi"@bo-x-ewts ,
+		"ཡ་རྫི།"@bo ,
+		"循化县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_35.849108_102.486409 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2677,7 +2843,13 @@ told:_GeoRegion_164
 		"སེམས་ཉིད་།"@bo ,
 		"门源"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Semnyi"@en ,
+		"sems nyid "@bo-x-ewts ,
+		"སེམས་ཉིད་།"@bo ,
+		"门源"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_37.377282_101.623451 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2694,7 +2866,13 @@ told:_GeoRegion_165
 		"རྒྱལ་ཐང།"@bo ,
 		"中甸"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Gyeltang"@en ,
+		"rgyal thang"@bo-x-ewts ,
+		"རྒྱལ་ཐང།"@bo ,
+		"中甸"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_27.831728_99.699976 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2711,7 +2889,13 @@ told:_GeoRegion_166
 		"ཆི་ལེན།"@bo ,
 		"祁连"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Chilen"@en ,
+		"chi len"@bo-x-ewts ,
+		"ཆི་ལེན།"@bo ,
+		"祁连"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_38.1823_100.24218 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2728,7 +2912,13 @@ told:_GeoRegion_167
 		"མདའ་བཞི་།"@bo ,
 		"海晏"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Dazhi"@en ,
+		"mda' bzhi "@bo-x-ewts ,
+		"མདའ་བཞི་།"@bo ,
+		"海晏"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_36.899068_100.99446 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2745,7 +2935,13 @@ told:_GeoRegion_168
 		"རྐང་ཚ།"@bo ,
 		"刚察"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Kangtsa"@en ,
+		"rkang tsha"@bo-x-ewts ,
+		"རྐང་ཚ།"@bo ,
+		"刚察"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_37.3285_100.13334 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2762,7 +2958,13 @@ told:_GeoRegion_169
 		"རེབ་གོང།"@bo ,
 		"同仁"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Rebkong"@en ,
+		"reb gong"@bo-x-ewts ,
+		"རེབ་གོང།"@bo ,
+		"同仁"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_2 ;
 	tolo:isRenderedAt told:_GeoPoint_35.509074_102.015314 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2779,7 +2981,13 @@ told:_GeoRegion_17
 		"ཁྲེང་ཏུ།"@bo ,
 		"成都"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Chengdu"@en ,
+		"khreng tu"@bo-x-ewts ,
+		"ཁྲེང་ཏུ།"@bo ,
+		"成都"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.58818_104.0619 ;
 	tolo:maxZoomLevel "16"^^xsd:integer ;
@@ -2796,7 +3004,13 @@ told:_GeoRegion_170
 		"གཅན་ཚ།"@bo ,
 		"尖扎"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Chentsa"@en ,
+		"gcan tsha"@bo-x-ewts ,
+		"གཅན་ཚ།"@bo ,
+		"尖扎"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_35.939942_102.030184 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2812,7 +3026,13 @@ told:_GeoRegion_171
 		"ཤར་མདའ།"@bo ,
 		"香达"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Sharda"@en ,
+		"shar mda'"@bo-x-ewts ,
+		"ཤར་མདའ།"@bo ,
+		"香达"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_32.204409_96.482455 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2828,7 +3048,13 @@ told:_GeoRegion_172
 		"བྱ་དིར།"@bo ,
 		"夏德"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Jadir"@en ,
+		"bya dir"@bo-x-ewts ,
+		"བྱ་དིར།"@bo ,
+		"夏德"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_35.037203_101.465694 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2845,7 +3071,13 @@ told:_GeoRegion_173
 		"ཆབ་ཆ།"@bo ,
 		"共和"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Chabcha"@en ,
+		"chab cha"@bo-x-ewts ,
+		"ཆབ་ཆ།"@bo ,
+		"共和"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_36.276161_100.619975 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2862,7 +3094,13 @@ told:_GeoRegion_174
 		"གད་པ་སུམ་མདོ།"@bo ,
 		"同德"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Gepasumdo"@en ,
+		"gad pa sum mdo"@bo-x-ewts ,
+		"གད་པ་སུམ་མདོ།"@bo ,
+		"同德"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_35.249055_100.588502 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2879,7 +3117,13 @@ told:_GeoRegion_175
 		"ཁྲི་ཀ།"@bo ,
 		"贵德"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Trika"@en ,
+		"khri ka"@bo-x-ewts ,
+		"ཁྲི་ཀ།"@bo ,
+		"贵德"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_36.040286_101.433258 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2896,7 +3140,13 @@ told:_GeoRegion_176
 		"མང་ར།"@bo ,
 		"贵南"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Mangra"@en ,
+		"mang ra"@bo-x-ewts ,
+		"མང་ར།"@bo ,
+		"贵南"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_35.588802_100.746234 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2913,7 +3163,13 @@ told:_GeoRegion_177
 		"རྨ་ཆེན།"@bo ,
 		"玛沁"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Machen"@en ,
+		"rma chen"@bo-x-ewts ,
+		"རྨ་ཆེན།"@bo ,
+		"玛沁"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_34.478916_100.238279 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2928,7 +3184,12 @@ told:_GeoRegion_178
 		"dri to"@bo-x-ewts ,
 		"འདྲི་ཏོ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Gyelje Podrang (Drito)"@en ,
+		"dri to"@bo-x-ewts ,
+		"འདྲི་ཏོ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_33.853982_95.615404 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2944,7 +3205,13 @@ told:_GeoRegion_179
 		"སེ་རའི་ཐང།"@bo ,
 		"赛来唐"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Seraitang"@en ,
+		"se ra'i thang"@bo-x-ewts ,
+		"སེ་རའི་ཐང།"@bo ,
+		"赛来唐"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_32.934673_100.736 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2961,7 +3228,13 @@ told:_GeoRegion_18
 		"པེ་ཅིན།"@bo ,
 		"北京"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Beijing"@en ,
+		"pe cin"@bo-x-ewts ,
+		"པེ་ཅིན།"@bo ,
+		"北京"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_39.91604_116.39045 ;
 	tolo:maxZoomLevel "11"^^xsd:integer ;
@@ -2977,7 +3250,13 @@ told:_GeoRegion_180
 		"རྒྱུད་སྨད།"@bo ,
 		"吉迈"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Gyume"@en ,
+		"rgyud smad"@bo-x-ewts ,
+		"རྒྱུད་སྨད།"@bo ,
+		"吉迈"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_33.752198_99.650552 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -2993,7 +3272,13 @@ told:_GeoRegion_181
 		"དྲུག་ཆེན་སུམ་མདོ།"@bo ,
 		"智青松"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Drukchen Sumdo"@en ,
+		"drug chen sum mdo"@bo-x-ewts ,
+		"དྲུག་ཆེན་སུམ་མདོ།"@bo ,
+		"智青松"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_33.434211_101.488605 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -3010,7 +3295,13 @@ told:_GeoRegion_182
 		"རྨ་སྟོད།"@bo ,
 		"玛多"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Mato"@en ,
+		"rma stod"@bo-x-ewts ,
+		"རྨ་སྟོད།"@bo ,
+		"玛多"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_34.916663_98.208409 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -3027,7 +3318,13 @@ told:_GeoRegion_183
 		"རྫ་སྟོད།"@bo ,
 		"杂多"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Dzato"@en ,
+		"rdza stod"@bo-x-ewts ,
+		"རྫ་སྟོད།"@bo ,
+		"杂多"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_32.895503_95.299614 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -3044,51 +3341,18 @@ told:_GeoRegion_184
 		"ཁྲི་འདུ་།"@bo ,
 		"称多"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Trindu"@en ,
+		"khri 'du "@bo-x-ewts ,
+		"ཁྲི་འདུ་།"@bo ,
+		"称多"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_33.370001_97.107071 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
 	tolo:minZoomLevel "8"^^xsd:integer ;
 	tolo:zoomLevelOnClick "12"^^xsd:integer ;
-	.
-
-told:_GeoRegion_185
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G2169 ;
-	skos:prefLabel
-		"Sakya"@en ,
-		"sa skya"@bo-x-ewts ,
-		"ས་སྐྱ།"@bo ,
-		"萨迦"@zh-HANI
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_city ,
-		tolx:_RegionType_sub_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
-	tolo:isRenderedAt told:_GeoPoint_28.90239_88.01992 ;
-	tolo:maxZoomLevel "21"^^xsd:integer ;
-	tolo:minZoomLevel "7"^^xsd:integer ;
-	tolo:zoomLevelOnClick "7"^^xsd:integer ;
-	.
-
-told:_GeoRegion_187
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G3182 ;
-	skos:prefLabel
-		"LADAKH"@en ,
-		"la dwags"@bo-x-ewts ,
-		"ལ་དྭགས།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
-	tolo:isRenderedAt told:_GeoPoint_34.41_77.28882 ;
-	tolo:maxZoomLevel "8"^^xsd:integer ;
-	tolo:minZoomLevel "7"^^xsd:integer ;
-	tolo:zoomLevelOnClick "8"^^xsd:integer ;
 	.
 
 told:_GeoRegion_188
@@ -3099,29 +3363,14 @@ told:_GeoRegion_188
 		"spo bo"@bo-x-ewts ,
 		"སྤོ་བོ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"POWO"@en ,
+		"spo bo"@bo-x-ewts ,
+		"སྤོ་བོ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.6_95.33936 ;
-	tolo:maxZoomLevel "8"^^xsd:integer ;
-	tolo:minZoomLevel "7"^^xsd:integer ;
-	tolo:zoomLevelOnClick "8"^^xsd:integer ;
-	.
-
-told:_GeoRegion_189
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G1490 ;
-	skos:prefLabel
-		"GOLOK"@en ,
-		"mgo log"@bo-x-ewts ,
-		"མགོ་ལོག།"@bo ,
-		"俄洛"@zh-HANI
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_sub_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_4 ;
-	tolo:isRenderedAt told:_GeoPoint_34_100 ;
 	tolo:maxZoomLevel "8"^^xsd:integer ;
 	tolo:minZoomLevel "7"^^xsd:integer ;
 	tolo:zoomLevelOnClick "8"^^xsd:integer ;
@@ -3134,7 +3383,12 @@ told:_GeoRegion_19
 		"sgang thog"@bo-x-ewts ,
 		"སྒང་ཐོག།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Gangtok"@en ,
+		"sgang thog"@bo-x-ewts ,
+		"སྒང་ཐོག།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_1 ;
 	tolo:isRenderedAt told:_GeoPoint_27.33566_88.61169 ;
 	tolo:maxZoomLevel "16"^^xsd:integer ;
@@ -3150,7 +3404,13 @@ told:_GeoRegion_190
 		"མི་ཉཀ།"@bo ,
 		"木雅"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"MINYAK"@en ,
+		"mi nyak"@bo-x-ewts ,
+		"མི་ཉཀ།"@bo ,
+		"木雅"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.2_101 ;
 	tolo:maxZoomLevel "9"^^xsd:integer ;
@@ -3167,7 +3427,13 @@ told:_GeoRegion_191
 		"མཚོ་སྔོན།"@bo ,
 		"青海"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"QINGHAI"@en ,
+		"mtsho sngon"@bo-x-ewts ,
+		"མཚོ་སྔོན།"@bo ,
+		"青海"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
 	tolo:isRenderedAt told:_GeoPoint_35.9862_96.1874 ;
 	tolo:maxZoomLevel "8"^^xsd:integer ;
@@ -3183,31 +3449,18 @@ told:_GeoRegion_192
 		"ཚྭའི་འདམ།"@bo ,
 		"柴达木盆地"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"TSAIDAM"@en ,
+		"tshwa'i 'dam"@bo-x-ewts ,
+		"ཚྭའི་འདམ།"@bo ,
+		"柴达木盆地"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
 	tolo:isRenderedAt told:_GeoPoint_36.93947_94.5 ;
 	tolo:maxZoomLevel "8"^^xsd:integer ;
 	tolo:minZoomLevel "7"^^xsd:integer ;
 	tolo:zoomLevelOnClick "8"^^xsd:integer ;
-	.
-
-told:_GeoRegion_194
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G1974 ;
-	skos:prefLabel
-		"NUBRA VALLEY"@en ,
-		"ldum rwa"@bo-x-ewts ,
-		"ལྡུམ་རྭ།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_sub_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_4 ;
-	tolo:isRenderedAt told:_GeoPoint_34.35379_77.82543 ;
-	tolo:maxZoomLevel "11"^^xsd:integer ;
-	tolo:minZoomLevel "9"^^xsd:integer ;
-	tolo:zoomLevelOnClick "9"^^xsd:integer ;
 	.
 
 told:_GeoRegion_195
@@ -3218,7 +3471,12 @@ told:_GeoRegion_195
 		"zangs dkar"@bo-x-ewts ,
 		"ཟངས་དཀར།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"ZANSKAR"@en ,
+		"zangs dkar"@bo-x-ewts ,
+		"ཟངས་དཀར།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_33.74919_76.87889 ;
 	tolo:maxZoomLevel "11"^^xsd:integer ;
@@ -3234,30 +3492,17 @@ told:_GeoRegion_196
 		"byang thang"@bo-x-ewts ,
 		"བྱང་ཐང།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"JANGTANG"@en ,
+		"byang thang"@bo-x-ewts ,
+		"བྱང་ཐང།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_32.12459_84.10034 ;
 	tolo:maxZoomLevel "8"^^xsd:integer ;
 	tolo:minZoomLevel "7"^^xsd:integer ;
 	tolo:zoomLevelOnClick "7"^^xsd:integer ;
-	.
-
-told:_GeoRegion_197
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"LABRANG"@en ,
-		"bla brang "@bo-x-ewts ,
-		"བླ་བྲང་།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_sub_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
-	tolo:isRenderedAt told:_GeoPoint_35.10026_102.74414 ;
-	tolo:maxZoomLevel "10"^^xsd:integer ;
-	tolo:minZoomLevel "8"^^xsd:integer ;
-	tolo:zoomLevelOnClick "8"^^xsd:integer ;
 	.
 
 told:_GeoRegion_198
@@ -3269,7 +3514,13 @@ told:_GeoRegion_198
 		"ཅོ་ནེ།"@bo ,
 		"卓尼"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"CHONE"@en ,
+		"co ne"@bo-x-ewts ,
+		"ཅོ་ནེ།"@bo ,
+		"卓尼"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_4 ;
 	tolo:isRenderedAt told:_GeoPoint_34.53203_103.40607 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3284,7 +3535,12 @@ told:_GeoRegion_199
 		"the bo"@bo-x-ewts ,
 		"ཐེ་བོ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"TEWO"@en ,
+		"the bo"@bo-x-ewts ,
+		"ཐེ་བོ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_33.91946_103.39783 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3300,7 +3556,12 @@ told:_GeoRegion_20
 		"thim phu"@bo-x-ewts ,
 		"ཐིམ་ཕུ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Thimphu"@en ,
+		"thim phu"@bo-x-ewts ,
+		"ཐིམ་ཕུ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_27.47248_89.63934 ;
 	tolo:maxZoomLevel "16"^^xsd:integer ;
@@ -3315,7 +3576,12 @@ told:_GeoRegion_200
 		"shar pa"@bo-x-ewts ,
 		"ཤར་པ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"SHARPA"@en ,
+		"shar pa"@bo-x-ewts ,
+		"ཤར་པ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_32.67756_103.4967 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3332,7 +3598,13 @@ told:_GeoRegion_203
 		"མཛོད་དགེ།"@bo ,
 		"若尔盖"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"DZOGE"@en ,
+		"mdzod dge"@bo-x-ewts ,
+		"མཛོད་དགེ།"@bo ,
+		"若尔盖"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_33.2858_102.58759 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3347,45 +3619,14 @@ told:_GeoRegion_204
 		"sog po"@bo-x-ewts ,
 		"སོག་པོ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"SOKWO"@en ,
+		"sog po"@bo-x-ewts ,
+		"སོག་པོ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_34.59032_101.86523 ;
-	tolo:maxZoomLevel "10"^^xsd:integer ;
-	tolo:minZoomLevel "8"^^xsd:integer ;
-	tolo:zoomLevelOnClick "8"^^xsd:integer ;
-	.
-
-told:_GeoRegion_205
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"NGAWA"@en ,
-		"rnga ba"@bo-x-ewts ,
-		"རྔ་བ།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_sub_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_4 ;
-	tolo:isRenderedAt told:_GeoPoint_32.87155_101.56586 ;
-	tolo:maxZoomLevel "10"^^xsd:integer ;
-	tolo:minZoomLevel "8"^^xsd:integer ;
-	tolo:zoomLevelOnClick "8"^^xsd:integer ;
-	.
-
-told:_GeoRegion_206
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"RONGWO"@en ,
-		"rong bo"@bo-x-ewts ,
-		"རོང་བོ།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_sub_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
-	tolo:isRenderedAt told:_GeoPoint_35.49032_101.98334 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
 	tolo:minZoomLevel "8"^^xsd:integer ;
 	tolo:zoomLevelOnClick "8"^^xsd:integer ;
@@ -3400,7 +3641,13 @@ told:_GeoRegion_21
 		"ཀ་ཐུ་མན་ཀྲུ།"@bo ,
 		"加德满都"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Kathmandu"@en ,
+		"ka thu man kru"@bo-x-ewts ,
+		"ཀ་ཐུ་མན་ཀྲུ།"@bo ,
+		"加德满都"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_27.69762_85.32429 ;
 	tolo:maxZoomLevel "16"^^xsd:integer ;
@@ -3416,27 +3663,14 @@ told:_GeoRegion_210
 		"gcan tsha"@bo-x-ewts ,
 		"གཅན་ཚ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"CHENTSA"@en ,
+		"gcan tsha"@bo-x-ewts ,
+		"གཅན་ཚ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_35.91715_102.02316 ;
-	tolo:maxZoomLevel "10"^^xsd:integer ;
-	tolo:minZoomLevel "8"^^xsd:integer ;
-	tolo:zoomLevelOnClick "8"^^xsd:integer ;
-	.
-
-told:_GeoRegion_211
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"TSONGKHA"@en ,
-		"tsong kha"@bo-x-ewts ,
-		"ཙོང་ཁ།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_sub_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
-	tolo:isRenderedAt told:_GeoPoint_36.70699_101.84326 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
 	tolo:minZoomLevel "8"^^xsd:integer ;
 	tolo:zoomLevelOnClick "8"^^xsd:integer ;
@@ -3449,7 +3683,12 @@ told:_GeoRegion_212
 		"dpa' ris "@bo-x-ewts ,
 		"དཔའ་རིས་།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"PARI"@en ,
+		"dpa' ris "@bo-x-ewts ,
+		"དཔའ་རིས་།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_37.41492_102.17834 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3464,7 +3703,12 @@ told:_GeoRegion_213
 		"ban dha hor"@bo-x-ewts ,
 		"འབན་དྷ་ཧོར།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"SHARA YUGUR "@en ,
+		"ban dha hor"@bo-x-ewts ,
+		"འབན་དྷ་ཧོར།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_38.29105_100.0827 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3480,7 +3724,13 @@ told:_GeoRegion_214
 		"རྒྱལ་རོང་།"@bo ,
 		"结隆"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"GYELRONG"@en ,
+		"rgyal rong "@bo-x-ewts ,
+		"རྒྱལ་རོང་།"@bo ,
+		"结隆"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.98718_102.12891 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3495,7 +3745,12 @@ told:_GeoRegion_215
 		"nyag rong"@bo-x-ewts ,
 		"ཉག་རོང།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"NYARONG"@en ,
+		"nyag rong"@bo-x-ewts ,
+		"ཉག་རོང།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
 	tolo:isRenderedAt told:_GeoPoint_30.96119_100.79407 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3510,7 +3765,12 @@ told:_GeoRegion_216
 		"skye rgu mdo"@bo-x-ewts ,
 		"སྐྱེ་རྒུ་མདོ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"JYEKUNDO"@en ,
+		"skye rgu mdo"@bo-x-ewts ,
+		"སྐྱེ་རྒུ་མདོ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
 	tolo:isRenderedAt told:_GeoPoint_33.15713_96.90216 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3525,46 +3785,14 @@ told:_GeoRegion_217
 		"hor rgya sde"@bo-x-ewts ,
 		"ཧོར་རྒྱ་སྡེ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"HOR GYADE"@en ,
+		"hor rgya sde"@bo-x-ewts ,
+		"ཧོར་རྒྱ་སྡེ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_32.3313_93.40027 ;
-	tolo:maxZoomLevel "10"^^xsd:integer ;
-	tolo:minZoomLevel "8"^^xsd:integer ;
-	tolo:zoomLevelOnClick "10"^^xsd:integer ;
-	.
-
-told:_GeoRegion_218
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G640 ;
-	skos:prefLabel
-		"KONGPO"@en ,
-		"kong po"@bo-x-ewts ,
-		"ཀོང་པོ།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_sub_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
-	tolo:isRenderedAt told:_GeoPoint_29.69644_93.83972 ;
-	tolo:maxZoomLevel "10"^^xsd:integer ;
-	tolo:minZoomLevel "8"^^xsd:integer ;
-	tolo:zoomLevelOnClick "10"^^xsd:integer ;
-	.
-
-told:_GeoRegion_219
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"DAKPO"@en ,
-		"dwags po"@bo-x-ewts ,
-		"དྭགས་པོ།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_sub_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
-	tolo:isRenderedAt told:_GeoPoint_29.0502_92.76581 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
 	tolo:minZoomLevel "8"^^xsd:integer ;
 	tolo:zoomLevelOnClick "10"^^xsd:integer ;
@@ -3579,7 +3807,13 @@ told:_GeoRegion_22
 		"ས་ཐམ།"@bo ,
 		"丽江"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Satam"@en ,
+		"sa tham"@bo-x-ewts ,
+		"ས་ཐམ།"@bo ,
+		"丽江"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_26.85554_100.22497 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -3594,30 +3828,17 @@ told:_GeoRegion_220
 		"yar 'brog"@bo-x-ewts ,
 		"ཡར་འབྲོག།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"YAMDROK"@en ,
+		"yar 'brog"@bo-x-ewts ,
+		"ཡར་འབྲོག།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.79297_90.65918 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
 	tolo:minZoomLevel "8"^^xsd:integer ;
 	tolo:zoomLevelOnClick "10"^^xsd:integer ;
-	.
-
-told:_GeoRegion_221
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"LHODRAK"@en ,
-		"lho brag"@bo-x-ewts ,
-		"ལྷོ་བྲག།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_sub_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
-	tolo:isRenderedAt told:_GeoPoint_28.17192_91.06018 ;
-	tolo:maxZoomLevel "10"^^xsd:integer ;
-	tolo:minZoomLevel "8"^^xsd:integer ;
-	tolo:zoomLevelOnClick "8"^^xsd:integer ;
 	.
 
 told:_GeoRegion_222
@@ -3627,7 +3848,12 @@ told:_GeoRegion_222
 		"gnyal"@bo-x-ewts ,
 		"གཉལ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"NYAL"@en ,
+		"gnyal"@bo-x-ewts ,
+		"གཉལ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.37331_92.3291 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3644,7 +3870,13 @@ told:_GeoRegion_223
 		"མཚོ་སྣ།"@bo ,
 		"错那"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"TSONA"@en ,
+		"mtsho sna"@bo-x-ewts ,
+		"མཚོ་སྣ།"@bo ,
+		"错那"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_27.96834_91.95969 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3659,7 +3891,12 @@ told:_GeoRegion_224
 		"lo ro"@bo-x-ewts ,
 		"ལོ་རོ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"LORO"@en ,
+		"lo ro"@bo-x-ewts ,
+		"ལོ་རོ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.15981_92.39227 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3675,7 +3912,12 @@ told:_GeoRegion_225
 		"bya yul"@bo-x-ewts ,
 		"བྱ་ཡུལ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"JAYUL"@en ,
+		"bya yul"@bo-x-ewts ,
+		"བྱ་ཡུལ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.30138_92.85645 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3692,7 +3934,13 @@ told:_GeoRegion_226
 		"ཙཱ་རི།"@bo ,
 		"匝日山"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"TSARI"@en ,
+		"tsA ri"@bo-x-ewts ,
+		"ཙཱ་རི།"@bo ,
+		"匝日山"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.7767_93.16818 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3708,7 +3956,12 @@ told:_GeoRegion_227
 		"ol kha"@bo-x-ewts ,
 		"འོལ་ཁ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"WOLKHA"@en ,
+		"ol kha"@bo-x-ewts ,
+		"འོལ་ཁ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.42675_92.40738 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3723,7 +3976,12 @@ told:_GeoRegion_228
 		"on"@bo-x-ewts ,
 		"འོན།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"WON"@en ,
+		"on"@bo-x-ewts ,
+		"འོན།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.35256_91.90338 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3738,7 +3996,12 @@ told:_GeoRegion_229
 		"mal gro"@bo-x-ewts ,
 		"མལ་གྲོ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"MELDRO"@en ,
+		"mal gro"@bo-x-ewts ,
+		"མལ་གྲོ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.85584_91.82991 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3754,7 +4017,12 @@ told:_GeoRegion_23
 		"glo smon thang"@bo-x-ewts ,
 		"གློ་སྨོན་ཐང།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Lo Montang"@en ,
+		"glo smon thang"@bo-x-ewts ,
+		"གློ་སྨོན་ཐང།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.18295_83.9566 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -3769,7 +4037,12 @@ told:_GeoRegion_230
 		"phan po "@bo-x-ewts ,
 		"འཕན་པོ་།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"PENPO"@en ,
+		"phan po "@bo-x-ewts ,
+		"འཕན་པོ་།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.93382_91.18378 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3785,7 +4058,13 @@ told:_GeoRegion_231
 		"གདམ།"@bo ,
 		"党巴"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"DAM"@en ,
+		"gdam"@bo-x-ewts ,
+		"གདམ།"@bo ,
+		"党巴"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.44455_91.02997 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3800,7 +4079,12 @@ told:_GeoRegion_232
 		"snye mo"@bo-x-ewts ,
 		"སྙེ་མོ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"NYEMO"@en ,
+		"snye mo"@bo-x-ewts ,
+		"སྙེ་མོ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.44021_90.14008 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3815,7 +4099,12 @@ told:_GeoRegion_233
 		"o yug"@bo-x-ewts ,
 		"འོ་ཡུག།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"WOYUK"@en ,
+		"o yug"@bo-x-ewts ,
+		"འོ་ཡུག།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.7006_89.61273 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3830,7 +4119,12 @@ told:_GeoRegion_234
 		"shangs"@bo-x-ewts ,
 		"ཤངས།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"SHANG"@en ,
+		"shangs"@bo-x-ewts ,
+		"ཤངས།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_4 ;
 	tolo:isRenderedAt told:_GeoPoint_29.72445_89.07028 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3841,7 +4135,8 @@ told:_GeoRegion_234
 told:_GeoRegion_235
 	a gist:GeoRegion ;
 	skos:prefLabel "JE"@en ;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel "JE"@en ;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.48415_88.25523 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3857,7 +4152,12 @@ told:_GeoRegion_236
 		"rta nag"@bo-x-ewts ,
 		"རྟ་ནག།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"TANAK"@en ,
+		"rta nag"@bo-x-ewts ,
+		"རྟ་ནག།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
 	tolo:isRenderedAt told:_GeoPoint_29.48474_88.33626 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3868,7 +4168,8 @@ told:_GeoRegion_236
 told:_GeoRegion_237
 	a gist:GeoRegion ;
 	skos:prefLabel "MU"@en ;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel "MU"@en ;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.52509_87.66541 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3885,7 +4186,13 @@ told:_GeoRegion_238
 		"དིང་རི།"@bo ,
 		"定日"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"DINGRI"@en ,
+		"ding ri"@bo-x-ewts ,
+		"དིང་རི།"@bo ,
+		"定日"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
 	tolo:isRenderedAt told:_GeoPoint_28.62011_86.59561 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -3900,32 +4207,17 @@ told:_GeoRegion_239
 		"gting skyes"@bo-x-ewts ,
 		"གཏིང་སྐྱེས།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"TINGYE"@en ,
+		"gting skyes"@bo-x-ewts ,
+		"གཏིང་སྐྱེས།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.40531_87.84531 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
 	tolo:minZoomLevel "8"^^xsd:integer ;
 	tolo:zoomLevelOnClick "10"^^xsd:integer ;
-	.
-
-told:_GeoRegion_24
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G2800 ;
-	skos:prefLabel
-		"Lhasa"@en ,
-		"lha sa"@bo-x-ewts ,
-		"ལྷ་ས།"@bo ,
-		"拉萨"@zh-HANI
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_city ,
-		tolx:_RegionType_local_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_1 ;
-	tolo:isRenderedAt told:_GeoPoint_29.6535_91.1225 ;
-	tolo:maxZoomLevel "15"^^xsd:integer ;
-	tolo:minZoomLevel "2"^^xsd:integer ;
-	tolo:zoomLevelOnClick "15"^^xsd:integer ;
 	.
 
 told:_GeoRegion_240
@@ -3937,27 +4229,15 @@ told:_GeoRegion_240
 		"གྲོ་མོ།"@bo ,
 		"亚东"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"DROMO"@en ,
+		"gro mo"@bo-x-ewts ,
+		"གྲོ་མོ།"@bo ,
+		"亚东"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_27.6063_88.93982 ;
-	tolo:maxZoomLevel "10"^^xsd:integer ;
-	tolo:minZoomLevel "8"^^xsd:integer ;
-	tolo:zoomLevelOnClick "10"^^xsd:integer ;
-	.
-
-told:_GeoRegion_241
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"NYANG"@en ,
-		"nyang"@bo-x-ewts ,
-		"ཉང།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_sub_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
-	tolo:isRenderedAt told:_GeoPoint_29.10149_89.44794 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
 	tolo:minZoomLevel "8"^^xsd:integer ;
 	tolo:zoomLevelOnClick "10"^^xsd:integer ;
@@ -3971,7 +4251,12 @@ told:_GeoRegion_242
 		"bras ljongs"@bo-x-ewts ,
 		"འབྲས་ལྗོངས།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"SIKKIM"@en ,
+		"bras ljongs"@bo-x-ewts ,
+		"འབྲས་ལྗོངས།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_4 ;
 	tolo:isRenderedAt told:_GeoPoint_27.5614_88.4273 ;
 	tolo:maxZoomLevel "11"^^xsd:integer ;
@@ -3988,52 +4273,18 @@ told:_GeoRegion_243
 		"དཔའ་རིས།"@bo ,
 		"天祝县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Pari"@en ,
+		"dpa' ris"@bo-x-ewts ,
+		"དཔའ་རིས།"@bo ,
+		"天祝县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_36.980151_103.13442 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
 	tolo:minZoomLevel "9"^^xsd:integer ;
 	tolo:zoomLevelOnClick "11"^^xsd:integer ;
-	.
-
-told:_GeoRegion_244
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G3205 ;
-	skos:prefLabel
-		"BHUTAN"@en ,
-		"brug yul"@bo-x-ewts ,
-		"འབྲུག་ཡུལ།"@bo ,
-		"不丹"@zh-HANI
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
-	tolo:isRenderedAt told:_GeoPoint_27.4135_90.4195 ;
-	tolo:maxZoomLevel "12"^^xsd:integer ;
-	tolo:minZoomLevel "7"^^xsd:integer ;
-	tolo:zoomLevelOnClick "7"^^xsd:integer ;
-	.
-
-told:_GeoRegion_245
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G4450 ;
-	skos:prefLabel
-		"NEPAL"@en ,
-		"bal yul"@bo-x-ewts ,
-		"བལ་ཡུལ།"@bo ,
-		"尼泊尔"@zh-HANI
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
-	tolo:isRenderedAt told:_GeoPoint_28.264_83.9614 ;
-	tolo:maxZoomLevel "12"^^xsd:integer ;
-	tolo:minZoomLevel "7"^^xsd:integer ;
-	tolo:zoomLevelOnClick "7"^^xsd:integer ;
 	.
 
 told:_GeoRegion_246
@@ -4043,7 +4294,12 @@ told:_GeoRegion_246
 		"pad+ma bkod"@bo-x-ewts ,
 		"པདྨ་བཀོད།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"PEMAKO"@en ,
+		"pad+ma bkod"@bo-x-ewts ,
+		"པདྨ་བཀོད།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
 	tolo:isRenderedAt told:_GeoPoint_29.32356_95.18829 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -4058,27 +4314,14 @@ told:_GeoRegion_247
 		"rdza yul"@bo-x-ewts ,
 		"རྫ་ཡུལ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"ZAYUL"@en ,
+		"rdza yul"@bo-x-ewts ,
+		"རྫ་ཡུལ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.81827_97.39929 ;
-	tolo:maxZoomLevel "10"^^xsd:integer ;
-	tolo:minZoomLevel "8"^^xsd:integer ;
-	tolo:zoomLevelOnClick "10"^^xsd:integer ;
-	.
-
-told:_GeoRegion_248
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"MUSTANG"@en ,
-		"glo smon thang"@bo-x-ewts ,
-		"གློ་སྨོན་ཐང།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_sub_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
-	tolo:isRenderedAt told:_GeoPoint_29.25227_83.74878 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
 	tolo:minZoomLevel "8"^^xsd:integer ;
 	tolo:zoomLevelOnClick "10"^^xsd:integer ;
@@ -4092,7 +4335,12 @@ told:_GeoRegion_249
 		"dol po"@bo-x-ewts ,
 		"དོལ་པོ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"DOLPO"@en ,
+		"dol po"@bo-x-ewts ,
+		"དོལ་པོ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.61929_82.74353 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
@@ -4109,7 +4357,13 @@ told:_GeoRegion_250
 		"སྤུ་རང།"@bo ,
 		"普兰"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Purang"@en ,
+		"spu rang"@bo-x-ewts ,
+		"སྤུ་རང།"@bo ,
+		"普兰"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.29728_81.17592 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4126,28 +4380,18 @@ told:_GeoRegion_251
 		"རུ་ཐོག།"@bo ,
 		"日土"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"RUTOK"@en ,
+		"ru thog"@bo-x-ewts ,
+		"རུ་ཐོག།"@bo ,
+		"日土"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_33.58377_79.95026 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
 	tolo:minZoomLevel "8"^^xsd:integer ;
 	tolo:zoomLevelOnClick "8"^^xsd:integer ;
-	.
-
-told:_GeoRegion_254
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G3188 ;
-	skos:prefLabel
-		"INDIA"@en ,
-		"rgya gar"@bo-x-ewts ,
-		"རྒྱ་གར།"@bo ,
-		"印度"@zh-HANI
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
 	.
 
 told:_GeoRegion_255
@@ -4158,95 +4402,17 @@ told:_GeoRegion_255
 		"dha ram sa la"@bo-x-ewts ,
 		"དྷ་རམ་ས་ལ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Dharamsala"@en ,
+		"dha ram sa la"@bo-x-ewts ,
+		"དྷ་རམ་ས་ལ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_32.218184_76.323446 ;
 	tolo:maxZoomLevel "11"^^xsd:integer ;
 	tolo:minZoomLevel "5"^^xsd:integer ;
 	tolo:zoomLevelOnClick "10"^^xsd:integer ;
-	.
-
-told:_GeoRegion_257
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G3186 ;
-	skos:prefLabel
-		"UTSANG"@en ,
-		"dbus gtsang"@bo-x-ewts ,
-		"དབུས་གཙང།"@bo ,
-		"卫藏"@zh-HANI
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
-	.
-
-told:_GeoRegion_258
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"T I B E T"@en ,
-		"bod"@bo-x-ewts ,
-		"བོད།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_1 ;
-	tolo:isRenderedAt told:_GeoPoint_31.5575_88.0466 ;
-	.
-
-told:_GeoRegion_259
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G1539 ;
-	skos:prefLabel
-		"DERGE"@en ,
-		"sde dge"@bo-x-ewts ,
-		"སྡེ་དགེ།"@bo ,
-		"德格县"@zh-HANI
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
-	tolo:isRenderedAt told:_GeoPoint_31.77606_98.96157 ;
-	.
-
-told:_GeoRegion_26
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"KHAM"@en ,
-		"khams"@bo-x-ewts ,
-		"ཁམས།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_region
-		;
-	tolo:displayText told:_FormattedContent_MapRegion_26 ;
-	tolo:hasMappingPriority tolx:_MappingPriority_2 ;
-	tolo:isRenderedAt told:_GeoPoint_31.3066_98.0279 ;
-	tolo:maxZoomLevel "7"^^xsd:integer ;
-	tolo:minZoomLevel "6"^^xsd:integer ;
-	tolo:zoomLevelOnClick "6"^^xsd:integer ;
-	.
-
-told:_GeoRegion_260
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G858 ;
-	skos:prefLabel
-		"LING"@en ,
-		"gling"@bo-x-ewts ,
-		"གླིང།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_local_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_4 ;
-	tolo:isRenderedAt told:_GeoPoint_32.38988_98.19434 ;
 	.
 
 told:_GeoRegion_261
@@ -4257,166 +4423,23 @@ told:_GeoRegion_261
 		"lha thog"@bo-x-ewts ,
 		"ལྷ་ཐོག།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"Lhatok"@en ,
+		"lha thog"@bo-x-ewts ,
+		"ལྷ་ཐོག།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.54658_97.287 ;
-	.
-
-told:_GeoRegion_262
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G4144 ;
-	skos:prefLabel
-		"NANGCHEN"@en ,
-		"nang chen"@bo-x-ewts ,
-		"ནང་ཆེན།"@bo ,
-		"囊谦"@zh-HANI
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_local_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_4 ;
-	tolo:isRenderedAt told:_GeoPoint_32.5697_96.6231 ;
 	.
 
 told:_GeoRegion_263
 	a gist:GeoRegion ;
 	skos:prefLabel "Ulan Ude"@en ;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel "Ulan Ude"@en ;
 	tolo:hasMappingPriority tolx:_MappingPriority_4 ;
 	tolo:isRenderedAt told:_GeoPoint_51.83571_107.58896 ;
-	.
-
-told:_GeoRegion_264
-	a gist:GeoRegion ;
-	skos:prefLabel "Buryatia"@en ;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
-	tolo:isRenderedAt told:_GeoPoint_52.7182426_109.492143 ;
-	.
-
-told:_GeoRegion_265
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"Gezing"@en ,
-		"rgyal shing"@bo-x-ewts ,
-		"རྒྱལ་ཤིང།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_city ,
-		tolx:_RegionType_local_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
-	tolo:isRenderedAt told:_GeoPoint_27.295407_88.253646 ;
-	tolo:maxZoomLevel "18"^^xsd:integer ;
-	tolo:zoomLevelOnClick "12"^^xsd:integer ;
-	.
-
-told:_GeoRegion_266
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"Sindrang"@en ,
-		"sin da rang"@bo-x-ewts ,
-		"སིན་ད་རང།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_city ,
-		tolx:_RegionType_local_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
-	tolo:isRenderedAt told:_GeoPoint_27.328845_88.197851 ;
-	tolo:maxZoomLevel "22"^^xsd:integer ;
-	tolo:minZoomLevel "7"^^xsd:integer ;
-	tolo:zoomLevelOnClick "7"^^xsd:integer ;
-	.
-
-told:_GeoRegion_267
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"Rinchenpong"@en ,
-		"rin chen spungs"@bo-x-ewts ,
-		"རིན་ཆེན་སྤུངས།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_city ,
-		tolx:_RegionType_local_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
-	tolo:isRenderedAt told:_GeoPoint_27.237152_88.268428 ;
-	.
-
-told:_GeoRegion_268
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"Singyang"@en ,
-		"sin g.yang"@bo-x-ewts ,
-		"སིན་གཡང།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_city ,
-		tolx:_RegionType_local_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
-	tolo:isRenderedAt told:_GeoPoint_27.324152_88.211265 ;
-	tolo:maxZoomLevel "22"^^xsd:integer ;
-	tolo:minZoomLevel "10"^^xsd:integer ;
-	.
-
-told:_GeoRegion_269
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"Tashiding"@en ,
-		"bkra shis lding"@bo-x-ewts ,
-		"བཀྲ་ཤིས་ལྡིང།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_city ,
-		tolx:_RegionType_local_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
-	tolo:isRenderedAt told:_GeoPoint_27.309711_88.291653 ;
-	tolo:maxZoomLevel "22"^^xsd:integer ;
-	tolo:zoomLevelOnClick "10"^^xsd:integer ;
-	.
-
-told:_GeoRegion_27
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"TSANG"@en ,
-		"gtsang"@bo-x-ewts ,
-		"གཙང།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_sub_region
-		;
-	tolo:displayText told:_FormattedContent_MapRegion_27 ;
-	tolo:hasMappingPriority tolx:_MappingPriority_2 ;
-	tolo:isRenderedAt told:_GeoPoint_29.42325_88.82994 ;
-	tolo:maxZoomLevel "8"^^xsd:integer ;
-	tolo:minZoomLevel "6"^^xsd:integer ;
-	tolo:zoomLevelOnClick "6"^^xsd:integer ;
-	.
-
-told:_GeoRegion_270
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G684 ;
-	skos:prefLabel
-		"Gyeltang"@en ,
-		"rgyal thang"@bo-x-ewts ,
-		"རྒྱལ་ཐང།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_local_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
-	tolo:isRenderedAt told:_GeoPoint_27.7727_99.7059 ;
-	tolo:maxZoomLevel "10"^^xsd:integer ;
-	tolo:minZoomLevel "4"^^xsd:integer ;
 	.
 
 told:_GeoRegion_271
@@ -4428,85 +4451,17 @@ told:_GeoRegion_271
 		"འཇང་ས་ཐམ།"@bo ,
 		"降三赕"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_region ;
+	gist:isCategorizedBy tolx:_RegionType_folk_region ;
+	tolo:displayLabel
+		"Jang Satam"@en ,
+		"jang sa tham"@bo-x-ewts ,
+		"འཇང་ས་ཐམ།"@bo ,
+		"降三赕"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
 	tolo:isRenderedAt told:_GeoPoint_26.924_100.2315 ;
 	tolo:maxZoomLevel "10"^^xsd:integer ;
 	tolo:minZoomLevel "4"^^xsd:integer ;
-	.
-
-told:_GeoRegion_272
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G2358 ;
-	skos:prefLabel
-		"Eyul"@en ,
-		"e yul"@bo-x-ewts ,
-		"ཨེ་ཡུལ།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_local_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_4 ;
-	tolo:isRenderedAt told:_GeoPoint_29.0665482_92.1904343 ;
-	.
-
-told:_GeoRegion_28
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"NGARI"@en ,
-		"mnga' ris"@bo-x-ewts ,
-		"མངའ་རིས།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_sub_region
-		;
-	tolo:displayText told:_FormattedContent_MapRegion_28 ;
-	tolo:hasMappingPriority tolx:_MappingPriority_2 ;
-	tolo:isRenderedAt told:_GeoPoint_32_82.2 ;
-	tolo:maxZoomLevel "7"^^xsd:integer ;
-	tolo:minZoomLevel "6"^^xsd:integer ;
-	tolo:zoomLevelOnClick "6"^^xsd:integer ;
-	.
-
-told:_GeoRegion_29
-	a gist:GeoRegion ;
-	skos:prefLabel
-		"U"@en ,
-		"dbu"@bo-x-ewts ,
-		"དབུ།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_sub_region
-		;
-	tolo:displayText told:_FormattedContent_MapRegion_29 ;
-	tolo:hasMappingPriority tolx:_MappingPriority_2 ;
-	tolo:isRenderedAt told:_GeoPoint_29.4733_91.799 ;
-	tolo:maxZoomLevel "8"^^xsd:integer ;
-	tolo:minZoomLevel "7"^^xsd:integer ;
-	tolo:zoomLevelOnClick "7"^^xsd:integer ;
-	.
-
-told:_GeoRegion_30
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G1202 ;
-	skos:prefLabel
-		"AMDO"@en ,
-		"a mdo"@bo-x-ewts ,
-		"ཨ་མདོ།"@bo
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_region ,
-		tolx:_RegionType_region
-		;
-	tolo:displayText told:_FormattedContent_MapRegion_30 ;
-	tolo:hasMappingPriority tolx:_MappingPriority_2 ;
-	tolo:isRenderedAt told:_GeoPoint_36.00335_100.48645 ;
-	tolo:maxZoomLevel "7"^^xsd:integer ;
-	tolo:minZoomLevel "6"^^xsd:integer ;
-	tolo:zoomLevelOnClick "7"^^xsd:integer ;
 	.
 
 told:_GeoRegion_31
@@ -4518,7 +4473,13 @@ told:_GeoRegion_31
 		"ལྷུན་གྲུབ།"@bo ,
 		"林周县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Lhundrub"@en ,
+		"lhun grub"@bo-x-ewts ,
+		"ལྷུན་གྲུབ།"@bo ,
+		"林周县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.90242_91.24901 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4535,7 +4496,13 @@ told:_GeoRegion_32
 		"འདམ་གཞུང།"@bo ,
 		"当雄县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Damzhung"@en ,
+		"dam gzhung"@bo-x-ewts ,
+		"འདམ་གཞུང།"@bo ,
+		"当雄县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.475761_91.109767 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4552,7 +4519,13 @@ told:_GeoRegion_33
 		"དར་གྲོང།"@bo ,
 		"塔榮 "@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Dardrong"@en ,
+		"dar grong"@bo-x-ewts ,
+		"དར་གྲོང།"@bo ,
+		"塔榮 "@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.430873_90.167193 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4569,7 +4542,13 @@ told:_GeoRegion_34
 		"ཆུ་ཤུར།"@bo ,
 		"曲水县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Chushur"@en ,
+		"chu shur"@bo-x-ewts ,
+		"ཆུ་ཤུར།"@bo ,
+		"曲水县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.35596_90.72939 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4586,7 +4565,13 @@ told:_GeoRegion_35
 		"སྟོད་ལུང་བདེ་ཆེན་།"@bo ,
 		"堆龙德庆县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Tolung Dechen"@en ,
+		"stod lung bde chen "@bo-x-ewts ,
+		"སྟོད་ལུང་བདེ་ཆེན་།"@bo ,
+		"堆龙德庆县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.646604_91.001085 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4603,7 +4588,13 @@ told:_GeoRegion_36
 		"སྟག་རྩེ།"@bo ,
 		"达孜县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Taktse"@en ,
+		"stag rtse"@bo-x-ewts ,
+		"སྟག་རྩེ།"@bo ,
+		"达孜县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.67315_91.34278 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4620,7 +4611,13 @@ told:_GeoRegion_37
 		"མལ་གྲོ་གུང་དཀར།"@bo ,
 		"墨竹工卡"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Meldro Gungkar"@en ,
+		"mal gro gung dkar"@bo-x-ewts ,
+		"མལ་གྲོ་གུང་དཀར།"@bo ,
+		"墨竹工卡"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.83929_91.72472 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4637,7 +4634,13 @@ told:_GeoRegion_38
 		"འཇོ་མདའ།"@bo ,
 		"江达县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Jomda"@en ,
+		"jo mda'"@bo-x-ewts ,
+		"འཇོ་མདའ།"@bo ,
+		"江达县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.499296_98.217742 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4654,7 +4657,13 @@ told:_GeoRegion_39
 		"གོ་འཇོ།"@bo ,
 		"贡觉县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Gonjo"@en ,
+		"go 'jo"@bo-x-ewts ,
+		"གོ་འཇོ།"@bo ,
+		"贡觉县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.859628_98.270734 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4671,7 +4680,13 @@ told:_GeoRegion_40
 		"རི་བོ་ཆེ།"@bo ,
 		"类乌齐"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Riwoche"@en ,
+		"ri bo che"@bo-x-ewts ,
+		"རི་བོ་ཆེ།"@bo ,
+		"类乌齐"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.211923_96.600596 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4688,7 +4703,13 @@ told:_GeoRegion_41
 		"སྟེང་ཆེན།"@bo ,
 		"丁青县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Tengchen"@en ,
+		"steng chen"@bo-x-ewts ,
+		"སྟེང་ཆེན།"@bo ,
+		"丁青县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.412217_95.595715 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4704,7 +4725,13 @@ told:_GeoRegion_42
 		"བྱམས་མདུན།"@bo ,
 		"香堆"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Jamdun"@en ,
+		"byams mdun"@bo-x-ewts ,
+		"བྱམས་མདུན།"@bo ,
+		"香堆"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.56854_97.97221 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4721,7 +4748,13 @@ told:_GeoRegion_43
 		"པད་མ།"@bo ,
 		"白馬"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Pema"@en ,
+		"pad ma"@bo-x-ewts ,
+		"པད་མ།"@bo ,
+		"白馬"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.05704_96.91752 ;
 	tolo:maxZoomLevel "32"^^xsd:integer ;
@@ -4738,7 +4771,13 @@ told:_GeoRegion_44
 		"མཛོ་སྒང་།"@bo ,
 		"左贡"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Dzogang"@en ,
+		"mdzo sgang "@bo-x-ewts ,
+		"མཛོ་སྒང་།"@bo ,
+		"左贡"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.70757_97.79564 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4754,7 +4793,13 @@ told:_GeoRegion_45
 		"སྒར་ཐོག།"@bo ,
 		"呷托"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Gartok"@en ,
+		"sgar thog"@bo-x-ewts ,
+		"སྒར་ཐོག།"@bo ,
+		"呷托"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.69504_98.5932 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4770,7 +4815,13 @@ told:_GeoRegion_46
 		"རྫི་ཐོ།"@bo ,
 		"孜托"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Dzito"@en ,
+		"rdzi tho"@bo-x-ewts ,
+		"རྫི་ཐོ།"@bo ,
+		"孜托"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.74306_95.82625 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4787,7 +4838,13 @@ told:_GeoRegion_47
 		"དཔལ་འབར།"@bo ,
 		"边坝县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Pelbar"@en ,
+		"dpal 'bar"@bo-x-ewts ,
+		"དཔལ་འབར།"@bo ,
+		"边坝县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.93818_94.70798 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4804,7 +4861,13 @@ told:_GeoRegion_48
 		"གྲ་ཐང།"@bo ,
 		"扎塘"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Dratang"@en ,
+		"gra thang"@bo-x-ewts ,
+		"གྲ་ཐང།"@bo ,
+		"扎塘"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.239405_91.333115 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4821,7 +4884,13 @@ told:_GeoRegion_49
 		"གོང་དཀར།"@bo ,
 		"贡嘎县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Gongkar"@en ,
+		"gong dkar"@bo-x-ewts ,
+		"གོང་དཀར།"@bo ,
+		"贡嘎县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.2923_90.98122 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4838,7 +4907,13 @@ told:_GeoRegion_50
 		"ཟངས་རི།"@bo ,
 		"桑日县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Zangri"@en ,
+		"zangs ri"@bo-x-ewts ,
+		"ཟངས་རི།"@bo ,
+		"桑日县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.26505_92.00638 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4854,7 +4929,12 @@ told:_GeoRegion_51
 		"phyongs rgyas"@bo-x-ewts ,
 		"འཕྱོངས་རྒྱས།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Chonggye"@en ,
+		"phyongs rgyas"@bo-x-ewts ,
+		"འཕྱོངས་རྒྱས།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.02879_91.67921 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4871,7 +4951,13 @@ told:_GeoRegion_52
 		"ཆུ་གསུམ།"@bo ,
 		"曲松县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Chusum"@en ,
+		"chu gsum"@bo-x-ewts ,
+		"ཆུ་གསུམ།"@bo ,
+		"曲松县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.0662_92.19907 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4888,7 +4974,13 @@ told:_GeoRegion_53
 		"རྒྱ་ཚ།"@bo ,
 		"加查县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Gyatsa"@en ,
+		"rgya tsha"@bo-x-ewts ,
+		"རྒྱ་ཚ།"@bo ,
+		"加查县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.14342_92.59106 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4905,7 +4997,13 @@ told:_GeoRegion_54
 		"མཚོ་སྨད།"@bo ,
 		"措美县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Tsome"@en ,
+		"mtsho smad"@bo-x-ewts ,
+		"མཚོ་སྨད།"@bo ,
+		"措美县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.44525_91.42445 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4922,7 +5020,13 @@ told:_GeoRegion_55
 		"ལྷོ་བྲག།"@bo ,
 		"洛扎县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Lhodrak"@en ,
+		"lho brag"@bo-x-ewts ,
+		"ལྷོ་བྲག།"@bo ,
+		"洛扎县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_2 ;
 	tolo:isRenderedAt told:_GeoPoint_28.39072_90.85481 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4939,7 +5043,13 @@ told:_GeoRegion_56
 		"ལྷུན་རྩེ།"@bo ,
 		"隆子县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Lhuntse"@en ,
+		"lhun rtse"@bo-x-ewts ,
+		"ལྷུན་རྩེ།"@bo ,
+		"隆子县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.42323_92.44446 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4956,7 +5066,13 @@ told:_GeoRegion_57
 		"མཚོ་སྣ།"@bo ,
 		"错那县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Tsona"@en ,
+		"mtsho sna"@bo-x-ewts ,
+		"མཚོ་སྣ།"@bo ,
+		"错那县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_27.9975_91.9593 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4973,7 +5089,13 @@ told:_GeoRegion_58
 		"སྣ་དཀར་རྩེ།"@bo ,
 		"浪卡子县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Nakartse"@en ,
+		"sna dkar rtse"@bo-x-ewts ,
+		"སྣ་དཀར་རྩེ།"@bo ,
+		"浪卡子县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.97143_90.39675 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -4989,7 +5111,12 @@ told:_GeoRegion_6
 		"khu re"@bo-x-ewts ,
 		"ཁུ་རེ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Ulaan Baatar"@en ,
+		"khu re"@bo-x-ewts ,
+		"ཁུ་རེ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_47.91885_106.91758 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5006,7 +5133,13 @@ told:_GeoRegion_61
 		"རྣམ་གླིང།"@bo ,
 		"南木林县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Namling"@en ,
+		"rnam gling"@bo-x-ewts ,
+		"རྣམ་གླིང།"@bo ,
+		"南木林县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.68335_89.09648 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5023,7 +5156,13 @@ told:_GeoRegion_62
 		"ཤེལ་དཀར།"@bo ,
 		"协格尔"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Shelkar"@en ,
+		"shel dkar"@bo-x-ewts ,
+		"ཤེལ་དཀར།"@bo ,
+		"协格尔"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.658903_87.126299 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5039,7 +5178,13 @@ told:_GeoRegion_64
 		"ཆུ་ཤར།"@bo ,
 		"曲下"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Chushar"@en ,
+		"chu shar"@bo-x-ewts ,
+		"ཆུ་ཤར།"@bo ,
+		"曲下"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.091654_87.637155 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5056,7 +5201,13 @@ told:_GeoRegion_65
 		"ངམ་རིང།"@bo ,
 		"昂仁县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Ngamring"@en ,
+		"ngam ring"@bo-x-ewts ,
+		"ངམ་རིང།"@bo ,
+		"昂仁县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.29701_87.2238 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5073,7 +5224,13 @@ told:_GeoRegion_66
 		"བཟད་མཐོང་སྨོན།"@bo ,
 		"谢通门县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Zetongmon"@en ,
+		"bzad mthong smon"@bo-x-ewts ,
+		"བཟད་མཐོང་སྨོན།"@bo ,
+		"谢通门县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.433822_88.260139 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5090,7 +5247,13 @@ told:_GeoRegion_67
 		"སྒ་གདོང།"@bo ,
 		"嘎东"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Gadong"@en ,
+		"sga gdong"@bo-x-ewts ,
+		"སྒ་གདོང།"@bo ,
+		"嘎东"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.208982_89.182386 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5107,7 +5270,13 @@ told:_GeoRegion_68
 		"ཁང་དམར།"@bo ,
 		"康马"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Khangmar"@en ,
+		"khang dmar"@bo-x-ewts ,
+		"ཁང་དམར།"@bo ,
+		"康马"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.55985_89.67547 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5124,32 +5293,18 @@ told:_GeoRegion_69
 		"གཏིང་སྐྱེས།"@bo ,
 		"定结县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Tingkye"@en ,
+		"gting skyes"@bo-x-ewts ,
+		"གཏིང་སྐྱེས།"@bo ,
+		"定结县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.366679_87.76344 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
 	tolo:minZoomLevel "9"^^xsd:integer ;
 	tolo:zoomLevelOnClick "11"^^xsd:integer ;
-	.
-
-told:_GeoRegion_7
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G1366 ;
-	skos:prefLabel
-		"Derge"@en ,
-		"sde dge"@bo-x-ewts ,
-		"སྡེ་དགེ།"@bo ,
-		"德格县"@zh-HANI
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_city ,
-		tolx:_RegionType_sub_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_1 ;
-	tolo:isRenderedAt told:_GeoPoint_31.80645_98.5798 ;
-	tolo:maxZoomLevel "21"^^xsd:integer ;
-	tolo:minZoomLevel "5"^^xsd:integer ;
-	tolo:zoomLevelOnClick "10"^^xsd:integer ;
 	.
 
 told:_GeoRegion_70
@@ -5161,7 +5316,13 @@ told:_GeoRegion_70
 		"འབྲོང་པ།"@bo ,
 		"仲巴"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Drongpa"@en ,
+		"brong pa"@bo-x-ewts ,
+		"འབྲོང་པ།"@bo ,
+		"仲巴"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.77044_84.03022 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5178,7 +5339,13 @@ told:_GeoRegion_71
 		"ཤར་གསིང་མ།"@bo ,
 		"下司马"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Sharsingma"@en ,
+		"shar gsing ma"@bo-x-ewts ,
+		"ཤར་གསིང་མ།"@bo ,
+		"下司马"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_27.483779_88.906836 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5194,7 +5361,12 @@ told:_GeoRegion_72
 		"rdzong dga'"@bo-x-ewts ,
 		"རྫོང་དགའ།"@bo
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Dzongga"@en ,
+		"rdzong dga'"@bo-x-ewts ,
+		"རྫོང་དགའ།"@bo
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.85453_85.29365 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5211,7 +5383,13 @@ told:_GeoRegion_73
 		"གཉའ་ལམ།"@bo ,
 		"聂拉木县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Nyalam"@en ,
+		"gnya' lam"@bo-x-ewts ,
+		"གཉའ་ལམ།"@bo ,
+		"聂拉木县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.15829_85.97454 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5227,7 +5405,13 @@ told:_GeoRegion_74
 		"སྐྱ་སྐྱ།"@bo ,
 		"加加"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Kyakya"@en ,
+		"skya skya"@bo-x-ewts ,
+		"སྐྱ་སྐྱ།"@bo ,
+		"加加"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_29.33193_85.232458 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5244,7 +5428,13 @@ told:_GeoRegion_76
 		"གམ་པ།"@bo ,
 		"岗巴县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Gampa"@en ,
+		"gam pa"@bo-x-ewts ,
+		"གམ་པ།"@bo ,
+		"岗巴县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_28.27657_88.51384 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5261,7 +5451,13 @@ told:_GeoRegion_77
 		"ནག་ཆུ།"@bo ,
 		"那曲"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Nakchu"@en ,
+		"nag chu"@bo-x-ewts ,
+		"ནག་ཆུ།"@bo ,
+		"那曲"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.479219_92.058258 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5278,7 +5474,13 @@ told:_GeoRegion_78
 		"ལྷ་རི།"@bo ,
 		"嘉黎"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Lhari"@en ,
+		"lha ri"@bo-x-ewts ,
+		"ལྷ་རི།"@bo ,
+		"嘉黎"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.644492_93.230165 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5295,7 +5497,13 @@ told:_GeoRegion_79
 		"གཉན་རོང།"@bo ,
 		"聂荣"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Nyenrong"@en ,
+		"gnyan rong"@bo-x-ewts ,
+		"གཉན་རོང།"@bo ,
+		"聂荣"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_32.115716_92.301207 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5312,7 +5520,13 @@ told:_GeoRegion_8
 		"གཞིས་ཀ་རྩེ།"@bo ,
 		"日喀则市"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Shigatse"@en ,
+		"gzhis ka rtse"@bo-x-ewts ,
+		"གཞིས་ཀ་རྩེ།"@bo ,
+		"日喀则市"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_2 ;
 	tolo:isRenderedAt told:_GeoPoint_29.27475_88.88566 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5329,7 +5543,13 @@ told:_GeoRegion_80
 		"ཨ་མདོ།"@bo ,
 		"安多县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Amdo"@en ,
+		"a mdo"@bo-x-ewts ,
+		"ཨ་མདོ།"@bo ,
+		"安多县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_32.264253_91.681229 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5346,7 +5566,13 @@ told:_GeoRegion_81
 		"ཤན་རྩ།"@bo ,
 		"申扎"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Shentsa"@en ,
+		"shan rtsa"@bo-x-ewts ,
+		"ཤན་རྩ།"@bo ,
+		"申扎"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_30.92874_88.70104 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5363,7 +5589,13 @@ told:_GeoRegion_82
 		"དཔལ་མགོན།"@bo ,
 		"班戈"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Pelgon"@en ,
+		"dpal mgon"@bo-x-ewts ,
+		"དཔལ་མགོན།"@bo ,
+		"班戈"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.39966_90.00875 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5380,7 +5612,13 @@ told:_GeoRegion_83
 		"སྦྲ་ཆེན།"@bo ,
 		"巴青"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Drachen"@en ,
+		"sbra chen"@bo-x-ewts ,
+		"སྦྲ་ཆེན།"@bo ,
+		"巴青"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.919804_94.052451 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5397,7 +5635,13 @@ told:_GeoRegion_84
 		"ཉི་མ།"@bo ,
 		"尼玛"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Nyima"@en ,
+		"nyi ma"@bo-x-ewts ,
+		"ཉི་མ།"@bo ,
+		"尼玛"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.796861_87.239544 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5413,7 +5657,13 @@ told:_GeoRegion_85
 		"མཐོ་ལྡིང་།"@bo ,
 		"托林"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Toding"@en ,
+		"mtho lding "@bo-x-ewts ,
+		"མཐོ་ལྡིང་།"@bo ,
+		"托林"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_31.47731_79.79728 ;
 	tolo:maxZoomLevel "15"^^xsd:integer ;
@@ -5430,7 +5680,13 @@ told:_GeoRegion_86
 		"སྒར།"@bo ,
 		"噶尔"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Gar"@en ,
+		"sgar"@bo-x-ewts ,
+		"སྒར།"@bo ,
+		"噶尔"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_32.50329_80.10527 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5447,7 +5703,13 @@ told:_GeoRegion_87
 		"རུ་ཐོག།"@bo ,
 		"日土"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Rutok"@en ,
+		"ru thog"@bo-x-ewts ,
+		"རུ་ཐོག།"@bo ,
+		"日土"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_33.380497_79.730854 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5464,32 +5726,18 @@ told:_GeoRegion_88
 		"སྒེར་རྩེ།"@bo ,
 		"改则县"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Gertse"@en ,
+		"sger rtse"@bo-x-ewts ,
+		"སྒེར་རྩེ།"@bo ,
+		"改则县"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_32.303644_84.057804 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
 	tolo:minZoomLevel "8"^^xsd:integer ;
 	tolo:zoomLevelOnClick "11"^^xsd:integer ;
-	.
-
-told:_GeoRegion_9
-	a gist:GeoRegion ;
-	owl:sameAs bdr:G2185 ;
-	skos:prefLabel
-		"Chamdo"@en ,
-		"chab mdo"@bo-x-ewts ,
-		"ཆབ་མདོ།"@bo ,
-		"昌都县"@zh-HANI
-		;
-	gist:isCategorizedBy
-		tolx:_MapRegionType_city ,
-		tolx:_RegionType_sub_region
-		;
-	tolo:hasMappingPriority tolx:_MappingPriority_3 ;
-	tolo:isRenderedAt told:_GeoPoint_31.14107_97.17665 ;
-	tolo:maxZoomLevel "21"^^xsd:integer ;
-	tolo:minZoomLevel "6"^^xsd:integer ;
-	tolo:zoomLevelOnClick "12"^^xsd:integer ;
 	.
 
 told:_GeoRegion_90
@@ -5501,7 +5749,13 @@ told:_GeoRegion_90
 		"ཁོ་ཏཱན།"@bo ,
 		"和阗"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Khotan"@en ,
+		"kho tAn"@bo-x-ewts ,
+		"ཁོ་ཏཱན།"@bo ,
+		"和阗"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_37.1144637_79.9196814 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5512,7 +5766,8 @@ told:_GeoRegion_90
 told:_GeoRegion_92
 	a gist:GeoRegion ;
 	skos:prefLabel "Kashgar"@en ;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel "Kashgar"@en ;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_39.4722799_75.9849761 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5529,7 +5784,13 @@ told:_GeoRegion_94
 		"ཏུན་ཧོང།"@bo ,
 		"敦煌"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Dunhuang"@en ,
+		"tun hong"@bo-x-ewts ,
+		"ཏུན་ཧོང།"@bo ,
+		"敦煌"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_40.1379_94.6681 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5546,7 +5807,13 @@ told:_GeoRegion_95
 		"གོར་མོ།"@bo ,
 		"格尔木"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Golmud"@en ,
+		"gor mo"@bo-x-ewts ,
+		"གོར་མོ།"@bo ,
+		"格尔木"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_36.412519_94.918324 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5557,7 +5824,8 @@ told:_GeoRegion_95
 told:_GeoRegion_97
 	a gist:GeoRegion ;
 	skos:prefLabel "Jiuquan"@en ;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel "Jiuquan"@en ;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_39.733016_98.496552 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5573,7 +5841,13 @@ told:_GeoRegion_98
 		"ཝུའུ་ཝེ།"@bo ,
 		"武威"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Wuwei"@en ,
+		"wu'u we"@bo-x-ewts ,
+		"ཝུའུ་ཝེ།"@bo ,
+		"武威"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_37.92926_102.641315 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
@@ -5587,7 +5861,11 @@ told:_GeoRegion_99
 		"Jinchang"@en ,
 		"金昌市"@zh-HANI
 		;
-	gist:isCategorizedBy tolx:_MapRegionType_city ;
+	gist:isCategorizedBy tolx:_RegionType_county_seat ;
+	tolo:displayLabel
+		"Jinchang"@en ,
+		"金昌市"@zh-HANI
+		;
 	tolo:hasMappingPriority tolx:_MappingPriority_5 ;
 	tolo:isRenderedAt told:_GeoPoint_38.520727_102.186241 ;
 	tolo:maxZoomLevel "21"^^xsd:integer ;
