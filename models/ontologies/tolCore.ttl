@@ -585,6 +585,33 @@ tolo:MonasteryHeadLineage
 	skos:prefLabel "Monastery Head Lineage"@en ;
 	.
 
+tolo:MonasteryLineage
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			tolo:Lineage
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:oneOf (
+					tolx:_Role_monastery_head
+					tolx:_Role_lay_administrator
+				) ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isConnectedTo ;
+				owl:someValuesFrom tolo:Monastery ;
+			]
+		) ;
+	] ;
+	skos:definition "A lineage of heads or lay administrators of a particular monastery."@en ;
+	skos:editorialNote "The role is attached to the lineage rather than the individual lineage members, as this makes the most sense; however, it creates a different triple pattern from the non-lineage one where roles are connected directly to persons."@en ;
+	skos:example "Katok Khenpo, Drepung are monastery head lineages."@en ;
+	skos:prefLabel "Monastery Lineage"@en ;
+	.
+
 tolo:Person
 	a owl:Class ;
 	rdfs:subClassOf
