@@ -45,6 +45,12 @@ CONSTRUCT {
             ?label_tibetan ,
             ?label_chinese             
             ;
+        tolo:displayLabel 
+            ?label_en ,
+            ?label_wylie ,
+            ?label_tibetan ,
+            ?label_chinese             
+            ;
         owl:sameAs ?bdrc_iri ;
         tolo:hasMappingPriority ?map_priority_iri ;  
         tolo:minZoomLevel ?min_zoom_level ;
@@ -52,8 +58,6 @@ CONSTRUCT {
         tolo:zoomLevelOnClick ?on_click_zoom_level ; 
         gist:isCategorizedBy    
             ?region_type_iri ;
-        tolo:displayText 
-            ?formatted_content_iri ;
     .
 
     ?geo_point_iri 
@@ -62,18 +66,12 @@ CONSTRUCT {
         gist:longitude ?longitude ;
     .
 
-    ?formatted_content_iri
-        a gist:FormattedContent ;
-        gist:containedText ?html ;
-        gist:isExpressedIn media-txt:html ;
-    . 
-
 }
 
 WHERE {
 
     # Testing
-    FILTER(?ROWNUM = 22)
+    #FILTER(?ROWNUM = 22)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_GeoRegion_", ?map_region_id)) AS ?region_iri)
     BIND(tarql:expandPrefixedName(CONCAT("bdr:", ?bdrc_id)) AS ?bdrc_iri)
@@ -99,7 +97,5 @@ WHERE {
         ) AS ?region_type
     )
     BIND(IF(BOUND(?region_type), tarql:expandPrefixedName(CONCAT("tolx:_RegionType_", ?region_type)), ?unbound) AS ?region_type_iri)
-
-    BIND(IF(BOUND(?html), tarql:expandPrefixedName(CONCAT("told:_FormattedContent_MapRegion_", ?map_region_id)), ?unbound) AS ?formatted_content_iri) 
 
 }
