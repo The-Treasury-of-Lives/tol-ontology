@@ -55,9 +55,9 @@ CONSTRUCT {
             ?wikidata_iri ;
 
         skos:prefLabel 
-            ?primary_name_en ,
-            ?primary_name_wylie ,
-            ?primary_name_tibetan ; 
+            ?pref_label_en ,
+            ?pref_label_wylie ,
+            ?pref_label_tibetan ; 
 
         tolo:primaryName 
             ?primary_name_en ,
@@ -67,11 +67,6 @@ CONSTRUCT {
         tolo:title 
             ?title_en ,
             ?title_wylie ;
-
-        tolo:displayLabel 
-            ?display_label_en , 
-            ?display_label_wylie ,
-            ?display_label_tibetan ;
 
         gist:isIdentifiedBy ?tol_id_iri ;
 
@@ -177,18 +172,18 @@ WHERE {
     BIND(STRLANG(?Primary_name, ?Primary_name_encoding) AS ?primary_name_en)
     BIND(STRLANG(?Primary_title, "en") AS ?title_en)
     # Fall back to primary name if no display name provided.
-    BIND(IF(BOUND(?Display_name_English), STRLANG(?Display_name_English, "en"), ?primary_name_en) AS ?display_label_en)
+    BIND(IF(BOUND(?Display_name_English), STRLANG(?Display_name_English, "en"), ?pref_label_en) AS ?pref_label_en)
 
     # Wylie name and title
     BIND(STRLANG(?Wylie_name, "bo-x-ewts") AS ?primary_name_wylie)
     BIND(STRLANG(?Wylie_title, "bo-x-ewts") AS ?title_wylie)
     # Fall back to primary name if no display name provided.
-    BIND(IF(BOUND(?Display_name_Wylie), STRLANG(?Display_name_Wylie, "bo-x-ewts"), ?primary_name_wylie) AS ?display_label_wylie)
+    BIND(IF(BOUND(?Display_name_Wylie), STRLANG(?Display_name_Wylie, "bo-x-ewts"), ?primary_name_wylie) AS ?pref_label_wylie)
 
     # Tibetan name
     BIND(STRLANG(?Tibetan, "bo") AS ?primary_name_tibetan)
     # Fall back to primary name if no display name provided.
-    BIND(IF(BOUND(?Display_name_Tibetan), STRLANG(?Display_name_Tibetan, "bo"), ?primary_name_tibetan) AS ?display_label_tibetan)
+    BIND(IF(BOUND(?Display_name_Tibetan), STRLANG(?Display_name_Tibetan, "bo"), ?primary_name_tibetan) AS ?pref_label_tibetan)
 
     # GENDER
     BIND(
