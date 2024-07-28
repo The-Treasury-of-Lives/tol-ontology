@@ -18,10 +18,9 @@ PREFIX sws: <https://sws.geonames/org>
 
 ## COLUMNS 
 # author_id
-# full_name
+# author_name
 # first_name
 # last_name
-# clean_name (ignore)
 # bio_text
 # email_address
 # gender
@@ -32,7 +31,7 @@ PREFIX sws: <https://sws.geonames/org>
 # orcid_id 
 
 # Run: 
-# tarql -e utf-8 --dedup 100000 authors.tq authors-5-18-24.csv > tolAuthors.ttl
+# tarql -e utf-8 --dedup 100000 authors.tq authors-7-19-24.csv > tolAuthors.ttl
 
 
 CONSTRUCT {
@@ -42,7 +41,7 @@ CONSTRUCT {
         owl:sameAs ?orcid_iri ;
         tolo:firstName ?first_name_en ;
         tolo:lastName ?last_name_en ;
-        tolo:fullName ?full_name_en ;
+        tolo:fullName ?author_name_en ;
         bdo:personGender ?gender_iri ;
         tolo:residesIn ?country_iri ;
         gist:hasCommunicationAddress ?email_address_iri ;
@@ -70,6 +69,7 @@ WHERE {
     # Testing
     # FILTER(?ROWNUM IN (1, 2))
 
+    # This minting pattern will be problematic if the author becomes the subject of a bio. We can't use "Person" infix due to potential IRI colllisions. Perhaps manual reconciliation will be sufficient, since there won't be many such cases.
     BIND(tarql:expandPrefixedName(CONCAT("told:_Author_", ?author_id)) AS ?author_iri)
 
     # ORCID ID
@@ -80,10 +80,10 @@ WHERE {
     BIND(STRLANG(?last_name, "en") AS ?last_name_en)
     BIND(
         COALESCE(
-            IF(BOUND(?full_name), ?full_name, ?unbound),
+            IF(BOUND(?author_name), ?author_name, ?unbound),
             IF(BOUND(?first_name) && BOUND(?last_name), CONCAT(?first_name, " ", ?last_name), ?unbound)
-    ) AS ?full_name_text)
-    BIND(STRLANG(?full_name_text, "en") AS ?full_name_en)
+    ) AS ?author_name_text)
+    BIND(STRLANG(?author_name_text, "en") AS ?author_name_en)
 
     # Email address
     BIND(tarql:expandPrefixedName(CONCAT("told:_EmailAddress_Author_", ?author_id)) as ?email_address_iri)
