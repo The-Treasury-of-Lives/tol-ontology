@@ -332,6 +332,7 @@ tolo:KinshipGroup
 				owl:unionOf (
 					tolo:Person
 					tolo:Marriage
+					tolo:RulerLineage
 				) ;
 			] ;
 		]
@@ -682,6 +683,37 @@ tolo:Role
 	skos:definition "A role, office, or vocation played by a person, typically, though not always, in an institutional context."@en ;
 	skos:example "Artist, government officer, monastic officer, Indian master."@en ;
 	skos:prefLabel "Role"@en ;
+	.
+
+tolo:RulerLineage
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			tolo:Lineage
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:hasValue tolx:_Role_ruler ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isConnectedTo ;
+				owl:someValuesFrom gist:GeoRegion ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty [
+					owl:inverseOf gist:hasMember ;
+				] ;
+				owl:someValuesFrom tolo:KinshipGroup ;
+			]
+		) ;
+	] ;
+	skos:definition "A lineage of members of a royal family who inherit the role of ruler of the home region. In addition to a kinship group and region, the lineage may also be associated with a place or institution, such as a palace or monastery."@en ;
+	skos:editorialNote "The role is attached to the lineage rather than the individual lineage members, as this makes the most sense; however, it creates a different triple pattern from the non-lineage one where roles are connected directly to persons."@en ;
+	skos:example "Derge, Chone."@en ;
+	skos:prefLabel "Ruler Lineage"@en ;
 	.
 
 tolo:TeacherStudentRelationship
