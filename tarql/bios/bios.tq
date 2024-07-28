@@ -17,9 +17,11 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/> 
 
 ## COLUMNS 
+# biography_id (ignore)
 # person_id
 # summary (HTML text)
 # body_text
+# sources (TBD - use this or separate CSV?)
 # peer_reviewed (binary)
 # published_display_date (ignore)
 # updated_display_date (ignore)
@@ -43,13 +45,21 @@ CONSTRUCT {
             ?relative_author_statement ,
             ?student_author_statement ;
         tolo:hasSummary ?summary_iri ;
+        tolo:hasSourceStatement ?source_statement_iri ;
         .
 
     ?summary_iri
         a gist:FormattedContent ;
         skos:prefLabel ?summary_label_en ;
         gist:isExpressedIn media-txt:html ;
-        gist:containedText ?summary_text_en ;
+        gist:containedText ?summary_en ;
+        .
+
+    ?source_statement_iri
+        a gist:FormattedContent ;
+        skos:prefLabel ?source_statement_label_en ;
+        gist:isExpressedIn media-txt:html ;
+        gist:containedText ?source_statement_en ;
         .
 
 }
@@ -65,8 +75,12 @@ WHERE {
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?person_id)) AS ?person_iri)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Biography_Summary_", ?person_id)) AS ?summary_iri)
-    BIND(STRLANG(?summary, "en") AS ?summary_text_en)
+    BIND(STRLANG(?summary, "en") AS ?summary_en)
     BIND(STRLANG(CONCAT("Summary of Biography of Person ", ?person_id), "en") AS ?summary_label_en)
+
+    BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Biography_SourceStatement_", ?person_id)) AS ?source_statement_iri)
+    BIND(STRLANG(?sources, "en") AS ?source_statement_en)
+    BIND(STRLANG(CONCAT("Sources of Biography of Person ", ?person_id), "en") AS ?source_statement_label_en)
 
     BIND(IF(?relative_statement = "1", told:_AuthorStatement_relative, ?unbound) AS ?relative_author_statement)
     BIND(IF(?student_statement = "1", told:_AuthorStatement_student, ?unbound) AS ?student_author_statement)

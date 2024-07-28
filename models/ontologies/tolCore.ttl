@@ -86,7 +86,7 @@ tolo:Authorship
 	skos:definition "Relates a bio to a person who has authored it."@en ;
 	skos:editorialNote
 		"Though there is a display order of multiple authors of a single biography, we do not currently distinguish primary from secondary author in the model, because there may be more than two authors and we still need to specify the display order."@en ,
-		"Using a simple model of authorship until there is a use case for a more complex model with contributions and roles as in BIBFRAME."@en
+		"Using a simple model of authorship until there is a use case for a more complex model with a generic Contribution class and roles as in BIBFRAME."@en
 		;
 	skos:prefLabel "Authorship"@en ;
 	.
