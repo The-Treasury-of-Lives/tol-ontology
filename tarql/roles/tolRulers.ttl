@@ -1,0 +1,396 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix relators: <ttp://id.loc.gov/vocabulary/relators/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+told:_LineageMember_1033_13502
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13502 ;
+	.
+
+told:_LineageMember_1033_13507
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13507 ;
+	.
+
+told:_LineageMember_1033_13544
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13544 ;
+	.
+
+told:_LineageMember_1033_13547
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13547 ;
+	.
+
+told:_LineageMember_1033_13550
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13550 ;
+	.
+
+told:_LineageMember_1033_3072
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_3072 ;
+	.
+
+told:_LineageMember_1033_6331
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6331 ;
+	.
+
+told:_LineageMember_1033_6332
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6332 ;
+	.
+
+told:_LineageMember_1033_6333
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6333 ;
+	.
+
+told:_LineageMember_1033_6334
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6334 ;
+	.
+
+told:_LineageMember_1033_6335
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6335 ;
+	.
+
+told:_LineageMember_1033_6336
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6336 ;
+	.
+
+told:_LineageMember_1033_6337
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6337 ;
+	.
+
+told:_LineageMember_1033_6338
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6338 ;
+	.
+
+told:_LineageMember_1033_6339
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6339 ;
+	.
+
+told:_LineageMember_1033_6341
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6341 ;
+	.
+
+told:_LineageMember_1033_6342
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6342 ;
+	.
+
+told:_LineageMember_1033_6343
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6343 ;
+	.
+
+told:_LineageMember_1033_6344
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6344 ;
+	.
+
+told:_LineageMember_1033_6345
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6345 ;
+	.
+
+told:_LineageMember_1033_6346
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6346 ;
+	.
+
+told:_LineageMember_1033_6348
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6348 ;
+	.
+
+told:_LineageMember_1033_6349
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6349 ;
+	.
+
+told:_LineageMember_1033_6350
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6350 ;
+	.
+
+told:_LineageMember_1033_6353
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6353 ;
+	.
+
+told:_LineageMember_1048_10811
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_10811 ;
+	.
+
+told:_LineageMember_1048_13509
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13509 ;
+	.
+
+told:_LineageMember_1048_13566
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13566 ;
+	.
+
+told:_LineageMember_1048_13853
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13853 ;
+	.
+
+told:_LineageMember_1048_13869
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13869 ;
+	.
+
+told:_LineageMember_1155_13572
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13572 ;
+	.
+
+told:_LineageMember_1155_13703
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13703 ;
+	.
+
+told:_LineageMember_1155_7641
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_7641 ;
+	.
+
+told:_LineageMember_1425_13655
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13655 ;
+	.
+
+told:_LineageMember_693_11290
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_11290 ;
+	.
+
+told:_LineageMember_693_11972
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_11972 ;
+	.
+
+told:_LineageMember_693_13187
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13187 ;
+	.
+
+told:_LineageMember_693_13511
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13511 ;
+	.
+
+told:_LineageMember_693_13512
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13512 ;
+	.
+
+told:_LineageMember_693_13513
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13513 ;
+	.
+
+told:_LineageMember_693_13514
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13514 ;
+	.
+
+told:_LineageMember_693_13515
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13515 ;
+	.
+
+told:_LineageMember_693_13516
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13516 ;
+	.
+
+told:_LineageMember_693_13517
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13517 ;
+	.
+
+told:_LineageMember_693_13518
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13518 ;
+	.
+
+told:_LineageMember_693_13527
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13527 ;
+	.
+
+told:_LineageMember_693_13528
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13528 ;
+	.
+
+told:_LineageMember_693_13532
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13532 ;
+	.
+
+told:_LineageMember_693_13533
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13533 ;
+	.
+
+told:_LineageMember_693_13615
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13615 ;
+	.
+
+told:_LineageMember_693_13699
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13699 ;
+	.
+
+told:_LineageMember_693_13700
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13700 ;
+	.
+
+told:_LineageMember_693_13702
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13702 ;
+	.
+
+told:_LineageMember_693_13703
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13703 ;
+	.
+
+told:_LineageMember_693_2336
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_2336 ;
+	.
+
+told:_LineageMember_693_2720
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_2720 ;
+	.
+
+told:_LineageMember_693_6499
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_6499 ;
+	.
+
+told:_LineageMember_693_7581
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_7581 ;
+	.
+
+told:_LineageMember_693_8
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_8 ;
+	.
+
+told:_RulerLineage_1033
+	gist:hasMember
+		told:_LineageMember_1033_13502 ,
+		told:_LineageMember_1033_13507 ,
+		told:_LineageMember_1033_13544 ,
+		told:_LineageMember_1033_13547 ,
+		told:_LineageMember_1033_13550 ,
+		told:_LineageMember_1033_3072 ,
+		told:_LineageMember_1033_6331 ,
+		told:_LineageMember_1033_6332 ,
+		told:_LineageMember_1033_6333 ,
+		told:_LineageMember_1033_6334 ,
+		told:_LineageMember_1033_6335 ,
+		told:_LineageMember_1033_6336 ,
+		told:_LineageMember_1033_6337 ,
+		told:_LineageMember_1033_6338 ,
+		told:_LineageMember_1033_6339 ,
+		told:_LineageMember_1033_6341 ,
+		told:_LineageMember_1033_6342 ,
+		told:_LineageMember_1033_6343 ,
+		told:_LineageMember_1033_6344 ,
+		told:_LineageMember_1033_6345 ,
+		told:_LineageMember_1033_6346 ,
+		told:_LineageMember_1033_6348 ,
+		told:_LineageMember_1033_6349 ,
+		told:_LineageMember_1033_6350 ,
+		told:_LineageMember_1033_6353
+		;
+	.
+
+told:_RulerLineage_1048
+	gist:hasMember
+		told:_LineageMember_1048_10811 ,
+		told:_LineageMember_1048_13509 ,
+		told:_LineageMember_1048_13566 ,
+		told:_LineageMember_1048_13853 ,
+		told:_LineageMember_1048_13869
+		;
+	.
+
+told:_RulerLineage_1155
+	gist:hasMember
+		told:_LineageMember_1155_13572 ,
+		told:_LineageMember_1155_13703 ,
+		told:_LineageMember_1155_7641
+		;
+	.
+
+told:_RulerLineage_1425
+	gist:hasMember told:_LineageMember_1425_13655 ;
+	.
+
+told:_RulerLineage_693
+	gist:hasMember
+		told:_LineageMember_693_11290 ,
+		told:_LineageMember_693_11972 ,
+		told:_LineageMember_693_13187 ,
+		told:_LineageMember_693_13511 ,
+		told:_LineageMember_693_13512 ,
+		told:_LineageMember_693_13513 ,
+		told:_LineageMember_693_13514 ,
+		told:_LineageMember_693_13515 ,
+		told:_LineageMember_693_13516 ,
+		told:_LineageMember_693_13517 ,
+		told:_LineageMember_693_13518 ,
+		told:_LineageMember_693_13527 ,
+		told:_LineageMember_693_13528 ,
+		told:_LineageMember_693_13532 ,
+		told:_LineageMember_693_13533 ,
+		told:_LineageMember_693_13615 ,
+		told:_LineageMember_693_13699 ,
+		told:_LineageMember_693_13700 ,
+		told:_LineageMember_693_13702 ,
+		told:_LineageMember_693_13703 ,
+		told:_LineageMember_693_2336 ,
+		told:_LineageMember_693_2720 ,
+		told:_LineageMember_693_6499 ,
+		told:_LineageMember_693_7581 ,
+		told:_LineageMember_693_8
+		;
+	.
+

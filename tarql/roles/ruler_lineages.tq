@@ -1,0 +1,98 @@
+PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
+PREFIX bdr: <http://purl.bdrc.io/resource/> 
+PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX told: <https://w3id.org/treasuryoflives/ns/data/tol/>
+PREFIX tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/>
+PREFIX tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wiki: <https://www.wikidata.org/wiki/>
+PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
+PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/> 
+
+## COLUMNS 
+# TOL ID
+# Lineage Name
+# Wylie
+# Tibetan
+# Description
+# Region Name (ignore - should be in region data)
+# TOL REGION ID
+# BDRC Place ID (ignore - should be in place data)
+# Family Name (ignore)
+# Family Name ID
+# Family Name BDRC (ignore - should be in kinship group data)
+# Institution Name (ignore - should be in place data)
+# TOL Place IDs
+# BDRC Institution ID (ignore - should be in place data)
+
+# Run:
+# tarql -e utf-8 --dedup 50000 ruler_lineages.tq ruler-5-5-23.csv > tolRoles.ttl
+
+CONSTRUCT {
+
+    ?ruler_lineage_iri 
+        a tolo:RulerLineage ;
+        skos:prefLabel 
+            ?pref_label_en ,
+            ?pref_label_wylie ,
+            ?pref_label_tibetan ;
+        tolo:primaryName
+            ?pref_label_en ,
+            ?pref_label_wylie ,
+            ?pref_label_tibetan ;
+        gist:isConnectedTo ?place_iri ;
+        gist:isCategorizedBy tolx:_Role_ruler ;
+        .
+
+    ?region_iri
+        gist:isGovernedBy ?ruler_lineage_iri ;
+        .
+
+    ?kinship_group_iri 
+        gist:hasMember ?ruler_lineage_iri ;
+        .
+
+    ?description_iri 
+        a gist:FormattedContent ;
+        skos:prefLabel ?label_en ;
+        gist:containedText ?description_en ;
+        gist:isAbout ?ruler_lineage_iri ;
+	    gist:isExpressedIn media-txt:html ;
+    .
+
+}
+
+WHERE {
+
+    # Testing
+    # FILTER($ROWNUM = 1)
+    
+    BIND(tarql:expandPrefixedName(CONCAT("told:_RulerLineage_", ?TOL_ID)) AS ?ruler_lineage_iri)
+
+    # Preferred label
+    BIND(STRLANG(?Lineage_Name, "en") AS ?pref_label_en)
+    BIND(STRLANG(?Wylie, "bo-x-ewts") AS ?pref_label_wylie)
+    BIND(STRLANG(?Tibetan, "bo") AS ?pref_label_tibetan)
+
+    # Description
+    BIND(tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_RulerLineage_", ?TOL_ID)) AS ?description_iri)
+    BIND(STRLANG(?Description, "en") AS ?description_en)
+
+    # Region
+    BIND(tarql:expandPrefixedName(CONCAT("told:_GeoRegion_", ?TOL_REGION_ID)) AS ?region_iri)
+
+    # Kinship group
+    BIND(tarql:expandPrefixedName(CONCAT("told:_KinshipGroup_", ?Family_Name_ID)) AS ?kinship_group_iri)
+
+    # Institution/Place
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Place_", REPLACE(?TOL_Place_IDs, "TOL", ""))) AS ?place_iri)
+
+}
