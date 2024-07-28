@@ -34,12 +34,15 @@ tolx:_InstitutionType_monastery
 tolx:_InstitutionType_monastic_college
 	a tolo:InstitutionType ;
 	owl:sameAs bdr:PT0038 ;
+	skos:altLabel
+		"bshad grwa"@bo-x-ewts ,
+		"བཤད་གྲྭ་"@bo
+		;
 	skos:definition "An institute of higher studies associated with a monastery. Members include teachers and students. Most monastic colleges train monks or nuns in the religious texts and rituals of the associated monastery."@en ;
 	skos:prefLabel
-		"""
-གྲྭ་ཚང་; བཤད་གྲྭ་"""@bo ,
 		"Monastic College"@en ,
-		"grwa tshang, bshad grwa"@bo-x-ewts ,
+		"grwa tshang"@bo-x-ewts ,
+		"གྲྭ་ཚང་"@bo ,
 		"讲经院"@zh-HANI
 		;
 	.
@@ -50,11 +53,17 @@ tolx:_InstitutionType_nunnery
 		bdr:PT0050 ,
 		wiki:Q6021560
 		;
+	skos:altLabel
+		"btsun dgon"@bo-x-ewts ,
+		"jo mo dgon"@bo-x-ewts ,
+		"ཇོ་མོ་དགོན་"@bo ,
+		"བཙུན་དགོན་"@bo
+		;
 	skos:definition "A community of women dedicated to religious practice."@en ;
 	skos:prefLabel
 		"Nunnery"@en ,
-		"a ni dgon pa; btsun dgon;  jo mo dgon"@bo-x-ewts ,
-		"ཨ་ནི་དགོན་པ་; བཙུན་དགོན་; ཇོ་མོ་དགོན་"@bo ,
+		"a ni dgon pa"@bo-x-ewts ,
+		"ཨ་ནི་དགོན་པ་"@bo ,
 		"尼姑寺"@zh-HANI
 		;
 	.

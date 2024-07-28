@@ -23,13 +23,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # Site (Place) Type
 # Class
 # Wylie
+# Wylie Variant
 # Tibetan
+# Tibetan Variant
 # Chinese 
-# Class - Landmark, Building, or Institution
+# Class (Landmark, Building, or Institution)
 # Definition
 
 # Run:
-# tarql -e utf-8 place_functions.tq place-types-7-14-24.csv > tolPlaceFunctions.ttl
+# tarql -e utf-8 place_functions.tq place-types-7-15-24.csv > tolPlaceFunctions.ttl
 
 CONSTRUCT {
 
@@ -39,10 +41,13 @@ CONSTRUCT {
             ?bdrc_iri ,
             ?wikidata_iri ;
         skos:prefLabel 
-            ?label_en ,
-            ?label_wylie ,
-            ?label_tibetan ,
-            ?label_chinese ;
+            ?pref_label_en ,
+            ?pref_label_wylie ,
+            ?pref_label_tibetan ,
+            ?pref_label_chinese ;
+        skos:altLabel
+            ?alt_label_wylie ,
+            ?alt_label_tibetan ;
         skos:definition ?definition_en ;
     .
 
@@ -56,7 +61,7 @@ WHERE {
     # FILTER(?ROWNUM = 2) 
 
     BIND(LCASE(REPLACE(?Site__Place__Type, " ", "_")) AS ?type)
-
+    
     # Category
     BIND(tarql:expandPrefixedName(CONCAT("tolx:_PlaceFunction_", ?type)) AS ?type_iri)
 
@@ -65,10 +70,25 @@ WHERE {
     BIND(tarql:expandPrefixedName(CONCAT("wiki:", ?Wikidata_ID)) AS ?wikidata_iri)
 
     # Labels
-    BIND(STRLANG(?Site__Place__Type, "en") AS ?label_en)
-    BIND(STRLANG(?Wylie, "bo-x-ewts") AS ?label_wylie)
-    BIND(STRLANG(?Tibetan, "bo") AS ?label_tibetan)
-    BIND(STRLANG(?Chinese, "zh-Hani") AS ?label_chinese)
+
+    # English
+    BIND(STRLANG(?Site__Place__Type, "en") AS ?pref_label_en)
+
+    # Wylie
+    BIND(STRLANG(?Wylie, "bo-x-ewts") AS ?pref_label_wylie)
+    OPTIONAL {
+        ?wylie_variant apf:strSplit(?Wylie_Variant "; ") 
+    }
+    BIND(STRLANG(?wylie_variant, "bo-x-ewts") AS ?alt_label_wylie)
+
+    # Tibetan
+    BIND(STRLANG(?Tibetan, "bo") AS ?pref_label_tibetan)
+    OPTIONAL {
+        ?tibetan_variant apf:strSplit(?Tibetan_Variant "; ") 
+    }
+    BIND(STRLANG(?tibetan_variant, "bo") AS ?alt_label_tibetan)
+
+    BIND(STRLANG(?Chinese, "zh-Hani") AS ?pref_label_chinese)
 
     BIND(STRLANG(?Definition, "en") AS ?definition_en)
 }
