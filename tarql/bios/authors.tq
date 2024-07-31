@@ -42,6 +42,7 @@ CONSTRUCT {
         tolo:firstName ?first_name_en ;
         tolo:lastName ?last_name_en ;
         tolo:fullName ?author_name_en ;
+        skos:prefLabel ?author_name_en ;
         bdo:personGender ?gender_iri ;
         tolo:residesIn ?country_iri ;
         gist:hasCommunicationAddress ?email_address_iri ;
