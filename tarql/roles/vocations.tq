@@ -40,6 +40,7 @@ CONSTRUCT {
 
     ?vocation_iri 
         a tolo:Vocation ;
+        skos:prefLabel ?vocation_label_en ;
         gist:hasParticipant ?person_iri ;
         gist:isCategorizedBy ?role_iri ; 
         gist:isCategorizedBy ?role_iri ;
@@ -57,9 +58,8 @@ WHERE {
     # FILTER($ROWNUM = 1)
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_Vocation_", ?Role_ID, "_", ?TOL_P_Member)) AS ?vocation_iri)
-
-    BIND(tarql:expandPrefixedName(CONCAT("tolx:_Role_", ?Role_ID)) AS ?role_iri)
-
+    BIND(STRLANG(CONCAT("Person ", ?TOL_P_Member, " ", ?Office_Name, " Role"), "en") AS ?vocation_label_en)
+    BIND(tarql:expandPrefixedName(CONCAT("tolx:_Role_", LCASE(REPLACE(?Office_Name, " ", "_")))) AS ?role_iri)
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?TOL_P_Member)) AS ?person_iri)
 
 
