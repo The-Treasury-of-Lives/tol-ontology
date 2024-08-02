@@ -1242,16 +1242,16 @@ told:_MonasteryLineage_83
 
 told:_MonasteryLineage_830
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R1AG22 ;
+	owl:sameAs bdr:R3AG22 ;
 	skos:prefLabel
-		"Lay Administrator"@en ,
-		"སྒོམ་པ།"@bo
+		"Je Khenpo"@en ,
+		"རྗེ་མཁན་པོ།"@bo
 		;
-	gist:isCategorizedBy tolx:_Role_lay_administrator ;
-	gist:isConnectedTo told:_Place_82 ;
+	gist:isCategorizedBy tolx:_Role_je_khenpo ;
+	gist:isConnectedTo told:_Place_1543 ;
 	tolo:primaryName
-		"Lay Administrator"@en ,
-		"སྒོམ་པ།"@bo
+		"Je Khenpo"@en ,
+		"རྗེ་མཁན་པོ།"@bo
 		;
 	.
 
@@ -1312,6 +1312,20 @@ told:_MonasteryLineage_87
 	tolo:primaryName
 		"Gotsa Khenchen"@en ,
 		"མགོ་ཚ་མཁན་ཆེན།"@bo
+		;
+	.
+
+told:_MonasteryLineage_88
+	a tolo:MonasteryLineage ;
+	skos:prefLabel
+		"Drigung Lay Administrator"@en ,
+		"འབྲི་གུང་སྒོམ་པ།"@bo
+		;
+	gist:isCategorizedBy tolx:_Role_lay_administrator ;
+	gist:isConnectedTo told:_Place_82 ;
+	tolo:primaryName
+		"Drigung Lay Administrator"@en ,
+		"འབྲི་གུང་སྒོམ་པ།"@bo
 		;
 	.
 
