@@ -5747,7 +5747,7 @@ told:_LineageMember_60_6010
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6010 ;
 	tolo:actualStartYear "1192-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring told:_HistoricalPeriod_1300 ;
+	tolo:occursDuring told:_HistoricalPeriod_53 ;
 	.
 
 told:_LineageMember_61_3952
@@ -6322,13 +6322,13 @@ told:_LineageMember_65_13244
 told:_LineageMember_65_2340
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_2340 ;
-	tolo:occursDuring told:_HistoricalPeriod_1600 ;
+	tolo:occursDuring told:_HistoricalPeriod_65 ;
 	.
 
 told:_LineageMember_66_13236
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_13236 ;
-	tolo:occursDuring told:_HistoricalPeriod_1200 ;
+	tolo:occursDuring told:_HistoricalPeriod_49 ;
 	.
 
 told:_LineageMember_67_2787
@@ -8265,26 +8265,494 @@ told:_LineageMember_82_10548
 	gist:providesOrderFor told:_Person_10548 ;
 	.
 
-told:_LineageMember_830_13449
+told:_LineageMember_830_1000
 	a tolo:LineageMember ;
-	gist:providesOrderFor told:_Person_13449 ;
+	gist:providesOrderFor told:_Person_1000 ;
+	gist:sequence "29"^^xsd:integer ;
+	tolo:ordinal "29"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1002
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1002 ;
+	gist:sequence "28"^^xsd:integer ;
+	tolo:ordinal "28"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1003
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1003 ;
+	gist:sequence "19"^^xsd:integer ;
+	tolo:ordinal "19"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1004
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1004 ;
+	gist:sequence "26"^^xsd:integer ;
+	tolo:ordinal "26"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1005
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1005 ;
+	gist:sequence "31"^^xsd:integer ;
+	tolo:ordinal "31"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1007
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1007 ;
+	gist:sequence "24"^^xsd:integer ;
+	tolo:ordinal "24"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1008
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1008 ;
+	gist:sequence "25"^^xsd:integer ;
+	tolo:ordinal "25"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1009
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1009 ;
+	gist:sequence "30"^^xsd:integer ;
+	tolo:ordinal "30"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1010
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1010 ;
+	gist:sequence "53"^^xsd:integer ;
+	tolo:ordinal "53"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1011
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1011 ;
+	gist:sequence "32"^^xsd:integer ;
+	tolo:ordinal "32"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1012
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1012 ;
+	gist:sequence "33"^^xsd:integer ;
+	tolo:ordinal "33"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1013
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1013 ;
+	gist:sequence "34"^^xsd:integer ;
+	tolo:ordinal "34"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1014
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1014 ;
+	gist:sequence "68"^^xsd:integer ;
+	tolo:ordinal "68"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1015
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1015 ;
+	gist:sequence "51"^^xsd:integer ;
+	tolo:ordinal "51"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1016
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1016 ;
+	gist:sequence "35"^^xsd:integer ;
+	tolo:ordinal "35"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1017
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1017 ;
+	gist:sequence "36"^^xsd:integer ;
+	tolo:ordinal "36"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1018
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1018 ;
+	gist:sequence "37"^^xsd:integer ;
+	tolo:ordinal "37"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1019
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1019 ;
+	gist:sequence "39"^^xsd:integer ;
+	tolo:ordinal "39"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1022
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1022 ;
+	gist:sequence "40"^^xsd:integer ;
+	tolo:ordinal "40"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1023
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1023 ;
+	gist:sequence "41"^^xsd:integer ;
+	tolo:ordinal "41"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1025
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1025 ;
+	gist:sequence "44"^^xsd:integer ;
+	tolo:ordinal "44"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1028
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1028 ;
+	gist:sequence "43"^^xsd:integer ;
+	tolo:ordinal "43"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1032
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1032 ;
+	gist:sequence "45"^^xsd:integer ;
+	tolo:ordinal "45"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1036
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1036 ;
+	gist:sequence "46"^^xsd:integer ;
+	tolo:ordinal "46"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1038
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1038 ;
+	gist:sequence "47"^^xsd:integer ;
+	tolo:ordinal "47"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1039
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1039 ;
+	gist:sequence "48"^^xsd:integer ;
+	tolo:ordinal "48"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1040
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1040 ;
+	gist:sequence "49"^^xsd:integer ;
+	tolo:ordinal "49"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1042
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1042 ;
+	gist:sequence "50"^^xsd:integer ;
+	tolo:ordinal "50"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1044
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1044 ;
+	gist:sequence "55"^^xsd:integer ;
+	tolo:ordinal "55"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1046
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1046 ;
+	gist:sequence "54"^^xsd:integer ;
+	tolo:ordinal "54"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1047
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1047 ;
+	gist:sequence "56"^^xsd:integer ;
+	tolo:ordinal "56"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1049
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1049 ;
+	gist:sequence "57"^^xsd:integer ;
+	tolo:ordinal "57"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1050
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1050 ;
+	gist:sequence "58"^^xsd:integer ;
+	tolo:ordinal "58"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1218
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1218 ;
+	gist:sequence "59"^^xsd:integer ;
+	tolo:ordinal "59"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1219
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1219 ;
+	gist:sequence "60"^^xsd:integer ;
+	tolo:ordinal "60"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1220
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1220 ;
+	gist:sequence "69"^^xsd:integer ;
+	tolo:ordinal "69"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1221
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1221 ;
+	gist:sequence "61"^^xsd:integer ;
+	tolo:ordinal "61"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1222
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1222 ;
+	gist:sequence "62"^^xsd:integer ;
+	tolo:ordinal "62"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1223
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1223 ;
+	gist:sequence "63"^^xsd:integer ;
+	tolo:ordinal "63"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1224
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1224 ;
+	gist:sequence "64"^^xsd:integer ;
+	tolo:ordinal "64"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1225
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1225 ;
+	gist:sequence "65"^^xsd:integer ;
+	tolo:ordinal "65"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1227
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1227 ;
+	gist:sequence "67"^^xsd:integer ;
+	tolo:ordinal "67"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1296
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1296 ;
+	gist:sequence "70"^^xsd:integer ;
+	tolo:ordinal "70"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1479
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1479 ;
+	gist:sequence "4"^^xsd:integer ;
+	tolo:ordinal "4"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_150
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_150 ;
 	gist:sequence "1"^^xsd:integer ;
-	tolo:actualStartYear "1179-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:ordinal "1"^^xsd:integer ;
 	.
 
-told:_LineageMember_830_13450
+told:_LineageMember_830_1844
 	a tolo:LineageMember ;
-	gist:providesOrderFor told:_Person_13450 ;
+	gist:providesOrderFor told:_Person_1844 ;
+	gist:sequence "52"^^xsd:integer ;
+	tolo:ordinal "52"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1845
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1845 ;
+	gist:sequence "42"^^xsd:integer ;
+	tolo:ordinal "42"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1846
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1846 ;
+	gist:sequence "27"^^xsd:integer ;
+	tolo:ordinal "27"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1847
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1847 ;
+	gist:sequence "21"^^xsd:integer ;
+	tolo:ordinal "21"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1848
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1848 ;
+	gist:sequence "66"^^xsd:integer ;
+	tolo:ordinal "66"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_1851
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_1851 ;
+	gist:sequence "38"^^xsd:integer ;
+	tolo:ordinal "38"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_892
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_892 ;
 	gist:sequence "2"^^xsd:integer ;
 	tolo:ordinal "2"^^xsd:integer ;
 	.
 
-told:_LineageMember_830_13451
+told:_LineageMember_830_893
 	a tolo:LineageMember ;
-	gist:providesOrderFor told:_Person_13451 ;
+	gist:providesOrderFor told:_Person_893 ;
+	gist:sequence "3"^^xsd:integer ;
+	tolo:ordinal "3"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_905
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_905 ;
+	gist:sequence "5"^^xsd:integer ;
+	tolo:ordinal "5"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_907
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_907 ;
 	gist:sequence "6"^^xsd:integer ;
 	tolo:ordinal "6"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_910
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_910 ;
+	gist:sequence "7"^^xsd:integer ;
+	tolo:ordinal "7"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_911
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_911 ;
+	gist:sequence "8"^^xsd:integer ;
+	tolo:ordinal "8"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_914
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_914 ;
+	gist:sequence "9"^^xsd:integer ;
+	tolo:ordinal "9"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_931
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_931 ;
+	gist:sequence "12"^^xsd:integer ;
+	tolo:ordinal "12"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_935
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_935 ;
+	gist:sequence "14"^^xsd:integer ;
+	tolo:ordinal "14"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_940
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_940 ;
+	gist:sequence "16"^^xsd:integer ;
+	tolo:ordinal "16"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_943
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_943 ;
+	gist:sequence "10"^^xsd:integer ;
+	tolo:ordinal "10"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_956
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_956 ;
+	gist:sequence "11"^^xsd:integer ;
+	tolo:ordinal "11"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_963
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_963 ;
+	gist:sequence "15"^^xsd:integer ;
+	tolo:ordinal "15"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_964
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_964 ;
+	gist:sequence "17"^^xsd:integer ;
+	tolo:ordinal "17"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_969
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_969 ;
+	gist:sequence "13"^^xsd:integer ;
+	tolo:ordinal "13"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_970
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_970 ;
+	gist:sequence "18"^^xsd:integer ;
+	tolo:ordinal "18"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_975
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_975 ;
+	gist:sequence "22"^^xsd:integer ;
+	tolo:ordinal "22"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_986
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_986 ;
+	gist:sequence "23"^^xsd:integer ;
+	tolo:ordinal "23"^^xsd:integer ;
+	.
+
+told:_LineageMember_830_999
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_999 ;
+	gist:sequence "20"^^xsd:integer ;
+	tolo:ordinal "20"^^xsd:integer ;
 	.
 
 told:_LineageMember_83_2810
@@ -8465,6 +8933,28 @@ told:_LineageMember_87_11041
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_11041 ;
 	tolo:actualStartYear "1972-01-01T00:00:00"^^xsd:dateTime ;
+	.
+
+told:_LineageMember_88_13449
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13449 ;
+	gist:sequence "1"^^xsd:integer ;
+	tolo:actualStartYear "1179-01-01T00:00:00"^^xsd:dateTime ;
+	tolo:ordinal "1"^^xsd:integer ;
+	.
+
+told:_LineageMember_88_13450
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13450 ;
+	gist:sequence "2"^^xsd:integer ;
+	tolo:ordinal "2"^^xsd:integer ;
+	.
+
+told:_LineageMember_88_13451
+	a tolo:LineageMember ;
+	gist:providesOrderFor told:_Person_13451 ;
+	gist:sequence "6"^^xsd:integer ;
+	tolo:ordinal "6"^^xsd:integer ;
 	.
 
 told:_LineageMember_8_10528
@@ -11196,9 +11686,76 @@ told:_MonasteryLineage_83
 
 told:_MonasteryLineage_830
 	gist:hasMember
-		told:_LineageMember_830_13449 ,
-		told:_LineageMember_830_13450 ,
-		told:_LineageMember_830_13451
+		told:_LineageMember_830_1000 ,
+		told:_LineageMember_830_1002 ,
+		told:_LineageMember_830_1003 ,
+		told:_LineageMember_830_1004 ,
+		told:_LineageMember_830_1005 ,
+		told:_LineageMember_830_1007 ,
+		told:_LineageMember_830_1008 ,
+		told:_LineageMember_830_1009 ,
+		told:_LineageMember_830_1010 ,
+		told:_LineageMember_830_1011 ,
+		told:_LineageMember_830_1012 ,
+		told:_LineageMember_830_1013 ,
+		told:_LineageMember_830_1014 ,
+		told:_LineageMember_830_1015 ,
+		told:_LineageMember_830_1016 ,
+		told:_LineageMember_830_1017 ,
+		told:_LineageMember_830_1018 ,
+		told:_LineageMember_830_1019 ,
+		told:_LineageMember_830_1022 ,
+		told:_LineageMember_830_1023 ,
+		told:_LineageMember_830_1025 ,
+		told:_LineageMember_830_1028 ,
+		told:_LineageMember_830_1032 ,
+		told:_LineageMember_830_1036 ,
+		told:_LineageMember_830_1038 ,
+		told:_LineageMember_830_1039 ,
+		told:_LineageMember_830_1040 ,
+		told:_LineageMember_830_1042 ,
+		told:_LineageMember_830_1044 ,
+		told:_LineageMember_830_1046 ,
+		told:_LineageMember_830_1047 ,
+		told:_LineageMember_830_1049 ,
+		told:_LineageMember_830_1050 ,
+		told:_LineageMember_830_1218 ,
+		told:_LineageMember_830_1219 ,
+		told:_LineageMember_830_1220 ,
+		told:_LineageMember_830_1221 ,
+		told:_LineageMember_830_1222 ,
+		told:_LineageMember_830_1223 ,
+		told:_LineageMember_830_1224 ,
+		told:_LineageMember_830_1225 ,
+		told:_LineageMember_830_1227 ,
+		told:_LineageMember_830_1296 ,
+		told:_LineageMember_830_1479 ,
+		told:_LineageMember_830_150 ,
+		told:_LineageMember_830_1844 ,
+		told:_LineageMember_830_1845 ,
+		told:_LineageMember_830_1846 ,
+		told:_LineageMember_830_1847 ,
+		told:_LineageMember_830_1848 ,
+		told:_LineageMember_830_1851 ,
+		told:_LineageMember_830_892 ,
+		told:_LineageMember_830_893 ,
+		told:_LineageMember_830_905 ,
+		told:_LineageMember_830_907 ,
+		told:_LineageMember_830_910 ,
+		told:_LineageMember_830_911 ,
+		told:_LineageMember_830_914 ,
+		told:_LineageMember_830_931 ,
+		told:_LineageMember_830_935 ,
+		told:_LineageMember_830_940 ,
+		told:_LineageMember_830_943 ,
+		told:_LineageMember_830_956 ,
+		told:_LineageMember_830_963 ,
+		told:_LineageMember_830_964 ,
+		told:_LineageMember_830_969 ,
+		told:_LineageMember_830_970 ,
+		told:_LineageMember_830_975 ,
+		told:_LineageMember_830_986 ,
+		told:_LineageMember_830_999
 		;
 	.
 
@@ -11239,6 +11796,14 @@ told:_MonasteryLineage_86
 
 told:_MonasteryLineage_87
 	gist:hasMember told:_LineageMember_87_11041 ;
+	.
+
+told:_MonasteryLineage_88
+	gist:hasMember
+		told:_LineageMember_88_13449 ,
+		told:_LineageMember_88_13450 ,
+		told:_LineageMember_88_13451
+		;
 	.
 
 told:_MonasteryLineage_9

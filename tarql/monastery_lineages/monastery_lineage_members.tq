@@ -33,7 +33,7 @@ PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/>
 # end_date_alternate
 
 # Run:
-# tarql -e utf-8 --dedup 50000 monastery_lineage_members.tq monastery-head-lineage-members-6-24-24.csv > tolMonasteryLineageMembers.ttl
+# tarql -e utf-8 --dedup 50000 monastery_lineage_members.tq monastery-lineage-members-8-1-24.csv > tolMonasteryLineageMembers.ttl
 
 CONSTRUCT {
 
