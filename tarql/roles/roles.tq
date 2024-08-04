@@ -27,13 +27,13 @@ PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/>
 # Role Variant Names
 # Wylie Role Name
 # Tibetan Script
-# Role Name Chinese
+# Role Chinese Name
 # Role Variant Names Tibetan
 # Role Variant Names Wylie
 # Role Description
 
 # Run:
-# tarql -e utf-8 --dedup 50000 roles.tq Roles-6-24-24.csv > tolRoles.ttl
+# tarql -e utf-8 --dedup 50000 roles.tq Roles-8-1-24.csv > tolRoles.ttl
 
 CONSTRUCT {
     
