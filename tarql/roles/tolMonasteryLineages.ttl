@@ -19,225 +19,240 @@
 
 told:_MonasteryLineage_1
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Katok Khenpo"@en ,
+		"kaH thog mkhan rabs"@bo-x-ewts ,
 		"ཀཿ་ཐོག་མཁན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_9 ;
 	tolo:primaryName
 		"Katok Khenpo"@en ,
+		"kaH thog mkhan rabs"@bo-x-ewts ,
 		"ཀཿ་ཐོག་མཁན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_10
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Sera Trirab"@en ,
+		"se ra khri rabs"@bo-x-ewts ,
 		"སེ་ར་ཁྲི་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_37 ;
 	tolo:primaryName
 		"Sera Trirab"@en ,
+		"se ra khri rabs"@bo-x-ewts ,
 		"སེ་ར་ཁྲི་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_11
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R10MS14282 ;
 	skos:prefLabel
 		"Drepung"@en ,
+		"bras spungs khri pa"@bo-x-ewts ,
 		"བྲས་སྤུངས་ཁྲི་པ།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_38 ;
 	tolo:primaryName
 		"Drepung"@en ,
+		"bras spungs khri pa"@bo-x-ewts ,
 		"བྲས་སྤུངས་ཁྲི་པ།"@bo
 		;
 	.
 
 told:_MonasteryLineage_12
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Kumbum Trichen"@en ,
+		"sku 'bum khri chen"@bo-x-ewts ,
 		"སྐུ་འབུམ་ཁྲི་ཆེན།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_40 ;
 	tolo:primaryName
 		"Kumbum Trichen"@en ,
+		"sku 'bum khri chen"@bo-x-ewts ,
 		"སྐུ་འབུམ་ཁྲི་ཆེན།"@bo
 		;
 	.
 
 told:_MonasteryLineage_13
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Labrang Tri"@en ,
+		"bla brang khri"@bo-x-ewts ,
 		"བླ་བྲང་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_41 ;
 	tolo:primaryName
 		"Labrang Tri"@en ,
+		"bla brang khri"@bo-x-ewts ,
 		"བླ་བྲང་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_14
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Nartang Denrab"@en ,
+		"snar thang gdan rabs"@bo-x-ewts ,
 		"སྣར་ཐང་གདན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_62 ;
 	tolo:primaryName
 		"Nartang Denrab"@en ,
+		"snar thang gdan rabs"@bo-x-ewts ,
 		"སྣར་ཐང་གདན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_15
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Daklha Gampo Denrab"@en ,
+		"dwags lha sgam po gdan rabs"@bo-x-ewts ,
 		"དྭགས་ལྷ་སགམ་པོགདན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_63 ;
 	tolo:primaryName
 		"Daklha Gampo Denrab"@en ,
+		"dwags lha sgam po gdan rabs"@bo-x-ewts ,
 		"དྭགས་ལྷ་སགམ་པོགདན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_16
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Yangpachen Denrab"@en ,
+		"yangs pa can mkhan rabs"@bo-x-ewts ,
 		"ཡང་པ་ཅན་མཁན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_63 ;
 	tolo:primaryName
 		"Yangpachen Denrab"@en ,
+		"yangs pa can mkhan rabs"@bo-x-ewts ,
 		"ཡང་པ་ཅན་མཁན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_17
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Densatil Denrab"@en ,
+		"gdan sa mthil gdan rabs"@bo-x-ewts ,
 		"གདན་ས་མཐིལ་གདན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_64 ;
 	tolo:primaryName
 		"Densatil Denrab"@en ,
+		"gdan sa mthil gdan rabs"@bo-x-ewts ,
 		"གདན་ས་མཐིལ་གདན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_18
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Tsel Gungtang Trirab"@en ,
+		"tshal gung thang khri rabs"@bo-x-ewts ,
 		"ཚལ་གུང་ཐང་ཁྲི་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_68 ;
 	tolo:primaryName
 		"Tsel Gungtang Trirab"@en ,
+		"tshal gung thang khri rabs"@bo-x-ewts ,
 		"ཚལ་གུང་ཐང་ཁྲི་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_19
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Rokam Khenrab"@en ,
+		"ro skam mkhan rabs"@bo-x-ewts ,
 		"རོ་སྐམ་མཁན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_78 ;
 	tolo:primaryName
 		"Rokam Khenrab"@en ,
+		"ro skam mkhan rabs"@bo-x-ewts ,
 		"རོ་སྐམ་མཁན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_2
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Minling Khenchen"@en ,
+		"smin gling mkhan chen"@bo-x-ewts ,
 		"སྨིན་གླིང་མཁན་ཆེན།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_10 ;
 	tolo:primaryName
 		"Minling Khenchen"@en ,
+		"smin gling mkhan chen"@bo-x-ewts ,
 		"སྨིན་གླིང་མཁན་ཆེན།"@bo
 		;
 	.
 
 told:_MonasteryLineage_20
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Taklung Tri"@en ,
+		"stag lung khri"@bo-x-ewts ,
 		"སྟག་ལུང་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_80 ;
 	tolo:primaryName
 		"Taklung Tri"@en ,
+		"stag lung khri"@bo-x-ewts ,
 		"སྟག་ལུང་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_21
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R1AG22 ;
 	skos:prefLabel
 		"Drigung Denrab"@en ,
+		"bri gung gdan rabs"@bo-x-ewts ,
 		"བྲི་གུང་གདན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_82 ;
 	tolo:primaryName
 		"Drigung Denrab"@en ,
+		"bri gung gdan rabs"@bo-x-ewts ,
 		"བྲི་གུང་གདན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_22
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Jonang Denrab"@en ,
+		"jo nang gdan rabs"@bo-x-ewts ,
 		"ཇོ་ནང་གདན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_90 ;
 	tolo:primaryName
 		"Jonang Denrab"@en ,
+		"jo nang gdan rabs"@bo-x-ewts ,
 		"ཇོ་ནང་གདན་རབས།"@bo
 		;
 	.
@@ -246,536 +261,573 @@ told:_MonasteryLineage_23
 	a tolo:MonasteryLineage ;
 	skos:prefLabel
 		"Chogye Trichen"@en ,
+		"bco brgyad khri chen"@bo-x-ewts ,
 		"བཅོ་བརྒྱད་ཁྲི་ཆེན།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_128 ;
 	tolo:primaryName
 		"Chogye Trichen"@en ,
+		"bco brgyad khri chen"@bo-x-ewts ,
 		"བཅོ་བརྒྱད་ཁྲི་ཆེན།"@bo
 		;
 	.
 
 told:_MonasteryLineage_24
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Yabzang Khenchen"@en ,
+		"g.ya' bzang mkhan chen"@bo-x-ewts ,
 		"གཡའ་བཟང་མཁན་ཆེན།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_130 ;
 	tolo:primaryName
 		"Yabzang Khenchen"@en ,
+		"g.ya' bzang mkhan chen"@bo-x-ewts ,
 		"གཡའ་བཟང་མཁན་ཆེན།"@bo
 		;
 	.
 
 told:_MonasteryLineage_25
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Gonlung Tri"@en ,
+		"dgon lung khri"@bo-x-ewts ,
 		"དགོན་ལུང་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_156 ;
 	tolo:primaryName
 		"Gonlung Tri"@en ,
+		"dgon lung khri"@bo-x-ewts ,
 		"དགོན་ལུང་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_26
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Dzongsar Khenrab"@en ,
+		"rdzong sar mkhan rabs"@bo-x-ewts ,
 		"རྩོང་སར་མཁན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_180 ;
 	tolo:primaryName
 		"Dzongsar Khenrab"@en ,
+		"rdzong sar mkhan rabs"@bo-x-ewts ,
 		"རྩོང་སར་མཁན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_27
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Gyume Tri"@en ,
+		"rgyud smad khri"@bo-x-ewts ,
 		"རྒྱུད་སྨད་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_190 ;
 	tolo:primaryName
 		"Gyume Tri"@en ,
+		"rgyud smad khri"@bo-x-ewts ,
 		"རྒྱུད་སྨད་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_28
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Riwo Gepel Densapa"@en ,
+		"ri bo dge 'phel gdan sa pa"@bo-x-ewts ,
 		"རི་བོ་དགེ་འཕེལ་གདན་ས་པ།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_191 ;
 	tolo:primaryName
 		"Riwo Gepel Densapa"@en ,
+		"ri bo dge 'phel gdan sa pa"@bo-x-ewts ,
 		"རི་བོ་དགེ་འཕེལ་གདན་ས་པ།"@bo
 		;
 	.
 
 told:_MonasteryLineage_29
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Ganchen Chopel Khenchen"@en ,
+		"gangs can chos 'phel mkhan chen"@bo-x-ewts ,
 		"གངས་ཅན་ཆོས་འཕེལ་མཁན་ཆེན།་"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_192 ;
 	tolo:primaryName
 		"Ganchen Chopel Khenchen"@en ,
+		"gangs can chos 'phel mkhan chen"@bo-x-ewts ,
 		"གངས་ཅན་ཆོས་འཕེལ་མཁན་ཆེན།་"@bo
 		;
 	.
 
 told:_MonasteryLineage_3
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R8LS12190 ;
 	skos:prefLabel
 		"Minling Trichen"@en ,
+		"smin gling khri chen"@bo-x-ewts ,
 		"སྨིན་གླིང་ཁྲི་ཆེན།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_10 ;
 	tolo:primaryName
 		"Minling Trichen"@en ,
+		"smin gling khri chen"@bo-x-ewts ,
 		"སྨིན་གླིང་ཁྲི་ཆེན།"@bo
 		;
 	.
 
 told:_MonasteryLineage_30
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Cheka Tri"@en ,
+		"chad dkar khri"@bo-x-ewts ,
 		"ཆད་དཀར་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_198 ;
 	tolo:primaryName
 		"Cheka Tri"@en ,
+		"chad dkar khri"@bo-x-ewts ,
 		"ཆད་དཀར་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_31
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Derge Gonchen Denrab"@en ,
+		"sde dge dgon chen gdan rabs"@bo-x-ewts ,
 		"སྨྲྡེ་དགེ་དགོན་ཆེན་གདན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_207 ;
 	tolo:primaryName
 		"Derge Gonchen Denrab"@en ,
+		"sde dge dgon chen gdan rabs"@bo-x-ewts ,
 		"སྨྲྡེ་དགེ་དགོན་ཆེན་གདན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_32
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Gyel Lhakhang Densapa"@en ,
+		"rgyal lha khang gdan sa ba"@bo-x-ewts ,
 		"རྒྱལ་ལྷ་ཁང་གདན་ས་བ།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_216 ;
 	tolo:primaryName
 		"Gyel Lhakhang Densapa"@en ,
+		"rgyal lha khang gdan sa ba"@bo-x-ewts ,
 		"རྒྱལ་ལྷ་ཁང་གདན་ས་བ།"@bo
 		;
 	.
 
 told:_MonasteryLineage_33
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Riwoche Denrab"@en ,
+		"ri wo che gdan rabs"@bo-x-ewts ,
 		"རི་བོ་ཆེ་དགོན་གདན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_218 ;
 	tolo:primaryName
 		"Riwoche Denrab"@en ,
+		"ri wo che gdan rabs"@bo-x-ewts ,
 		"རི་བོ་ཆེ་དགོན་གདན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_34
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R8LS12188 ;
 	skos:prefLabel
 		"Chamdo Jampaling Denrab"@en ,
+		"chab mdo byams pa gling gdan rabs"@bo-x-ewts ,
 		"ཆབ་མདོ་བྱམས་པ་གླིང་གདན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_237 ;
 	tolo:primaryName
 		"Chamdo Jampaling Denrab"@en ,
+		"chab mdo byams pa gling gdan rabs"@bo-x-ewts ,
 		"ཆབ་མདོ་བྱམས་པ་གླིང་གདན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_35
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Menri Trizin"@en ,
+		"sman ri khri 'dzin"@bo-x-ewts ,
 		"སྨན་རི་ཁྲི་འཛིན།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_244 ;
 	tolo:primaryName
 		"Menri Trizin"@en ,
+		"sman ri khri 'dzin"@bo-x-ewts ,
 		"སྨན་རི་ཁྲི་འཛིན།"@bo
 		;
 	.
 
 told:_MonasteryLineage_36
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Dakpo Dratsang Khentok"@en ,
+		"dwags po grwa tshang gi mkhan thog"@bo-x-ewts ,
 		"དྭགས་པོ་གྲྭ་ཚང་གི་མཁན་ཐོག།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_298 ;
 	tolo:primaryName
 		"Dakpo Dratsang Khentok"@en ,
+		"dwags po grwa tshang gi mkhan thog"@bo-x-ewts ,
 		"དྭགས་པོ་གྲྭ་ཚང་གི་མཁན་ཐོག།"@bo
 		;
 	.
 
 told:_MonasteryLineage_37
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Jangtse Khenpo"@en ,
+		"byang rtse mkhan po"@bo-x-ewts ,
 		"བྱང་རྩེ་མཁན་པོ།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_315 ;
 	tolo:primaryName
 		"Jangtse Khenpo"@en ,
+		"byang rtse mkhan po"@bo-x-ewts ,
 		"བྱང་རྩེ་མཁན་པོ།"@bo
 		;
 	.
 
 told:_MonasteryLineage_38
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Ganden Shartse Dratsang Khentok"@en ,
+		"dga' shar mkhan thog"@bo-x-ewts ,
 		"དགའ་ཤར་མཁན་ཐོག།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_319 ;
 	tolo:primaryName
 		"Ganden Shartse Dratsang Khentok"@en ,
+		"dga' shar mkhan thog"@bo-x-ewts ,
 		"དགའ་ཤར་མཁན་ཐོག།"@bo
 		;
 	.
 
 told:_MonasteryLineage_39
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Kyormolung Khenchen"@en ,
+		"skyor mo lung mkhan chen"@bo-x-ewts ,
 		"སྐྱོར་མོ་ལུང་མཁན་ཆེན།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_325 ;
 	tolo:primaryName
 		"Kyormolung Khenchen"@en ,
+		"skyor mo lung mkhan chen"@bo-x-ewts ,
 		"སྐྱོར་མོ་ལུང་མཁན་ཆེན།"@bo
 		;
 	.
 
 told:_MonasteryLineage_4
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R8LS12188 ;
 	skos:prefLabel
 		"Dzogchen Denrab"@en ,
+		"rdzogs chen gdan rabs"@bo-x-ewts ,
 		"རྫོགས་ཆེན་གདན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_12 ;
 	tolo:primaryName
 		"Dzogchen Denrab"@en ,
+		"rdzogs chen gdan rabs"@bo-x-ewts ,
 		"རྫོགས་ཆེན་གདན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_40
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Reting Denrab"@en ,
+		"rwa sgreng gdan rabs"@bo-x-ewts ,
 		"རྭ་སྒྲེང་གདན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_327 ;
 	tolo:primaryName
 		"Reting Denrab"@en ,
+		"rwa sgreng gdan rabs"@bo-x-ewts ,
 		"རྭ་སྒྲེང་གདན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_41
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Chubzang Khenpo"@en ,
+		"chu bzang mkhan po"@bo-x-ewts ,
 		"ཆུ་བཟང་མཁན་པོ།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_340 ;
 	tolo:primaryName
 		"Chubzang Khenpo"@en ,
+		"chu bzang mkhan po"@bo-x-ewts ,
 		"ཆུ་བཟང་མཁན་པོ།"@bo
 		;
 	.
 
 told:_MonasteryLineage_42
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Sangngak Khar Khenchen"@en ,
+		"gsang sngags mkhar mkhan chen"@bo-x-ewts ,
 		"བདེ་ཆེན་གསང་སྔགས་མཁར།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_343 ;
 	tolo:primaryName
 		"Sangngak Khar Khenchen"@en ,
+		"gsang sngags mkhar mkhan chen"@bo-x-ewts ,
 		"བདེ་ཆེན་གསང་སྔགས་མཁར།"@bo
 		;
 	.
 
 told:_MonasteryLineage_43
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Serje Khenrab"@en ,
+		"ser byes mkhan rabs"@bo-x-ewts ,
 		"སེར་བྱེས་མཁན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_348 ;
 	tolo:primaryName
 		"Serje Khenrab"@en ,
+		"ser byes mkhan rabs"@bo-x-ewts ,
 		"སེར་བྱེས་མཁན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_44
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Sera Me Khentok"@en ,
+		"ser smad mkhan thog"@bo-x-ewts ,
 		"སེར་སྨད་མཁན་ཐོག།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_349 ;
 	tolo:primaryName
 		"Sera Me Khentok"@en ,
+		"ser smad mkhan thog"@bo-x-ewts ,
 		"སེར་སྨད་མཁན་ཐོག།"@bo
 		;
 	.
 
 told:_MonasteryLineage_45
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Toling Khenchen"@en ,
+		"mtho lding mkhan chen"@bo-x-ewts ,
 		"མཐོ་ལྡིང་དགོན་མཁན་ཆེན།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_352 ;
 	tolo:primaryName
 		"Toling Khenchen"@en ,
+		"mtho lding mkhan chen"@bo-x-ewts ,
 		"མཐོ་ལྡིང་དགོན་མཁན་ཆེན།"@bo
 		;
 	.
 
 told:_MonasteryLineage_46
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Chone Trichen"@en ,
+		"co ne khri chen"@bo-x-ewts ,
 		"ཅོ་ནེ་ཁྲི་ཆེན།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_354 ;
 	tolo:primaryName
 		"Chone Trichen"@en ,
+		"co ne khri chen"@bo-x-ewts ,
 		"ཅོ་ནེ་ཁྲི་ཆེན།"@bo
 		;
 	.
 
 told:_MonasteryLineage_47
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Jyakhung Khenrab"@en ,
+		"bya khyung mkhan rabs"@bo-x-ewts ,
 		"བྱ་ཁྱུང་མཁན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_358 ;
 	tolo:primaryName
 		"Jyakhung Khenrab"@en ,
+		"bya khyung mkhan rabs"@bo-x-ewts ,
 		"བྱ་ཁྱུང་མཁན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_48
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R8LS12188 ;
 	skos:prefLabel
 		"Shitsang Denrab"@en ,
+		"shis tshang gdan rabs"@bo-x-ewts ,
 		"ཤིས་ཚང་གདན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_361 ;
 	tolo:primaryName
 		"Shitsang Denrab"@en ,
+		"shis tshang gdan rabs"@bo-x-ewts ,
 		"ཤིས་ཚང་གདན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_49
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Muge Tashi Khorlo Tri"@en ,
+		"dmu dge bkra shis 'khor lo khri"@bo-x-ewts ,
 		"དམུ་དགེ་བཀྲ་ཤིས་འཁོར་ལོ་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_367 ;
 	tolo:primaryName
 		"Muge Tashi Khorlo Tri"@en ,
+		"dmu dge bkra shis 'khor lo khri"@bo-x-ewts ,
 		"དམུ་དགེ་བཀྲ་ཤིས་འཁོར་ལོ་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_5
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R8LS12188 ;
 	skos:prefLabel
 		"Pelyul Denrab"@en ,
+		"dpal yul gdan rabs"@bo-x-ewts ,
 		"དཔལ་ཡུལ་དགན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_14 ;
 	tolo:primaryName
 		"Pelyul Denrab"@en ,
+		"dpal yul gdan rabs"@bo-x-ewts ,
 		"དཔལ་ཡུལ་དགན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_50
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Ngayul Gomang Khenrab"@en ,
+		"rnga yul sgo mang mkhan rabs"@bo-x-ewts ,
 		"རྔ་ཡུལ་སྒོ་མང་མཁན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_368 ;
 	tolo:primaryName
 		"Ngayul Gomang Khenrab"@en ,
+		"rnga yul sgo mang mkhan rabs"@bo-x-ewts ,
 		"རྔ་ཡུལ་སྒོ་མང་མཁན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_51
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Ngayul Gomang Tri"@en ,
+		"rnga yul sgo mang khri"@bo-x-ewts ,
 		"རྔ་ཡུུལ་སྒོ་མང་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_368 ;
 	tolo:primaryName
 		"Ngayul Gomang Tri"@en ,
+		"rnga yul sgo mang khri"@bo-x-ewts ,
 		"རྔ་ཡུུལ་སྒོ་མང་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_52
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Rongwo Gonchen Denrab"@en ,
+		"rong po dgon chen gdan rabs"@bo-x-ewts ,
 		"རོང་པོ་དགོན་ཆེན་གདན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_374 ;
 	tolo:primaryName
 		"Rongwo Gonchen Denrab"@en ,
+		"rong po dgon chen gdan rabs"@bo-x-ewts ,
 		"རོང་པོ་དགོན་ཆེན་གདན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_53
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Ditsa Tashi Choding Tri"@en ,
+		"d+hi tsha bkra shis chos sding khri"@bo-x-ewts ,
 		"དྷི་ཚ་བཀྲ་ཤིས་ཆོས་སྡིང་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_375 ;
 	tolo:primaryName
 		"Ditsa Tashi Choding Tri"@en ,
+		"d+hi tsha bkra shis chos sding khri"@bo-x-ewts ,
 		"དྷི་ཚ་བཀྲ་ཤིས་ཆོས་སྡིང་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_54
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Urge Dratsang Tri"@en ,
+		"urge grwa tshang་khri"@bo-x-ewts ,
 		"ཨུརྒེ་གྲྭ་ཚང་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_410 ;
 	tolo:primaryName
 		"Urge Dratsang Tri"@en ,
+		"urge grwa tshang་khri"@bo-x-ewts ,
 		"ཨུརྒེ་གྲྭ་ཚང་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_55
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
+		"shrI sing+ha mkhan rabs"@bo-x-ewts ,
 		"Śrī Siṃha Khenrab"@en ,
 		"ཤྲཱི་སིངྷ་མཁན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_439 ;
 	tolo:primaryName
+		"shrI sing+ha mkhan rabs"@bo-x-ewts ,
 		"Śrī Siṃha Khenrab"@en ,
 		"ཤྲཱི་སིངྷ་མཁན་རབས།"@bo
 		;
@@ -783,457 +835,486 @@ told:_MonasteryLineage_55
 
 told:_MonasteryLineage_56
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Khamshe Khenpo"@en ,
+		"khams byed mkhan po"@bo-x-ewts ,
 		"ཁམས་བྱེད་མཁན་པོ།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_445 ;
 	tolo:primaryName
 		"Khamshe Khenpo"@en ,
+		"khams byed mkhan po"@bo-x-ewts ,
 		"ཁམས་བྱེད་མཁན་པོ།"@bo
 		;
 	.
 
 told:_MonasteryLineage_57
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R8LS12188 ;
 	skos:prefLabel
 		"Tsang Gon Denrab"@en ,
+		"gtsang dgon gdan rabs"@bo-x-ewts ,
 		"གཙང་དགོན་གདན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_464 ;
 	tolo:primaryName
 		"Tsang Gon Denrab"@en ,
+		"gtsang dgon gdan rabs"@bo-x-ewts ,
 		"གཙང་དགོན་གདན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_58
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Chokhor Gyel Khenpo"@en ,
+		"chos 'khor rgyal mkhan po"@bo-x-ewts ,
 		"ཆོས་འཁོར་རྒྱལ་མཁན་པོ།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_466 ;
 	tolo:primaryName
 		"Chokhor Gyel Khenpo"@en ,
+		"chos 'khor rgyal mkhan po"@bo-x-ewts ,
 		"ཆོས་འཁོར་རྒྱལ་མཁན་པོ།"@bo
 		;
 	.
 
 told:_MonasteryLineage_59
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Amchok Ganden Chokhorling Tri"@en ,
+		"a mchog dga' ldan chos 'khor gling khri"@bo-x-ewts ,
 		"ཨ་མཆོག་དགའ་ལྡན་ཆོས་འཁོར་གླིང་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_480 ;
 	tolo:primaryName
 		"Amchok Ganden Chokhorling Tri"@en ,
+		"a mchog dga' ldan chos 'khor gling khri"@bo-x-ewts ,
 		"ཨ་མཆོག་དགའ་ལྡན་ཆོས་འཁོར་གླིང་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_6
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Pelyul Khyenrab"@en ,
+		"dpal yul mkhyen rabs"@bo-x-ewts ,
 		"དཔལ་ཡུལ་མཁན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_14 ;
 	tolo:primaryName
 		"Pelyul Khyenrab"@en ,
+		"dpal yul mkhyen rabs"@bo-x-ewts ,
 		"དཔལ་ཡུལ་མཁན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_60
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Mawochok Khenchen"@en ,
+		"smra bo lcogs mkhan chen"@bo-x-ewts ,
 		"སྨྲ་བོ་ལྕོགས་མཁན་ཆེན།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_553 ;
 	tolo:primaryName
 		"Mawochok Khenchen"@en ,
+		"smra bo lcogs mkhan chen"@bo-x-ewts ,
 		"སྨྲ་བོ་ལྕོགས་མཁན་ཆེན།"@bo
 		;
 	.
 
 told:_MonasteryLineage_61
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Shelkar Denrab"@en ,
+		"shel dkar mkhan rabs"@bo-x-ewts ,
 		"ཤེལ་དཀར་མཁན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_561 ;
 	tolo:primaryName
 		"Shelkar Denrab"@en ,
+		"shel dkar mkhan rabs"@bo-x-ewts ,
 		"ཤེལ་དཀར་མཁན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_62
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Dartang Denrab"@en ,
+		"dar thang gdan rabs"@bo-x-ewts ,
 		"དར་ཐང་གདན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_567 ;
 	tolo:primaryName
 		"Dartang Denrab"@en ,
+		"dar thang gdan rabs"@bo-x-ewts ,
 		"དར་ཐང་གདན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_63
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R8LS12188 ;
 	skos:prefLabel
 		"Dartang Khenrab"@en ,
+		"dar thang mkhan rabs"@bo-x-ewts ,
 		"དར་ཐང་མཁན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_567 ;
 	tolo:primaryName
 		"Dartang Khenrab"@en ,
+		"dar thang mkhan rabs"@bo-x-ewts ,
 		"དར་ཐང་མཁན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_64
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R3AG23 ;
 	skos:prefLabel
 		"Sakya Trizin"@en ,
+		"sa skya khri 'dzin"@bo-x-ewts ,
 		"ས་སྐྱ་ཁྲི་འཛིན།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_603 ;
 	tolo:primaryName
 		"Sakya Trizin"@en ,
+		"sa skya khri 'dzin"@bo-x-ewts ,
 		"ས་སྐྱ་ཁྲི་འཛིན།"@bo
 		;
 	.
 
 told:_MonasteryLineage_65
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Bodong Khenchen"@en ,
+		"bo dong mkhan chen"@bo-x-ewts ,
 		"བོ་དོང་མཁན་ཆེན།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_612 ;
 	tolo:primaryName
 		"Bodong Khenchen"@en ,
+		"bo dong mkhan chen"@bo-x-ewts ,
 		"བོ་དོང་མཁན་ཆེན།"@bo
 		;
 	.
 
 told:_MonasteryLineage_66
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Pulung Denrab"@en ,
+		"phu lung gdan rabs"@bo-x-ewts ,
 		"ཕུ་ལུང་རིན་ཆེན་གླིང་གདན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_687 ;
 	tolo:primaryName
 		"Pulung Denrab"@en ,
+		"phu lung gdan rabs"@bo-x-ewts ,
 		"ཕུ་ལུང་རིན་ཆེན་གླིང་གདན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_67
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Amchok Tsenyi Denrab"@en ,
+		"a mchog mtshan nyid dgon gyi gdan rabs"@bo-x-ewts ,
 		"ཨ་མཆོག་མཚན་ཉིད་གདན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_718 ;
 	tolo:primaryName
 		"Amchok Tsenyi Denrab"@en ,
+		"a mchog mtshan nyid dgon gyi gdan rabs"@bo-x-ewts ,
 		"ཨ་མཆོག་མཚན་ཉིད་གདན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_68
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Changra Tri"@en ,
+		"lcang ra khri"@bo-x-ewts ,
 		"ལྕང་ར་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_824 ;
 	tolo:primaryName
 		"Changra Tri"@en ,
+		"lcang ra khri"@bo-x-ewts ,
 		"ལྕང་ར་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_69
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Dzingchi Tri"@en ,
+		"rdzing phyi khri"@bo-x-ewts ,
 		"རྫིང་ཕྱི་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_829 ;
 	tolo:primaryName
 		"Dzingchi Tri"@en ,
+		"rdzing phyi khri"@bo-x-ewts ,
 		"རྫིང་ཕྱི་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_7
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R10MS14292 ;
 	skos:prefLabel
 		"Ngor Khenchen"@en ,
+		"ngor mkhan chen"@bo-x-ewts ,
 		"ངོར་མཁན་ཆེན།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_32 ;
 	tolo:primaryName
 		"Ngor Khenchen"@en ,
+		"ngor mkhan chen"@bo-x-ewts ,
 		"ངོར་མཁན་ཆེན།"@bo
 		;
 	.
 
 told:_MonasteryLineage_70
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Nyimalung Khenrab"@en ,
+		"nyi ma lung mkhan rabs"@bo-x-ewts ,
 		"ཉི་མ་ལུང་མཁན་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_917 ;
 	tolo:primaryName
 		"Nyimalung Khenrab"@en ,
+		"nyi ma lung mkhan rabs"@bo-x-ewts ,
 		"ཉི་མ་ལུང་མཁན་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_71
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Labrang Dukhor Tri"@en ,
+		"bla brang dus 'khor khri"@bo-x-ewts ,
 		"བླ་བྲང་དུས་འཁོར་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_920 ;
 	tolo:primaryName
 		"Labrang Dukhor Tri"@en ,
+		"bla brang dus 'khor khri"@bo-x-ewts ,
 		"བླ་བྲང་དུས་འཁོར་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_72
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Labrang Menpa Tri"@en ,
+		"bla brang sman pa khri"@bo-x-ewts ,
 		"བླ་བྲང་སྨན་པ་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_921 ;
 	tolo:primaryName
 		"Labrang Menpa Tri"@en ,
+		"bla brang sman pa khri"@bo-x-ewts ,
 		"བླ་བྲང་སྨན་པ་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_73
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Kumbum Gyupa Tri"@en ,
+		"sku 'bum rgyud pa khri"@bo-x-ewts ,
 		"སྐུ་འབུམ་རྒྱུད་པ་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_924 ;
 	tolo:primaryName
 		"Kumbum Gyupa Tri"@en ,
+		"sku 'bum rgyud pa khri"@bo-x-ewts ,
 		"སྐུ་འབུམ་རྒྱུད་པ་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_74
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R38 ;
 	skos:prefLabel
 		"Kumbum Menpa Tri"@en ,
+		"sku 'bum sman pa khri"@bo-x-ewts ,
 		"སྐུ་འབུམ་སྨན་པ་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_925 ;
 	tolo:primaryName
 		"Kumbum Menpa Tri"@en ,
+		"sku 'bum sman pa khri"@bo-x-ewts ,
 		"སྐུ་འབུམ་སྨན་པ་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_75
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R38 ;
 	skos:prefLabel
 		"Kumbum Dukhor Tri"@en ,
+		"sku 'bum dus 'khor khri"@bo-x-ewts ,
 		"སྐུ་འབུམ་དུ་འཁོར་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_926 ;
 	tolo:primaryName
 		"Kumbum Dukhor Tri"@en ,
+		"sku 'bum dus 'khor khri"@bo-x-ewts ,
 		"སྐུ་འབུམ་དུ་འཁོར་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_76
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Zhitokpa"@en ,
+		"gzhi thog pa"@bo-x-ewts ,
 		"གཞི་ཐོག་པ།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_934 ;
 	tolo:primaryName
 		"Zhitokpa"@en ,
+		"gzhi thog pa"@bo-x-ewts ,
 		"གཞི་ཐོག་པ།"@bo
 		;
 	.
 
 told:_MonasteryLineage_77
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Rinchen Labrang Dungrab"@en ,
+		"sa skya rin chen sgang bla brang gdung rabs"@bo-x-ewts ,
 		"རིན་ཆེན་སྒང་བླ་བྲང་གདུང་རབས།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_935 ;
 	tolo:primaryName
 		"Rinchen Labrang Dungrab"@en ,
+		"sa skya rin chen sgang bla brang gdung rabs"@bo-x-ewts ,
 		"རིན་ཆེན་སྒང་བླ་བྲང་གདུང་རབས།"@bo
 		;
 	.
 
 told:_MonasteryLineage_78
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Ducho Labrangpa"@en ,
+		"dus mchod bla brang pa"@bo-x-ewts ,
 		"དུས་མཆོད་བླ་བྲང་པ།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_936 ;
 	tolo:primaryName
 		"Ducho Labrangpa"@en ,
+		"dus mchod bla brang pa"@bo-x-ewts ,
 		"དུས་མཆོད་བླ་བྲང་པ།"@bo
 		;
 	.
 
 told:_MonasteryLineage_79
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Lhakhang Labrang ?"@en ,
+		"lha khang bla brang"@bo-x-ewts ,
 		"ལྷ་ཁང་བླ་བྲང་།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_937 ;
 	tolo:primaryName
 		"Lhakhang Labrang ?"@en ,
+		"lha khang bla brang"@bo-x-ewts ,
 		"ལྷ་ཁང་བླ་བྲང་།"@bo
 		;
 	.
 
 told:_MonasteryLineage_8
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Zhalu Khenchen"@en ,
+		"zhwa lu mkhan chen"@bo-x-ewts ,
 		"ཞྭ་ལུ་མཁན་ཆེན།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_35 ;
 	tolo:primaryName
 		"Zhalu Khenchen"@en ,
+		"zhwa lu mkhan chen"@bo-x-ewts ,
 		"ཞྭ་ལུ་མཁན་ཆེན།"@bo
 		;
 	.
 
 told:_MonasteryLineage_80
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Rongwo Gyupa Tri"@en ,
+		"rong po rgyud pa khri"@bo-x-ewts ,
 		"རོང་པོ་རྒྱུད་པ་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_941 ;
 	tolo:primaryName
 		"Rongwo Gyupa Tri"@en ,
+		"rong po rgyud pa khri"@bo-x-ewts ,
 		"རོང་པོ་རྒྱུད་པ་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_81
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Rongwo Dukhor Tri"@en ,
+		"rong po dus 'khor khri"@bo-x-ewts ,
 		"རོང་པོ་དུས་འཁོར་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_942 ;
 	tolo:primaryName
 		"Rongwo Dukhor Tri"@en ,
+		"rong po dus 'khor khri"@bo-x-ewts ,
 		"རོང་པོ་དུས་འཁོར་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_82
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Samdrub Gonsar Khenchen"@en ,
+		"bsam grub dgon mkhan chen"@bo-x-ewts ,
 		"བསམ་གྲུབ་དགོན་གསརམ་མཁན་ཆེན།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_943 ;
 	tolo:primaryName
 		"Samdrub Gonsar Khenchen"@en ,
+		"bsam grub dgon mkhan chen"@bo-x-ewts ,
 		"བསམ་གྲུབ་དགོན་གསརམ་མཁན་ཆེན།"@bo
 		;
 	.
 
 told:_MonasteryLineage_83
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel "Nalanda Mahavihara Abbot"@en ;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_1065 ;
@@ -1242,90 +1323,112 @@ told:_MonasteryLineage_83
 
 told:_MonasteryLineage_830
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R1AG22 ;
 	skos:prefLabel
-		"Lay Administrator"@en ,
-		"སྒོམ་པ།"@bo
+		"Je Khenpo"@en ,
+		"rje mkhan po"@bo-x-ewts ,
+		"རྗེ་མཁན་པོ།"@bo
 		;
-	gist:isCategorizedBy tolx:_Role_lay_administrator ;
-	gist:isConnectedTo told:_Place_82 ;
+	gist:isCategorizedBy tolx:_Role_je_khenpo ;
+	gist:isConnectedTo told:_Place_1543 ;
 	tolo:primaryName
-		"Lay Administrator"@en ,
-		"སྒོམ་པ།"@bo
+		"Je Khenpo"@en ,
+		"rje mkhan po"@bo-x-ewts ,
+		"རྗེ་མཁན་པོ།"@bo
 		;
 	.
 
 told:_MonasteryLineage_84
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Gyakhar Gar Tri"@en ,
+		"rgya mkhar sgar khri"@bo-x-ewts ,
 		"རྒྱ་ལྷ་ཁང་གདན་ས་བ།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_1254 ;
 	tolo:primaryName
 		"Gyakhar Gar Tri"@en ,
+		"rgya mkhar sgar khri"@bo-x-ewts ,
 		"རྒྱ་ལྷ་ཁང་གདན་ས་བ།"@bo
 		;
 	.
 
 told:_MonasteryLineage_85
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Kamkam Densapa"@en ,
+		"skam skam gdan sa ba"@bo-x-ewts ,
 		"སྐམ་སྐམ་གདན་ས་བ།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_1401 ;
 	tolo:primaryName
 		"Kamkam Densapa"@en ,
+		"skam skam gdan sa ba"@bo-x-ewts ,
 		"སྐམ་སྐམ་གདན་ས་བ།"@bo
 		;
 	.
 
 told:_MonasteryLineage_86
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Labrang Gyupa Tri"@en ,
+		"bla brang rgyud pa khri"@bo-x-ewts ,
 		"བླ་བྲང་རྒྱུད་པ་ཁྲི།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_1750 ;
 	tolo:primaryName
 		"Labrang Gyupa Tri"@en ,
+		"bla brang rgyud pa khri"@bo-x-ewts ,
 		"བླ་བྲང་རྒྱུད་པ་ཁྲི།"@bo
 		;
 	.
 
 told:_MonasteryLineage_87
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R30 ;
 	skos:prefLabel
 		"Gotsa Khenchen"@en ,
+		"mgo tsha mkhan chen"@bo-x-ewts ,
 		"མགོ་ཚ་མཁན་ཆེན།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_1752 ;
 	tolo:primaryName
 		"Gotsa Khenchen"@en ,
+		"mgo tsha mkhan chen"@bo-x-ewts ,
 		"མགོ་ཚ་མཁན་ཆེན།"@bo
+		;
+	.
+
+told:_MonasteryLineage_88
+	a tolo:MonasteryLineage ;
+	skos:prefLabel
+		"Drigung Lay Administrator"@en ,
+		"bri gung sgom pa"@bo-x-ewts ,
+		"འབྲི་གུང་སྒོམ་པ།"@bo
+		;
+	gist:isCategorizedBy tolx:_Role_lay_administrator ;
+	gist:isConnectedTo told:_Place_82 ;
+	tolo:primaryName
+		"Drigung Lay Administrator"@en ,
+		"bri gung sgom pa"@bo-x-ewts ,
+		"འབྲི་གུང་སྒོམ་པ།"@bo
 		;
 	.
 
 told:_MonasteryLineage_9
 	a tolo:MonasteryLineage ;
-	owl:sameAs bdr:R35 ;
 	skos:prefLabel
 		"Ganden Tripa"@en ,
+		"dga' ldan khri pa"@bo-x-ewts ,
 		"དགའ་ལྡན་ཁྲི་པ།"@bo
 		;
 	gist:isCategorizedBy tolx:_Role_monastery_head ;
 	gist:isConnectedTo told:_Place_36 ;
 	tolo:primaryName
 		"Ganden Tripa"@en ,
+		"dga' ldan khri pa"@bo-x-ewts ,
 		"དགའ་ལྡན་ཁྲི་པ།"@bo
 		;
 	.
