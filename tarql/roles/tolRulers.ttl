@@ -45,96 +45,134 @@ told:_LineageMember_1033_13550
 told:_LineageMember_1033_3072
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_3072 ;
+	gist:sequence "12"^^xsd:integer ;
+	tolo:ordinal "12"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6331
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6331 ;
+	gist:sequence "19"^^xsd:integer ;
+	tolo:ordinal "19"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6332
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6332 ;
+	gist:sequence "18"^^xsd:integer ;
+	tolo:ordinal "18"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6333
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6333 ;
+	gist:sequence "17"^^xsd:integer ;
+	tolo:ordinal "17"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6334
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6334 ;
+	gist:sequence "16"^^xsd:integer ;
+	tolo:ordinal "16"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6335
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6335 ;
+	gist:sequence "1"^^xsd:integer ;
+	tolo:ordinal "1"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6336
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6336 ;
+	gist:sequence "2"^^xsd:integer ;
+	tolo:ordinal "2"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6337
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6337 ;
+	gist:sequence "3"^^xsd:integer ;
+	tolo:ordinal "3"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6338
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6338 ;
+	gist:sequence "4"^^xsd:integer ;
+	tolo:ordinal "4"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6339
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6339 ;
+	gist:sequence "5"^^xsd:integer ;
+	tolo:ordinal "5"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6341
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6341 ;
+	gist:sequence "6"^^xsd:integer ;
+	tolo:ordinal "6"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6342
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6342 ;
+	gist:sequence "7"^^xsd:integer ;
+	tolo:ordinal "7"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6343
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6343 ;
+	gist:sequence "8"^^xsd:integer ;
+	tolo:ordinal "8"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6344
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6344 ;
+	gist:sequence "9"^^xsd:integer ;
+	tolo:ordinal "9"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6345
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6345 ;
+	gist:sequence "10"^^xsd:integer ;
+	tolo:ordinal "10"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6346
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6346 ;
+	gist:sequence "11"^^xsd:integer ;
+	tolo:ordinal "11"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6348
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6348 ;
+	gist:sequence "13"^^xsd:integer ;
+	tolo:ordinal "13"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6349
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6349 ;
+	gist:sequence "14"^^xsd:integer ;
+	tolo:ordinal "14"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6350
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6350 ;
+	gist:sequence "15"^^xsd:integer ;
+	tolo:ordinal "15"^^xsd:integer ;
 	.
 
 told:_LineageMember_1033_6353
@@ -195,6 +233,8 @@ told:_LineageMember_693_11290
 told:_LineageMember_693_11972
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_11972 ;
+	gist:sequence "12"^^xsd:integer ;
+	tolo:ordinal "12"^^xsd:integer ;
 	.
 
 told:_LineageMember_693_13187
@@ -210,6 +250,8 @@ told:_LineageMember_693_13511
 told:_LineageMember_693_13512
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_13512 ;
+	gist:sequence "6"^^xsd:integer ;
+	tolo:ordinal "6"^^xsd:integer ;
 	.
 
 told:_LineageMember_693_13513
@@ -220,41 +262,57 @@ told:_LineageMember_693_13513
 told:_LineageMember_693_13514
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_13514 ;
+	gist:sequence "7"^^xsd:integer ;
+	tolo:ordinal "7"^^xsd:integer ;
 	.
 
 told:_LineageMember_693_13515
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_13515 ;
+	gist:sequence "8"^^xsd:integer ;
+	tolo:ordinal "8"^^xsd:integer ;
 	.
 
 told:_LineageMember_693_13516
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_13516 ;
+	gist:sequence "1"^^xsd:integer ;
+	tolo:ordinal "1"^^xsd:integer ;
 	.
 
 told:_LineageMember_693_13517
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_13517 ;
+	gist:sequence "2"^^xsd:integer ;
+	tolo:ordinal "2"^^xsd:integer ;
 	.
 
 told:_LineageMember_693_13518
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_13518 ;
+	gist:sequence "3"^^xsd:integer ;
+	tolo:ordinal "3"^^xsd:integer ;
 	.
 
 told:_LineageMember_693_13527
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_13527 ;
+	gist:sequence "4"^^xsd:integer ;
+	tolo:ordinal "4"^^xsd:integer ;
 	.
 
 told:_LineageMember_693_13528
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_13528 ;
+	gist:sequence "5"^^xsd:integer ;
+	tolo:ordinal "5"^^xsd:integer ;
 	.
 
 told:_LineageMember_693_13532
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_13532 ;
+	gist:sequence "11"^^xsd:integer ;
+	tolo:ordinal "11"^^xsd:integer ;
 	.
 
 told:_LineageMember_693_13533
@@ -295,11 +353,15 @@ told:_LineageMember_693_2336
 told:_LineageMember_693_2720
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_2720 ;
+	gist:sequence "9"^^xsd:integer ;
+	tolo:ordinal "9"^^xsd:integer ;
 	.
 
 told:_LineageMember_693_6499
 	a tolo:LineageMember ;
 	gist:providesOrderFor told:_Person_6499 ;
+	gist:sequence "10"^^xsd:integer ;
+	tolo:ordinal "10"^^xsd:integer ;
 	.
 
 told:_LineageMember_693_7581
