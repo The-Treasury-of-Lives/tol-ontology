@@ -20,9 +20,10 @@ PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/>
 ## COLUMNS 
 # lineage_id
 # person_id
+# sequence
 
 # Run:
-# tarql -e utf-8 --dedup 50000 rulers.tq person-ruler-6-16-24.csv > tolRulers.ttl
+# tarql -e utf-8 --dedup 50000 rulers.tq person-ruler-7-31-24.csv > tolRulers.ttl
 
 CONSTRUCT {
 
@@ -33,9 +34,9 @@ CONSTRUCT {
     ?lineage_member_iri
         a tolo:LineageMember ;
         gist:providesOrderFor ?person_iri ;
-        # Data not yet available
-        # gist:sequence ?sequence ;
-        # tolo:ordinal ?ordinal_int ;
+        # Seqeunce and ordinal the same, but add ordinal for uniformity in lineage models.
+        gist:sequence ?sequence_int ;
+        tolo:ordinal ?sequence_int ;
         .
 
 }
@@ -52,8 +53,6 @@ WHERE {
 
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?person_id)) AS ?person_iri)
 
-    # Data not yet available
-    # BIND(STRDT(?Ordinal, xsd:integer) AS ?ordinal_int) 
-    # BIND(STRDT(?Incarnation_Sequence, xsd:integer) AS ?sequence) 
+    BIND(STRDT(?sequence, xsd:integer) AS ?sequence_int) 
 
 }
