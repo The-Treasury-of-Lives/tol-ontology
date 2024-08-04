@@ -20,21 +20,18 @@ PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/>
 ## COLUMNS 
 # Role ID
 # Office Name (ignore)
-# Sequence - TBD
-# Ordinal Number - TBD
-# Ordinal Text (ignore)
-# Ignore: Lineage ID, BDRC Lineage ID, Lineage Name, Wylie Lineage Name, Tibetan Lineage Name, Kinship Group ID, Place ID, Region ID
 # TOL P Member
 # start_date_century_id (ignore - all blank)
 # start_date
 # start_date_approx
 # start_date_alternate (ignore - all blank)
+# end_date_century_id (ignore - all blank)
 # end_date
 # end_date_approx
 # end_date_alternate (ignore - all blank)
 
 # Run:
-# tarql -e utf-8 --dedup 50000 vocations.tq role-members-6-24-24.csv > tolVocations.ttl
+# tarql -e utf-8 --dedup 50000 vocations.tq role-members-8-4-24.csv > tolVocations.ttl
 
 CONSTRUCT {
 
@@ -43,11 +40,14 @@ CONSTRUCT {
         skos:prefLabel ?vocation_label_en ;
         gist:hasParticipant ?person_iri ;
         gist:isCategorizedBy ?role_iri ; 
-        gist:isCategorizedBy ?role_iri ;
         tolo:actualStartYear ?actual_start_datetime ;
         tolo:approximateStartYear ?approximate_start_datetime ;
         tolo:actualEndYear ?actual_end_datetime ;
-        tolo:approximateEndYear ?approximate_end_datetime;
+        tolo:approximateEndYear ?approximate_end_datetime ;
+        tolo:occursDuring 
+            ?start_date_century_id ,
+            ?end_date_century_id ;
+        tolo:test ?end_date ;
         .
 
 }
@@ -57,7 +57,7 @@ WHERE {
     # Testing
     # FILTER($ROWNUM = 1)
 
-    BIND(tarql:expandPrefixedName(CONCAT("told:_Vocation_", ?Role_ID, "_", ?TOL_P_Member)) AS ?vocation_iri)
+    BIND(tarql:expandPrefixedName(CONCAT("told:_Vocation_", ?TOL_P_Member, "_", ?Role_ID)) AS ?vocation_iri)
     BIND(STRLANG(CONCAT("Person ", ?TOL_P_Member, " ", ?Office_Name, " Role"), "en") AS ?vocation_label_en)
     BIND(tarql:expandPrefixedName(CONCAT("tolx:_Role_", LCASE(REPLACE(?Office_Name, " ", "_")))) AS ?role_iri)
     BIND(tarql:expandPrefixedName(CONCAT("told:_Person_", ?TOL_P_Member)) AS ?person_iri)
@@ -74,7 +74,7 @@ WHERE {
     # If approximate, start date is the approximate date.
     BIND(IF(?start_date_approx = "1", ?start_datetime, ?unbound) AS ?approximate_start_datetime)
     # If date is not approximate, it is the actual date.
-    BIND(IF(!BOUND(?approximate_start_datetime), ?start_datetime, ?unbound) AS ?actual_start_datetime)
+    BIND(IF(!BOUND(?start_date_approx) || ?start_date_approx = "0", ?start_datetime, ?unbound) AS ?actual_start_datetime)
 
     # End date
     BIND(STRDT(CONCAT(?end_date, ?date_time_completion), xsd:dateTime) AS ?end_datetime)
@@ -82,8 +82,6 @@ WHERE {
     # If approximate, end date is the approximate date.
     BIND(IF(?end_date_approx = "1", ?end_datetime, ?unbound) AS ?approximate_end_datetime)
     # If date is not approximate, it is the actual date.
-    BIND(IF(!BOUND(?approximate_end_datetime), ?end_datetime, ?unbound) AS ?actual_end_datetime)
-
-
+    BIND(IF(!BOUND(?end_date_approx) || ?end_date_approx = "0", ?end_datetime, ?unbound) AS ?actual_end_datetime)
 
 }
