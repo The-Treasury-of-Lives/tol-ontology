@@ -27,7 +27,7 @@
 		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
 		;
 	owl:versionIRI <https://w3id.org/treasuryoflives/data/tolRolesX.x.x> ;
-	skos:definition "A role, office, or vocation played by a person, typically, though not always, in an institutional context."@en ;
+	skos:definition "A role, office, or vocation played by a person, typically, though not always, in an institutional context. Generally role assignments are man-made, other than the ruler role, which is inherited."@en ;
 	skos:editorialNote "Auto-generated via TARQL."@en ;
 	skos:prefLabel "Treasury of Lives Roles"@en ;
 	.
@@ -38,7 +38,8 @@ tolx:_Role_artist
 	skos:prefLabel
 		"Artist"@en ,
 		"sgyu rtsal pa"@bo-x-ewts ,
-		"སྒྱུ་རྩལ་པ།"@bo
+		"སྒྱུ་རྩལ་པ།"@bo ,
+		"艺术家"@zh-HANI
 		;
 	gist:description "The category of Artist includes biographies of people who were engaged in the production of visual art, either as their primary activity or in addition to other other social roles they held. This includes religious art as well as secular art, both painting and sculpture."@en ;
 	.
@@ -53,7 +54,8 @@ tolx:_Role_dapon
 	skos:prefLabel
 		"Dapon"@en ,
 		"mda' dpon"@bo-x-ewts ,
-		"མདའ་དཔོན།"@bo
+		"མདའ་དཔོན།"@bo ,
+		"將軍"@zh-HANI
 		;
 	gist:description "Dapon is an army officer in charge of a Da (mda', literally 'arrow' or 'archer') or cohort of 500 soldiers. In the Tibetan military system, a Dapon ranks immediately below the Makchi (dmag spyi, 'commander-in-chief'), the highest officer of the military force, and is senior to a Rupon (ru dpon, 'commander of ru'). The Tibetan army rank of Dapon is loosely equivalent to 'brigadier general' or 'colonel.'"@en ;
 	gist:hasSuperCategory tolx:_Role_military ;
@@ -79,7 +81,8 @@ tolx:_Role_desi
 	skos:prefLabel
 		"Desi"@en ,
 		"sde srid"@bo-x-ewts ,
-		"སྡེ་སྲིད།"@bo
+		"སྡེ་སྲིད།"@bo ,
+		"留守"@zh-HANI
 		;
 	gist:description "The Desi, or Regent, was ostensibly responsible for the operation of the Ganden Podrang government while the Dalai Lama was in infancy. The term Depa (sde pa) is also used to refer to Regents of the Ganden Podrang."@en ;
 	gist:hasSuperCategory tolx:_Role_government_officer ;
@@ -91,7 +94,8 @@ tolx:_Role_doctor
 	skos:prefLabel
 		"Doctor"@en ,
 		"sman pa"@bo-x-ewts ,
-		"སྨན་པ།"@bo
+		"སྨན་པ།"@bo ,
+		"医生"@zh-HANI
 		;
 	gist:description "The category of doctors in the Treasury of Lives includes individuals who received medical training and practiced the healing arts, in a fashion appropriate for their time, and who self-identified or are described in the historical literature as medical practitioners."@en ;
 	.
@@ -114,7 +118,8 @@ tolx:_Role_government_officer
 	skos:prefLabel
 		"Government Officer"@en ,
 		"gzhung zhabs"@bo-x-ewts ,
-		"གཞུང་ཞབས།"@bo
+		"གཞུང་ཞབས།"@bo ,
+		"政府行政官員"@zh-HANI
 		;
 	gist:description "A government official is considered any person who served, in an official capacity, in a national or regional government office. This includes those who were born into the position, in the case of an aristocrat. In the Himalayan or Mongolian context a government official might be either lay or cleric. The majority of biographies of government officials on the Treasury of Lives are of those connected to the Tibetan government, the Ganden Podrang. The officials were called zhungzhab. They were divided into an ecclesiastical branch whose members were called tsedrung and a lay branch, whose members were called drungkhor. The tsedrung were monks officials recruited from all levels of society, whereas the drungkhor were recruited almost exclusively from the aristocracy. Altogether there were around 175 tsedrung and 175 drungkhor. There were seven ranks of officials within the Ganden Podrang government with the Dalai Lama holding the first rank. The ministers held the third rank, most of the higher officials belonged to the fourth rank, and new entrants into the bureaucracy worked their way up to the seventh rank."@en ;
 	.
@@ -146,10 +151,11 @@ tolx:_Role_je_khenpo
 	skos:prefLabel
 		"Je Khenpo"@en ,
 		"rje mkkhan po"@bo-x-ewts ,
-		"རྗེ་མཀཁན་པོ།"@bo
+		"རྗེ་མཀཁན་པོ།"@bo ,
+		"基堪布"@zh-HANI
 		;
-	gist:description "The Je Khenpo is the seniormost religious authority of Bhutan, responsible for the Zhung Dratshang or Central Monastic Body. Under the Je Khenpo are Five Senior Lopens or Lopen Lhengye. Out of the Five Senior Lopens, Dorji Lopen is the senior-most and is the representative of the Je Khenpo. The Je Khenpo is also the head of the Dratshang Lhentshog or The Commission of Monastic Affairs, which is a government body that oversees the administrative management of the Zhung Dratshang or Central Monastic Body. They are appointed to their positions and are responsible for overseeing monastic education, managing religious institutions, acting in an advisory position to the leader of the country, and conducting rituals necessary for the protection and perpetuation of the Bhutanese state. Since the First Je Khenpo, Pekar Jungne, seventy Je Khenpo have served Bhutan. The current Je Khenpo, Jigme Chodra, has held this post since 1996."@en ;
-	gist:hasSuperCategory tolx:_Role_government_officer ;
+	gist:description "The Je Khenpo is the seniormost religious authority of Bhutan, responsible for the Zhung Dratshang or Central Monastic Body. Under the Je Khenpo are Five Senior Lopens or Lopen Lhengye. Out of the Five Senior Lopens, Dorji Lopen is the seniormost and is the representative of the Je Khenpo. The Je Khenpo is also the head of the Dratshang Lhentshog or The Commission of Monastic Affairs, which is a government body that oversees the administrative management of the Zhung Dratshang or Central Monastic Body. They are appointed to their positions and are responsible for overseeing monastic education, managing religious institutions, acting in an advisory position to the leader of the country, and conducting rituals necessary for the protection and perpetuation of the Bhutanese state. Since the First Je Khenpo, Pekar Jungne, seventy Je Khenpo have served Bhutan. The current Je Khenpo, Jigme Chodra, has held this post since 1996."@en ;
+	gist:hasSuperCategory tolx:_Role_monastery_head ;
 	.
 
 tolx:_Role_kalon
@@ -162,7 +168,8 @@ tolx:_Role_kalon
 	skos:prefLabel
 		"Kalon"@en ,
 		"bka' blon"@bo-x-ewts ,
-		"བཀའ་བློན།"@bo
+		"བཀའ་བློན།"@bo ,
+		"噶倫"@zh-HANI
 		;
 	gist:description "Kalon is a title for a minister of the Tibetan government."@en ;
 	gist:hasSuperCategory tolx:_Role_government_officer ;
@@ -175,7 +182,7 @@ tolx:_Role_lay_administrator
 		"sgom pa"@bo-x-ewts ,
 		"སྒོམ་པ།"@bo
 		;
-	gist:description "Monastic administrators encompasses laypeople assigned by the ruling houses of monastic estates to run the civil affairs of the territory. Examples include the Gompo of Drigung Monastery and the Ponchen of Sakya or Pakmodru."@en ;
+	gist:description "The Monastic Administrator role encompasses laypeople assigned by the ruling houses of monastic estates to run the civil affairs of the territory. Examples include the Gompo of Drigung Monastery and the Ponchen of Sakya or Pakmodru."@en ;
 	gist:hasSuperCategory tolx:_Role_monastic_officer ;
 	.
 
@@ -189,7 +196,8 @@ tolx:_Role_makchi
 	skos:prefLabel
 		"Makchi"@en ,
 		"dmag spyi"@bo-x-ewts ,
-		"དམག་སྤྱི།"@bo
+		"དམག་སྤྱི།"@bo ,
+		"武将"@zh-HANI
 		;
 	gist:description "Makchi, also known as Sungmak Chikhyab (srung dmag spyi khyab), meaning chief commander, was the highest office in the Tibetan military before 1959. It is also used to denote commanders of Chushi Gangdruk regiments."@en ;
 	gist:hasSuperCategory tolx:_Role_military ;
@@ -200,7 +208,8 @@ tolx:_Role_military
 	skos:prefLabel
 		"Military"@en ,
 		"dmag mi"@bo-x-ewts ,
-		"དམག་མི།"@bo
+		"དམག་མི།"@bo ,
+		"軍官"@zh-HANI
 		;
 	gist:description "The category comprises Tibetan military officials belonging to any formal national army. These can include the national army of the Tibetan Ganden Podrang government (1642-1959), or the Bhutanese government, or the Indian government, including the army of the British Raj as well as Unit 22 of the modern Indian army."@en ;
 	gist:hasSuperCategory tolx:_Role_government_officer ;
@@ -226,7 +235,8 @@ tolx:_Role_neshan
 	skos:prefLabel
 		"Neshan"@en ,
 		"sne shan"@bo-x-ewts ,
-		"སྣེ་ཤན།"@bo
+		"སྣེ་ཤན།"@bo ,
+		"聯絡官"@zh-HANI
 		;
 	gist:description "Neshan is an official guide or liaison of the Tibetan government."@en ;
 	gist:hasSuperCategory tolx:_Role_government_officer ;
@@ -289,7 +299,8 @@ tolx:_Role_translator
 	skos:prefLabel
 		"Translator"@en ,
 		"lo tsA ba"@bo-x-ewts ,
-		"ལོ་ཙཱ་བ།"@bo
+		"ལོ་ཙཱ་བ།"@bo ,
+		"譯師"@zh-HANI
 		;
 	gist:description "The category of Translators includes any historical person who engaged in the translation of texts. Generally, these figures are credited with having worked from an Indic language such as Sanskrit or Bengali source materials and translated into Tibetan. There are examples of translators who worked from Chinese, Mongolian, or other Central or East Asian languages."@en ;
 	.
@@ -300,7 +311,8 @@ tolx:_Role_treasure_revealer
 	skos:prefLabel
 		"Treasure Revealer"@en ,
 		"gter ston"@bo-x-ewts ,
-		"གཏེར་སྟོན།"@bo
+		"གཏེར་སྟོན།"@bo ,
+		"伏藏师"@zh-HANI
 		;
 	gist:description "Treasure Revealers (gter ston) are men and women who have produced scripture or objects known as treasure (gter ma) through visionary experience, memory, or physical extraction. Generally these treasures are said to have been concealed by an earlier historical figure, with the intention that they would be recovered for use by future generations. Although most common in the Nyingma and Bon traditions, there have been treasure revealers in all traditions of Tibetan religion."@en ;
 	.
