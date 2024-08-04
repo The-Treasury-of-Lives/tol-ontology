@@ -18,12 +18,11 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 ## Columns
 # TOL ID
 # TBRC RID
-# Primary title
+# Primary title (always English)
 # Primary name
 # Primary name encoding
 # Wylie title
 # Wylie name
-# Tibetan
 # Birth year
 # Birth year approximate
 # Birth year alternate
@@ -45,7 +44,7 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 
 
 # Run: 
-# tarql -e utf-8 --dedup 50000 persons.tq persons-7-26-24.csv > tolPersons.ttl
+# tarql -e utf-8 --dedup 50000 persons.tq persons-8-4-24.csv > tolPersons.ttl
 
 CONSTRUCT {
     ?person_iri 
@@ -55,12 +54,13 @@ CONSTRUCT {
             ?wikidata_iri ;
 
         skos:prefLabel 
+            ?pref_label ,
             ?pref_label_en ,
             ?pref_label_wylie ,
             ?pref_label_tibetan ; 
 
         tolo:primaryName 
-            ?primary_name_en ,
+            ?primary_name ,
             ?primary_name_wylie ,   
             ?primary_name_tibetan ; 
 
@@ -167,23 +167,44 @@ WHERE {
 
 
     # NAMES AND TITLES
-    # Primary name and title
-    # Note: TOL transcription is tagged as English.
-    BIND(STRLANG(?Primary_name, ?Primary_name_encoding) AS ?primary_name_en)
+    # Primary name. If Wylie, will be generated from Wylie primary name.
+    BIND(IF(?Primary_name_encoding != "bo-x-ewts", STRLANG(?Primary_name, ?Primary_name_encoding), ?unbound) AS ?primary_name)
+
+    # English name and title
+    # All primary titles are English. 
     BIND(STRLANG(?Primary_title, "en") AS ?title_en)
-    # Fall back to primary name if no display name provided.
-    BIND(IF(BOUND(?Display_name_English), STRLANG(?Display_name_English, "en"), ?pref_label_en) AS ?pref_label_en)
+    # Display name (skos:prefLabel)
+    BIND(STRLANG(?Display_name_English, "en") AS ?pref_label_en)
+    # If no English display name, fall back to primary title + primary name. Titles are English and names are Wylie, so omit language tag.
+    # Shouldn't need this case. They all have either Wylie display names or Wylie names, which will generate Wylie skos:prefLabels, so front end should fall back to Wylie if there's no English display name rather than looking for an untagged version.
+    # BIND(IF(!BOUND(?Display_name_English), CONCAT(?Primary_title, " ", ?Primary_name), ?unbound) AS ?pref_label)
+
 
     # Wylie name and title
-    BIND(STRLANG(?Wylie_name, "bo-x-ewts") AS ?primary_name_wylie)
-    BIND(STRLANG(?Wylie_title, "bo-x-ewts") AS ?title_wylie)
-    # Fall back to primary name if no display name provided.
-    BIND(IF(BOUND(?Display_name_Wylie), STRLANG(?Display_name_Wylie, "bo-x-ewts"), ?primary_name_wylie) AS ?pref_label_wylie)
+    # Clean name
+    BIND(REPLACE(
+            REPLACE(
+                REPLACE(?Wylie_name, "  +", " "), 
+            " +\\)", ""), 
+        "\\( +", "") AS ?wylie_name_clean)
+    BIND(STRLANG(?wylie_name_clean, "bo-x-ewts") AS ?primary_name_wylie)
+    BIND(STRLANG(?Wylie_title, "bo-x-ewts") AS ?title_wylie)   
+    # Display name (skos:prefLabel): fall back to Wylie name if no display name provided. None of these have Wylie or primary titles.
+    # Clean display name
+    BIND(REPLACE(
+            REPLACE(
+                REPLACE(?Display_name_Wylie, "  +", " "), 
+            " +\\)", ""), 
+        "\\( +", "") AS ?display_name_wylie_clean)
+    BIND(IF(BOUND(?display_name_wylie_clean), STRLANG(?display_name_wylie_clean, "bo-x-ewts"), ?primary_name_wylie) AS ?pref_label_wylie)
 
-    # Tibetan name
-    BIND(STRLANG(?Tibetan, "bo") AS ?primary_name_tibetan)
-    # Fall back to primary name if no display name provided.
-    BIND(IF(BOUND(?Display_name_Tibetan), STRLANG(?Display_name_Tibetan, "bo"), ?primary_name_tibetan) AS ?pref_label_tibetan)
+    # Tibetan name 
+    # This is now missing
+    # BIND(STRLANG(?Tibetan, "bo") AS ?primary_name_tibetan)
+    # Fall back to primary name if no display name provided. 
+    # BIND(IF(BOUND(?Display_name_Tibetan), STRLANG(?Display_name_Tibetan, "bo"), ?primary_name_tibetan) AS ?pref_label_tibetan)
+    BIND(STRLANG(?Display_name_Tibetan, "bo") AS ?pref_label_tibetan)
+
 
     # GENDER
     BIND(
