@@ -33,7 +33,7 @@ PREFIX relators: <ttp://id.loc.gov/vocabulary/relators/>
 # Role Description
 
 # Run:
-# tarql -e utf-8 --dedup 50000 roles.tq Roles-8-1-24.csv > tolRoles.ttl
+# tarql -e utf-8 --dedup 50000 roles.tq Roles-8-4-24.csv > tolRoles.ttl
 
 CONSTRUCT {
     
