@@ -814,7 +814,7 @@ told:_Vocation_2423_695
 	gist:hasParticipant told:_Person_2423 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
 	tolo:actualStartYear "1943-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1961"@en ;
+	tolo:approximateEndYear "1961-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
 told:_Vocation_2424_695
@@ -1134,8 +1134,8 @@ told:_Vocation_4025_695
 	skos:prefLabel "Person 4025 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_4025 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1921-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1914-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1921"@en ;
 	.
 
 told:_Vocation_4027_1360
@@ -1726,8 +1726,8 @@ told:_Vocation_7618_695
 	skos:prefLabel "Person 7618 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_7618 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1938-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1932-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1938"@en ;
 	.
 
 told:_Vocation_7673_1032
@@ -1756,8 +1756,8 @@ told:_Vocation_7929_695
 	skos:prefLabel "Person 7929 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_7929 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1930-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1915-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1930"@en ;
 	.
 
 told:_Vocation_8181_1035
@@ -1856,8 +1856,8 @@ told:_Vocation_8706_695
 	skos:prefLabel "Person 8706 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_8706 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1903-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:approximateStartYear "1900-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1903"@en ;
 	.
 
 told:_Vocation_8750_1035
@@ -1998,8 +1998,8 @@ told:_Vocation_9301_695
 	skos:prefLabel "Person 9301 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9301 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1903-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1894-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1903"@en ;
 	.
 
 told:_Vocation_9303_695
@@ -2007,8 +2007,8 @@ told:_Vocation_9303_695
 	skos:prefLabel "Person 9303 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9303 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1903-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1902-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1903"@en ;
 	.
 
 told:_Vocation_9304_695
@@ -2016,8 +2016,8 @@ told:_Vocation_9304_695
 	skos:prefLabel "Person 9304 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9304 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1907-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1903-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1907"@en ;
 	.
 
 told:_Vocation_9305_1360
@@ -2032,8 +2032,8 @@ told:_Vocation_9305_695
 	skos:prefLabel "Person 9305 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9305 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1912-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1903-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1912"@en ;
 	.
 
 told:_Vocation_9309_695
@@ -2041,8 +2041,8 @@ told:_Vocation_9309_695
 	skos:prefLabel "Person 9309 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9309 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1914-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1904-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1914"@en ;
 	.
 
 told:_Vocation_9310_695
@@ -2050,8 +2050,8 @@ told:_Vocation_9310_695
 	skos:prefLabel "Person 9310 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9310 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1913-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1912-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1913"@en ;
 	.
 
 told:_Vocation_9311_695
@@ -2059,8 +2059,8 @@ told:_Vocation_9311_695
 	skos:prefLabel "Person 9311 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9311 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1914-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1913-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1914"@en ;
 	.
 
 told:_Vocation_9312_695
@@ -2069,7 +2069,7 @@ told:_Vocation_9312_695
 	gist:hasParticipant told:_Person_9312 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
 	tolo:actualStartYear "1914-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1935"@en ;
+	tolo:approximateEndYear "1935-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
 told:_Vocation_9313_695
@@ -2077,8 +2077,8 @@ told:_Vocation_9313_695
 	skos:prefLabel "Person 9313 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9313 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1932-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1921-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1932"@en ;
 	.
 
 told:_Vocation_9315_695
@@ -2086,8 +2086,8 @@ told:_Vocation_9315_695
 	skos:prefLabel "Person 9315 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9315 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1931-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1929-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1931"@en ;
 	.
 
 told:_Vocation_9317_695
@@ -2095,8 +2095,8 @@ told:_Vocation_9317_695
 	skos:prefLabel "Person 9317 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9317 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1943-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1932-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1943"@en ;
 	.
 
 told:_Vocation_9320_695
@@ -2104,8 +2104,8 @@ told:_Vocation_9320_695
 	skos:prefLabel "Person 9320 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9320 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1945-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1934-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1945"@en ;
 	.
 
 told:_Vocation_9321_695
@@ -2113,8 +2113,8 @@ told:_Vocation_9321_695
 	skos:prefLabel "Person 9321 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9321 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1946-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1938-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1946"@en ;
 	.
 
 told:_Vocation_9324_695
@@ -2122,8 +2122,8 @@ told:_Vocation_9324_695
 	skos:prefLabel "Person 9324 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9324 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1949-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1945-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1949"@en ;
 	.
 
 told:_Vocation_9325_695
@@ -2131,8 +2131,8 @@ told:_Vocation_9325_695
 	skos:prefLabel "Person 9325 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9325 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1952-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1946-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1952"@en ;
 	.
 
 told:_Vocation_9326_695
@@ -2140,8 +2140,8 @@ told:_Vocation_9326_695
 	skos:prefLabel "Person 9326 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9326 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1957-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1949-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1957"@en ;
 	.
 
 told:_Vocation_9327_695
@@ -2149,8 +2149,8 @@ told:_Vocation_9327_695
 	skos:prefLabel "Person 9327 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9327 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1959-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1950-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1959"@en ;
 	.
 
 told:_Vocation_9331_695
@@ -2158,8 +2158,8 @@ told:_Vocation_9331_695
 	skos:prefLabel "Person 9331 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9331 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1959-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1957-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1959"@en ;
 	.
 
 told:_Vocation_9333_1360
@@ -2181,8 +2181,8 @@ told:_Vocation_9334_695
 	skos:prefLabel "Person 9334 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9334 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1901-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1893-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1901"@en ;
 	.
 
 told:_Vocation_9336_695
@@ -2190,8 +2190,8 @@ told:_Vocation_9336_695
 	skos:prefLabel "Person 9336 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9336 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1891-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:approximateStartYear "1881-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1891"@en ;
 	.
 
 told:_Vocation_9338_695
@@ -2199,8 +2199,8 @@ told:_Vocation_9338_695
 	skos:prefLabel "Person 9338 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9338 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1898-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:approximateStartYear "1878-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1898"@en ;
 	.
 
 told:_Vocation_9339_695
@@ -2208,8 +2208,8 @@ told:_Vocation_9339_695
 	skos:prefLabel "Person 9339 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9339 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1891-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1876-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1891"@en ;
 	.
 
 told:_Vocation_9340_695
@@ -2218,7 +2218,7 @@ told:_Vocation_9340_695
 	gist:hasParticipant told:_Person_9340 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
 	tolo:actualStartYear "1873-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1878"@en ;
+	tolo:approximateEndYear "1878-01-01T00:00:00"^^xsd:dateTime ;
 	.
 
 told:_Vocation_9343_1360
@@ -2233,8 +2233,8 @@ told:_Vocation_9343_695
 	skos:prefLabel "Person 9343 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9343 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1896-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1871-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1896"@en ;
 	.
 
 told:_Vocation_9344_695
@@ -2250,8 +2250,8 @@ told:_Vocation_9345_695
 	skos:prefLabel "Person 9345 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9345 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1871-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:actualStartYear "1869-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1871"@en ;
 	.
 
 told:_Vocation_9442_1032
@@ -2280,8 +2280,8 @@ told:_Vocation_9550_695
 	skos:prefLabel "Person 9550 Kalon Role"@en ;
 	gist:hasParticipant told:_Person_9550 ;
 	gist:isCategorizedBy tolx:_Role_kalon ;
+	tolo:actualEndYear "1750-01-01T00:00:00"^^xsd:dateTime ;
 	tolo:approximateStartYear "1734-01-01T00:00:00"^^xsd:dateTime ;
-	tolo:occursDuring "1750"@en ;
 	.
 
 told:_Vocation_9572_1035
