@@ -23,6 +23,7 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 # Primary name encoding
 # Wylie title
 # Wylie name
+# Tibetan
 # Birth year
 # Birth year approximate
 # Birth year alternate
@@ -44,7 +45,7 @@ PREFIX wiki: <https://www.wikidata.org/wiki/>
 
 
 # Run: 
-# tarql -e utf-8 --dedup 50000 persons.tq persons-8-4-24.csv > tolPersons.ttl
+# tarql -e utf-8 --dedup 50000 persons.tq persons-8-5-24.csv > tolPersons.ttl
 
 CONSTRUCT {
     ?person_iri 
@@ -174,11 +175,9 @@ WHERE {
     # All primary titles are English. 
     BIND(STRLANG(?Primary_title, "en") AS ?title_en)
     # Display name (skos:prefLabel)
+    # If no English display name, front end should fall back to Wylie display name.
     BIND(STRLANG(?Display_name_English, "en") AS ?pref_label_en)
-    # If no English display name, fall back to primary title + primary name. Titles are English and names are Wylie, so omit language tag.
-    # Shouldn't need this case. They all have either Wylie display names or Wylie names, which will generate Wylie skos:prefLabels, so front end should fall back to Wylie if there's no English display name rather than looking for an untagged version.
-    # BIND(IF(!BOUND(?Display_name_English), CONCAT(?Primary_title, " ", ?Primary_name), ?unbound) AS ?pref_label)
-
+    
 
     # Wylie name and title
     # Clean name
@@ -199,11 +198,9 @@ WHERE {
     BIND(IF(BOUND(?display_name_wylie_clean), STRLANG(?display_name_wylie_clean, "bo-x-ewts"), ?primary_name_wylie) AS ?pref_label_wylie)
 
     # Tibetan name 
-    # This is now missing
-    # BIND(STRLANG(?Tibetan, "bo") AS ?primary_name_tibetan)
+    BIND(STRLANG(?Tibetan, "bo") AS ?primary_name_tibetan)
     # Fall back to primary name if no display name provided. 
-    # BIND(IF(BOUND(?Display_name_Tibetan), STRLANG(?Display_name_Tibetan, "bo"), ?primary_name_tibetan) AS ?pref_label_tibetan)
-    BIND(STRLANG(?Display_name_Tibetan, "bo") AS ?pref_label_tibetan)
+    BIND(IF(BOUND(?Display_name_Tibetan), STRLANG(?Display_name_Tibetan, "bo"), ?primary_name_tibetan) AS ?pref_label_tibetan)
 
 
     # GENDER
