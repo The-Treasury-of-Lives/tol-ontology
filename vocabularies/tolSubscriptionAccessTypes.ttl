@@ -15,10 +15,10 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/treasuryoflives/taxonomy/tolSubscriptionAccessType>
+<https://w3id.org/treasuryoflives/taxonomy/tolSubscriptionAccessTypes>
 	a owl:Ontology ;
 	owl:imports <https://w3id.org/treasuryoflives/ontology/tolAdminX.x.x> ;
-	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/ttolSubscriptionAccessTypeX.x.x> ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/ttolSubscriptionAccessTypesX.x.x> ;
 	skos:definition "Defines values indicating how a subscriber is authorized to access Treasury of Lives subscriber content."@en ;
 	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Subscription Access Type"@en ;
