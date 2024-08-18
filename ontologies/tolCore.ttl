@@ -185,6 +185,23 @@ tolo:HistoricalPeriod
 	skos:scopeNote "Whereas a time interval is any period of time, such as 2-4pm this afternoon or 1848-1947, a historical period is named and cited in relation to historical events or culture. Historical periods include full and partial centuries, which are ordinally numbered."@en ;
 	.
 
+tolo:HusbandStatus
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom tolo:Marriage ;
+		]
+		;
+	skos:definition "Indicates whether a marriage relationship has a junior or senior husband."@en ;
+	skos:example "Junior, senior"@en ;
+	skos:prefLabel "Husband Status"@en ;
+	.
+
 tolo:IdType
 	a owl:Class ;
 	rdfs:subClassOf gist:Category ;
@@ -804,6 +821,23 @@ tolo:Vocation
 	skos:prefLabel "Vocation"@en ;
 	.
 
+tolo:WifeStatus
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom tolo:Marriage ;
+		]
+		;
+	skos:definition "Indicates whether a marriage relationship has a junior or senior wife."@en ;
+	skos:example "Junior, senior"@en ;
+	skos:prefLabel "Wife Status"@en ;
+	.
+
 tolo:actualYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tolo:inYear ;
@@ -969,39 +1003,12 @@ tolo:hasFraternalNiece
 
 tolo:hasHusband
 	a owl:ObjectProperty ;
-	rdfs:subPropertyOf gist:hasParty ;
+	rdfs:subPropertyOf tolo:hasSpouse ;
 	rdfs:domain tolo:Marriage ;
 	rdfs:range tolo:Person ;
 	skos:definition "Relates a marriage relationship to the husband."@en ;
 	skos:prefLabel "has husband"@en ;
-	skos:scopeNote "This property is neutral as to junior/senior husband; use these if the status is known. Use bdo:hasHusband to assert a direct relationship from wife to husband."@en ;
-	.
-
-tolo:hasJuniorHusband
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf tolo:hasHusband ;
-	rdfs:domain tolo:Marriage ;
-	rdfs:range tolo:Person ;
-	skos:definition "Relates a marriage relationship to a junior husband; that is, this is the second or subsequent marriage in a series of concurrent marriages involving the same wife."@en ;
-	skos:prefLabel "has junior husband"@en ;
-	skos:scopeNote
-		"A convenience property derived, at least conceptually, from the existence of other marriages of the wife and their dates. Data may not be available to support this."@en ,
-		"In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."@en ,
-		"Use tolo:hasHusband if junior/senior status is unknown. Use bdo:hasHusband to assert a direct relationship from wife to husband."@en
-		;
-	.
-
-tolo:hasJuniorWife
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf tolo:hasWife ;
-	rdfs:domain tolo:Marriage ;
-	rdfs:range tolo:Person ;
-	skos:definition "Relates a marriage relationship to a junior wife; that is, this is the second or subsequent marriage in a series of concurrent marriages involving the same husband."@en ;
-	skos:prefLabel "has junior wife"@en ;
-	skos:scopeNote
-		"A convenience property derived, at least conceptually, from the existence of other marriages of the husband and their dates. Data may not be available to support this."@en ,
-		"Use tolo:hasWife if junior/senior status is unknown. Use bdo:hasWife to assert a direct relationship from husband to wife."@en
-		;
+	skos:scopeNote "Use bdo:hasHusband to assert a direct relationship from wife to husband."@en ;
 	.
 
 tolo:hasMaternalCousin
@@ -1114,33 +1121,6 @@ tolo:hasPreincarnation
 	skos:scopeNote "Not part of the ordered members of incarnation lines and thus represented as a direct relationship between two people. We do not currently have the data to populate this property."@en ;
 	.
 
-tolo:hasSeniorHusband
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf tolo:hasHusband ;
-	rdfs:domain tolo:Marriage ;
-	rdfs:range tolo:Person ;
-	skos:definition "Relates a marriage relationship to a senior husband; that is, this is the first marriage in a series of concurrent marriages involving the same wife."@en ;
-	skos:prefLabel "has senior husband"@en ;
-	skos:scopeNote
-		"A convenience property derived, at least conceptually, from the existence of other marriages of the wife and their dates. Data may not be available to support this."@en ,
-		"In polyandrous relationships, the senior husband is considered to be the father of all the children, since the precise genealogy is unknown. The junior husbands are considered uncles."@en ,
-		"Use tolo:hasHusband if junior/senior status is unknown. Use bdo:hasHusband to assert a direct relationship from husband to wife."@en
-		;
-	.
-
-tolo:hasSeniorWife
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf tolo:hasWife ;
-	rdfs:domain tolo:Marriage ;
-	rdfs:range tolo:Person ;
-	skos:definition "Relates a marriage relationship to a senior wife; that is, this is the first marriage in a series of concurrent marriages involving the same husband."@en ;
-	skos:prefLabel "has senior wife"@en ;
-	skos:scopeNote
-		"A convenience property derived, at least conceptually, from the existence of other marriages of the wife and their dates. Data may not be available to support this."@en ,
-		"Use tolo:hasWife if junior/senior status is unknown. Use bdo:hasWife to assert a direct relationship from husband to wife."@en
-		;
-	.
-
 tolo:hasSororallNephew
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf bdo:hasNephew ;
@@ -1191,6 +1171,16 @@ tolo:hasSourceStatement
 	skos:prefLabel "has source statement"@en ;
 	.
 
+tolo:hasSpouse
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf gist:hasParty ;
+	rdfs:domain tolo:Marriage ;
+	rdfs:range tolo:Person ;
+	skos:definition "Relates a marriage relationship to one of the spouses."@en ;
+	skos:prefLabel "has spouse"@en ;
+	skos:scopeNote "Use bdo:hasHusband or bdo:hasWife to assert a direct relationship from wife to husband or husband to wife, respectively."@en ;
+	.
+
 tolo:hasStatement
 	a owl:ObjectProperty ;
 	rdfs:domain tolo:Biography ;
@@ -1210,12 +1200,12 @@ tolo:hasSummary
 
 tolo:hasWife
 	a owl:ObjectProperty ;
-	rdfs:subPropertyOf gist:hasParty ;
+	rdfs:subPropertyOf tolo:hasSpouse ;
 	rdfs:domain tolo:Marriage ;
 	rdfs:range tolo:Person ;
 	skos:definition "Relates a marriage relationship to the wife."@en ;
 	skos:prefLabel "has wife"@en ;
-	skos:scopeNote "This property is neutral as to junior/senior wife; use these subproperties if the status is known. Use bdo:hasWife to assert a direct relationship from husband to wife."@en ;
+	skos:scopeNote "Use bdo:hasWife to assert a direct relationship from husband to wife."@en ;
 	.
 
 tolo:inYear
