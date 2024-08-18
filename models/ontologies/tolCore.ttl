@@ -169,6 +169,15 @@ tolo:Death
 	skos:prefLabel "Death"@en ;
 	.
 
+tolo:DigitalContent
+	a owl:Class ;
+	rdfs:subClassOf gist:FormattedContent ;
+	skos:definition "Content which is expressed in a non-analog, computer-processable format."@en ;
+	skos:editorialNote "Assuming here that gist:FormattedContent is meant to go beyond digital formats, though all the examples are of digital formats."@en ;
+	skos:example "A computer file."@en ;
+	skos:prefLabel "Digital Content"@en ;
+	.
+
 tolo:Founding
 	a owl:Class ;
 	rdfs:subClassOf gist:Event ;
@@ -209,14 +218,6 @@ tolo:IdType
 	skos:example "Gendun Drub has Himalayan Art (HAR) identifier 582."@en ;
 	skos:prefLabel "ID Type"@en ;
 	skos:scopeNote "The ID type is used to construct links by specifying a URL fragment to combine with the identifier to form a URL and a display label to use as link text."@en ;
-	.
-
-tolo:Image
-	a owl:Class ;
-	rdfs:subClassOf gist:FormattedContent ;
-	skos:definition "A visual representation."@en ;
-	skos:prefLabel "Image"@en ;
-	skos:scopeNote "Images are associated with people and places on the Treasury of Lives website."@en ;
 	.
 
 tolo:Incarnation
@@ -1428,6 +1429,15 @@ tolo:references
 	skos:definition "Relates content, such as a biography, to a another content instance that was either used as a source or provides additional information about the content."@en ;
 	skos:example "The biography of Gyergom Tsultrim Sengge has source 'Secret Visions of the Fifth Dalai Lama by Samten G. Karmay."@en ;
 	skos:prefLabel "references"@en ;
+	.
+
+tolo:represents
+	a owl:ObjectProperty ;
+	rdfs:domain gist:Content ;
+	skos:definition "Relates visual content to a thing it depicts or encodes."@en ;
+	skos:editorialNote "Are we skating on thin ice here? But we really don't want three different objects."@en ;
+	skos:prefLabel "represents"@en ;
+	skos:scopeNote "Encompasses two different but related relationships: a sculpture depicts its subject, a photograph of the sculpture depicts the sculpture, and a file (digital content) encodes the photograph. Because we have no need to instantiate the intermediate photograph, we use the general term 'represents' to cover both cases, so that we can say the file represents the sculpture. Note that the first relationship, that of a sculpture, painting, or photograph to its subject, is roughly the same as gist:isAbout, which we use for that relationship."@en ;
 	.
 
 tolo:residesIn

@@ -8,6 +8,7 @@
 # imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
 # imports: https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolEntityActiveStatusX.x.x
+# imports: https://w3id.org/treasuryoflives/taxonomy/tolGeneralMediaTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolHusbandStatusX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolIdTypesX.x.x
@@ -45,6 +46,7 @@
 		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ,
 		<https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolEntityActiveStatusX.x.x> ,
+		<https://w3id.org/treasuryoflives/taxonomy/tolGeneralMediaTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolHusbandStatusX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolIdTypesX.x.x> ,
