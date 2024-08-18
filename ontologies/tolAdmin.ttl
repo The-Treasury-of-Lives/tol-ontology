@@ -103,9 +103,10 @@ tolo:SubscriptionTier
 
 tolo:UserAccount
 	a owl:Class ;
-	skos:definition "An account for a person with editing access to the Treasury of Lives website."@en ;
-	skos:editorialNote "Tied to a person, has certain privileges."@en ;
+	rdfs:subClassOf gist:Agreement ;
+	skos:definition "An account for a person on the Treasury of Lives website."@en ;
 	skos:prefLabel "User Account"@en ;
+	skos:scopeNote "Editing accounts are managed by the DCA platform. These user accounts are for users with special read access."@en ;
 	.
 
 tolo:createDateTime
@@ -175,14 +176,12 @@ tolo:ipAddress
 tolo:isCreatedBy
 	a owl:AnnotationProperty ;
 	skos:definition "The user account which created metadata related to some resource, such as an image."@en ;
-	skos:editorialNote "Not sure what this will point to - User, UserAccount."@en ;
 	skos:prefLabel "is created by"@en ;
 	.
 
 tolo:isLastModifiedBy
 	a owl:AnnotationProperty ;
 	skos:definition "The user account which last modified metadata related to some resource, such as an image."@en ;
-	skos:editorialNote "Not sure what this will point to - User, UserAccount."@en ;
 	skos:prefLabel "is last modified by"@en ;
 	.
 
