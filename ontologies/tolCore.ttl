@@ -760,6 +760,14 @@ tolo:RulerLineage
 	skos:prefLabel "Ruler Lineage"@en ;
 	.
 
+tolo:StatusAssignment
+	a owl:Class ;
+	rdfs:subClassOf gist:TemporalRelation ;
+	skos:definition "A temporal object expressing a relationship between some resource and a status it is assigned, used to add datetimes, notes, assigner, and other data."@en ;
+	skos:prefLabel "Status Assignment"@en ;
+	skos:scopeNote "Status assignments will have an actual start datetime, as well as an actual end datetime if there is a subsequent assignment of a different value in the same taxonomy (e.g., from EntityActiveStatus_active to EntityActiveStatus_inactive). The end date of one will be the start date of the next one. Consistency in both precision (use of datetime rather than date) and start/end vs single dates is recommended for ease of querying, even if only date precision is required in specific cases."@en ;
+	.
+
 tolo:TeacherStudentRelationship
 	a owl:Class ;
 	owl:equivalentClass [
@@ -1215,6 +1223,23 @@ tolo:inYear
 	skos:example "Gyergom Tsultime Sengge's birth took place in 1144."@en ;
 	skos:prefLabel "in year"@en ;
 	skos:scopeNote "This is a covering concept for approximate, actual, and alternate years (as for births, deaths, and foundings) but would generally not be materialized directly."@en ;
+	.
+
+tolo:isAssignmentOf
+	a owl:ObjectProperty ;
+	skos:definition "Relates an assignment to the resource it assigns."@en ;
+	skos:example "Assignment of a wife status to a marriage."@en ;
+	skos:prefLabel "is assignment of"@en ;
+	gist:domainIncludes tolo:StatusAssignment ;
+	gist:rangeIncludes gist:Category ;
+	.
+
+tolo:isAssignmentTo
+	a owl:ObjectProperty ;
+	skos:definition "Relates an assignment to the thing the resource is assigned to."@en ;
+	skos:example "Assignment of a wife status to a marriage."@en ;
+	skos:prefLabel "is assignment to"@en ;
+	gist:domainIncludes gist:StatusAssignment ;
 	.
 
 tolo:isBranchOf
