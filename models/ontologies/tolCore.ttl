@@ -1431,20 +1431,6 @@ tolo:references
 	skos:prefLabel "references"@en ;
 	.
 
-tolo:represents
-	a owl:ObjectProperty ;
-	rdfs:domain gist:Content ;
-	skos:definition "Relates content or intellectual property to a thing it depicts or encodes."@en ;
-	skos:editorialNote "Are we skating on thin ice here? But we really don't want three different objects."@en ;
-	skos:prefLabel "represents"@en ;
-	skos:scopeNote "Encompasses two different but related relationships: a sculpture depicts its subject, a photograph of the sculpture depicts the sculpture, and an image file (tolo:DigitalContent) encodes the photograph. Because we have no need to instantiate the intermediate photograph, we use the general term 'represents' to cover both cases, so that we can say the file represents the sculpture. "@en ;
-	gist:domainIncludes
-		gist:Content ,
-		gist:IntellectualProperty ,
-		tolo:DigitalContent
-		;
-	.
-
 tolo:residesIn
 	a owl:ObjectProperty ;
 	rdfs:range gist:Place ;
