@@ -61,6 +61,11 @@ tolo:Subscription
 				owl:onProperty gist:isCategorizedBy ;
 				owl:someValuesFrom tolo:SubscriptionTier ;
 			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:someValuesFrom tolo:SubscriptionType ;
+			]
 		) ;
 	] ;
 	skos:definition "A subscription to the Treasury of Lives website."@en ;
@@ -99,6 +104,22 @@ tolo:SubscriptionTier
 	skos:definition "A level of subscription with specific privileges."@en ;
 	skos:editorialNote "Using a category rather than an integer in case we want to attach information or apply SHACL validation to tiers."@en ;
 	skos:prefLabel "Subscription Tier"@en ;
+	.
+
+tolo:SubscriptionType
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:someValuesFrom tolo:Subscription ;
+		]
+		;
+	skos:definition "Categorizes a subscription as regular or trial."@en ;
+	skos:prefLabel "Subscription Type"@en ;
 	.
 
 tolo:UserAccount

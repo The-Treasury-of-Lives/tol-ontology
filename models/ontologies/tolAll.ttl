@@ -22,6 +22,7 @@
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolRegionTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolRolesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolSubscriptionAccessTypeX.x.x
+# imports: https://w3id.org/treasuryoflives/taxonomy/tolSubscriptionTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolWifeStatusX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolWorkTypesX.x.x
@@ -60,6 +61,7 @@
 		<https://w3id.org/treasuryoflives/taxonomy/tolRegionTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolRolesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolSubscriptionAccessTypeX.x.x> ,
+		<https://w3id.org/treasuryoflives/taxonomy/tolSubscriptionTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolWifeStatusX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolWorkTypesX.x.x>
