@@ -24,6 +24,13 @@
 	skos:prefLabel "Identifier Types"@en ;
 	.
 
+tolx:_IdType_har
+	a tolo:IdType ;
+	skos:prefLabel "HAR Item Number"@en ;
+	skos:scopeNote "To be distinguished from tolx:_ReferenceType_har. This is an ID number that can be appended to the url to construct a link to the image on the HAR site. The reference URLs have various formats and point to pages about people, sets of images, etc."@en ;
+	tolo:url "https://www.himalayanart.org/items/"^^xsd:anyURI ;
+	.
+
 tolx:_IdType_tol
 	a tolo:IdType ;
 	skos:definition "Used to store legacy TOL ID."@en ;

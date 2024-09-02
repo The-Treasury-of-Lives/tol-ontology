@@ -15,88 +15,88 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/treasuryoflives/taxonomy/tolGeneralMediaTypes>
+<https://w3id.org/treasuryoflives/taxonomy/tolWorkTypes>
 	a owl:Ontology ;
 	owl:imports <https://w3id.org/treasuryoflives/ontology/gistCore12.1.0> ;
-	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolGeneralMediaTypesX.x.x> ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolWorkTypesX.x.x> ;
 	skos:definition "Defines types of media displayed on the Treasury of Lives website."@en ;
 	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "General Media Types"@en ;
 	.
 
-tolx:_GeneralMediaType_block_print
-	a gist:GeneralMediaType ;
+tolx:_WorkType_block_print
+	a gist:WorkType ;
 	skos:prefLabel "Block Print"@en ;
-	gist:hasDirectSuperCategory tolx:_GeneralMediaType_image ;
+	gist:hasDirectSuperCategory tolx:_WorkType_image ;
 	.
 
-tolx:_GeneralMediaType_document
-	a gist:GeneralMediaType ;
+tolx:_WorkType_document
+	a gist:WorkType ;
 	skos:prefLabel "Document"@en ;
 	.
 
-tolx:_GeneralMediaType_image
-	a gist:GeneralMediaType ;
+tolx:_WorkType_image
+	a gist:WorkType ;
 	skos:prefLabel "Image"@en ;
 	.
 
-tolx:_GeneralMediaType_initiation_card
-	a gist:GeneralMediaType ;
+tolx:_WorkType_initiation_card
+	a gist:WorkType ;
 	skos:prefLabel "Initiation Card"@en ;
-	gist:hasDirectSuperCategory tolx:_GeneralMediaType_image ;
+	gist:hasDirectSuperCategory tolx:_WorkType_image ;
 	.
 
-tolx:_GeneralMediaType_letter
-	a gist:GeneralMediaType ;
+tolx:_WorkType_letter
+	a gist:WorkType ;
 	skos:prefLabel "Letter"@en ;
-	gist:hasDirectSuperCategory tolx:_GeneralMediaType_document ;
+	gist:hasDirectSuperCategory tolx:_WorkType_document ;
 	.
 
-tolx:_GeneralMediaType_map
-	a gist:GeneralMediaType ;
+tolx:_WorkType_map
+	a gist:WorkType ;
 	skos:prefLabel "Map"@en ;
-	gist:hasDirectSuperCategory tolx:_GeneralMediaType_image ;
+	gist:hasDirectSuperCategory tolx:_WorkType_image ;
 	.
 
-tolx:_GeneralMediaType_mural
-	a gist:GeneralMediaType ;
+tolx:_WorkType_mural
+	a gist:WorkType ;
 	skos:prefLabel "Mural"@en ;
-	gist:hasDirectSuperCategory tolx:_GeneralMediaType_image ;
+	gist:hasDirectSuperCategory tolx:_WorkType_image ;
 	.
 
-tolx:_GeneralMediaType_painting
-	a gist:GeneralMediaType ;
+tolx:_WorkType_painting
+	a gist:WorkType ;
 	skos:prefLabel "Painting"@en ;
-	gist:hasDirectSuperCategory tolx:_GeneralMediaType_image ;
+	gist:hasDirectSuperCategory tolx:_WorkType_image ;
 	.
 
-tolx:_GeneralMediaType_photograph
-	a gist:GeneralMediaType ;
+tolx:_WorkType_photograph
+	a gist:WorkType ;
 	skos:prefLabel "Photograph"@en ;
-	gist:hasDirectSuperCategory tolx:_GeneralMediaType_image ;
+	gist:hasDirectSuperCategory tolx:_WorkType_image ;
 	.
 
-tolx:_GeneralMediaType_rock_carving
-	a gist:GeneralMediaType ;
+tolx:_WorkType_rock_carving
+	a gist:WorkType ;
 	skos:prefLabel "Rock Carving"@en ;
-	gist:hasDirectSuperCategory tolx:_GeneralMediaType_image ;
+	gist:hasDirectSuperCategory tolx:_WorkType_image ;
 	.
 
-tolx:_GeneralMediaType_sculpture
-	a gist:GeneralMediaType ;
+tolx:_WorkType_sculpture
+	a gist:WorkType ;
 	skos:prefLabel "Sculpture"@en ;
-	gist:hasDirectSuperCategory tolx:_GeneralMediaType_image ;
+	gist:hasDirectSuperCategory tolx:_WorkType_image ;
 	.
 
-tolx:_GeneralMediaType_seal
-	a gist:GeneralMediaType ;
+tolx:_WorkType_seal
+	a gist:WorkType ;
 	skos:prefLabel "Seal"@en ;
-	gist:hasDirectSuperCategory tolx:_GeneralMediaType_image ;
+	gist:hasDirectSuperCategory tolx:_WorkType_image ;
 	.
 
-tolx:_GeneralMediaType_textile
-	a gist:GeneralMediaType ;
+tolx:_WorkType_textile
+	a gist:WorkType ;
 	skos:prefLabel "Textile"@en ;
-	gist:hasDirectSuperCategory tolx:_GeneralMediaType_image ;
+	gist:hasDirectSuperCategory tolx:_WorkType_image ;
 	.
 

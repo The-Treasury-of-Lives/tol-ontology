@@ -45,6 +45,7 @@ tolx:_ReferenceType_har
 	a tolo:ReferenceType ;
 	skos:altLabel "HAR"@en ;
 	skos:prefLabel "Himalayan Art Resources"@en ;
+	skos:scopeNote "To be distinguished from tolx:_IdType_har. The item ID number applies to artworks and can be appended to the url to construct a link to the image on the HAR site. The reference URLs have various formats and point to pages about people, sets of images, etc. The URL specified here is the domain of the site but more information is required to construct the URL, thus the entire URL is provided in the data."@en ;
 	tolo:displayLabel "View Image at HAR"@en ;
 	tolo:url "https://www.himalayanart.org/"^^xsd:anyURI ;
 	.

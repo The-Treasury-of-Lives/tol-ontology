@@ -106,7 +106,7 @@ tolo:UserAccount
 	rdfs:subClassOf gist:Agreement ;
 	skos:definition "An account for a person on the Treasury of Lives website."@en ;
 	skos:prefLabel "User Account"@en ;
-	skos:scopeNote "Editing accounts are managed by the DCA platform. These user accounts are for users with special read access."@en ;
+	skos:scopeNote "Editing accounts are managed by the DCA platform. These user accounts are for users with special read access to the site."@en ;
 	.
 
 tolo:createDateTime
