@@ -66,6 +66,13 @@ tolo:caption
 	skos:prefLabel "credit"@en ;
 	.
 
+tolo:coordinates
+	a owl:DatatypeProperty ;
+	rdfs:range xsd:string ;
+	skos:definition "Coordinates for map display. This is an unparsed, comma-delimited series of four coordinates that is used as input to a JavaScript program."@en ;
+	skos:prefLabel "coordinates"@en ;
+	.
+
 tolo:credit
 	a owl:DatatypeProperty ;
 	rdfs:domain tolo:Image ;
