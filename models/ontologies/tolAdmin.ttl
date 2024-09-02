@@ -124,11 +124,24 @@ tolo:domain
 	skos:scopeNote "Note that these are not full URLs."@en ;
 	.
 
+tolo:fileName
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:name ;
+	rdfs:domain gist:FormattedContent ;
+	rdfs:range xsd:string ;
+	skos:definition "The name of a file."@en ;
+	skos:editoralNote "Not sure we need this - could just use gist:name. Seems like a special case,though; e.g., can be parsed into stem and extension."@en ;
+	skos:prefLabel "file name"@en ;
+	skos:scopeNote "Use tolo:filePath for full paths."@en ;
+	.
+
 tolo:filePath
 	a owl:DatatypeProperty ;
+	rdfs:domain gist:FormattedContent ;
 	rdfs:range xsd:string ;
 	skos:definition "The full path to a file, such as an image file."@en ;
 	skos:prefLabel "file path"@en ;
+	skos:scopeNote "Use tolo:fileName for paths consisting only of the name."@en ;
 	.
 
 tolo:hasContactPerson
@@ -140,8 +153,8 @@ tolo:hasContactPerson
 
 tolo:hasThumbnail
 	a owl:ObjectProperty ;
-	rdfs:domain tolo:Image ;
-	rdfs:range tolo:Image ;
+	rdfs:domain gist:FormattedContent ;
+	rdfs:range gist:FormattedContent ;
 	skos:definition "Relates an image to a reduced-size version used to help in recognizing and organizing a collection of images."@en ;
 	skos:editorialNote "Should this go in the admin or display ontology? Is it an annotation property?"@en ;
 	skos:prefLabel "has thumbnail"@en ;

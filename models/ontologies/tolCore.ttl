@@ -169,15 +169,6 @@ tolo:Death
 	skos:prefLabel "Death"@en ;
 	.
 
-tolo:DigitalContent
-	a owl:Class ;
-	rdfs:subClassOf gist:FormattedContent ;
-	skos:definition "Content which is expressed in a non-analog, computer-processable format."@en ;
-	skos:editorialNote "Assuming here that gist:FormattedContent is meant to go beyond digital formats, though all the examples are of digital formats."@en ;
-	skos:example "A computer file."@en ;
-	skos:prefLabel "Digital Content"@en ;
-	.
-
 tolo:Founding
 	a owl:Class ;
 	rdfs:subClassOf gist:Event ;
@@ -684,7 +675,7 @@ tolo:Reference
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
-			gist:RenderedContent
+			gist:FormattedContent
 			[
 				a owl:Restriction ;
 				owl:onProperty tolo:url ;
@@ -700,7 +691,7 @@ tolo:Reference
 	skos:definition "An online resource providing information about an entity such as a person or image."@en ;
 	skos:example "TBD"@en ;
 	skos:prefLabel "Reference"@en ;
-	skos:scopeNote "The classes Reference and ReferenceType are used to provide URLs and display text for links to the reference."@en ;
+	skos:scopeNote "The classes Reference and ReferenceType are used to provide URLs and display text for links to the reference. In some but not all cases these could be considered identifiers; paintings that depict multiple people cannot."@en ;
 	.
 
 tolo:ReferenceType
@@ -717,7 +708,7 @@ tolo:ReferenceType
 		) ;
 	] ;
 	skos:definition "A collection of online resources about Treasury of Lives entities such as persons and images."@en ;
-	skos:editorialNote "Another possibility is to define ReferenceCollection rather than ReferenceType, using hasMember to link to the Reference. Then put in data namespace."@en ;
+	skos:editorialNote "Another possibility is to define ReferenceCollection or ReferenceSource rather than ReferenceType, using gist:hasMember to link to the Reference. Then put in data namespace."@en ;
 	skos:example "Lotsawa House, Rubin Museum of Art"@en ;
 	skos:prefLabel "Reference Type"@en ;
 	.
@@ -845,6 +836,14 @@ tolo:WifeStatus
 	skos:definition "Indicates whether a marriage relationship has a junior or senior wife."@en ;
 	skos:example "Junior, senior"@en ;
 	skos:prefLabel "Wife Status"@en ;
+	.
+
+tolo:WorkType
+	a owl:Class ;
+	rdfs:subClassOf gist:Category ;
+	skos:definition "A category of work or intellectual property based on materials, form, or content."@en ;
+	skos:example "Painting, sculpture, rock carving, letter, initiation card."@en ;
+	skos:prefLabel "Work Type"@en ;
 	.
 
 tolo:actualYear

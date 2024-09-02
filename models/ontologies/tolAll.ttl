@@ -8,7 +8,6 @@
 # imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
 # imports: https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolEntityActiveStatusX.x.x
-# imports: https://w3id.org/treasuryoflives/taxonomy/tolGeneralMediaTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolHusbandStatusX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolIdTypesX.x.x
@@ -25,6 +24,7 @@
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolSubscriptionAccessTypeX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolWifeStatusX.x.x
+# imports: https://w3id.org/treasuryoflives/taxonomy/tolWorkTypesX.x.x
 
 @prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -46,7 +46,6 @@
 		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ,
 		<https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolEntityActiveStatusX.x.x> ,
-		<https://w3id.org/treasuryoflives/taxonomy/tolGeneralMediaTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolHusbandStatusX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolIdTypesX.x.x> ,
@@ -62,7 +61,8 @@
 		<https://w3id.org/treasuryoflives/taxonomy/tolRolesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolSubscriptionAccessTypeX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x> ,
-		<https://w3id.org/treasuryoflives/taxonomy/tolWifeStatusX.x.x>
+		<https://w3id.org/treasuryoflives/taxonomy/tolWifeStatusX.x.x> ,
+		<https://w3id.org/treasuryoflives/taxonomy/tolWorkTypesX.x.x>
 		;
 	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolAllX.x.x> ;
 	skos:definition "A convenience file that provides a single point of entry to the Treasury of Lives Ontology. It does not itself define any terms, but rather specifies the full set of ontology and taxonomy imports, other than those imported directly by tolo:core."@en ;
