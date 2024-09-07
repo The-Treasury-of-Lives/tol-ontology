@@ -292,43 +292,6 @@ tolo:IncarnationLineage
 	skos:scopeNote "An incarnation lineage is enumerated chronologically and can branch into multiple lines. Usually associated with a seat, such as a monastery, and a tradition."@en ;
 	.
 
-tolo:Institution
-	a owl:Class ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			gist:Organization
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:isCategorizedBy ;
-				owl:someValuesFrom tolo:InstitutionType ;
-			]
-		) ;
-	] ;
-	skos:definition "A human-made organization typically connected to a single or multiple physical buildings with a shared mission, identity, norms and rules that often contains subsidiary members or suborganizations."@en ;
-	skos:example "Choding Monastery, Nyarongsha School, Mentsikhang Hospital."@en ;
-	skos:prefLabel "Institution"@en ;
-	skos:scopeNote "An institution is not a place per se - e.g., a monastery could move to a different site - but is associated with a place."@en ;
-	.
-
-tolo:InstitutionType
-	a owl:Class ;
-	rdfs:subClassOf
-		gist:Category ,
-		[
-			a owl:Restriction ;
-			owl:onProperty [
-				owl:inverseOf gist:isCategorizedBy ;
-			] ;
-			owl:allValuesFrom tolo:Institution ;
-		]
-		;
-	skos:definition "Indicates the specific type of an institution."@en ;
-	skos:example "Monastery, hospital, school, etc."@en ;
-	skos:prefLabel "Institution Type"@en ;
-	skos:scopeNote "Using the class-type pattern, some institution types will also be represented as subclasses because they have specialized restrictions."@en ;
-	.
-
 tolo:KinshipGroup
 	a owl:Class ;
 	rdfs:subClassOf
@@ -471,8 +434,8 @@ tolo:MarriageType
 			owl:allValuesFrom tolo:Marriage ;
 		]
 		;
-	skos:definition "A category characterizing a marriage."@en ;
-	skos:example "Matrilocal, patrilocal (default)"@en ;
+	skos:definition "A category characterizing a marriage as either matrilocal or patrilocal (default)."@en ;
+	skos:editorialNote "Is this used? I think now we connect a marriage to a kinship group."@en ;
 	skos:prefLabel "Marriage Type"@en ;
 	.
 
@@ -481,11 +444,14 @@ tolo:Monastery
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
-			tolo:Institution
+			gist:Place
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:isCategorizedBy ;
-				owl:hasValue tolx:_InstitutionType_monastery ;
+				owl:oneOf (
+					tolx:_PlaceType_monastery
+					tolx:_PlaceType_nunnery
+				) ;
 			]
 		) ;
 	] ;
@@ -497,6 +463,7 @@ tolo:Monastery
 		"དགོན་པ་"@bo ,
 		"寺院"@zh-HANI
 		;
+	skos:scopeNote "This term designates both the community and the physical structures that house it. Note that nunneries are included but differentiated by a different taxonomic type."@en ;
 	.
 
 tolo:MonasteryHead
@@ -636,23 +603,6 @@ tolo:Person
 	skos:scopeNote "May include quasi-historical figures. Encompasses persons from other data sources, such as BDRC, who are referenced from biographies but do not have a biography on the ToL site. Other persons in the data such as users, subscriber contacts, and authors are instances of gist:Person rather than tolo:Person (unless they also become the subject of a biography)."@en ;
 	.
 
-tolo:PlaceFunction
-	a owl:Class ;
-	rdfs:subClassOf
-		gist:Category ,
-		[
-			a owl:Restriction ;
-			owl:onProperty [
-				owl:inverseOf gist:isCategorizedBy ;
-			] ;
-			owl:allValuesFrom gist:Place ;
-		]
-		;
-	skos:definition "A category indicating a kind of place, generally man-made, based on function."@en ;
-	skos:example "Monastery, dharma center, school, hospital, etc."@en ;
-	skos:prefLabel "Place Function"@en ;
-	.
-
 tolo:PlaceType
 	a owl:Class ;
 	rdfs:subClassOf
@@ -665,9 +615,13 @@ tolo:PlaceType
 			owl:allValuesFrom gist:Place ;
 		]
 		;
-	skos:definition "A category indicating a kind of place based on physical features."@en ;
-	skos:example "Lake, mountain, hidden land, cave."@en ;
+	skos:definition "A category indicating a kind of place based on natural features or human-designated function."@en ;
+	skos:example "Lake, mountain, monastery, school, temple, hermitage."@en ;
 	skos:prefLabel "Place Type"@en ;
+	skos:scopeNote
+		"Some places may have more than one type; e.g., a cave may also function as a hermitage."@en ,
+		"There is no clear line between what we might think of as institutions or organizations, such as a monastic order, and the physical structures that house them, so they are all typed as gist:Place and categorized with a tolo:PlaceType."@en
+		;
 	.
 
 tolo:Reference
@@ -1245,7 +1199,7 @@ tolo:isAssignmentTo
 tolo:isBranchOf
 	a owl:ObjectProperty ;
 	skos:definition "Relates a monastery to a larger monastery in another location of which it is a subsidiary or affiliate."@en ;
-	skos:editorialNote "Consider whether the domain/rangeIncludes should be tightened to rdfs:domain/range, or perhaps, slightly looser, Institution rather than Monastery."@en ;
+	skos:editorialNote "Consider whether the domain/rangeIncludes should be tightened to rdfs:domain/range."@en ;
 	skos:example "The Adzom Gar monastery is a branch of the Katok monastery."@en ;
 	skos:prefLabel "is branch of"@en ;
 	skos:scopeNote "Differs from the tolo:isDerivedFrom relationship between monasteries, which is used for monasteries in exile."@en ;
@@ -1270,33 +1224,6 @@ tolo:isDerivedFrom
 		;
 	.
 
-tolo:isHusbandIn
-	a owl:ObjectProperty ;
-	rdfs:domain tolo:Person ;
-	rdfs:range tolo:Marriage ;
-	skos:definition "Relates a husband to a materialized marriage relationship."@en ;
-	skos:prefLabel "is husband in"@en ;
-	skos:scopeNote "This could be asserted, or inferred from isSpouseIn and the gender of the person."@en ;
-	.
-
-tolo:isSpouseIn
-	a owl:ObjectProperty ;
-	rdfs:domain tolo:Person ;
-	rdfs:range tolo:Marriage ;
-	skos:definition "Relates a person to a materialized marriage relationship."@en ;
-	skos:prefLabel "is spouse in"@en ;
-	skos:scopeNote "It is generally preferable to use the more specific isWifeIn or isHusbandIn, though these could also be inferred from isSpouseIn and the gender of the person. gist:hasParticipant is not specific enough, because children are also related to the marriage."@en ;
-	.
-
-tolo:isWifeIn
-	a owl:ObjectProperty ;
-	rdfs:domain tolo:Person ;
-	rdfs:range tolo:Marriage ;
-	skos:definition "Relates a wife to a materialized marriage relationship."@en ;
-	skos:prefLabel "is wife in"@en ;
-	skos:scopeNote "This could be asserted, or inferred from isSpouseIn and the gender of the person."@en ;
-	.
-
 tolo:lastName
 	a owl:DatatypeProperty ;
 	rdfs:subClassOf gist:name ;
@@ -1309,24 +1236,16 @@ tolo:lastName
 tolo:level
 	a owl:DatatypeProperty ;
 	rdfs:range xsd:integer ;
+	skos:altLabel "priority"@en ;
 	skos:definition "A level in a hierarchy."@en ;
 	skos:example "The level of a mapping priority; the tier of a subscription."@en ;
-	skos:prefLabel "priority"@en ;
+	skos:prefLabel "level"@en ;
 	.
 
 tolo:localName
 	a owl:DatatypeProperty ;
 	skos:definition "The local name of an IRI."@en ;
 	skos:prefLabel "local name"@en ;
-	.
-
-tolo:marriedFamilyName
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tolo:familyName ;
-	rdfs:domain tolo:Person ;
-	rdfs:range rdf:langString ;
-	skos:definition "The family name a person is assigned through a marital relationship."@en ;
-	skos:prefLabel "married family name"@en ;
 	.
 
 tolo:nameVariant
