@@ -31,9 +31,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # Definition
 
 # Run:
-# tarql -e utf-8 place_types.tq place-types-7-15-24.csv > tolPlaceTypes.ttl
+# tarql -e utf-8 --dedup 10000 place_types.tq place-types-7-15-24.csv > tolPlaceTypes.ttl
 
 CONSTRUCT {
+
+    <https://w3id.org/treasuryoflives/taxonomy/tolPlaceTypes>
+        a owl:Ontology ;
+        owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
+        owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolPlaceTypesX.x.x> ;
+        skos:definition "Defines types of places. These may be functional types, such as monastery, school, and hospital, or types of natural features, such as cave and mountain. Some places have more than one category - e.g., a cave can also be a hermitage."@en ;
+        skos:editorialNote "Generated via TARQL."@en ;
+        skos:prefLabel "Place Types"@en ;
+	.
 
     ?type_iri
         a tolo:PlaceType ;
@@ -54,8 +63,6 @@ CONSTRUCT {
 }
 
 WHERE {
-
-    FILTER(?Class = "PlaceType")
 
     # Testing
     # FILTER(?ROWNUM = 1)
