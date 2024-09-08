@@ -58,7 +58,7 @@ CONSTRUCT {
             ?alt_label_en ,
             ?alt_label_wylie ,
             ?alt_label_tibetan ;
-        gist:hasSuperCategory ?parent_role_iri ;
+        gist:hasDirectBroader ?parent_role_iri ;
         owl:sameAs
             ?wikidata_role_iri ,
             ?bdrc_role_iri ;

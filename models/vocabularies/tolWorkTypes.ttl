@@ -1,4 +1,4 @@
-# imports: https://w3id.org/treasuryoflives/ontology/gistCore12.1.0
+# imports: https://w3id.org/treasuryoflives/ontology/gistCore13.0.0
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bdr: <http://purl.bdrc.io/resource/> .
@@ -17,7 +17,7 @@
 
 <https://w3id.org/treasuryoflives/taxonomy/tolWorkTypes>
 	a owl:Ontology ;
-	owl:imports <https://w3id.org/treasuryoflives/ontology/gistCore12.1.0> ;
+	owl:imports <https://w3id.org/treasuryoflives/ontology/gistCore13.0.0> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolWorkTypesX.x.x> ;
 	skos:definition "Defines types of media displayed on the Treasury of Lives website."@en ;
 	skos:editorialNote "Hand-curated."@en ;
@@ -27,7 +27,7 @@
 tolx:_WorkType_block_print
 	a gist:WorkType ;
 	skos:prefLabel "Block Print"@en ;
-	gist:hasDirectSuperCategory tolx:_WorkType_image ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_document
@@ -43,60 +43,60 @@ tolx:_WorkType_image
 tolx:_WorkType_initiation_card
 	a gist:WorkType ;
 	skos:prefLabel "Initiation Card"@en ;
-	gist:hasDirectSuperCategory tolx:_WorkType_image ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_letter
 	a gist:WorkType ;
 	skos:prefLabel "Letter"@en ;
-	gist:hasDirectSuperCategory tolx:_WorkType_document ;
+	gist:hasDirectBroader tolx:_WorkType_document ;
 	.
 
 tolx:_WorkType_map
 	a gist:WorkType ;
 	skos:prefLabel "Map"@en ;
-	gist:hasDirectSuperCategory tolx:_WorkType_image ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_mural
 	a gist:WorkType ;
 	skos:prefLabel "Mural"@en ;
-	gist:hasDirectSuperCategory tolx:_WorkType_image ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_painting
 	a gist:WorkType ;
 	skos:prefLabel "Painting"@en ;
-	gist:hasDirectSuperCategory tolx:_WorkType_image ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_photograph
 	a gist:WorkType ;
 	skos:prefLabel "Photograph"@en ;
-	gist:hasDirectSuperCategory tolx:_WorkType_image ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_rock_carving
 	a gist:WorkType ;
 	skos:prefLabel "Rock Carving"@en ;
-	gist:hasDirectSuperCategory tolx:_WorkType_image ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_sculpture
 	a gist:WorkType ;
 	skos:prefLabel "Sculpture"@en ;
-	gist:hasDirectSuperCategory tolx:_WorkType_image ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_seal
 	a gist:WorkType ;
 	skos:prefLabel "Seal"@en ;
-	gist:hasDirectSuperCategory tolx:_WorkType_image ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_textile
 	a gist:WorkType ;
 	skos:prefLabel "Textile"@en ;
-	gist:hasDirectSuperCategory tolx:_WorkType_image ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 

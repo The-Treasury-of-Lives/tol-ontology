@@ -1,0 +1,31 @@
+@prefix ex: <https://data.ex.com/data/> .
+@prefix gist: <https://ontologies.semanticarts.com/gist/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:_subject
+	gist:affects ex:_object ;
+	gist:containsGeographically ex:_object ;
+	gist:follows ex:_object ;
+	gist:followsDirectly ex:_object ;
+	gist:governs ex:_object ;
+	gist:hasDirectSubCategory ex:_object ;
+	gist:hasNavigationalChild ex:_object ;
+	gist:hasSubCategory ex:_object ;
+	gist:identifies ex:_object ;
+	gist:isBasisFor ex:_object ;
+	gist:isDescribedIn ex:_object ;
+	gist:isDirectPartOf ex:_object ;
+	gist:isDirectSubTaskOf ex:_object ;
+	gist:isGeographicallyOccupiedBy ex:_object ;
+	gist:isGeographicallyPermanentlyOccupiedBy ex:_object ;
+	gist:isMemberOf ex:_object ;
+	gist:isPartOf ex:_object ;
+	gist:isSubTaskOf ex:_object ;
+	gist:recognizes ex:_object ;
+	.
+
