@@ -866,7 +866,7 @@ tolo:credit
 	skos:definition "A note acknowledging the source of an image."@en ;
 	skos:editorialNote "Should this go in the admin or display ontology?"@en ;
 	skos:prefLabel "credit"@en ;
-	skos:scopeNote "Note that the credit applies to the image file, not the original work of art it depicts."@en ;
+	skos:scopeNote "Note that the credit applies to the image file, not the work of art it depicts."@en ;
 	.
 
 tolo:depicts
