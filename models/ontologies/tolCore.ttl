@@ -620,49 +620,6 @@ tolo:PlaceType
 		;
 	.
 
-tolo:Reference
-	a owl:Class ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			gist:FormattedContent
-			[
-				a owl:Restriction ;
-				owl:onProperty tolo:url ;
-				owl:someValuesFrom xsd:anyURI ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:isCategorizedBy ;
-				owl:someValuesFrom tolo:ReferenceType ;
-			]
-		) ;
-	] ;
-	skos:definition "An online resource providing information about an entity such as a person or image."@en ;
-	skos:example "TBD"@en ;
-	skos:prefLabel "Reference"@en ;
-	skos:scopeNote "The classes Reference and ReferenceType are used to provide URLs and display text for links to the reference. In some but not all cases these could be considered identifiers; paintings that depict multiple people cannot."@en ;
-	.
-
-tolo:ReferenceType
-	a owl:Class ;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			gist:Category
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:isCategorizedBy ;
-				owl:someValuesFrom tolo:Reference ;
-			]
-		) ;
-	] ;
-	skos:definition "A collection of online resources about Treasury of Lives entities such as persons and images."@en ;
-	skos:editorialNote "Another possibility is to define ReferenceCollection or ReferenceSource rather than ReferenceType, using gist:hasMember to link to the Reference. Then put in data namespace."@en ;
-	skos:example "Lotsawa House, Rubin Museum of Art"@en ;
-	skos:prefLabel "Reference Type"@en ;
-	.
-
 tolo:Role
 	a owl:Class ;
 	rdfs:subClassOf gist:Category ;
@@ -769,6 +726,17 @@ tolo:Vocation
 	] ;
 	skos:definition "Relates a person to a role played by that person, possibly for a defined period of time."@en ;
 	skos:prefLabel "Vocation"@en ;
+	.
+
+tolo:Website
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Content ,
+		gist:Network
+		;
+	skos:definition "A collection of one or more web pages and related content that is identified by a common domain name and published on at least one web server."@en ;
+	skos:example "Lotsawa House, Rubin Museum of Art"@en ;
+	skos:prefLabel "Website"@en ;
 	.
 
 tolo:WifeStatus
