@@ -1,4 +1,4 @@
-# imports: https://w3id.org/semanticarts/ontology/gistCore12.1.0
+# imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
 
 @prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
 @prefix media-app: <https://www.iana.org/assignments/media-types/application/> .
@@ -12,7 +12,7 @@
 
 <https://w3id.org/semanticarts/ontology/tolMediaTypes>
 	a owl:Ontology ;
-	owl:imports <https://w3id.org/semanticarts/ontology/gistCore12.1.0> ;
+	owl:imports <https://w3id.org/semanticarts/ontology/gistCore13.0.0> ;
 	owl:versionIRI <https://w3id.org/semanticarts/ontology/tolMediaTypesX.x.x> ;
 	skos:definition "Treasury of Lives extension of gistMediaTypes."@en ;
 	skos:prefLabel "Treasury of Lives Media Types"@en ;

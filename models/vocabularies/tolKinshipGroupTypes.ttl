@@ -43,7 +43,7 @@ tolx:_KinshipGroupType_depon
 		"de dpon"@bo-W-exts ,
 		"དེ་དཔོན།"@bo
 		;
-	gist:hasSuperCategory tolx:_KinshipGroupType_lhasa_aristocracy ;
+	gist:hasDirectBroader tolx:_KinshipGroupType_lhasa_aristocracy ;
 	.
 
 tolx:_KinshipGroupType_gerpa
@@ -54,7 +54,7 @@ tolx:_KinshipGroupType_gerpa
 		"sger pa"@bo-W-exts ,
 		"སྒེར་པ།"@bo
 		;
-	gist:hasSuperCategory tolx:_KinshipGroupType_lhasa_aristocracy ;
+	gist:hasDirectBroader tolx:_KinshipGroupType_lhasa_aristocracy ;
 	.
 
 tolx:_KinshipGroupType_lhasa_aristocracy
@@ -76,7 +76,7 @@ tolx:_KinshipGroupType_midrak
 		"mi drag"@bo-W-exts ,
 		"མི་དྲག"@bo
 		;
-	gist:hasSuperCategory tolx:_KinshipGroupType_lhasa_aristocracy ;
+	gist:hasDirectBroader tolx:_KinshipGroupType_lhasa_aristocracy ;
 	.
 
 tolx:_KinshipGroupType_yabzhi
@@ -87,6 +87,6 @@ tolx:_KinshipGroupType_yabzhi
 		"yab gzhis"@bo-W-exts ,
 		"ཡབ་གཞིས།"@bo
 		;
-	gist:hasSuperCategory tolx:_KinshipGroupType_lhasa_aristocracy ;
+	gist:hasDirectBroader tolx:_KinshipGroupType_lhasa_aristocracy ;
 	.
 

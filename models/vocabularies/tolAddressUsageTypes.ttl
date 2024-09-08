@@ -1,4 +1,4 @@
-# imports: https://w3id.org/semanticarts/ontology/gistCore12.1.0
+# imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bdr: <http://purl.bdrc.io/resource/> .
@@ -17,13 +17,10 @@
 
 <https://w3id.org/treasuryoflives/taxonomy/tolAddressUsageTypes>
 	a owl:Ontology ;
-	owl:imports <https://w3id.org/semanticarts/ontology/gistCore12.1.0> ;
+	owl:imports <https://w3id.org/semanticarts/ontology/gistCore13.0.0> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolAddressUsageTypesX.x.x> ;
 	skos:definition "Defines categories of address usage."@en ;
-	skos:editorialNote
-		"Hand-curated."@en ,
-		"This is using gist13 concepts!"@en
-		;
+	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Address Usage Types"@en ;
 	.
 

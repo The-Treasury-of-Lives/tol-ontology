@@ -1,0 +1,4830 @@
+[
+	{
+		"@id" : "https://w3id.org/semanticarts/ns/data/gist/_Aspect_altitude",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "area"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The aspect altitude."
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://w3id.org/semanticarts/ns/data/gist/_Aspect_area",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "area"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The aspect area."
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://w3id.org/semanticarts/ns/data/gist/_Aspect_duration",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "duration"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The aspect duration."
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://w3id.org/semanticarts/ns/data/gist/_Aspect_financial_balance",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "balance"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The aspect financial balance."
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://w3id.org/semanticarts/ns/data/gist/_Aspect_mass",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "mass"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The aspect mass."
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://w3id.org/semanticarts/ns/data/gist/_Aspect_monetary_value",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "monetary value"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The aspect monetary value."
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://w3id.org/semanticarts/ns/data/gist/_Aspect_probability",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "probability"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The aspect probability."
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://w3id.org/semanticarts/ns/data/gist/_Aspect_volume",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "volume"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The aspect volume."
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Account",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Account"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: An agreement having a balance, as in a bank account, or credit card account, or Accounts Receivable account."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Address",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Address"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A reference to a place (real or virtual) that can be located by some routing algorithm and where messages or things can be sent to or received from."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A PO Box, a URL to a PDF file."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:AddressUsageType",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Address Usage Type"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A category indicating the context or manner in which an address may be used."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Billing, business, personal, postal, residence."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: If you are using temporal relations involving addresses, this category should be used to qualify the temporal relation rather than the address itself, since the same address may have different uses in different contexts, by different people and organizations, or at different times."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Agreement",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Agreement"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Something which two or more People or Organizations mutually commit to do."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Artifact",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Artifact"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: An intentional, person-made thing, which could be physical or content"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Aspect",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Aspect"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A measurable characteristic such as length, weight, cost, cycle time, or defect rate."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Every aspect should be related to a broader aspect or to a unit group. For example, angle of incidence should be related to the broader concept of angle, which in turn is related to a unit group."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Behavior",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Behavior"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A way of categorizing events.  E.g., differentiating drilling versus cutting."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Building",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Building"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A relatively permanent man-made structure situated on a plot of land, having a roof and walls, commonly used for dwelling, entertaining, or working."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A house, school, store, factory, chicken coop."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Negative examples: houseboats (not built on land), caves (not man-made), food trucks and RVs (not permanently situated)."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: User discretion can be applied to edge cases: e.g., is a traditional yurt 'relatively permanently situated' although it is portable and has a tent-like construction?"
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:BundledCatalogItem",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Bundled Catalog Item"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Any combination of descriptions of things offered together.  Could be a kit (several parts offered together), but could also be a product plus a warranty."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:CatalogItem",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Catalog Item"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A description of a product or service to be delivered, given in a sufficient level of detail that a receiver could determine whether delivery constituted discharge of the obligation to deliver."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: In short, an unambiguous characterization of what it is that a potential buyer is paying for."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Category",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Category"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A concept or label used to categorize other instances without specifying any formal semantics. Things that can be thought of as types are often categories."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Tags used in folksonomies; formal definitions from other systems."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Often a type can be modeled either as an owl:Class or as a gist:Category. Use the latter if you don't care much about the formal structure of the different types, or if there is a whole hierarchy of types that are going to be managed by a group separate from the ontology developers. The formal structure may be defined elsewhere and linked to, if necessary."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Collection",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Collection"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A grouping of things."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A jury is a group of people, a financial ledger is a collection of transaction entries; a route is an (ordered) collection of segments."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Individuals are placed in the collection using the gist:isMemberOf property. Collections typically are created because the members are functionally connected in some way. This definition allows a collection to have zero members."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Commitment",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Commitment"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: An obligation (possibly unilateral)."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Component",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Component"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A component is an artifact that contributes to a system.  Could be a simple mechanical component, such as the float contributing to the toilet tank maintaining a constant level, or much more complex as in the internet of things."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:ContemporaryEvent",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Contemporary Event"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: An event that has started but has not yet ended."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: When the event actually ends, it will cease being contemporary."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Content",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Content"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A document, program, image, etc.  (Categories are not content until they are written down.)"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:ContentExpression",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Content Expression"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Intellectual Property reduced to text, audio etc.  If it contains text (written or spoken), it may be in a language."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:ContingentEvent",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Contingent Event"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: An event with a probability of happening in the future, and usually dependent upon some other event or condition."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Fire insurance is contingent on a particular building burning down"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Sell 20 shares of stock in a given company when the price drops below $200/share."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The death benefit payout on a life insurance policy following the death of a specific person."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:ContingentObligation",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Contingent Obligation"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: An obligation that is not yet firm.  There is some contingent event, the occurrence of which will cause the obligation to become firm."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: A contingent obligation might have a getter counterparty (as in the case of insurance); but it might not (as in the case of an offer)."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Contract",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Contract"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: An Agreement which can be enforced by law"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:ContractTerm",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Contract Term"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A specification of some aspect of a contract."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:ControlledVocabulary",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Controlled Vocabulary"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A collection of terms approved and managed by some organization or person."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:CountryGeoRegion",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Country Geo-Region"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A defined geographical area (or areas) governed by exactly one country government."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:CountryGovernment",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Country Government"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A Government Organization which asserts both sovereignty (i.e., it is not governed by some other government organization) and governance over an entity generally recognized as a 'country'."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: While a country government may enter into treaties with other country governments, there are no governing relationships among the treaty members."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:DegreeOfCommitment",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Degree Of Commitment"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The difficulty of reversing a commitment."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A car rental typically has a lower degree of commitment than an airfare reservation."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Determination",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Determination"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: An event whose purpose is to establish a specific result, value, or outcome, usually by research, measuring, evaluating, or calculating."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Measuring the sulphur content of crude oil. Evaluating a loan application for approval. Estimating the price of gas for the next three months. Determining whether and by how much an interest rate should change. Classifying something."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Discipline",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Discipline"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: An area of study or practice, such as accounting."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Finance, accounting, project management, acoustics, ballistics, etc."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:ElectronicAddress",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Electronic Address"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "ALT: Virtual Address"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: An address referring to a locatable virtual place that does not physically exist but is made by software or electronics to appear to do so."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A path to a file in a file system, a website URL, an IP address, an email address, a mobile or landline telephone number."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:ElectronicAddressType",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Electronic Address Type"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A category indicating a kind of electronic address. Such a category is usually based on the technology that enables routing to the address referent."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: URL, file system path, email address, mobile telephone number."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Equipment",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Equipment"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Tangible property other than land or buildings.  Any kind of equipment, could be machine, router, car etc."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:EquipmentType",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Equipment Type"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Categories of equipment"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Event",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Event"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Something that occurs over a period of time, often characterized as an activity being carried out by some person, organization, or software application or brought about by natural forces."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A transaction, conference, baseball game, earthquake."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: An event does not necessarily have either planned or actual start or end datetimes. For example, a conference can be in the planning phase without any dates selected, but is nevertheless an (unscheduled) event. The subclasses of Event state particular restrictions on planned and actual start and end dates."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: An event occurs during a time interval, which is distinct from the event."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:EventSpecification",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Event Specification"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A characterization of an event that might happen."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: An insurance company defines the characteristics of a weather event that must be satisfied for it to qualify as a hail storm covered in its homeowner's policy. Defaulting on a loan."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This concept is useful for risk assessment and insurance policies."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:FormattedContent",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Formatted Content"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Content which is in a particular format. (E.g., HTML, PDF, JPG.)"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Function",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Function"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A function is what a specific made item is intended to do.  For instance: transmit electricity, provide ballast, control ambient temperature."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:GeneralMediaType",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "General Media Type"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The real-world media type for content."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Audio, still image, video, textual, physical (e.g., a statue), or performance (i.e. a play).  Or it could be oil or pastel for a painting."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:GeoPoint",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Geo Point"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: An individual point on the Earth's surface, identified by latitude, longitude and altitude. If altitude is missing, it is assumed to be at the Earth's surface.  However, altitude is measured from sea level.  these points are to the WGS-84 coordinate system using the GPS decimal lat/long"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Assume coordinate system used by Google (WGS 84 Web Mercator)."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:GeoRegion",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Geo Region"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A bounded region (or set of regions) on the surface of the Earth."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The bounded shape that defines the region occupied by Crater Lake; the bounded area known as the contiguous USA."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: A GeoRegion could be non-contiguous; e.g. the region governed by the USA is the region governed by the lower 48 states plus that of Alaska and Hawaii.  Child classes in lower ontologies can make this distinction."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:GeoRoute",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Geo Route"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: An ordered set of GeoPoints that defines a path from starting point to ending point."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:GeoSegment",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Geo Segment"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A single portion of a GeoRegion which has been divided (i.e., segmented)."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:GeoVolume",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Geo Volume"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A three-dimensional space on or near the surface of the Earth, such as an oil reservoir, the body of a lake, or an airspace."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:GovernedGeoRegion",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Governed Geo-Region"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A defined geographic area or areas governed by at least one government organization."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Geographic regions do not need not be physically contiguous in order to constitute a governed geo-region; e.g., Alaska and Hawaii."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:GovernmentOrganization",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Government Organization"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: An organization which exercises political and/or regulatory authority over a political unit, people, geo-region, etc., as well as performing certain functions for this unit or body. Differs from a corporation in that it cannot be owned."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The State of Washington Office of Financial Management; the Food and Drug Administration; the Scottish Parliament."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Includes administrative, regulatory, and enforcement organizations created or sanctioned by Country or SubCountry Governments."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:HistoricalEvent",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Historical Event"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: An event which occurred in time, with an actual end earlier than the present moment."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:ID",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "ID"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Content that is used to uniquely identify something or someone."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: SSN for a person; serial number for a product; employee ID."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This is used in conjunction with gist:isIdentifiedBy"
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:IntellectualProperty",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Intellectual Property"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A work, invention or concept, independent of its being expressed in text, audio, video, image, or live performance.  IP can also be tacit knowledge, know-how, or skill. Also includes Brands."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The Old Man and The Sea; the Page Rank algorithm; Coca Cola"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: For literature this could be called the ?Work?, except that ?work? is a highly overloaded term (expenditure of energy, resource consumption, art).  Often the first expression precedes our recognition of the IP, but subsequent expressions are known to be derivatives of the IP, even if they are expression-to-expression translations (or copies)."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Intention",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Intention"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Goal, desire, aspiration. This is the \"teleologic\" aspect of the system that indicates things are done with a purpose."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:IntergovernmentalOrganization",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Intergovernmental Organization"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: An organization whose members are government organizations. This can comprise regional, municipal, state/province, or national level entities."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The United Nations, the European Union, the MTA (Metropolitan Transit Authority)"
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Landmark",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Landmark"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Something permanently attached to the Earth."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Language",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Language"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A recognized, organized set of symbols and grammar."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Natural languages such as English and Spanish; computer languages such as OWL, Python, and XML."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:LivingThing",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Living Thing"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Something that is currently, or at some point in time was, alive."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A cat, a mushroom, a tree."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Negative examples: fictional life forms such as unicorns or Mickey Mouse."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Not all life forms have exactly two parents, so the restriction only specifies a minimum of one."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Magnitude",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Magnitude"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The amount of a measurable characteristic (aspect)."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A model of car could have a wheelbase of 113.2 inches. In this example, the aspect is wheelbase, the unit of measure is inch, and the numeric value is 113.2."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: An accuracy can be assigned to a magnitude using the property has accuracy."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:MediaType",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Media Type"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A digitized type that computer applications can recognize."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: application/sparql-results+xml"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: The unique text for an IANA media type is the concatenation of the 'Type name', a slash '/', and the 'Subtype name' as provided on the page displayed when you resolve the URI of the media type."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Medium",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Medium"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A physicality on which a work could be implemented or exposed. E.g., paper, clay, or a computer monitor."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Message",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Message"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A specific instance of content sent from a sender to at least one other recipient."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: An email message, a phone call, a voice message, or a Web Service message."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Network",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Network"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A network is a set of nodes connected by links."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A physical network could include connected computers or routers, whereas a social network would consist of related Person or Organization instances."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:NetworkLink",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Network Link"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: An abstract representation of the connection between two or more nodes in a network."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A network link may be physical, such as pipes, wired or wireless networks, but may also be a link in a non-physical network, such as organizational structures or social networks."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Each NetworkLink is connected to a NetworkNode via the property 'gist:links' or one of its subproperties."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:NetworkNode",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Network Node"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A node in a network."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A person is a node in a social network; a valve is a node in a network of pipes."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Obligation",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Obligation"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A future commitment from one organization or person to another. Contracts are sets of obligations to do or forbear, or to indemnify or warrant."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Obligations will often be governed by some Agreement or Offer."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Offer",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Offer"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A commitment to buy or sell a described or identified part or service."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:OrderedCollection",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Ordered Collection"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A collection in which the members are sequentially ordered. All members of an OrderedCollection are OrderedMembers."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Includes collections in which members occupy the same position in a 'tie.'"
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:OrderedMember",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Ordered Member"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A member of an ordered collection serving as a proxy for a real world item, which can appear in different orders in different collections. The ordered member appears in exactly one ordered collection."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A person may rank 12th in the Boston Marathon but 29th in the New York City Marathon."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: An ordered member points to the real world item via the providesOrderFor property. Ordering information is represented either as a number in a sequence, or by preceding or following another ordered member."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Organization",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Organization"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A generic organization that can be formal or informal, legal or non-legal. It can have members, or not."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Legal entities like companies; non-legal entities like clubs, committees, or departments."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: There are a plethora of different kinds of organizations that differ along many facets, including members, structure, purpose, legal vs. non-legal, etc."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Permission",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Permission"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A description of things one is permitted to do. This could be broad, such as free speech, but more often is very specific, such as the right of egress through a particular property."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Person",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Person"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A human being that may or may not still be alive."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Negative example:fictional characters."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:PhysicalActionType",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Physical Action Type"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The effects to be realized in the real world, such as lifting a garage door, turning off a valve, dropping cadmium rods, etc."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:PhysicalAddress",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Physical Address"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: An address that refers to a locatable place within the physical universe."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A street address, a PO box address."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:PhysicalAddressType",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Physical Address Type"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A category indicating local customary characterizations of physical addresses."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Street address, PO box, FPO code."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:PhysicalEvent",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Physical Event"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: An event that can be said to have occurred at some place in space."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A meeting, a car accident."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Negative examples: Excludes events that have no meaningful location, such as financial events or project milestones."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:PhysicalIdentifiableItem",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Physical Identifiable Item"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A discrete physical object which, if subdivided, will result in parts that are distinguishable in nature from the whole and in general also from the other parts."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A computer, book, car."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This concept generally corresponds to count nouns in English. By contrast, instances of PhysicalSubstance, such as an amount of water, flour, or sand, are mass nouns. PhysicalIdentifiableItems are made up of PhysicalSubstances; e.g., a cake is made up of butter, flour, and sugar; a statue is made of bronze. If you divide a PhysicalSubstance such as an amount of water into parts, you have two amounts of water otherwise indistinguishable from one another; if you divide a PhysicalIdentifiableItem such as a computer into parts, each part is different from the whole."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:PhysicalSubstance",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Physical Substance"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: An undifferentiated amount of physical material which, when subdivided, results in each part being indistinguishable in nature from the whole and from every other part."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: An amount of water, penicillin, sand, gold: an actual piece of gold, not the concept of gold."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: An instance of this class has weight and takes up space. We mean the physical gold in a ring, not the concept of gold that shows up in the periodic table."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This concept generally corresponds to mass nouns in English. By contrast, instances of PhysicalIdentifiableItem, such as a computer, book, or car, are count nouns. PhysicalIdentifiableItems are made up of PhysicalSubstances; e.g., a cake is made up of butter, flour, and sugar; a ring is made of gold. If you divide a PhysicalSubstance such as an amount of water into parts, you have different amounts of water otherwise indistinguishable from one another; if you divide a PhysicalIdentifiableItem such as a computer into parts, each part will be distinguishable from the original whole."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Place",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Place"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Union of all the geo classes"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:ProductCategory",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Product Category"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Any of many ways of categorizing products, including models, NATO product codes, and the like."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:ProductSpecification",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Product Specification"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Offering something which could be physically warehoused or digitally stored."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Project",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Project"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A task, usually of longer duration, made up of other tasks."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Designing an insurance product, adding a new feature to a software application, assessing the level of risk for a mortgage application."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:ReferenceValue",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Reference Value"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A measure that was neither measured nor estimated but set by fiat. For instance, a goal. There is no measurement associated with a reference value."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:RenderedContent",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Rendered Content"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Content which has been expressed, either to print, or through speakers, or on a monitor."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Requirement",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Requirement"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The obligation of a person or organization to behave in a certain way (e.g., drive on the right side of the road)."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Restriction",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Restriction"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A description of things one is prevented from doing.  Most laws are restrictions."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:ScheduledEvent",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Scheduled Event"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: An event with a planned start datetime."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: If the event already started, but has not yet ended, it is a contemporary event with an actual start datetime. If the event is over, it is a historical event having an actual end datetime. The event always retains its planned start datetime, and thus continues to be a scheduled event."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:ScheduledTask",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Scheduled Task"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A task with a planned start datetime."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: If work on the task has already started, but has not yet ended, it will have an actual start datetime. If the task is completed, it will also have an actual end datetime. The task always retains its planned start time, and thus continues to be a scheduled task."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:SchemaMetaData",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Schema Meta Data"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Superclass for all types of metadata, including owl concepts (such as class) and relational (tables, elements) and tool related (queries, R2RML maps etc etc)"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:ServiceSpecification",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Service Specification"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A description of something that can be done for a person or organization (which produces some form of an act)."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Specification",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Specification"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: One or more characteristics that specify what it means to be a particular type of thing, such as a material, product, service or event. A specification is sufficiently precise to allow evaluating conformance to the specification."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The specification of the iPhone 14; hypothetical events covered by a homeowner's insurance policy."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Although a characterization of how to do something is often called a specification, the intended meaning here is limited to specifying what something is. The focus is on the what, not the how. Use the TaskTemplate class for specifying the how, such as a plan or process specification."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:SubCountryGovernment",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Sub-Country Government"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A government of a governed geo-region other than a country, which is under the direct or indirect control of a country government."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Across the world, there are a variety of types of subsections of a country and the governments thereof (as well as different terms, like 'province' and 'state', which refer to essentially the same type of thing). We should not automatically assume 'state', 'county', and 'city'.  It is more future-proof just to mint the instances using the generic SubCountryGovernment and, where greater specificity is needed, define categories or subclasses."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Note that the predicate 'governs' is used both for the relationship a government has to a governed geo-region, and for the relationship one government has to the governments of its sub-regions."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This class applies only to organizations governing geo-regions. Regulatory and bureaucratic organizations are members of the more generic GovernmentOrganization class."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:System",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "System"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A system is an artifact with component parts where the parts contribute to the goal of the system"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Tag",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Tag"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A term in a folksonomy used to categorize things. Tags can be made up on the fly by users."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Whether to use gist:containedText or gist:uniqueText on tags is an implementation decision."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Task",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Task"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A piece of work that is either proposed, planned, scheduled, underway, or completed."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Something that could potentially be executed, which is merely described but not proposed in any specific way, such as a business process for onboarding a new employee, or the steps in a recipe for making polyethylene from ethylene, is not a task but rather a task template."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Use the property isBasedOn to link a Task back to the TaskTemplate."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:TaskTemplate",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Task Template"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: An outline of a task of a particular type, which is the basis for executing such tasks."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A business process for onboarding new employees."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: A task template may define a single activity or a series of activities; the level of granularity can be varied according to use case. For example, in a new employee onboarding process, signing up for benefits might be one activity, or it might be broken down into signing up for health insurance, signing up for dental insurance, etc."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Use the property isBasedOn to link the Task back to the TaskTemplate."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Taxonomy",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Taxonomy"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A controlled vocabulary arranged as a hierarchy of concepts."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Template",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Template"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Something used to make objects in its own image."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A die in manufacturing that is used to make stamped parts. "
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A form. A filled-in form has the structure of the form with data entered into some or all of the fields."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Cookie cutters are templates for cookies."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Use gist:isBasedOn to link the object made from the template back to the template."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:TemporalRelation",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Temporal Relation"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A relationship existing for a period of time."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: employs-Employment, hasAddress-EstablishedLocation. One important context for reifying a property."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: A temporal relation must have a minimum of two participants. For example, both the employer and the employee are participants in a temporal relation representing a period of employment."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Note that 'participant' does not imply agency; a non-sentient being can be participate in a temporal relation. For example, both a person and a house could be participants in a hypothetical relation 'lives at.'"
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Text",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Text"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Content expressed as words and numbers (not graphics)."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:TimeInterval",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Time Interval"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A span of time with a known start time, end time, and duration. As long as two of the three are known, the third can be inferred."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: 7pm to 9pm on Jan 1, 2001; fiscal year 2023 (according to some particular definition of fiscal year); the week starting at midnight of January 12, 2023 and lasting exactly 168 hours."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: An ongoing state of affairs with an unknown end time in the future cannot be a time interval; e.g. the lifespan of a living person cannot be a time interval, as the end time is unknown."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This is distinct from a duration, which describes how long a time interval lasts (e.g., one hour; 3 days; 22 minutes)."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:Transaction",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Transaction"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: An exchange or transfer of goods, services, or funds."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Different sorts of transactions can have different datetime precisions. For example, an electronic transaction would have a gist:actualEndMicrosecond."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:UnitGroup",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Unit Group"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A collection of units of measure that can all be used to measure the same aspects."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The units of measure bit, byte, kilobit, kilobyte, etc. are all in the same unit group because they can all be used to measure an amount of data."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Typically there is one unit group per aspect. An example of an aspect with two unit groups is vehicle efficiency, which can be measured by miles per gallon (distance per volume) or by liters per 100 kilometers (volume per distance). These two units of measure need to be in different unit groups because they have different values of exponents. When adding a unit of measure to a unit group, make sure it has the same exponents as the other members of the unit group."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:UnitOfMeasure",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Unit of Measure"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A standard amount used to measure or specify things."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: An acre is a unit for measuring area."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:accepts",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "accepts"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The types of input messages that will be allowed."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:actualEndDate",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "actual end date"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The actual date that something ended, with precision of one day."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: '2021-06-01T00:00:00-6:00'^^xsd:dateTime"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Used for things where the precision of a date is sufficient, such as most projects, tasks, and the like. Recommended usage is to zero out the hours through microseconds to avoid spurious precision."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:actualEndDateTime",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "actual end date time"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The actual date and time that something ended, with no implied precision."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This is an abstraction over the various precisions of actual end time, and is not expected to be asserted directly. Values of predicates with different precisions can be compared since they are all formally xsd:datetimes."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:actualEndMicrosecond",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "actual end microsecond"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The actual time that something ended, expressed as a system time used for timestamps."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: '2021-06-01T08:03:27.12324-6:00'^^xsd:dateTime"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: A system time will be as precise as the system can supply, typically at least milliseconds, sometimes microseconds. The convention for timestamps, such as recording a transaction, is to specify just the end point; the start time is rarely needed."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:actualEndMinute",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "actual end minute"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The actual date and time that something ended, with precision of one minute."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: '2021-06-01T08:32:00-6:00'^^xsd:dateTime"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Used for things like meetings and time card entries, where the hour and minute are important. Recommended usage is to zero out the seconds and microseconds to avoid spurious precision."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:actualEndYear",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "actual end year"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The actual date that something ended, with precision of one year."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: '2021-01-01T00:00:00-6:00'^^xsd:dateTime"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The tenure of the previous chairman of the board ended in 2021."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Used for things where the precision of a year is sufficient. Recommended usage is to zero out the hours through microseconds to avoid spurious precision. Note that it is not valid to zero out months and days, so arbitrary values must be included."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:actualStartDate",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "actual start date"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The actual date that something started, with precision of one day."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: '2021-06-01T00:00:00-6:00'^^xsd:dateTime"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Used for things where the precision of a date is sufficient, such as most projects, tasks, and the like. Recommended usage is to zero out the hours through microseconds to avoid spurious precision."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:actualStartDateTime",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "actual start date time"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The actual date and time that something started, with no implied precision."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This is an abstraction over the various precisions of actual start time, and is not expected to be asserted directly. Values of predicates with different precisions can be compared since they are all formally xsd:datetimes."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:actualStartMicrosecond",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "actual start microsecond"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The actual time that something started, expressed as a system time used for timestamps."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: '2021-06-01T08:03:27.12324-6:00'^^xsd:dateTime"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: A system time will be as precise as the system can supply, typically at least milliseconds, sometimes microseconds. The convention for timestamps, such as recording a transaction, is to specify just the end point; the start time is rarely needed. This property is defined for the cases when you do need to capture the runtime of a system process, and is then used in conjunction with gist:actualEndMicrosecond."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:actualStartMinute",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "actual start minute"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The actual date and time that something started, with precision of one minute."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: '2021-06-01T08:32:00-6:00'^^xsd:dateTime"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Used for things like meetings and time card entries, where the hour and minute are important. Recommended usage is to zero out the seconds and microseconds to avoid spurious precision."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:actualStartYear",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "actual start year"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The actual date that something started, with precision of one year."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: '2021-01-01T00:00:00-6:00'^^xsd:dateTime"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The tenure of the current chairman of the board began in 2021."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Used for things where the precision of a year is sufficient. Recommended usage is to zero out the hours through microseconds to avoid spurious precision. Note that it is not valid to zero out months and days, so arbitrary values must be included."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:allows",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "allows"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The intention (say a grant) allows a particular kind of activity (for instance egress)"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:atDateTime",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "at date time"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The date and time at which something did or will occur, with variants for precision, start and end, and actual vs. planned."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This is the top level property for asserting time, and is not expected to be asserted directly.\u000a\u000aThe subproperties allow the ontologist to do three things:\u000a1) Distinguish start and end times.\u000a2) Indicate whether a time is planned or actual. This is useful for everything from project management to calendar appointments and the like. It is also useful for date effectivities; i.e., something valid up to a planned date).\u000a3) Distinguish varying levels of precision; sort of a simple version of the Allen functions.\u000a\u000aAll datetimes are of the same format: '2021-06-01T08:03:27.12324-6:00'^^xsd:dateTime. This is compatible with and a subset of ISO 8601.\u000a\u000aTime zone offset, such as -6:00 (of which there are a few dozen) is recognized in the date itself, as shown. The actual time zone standard (of which there are 131) may optionally be attached to the event or other object itself.\u000a\u000aThere will be many historical dates that do not have a time zone offset (e.g., Lincoln's birthday, as well as about 75% of all legacy systems), and in that case the offset can be omitted.\u000a\u000aThe conventions for precision that are repeated in each property name are as follows:\u000a\u0009- *DateTime is an abstraction over the various precisions of its subproperties.\u000a\u0009- *Date refers to a calendar date (e.g., birthdays and invoice dates) and is assumed to have precision of one day. Time zone offset is allowed.\u000a\u0009- *Minute refers to clock time; e.g., a meeting will start at 9:15 with a timezone offset. Precision is assumed to have precision of one minute.\u000a\u0009- *Microsecond refers to system time, and it will be as precise as the system can supply; typically at least milliseconds, sometime microseconds.\u000a"
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:birthDate",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "birth date"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The date some living thing was or will be born, with precision of one day."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: '2021-06-01T00:00:00-6:00'^^xsd:dateTime"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This is a subproperty of gist:startDateTime rather than gist:actualStartDate because some living things have yet to be born. This property refers to a calendar date and is assumed to precision of one day (time zone offset is allowed). It is recommended to zero out the hours through microseconds to avoid spurious precision. Implementations requiring a birthdate to the minute can define a subproperty."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:comesFromAgent",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "comes from agent"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The party that is the source of something (e.g. a message, shipment, etc.)"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This is not the inverse of gist:goesToAgent. A message can be to someone. If we made it the inverse the person would be \"from\" the message"
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:comesFromPlace",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "comes from place"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Origin"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:conformsTo",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "conforms to"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The subject conforms to the Object, e.g. meet an obligation, meet terms of an offer, adhere to a specification"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:containedText",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "contained text"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A string that is closely associated with an individual."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The string associated with a tag."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The string associated with text content."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:contributesTo",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "contributes to"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The parts of a system contribute to the goal/ function of the whole system"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:conversionFactor",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "conversion factor"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A value that relates a unit of measure to units of the International System of Units. For example, in the equation 1 inch = 0.0254 meters, the value 0.0254 is the conversion factor of inch."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: To convert a numeric value from one unit of measure to another, multiply by the conversion factor of the first unit and then divide by the conversion factor of the second unit.\u000a\u000a\u0009For example, to convert 27 feet to yards:\u000a\u000a\u0009\u0009the conversion factor of foot is 0.3048\u000a\u0009\u0009the conversion factor of yard is 0.9144\u000a\u000a\u0009\u0009so\u000a\u000a\u0009\u000927 feet = (27 x 0.3048) / 0.9144 = 9 yards"
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:conversionOffset",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "conversion offset"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: \u000a\u0009\u0009A value used along with a conversion factor to relate a unit to its corresponding unit in the International System of Units. In the equation below, the conversion offset is 459.669607 and the conversion factor is 5/9.\u000a\u000a\u0009\u0009y degrees Fahrenheit = (y + 459.669607) x 5/9 degrees Kelvin\u000a\u000a\u0009\u0009To convert from Fahrenheit to Kelvin, first add the offset and then multiply by the conversion factor.\u000a\u000a\u0009\u0009To convert from Kelvin to Fahrenheit, reverse the steps: first divide by the conversion factor and then subtract the offset."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:deathDate",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "death date"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The date some living thing died."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: '2021-06-01T00:00:00-6:00'^^xsd:dateTime"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Refers to a calendar date and is assumed to have precision of one day (time zone offset is allowed). Recommended usage is to zero out the hours through microseconds to avoid spurious precision. Implementations requiring a death date to the minute can define a subproperty."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:description",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "description"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A statement about someone or something's attributes or characteristics."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The Empire State Building is a 102-story Art Deco skyscraper in Midtown Manhattan in New York City, United States. It was designed by Shreve, Lamb & Harmon and built from 1930 to 1931."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This property is used to provide a description of an individual in greater detail than a label."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:domainIncludes",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "domain includes"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates a property to a class that the property is expected to be used on."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The domain of the property gist:containedText includes gist:Tag and gist:Text."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: There may be multiple domainIncludes assertions on a single property."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This property is used to guide the ontology user; like all annotation properties, it does not play a role in inference."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:encryptedText",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "encrypted text"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Links to the string corresponding to EncryptedText"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:endDateTime",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "end date time"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The date and time that something ends."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This property is neutral along two dimensions: precision (e.g., day, second, millisecond) and actual vs. planned. As such, it will generally not be asserted directly except in special cases (e.g., for time intervals)."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Values of predicates with different precisions can be compared since they are all formally xsd:datetimes."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:exponentOfAmpere",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "exponent of ampere"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The exponent of ampere in a product of powers of base units."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: In the equation '1 milliampere = 0.001 x ampere'\u000a\u000a\u0009\u0009the conversionFactor for milliampere is 0.001\u000a\u0009\u0009the exponent of ampere is 1\u000a\u0009\u0009all other exponents are zero\u000a\u000a\u0009\u0009Every member of a unit group containing milliampere must be a multiple of ampere."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:exponentOfBit",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "exponent of bit"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The exponent of bit in a product of powers of base units."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: In the equation '1 megabit per second = 1000000 x bit per second'\u000a\u000a\u0009\u0009the conversion factor for megabit per second is 1000000\u000a\u0009\u0009the exponent of bit is 1\u000a\u0009\u0009the exponent of second is -1\u000a\u0009\u0009all other exponents are zero\u000a\u000a\u0009\u0009Every member of a unit group containing megabit per second must be a multiple of bit per second."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:exponentOfCandela",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "exponent of candela"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The exponent of candela in a product of powers of base units."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: In the equation '1 candlepower = 1 x candela'\u000a\u000a\u0009\u0009the conversion factor for candlepower is 1\u000a\u0009\u0009the exponent of candela is 1\u000a\u0009\u0009all other exponents are zero\u000a\u000a\u0009\u0009Every member of a unit group containing candlepower must be a multiple of candela."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:exponentOfKelvin",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "exponent of Kelvin"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The exponent of Kelvin in a product of powers of base units."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: In the equation 'y degrees Fahrenheit = (y + 459.6669607) x 5/9 degrees Kelvin'\u000a\u000a\u0009\u0009the conversion offset for degree Fahrenheit is 459.6669607\u000a\u0009\u0009the conversion factor for degree Fahrenheit is 5/9\u000a\u0009\u0009the exponent of Kelvin is 1\u000a\u0009\u0009all other exponents are zero\u000a\u000a\u0009\u0009Every member of a unit group containing degree Fahrenheit will have a similar equation, with different offset or conversion factor (or both)."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:exponentOfKilogram",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "exponent of kilogram"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The exponent of kilogram in a product of powers of base units."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: In the equation '1 millimole per gram = 1 x mole per kilogram'\u000a\u000a\u0009\u0009the conversion factor for millimole per gram is 1\u000a\u0009\u0009the exponent of mole is 1\u000a\u0009\u0009the exponent of kilogram is -1\u000a\u0009\u0009all other exponents are zero\u000a\u000a\u0009\u0009Every member of a unit group containing millimole per gram must be a multiple of mole per kilogram."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:exponentOfMeter",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "exponent of meter"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The exponent of meter in a product of powers of base units."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: In the equation '1 microgram per milliliter = 0.001 x kilogram per meterCubed'\u000a\u000a\u0009\u0009the conversion factor for microgram per milliliter is 0.001\u000a\u0009\u0009the exponent of kilogram is 1\u000a\u0009\u0009the exponent of meter is -3\u000a\u0009\u0009all other exponents are zero\u000a\u000a\u0009\u0009Every member of a unit group containing microgram per milliliter must be a multiple of kilogram per meterCubed."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:exponentOfMole",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "exponent of mole"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The exponent of mole in a product of powers of base units."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: In the equation '1 katal = 1 x mole per second'\u000a\u000a\u0009\u0009the conversion factor for katal is 1\u000a\u0009\u0009the exponent of mole is 1\u000a\u0009\u0009the exponent of second is -1\u000a\u0009\u0009all other exponents are zero\u000a\u000a\u0009\u0009Every member of a unit group containing katal must be a multiple of mole per second."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:exponentOfNumber",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "exponent of number"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The exponent of number in a product of powers of base units."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: In the equation '1 beat per minute = 0.016667 x number per second'\u000a\u000a\u0009\u0009the conversion factor for beat per minute is 0.016667\u000a\u0009\u0009the exponent of number is 1\u000a\u0009\u0009the exponent of second is -1\u000a\u0009\u0009all other exponents are zero\u000a\u000a\u0009\u0009Every member of a unit group containing beat per minute must be a multiple of number per second."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Use when the unit of measure involves a count or other number."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:exponentOfOther",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "exponent of other"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Indicates whether a unit of measure can be expressed in terms of the standard exponents (as shown in the examples)."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Decibel, pH, and octave are units of measure that are logarithmic. Their unit groups have exponent of other = 1."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Set the value to 0 if the units of measure in the unit group can be expressed using the standard set of exponents (as in the examples).\u000a\u000a\u0009\u0009Otherwise set the value to 1, which typically means the units of measure in the group use a logarithmic scale."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:exponentOfRadian",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "exponent of radian"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The exponent of radian in a product of powers of base units."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: In the equation '1 revolution = 6.283 x radian'\u000a\u000a\u0009\u0009the conversion factor for revolution is 6.283\u000a\u0009\u0009the exponent of radian is 1\u000a\u0009\u0009all other exponents are zero\u000a\u000a\u0009\u0009Every member of a unit group containing revolution must be a multiple of radian."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:exponentOfSecond",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "exponent of second"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The exponent of second in a product of powers of base units."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: In the equation '1 watt-hour = 3600 x kilogram meterSquared per secondSquared'\u000a\u000a\u0009\u0009the conversion factor for watt-hour is 3600\u000a\u0009\u0009the exponent of kilogram is 1\u000a\u0009\u0009the exponent of meter is 2\u000a\u0009\u0009the exponent of second is -2\u000a\u0009\u0009all other exponents are zero\u000a\u000a\u0009\u0009Every member of a unit group containing watt-hour must be a multiple of kilogram meterSquared per secondSquared."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:exponentOfSteradian",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "exponent of steradian"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The exponent of steradian in a product of powers of base units."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: In the equation '1 watt per square meter steradian = 1 x kilogram per secondCubed steradian'\u000a\u000a\u0009\u0009the conversion factor for watt per square meter steradian is 1\u000a\u0009\u0009the exponent of kilogram is 1\u000a\u0009\u0009the exponent of second is -3\u000a\u0009\u0009the exponent of steradian is -1\u000a\u0009\u0009all other exponents are zero\u000a\u000a\u0009\u0009Every member of a unit group containing watt per square meter steradian must a multiple of kilogram per secondCubed steradian."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Steradian is a measure of solid angle."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:exponentOfUSDollar",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "exponent of US dollar"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The exponent of US Dollar in a product of powers of base units."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: In the equation '1 million dollars per week = 1.65344 x dollar per second'\u000a\u000a\u0009\u0009the conversion factor for million dollars per week is 1.65344\u000a\u0009\u0009the exponent of US Dollar is 1\u000a\u0009\u0009the exponent of second is -1\u000a\u0009\u0009all other exponents are zero\u000a\u000a\u0009\u0009Every member of a unit group containing million dollars per week must be a multiple of dollar per second."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: The factors for converting from one currency to another change constantly."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:goesToAgent",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "goes to agent"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The party that is the recipient of something (e.g. a message, shipment, etc.)"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This is not the inverse of gist:comesFromAgent. A message can be from someone. If we made it the inverse the person would be \"to\" the message"
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:goesToPlace",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "goes to place"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Destination"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasAccuracy",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has accuracy"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates a magnitude to the accuracy of its numeric value."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Temperature accurate to tenth of a degree C; length accurate to the nearest centimeter."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: A typical way to use accuracy is to have it represent 2 standard deviations of the distribution of measurement errors. With this convention, when the measurement method is well-calibrated (has an average error of zero) and its errors have a normal distribution, there is a 95% chance that the actual error in measurement, in either direction, is less than the accuracy.\u000a\u000aNote that the unit of measure of the accuracy has to be compatible with the unit of measure of the original magnitude (e.g. something measured in meters could have a accuracy in terms of millimeters or any other unit that measures distance)."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasAddend",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has addend"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates an aspect to another aspect that is an additive component of it."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: In the equation 'profit = revenue - expenses', revenue is an addend and expenses is a subtrahend."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Commonly used with financial metrics."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasAddress",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has address"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates something to its physical or electronic address."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A brick-and-mortar store has a street address. A person can be contacted electronically via an email address."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasAspect",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has aspect"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Relates a magnitude to its aspect (measurable characteristic)."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasBiologicalParent",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has biological parent"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Relates a living thing to its biological parent."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasBroader",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has broader"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates a thing to another thing with a broader meaning."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The aspect distance is broader than the aspect height."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasDirectBroader",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has direct broader"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates a thing to another thing with a broader meaning, when there is no intermediate between them."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Unlike gist:hasBroader, this property is not transitive. It is safest to use this property when semantic directness is inherent in the relationship. Otherwise, there is a risk of making a hasDirectBroader assertion and then later inserting an intermediate part; this will result in making an asserted triple false even though there was no change in the world. When in doubt, use the transitive version gist:hasBroader."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasDivisor",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has divisor"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates a unit of measure to another unit of measure that is a divisor, or relates an aspect to another aspect that is a divisor."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Miles per hour has miles as a multiplier and hour as a divisor."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Speed has distance as a multiplier and duration as a divisor."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Provides a supplemental method of decomposing a unit of measure or an aspect into component factors. Enables dimensional analysis such as miles per hour x hours = miles."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasGiver",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has giver"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The active party, the one with the obligation or the one initiating the transfer"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasGoal",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has goal"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The reason for doing something"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasIncumbent",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has incumbent"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: What equipment or person is currently in this node.  Note to create a temporal view make a TemporalRelation for this property"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasMagnitude",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has magnitude"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates a thing to a magnitude."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A car or a model of car has a magnitude for length, one for width, one for weight, etc."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasMultiplier",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has multiplier"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates a unit of measure to another unit of measure that is a factor, or relates an aspect to another aspect that is a factor."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Miles per hour has miles as a multiplier and hour as a divisor."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Speed has distance as a multiplier and duration as a divisor."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Provides a supplemental method of decomposing a unit of measure or aspect into component factors. Enables dimensional analysis such as miles per hour x hours = miles."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasNavigationalParent",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has navigational parent"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates a child category to a parent category in an informal (e.g., faceted) hierarchy."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Refrigerator handles are not refrigerators, but it may be useful to represent their relationship hierarchically for a faceted UI filter."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasParticipant",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has participant"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates something (e.g. an agreement) to things that play a role, or take part or are otherwise involved in some way."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: An event of transferring money has a participating account that receives the money."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: The thing with participants will often be an agreement, event or obligation. Participation does not imply agency."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This will most often be used as an abstract property. Use subproperties that indicate the nature of the participation (e.g. hasBorrower, hasVenue)."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasParty",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has party"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The people or organizations participating in an event, agreement or obligation"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: For loan agreements, one might create hasLender and hasBorrower as subproperties of hasParty."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasPhysicalLocation",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has physical location"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates something to its physical location."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This property does not distinguish between things whose locations are stable and those whose locations change over time; e.g., a fire hydrant vs. a car."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasRecipient",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has recipient"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The recipient"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasSubtrahend",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has subtrahend"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates an aspect to another aspect that is a subtracted component of it."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: In the equation 'profit = revenue - expenses', revenue is an addend and expenses is a subtrahend."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Commonly used with financial metrics."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasUniqueBroader",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has unique broader"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Relates a thing to a unique other thing with a broader meaning."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasUniqueNavigationalParent",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has unique navigational parent"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Relates a subject category to a unique parent category in an informal (e.g., faceted) hierarchy."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasUnitGroup",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has unit group"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates an aspect to a unit group. The aspect can be measured using any of the members of the unit group."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The aspect distance can have a unit group that includes the units meter, inch, foot, etc."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:hasUnitOfMeasure",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "has unit of measure"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates a magnitude to a unit of measure."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The magnitude 87 inches of height has unit of measure inches."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:idText",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "id text"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates an individual to a text string that identifies it."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The id text for a car is '4Y1SL65848Z411439'"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The id text for the HR department for Company X is H31415"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: A common use case would be for pre-existing internal company identifiers."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Often, there will be just one identifying text string. More would be appropriate if the individual had different identifiers, such as employee number and social security number. A good way to model that would be to have functional subproperties of idText, such as departmentNumber."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This property is an alternative to using the property isIdentifiedBy in conjunction with instances of the class ID."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isAbout",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is about"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Subject matter of a document."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isAffectedBy",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is affected by"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Where the effect came from"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isAllocatedBy",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is allocated by"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates the subject to whomever or whatever assigns or distributes it."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A U.S. Social Security number is allocated by the U.S. Social Security Administration. The media type https://www.iana.org/assignments/media-types/text/csv is allocated by the Internet Assigned Numbers Authority (IANA)."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: The allocator may be a person, organization, or automated process."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isBasedOn",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is based on"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The Object is a foundation for, a starting point for, gave rise to or justifies the Subject"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A document is based on a document template. A metric computing the average income of a population is based on the metric for individual income."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isCategorizedBy",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is categorized by"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Points to a taxonomy item or other less formally defined class."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isConnectedTo",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is connected to"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: A non-owning, non-causal, non-subordinate (i.e., peer-to-peer) relationship."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isDirectPartOf",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is direct part of"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The relationship between a part and a whole where the part has independent existence and there are no other parts in between."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Because the part has independent existence, there is no cascading delete."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: It is safest to use this property when semantic directness is inherent in the relationship, rather than simply expressing a chosen granularity. For example, a spark plug is a direct part of an engine block; there cannot be any intermediate parts. Otherwise, there is a risk of making an isDirectPartOf assertion and then later inserting an intermediate part; this will result in making an asserted triple false even though there was no change in the world. When in doubt, use the transitive version gist:isPartOf."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isExpressedIn",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is expressed in"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The language something was expressed in"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isFirstMemberOf",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is first member of"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates the first member of an ordered collection to the collection."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Given the Open World Assumption, the absence of a predecessor does not entail that an ordered member is the first member of an ordered collection. This property is used to explicitly indicate the first member. Since ordered collections need not be strictly ordered, there can be more than one first member."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isGeoContainedIn",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is geographically contained in"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Relates one place to another that contains it."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isGovernedBy",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is governed by"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates a thing governed to the governor."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A country geo-region is governed by a country government."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isIdentifiedBy",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is identified by"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: This is like a URI: a thing can have more than one ID, but each of the IDs must refer to a unique thing."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isMadeUpOf",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is made up of"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates something to a substance that it is made up of."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The vase is made up of clay. Water is made up of hydrogen and oxygen."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isMemberOf",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is member of"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Relates a member individual to the thing, such as a collection or organization, that it is a member of."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isPartOf",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is part of"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The relationship between a part and a whole where the part has independent existence."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Because the part has independent existence, there is no cascading delete."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: The transitive version of gist:isDirectPartOf."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isRecognizedBy",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is recognized by"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates something to a party that formally acknowledges its existence, validity, or legality."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The existence of a particular company is recognized by the state."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isRecordedAt",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is recorded at"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Date that something was posted, not necessarily the date it occurred. Must be after the date of occurrence, but could be before or after the planned date. (Unusual, but I could record today that I expected to be paid last week.)"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Precision may vary according to context."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isRenderedOn",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is rendered on"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: What media something was rendered On"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isSupersededBy",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is superseded by"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates a deprecated term to a term that replaces it, which is either an exact (in the case of simple renaming) or approximate (in the case of renaming and some semantic change) semantic match."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: gist:connectedTo gist:isSupersededBy gist:isConnectedTo (renaming with no semantic change)."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isTriggeredBy",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is triggered by"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates a contingency, such as an event or obligation, to the event that gives rise to it."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Fire insurance is contingent on a particular building burning down"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The death benefit payout on a life insurance policy following the death of a specific person."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: For obligations, this property describes what must happen to trigger the contingent obligation. Other uses include controls, processes, etc."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:isUnderJurisdictionOf",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "is under jurisdiction of"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Relates a law, contract, etc., to the system of law or government which has the power, right, or authority to interpret and apply it."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:latitude",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "latitude"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Degrees above or below equator"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:license",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "license"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: An annotation for providing the licensing on this or derivative ontologies"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:links",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "links"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Relates a NetworkLink to a NetworkNode that it connects to another node. Used when the connections are undirected, or the direction is not known."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:linksFrom",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "links from"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Relates a NetworkLink to its origin NetworkNode. Unlike the superproperty, this represents a directed connection."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:linksTo",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "links to"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Relates a NetworkLink to its destination NetworkNode. Unlike the superproperty, this represents a directed connection."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:longitude",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "longitude"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Degrees from GM"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:name",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "name"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Relates an individual to (one of) its name(s)."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:numericValue",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "numeric value"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The actual value of a magnitude."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:occursIn",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "occurs in"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The geospatial place where something happened or will happen"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:offers",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "offers"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates something to a thing that is being made available for acceptance or rejection."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: An instance of gist:Offer offers a specific product at a particular price; a company offers an employee benefit; Honda offers vehicles for sale."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:owns",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "owns"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Possessing and controlling.  Ultimate form of ownership is the right to destroy.  Long list of potential Range classes"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:plannedEndDate",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "planned end date"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The date that something is or was planned to end, with precision of one day."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: '2021-06-01T00:00:00-6:00'^^xsd:dateTime"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Used for anything with a planned end date, such as when a lease will expire, when an offer is no longer available, etc. Typically a planned date is in the future when first captured, but when tasks run late, we leave the plan where it was and compare it to the actual. Recommended usage is to zero out the hours through microseconds to avoid spurious precision."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:plannedEndDateTime",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "planned end date time"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The date that something is or was planned to end, with no implied precision."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This is an abstraction over the various precisions of planned end time, and is not expected to be asserted directly. Values of predicates with different precisions can be compared since they are all formally xsd:datetimes."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This property, unlike gist:actualEndDateTime, does not have a subproperty for microsecond precision, because planned times typically are not expressed at that level of granularity. Typically a planned date is in the future when first captured, but when tasks run late, we leave the plan where it was and compare it to the actual."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:plannedEndMinute",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "planned end minute"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The date and time that something is or was planned to end, with precision of one minute."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: '2021-06-01T08:32:00-6:00'^^xsd:dateTime"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Used for things like meetings and time card entries, where the hour and minute are important. Recommended usage is to zero out the seconds and microseconds to avoid spurious precision.Typically a planned date is in the future when first captured, but when tasks run late, we leave the plan where it was and compare it to the actual."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:plannedEndYear",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "planned end year"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The date that something is or was planned to end, with precision of one year."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: '2021-01-01T00:00:00-6:00'^^xsd:dateTime"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The automobile manufacturer announced that it will stop producing gas-powered vehicles in 2035."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Used for anything with a planned end date where precision of one year is sufficient. Typically a planned date is in the future when first captured, but when tasks run late, we leave the plan where it was and compare it to the actual. Recommended usage is to zero out the hours through microseconds to avoid spurious precision. Note that it is not valid to zero out months and days, so arbitrary values must be included."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:plannedStartDate",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "planned start date"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The date that something is or was planned to start, with precision of one day."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: '2021-06-01T00:00:00-6:00'^^xsd:dateTime"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Used for anything with a planned start date, such as when a lease will start, when a configuration becomes available, etc. Typically a planned date is in the future when first captured, but when tasks run late, we leave the plan where it was and compare it to the actual. Recommended usage is to zero out the hours through microseconds to avoid spurious precision."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:plannedStartDateTime",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "planned start date time"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The date and time that something is or was planned to start, with no implied precision."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This is an abstraction over the various precisions of planned start time, and is not expected to be asserted directly. Values of predicates with different precisions can be compared since they are all formally xsd:datetimes."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This property, unlike gist:actualStartDateTime, does not have a subproperty for microsecond precision, because planned times typically are not expressed at that level of granularity. Typically a planned date is in the future when first captured, but when tasks run late, we leave the plan where it was and compare it to the actual."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:plannedStartMinute",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "planned start minute"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The date and time that something is or was planned to start, with precision of one minute."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: '2021-06-01T08:32:00-6:00'^^xsd:dateTime"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Used for things like meetings and time card entries, where the hour and minute are important. Typically a planned date is in the future when first captured, but when tasks run late, we leave the plan where it was and compare it to the actual. Recommended usage is to zero out the seconds and microseconds to avoid spurious precision."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:plannedStartYear",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "planned start year"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The date that something is or was planned to start, with precision of one year."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: '2021-01-01T00:00:00-6:00'^^xsd:dateTime"
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The automobile manufacturer announced that its full line-up will include only electric cars starting in 2035."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Used for anything with a planned start date where precision of one year is sufficient. Typically a planned date is in the future when first captured, but when tasks run late, we leave the plan where it was and compare it to the actual. Recommended usage is to zero out the hours through microseconds to avoid spurious precision. Note that it is not valid to zero out months and days, so arbitrary values must be included."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:precedes",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "precedes"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A generic ordering relation indicating that the subject comes before the object."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: The less-than symbol is often used to represent this relation."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This is the transitive version of gist:precedesDirectly."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Typically this predicate would be used asymmetricallly and irreflexively, but the ontology does not formalize this."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:precedesDirectly",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "precedes directly"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A generic ordering relation indicating that the subject comes immediately before the object."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: If two items in an ordered collection share the same position, they both directly precede the following element."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: It is safest to use this property only when the directness has a semantic correspondence with the world. Only break a direct link by inserting an intermediate item when that change corresponds to a change in the world."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Typically this predicate would be used asymmetricallly and irreflexively, but the ontology does not formalize this."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:prevents",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "prevents"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: The intention (say a law) is intended to prevent this kind of behavior (say jay-walking)"
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:produces",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "produces"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The subject creates the object."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: A task produces a deliverable."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:providesOrderFor",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "provides order for"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Links a member of an ordered collection to the real-world item it represents in that collection."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:rangeIncludes",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "range includes"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Relates a property to a class that is an expected type of its values."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The range of the property gist:isCategorizedBy includes gist:Category."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: There may be multiple rangeIncludes assertions on a single property."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This property is used to guide the ontology user; like all annotation properties, it does not play a role in inference."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:refersTo",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "refers to"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Relates something to another resource that it points to, indicates, or references."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:requires",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "requires"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The subject needs the object or makes it necessary, mandatory, or compulsory."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: Humans require air; solar power requires sunshine."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This predicate is defined generally enough to encompass a few different meanings of the English word 'requires':\u000a\u000a\u0009\u00091. To need something or to make something necessary.\u000a\u0009\u00092. To order or demand something, or to order someone to do something, especially because of a rule or law.\u000a\u0009\u00093. To make it officially necessary for someone to do something.\u000a\u000a\u0009Implementations requiring a more specific meaning should define subproperties."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:sequence",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "sequence"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: For ordering ordered lists."
+		},
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:startDateTime",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "start date time"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The date and time that something starts."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: This property is neutral along two dimensions: precision (e.g., day, second, millisecond) and actual vs. planned. As such, it will generally not be asserted directly except in special cases (e.g., for time intervals)."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Values of predicates with different precisions can be compared since they are all formally xsd:datetimes."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:symbol",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "symbol"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: A symbol for something using only ASCII characters."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The ASCII symbol for square meter is m^2."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "gist:uniqueText",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "unique text"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: The unique string value of some content object, to be used when there is no possibility of having more than one value."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "EXAMPLE: The unique string for a vehicle identification number."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: Note that the uniqueness only goes in one direction: a product catalog number might also be an employee ID."
+			}
+			
+		],
+		"@context" : {
+			"gist" : "https://w3id.org/semanticarts/ns/ontology/gist/",
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://w3id.org/semanticarts/ontology/gistCore",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "gist"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: gist is a minimalist upper ontology created by Semantic Arts."
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://w3id.org/semanticarts/ontology/gistMediaTypes",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "gist Media Types"
+		},
+		"rdfs:comment" : {
+			"@type" : "xsd:string",
+			"@value" : "DEFINITION: Definitions of IANA Media Types."
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://w3id.org/semanticarts/ontology/gistPrefixDeclarations",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "gist Prefix Declarations"
+		},
+		"rdfs:comment" : [
+			{
+				"@type" : "xsd:string",
+				"@value" : "DEFINITION: Defines prefix declarations, which pair a prefix with a namespace, used in the gist ontology."
+			},
+			{
+				"@type" : "xsd:string",
+				"@value" : "NOTE: These prefixes are provided to support applications such as visualizers. Note that importing this file breaks OWL 2 DL conformance because SHACL is not an OWL ontology."
+			}
+			
+		],
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://www.iana.org/assignments/media-types/application/json",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "JSON"
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://www.iana.org/assignments/media-types/application/ld+json",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "JSON-LD"
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://www.iana.org/assignments/media-types/application/n-quads",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "N-Quads"
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://www.iana.org/assignments/media-types/application/n-triples",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "N-Triples"
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://www.iana.org/assignments/media-types/application/rdf+xml",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "RDF/XML"
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://www.iana.org/assignments/media-types/application/sparql-results+json",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "SPARQL 1.1 Query Results JSON"
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://www.iana.org/assignments/media-types/application/sparql-results+xml",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "SPARQL 1.1 Query Results XML"
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://www.iana.org/assignments/media-types/application/trig",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "TriG"
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://www.iana.org/assignments/media-types/text/csv",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "CSV"
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://www.iana.org/assignments/media-types/text/html",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "HTML"
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://www.iana.org/assignments/media-types/text/plain",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Plain Text"
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	{
+		"@id" : "https://www.iana.org/assignments/media-types/text/turtle",
+		"rdfs:label" : {
+			"@type" : "xsd:string",
+			"@value" : "Turtle"
+		},
+		"@context" : {
+			"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	}
+]
