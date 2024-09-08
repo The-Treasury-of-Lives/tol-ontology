@@ -59,11 +59,10 @@ tolo:RegionType
 
 tolo:caption
 	a owl:DatatypeProperty ;
-	rdfs:domain tolo:Image ;
+	rdfs:domain gist:FormattedContent ;
 	rdfs:range xsd:string ;
 	skos:definition "A short piece of text under an image that describes or explains it."@en ;
-	skos:editorialNote "Should this go in the admin or display ontology? Is it an annotation property?"@en ;
-	skos:prefLabel "credit"@en ;
+	skos:prefLabel "caption"@en ;
 	.
 
 tolo:coordinates
@@ -71,15 +70,6 @@ tolo:coordinates
 	rdfs:range xsd:string ;
 	skos:definition "Coordinates for map display. This is an unparsed, comma-delimited series of four coordinates that is used as input to a JavaScript program."@en ;
 	skos:prefLabel "coordinates"@en ;
-	.
-
-tolo:credit
-	a owl:DatatypeProperty ;
-	rdfs:domain tolo:Image ;
-	rdfs:range xsd:string ;
-	skos:definition "A note acknowledging the source of an image."@en ;
-	skos:editorialNote "Should this go in the admin or display ontology? Is it an annotation property?"@en ;
-	skos:prefLabel "credit"@en ;
 	.
 
 tolo:displayLabel

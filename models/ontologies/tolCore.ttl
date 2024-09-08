@@ -18,10 +18,7 @@
 	owl:imports <https://w3id.org/semanticarts/ontology/gistCore12.1.0> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, facilitate the consumption of external RDF, and to to enhance the narrative text with structured data."@en ;
-	skos:editoralNote
-		"Add rdfs:isDefinedBy using onto-toolkit."@en ,
-		"Combining all terms into one module for now; may break up into separate modules later. E.g., mapping priorities, timestamps, and display properties could go into a metadata ontology, but there is sometimes a fine line between data and metadata (e.g., is an image credit or a link to an external website data or metadata?)."@en
-		;
+	skos:editoralNote "Add rdfs:isDefinedBy using onto-toolkit."@en ;
 	skos:editorialNote """
 		Temporarily removing imports:
 			<http://id.loc.gov/ontologies/bibframe-2-1-0> ,
@@ -134,7 +131,6 @@ tolo:Birth
 		]
 		;
 	skos:definition "TBD"@en ;
-	skos:editorialNote "Can deities have birth and death? We may need to loosen the restriction."@en ;
 	skos:prefLabel "Birth"@en ;
 	.
 
@@ -854,9 +850,39 @@ tolo:birthFamilyName
 tolo:creationDate
 	a owl:DatatypeProperty ;
 	rdfs:subClassOf gist:atDateTime ;
-	skos:definition "The date an image was created, with day precision."@en ;
+	skos:definition "The date something was created, with day precision."@en ;
 	skos:prefLabel "creation date"@en ;
 	skos:scopeNote "Differs from the timestamp when the image metadata was entered into the database."@en ;
+	gist:domainIncludes
+		gist:Content ,
+		gist:IntellectualProperty
+		;
+	.
+
+tolo:credit
+	a owl:DatatypeProperty ;
+	rdfs:domain gist:FormattedContent ;
+	rdfs:range xsd:string ;
+	skos:definition "A note acknowledging the source of an image."@en ;
+	skos:editorialNote "Should this go in the admin or display ontology?"@en ;
+	skos:prefLabel "credit"@en ;
+	skos:scopeNote "Note that the credit applies to the image file, not the original work of art it depicts."@en ;
+	.
+
+tolo:depicts
+	a owl:ObjectProperty ;
+	skos:definition "Relates an image or work of art such as a painting or sculpture to an object it represents."@en ;
+	skos:example "The painting identified as HAR 65789 depicts Sachen Kunga Nyingpo; the ivory sculpture identified as HAR 65232 depicts Lhachok Sengge."@en ;
+	skos:prefLabel "depicts"@en ;
+	skos:scopeNote
+		"Image files as well as the works themselves can serve as the subject of this property. E.g., a specific JPG file depicts the HAR 65789 painting; that painting depicts Sachen Kunga Nyingpo. Indirectly we can say that the file depicts the person, though it is not currently clear that the relationship is always transitive."@en ,
+		"The object depicted does not have to be a concrete, physical thing; it could be an abstract concept, or an artwork may depict nothing."@en ,
+		"This property typically applies to visual representation, as opposed to gist:isAbout, which applies to textual description or representation."@en
+		;
+	gist:domainIncludes
+		gist:FormattedContent ,
+		gist:IntellectualProperty
+		;
 	.
 
 tolo:dissolutionYear
@@ -1205,6 +1231,16 @@ tolo:isBranchOf
 	skos:scopeNote "Differs from the tolo:isDerivedFrom relationship between monasteries, which is used for monasteries in exile."@en ;
 	gist:domainIncludes tolo:Monastery ;
 	gist:rangeIncludes tolo:Monastery ;
+	.
+
+tolo:isCreatedBy
+	a owl:ObjectProperty ;
+	skos:definition "Relates a man-made object to a person who created it."@en ;
+	skos:prefLabel "is created by"@en ;
+	gist:domainIncludes
+		gist:Content ,
+		gist:IntellectualProperty
+		;
 	.
 
 tolo:isDerivedFrom

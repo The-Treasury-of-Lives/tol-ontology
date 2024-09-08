@@ -1,0 +1,47 @@
+# imports: https://w3id.org/semanticarts/ontology/gistCore12.1.0
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/treasuryoflives/taxonomy/tolAddressUsageTypes>
+	a owl:Ontology ;
+	owl:imports <https://w3id.org/semanticarts/ontology/gistCore12.1.0> ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolAddressUsageTypesX.x.x> ;
+	skos:definition "Defines categories of address usage."@en ;
+	skos:editorialNote
+		"Hand-curated."@en ,
+		"This is using gist13 concepts!"@en
+		;
+	skos:prefLabel "Address Usage Types"@en ;
+	.
+
+tolx:_AddressUsageType_admin_contact
+	a gist:AddressUsageType ;
+	skos:definition "An administrative contact email address."@en ;
+	skos:prefLabel "Admin Contact"@en ;
+	.
+
+tolx:_AddressUsageType_reference
+	a gist:AddressUsageType ;
+	skos:definition "A URL to an online resource providing additional information; may be the object of rdfs:seeAlso."@en ;
+	skos:prefLabel "Reference"@en ;
+	.
+
+tolx:_AddressUsageType_source
+	a gist:AddressUsageType ;
+	skos:definition "A URL indicating the online source of an image or other content."@en ;
+	skos:prefLabel "Source"@en ;
+	.
+
