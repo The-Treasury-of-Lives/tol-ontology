@@ -151,7 +151,6 @@ tolo:fileName
 	rdfs:domain gist:FormattedContent ;
 	rdfs:range xsd:string ;
 	skos:definition "The name of a file."@en ;
-	skos:editoralNote "Not sure we need this - could just use gist:name. Seems like a special case,though; e.g., can be parsed into stem and extension."@en ;
 	skos:prefLabel "file name"@en ;
 	skos:scopeNote "Use tolo:filePath for full paths."@en ;
 	.
