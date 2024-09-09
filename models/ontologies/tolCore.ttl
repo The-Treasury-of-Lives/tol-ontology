@@ -838,7 +838,7 @@ tolo:creationDate
 
 tolo:credit
 	a owl:DatatypeProperty ;
-	rdfs:domain gist:FormattedContent ;
+	rdfs:domain tolo:Image ;
 	rdfs:range xsd:string ;
 	skos:definition "A note acknowledging the source of an image."@en ;
 	skos:editorialNote "Should this go in the admin or display ontology?"@en ;
