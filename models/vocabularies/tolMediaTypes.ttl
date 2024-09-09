@@ -20,13 +20,13 @@
 
 media-image:jpg
 	a gist:MediaType ;
-	skos:prefLabel
-		"JPG"@en ,
-		"PNG"@en
-		;
-	gist:uniqueText
-		"image/jpg"@en ,
-		"image/png"@en
-		;
+	skos:prefLabel "JPG"@en ;
+	gist:uniqueText "image/jpg"@en ;
+	.
+
+media-image:png
+	a gist:MediaType ;
+	skos:prefLabel "PNG"@en ;
+	gist:uniqueText "image/png"@en ;
 	.
 
