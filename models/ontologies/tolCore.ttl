@@ -207,6 +207,14 @@ tolo:IdType
 	skos:scopeNote "The ID type is used to construct links by specifying a URL fragment to combine with the identifier to form a URL and a display label to use as link text."@en ;
 	.
 
+tolo:Image
+	a owl:Class ;
+	rdfs:subClassOf gist:FormattedContent ;
+	skos:definition "A formatted content object with an image media type."@en ;
+	skos:editorialNote "Not limiting to specific media types such as jpg and png in case others are added."@en ;
+	skos:prefLabel "Image"@en ;
+	.
+
 tolo:Incarnation
 	a owl:Class ;
 	rdfs:subClassOf
@@ -731,6 +739,7 @@ tolo:Vocation
 tolo:Website
 	a owl:Class ;
 	rdfs:subClassOf
+		gist:Collection ,
 		gist:Content ,
 		gist:Network
 		;
