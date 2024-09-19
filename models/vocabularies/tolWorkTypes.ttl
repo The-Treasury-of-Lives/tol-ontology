@@ -25,77 +25,77 @@
 	.
 
 tolx:_WorkType_block_print
-	a gist:WorkType ;
+	a tolo:WorkType ;
 	skos:prefLabel "Block Print"@en ;
 	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_document
-	a gist:WorkType ;
+	a tolo:WorkType ;
 	skos:prefLabel "Document"@en ;
 	.
 
 tolx:_WorkType_image
-	a gist:WorkType ;
+	a tolo:WorkType ;
 	skos:prefLabel "Image"@en ;
 	.
 
 tolx:_WorkType_initiation_card
-	a gist:WorkType ;
+	a tolo:WorkType ;
 	skos:prefLabel "Initiation Card"@en ;
 	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_letter
-	a gist:WorkType ;
+	a tolo:WorkType ;
 	skos:prefLabel "Letter"@en ;
 	gist:hasDirectBroader tolx:_WorkType_document ;
 	.
 
 tolx:_WorkType_map
-	a gist:WorkType ;
+	a tolo:WorkType ;
 	skos:prefLabel "Map"@en ;
 	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_mural
-	a gist:WorkType ;
+	a tolo:WorkType ;
 	skos:prefLabel "Mural"@en ;
 	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_painting
-	a gist:WorkType ;
+	a tolo:WorkType ;
 	skos:prefLabel "Painting"@en ;
 	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_photograph
-	a gist:WorkType ;
+	a tolo:WorkType ;
 	skos:prefLabel "Photograph"@en ;
 	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_rock_carving
-	a gist:WorkType ;
+	a tolo:WorkType ;
 	skos:prefLabel "Rock Carving"@en ;
 	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_sculpture
-	a gist:WorkType ;
+	a tolo:WorkType ;
 	skos:prefLabel "Sculpture"@en ;
 	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_seal
-	a gist:WorkType ;
+	a tolo:WorkType ;
 	skos:prefLabel "Seal"@en ;
 	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
 
 tolx:_WorkType_textile
-	a gist:WorkType ;
+	a tolo:WorkType ;
 	skos:prefLabel "Textile"@en ;
 	gist:hasDirectBroader tolx:_WorkType_image ;
 	.
