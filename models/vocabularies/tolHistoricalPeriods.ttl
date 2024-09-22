@@ -180,11 +180,6 @@ told:_HistoricalPeriod_1
 		;
 	gist:actualEndDate "0099-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0001-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_2 ,
-		told:_HistoricalPeriod_3 ,
-		told:_HistoricalPeriod_4
-		;
 	gist:precedes told:_HistoricalPeriod_5 ;
 	.
 
@@ -193,6 +188,7 @@ told:_HistoricalPeriod_10
 	skos:prefLabel "3rd Century (Early)"@en ;
 	gist:actualEndDate "0233-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0200-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_9 ;
 	gist:precedes told:_HistoricalPeriod_11 ;
 	.
 
@@ -201,6 +197,7 @@ told:_HistoricalPeriod_11
 	skos:prefLabel "3rd Century (Mid)"@en ;
 	gist:actualEndDate "0266-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0234-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_9 ;
 	gist:precedes told:_HistoricalPeriod_12 ;
 	.
 
@@ -209,6 +206,7 @@ told:_HistoricalPeriod_12
 	skos:prefLabel "3rd Century (Late)"@en ;
 	gist:actualEndDate "0299-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0267-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_9 ;
 	gist:precedes told:_HistoricalPeriod_13 ;
 	.
 
@@ -221,11 +219,6 @@ told:_HistoricalPeriod_13
 		;
 	gist:actualEndDate "0399-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0300-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_14 ,
-		told:_HistoricalPeriod_15 ,
-		told:_HistoricalPeriod_16
-		;
 	gist:precedes told:_HistoricalPeriod_17 ;
 	.
 
@@ -234,6 +227,7 @@ told:_HistoricalPeriod_14
 	skos:prefLabel "4th Century (Early)"@en ;
 	gist:actualEndDate "0333-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0300-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_13 ;
 	gist:precedes told:_HistoricalPeriod_15 ;
 	.
 
@@ -242,6 +236,7 @@ told:_HistoricalPeriod_15
 	skos:prefLabel "4th Century (Mid)"@en ;
 	gist:actualEndDate "0366-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0334-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_13 ;
 	gist:precedes told:_HistoricalPeriod_16 ;
 	.
 
@@ -250,6 +245,7 @@ told:_HistoricalPeriod_16
 	skos:prefLabel "4th Century (Late)"@en ;
 	gist:actualEndDate "0399-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0367-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_13 ;
 	gist:precedes told:_HistoricalPeriod_17 ;
 	.
 
@@ -262,11 +258,6 @@ told:_HistoricalPeriod_17
 		;
 	gist:actualEndDate "0499-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0400-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_18 ,
-		told:_HistoricalPeriod_19 ,
-		told:_HistoricalPeriod_20
-		;
 	gist:precedes told:_HistoricalPeriod_21 ;
 	.
 
@@ -275,6 +266,7 @@ told:_HistoricalPeriod_18
 	skos:prefLabel "5th Century (Early)"@en ;
 	gist:actualEndDate "0433-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0400-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_17 ;
 	gist:precedes told:_HistoricalPeriod_19 ;
 	.
 
@@ -283,6 +275,7 @@ told:_HistoricalPeriod_19
 	skos:prefLabel "5th Century (Mid)"@en ;
 	gist:actualEndDate "0466-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0434-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_17 ;
 	gist:precedes told:_HistoricalPeriod_20 ;
 	.
 
@@ -291,6 +284,7 @@ told:_HistoricalPeriod_2
 	skos:prefLabel "1st Century (Early)"@en ;
 	gist:actualEndDate "0033-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0001-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_1 ;
 	gist:precedes told:_HistoricalPeriod_3 ;
 	.
 
@@ -299,6 +293,7 @@ told:_HistoricalPeriod_20
 	skos:prefLabel "5th Century (Late)"@en ;
 	gist:actualEndDate "0499-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0467-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_17 ;
 	gist:precedes told:_HistoricalPeriod_21 ;
 	.
 
@@ -311,11 +306,6 @@ told:_HistoricalPeriod_21
 		;
 	gist:actualEndDate "0599-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0500-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_22 ,
-		told:_HistoricalPeriod_23 ,
-		told:_HistoricalPeriod_24
-		;
 	gist:precedes told:_HistoricalPeriod_25 ;
 	.
 
@@ -324,6 +314,7 @@ told:_HistoricalPeriod_22
 	skos:prefLabel "6th Century (Early)"@en ;
 	gist:actualEndDate "0533-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0500-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_21 ;
 	gist:precedes told:_HistoricalPeriod_23 ;
 	.
 
@@ -332,6 +323,7 @@ told:_HistoricalPeriod_23
 	skos:prefLabel "6th Century (Mid)"@en ;
 	gist:actualEndDate "0566-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0534-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_21 ;
 	gist:precedes told:_HistoricalPeriod_24 ;
 	.
 
@@ -340,6 +332,7 @@ told:_HistoricalPeriod_24
 	skos:prefLabel "6th Century (Late)"@en ;
 	gist:actualEndDate "0599-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0567-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_21 ;
 	gist:precedes told:_HistoricalPeriod_25 ;
 	.
 
@@ -352,11 +345,6 @@ told:_HistoricalPeriod_25
 		;
 	gist:actualEndDate "0699-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0600-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_26 ,
-		told:_HistoricalPeriod_27 ,
-		told:_HistoricalPeriod_28
-		;
 	gist:precedes told:_HistoricalPeriod_29 ;
 	.
 
@@ -365,6 +353,7 @@ told:_HistoricalPeriod_26
 	skos:prefLabel "7th Century (Early)"@en ;
 	gist:actualEndDate "0633-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0600-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_25 ;
 	gist:precedes told:_HistoricalPeriod_27 ;
 	.
 
@@ -373,6 +362,7 @@ told:_HistoricalPeriod_27
 	skos:prefLabel "7th Century (Mid)"@en ;
 	gist:actualEndDate "0666-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0637-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_25 ;
 	gist:precedes told:_HistoricalPeriod_28 ;
 	.
 
@@ -381,6 +371,7 @@ told:_HistoricalPeriod_28
 	skos:prefLabel "7th Century (Late)"@en ;
 	gist:actualEndDate "0699-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0667-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_25 ;
 	gist:precedes told:_HistoricalPeriod_29 ;
 	.
 
@@ -393,11 +384,6 @@ told:_HistoricalPeriod_29
 		;
 	gist:actualEndDate "0799-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0700-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_30 ,
-		told:_HistoricalPeriod_31 ,
-		told:_HistoricalPeriod_32
-		;
 	gist:precedes told:_HistoricalPeriod_33 ;
 	.
 
@@ -406,6 +392,7 @@ told:_HistoricalPeriod_3
 	skos:prefLabel "1st Century (Mid)"@en ;
 	gist:actualEndDate "0066-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0034-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_1 ;
 	gist:precedes told:_HistoricalPeriod_4 ;
 	.
 
@@ -414,6 +401,7 @@ told:_HistoricalPeriod_30
 	skos:prefLabel "8th Century (Early)"@en ;
 	gist:actualEndDate "0733-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0700-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_29 ;
 	gist:precedes told:_HistoricalPeriod_31 ;
 	.
 
@@ -422,6 +410,7 @@ told:_HistoricalPeriod_31
 	skos:prefLabel "8th Century (Mid)"@en ;
 	gist:actualEndDate "0766-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0734-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_29 ;
 	gist:precedes told:_HistoricalPeriod_32 ;
 	.
 
@@ -430,6 +419,7 @@ told:_HistoricalPeriod_32
 	skos:prefLabel "8th Century (Late)"@en ;
 	gist:actualEndDate "0799-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0767-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_29 ;
 	gist:precedes told:_HistoricalPeriod_33 ;
 	.
 
@@ -442,11 +432,6 @@ told:_HistoricalPeriod_33
 		;
 	gist:actualEndDate "0899-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0800-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_34 ,
-		told:_HistoricalPeriod_35 ,
-		told:_HistoricalPeriod_36
-		;
 	gist:precedes told:_HistoricalPeriod_37 ;
 	.
 
@@ -455,6 +440,7 @@ told:_HistoricalPeriod_34
 	skos:prefLabel "9th Century (Early)"@en ;
 	gist:actualEndDate "0833-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0800-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_33 ;
 	gist:precedes told:_HistoricalPeriod_35 ;
 	.
 
@@ -463,12 +449,14 @@ told:_HistoricalPeriod_35
 	skos:prefLabel "9th Century (Mid)"@en ;
 	gist:actualEndDate "0866-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0834-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_33 ;
 	gist:precedes told:_HistoricalPeriod_36 ;
 	.
 
 told:_HistoricalPeriod_36
 	a tolo:HistoricalPeriod ;
 	skos:prefLabel "9th Century (Late)"@en ;
+	gist:isPartOf told:_HistoricalPeriod_33 ;
 	gist:precedes told:_HistoricalPeriod_37 ;
 	.
 
@@ -481,11 +469,6 @@ told:_HistoricalPeriod_37
 		;
 	gist:actualEndDate "0999-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0900-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_38 ,
-		told:_HistoricalPeriod_39 ,
-		told:_HistoricalPeriod_40
-		;
 	gist:precedes told:_HistoricalPeriod_41 ;
 	.
 
@@ -494,6 +477,7 @@ told:_HistoricalPeriod_38
 	skos:prefLabel "10th Century (Early)"@en ;
 	gist:actualEndDate "0933-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0900-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_37 ;
 	gist:precedes told:_HistoricalPeriod_39 ;
 	.
 
@@ -502,6 +486,7 @@ told:_HistoricalPeriod_39
 	skos:prefLabel "10th Century (Mid)"@en ;
 	gist:actualEndDate "0966-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0934-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_37 ;
 	gist:precedes told:_HistoricalPeriod_40 ;
 	.
 
@@ -510,12 +495,14 @@ told:_HistoricalPeriod_4
 	skos:prefLabel "1st Century (Late)"@en ;
 	gist:actualEndDate "0099-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0067-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_1 ;
 	gist:precedes told:_HistoricalPeriod_5 ;
 	.
 
 told:_HistoricalPeriod_40
 	a tolo:HistoricalPeriod ;
 	skos:prefLabel "10th Century (Late)"@en ;
+	gist:isPartOf told:_HistoricalPeriod_37 ;
 	gist:precedes told:_HistoricalPeriod_41 ;
 	.
 
@@ -528,11 +515,6 @@ told:_HistoricalPeriod_41
 		;
 	gist:actualEndDate "1099-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1000-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_42 ,
-		told:_HistoricalPeriod_43 ,
-		told:_HistoricalPeriod_44
-		;
 	gist:precedes told:_HistoricalPeriod_45 ;
 	.
 
@@ -541,6 +523,7 @@ told:_HistoricalPeriod_42
 	skos:prefLabel "11th Century (Early)"@en ;
 	gist:actualEndDate "1033-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1000-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_41 ;
 	gist:precedes told:_HistoricalPeriod_43 ;
 	.
 
@@ -549,12 +532,14 @@ told:_HistoricalPeriod_43
 	skos:prefLabel "11thCentury (Mid)"@en ;
 	gist:actualEndDate "1066-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1034-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_41 ;
 	gist:precedes told:_HistoricalPeriod_44 ;
 	.
 
 told:_HistoricalPeriod_44
 	a tolo:HistoricalPeriod ;
 	skos:prefLabel "11th Century (Late)"@en ;
+	gist:isPartOf told:_HistoricalPeriod_41 ;
 	gist:precedes told:_HistoricalPeriod_45 ;
 	.
 
@@ -567,11 +552,6 @@ told:_HistoricalPeriod_45
 		;
 	gist:actualEndDate "1199-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1100-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_46 ,
-		told:_HistoricalPeriod_47 ,
-		told:_HistoricalPeriod_48
-		;
 	gist:precedes told:_HistoricalPeriod_49 ;
 	.
 
@@ -580,6 +560,7 @@ told:_HistoricalPeriod_46
 	skos:prefLabel "12th Century (Early)"@en ;
 	gist:actualEndDate "1133-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1100-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_45 ;
 	gist:precedes told:_HistoricalPeriod_47 ;
 	.
 
@@ -588,12 +569,14 @@ told:_HistoricalPeriod_47
 	skos:prefLabel "12th Century (Mid)"@en ;
 	gist:actualEndDate "1166-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1134-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_45 ;
 	gist:precedes told:_HistoricalPeriod_48 ;
 	.
 
 told:_HistoricalPeriod_48
 	a tolo:HistoricalPeriod ;
 	skos:prefLabel "12th Century (Late)"@en ;
+	gist:isPartOf told:_HistoricalPeriod_45 ;
 	gist:precedes told:_HistoricalPeriod_49 ;
 	.
 
@@ -606,11 +589,6 @@ told:_HistoricalPeriod_49
 		;
 	gist:actualEndDate "1299-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1200-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_50 ,
-		told:_HistoricalPeriod_51 ,
-		told:_HistoricalPeriod_52
-		;
 	gist:precedes told:_HistoricalPeriod_53 ;
 	.
 
@@ -623,11 +601,6 @@ told:_HistoricalPeriod_5
 		;
 	gist:actualEndDate "0199-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0100-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_6 ,
-		told:_HistoricalPeriod_7 ,
-		told:_HistoricalPeriod_8
-		;
 	gist:precedes told:_HistoricalPeriod_9 ;
 	.
 
@@ -636,6 +609,7 @@ told:_HistoricalPeriod_50
 	skos:prefLabel "13th Century (Early)"@en ;
 	gist:actualEndDate "1233-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1200-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_49 ;
 	gist:precedes told:_HistoricalPeriod_51 ;
 	.
 
@@ -644,12 +618,14 @@ told:_HistoricalPeriod_51
 	skos:prefLabel "13th Century (Mid)"@en ;
 	gist:actualEndDate "1266-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1234-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_49 ;
 	gist:precedes told:_HistoricalPeriod_52 ;
 	.
 
 told:_HistoricalPeriod_52
 	a tolo:HistoricalPeriod ;
 	skos:prefLabel "13th Century (Late)"@en ;
+	gist:isPartOf told:_HistoricalPeriod_49 ;
 	gist:precedes told:_HistoricalPeriod_53 ;
 	.
 
@@ -662,11 +638,6 @@ told:_HistoricalPeriod_53
 		;
 	gist:actualEndDate "1399-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1300-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_54 ,
-		told:_HistoricalPeriod_55 ,
-		told:_HistoricalPeriod_56
-		;
 	gist:precedes told:_HistoricalPeriod_57 ;
 	.
 
@@ -675,6 +646,7 @@ told:_HistoricalPeriod_54
 	skos:prefLabel "14th Century (Early)"@en ;
 	gist:actualEndDate "1333-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1300-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_53 ;
 	gist:precedes told:_HistoricalPeriod_55 ;
 	.
 
@@ -683,6 +655,7 @@ told:_HistoricalPeriod_55
 	skos:prefLabel "14th Century (Mid)"@en ;
 	gist:actualEndDate "1366-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1334-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_53 ;
 	gist:precedes told:_HistoricalPeriod_56 ;
 	.
 
@@ -691,6 +664,7 @@ told:_HistoricalPeriod_56
 	skos:prefLabel "14th Century (Late)"@en ;
 	gist:actualEndDate "1399-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1367-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_53 ;
 	gist:precedes told:_HistoricalPeriod_57 ;
 	.
 
@@ -703,11 +677,6 @@ told:_HistoricalPeriod_57
 		;
 	gist:actualEndDate "1499-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1400-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_58 ,
-		told:_HistoricalPeriod_59 ,
-		told:_HistoricalPeriod_60
-		;
 	gist:precedes told:_HistoricalPeriod_61 ;
 	.
 
@@ -716,6 +685,7 @@ told:_HistoricalPeriod_58
 	skos:prefLabel "15th Century (Early)"@en ;
 	gist:actualEndDate "1433-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1400-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_57 ;
 	gist:precedes told:_HistoricalPeriod_59 ;
 	.
 
@@ -724,6 +694,7 @@ told:_HistoricalPeriod_59
 	skos:prefLabel "15th Century (Mid)"@en ;
 	gist:actualEndDate "1466-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1434-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_57 ;
 	gist:precedes told:_HistoricalPeriod_60 ;
 	.
 
@@ -732,6 +703,7 @@ told:_HistoricalPeriod_6
 	skos:prefLabel "2nd Century (Early)"@en ;
 	gist:actualEndDate "0133-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0100-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_5 ;
 	gist:precedes told:_HistoricalPeriod_7 ;
 	.
 
@@ -740,6 +712,7 @@ told:_HistoricalPeriod_60
 	skos:prefLabel "15th Century (Late)"@en ;
 	gist:actualEndDate "1499-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1467-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_57 ;
 	gist:precedes told:_HistoricalPeriod_61 ;
 	.
 
@@ -752,11 +725,6 @@ told:_HistoricalPeriod_61
 		;
 	gist:actualEndDate "1599-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1500-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_62 ,
-		told:_HistoricalPeriod_63 ,
-		told:_HistoricalPeriod_64
-		;
 	gist:precedes told:_HistoricalPeriod_65 ;
 	.
 
@@ -765,6 +733,7 @@ told:_HistoricalPeriod_62
 	skos:prefLabel "16th Century (Early)"@en ;
 	gist:actualEndDate "1533-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1500-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_61 ;
 	gist:precedes told:_HistoricalPeriod_63 ;
 	.
 
@@ -773,6 +742,7 @@ told:_HistoricalPeriod_63
 	skos:prefLabel "16th Century (Mid)"@en ;
 	gist:actualEndDate "1566-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1534-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_61 ;
 	gist:precedes told:_HistoricalPeriod_64 ;
 	.
 
@@ -781,6 +751,7 @@ told:_HistoricalPeriod_64
 	skos:prefLabel "16th Century (Late)"@en ;
 	gist:actualEndDate "1599-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1567-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_61 ;
 	gist:precedes told:_HistoricalPeriod_65 ;
 	.
 
@@ -793,11 +764,6 @@ told:_HistoricalPeriod_65
 		;
 	gist:actualEndDate "1699-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1600-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_66 ,
-		told:_HistoricalPeriod_67 ,
-		told:_HistoricalPeriod_68
-		;
 	gist:precedes told:_HistoricalPeriod_69 ;
 	.
 
@@ -806,6 +772,7 @@ told:_HistoricalPeriod_66
 	skos:prefLabel "17th Century (Early)"@en ;
 	gist:actualEndDate "1633-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1600-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_65 ;
 	gist:precedes told:_HistoricalPeriod_67 ;
 	.
 
@@ -814,6 +781,7 @@ told:_HistoricalPeriod_67
 	skos:prefLabel "17th Century (Mid)"@en ;
 	gist:actualEndDate "1666-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1634-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_65 ;
 	gist:precedes told:_HistoricalPeriod_68 ;
 	.
 
@@ -822,6 +790,7 @@ told:_HistoricalPeriod_68
 	skos:prefLabel "17th Century (Late)"@en ;
 	gist:actualEndDate "1699-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1667-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_65 ;
 	gist:precedes told:_HistoricalPeriod_69 ;
 	.
 
@@ -834,11 +803,6 @@ told:_HistoricalPeriod_69
 		;
 	gist:actualEndDate "1799-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1700-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_70 ,
-		told:_HistoricalPeriod_71 ,
-		told:_HistoricalPeriod_72
-		;
 	gist:precedes told:_HistoricalPeriod_73 ;
 	.
 
@@ -847,6 +811,7 @@ told:_HistoricalPeriod_7
 	skos:prefLabel "2nd Century (Mid)"@en ;
 	gist:actualEndDate "0166-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0134-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_5 ;
 	gist:precedes told:_HistoricalPeriod_8 ;
 	.
 
@@ -855,6 +820,7 @@ told:_HistoricalPeriod_70
 	skos:prefLabel "18thCentury (Early)"@en ;
 	gist:actualEndDate "1733-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1700-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_69 ;
 	gist:precedes told:_HistoricalPeriod_71 ;
 	.
 
@@ -863,6 +829,7 @@ told:_HistoricalPeriod_71
 	skos:prefLabel "18th Century (Mid)"@en ;
 	gist:actualEndDate "1766-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1734-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_69 ;
 	gist:precedes told:_HistoricalPeriod_72 ;
 	.
 
@@ -871,6 +838,7 @@ told:_HistoricalPeriod_72
 	skos:prefLabel "18th Century (Late)"@en ;
 	gist:actualEndDate "1799-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1767-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_69 ;
 	gist:precedes told:_HistoricalPeriod_73 ;
 	.
 
@@ -883,11 +851,6 @@ told:_HistoricalPeriod_73
 		;
 	gist:actualEndDate "1899-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1800-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_74 ,
-		told:_HistoricalPeriod_75 ,
-		told:_HistoricalPeriod_76
-		;
 	gist:precedes told:_HistoricalPeriod_77 ;
 	.
 
@@ -896,6 +859,7 @@ told:_HistoricalPeriod_74
 	skos:prefLabel "19th Century (Early)"@en ;
 	gist:actualEndDate "1833-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1800-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_73 ;
 	gist:precedes told:_HistoricalPeriod_75 ;
 	.
 
@@ -904,6 +868,7 @@ told:_HistoricalPeriod_75
 	skos:prefLabel "19th Century (Mid)"@en ;
 	gist:actualEndDate "1866-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1834-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_73 ;
 	gist:precedes told:_HistoricalPeriod_76 ;
 	.
 
@@ -912,6 +877,7 @@ told:_HistoricalPeriod_76
 	skos:prefLabel "19th Century (Late)"@en ;
 	gist:actualEndDate "1899-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1867-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_73 ;
 	gist:precedes told:_HistoricalPeriod_77 ;
 	.
 
@@ -920,15 +886,10 @@ told:_HistoricalPeriod_77
 	skos:prefLabel
 		"20 dus rabs"@bo-x-ewts ,
 		"20th Century"@en ,
-		"༢༠ དུས་རབ���།"@bo
+		"༢༠ དུས་རབས།"@bo
 		;
 	gist:actualEndDate "1999-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1900-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_78 ,
-		told:_HistoricalPeriod_79 ,
-		told:_HistoricalPeriod_80
-		;
 	gist:precedes told:_HistoricalPeriod_81 ;
 	.
 
@@ -937,6 +898,7 @@ told:_HistoricalPeriod_78
 	skos:prefLabel "20th Century (Early)"@en ;
 	gist:actualEndDate "1933-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1900-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_77 ;
 	gist:precedes told:_HistoricalPeriod_79 ;
 	.
 
@@ -945,6 +907,7 @@ told:_HistoricalPeriod_79
 	skos:prefLabel "20th Century (Mid)"@en ;
 	gist:actualEndDate "1966-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1934-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_77 ;
 	gist:precedes told:_HistoricalPeriod_80 ;
 	.
 
@@ -953,6 +916,7 @@ told:_HistoricalPeriod_8
 	skos:prefLabel "2nd Century (Late)"@en ;
 	gist:actualEndDate "0199-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0167-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_5 ;
 	gist:precedes told:_HistoricalPeriod_9 ;
 	.
 
@@ -961,6 +925,7 @@ told:_HistoricalPeriod_80
 	skos:prefLabel "20th Century (Late)"@en ;
 	gist:actualEndDate "1999-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "1967-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_77 ;
 	gist:precedes told:_HistoricalPeriod_81 ;
 	.
 
@@ -973,11 +938,6 @@ told:_HistoricalPeriod_81
 		;
 	gist:actualEndDate "2099-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "2000-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_82 ,
-		told:_HistoricalPeriod_83 ,
-		told:_HistoricalPeriod_84
-		;
 	.
 
 told:_HistoricalPeriod_82
@@ -985,6 +945,7 @@ told:_HistoricalPeriod_82
 	skos:prefLabel "21st Century (Early)"@en ;
 	gist:actualEndDate "2033-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "2000-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_81 ;
 	gist:precedes told:_HistoricalPeriod_83 ;
 	.
 
@@ -993,6 +954,7 @@ told:_HistoricalPeriod_83
 	skos:prefLabel "21st Century (Mid)"@en ;
 	gist:actualEndDate "2066-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "2034-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_81 ;
 	gist:precedes told:_HistoricalPeriod_84 ;
 	.
 
@@ -1001,6 +963,7 @@ told:_HistoricalPeriod_84
 	skos:prefLabel "21st Century (Late)"@en ;
 	gist:actualEndDate "2099-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "2067-01-01T00:00:00"^^xsd:dateTime ;
+	gist:isPartOf told:_HistoricalPeriod_81 ;
 	.
 
 told:_HistoricalPeriod_9
@@ -1012,11 +975,6 @@ told:_HistoricalPeriod_9
 		;
 	gist:actualEndDate "0299-12-31T00:00:00"^^xsd:dateTime ;
 	gist:actualStartDate "0200-01-01T00:00:00"^^xsd:dateTime ;
-	gist:hasPart
-		told:_HistoricalPeriod_10 ,
-		told:_HistoricalPeriod_11 ,
-		told:_HistoricalPeriod_12
-		;
 	gist:precedes told:_HistoricalPeriod_13 ;
 	.
 
