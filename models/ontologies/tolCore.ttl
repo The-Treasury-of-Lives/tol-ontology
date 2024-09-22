@@ -926,6 +926,18 @@ tolo:fullName
 	gist:domainIncludes tolo:Person ;
 	.
 
+tolo:hasBibliographicSource
+	a owl:ObjectProperty ;
+	rdfs:domain gist:ContentExpression ;
+	rdfs:range gist:ContentExpression ;
+	skos:definition "Relates a piece of content to a source of information used to create that content."@en ;
+	skos:prefLabel "has source"@en ;
+	skos:scopeNote
+		"There is currently minimal parsing of source text to generate sources due to the complexity of this task."@en ,
+		"Written sources are used to create content about persons (i.e., biographies) and places on the Treasury of Lives website and cited with this content."@en
+		;
+	.
+
 tolo:hasFinalRestingPlace
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:hasPhysicalLocation ;
@@ -1113,18 +1125,6 @@ tolo:hasSororallNiece
 	skos:scopeNote
 		"We do not currently distinguish biological, adoptive, half, and step relationships."@en ,
 		"While a niece can be related through either a sibling or sibling-in-law, a sororal nephew is always related through a sister."@en
-		;
-	.
-
-tolo:hasSource
-	a owl:ObjectProperty ;
-	rdfs:domain gist:ContentExpression ;
-	rdfs:range gist:ContentExpression ;
-	skos:definition "Relates a piece of content to a source of information used to create that content."@en ;
-	skos:prefLabel "has source"@en ;
-	skos:scopeNote
-		"There is currently minimal parsing of source text to generate sources due to the complexity of this task. Pages are in a separate field and the remainder of the source is in a skos:prefLabel."@en ,
-		"Written sources are used to create content about persons (i.e., biographies) and places on the Treasury of Lives website and cited with this content."@en
 		;
 	.
 
