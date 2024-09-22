@@ -220,9 +220,7 @@ tolo:Incarnation
 	rdfs:subClassOf
 		[
 			a owl:Restriction ;
-			owl:onProperty [
-				owl:inverseOf gist:hasMember ;
-			] ;
+			owl:onProperty gist:isMemberOf ;
 			owl:allValuesFrom tolo:IncarnationLineage ;
 		] ,
 		[
@@ -237,9 +235,7 @@ tolo:Incarnation
 			tolo:LineageMember
 			[
 				a owl:Restriction ;
-				owl:onProperty [
-					owl:inverseOf gist:hasMember ;
-				] ;
+				owl:onProperty gist:isMemberOf ;
 				owl:someValuesFrom tolo:IncarnationLineage ;
 			]
 			[
@@ -273,7 +269,9 @@ tolo:IncarnationLineage
 	a owl:Class ;
 	rdfs:subClassOf [
 		a owl:Restriction ;
-		owl:onProperty gist:hasMember ;
+		owl:onProperty [
+			owl:inverseOf gist:isMemberOf ;
+		] ;
 		owl:allValuesFrom tolo:Incarnation ;
 	] ;
 	owl:equivalentClass [
@@ -282,7 +280,9 @@ tolo:IncarnationLineage
 			tolo:Lineage
 			[
 				a owl:Restriction ;
-				owl:onProperty gist:hasMember ;
+				owl:onProperty [
+					owl:inverseOf gist:isMemberOf ;
+				] ;
 				owl:someValuesFrom tolo:Incarnation ;
 			]
 		) ;
@@ -302,7 +302,9 @@ tolo:KinshipGroup
 		gist:Collection ,
 		[
 			a owl:Restriction ;
-			owl:onProperty gist:hasMember ;
+			owl:onProperty [
+				owl:inverseOf gist:isMemberOf ;
+			] ;
 			owl:allValuesFrom [
 				a owl:Class ;
 				owl:unionOf (
@@ -347,12 +349,16 @@ tolo:Lineage
 			gist:OrderedCollection
 			[
 				a owl:Restriction ;
-				owl:onProperty gist:hasMember ;
+				owl:onProperty [
+					owl:inverseOf gist:isMemberOf ;
+				] ;
 				owl:allValuesFrom tolo:LineageMember ;
 			]
 			[
 				a owl:Restriction ;
-				owl:onProperty gist:hasMember ;
+				owl:onProperty [
+					owl:inverseOf gist:isMemberOf ;
+				] ;
 				owl:someValuesFrom tolo:LineageMember ;
 			]
 		) ;
@@ -397,9 +403,7 @@ tolo:Marriage
 			]
 			[
 				a owl:Restriction ;
-				owl:onProperty [
-					owl:inverseOf gist:hasMember ;
-				] ;
+				owl:onProperty gist:isMemberOf ;
 				owl:someValuesFrom tolo:KinshipGroup ;
 			]
 		) ;
@@ -475,9 +479,7 @@ tolo:MonasteryHead
 	rdfs:subClassOf
 		[
 			a owl:Restriction ;
-			owl:onProperty [
-				owl:inverseOf gist:hasMember ;
-			] ;
+			owl:onProperty gist:isMemberOf ;
 			owl:allValuesFrom tolo:MonasteryHeadLineage ;
 		] ,
 		[
@@ -492,9 +494,7 @@ tolo:MonasteryHead
 			gist:OrderedMember
 			[
 				a owl:Restriction ;
-				owl:onProperty [
-					owl:inverseOf gist:hasMember ;
-				] ;
+				owl:onProperty gist:isMemberOf ;
 				owl:someValuesFrom tolo:MonasteryHeadLineage ;
 			]
 			[
@@ -517,7 +517,9 @@ tolo:MonasteryHeadLineage
 	a owl:Class ;
 	rdfs:subClassOf [
 		a owl:Restriction ;
-		owl:onProperty gist:hasMember ;
+		owl:onProperty [
+			owl:inverseOf gist:isMemberOf ;
+		] ;
 		owl:allValuesFrom tolo:MonasteryHead ;
 	] ;
 	owl:disjointWith tolo:IncarnationLineage ;
@@ -528,7 +530,9 @@ tolo:MonasteryHeadLineage
 				gist:OrderedCollection
 				[
 					a owl:Restriction ;
-					owl:onProperty gist:hasMember ;
+					owl:onProperty [
+						owl:inverseOf gist:isMemberOf ;
+					] ;
 					owl:someValuesFrom tolo:MonasteryHead ;
 				]
 			) ;
@@ -539,7 +543,9 @@ tolo:MonasteryHeadLineage
 				tolo:Lineage
 				[
 					a owl:Restriction ;
-					owl:onProperty gist:hasMember ;
+					owl:onProperty [
+						owl:inverseOf gist:isMemberOf ;
+					] ;
 					owl:someValuesFrom [
 						a owl:Restriction ;
 						owl:onProperty gist:isCategorizedBy ;
@@ -654,9 +660,7 @@ tolo:RulerLineage
 			]
 			[
 				a owl:Restriction ;
-				owl:onProperty [
-					owl:inverseOf gist:hasMember ;
-				] ;
+				owl:onProperty gist:isMemberOf ;
 				owl:someValuesFrom tolo:KinshipGroup ;
 			]
 		) ;
