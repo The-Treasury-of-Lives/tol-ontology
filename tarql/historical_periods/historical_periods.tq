@@ -29,7 +29,7 @@ PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 # Description
 
 # Run:
-# tarql -e utf-8 historical_periods.tq combined-century-id-table-3-15-24.csv > tolHistoricalPeriods.ttl
+# tarql --dedup 5000 -e utf-8 historical_periods.tq combined-century-id-table-3-15-24.csv > tolHistoricalPeriods.ttl
 
 
 CONSTRUCT {
@@ -39,7 +39,7 @@ CONSTRUCT {
         skos:definition "Defines full and partial centuries."@en ;
         skos:prefLabel "Historical Periods"@en ;
         skos:editorialNote "Auto-generated via TARQL."@en ;
-		owl:imports <https://w3id.org/semanticarts/ontology/gistCore12.0.1> ,
+		owl:imports <https://w3id.org/semanticarts/ontology/gistCore13.0.0> ,
 	    	<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	    owl:versionIRI <https://w3id.org/treasuryoflives/data/tolHistoricalPeriodsX.x.x> ;
 	.
@@ -53,11 +53,11 @@ CONSTRUCT {
 		gist:actualStartDate ?start_date ;
 		gist:actualEndDate ?end_date ;
 		gist:precedes ?next_period_iri ;
-		gist:hasPart 
-			?early_century_iri ,
-			?mid_century_iri ,
-			?late_century_iri ;
 		.
+
+	?early_century_iri gist:isPartOf ?historical_period_iri .
+	?mid_century_iri gist:isPartOf ?historical_period_iri .
+	?late_century_iri gist:isPartOf ?historical_period_iri .
 
  	?description_iri 
         a gist:FormattedContent ;
