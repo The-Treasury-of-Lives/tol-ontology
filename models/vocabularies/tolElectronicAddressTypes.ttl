@@ -29,9 +29,10 @@ tolx:_ElectronicAddressType_email
 	skos:prefLabel "Email Address"@en ;
 	.
 
-tolx:_ElectronicAddressType_file_path
+tolx:_ElectronicAddressType_file_system_path
 	a gist:ElectronicAddressType ;
-	skos:prefLabel "File Path"@en ;
+	skos:editorialNote "Not sure we will use this - currently using a datatype property."@en ;
+	skos:prefLabel "File System Path"@en ;
 	.
 
 tolx:_ElectronicAddressType_ip

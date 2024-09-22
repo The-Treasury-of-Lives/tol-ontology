@@ -29,6 +29,7 @@ tolx:_Rank_primary
 	skos:definition "First in importance or significance."@en ;
 	skos:example "The primary image of a person or place"@en ;
 	skos:prefLabel "Primary"@en ;
+	skos:scopeNote "Used to control search results: the primary image should appear in search results for the person or place."@en ;
 	.
 
 tolx:_Rank_secondary
@@ -36,5 +37,6 @@ tolx:_Rank_secondary
 	skos:definition "Second or non-primary in importance or significance."@en ;
 	skos:example "A secondary image of a person or place"@en ;
 	skos:prefLabel "Secondary"@en ;
+	skos:scopeNote "Used to control search results: only the primary image should appear in search results for the person or place."@en ;
 	.
 
