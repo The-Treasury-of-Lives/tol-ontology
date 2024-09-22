@@ -31,6 +31,11 @@ tolx:_IdType_har
 	tolo:url "https://www.himalayanart.org/items/"^^xsd:anyURI ;
 	.
 
+tolx:_IdType_orcid
+	a tolo:IdType ;
+	skos:prefLabel "ORCID ID"@en ;
+	.
+
 tolx:_IdType_tol
 	a tolo:IdType ;
 	skos:definition "Used to store legacy TOL ID."@en ;

@@ -41,9 +41,9 @@ tolx:_ElectronicAddressType_ip
 	skos:prefLabel "IP Address"@en ;
 	.
 
-tolx:_ElectronicAddressType_telephone_number
+tolx:_ElectronicAddressType_telephone
 	a gist:ElectronicAddressType ;
-	skos:prefLabel "Telephone Number"@en ;
+	skos:prefLabel "Telephone"@en ;
 	.
 
 tolx:_ElectronicAddressType_url
