@@ -26,7 +26,11 @@
 
 tolx:_KinshipGroupType_clan
 	a tolo:KinshipGroupType ;
-	skos:definition "TBD"@en ;
+	skos:definition """
+	Traditional classifications of clans in Tibet generally name four or six ancestral clans who are believed to descend from the progeny of the Bodhisattva monkey and demoness, the subjects of Tibet's origin myth.  These lineages later split into numerous sub-clans that are often associated with specific geographical regions, and in some cases, monasteries.
+
+	On the Treasury we use \"clan\" broadly to cover a number of Tibetan terms that may individually mean something more specific, such as: rig (rigs) for clan, race, family; gyu (rgyud) for lineage, descent; dungrab (gdung rabs) for descendants, lineage, generation; dung (gdung) for progeny, descendants, lineage, descent line; ru (rus) for bone, bloodline, lineage, family, clan; khang (khang) for household and tsang (tshang) for family and household.
+	"""@en ;
 	skos:prefLabel
 		"Clan"@en ,
 		"rigs"@bo-W-exts ,
@@ -37,7 +41,10 @@ tolx:_KinshipGroupType_clan
 
 tolx:_KinshipGroupType_depon
 	a tolo:KinshipGroupType ;
-	skos:definition "TBD"@en ;
+	skos:definition
+		"TBD"@en ,
+		"The highest peerage, made up of five families consisting of Gazhi, Ton, Dokhar, Palha and Lhagyari."@en
+		;
 	skos:prefLabel
 		"Depon"@en ,
 		"de dpon"@bo-W-exts ,
@@ -48,7 +55,7 @@ tolx:_KinshipGroupType_depon
 
 tolx:_KinshipGroupType_gerpa
 	a tolo:KinshipGroupType ;
-	skos:definition "TBD"@en ;
+	skos:definition "Aristocracy from whose ranks the lay officials of the Ganden Podrang government were drawn."@en ;
 	skos:prefLabel
 		"Gerpa"@en ,
 		"sger pa"@bo-W-exts ,
@@ -59,7 +66,7 @@ tolx:_KinshipGroupType_gerpa
 
 tolx:_KinshipGroupType_lhasa_aristocracy
 	a tolo:KinshipGroupType ;
-	skos:definition "TBD"@en ;
+	skos:definition "The category of Lhasa aristocracy on the Treasury of Lives encompasses the elite families of the Ganden Podrang government."@en ;
 	skos:prefLabel
 		"Lhasa Aristocracy"@en ,
 		"sku drag nang mi"@bo-x-ewts ,
@@ -70,7 +77,7 @@ tolx:_KinshipGroupType_lhasa_aristocracy
 
 tolx:_KinshipGroupType_midrak
 	a tolo:KinshipGroupType ;
-	skos:definition "TBD"@en ;
+	skos:definition "Aristocracy from whose ranks the lay officials of the Ganden Podrang government were drawn."@en ;
 	skos:prefLabel
 		"Midrak"@en ,
 		"mi drag"@bo-W-exts ,
@@ -81,7 +88,7 @@ tolx:_KinshipGroupType_midrak
 
 tolx:_KinshipGroupType_yabzhi
 	a tolo:KinshipGroupType ;
-	skos:definition "TBD"@en ;
+	skos:definition "Includes families into which Dalai Lamas have been born, consisting of the houses of Langdun, Punkhang, Yutok, Samdrub Podrang and Lhalu."@en ;
 	skos:prefLabel
 		"Yabzhi"@en ,
 		"yab gzhis"@bo-W-exts ,

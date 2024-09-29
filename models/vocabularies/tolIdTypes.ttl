@@ -15,10 +15,10 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/treasuryoflives/data/tolIdTypes>
+<https://w3id.org/treasuryoflives/taxonomy/tolIdTypes>
 	a owl:Ontology ;
 	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
-	owl:versionIRI <https://w3id.org/treasuryoflives/data/tolIdTypesX.x.x> ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolIdTypesX.x.x> ;
 	skos:definition "Defines types of identifiers. In the case of external IDs, ID type is used to construct links by specifying a URL fragment to combine with the identifier to form a URL and a display label to use as link text."@en ;
 	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Identifier Types"@en ;

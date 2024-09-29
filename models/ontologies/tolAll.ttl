@@ -1,7 +1,7 @@
 # imports: http://purl.bdrc.io/ontology/types/Gender
 # imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
-# imports: https://w3id.org/semanticarts/ontology/gistMediaTypes12.0.1
-# imports: https://w3id.org/semanticarts/ontology/tolMediaTypesX.x.x
+# imports: https://w3id.org/semanticarts/ontology/gistMediaTypes13.0.0
+# imports: https://w3id.org/semanticarts/taxonomy/tolMediaTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/data/tolAuthorStatementsX.x.x
 # imports: https://w3id.org/treasuryoflives/data/tolTraditionsX.x.x
 # imports: https://w3id.org/treasuryoflives/data/tolWebsitesX.x.x
@@ -11,6 +11,7 @@
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolAddressUsageTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolElectronicAddressTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolEntityActiveStatusX.x.x
+# imports: https://w3id.org/treasuryoflives/taxonomy/tolGendersX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolHusbandStatusX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolIdTypesX.x.x
@@ -39,8 +40,8 @@
 	owl:imports
 		<http://purl.bdrc.io/ontology/types/Gender> ,
 		<https://w3id.org/semanticarts/ontology/gistCore13.0.0> ,
-		<https://w3id.org/semanticarts/ontology/gistMediaTypes12.0.1> ,
-		<https://w3id.org/semanticarts/ontology/tolMediaTypesX.x.x> ,
+		<https://w3id.org/semanticarts/ontology/gistMediaTypes13.0.0> ,
+		<https://w3id.org/semanticarts/taxonomy/tolMediaTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/data/tolAuthorStatementsX.x.x> ,
 		<https://w3id.org/treasuryoflives/data/tolTraditionsX.x.x> ,
 		<https://w3id.org/treasuryoflives/data/tolWebsitesX.x.x> ,
@@ -50,6 +51,7 @@
 		<https://w3id.org/treasuryoflives/taxonomy/tolAddressUsageTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolElectronicAddressTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolEntityActiveStatusX.x.x> ,
+		<https://w3id.org/treasuryoflives/taxonomy/tolGendersX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolHusbandStatusX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolIdTypesX.x.x> ,
