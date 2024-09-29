@@ -20,13 +20,13 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/treasuryoflives/data/tolRoles>
+<https://w3id.org/treasuryoflives/taxonomy/tolRoles>
 	a owl:Ontology ;
 	owl:imports
 		<https://w3id.org/semanticarts/ontology/gistCore12.1.0> ,
 		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
 		;
-	owl:versionIRI <https://w3id.org/treasuryoflives/data/tolRolesX.x.x> ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolRolesX.x.x> ;
 	skos:definition "A role, office, or vocation played by a person, typically, though not always, in an institutional context. Generally role assignments are man-made, other than the ruler role, which is inherited."@en ;
 	skos:editorialNote "Auto-generated via TARQL."@en ;
 	skos:prefLabel "Treasury of Lives Roles"@en ;
