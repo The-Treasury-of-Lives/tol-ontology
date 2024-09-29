@@ -62,7 +62,7 @@ CONSTRUCT {
         owl:sameAs
             ?wikidata_role_iri ,
             ?bdrc_role_iri ;
-        gist:description ?description_en ;
+        skos:definition ?description_en ;
         .
 
 }
