@@ -125,7 +125,7 @@ tolo:SubscriptionType
 tolo:UserAccount
 	a owl:Class ;
 	rdfs:subClassOf gist:Agreement ;
-	skos:definition "An account for a person on the Treasury of Lives website."@en ;
+	skos:definition "An account for a member of the Treasury of Lives website."@en ;
 	skos:prefLabel "User Account"@en ;
 	skos:scopeNote "Editing accounts are managed by the DCA platform. These user accounts are for users with special read access to the site."@en ;
 	.
@@ -202,6 +202,12 @@ tolo:isLastModifiedBy
 	skos:prefLabel "is last modified by"@en ;
 	.
 
+tolo:lastLoginDateTime
+	a owl:DatatypeProperty ;
+	skos:definition "The timestamp of the last login from a user account."@en ;
+	skos:prefLabel "last login datetime"@en ;
+	.
+
 tolo:lastModifiedDateTime
 	a owl:AnnotationProperty ;
 	skos:definition "The timestamp of the last modification of metadata related to some resource."@en ;
@@ -213,5 +219,11 @@ tolo:sourceUrl
 	rdfs:range xsd:anyURI ;
 	skos:definition "The URL of the source of an image or other content."@en ;
 	skos:prefLabel "source URL"@en ;
+	.
+
+tolo:verificationDateTime
+	a owl:DatatypeProperty ;
+	skos:definition "The timestamp that the user account was verified after creation."@en ;
+	skos:prefLabel "verification datetime"@en ;
 	.
 
