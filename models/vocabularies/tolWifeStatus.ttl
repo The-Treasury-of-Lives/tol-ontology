@@ -22,6 +22,7 @@
 	skos:definition "Categories indicating whether a marriage relationship has a junior or senior wife."@en ;
 	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Wife Status"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
 tolx:_WifeStatus_junior

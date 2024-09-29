@@ -27,6 +27,7 @@
 	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Websites"@en ;
 	skos:scopeNote "Ideally, the link to a specific resource would be constructed from the collection url and the local name of the reference, but for some sites we do not have canonical URLs, and different links use different domains. Until we can get this data we  will provide the entire URL with the individual reference. Display labels are used for link text."@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
 told:_Website_84000

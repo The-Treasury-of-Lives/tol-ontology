@@ -22,6 +22,7 @@
 	skos:definition "Defines specific types of kinship groups."@en ;
 	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Kinship Group Types"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
 tolx:_KinshipGroupType_clan

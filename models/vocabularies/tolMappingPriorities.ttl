@@ -22,6 +22,7 @@
 	skos:definition "Defines mapping priorities for displaying places on maps."@en ;
 	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Mapping Priorities"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
 tolx:_MappingPriority_1

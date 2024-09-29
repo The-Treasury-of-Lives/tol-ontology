@@ -22,6 +22,7 @@
 	skos:definition "Defines types of identifiers. In the case of external IDs, ID type is used to construct links by specifying a URL fragment to combine with the identifier to form a URL and a display label to use as link text."@en ;
 	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Identifier Types"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
 tolx:_IdType_har

@@ -22,6 +22,7 @@
 	skos:definition "Defines values indicating how a subscriber is authorized to access Treasury of Lives subscriber content."@en ;
 	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Subscription Access Type"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
 tolx:_SubscriptionAccessType_email

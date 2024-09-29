@@ -22,6 +22,7 @@
 	skos:definition "Defines types of electronic addresses."@en ;
 	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Electronic Address Types"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
 tolx:_ElectronicAddressType_email

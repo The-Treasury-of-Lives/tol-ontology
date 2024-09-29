@@ -22,6 +22,7 @@
 	skos:definition "Categories indicating whether a marriage relationship has a junior or senior husband."@en ;
 	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Husband Status"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
 tolx:_HusbandStatus_junior

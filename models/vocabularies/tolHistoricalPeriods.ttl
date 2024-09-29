@@ -27,8 +27,9 @@
 		;
 	owl:versionIRI <https://w3id.org/treasuryoflives/data/tolHistoricalPeriodsX.x.x> ;
 	skos:definition "Defines full and partial centuries."@en ;
-	skos:editorialNote "Auto-generated via TARQL."@en ;
+	skos:editorialNote "Generated via TARQL."@en ;
 	skos:prefLabel "Historical Periods"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
 told:_FormattedContent_Description_HistoricalPeriod_25
