@@ -43,8 +43,9 @@ CONSTRUCT {
         <https://w3id.org/semanticarts/ontology/gistCore12.1.0> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolRolesX.x.x> ;
 	skos:definition "A role, office, or vocation played by a person, typically, though not always, in an institutional context. Generally role assignments are man-made, other than the ruler role, which is inherited."@en ;
-    skos:editorialNote "Auto-generated via TARQL."@en ;
+    skos:editorialNote "Generated via TARQL."@en ;
 	skos:prefLabel "Treasury of Lives Roles"@en ;
+    gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
     ?role_iri 

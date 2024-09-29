@@ -21,10 +21,9 @@
 	skos:editoralNote "Add rdfs:isDefinedBy using onto-toolkit."@en ;
 	skos:editorialNote """
 		Temporarily removing imports:
-			<http://id.loc.gov/ontologies/bibframe-2-1-0> ,
 			<http://purl.bdrc.io/ontology/core> to make Protege easier to read."""@en ;
 	skos:prefLabel "Treasury of Lives Core Ontology"@en ;
-	gist:license "TBD"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
 gist:EntityActiveStatus

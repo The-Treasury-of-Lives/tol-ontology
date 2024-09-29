@@ -18,7 +18,7 @@
 	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolAdminX.x.x> ;
 	skos:definition "Classes and properties to support Treasury of Lives administrative functions."@en ;
 	skos:prefLabel "Treasury of Lives Admin Ontology"@en ;
-	gist:license "TBD"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
 tolo:Rank

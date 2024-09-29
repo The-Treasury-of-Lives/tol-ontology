@@ -25,6 +25,7 @@
 	skos:definition "Defines types of places. These may be functional types, such as monastery, school, and hospital, or types of natural features, such as cave, lake, and mountain. Some places have more than one category - e.g., a cave can also be a hermitage."@en ;
 	skos:editorialNote "Generated via TARQL."@en ;
 	skos:prefLabel "Place Types"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
 tolx:_PlaceType_cave

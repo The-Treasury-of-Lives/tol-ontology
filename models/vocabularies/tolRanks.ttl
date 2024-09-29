@@ -22,6 +22,7 @@
 	skos:definition "Defines non-numeric rank categories such as primary and secondary."@en ;
 	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Ranks"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
 tolx:_Rank_primary

@@ -18,7 +18,7 @@
 	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x> ;
 	skos:definition "Defines concepts to support Treasury of Lives website display."@en ;
 	skos:prefLabel "Treasury of Lives Display Ontology"@en ;
-	gist:license "TBD"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
 tolo:MapRegionType

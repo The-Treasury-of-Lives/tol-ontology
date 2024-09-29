@@ -38,10 +38,11 @@ CONSTRUCT {
         a owl:Ontology ;
         skos:definition "Defines full and partial centuries."@en ;
         skos:prefLabel "Historical Periods"@en ;
-        skos:editorialNote "Auto-generated via TARQL."@en ;
+        skos:editorialNote "Generated via TARQL."@en ;
 		owl:imports <https://w3id.org/semanticarts/ontology/gistCore13.0.0> ,
 	    	<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	    owl:versionIRI <https://w3id.org/treasuryoflives/data/tolHistoricalPeriodsX.x.x> ;
+		gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
 	?historical_period_iri 

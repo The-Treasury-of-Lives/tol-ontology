@@ -23,6 +23,7 @@
 	skos:editorialNote "Hand-curated."@en ;
 	skos:prefLabel "Entity Active Status"@en ;
 	skos:scopeNote "This will mean different things in different contexts."@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
 tolx:_EntityActiveStatus_active
