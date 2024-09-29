@@ -202,6 +202,12 @@ tolo:isLastModifiedBy
 	skos:prefLabel "is last modified by"@en ;
 	.
 
+tolo:lastLoginDateTime
+	a owl:AnnotationProperty ;
+	skos:definition "The timestamp of the last login by the user."@en ;
+	skos:prefLabel "last login datetime"@en ;
+	.
+
 tolo:lastModifiedDateTime
 	a owl:AnnotationProperty ;
 	skos:definition "The timestamp of the last modification of metadata related to some resource."@en ;
@@ -213,5 +219,11 @@ tolo:sourceUrl
 	rdfs:range xsd:anyURI ;
 	skos:definition "The URL of the source of an image or other content."@en ;
 	skos:prefLabel "source URL"@en ;
+	.
+
+tolo:verificationDateTime
+	a owl:AnnotationProperty ;
+	skos:definition "The timestamp of the verification of the user account."@en ;
+	skos:prefLabel "verification datetime"@en ;
 	.
 
