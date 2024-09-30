@@ -11,7 +11,6 @@
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolAddressUsageTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolElectronicAddressTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolEntityActiveStatusX.x.x
-# imports: https://w3id.org/treasuryoflives/taxonomy/tolGendersX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolHusbandStatusX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolIdTypesX.x.x
@@ -51,7 +50,6 @@
 		<https://w3id.org/treasuryoflives/taxonomy/tolAddressUsageTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolElectronicAddressTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolEntityActiveStatusX.x.x> ,
-		<https://w3id.org/treasuryoflives/taxonomy/tolGendersX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolHistoricalPeriodsX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolHusbandStatusX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolIdTypesX.x.x> ,

@@ -171,13 +171,6 @@ tolo:Founding
 	skos:prefLabel "Founding"@en ;
 	.
 
-tolo:Gender
-	a owl:Class ;
-	rdfs:subClassOf gist:Category ;
-	skos:definition "TBD"@en ;
-	skos:prefLabel "Gender"@en ;
-	.
-
 tolo:HistoricalPeriod
 	a owl:Class ;
 	rdfs:subClassOf gist:TimeInterval ;
