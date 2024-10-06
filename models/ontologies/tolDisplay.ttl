@@ -93,6 +93,13 @@ tolo:displayText
 	skos:prefLabel "display text"@en ;
 	.
 
+tolo:hasDisplayImage
+	a owl:AnnotationProperty ;
+	skos:definition "Relates a person, place, or other resource to an image that is displayed on its Treasury of Lives web page."@en ;
+	skos:example "The page for Jinamitra displays a generic translator image."@en ;
+	skos:scopeNote "Not using tolo:depicts, since some images are displayed with multiple people and are not depicted with them; e.g., a generic translator image is displayed on the page of Jinamitra and other translators."@en ;
+	.
+
 tolo:hasMappingPriority
 	a owl:AnnotationProperty ;
 	rdfs:range tolo:MappingPriority ;
