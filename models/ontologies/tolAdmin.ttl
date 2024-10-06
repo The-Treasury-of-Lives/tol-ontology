@@ -21,15 +21,6 @@
 	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
-tolo:Rank
-	a owl:Class ;
-	rdfs:subClassOf gist:Category ;
-	skos:definition "Relative standing or position."@en ;
-	skos:example "Primary or secondary image of a person"@en ;
-	skos:prefLabel "Rank"@en ;
-	skos:scopeNote "Used primarily for non-numeric values. Numeric values can use gist:sequence."@en ;
-	.
-
 tolo:Subscription
 	a owl:Class ;
 	owl:equivalentClass [

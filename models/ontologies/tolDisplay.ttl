@@ -93,14 +93,6 @@ tolo:displayText
 	skos:prefLabel "display text"@en ;
 	.
 
-tolo:hasDisplayImage
-	a owl:AnnotationProperty ;
-	skos:definition "Relates a person, place, or other resource to an image that is displayed on its web page."@en ;
-	skos:example "The page for Jinamitra displays a generic translator image."@en ;
-	skos:scopeNote "tolo:depicts is not always accurate, since some images are displayed with multiple people and are not depicted with them. For example, a generic translator image is displayed on the page of Jinamitra and other translators."@en ;
-	gist:rangeIncludes tolo:Image ;
-	.
-
 tolo:hasMappingPriority
 	a owl:AnnotationProperty ;
 	rdfs:range tolo:MappingPriority ;
@@ -110,6 +102,26 @@ tolo:hasMappingPriority
 		gist:Place ,
 		tolo:Institution
 		;
+	.
+
+tolo:hasPrimaryDisplayImage
+	a owl:AnnotationProperty ;
+	skos:definition "Relates a person, place, or other resource to the primary image displayed on its web page. Only the primary image is displayed in search results."@en ;
+	skos:editorialNote "Not defining superproperty hasDisplayImage since these are annotation properties."@en ;
+	skos:example "The page for Jinamitra displays a generic translator image. The page for Nanam Yeshe De has two images, a primary and a secondary one."@en ;
+	skos:prefLabel "has primary display image"@en ;
+	skos:scopeNote "tolo:depicts is not always accurate, since some images are displayed with multiple people and are not depicted with them. For example, a generic translator image is displayed on the page of Jinamitra and other translators."@en ;
+	gist:rangeIncludes tolo:Image ;
+	.
+
+tolo:hasSecondaryDisplayImage
+	a owl:AnnotationProperty ;
+	skos:definition "Relates a person, place, or other resource to a secondary image displayed on its web page. Unlike the primary image, the secondary image is not displayed in search results."@en ;
+	skos:editorialNote "Not defining superproperty hasDisplayImage since these are annotation properties."@en ;
+	skos:example "The page for Nanam Yeshe De has two images, a primary and a secondary one."@en ;
+	skos:prefLabel "has secondary display image"@en ;
+	skos:scopeNote "tolo:depicts is not always accurate, since some images are displayed with multiple people and are not depicted with them. For example, a generic translator image is displayed on the page of Jinamitra and other translators."@en ;
+	gist:rangeIncludes tolo:Image ;
 	.
 
 tolo:isRenderedAt
