@@ -11,10 +11,10 @@
 	a owl:Ontology ;
 	owl:imports <https://w3id.org/semanticarts/ontology/gistCore13.0.0> ;
 	owl:versionIRI <https://w3id.org/semanticarts/ontology/gistSubClassAssertions13.0.0> ;
-	skos:definition "Supplementary subclass assertions for gistCore."@en ;
-	skos:prefLabel "gist Subclass Assertions"@en ;
-	skos:scopeNote "This ontology contains supplementary subclass assertions to aid some automated reasoners. For example, while an OWL DL reasoner infers from the class equivalence that gist:Commitment is a subclass of gist:Intention, an RL reasoner does not. More precisely, the ontology contains (1) direct subclass assertions derived using an OWL DL reasoner and (2) the subclass assertions that are already explicit in gistCore."@en ;
-	gist:license "https://creativecommons.org/licenses/by-sa/3.0/"@en ;
+	skos:definition "Supplementary subclass assertions for gistCore."^^xsd:string ;
+	skos:prefLabel "gist Subclass Assertions"^^xsd:string ;
+	skos:scopeNote "This ontology contains supplementary subclass assertions to aid some automated reasoners. For example, while an OWL DL reasoner infers from the class equivalence that gist:Commitment is a subclass of gist:Intention, an RL reasoner does not. More precisely, the ontology contains (1) direct subclass assertions derived using an OWL DL reasoner and (2) the subclass assertions that are already explicit in gistCore."^^xsd:string ;
+	gist:license "https://creativecommons.org/licenses/by-sa/3.0/"^^xsd:string ;
 	.
 
 gist:Account
