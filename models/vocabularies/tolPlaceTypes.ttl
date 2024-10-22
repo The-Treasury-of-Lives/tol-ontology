@@ -1,270 +1,194 @@
-# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
-
-@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
-@prefix bdr: <http://purl.bdrc.io/resource/> .
-@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
-@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
-@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
-@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
-@prefix wiki: <https://www.wikidata.org/wiki/> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bf:  <http://id.loc.gov/ontologies/bibframe/> .
+@prefix media-txt:  <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix told:  <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix wiki:  <https://www.wikidata.org/wiki/> .
+@prefix tolo:  <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix bdo:  <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr:  <http://purl.bdrc.io/resource/> .
+@prefix tolx:  <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix gist:  <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:  <http://www.w3.org/XML/1998/namespace> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 
 <https://w3id.org/treasuryoflives/taxonomy/tolPlaceTypes>
-	a owl:Ontology ;
-	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
-	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolPlaceTypesX.x.x> ;
-	skos:definition "Defines types of places. These may be functional types, such as monastery, school, and hospital, or types of natural features, such as cave, lake, and mountain. Some places have more than one category - e.g., a cave can also be a hermitage."@en ;
-	skos:editorialNote "Generated via TARQL."@en ;
-	skos:prefLabel "Place Types"@en ;
-	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
-	.
-
-tolx:_PlaceType_cave
-	a tolo:PlaceType ;
-	owl:sameAs
-		bdr:PT0036 ,
-		wiki:Q35509
-		;
-	skos:definition "A natural void in the ground or indentation in a cliff face."@en ;
-	skos:prefLabel
-		"Cave"@en ,
-		"sgrub phug"@bo-x-ewts ,
-		"སྒྲུབ་ཕུག་"@bo ,
-		"洞穴"@zh-HANI
-		;
-	.
-
-tolx:_PlaceType_dharma_center
-	a tolo:PlaceType ;
-	owl:sameAs wiki:Q5269258 ;
-	skos:definition "A contemporary building in North America, South America, Europe, Southeast Asia, Africa, or Australia designated for religious practice."@en ;
-	skos:prefLabel
-		"Dharma Center"@en ,
-		"chos tshogs"@bo-x-ewts ,
-		"ཆོས་ཚོགས་"@bo
-		;
-	.
-
-tolx:_PlaceType_government_building
-	a tolo:PlaceType ;
-	owl:sameAs wiki:Q294422 ;
-	skos:definition "A building that houses a branch of government."@en ;
-	skos:prefLabel
-		"Government Building"@en ,
-		"gzhung las khang"@bo-x-ewts ,
-		"གཞུང་ལས་ཁང་"@bo
-		;
-	.
-
-tolx:_PlaceType_hermitage
-	a tolo:PlaceType ;
-	owl:sameAs
-		bdr:PT0021 ,
-		wiki:Q513550
-		;
-	skos:definition "A remote place for meditation training, either individually or communally."@en ;
-	skos:prefLabel
-		"Hermitage"@en ,
-		"ri khrod"@bo-x-ewts ,
-		"རི་ཁྲོད་"@bo ,
-		"隐修地"@zh-HANI
-		;
-	.
-
-tolx:_PlaceType_hidden_land
-	a tolo:PlaceType ;
-	owl:sameAs bdr:PT0023 ;
-	skos:definition "A valley deemed by a ritual specialist to be sacred and uniquely suited for religious activity."@en ;
-	skos:prefLabel
-		"Hidden Land"@en ,
-		"sbas yul"@bo-x-ewts ,
-		"སྦས་ཡུལ་"@bo ,
-		"秘境"@zh-HANI
-		;
-	.
-
-tolx:_PlaceType_hospital
-	a tolo:PlaceType ;
-	owl:sameAs
-		bdr:PT0023 ,
-		wiki:Q101251441
-		;
-	skos:definition "A structure that is intentionally dedicated to healing."@en ;
-	skos:prefLabel
-		"Hospital"@en ,
-		"sman khang"@bo-x-ewts ,
-		"སྨན་ཁང་"@bo ,
-		"医院"@zh-HANI
-		;
-	.
-
-tolx:_PlaceType_lake
-	a tolo:PlaceType ;
-	owl:sameAs
-		bdr:PT0028 ,
-		wiki:Q23397
-		;
-	skos:definition "A body of fresh water."@en ;
-	skos:prefLabel
-		"Lake"@en ,
-		"mtsho"@bo-x-ewts ,
-		"མཚོ་"@bo ,
-		"湖"@zh-HANI
-		;
-	.
-
-tolx:_PlaceType_manor
-	a tolo:PlaceType ;
-	owl:sameAs
-		bdr:PT0034 ,
-		wiki:Q879050
-		;
-	skos:definition "A residence of a member of an elite social class."@en ;
-	skos:prefLabel
-		"Manor"@en ,
-		"gzims shag"@bo-x-ewts ,
-		"གཟིམས་ཤག་"@bo ,
-		"府邸"@zh-HANI
-		;
-	.
+        rdf:type            owl:Ontology ;
+        owl:imports         <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
+        owl:versionIRI      <https://w3id.org/treasuryoflives/taxonomy/tolPlaceTypesX.x.x> ;
+        skos:definition     "Defines types of places. These may be functional types, such as monastery, school, and hospital, or types of natural features, such as cave and mountain. Some places have more than one category - e.g., a cave can also be a hermitage."@en ;
+        skos:editorialNote  "Generated via TARQL."@en ;
+        skos:prefLabel      "Place Types"@en ;
+        gist:license        "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI .
 
 tolx:_PlaceType_monastery
-	a tolo:PlaceType ;
-	owl:sameAs
-		bdr:PT0037 ,
-		wiki:Q44613
-		;
-	skos:definition "A community of ordained individuals affiliated with a particular religious tradition with a common annual ritual calendar and rules. The community is organized heirarchically, with established roles such as abbot, treasurer, and the like. Human-created structures such as temples, assembly halls, residential houses and meditation halls are typical features."@en ;
-	skos:prefLabel
-		"Monastery"@en ,
-		"dgon pa"@bo-x-ewts ,
-		"དགོན་པ་"@bo ,
-		"寺院"@zh-HANI
-		;
-	.
-
-tolx:_PlaceType_monastic_college
-	a tolo:PlaceType ;
-	owl:sameAs bdr:PT0038 ;
-	skos:altLabel
-		"bshad grwa"@bo-x-ewts ,
-		"བཤད་གྲྭ་"@bo
-		;
-	skos:definition "An institute of higher studies associated with a monastery. Members include teachers and students. Most monastic colleges train monks or nuns in the religious texts and rituals of the associated monastery."@en ;
-	skos:prefLabel
-		"Monastic College"@en ,
-		"grwa tshang"@bo-x-ewts ,
-		"གྲྭ་ཚང་"@bo ,
-		"讲经院"@zh-HANI
-		;
-	.
-
-tolx:_PlaceType_mountain
-	a tolo:PlaceType ;
-	owl:sameAs
-		bdr:PT0042 ,
-		wiki:Q8502
-		;
-	skos:definition "An elevated section of earth."@en ;
-	skos:prefLabel
-		"Mountain"@en ,
-		"ri bo"@bo-x-ewts ,
-		"རི་བོ་"@bo ,
-		"山"@zh-HANI
-		;
-	.
-
-tolx:_PlaceType_nunnery
-	a tolo:PlaceType ;
-	owl:sameAs
-		bdr:PT0050 ,
-		wiki:Q6021560
-		;
-	skos:altLabel
-		"btsun dgon"@bo-x-ewts ,
-		"jo mo dgon"@bo-x-ewts ,
-		"ཇོ་མོ་དགོན་"@bo ,
-		"བཙུན་དགོན་"@bo
-		;
-	skos:definition "A community of women dedicated to religious practice."@en ;
-	skos:prefLabel
-		"Nunnery"@en ,
-		"a ni dgon pa"@bo-x-ewts ,
-		"ཨ་ནི་དགོན་པ་"@bo ,
-		"尼姑寺"@zh-HANI
-		;
-	.
-
-tolx:_PlaceType_palace
-	a tolo:PlaceType ;
-	owl:sameAs
-		bdr:PT0051 ,
-		wiki:Q16560
-		;
-	skos:altLabel
-		"rgyal khang"@bo-x-ewts ,
-		"རྒྱལ་ཁང་"@bo
-		;
-	skos:definition "A residence of a member of a royal family."@en ;
-	skos:prefLabel
-		"Palace"@en ,
-		"pho brang"@bo-x-ewts ,
-		"ཕོ་བྲང་"@bo ,
-		"宫殿"@zh-HANI
-		;
-	.
-
-tolx:_PlaceType_school
-	a tolo:PlaceType ;
-	owl:sameAs
-		bdr:PT0067 ,
-		wiki:Q3914
-		;
-	skos:definition "A structure housing a community that is intentonally dedicated to education."@en ;
-	skos:prefLabel
-		"School"@en ,
-		"slob grwa"@bo-x-ewts ,
-		"སློབ་གྲྭ་"@bo ,
-		"学校"@zh-HANI
-		;
-	.
+        rdf:type         tolo:PlaceType ;
+        owl:sameAs       bdr:PT0037 ;
+        owl:sameAs       wiki:Q44613 ;
+        skos:prefLabel   "Monastery"@en ;
+        skos:prefLabel   "dgon pa"@bo-x-ewts ;
+        skos:prefLabel   "དགོན་པ།"@bo ;
+        skos:prefLabel   "寺院"@zh-Hani ;
+        skos:definition  "A community of ordained individuals affiliated with a particular religious tradition with a common annual ritual calendar and rules. The community is organized heirarchically, with established roles such as abbot, treasurer, and the like. Human-created structures such as temples, assembly halls, residential houses and meditation halls are typical features."@en .
 
 tolx:_PlaceType_stupa
-	a tolo:PlaceType ;
-	owl:sameAs
-		bdr:PT0072 ,
-		wiki:Q180987
-		;
-	skos:definition "A dome-shaped monument housing relics of the Buddha or an accomplished master that are often sites of pilgrimage and worship."@en ;
-	skos:prefLabel
-		"Stupa"@en ,
-		"mchod rten"@bo-x-ewts ,
-		"མཆོད་རྟེན་"@bo ,
-		"佛塔"@zh-HANI
-		;
-	.
+        rdf:type         tolo:PlaceType ;
+        owl:sameAs       bdr:PT0072 ;
+        owl:sameAs       wiki:Q180987 ;
+        skos:prefLabel   "Stupa"@en ;
+        skos:prefLabel   "mchod rten"@bo-x-ewts ;
+        skos:prefLabel   "མཆོད་རྟེན།"@bo ;
+        skos:prefLabel   "佛塔"@zh-Hani ;
+        skos:definition  "A dome-shaped monument housing relics of the Buddha or an accomplished master that are often sites of pilgrimage and worship."@en .
 
 tolx:_PlaceType_temple
-	a tolo:PlaceType ;
-	owl:sameAs
-		bdr:PT0074 ,
-		wiki:Q7244730
-		;
-	skos:definition "A building that is dedicated to the worship of a particular deity."@en ;
-	skos:prefLabel
-		"Temple"@en ,
-		"lha khang"@bo-x-ewts ,
-		"ལྷ་ཁང་"@bo ,
-		"宇"@zh-HANI
-		;
-	.
+        rdf:type         tolo:PlaceType ;
+        owl:sameAs       bdr:PT0074 ;
+        owl:sameAs       wiki:Q7244730 ;
+        skos:prefLabel   "Temple"@en ;
+        skos:prefLabel   "lha khang"@bo-x-ewts ;
+        skos:prefLabel   "ལྷ་ཁང་།"@bo ;
+        skos:prefLabel   "宇"@zh-Hani ;
+        skos:definition  "A building that is dedicated to the worship of a particular deity."@en .
 
+tolx:_PlaceType_manor
+        rdf:type         tolo:PlaceType ;
+        owl:sameAs       bdr:PT0034 ;
+        owl:sameAs       wiki:Q879050 ;
+        skos:prefLabel   "Manor"@en ;
+        skos:prefLabel   "gzims shag"@bo-x-ewts ;
+        skos:prefLabel   "གཟིམས་ཤག།"@bo ;
+        skos:prefLabel   "府邸"@zh-Hani ;
+        skos:definition  "A residence of a member of an elite social class."@en .
+
+tolx:_PlaceType_government_building
+        rdf:type         tolo:PlaceType ;
+        owl:sameAs       wiki:Q294422 ;
+        skos:prefLabel   "Government Building"@en ;
+        skos:prefLabel   "gzhung las khang"@bo-x-ewts ;
+        skos:prefLabel   "གཞུང་ལས་ཁང་།"@bo ;
+        skos:definition  "A building that houses a branch of government."@en .
+
+tolx:_PlaceType_palace
+        rdf:type         tolo:PlaceType ;
+        owl:sameAs       bdr:PT0051 ;
+        owl:sameAs       wiki:Q16560 ;
+        skos:prefLabel   "Palace"@en ;
+        skos:prefLabel   "pho brang"@bo-x-ewts ;
+        skos:prefLabel   "ཕོ་བྲང་།"@bo ;
+        skos:prefLabel   "宫殿"@zh-Hani ;
+        skos:altLabel    "rgyal khang"@bo-x-ewts ;
+        skos:altLabel    "རྒྱལ་ཁང་།"@bo ;
+        skos:definition  "A residence of a member of a royal family."@en .
+
+tolx:_PlaceType_hermitage
+        rdf:type         tolo:PlaceType ;
+        owl:sameAs       bdr:PT0021 ;
+        owl:sameAs       wiki:Q513550 ;
+        skos:prefLabel   "Hermitage"@en ;
+        skos:prefLabel   "ri khrod"@bo-x-ewts ;
+        skos:prefLabel   "རི་ཁྲོད།"@bo ;
+        skos:prefLabel   "隐修地"@zh-Hani ;
+        skos:definition  "A remote place for meditation training, either individually or communally."@en .
+
+tolx:_PlaceType_lake  rdf:type  tolo:PlaceType ;
+        owl:sameAs       bdr:PT0028 ;
+        owl:sameAs       wiki:Q23397 ;
+        skos:prefLabel   "Lake"@en ;
+        skos:prefLabel   "mtsho"@bo-x-ewts ;
+        skos:prefLabel   "མཚོ།"@bo ;
+        skos:prefLabel   "湖"@zh-Hani ;
+        skos:definition  "A body of fresh water."@en .
+
+tolx:_PlaceType_mountain
+        rdf:type         tolo:PlaceType ;
+        owl:sameAs       bdr:PT0042 ;
+        owl:sameAs       wiki:Q8502 ;
+        skos:prefLabel   "Mountain"@en ;
+        skos:prefLabel   "ri bo"@bo-x-ewts ;
+        skos:prefLabel   "རི་བོ།"@bo ;
+        skos:prefLabel   "山"@zh-Hani ;
+        skos:definition  "An elevated section of earth."@en .
+
+tolx:_PlaceType_hospital
+        rdf:type         tolo:PlaceType ;
+        owl:sameAs       bdr:PT0023 ;
+        owl:sameAs       wiki:Q101251441 ;
+        skos:prefLabel   "Hospital"@en ;
+        skos:prefLabel   "sman khang"@bo-x-ewts ;
+        skos:prefLabel   "སྨན་ཁང་།"@bo ;
+        skos:prefLabel   "医院"@zh-Hani ;
+        skos:definition  "A structure that is intentionally dedicated to healing."@en .
+
+tolx:_PlaceType_hidden_land
+        rdf:type         tolo:PlaceType ;
+        owl:sameAs       bdr:PT0023 ;
+        skos:prefLabel   "Hidden Land"@en ;
+        skos:prefLabel   "sbas yul"@bo-x-ewts ;
+        skos:prefLabel   "སྦས་ཡུལ།"@bo ;
+        skos:prefLabel   "秘境"@zh-Hani ;
+        skos:definition  "A valley deemed by a ritual specialist to be sacred and uniquely suited for religious activity."@en .
+
+tolx:_PlaceType_school
+        rdf:type         tolo:PlaceType ;
+        owl:sameAs       bdr:PT0067 ;
+        owl:sameAs       wiki:Q3914 ;
+        skos:prefLabel   "School"@en ;
+        skos:prefLabel   "slob grwa"@bo-x-ewts ;
+        skos:prefLabel   "སློབ་གྲྭ།"@bo ;
+        skos:prefLabel   "学校"@zh-Hani ;
+        skos:definition  "A structure housing a community that is intentonally dedicated to education."@en .
+
+tolx:_PlaceType_dharma_center
+        rdf:type         tolo:PlaceType ;
+        owl:sameAs       wiki:Q5269258 ;
+        skos:prefLabel   "Dharma Center"@en ;
+        skos:prefLabel   "chos tshogs"@bo-x-ewts ;
+        skos:prefLabel   "ཆོས་ཚོགས།"@bo ;
+        skos:definition  "A contemporary building in North America, South America, Europe, Southeast Asia, Africa, or Australia designated for religious practice."@en .
+
+tolx:_PlaceType_nunnery
+        rdf:type         tolo:PlaceType ;
+        owl:sameAs       bdr:PT0050 ;
+        owl:sameAs       wiki:Q6021560 ;
+        skos:prefLabel   "Nunnery"@en ;
+        skos:prefLabel   "a ni dgon pa"@bo-x-ewts ;
+        skos:prefLabel   "ཨ་ནི་དགོན་པ།"@bo ;
+        skos:prefLabel   "尼姑寺"@zh-Hani ;
+        skos:altLabel    "btsun dgon"@bo-x-ewts ;
+        skos:altLabel    "བཙུན་དགོན།"@bo ;
+        skos:definition  "A community of women dedicated to religious practice."@en ;
+        skos:altLabel    "ཇོ་མོ་དགོན།"@bo ;
+        skos:altLabel    "jo mo dgon"@bo-x-ewts .
+
+tolx:_PlaceType_cave  rdf:type  tolo:PlaceType ;
+        owl:sameAs       bdr:PT0036 ;
+        owl:sameAs       wiki:Q35509 ;
+        skos:prefLabel   "Cave"@en ;
+        skos:prefLabel   "sgrub phug"@bo-x-ewts ;
+        skos:prefLabel   "སྒྲུབ་ཕུག།"@bo ;
+        skos:prefLabel   "洞穴"@zh-Hani ;
+        skos:definition  "A natural void in the ground or indentation in a cliff face."@en .
+
+tolx:_PlaceType_monastic_college
+        rdf:type         tolo:PlaceType ;
+        owl:sameAs       bdr:PT0038 ;
+        skos:prefLabel   "Monastic College"@en ;
+        skos:prefLabel   "grwa tshang"@bo-x-ewts ;
+        skos:prefLabel   "གྲྭ་ཚང་།"@bo ;
+        skos:prefLabel   "讲经院"@zh-Hani ;
+        skos:altLabel    "bshad grwa"@bo-x-ewts ;
+        skos:altLabel    "བཤད་གྲྭ།"@bo ;
+        skos:definition  "An institute of higher studies associated with a monastery. Members include teachers and students. Most monastic colleges train monks or nuns in the religious texts and rituals of the associated monastery."@en .
+
+tolx:_PlaceType_residential_house
+        rdf:type         tolo:PlaceType ;
+        owl:sameAs       wiki:Q847950 ;
+        skos:prefLabel   "Residential House"@en ;
+        skos:prefLabel   "khams tshan"@bo-x-ewts ;
+        skos:prefLabel   "ཁམས་ཚན།"@bo ;
+        skos:definition  "A residential house of a monastic college that is divided by regional affiliation."@en .
