@@ -188,7 +188,7 @@ tolx:_PlaceType_monastic_college
 tolx:_PlaceType_residential_house
         rdf:type         tolo:PlaceType ;
         owl:sameAs       wiki:Q847950 ;
-        skos:prefLabel   "Residential House"@en ;
+        skos:prefLabel   "Regional House"@en ;
         skos:prefLabel   "khams tshan"@bo-x-ewts ;
         skos:prefLabel   "ཁམས་ཚན།"@bo ;
         skos:definition  "A residential house of a monastic college that is divided by regional affiliation."@en .
