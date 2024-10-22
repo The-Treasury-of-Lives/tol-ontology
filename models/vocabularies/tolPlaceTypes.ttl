@@ -185,7 +185,7 @@ tolx:_PlaceType_monastic_college
         skos:altLabel    "བཤད་གྲྭ།"@bo ;
         skos:definition  "An institute of higher studies associated with a monastery. Members include teachers and students. Most monastic colleges train monks or nuns in the religious texts and rituals of the associated monastery."@en .
 
-tolx:_PlaceType_residential_house
+tolx:_PlaceType_regional_house
         rdf:type         tolo:PlaceType ;
         owl:sameAs       wiki:Q847950 ;
         skos:prefLabel   "Regional House"@en ;
