@@ -30,9 +30,9 @@ tolx:_ElectronicAddressType_email
 	skos:prefLabel "Email Address"@en ;
 	.
 
-tolx:_ElectronicAddressType_telephone
+tolx:_ElectronicAddressType_phone
 	a gist:ElectronicAddressType ;
-	skos:prefLabel "Telephone"@en ;
+	skos:prefLabel "Phone"@en ;
 	.
 
 tolx:_ElectronicAddressType_url

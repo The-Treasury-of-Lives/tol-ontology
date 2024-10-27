@@ -36,7 +36,7 @@ tolx:_KinshipGroupType_clan
 		"Clan"@en ,
 		"rigs"@bo-W-exts ,
 		"རིགས།"@bo ,
-		"氏族"@zh-HANI
+		"氏族"@zh-Hani
 		;
 	.
 
@@ -69,7 +69,7 @@ tolx:_KinshipGroupType_lhasa_aristocracy
 		"Lhasa Aristocracy"@en ,
 		"sku drag nang mi"@bo-x-ewts ,
 		"སྐུ་དྲག་ནང་མི།"@bo ,
-		"卫藏贵族"@zh-HANI
+		"卫藏贵族"@zh-Hani
 		;
 	.
 

@@ -8,6 +8,7 @@
 # imports: https://w3id.org/treasuryoflives/ontology/tolAdminX.x.x
 # imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
 # imports: https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x
+# imports: https://w3id.org/treasuryoflives/ontology/tolFamilyRelationshipsX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolAddressUsageTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolElectronicAddressTypesX.x.x
 # imports: https://w3id.org/treasuryoflives/taxonomy/tolEntityActiveStatusX.x.x
@@ -46,6 +47,7 @@
 		<https://w3id.org/treasuryoflives/ontology/tolAdminX.x.x> ,
 		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ,
 		<https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x> ,
+		<https://w3id.org/treasuryoflives/ontology/tolFamilyRelationshipsX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolAddressUsageTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolElectronicAddressTypesX.x.x> ,
 		<https://w3id.org/treasuryoflives/taxonomy/tolEntityActiveStatusX.x.x> ,
