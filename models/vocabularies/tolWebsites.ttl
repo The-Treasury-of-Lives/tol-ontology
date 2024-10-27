@@ -32,10 +32,7 @@
 
 told:_Website_84000
 	a tolo:Website ;
-	skos:editorialNote
-		"Currently not used"@en ,
-		"May need display label different from skos:prefLabel."@en
-		;
+	skos:editorialNote "Currently not used."@en ;
 	skos:prefLabel "84000"@en ;
 	tolo:displayLabel "84000"@en ;
 	tolo:url "https://84000.co/"^^xsd:anyURI ;
@@ -59,10 +56,7 @@ told:_Website_lotsawa_house
 
 told:_Website_rma
 	a tolo:Website ;
-	skos:editorialNote
-		"Currently not used"@en ,
-		"May need display label different from skos:prefLabel."@en
-		;
+	skos:editorialNote "Currently not used."@en ;
 	skos:prefLabel "Rubin Museum of Art"@en ;
 	tolo:displayLabel "Rubin Museum of Art"@en ;
 	tolo:url "https://rubinmuseum.org/"^^xsd:anyURI ;

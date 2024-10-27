@@ -27,13 +27,11 @@
 
 tolx:_RegionType_county_seat
 	a tolo:RegionType ;
-	skos:definition "TBD."@en ;
 	skos:prefLabel "County Seat"@en ;
 	.
 
 tolx:_RegionType_folk_region
 	a tolo:RegionType ;
-	skos:definition "TBD."@en ;
 	skos:prefLabel "Folk Region"@en ;
 	.
 

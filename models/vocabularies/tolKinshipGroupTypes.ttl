@@ -42,10 +42,7 @@ tolx:_KinshipGroupType_clan
 
 tolx:_KinshipGroupType_depon
 	a tolo:KinshipGroupType ;
-	skos:definition
-		"TBD"@en ,
-		"The highest peerage, made up of five families consisting of Gazhi, Ton, Dokhar, Palha and Lhagyari."@en
-		;
+	skos:definition "The highest peerage, made up of five families consisting of Gazhi, Ton, Dokhar, Palha and Lhagyari."@en ;
 	skos:prefLabel
 		"Depon"@en ,
 		"de dpon"@bo-W-exts ,
