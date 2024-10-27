@@ -1,0 +1,187 @@
+# imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/treasuryoflives/ontology/tolFamilyRelationshipsX.x.x>
+	a owl:Ontology ;
+	owl:imports <https://w3id.org/semanticarts/ontology/gistCore13.0.0> ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolFamilyRelationshipsX.x.x> ;
+	skos:definition "Nuanced family relationships that are not currently used."@en ;
+	skos:editorialNote """
+		Temporarily removing imports:
+			<http://purl.bdrc.io/ontology/core> to make Protege easier to read."""@en ;
+	skos:prefLabel "Treasury of Lives Family Relationships Ontology"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+	.
+
+tolo:hasFraternalNephew
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasNephew ;
+	owl:propertyChainAxiom (
+		bdo:hasBrother
+		bdo:hasSon
+	) ;
+	skos:definition "Relates a person to the son of his/her brother."@en ;
+	skos:prefLabel "has fraternal nephew"@en ;
+	skos:scopeNote
+		"We do not currently distinguish biological, adoptive, half, and step relationships."@en ,
+		"While a nephew can be related through either a sibling or sibling-in-law, a fraternal nephew is always related through a brother."@en
+		;
+	.
+
+tolo:hasFraternalNiece
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasNiece ;
+	owl:propertyChainAxiom (
+		bdo:hasBrother
+		bdo:hasSon
+	) ;
+	skos:definition "Relates a person to the daughter of his/her brother."@en ;
+	skos:prefLabel "has fraternal niece"@en ;
+	skos:scopeNote
+		"We do not currently distinguish biological, adoptive, half, and step relationships."@en ,
+		"While a niece can be related through either a sibling or sibling-in-law, a fraternal niece is always related through a brother."@en
+		;
+	.
+
+tolo:hasMaternalCousin
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasCousin ;
+	skos:definition "Relates a person to his/her cousin on the mother's side."@en ;
+	skos:prefLabel "has maternal cousin"@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasMaternalGrandfather
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf
+		bdo:hasGrandfather ,
+		tolo:hasMaternalGrandparent
+		;
+	owl:propertyChainAxiom (
+		tolo:hasMother
+		tolo:hasFather
+	) ;
+	skos:definition "Relates a person to his/her mother's father."@en ;
+	skos:prefLabel "has maternal grandfather"@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasMaternalGrandmother
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf
+		bdo:hasGrandmother ,
+		tolo:hasMaternalGrandparent
+		;
+	owl:propertyChainAxiom (
+		bdo:hasMother
+		bdo:hasMother
+	) ;
+	skos:definition "Relates a person to his/her mother's mother."@en ;
+	skos:prefLabel "has maternal grandmother"@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasMaternalGrandparent
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasGrandmother ;
+	owl:propertyChainAxiom (
+		bdo:hasMother
+		bdo:hasParent
+	) ;
+	skos:definition "Relates a person to his/her mother's parent."@en ;
+	skos:prefLabel "has maternal grandmother"@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasPaternalCousin
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasCousin ;
+	skos:definition "Relates a person to his/her cousin on the father's side."@en ;
+	skos:prefLabel "has paternal cousin"@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasPaternalGrandfather
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf
+		bdo:hasGrandfather ,
+		tolo:hasPaternalGrandparent
+		;
+	owl:propertyChainAxiom (
+		bdo:hasFather
+		bdo:hasFather
+	) ;
+	skos:definition "Relates a person to his/her father's father."@en ;
+	skos:prefLabel "has paternal grandfather"@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasPaternalGrandmother
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf
+		bdo:hasGrandmother ,
+		tolo:hasPaternalGrandparent
+		;
+	owl:propertyChainAxiom (
+		bdo:hasFather
+		bdo:hasMother
+	) ;
+	skos:definition "Relates a person to his/her father's mother."@en ;
+	skos:prefLabel "has paternal grandmother"@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasPaternalGrandparent
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasGrandparent ;
+	owl:propertyChainAxiom (
+		bdo:hasFather
+		bdo:hasParent
+	) ;
+	skos:definition "Relates a person to his/her fathers's parent."@en ;
+	skos:prefLabel "has maternal grandmother"@en ;
+	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
+	.
+
+tolo:hasSororallNephew
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasNephew ;
+	owl:propertyChainAxiom (
+		bdo:hasSister
+		bdo:hasSon
+	) ;
+	skos:definition "Relates a person to his/her sister's son."@en ;
+	skos:prefLabel "has sororal nephew"@en ;
+	skos:scopeNote
+		"We do not currently distinguishbiological, adoptive, half, and step relationships."@en ,
+		"While a nephew can be related through either a sibling or sibling-in-law, a sororal nephew is always related through a sister."@en
+		;
+	.
+
+tolo:hasSororallNiece
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf bdo:hasNiece ;
+	owl:propertyChainAxiom (
+		bdo:hasSister
+		bdo:hasDaughter
+	) ;
+	skos:definition "Relates a person to his/her sister's daughter."@en ;
+	skos:prefLabel "has sororal niece"@en ;
+	skos:scopeNote
+		"We do not currently distinguish biological, adoptive, half, and step relationships."@en ,
+		"While a niece can be related through either a sibling or sibling-in-law, a sororal nephew is always related through a sister."@en
+		;
+	.
+

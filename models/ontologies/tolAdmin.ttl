@@ -21,6 +21,14 @@
 	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
+tolo:MemberAccount
+	a owl:Class ;
+	rdfs:subClassOf gist:Agreement ;
+	skos:definition "An external user account on the Treasury of Lives website granting special access and other privileges."@en ;
+	skos:prefLabel "Member Account"@en ;
+	skos:scopeNote "Editing accounts are managed by the DCA platform."@en ;
+	.
+
 tolo:Subscription
 	a owl:Class ;
 	owl:equivalentClass [
@@ -113,10 +121,8 @@ tolo:SubscriptionType
 
 tolo:UserAccount
 	a owl:Class ;
-	rdfs:subClassOf gist:Agreement ;
-	skos:definition "An account for a person on the Treasury of Lives website."@en ;
+	skos:editorialNote "This is a temporary class used until the DCA platform is activated. At that point this will be replaced by the DCA User class."@en ;
 	skos:prefLabel "User Account"@en ;
-	skos:scopeNote "Editing accounts are managed by the DCA platform. These user accounts are for users with special read access to the site."@en ;
 	.
 
 tolo:createDateTime
@@ -133,23 +139,13 @@ tolo:domain
 	skos:scopeNote "Note that these are not full URLs."@en ;
 	.
 
-tolo:fileName
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:name ;
-	rdfs:domain gist:FormattedContent ;
-	rdfs:range xsd:string ;
-	skos:definition "The name of a file."@en ;
-	skos:prefLabel "file name"@en ;
-	skos:scopeNote "Use tolo:filePath for full paths."@en ;
-	.
-
 tolo:filePath
 	a owl:DatatypeProperty ;
 	rdfs:domain gist:FormattedContent ;
 	rdfs:range xsd:string ;
-	skos:definition "The full path to a file, such as an image file."@en ;
+	skos:definition "The path to a file, such as an image file."@en ;
 	skos:prefLabel "file path"@en ;
-	skos:scopeNote "Use tolo:fileName for paths consisting only of the name."@en ;
+	skos:scopeNote "Use for full paths as well as filenames without paths. The latter are considered degenerate paths; they are used by the front end to locate a file for display, but the path is hard-coded."@en ;
 	.
 
 tolo:hasContactPerson
@@ -168,16 +164,16 @@ tolo:ipAddress
 	skos:scopeNote "Subscribers with IP access (see tolo:SubscriptionAccessType) register one or more IP addresses through which they are authorized to access subscriber content on the Treasury of Lives site. Value can be either a full or wildcarded IP address."@en ;
 	.
 
-tolo:isCreatedBy
+tolo:isCreatedByUser
 	a owl:AnnotationProperty ;
 	skos:definition "The user account which created metadata related to some resource, such as an image."@en ;
-	skos:prefLabel "is created by"@en ;
+	skos:prefLabel "is created by user"@en ;
 	.
 
-tolo:isLastModifiedBy
+tolo:isLastModifiedByUser
 	a owl:AnnotationProperty ;
 	skos:definition "The user account which last modified metadata related to some resource, such as an image."@en ;
-	skos:prefLabel "is last modified by"@en ;
+	skos:prefLabel "is last modified by user"@en ;
 	.
 
 tolo:lastLoginDateTime

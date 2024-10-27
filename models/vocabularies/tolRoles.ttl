@@ -40,7 +40,7 @@ tolx:_Role_artist
 		"Artist"@en ,
 		"sgyu rtsal pa"@bo-x-ewts ,
 		"སྒྱུ་རྩལ་པ།"@bo ,
-		"艺术家"@zh-HANI
+		"艺术家"@zh-Hani
 		;
 	.
 
@@ -56,7 +56,7 @@ tolx:_Role_dapon
 		"Dapon"@en ,
 		"mda' dpon"@bo-x-ewts ,
 		"མདའ་དཔོན།"@bo ,
-		"將軍"@zh-HANI
+		"將軍"@zh-Hani
 		;
 	gist:hasDirectBroader tolx:_Role_military ;
 	.
@@ -83,7 +83,7 @@ tolx:_Role_desi
 		"Desi"@en ,
 		"sde srid"@bo-x-ewts ,
 		"སྡེ་སྲིད།"@bo ,
-		"留守"@zh-HANI
+		"留守"@zh-Hani
 		;
 	gist:hasDirectBroader tolx:_Role_government_officer ;
 	.
@@ -96,7 +96,7 @@ tolx:_Role_doctor
 		"Doctor"@en ,
 		"sman pa"@bo-x-ewts ,
 		"སྨན་པ།"@bo ,
-		"医生"@zh-HANI
+		"医生"@zh-Hani
 		;
 	.
 
@@ -120,7 +120,7 @@ tolx:_Role_government_officer
 		"Government Officer"@en ,
 		"gzhung zhabs"@bo-x-ewts ,
 		"གཞུང་ཞབས།"@bo ,
-		"政府行政官員"@zh-HANI
+		"政府行政官員"@zh-Hani
 		;
 	.
 
@@ -153,7 +153,7 @@ tolx:_Role_je_khenpo
 		"Je Khenpo"@en ,
 		"rje mkkhan po"@bo-x-ewts ,
 		"རྗེ་མཀཁན་པོ།"@bo ,
-		"基堪布"@zh-HANI
+		"基堪布"@zh-Hani
 		;
 	gist:hasDirectBroader tolx:_Role_monastery_head ;
 	.
@@ -170,7 +170,7 @@ tolx:_Role_kalon
 		"Kalon"@en ,
 		"bka' blon"@bo-x-ewts ,
 		"བཀའ་བློན།"@bo ,
-		"噶倫"@zh-HANI
+		"噶倫"@zh-Hani
 		;
 	gist:hasDirectBroader tolx:_Role_government_officer ;
 	.
@@ -198,7 +198,7 @@ tolx:_Role_makchi
 		"Makchi"@en ,
 		"dmag spyi"@bo-x-ewts ,
 		"དམག་སྤྱི།"@bo ,
-		"武将"@zh-HANI
+		"武将"@zh-Hani
 		;
 	gist:hasDirectBroader tolx:_Role_military ;
 	.
@@ -210,7 +210,7 @@ tolx:_Role_military
 		"Military"@en ,
 		"dmag mi"@bo-x-ewts ,
 		"དམག་མི།"@bo ,
-		"軍官"@zh-HANI
+		"軍官"@zh-Hani
 		;
 	gist:hasDirectBroader tolx:_Role_government_officer ;
 	.
@@ -237,7 +237,7 @@ tolx:_Role_neshan
 		"Neshan"@en ,
 		"sne shan"@bo-x-ewts ,
 		"སྣེ་ཤན།"@bo ,
-		"聯絡官"@zh-HANI
+		"聯絡官"@zh-Hani
 		;
 	gist:hasDirectBroader tolx:_Role_government_officer ;
 	.
@@ -301,7 +301,7 @@ tolx:_Role_translator
 		"Translator"@en ,
 		"lo tsA ba"@bo-x-ewts ,
 		"ལོ་ཙཱ་བ།"@bo ,
-		"譯師"@zh-HANI
+		"譯師"@zh-Hani
 		;
 	.
 
@@ -313,7 +313,7 @@ tolx:_Role_treasure_revealer
 		"Treasure Revealer"@en ,
 		"gter ston"@bo-x-ewts ,
 		"གཏེར་སྟོན།"@bo ,
-		"伏藏师"@zh-HANI
+		"伏藏师"@zh-Hani
 		;
 	.
 
