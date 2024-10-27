@@ -30,18 +30,6 @@ tolx:_ElectronicAddressType_email
 	skos:prefLabel "Email Address"@en ;
 	.
 
-tolx:_ElectronicAddressType_file_system_path
-	a gist:ElectronicAddressType ;
-	skos:editorialNote "Not sure we will use this - currently using a datatype property."@en ;
-	skos:prefLabel "File System Path"@en ;
-	.
-
-tolx:_ElectronicAddressType_ip
-	a gist:ElectronicAddressType ;
-	skos:editorialNote "Not sure we will use this, as many of the values are wildcarded and not full IP addresses (essentially a specification, but we don't need to model so deeply)."@en ;
-	skos:prefLabel "IP Address"@en ;
-	.
-
 tolx:_ElectronicAddressType_telephone
 	a gist:ElectronicAddressType ;
 	skos:prefLabel "Telephone"@en ;

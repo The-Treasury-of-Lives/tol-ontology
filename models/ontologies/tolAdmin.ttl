@@ -60,7 +60,6 @@ tolo:Subscription
 		) ;
 	] ;
 	skos:definition "A subscription to the Treasury of Lives website."@en ;
-	skos:editorialNote "Add class equivalence based on property restrictions."@en ;
 	skos:prefLabel "Subscription"@en ;
 	.
 
@@ -93,7 +92,6 @@ tolo:SubscriptionTier
 		]
 		;
 	skos:definition "A level of subscription with specific privileges."@en ;
-	skos:editorialNote "Using a category rather than an integer in case we want to attach information or apply SHACL validation to tiers."@en ;
 	skos:prefLabel "Subscription Tier"@en ;
 	.
 
@@ -130,7 +128,6 @@ tolo:createDateTime
 tolo:domain
 	a owl:DatatypeProperty ;
 	skos:definition "An internet domain owned by a person or organization."@en ;
-	skos:editorialNote "See whether we can get full URLs - then use url property."@en ;
 	skos:example "stanford.edu, cornell.edu"@en ;
 	skos:prefLabel "domain"@en ;
 	skos:scopeNote "Note that these are not full URLs."@en ;
@@ -162,21 +159,11 @@ tolo:hasContactPerson
 	skos:prefLabel "has contact person"@en ;
 	.
 
-tolo:hasThumbnail
-	a owl:ObjectProperty ;
-	rdfs:domain gist:FormattedContent ;
-	rdfs:range gist:FormattedContent ;
-	skos:definition "Relates an image to a reduced-size version used to help in recognizing and organizing a collection of images."@en ;
-	skos:editorialNote "Should this go in the admin or display ontology? Is it an annotation property?"@en ;
-	skos:prefLabel "has thumbnail"@en ;
-	.
-
 tolo:ipAddress
 	a owl:DatatypeProperty ;
 	rdfs:range xsd:string ;
 	skos:altLabel "IP address"@en ;
 	skos:definition "A numberic label assigned to a device connected to a computer network that uses the Internet Protocol for communication. IP addresses serve two main functions: network interface identification and location addressing."@en ;
-	skos:editorialNote "Could define class IpAddress as subclass of gist:Address, but doesn't seem necessary."@en ;
 	skos:prefLabel "internet protocol address"@en ;
 	skos:scopeNote "Subscribers with IP access (see tolo:SubscriptionAccessType) register one or more IP addresses through which they are authorized to access subscriber content on the Treasury of Lives site. Value can be either a full or wildcarded IP address."@en ;
 	.

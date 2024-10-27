@@ -106,12 +106,16 @@ tolo:Biography
 tolo:Birth
 	a owl:Class ;
 	rdfs:subClassOf
-		gist:HistoricalEvent ,
 		gist:PhysicalEvent ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tolo:isEventOf ;
+			owl:onProperty gist:hasParticipant ;
 			owl:allValuesFrom tolo:Person ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:hasParticipant ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
 		] ,
 		[
 			a owl:Restriction ;
@@ -120,28 +124,27 @@ tolo:Birth
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tolo:isEventOf ;
-			owl:cardinality "1"^^xsd:nonNegativeInteger ;
-		] ,
-		[
-			a owl:Restriction ;
 			owl:onProperty tolo:inYear ;
 			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
 		]
 		;
-	skos:definition "TBD"@en ;
+	skos:definition "The event of being born."@en ;
 	skos:prefLabel "Birth"@en ;
 	.
 
 tolo:Death
 	a owl:Class ;
 	rdfs:subClassOf
-		gist:HistoricalEvent ,
 		gist:PhysicalEvent ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tolo:isEventOf ;
+			owl:onProperty gist:hasParticipant ;
 			owl:allValuesFrom tolo:Person ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:hasParticipant ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
 		] ,
 		[
 			a owl:Restriction ;
@@ -150,17 +153,11 @@ tolo:Death
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tolo:isEventOf ;
-			owl:cardinality "1"^^xsd:nonNegativeInteger ;
-		] ,
-		[
-			a owl:Restriction ;
 			owl:onProperty tolo:inYear ;
 			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
 		]
 		;
-	skos:definition "TBD"@en ;
-	skos:editorialNote "Can deities have birth and death? We may need to loosen the restriction."@en ;
+	skos:definition "The end of a life."@en ;
 	skos:prefLabel "Death"@en ;
 	.
 
@@ -381,7 +378,7 @@ tolo:LineageMember
 			owl:someValuesFrom xsd:integer ;
 		]
 		;
-	skos:definition "TBD"@en ;
+	skos:definition "An ordered member that relates a lineage to one of its members."@en ;
 	skos:prefLabel "Lineage Member"@en ;
 	.
 
@@ -508,66 +505,8 @@ tolo:MonasteryHead
 			]
 		) ;
 	] ;
-	skos:definition "TBD"@en ;
+	skos:definition "The role of monastery head comprises the leaders of monasteries and associated colleges. The position usually comes with seniority and accomplishment, and heads generally possess Geshe degrees or the highest equivalent in their tradition. Tripa, Tridzin, Khenpo, Khenchen are all different terms for abbot."@en ;
 	skos:prefLabel "Monastery Head"@en ;
-	.
-
-tolo:MonasteryHeadLineage
-	a owl:Class ;
-	rdfs:subClassOf [
-		a owl:Restriction ;
-		owl:onProperty [
-			owl:inverseOf gist:isMemberOf ;
-		] ;
-		owl:allValuesFrom tolo:MonasteryHead ;
-	] ;
-	owl:disjointWith tolo:IncarnationLineage ;
-	owl:equivalentClass
-		[
-			a owl:Class ;
-			owl:intersectionOf (
-				gist:OrderedCollection
-				[
-					a owl:Restriction ;
-					owl:onProperty [
-						owl:inverseOf gist:isMemberOf ;
-					] ;
-					owl:someValuesFrom tolo:MonasteryHead ;
-				]
-			) ;
-		] ,
-		[
-			a owl:Class ;
-			owl:intersectionOf (
-				tolo:Lineage
-				[
-					a owl:Restriction ;
-					owl:onProperty [
-						owl:inverseOf gist:isMemberOf ;
-					] ;
-					owl:someValuesFrom [
-						a owl:Restriction ;
-						owl:onProperty gist:isCategorizedBy ;
-						owl:someValuesFrom tolx:_Role_monastery_head ;
-					] ;
-				]
-				[
-					a owl:Restriction ;
-					owl:onProperty gist:isConnectedTo ;
-					owl:someValuesFrom tolo:Monastery ;
-				]
-			) ;
-		]
-		;
-	skos:definition
-		"A consecutive line of monastery heads."@en ,
-		"A lineage of heads of a particular monastery."@en
-		;
-	skos:editorialNote
-		"Are there discrepancies between ordinal and sequence as for incarnations?"@en ,
-		"We may just use the generic Lineage instead."@en
-		;
-	skos:prefLabel "Monastery Head Lineage"@en ;
 	.
 
 tolo:MonasteryLineage
@@ -631,6 +570,14 @@ tolo:PlaceType
 		"Some places may have more than one type; e.g., a cave may also function as a hermitage."@en ,
 		"There is no clear line between what we might think of as institutions or organizations, such as a monastic order, and the physical structures that house them, so they are all typed as gist:Place and categorized with a tolo:PlaceType."@en
 		;
+	.
+
+tolo:RegionType
+	a owl:Class ;
+	rdfs:subClassOf gist:Category ;
+	skos:definition "A type of geographic region."@en ;
+	skos:example "County seat, folk region."@en ;
+	skos:prefLabel "Region Type"@en ;
 	.
 
 tolo:Role
