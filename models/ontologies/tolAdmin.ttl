@@ -21,12 +21,12 @@
 	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
-tolo:MemberAccount
+tolo:Member
 	a owl:Class ;
-	rdfs:subClassOf gist:Agreement ;
-	skos:definition "An external user account on the Treasury of Lives website granting special access and other privileges."@en ;
-	skos:prefLabel "Member Account"@en ;
-	skos:scopeNote "Editing accounts are managed by the DCA platform."@en ;
+	rdfs:subClassOf gist:Person ;
+	skos:definition "An external user with special privileges on the Treasury of Lives website."@en ;
+	skos:prefLabel "Member"@en ;
+	skos:scopeNote "Users with editing access are managed by the DCA platform."@en ;
 	.
 
 tolo:Subscription
@@ -119,10 +119,10 @@ tolo:SubscriptionType
 	skos:prefLabel "Subscription Type"@en ;
 	.
 
-tolo:UserAccount
+tolo:User
 	a owl:Class ;
 	skos:editorialNote "This is a temporary class used until the DCA platform is activated. At that point this will be replaced by the DCA User class."@en ;
-	skos:prefLabel "User Account"@en ;
+	skos:prefLabel "User"@en ;
 	.
 
 tolo:createDateTime
