@@ -38,8 +38,8 @@ tolx:_PlaceType_cave
 	skos:prefLabel
 		"Cave"@en ,
 		"sgrub phug"@bo-x-ewts ,
-		"སྒྲུབ་ཕུག།"@bo ,
-		"洞穴"@zh-HANI
+		"སྒྲུབ་ཕུག་"@bo ,
+		"洞穴"@zh-Hani
 		;
 	.
 
@@ -75,8 +75,8 @@ tolx:_PlaceType_hermitage
 	skos:prefLabel
 		"Hermitage"@en ,
 		"ri khrod"@bo-x-ewts ,
-		"རི་ཁྲོད།"@bo ,
-		"隐修地"@zh-HANI
+		"རི་ཁྲོད་"@bo ,
+		"隐修地"@zh-Hani
 		;
 	.
 
@@ -87,8 +87,8 @@ tolx:_PlaceType_hidden_land
 	skos:prefLabel
 		"Hidden Land"@en ,
 		"sbas yul"@bo-x-ewts ,
-		"སྦས་ཡུལ།"@bo ,
-		"秘境"@zh-HANI
+		"སྦས་ཡུལ་"@bo ,
+		"秘境"@zh-Hani
 		;
 	.
 
@@ -102,8 +102,8 @@ tolx:_PlaceType_hospital
 	skos:prefLabel
 		"Hospital"@en ,
 		"sman khang"@bo-x-ewts ,
-		"སྨན་ཁང་།"@bo ,
-		"医院"@zh-HANI
+		"སྨན་ཁང་"@bo ,
+		"医院"@zh-Hani
 		;
 	.
 
@@ -117,8 +117,8 @@ tolx:_PlaceType_lake
 	skos:prefLabel
 		"Lake"@en ,
 		"mtsho"@bo-x-ewts ,
-		"མཚོ།"@bo ,
-		"湖"@zh-HANI
+		"མཚོ་"@bo ,
+		"湖"@zh-Hani
 		;
 	.
 
@@ -132,8 +132,8 @@ tolx:_PlaceType_manor
 	skos:prefLabel
 		"Manor"@en ,
 		"gzims shag"@bo-x-ewts ,
-		"གཟིམས་ཤག།"@bo ,
-		"府邸"@zh-HANI
+		"གཟིམས་ཤག་"@bo ,
+		"府邸"@zh-Hani
 		;
 	.
 
@@ -147,8 +147,8 @@ tolx:_PlaceType_monastery
 	skos:prefLabel
 		"Monastery"@en ,
 		"dgon pa"@bo-x-ewts ,
-		"དགོན་པ།"@bo ,
-		"寺院"@zh-HANI
+		"དགོན་པ་"@bo ,
+		"寺院"@zh-Hani
 		;
 	.
 
@@ -163,8 +163,8 @@ tolx:_PlaceType_monastic_college
 	skos:prefLabel
 		"Monastic College"@en ,
 		"grwa tshang"@bo-x-ewts ,
-		"གྲྭ་ཚང་།"@bo ,
-		"讲经院"@zh-HANI
+		"གྲྭ་ཚང་"@bo ,
+		"讲经院"@zh-Hani
 		;
 	.
 
@@ -178,8 +178,8 @@ tolx:_PlaceType_mountain
 	skos:prefLabel
 		"Mountain"@en ,
 		"ri bo"@bo-x-ewts ,
-		"རི་བོ།"@bo ,
-		"山"@zh-HANI
+		"རི་བོ་"@bo ,
+		"山"@zh-Hani
 		;
 	.
 
@@ -199,8 +199,8 @@ tolx:_PlaceType_nunnery
 	skos:prefLabel
 		"Nunnery"@en ,
 		"a ni dgon pa"@bo-x-ewts ,
-		"ཨ་ནི་དགོན་པ།"@bo ,
-		"尼姑寺"@zh-HANI
+		"ཨ་ནི་དགོན་པ་"@bo ,
+		"尼姑寺"@zh-Hani
 		;
 	.
 
@@ -218,8 +218,8 @@ tolx:_PlaceType_palace
 	skos:prefLabel
 		"Palace"@en ,
 		"pho brang"@bo-x-ewts ,
-		"ཕོ་བྲང་།"@bo ,
-		"宫殿"@zh-HANI
+		"ཕོ་བྲང་"@bo ,
+		"宫殿"@zh-Hani
 		;
 	.
 
@@ -244,8 +244,8 @@ tolx:_PlaceType_school
 	skos:prefLabel
 		"School"@en ,
 		"slob grwa"@bo-x-ewts ,
-		"སློབ་གྲྭ།"@bo ,
-		"学校"@zh-HANI
+		"སློབ་གྲྭ་"@bo ,
+		"学校"@zh-Hani
 		;
 	.
 
@@ -259,8 +259,8 @@ tolx:_PlaceType_stupa
 	skos:prefLabel
 		"Stupa"@en ,
 		"mchod rten"@bo-x-ewts ,
-		"མཆོད་རྟེན།"@bo ,
-		"佛塔"@zh-HANI
+		"མཆོད་རྟེན་"@bo ,
+		"佛塔"@zh-Hani
 		;
 	.
 
@@ -274,8 +274,8 @@ tolx:_PlaceType_temple
 	skos:prefLabel
 		"Temple"@en ,
 		"lha khang"@bo-x-ewts ,
-		"ལྷ་ཁང་།"@bo ,
-		"宇"@zh-HANI
+		"ལྷ་ཁང་"@bo ,
+		"宇"@zh-Hani
 		;
 	.
 

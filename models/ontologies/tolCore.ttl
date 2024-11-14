@@ -98,20 +98,26 @@ tolo:Biography
 		]
 		;
 	skos:definition "A written account of another person's life."@en ;
-	skos:editorialNote "If we want to bring BIBFRAME into the mix, would be a subclass of bf:Work."@en ;
 	skos:prefLabel "Biography"@en ;
-	skos:scopeNote "Author bios are not tolo:Biographies because authors are instances of gist:Person but not tolo:Person."@en ;
+	skos:scopeNote
+		"Author bios are not instances of tolo:Biography because authors are instances of gist:Person but not tolo:Person."@en ,
+		"This definition glosses over the distinction between ContentExpression and FormattedContent. The biography itself is a ContentExpression, the HTML version is FormattedContent, but creating and linking distinct instances of each type entails overhead without apparent benefit."@en
+		;
 	.
 
 tolo:Birth
 	a owl:Class ;
 	rdfs:subClassOf
-		gist:HistoricalEvent ,
 		gist:PhysicalEvent ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tolo:isEventOf ;
+			owl:onProperty gist:hasParticipant ;
 			owl:allValuesFrom tolo:Person ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:hasParticipant ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
 		] ,
 		[
 			a owl:Restriction ;
@@ -120,28 +126,44 @@ tolo:Birth
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tolo:isEventOf ;
-			owl:cardinality "1"^^xsd:nonNegativeInteger ;
-		] ,
-		[
-			a owl:Restriction ;
 			owl:onProperty tolo:inYear ;
 			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
 		]
 		;
-	skos:definition "TBD"@en ;
+	skos:definition "The event of being born."@en ;
 	skos:prefLabel "Birth"@en ;
+	.
+
+tolo:Collection
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Place ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:hasPhysicalLocation ;
+			] ;
+			owl:someValuesFrom gist:IntellectualProperty ;
+		]
+		;
+	skos:definition "An art collection, museum, or archive that houses original works of art and/or archival documents."@en ;
+	skos:example "Cleveland Museum of Art, Collection of Shelley and Donald Rubin, Estate of Lobsang P. Lhalungpa."@en ;
+	skos:prefLabel "Collection"@en ;
 	.
 
 tolo:Death
 	a owl:Class ;
 	rdfs:subClassOf
-		gist:HistoricalEvent ,
 		gist:PhysicalEvent ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tolo:isEventOf ;
+			owl:onProperty gist:hasParticipant ;
 			owl:allValuesFrom tolo:Person ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:hasParticipant ;
+			owl:cardinality "1"^^xsd:nonNegativeInteger ;
 		] ,
 		[
 			a owl:Restriction ;
@@ -150,17 +172,11 @@ tolo:Death
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tolo:isEventOf ;
-			owl:cardinality "1"^^xsd:nonNegativeInteger ;
-		] ,
-		[
-			a owl:Restriction ;
 			owl:onProperty tolo:inYear ;
 			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
 		]
 		;
-	skos:definition "TBD"@en ;
-	skos:editorialNote "Can deities have birth and death? We may need to loosen the restriction."@en ;
+	skos:definition "The end of a life."@en ;
 	skos:prefLabel "Death"@en ;
 	.
 
@@ -381,7 +397,7 @@ tolo:LineageMember
 			owl:someValuesFrom xsd:integer ;
 		]
 		;
-	skos:definition "TBD"@en ;
+	skos:definition "An ordered member that relates a lineage to one of its members."@en ;
 	skos:prefLabel "Lineage Member"@en ;
 	.
 
@@ -508,66 +524,8 @@ tolo:MonasteryHead
 			]
 		) ;
 	] ;
-	skos:definition "TBD"@en ;
+	skos:definition "The role of monastery head comprises the leaders of monasteries and associated colleges. The position usually comes with seniority and accomplishment, and heads generally possess Geshe degrees or the highest equivalent in their tradition. Tripa, Tridzin, Khenpo, Khenchen are all different terms for abbot."@en ;
 	skos:prefLabel "Monastery Head"@en ;
-	.
-
-tolo:MonasteryHeadLineage
-	a owl:Class ;
-	rdfs:subClassOf [
-		a owl:Restriction ;
-		owl:onProperty [
-			owl:inverseOf gist:isMemberOf ;
-		] ;
-		owl:allValuesFrom tolo:MonasteryHead ;
-	] ;
-	owl:disjointWith tolo:IncarnationLineage ;
-	owl:equivalentClass
-		[
-			a owl:Class ;
-			owl:intersectionOf (
-				gist:OrderedCollection
-				[
-					a owl:Restriction ;
-					owl:onProperty [
-						owl:inverseOf gist:isMemberOf ;
-					] ;
-					owl:someValuesFrom tolo:MonasteryHead ;
-				]
-			) ;
-		] ,
-		[
-			a owl:Class ;
-			owl:intersectionOf (
-				tolo:Lineage
-				[
-					a owl:Restriction ;
-					owl:onProperty [
-						owl:inverseOf gist:isMemberOf ;
-					] ;
-					owl:someValuesFrom [
-						a owl:Restriction ;
-						owl:onProperty gist:isCategorizedBy ;
-						owl:someValuesFrom tolx:_Role_monastery_head ;
-					] ;
-				]
-				[
-					a owl:Restriction ;
-					owl:onProperty gist:isConnectedTo ;
-					owl:someValuesFrom tolo:Monastery ;
-				]
-			) ;
-		]
-		;
-	skos:definition
-		"A consecutive line of monastery heads."@en ,
-		"A lineage of heads of a particular monastery."@en
-		;
-	skos:editorialNote
-		"Are there discrepancies between ordinal and sequence as for incarnations?"@en ,
-		"We may just use the generic Lineage instead."@en
-		;
-	skos:prefLabel "Monastery Head Lineage"@en ;
 	.
 
 tolo:MonasteryLineage
@@ -631,6 +589,14 @@ tolo:PlaceType
 		"Some places may have more than one type; e.g., a cave may also function as a hermitage."@en ,
 		"There is no clear line between what we might think of as institutions or organizations, such as a monastic order, and the physical structures that house them, so they are all typed as gist:Place and categorized with a tolo:PlaceType."@en
 		;
+	.
+
+tolo:RegionType
+	a owl:Class ;
+	rdfs:subClassOf gist:Category ;
+	skos:definition "A type of geographic region."@en ;
+	skos:example "County seat, folk region."@en ;
+	skos:prefLabel "Region Type"@en ;
 	.
 
 tolo:Role
@@ -941,6 +907,16 @@ tolo:hasBibliographicSource
 		;
 	.
 
+tolo:hasCreator
+	a owl:ObjectProperty ;
+	skos:definition "Relates a man-made object to a person who created it."@en ;
+	skos:prefLabel "has creator"@en ;
+	gist:domainIncludes
+		gist:Content ,
+		gist:IntellectualProperty
+		;
+	.
+
 tolo:hasFinalRestingPlace
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:hasPhysicalLocation ;
@@ -949,36 +925,6 @@ tolo:hasFinalRestingPlace
 	skos:editorialNote "Consider connecting to Death rather than Person."@en ;
 	skos:prefLabel "has final resting place"@en ;
 	skos:scopeNote "Significant people such as the Dalai Lamas have reliquary stupas in geographic locations like temples or chapels. Sometimes there can be relics in multiple places."@en ;
-	.
-
-tolo:hasFraternalNephew
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf bdo:hasNephew ;
-	owl:propertyChainAxiom (
-		bdo:hasBrother
-		bdo:hasSon
-	) ;
-	skos:definition "Relates a person to the son of his/her brother."@en ;
-	skos:prefLabel "has fraternal nephew"@en ;
-	skos:scopeNote
-		"We do not currently distinguish biological, adoptive, half, and step relationships."@en ,
-		"While a nephew can be related through either a sibling or sibling-in-law, a fraternal nephew is always related through a brother."@en
-		;
-	.
-
-tolo:hasFraternalNiece
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf bdo:hasNiece ;
-	owl:propertyChainAxiom (
-		bdo:hasBrother
-		bdo:hasSon
-	) ;
-	skos:definition "Relates a person to the daughter of his/her brother."@en ;
-	skos:prefLabel "has fraternal niece"@en ;
-	skos:scopeNote
-		"We do not currently distinguish biological, adoptive, half, and step relationships."@en ,
-		"While a niece can be related through either a sibling or sibling-in-law, a fraternal niece is always related through a brother."@en
-		;
 	.
 
 tolo:hasHusband
@@ -991,106 +937,6 @@ tolo:hasHusband
 	skos:scopeNote "Use bdo:hasHusband to assert a direct relationship from wife to husband."@en ;
 	.
 
-tolo:hasMaternalCousin
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf bdo:hasCousin ;
-	skos:definition "Relates a person to his/her cousin on the mother's side."@en ;
-	skos:prefLabel "has maternal cousin"@en ;
-	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
-	.
-
-tolo:hasMaternalGrandfather
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf
-		bdo:hasGrandfather ,
-		tolo:hasMaternalGrandparent
-		;
-	owl:propertyChainAxiom (
-		tolo:hasMother
-		tolo:hasFather
-	) ;
-	skos:definition "Relates a person to his/her mother's father."@en ;
-	skos:prefLabel "has maternal grandfather"@en ;
-	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
-	.
-
-tolo:hasMaternalGrandmother
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf
-		bdo:hasGrandmother ,
-		tolo:hasMaternalGrandparent
-		;
-	owl:propertyChainAxiom (
-		bdo:hasMother
-		bdo:hasMother
-	) ;
-	skos:definition "Relates a person to his/her mother's mother."@en ;
-	skos:prefLabel "has maternal grandmother"@en ;
-	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
-	.
-
-tolo:hasMaternalGrandparent
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf bdo:hasGrandmother ;
-	owl:propertyChainAxiom (
-		bdo:hasMother
-		bdo:hasParent
-	) ;
-	skos:definition "Relates a person to his/her mother's parent."@en ;
-	skos:prefLabel "has maternal grandmother"@en ;
-	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
-	.
-
-tolo:hasPaternalCousin
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf bdo:hasCousin ;
-	skos:definition "Relates a person to his/her cousin on the father's side."@en ;
-	skos:prefLabel "has paternal cousin"@en ;
-	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
-	.
-
-tolo:hasPaternalGrandfather
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf
-		bdo:hasGrandfather ,
-		tolo:hasPaternalGrandparent
-		;
-	owl:propertyChainAxiom (
-		bdo:hasFather
-		bdo:hasFather
-	) ;
-	skos:definition "Relates a person to his/her father's father."@en ;
-	skos:prefLabel "has paternal grandfather"@en ;
-	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
-	.
-
-tolo:hasPaternalGrandmother
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf
-		bdo:hasGrandmother ,
-		tolo:hasPaternalGrandparent
-		;
-	owl:propertyChainAxiom (
-		bdo:hasFather
-		bdo:hasMother
-	) ;
-	skos:definition "Relates a person to his/her father's mother."@en ;
-	skos:prefLabel "has paternal grandmother"@en ;
-	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
-	.
-
-tolo:hasPaternalGrandparent
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf bdo:hasGrandparent ;
-	owl:propertyChainAxiom (
-		bdo:hasFather
-		bdo:hasParent
-	) ;
-	skos:definition "Relates a person to his/her fathers's parent."@en ;
-	skos:prefLabel "has maternal grandmother"@en ;
-	skos:scopeNote "We do not currently distinguish biological, adoptive, half, and step relationships."@en ;
-	.
-
 tolo:hasPreincarnation
 	a owl:ObjectProperty ;
 	rdfs:domain tolo:Person ;
@@ -1099,36 +945,6 @@ tolo:hasPreincarnation
 	skos:example "Jamgong Kongtrul had the preincarnation Tarnatha."@en ;
 	skos:prefLabel "has preincarnation"@en ;
 	skos:scopeNote "Not part of the ordered members of incarnation lines and thus represented as a direct relationship between two people. We do not currently have the data to populate this property."@en ;
-	.
-
-tolo:hasSororallNephew
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf bdo:hasNephew ;
-	owl:propertyChainAxiom (
-		bdo:hasSister
-		bdo:hasSon
-	) ;
-	skos:definition "Relates a person to his/her sister's son."@en ;
-	skos:prefLabel "has sororal nephew"@en ;
-	skos:scopeNote
-		"We do not currently distinguishbiological, adoptive, half, and step relationships."@en ,
-		"While a nephew can be related through either a sibling or sibling-in-law, a sororal nephew is always related through a sister."@en
-		;
-	.
-
-tolo:hasSororallNiece
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf bdo:hasNiece ;
-	owl:propertyChainAxiom (
-		bdo:hasSister
-		bdo:hasDaughter
-	) ;
-	skos:definition "Relates a person to his/her sister's daughter."@en ;
-	skos:prefLabel "has sororal niece"@en ;
-	skos:scopeNote
-		"We do not currently distinguish biological, adoptive, half, and step relationships."@en ,
-		"While a niece can be related through either a sibling or sibling-in-law, a sororal nephew is always related through a sister."@en
-		;
 	.
 
 tolo:hasSourceStatement
@@ -1211,16 +1027,6 @@ tolo:isBranchOf
 	skos:scopeNote "Differs from the tolo:isDerivedFrom relationship between monasteries, which is used for monasteries in exile."@en ;
 	gist:domainIncludes tolo:Monastery ;
 	gist:rangeIncludes tolo:Monastery ;
-	.
-
-tolo:isCreatedBy
-	a owl:ObjectProperty ;
-	skos:definition "Relates a man-made object to a person who created it."@en ;
-	skos:prefLabel "is created by"@en ;
-	gist:domainIncludes
-		gist:Content ,
-		gist:IntellectualProperty
-		;
 	.
 
 tolo:isDerivedFrom

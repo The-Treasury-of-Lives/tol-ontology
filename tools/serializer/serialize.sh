@@ -26,14 +26,14 @@ serialize_file() {
     elif [ $ext == 'ttl' ] ; then
         format='turtle'
     else
-        # Require .owl, .rdf, or .ttl extension. rdf-toolkit throws exceptions on non-RDF input. 
-        echo Skipping file $file. 
+        # Require .owl, .rdf, or .ttl extension. rdf-toolkit throws exceptions on non-RDF input.
+        echo Skipping file $file.
         return
     fi
     echo Serializing $file into a standard format.
     tmp=$file.bak
     cp $file $tmp
-    java -jar `dirname "$0"`/rdf-toolkit.jar -udl "en" -tfmt $format -sdt explicit -dtd -ibn -sni -s $file -t $tmp 
+    java -jar `dirname "$0"`/rdf-toolkit.jar -udl "en" -tfmt $format -sdt explicit -dtd -ibn -sni -s $file -t $tmp
     mv $tmp $file
 }
 
@@ -45,15 +45,15 @@ serialize_directory() {
 }
 
 args=("$@")
- 
+
 # Check for at least one arg
-if [ ${#args[@]} -lt 1 ] ; then 
-    usage  
-    exit  
+if [ ${#args[@]} -lt 1 ] ; then
+    usage
+    exit
 fi
 
-if [ ${#args[@]} -eq 1 ] ; then 
-    file=$1      
+if [ ${#args[@]} -eq 1 ] ; then
+    file=$1
     if [ -f $file ] ; then
         serialize_file $file
     elif [ -d $file ]; then
