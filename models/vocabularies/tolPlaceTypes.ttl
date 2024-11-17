@@ -22,7 +22,7 @@
 	a owl:Ontology ;
 	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolPlaceTypesX.x.x> ;
-	skos:definition "Defines types of places. These may be functional types, such as monastery, school, and hospital, or types of natural features, such as cave, lake, and mountain. Some places have more than one category - e.g., a cave can also be a hermitage."@en ;
+	skos:definition "Defines types of places. These may be functional types, such as monastery, school, and hospital, or types of natural features, such as cave and mountain. Some places have more than one category - e.g., a cave can also be a hermitage."@en ;
 	skos:editorialNote "Generated via TARQL."@en ;
 	skos:prefLabel "Place Types"@en ;
 	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
@@ -50,7 +50,7 @@ tolx:_PlaceType_dharma_center
 	skos:prefLabel
 		"Dharma Center"@en ,
 		"chos tshogs"@bo-x-ewts ,
-		"ཆོས་ཚོགས་"@bo
+		"ཆོས་ཚོགས།"@bo
 		;
 	.
 
@@ -61,7 +61,7 @@ tolx:_PlaceType_government_building
 	skos:prefLabel
 		"Government Building"@en ,
 		"gzhung las khang"@bo-x-ewts ,
-		"གཞུང་ལས་ཁང་"@bo
+		"གཞུང་ལས་ཁང་།"@bo
 		;
 	.
 
@@ -157,7 +157,7 @@ tolx:_PlaceType_monastic_college
 	owl:sameAs bdr:PT0038 ;
 	skos:altLabel
 		"bshad grwa"@bo-x-ewts ,
-		"བཤད་གྲྭ་"@bo
+		"བཤད་གྲྭ།"@bo
 		;
 	skos:definition "An institute of higher studies associated with a monastery. Members include teachers and students. Most monastic colleges train monks or nuns in the religious texts and rituals of the associated monastery."@en ;
 	skos:prefLabel
@@ -192,8 +192,8 @@ tolx:_PlaceType_nunnery
 	skos:altLabel
 		"btsun dgon"@bo-x-ewts ,
 		"jo mo dgon"@bo-x-ewts ,
-		"ཇོ་མོ་དགོན་"@bo ,
-		"བཙུན་དགོན་"@bo
+		"ཇོ་མོ་དགོན།"@bo ,
+		"བཙུན་དགོན།"@bo
 		;
 	skos:definition "A community of women dedicated to religious practice."@en ;
 	skos:prefLabel
@@ -212,7 +212,7 @@ tolx:_PlaceType_palace
 		;
 	skos:altLabel
 		"rgyal khang"@bo-x-ewts ,
-		"རྒྱལ་ཁང་"@bo
+		"རྒྱལ་ཁང་།"@bo
 		;
 	skos:definition "A residence of a member of a royal family."@en ;
 	skos:prefLabel
@@ -220,6 +220,17 @@ tolx:_PlaceType_palace
 		"pho brang"@bo-x-ewts ,
 		"ཕོ་བྲང་"@bo ,
 		"宫殿"@zh-Hani
+		;
+	.
+
+tolx:_PlaceType_regional_house
+	a tolo:PlaceType ;
+	owl:sameAs wiki:Q847950 ;
+	skos:definition "A residential house of a monastic college that is divided by regional affiliation."@en ;
+	skos:prefLabel
+		"Regional House"@en ,
+		"khams tshan"@bo-x-ewts ,
+		"ཁམས་ཚན།"@bo
 		;
 	.
 
