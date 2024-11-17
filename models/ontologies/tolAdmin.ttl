@@ -21,12 +21,15 @@
 	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
-tolo:Member
+tolo:MemberAccount
 	a owl:Class ;
-	rdfs:subClassOf gist:Person ;
-	skos:definition "An external user with special privileges on the Treasury of Lives website."@en ;
-	skos:prefLabel "Member"@en ;
-	skos:scopeNote "Users with editing access are managed by the DCA platform."@en ;
+	rdfs:subClassOf gist:TemporalRelation ;
+	skos:definition "A user account with special read access privileges on the Treasury of Lives website."@en ;
+	skos:prefLabel "Member Account"@en ;
+	skos:scopeNote
+		"The account is a relationship between a person and the Treasury of Lives site or organization; however, it is not necessary to instantiate the person when instantiating a member account; the attributes can be attached directly to the account. If the person exists in the system for other reasons, the two can be connected. The Treasury of Lives participant is implicit."@en ,
+		"User accounts with editing access are managed by the DCA platform."@en
+		;
 	.
 
 tolo:Subscription
@@ -145,7 +148,10 @@ tolo:filePath
 	rdfs:range xsd:string ;
 	skos:definition "The path to a file, such as an image file."@en ;
 	skos:prefLabel "file path"@en ;
-	skos:scopeNote "Use for full paths as well as filenames without paths. The latter are considered degenerate paths; they are used by the front end to locate a file for display, but the path is hard-coded."@en ;
+	skos:scopeNote
+		"This is a temporary property which will be replaced with whatever triples are used to represent paths in the DCA application. At that point the existing triples should be restructured to conform to that pattern."@en ,
+		"Use for full paths as well as filenames without paths. The latter are considered degenerate paths; they are used by the front end to locate a file for display, but the path is hard-coded."@en
+		;
 	.
 
 tolo:hasContactPerson

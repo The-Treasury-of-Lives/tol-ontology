@@ -26,12 +26,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # Wylie Variant
 # Tibetan
 # Tibetan Variant
-# Chinese 
-# Class (Landmark, Building, or Institution)
+# Chinese
+# Class (Landmark, Building, or Institution) - ignore: these are all typed as gist:Place
 # Definition
 
 # Run:
-# tarql -e utf-8 --dedup 10000 place_types.tq place-types-7-15-24.csv > tolPlaceTypes.ttl
+# tarql -e utf-8 --dedup 10000 place_types.tq place-types-10-21-24.csv > tolPlaceTypes.ttl
 
 CONSTRUCT {
 
@@ -47,10 +47,10 @@ CONSTRUCT {
 
     ?type_iri
         a tolo:PlaceType ;
-        owl:sameAs 
+        owl:sameAs
             ?bdrc_iri ,
             ?wikidata_iri ;
-        skos:prefLabel 
+        skos:prefLabel
             ?pref_label_en ,
             ?pref_label_wylie ,
             ?pref_label_tibetan ,
@@ -85,14 +85,14 @@ WHERE {
     # Wylie
     BIND(STRLANG(?Wylie, "bo-x-ewts") AS ?pref_label_wylie)
     OPTIONAL {
-        ?wylie_variant apf:strSplit(?Wylie_Variant "; ") 
+        ?wylie_variant apf:strSplit(?Wylie_Variant "; ")
     }
     BIND(STRLANG(?wylie_variant, "bo-x-ewts") AS ?alt_label_wylie)
 
     # Tibetan
     BIND(STRLANG(?Tibetan, "bo") AS ?pref_label_tibetan)
     OPTIONAL {
-        ?tibetan_variant apf:strSplit(?Tibetan_Variant "; ") 
+        ?tibetan_variant apf:strSplit(?Tibetan_Variant "; ")
     }
     BIND(STRLANG(?tibetan_variant, "bo") AS ?alt_label_tibetan)
 

@@ -1020,7 +1020,8 @@ tolo:isAssignmentTo
 
 tolo:isBranchOf
 	a owl:ObjectProperty ;
-	skos:definition "Relates a monastery to a larger monastery in another location of which it is a subsidiary or affiliate."@en ;
+	rdfs:subPropertyOf gist:isPartOf ;
+	skos:definition "Relates a monastery to a larger monastery in another location of which it is a subsidiary or affiliate. The two monasteries share administrative and/or curricular materials."@en ;
 	skos:editorialNote "Consider whether the domain/rangeIncludes should be tightened to rdfs:domain/range."@en ;
 	skos:example "The Adzom Gar monastery is a branch of the Katok monastery."@en ;
 	skos:prefLabel "is branch of"@en ;
