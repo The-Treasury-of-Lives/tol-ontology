@@ -1130,20 +1130,6 @@ tolo:ordinal
 		;
 	.
 
-tolo:pages
-	a owl:DatatypeProperty ;
-	rdfs:domain gist:ContentExpression ;
-	rdfs:range xsd:string ;
-	owl:deprecated "true"^^xsd:boolean ;
-	skos:definition "Particular page number(s) of a work."@en ;
-	skos:editorialNote "Currently deprecated - do not use."@en ;
-	skos:prefLabel "page(s)"@en ;
-	skos:scopeNote
-		"Note that this is a string rather than a number, to account for page ranges."@en ,
-		"Used on the Treasury of Lives website in citations of sources."@en
-		;
-	.
-
 tolo:primaryName
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
@@ -1163,13 +1149,6 @@ tolo:publicationDate
 	skos:definition "The date a biography was published, with day precision."@en ;
 	skos:prefLabel "publication date"@en ;
 	skos:scopeNote "Differs from the timestamp when the biography metadata was entered into the database (tolo:createDateTime)."@en ;
-	.
-
-tolo:references
-	a owl:ObjectProperty ;
-	skos:definition "Relates content, such as a biography, to a another content instance that was either used as a source or provides additional information about the content."@en ;
-	skos:example "The biography of Gyergom Tsultrim Sengge has source 'Secret Visions of the Fifth Dalai Lama by Samten G. Karmay."@en ;
-	skos:prefLabel "references"@en ;
 	.
 
 tolo:residesIn
