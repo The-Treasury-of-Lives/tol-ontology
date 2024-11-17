@@ -25,18 +25,21 @@
 	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
-tolx:_ElectronicAddressType_email
+tolx:_ElectronicAddressType_email_address
 	a gist:ElectronicAddressType ;
+	skos:definition "A unique identifier for an email account, or mailbox, that allows users to send and receive messages."@en ;
 	skos:prefLabel "Email Address"@en ;
 	.
 
-tolx:_ElectronicAddressType_phone
+tolx:_ElectronicAddressType_phone_number
 	a gist:ElectronicAddressType ;
-	skos:prefLabel "Phone"@en ;
+	skos:definition "A sequence of digits identifying the telephone of a particular subscriber and used in making connections to that telephone. Could be either mobile or landline."@en ;
+	skos:prefLabel "Phone Number"@en ;
 	.
 
 tolx:_ElectronicAddressType_url
 	a gist:ElectronicAddressType ;
+	skos:definition "Uniform Resource Locator."@en ;
 	skos:prefLabel "URL"@en ;
 	.
 
