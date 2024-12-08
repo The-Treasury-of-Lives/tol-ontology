@@ -1132,10 +1132,10 @@ tolo:ordinal
 
 tolo:pageNumbers
 	a owl:DatatypeProperty ;
-	rdfs:domain gist:ContentExpression ;
 	rdfs:range xsd:string ;
-	skos:definition "A page number or page number range used to identify a part of a content object."@en ;
-	skos:prefLabel "page number(s)"@en ;
+	skos:definition "Page numbers used to identify a part of a content object."@en ;
+	skos:prefLabel "page numbers"@en ;
+	gist:domainIncludes gist:Content ;
 	.
 
 tolo:primaryName
