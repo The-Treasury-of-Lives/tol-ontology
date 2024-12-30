@@ -10,10 +10,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/semanticarts/taxonomy/tolMediaTypes>
+<https://w3id.org/treasuryoflives/taxonomy/tolMediaTypes>
 	a owl:Ontology ;
 	owl:imports <https://w3id.org/semanticarts/ontology/gistCore13.0.0> ;
-	owl:versionIRI <https://w3id.org/semanticarts/taxonomy/tolMediaTypesX.x.x> ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolMediaTypesX.x.x> ;
 	skos:definition "Treasury of Lives extension of gistMediaTypes."@en ;
 	skos:prefLabel "Treasury of Lives Media Types"@en ;
 	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
