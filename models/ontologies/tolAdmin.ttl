@@ -21,17 +21,6 @@
 	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
-tolo:MemberAccount
-	a owl:Class ;
-	rdfs:subClassOf gist:TemporalRelation ;
-	skos:definition "A user account with special read access privileges on the Treasury of Lives website."@en ;
-	skos:prefLabel "Member Account"@en ;
-	skos:scopeNote
-		"The account is a relationship between a person and the Treasury of Lives site or organization; however, it is not necessary to instantiate the person when instantiating a member account; the attributes can be attached directly to the account. If the person exists in the system for other reasons, the two can be connected. The Treasury of Lives participant is implicit."@en ,
-		"User accounts with editing access are managed by the DCA platform."@en
-		;
-	.
-
 tolo:Subscription
 	a owl:Class ;
 	owl:equivalentClass [
@@ -122,10 +111,42 @@ tolo:SubscriptionType
 	skos:prefLabel "Subscription Type"@en ;
 	.
 
-tolo:User
+tolo:UserAccount
 	a owl:Class ;
-	skos:editorialNote "This is a temporary class used until the DCA platform is activated. At that point this will be replaced by the DCA User class."@en ;
-	skos:prefLabel "User"@en ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:Agreement
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:someValuesFrom tolo:UserRole ;
+			]
+		) ;
+	] ;
+	skos:definition "A user account with special read and/or write privileges."@en ;
+	skos:prefLabel "User Account"@en ;
+	skos:scopeNote
+		"Editing accounts are for associating legacy users with editing metadata; active editorial accounts are managed by the DCA platform. Member accounts are user accounts with special read access on the site."@en ,
+		"The account is an agreement between a person and the Treasury of Lives site or organization; however, it is not necessary to instantiate a person when instantiating a user account; the attributes are attached directly to the account. If the person exists in the system for other reasons, the two can be connected; otherwise, the account holder is implicit."@en
+		;
+	.
+
+tolo:UserRole
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom tolo:UserAccount ;
+		]
+		;
+	skos:definition "A proxy for a set of permissions associated with a user account."@en ;
+	skos:prefLabel "User Role"@en ;
+	skos:scopeNote "This is not a deep semantic representation, as the permissions themselves are not defined but are driven by the front end based on the category."@en ;
 	.
 
 tolo:createDateTime
