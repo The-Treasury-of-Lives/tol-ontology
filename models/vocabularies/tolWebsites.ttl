@@ -34,7 +34,6 @@ told:_Website_84000
 	a tolo:Website ;
 	skos:editorialNote "Currently not used."@en ;
 	skos:prefLabel "84000"@en ;
-	tolo:displayLabel "84000"@en ;
 	tolo:url "https://84000.co/"^^xsd:anyURI ;
 	.
 
@@ -43,14 +42,12 @@ told:_Website_har
 	skos:altLabel "HAR"@en ;
 	skos:prefLabel "Himalayan Art Resources"@en ;
 	skos:scopeNote "To be distinguished from told:_IdType_har. The item ID number applies to artworks and can be appended to the IDType url to construct a link to the image on the HAR site. The reference URLs have various formats and point to pages about people, sets of images, etc. The URL specified here is the domain of the site, but more information is required to construct the URL, thus the entire URL is provided in the instance data."@en ;
-	tolo:displayLabel "View Image at HAR"@en ;
 	tolo:url "https://www.himalayanart.org/"^^xsd:anyURI ;
 	.
 
 told:_Website_lotsawa_house
 	a tolo:Website ;
 	skos:prefLabel "Lotsawa House"@en ;
-	tolo:displayLabel "Lotsawa House"@en ;
 	tolo:url "https://www.lotsawahouse.org/"^^xsd:anyURI ;
 	.
 
@@ -58,7 +55,6 @@ told:_Website_rma
 	a tolo:Website ;
 	skos:editorialNote "Currently not used."@en ;
 	skos:prefLabel "Rubin Museum of Art"@en ;
-	tolo:displayLabel "Rubin Museum of Art"@en ;
 	tolo:url "https://rubinmuseum.org/"^^xsd:anyURI ;
 	.
 
