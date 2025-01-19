@@ -23,9 +23,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 # Site (Place) Type
 # Class
 # Wylie
-# Wylie Variant
+# Wylie Variant (semicolon + space-delimited list)
 # Tibetan
-# Tibetan Variant
+# Tibetan Variant (semicolon + space-delimited list)
 # Chinese
 # Class (Landmark, Building, or Institution) - ignore: these are all typed as gist:Place
 # Definition

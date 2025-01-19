@@ -708,11 +708,10 @@ tolo:Vocation
 tolo:Website
 	a owl:Class ;
 	rdfs:subClassOf
-		gist:Collection ,
-		gist:Content ,
+		gist:IntellectualProperty ,
 		gist:Network
 		;
-	skos:definition "A collection of one or more web pages and related content that is identified by a common domain name and published on at least one web server."@en ;
+	skos:definition "A network of one or more web pages and related content that is identified by a common domain name and published on at least one web server."@en ;
 	skos:example "Lotsawa House, Rubin Museum of Art"@en ;
 	skos:prefLabel "Website"@en ;
 	.
@@ -1045,6 +1044,14 @@ tolo:isDerivedFrom
 		tolo:Monastery ,
 		tolo:Tradition
 		;
+	.
+
+tolo:isSponsoredBy
+	a owl:ObjectProperty ;
+	rdfs:range gist:Organization ;
+	skos:definition "Relates a biography or other object to an organization that has funded its development."@en ;
+	skos:prefLabel "is sponsored by"@en ;
+	gist:domainIncludes tolo:Biography ;
 	.
 
 tolo:lastName
