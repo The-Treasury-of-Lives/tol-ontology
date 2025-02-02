@@ -636,6 +636,20 @@ tolo:RulerLineage
 	skos:prefLabel "Ruler Lineage"@en ;
 	.
 
+tolo:Sponsor
+	a owl:Class ;
+	rdfs:subClassOf [
+		a owl:Class ;
+		owl:unionOf (
+			gist:Person
+			gist:Organization
+		) ;
+	] ;
+	skos:definition "An organization or person who provides funds for a project or activity."@en ;
+	skos:prefLabel "Sponsor"@en ;
+	skos:scopeNote "Many but not all sponsors are linked to particular biographies that they sponsor. A class is needed in addition to the predicate isSponsoredBy to identify sponsors not connected to individual biographies."@en ;
+	.
+
 tolo:StatusAssignment
 	a owl:Class ;
 	rdfs:subClassOf gist:TemporalRelation ;
@@ -1048,8 +1062,8 @@ tolo:isDerivedFrom
 
 tolo:isSponsoredBy
 	a owl:ObjectProperty ;
-	rdfs:range gist:Organization ;
-	skos:definition "Relates a biography or other object to an organization that has funded its development."@en ;
+	rdfs:range tolo:Sponsor ;
+	skos:definition "Relates a biography or other object to a person or organization that has funded its development."@en ;
 	skos:prefLabel "is sponsored by"@en ;
 	gist:domainIncludes tolo:Biography ;
 	.
