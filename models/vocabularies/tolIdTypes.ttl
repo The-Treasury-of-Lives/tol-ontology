@@ -27,6 +27,7 @@
 
 tolx:_IdType_har
 	a tolo:IdType ;
+	skos:definition "An identifier assigned to an image on the Himalayan Art Resources site."@en ;
 	skos:prefLabel "HAR Item Number"@en ;
 	skos:scopeNote "To be distinguished from tolx:_ReferenceType_har. This is an ID number that can be appended to the url to construct a link to the image on the HAR site. The reference URLs have various formats and point to pages about people, sets of images, etc."@en ;
 	tolo:url "https://www.himalayanart.org/items/"^^xsd:anyURI ;
@@ -34,6 +35,7 @@ tolx:_IdType_har
 
 tolx:_IdType_orcid
 	a tolo:IdType ;
+	skos:definition "A free, unique, persistent identifier allocated by ORCID for individuals to use as they engage in research, scholarship, and innovation activities."@en ;
 	skos:prefLabel "ORCID ID"@en ;
 	.
 
@@ -46,6 +48,7 @@ tolx:_IdType_tol
 
 tolx:_IdType_worldcat
 	a tolo:IdType ;
+	skos:definition "The identifier of an item in the WorldCat catalog. WorldCat is the world's larget library catalog, helping people find library materials online."@en ;
 	skos:prefLabel "WorldCat"@en ;
 	tolo:url "https://www.worldcat.org/oclc/"^^xsd:anyURI ;
 	.
