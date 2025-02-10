@@ -1,7 +1,7 @@
 # imports: http://purl.bdrc.io/ontology/types/Gender
 # imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
 # imports: https://w3id.org/semanticarts/ontology/gistMediaTypes13.0.0
-# imports: https://w3id.org/treasuryoflives/data/tolAuthorStatementsX.x.x
+# imports: https://w3id.org/treasuryoflives/data/tolAuthorDisclosuresX.x.x
 # imports: https://w3id.org/treasuryoflives/data/tolHistoricalPeriodsX.x.x
 # imports: https://w3id.org/treasuryoflives/data/tolTraditionsX.x.x
 # imports: https://w3id.org/treasuryoflives/data/tolWebsitesX.x.x
@@ -40,7 +40,7 @@
 		<http://purl.bdrc.io/ontology/types/Gender> ,
 		<https://w3id.org/semanticarts/ontology/gistCore13.0.0> ,
 		<https://w3id.org/semanticarts/ontology/gistMediaTypes13.0.0> ,
-		<https://w3id.org/treasuryoflives/data/tolAuthorStatementsX.x.x> ,
+		<https://w3id.org/treasuryoflives/data/tolAuthorDisclosuresX.x.x> ,
 		<https://w3id.org/treasuryoflives/data/tolHistoricalPeriodsX.x.x> ,
 		<https://w3id.org/treasuryoflives/data/tolTraditionsX.x.x> ,
 		<https://w3id.org/treasuryoflives/data/tolWebsitesX.x.x> ,

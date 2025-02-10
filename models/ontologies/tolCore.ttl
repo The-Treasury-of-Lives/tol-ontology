@@ -36,12 +36,24 @@ gist:EntityActiveStatus
 
 tolo:Author
 	a owl:Class ;
-	rdfs:subClassOf gist:Person ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:Person
+			[
+				a owl:Restriction ;
+				owl:onProperty [
+					owl:inverseOf gist:hasParticipant ;
+				] ;
+				owl:someValuesFrom tolo:Authorship ;
+			]
+		) ;
+	] ;
 	skos:definition "A person who has authored or contributed to authoring at least one work."@en ;
 	skos:prefLabel "Author"@en ;
 	.
 
-tolo:AuthorStatement
+tolo:AuthorDisclosure
 	a owl:Class ;
 	owl:equivalentClass [
 		a owl:Class ;
@@ -50,15 +62,15 @@ tolo:AuthorStatement
 			[
 				a owl:Restriction ;
 				owl:onProperty [
-					owl:inverseOf tolo:hasStatement ;
+					owl:inverseOf gist:refersTo ;
 				] ;
 				owl:someValuesFrom tolo:Biography ;
 			]
 		) ;
 	] ;
-	skos:definition "A disclaimer or disclosure about the author of a biography."@en ;
+	skos:definition "A disclaimer or disclosure made by the author of a biography."@en ;
 	skos:example "A statement indicating that the author of the biography is a relative or student of its subject."@en ;
-	skos:prefLabel "Author Statement"@en ;
+	skos:prefLabel "Author Disclosure"@en ;
 	.
 
 tolo:Authorship
@@ -130,6 +142,7 @@ tolo:Birth
 			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
 		]
 		;
+	owl:disjointWith tolo:Death ;
 	skos:definition "The event of being born."@en ;
 	skos:prefLabel "Birth"@en ;
 	.
@@ -182,8 +195,22 @@ tolo:Death
 
 tolo:Founding
 	a owl:Class ;
-	rdfs:subClassOf gist:Event ;
-	skos:definition "The event of establishng or originating an institution such as a monastery. A founding object is used to attach various dates (year, alternate year, century, etc.), as well as the founder, to the institution."@en ;
+	rdfs:subClassOf
+		gist:Event ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:hasParticipant ;
+			owl:onClass tolo:Person ;
+			owl:minQualifiedCardinality "2"^^xsd:integer ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:hasParticipant ;
+			owl:onClass gist:Place ;
+			owl:qualifiedCardinality "1"^^xsd:integer ;
+		]
+		;
+	skos:definition "The event of establishng or originating an institution such as a monastery. A founding object is used to attach various dates (year, alternate year, century, etc.), as well as one or more founders, to the institution."@en ;
 	skos:prefLabel "Founding"@en ;
 	.
 
@@ -219,7 +246,7 @@ tolo:IdType
 	skos:definition "A kind of identifier, usually associated with an allocating organization."@en ;
 	skos:example "Gendun Drub has Himalayan Art (HAR) identifier 582."@en ;
 	skos:prefLabel "ID Type"@en ;
-	skos:scopeNote "The ID type is used to construct links by specifying a URL fragment to combine with the identifier to form a URL and a display label to use as link text."@en ;
+	skos:scopeNote "In some cases, the ID type can be used to construct links by specifying a URL fragment to combine with the identifier to form a URL and a display label to use as link text."@en ;
 	.
 
 tolo:Image
@@ -242,6 +269,11 @@ tolo:Incarnation
 			a owl:Restriction ;
 			owl:onProperty gist:providesOrderFor ;
 			owl:allValuesFrom tolo:Person ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:sequence ;
+			owl:cardinality "1"^^xsd:integer ;
 		]
 		;
 	owl:equivalentClass [
@@ -263,11 +295,6 @@ tolo:Incarnation
 				owl:onProperty gist:sequence ;
 				owl:someValuesFrom xsd:integer ;
 			]
-			[
-				a owl:Restriction ;
-				owl:onProperty tolo:ordinal ;
-				owl:someValuesFrom xsd:integer ;
-			]
 		) ;
 	] ;
 	skos:definition "The relationship connecting a person to an incarnation lineage and expressing the sequence and ordinal of the person in the lineage."@en ;
@@ -277,7 +304,7 @@ tolo:Incarnation
 		"Incarnation"@en ,
 		"sprul sku"@bo-x-ewts
 		;
-	skos:scopeNote "The sequence and ordinal may differ in some cases, and in some cases there may be no ordinal."@en ;
+	skos:scopeNote "The sequence is used to impose a chronological order on the incarnations, and is required, while the ordinal, which is optional, indicates the numbering according to some tradition. They are typically but not always the same. See tolo:ordinal."@en ;
 	.
 
 tolo:IncarnationLineage
@@ -328,6 +355,13 @@ tolo:KinshipGroup
 					tolo:RulerLineage
 				) ;
 			] ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isMemberOf ;
+			] ;
+			owl:someValuesFrom owl:Thing ;
 		]
 		;
 	skos:definition "A social unit consisting of people with a common ancestor."@en ;
@@ -351,24 +385,23 @@ tolo:KinshipGroupType
 		) ;
 	] ;
 	skos:definition "A type of kinship group."@en ;
-	skos:example "Lhasa Aristocracy."@en ;
+	skos:example "Lhasa aristocracy, clan."@en ;
 	skos:prefLabel "Kinship Group Type"@en ;
-	skos:scopeNote "Currently only one type is defined."@en ;
 	.
 
 tolo:Lineage
 	a owl:Class ;
+	rdfs:subClassOf [
+		a owl:Restriction ;
+		owl:onProperty [
+			owl:inverseOf gist:isMemberOf ;
+		] ;
+		owl:allValuesFrom tolo:LineageMember ;
+	] ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
 			gist:OrderedCollection
-			[
-				a owl:Restriction ;
-				owl:onProperty [
-					owl:inverseOf gist:isMemberOf ;
-				] ;
-				owl:allValuesFrom tolo:LineageMember ;
-			]
 			[
 				a owl:Restriction ;
 				owl:onProperty [
@@ -385,19 +418,44 @@ tolo:Lineage
 tolo:LineageMember
 	a owl:Class ;
 	rdfs:subClassOf
-		gist:OrderedMember ,
 		[
 			a owl:Restriction ;
-			owl:onProperty gist:sequence ;
-			owl:someValuesFrom xsd:integer ;
+			owl:onProperty gist:isMemberOf ;
+			owl:allValuesFrom tolo:Lineage ;
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty tolo:ordinal ;
-			owl:someValuesFrom xsd:integer ;
+			owl:onProperty gist:providesOrderFor ;
+			owl:allValuesFrom tolo:Person ;
+		] ,
+		[
+			a owl:Restriction ;
+			owl:onProperty gist:sequence ;
+			owl:cardinality "1"@en ;
 		]
 		;
-	skos:definition "An ordered member that relates a lineage to one of its members."@en ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:OrderedMember
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:sequence ;
+				owl:someValuesFrom xsd:integer ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:providesOrderFor ;
+				owl:someValuesFrom tolo:Person ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isMemberOf ;
+				owl:someValuesFrom tolo:Lineage ;
+			]
+		) ;
+	] ;
+	skos:definition "An ordered member that relates a lineage to a person in the lineage."@en ;
 	skos:prefLabel "Lineage Member"@en ;
 	.
 
@@ -978,15 +1036,6 @@ tolo:hasSpouse
 	skos:scopeNote "Use bdo:hasHusband or bdo:hasWife to assert a direct relationship from wife to husband or husband to wife, respectively."@en ;
 	.
 
-tolo:hasStatement
-	a owl:ObjectProperty ;
-	rdfs:domain tolo:Biography ;
-	rdfs:range tolo:AuthorStatement ;
-	skos:definition "Relates a biography to a disclaimer or disclosure about its authorship."@en ;
-	skos:example "A biography has a statement indicating that its author is a relative or student of its subject."@en ;
-	skos:prefLabel "has statement"@en ;
-	.
-
 tolo:hasSummary
 	a owl:ObjectProperty ;
 	rdfs:domain tolo:FormattedContent ;
@@ -1011,7 +1060,7 @@ tolo:inYear
 	skos:definition "The year in which something existed or took place, ambiguous as to start/end and planned/actual/approximate/alternate."@en ;
 	skos:example "Gyergom Tsultime Sengge's birth took place in 1144."@en ;
 	skos:prefLabel "in year"@en ;
-	skos:scopeNote "This is a covering concept for approximate, actual, and alternate years (as for births, deaths, and foundings) but would generally not be materialized directly."@en ;
+	skos:scopeNote "This is a covering concept for approximate, actual, and alternate years (as for births, deaths, and foundings) and will generally not be used directly."@en ;
 	.
 
 tolo:isAssignmentOf
@@ -1146,7 +1195,7 @@ tolo:ordinal
 	skos:example "The First Dalai Lama"@en ;
 	skos:prefLabel "ordinal"@en ;
 	skos:scopeNote
-		"Incarnation ordinals reflect the accepted convention of the position of a given individual in the sequence of lives. These occasionally, though rarely, differ from the incarnation sequence due to contested numbering strategies or from the line's originating individual not being counted as the 'first.' An example of the first variant would be the Panchen Lama incarnation line, which has two ordinal sequences based on differing systems of which individual counts as the First Panchen Lama. In this instance, the actual incarnation sequence is the same in both systems, but lines up with the ordinals in one system and differs in the other. An example of the other variant would be the First Shechen Kongtrul, who is the second member of an incarnation sequence that begins with Jamgon Kongtrul."@en ,
+		"Incarnation ordinals reflect the accepted convention of the position of a given individual in the sequence of lives. These occasionally, though rarely, differ from the incarnation sequence due to contested numbering strategies or from the line's originating individual not being counted as the 'first.' An example of the first variant would be the Panchen Lama incarnation line, which has two ordinal values based on differing systems of which individual counts as the First Panchen Lama. In this instance, the actual incarnation sequence is the same in both systems, but lines up with the ordinals in one system and differs in the other. An example of the other variant would be the First Shechen Kongtrul, who is the second member of an incarnation sequence that begins with Jamgon Kongtrul."@en ,
 		"This value is stored as an integer value and converted to an ordinal string for display purposes. This provides more flexibility than storing as an ordinal string."@en
 		;
 	.
