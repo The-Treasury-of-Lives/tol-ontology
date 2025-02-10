@@ -15,25 +15,25 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/treasuryoflives/data/tolAuthorStatements>
+<https://w3id.org/treasuryoflives/data/tolAuthorDisclosures>
 	a owl:Ontology ;
 	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
-	owl:versionIRI <https://w3id.org/treasuryoflives/data/tolAuthorStatementsX.x.x> ;
-	skos:definition "Defines author's disclaimers that can be placed on a biography."@en ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/data/tolAuthorDisclosuresX.x.x> ;
+	skos:definition "Defines author disclosures that can be placed on a biography."@en ;
 	skos:editorialNote "Hand-curated."@en ;
-	skos:prefLabel "Author Statements"@en ;
+	skos:prefLabel "Author Disclosures"@en ;
 	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
-told:_AuthorStatement_relative
-	a tolo:AuthorStatement ;
-	skos:prefLabel "Relative Statement"@en ;
+told:_AuthorDisclosure_relative
+	a tolo:AuthorDisclosure ;
+	skos:prefLabel "Relative Disclosure"@en ;
 	gist:containedText "The author of this essay is a relative of the biographical subject. The author has fully disclosed this fact to the Treasury of Lives editorial staff, and that information was made known to the peer reviewer."@en ;
 	.
 
-told:_AuthorStatement_student
-	a tolo:AuthorStatement ;
-	skos:prefLabel "Student Statement"@en ;
+told:_AuthorDisclosure_student
+	a tolo:AuthorDisclosure ;
+	skos:prefLabel "Student Disclosure"@en ;
 	gist:containedText "The author of this essay is a student of the biographical subject. The author has fully disclosed this fact to the Treasury of Lives editorial staff, and that information was made known to the peer reviewer."@en ;
 	.
 
