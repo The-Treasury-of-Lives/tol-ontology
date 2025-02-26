@@ -150,11 +150,11 @@ tolo:Birth
 tolo:Collection
 	a owl:Class ;
 	rdfs:subClassOf
-		gist:Place ,
+		gist:Collection ,
 		[
 			a owl:Restriction ;
 			owl:onProperty [
-				owl:inverseOf gist:hasPhysicalLocation ;
+				owl:inverseOf gist:isMemberOf ;
 			] ;
 			owl:someValuesFrom gist:IntellectualProperty ;
 		]
