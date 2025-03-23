@@ -192,13 +192,13 @@ tolo:Founding
 		[
 			a owl:Restriction ;
 			owl:onProperty gist:hasParticipant ;
-			owl:onClass tolo:Person ;
-			owl:minQualifiedCardinality "2"^^xsd:integer ;
+			owl:onClass gist:Place ;
+			owl:qualifiedCardinality "1"^^xsd:integer ;
 		] ,
 		[
 			a owl:Restriction ;
 			owl:onProperty gist:hasParticipant ;
-			owl:onClass gist:Place ;
+			owl:onClass tolo:Person ;
 			owl:qualifiedCardinality "1"^^xsd:integer ;
 		]
 		;
@@ -811,6 +811,20 @@ tolo:actualYear
 	skos:prefLabel "actual year"@en ;
 	.
 
+tolo:alternateEndYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tolo:inYear ;
+	skos:definition "The year in which something is proposed to have ended."@en ;
+	skos:prefLabel "alternate end year"@en ;
+	.
+
+tolo:alternateStartYear
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf tolo:inYear ;
+	skos:definition "The year in which something is proposed to have started."@en ;
+	skos:prefLabel "alternate start year"@en ;
+	.
+
 tolo:alternateYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tolo:inYear ;
@@ -936,6 +950,15 @@ tolo:hasCreator
 		gist:Content ,
 		gist:IntellectualProperty
 		;
+	.
+
+tolo:hasFounder
+	a owl:ObjectProperty ;
+	rdfs:range tolo:Person ;
+	skos:definition "Relates something, such as a tradition, to its founder."@en ;
+	skos:prefLabel "hasFounder"@en ;
+	skos:scopeNote "Currently we do not have dates on tradition foundings, so there is no need for the complexity of a founding object. If we get dates in the future, remove this predicate and use the founding structure as for monasteries."@en ;
+	gist:domainIncludes tolo:Tradition ;
 	.
 
 tolo:hasHusband
