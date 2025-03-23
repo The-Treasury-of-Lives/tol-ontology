@@ -27,6 +27,7 @@
 	skos:definition "A role, office, or vocation played by a person, typically, though not always, in an institutional context. Generally role assignments are man-made, other than the ruler role, which is inherited."@en ;
 	skos:editorialNote "Generated via TARQL."@en ;
 	skos:prefLabel "Treasury of Lives Roles"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
 tolx:_Role_artist

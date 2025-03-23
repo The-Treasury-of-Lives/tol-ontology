@@ -1,4 +1,5 @@
-# imports: https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x
+# imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
+# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bdr: <http://purl.bdrc.io/resource/> .
@@ -18,7 +19,10 @@
 
 <https://w3id.org/treasuryoflives/taxonomy/tolMappingPriorities>
 	a owl:Ontology ;
-	owl:imports <https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x> ;
+	owl:imports
+		<https://w3id.org/semanticarts/ontology/gistCore13.0.0> ,
+		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
+		;
 	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolMappingPrioritiesX.x.x> ;
 	skos:definition "Defines mapping priorities for displaying places on maps."@en ;
 	skos:editorialNote "Hand-curated."@en ;
