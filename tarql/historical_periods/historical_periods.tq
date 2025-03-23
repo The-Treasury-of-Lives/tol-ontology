@@ -1,9 +1,8 @@
 PREFIX bdo: <http://purl.bdrc.io/ontology/core/>
-PREFIX bdr: <http://purl.bdrc.io/resource/> 
-PREFIX bf: <http://id.loc.gov/ontologies/bibframe/>
-PREFIX dct: <http://purl.org/dc/terms/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX bdr: <http://purl.bdrc.io/resource/>
 PREFIX gist: <https://w3id.org/semanticarts/ns/ontology/gist/>
+PREFIX media-image: <https://www.iana.org/assignments/media-types/image/>
+PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -11,10 +10,10 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX told: <https://w3id.org/treasuryoflives/ns/data/tol/>
 PREFIX tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/>
 PREFIX tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/>
-PREFIX xml: <http://www.w3.org/XML/1998/namespace>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX viaf: <https://viaf.org/viaf/>
 PREFIX wiki: <https://www.wikidata.org/wiki/>
-PREFIX media-txt: <https://www.iana.org/assignments/media-types/text/> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
 
 ## COLUMNS
 # cms_label (ignore)
@@ -45,9 +44,9 @@ CONSTRUCT {
 		gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
-	?historical_period_iri 
+	?historical_period_iri
 		a tolo:HistoricalPeriod ;
-		skos:prefLabel 
+		skos:prefLabel
 			?pref_label_en ,
 			?pref_label_wylie ,
 			?pref_label_tibetan ;
@@ -60,7 +59,7 @@ CONSTRUCT {
 	?mid_century_iri gist:isPartOf ?historical_period_iri .
 	?late_century_iri gist:isPartOf ?historical_period_iri .
 
- 	?description_iri 
+ 	?description_iri
         a gist:FormattedContent ;
         skos:prefLabel ?description_pref_label_en ;
         gist:isAbout ?historical_period_iri ;
@@ -68,7 +67,7 @@ CONSTRUCT {
 		gist:containedText ?description_en ;
         .
 
-} 
+}
 
 WHERE {
 
@@ -88,7 +87,7 @@ WHERE {
 
 	BIND(
 		COALESCE(
-			IF(REGEX(?start_year, "^\\d{4}$"), ?start_year, ?unbound), 
+			IF(REGEX(?start_year, "^\\d{4}$"), ?start_year, ?unbound),
 			IF(REGEX(?start_year, "^\\d{3}$"), CONCAT("0", ?start_year), ?unbound),
 			IF(REGEX(?start_year, "^\\d{2}$"), CONCAT("00", ?start_year), ?unbound),
 			IF(REGEX(?start_year, "^\\d$"), CONCAT("000", ?start_year), ?unbound)
@@ -100,7 +99,7 @@ WHERE {
 	# End year
 	BIND(
 		COALESCE(
-			IF(REGEX(?end_year, "^\\d{4}$"), ?end_year, ?unbound), 
+			IF(REGEX(?end_year, "^\\d{4}$"), ?end_year, ?unbound),
 			IF(REGEX(?end_year, "^\\d{3}$"), CONCAT("0", ?end_year), ?unbound),
 			IF(REGEX(?end_year, "^\\d{2}$"), CONCAT("00", ?end_year), ?unbound),
 			IF(REGEX(?end_year, "^\\d$"), CONCAT("000", ?end_year), ?unbound)
@@ -115,34 +114,34 @@ WHERE {
 
 	# Parts of centuries
 	BIND(IF(BOUND(?is_full_century),
-		tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", STR(?century + 1))),  
-		?unbound		
+		tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", STR(?century + 1))),
+		?unbound
 	) AS ?early_century_iri)
 	BIND(IF(BOUND(?is_full_century),
-		tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", STR(?century + 2))),  
-		?unbound		
+		tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", STR(?century + 2))),
+		?unbound
 	) AS ?mid_century_iri)
 	BIND(IF(BOUND(?is_full_century),
-		tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", STR(?century + 3))),  
-		?unbound		
+		tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", STR(?century + 3))),
+		?unbound
 	) AS ?late_century_iri)
 
 	# Precedence
-	BIND(IF(BOUND(?is_full_century), 
-		IF(?century < 81, ?century + 4, ?unbound), 
+	BIND(IF(BOUND(?is_full_century),
+		IF(?century < 81, ?century + 4, ?unbound),
 		IF(?century < 84, ?century + 1, ?unbound)
 	) AS ?next_period_id)
-	BIND(tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", STR(?next_period_id))) AS ?next_period_iri)  
+	BIND(tarql:expandPrefixedName(CONCAT("told:_HistoricalPeriod_", STR(?next_period_id))) AS ?next_period_iri)
 
     # Description
-    BIND(IF(BOUND(?Description), 
-		tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_HistoricalPeriod_", ?century_id)), 
+    BIND(IF(BOUND(?Description),
+		tarql:expandPrefixedName(CONCAT("told:_FormattedContent_Description_HistoricalPeriod_", ?century_id)),
 		?unbound
 	) AS ?description_iri)
-    BIND(IF(BOUND(?description_iri), 
-		STRLANG(CONCAT("The ", ?historical_period_name), "en"), 
+    BIND(IF(BOUND(?description_iri),
+		STRLANG(CONCAT("The ", ?historical_period_name), "en"),
 		?unbound
 	) AS ?description_pref_label_en)
     BIND(STRLANG(?Description, "en") AS ?description_en)
-  
+
 }

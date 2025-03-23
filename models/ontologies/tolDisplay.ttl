@@ -1,12 +1,16 @@
 # imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
 # imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
 
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
 @prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/treasuryoflives/ontology/tolDisplay>
@@ -29,7 +33,7 @@ tolo:MappingPriority
 			gist:Category
 			[
 				a owl:Restriction ;
-				owl:onProperty tolo:level ;
+				owl:onProperty gist:sequence ;
 				owl:someValuesFrom xsd:integer ;
 			]
 			[
@@ -83,7 +87,6 @@ tolo:hasMappingPriority
 tolo:hasPrimaryDisplayImage
 	a owl:AnnotationProperty ;
 	skos:definition "Relates a person, place, or other resource to the primary image displayed on its web page. Only the primary image is displayed in search results."@en ;
-	skos:editorialNote "Not defining superproperty hasDisplayImage since these are annotation properties."@en ;
 	skos:example "The page for Jinamitra displays a generic translator image. The page for Nanam Yeshe De has two images, a primary and a secondary one."@en ;
 	skos:prefLabel "has primary display image"@en ;
 	skos:scopeNote "tolo:depicts is not always accurate, since some images are displayed with multiple people and are not depicted with them. For example, a generic translator image is displayed on the page of Jinamitra and other translators."@en ;
@@ -93,7 +96,6 @@ tolo:hasPrimaryDisplayImage
 tolo:hasSecondaryDisplayImage
 	a owl:AnnotationProperty ;
 	skos:definition "Relates a person, place, or other resource to a secondary image displayed on its web page. Unlike the primary image, the secondary image is not displayed in search results."@en ;
-	skos:editorialNote "Not defining superproperty hasDisplayImage since these are annotation properties."@en ;
 	skos:example "The page for Nanam Yeshe De has two images, a primary and a secondary one."@en ;
 	skos:prefLabel "has secondary display image"@en ;
 	skos:scopeNote "tolo:depicts is not always accurate, since some images are displayed with multiple people and are not depicted with them. For example, a generic translator image is displayed on the page of Jinamitra and other translators."@en ;
