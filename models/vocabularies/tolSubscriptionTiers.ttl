@@ -1,4 +1,5 @@
-# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
+# imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
+# imports: https://w3id.org/treasuryoflives/ontology/tolAdminX.x.x
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bdr: <http://purl.bdrc.io/resource/> .
@@ -18,7 +19,10 @@
 
 <https://w3id.org/treasuryoflives/taxonomy/tolSubscriptionTiers>
 	a owl:Ontology ;
-	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
+	owl:imports
+		<https://w3id.org/semanticarts/ontology/gistCore13.0.0> ,
+		<https://w3id.org/treasuryoflives/ontology/tolAdminX.x.x>
+		;
 	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolSubscriptionTiersX.x.x> ;
 	skos:definition "Defines subscription tiers."@en ;
 	skos:editorialNote "Hand-curated."@en ;

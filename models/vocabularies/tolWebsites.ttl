@@ -1,5 +1,4 @@
 # imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
-# imports: https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bdr: <http://purl.bdrc.io/resource/> .
@@ -19,10 +18,7 @@
 
 <https://w3id.org/treasuryoflives/data/tolWebsites>
 	a owl:Ontology ;
-	owl:imports
-		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ,
-		<https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x>
-		;
+	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/data/tolWebsitesX.x.x> ;
 	skos:definition "Defines online reference collections used in URLs (electronic addresses) from resources such as persons and images."@en ;
 	skos:editorialNote "Hand-curated."@en ;

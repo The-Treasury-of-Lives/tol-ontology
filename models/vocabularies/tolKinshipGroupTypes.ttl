@@ -1,3 +1,4 @@
+# imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
 # imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
@@ -18,7 +19,10 @@
 
 <https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypes>
 	a owl:Ontology ;
-	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
+	owl:imports
+		<https://w3id.org/semanticarts/ontology/gistCore13.0.0> ,
+		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
+		;
 	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypesX.x.x> ;
 	skos:definition "Defines specific types of kinship groups."@en ;
 	skos:editorialNote "Hand-curated."@en ;

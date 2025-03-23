@@ -1,4 +1,5 @@
-# imports: https://w3id.org/treasuryoflives/ontology/gistCore13.0.0
+# imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
+# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bdr: <http://purl.bdrc.io/resource/> .
@@ -18,7 +19,10 @@
 
 <https://w3id.org/treasuryoflives/taxonomy/tolWorkTypes>
 	a owl:Ontology ;
-	owl:imports <https://w3id.org/treasuryoflives/ontology/gistCore13.0.0> ;
+	owl:imports
+		<https://w3id.org/semanticarts/ontology/gistCore13.0.0> ,
+		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
+		;
 	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolWorkTypesX.x.x> ;
 	skos:definition "Defines types of media displayed on the Treasury of Lives website."@en ;
 	skos:editorialNote "Hand-curated."@en ;
