@@ -123,7 +123,7 @@ tolo:Birth
 		[
 			a owl:Restriction ;
 			owl:onProperty tolo:inYear ;
-			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+			owl:someValuesFrom rdfs:Literal ;
 		]
 		;
 	owl:disjointWith tolo:Death ;
@@ -170,7 +170,7 @@ tolo:Death
 		[
 			a owl:Restriction ;
 			owl:onProperty tolo:inYear ;
-			owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+			owl:someValuesFrom rdfs:Literal ;
 		]
 		;
 	skos:definition "The end of a life."@en ;
