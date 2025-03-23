@@ -2,7 +2,6 @@
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
-@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -18,10 +17,6 @@
 	owl:imports <https://w3id.org/semanticarts/ontology/gistCore13.0.0> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, facilitate the consumption of external RDF, and to to enhance the narrative text with structured data."@en ;
-	skos:editoralNote "Add rdfs:isDefinedBy using onto-toolkit."@en ;
-	skos:editorialNote """
-		Temporarily removing imports:
-			<http://purl.bdrc.io/ontology/core> to make Protege easier to read."""@en ;
 	skos:prefLabel "Treasury of Lives Core Ontology"@en ;
 	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
@@ -92,10 +87,7 @@ tolo:Authorship
 		) ;
 	] ;
 	skos:definition "Relates a bio to a person who has authored it."@en ;
-	skos:editorialNote
-		"Though there is a display order of multiple authors of a single biography, we do not currently distinguish primary from secondary author in the model, because there may be more than two authors and we still need to specify the display order."@en ,
-		"Using a simple model of authorship until there is a use case for a more complex model with a generic Contribution class and roles as in BIBFRAME."@en
-		;
+	skos:editorialNote "Using a simple model of authorship until there is a use case for a more complex model with a generic Contribution class and roles as in BIBFRAME."@en ;
 	skos:prefLabel "Authorship"@en ;
 	.
 
@@ -253,7 +245,6 @@ tolo:Image
 	a owl:Class ;
 	rdfs:subClassOf gist:FormattedContent ;
 	skos:definition "A formatted content object with an image media type."@en ;
-	skos:editorialNote "Not limiting to specific media types such as jpg and png in case others are added."@en ;
 	skos:prefLabel "Image"@en ;
 	.
 
@@ -290,15 +281,9 @@ tolo:Incarnation
 				owl:onProperty gist:providesOrderFor ;
 				owl:someValuesFrom tolo:Person ;
 			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:sequence ;
-				owl:someValuesFrom xsd:integer ;
-			]
 		) ;
 	] ;
 	skos:definition "The relationship connecting a person to an incarnation lineage and expressing the sequence and ordinal of the person in the lineage."@en ;
-	skos:editorialNote "Connects person to lineage."@en ;
 	skos:example "The Third Dalai Lama."@en ;
 	skos:prefLabel
 		"Incarnation"@en ,
@@ -483,7 +468,7 @@ tolo:Marriage
 	] ;
 	skos:definition "A culturally and often legally recognized union between two people, called spouses, that establishes rights and obligations between them."@en ;
 	skos:prefLabel "Marriage"@en ;
-	skos:scopeNote "A marriage is associated with the birth kinship group of either the father ('patrilocal') or mother ('matrilocal')."@en ;
+	skos:scopeNote "A marriage is associated with the birth kinship group of either the husband ('patrilocal') or wife ('matrilocal')."@en ;
 	.
 
 tolo:MarriageTerminationCause
@@ -503,23 +488,6 @@ tolo:MarriageTerminationCause
 	skos:prefLabel "Marriage Termination Cause"@en ;
 	.
 
-tolo:MarriageType
-	a owl:Class ;
-	rdfs:subClassOf
-		gist:Category ,
-		[
-			a owl:Restriction ;
-			owl:onProperty [
-				owl:inverseOf gist:isCategorizedBy ;
-			] ;
-			owl:allValuesFrom tolo:Marriage ;
-		]
-		;
-	skos:definition "A category characterizing a marriage as either matrilocal or patrilocal (default)."@en ;
-	skos:editorialNote "Is this used? I think now we connect a marriage to a kinship group."@en ;
-	skos:prefLabel "Marriage Type"@en ;
-	.
-
 tolo:Monastery
 	a owl:Class ;
 	owl:equivalentClass [
@@ -534,17 +502,35 @@ tolo:Monastery
 					tolx:_PlaceType_nunnery
 				) ;
 			]
+			[
+				a owl:Restriction ;
+				owl:onProperty [
+					owl:inverseOf gist:hasParticipant ;
+				] ;
+				owl:someValuesFrom tolo:Founding ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty [
+					owl:inverseOf gist:hasParticipant ;
+				] ;
+				owl:someValuesFrom tolo:Founding ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isConnectedTo ;
+				owl:someValuesFrom tolo:MonasteryHeadLineage ;
+			]
 		) ;
 	] ;
 	skos:definition "A community of ordained individuals affiliated with a particular religious tradition with a common annual ritual calendar and rules. The community is organized hierarchically, with established roles such as abbot, treasurer, and the like. Human-created structures such as temples, assembly halls, residential houses and meditation halls are typical features."@en ;
-	skos:editorialNote "Has a founder, has monastery lineage, ..."@en ;
 	skos:prefLabel
 		"Monastery"@en ,
 		"dgon pa"@bo-x-ewts ,
 		"དགོན་པ་"@bo ,
 		"寺院"@zh-HANI
 		;
-	skos:scopeNote "This term designates both the community and the physical structures that house it. Note that nunneries are included but differentiated by a different taxonomic type."@en ;
+	skos:scopeNote "This term designates both tje community and the physical structures that house it. Note that nunneries are included but differentiated by place type."@en ;
 	.
 
 tolo:MonasteryHead
@@ -553,7 +539,7 @@ tolo:MonasteryHead
 		[
 			a owl:Restriction ;
 			owl:onProperty gist:isMemberOf ;
-			owl:allValuesFrom tolo:MonasteryHeadLineage ;
+			owl:allValuesFrom tolo:MonasteryLineage ;
 		] ,
 		[
 			a owl:Restriction ;
@@ -568,7 +554,7 @@ tolo:MonasteryHead
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:isMemberOf ;
-				owl:someValuesFrom tolo:MonasteryHeadLineage ;
+				owl:someValuesFrom tolo:MonasteryLineage ;
 			]
 			[
 				a owl:Restriction ;
@@ -608,7 +594,6 @@ tolo:MonasteryLineage
 		) ;
 	] ;
 	skos:definition "A lineage of heads or lay administrators of a particular monastery."@en ;
-	skos:editorialNote "The role is attached to the lineage rather than the individual lineage members, as this makes the most sense; however, it creates a different triple pattern from the non-lineage one where roles are connected directly to persons."@en ;
 	skos:example "Katok Khenpo, Drepung are monastery head lineages."@en ;
 	skos:prefLabel "Monastery Lineage"@en ;
 	.
@@ -620,7 +605,7 @@ tolo:Person
 		gist:Person ,
 		wiki:Person
 		;
-	skos:definition "An individual being who was born, lived, and died in the human realm and is or potentiallly is the subject of a Treasury of Lives biography."@en ;
+	skos:definition "An individual being who was born, lived, and died in the human realm and is or potentially is the subject of a Treasury of Lives biography."@en ;
 	skos:prefLabel
 		"Person"@en ,
 		"mi"@bo-x-ewts
@@ -689,7 +674,6 @@ tolo:RulerLineage
 		) ;
 	] ;
 	skos:definition "A lineage of members of a royal family who inherit the role of ruler of the home region. In addition to a kinship group and region, the lineage may also be associated with a place or institution, such as a palace or monastery."@en ;
-	skos:editorialNote "The role is attached to the lineage rather than the individual lineage members, as this makes the most sense; however, it creates a different triple pattern from the non-lineage one where roles are connected directly to persons."@en ;
 	skos:example "Derge, Chone."@en ;
 	skos:prefLabel "Ruler Lineage"@en ;
 	.
@@ -722,7 +706,6 @@ tolo:TeacherStudentRelationship
 		a owl:Class ;
 		owl:intersectionOf (
 			gist:TemporalRelation
-			gist:Agreement
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:hasGiver ;
@@ -825,7 +808,7 @@ tolo:alternateYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf tolo:inYear ;
 	skos:definition "The year in which something is proposed to have existed or taken place."@en ;
-	skos:example "According to one source, Botrul Dongak Tenpai Nyima was born in 1900, while according to another source his birth year was XXX and he died in 1902. No indication of greater or less likelihood of the two possibilities is implied."@en ;
+	skos:example "According to one source, Kunkyong Lingpa was born in 1396, while according to another source his birth year was 1408. No indication of greater or less likelihood of the two possibilities is implied."@en ;
 	skos:prefLabel "alternate year"@en ;
 	skos:scopeNote "Differs from tolo:approximateYear, which specifies a single year but is intended to be inexact. In this case, various scholars have proposed different years. If there is an alternate year, there is no actual year; rather, both proposed dates are asserted as alternates."@en ;
 	.
@@ -853,23 +836,13 @@ tolo:approximateYear
 	skos:scopeNote "Differs from tolo:alternateYear, which is used when there is more than one proposed year. In this case, only one year is asserted, but it is intended to be inexact, thus encompassing some number of years before and/or after."@en ;
 	.
 
-tolo:birthFamilyName
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tolo:familyName ;
-	rdfs:domain tolo:Person ;
-	rdfs:range rdf:langString ;
-	skos:definition "The family name a person is assigned at birth."@en ;
-	skos:editorialNote "Not sure we need this - we might link to genealogical groups by birth or by marriage."@en ;
-	skos:prefLabel "birth family name"@en ;
-	skos:scopeNote "A family name other than the birth name can be acquired through marriage."@en ;
-	.
-
 tolo:creationDate
 	a owl:DatatypeProperty ;
 	rdfs:subClassOf gist:atDateTime ;
 	skos:definition "The date something was created, with day precision."@en ;
+	skos:example "Date a photograph was taken."@en ;
 	skos:prefLabel "creation date"@en ;
-	skos:scopeNote "Differs from the timestamp when the image metadata was entered into the database."@en ;
+	skos:scopeNote "Differs from the timestamp when metadata for an image or other resource was entered into the database."@en ;
 	gist:domainIncludes
 		gist:Content ,
 		gist:IntellectualProperty
@@ -881,7 +854,6 @@ tolo:credit
 	rdfs:domain tolo:Image ;
 	rdfs:range xsd:string ;
 	skos:definition "A note acknowledging the source of an image."@en ;
-	skos:editorialNote "Should this go in the admin or display ontology?"@en ;
 	skos:prefLabel "credit"@en ;
 	skos:scopeNote "Note that the credit applies to the image file, not the work of art it depicts."@en ;
 	.
@@ -902,23 +874,12 @@ tolo:depicts
 		;
 	.
 
-tolo:dissolutionYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:actualEndYear ;
-	skos:definition "The year an agreement such as marriage was ended. In the case of marriage, this refers to divorce rather than the end of a marriage by death of one of the spouses."@en ;
-	skos:editorialNote
-		"Use if we need to distinguish divorce from death as the end of a marriage."@en ,
-		"We may want to do this like birth and death - have a Dissolution object with a year. If there are many things with actual/approximate/alternate values, (dissolution, founding, etc.) we should establish this as a general pattern."@en
-		;
-	skos:prefLabel "dissolution year"@en ;
-	.
-
 tolo:existsDuring
 	a owl:ObjectProperty ;
 	skos:definition "Relates an entity to an event, time period, or other temporal object during which it does or did exist."@en ;
 	skos:example "Trimalo lived during the 7th century; Dorje Sherab lived during the 12th and 13th centuries."@en ;
 	skos:prefLabel "exists during"@en ;
-	skos:scopeNote "The subject of tolo:existsDuring is a non-temporal resource. The property contrasts with tolo:occursDuring, which relates a temporal resource to a containing temporal resource."@en ;
+	skos:scopeNote "The subject of tolo:existsDuring is a non-temporal resource. The property contrasts with tolo:occursDuring, which relates a temporal resource (event, temporal relation, time interval) to a containing temporal resource."@en ;
 	gist:domainIncludes
 		gist:LivingThing ,
 		gist:PhysicalIdentifiableItem ,
@@ -930,22 +891,6 @@ tolo:existsDuring
 		gist:TimeInterval ,
 		tolo:HistoricalPeriod
 		;
-	.
-
-tolo:familyName
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:name ;
-	rdfs:domain [
-		a owl:Class ;
-		owl:unionOf (
-			tolo:Person
-			tolo:Marriage
-		) ;
-	] ;
-	rdfs:range rdf:langString ;
-	skos:definition "The name a person bears based on his/her genealogic or marital relationships."@en ;
-	skos:prefLabel "family name"@en ;
-	skos:scopeNote "Also applies to marriages; in an ordinary marriage, the marriage, spouses, and children take the husband's family name; in a makpa marriage, the wife's. The marriage name can be inferred from the individuals' family names, or vice versa."@en ;
 	.
 
 tolo:firstName
@@ -971,11 +916,9 @@ tolo:hasBibliographicSource
 	rdfs:domain gist:ContentExpression ;
 	rdfs:range gist:ContentExpression ;
 	skos:definition "Relates a piece of content to a source of information used to create that content."@en ;
+	skos:editorialNote "Not currently in use, since bibliographic sources are not yet being modeled as entities, as are place sources. Currently we use tolo:hasSourceStatement to link the bio to a formatted content object. This property will be used in future to relate biographies to their source entities."@en ;
 	skos:prefLabel "has source"@en ;
-	skos:scopeNote
-		"There is currently minimal parsing of source text to generate sources due to the complexity of this task."@en ,
-		"Written sources are used to create content about persons (i.e., biographies) and places on the Treasury of Lives website and cited with this content."@en
-		;
+	skos:scopeNote "Written sources are used to create content about persons (i.e., biographies) and places on the Treasury of Lives website and cited with this content."@en ;
 	.
 
 tolo:hasCreator
@@ -986,16 +929,6 @@ tolo:hasCreator
 		gist:Content ,
 		gist:IntellectualProperty
 		;
-	.
-
-tolo:hasFinalRestingPlace
-	a owl:ObjectProperty ;
-	rdfs:subPropertyOf gist:hasPhysicalLocation ;
-	rdfs:domain tolo:Person ;
-	skos:definition "Relates a person to (one of) his/her final resting place(s)."@en ;
-	skos:editorialNote "Consider connecting to Death rather than Person."@en ;
-	skos:prefLabel "has final resting place"@en ;
-	skos:scopeNote "Significant people such as the Dalai Lamas have reliquary stupas in geographic locations like temples or chapels. Sometimes there can be relics in multiple places."@en ;
 	.
 
 tolo:hasHusband
@@ -1022,7 +955,7 @@ tolo:hasSourceStatement
 	a owl:ObjectProperty ;
 	rdfs:domain tolo:FormattedContent ;
 	rdfs:range gist:FormattedContent ;
-	skos:definition "Relates a piece of content to a statement of its sources."@en ;
+	skos:definition "Relates a piece of content, such as a biography, to a statement of sources used to create it."@en ;
 	skos:prefLabel "has source statement"@en ;
 	.
 
@@ -1040,7 +973,7 @@ tolo:hasSummary
 	a owl:ObjectProperty ;
 	rdfs:domain tolo:FormattedContent ;
 	rdfs:range gist:FormattedContent ;
-	skos:definition "Relates a piece of content, such as a biography, to a brief statement or restatement of the main points of a larger work."@en ;
+	skos:definition "Relates a piece of content, such as a biography, to a brief statement or restatement of its main points."@en ;
 	skos:prefLabel "has summary"@en ;
 	.
 
@@ -1057,7 +990,7 @@ tolo:hasWife
 tolo:inYear
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:atDateTime ;
-	skos:definition "The year in which something existed or took place, ambiguous as to start/end and planned/actual/approximate/alternate."@en ;
+	skos:definition "The year in which something existed or took place, neutral as to start/end and planned/actual/approximate/alternate."@en ;
 	skos:example "Gyergom Tsultime Sengge's birth took place in 1144."@en ;
 	skos:prefLabel "in year"@en ;
 	skos:scopeNote "This is a covering concept for approximate, actual, and alternate years (as for births, deaths, and foundings) and will generally not be used directly."@en ;
@@ -1084,7 +1017,6 @@ tolo:isBranchOf
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf gist:isPartOf ;
 	skos:definition "Relates a monastery to a larger monastery in another location of which it is a subsidiary or affiliate. The two monasteries share administrative and/or curricular materials."@en ;
-	skos:editorialNote "Consider whether the domain/rangeIncludes should be tightened to rdfs:domain/range."@en ;
 	skos:example "The Adzom Gar monastery is a branch of the Katok monastery."@en ;
 	skos:prefLabel "is branch of"@en ;
 	skos:scopeNote "Differs from the tolo:isDerivedFrom relationship between monasteries, which is used for monasteries in exile."@en ;
@@ -1126,21 +1058,6 @@ tolo:lastName
 	skos:scopeNote "Neutral as to whether the last name is the given or family name."@en ;
 	.
 
-tolo:level
-	a owl:DatatypeProperty ;
-	rdfs:range xsd:integer ;
-	skos:altLabel "priority"@en ;
-	skos:definition "A level in a hierarchy."@en ;
-	skos:example "The level of a mapping priority; the tier of a subscription."@en ;
-	skos:prefLabel "level"@en ;
-	.
-
-tolo:localName
-	a owl:DatatypeProperty ;
-	skos:definition "The local name of an IRI."@en ;
-	skos:prefLabel "local name"@en ;
-	.
-
 tolo:nameVariant
 	a owl:DatatypeProperty ;
 	rdfs:subPropertyOf gist:name ;
@@ -1156,7 +1073,7 @@ tolo:occursBy
 		owl:ObjectProperty ,
 		owl:TransitiveProperty
 		;
-	skos:definition "Relates an event or temporal resource to another that temporally contains it."@en ;
+	skos:definition "Relates a temporal resource to another that provides an upper boundary to the time of its occurrence."@en ;
 	skos:example "The exact founding year or century of Pabongkha Hermitage is unknown, but it occurred by at least the 7th century."@en ;
 	skos:prefLabel "occurs by"@en ;
 	skos:scopeNote "Less precise than tolo:occursDuring."@en ;
@@ -1172,7 +1089,7 @@ tolo:occursDuring
 		owl:ObjectProperty ,
 		owl:TransitiveProperty
 		;
-	skos:definition "Relates one event, time interval, or temporal resource to another that temporally contains it."@en ;
+	skos:definition "Relates a temporal resource (event, time interval, or temporal relation) to another that temporally contains it."@en ;
 	skos:example "The birth of Gyergom Tsultrim Sengge occurred during the 12th century; the exact year of the founding of Nyima Tang Monastery is unknown, but it occurred sometime during the 7th century."@en ;
 	skos:prefLabel "occurs during"@en ;
 	skos:scopeNote "Used when a more precise value, such as year, is unknown or uncertain."@en ;

@@ -2,9 +2,9 @@
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix bdr: <http://purl.bdrc.io/resource/> .
-@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-image: <https://www.iana.org/assignments/media-types/image/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -12,7 +12,8 @@
 @prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
 @prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
 @prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/treasuryoflives/taxonomy/tolSubscriptionTiers>
@@ -28,18 +29,18 @@
 tolx:_SubscriptionTier_1
 	a tolo:SubscriptionTier ;
 	skos:prefLabel "Tier 1"@en ;
-	tolo:level "1"^^xsd:integer ;
+	gist:sequence "1"^^xsd:integer ;
 	.
 
 tolx:_SubscriptionTier_2
 	a tolo:SubscriptionTier ;
 	skos:prefLabel "Tier 2"@en ;
-	tolo:level "2"^^xsd:integer ;
+	gist:sequence "2"^^xsd:integer ;
 	.
 
 tolx:_SubscriptionTier_3
 	a tolo:SubscriptionTier ;
 	skos:prefLabel "Tier 3"@en ;
-	tolo:level "3"^^xsd:integer ;
+	gist:sequence "3"^^xsd:integer ;
 	.
 
