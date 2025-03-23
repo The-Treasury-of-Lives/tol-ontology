@@ -27,13 +27,13 @@
 	.
 
 tolx:_PeerReviewStatus_not_peer_reviewed
-	a tolo:PeerReviewed ;
+	a tolo:PeerReviewStatus ;
 	skos:definition "The biography has not been peer-reviewed."@en ;
 	skos:prefLabel "Not Peer-Reviewed"@en ;
 	.
 
 tolx:_PeerReviewStatus_peer_reviewed
-	a tolo:PeerReviewed ;
+	a tolo:PeerReviewStatus ;
 	skos:definition "The biography has been peer-reviewed."@en ;
 	skos:prefLabel "Peer-Reviewed"@en ;
 	.

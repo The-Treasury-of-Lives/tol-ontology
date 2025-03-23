@@ -69,8 +69,8 @@ tolo:hasMaternalGrandfather
 		tolo:hasMaternalGrandparent
 		;
 	owl:propertyChainAxiom (
-		tolo:hasMother
-		tolo:hasFather
+		bdo:hasMother
+		bdo:hasFather
 	) ;
 	skos:definition "Relates a person to his/her mother's father."@en ;
 	skos:prefLabel "has maternal grandfather"@en ;

@@ -49,7 +49,7 @@ tolo:Subscription
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:isCategorizedBy ;
-				owl:someValuesFrom gist:EntityActiveStatus ;
+				owl:someValuesFrom tolo:EntityActiveStatus ;
 			]
 			[
 				a owl:Restriction ;
