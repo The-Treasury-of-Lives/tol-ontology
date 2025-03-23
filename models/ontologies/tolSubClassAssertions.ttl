@@ -1,0 +1,216 @@
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+
+tolo:Author
+	rdfs:subClassOf gist:Person ;
+	.
+
+tolo:AuthorDisclosure
+	rdfs:subClassOf gist:Text ;
+	.
+
+tolo:Authorship
+	rdfs:subClassOf gist:TemporalRelation ;
+	.
+
+tolo:Biography
+	rdfs:subClassOf gist:FormattedContent ;
+	.
+
+tolo:Birth
+	rdfs:subClassOf gist:PhysicalEvent ;
+	.
+
+tolo:Collection
+	rdfs:subClassOf gist:Collection ;
+	.
+
+tolo:Death
+	rdfs:subClassOf gist:PhysicalEvent ;
+	.
+
+tolo:EntityActiveStatus
+	rdfs:subClassOf gist:Category ;
+	.
+
+tolo:Founding
+	rdfs:subClassOf gist:Event ;
+	.
+
+tolo:HistoricalPeriod
+	rdfs:subClassOf gist:TimeInterval ;
+	.
+
+tolo:HusbandStatus
+	rdfs:subClassOf gist:Category ;
+	.
+
+tolo:IdType
+	rdfs:subClassOf gist:Category ;
+	.
+
+tolo:Image
+	rdfs:subClassOf gist:FormattedContent ;
+	.
+
+tolo:Incarnation
+	rdfs:subClassOf tolo:LineageMember ;
+	.
+
+tolo:IncarnationLineage
+	rdfs:subClassOf tolo:Lineage ;
+	.
+
+tolo:KinshipGroup
+	rdfs:subClassOf gist:Collection ;
+	.
+
+tolo:KinshipGroupType
+	rdfs:subClassOf gist:Category ;
+	.
+
+tolo:Lineage
+	rdfs:subClassOf gist:OrderedCollection ;
+	.
+
+tolo:LineageMember
+	rdfs:subClassOf gist:OrderedMember ;
+	.
+
+tolo:MappingPriority
+	rdfs:subClassOf gist:Category ;
+	.
+
+tolo:Marriage
+	rdfs:subClassOf gist:Agreement ;
+	.
+
+tolo:MarriageTerminationCause
+	rdfs:subClassOf gist:Category ;
+	.
+
+tolo:Monastery
+	rdfs:subClassOf gist:Place ;
+	.
+
+tolo:MonasteryHead
+	rdfs:subClassOf tolo:LineageMember ;
+	.
+
+tolo:MonasteryLineage
+	rdfs:subClassOf tolo:Lineage ;
+	.
+
+tolo:PeerReviewStatus
+	rdfs:subClassOf gist:Category ;
+	.
+
+tolo:Person
+	rdfs:subClassOf
+		bdo:Person ,
+		gist:Person ,
+		wiki:Person
+		;
+	.
+
+tolo:PlaceType
+	rdfs:subClassOf gist:Category ;
+	.
+
+tolo:RegionType
+	rdfs:subClassOf gist:Category ;
+	.
+
+tolo:Role
+	rdfs:subClassOf gist:Category ;
+	.
+
+tolo:RulerLineage
+	rdfs:subClassOf tolo:Lineage ;
+	.
+
+tolo:StatusAssignment
+	rdfs:subClassOf gist:TemporalRelation ;
+	.
+
+tolo:Subscription
+	rdfs:subClassOf gist:TemporalRelation ;
+	.
+
+tolo:SubscriptionAccessType
+	rdfs:subClassOf gist:Category ;
+	.
+
+tolo:SubscriptionTier
+	rdfs:subClassOf gist:Category ;
+	.
+
+tolo:SubscriptionType
+	rdfs:subClassOf gist:Category ;
+	.
+
+tolo:TeacherStudentRelationship
+	rdfs:subClassOf gist:TemporalRelation ;
+	.
+
+tolo:Tradition
+	rdfs:subClassOf gist:Intention ;
+	.
+
+tolo:UserAccount
+	rdfs:subClassOf gist:Agreement ;
+	.
+
+tolo:UserRole
+	rdfs:subClassOf gist:Category ;
+	.
+
+tolo:Vocation
+	rdfs:subClassOf gist:TemporalRelation ;
+	.
+
+tolo:Website
+	rdfs:subClassOf
+		gist:IntellectualProperty ,
+		gist:Network
+		;
+	.
+
+tolo:WifeStatus
+	rdfs:subClassOf gist:Category ;
+	.
+
+tolo:WorkType
+	rdfs:subClassOf gist:Category ;
+	.
+
+tolo:creationDate
+	rdfs:subClassOf gist:atDateTime ;
+	.
+
+tolo:firstName
+	rdfs:subClassOf gist:name ;
+	.
+
+tolo:fullName
+	rdfs:subClassOf gist:name ;
+	.
+
+tolo:lastName
+	rdfs:subClassOf gist:name ;
+	.
+
+tolo:publicationDate
+	rdfs:subClassOf gist:atDateTime ;
+	.
+
+tolo:updateDate
+	rdfs:subClassOf gist:atDateTime ;
+	.
+
