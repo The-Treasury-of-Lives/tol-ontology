@@ -21,14 +21,6 @@
 	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
 
-gist:EntityActiveStatus
-	a owl:Class ;
-	rdfs:subClassOf gist:Category ;
-	skos:definition "Indicates whether an entity is active or inactive."@en ;
-	skos:prefLabel "Entity Active Status"@en ;
-	skos:scopeNote "Can be applied to many types of entities."@en ;
-	.
-
 tolo:Author
 	a owl:Class ;
 	owl:equivalentClass [
@@ -183,6 +175,14 @@ tolo:Death
 		;
 	skos:definition "The end of a life."@en ;
 	skos:prefLabel "Death"@en ;
+	.
+
+tolo:EntityActiveStatus
+	a owl:Class ;
+	rdfs:subClassOf gist:Category ;
+	skos:definition "Indicates whether an entity is active or inactive."@en ;
+	skos:prefLabel "Entity Active Status"@en ;
+	skos:scopeNote "Can be applied to many types of entities."@en ;
 	.
 
 tolo:Founding
@@ -519,7 +519,7 @@ tolo:Monastery
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:isConnectedTo ;
-				owl:someValuesFrom tolo:MonasteryHeadLineage ;
+				owl:someValuesFrom tolo:MonasteryLineage ;
 			]
 		) ;
 	] ;
@@ -596,6 +596,13 @@ tolo:MonasteryLineage
 	skos:definition "A lineage of heads or lay administrators of a particular monastery."@en ;
 	skos:example "Katok Khenpo, Drepung are monastery head lineages."@en ;
 	skos:prefLabel "Monastery Lineage"@en ;
+	.
+
+tolo:PeerReviewStatus
+	a owl:Class ;
+	rdfs:subClassOf gist:Category ;
+	skos:definition "Indicates whether a work, such as a Treasury of Lives biography, has been peer-reviewed."@en ;
+	skos:prefLabel "Peer Review Status"@en ;
 	.
 
 tolo:Person
@@ -953,7 +960,7 @@ tolo:hasPreincarnation
 
 tolo:hasSourceStatement
 	a owl:ObjectProperty ;
-	rdfs:domain tolo:FormattedContent ;
+	rdfs:domain gist:FormattedContent ;
 	rdfs:range gist:FormattedContent ;
 	skos:definition "Relates a piece of content, such as a biography, to a statement of sources used to create it."@en ;
 	skos:prefLabel "has source statement"@en ;
@@ -971,7 +978,7 @@ tolo:hasSpouse
 
 tolo:hasSummary
 	a owl:ObjectProperty ;
-	rdfs:domain tolo:FormattedContent ;
+	rdfs:domain gist:FormattedContent ;
 	rdfs:range gist:FormattedContent ;
 	skos:definition "Relates a piece of content, such as a biography, to a brief statement or restatement of its main points."@en ;
 	skos:prefLabel "has summary"@en ;
@@ -1010,7 +1017,7 @@ tolo:isAssignmentTo
 	skos:definition "Relates an assignment to the thing the resource is assigned to."@en ;
 	skos:example "Assignment of a wife status to a marriage."@en ;
 	skos:prefLabel "is assignment to"@en ;
-	gist:domainIncludes gist:StatusAssignment ;
+	gist:domainIncludes tolo:StatusAssignment ;
 	.
 
 tolo:isBranchOf
