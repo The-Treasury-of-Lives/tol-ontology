@@ -99,10 +99,6 @@ tolo:Monastery
 	rdfs:subClassOf gist:Place ;
 	.
 
-tolo:MonasteryHead
-	rdfs:subClassOf tolo:LineageMember ;
-	.
-
 tolo:MonasteryLineage
 	rdfs:subClassOf tolo:Lineage ;
 	.

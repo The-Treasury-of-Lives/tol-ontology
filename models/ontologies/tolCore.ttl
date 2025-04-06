@@ -117,12 +117,7 @@ tolo:Birth
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty gist:occursIn ;
-			owl:cardinality "1"^^xsd:nonNegativeInteger ;
-		] ,
-		[
-			a owl:Restriction ;
-			owl:onProperty tolo:inYear ;
+			owl:onProperty gist:atDateTime ;
 			owl:someValuesFrom rdfs:Literal ;
 		]
 		;
@@ -164,12 +159,7 @@ tolo:Death
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty gist:occursIn ;
-			owl:cardinality "1"^^xsd:nonNegativeInteger ;
-		] ,
-		[
-			a owl:Restriction ;
-			owl:onProperty tolo:inYear ;
+			owl:onProperty gist:atDateTime ;
 			owl:someValuesFrom rdfs:Literal ;
 		]
 		;
@@ -198,12 +188,12 @@ tolo:Founding
 		[
 			a owl:Restriction ;
 			owl:onProperty gist:hasParticipant ;
-			owl:onClass tolo:Person ;
-			owl:qualifiedCardinality "1"^^xsd:integer ;
+			owl:someValuesFrom tolo:Person ;
 		]
 		;
 	skos:definition "The event of establishng or originating an institution such as a monastery. A founding object is used to attach various dates (year, alternate year, century, etc.), as well as one or more founders, to the institution."@en ;
 	skos:prefLabel "Founding"@en ;
+	skos:scopeNote "Could be extended to traditions if dates are added to the data. These are currently connected to founders via the direct object property tolo:hasFounder because there are no dates. "@en ;
 	.
 
 tolo:HistoricalPeriod
@@ -250,23 +240,11 @@ tolo:Image
 
 tolo:Incarnation
 	a owl:Class ;
-	rdfs:subClassOf
-		[
-			a owl:Restriction ;
-			owl:onProperty gist:isMemberOf ;
-			owl:allValuesFrom tolo:IncarnationLineage ;
-		] ,
-		[
-			a owl:Restriction ;
-			owl:onProperty gist:providesOrderFor ;
-			owl:allValuesFrom tolo:Person ;
-		] ,
-		[
-			a owl:Restriction ;
-			owl:onProperty gist:sequence ;
-			owl:cardinality "1"^^xsd:integer ;
-		]
-		;
+	rdfs:subClassOf [
+		a owl:Restriction ;
+		owl:onProperty gist:isMemberOf ;
+		owl:allValuesFrom tolo:IncarnationLineage ;
+	] ;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
@@ -275,11 +253,6 @@ tolo:Incarnation
 				a owl:Restriction ;
 				owl:onProperty gist:isMemberOf ;
 				owl:someValuesFrom tolo:IncarnationLineage ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:providesOrderFor ;
-				owl:someValuesFrom tolo:Person ;
 			]
 		) ;
 	] ;
@@ -402,32 +375,10 @@ tolo:Lineage
 
 tolo:LineageMember
 	a owl:Class ;
-	rdfs:subClassOf
-		[
-			a owl:Restriction ;
-			owl:onProperty gist:isMemberOf ;
-			owl:allValuesFrom tolo:Lineage ;
-		] ,
-		[
-			a owl:Restriction ;
-			owl:onProperty gist:providesOrderFor ;
-			owl:allValuesFrom tolo:Person ;
-		] ,
-		[
-			a owl:Restriction ;
-			owl:onProperty gist:sequence ;
-			owl:cardinality "1"@en ;
-		]
-		;
 	owl:equivalentClass [
 		a owl:Class ;
 		owl:intersectionOf (
 			gist:OrderedMember
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:sequence ;
-				owl:someValuesFrom xsd:integer ;
-			]
 			[
 				a owl:Restriction ;
 				owl:onProperty gist:providesOrderFor ;
@@ -531,45 +482,6 @@ tolo:Monastery
 		"寺院"@zh-HANI
 		;
 	skos:scopeNote "This term designates both tje community and the physical structures that house it. Note that nunneries are included but differentiated by place type."@en ;
-	.
-
-tolo:MonasteryHead
-	a owl:Class ;
-	rdfs:subClassOf
-		[
-			a owl:Restriction ;
-			owl:onProperty gist:isMemberOf ;
-			owl:allValuesFrom tolo:MonasteryLineage ;
-		] ,
-		[
-			a owl:Restriction ;
-			owl:onProperty gist:providesOrderFor ;
-			owl:allValuesFrom tolo:Person ;
-		]
-		;
-	owl:equivalentClass [
-		a owl:Class ;
-		owl:intersectionOf (
-			gist:OrderedMember
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:isMemberOf ;
-				owl:someValuesFrom tolo:MonasteryLineage ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:providesOrderFor ;
-				owl:someValuesFrom tolo:Person ;
-			]
-			[
-				a owl:Restriction ;
-				owl:onProperty gist:sequence ;
-				owl:someValuesFrom xsd:integer ;
-			]
-		) ;
-	] ;
-	skos:definition "The role of monastery head comprises the leaders of monasteries and associated colleges. The position usually comes with seniority and accomplishment, and heads generally possess Geshe degrees or the highest equivalent in their tradition. Tripa, Tridzin, Khenpo, Khenchen are all different terms for abbot."@en ;
-	skos:prefLabel "Monastery Head"@en ;
 	.
 
 tolo:MonasteryLineage
@@ -805,7 +717,7 @@ tolo:WorkType
 
 tolo:actualYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tolo:inYear ;
+	rdfs:subPropertyOf tolo:year ;
 	skos:definition "The year in which something existed or took place."@en ;
 	skos:example "Gyergom Tsultime Sengge was born in 1144 and died in 1204."@en ;
 	skos:prefLabel "actual year"@en ;
@@ -813,21 +725,21 @@ tolo:actualYear
 
 tolo:alternateEndYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tolo:inYear ;
+	rdfs:subPropertyOf tolo:year ;
 	skos:definition "The year in which something is proposed to have ended."@en ;
 	skos:prefLabel "alternate end year"@en ;
 	.
 
 tolo:alternateStartYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tolo:inYear ;
+	rdfs:subPropertyOf tolo:year ;
 	skos:definition "The year in which something is proposed to have started."@en ;
 	skos:prefLabel "alternate start year"@en ;
 	.
 
 tolo:alternateYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tolo:inYear ;
+	rdfs:subPropertyOf tolo:year ;
 	skos:definition "The year in which something is proposed to have existed or taken place."@en ;
 	skos:example "According to one source, Kunkyong Lingpa was born in 1396, while according to another source his birth year was 1408. No indication of greater or less likelihood of the two possibilities is implied."@en ;
 	skos:prefLabel "alternate year"@en ;
@@ -836,21 +748,21 @@ tolo:alternateYear
 
 tolo:approximateEndYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tolo:inYear ;
+	rdfs:subPropertyOf tolo:year ;
 	skos:definition "The approximate year in which an event or relationship, such as a marriage, ended."@en ;
 	skos:prefLabel "approximate end year"@en ;
 	.
 
 tolo:approximateStartYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tolo:inYear ;
+	rdfs:subPropertyOf tolo:year ;
 	skos:definition "The approximate year in which an event or relationship, such as a marriage, began."@en ;
 	skos:prefLabel "approximate start year"@en ;
 	.
 
 tolo:approximateYear
 	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf tolo:inYear ;
+	rdfs:subPropertyOf tolo:year ;
 	skos:definition "The approximate year in which something existed or took place."@en ;
 	skos:example "The birth event of Lhagyari Namgyel Gyatso took place in approximately 1927."@en ;
 	skos:prefLabel "approximate year"@en ;
@@ -1015,15 +927,6 @@ tolo:hasWife
 	skos:definition "Relates a marriage relationship to the wife."@en ;
 	skos:prefLabel "has wife"@en ;
 	skos:scopeNote "Use bdo:hasWife to assert a direct relationship from husband to wife."@en ;
-	.
-
-tolo:inYear
-	a owl:DatatypeProperty ;
-	rdfs:subPropertyOf gist:atDateTime ;
-	skos:definition "The year in which something existed or took place, neutral as to start/end and planned/actual/approximate/alternate."@en ;
-	skos:example "Gyergom Tsultime Sengge's birth took place in 1144."@en ;
-	skos:prefLabel "in year"@en ;
-	skos:scopeNote "This is a covering concept for approximate, actual, and alternate years (as for births, deaths, and foundings) and will generally not be used directly."@en ;
 	.
 
 tolo:isAssignmentOf
@@ -1203,5 +1106,14 @@ tolo:url
 	rdfs:range xsd:anyURI ;
 	skos:definition "A URL."@en ;
 	skos:prefLabel "url"@en ;
+	.
+
+tolo:year
+	a owl:DatatypeProperty ;
+	rdfs:subPropertyOf gist:atDateTime ;
+	skos:definition "The year in which something existed or took place, neutral as to start/end and planned/actual/approximate/alternate."@en ;
+	skos:example "Gyergom Tsultime Sengge's birth took place in 1144."@en ;
+	skos:prefLabel "year"@en ;
+	skos:scopeNote "This is a covering concept for approximate, actual, and alternate years (as for births, deaths, and foundings) and will generally not be used directly."@en ;
 	.
 
