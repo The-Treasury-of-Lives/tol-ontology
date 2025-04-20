@@ -1,0 +1,234 @@
+# imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
+# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/treasuryoflives/ontology/tolAdmin>
+	a owl:Ontology ;
+	owl:imports
+		<https://w3id.org/semanticarts/ontology/gistCore13.0.0> ,
+		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
+		;
+	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolAdminX.x.x> ;
+	skos:definition "Classes and properties to support Treasury of Lives administrative functions."@en ;
+	skos:prefLabel "Treasury of Lives Admin Ontology"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+	.
+
+tolo:Subscription
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:TemporalRelation
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:hasParticipant ;
+				owl:someValuesFrom gist:Organization ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty tolo:hasContactPerson ;
+				owl:someValuesFrom gist:Person ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:someValuesFrom tolo:SubscriptionAccessType ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:someValuesFrom tolo:EntityActiveStatus ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:someValuesFrom tolo:SubscriptionTier ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:someValuesFrom tolo:SubscriptionType ;
+			]
+		) ;
+	] ;
+	skos:definition "A subscription to the Treasury of Lives website."@en ;
+	skos:prefLabel "Subscription"@en ;
+	.
+
+tolo:SubscriptionAccessType
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:someValuesFrom tolo:Subscription ;
+		]
+		;
+	skos:definition "Indicates how a subscriber is allowed to access the Treasury of Lives site. Values are IP-based or email. IP-based access requires one or more IP addresses to be registered."@en ;
+	skos:prefLabel "Subscription Access Type"@en ;
+	.
+
+tolo:SubscriptionTier
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:someValuesFrom tolo:Subscription ;
+		]
+		;
+	skos:definition "A level of subscription with specific privileges."@en ;
+	skos:prefLabel "Subscription Tier"@en ;
+	.
+
+tolo:SubscriptionType
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:someValuesFrom tolo:Subscription ;
+		]
+		;
+	skos:definition "Categorizes a subscription as regular or trial."@en ;
+	skos:prefLabel "Subscription Type"@en ;
+	.
+
+tolo:UserAccount
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:Agreement
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:isCategorizedBy ;
+				owl:someValuesFrom tolo:UserRole ;
+			]
+		) ;
+	] ;
+	skos:definition "A user account with special read and/or write privileges."@en ;
+	skos:prefLabel "User Account"@en ;
+	skos:scopeNote
+		"Editing accounts are for associating legacy users with editing metadata; active editorial accounts are managed by the DCA platform. Member accounts are user accounts with special read access on the site."@en ,
+		"The account is an agreement between a person and the Treasury of Lives site or organization; however, it is not necessary to instantiate a person when instantiating a user account; the attributes are attached directly to the account. If the person exists in the system for other reasons, the two can be connected; otherwise, the account holder is implicit."@en
+		;
+	.
+
+tolo:UserRole
+	a owl:Class ;
+	rdfs:subClassOf
+		gist:Category ,
+		[
+			a owl:Restriction ;
+			owl:onProperty [
+				owl:inverseOf gist:isCategorizedBy ;
+			] ;
+			owl:allValuesFrom tolo:UserAccount ;
+		]
+		;
+	skos:definition "A proxy for a set of permissions associated with a user account."@en ;
+	skos:prefLabel "User Role"@en ;
+	skos:scopeNote "This is not a deep semantic representation, as the permissions themselves are not defined but are driven by the front end based on the category."@en ;
+	.
+
+tolo:createDateTime
+	a owl:AnnotationProperty ;
+	skos:definition "The timestamp of the creation of metadata related to some resource."@en ;
+	skos:prefLabel "create datetime"@en ;
+	.
+
+tolo:domain
+	a owl:DatatypeProperty ;
+	skos:definition "An internet domain owned by a person or organization."@en ;
+	skos:example "stanford.edu, cornell.edu"@en ;
+	skos:prefLabel "domain"@en ;
+	skos:scopeNote "Note that these are not full URLs."@en ;
+	.
+
+tolo:filePath
+	a owl:DatatypeProperty ;
+	rdfs:domain gist:FormattedContent ;
+	rdfs:range xsd:string ;
+	skos:definition "The path to a file, such as an image file."@en ;
+	skos:prefLabel "file path"@en ;
+	skos:scopeNote
+		"This is a temporary property which will be replaced with whatever triples are used to represent paths in the DCA application. At that point the existing triples should be restructured to conform to that pattern."@en ,
+		"Use for full paths as well as filenames without paths. The latter are considered degenerate paths; they are used by the front end to locate a file for display, but the path is hard-coded."@en
+		;
+	.
+
+tolo:hasContactPerson
+	a owl:ObjectProperty ;
+	rdfs:range gist:Person ;
+	skos:definition "The contact person for an organization or temporal relation such as a subscription."@en ;
+	skos:prefLabel "has contact person"@en ;
+	.
+
+tolo:ipAddress
+	a owl:DatatypeProperty ;
+	rdfs:range xsd:string ;
+	skos:altLabel "IP address"@en ;
+	skos:definition "A numberic label assigned to a device connected to a computer network that uses the Internet Protocol for communication. IP addresses serve two main functions: network interface identification and location addressing."@en ;
+	skos:prefLabel "internet protocol address"@en ;
+	skos:scopeNote "Subscribers with IP access (see tolo:SubscriptionAccessType) register one or more IP addresses through which they are authorized to access subscriber content on the Treasury of Lives site. Value can be either a full or wildcarded IP address."@en ;
+	.
+
+tolo:isCreatedByUser
+	a owl:AnnotationProperty ;
+	skos:definition "The user account which created metadata related to some resource, such as an image."@en ;
+	skos:prefLabel "is created by user"@en ;
+	.
+
+tolo:isLastModifiedByUser
+	a owl:AnnotationProperty ;
+	skos:definition "The user account which last modified metadata related to some resource, such as an image."@en ;
+	skos:prefLabel "is last modified by user"@en ;
+	.
+
+tolo:lastLoginDateTime
+	a owl:AnnotationProperty ;
+	skos:definition "The timestamp of the last login by the user."@en ;
+	skos:prefLabel "last login datetime"@en ;
+	.
+
+tolo:lastModifiedDateTime
+	a owl:AnnotationProperty ;
+	skos:definition "The timestamp of the last modification of metadata related to some resource."@en ;
+	skos:prefLabel "last modified datetime"@en ;
+	.
+
+tolo:sourceUrl
+	a owl:DatatypeProperty ;
+	rdfs:range xsd:anyURI ;
+	skos:definition "The URL of the source of an image or other content."@en ;
+	skos:prefLabel "source URL"@en ;
+	.
+
+tolo:verificationDateTime
+	a owl:AnnotationProperty ;
+	skos:definition "The timestamp of the verification of the user account."@en ;
+	skos:prefLabel "verification datetime"@en ;
+	.
+

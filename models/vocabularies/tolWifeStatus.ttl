@@ -1,0 +1,42 @@
+# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-image: <https://www.iana.org/assignments/media-types/image/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/treasuryoflives/taxonomy/tolWifeStatus>
+	a owl:Ontology ;
+	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolWifeStatusX.x.x> ;
+	skos:definition "Categories indicating whether a marriage relationship has a junior or senior wife."@en ;
+	skos:editorialNote "Hand-curated."@en ;
+	skos:prefLabel "Wife Status"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+	.
+
+tolx:_WifeStatus_junior
+	a tolo:WifeStatus ;
+	skos:definition "Indicates that the marriage is the second or subsequent of multiple co-occurrent marriages of the husband."@en ;
+	skos:prefLabel "Junior Wife"@en ;
+	skos:scopeNote "In certain circumstances, for example if the first wife did not bear children, a subsequent wife might be considered senior."@en ;
+	.
+
+tolx:_WifeStatus_senior
+	a tolo:WifeStatus ;
+	skos:definition "Indicates that the marriage is the first of multiple co-occurrent marriages of the husband."@en ;
+	skos:prefLabel "Senior Wife"@en ;
+	skos:scopeNote "In certain circumstances, for example if the first wife did not bear children, a subsequent wife might be considered senior."@en ;
+	.
+

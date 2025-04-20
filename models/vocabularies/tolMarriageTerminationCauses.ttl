@@ -1,0 +1,46 @@
+# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-image: <https://www.iana.org/assignments/media-types/image/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/treasuryoflives/taxonomy/tolTerminationCauses>
+	a owl:Ontology ;
+	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolTerminationCausesX.x.x> ;
+	skos:definition "Defines reasons for terminating a marriage."@en ;
+	skos:editorialNote "Hand-curated."@en ;
+	skos:prefLabel "Marriage Termination Causes"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+	.
+
+tolx:_MarriageTerminationCause_death
+	a tolo:MarriageTerminationCause ;
+	skos:definition "A marriage terminated by the death of one of the spouses."@en ;
+	skos:prefLabel "Death"@en ;
+	.
+
+tolx:_MarriageTerminationCause_dissolution
+	a tolo:MarriageTerminationCause ;
+	skos:definition "A marriage terminated when one spouse leaves the marriage without a legal divorce decree."@en ;
+	skos:prefLabel "Dissolution"@en ;
+	.
+
+tolx:_MarriageTerminationCause_divorce
+	a tolo:MarriageTerminationCause ;
+	skos:definition "A marriage terminated by a legal process."@en ;
+	skos:prefLabel "Divorce"@en ;
+	.
+

@@ -1,0 +1,121 @@
+# imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
+# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-image: <https://www.iana.org/assignments/media-types/image/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/treasuryoflives/taxonomy/tolWorkTypes>
+	a owl:Ontology ;
+	owl:imports
+		<https://w3id.org/semanticarts/ontology/gistCore13.0.0> ,
+		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
+		;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolWorkTypesX.x.x> ;
+	skos:definition "Defines types of media displayed on the Treasury of Lives website."@en ;
+	skos:editorialNote "Hand-curated."@en ;
+	skos:prefLabel "General Media Types"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+	.
+
+tolx:_WorkType_block_print
+	a tolo:WorkType ;
+	skos:definition "A design or image transferred from a carved block onto a surface like fabric or paper."@en ;
+	skos:prefLabel "Block Print"@en ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
+	.
+
+tolx:_WorkType_document
+	a tolo:WorkType ;
+	skos:definition "A paper or set of papers with written or printed information, especially of an official nature."@en ;
+	skos:prefLabel "Document"@en ;
+	.
+
+tolx:_WorkType_image
+	a tolo:WorkType ;
+	skos:definition "A visual representation of something."@en ;
+	skos:prefLabel "Image"@en ;
+	.
+
+tolx:_WorkType_initiation_card
+	a tolo:WorkType ;
+	skos:definition "A card that is given to someone who has completed an initiation ritual."@en ;
+	skos:prefLabel "Initiation Card"@en ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
+	.
+
+tolx:_WorkType_letter
+	a tolo:WorkType ;
+	skos:definition "A written or printed communication addressed to a person or organization and usually transmitted by mail."@en ;
+	skos:prefLabel "Letter"@en ;
+	gist:hasDirectBroader tolx:_WorkType_document ;
+	.
+
+tolx:_WorkType_map
+	a tolo:WorkType ;
+	skos:definition "A symbolic representation of selected characteristics of a place, usually drawn on a flat surface."@en ;
+	skos:prefLabel "Map"@en ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
+	.
+
+tolx:_WorkType_mural
+	a tolo:WorkType ;
+	skos:definition "A piece of graphic artwork that is painted or applied directly to a wall, ceiling, or other permanent substrate."@en ;
+	skos:prefLabel "Mural"@en ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
+	.
+
+tolx:_WorkType_painting
+	a tolo:WorkType ;
+	skos:definition "A visual work of art resulting from the application of a liquid pigmented medium onto a solid surface."@en ;
+	skos:prefLabel "Painting"@en ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
+	.
+
+tolx:_WorkType_photograph
+	a tolo:WorkType ;
+	skos:definition "A picture produced using a camera."@en ;
+	skos:prefLabel "Photograph"@en ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
+	.
+
+tolx:_WorkType_rock_carving
+	a tolo:WorkType ;
+	skos:definition "An image carved into a natural rock surface."@en ;
+	skos:prefLabel "Rock Carving"@en ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
+	.
+
+tolx:_WorkType_sculpture
+	a tolo:WorkType ;
+	skos:definition "A three-dimensional art work resulting from working hard or plastic materials into an object with height, width, and depth."@en ;
+	skos:prefLabel "Sculpture"@en ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
+	.
+
+tolx:_WorkType_seal
+	a tolo:WorkType ;
+	skos:definition "An embossed emblem, figure, symbol, word, letter, etc. used as attestation or evidence of authenticity."@en ;
+	skos:prefLabel "Seal"@en ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
+	.
+
+tolx:_WorkType_textile
+	a tolo:WorkType ;
+	skos:definition "A practical or decorative object made from plant, animal, or synthetic fibers."@en ;
+	skos:prefLabel "Textile"@en ;
+	gist:hasDirectBroader tolx:_WorkType_image ;
+	.
+

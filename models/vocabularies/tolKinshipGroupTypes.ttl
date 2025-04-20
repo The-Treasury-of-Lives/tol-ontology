@@ -1,0 +1,102 @@
+# imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
+# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-image: <https://www.iana.org/assignments/media-types/image/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypes>
+	a owl:Ontology ;
+	owl:imports
+		<https://w3id.org/semanticarts/ontology/gistCore13.0.0> ,
+		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
+		;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolKinshipGroupTypesX.x.x> ;
+	skos:definition "Defines specific types of kinship groups."@en ;
+	skos:editorialNote "Hand-curated."@en ;
+	skos:prefLabel "Kinship Group Types"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+	.
+
+tolx:_KinshipGroupType_clan
+	a tolo:KinshipGroupType ;
+	skos:definition """
+	Traditional classifications of clans in Tibet generally name four or six ancestral clans who are believed to descend from the progeny of the Bodhisattva monkey and demoness, the subjects of Tibet's origin myth.  These lineages later split into numerous sub-clans that are often associated with specific geographical regions, and in some cases, monasteries.
+
+	On the Treasury we use \"clan\" broadly to cover a number of Tibetan terms that may individually mean something more specific, such as: rig (rigs) for clan, race, family; gyu (rgyud) for lineage, descent; dungrab (gdung rabs) for descendants, lineage, generation; dung (gdung) for progeny, descendants, lineage, descent line; ru (rus) for bone, bloodline, lineage, family, clan; khang (khang) for household and tsang (tshang) for family and household.
+	"""@en ;
+	skos:prefLabel
+		"Clan"@en ,
+		"rigs"@bo-W-exts ,
+		"རིགས།"@bo ,
+		"氏族"@zh-Hani
+		;
+	.
+
+tolx:_KinshipGroupType_depon
+	a tolo:KinshipGroupType ;
+	skos:definition "The highest peerage, made up of five families consisting of Gazhi, Ton, Dokhar, Palha and Lhagyari."@en ;
+	skos:prefLabel
+		"Depon"@en ,
+		"de dpon"@bo-W-exts ,
+		"དེ་དཔོན།"@bo
+		;
+	gist:hasDirectBroader tolx:_KinshipGroupType_lhasa_aristocracy ;
+	.
+
+tolx:_KinshipGroupType_gerpa
+	a tolo:KinshipGroupType ;
+	skos:definition "Aristocracy from whose ranks the lay officials of the Ganden Podrang government were drawn."@en ;
+	skos:prefLabel
+		"Gerpa"@en ,
+		"sger pa"@bo-W-exts ,
+		"སྒེར་པ།"@bo
+		;
+	gist:hasDirectBroader tolx:_KinshipGroupType_lhasa_aristocracy ;
+	.
+
+tolx:_KinshipGroupType_lhasa_aristocracy
+	a tolo:KinshipGroupType ;
+	skos:definition "The category of Lhasa aristocracy on the Treasury of Lives encompasses the elite families of the Ganden Podrang government."@en ;
+	skos:prefLabel
+		"Lhasa Aristocracy"@en ,
+		"sku drag nang mi"@bo-x-ewts ,
+		"སྐུ་དྲག་ནང་མི།"@bo ,
+		"卫藏贵族"@zh-Hani
+		;
+	.
+
+tolx:_KinshipGroupType_midrak
+	a tolo:KinshipGroupType ;
+	skos:definition "Aristocracy from whose ranks the lay officials of the Ganden Podrang government were drawn."@en ;
+	skos:prefLabel
+		"Midrak"@en ,
+		"mi drag"@bo-W-exts ,
+		"མི་དྲག"@bo
+		;
+	gist:hasDirectBroader tolx:_KinshipGroupType_lhasa_aristocracy ;
+	.
+
+tolx:_KinshipGroupType_yabzhi
+	a tolo:KinshipGroupType ;
+	skos:definition "Includes families into which Dalai Lamas have been born, consisting of the houses of Langdun, Punkhang, Yutok, Samdrub Podrang and Lhalu."@en ;
+	skos:prefLabel
+		"Yabzhi"@en ,
+		"yab gzhis"@bo-W-exts ,
+		"ཡབ་གཞིས།"@bo
+		;
+	gist:hasDirectBroader tolx:_KinshipGroupType_lhasa_aristocracy ;
+	.
+

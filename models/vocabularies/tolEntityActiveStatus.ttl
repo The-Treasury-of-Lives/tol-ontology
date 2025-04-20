@@ -1,0 +1,43 @@
+# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-image: <https://www.iana.org/assignments/media-types/image/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/treasuryoflives/taxonomy/tolEntityActiveStatus>
+	a owl:Ontology ;
+	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolEntityActiveStatusX.x.x> ;
+	skos:definition "Defines values to indicate whether a resource is active or inactive."@en ;
+	skos:editorialNote "Hand-curated."@en ;
+	skos:prefLabel "Entity Active Status"@en ;
+	skos:scopeNote "This will mean different things in different contexts."@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+	.
+
+tolx:_EntityActiveStatus_active
+	a tolo:EntityActiveStatus ;
+	skos:definition "The entity is currently active."@en ;
+	skos:example "An author is an active contributor to Treasury of Lives; a subscription is active."@en ;
+	skos:prefLabel "Active"@en ;
+	.
+
+tolx:_EntityActiveStatus_inactive
+	a tolo:EntityActiveStatus ;
+	skos:definition "The entity is no longer active."@en ;
+	skos:example "An author is no longer living or no longer a contributor to Treasury of Lives."@en ;
+	skos:prefLabel "Inactive"@en ;
+	.
+

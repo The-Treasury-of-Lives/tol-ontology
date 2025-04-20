@@ -1,0 +1,39 @@
+# imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-image: <https://www.iana.org/assignments/media-types/image/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/treasuryoflives/taxonomy/tolMediaTypes>
+	a owl:Ontology ;
+	owl:imports <https://w3id.org/semanticarts/ontology/gistCore13.0.0> ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolMediaTypesX.x.x> ;
+	skos:definition "Treasury of Lives extension of gistMediaTypes."@en ;
+	skos:prefLabel "Treasury of Lives Media Types"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+	.
+
+media-image:jpg
+	a gist:MediaType ;
+	skos:prefLabel "JPG"@en ;
+	gist:uniqueText "image/jpg"@en ;
+	.
+
+media-image:png
+	a gist:MediaType ;
+	skos:prefLabel "PNG"@en ;
+	gist:uniqueText "image/png"@en ;
+	.
+

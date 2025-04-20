@@ -1,0 +1,142 @@
+# imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
+# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/treasuryoflives/ontology/tolDisplay>
+	a owl:Ontology ;
+	owl:imports
+		<https://w3id.org/semanticarts/ontology/gistCore13.0.0> ,
+		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
+		;
+	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x> ;
+	skos:definition "Defines concepts to support Treasury of Lives website display."@en ;
+	skos:prefLabel "Treasury of Lives Display Ontology"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+	.
+
+tolo:MappingPriority
+	a owl:Class ;
+	owl:equivalentClass [
+		a owl:Class ;
+		owl:intersectionOf (
+			gist:Category
+			[
+				a owl:Restriction ;
+				owl:onProperty gist:sequence ;
+				owl:someValuesFrom xsd:integer ;
+			]
+			[
+				a owl:Restriction ;
+				owl:onProperty tolo:minZoomLevel ;
+				owl:someValuesFrom xsd:integer ;
+			]
+		) ;
+	] ;
+	skos:definition "A category specifying mapping priority level and minimum zoom level."@en ;
+	skos:prefLabel "Mapping Priority"@en ;
+	.
+
+tolo:caption
+	a owl:DatatypeProperty ;
+	rdfs:domain gist:FormattedContent ;
+	rdfs:range xsd:string ;
+	skos:definition "A short piece of text under an image that describes or explains it."@en ;
+	skos:prefLabel "caption"@en ;
+	.
+
+tolo:coordinates
+	a owl:DatatypeProperty ;
+	rdfs:range xsd:string ;
+	skos:definition "Coordinates for map display. This is an unparsed, comma-delimited series of four coordinates that is used as input to a JavaScript program."@en ;
+	skos:prefLabel "coordinates"@en ;
+	.
+
+tolo:displayLabel
+	a owl:AnnotationProperty ;
+	skos:definition "The name or label of a person or other resource used for display purposes."@en ;
+	skos:example "The display label 'The Fifth Chakri Nyidrak, Tenzin Trinle Wangchuk' combines ordinal, title, and name of Tenzin Trinle Wangchuk."@en ;
+	skos:prefLabel "display label"@en ;
+	.
+
+tolo:displayOrder
+	a owl:AnnotationProperty ;
+	skos:definition "Indicates display order in a list of values."@en ;
+	skos:example "Used to order a biography author list when there are multiple authors."@en ;
+	skos:prefLabel "display order"@en ;
+	.
+
+tolo:hasMappingPriority
+	a owl:AnnotationProperty ;
+	rdfs:range tolo:MappingPriority ;
+	skos:definition "Relates a place to its priority level in map displays."@en ;
+	skos:prefLabel "has mapping priority"@en ;
+	gist:domainIncludes gist:Place ;
+	.
+
+tolo:hasPrimaryDisplayImage
+	a owl:AnnotationProperty ;
+	skos:definition "Relates a person, place, or other resource to the primary image displayed on its web page. Only the primary image is displayed in search results."@en ;
+	skos:example "The page for Jinamitra displays a generic translator image. The page for Nanam Yeshe De has two images, a primary and a secondary one."@en ;
+	skos:prefLabel "has primary display image"@en ;
+	skos:scopeNote "tolo:depicts is not always accurate, since some images are displayed with multiple people and are not depicted with them. For example, a generic translator image is displayed on the page of Jinamitra and other translators."@en ;
+	gist:rangeIncludes tolo:Image ;
+	.
+
+tolo:hasSecondaryDisplayImage
+	a owl:AnnotationProperty ;
+	skos:definition "Relates a person, place, or other resource to a secondary image displayed on its web page. Unlike the primary image, the secondary image is not displayed in search results."@en ;
+	skos:example "The page for Nanam Yeshe De has two images, a primary and a secondary one."@en ;
+	skos:prefLabel "has secondary display image"@en ;
+	skos:scopeNote "tolo:depicts is not always accurate, since some images are displayed with multiple people and are not depicted with them. For example, a generic translator image is displayed on the page of Jinamitra and other translators."@en ;
+	gist:rangeIncludes tolo:Image ;
+	.
+
+tolo:hasThumbnail
+	a owl:ObjectProperty ;
+	rdfs:domain gist:FormattedContent ;
+	rdfs:range gist:FormattedContent ;
+	skos:definition "Relates an image to a reduced-size version used to help in recognizing and organizing a collection of images."@en ;
+	skos:prefLabel "has thumbnail"@en ;
+	.
+
+tolo:isRenderedAt
+	a owl:AnnotationProperty ;
+	skos:definition "Relates a resource to the location, such as a geo-point on a map, where it is rendered or displayed."@en ;
+	skos:example "Wutai Shan Mountain is rendered at the geo-point identified by latitude 39.0792 and longitude 113.5647."@en ;
+	skos:prefLabel "is rendered at"@en ;
+	.
+
+tolo:maxZoomLevel
+	a owl:DatatypeProperty ;
+	rdfs:domain tolo:MappingPriority ;
+	rdfs:range xsd:integer ;
+	skos:definition "Relates a map region to its maximum zoom level."@en ;
+	skos:preflabel "maximum zoom level"@en ;
+	.
+
+tolo:minZoomLevel
+	a owl:DatatypeProperty ;
+	rdfs:domain tolo:MappingPriority ;
+	rdfs:range xsd:integer ;
+	skos:definition "Relates a mapping priority or map region to its minimum zoom level."@en ;
+	skos:preflabel "minimum zoom level"@en ;
+	.
+
+tolo:zoomLevelOnClick
+	a owl:AnnotationProperty ;
+	rdfs:range xsd:integer ;
+	skos:definition "Relates a region to its zoom level when clicked on a map."@en ;
+	skos:preflabel "zoom level on click"@en ;
+	.
+

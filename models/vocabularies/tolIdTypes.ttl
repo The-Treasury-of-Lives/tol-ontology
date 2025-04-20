@@ -1,0 +1,56 @@
+# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-image: <https://www.iana.org/assignments/media-types/image/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/treasuryoflives/taxonomy/tolIdTypes>
+	a owl:Ontology ;
+	owl:imports <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolIdTypesX.x.x> ;
+	skos:definition "Defines types of identifiers. In the case of external IDs, ID type is used to construct links by specifying a URL fragment to combine with the identifier to form a URL and a display label to use as link text."@en ;
+	skos:editorialNote "Hand-curated."@en ;
+	skos:prefLabel "Identifier Types"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+	.
+
+tolx:_IdType_har
+	a tolo:IdType ;
+	skos:definition "An identifier assigned to an image on the Himalayan Art Resources site."@en ;
+	skos:prefLabel "HAR Item Number"@en ;
+	skos:scopeNote "To be distinguished from tolx:_ReferenceType_har. This is an ID number that can be appended to the url to construct a link to the image on the HAR site. The reference URLs have various formats and point to pages about people, sets of images, etc."@en ;
+	tolo:url "https://www.himalayanart.org/items/"^^xsd:anyURI ;
+	.
+
+tolx:_IdType_orcid
+	a tolo:IdType ;
+	skos:definition "A free, unique, persistent identifier allocated by ORCID for individuals to use as they engage in research, scholarship, and innovation activities."@en ;
+	skos:prefLabel "ORCID ID"@en ;
+	.
+
+tolx:_IdType_tol
+	a tolo:IdType ;
+	skos:definition "Used to store legacy TOL ID."@en ;
+	skos:editorialNote "Currently used only for persons."@en ;
+	skos:prefLabel "Treasury of Lives ID"@en ;
+	.
+
+tolx:_IdType_worldcat
+	a tolo:IdType ;
+	skos:definition "The identifier of an item in the WorldCat catalog. WorldCat is the world's larget library catalog, helping people find library materials online."@en ;
+	skos:prefLabel "WorldCat"@en ;
+	tolo:url "https://www.worldcat.org/oclc/"^^xsd:anyURI ;
+	.
+

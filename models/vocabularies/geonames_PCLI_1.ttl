@@ -1,0 +1,4526 @@
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sws.geonames.org/102358>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/102358/contains.rdf> ;
+	gn:countryCode "SA"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/102358/kingdom-of-saudi-arabia.html> ;
+	gn:name "Saudi Arabia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/102358/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/6269133> ,
+		<https://sws.geonames.org/6957698> ,
+		<https://sws.geonames.org/7729897>
+		;
+	gn:population "25731776"^^xs:integer ;
+	gn:shortName "Saudi Arabia"@en ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Saudi_Arabia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/102358/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Saudi_Arabia> ;
+	wgs84_pos:lat "25"^^xs:decimal ;
+	wgs84_pos:long "45"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1036973>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1036973/contains.rdf> ;
+	gn:countryCode "MZ"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1036973/republic-of-mozambique.html> ;
+	gn:name "Mozambique"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1036973/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "22061451"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Mozambique> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1036973/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Mozambique> ;
+	wgs84_pos:lat "-18.25"^^xs:decimal ;
+	wgs84_pos:long "35"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1062947>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1062947/contains.rdf> ;
+	gn:countryCode "MG"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1062947/republic-of-madagascar.html> ;
+	gn:name "Madagascar"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1062947/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "21281844"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Madagascar> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1062947/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Madagascar> ;
+	wgs84_pos:lat "-20"^^xs:decimal ;
+	wgs84_pos:long "47"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1149361>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1149361/contains.rdf> ;
+	gn:countryCode "AF"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1149361/islamic-republic-of-afghanistan.html> ;
+	gn:name "Afghanistan"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1149361/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729895>
+		;
+	gn:population "29121286"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Afghanistan> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1149361/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Afghanistan> ;
+	wgs84_pos:lat "33"^^xs:decimal ;
+	wgs84_pos:long "66"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1168579>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1168579/contains.rdf> ;
+	gn:countryCode "PK"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1168579/islamic-republic-of-pakistan.html> ;
+	gn:name "Pakistan"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1168579/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729895>
+		;
+	gn:population "184404791"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Pakistan> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1168579/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Pakistan> ;
+	wgs84_pos:lat "30"^^xs:decimal ;
+	wgs84_pos:long "70"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1210997>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1210997/contains.rdf> ;
+	gn:countryCode "BD"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1210997/bangladesh.html> ;
+	gn:name "Bangladesh"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1210997/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729895>
+		;
+	gn:population "156118464"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Bangladesh> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1210997/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Bangladesh> ;
+	wgs84_pos:lat "24"^^xs:decimal ;
+	wgs84_pos:long "90"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1218197>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1218197/contains.rdf> ;
+	gn:countryCode "TM"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1218197/turkmenistan.html> ;
+	gn:name "Turkmenistan"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1218197/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729893>
+		;
+	gn:population "4940916"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Turkmenistan> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1218197/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Turkmenistan> ;
+	wgs84_pos:lat "39.75"^^xs:decimal ;
+	wgs84_pos:long "59.66667"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1220409>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1220409/contains.rdf> ;
+	gn:countryCode "TJ"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1220409/republic-of-tajikistan.html> ;
+	gn:name "Tajikistan"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1220409/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812265> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729893>
+		;
+	gn:population "7487489"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Tajikistan> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1220409/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Tajikistan> ;
+	wgs84_pos:lat "39"^^xs:decimal ;
+	wgs84_pos:long "71"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1227603>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1227603/contains.rdf> ;
+	gn:countryCode "LK"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1227603/democratic-socialist-republic-of-sri-lanka.html> ;
+	gn:name "Sri Lanka"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1227603/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729895>
+		;
+	gn:population "21513990"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Sri_Lanka> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1227603/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Sri_Lanka> ;
+	wgs84_pos:lat "7.75"^^xs:decimal ;
+	wgs84_pos:long "80.75"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1252634>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1252634/contains.rdf> ;
+	gn:countryCode "BT"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1252634/kingdom-of-bhutan.html> ;
+	gn:name "Bhutan"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1252634/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729895>
+		;
+	gn:population "699847"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Bhutan> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1252634/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Bhutan> ;
+	wgs84_pos:lat "27.5"^^xs:decimal ;
+	wgs84_pos:long "90.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1269750>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1269750/contains.rdf> ;
+	gn:countryCode "IN"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1269750/republic-of-india.html> ;
+	gn:name "India"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1269750/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729895>
+		;
+	gn:population "1173108018"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/India> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1269750/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/India> ;
+	wgs84_pos:lat "22"^^xs:decimal ;
+	wgs84_pos:long "79"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1282028>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1282028/contains.rdf> ;
+	gn:countryCode "MV"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1282028/republic-of-maldives.html> ;
+	gn:name "Maldives"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1282028/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729895>
+		;
+	gn:population "395650"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Maldives> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1282028/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Maldives> ;
+	wgs84_pos:lat "3.2"^^xs:decimal ;
+	wgs84_pos:long "73"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1282988>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1282988/contains.rdf> ;
+	gn:countryCode "NP"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1282988/federal-democratic-republic-of-nepal.html> ;
+	gn:name "Nepal"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1282988/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729895>
+		;
+	gn:population "28951852"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Nepal> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1282988/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Nepal> ;
+	wgs84_pos:lat "28"^^xs:decimal ;
+	wgs84_pos:long "84"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/130758>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/130758/contains.rdf> ;
+	gn:countryCode "IR"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/130758/islamic-republic-of-iran.html> ;
+	gn:name "Iran"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/130758/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/6269133> ,
+		<https://sws.geonames.org/7729895>
+		;
+	gn:population "76923300"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Iran> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/130758/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Iran> ;
+	wgs84_pos:lat "32"^^xs:decimal ;
+	wgs84_pos:long "53"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1327865>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1327865/contains.rdf> ;
+	gn:countryCode "MM"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1327865/union-of-burma.html> ;
+	gn:name "Myanmar"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1327865/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812363> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729896>
+		;
+	gn:population "53414374"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Burma> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1327865/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Burma> ;
+	wgs84_pos:lat "21"^^xs:decimal ;
+	wgs84_pos:long "96"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/146669>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/146669/contains.rdf> ;
+	gn:countryCode "CY"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/146669/republic-of-cyprus.html> ;
+	gn:name "Cyprus"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/146669/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/305104> ,
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6269133> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/7729897>
+		;
+	gn:population "1102677"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Cyprus> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/146669/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Cyprus> ;
+	wgs84_pos:lat "35"^^xs:decimal ;
+	wgs84_pos:long "33"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/149590>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/149590/contains.rdf> ;
+	gn:countryCode "TZ"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/149590/united-republic-of-tanzania.html> ;
+	gn:name "Tanzania"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/149590/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "41892895"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Tanzania> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/149590/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Tanzania> ;
+	wgs84_pos:lat "-6"^^xs:decimal ;
+	wgs84_pos:long "35"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1512440>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1512440/contains.rdf> ;
+	gn:countryCode "UZ"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1512440/republic-of-uzbekistan.html> ;
+	gn:name "Uzbekistan"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1512440/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812265> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729893>
+		;
+	gn:population "27865738"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Uzbekistan> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1512440/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Uzbekistan> ;
+	wgs84_pos:lat "41.66667"^^xs:decimal ;
+	wgs84_pos:long "63.83333"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1522867>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1522867/contains.rdf> ;
+	gn:countryCode "KZ"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1522867/republic-of-kazakhstan.html> ;
+	gn:name "Kazakhstan"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1522867/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812265> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729893>
+		;
+	gn:population "15340000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Kazakhstan> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1522867/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Kazakhstan> ;
+	wgs84_pos:lat "48"^^xs:decimal ;
+	wgs84_pos:long "68"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1527747>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1527747/contains.rdf> ;
+	gn:countryCode "KG"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1527747/kyrgyz-republic.html> ;
+	gn:name "Kyrgyzstan"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1527747/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812265> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729893>
+		;
+	gn:population "5776500"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Kyrgyzstan> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1527747/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Kyrgyzstan> ;
+	wgs84_pos:lat "41.5"^^xs:decimal ;
+	wgs84_pos:long "75"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1546748>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1546748/contains.rdf> ;
+	gn:countryCode "TF"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLIX> ;
+	gn:locationMap <https://www.geonames.org/1546748/territory-of-the-french-southern-and-antarctic-lands.html> ;
+	gn:name "French Southern Territories"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1546748/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/3017382> ,
+		<https://sws.geonames.org/6255152>
+		;
+	gn:population "140"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/French_Southern_and_Antarctic_Lands> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1546748/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/French_Southern_and_Antarctic_Lands> ;
+	wgs84_pos:lat "-43"^^xs:decimal ;
+	wgs84_pos:long "67"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1562822>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1562822/contains.rdf> ;
+	gn:countryCode "VN"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1562822/socialist-republic-of-vietnam.html> ;
+	gn:name "Vietnam"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1562822/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812363> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729896>
+		;
+	gn:population "89571130"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Vietnam> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1562822/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Vietnam> ;
+	wgs84_pos:lat "16.16667"^^xs:decimal ;
+	wgs84_pos:long "107.83333"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1605651>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1605651/contains.rdf> ;
+	gn:countryCode "TH"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1605651/kingdom-of-thailand.html> ;
+	gn:name "Thailand"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1605651/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812363> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729896>
+		;
+	gn:population "67089500"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Thailand> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1605651/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Thailand> ;
+	wgs84_pos:lat "15.5"^^xs:decimal ;
+	wgs84_pos:long "101"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/163843>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/163843/contains.rdf> ;
+	gn:countryCode "SY"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/163843/syrian-arab-republic.html> ;
+	gn:name "Syria"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/163843/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/305104> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/6269133> ,
+		<https://sws.geonames.org/7729897>
+		;
+	gn:population "22198110"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Syria> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/163843/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Syria> ;
+	wgs84_pos:lat "35"^^xs:decimal ;
+	wgs84_pos:long "38"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1643084>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1643084/contains.rdf> ;
+	gn:countryCode "ID"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1643084/republic-of-indonesia.html> ;
+	gn:name "Indonesia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1643084/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812363> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729896>
+		;
+	gn:population "242968342"^^xs:integer ;
+	gn:wikipediaArticle
+		<https://en.wikipedia.org/wiki/Dutch_East_Indies> ,
+		<https://en.wikipedia.org/wiki/Indonesia>
+		;
+	rdfs:isDefinedBy <https://sws.geonames.org/1643084/about.rdf> ;
+	rdfs:seeAlso
+		<https://dbpedia.org/resource/Dutch_East_Indies> ,
+		<https://dbpedia.org/resource/Indonesia>
+		;
+	wgs84_pos:lat "-5"^^xs:decimal ;
+	wgs84_pos:long "120"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1655842>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1655842/contains.rdf> ;
+	gn:countryCode "LA"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1655842/lao-people-s-democratic-republic.html> ;
+	gn:name "Laos"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1655842/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812363> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729896>
+		;
+	gn:population "6368162"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Laos> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1655842/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Laos> ;
+	wgs84_pos:lat "18"^^xs:decimal ;
+	wgs84_pos:long "105"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1668284>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1668284/contains.rdf> ;
+	gn:countryCode "TW"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1668284/taiwan.html> ;
+	gn:name "Taiwan"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1668284/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729894>
+		;
+	gn:population "22894384"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Taiwan> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1668284/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Taiwan> ;
+	wgs84_pos:lat "24"^^xs:decimal ;
+	wgs84_pos:long "121"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1694008>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1694008/contains.rdf> ;
+	gn:countryCode "PH"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1694008/republic-of-the-philippines.html> ;
+	gn:name "Philippines"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1694008/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812363> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729896>
+		;
+	gn:population "99900177"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Philippines> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1694008/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Philippines> ;
+	wgs84_pos:lat "13"^^xs:decimal ;
+	wgs84_pos:long "122"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1733045>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1733045/contains.rdf> ;
+	gn:countryCode "MY"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1733045/malaysia.html> ;
+	gn:name "Malaysia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1733045/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/11812363> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729896>
+		;
+	gn:population "28274729"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Malaysia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1733045/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Malaysia> ;
+	wgs84_pos:lat "2.5"^^xs:decimal ;
+	wgs84_pos:long "112.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/174982>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/174982/contains.rdf> ;
+	gn:countryCode "AM"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/174982/republic-of-armenia.html> ;
+	gn:name "Armenia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/174982/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812265> ,
+		<https://sws.geonames.org/615318> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729897>
+		;
+	gn:population "2968000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Armenia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/174982/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Armenia> ;
+	wgs84_pos:lat "40.25"^^xs:decimal ;
+	wgs84_pos:long "45"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1814991>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1814991/contains.rdf> ;
+	gn:countryCode "CN"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1814991/people-s-republic-of-china.html> ;
+	gn:name "China"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1814991/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729894>
+		;
+	gn:population "1330044000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/China> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1814991/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/China> ;
+	wgs84_pos:lat "35"^^xs:decimal ;
+	wgs84_pos:long "105"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1820814>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1820814/contains.rdf> ;
+	gn:countryCode "BN"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1820814/brunei-darussalam.html> ;
+	gn:name "Brunei"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1820814/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/11812363> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729896>
+		;
+	gn:population "395027"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Brunei> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1820814/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Brunei> ;
+	wgs84_pos:lat "4.5"^^xs:decimal ;
+	wgs84_pos:long "114.66667"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1831722>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1831722/contains.rdf> ;
+	gn:countryCode "KH"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1831722/kingdom-of-cambodia.html> ;
+	gn:name "Cambodia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1831722/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812363> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729896>
+		;
+	gn:population "14453680"^^xs:integer ;
+	gn:wikipediaArticle
+		<https://en.wikipedia.org/wiki/Cambodia> ,
+		<https://en.wikipedia.org/wiki/Khmer_Republic>
+		;
+	rdfs:isDefinedBy <https://sws.geonames.org/1831722/about.rdf> ;
+	rdfs:seeAlso
+		<https://dbpedia.org/resource/Cambodia> ,
+		<https://dbpedia.org/resource/Khmer_Republic>
+		;
+	wgs84_pos:lat "13"^^xs:decimal ;
+	wgs84_pos:long "105"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1835841>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1835841/contains.rdf> ;
+	gn:countryCode "KR"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1835841/republic-of-korea.html> ;
+	gn:name "South Korea"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1835841/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729894>
+		;
+	gn:population "48422644"^^xs:integer ;
+	gn:wikipediaArticle
+		<https://en.wikipedia.org/wiki/Korea> ,
+		<https://en.wikipedia.org/wiki/South_Korea> ,
+		<https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD>
+		;
+	rdfs:isDefinedBy <https://sws.geonames.org/1835841/about.rdf> ;
+	rdfs:seeAlso
+		<https://dbpedia.org/resource/Korea> ,
+		<https://dbpedia.org/resource/South_Korea>
+		;
+	wgs84_pos:lat "36.5"^^xs:decimal ;
+	wgs84_pos:long "127.75"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1861060>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1861060/contains.rdf> ;
+	gn:countryCode "JP"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1861060/japan.html> ;
+	gn:name "Japan"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1861060/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729894>
+		;
+	gn:population "127288000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Japan> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1861060/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Japan> ;
+	wgs84_pos:lat "35.68536"^^xs:decimal ;
+	wgs84_pos:long "139.75309"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1873107>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1873107/contains.rdf> ;
+	gn:countryCode "KP"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1873107/democratic-people-s-republic-of-korea.html> ;
+	gn:name "North Korea"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1873107/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729894>
+		;
+	gn:population "22912177"^^xs:integer ;
+	gn:wikipediaArticle
+		<https://en.wikipedia.org/wiki/Joseon_Dynasty> ,
+		<https://en.wikipedia.org/wiki/North_Korea>
+		;
+	rdfs:isDefinedBy <https://sws.geonames.org/1873107/about.rdf> ;
+	rdfs:seeAlso
+		<https://dbpedia.org/resource/Joseon_Dynasty> ,
+		<https://dbpedia.org/resource/North_Korea>
+		;
+	wgs84_pos:lat "40"^^xs:decimal ;
+	wgs84_pos:long "127"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1880251>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1880251/contains.rdf> ;
+	gn:countryCode "SG"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1880251/republic-of-singapore.html> ;
+	gn:name "Singapore"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1880251/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/11812363> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729896>
+		;
+	gn:population "4701069"^^xs:integer ;
+	gn:wikipediaArticle
+		<https://en.wikipedia.org/wiki/Singapore> ,
+		<https://ko.wikipedia.org/wiki/%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4>
+		;
+	rdfs:isDefinedBy <https://sws.geonames.org/1880251/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Singapore> ;
+	wgs84_pos:lat "1.36667"^^xs:decimal ;
+	wgs84_pos:long "103.8"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/192950>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/192950/contains.rdf> ;
+	gn:countryCode "KE"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/192950/republic-of-kenya.html> ;
+	gn:name "Kenya"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/192950/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "40046566"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Kenya> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/192950/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Kenya> ;
+	wgs84_pos:lat "1"^^xs:decimal ;
+	wgs84_pos:long "38"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/1966436>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/1966436/contains.rdf> ;
+	gn:countryCode "TL"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/1966436/democratic-republic-of-timor-leste.html> ;
+	gn:name "Timor-Leste"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/1966436/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255151> ,
+		<https://sws.geonames.org/7729896>
+		;
+	gn:population "1154625"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/East_Timor> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/1966436/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/East_Timor> ;
+	wgs84_pos:lat "-8.83333"^^xs:decimal ;
+	wgs84_pos:long "125.75"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2017370>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2017370/contains.rdf> ;
+	gn:countryCode "RU"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2017370/russian-federation.html> ;
+	gn:name "Russia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2017370/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812265> ,
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/7729884>
+		;
+	gn:population "140702000"^^xs:integer ;
+	gn:shortName "Venäjä"@krl ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Russia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2017370/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Russia> ;
+	wgs84_pos:lat "60"^^xs:decimal ;
+	wgs84_pos:long "100"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2029969>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2029969/contains.rdf> ;
+	gn:countryCode "MN"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2029969/mongolia.html> ;
+	gn:name "Mongolia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2029969/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729894>
+		;
+	gn:population "3086918"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Mongolia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2029969/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Mongolia> ;
+	wgs84_pos:lat "46"^^xs:decimal ;
+	wgs84_pos:long "105"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/203312>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/203312/contains.rdf> ;
+	gn:countryCode "CD"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/203312/democratic-republic-of-the-congo.html> ;
+	gn:name "DR Congo"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/203312/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729886>
+		;
+	gn:population "70916439"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/203312/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Democratic_Republic_of_the_Congo> ;
+	wgs84_pos:lat "-2.5"^^xs:decimal ;
+	wgs84_pos:long "23.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2077456>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2077456/contains.rdf> ;
+	gn:countryCode "AU"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2077456/commonwealth-of-australia.html> ;
+	gn:name "Australia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2077456/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255151> ,
+		<https://sws.geonames.org/7729898>
+		;
+	gn:population "21515754"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Australia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2077456/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Australia> ;
+	wgs84_pos:lat "-25"^^xs:decimal ;
+	wgs84_pos:long "135"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2088628>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2088628/contains.rdf> ;
+	gn:countryCode "PG"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2088628/independent-state-of-papua-new-guinea.html> ;
+	gn:name "Papua New Guinea"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2088628/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255151> ,
+		<https://sws.geonames.org/7729899>
+		;
+	gn:population "6064515"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Papua_New_Guinea> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2088628/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Papua_New_Guinea> ;
+	wgs84_pos:lat "-6"^^xs:decimal ;
+	wgs84_pos:long "147"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2103350>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2103350/contains.rdf> ;
+	gn:countryCode "SB"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2103350/solomon-islands.html> ;
+	gn:name "Solomon Islands"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2103350/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255151> ,
+		<https://sws.geonames.org/7729899>
+		;
+	gn:population "559198"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Solomon_Islands> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2103350/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Solomon_Islands> ;
+	wgs84_pos:lat "-8"^^xs:decimal ;
+	wgs84_pos:long "159"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2110297>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2110297/contains.rdf> ;
+	gn:countryCode "TV"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2110297/tuvalu.html> ;
+	gn:name "Tuvalu"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2110297/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255151> ,
+		<https://sws.geonames.org/7729901>
+		;
+	gn:population "10472"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Tuvalu> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2110297/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Tuvalu> ;
+	wgs84_pos:lat "-8.51719"^^xs:decimal ;
+	wgs84_pos:long "179.14478"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2110425>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2110425/contains.rdf> ;
+	gn:countryCode "NR"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2110425/nauru.html> ;
+	gn:name "Nauru"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2110425/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255151> ,
+		<https://sws.geonames.org/7729900>
+		;
+	gn:population "10065"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Nauru> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2110425/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Nauru> ;
+	wgs84_pos:alt "71"@en ;
+	wgs84_pos:lat "-0.517"^^xs:decimal ;
+	wgs84_pos:long "166.933"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2134431>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2134431/contains.rdf> ;
+	gn:countryCode "VU"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2134431/republic-of-vanuatu.html> ;
+	gn:name "Vanuatu"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2134431/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255151> ,
+		<https://sws.geonames.org/7729899>
+		;
+	gn:population "221552"^^xs:integer ;
+	gn:wikipediaArticle
+		<https://en.wikipedia.org/wiki/New_Hebrides> ,
+		<https://en.wikipedia.org/wiki/Vanuatu>
+		;
+	rdfs:isDefinedBy <https://sws.geonames.org/2134431/about.rdf> ;
+	rdfs:seeAlso
+		<https://dbpedia.org/resource/New_Hebrides> ,
+		<https://dbpedia.org/resource/Vanuatu>
+		;
+	wgs84_pos:lat "-16"^^xs:decimal ;
+	wgs84_pos:long "167"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2186224>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2186224/contains.rdf> ;
+	gn:countryCode "NZ"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2186224/new-zealand.html> ;
+	gn:name "New Zealand"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2186224/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255151> ,
+		<https://sws.geonames.org/7729898>
+		;
+	gn:population "4252277"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/New_Zealand> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2186224/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/New_Zealand> ;
+	wgs84_pos:lat "-42"^^xs:decimal ;
+	wgs84_pos:long "174"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2205218>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2205218/contains.rdf> ;
+	gn:countryCode "FJ"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2205218/republic-of-fiji.html> ;
+	gn:name "Fiji"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2205218/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255151> ,
+		<https://sws.geonames.org/7729899>
+		;
+	gn:population "875983"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Fiji> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2205218/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Fiji> ;
+	wgs84_pos:lat "-18"^^xs:decimal ;
+	wgs84_pos:long "178"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2215636>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2215636/contains.rdf> ;
+	gn:countryCode "LY"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2215636/libya.html> ;
+	gn:name "Libya"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2215636/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729887>
+		;
+	gn:population "6461454"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Libya> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2215636/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Libya> ;
+	wgs84_pos:lat "28"^^xs:decimal ;
+	wgs84_pos:long "17"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2233387>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2233387/contains.rdf> ;
+	gn:countryCode "CM"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2233387/republic-of-cameroon.html> ;
+	gn:name "Cameroon"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2233387/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729886>
+		;
+	gn:population "19294149"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Cameroon> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2233387/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Cameroon> ;
+	wgs84_pos:lat "6"^^xs:decimal ;
+	wgs84_pos:long "12.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/223816>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/223816/contains.rdf> ;
+	gn:countryCode "DJ"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/223816/republic-of-djibouti.html> ;
+	gn:name "Djibouti"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/223816/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11820342> ,
+		<https://sws.geonames.org/11820677> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "740528"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Djibouti> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/223816/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Djibouti> ;
+	wgs84_pos:lat "11.83333"^^xs:decimal ;
+	wgs84_pos:long "42.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2245662>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2245662/contains.rdf> ;
+	gn:countryCode "SN"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2245662/republic-of-senegal.html> ;
+	gn:name "Senegal"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2245662/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729885>
+		;
+	gn:population "12323252"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Senegal> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2245662/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Senegal> ;
+	wgs84_pos:lat "14.5"^^xs:decimal ;
+	wgs84_pos:long "-14.25"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2260494>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2260494/contains.rdf> ;
+	gn:countryCode "CG"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2260494/republic-of-the-congo.html> ;
+	gn:name "Congo Republic"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2260494/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729886>
+		;
+	gn:population "3039126"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Republic_of_the_Congo> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2260494/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Republic_of_the_Congo> ;
+	wgs84_pos:lat "-1"^^xs:decimal ;
+	wgs84_pos:long "15.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/226074>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/226074/contains.rdf> ;
+	gn:countryCode "UG"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/226074/republic-of-uganda.html> ;
+	gn:name "Uganda"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/226074/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "33398682"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Uganda> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/226074/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Uganda> ;
+	wgs84_pos:lat "1.25"^^xs:decimal ;
+	wgs84_pos:long "32.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2264397>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2264397/contains.rdf> ;
+	gn:countryCode "PT"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2264397/portuguese-republic.html> ;
+	gn:name "Portugal"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2264397/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/9408658>
+		;
+	gn:population "10676000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Portugal> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2264397/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Portugal> ;
+	wgs84_pos:lat "39.6945"^^xs:decimal ;
+	wgs84_pos:long "-8.13057"^^xs:decimal ;
+	foaf:page
+		<http://pleiades.stoa.org/places/1101> ,
+		<http://pleiades.stoa.org/places/981529> ,
+		<http://pleiades.stoa.org/places/991319>
+		;
+	.
+
+<https://sws.geonames.org/2275384>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2275384/contains.rdf> ;
+	gn:countryCode "LR"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2275384/republic-of-liberia.html> ;
+	gn:name "Liberia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2275384/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729885>
+		;
+	gn:population "3685076"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Liberia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2275384/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Liberia> ;
+	wgs84_pos:lat "6.5"^^xs:decimal ;
+	wgs84_pos:long "-9.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2287781>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2287781/contains.rdf> ;
+	gn:countryCode "CI"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2287781/republic-of-cote-d-ivoire.html> ;
+	gn:name "Ivory Coast"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2287781/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729885>
+		;
+	gn:population "21058798"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Ivory_Coast> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2287781/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Ivory_Coast> ;
+	wgs84_pos:lat "8"^^xs:decimal ;
+	wgs84_pos:long "-5.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2300660>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2300660/contains.rdf> ;
+	gn:countryCode "GH"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2300660/republic-of-ghana.html> ;
+	gn:name "Ghana"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2300660/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729885>
+		;
+	gn:population "24339838"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Ghana> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2300660/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Ghana> ;
+	wgs84_pos:lat "8.1"^^xs:decimal ;
+	wgs84_pos:long "-1.2"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2309096>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2309096/contains.rdf> ;
+	gn:countryCode "GQ"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2309096/republic-of-equatorial-guinea.html> ;
+	gn:name "Equatorial Guinea"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2309096/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729886>
+		;
+	gn:population "1014999"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Equatorial_Guinea> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2309096/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Equatorial_Guinea> ;
+	wgs84_pos:lat "1.7"^^xs:decimal ;
+	wgs84_pos:long "10.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2328926>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2328926/contains.rdf> ;
+	gn:countryCode "NG"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2328926/federal-republic-of-nigeria.html> ;
+	gn:name "Nigeria"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2328926/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729885>
+		;
+	gn:population "154000000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Nigeria> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2328926/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Nigeria> ;
+	wgs84_pos:lat "10"^^xs:decimal ;
+	wgs84_pos:long "8"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2361809>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2361809/contains.rdf> ;
+	gn:countryCode "BF"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2361809/burkina-faso.html> ;
+	gn:name "Burkina Faso"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2361809/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729885>
+		;
+	gn:population "16241811"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Burkina_Faso> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2361809/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Burkina_Faso> ;
+	wgs84_pos:lat "12.5"^^xs:decimal ;
+	wgs84_pos:long "-1.66667"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2363686>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2363686/contains.rdf> ;
+	gn:countryCode "TG"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2363686/togolese-republic.html> ;
+	gn:name "Togo"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2363686/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729885>
+		;
+	gn:population "6587239"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Togo> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2363686/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Togo> ;
+	wgs84_pos:lat "8.66667"^^xs:decimal ;
+	wgs84_pos:long "1.08333"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2372248>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2372248/contains.rdf> ;
+	gn:countryCode "GW"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2372248/republic-of-guinea-bissau.html> ;
+	gn:name "Guinea-Bissau"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2372248/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729885>
+		;
+	gn:population "1565126"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Guinea-Bissau> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2372248/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Guinea-Bissau> ;
+	wgs84_pos:lat "12"^^xs:decimal ;
+	wgs84_pos:long "-15"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2378080>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2378080/contains.rdf> ;
+	gn:countryCode "MR"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2378080/islamic-republic-of-mauritania.html> ;
+	gn:name "Mauritania"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2378080/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729885>
+		;
+	gn:population "3205060"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Mauritania> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2378080/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Mauritania> ;
+	wgs84_pos:lat "20.25"^^xs:decimal ;
+	wgs84_pos:long "-10.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2395170>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2395170/contains.rdf> ;
+	gn:countryCode "BJ"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2395170/republic-of-benin.html> ;
+	gn:name "Benin"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2395170/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729885>
+		;
+	gn:population "9056010"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Benin> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2395170/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Benin> ;
+	wgs84_pos:lat "9.5"^^xs:decimal ;
+	wgs84_pos:long "2.25"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/239880>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/239880/contains.rdf> ;
+	gn:countryCode "CF"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/239880/central-african-republic.html> ;
+	gn:name "Central African Republic"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/239880/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729886>
+		;
+	gn:population "4844927"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Central_African_Republic> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/239880/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Central_African_Republic> ;
+	wgs84_pos:lat "7"^^xs:decimal ;
+	wgs84_pos:long "21"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2400553>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2400553/contains.rdf> ;
+	gn:countryCode "GA"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2400553/gabonese-republic.html> ;
+	gn:name "Gabon"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2400553/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729886>
+		;
+	gn:population "1545255"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Gabon> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2400553/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Gabon> ;
+	wgs84_pos:lat "-1"^^xs:decimal ;
+	wgs84_pos:long "11.75"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2403846>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2403846/contains.rdf> ;
+	gn:countryCode "SL"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2403846/republic-of-sierra-leone.html> ;
+	gn:name "Sierra Leone"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2403846/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729885>
+		;
+	gn:population "5245695"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Sierra_Leone> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2403846/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Sierra_Leone> ;
+	wgs84_pos:lat "8.5"^^xs:decimal ;
+	wgs84_pos:long "-11.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2410758>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2410758/contains.rdf> ;
+	gn:countryCode "ST"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2410758/sao-tome-and-principe.html> ;
+	gn:name "São Tomé and Príncipe"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2410758/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729886>
+		;
+	gn:population "197700"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2410758/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe> ;
+	wgs84_pos:lat "1"^^xs:decimal ;
+	wgs84_pos:long "7"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/241170>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/241170/contains.rdf> ;
+	gn:countryCode "SC"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/241170/republic-of-seychelles.html> ;
+	gn:name "Seychelles"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/241170/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "88340"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Seychelles> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/241170/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Seychelles> ;
+	wgs84_pos:lat "-4.58333"^^xs:decimal ;
+	wgs84_pos:long "55.66667"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2413451>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2413451/contains.rdf> ;
+	gn:countryCode "GM"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2413451/gambia.html> ;
+	gn:name "Gambia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2413451/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729885>
+		;
+	gn:population "1593256"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/The_Gambia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2413451/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/The_Gambia> ;
+	wgs84_pos:lat "13.5"^^xs:decimal ;
+	wgs84_pos:long "-15.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2420477>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2420477/contains.rdf> ;
+	gn:countryCode "GN"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2420477/republic-of-guinea.html> ;
+	gn:name "Guinea"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2420477/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729885>
+		;
+	gn:population "10324025"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Guinea> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2420477/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Guinea> ;
+	wgs84_pos:lat "10.83333"^^xs:decimal ;
+	wgs84_pos:long "-10.66667"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2434508>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2434508/contains.rdf> ;
+	gn:countryCode "TD"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2434508/republic-of-chad.html> ;
+	gn:name "Chad"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2434508/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729886>
+		;
+	gn:population "10543464"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Chad> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2434508/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Chad> ;
+	wgs84_pos:lat "15"^^xs:decimal ;
+	wgs84_pos:long "19"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2440476>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2440476/contains.rdf> ;
+	gn:countryCode "NE"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2440476/republic-of-niger.html> ;
+	gn:name "Niger"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2440476/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729885>
+		;
+	gn:population "15878271"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Niger> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2440476/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Niger> ;
+	wgs84_pos:lat "18"^^xs:decimal ;
+	wgs84_pos:long "9"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2453866>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2453866/contains.rdf> ;
+	gn:countryCode "ML"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2453866/republic-of-mali.html> ;
+	gn:name "Mali"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2453866/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729885>
+		;
+	gn:population "13796354"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Mali> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2453866/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Mali> ;
+	wgs84_pos:lat "18"^^xs:decimal ;
+	wgs84_pos:long "-2"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2464461>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2464461/contains.rdf> ;
+	gn:countryCode "TN"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2464461/republic-of-tunisia.html> ;
+	gn:name "Tunisia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2464461/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/2219875> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729887>
+		;
+	gn:population "10589025"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Tunisia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2464461/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Tunisia> ;
+	wgs84_pos:lat "34"^^xs:decimal ;
+	wgs84_pos:long "9"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/248816>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/248816/contains.rdf> ;
+	gn:countryCode "JO"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/248816/hashemite-kingdom-of-jordan.html> ;
+	gn:name "Jordan"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/248816/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/305104> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/6269133> ,
+		<https://sws.geonames.org/7729897>
+		;
+	gn:population "6407085"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Jordan> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/248816/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Jordan> ;
+	wgs84_pos:lat "31"^^xs:decimal ;
+	wgs84_pos:long "36"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2510769>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2510769/contains.rdf> ;
+	gn:countryCode "ES"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2510769/kingdom-of-spain.html> ;
+	gn:name "Spain"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2510769/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/9408658>
+		;
+	gn:population "46505963"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Spain> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2510769/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Spain> ;
+	wgs84_pos:lat "40"^^xs:decimal ;
+	wgs84_pos:long "-4"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2542007>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2542007/contains.rdf> ;
+	gn:countryCode "MA"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2542007/kingdom-of-morocco.html> ;
+	gn:name "Morocco"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2542007/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/2219875> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729887>
+		;
+	gn:population "33848242"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Morocco> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2542007/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Morocco> ;
+	wgs84_pos:lat "32"^^xs:decimal ;
+	wgs84_pos:long "-6"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2562770>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2562770/contains.rdf> ;
+	gn:countryCode "MT"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2562770/republic-of-malta.html> ;
+	gn:name "Malta"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2562770/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/9408658>
+		;
+	gn:population "403000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Malta> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2562770/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Malta> ;
+	wgs84_pos:lat "35.91667"^^xs:decimal ;
+	wgs84_pos:long "14.43333"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2589581>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2589581/contains.rdf> ;
+	gn:countryCode "DZ"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2589581/people-s-democratic-republic-of-algeria.html> ;
+	gn:name "Algeria"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2589581/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/2219875> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729887>
+		;
+	gn:population "34586184"^^xs:integer ;
+	gn:wikipediaArticle
+		<https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1> ,
+		<https://en.wikipedia.org/wiki/Algeria>
+		;
+	rdfs:isDefinedBy <https://sws.geonames.org/2589581/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Algeria> ;
+	wgs84_pos:lat "28"^^xs:decimal ;
+	wgs84_pos:long "3"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2623032>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2623032/contains.rdf> ;
+	gn:countryCode "DK"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2623032/kingdom-of-denmark.html> ;
+	gn:name "Denmark"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2623032/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/2614165> ,
+		<https://sws.geonames.org/2616167> ,
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/7729883>
+		;
+	gn:population "5484000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Denmark> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2623032/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Denmark> ;
+	wgs84_pos:lat "56"^^xs:decimal ;
+	wgs84_pos:long "10"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2629691>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2629691/contains.rdf> ;
+	gn:countryCode "IS"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2629691/republic-of-iceland.html> ;
+	gn:name "Iceland"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2629691/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/2616167> ,
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/7729883> ,
+		<https://sws.geonames.org/9961132>
+		;
+	gn:population "308910"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Iceland> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2629691/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Iceland> ;
+	wgs84_pos:lat "65"^^xs:decimal ;
+	wgs84_pos:long "-18"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2635167>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2635167/contains.rdf> ;
+	gn:countryCode "GB"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html> ;
+	gn:name "United Kingdom"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2635167/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/7729883>
+		;
+	gn:population "62348447"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/United_Kingdom> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2635167/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/United_Kingdom> ;
+	wgs84_pos:lat "54.75844"^^xs:decimal ;
+	wgs84_pos:long "-2.69531"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2658434>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2658434/contains.rdf> ;
+	gn:countryCode "CH"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2658434/switzerland.html> ;
+	gn:name "Switzerland"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2658434/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/9408659> ,
+		<https://sws.geonames.org/9961132>
+		;
+	gn:population "8484100"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Switzerland> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2658434/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Switzerland> ;
+	wgs84_pos:lat "47.00016"^^xs:decimal ;
+	wgs84_pos:long "8.01427"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2661886>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2661886/contains.rdf> ;
+	gn:countryCode "SE"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2661886/kingdom-of-sweden.html> ;
+	gn:name "Sweden"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2661886/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/2614165> ,
+		<https://sws.geonames.org/2616167> ,
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/7729883>
+		;
+	gn:population "9828655"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Sweden> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2661886/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Sweden> ;
+	wgs84_pos:lat "62"^^xs:decimal ;
+	wgs84_pos:long "15"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/272103>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/272103/contains.rdf> ;
+	gn:countryCode "LB"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/272103/lebanon.html> ;
+	gn:name "Lebanon"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/272103/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/305104> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/6269133> ,
+		<https://sws.geonames.org/7729897>
+		;
+	gn:population "4125247"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Lebanon> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/272103/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Lebanon> ;
+	wgs84_pos:lat "33.83333"^^xs:decimal ;
+	wgs84_pos:long "35.83333"^^xs:decimal ;
+	foaf:page <http://pleiades.stoa.org/places/678267> ;
+	.
+
+<https://sws.geonames.org/2750405>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2750405/contains.rdf> ;
+	gn:countryCode "NL"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2750405/kingdom-of-the-netherlands.html> ;
+	gn:name "Netherlands"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2750405/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/9408659>
+		;
+	gn:population "16645000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Kingdom_of_the_Netherlands> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2750405/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Kingdom_of_the_Netherlands> ;
+	wgs84_pos:lat "52.25"^^xs:decimal ;
+	wgs84_pos:long "5.75"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2782113>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2782113/contains.rdf> ;
+	gn:countryCode "AT"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2782113/republic-of-austria.html> ;
+	gn:name "Austria"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2782113/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/9408659>
+		;
+	gn:population "8205000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Austria> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2782113/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Austria> ;
+	wgs84_pos:lat "47.33333"^^xs:decimal ;
+	wgs84_pos:long "13.33333"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2802361>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2802361/contains.rdf> ;
+	gn:countryCode "BE"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2802361/kingdom-of-belgium.html> ;
+	gn:name "Belgium"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2802361/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/9408659>
+		;
+	gn:population "10403000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Belgium> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2802361/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Belgium> ;
+	wgs84_pos:lat "50.75"^^xs:decimal ;
+	wgs84_pos:long "4.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/285570>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/285570/contains.rdf> ;
+	gn:countryCode "KW"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/285570/state-of-kuwait.html> ;
+	gn:name "Kuwait"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/285570/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/6269133> ,
+		<https://sws.geonames.org/6957698> ,
+		<https://sws.geonames.org/7729897>
+		;
+	gn:population "2789132"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Kuwait> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/285570/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Kuwait> ;
+	wgs84_pos:lat "29.5"^^xs:decimal ;
+	wgs84_pos:long "47.75"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/286963>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/286963/contains.rdf> ;
+	gn:countryCode "OM"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/286963/sultanate-of-oman.html> ;
+	gn:name "Oman"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/286963/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/6269133> ,
+		<https://sws.geonames.org/6957698> ,
+		<https://sws.geonames.org/7729897>
+		;
+	gn:population "2967717"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Oman> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/286963/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Oman> ;
+	wgs84_pos:lat "21"^^xs:decimal ;
+	wgs84_pos:long "57"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/289688>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/289688/contains.rdf> ;
+	gn:countryCode "QA"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/289688/state-of-qatar.html> ;
+	gn:name "Qatar"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/289688/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/6269133> ,
+		<https://sws.geonames.org/6957698> ,
+		<https://sws.geonames.org/7729897>
+		;
+	gn:population "840926"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Qatar> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/289688/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Qatar> ;
+	wgs84_pos:lat "25.5"^^xs:decimal ;
+	wgs84_pos:long "51.25"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/290291>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/290291/contains.rdf> ;
+	gn:countryCode "BH"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/290291/kingdom-of-bahrain.html> ;
+	gn:name "Bahrain"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/290291/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/6269133> ,
+		<https://sws.geonames.org/6957698> ,
+		<https://sws.geonames.org/7729897>
+		;
+	gn:population "738004"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Bahrain> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/290291/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Bahrain> ;
+	wgs84_pos:lat "26.03333"^^xs:decimal ;
+	wgs84_pos:long "50.55"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/290557>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/290557/contains.rdf> ;
+	gn:countryCode "AE"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/290557/united-arab-emirates.html> ;
+	gn:name "United Arab Emirates"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/290557/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/6269133> ,
+		<https://sws.geonames.org/6957698> ,
+		<https://sws.geonames.org/7729897>
+		;
+	gn:population "4975593"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/United_Arab_Emirates> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/290557/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/United_Arab_Emirates> ;
+	wgs84_pos:lat "23.75"^^xs:decimal ;
+	wgs84_pos:long "54.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2921044>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2921044/contains.rdf> ;
+	gn:countryCode "DE"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2921044/federal-republic-of-germany.html> ;
+	gn:name "Germany"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2921044/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/9408659>
+		;
+	gn:population "81802257"^^xs:integer ;
+	gn:wikipediaArticle
+		<https://en.wikipedia.org/wiki/Germany> ,
+		<https://uk.wikipedia.org/wiki/%D0%9D%D1%96%D0%BC%D0%B5%D1%87%D1%87%D0%B8%D0%BD%D0%B0>
+		;
+	rdfs:isDefinedBy <https://sws.geonames.org/2921044/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Germany> ;
+	wgs84_pos:lat "51.5"^^xs:decimal ;
+	wgs84_pos:long "10.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/294640>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/294640/contains.rdf> ;
+	gn:countryCode "IL"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/294640/state-of-israel.html> ;
+	gn:name "Israel"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/294640/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/305104> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/6269133> ,
+		<https://sws.geonames.org/7729897>
+		;
+	gn:population "7353985"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Israel> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/294640/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Israel> ;
+	wgs84_pos:lat "31.5"^^xs:decimal ;
+	wgs84_pos:long "34.75"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2960313>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2960313/contains.rdf> ;
+	gn:countryCode "LU"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2960313/grand-duchy-of-luxembourg.html> ;
+	gn:name "Luxembourg"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2960313/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/9408659>
+		;
+	gn:population "497538"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Luxembourg> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2960313/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Luxembourg> ;
+	wgs84_pos:lat "49.75"^^xs:decimal ;
+	wgs84_pos:long "6.16667"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2963597>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2963597/contains.rdf> ;
+	gn:countryCode "IE"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2963597/ireland.html> ;
+	gn:name "Ireland"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2963597/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/7729883>
+		;
+	gn:population "4622917"^^xs:integer ;
+	gn:shortName "Irlanda"@es ;
+	gn:wikipediaArticle
+		<https://en.wikipedia.org/wiki/Ireland> ,
+		<https://en.wikipedia.org/wiki/Republic_of_Ireland>
+		;
+	rdfs:isDefinedBy <https://sws.geonames.org/2963597/about.rdf> ;
+	rdfs:seeAlso
+		<https://dbpedia.org/resource/Ireland> ,
+		<https://dbpedia.org/resource/Republic_of_Ireland>
+		;
+	wgs84_pos:lat "53"^^xs:decimal ;
+	wgs84_pos:long "-8"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/298795>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/298795/contains.rdf> ;
+	gn:countryCode "TR"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/298795/republic-of-turkey.html> ;
+	gn:name "Turkey"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/298795/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/6269133> ,
+		<https://sws.geonames.org/7729897>
+		;
+	gn:population "77804122"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Turkey> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/298795/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Turkey> ;
+	wgs84_pos:lat "39"^^xs:decimal ;
+	wgs84_pos:long "35"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/2993457>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/2993457/contains.rdf> ;
+	gn:countryCode "MC"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/2993457/principality-of-monaco.html> ;
+	gn:name "Monaco"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/2993457/neighbours.rdf> ;
+	gn:parentADM1 <https://sws.geonames.org/3319178> ;
+	gn:parentFeature
+		<https://sws.geonames.org/2661786> ,
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/9408659>
+		;
+	gn:population "32965"^^xs:integer ;
+	gn:postalCode "98000"@en ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Monaco> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/2993457/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Monaco> ;
+	wgs84_pos:lat "43.73141"^^xs:decimal ;
+	wgs84_pos:long "7.41903"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3017382>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3017382/contains.rdf> ;
+	gn:countryCode "FR"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3017382/republic-of-france.html> ;
+	gn:name "France"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3017382/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/9408659>
+		;
+	gn:population "64768389"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/France> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3017382/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/France> ;
+	wgs84_pos:lat "46"^^xs:decimal ;
+	wgs84_pos:long "2"^^xs:decimal ;
+	foaf:page <http://rdf.insee.fr/geo/PAYS_FR> ;
+	.
+
+<https://sws.geonames.org/3041565>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3041565/contains.rdf> ;
+	gn:countryCode "AD"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3041565/principality-of-andorra.html> ;
+	gn:name "Andorra"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3041565/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/9408658>
+		;
+	gn:population "84000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Andorra> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3041565/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Andorra> ;
+	wgs84_pos:lat "42.55"^^xs:decimal ;
+	wgs84_pos:long "1.58333"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3042058>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3042058/contains.rdf> ;
+	gn:countryCode "LI"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3042058/principality-of-liechtenstein.html> ;
+	gn:name "Liechtenstein"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3042058/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11919717> ,
+		<https://sws.geonames.org/2661786> ,
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/9408659> ,
+		<https://sws.geonames.org/9961132>
+		;
+	gn:population "35000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Liechtenstein> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3042058/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Liechtenstein> ;
+	wgs84_pos:lat "47.16667"^^xs:decimal ;
+	wgs84_pos:long "9.53333"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3057568>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3057568/contains.rdf> ;
+	gn:countryCode "SK"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3057568/slovak-republic.html> ;
+	gn:name "Slovakia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3057568/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/7729884>
+		;
+	gn:population "5455000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Slovakia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3057568/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Slovakia> ;
+	wgs84_pos:lat "48.66667"^^xs:decimal ;
+	wgs84_pos:long "19.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3077311>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3077311/contains.rdf> ;
+	gn:countryCode "CZ"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3077311/czechia.html> ;
+	gn:name "Czechia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3077311/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/7729884>
+		;
+	gn:population "10476000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Czech_Republic> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3077311/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Czech_Republic> ;
+	wgs84_pos:alt "430"@en ;
+	wgs84_pos:lat "49.75"^^xs:decimal ;
+	wgs84_pos:long "15"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3144096>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3144096/contains.rdf> ;
+	gn:countryCode "NO"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3144096/kingdom-of-norway.html> ;
+	gn:name "Norway"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3144096/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/2614165> ,
+		<https://sws.geonames.org/2616167> ,
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/7729883> ,
+		<https://sws.geonames.org/9961132>
+		;
+	gn:population "5009150"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Norway> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3144096/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Norway> ;
+	wgs84_pos:lat "62"^^xs:decimal ;
+	wgs84_pos:long "10"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3164670>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3164670/contains.rdf> ;
+	gn:countryCode "VA"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3164670/state-of-the-vatican-city.html> ;
+	gn:name "Vatican City"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3164670/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/9408658>
+		;
+	gn:population "921"^^xs:integer ;
+	gn:shortName "Vatikanen"@sv ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Vatican_City> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3164670/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Vatican_City> ;
+	wgs84_pos:lat "41.90225"^^xs:decimal ;
+	wgs84_pos:long "12.4533"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3168068>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3168068/contains.rdf> ;
+	gn:countryCode "SM"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3168068/repubblica-di-san-marino.html> ;
+	gn:name "San Marino"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3168068/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/9408658>
+		;
+	gn:population "31477"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/San_Marino> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3168068/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/San_Marino> ;
+	wgs84_pos:lat "43.9367"^^xs:decimal ;
+	wgs84_pos:long "12.4463"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3175395>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3175395/contains.rdf> ;
+	gn:countryCode "IT"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3175395/italian-republic.html> ;
+	gn:name "Italy"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3175395/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/9408658>
+		;
+	gn:population "60340328"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Italy> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3175395/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Italy> ;
+	wgs84_pos:lat "42.83333"^^xs:decimal ;
+	wgs84_pos:long "12.83333"^^xs:decimal ;
+	foaf:page <http://pleiades.stoa.org/places/1052> ;
+	.
+
+<https://sws.geonames.org/3190538>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3190538/contains.rdf> ;
+	gn:countryCode "SI"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3190538/republic-of-slovenia.html> ;
+	gn:name "Slovenia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3190538/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/9408658>
+		;
+	gn:population "2007000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Slovenia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3190538/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Slovenia> ;
+	wgs84_pos:lat "46.08333"^^xs:decimal ;
+	wgs84_pos:long "15"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3194884>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3194884/contains.rdf> ;
+	gn:countryCode "ME"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3194884/montenegro.html> ;
+	gn:name "Montenegro"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3194884/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/685608> ,
+		<https://sws.geonames.org/9408658>
+		;
+	gn:population "666730"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Montenegro> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3194884/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Montenegro> ;
+	wgs84_pos:lat "42.75"^^xs:decimal ;
+	wgs84_pos:long "19.25"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3202326>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3202326/contains.rdf> ;
+	gn:countryCode "HR"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3202326/republic-of-croatia.html> ;
+	gn:name "Croatia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3202326/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/9408658>
+		;
+	gn:population "4284889"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Croatia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3202326/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Croatia> ;
+	wgs84_pos:lat "45.16667"^^xs:decimal ;
+	wgs84_pos:long "15.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3277605>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3277605/contains.rdf> ;
+	gn:countryCode "BA"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3277605/bosnia-and-herzegovina.html> ;
+	gn:name "Bosnia and Herzegovina"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3277605/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/9408658>
+		;
+	gn:population "4590000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3277605/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Bosnia_and_Herzegovina> ;
+	wgs84_pos:lat "44.25"^^xs:decimal ;
+	wgs84_pos:long "17.83333"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3351879>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3351879/contains.rdf> ;
+	gn:countryCode "AO"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3351879/republic-of-angola.html> ;
+	gn:name "Angola"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3351879/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729886>
+		;
+	gn:population "13068161"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Angola> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3351879/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Angola> ;
+	wgs84_pos:lat "-12.5"^^xs:decimal ;
+	wgs84_pos:long "18.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3355338>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3355338/contains.rdf> ;
+	gn:countryCode "NA"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3355338/republic-of-namibia.html> ;
+	gn:name "Namibia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3355338/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/9406051>
+		;
+	gn:population "2128471"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Namibia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3355338/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Namibia> ;
+	wgs84_pos:lat "-22"^^xs:decimal ;
+	wgs84_pos:long "17"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3374084>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3374084/contains.rdf> ;
+	gn:countryCode "BB"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3374084/barbados.html> ;
+	gn:name "Barbados"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3374084/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "285653"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Barbados> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3374084/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Barbados> ;
+	wgs84_pos:lat "13.16453"^^xs:decimal ;
+	wgs84_pos:long "-59.55165"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3374766>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3374766/contains.rdf> ;
+	gn:countryCode "CV"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3374766/republic-of-cabo-verde.html> ;
+	gn:name "Cabo Verde"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3374766/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729885>
+		;
+	gn:population "508659"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Cape_Verde> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3374766/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Cape_Verde> ;
+	wgs84_pos:lat "16"^^xs:decimal ;
+	wgs84_pos:long "-24"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3378535>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3378535/contains.rdf> ;
+	gn:countryCode "GY"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3378535/co-operative-republic-of-guyana.html> ;
+	gn:name "Guyana"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3378535/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255150> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "748486"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Guyana> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3378535/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Guyana> ;
+	wgs84_pos:lat "5"^^xs:decimal ;
+	wgs84_pos:long "-59"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/337996>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/337996/contains.rdf> ;
+	gn:countryCode "ET"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/337996/federal-democratic-republic-of-ethiopia.html> ;
+	gn:name "Ethiopia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/337996/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11820342> ,
+		<https://sws.geonames.org/11820677> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "88013491"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Ethiopia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/337996/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Ethiopia> ;
+	wgs84_pos:lat "9"^^xs:decimal ;
+	wgs84_pos:long "39.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/338010>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/338010/contains.rdf> ;
+	gn:countryCode "ER"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/338010/state-of-eritrea.html> ;
+	gn:name "Eritrea"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/338010/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11820342> ,
+		<https://sws.geonames.org/11820677> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "5792984"^^xs:integer ;
+	gn:wikipediaArticle
+		<https://ar.wikipedia.org/wiki/%D8%A5%D8%B1%D8%AA%D8%B1%D9%8A%D8%A7> ,
+		<https://en.wikipedia.org/wiki/Eritrea>
+		;
+	rdfs:isDefinedBy <https://sws.geonames.org/338010/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Eritrea> ;
+	wgs84_pos:lat "15"^^xs:decimal ;
+	wgs84_pos:long "39"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3382998>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3382998/contains.rdf> ;
+	gn:countryCode "SR"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3382998/republic-of-suriname.html> ;
+	gn:name "Suriname"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3382998/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255150> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "492829"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Suriname> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3382998/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Suriname> ;
+	wgs84_pos:lat "4"^^xs:decimal ;
+	wgs84_pos:long "-56"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3437598>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3437598/contains.rdf> ;
+	gn:countryCode "PY"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3437598/republic-of-paraguay.html> ;
+	gn:name "Paraguay"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3437598/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812364> ,
+		<https://sws.geonames.org/6255150> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "6375830"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Paraguay> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3437598/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Paraguay> ;
+	wgs84_pos:lat "-23.33333"^^xs:decimal ;
+	wgs84_pos:long "-58"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3439705>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3439705/contains.rdf> ;
+	gn:countryCode "UY"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3439705/oriental-republic-of-uruguay.html> ;
+	gn:name "Uruguay"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3439705/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812364> ,
+		<https://sws.geonames.org/6255150> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "3477000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Uruguay> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3439705/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Uruguay> ;
+	wgs84_pos:lat "-33"^^xs:decimal ;
+	wgs84_pos:long "-56"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3469034>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3469034/contains.rdf> ;
+	gn:countryCode "BR"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3469034/federative-republic-of-brazil.html> ;
+	gn:name "Brazil"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3469034/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812364> ,
+		<https://sws.geonames.org/6255150> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "201103330"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Brazil> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3469034/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Brazil> ;
+	wgs84_pos:lat "-10"^^xs:decimal ;
+	wgs84_pos:long "-55"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3489940>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3489940/contains.rdf> ;
+	gn:countryCode "JM"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3489940/jamaica.html> ;
+	gn:name "Jamaica"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3489940/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/3574469> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "2847232"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Jamaica> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3489940/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Jamaica> ;
+	wgs84_pos:lat "18.16667"^^xs:decimal ;
+	wgs84_pos:long "-77.25"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3508796>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3508796/contains.rdf> ;
+	gn:countryCode "DO"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3508796/dominican-republic.html> ;
+	gn:name "Dominican Republic"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3508796/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/3504558> ,
+		<https://sws.geonames.org/3574469> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "9823821"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Dominican_Republic> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3508796/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Dominican_Republic> ;
+	wgs84_pos:lat "19"^^xs:decimal ;
+	wgs84_pos:long "-70.66667"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3562981>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3562981/contains.rdf> ;
+	gn:countryCode "CU"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3562981/republic-of-cuba.html> ;
+	gn:name "Cuba"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3562981/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/3574469> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "11423000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Cuba> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3562981/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Cuba> ;
+	wgs84_pos:lat "22"^^xs:decimal ;
+	wgs84_pos:long "-79.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3572887>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3572887/contains.rdf> ;
+	gn:countryCode "BS"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3572887/commonwealth-of-the-bahamas.html> ;
+	gn:name "Bahamas"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3572887/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11748972> ,
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891>
+		;
+	gn:population "301790"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/The_Bahamas> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3572887/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/The_Bahamas> ;
+	wgs84_pos:lat "25.04082"^^xs:decimal ;
+	wgs84_pos:long "-77.37122"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3573591>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3573591/contains.rdf> ;
+	gn:countryCode "TT"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3573591/republic-of-trinidad-and-tobago.html> ;
+	gn:name "Trinidad and Tobago"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3573591/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "1328019"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Trinidad_and_Tobago> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3573591/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Trinidad_and_Tobago> ;
+	wgs84_pos:lat "11"^^xs:decimal ;
+	wgs84_pos:long "-61"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3575174>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3575174/contains.rdf> ;
+	gn:countryCode "KN"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3575174/federation-of-saint-kitts-and-nevis.html> ;
+	gn:name "St Kitts and Nevis"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3575174/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/3513538> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891>
+		;
+	gn:population "51134"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3575174/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Saint_Kitts_and_Nevis> ;
+	wgs84_pos:lat "17.33333"^^xs:decimal ;
+	wgs84_pos:long "-62.75"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3575830>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3575830/contains.rdf> ;
+	gn:countryCode "DM"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3575830/dominica.html> ;
+	gn:name "Dominica"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3575830/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/3578263> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891>
+		;
+	gn:population "72813"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Dominica> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3575830/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Dominica> ;
+	wgs84_pos:lat "15.5"^^xs:decimal ;
+	wgs84_pos:long "-61.33333"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3576396>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3576396/contains.rdf> ;
+	gn:countryCode "AG"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3576396/antigua-and-barbuda.html> ;
+	gn:name "Antigua and Barbuda"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3576396/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/3513538> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891>
+		;
+	gn:population "86754"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Antigua_and_Barbuda> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3576396/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Antigua_and_Barbuda> ;
+	wgs84_pos:lat "17.05"^^xs:decimal ;
+	wgs84_pos:long "-61.8"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3576468>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3576468/contains.rdf> ;
+	gn:countryCode "LC"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3576468/saint-lucia.html> ;
+	gn:name "Saint Lucia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3576468/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/3578263> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891>
+		;
+	gn:population "160922"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Saint_Lucia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3576468/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Saint_Lucia> ;
+	wgs84_pos:lat "13.88333"^^xs:decimal ;
+	wgs84_pos:long "-60.96667"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3577279>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3577279/contains.rdf> ;
+	gn:countryCode "AW"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLIX> ;
+	gn:locationMap <https://www.geonames.org/3577279/aruba.html> ;
+	gn:name "Aruba"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3577279/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11749062> ,
+		<https://sws.geonames.org/11749275> ,
+		<https://sws.geonames.org/2750405> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891>
+		;
+	gn:population "71566"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Aruba> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3577279/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Aruba> ;
+	wgs84_pos:lat "12.5"^^xs:decimal ;
+	wgs84_pos:long "-69.96667"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3577815>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3577815/contains.rdf> ;
+	gn:countryCode "VC"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3577815/saint-vincent-and-the-grenadines.html> ;
+	gn:name "St Vincent and Grenadines"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3577815/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/3578263> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891>
+		;
+	gn:population "104217"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3577815/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines> ;
+	wgs84_pos:lat "13.08333"^^xs:decimal ;
+	wgs84_pos:long "-61.2"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3578421>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3578421/contains.rdf> ;
+	gn:countryCode "MF"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLIX> ;
+	gn:locationMap <https://www.geonames.org/3578421/saint-martin.html> ;
+	gn:name "Saint Martin"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3578421/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/3017382> ,
+		<https://sws.geonames.org/3579306> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891>
+		;
+	gn:population "35925"^^xs:integer ;
+	gn:postalCode "97150"@en ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Saint_Martin_(France)> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3578421/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Saint_Martin_%28France%29> ;
+	wgs84_pos:lat "18.06667"^^xs:decimal ;
+	wgs84_pos:long "-63.06667"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3578476>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3578476/contains.rdf> ;
+	gn:countryCode "BL"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLIX> ;
+	gn:locationMap <https://www.geonames.org/3578476/saint-barthelemy.html> ;
+	gn:name "Saint Barthélemy"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3578476/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/3017382> ,
+		<https://sws.geonames.org/3579306> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891>
+		;
+	gn:population "8450"^^xs:integer ;
+	gn:postalCode "97133"@en ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Saint_Barth%C3%A9lemy> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3578476/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Saint_Barth%C3%A9lemy> ;
+	wgs84_pos:lat "17.9"^^xs:decimal ;
+	wgs84_pos:long "-62.8257"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/357994>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/357994/contains.rdf> ;
+	gn:countryCode "EG"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/357994/arab-republic-of-egypt.html> ;
+	gn:name "Egypt"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/357994/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/6269133> ,
+		<https://sws.geonames.org/7729887>
+		;
+	gn:population "80471869"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Egypt> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/357994/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Egypt> ;
+	wgs84_pos:lat "27"^^xs:decimal ;
+	wgs84_pos:long "30"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3580239>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3580239/contains.rdf> ;
+	gn:countryCode "GD"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3580239/grenada.html> ;
+	gn:name "Grenada"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3580239/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/3578263> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891>
+		;
+	gn:population "107818"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Grenada> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3580239/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Grenada> ;
+	wgs84_pos:lat "12.11667"^^xs:decimal ;
+	wgs84_pos:long "-61.66667"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3582678>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3582678/contains.rdf> ;
+	gn:countryCode "BZ"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3582678/belize.html> ;
+	gn:name "Belize"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3582678/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729892> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "314522"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Belize> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3582678/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Belize> ;
+	wgs84_pos:lat "17.25"^^xs:decimal ;
+	wgs84_pos:long "-88.75"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3585968>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3585968/contains.rdf> ;
+	gn:countryCode "SV"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3585968/republic-of-el-salvador.html> ;
+	gn:name "El Salvador"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3585968/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729892> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "6052064"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/El_Salvador> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3585968/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/El_Salvador> ;
+	wgs84_pos:lat "13.83333"^^xs:decimal ;
+	wgs84_pos:long "-88.91667"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3595528>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3595528/contains.rdf> ;
+	gn:countryCode "GT"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3595528/republic-of-guatemala.html> ;
+	gn:name "Guatemala"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3595528/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729892> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "13550440"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Guatemala> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3595528/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Guatemala> ;
+	wgs84_pos:lat "15.5"^^xs:decimal ;
+	wgs84_pos:long "-90.25"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3608932>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3608932/contains.rdf> ;
+	gn:countryCode "HN"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3608932/republic-of-honduras.html> ;
+	gn:name "Honduras"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3608932/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729892> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "7989415"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Honduras> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3608932/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Honduras> ;
+	wgs84_pos:lat "15"^^xs:decimal ;
+	wgs84_pos:long "-86.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3617476>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3617476/contains.rdf> ;
+	gn:countryCode "NI"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3617476/republic-of-nicaragua.html> ;
+	gn:name "Nicaragua"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3617476/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729892> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "5995928"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Nicaragua> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3617476/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Nicaragua> ;
+	wgs84_pos:lat "13"^^xs:decimal ;
+	wgs84_pos:long "-85"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3624060>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3624060/contains.rdf> ;
+	gn:countryCode "CR"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3624060/republic-of-costa-rica.html> ;
+	gn:name "Costa Rica"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3624060/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729892> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "4516220"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Costa_rica> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3624060/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Costa_rica> ;
+	wgs84_pos:lat "10"^^xs:decimal ;
+	wgs84_pos:long "-84"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3625428>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3625428/contains.rdf> ;
+	gn:countryCode "VE"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3625428/bolivarian-republic-of-venezuela.html> ;
+	gn:name "Venezuela"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3625428/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255150> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "27223228"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Venezuela> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3625428/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Venezuela> ;
+	wgs84_pos:lat "8"^^xs:decimal ;
+	wgs84_pos:long "-66"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3658394>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3658394/contains.rdf> ;
+	gn:countryCode "EC"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3658394/republic-of-ecuador.html> ;
+	gn:name "Ecuador"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3658394/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255150> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "14790608"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Ecuador> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3658394/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Ecuador> ;
+	wgs84_pos:lat "-1.25"^^xs:decimal ;
+	wgs84_pos:long "-78.25"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/366755>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/366755/contains.rdf> ;
+	gn:countryCode "SD"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/366755/republic-of-the-sudan.html> ;
+	gn:name "Sudan"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/366755/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729887>
+		;
+	gn:population "35000000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Sudan> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/366755/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Sudan> ;
+	wgs84_pos:lat "16"^^xs:decimal ;
+	wgs84_pos:long "30"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3686110>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3686110/contains.rdf> ;
+	gn:countryCode "CO"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3686110/republic-of-colombia.html> ;
+	gn:name "Colombia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3686110/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255150> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "47790000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Colombia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3686110/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Colombia> ;
+	wgs84_pos:lat "4"^^xs:decimal ;
+	wgs84_pos:long "-73.25"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3703430>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3703430/contains.rdf> ;
+	gn:countryCode "PA"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3703430/republic-of-panama.html> ;
+	gn:name "Panama"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3703430/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729892> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "3410676"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Panama> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3703430/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Panama> ;
+	wgs84_pos:lat "9"^^xs:decimal ;
+	wgs84_pos:long "-80"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3723988>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3723988/contains.rdf> ;
+	gn:countryCode "HT"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3723988/republic-of-haiti.html> ;
+	gn:name "Haiti"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3723988/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/3504558> ,
+		<https://sws.geonames.org/3574469> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "9648924"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Haiti> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3723988/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Haiti> ;
+	wgs84_pos:lat "19.07582"^^xs:decimal ;
+	wgs84_pos:long "-72.29616"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3865483>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3865483/contains.rdf> ;
+	gn:countryCode "AR"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3865483/argentine-republic.html> ;
+	gn:name "Argentina"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3865483/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812364> ,
+		<https://sws.geonames.org/6255150> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "41343201"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Argentina> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3865483/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Argentina> ;
+	wgs84_pos:lat "-34"^^xs:decimal ;
+	wgs84_pos:long "-64"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3895114>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3895114/contains.rdf> ;
+	gn:countryCode "CL"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3895114/republic-of-chile.html> ;
+	gn:name "Chile"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3895114/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255150> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "16746491"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Chile> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3895114/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Chile> ;
+	wgs84_pos:lat "-30"^^xs:decimal ;
+	wgs84_pos:long "-71"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/390903>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/390903/contains.rdf> ;
+	gn:countryCode "GR"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/390903/hellenic-republic.html> ;
+	gn:name "Greece"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/390903/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/9408658>
+		;
+	gn:population "11000000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Greece> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/390903/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Greece> ;
+	wgs84_pos:lat "39"^^xs:decimal ;
+	wgs84_pos:long "22"^^xs:decimal ;
+	foaf:page <http://pleiades.stoa.org/places/1001896> ;
+	.
+
+<https://sws.geonames.org/3923057>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3923057/contains.rdf> ;
+	gn:countryCode "BO"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3923057/plurinational-state-of-bolivia.html> ;
+	gn:name "Bolivia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3923057/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255150> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "9947418"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Bolivia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3923057/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Bolivia> ;
+	wgs84_pos:lat "-17"^^xs:decimal ;
+	wgs84_pos:long "-65"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3932488>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3932488/contains.rdf> ;
+	gn:countryCode "PE"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3932488/republic-of-peru.html> ;
+	gn:name "Peru"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3932488/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255150> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "29907003"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Peru> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3932488/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Peru> ;
+	wgs84_pos:lat "-10"^^xs:decimal ;
+	wgs84_pos:long "-75.25"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/3996063>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/3996063/contains.rdf> ;
+	gn:countryCode "MX"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/3996063/mexico.html> ;
+	gn:name "Mexico"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/3996063/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812362> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729892> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "112468855"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Mexico> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/3996063/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Mexico> ;
+	wgs84_pos:lat "23"^^xs:decimal ;
+	wgs84_pos:long "-102"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/4030945>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/4030945/contains.rdf> ;
+	gn:countryCode "KI"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/4030945/republic-of-kiribati.html> ;
+	gn:name "Kiribati"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/4030945/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255151> ,
+		<https://sws.geonames.org/7729900>
+		;
+	gn:population "92533"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Kiribati> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/4030945/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Kiribati> ;
+	wgs84_pos:lat "1.421"^^xs:decimal ;
+	wgs84_pos:long "172.984"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/4032283>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/4032283/contains.rdf> ;
+	gn:countryCode "TO"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/4032283/kingdom-of-tonga.html> ;
+	gn:name "Tonga"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/4032283/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255151> ,
+		<https://sws.geonames.org/7729901>
+		;
+	gn:population "122580"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Tonga> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/4032283/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Tonga> ;
+	wgs84_pos:lat "-20"^^xs:decimal ;
+	wgs84_pos:long "-175"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/4034894>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/4034894/contains.rdf> ;
+	gn:countryCode "WS"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/4034894/independent-state-of-samoa.html> ;
+	gn:name "Samoa"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/4034894/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255151> ,
+		<https://sws.geonames.org/7729901>
+		;
+	gn:population "192001"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Samoa> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/4034894/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Samoa> ;
+	wgs84_pos:lat "-13.8"^^xs:decimal ;
+	wgs84_pos:long "-172.13333"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/433561>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/433561/contains.rdf> ;
+	gn:countryCode "BI"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/433561/republic-of-burundi.html> ;
+	gn:name "Burundi"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/433561/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "9863117"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Burundi> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/433561/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Burundi> ;
+	wgs84_pos:lat "-3.5"^^xs:decimal ;
+	wgs84_pos:long "30"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/453733>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/453733/contains.rdf> ;
+	gn:countryCode "EE"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/453733/republic-of-estonia.html> ;
+	gn:name "Estonia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/453733/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/7729883>
+		;
+	gn:population "1291170"^^xs:integer ;
+	gn:shortName "Eesti"@et ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Estonia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/453733/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Estonia> ;
+	wgs84_pos:lat "59"^^xs:decimal ;
+	wgs84_pos:long "26"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/458258>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/458258/contains.rdf> ;
+	gn:countryCode "LV"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/458258/republic-of-latvia.html> ;
+	gn:name "Latvia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/458258/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/7729883>
+		;
+	gn:population "2217969"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Latvia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/458258/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Latvia> ;
+	wgs84_pos:lat "57"^^xs:decimal ;
+	wgs84_pos:long "25"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/49518>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/49518/contains.rdf> ;
+	gn:countryCode "RW"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/49518/republic-of-rwanda.html> ;
+	gn:name "Rwanda"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/49518/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "11055976"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Rwanda> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/49518/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Rwanda> ;
+	wgs84_pos:lat "-2"^^xs:decimal ;
+	wgs84_pos:long "30"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/51537>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/51537/contains.rdf> ;
+	gn:countryCode "SO"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/51537/somalia.html> ;
+	gn:name "Somalia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/51537/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11820342> ,
+		<https://sws.geonames.org/11820677> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "10112453"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Somalia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/51537/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Somalia> ;
+	wgs84_pos:lat "6"^^xs:decimal ;
+	wgs84_pos:long "48"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/587116>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/587116/contains.rdf> ;
+	gn:countryCode "AZ"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/587116/republic-of-azerbaijan.html> ;
+	gn:name "Azerbaijan"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/587116/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812265> ,
+		<https://sws.geonames.org/615318> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729897>
+		;
+	gn:population "8303512"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Azerbaijan> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/587116/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Azerbaijan> ;
+	wgs84_pos:lat "40.5"^^xs:decimal ;
+	wgs84_pos:long "47.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/597427>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/597427/contains.rdf> ;
+	gn:countryCode "LT"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/597427/republic-of-lithuania.html> ;
+	gn:name "Lithuania"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/597427/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/7729883>
+		;
+	gn:population "2944459"^^xs:integer ;
+	gn:wikipediaArticle
+		<https://en.wikipedia.org/wiki/Lithuania> ,
+		<https://en.wikipedia.org/wiki/Lithuanian_Soviet_Socialist_Republic_%281918%E2%80%931919%29> ,
+		<https://lt.wikipedia.org/wiki/Lietuva>
+		;
+	rdfs:isDefinedBy <https://sws.geonames.org/597427/about.rdf> ;
+	rdfs:seeAlso
+		<https://dbpedia.org/resource/Lithuania> ,
+		<https://dbpedia.org/resource/Lithuanian_Soviet_Socialist_Republic_%281918%E2%80%931919%29>
+		;
+	wgs84_pos:lat "55.41667"^^xs:decimal ;
+	wgs84_pos:long "24"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/614540>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/614540/contains.rdf> ;
+	gn:countryCode "GE"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/614540/georgia.html> ;
+	gn:name "Georgia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/614540/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/615318> ,
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/7729897>
+		;
+	gn:population "4630000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Georgia_%28country%29> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/614540/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Georgia_%28country%29> ;
+	wgs84_pos:lat "41.99998"^^xs:decimal ;
+	wgs84_pos:long "43.4999"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/617790>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/617790/contains.rdf> ;
+	gn:countryCode "MD"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/617790/republic-of-moldova.html> ;
+	gn:name "Moldova"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/617790/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812265> ,
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/7729884>
+		;
+	gn:population "4324000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Moldova> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/617790/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Moldova> ;
+	wgs84_pos:lat "47.25"^^xs:decimal ;
+	wgs84_pos:long "28.58333"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/6251999>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/6251999/contains.rdf> ;
+	gn:countryCode "CA"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/6251999/canada.html> ;
+	gn:name "Canada"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/6251999/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/10861432> ,
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/11812362> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729890>
+		;
+	gn:population "33679000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Canada> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/6251999/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Canada> ;
+	wgs84_pos:lat "60.10867"^^xs:decimal ;
+	wgs84_pos:long "-113.64258"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/6252001>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/6252001/contains.rdf> ;
+	gn:countryCode "US"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/6252001/united-states.html> ;
+	gn:name "United States"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/6252001/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/10861432> ,
+		<https://sws.geonames.org/11812362> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729890>
+		;
+	gn:population "310232863"^^xs:integer ;
+	gn:wikipediaArticle
+		<https://de.wikipedia.org/wiki/Vereinigte_Staaten> ,
+		<https://en.wikipedia.org/wiki/United_States> ,
+		<https://it.wikipedia.org/wiki/Stati_Uniti_d%27America> ,
+		<https://no.wikipedia.org/wiki/USA> ,
+		<https://tr.wikipedia.org/wiki/Amerika_Birle%C5%9Fik_Devletleri>
+		;
+	rdfs:isDefinedBy <https://sws.geonames.org/6252001/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/United_States> ;
+	wgs84_pos:lat "39.76"^^xs:decimal ;
+	wgs84_pos:long "-98.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/6290252>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/6290252/contains.rdf> ;
+	gn:countryCode "RS"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/6290252/serbia.html> ;
+	gn:name "Serbia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/6290252/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/9408658>
+		;
+	gn:population "7344847"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Serbia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/6290252/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Serbia> ;
+	wgs84_pos:lat "44.81892"^^xs:decimal ;
+	wgs84_pos:long "20.45998"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/630336>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/630336/contains.rdf> ;
+	gn:countryCode "BY"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/630336/republic-of-belarus.html> ;
+	gn:name "Belarus"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/630336/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812265> ,
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/7729884>
+		;
+	gn:population "9685000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Belarus> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/630336/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Belarus> ;
+	wgs84_pos:lat "53"^^xs:decimal ;
+	wgs84_pos:long "28"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/660013>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/660013/contains.rdf> ;
+	gn:countryCode "FI"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/660013/republic-of-finland.html> ;
+	gn:name "Finland"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/660013/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/2616167> ,
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/7729883>
+		;
+	gn:population "5244000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Finland> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/660013/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Finland> ;
+	wgs84_pos:lat "64"^^xs:decimal ;
+	wgs84_pos:long "26"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/690791>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/690791/contains.rdf> ;
+	gn:countryCode "UA"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/690791/ukraine.html> ;
+	gn:name "Ukraine"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/690791/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/7729884>
+		;
+	gn:population "45415596"^^xs:integer ;
+	gn:wikipediaArticle
+		<https://en.wikipedia.org/wiki/Ukraine> ,
+		<https://en.wikipedia.org/wiki/Ukrainian_Soviet_Socialist_Republic> ,
+		<https://uk.wikipedia.org/wiki/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0>
+		;
+	rdfs:isDefinedBy <https://sws.geonames.org/690791/about.rdf> ;
+	rdfs:seeAlso
+		<https://dbpedia.org/resource/Ukraine> ,
+		<https://dbpedia.org/resource/Ukrainian_Soviet_Socialist_Republic>
+		;
+	wgs84_pos:lat "49"^^xs:decimal ;
+	wgs84_pos:long "32"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/69543>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/69543/contains.rdf> ;
+	gn:countryCode "YE"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/69543/republic-of-yemen.html> ;
+	gn:name "Yemen"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/69543/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/6269133> ,
+		<https://sws.geonames.org/6957698> ,
+		<https://sws.geonames.org/7729897>
+		;
+	gn:population "23495361"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Yemen> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/69543/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Yemen> ;
+	wgs84_pos:lat "15.5"^^xs:decimal ;
+	wgs84_pos:long "47.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/718075>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/718075/contains.rdf> ;
+	gn:countryCode "MK"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/718075/north-macedonia.html> ;
+	gn:name "North Macedonia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/718075/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/685608> ,
+		<https://sws.geonames.org/9408658>
+		;
+	gn:population "2062294"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/North_Macedonia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/718075/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/North_Macedonia> ;
+	wgs84_pos:lat "41.66667"^^xs:decimal ;
+	wgs84_pos:long "21.75"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/719819>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/719819/contains.rdf> ;
+	gn:countryCode "HU"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/719819/hungary.html> ;
+	gn:name "Hungary"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/719819/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/7729884>
+		;
+	gn:population "9982000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Hungary> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/719819/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Hungary> ;
+	wgs84_pos:lat "47"^^xs:decimal ;
+	wgs84_pos:long "20"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/732800>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/732800/contains.rdf> ;
+	gn:countryCode "BG"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/732800/republic-of-bulgaria.html> ;
+	gn:name "Bulgaria"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/732800/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/685608> ,
+		<https://sws.geonames.org/7729884>
+		;
+	gn:population "7000039"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Bulgaria> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/732800/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Bulgaria> ;
+	wgs84_pos:lat "42.66667"^^xs:decimal ;
+	wgs84_pos:long "25.25"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/7609695>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/7609695/contains.rdf> ;
+	gn:countryCode "SX"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLIX> ;
+	gn:locationMap <https://www.geonames.org/7609695/sint-maarten.html> ;
+	gn:name "Sint Maarten"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/7609695/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/2750405> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "37429"^^xs:integer ;
+	gn:shortName
+		"San Martín"@es ,
+		"São Martinho"@pt
+		;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Sint_Maarten> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/7609695/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Sint_Maarten> ;
+	wgs84_pos:lat "18.04167"^^xs:decimal ;
+	wgs84_pos:long "-63.06667"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/7626836>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/7626836/contains.rdf> ;
+	gn:countryCode "CW"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLIX> ;
+	gn:locationMap <https://www.geonames.org/7626836/country-of-curacao.html> ;
+	gn:name "Curaçao"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/7626836/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11749062> ,
+		<https://sws.geonames.org/11749275> ,
+		<https://sws.geonames.org/2750405> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891>
+		;
+	gn:population "141766"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Cura%C3%A7ao> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/7626836/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Cura%C3%A7ao> ;
+	wgs84_pos:lat "12.16667"^^xs:decimal ;
+	wgs84_pos:long "-68.96667"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/7626844>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/7626844/contains.rdf> ;
+	gn:countryCode "BQ"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLIX> ;
+	gn:locationMap <https://www.geonames.org/7626844/bonaire-saint-eustatius-and-saba.html> ;
+	gn:name "Bonaire, Sint Eustatius, and Saba"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/7626844/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/2750405> ,
+		<https://sws.geonames.org/6255149> ,
+		<https://sws.geonames.org/7729891> ,
+		<https://sws.geonames.org/7730009>
+		;
+	gn:population "18012"^^xs:integer ;
+	gn:wikipediaArticle
+		<https://en.wikipedia.org/wiki/Caribbean_Netherlands> ,
+		<https://nl.wikipedia.org/wiki/Caribisch_Nederland>
+		;
+	rdfs:isDefinedBy <https://sws.geonames.org/7626844/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Caribbean_Netherlands> ;
+	wgs84_pos:lat "12.21286"^^xs:decimal ;
+	wgs84_pos:long "-68.29445"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/783754>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/783754/contains.rdf> ;
+	gn:countryCode "AL"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/783754/republic-of-albania.html> ;
+	gn:name "Albania"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/783754/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/685608> ,
+		<https://sws.geonames.org/9408658>
+		;
+	gn:population "2986952"^^xs:integer ;
+	gn:shortName "Shqipëria"@sq ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Albania> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/783754/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Albania> ;
+	wgs84_pos:lat "41"^^xs:decimal ;
+	wgs84_pos:long "20"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/7909807>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/7909807/contains.rdf> ;
+	gn:countryCode "SS"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/7909807/south-sudan.html> ;
+	gn:name "South Sudan"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/7909807/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "8260490"^^xs:integer ;
+	gn:wikipediaArticle
+		<https://ar.wikipedia.org/wiki/%D8%AC%D9%86%D9%88%D8%A8_%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86> ,
+		<https://en.wikipedia.org/wiki/South_Sudan>
+		;
+	rdfs:isDefinedBy <https://sws.geonames.org/7909807/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/South_Sudan> ;
+	wgs84_pos:lat "7.5"^^xs:decimal ;
+	wgs84_pos:long "30"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/798544>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/798544/contains.rdf> ;
+	gn:countryCode "PL"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/798544/republic-of-poland.html> ;
+	gn:name "Poland"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/798544/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/7729884>
+		;
+	gn:population "38500000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Poland> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/798544/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Poland> ;
+	wgs84_pos:lat "52"^^xs:decimal ;
+	wgs84_pos:long "20"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/798549>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/798549/contains.rdf> ;
+	gn:countryCode "RO"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/798549/romania.html> ;
+	gn:name "Romania"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/798549/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/6695072> ,
+		<https://sws.geonames.org/7729884>
+		;
+	gn:population "21959278"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Romania> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/798549/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Romania> ;
+	wgs84_pos:lat "46"^^xs:decimal ;
+	wgs84_pos:long "25"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/831053>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/831053/contains.rdf> ;
+	gn:countryCode "XK"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/831053/republic-of-kosovo.html> ;
+	gn:name "Kosovo"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/831053/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255148> ,
+		<https://sws.geonames.org/685608>
+		;
+	gn:population "1800000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Kosovo> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/831053/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Kosovo> ;
+	wgs84_pos:lat "42.58333"^^xs:decimal ;
+	wgs84_pos:long "20.91667"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/878675>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/878675/contains.rdf> ;
+	gn:countryCode "ZW"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/878675/republic-of-zimbabwe.html> ;
+	gn:name "Zimbabwe"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/878675/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "13061000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Zimbabwe> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/878675/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Zimbabwe> ;
+	wgs84_pos:lat "-19"^^xs:decimal ;
+	wgs84_pos:long "29.75"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/895949>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/895949/contains.rdf> ;
+	gn:countryCode "ZM"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/895949/republic-of-zambia.html> ;
+	gn:name "Zambia"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/895949/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "13460305"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Zambia> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/895949/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Zambia> ;
+	wgs84_pos:lat "-14.33333"^^xs:decimal ;
+	wgs84_pos:long "28.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/921929>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/921929/contains.rdf> ;
+	gn:countryCode "KM"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/921929/union-of-the-comoros.html> ;
+	gn:name "Comoros"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/921929/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "773407"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Comoros> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/921929/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Comoros> ;
+	wgs84_pos:lat "-12.23333"^^xs:decimal ;
+	wgs84_pos:long "44.44553"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/927384>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/927384/contains.rdf> ;
+	gn:countryCode "MW"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/927384/republic-of-malawi.html> ;
+	gn:name "Malawi"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/927384/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "17563749"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Malawi> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/927384/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Malawi> ;
+	wgs84_pos:lat "-13.5"^^xs:decimal ;
+	wgs84_pos:long "34"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/932692>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/932692/contains.rdf> ;
+	gn:countryCode "LS"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/932692/kingdom-of-lesotho.html> ;
+	gn:name "Lesotho"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/932692/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/9406051>
+		;
+	gn:population "1919552"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Lesotho> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/932692/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Lesotho> ;
+	wgs84_pos:lat "-29.5"^^xs:decimal ;
+	wgs84_pos:long "28.25"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/933860>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/933860/contains.rdf> ;
+	gn:countryCode "BW"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/933860/republic-of-botswana.html> ;
+	gn:name "Botswana"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/933860/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/9406051>
+		;
+	gn:population "2029307"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Botswana> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/933860/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Botswana> ;
+	wgs84_pos:lat "-22"^^xs:decimal ;
+	wgs84_pos:long "24"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/934292>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/934292/contains.rdf> ;
+	gn:countryCode "MU"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/934292/republic-of-mauritius.html> ;
+	gn:name "Mauritius"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/934292/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/7729889>
+		;
+	gn:population "1294104"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Mauritius> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/934292/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Mauritius> ;
+	wgs84_pos:lat "-20.3"^^xs:decimal ;
+	wgs84_pos:long "57.58333"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/934841>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/934841/contains.rdf> ;
+	gn:countryCode "SZ"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/934841/eswatini.html> ;
+	gn:name "Eswatini"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/934841/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/9406051>
+		;
+	gn:population "1354051"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/Eswatini> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/934841/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/Eswatini> ;
+	wgs84_pos:lat "-26.5"^^xs:decimal ;
+	wgs84_pos:long "31.5"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/953987>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/953987/contains.rdf> ;
+	gn:countryCode "ZA"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/953987/republic-of-south-africa.html> ;
+	gn:name "South Africa"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/953987/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/11812257> ,
+		<https://sws.geonames.org/6255146> ,
+		<https://sws.geonames.org/9406051>
+		;
+	gn:population "49000000"^^xs:integer ;
+	gn:wikipediaArticle <https://en.wikipedia.org/wiki/South_Africa> ;
+	rdfs:isDefinedBy <https://sws.geonames.org/953987/about.rdf> ;
+	rdfs:seeAlso <https://dbpedia.org/resource/South_Africa> ;
+	wgs84_pos:lat "-29"^^xs:decimal ;
+	wgs84_pos:long "24"^^xs:decimal ;
+	.
+
+<https://sws.geonames.org/99237>
+	a gn:Feature ;
+	gn:childrenFeatures <https://sws.geonames.org/99237/contains.rdf> ;
+	gn:countryCode "IQ"@en ;
+	gn:featureClass <https://www.geonames.org/ontology#A> ;
+	gn:featureCode <https://www.geonames.org/ontology#A.PCLI> ;
+	gn:locationMap <https://www.geonames.org/99237/republic-of-iraq.html> ;
+	gn:name "Iraq"@en ;
+	gn:neighbouringFeatures <https://sws.geonames.org/99237/neighbours.rdf> ;
+	gn:parentFeature
+		<https://sws.geonames.org/6255147> ,
+		<https://sws.geonames.org/6269133> ,
+		<https://sws.geonames.org/7729897>
+		;
+	gn:population "29671605"^^xs:integer ;
+	gn:wikipediaArticle
+		<https://en.wikipedia.org/wiki/Iraq> ,
+		<https://en.wikipedia.org/wiki/Mesopotamia>
+		;
+	rdfs:isDefinedBy <https://sws.geonames.org/99237/about.rdf> ;
+	rdfs:seeAlso
+		<https://dbpedia.org/resource/Iraq> ,
+		<https://dbpedia.org/resource/Mesopotamia>
+		;
+	wgs84_pos:lat "33"^^xs:decimal ;
+	wgs84_pos:long "44"^^xs:decimal ;
+	.
+

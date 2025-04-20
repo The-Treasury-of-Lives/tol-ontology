@@ -1,0 +1,352 @@
+# imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
+# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-image: <https://www.iana.org/assignments/media-types/image/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/treasuryoflives/taxonomy/tolRoles>
+	a owl:Ontology ;
+	owl:imports
+		<https://w3id.org/semanticarts/ontology/gistCore13.0.0> ,
+		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
+		;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolRolesX.x.x> ;
+	skos:definition "A role, office, or vocation played by a person, typically, though not always, in an institutional context. Generally role assignments are man-made, other than the ruler role, which is inherited."@en ;
+	skos:editorialNote "Generated via TARQL."@en ;
+	skos:prefLabel "Treasury of Lives Roles"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+	.
+
+tolx:_Role_artist
+	a tolo:Role ;
+	owl:sameAs wiki:Q483501 ;
+	skos:definition "The category of Artist includes biographies of people who were engaged in the production of visual art, either as their primary activity or in addition to other other social roles they held. This includes religious art as well as secular art, both painting and sculpture."@en ;
+	skos:prefLabel
+		"Artist"@en ,
+		"sgyu rtsal pa"@bo-x-ewts ,
+		"སྒྱུ་རྩལ་པ།"@bo ,
+		"艺术家"@zh-Hani
+		;
+	.
+
+tolx:_Role_dapon
+	a tolo:Role ;
+	owl:sameAs
+		bdr:R34 ,
+		wiki:Q83460
+		;
+	skos:altLabel "General"@en ;
+	skos:definition "Dapon is an army officer in charge of a Da (mda', literally 'arrow' or 'archer') or cohort of 500 soldiers. In the Tibetan military system, a Dapon ranks immediately below the Makchi (dmag spyi, 'commander-in-chief'), the highest officer of the military force, and is senior to a Rupon (ru dpon, 'commander of ru'). The Tibetan army rank of Dapon is loosely equivalent to 'brigadier general' or 'colonel.'"@en ;
+	skos:prefLabel
+		"Dapon"@en ,
+		"mda' dpon"@bo-x-ewts ,
+		"མདའ་དཔོན།"@bo ,
+		"將軍"@zh-Hani
+		;
+	gist:hasDirectBroader tolx:_Role_military ;
+	.
+
+tolx:_Role_delok
+	a tolo:Role ;
+	skos:definition "Delok are people, usually women, who tell the story of dying and returning to life with moral teachings for their communities. "@en ;
+	skos:prefLabel
+		"Delok"@en ,
+		"das log"@bo-x-ewts ,
+		"འདས་ལོག།"@bo
+		;
+	.
+
+tolx:_Role_desi
+	a tolo:Role ;
+	owl:sameAs
+		bdr:R36 ,
+		wiki:Q477406
+		;
+	skos:altLabel "Regent"@en ;
+	skos:definition "The Desi, or Regent, was ostensibly responsible for the operation of the Ganden Podrang government while the Dalai Lama was in infancy. The term Depa (sde pa) is also used to refer to Regents of the Ganden Podrang."@en ;
+	skos:prefLabel
+		"Desi"@en ,
+		"sde srid"@bo-x-ewts ,
+		"སྡེ་སྲིད།"@bo ,
+		"留守"@zh-Hani
+		;
+	gist:hasDirectBroader tolx:_Role_government_officer ;
+	.
+
+tolx:_Role_doctor
+	a tolo:Role ;
+	owl:sameAs wiki:Q39631 ;
+	skos:definition "The category of doctors in the Treasury of Lives includes individuals who received medical training and practiced the healing arts, in a fashion appropriate for their time, and who self-identified or are described in the historical literature as medical practitioners."@en ;
+	skos:prefLabel
+		"Doctor"@en ,
+		"sman pa"@bo-x-ewts ,
+		"སྨན་པ།"@bo ,
+		"医生"@zh-Hani
+		;
+	.
+
+tolx:_Role_dome_chikyab
+	a tolo:Role ;
+	owl:sameAs bdr:T2494 ;
+	skos:definition "Governor of Kham was a position based in Kham that was appointed by the Tibetan government and usually filled by a cabinet minister."@en ;
+	skos:prefLabel
+		"Dome Chikyab"@en ,
+		"mdo smad spyi khyab"@bo-x-ewts ,
+		"མདོ་སྨད་སྤྱི་ཁྱབ།"@bo
+		;
+	gist:hasDirectBroader tolx:_Role_government_officer ;
+	.
+
+tolx:_Role_government_officer
+	a tolo:Role ;
+	owl:sameAs wiki:Q2824534 ;
+	skos:definition "A government official is considered any person who served, in an official capacity, in a national or regional government office. This includes those who were born into the position, in the case of an aristocrat. In the Himalayan or Mongolian context a government official might be either lay or cleric. The majority of biographies of government officials on the Treasury of Lives are of those connected to the Tibetan government, the Ganden Podrang. The officials were called zhungzhab. They were divided into an ecclesiastical branch whose members were called tsedrung and a lay branch, whose members were called drungkhor. The tsedrung were monks officials recruited from all levels of society, whereas the drungkhor were recruited almost exclusively from the aristocracy. Altogether there were around 175 tsedrung and 175 drungkhor. There were seven ranks of officials within the Ganden Podrang government with the Dalai Lama holding the first rank. The ministers held the third rank, most of the higher officials belonged to the fourth rank, and new entrants into the bureaucracy worked their way up to the seventh rank."@en ;
+	skos:prefLabel
+		"Government Officer"@en ,
+		"gzhung zhabs"@bo-x-ewts ,
+		"གཞུང་ཞབས།"@bo ,
+		"政府行政官員"@zh-Hani
+		;
+	.
+
+tolx:_Role_governor
+	a tolo:Role ;
+	skos:altLabel "Dzongpon"@en ;
+	skos:definition "Dzongpon is a head of a region administered by the traditional Tibetan government."@en ;
+	skos:prefLabel
+		"Governor"@en ,
+		"rdzong dpon"@bo-x-ewts ,
+		"རྫོང་དཔོན།"@bo
+		;
+	gist:hasDirectBroader tolx:_Role_government_officer ;
+	.
+
+tolx:_Role_indian_master
+	a tolo:Role ;
+	skos:definition 'In the category of Indian Masters we include all men and women from Bengal, Kashmir, the Ganges Plain, and other regions of the subcontinent that Tibetans considered "India."'@en ;
+	skos:prefLabel "Indian Master"@en ;
+	.
+
+tolx:_Role_je_khenpo
+	a tolo:Role ;
+	owl:sameAs
+		bdr:R3AG22 ,
+		wiki:Q1684571
+		;
+	skos:definition "The Je Khenpo is the seniormost religious authority of Bhutan, responsible for the Zhung Dratshang or Central Monastic Body. Under the Je Khenpo are Five Senior Lopens or Lopen Lhengye. Out of the Five Senior Lopens, Dorji Lopen is the seniormost and is the representative of the Je Khenpo. The Je Khenpo is also the head of the Dratshang Lhentshog or The Commission of Monastic Affairs, which is a government body that oversees the administrative management of the Zhung Dratshang or Central Monastic Body. They are appointed to their positions and are responsible for overseeing monastic education, managing religious institutions, acting in an advisory position to the leader of the country, and conducting rituals necessary for the protection and perpetuation of the Bhutanese state. Since the First Je Khenpo, Pekar Jungne, seventy Je Khenpo have served Bhutan. The current Je Khenpo, Jigme Chodra, has held this post since 1996."@en ;
+	skos:prefLabel
+		"Je Khenpo"@en ,
+		"rje mkkhan po"@bo-x-ewts ,
+		"རྗེ་མཀཁན་པོ།"@bo ,
+		"基堪布"@zh-Hani
+		;
+	gist:hasDirectBroader tolx:_Role_monastery_head ;
+	.
+
+tolx:_Role_kalon
+	a tolo:Role ;
+	owl:sameAs
+		bdr:R45 ,
+		wiki:Q10924321
+		;
+	skos:altLabel "Cabinet Minister"@en ;
+	skos:definition "Kalon is a title for a minister of the Tibetan government."@en ;
+	skos:prefLabel
+		"Kalon"@en ,
+		"bka' blon"@bo-x-ewts ,
+		"བཀའ་བློན།"@bo ,
+		"噶倫"@zh-Hani
+		;
+	gist:hasDirectBroader tolx:_Role_government_officer ;
+	.
+
+tolx:_Role_lay_administrator
+	a tolo:Role ;
+	skos:definition "The Monastic Administrator role encompasses laypeople assigned by the ruling houses of monastic estates to run the civil affairs of the territory. Examples include the Gompo of Drigung Monastery and the Ponchen of Sakya or Pakmodru."@en ;
+	skos:prefLabel
+		"Lay Administrator"@en ,
+		"sgom pa"@bo-x-ewts ,
+		"སྒོམ་པ།"@bo
+		;
+	gist:hasDirectBroader tolx:_Role_monastic_officer ;
+	.
+
+tolx:_Role_makchi
+	a tolo:Role ;
+	owl:sameAs
+		bdr:R2 ,
+		wiki:Q11545923
+		;
+	skos:altLabel "Commander"@en ;
+	skos:definition "Makchi, also known as Sungmak Chikhyab (srung dmag spyi khyab), meaning chief commander, was the highest office in the Tibetan military before 1959. It is also used to denote commanders of Chushi Gangdruk regiments."@en ;
+	skos:prefLabel
+		"Makchi"@en ,
+		"dmag spyi"@bo-x-ewts ,
+		"དམག་སྤྱི།"@bo ,
+		"武将"@zh-Hani
+		;
+	gist:hasDirectBroader tolx:_Role_military ;
+	.
+
+tolx:_Role_military
+	a tolo:Role ;
+	skos:definition "The category comprises Tibetan military officials belonging to any formal national army. These can include the national army of the Tibetan Ganden Podrang government (1642-1959), or the Bhutanese government, or the Indian government, including the army of the British Raj as well as Unit 22 of the modern Indian army."@en ;
+	skos:prefLabel
+		"Military"@en ,
+		"dmag mi"@bo-x-ewts ,
+		"དམག་མི།"@bo ,
+		"軍官"@zh-Hani
+		;
+	gist:hasDirectBroader tolx:_Role_government_officer ;
+	.
+
+tolx:_Role_monastery_head
+	a tolo:Role ;
+	skos:definition "The category of monastery head comprises the leaders of monasteries and associated colleges. The position usually comes with seniority and accomplishment, and heads generally possess Geshe degrees or the highest equivalent in their tradition. Tripa, Tridzin, Khenpo, Khenchen are all different terms for abbot."@en ;
+	skos:prefLabel "Monastery Head"@en ;
+	gist:hasDirectBroader tolx:_Role_monastic_officer ;
+	.
+
+tolx:_Role_monastic_officer
+	a tolo:Role ;
+	skos:definition "The category of monastic officers includes all formal roles within a religious institution such as a monastery, monastic college, or tantric encampment, from the head of the organization to roles such as disciplinarian. "@en ;
+	skos:prefLabel "Monastic Officer"@en ;
+	.
+
+tolx:_Role_neshan
+	a tolo:Role ;
+	owl:sameAs wiki:Q2514216 ;
+	skos:altLabel "Liaison"@en ;
+	skos:definition "Neshan is an official guide or liaison of the Tibetan government."@en ;
+	skos:prefLabel
+		"Neshan"@en ,
+		"sne shan"@bo-x-ewts ,
+		"སྣེ་ཤན།"@bo ,
+		"聯絡官"@zh-Hani
+		;
+	gist:hasDirectBroader tolx:_Role_government_officer ;
+	.
+
+tolx:_Role_personal_physician
+	a tolo:Role ;
+	owl:sameAs
+		bdr:R37 ,
+		wiki:Q1251349
+		;
+	skos:definition "Kuchar Lamen served as court physicians or as private doctors to important figures such as the Dalai Lamas. "@en ;
+	skos:prefLabel
+		"Personal Physician"@en ,
+		"sku bcar bla sman"@bo-x-ewts ,
+		"སྐུ་བཅར་བླ་སྨན།"@bo
+		;
+	gist:hasDirectBroader tolx:_Role_doctor ;
+	.
+
+tolx:_Role_rimzhi
+	a tolo:Role ;
+	skos:definition "Rimshi is a fourth level official of the Ganden Podrang government, sometimes translated as secretary."@en ;
+	skos:prefLabel
+		"Rimzhi"@en ,
+		"rim bzhi"@bo-x-ewts ,
+		"རིམ་བཞི།"@bo
+		;
+	gist:hasDirectBroader tolx:_Role_government_officer ;
+	.
+
+tolx:_Role_ruler
+	a tolo:Role ;
+	owl:sameAs
+		bdr:R44 ,
+		wiki:Q1097498
+		;
+	skos:definition "Rulers are members of families that controlled empires and kingdoms as well as principalities, and specifically as individuals who are identified by titles such as king, queen, prince and so forth. The Pugyel dynasty, also known as the Tibetan Yarlung dynasty, was the imperial royal family that ruled Tibet from the 7th to 9th centuries. After the break-up of the empire, descendants of the Pugyel kings ruled in Guge, western Tibet. For a period of three hundred years until the Ganden Podrang government was established in 1642, the Pakmodru, Rinpung and Tsang hegemonies ruled central Tibet. Outside of the central Tibetan region, there were royal houses that ruled over separate kingdoms. In Amdo, the house of Tsongkha ruled an extremely powerful kingdom, and the house of Gatsang ruled the Chone kingdom. In Kham, there were the kingdoms or principalities of Derge, Nangchen, Chakla and Lingtsang, whose kings balanced relations with both Beijing and Lhasa. Some of these royal houses trace their ancestry back to the early Pugyel period, such as the House of Derge, which traces its ancestry to Gar Tongsten, the renowned minister of the Pugyel kings. The House of Ling claims descent from the legendary King Gesar of Ling. Elsewhere in the Himalayan region were the neighboring kingdoms of Mustang (later subsumed into Nepal), Sikkim and Ladakh (later subsumed into India), and Bhutan. The Kings of Mustang claim divine descent from a celestial ancestor named Ode Gunggyel. The Namgyel dynasty of Sikkim traced its origins to the Ao Dong clan, which probably came from the northeast of Tibet. The Bhutanese dynasty of the Wangchuck house was established in 1907 by an assembly that elected Ugyen Wangchuck to be the first King of Bhutan."@en ;
+	skos:prefLabel
+		"Ruler"@en ,
+		"rgyal po"@bo-x-ewts ,
+		"རྒྱལ་པོ།"@bo
+		;
+	.
+
+tolx:_Role_rupon
+	a tolo:Role ;
+	skos:definition "Rupon were military officers in charge of a regiment of approximately 250 soldiers. They ranked below Dapon (mda' dpon), who led regiments of approximately 500 men, and above Gyapon (brgya dpon), who led regiments of approximately 100 troops."@en ;
+	skos:prefLabel
+		"Rupon"@en ,
+		"ru dpon"@bo-x-ewts ,
+		"རུ་དཔོན།"@bo
+		;
+	gist:hasDirectBroader tolx:_Role_military ;
+	.
+
+tolx:_Role_translator
+	a tolo:Role ;
+	owl:sameAs wiki:Q1540389 ;
+	skos:definition "The category of Translators includes any historical person who engaged in the translation of texts. Generally, these figures are credited with having worked from an Indic language such as Sanskrit or Bengali source materials and translated into Tibetan. There are examples of translators who worked from Chinese, Mongolian, or other Central or East Asian languages."@en ;
+	skos:prefLabel
+		"Translator"@en ,
+		"lo tsA ba"@bo-x-ewts ,
+		"ལོ་ཙཱ་བ།"@bo ,
+		"譯師"@zh-Hani
+		;
+	.
+
+tolx:_Role_treasure_revealer
+	a tolo:Role ;
+	owl:sameAs wiki:Q2493637 ;
+	skos:definition "Treasure Revealers (gter ston) are men and women who have produced scripture or objects known as treasure (gter ma) through visionary experience, memory, or physical extraction. Generally these treasures are said to have been concealed by an earlier historical figure, with the intention that they would be recovered for use by future generations. Although most common in the Nyingma and Bon traditions, there have been treasure revealers in all traditions of Tibetan religion."@en ;
+	skos:prefLabel
+		"Treasure Revealer"@en ,
+		"gter ston"@bo-x-ewts ,
+		"གཏེར་སྟོན།"@bo ,
+		"伏藏师"@zh-Hani
+		;
+	.
+
+tolx:_Role_treasurer
+	a tolo:Role ;
+	owl:sameAs wiki:Q388338 ;
+	skos:definition "The chandzo, or treasurer of a monastery or monastic estate, manages internal and external financial matters. Sometimes translated as bursar."@en ;
+	skos:prefLabel
+		"Treasurer"@en ,
+		"phyag mdzod"@bo-x-ewts ,
+		"ཕྱག་མཛོད།"@bo
+		;
+	gist:hasDirectBroader tolx:_Role_monastic_officer ;
+	.
+
+tolx:_Role_tsedrung
+	a tolo:Role ;
+	skos:altLabel "Monk Official"@en ;
+	skos:definition "Tsedrung were monk officials of the Tibetan Government. These were individuals from all levels of Tibetan society. The office was primarily located in the Potala Palace, shifting to Norbulingka in the summer."@en ;
+	skos:prefLabel
+		"Tsedrung"@en ,
+		"rtse drung"@bo-x-ewts ,
+		"རྩེ་དྲུང་།"@bo
+		;
+	gist:hasDirectBroader tolx:_Role_government_officer ;
+	.
+
+tolx:_Role_tutor
+	a tolo:Role ;
+	owl:sameAs wiki:Q901222 ;
+	skos:definition "A tutor is a person who serves in a formal role as instructor to a high lama such as the Dalai Lamas."@en ;
+	skos:prefLabel
+		"Tutor"@en ,
+		"yongs 'dzin"@bo-x-ewts ,
+		"ཡོངས་འཛིན།"@bo
+		;
+	.
+

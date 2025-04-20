@@ -1,0 +1,67 @@
+# imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
+# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr: <http://purl.bdrc.io/resource/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix media-image: <https://www.iana.org/assignments/media-types/image/> .
+@prefix media-txt: <https://www.iana.org/assignments/media-types/text/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/treasuryoflives/taxonomy/tolMappingPriorities>
+	a owl:Ontology ;
+	owl:imports
+		<https://w3id.org/semanticarts/ontology/gistCore13.0.0> ,
+		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
+		;
+	owl:versionIRI <https://w3id.org/treasuryoflives/taxonomy/tolMappingPrioritiesX.x.x> ;
+	skos:definition "Defines mapping priorities for displaying places on maps."@en ;
+	skos:editorialNote "Hand-curated."@en ;
+	skos:prefLabel "Mapping Priorities"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+	.
+
+tolx:_MappingPriority_1
+	a tolo:MappingPriority ;
+	skos:prefLabel "Highest"@en ;
+	gist:sequence "1"^^xsd:integer ;
+	tolo:minZoomLevel "7"^^xsd:integer ;
+	.
+
+tolx:_MappingPriority_2
+	a tolo:MappingPriority ;
+	skos:prefLabel "Medium"@en ;
+	gist:sequence "2"^^xsd:integer ;
+	tolo:minZoomLevel "12"^^xsd:integer ;
+	.
+
+tolx:_MappingPriority_3
+	a tolo:MappingPriority ;
+	skos:prefLabel "Low"@en ;
+	gist:sequence "3"^^xsd:integer ;
+	tolo:minZoomLevel "15"^^xsd:integer ;
+	.
+
+tolx:_MappingPriority_4
+	a tolo:MappingPriority ;
+	skos:prefLabel "Lower"@en ;
+	gist:sequence "4"^^xsd:integer ;
+	tolo:minZoomLevel "20"^^xsd:integer ;
+	.
+
+tolx:_MappingPriority_5
+	a tolo:MappingPriority ;
+	skos:prefLabel "Lower still"@en ;
+	gist:sequence "5"^^xsd:integer ;
+	tolo:minZoomLevel "25"^^xsd:integer ;
+	.
+
