@@ -1,3 +1,4 @@
+# imports: http://purl.bdrc.io/ontology/core
 # imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
@@ -14,12 +15,12 @@
 
 <https://w3id.org/treasuryoflives/ontology/tolFamilyRelationshipsX.x.x>
 	a owl:Ontology ;
-	owl:imports <https://w3id.org/semanticarts/ontology/gistCore13.0.0> ;
+	owl:imports
+		<http://purl.bdrc.io/ontology/core> ,
+		<https://w3id.org/semanticarts/ontology/gistCore13.0.0>
+		;
 	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolFamilyRelationshipsX.x.x> ;
 	skos:definition "Nuanced family relationships that are not currently used."@en ;
-	skos:editorialNote """
-		Temporarily removing imports:
-			<http://purl.bdrc.io/ontology/core> to make Protege easier to read."""@en ;
 	skos:prefLabel "Treasury of Lives Family Relationships Ontology"@en ;
 	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.

@@ -7,6 +7,10 @@
 @prefix wiki: <https://www.wikidata.org/wiki/> .
 @prefix xs: <http://www.w3.org/2001/XMLSchema#> .
 
+tolo:ArtCollection
+	rdfs:subClassOf gist:Collection ;
+	.
+
 tolo:Author
 	rdfs:subClassOf gist:Person ;
 	.
@@ -25,10 +29,6 @@ tolo:Biography
 
 tolo:Birth
 	rdfs:subClassOf gist:PhysicalEvent ;
-	.
-
-tolo:Collection
-	rdfs:subClassOf gist:Collection ;
 	.
 
 tolo:Death
