@@ -1,0 +1,132 @@
+bundle: tol
+variables:
+  name: "tol"
+  version: "X.x.x"
+  input: "."
+  rdf-toolkit: "{input}/tools/serializer/rdf-toolkit.jar"
+  output: "{name}{version}_release"
+tools:
+- name: "subclassMaterializer"
+  type: "shell"
+  arguments:
+    - "python"
+    - "{input}/tools/subclass_inferences/materialize_subclass_inferences.py"
+    - "--version"
+    - "{version}"
+    - "{outputFile}"
+    - "{inputFile}"
+- name: "serializer"
+  type: "Java"
+  jar: "{rdf-toolkit}"
+  arguments:
+    - "-sfmt"
+    - "turtle"
+    - "-tfmt"
+    - "turtle"
+    - "-sdt"
+    - "explicit"
+    - "-dtd"
+    - "-sni"
+    - "-ibn"
+    - "-s"
+    - "{inputFile}"
+    - "-t"
+    - "{outputFile}"
+    - "udl"
+    - "en"
+- name: "tolSubclassMaterializer"
+  type: "shell"
+  arguments:
+    - "{input}/tools/subclass_inferences/generate_tol_subclass_inferences.sh"
+    - "{output}"
+actions:
+- action: "mkdir"
+  directory: "{output}"
+- action: "copy"
+  message: "Substituting version numbers in ontologies."
+  source: "{input}/models/ontologies"
+  target: "{output}/ontologies"
+  replace:
+    from: "X.x.x"
+    to: "{version}"
+  rename:
+    from: "(.*)\\.ttl"
+    to: "\\g<1>{version}.ttl"
+  includes:
+    - "*.ttl"
+- action: "definedBy"
+  message: "Adding rdfs:isDefinedBy to ontologies."
+  versionedDefinedBy: true
+  source: "{output}/ontologies"
+  target: "{output}/ontologies"
+  includes:
+    - "*.ttl"
+- action: "transform"
+  message: "Materializing subclass inferences for tol ontologies."
+  tool: "tolSubclassMaterializer"
+  # The following is unused as the script hard codes the inputs and outputs.
+  source: "{input}"
+  target: "{output}"
+- action: "transform"
+  message: "Turtle serialization of ontologies."
+  tool: "serializer"
+  source: "{output}/ontologies"
+  target: "{output}/ontologies"
+  includes:
+    - "*.ttl"
+  rename:
+    from: "(.*)\\.ttl"
+    to: "formatted_\\g<1>.ttl"
+- action: "move"
+  source: "{output}/ontologies"
+  target: "{output}/ontologies"
+  includes:
+    - "formatted_*.ttl"
+  rename:
+    from: "formatted_(.*)\\.ttl"
+    to: "\\g<1>.ttl"
+- action: "copy"
+  message: "Substituting version numbers in vocabularies."
+  source: "{input}/models/vocabularies"
+  target: "{output}/vocabularies"
+  replace:
+    from: "X.x.x"
+    to: "{version}"
+  rename:
+    from: "(.*)\\.ttl"
+    to: "\\g<1>{version}.ttl"
+  includes:
+    - "*.ttl"
+  excludes:
+    - "geonames_PCLI_1.ttl"
+# Will not work until onto_tool is released with https://github.com/semanticarts/ontology-toolkit/pull/139.
+- action: "definedBy"
+  message: "Adding rdfs:isDefinedBy to vocabularies."
+  versionedDefinedBy: true
+  mode: all
+  source: "{output}/vocabularies"
+  target: "{output}/vocabularies"
+  includes:
+    - "*.ttl"
+- action: "transform"
+  message: "Turtle serialization of vocabularies."
+  tool: "serializer"
+  source: "{output}/vocabularies"
+  target: "{output}/vocabularies"
+  includes:
+    - "*.ttl"
+  rename:
+    from: "(.*)\\.ttl"
+    to: "formatted_\\g<1>.ttl"
+- action: "move"
+  source: "{output}/vocabularies"
+  target: "{output}/vocabularies"
+  includes:
+    - "formatted_*.ttl"
+  rename:
+    from: "formatted_(.*)\\.ttl"
+    to: "\\g<1>.ttl"
+- action: "copy"
+  message: "Copying license."
+  source: "{input}/LICENSE.txt"
+  target: "{output}"

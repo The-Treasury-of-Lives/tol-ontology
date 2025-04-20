@@ -7,4 +7,4 @@
 OUTPUT_DIR=$1
 
 # Output path must exist.
-python tools/subclass_inferences/materialize_subclass_inferences.py $OUTPUT_DIR/models/ontologies/tolSubClassAssertions.ttl models/ontologies/*.ttl
+python tools/subclass_inferences/materialize_subclass_inferences.py $OUTPUT_DIR/ontologies/tolSubClassAssertions.ttl models/ontologies/*.ttl
