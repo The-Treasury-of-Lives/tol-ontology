@@ -1,5 +1,4 @@
 # imports: http://purl.bdrc.io/ontology/core
-# imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
@@ -15,10 +14,7 @@
 
 <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
 	a owl:Ontology ;
-	owl:imports
-		<http://purl.bdrc.io/ontology/core> ,
-		<https://w3id.org/semanticarts/ontology/gistCore13.0.0>
-		;
+	owl:imports <http://purl.bdrc.io/ontology/core> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, facilitate the consumption of external RDF, and to to enhance the narrative text with structured data."@en ;
 	skos:prefLabel "Treasury of Lives Core Ontology"@en ;
@@ -775,7 +771,7 @@ tolo:approximateYear
 
 tolo:creationDate
 	a owl:DatatypeProperty ;
-	rdfs:subClassOf gist:atDateTime ;
+	rdfs:subPropertyOf gist:atDateTime ;
 	skos:definition "The date something was created, with day precision."@en ;
 	skos:example "Date a photograph was taken."@en ;
 	skos:prefLabel "creation date"@en ;
@@ -1077,7 +1073,7 @@ tolo:primaryName
 
 tolo:publicationDate
 	a owl:DatatypeProperty ;
-	rdfs:subClassOf gist:atDateTime ;
+	rdfs:subPropertyOf gist:atDateTime ;
 	skos:definition "The date a biography was published, with day precision."@en ;
 	skos:prefLabel "publication date"@en ;
 	skos:scopeNote "Differs from the timestamp when the biography metadata was entered into the database (tolo:createDateTime)."@en ;
@@ -1099,7 +1095,7 @@ tolo:title
 
 tolo:updateDate
 	a owl:DatatypeProperty ;
-	rdfs:subClassOf gist:atDateTime ;
+	rdfs:subPropertyOf gist:atDateTime ;
 	skos:definition "The date a biography was updated, with day precision."@en ;
 	skos:prefLabel "update date"@en ;
 	skos:scopeNote "Differs from the timestamp when the biography metadata was last modified in the database (tolo:lastModifiedDateTime)."@en ;
