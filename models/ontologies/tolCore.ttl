@@ -599,14 +599,8 @@ tolo:RulerLineage
 
 tolo:Sponsor
 	a owl:Class ;
-	rdfs:subClassOf [
-		a owl:Class ;
-		owl:unionOf (
-			gist:Person
-			gist:Organization
-		) ;
-	] ;
-	skos:definition "An organization or person who provides funds for a project or activity."@en ;
+	rdfs:subClassOf gist:Organization ;
+	skos:definition "An organization that provides funds for a project or activity."@en ;
 	skos:prefLabel "Sponsor"@en ;
 	skos:scopeNote "Many but not all sponsors are linked to particular biographies that they sponsor. A class is needed in addition to the predicate isSponsoredBy to identify sponsors not connected to individual biographies."@en ;
 	.
