@@ -1,4 +1,4 @@
-# imports: http://purl.bdrc.io/ontology/core
+# imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
 @prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
@@ -14,9 +14,10 @@
 
 <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x>
 	a owl:Ontology ;
-	owl:imports <http://purl.bdrc.io/ontology/core> ;
+	owl:imports <https://w3id.org/semanticarts/ontology/gistCore13.0.0> ;
 	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ;
 	skos:definition "The Treasury of Lives Core Ontology enables the description of historical and contemporary figures in the culture and religion of Tibet, Inner Asia, and the Himalaya. It is used by the Treasury of Lives born-digitial biographical collection (https://treasuryoflives.org) to publish and share its data as Linked Open Data, facilitate the consumption of external RDF, and to to enhance the narrative text with structured data."@en ;
+	skos:editorialNote "The Buda Core Ontology (BDO; http://purl.bdrc.io/ontology/core) is used but not imported due to its size and transitive imports. Users should import manually to derive inferences based on BDO axioms."@en ;
 	skos:prefLabel "Treasury of Lives Core Ontology"@en ;
 	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
@@ -822,7 +823,7 @@ tolo:existsDuring
 
 tolo:firstName
 	a owl:DatatypeProperty ;
-	rdfs:subClassOf gist:name ;
+	rdfs:subPropertyOf gist:name ;
 	rdfs:domain tolo:Person ;
 	skos:definition "The first name of a person."@en ;
 	skos:prefLabel "first name"@en ;
@@ -831,7 +832,7 @@ tolo:firstName
 
 tolo:fullName
 	a owl:DatatypeProperty ;
-	rdfs:subClassOf gist:name ;
+	rdfs:subPropertyOf gist:name ;
 	skos:definition "The full name of a person."@en ;
 	skos:prefLabel "full name"@en ;
 	skos:scopeNote "Generally used with persons but conceivably could have other uses."@en ;
@@ -840,6 +841,7 @@ tolo:fullName
 
 tolo:hasBibliographicSource
 	a owl:ObjectProperty ;
+	rdfs:subPropertyOf gist:isBasedOn ;
 	rdfs:domain gist:ContentExpression ;
 	rdfs:range gist:ContentExpression ;
 	skos:definition "Relates a piece of content to a source of information used to create that content."@en ;
@@ -850,6 +852,9 @@ tolo:hasBibliographicSource
 
 tolo:hasCreator
 	a owl:ObjectProperty ;
+	rdfs:subPropertyOf [
+		owl:inverseOf gist:produces ;
+	] ;
 	skos:definition "Relates a man-made object to a person who created it."@en ;
 	skos:prefLabel "has creator"@en ;
 	gist:domainIncludes
@@ -860,6 +865,7 @@ tolo:hasCreator
 
 tolo:hasFounder
 	a owl:ObjectProperty ;
+	rdfs:subPropertyOf gist:hasParticipant ;
 	rdfs:range tolo:Person ;
 	skos:definition "Relates something, such as a tradition, to its founder."@en ;
 	skos:prefLabel "hasFounder"@en ;
@@ -879,6 +885,9 @@ tolo:hasHusband
 
 tolo:hasPreincarnation
 	a owl:ObjectProperty ;
+	rdfs:subPropertyOf [
+		owl:inverseOf gist:precedesDirectly ;
+	] ;
 	rdfs:domain tolo:Person ;
 	rdfs:range tolo:Person ;
 	skos:definition "The relationship of a person to a non-living person or mythical figure who is named as a previous emanation."@en ;
@@ -892,6 +901,7 @@ tolo:hasSourceStatement
 	rdfs:domain gist:FormattedContent ;
 	rdfs:range gist:FormattedContent ;
 	skos:definition "Relates a piece of content, such as a biography, to a statement of sources used to create it."@en ;
+	skos:editorialNote "Note that the object of this property is not a work but a formatted reference. When in future bibliographic sources are modeled as entities, like place sources, we expect the property tolo:hasBibliographicSource to be used instead, with each source providing a formatted citation version."@en ;
 	skos:prefLabel "has source statement"@en ;
 	.
 
@@ -907,6 +917,9 @@ tolo:hasSpouse
 
 tolo:hasSummary
 	a owl:ObjectProperty ;
+	rdfs:subPropertyOf [
+		owl:inverseOf gist:isAbout ;
+	] ;
 	rdfs:domain gist:FormattedContent ;
 	rdfs:range gist:FormattedContent ;
 	skos:definition "Relates a piece of content, such as a biography, to a brief statement or restatement of its main points."@en ;
@@ -953,6 +966,7 @@ tolo:isBranchOf
 
 tolo:isDerivedFrom
 	a owl:ObjectProperty ;
+	rdfs:subPropertyOf gist:isBasedOn ;
 	skos:definition "Relates a resource to another it is derived from. This could be in the context of a hierarchy, as for traditions and incarnation lineages, or not, as for monasteries in exile."@en ;
 	skos:example "The Barom Kagyu tradition is derived from, or branches off of, the Marpa Kagyu tradition; the Kalu Rinpoche incarnation lineage is derived from the Jamgon Kongtrul lineage; the Ganden and Ganden Tritok Khang monasteries in India are derived from the Ganden monastery in Tibet."@en ;
 	skos:prefLabel "is derived from"@en ;
@@ -970,6 +984,7 @@ tolo:isDerivedFrom
 
 tolo:isSponsoredBy
 	a owl:ObjectProperty ;
+	rdfs:subPropertyOf gist:hasParticipant ;
 	rdfs:range tolo:Sponsor ;
 	skos:definition "Relates a biography or other object to a person or organization that has funded its development."@en ;
 	skos:prefLabel "is sponsored by"@en ;
@@ -978,7 +993,7 @@ tolo:isSponsoredBy
 
 tolo:lastName
 	a owl:DatatypeProperty ;
-	rdfs:subClassOf gist:name ;
+	rdfs:subPropertyOf gist:name ;
 	rdfs:domain tolo:Person ;
 	skos:definition "The last name of a person."@en ;
 	skos:prefLabel "last name"@en ;
@@ -1000,6 +1015,7 @@ tolo:occursBy
 		owl:ObjectProperty ,
 		owl:TransitiveProperty
 		;
+	rdfs:subPropertyOf gist:precedes ;
 	skos:definition "Relates a temporal resource to another that provides an upper boundary to the time of its occurrence."@en ;
 	skos:example "The exact founding year or century of Pabongkha Hermitage is unknown, but it occurred by at least the 7th century."@en ;
 	skos:prefLabel "occurs by"@en ;
@@ -1008,7 +1024,11 @@ tolo:occursBy
 		gist:Event ,
 		gist:TemporalRelation
 		;
-	gist:rangeIncludes gist:TimeInterval ;
+	gist:rangeIncludes
+		gist:Event ,
+		gist:TemporalRelation ,
+		gist:TimeInterval
+		;
 	.
 
 tolo:occursDuring
@@ -1075,6 +1095,7 @@ tolo:publicationDate
 
 tolo:residesIn
 	a owl:ObjectProperty ;
+	rdfs:subPropertyOf gist:occursIn ;
 	rdfs:range gist:Place ;
 	skos:definition "Relates something to the place where it lives or exists."@en ;
 	skos:prefLabel "resides in"@en ;

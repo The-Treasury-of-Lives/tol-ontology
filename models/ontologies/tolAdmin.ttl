@@ -181,6 +181,8 @@ tolo:filePath
 
 tolo:hasContactPerson
 	a owl:ObjectProperty ;
+	rdfs:subPropertyOf gist:hasParticipant ;
+	rdfs:domainIncludes tolo:Subscription ;
 	rdfs:range gist:Person ;
 	skos:definition "The contact person for an organization or temporal relation such as a subscription."@en ;
 	skos:prefLabel "has contact person"@en ;
