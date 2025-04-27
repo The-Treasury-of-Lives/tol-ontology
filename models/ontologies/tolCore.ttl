@@ -179,7 +179,7 @@ tolo:EntityActiveStatus
 tolo:Founding
 	a owl:Class ;
 	rdfs:subClassOf
-		gist:Event ,
+		gist:PhysicalEvent ,
 		[
 			a owl:Restriction ;
 			owl:onProperty gist:hasParticipant ;
