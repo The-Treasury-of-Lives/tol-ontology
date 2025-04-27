@@ -1,0 +1,35 @@
+# imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
+# imports: https://w3id.org/treasuryoflives/ontology/tolAdminX.x.x
+# imports: https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x
+# imports: https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x
+
+@prefix bdo: <http://purl.bdrc.io/ontology/core/> .
+@prefix gist: <https://w3id.org/semanticarts/ns/ontology/gist/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix told: <https://w3id.org/treasuryoflives/ns/data/tol/> .
+@prefix tolo: <https://w3id.org/treasuryoflives/ns/ontology/tol/> .
+@prefix tolx: <https://w3id.org/treasuryoflives/ns/taxonomy/tol/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/treasuryoflives/ontology/tolAll>
+	a owl:Ontology ;
+	owl:imports
+		<https://w3id.org/semanticarts/ontology/gistCore13.0.0> ,
+		<https://w3id.org/treasuryoflives/ontology/tolAdminX.x.x> ,
+		<https://w3id.org/treasuryoflives/ontology/tolCoreX.x.x> ,
+		<https://w3id.org/treasuryoflives/ontology/tolDisplayX.x.x>
+		;
+	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolAllX.x.x> ;
+	skos:definition """Convenience file for loading Treasury of Lives ontologies and gist into Protege or a similar tool. Not included here:
+
+    - Treasury of Lives taxonomies
+    - Buda Core Ontology (BDO). Not loaded due to its size, transitive imports, and the fact that only a few of its concepts are used.
+    - Treasury of Lives Family Relationships Ontology. An add-on which is not part of the current standard set of Treasury of Lives ontologies."""@en ;
+	skos:prefLabel "Treasury of Lives Ontology"@en ;
+	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+	.
+
