@@ -1,3 +1,4 @@
+# imports: http://purl.bdrc.io/ontology/core
 # imports: https://w3id.org/semanticarts/ontology/gistCore13.0.0
 
 @prefix bdo: <http://purl.bdrc.io/ontology/core/> .
@@ -14,9 +15,12 @@
 
 <https://w3id.org/treasuryoflives/ontology/tolFamilyRelationshipsX.x.x>
 	a owl:Ontology ;
-	owl:imports <https://w3id.org/semanticarts/ontology/gistCore13.0.0> ;
+	owl:imports
+		<http://purl.bdrc.io/ontology/core> ,
+		<https://w3id.org/semanticarts/ontology/gistCore13.0.0>
+		;
 	owl:versionIRI <https://w3id.org/treasuryoflives/ontology/tolFamilyRelationshipsX.x.x> ;
-	skos:definition "Nuanced family relationships that are not currently used."@en ;
+	skos:definition "An add-on ontology that defines fine-grained family relationships. It is not currently used in Treasury of Lives data and thus not part of the current standard set of ToL ontologies. Properties are based on Buda Core Ontology (BDO), which is imported."@en ;
 	skos:prefLabel "Treasury of Lives Family Relationships Ontology"@en ;
 	gist:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
 	.
@@ -91,7 +95,7 @@ tolo:hasMaternalGrandmother
 
 tolo:hasMaternalGrandparent
 	a owl:ObjectProperty ;
-	rdfs:subPropertyOf bdo:hasGrandmother ;
+	rdfs:subPropertyOf bdo:hasGrandParent ;
 	owl:propertyChainAxiom (
 		bdo:hasMother
 		bdo:hasParent
@@ -141,7 +145,7 @@ tolo:hasPaternalGrandmother
 
 tolo:hasPaternalGrandparent
 	a owl:ObjectProperty ;
-	rdfs:subPropertyOf bdo:hasGrandparent ;
+	rdfs:subPropertyOf bdo:hasGrandParent ;
 	owl:propertyChainAxiom (
 		bdo:hasFather
 		bdo:hasParent
